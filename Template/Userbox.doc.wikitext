@@ -1,0 +1,169 @@
+<noinclude>{{Documentation subpage}}</noinclude>
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+This template can be used to quickly create a userbox for display on a user's user page without having to know HTML or Wikitable syntax.
+
+==Usage==
+<!-- Abstract usage of the template, one variable per row. -->
+<pre style="overflow: auto">
+{{userbox
+| bodyclass     = <!--Adds an HTML class attribute to the entire template's HTML table, to allow for styling, emission of microformats, etc.-->
+| border-c      = <!--border color (default=id-c)-->
+| border-s      = <!--border width in pixels (default=1)-->
+| float         = <!--left|right|none (default=left)-->
+| id            = <!--id image and/or text-->
+| id-a          = <!--id horizontal alignment left/center/right/justify (default=center)-->
+| id-c          = <!--id background color (default=#d0d0d0)-->
+| id-fc         = <!--id font color (default=black)-->
+| id-h          = <!--id box height in pixels (default=45)-->
+| id-lh         = <!--id line height (default=1.25em)-->
+| id-op         = <!--id other CSS parameters-->
+| id-p          = <!--id cell padding (default=0 1px 0 0)-->
+| id-s          = <!--id text size in points (default=14)-->
+| id-w          = <!--id box width in pixels (default=45)-->
+| info-class    = <!--Adds an HTML class attribute to the "info" HTML table-row, to allow for styling, emission of microformats, etc.-->
+| info          = <!--info text and/or image-->
+| info-a        = <!--info horizontal alignment left/center/right/justify (default=left)-->
+| info-c        = <!--info background color (default=#e0e0e0)-->
+| info-fc       = <!--info font color (default=black)-->
+| info-lh       = <!--info line height (default=1.25em)-->
+| info-op       = <!--info other CSS parameters-->
+| info-p        = <!--info padding (default=0 4px 0 4px)-->
+| info-s        = <!--info text size in points (default=8)-->
+| nocat         = <!--block page category declarations (default=false)-->
+| usercategory  = <!--user category (optional)-->
+| usercategory2 = <!--user category (optional)-->
+| usercategory3 = <!--user category (optional)-->
+}}
+</pre>
+* All parameters are optional
+* Images should normally be scaled to x45px or less.
+<!-- explain what this template's parameters do -- if no params, delete the definition -->
+
+Most HTML-based tables use only a handful of these attributes. The following subset can be used to quickly convert an HTML userbox into the format used here:
+
+<pre>
+{{userbox
+| border-c      = 
+| id            = 
+| id-c          = 
+| id-fc         = 
+| id-s          = 
+| info          = 
+| info-c        = 
+| info-fc       = 
+| info-lh       = 
+| info-s        = 
+| nocat         = {{{nocat|}}}
+| usercategory  = 
+}}
+</pre>
+
+== Examples ==
+{|
+!style="width: 300px;"| Code
+!Result
+|-
+| <pre>{{userbox}}</pre> || {{userbox}}
+|-
+| <pre>{{userbox
+| border-c      = #aaffaa
+| border-s      = 2
+| id            = foo
+| id-c          = #ffffee
+| id-s          = 20
+| info          = ''foo bar''
+| info-c        = #ffeeff
+| info-s        = 12
+}}</pre> || {{userbox|id=foo|id-s=20|id-c=#ffffee|info=''foo bar''|info-c=#ffeeff|info-s=12|border-c=#aaffaa|border-s=2}}
+|-
+| colspan="2"| Below example shows the default appearance of a userbox, which is (much) higher than the 45px. Compare the height of the one below with the above userbox.
+|-
+| <pre>{{userbox
+| border-c      = #aaffaa
+| border-s      = 2
+| id            = foo logo
+| id-c          = #ffffee
+| info          = ''We are trying to see 
+default distance in between text 
+lines, see the distance in 
+between cell content and its border, 
+and also see total height.''
+| info-c        = #ffeeff
+}}</pre> || {{userbox|id=foo logo|id-c=#ffffee|info=''We are trying to see default distance in between text lines, see the distance in between cell content and its border, and also see total height.''|info-c=#ffeeff|border-c=#aaffaa|border-s=2}}
+|-
+| colspan="2"| Below example shows how we can change that userbox and further specify parameters to bring down the overall height of the userbox to the recommended height of 45px, even with four text lines. Cell padding parameter "''info-p''" can also be set at "''1pt 1pt 1pt 2pt''", or "''1pt 2pt''" for better appearance, when there are 4 text lines.
+|-
+| <pre>{{userbox
+| border-c      = #aaffaa
+| border-s      = 1
+| id            = foo logo
+| id-c          = #ffffee
+| id-lh         = 1.1em
+| id-s          = 14
+| info          = ''We have specified values 
+to lessen the distance in between 
+text lines & padding space in between 
+cell content and its border.''
+| info-c        = #ffeeff
+| info-lh       = 1.05em
+| info-p        = 1pt
+| info-s        = 8
+}}</pre> || {{userbox|id=foo logo|id-s=14|id-lh=1.1em|id-c=#ffffee|info=''We have specified values to lessen the distance in between text lines & padding space in between cell content and its border.''|info-c=#ffeeff|info-s=8|info-p=1pt|info-lh=1.05em|border-c=#aaffaa|border-s=1}}
+|-
+| colspan="2"| Below example is for advanced users, showing how we can specify other [[Cascading Style Sheets|CSS]] properties, for example, "''font-family''", to change the font or "''text-align''" to change the alignment from the default parameters. At below, on the right side are two userboxes: top one is displayed without the "''font-family''" or "''text-align''" parameters; and the bottom userbox is displayed by using the below codes, with the help of the "''info-op''" field. 
+|-
+| <pre>{{userbox
+| border-c      = #afa
+| border-s      = 2
+| id            = foo logo
+| id-c          = #ffe
+| id-lh         = 1.1em
+| id-s          = 14
+| info          = foo bar
+| info-c        = #fef
+| info-op       = font-family:'Courier New'; text-align:center;
+| info-s        = 14
+}}</pre> || colspan="2"| {{Userbox|id=foo logo|id-s=14|id-lh=1.1em|id-c=#ffe|info=foo bar|info-c=#fef|info-s=14|border-c=#afa|border-s=2}} <br style="clear:both">&#160;<br /> {{Userbox|id=foo logo|id-s=14|id-lh=1.1em|id-c=#ffe|info=foo bar|info-c=#fef|info-s=14|info-op=font-family:'Courier New'; text-align:center;|border-c=#afa|border-s=2}}
+|}<!-- customize if needed to illustrate parameter use -->
+
+==Microformats==
+;bodyclass : This parameter is inserted into the "class" attribute for the userbox as a whole.
+;info-class : This parameter is inserted into the "class" attribute for the info component.
+
+This template supports the addition of [[microformat]] information. This is done by adding "class" attributes to various data cells, indicating what kind of information is contained within. To flag a userbox as containing [[hCard]] information about a person, for example, add the following parameter:
+
+<pre>
+| bodyclass     = vcard
+</pre>
+
+''or''
+
+<pre>
+| info-class    = vcard
+</pre>
+
+''then'' (for example):
+
+<pre><nowiki>
+| title         = …the books of <span class="fn">[[Iain Banks]]</span>
+</nowiki></pre>
+
+...and so forth.
+
+Examples include:
+
+* {{tlu|User:UBX/Iain Banks}} - person
+* {{tlx|User Microformats}} - group (WikiProject Microformats)
+* {{tlx|User Brum}} - place (Birmingham)
+
+==See also==
+*{{tl|userbox-2}}
+*{{tl|userbox-r}}
+*[[Wikipedia:Web colors|Web colors]]
+
+<includeonly>
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Userboxes]]
+</includeonly>

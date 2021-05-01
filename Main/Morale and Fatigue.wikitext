@@ -1,0 +1,233 @@
+=Introduction=
+
+Morale is used to measure the current [[Stats#Morale_Indicators|morale status]] of a ship girl. Low morale is referred to as "Fatigue". The actual stat ranges from 0-100 and is hidden in game. The values can only be viewed by using a [[Help:Viewers|viewer]]. Ship girls recieve bonuses or penalites depending on her level of morale.
+
+Morale naturally regenerates by '''3 points every 3 minutes''' up to a soft cap of 49. Exceeding this cap requires sorties, exercises or [[#Gifting|gifting]]. Please see [[Help:Sparkling|Sparkling]] for more information on how to sparkle your ship girls.
+
+=Overview=
+
+* Morale still naturally regenerates while a ship girl with 49 or less morale is on sortie or expedition.
+** This means that sorties which take 15 minutes or more can be done consecutively with a single fleet.
+* [[Repair|Repairing]] ship girls below 40 morale will reset their morale to 40.
+** Using an Instant Repair {{IR}} can help bring damaged and fatigued ships back up to normal morale quickly.
+* [[Remodel (Mechanic)|Remodeling]] a ship girl will reset her morale to 40.
+* Newly obtained ship girls have 40 morale.
+* The time it takes to recover to soft cap from various fatigue states is:
+** Heavy Fatigue: 30-48 minutes 
+** Moderate Fatigue: 21-30 minutes
+** Slight Fatigue: 0-9 minutes
+* Morale will update '''after every battle'''.
+** This means that ship girls can recieve morale bonuses mid-sortie.
+* Although morale has a maximum value of 100, it is impossible to hit that value with sorties. It is only possible through repeated exercises and using [[#Gifting|gifts]].
+
+===Morale Effects===
+
+{| class="wikitable"
+!style="background-color:#99CCFF;" | Visual Indicator
+!style="background-color:#99CCFF;" | Status
+!style="background-color:#99CCFF;" | Value
+!style="background-color:#99CCFF;" | Effects
+!style="background-color:#99CCFF;" | Notes
+|-
+| rowspan="2"| [[File:sparkled.png|100px]]
+| rowspan="2"| High Morale<br>(Sparkling)
+| 53-100
+| 
+* Increased [[Accuracy,_Evasion_and_Criticals|accuracy and evasion]] in combat.
+* Increased chances of [[Expeditions#Great_Success|Great Successes]] during expeditions.
+* Increased chances of triggering [[Support_Expedition#Trigger_Rate|Support Expeditions]].
+|
+|-
+| 50-52
+| 
+* No effect on combat.
+* Same effect on expeditions and support expeditions as 53+ morale.
+|
+|-
+| rowspan="2"| [[File:regular_morale.png|100px]]
+| Normal Morale
+| 40-49
+| 
+* No bonuses or penalties to combat or expeditions.
+| 
+|-
+| Slightly Fatigued
+| 30-39
+| 
+* No bonuses or penalties to combat or expeditions.
+| Although the ship girl banner indication does not change, the [[#Gifting|Gift]] button will begin flashing [[File:Icon_Mamiya.gif]] if there are any ship girls in the fleet with this state.
+|-
+| [[File:Fatigue.png|100px]]
+| Moderate Fatigue
+| 20-29
+| 
+* Decreased [[Accuracy,_Evasion_and_Criticals|accuracy and evasion]] in combat.
+* Expeditions will fail if the fleet returns in this state.
+* Increases the morale loss from sorties.
+| 
+|-
+| [[File:Heavy_Fatigue.png|100px]]
+| Heavily Fatigued
+| 0-19
+| 
+* Decreased [[Accuracy,_Evasion_and_Criticals|accuracy and evasion]] in combat.
+* Expeditions will fail if the fleet returns in this state.
+* The [[Damage_Calculations#Overkill_Protection|Overkill Protection]] mechanic changes for ship girls in this state.
+** She will have her HP reduced to 1 instead of losing a percentage of her remaining HP.
+| 
+|-
+|}
+
+===Gaining/Losing Morale===
+
+{| class="wikitable"
+!style="background-color:#99CCFF;" colspan="2"| Action
+!style="background-color:#99CCFF;" | Morale Change
+!style="background-color:#99CCFF;" | Notes
+|-
+| rowspan="10"|Sortie/Exercise
+| Day Battle
+| style="color:red;"| -3
+| 
+|-
+| Day Battle<br>(≤30 Morale)
+| style="color:red;"| -6
+| This stacks with the base -3 for a total of -9.
+|-
+| Night Battle
+| style="color:red;"| -2
+| Same for both normal morale and fatigued ship girls.<br>Applies to night battle only nodes and stacks with day battle morale cost when night battle pursuit is selected.
+|-
+| MVP
+| style="color:green;"| +10
+| 
+|-
+| Flagship
+| style="color:green;"| +3
+| Requires the result to be at least C-rank.
+|-
+| Perfect S/S Rank
+| style="color:green;"| +4
+| 
+|-
+| A Rank
+| style="color:green;"| +3
+| 
+|-
+| B Rank
+| style="color:green;"| +2
+| 
+|-
+| C Rank
+| style="color:green;"| +1
+| 
+|-
+| D/E Rank
+| 0
+| 
+|-
+| rowspan="4"| Sortie
+| Returning from Sortie
+| style="color:red;"| -15
+| 
+|-
+| Returning from Sortie<br>(≤30 Morale)
+| style="color:red;"| -100
+| Morale is set to 0.
+|-
+| [[Combat Ration]]<br>(For equipped ship girl)
+| style="color:green;"| +10~14 
+| See [[Combat Ration]] for details.
+|-
+| [[Combat Ration]]<br>(Adjacent ship girls)
+| style="color:green;"| +6~8 
+| See [[Combat Ration]] for details.
+|-
+| Exercise
+| Completing Exercise
+| 0
+| 
+|-
+| rowspan="4"| Expedition
+| Normal Expedition
+| style="color:red;"| -3
+| 
+|-
+| Node Support
+| style="color:red;"| -1~5
+| See [[Support Expedition]] for details.
+|-
+| Boss Support
+| style="color:red;"| 
+| See [[Support Expedition]] for details.
+|-
+| Combat Expedition<br>(Damaged ship girls)
+| style="color:red;"| -10
+| See [[Expeditions#Combat_Expeditions|Expeditions]] for details.
+|-
+| rowspan="5"| Other
+| Natural Regeneration
+| style="color:green;"| +3 every 3 minutes
+| Stops at 49 morale.
+|-
+| Mamiya<br>(0-39 morale)
+| Set to 40
+| See [[#Gifting|below]] for details.
+|-
+| Mamiya<br>(40-49 morale)
+| Set to 50
+| See [[#Gifting|below]] for details.
+|-
+| Irako
+| style="color:green;"| +25
+| See [[#Gifting|below]] for details.
+|-
+| Evacuated
+| Reduces morale to 0.
+| See [[Combined_Fleet#Fleet_Command_Facility|Combined Fleet]] for more details.
+|-
+|}
+
+=Gifting=
+
+Gifting is the option to gift your ship girls tasty sweets to raise their morale. You can choose what gifts you'd like to give your girls by clicking on the '''Gift (給)''' button in the [[Composition]] menu. 
+[[File:Mamiya_blinking_icon.png|thumb|400px|right]]
+
+* The amount displayed beside the button is the '''total amount of Mamiya and Irako''' you possess.
+* You can choose to give your girls either, [[#Mamiya|Mamiya]] only, [[#Irako|Irako]] only, or [[#Mamiya and Irako|Both]].
+** If the Gift button is flashing, you can pick all 3 options.
+** If the Gift button isn't flashing, you can only pick the latter 2 options.
+* Both Mamiya and Irako can either be obtained through quests, events or the [[Shop|cash shop]].
+
+===Mamiya===
+
+Using Mamiya sets the morale of all ships in the fleet to a fixed value. 
+* 0-39 Morale: Set to 40.
+* 40-49 Morale: Set to 50.
+
+Mamiya can either be obtained through:
+* [[Shop|Cash Shop]]: 300y for 1
+* [[Quests]] (Repeatable): [[Quests#Bq1|Bq1]], [[Quests#C38|C38]]
+
+===Irako===
+
+Using Irako increases the flagship's morale by <span style="color:green;">'''+25'''</span> with an additonal bonus of <span style="color:green;">'''+25'''</span> morale to 0-3 other ship girls in the fleet. 
+
+Irako can be obtained through:
+* [[Present Box]]es
+* [[Shop|Cash Shop]]: 1000y for 5
+* [[Quests]] (Repeatable): [[Quests#Bm2|Bm2]], [[Quests#Bm3|Bm3]], [[Quests#Bm8|Bm8]], [[Quests#Bq2|Bq2]], [[Quests#Bq10|Bq10]], [[Quests#C16|C16]]
+
+===Mamiya and Irako===
+
+Using both Mamiya and Irako together increases the flagship's morale by <span style="color:green;">'''+30'''</span> and the morale of the rest of the ship girls in the fleet by <span style="color:green;">'''+20-31'''</span>
+* Ship girls that are below 39 morale get their morale set to 40 before the bonus morale is applied.
+* If the ship girls are already sparkled, the bonus morale is added on top of their current morale values.
+* A single use is roughly equal to 1 Mamiya and 5 Irako used individually.
+* Using this on a [[Striking Force Fleet]] applies the bonus to all 7 members.
+* You will need to use this two separate times to sparkle a [[Combined Fleet]].
+
+=See Also=
+[[Shop]]<br>
+[[Help:Sparkling]]<br>
+{{Mechanics}}

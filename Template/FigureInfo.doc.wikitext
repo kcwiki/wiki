@@ -1,0 +1,111 @@
+''' Preferred if all fields are filled. Slideshow is absolutely necessary!'''
+
+NOTE: Dynamic slideshow height adjustment is also a desired feature, and if anyone can actually make it possible, that would be awesome.
+
+There are four color codes for the template, which is determined by the type variable:
+
+figure = #cc74bd
+
+nendo = #49ff45
+
+figma = #0266c8
+
+other = #d3d3d3
+
+Multiple variables can be used with this template. As stated before, slideshow is a must because the image code broke... So somehow slideshows are possible but individual images aren't.
+
+Variables possible are:
+
+<pre>
+name - The name inside the header window. 
+jpname - Secondary italic name, for alternative Japanese names.
+type - Type of the figurine. There are 4 kinds, as written above.
+scale - The scale ratio.
+price - Price. MSRP preempts the need to mention 'Before Tax'.
+date - Date released.
+specs - The specifications.
+sculpt - Sculptor of the figurine.
+info - Detailed information on the figurine.
+slideshow - Self Explanatory. ABSOLUTELY MUST BE INCLUDED IN CODE
+</pre>
+
+
+Use this code for the slideshow:
+
+<pre>
+<gallery type="slideshow" widths="360px" position="center" hideaddbutton="false">
+
+</gallery>
+</pre>
+
+
+
+Where the names of the desired images for the slideshow can be entered into the space before </gallery>.
+
+So far there have been no limitations discovered in the code but if any are found please send a message to Gensui Hime.
+
+Below is a sample:
+
+<pre>
+{{FigureInfo
+| name = Final Boss
+| jpname = さいごのぼす
+| type = nendo
+| scale = 1/1
+| price = priceless
+| date = beginning of time
+| specs = Power to end worlds.
+| sculpt = DMM
+| info = The final boss of DMM. Known to appear frequently on error pages.
+| slideshow=<gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">NPC_FinalBoss.png
+</gallery>
+}}
+</pre>
+
+
+{{FigureInfo
+| name = Final Boss
+| jpname = さいごのぼす
+| type = nendo
+| scale = 1/1
+| price = priceless
+| date = beginning of time
+| specs = Power to end worlds.
+| sculpt = DMM
+| info = The final boss of DMM. Known to appear frequently on error pages.
+| slideshow=<gallery type="slideshow" widths="360px" position="center" hideaddbutton="false">NPC_FinalBoss.png
+</gallery>
+}}
+
+
+Example 2:
+
+<pre>
+{{FigureInfo
+| name = Multiple Slideshow Images
+| jpname = ???
+| type = figure
+| scale = 1/8
+| price = Unknown
+| date = 01/2015
+| specs = Spec test
+| sculpt = ?
+| info = Mmm images.
+| slideshow = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="false">KongouDmg_Figure_MAX.jpg
+</gallery>
+}}
+</pre>
+
+{{FigureInfo
+| name = Multiple Slideshow Images
+| jpname = ???
+| type = figure
+| scale = 1/8
+| price = Unknown
+| date = 01/2015
+| specs = Spec test
+| sculpt = ?
+| info = Mmm images.
+| slideshow = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="false">KongouDmg_Figure_MAX.jpg
+</gallery>
+}}

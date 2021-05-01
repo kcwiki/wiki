@@ -1,0 +1,97 @@
+==World 1-1: 鎮守府正面海域 Sea in Front of the Naval Base==
+{{LabSortieworld
+| map = 1 01.png
+| difficulty = ☆
+| item = None
+| exp = Varies
+| code = 近海警備 (Coastal Waters Defense)
+| jptext = 鎮守府正面近海の警備に出動せよ！
+| entext = Mobilize for a patrol of the waters outside the naval base!
+}}
+
+===Stage Guide===
+{{MapBranchingTable
+|title = 1-1 Branching Rules
+
+|order = B, C
+
+|A -> B = * If Fleet consist of 1 ship, 20% chance
+* If each additional ship, add 5% chance per ship
+|A -> C = * If Fleet consist of 1 ship, 80% chance
+* If each additional ship, subtract 5% chance per ship
+}}
+===Tips===
+*This map is commonly used for [[Morale/Fatigue#Running_1-1_solo|sparkling ships]].
+**This involves running the ship you want sparkled in the flagship position. Sometimes this is done alone, which minimizes MVP-theft (a rare problem); however, more commonly two fodder ships (destroyers picked up from 1-1 while you are sparkling) are placed in the second and third slots to minimize the chances of enemy vessels scratching your flagship. They are not refueled, and are scrapped or used as modernization fodder once they can no longer be deployed.
+*After the HTML5 / Phase 2 update, single-ship fleets have an 80% chance of reaching the boss node, and the chance of reaching it decreases with every additional ship in your fleet. While this can be useful for completing [[Quests#Bw1|Bw1]], you may wish to sortie a fleet of multiple ships to help prevent your sparkle ships (the ships which will take up the flagship position) from taking damage at the boss node.
+**You are recommended to sparkle ships (for expeditions or to improve their performance in battle) while completing Bw1.
+
+===Nodes and Enemy Encounters===
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = 敵偵察艦 <br> Enemy Reconnaissance Ship
+|A-1_node_info = dd_i-class
+|A-1_form = line_ahead
+|A-1_xp = 10
+|A-1_enemy_air_power =
+|A-2_node_info = dd_ro-class
+|A-2_form = line_ahead
+|A-2_xp = 15
+|A-2_enemy_air_power =
+|A-3_node_info = dd_ha-class
+|A-3_form = line_ahead
+|A-3_xp = 20
+|A-3_enemy_air_power =
+|
+|B_label = 敵はぐれ艦隊 <br> Stray Enemy Fleet
+|B-1_node_info = dd_i-class dd_i-class
+|B-1_form = line_ahead
+|B-1_xp = 20
+|B-1_enemy_air_power =
+|B-2_node_info = dd_ro-class dd_ro-class
+|B-2_form = line_ahead
+|B-2_xp = 30
+|B-2_enemy_air_power =
+|B-3_node_info = dd_ha-class dd_ha-class
+|B-3_form = line_ahead
+|B-3_xp = 40
+|B-3_enemy_air_power =
+|
+|C_label = 敵主力艦隊 <br> Main Enemy Fleet
+|C-1_node_info = cl_ho-class dd_i-class dd_i-class
+|C-1_form = line_ahead
+|C-1_xp = 50
+|C-1_enemy_air_power =
+|C-2_node_info = cl_ho-class dd_ro-class dd_ro-class
+|C-2_form = line_ahead
+|C-2_xp = 60
+|C-2_enemy_air_power =
+|C-3_node_info = cl_ho-class dd_ha-class dd_ro-class dd_ro-class
+|C-3_form = line_ahead
+|C-3_xp = 70
+|C-3_enemy_air_power =
+|
+|final_form = 
+|boss_node = C
+}}
+
+===Drops===
+<div class="mw-customtoggle-1-1-drop globalbutton">Show/Hide Drops</div>
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-1-1-drop"
+!Node
+!Destroyers
+!Light Cruisers
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Ayanami]], [[Shikinami]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]]
+| style="text-align:center;" |[[Jintsuu]], [[Naka]], [[Tenryuu]]
+|-
+| style="text-align:center;" |B
+|
+
+<p style="text-align:center;">[[Ooshio]], [[Arashio]], [[Kasumi]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Akatsuki]], [[Hibiki]], [[Inazuma]], [[Ayanami]], [[Shikinami]], [[Akebono]], [[Ushio]], [[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Mochizuki]]</p>
+| style="text-align:center;" |[[Jintsuu]], [[Naka]], [[Kuma]], [[Tenryuu]]
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">C</span>'''
+| style="text-align:center;" |[[Kagerou]], [[Shiranui]], [[Kuroshio]], [[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Ayanami]], [[Shikinami]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]]
+| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Kuma]], [[Tama]], [[Kiso]], [[Tenryuu]], [[Tatsuta]], [[Kitakami]]
+|}

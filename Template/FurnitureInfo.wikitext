@@ -1,0 +1,185 @@
+{| style="border: 1px solid darkgray; border-top-left-radius:20px; border-bottom-left-radius:20px;max-width:870px;width:100%;" cellpadding="5px"
+|-
+| style="width:250px; border-top-left-radius:20px; border-bottom-left-radius:20px; border: solid 3px #{{#switch: {{{type|}}}| wall = cc9966| floor = cc9999 | desk = 9999cc | window = 99cccc | object = 66cc99 | chest = cccc99| d3d3d3}}; background:#" rowspan="3"| {{#if:{{{slideshow|}}}|<div style="overflow:hidden;width:265px;max-height:200px;border-top-left-radius:20px; border-bottom-left-radius:20px;"><div style="position:relative;bottom:5px;right:5px;">{{{slideshow|}}}</div></div>
+|<div style="overflow:hidden;width:265px;max-height:250px;border-top-left-radius:20px; border-bottom-left-radius:20px;"><div style="position:relative;{{{position|{{#switch: {{{type|}}}| floor = right:100%;| chest = left:10%;bottom:80px;|}}}}}">{{#if:{{{image|}}}|[[File:{{{image|}}}{{!}}center{{#if:{{{description|}}}|{{!}}{{{description|}}}|}}{{#if: {{{size|{{#switch: {{{type|}}}| wall = 600px| window = 300px| desk = 265px| chest=220px| }}}}}|{{!}}{{{size|{{#switch: {{{type|}}}| wall = 600px| window = 300px| desk = 265px| chest=220px| }}}}}|}}]]|}}</div></div>}}
+| style="border: solid 0px;background-color:#{{#switch: {{{type|}}}| wall = cc9966| floor = cc9999 | desk = 9999cc | window = 99cccc | object = 66cc99 | chest = cccc99 | d3d3d3}};" width="100%" align="center" colspan="3"| '''{{{name|Name?}}}''' 
+{{{japanesename|}}}
+|-
+| style="border: solid 0px;" align="center"| [[File:Furniture_coin.png]]{{#ifexpr: {{{coin|0}}} = 0 |Free|{{{coin|0}}}}}
+| style="border: solid 0px; min-width: 50px;" align="center"| {{#ifexpr: {{{fairy|0}}} > 0 |[[File:Furniture_fairy.png]]{{{fairy|0}}}}}
+| style="border: solid 2px #{{#switch: {{{type|}}}| wall = cc9966| floor = cc9999 | desk = 9999cc | window = 99cccc | object = 66cc99 | chest = cccc99 | d3d3d3}}; padding:10px;" width="80%"| <div style="max-height:200px;overflow:hidden;">{{#if:{{{releasenote|}}}|''{{{releasenote|Available from 3/14/2015}}}''<br/><br/>|}}{{#if:{{{feature|}}}|Special: {{{feature|}}}<br/><br/>|}}{{#if:{{{BGM|}}}|BGM: {{{BGM|}}}|}}</div>
+|-
+| style="border: solid 0px;background-color:#{{#switch: {{{type|}}}| wall = cc9966| floor = cc9999 | desk = 9999cc | window = 99cccc | object = 66cc99 | chest = cccc99 | d3d3d3}};" colspan="3" | 
+{{#if:{{{note|}}}|{{!}}-
+{{!}} colspan="4"{{!}}
+{{{!}} class="wikitable mw-collapsible mw-collapsed" width="100%"
+! style="font-size:90%"{{!}} Notes
+{{!}}-
+{{!}}
+{{{note|}}}
+{{!}}}|}}
+|}
+<noinclude>
+
+'''Full sample, all fields are filled.'''
+
+type -> color
+*wall = #cc9966
+*floor = #cc9999
+*desk = #9999cc
+*window = #99cccc
+*object = #66cc99
+*chest = #cccc99
+*default = lightgray
+
+'''Note:'''
+"type=floor" has different preview alignment from other types, the image is shifted relatively to the left half the width of the image. This is done to center viewing window on the image.
+
+'''Note 2:'''
+The text box containing release note, BGM and feature has a limit height of 200px before overflown texts become hidden.
+
+<pre>
+{{FurnitureInfo
+| name=Thanks to 2,000,000" scroll
+| type=object
+| japanesename=「200万の感謝」掛け軸
+| image=Furniture-204.jpg
+| description=Hover over this for item description, Japanese description if possible
+| coin=15000
+| fairy=1
+| BGM=Template BGM
+| feature=Template Feature, this item has awesome special feature that will blow your mind, or not, it'll just change color according to the time of date.
+| releasenote=Available since 1/1/2014. Reward for those who logged in during 1/1~1/3/2014
+| note=*What else can I say?
+*This is awesome!
+}}
+</pre>
+
+
+{{FurnitureInfo
+| name=Thanks to 2,000,000" scroll
+| type=object
+| japanesename=「200万の感謝」掛け軸
+| image=Furniture-204.jpg
+| description=Hover over this for item description, Japanese description if possible
+| coin=15000
+| fairy=1
+| BGM=Template BGM
+| feature=Template Feature, this item has awesome special feature that will blow your mind, or not, it'll just change color according to the time of date.
+| releasenote=Available since 1/1/2014. Reward for those who logged in during 1/1~1/3/2014
+| note=*What else can I say?
+*This is awesome!
+}}
+
+'''Simplified sample, stripped down to essential fields only'''
+<pre>
+{{FurnitureInfo
+| name=Final boss
+| japanesename=朝雲
+| image=NPC_FinalBoss.png
+| coin=200000
+}}
+</pre>
+
+
+{{FurnitureInfo
+| name=Final boss
+| japanesename=朝雲 
+| image=NPC_FinalBoss.png
+| coin=200000
+| fairy=999
+}}
+
+'''Slideshow (Experimental as of 12/26/2014)'''
+
+Slideshow is available for furniture containing multiple images. 
+
+There are a few limitations of this mode:
+# Maximum height is constrained to 200 pixel
+# There's a default light blue backdrop behind the image
+# The zoom is faulty on furniture types other than "floor" or "object"
+# "description" and "image" fields are disabled
+
+If possible, try to use the default templates above instead of the slideshow.
+
+<pre>
+{{FurnitureInfo
+| name=Snowfield
+| type=floor
+| japanesename=雪原
+| slideshow=<gallery type="slideshow" widths="267px" crop="true" position="center" hideaddbutton="true">Floor_023_01.png
+Floor_023_02.png
+Floor_023_03.png
+Floor_023_04.png
+Furniture-204.jpg</gallery>
+| coin=2000
+| fairy=1
+}}
+</pre>
+
+
+{{FurnitureInfo
+| name=Snowfield
+| type=floor
+| japanesename=雪原
+| slideshow=<gallery type="slideshow" widths="267px" crop="true" position="center" hideaddbutton="true">Floor_023_01.png
+Floor_023_02.png
+Floor_023_03.png
+Floor_023_04.png
+Furniture-204.jpg
+</gallery>
+| coin=2000
+| fairy=1
+}}
+
+'''Advanced image operations'''
+
+*"position" field allows customized positioning within the frame
+*"size" field allows different scaling/zooming value
+
+Some furniture types will have these values predefined, they can be overwritten by redefining the field. Find below the default values according to furniture type:
+{| style="margin:20px; border: 1px solid black;padding:10px;" width="60%"
+|align="center"| Wall
+|rowspan="5" style="background:gray;"| 
+|
+|align="center"| 600px
+|-
+|align="center"| Floor
+|align="center"| right:100%;
+|
+|-
+|align="center"| Desk
+|
+|align="center"|265px
+|-
+|align="center"| Window
+|
+|align="center"| 300px
+|-
+|align="center"| Chest
+|align="center"| left:10%; bottom:80px;
+|align="center"| 220px
+|}
+
+<pre>
+{{FurnitureInfo
+| name=Final boss
+| japanesename=朝雲 
+| image=NPC_FinalBoss.png
+| position=left:20%;bottom:30px;
+| size=100px
+| coin=200000
+}}
+</pre>
+
+
+{{FurnitureInfo
+| name=Final boss
+| japanesename=朝雲 
+| image=NPC_FinalBoss.png
+| position=left:20%;bottom:30px;
+| size=100px
+| coin=200000
+}}
+[[Category:Templates]]
+</noinclude>

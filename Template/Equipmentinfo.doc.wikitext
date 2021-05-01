@@ -1,0 +1,97 @@
+<!--
+    PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE
+    YOU CAN EDIT THE TEMPLATE DOCUMENTATION BELOW THIS COMMENT
+-->
+* Parameters need not follow the order shown below, however it is highly recommended for easier editing
+* For ship class coloring:
+:*Use color <span style="color:lime;">lime</span> (e.g. '''| DD=lime''') if all ships in that classification can equip it.
+:*Use color <span style="color:yellow;">yellow</span> (e.g. '''| DD=yellow''') if only some ships in that classification can equip it; in this case, also use the '''|notes=''' to indicate why.
+* Fast battleship : Kongou-class, Bismarck, V.Veneto-class, Iowa-class
+* Use '''| radius= ''' if it's a plane of some type, as it deals with combat radius as pertains to [[Land-Based Air Squadron]].
+* In '''| image= ''' column, it can be a single image or gallery (see demo below)
+* There are a few ships categories that are currently only populated by 1 ship each:
+:*"LC": Amphibious Assault Ship ([[Akitsu Maru]])
+:*"AS": Submarine Tender ([[Taigei]])
+:*"AR": Repair Ship ([[Akashi]])
+:*"AO": Supply Ship ([[Hayasui]])
+* "color" should be empty unless change in background color is desired
+* We use [[46cm Triple Gun Mount]] as an example for finalizing the layout for this template. If you don't know how to make equipment pages please read the <span class="plainlinks">[http://en.kancollewiki.net/index.php?title=46cm_Triple_Gun_Mount&action=edit source code]</span> first.
+
+<pre>
+{{equipmentinfo
+| name=46cm Triple Gun Mount
+| japanesename=46cm三連装砲 
+| id=9
+| color=
+| type=Main Cannon, Heavy
+| icon={{Template:RedGunHeavy}}
+| effect={{Firepower}}+26, {{AA}}+5
+| image=<gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
+Equipment9-1b.png
+Equipment9-1.png
+Equipment9-2.png
+Equipment9-3.png
+Equipment9-4.png
+</gallery>
+| scrap={{ammo}} ?,{{steel}}?
+| DD=
+| LC=
+| CL=
+| CLT=
+| CA=
+| CAV=
+| BB=lime
+| BBV=lime
+| FASTBB=lime
+| AV=
+| CVL=
+| CV=
+| CVB=
+| SS=
+| SSV=
+| AS=
+| AR=
+| CLP=
+| AO=
+| notes = Weight penalty for all BBs that are not Yamato-class
+}}
+</pre>
+{{equipmentinfo
+| name=46cm Triple Gun Mount
+| japanesename=46cm三連装砲 
+| id=9
+| color=
+| type=Main Cannon, Heavy
+| icon={{Template:RedGunHeavy}}
+| effect={{Firepower}}+26, {{AA}}+5
+| image=<gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
+Equipment9-1.png
+Equipment9-2.png
+Equipment9-3.png
+Equipment9-4.png
+</gallery>
+| scrap={{ammo}} ?,{{steel}}?
+| DD=
+| LC=
+| CL=
+| CLT=
+| CA=
+| CAV=
+| BB=lime
+| BBV=lime
+| FASTBB=lime
+| AV=
+| CVL=
+| CV=
+| CVB=
+| SS=
+| SSV=
+| AS=
+| AR=
+| CLP=
+| AO=
+| notes = Weight penalty for all BBs that are not Yamato-class
+}}<includeonly><!--PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS.-->
+[[Category:Templates]]
+<!--PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS.-->
+</includeonly>

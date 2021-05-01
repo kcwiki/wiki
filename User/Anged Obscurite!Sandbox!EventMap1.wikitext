@@ -1,0 +1,23 @@
+{{/Header}}
+{{/BranchAndTip}}
+{{/Drops}}
+
+<noinclude>
+Example:
+{{/Header
+|banner = [[File:Map_placeholder.png|317px]]
+|map_image = [[File:Map_placeholder_branch.png|317px]]
+|information = 
+* A
+* B}}
+{{/BranchAndTip
+|branching = 
+* C
+* D
+|tips =
+* E
+* F}}
+{{/Drops
+|dropsA = [[Naganami]], [[Makigumo]], [[I-401]], [[Maruyu]]
+|dropsH = [[Naganami]], [[Makigumo]], [[I-401]], [[Maruyu]]
+|dropsM = [[Naganami]], [[Makigumo]], [[I-401]], [[Maruyu]]}}

@@ -1,0 +1,393 @@
+=Introduction=
+
+This page is to provide an in-depth look into the hit rate mechanics in game for '''single/combined fleets and land-based air squadrons'''. The formulas presented in this page are still subject to change as more testing is done. 
+
+'''Please note that all formulas between <math>\lfloor \ \rfloor</math> are rounded down.'''
+
+
+=Hit Rate=
+
+The hit rate is used by all attacks. 
+
+<math>\text{Hit %} = \bigl\lfloor \text{Hit}_\text{cap} \bigr\rfloor + \text{Acc}_\text{proficiency} +1</math>
+
+Where, the Capped Hit Rate <math>\left( \text{Hit}_\text{cap} \right)</math> is:
+
+<math>\text{Hit}_\text{cap} = \text{cap}_\text{max}\left( \text{cap}_\text{min} \left(\text{Accuracy}_\text{atk} - \text{Evasion}_\text{def}\right) \times \text{Morale}_\text{defender} \right)</math>
+
+* <math>\text{Accuracy}_\text{atk}</math> is the calculated accuracy of the attack. Please see [[Accuracy,_Evasion_and_Criticals#Accuracy_Formulas|below]] for the various accuracy formulas.
+* <math>\text{Evasion}_\text{def}</math> is the calculated evasion of the defending ship. Please see [[Accuracy,_Evasion_and_Criticals#Evasion_Formulas|below]] for the various evasion formulas.
+* <math>\text{Morale}_\text{defender}</math> is the morale state modifier of the defending ship.
+** >52 morale (sparkling) is <math>0.7</math>
+** 30-52 morale (normal) is <math>1.0</math>
+** 20-29 morale (orange) is <math>1.2</math>
+** 0-19 morale (red) is <math>1.4</math>
+* <math>\text{Acc}_\text{proficiency}</math> is the '''average''' plane proficiency accuracy bonus. Please see [[Plane Proficiency]] for more details.
+** The average is calculated only from dive bombers, torpedo bombers, seaplane bombers and large flying boats.
+** The value is <math>12</math> for <span style="color:#FFCE00; text-shadow: 0 0 5px #FFCE00;">>></span> ranked planes.
+
+
+'''Hit Rate Caps'''
+
+There is a minimum and maximum hit rate in the game. 
+* The minimum of <math>\text{cap}_\text{min}\left(x\right)</math> '''is 10'''.
+* The maximum of <math>\text{cap}_\text{max}\left(x\right)</math> '''is 96'''.
+
+
+'''Important Notes'''
+* Hit rate has an effective '''minimum of 11%''' and a '''maximum of 97%'''.
+* Plane proficiency is the only factor that allows a ship to go beyond 100% hit rate.
+
+=Critical Hit Rate=
+
+The following are the various formulas for determining critical hits for attacks.
+
+* Shelling/ASW (including carriers): <math>\lfloor 1.3 \times \sqrt{\text{Hit}_\text{cap}} \rfloor + \text{Crit}_\text{proficiency} + 1</math>
+* Torpedo: <math>\lfloor 1.5 \times \sqrt{\text{Hit}_\text{cap}} \rfloor + 1</math>
+* Airstrike: <math>\lfloor 0.2 \times \sqrt{\text{Hit}_\text{cap}} \rfloor + \text{Crit}_\text{proficiency} + 1</math>
+* Night Battle (including carriers): <math>\lfloor \left(1.5 + \text{Const}_\text{contact} \right) \sqrt{\text{Hit}_\text{cap}} \rfloor + 1</math>
+* Shelling Support: <math>\lfloor 1.3 \times \sqrt{\text{Hit}_\text{cap}} \rfloor + 1</math>
+* Airstrike Support: <math>\lfloor 0.2 \times \sqrt{\text{Hit}_\text{cap}} \rfloor + 1</math>
+
+* <math>\text{Crit}_\text{proficiency}</math> is the plane proficiency critical bonus. Please see [[Plane Proficiency]] for more details.
+* <math>\text{Const}_\text{contact}</math> is the night contact constant from the [[Type 98 Recon Seaplane (Night Scout)]]. It is <math>0.07</math> if night contact is triggered, <math>0</math> otherwise.
+
+=Accuracy Formulas=
+
+Below are the common variables used in all accuracy formulas:
+
+* <math>\text{Level}</math> is the level of the attacking ship.
+* <math>\text{Luck}</math> is the luck {{Luck}} of the attacking ship.
+* <math>\text{Acc}_{equip}</math> is the total accuracy {{Hit}} provided by the equipment calculated as <math>\text{Acc}_\text{equip base} + \text{Mod}_\text{Impr} \times \sqrt{\bigstar}</math>
+** <math>\text{Acc}_\text{equip base}</math> is the base accuracy {{Hit}} displayed on the equipment.
+** <math>\text{Mod}_\text{Impr}</math> is the equipment's [[Akashi%27s_Improvement_Arsenal|improvement]] modifier for the applicable attack.
+** <math>\bigstar</math> is the equipment's improvement level.
+* <math>\text{Mod}_\text{formation}</math> is the formation modifier for the applicable attack. Please see [[Combat#Formation_Modifier|Combat]] for more details.
+* <math>\text{Mod}_\text{morale}</math> is the morale modifier of the attacking ship. Please see [[Morale_and_Fatigue#Effects|Morale and Fatigue]] for more details.
+** >52 morale (sparkling) is <math>1.2</math>
+** 30-52 morale (normal) is <math>1.0</math>
+** 20-29 morale (orange) is <math>0.8</math>
+** 0-19 morale (red) is <math>0.5</math>
+
+
+'''Important Notes'''
+* Because of the number of modifiers to accuracy in game, it is trivial to increase accuracy. Therefore it is '''more important''' to prioritise firepower.
+
+
+===Daytime Shelling===
+
+This formula applies to both surface shelling and carrier attacks during daytime combat and support. It does not apply to carrier airstrikes.
+
+<math>\text{Accuracy}_\text{shelling} = \biggl\lfloor \left( \left( \text{Acc}_\text{base} + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale} + \text{Mod}_\text{fit} \right) \times \text{Mod}_\text{spotting} \times \text{Mod}_\text{AP} \biggr\rfloor </math>
+
+* <math>\text{Acc}_\text{base}</math> is the base accuracy value of the attack.
+** Single Fleet/CTF Main: <math>90</math>
+** STF Main: <math>57</math>
+** STF Escort/CTF Escort: <math>74</math>
+*** The escort flagship has her accuracy decreased by 10 to <math>64</math>
+* <math>\text{Mod}_\text{formation}</math> for '''shelling and carrier attacks''' is as follows:
+** Line Ahead/Diamond: <math>1.0</math>
+** Double Line/Echelon/Line Abreast/Vanguard (Bottom): <math>1.2</math>
+** Vanguard (Top): <math>0.8</math>
+** Accuracy modifiers for Combined Fleets is still unknown.
+* <math>\text{Mod}_\text{fit}</math> is the fit bonus or penalty that is applicable. Please see [[Gun Fit Bonuses]] for more details.
+* <math>\text{Mod}_\text{spotting}</math> is the artillery spotting bonus if applicable. Please see [[Artillery_Spotting#Attack_Types|Artillery Spotting]] for more details.
+** Main/Main: <math>1.2</math>
+** Main/AP: <math>1.3</math>
+** Main/RADAR: <math>1.5</math>
+** Main/Secondary: <math>1.3</math>
+** Double Attack: <math>1.1</math>
+** Other multipliers are unknown.
+* <math>\text{Mod}_\text{AP}</math> is the Armour-Piercing Shell accuracy modifier.
+
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;"|Type
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Modifier
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|Main Gun<br>
+Armour-Piercing Shell
+|style="text-align: center; border-style: solid; border-width: 1px;"|1.1
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|Main Gun<br>
+Armour-Piercing Shell<br>
+RADAR
+|style="text-align: center; border-style: solid; border-width: 1px;"|1.25
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|Main Gun<br>
+Secondary Gun<br>
+Armour-Piercing Shell
+|style="text-align: center; border-style: solid; border-width: 1px;"|1.2
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|Main Gun<br>
+Secondary Gun<br>
+Armour-Piercing Shell<br>
+RADAR
+|style="text-align: center; border-style: solid; border-width: 1px;"|1.3
+|-
+|}
+
+
+'''Important Notes'''
+* It is '''inadvisable''' to run any of the other setups beyond the most basic Gun+AP. This is because the other setups will interfere with artillery spotting and cost you better attack bonuses.
+* Unlike when calculating damage, the bonus applies to all targets.
+
+===Torpedo Attacks===
+
+This formula only applies to opening and closing torpedo attacks in day.
+
+<math>\text{Accuracy}_\text{torpedo} = \left( 85 + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} + \frac{\text{Attack}_\text{torp}}{5} + \text{Mod}_\text{ship} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale}</math>
+
+* <math>\text{Mod}_\text{formation}</math> for '''torpedo attacks''' is as follows:
+** Line Ahead/Vanguard (Top & Bottom): <math>1.0</math>
+** Double Line: <math>0.8</math>
+** Diamond: <math>0.4</math>
+** Echelon: <math>0.6</math>
+** Line Abreast: <math>0.3</math>
+** Accuracy modifiers for Combined Fleets is still unknown.
+* <math>\text{Attack}_\text{torp}</math> is the final basic torpedo attack power of the ship. Please see [[Damage_Calculations#Torpedo_Attacks|Damage Calculations]] for details.
+** The figure incorporates any pre- and post-cap modifiers and takes into account the attack cap.
+** This means that engagement and damage state play a role in torpedo accuracy.
+* <math>\text{Mod}_\text{ship}</math> is the innate torpedo accuracy of the ship. Currently only Abyssal ships have values above <math>0</math>.
+
+
+===Aerial Combat===
+
+This formula applies to the airstrikes performed during the aerial combat phase and support. Although ASW support functions like an airstrike for damage, it '''does not''' use this formula.
+
+<math>\text{Accuracy}_\text{airstrike} = 95</math>
+
+'''Important Notes'''
+* Airstrike accuracy is a constant and '''not affected''' by any outside factors.
+
+===Anti-Submarine Warfare===
+
+This formula applies to all ASW attacks in combat phase and support.
+
+<math>\text{Accuracy}_\text{ASW} = \left( 80 + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} + 2\sum \text{ASW}_\text{sonar} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale} \times \text{Mod}_\text{synergy}</math>
+
+* <math>\text{Mod}_\text{formation}</math> for '''ASW''' is as follows:
+** Line Ahead/Diamond: <math>1.0</math>
+** Double Line/Echelon/Line Abreast/Vanguard (Bottom): <math>1.2</math>
+** Vanguard (Top): <math>0.8</math>
+** Accuracy modifiers for Combined Fleets is still unknown.
+* <math>\text{Mod}_\text{formation}</math> for '''ASW''' is as follows:
+** Line Ahead/Diamond: <math>1.0</math>
+** Double Line: <math>0.8</math>
+** Echelon/Line Abreast/Vanguard (Bottom): <math>1.2</math>
+** Vanguard (Top): <math>0.8</math>
+** Accuracy modifiers for Combined Fleets is still unknown.
+* <math>\text{ASW}_\text{sonar}</math> is the '''base''' ASW stat of any sonars equipped.
+* <math>\text{Mod}_\text{synergy}</math> is the synergy bonus from equipping certain combinations of ASW equipment.
+** Synergy bonus is either currently bugged or so small it cannot be tested.
+
+'''Important Notes'''
+* Equipping more sonars is the best way to boost ASW accuracy.
+** Large sonars are not counted for this bonus.
+
+
+===Night Battles===
+
+This formula applies to '''all''' night battle attacks. 
+
+<math>\text{Accuracy}_\text{NB} = \bigl( \text{Mod}_\text{contact} \left( 69 + \text{Mod}_\text{star shell} \right) + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} \bigr) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale} \times \text{Mod}_\text{special} + \text{Mod}_\text{searchlight} + \text{Mod}_\text{20.3cm} + \text{Mod}_\text{fit}</math>
+
+* <math>\text{Mod}_\text{contact}</math> is the night contact modifier of <math>1.1</math> if triggered, <math>1.0</math> otherwise.
+* <math>\text{Mod}_\text{star shell}</math> is the star shell modifier of of <math>5</math> if triggered, <math>0</math> otherwise.
+* <math>\text{Mod}_\text{formation}</math> for night battle is as follows:
+** Line Ahead/Vanguard? (Top & Bottom): <math>1.0</math>
+** Double Line/Echelon: <math>0.9</math>
+** Diamond: <math>0.7</math>
+** Line Abreast: <math>0.8</math>
+** Accuracy modifiers for Combined Fleets is still unknown.
+* <math>\text{Mod}_\text{special}</math> is the night battle special attack modifier. Please see [[Night Battle#Attack_Types|Night Battle]] for more details.
+** Torpedo Cut-in: <math>1.65</math>
+** Gun Cut-in: <math>2.0</math>
+** Mixed Cut-in: <math>1.5</math>
+** Secondary Cut-in: <math>1.5</math>
+** Double Attack: <math>1.1</math>
+** Other multipliers are unknown.
+* <math>\text{Mod}_\text{searchlight}</math> is the searchlight modifier of <math>7</math> if triggered, <math>0</math> otherwise.
+* <math>\text{Mod}_\text{20.3cm}</math> is the heavy cruiser bonus for equipping [[:Category:20.3cm Variants|IJN 20.3cm guns]].
+** One gun: <math>10</math> 
+** Two guns: <math>15</math>
+** Bonuses for more than two guns have not been tested.
+* <math>\text{Mod}_\text{fit}</math> is the fit bonus or penalty that is applicable. Please see [[Gun Fit Bonuses]] for more details.
+
+===Land-Based Air Squadron===
+
+This formula applies to attacks made by [[Land-Based Air Squadron]]s. The accuracy is calculated '''independently''' per squadron.
+
+<math>\text{Accuracy}_\text{LBAS} = \left( 95 + 12\sqrt{\text{Acc}_\text{equip}} \right) \times \text{Mod}_\text{morale} + \text{Mod}_\text{proficiency}</math>
+
+* <math>\text{Acc}_\text{equip}</math> is the accuracy stat of the plane.
+* <math>\text{Mod}_\text{morale}</math> is the morale modifier of the plane.
+** Normal/Orange morale: <math>1.0</math>
+** Red morale: <math>0.8</math>
+* <math>\text{Mod}_\text{proficiency}</math> is the plane proficiency accuracy bonus. Please see [[Plane Proficiency]] for more details.
+** The value is <math>12</math> for <span style="color:#FFCE00; text-shadow: 0 0 5px #FFCE00;">>></span> ranked planes.
+
+=Evasion Formulas=
+
+Evasion has several caps depending on the calculated base evasion of the ship. Base evasion is calculated as follows:
+
+<math>\text{Evasion}_\text{base} = \bigl\lfloor \left( \text{Evasion}_\text{ship} + \sqrt{2\text{Luck}} \right) \times \text{Mod}_\text{formation} \bigr\rfloor</math>
+
+* <math>\text{Evasion}_\text{ship}</math> is the evasion of the ship '''including''' any visible equipment bonuses.
+* <math>\text{Mod}_\text{formation}</math> is the formation modifier. It varies based on the attack being received. Please see [[Combat#Formation_Modifier|Combat]] for more details.
+** Currently modifiers for Vanguard are unknown.
+
+
+The various capped evasion formulas to calculate the final evasion rate is as follows:
+
+* <math>\text{Evasion}_\text{base} > 40: \text{Evasion}_\text{cap} = \text{Evasion}_\text{base}</math>
+* <math>40 < \text{Evasion}_\text{base} < 65: \text{Evasion}_\text{cap} = \lfloor 40 + 3\sqrt{\text{Evasion}_\text{base} - 40} \rfloor</math>
+* <math>\text{Evasion}_\text{base} > 65: \text{Evasion}_\text{cap} = \lfloor55 + 2\sqrt{\text{Evasion}_\text{base} - 65}\rfloor</math>
+
+
+Capped evasion is then modified by post-cap modifiers:
+
+<math>\text{Evasion %} = \biggl\lfloor \text{Mod}_\text{searchlight} \times \left( \text{Evasion}_\text{cap} + \text{Mod}_\text{sonar} + \text{Mod}_\text{CA} + \text{Mod}_\text{vanguard} - \text{Mod}_\text{fuel} \right) \biggr\rfloor</math>
+
+* <math>\text{Mod}_\text{searchlight}</math> is the searchlight evasion penalty. It is <math>0.2</math> for any ship equipped with a searchlight (even if not triggered) and <math>1.0</math> otherwise.
+* <math>\text{Mod}_\text{sonar}</math> is the sonar improvement modifier that '''only applies to''' opening and closing torpedo attacks. It is <math>0</math> otherwise.
+** <math>\text{Mod}_\text{sonar} = \sum_{\text{All Sonars}} 1.5\sqrt{\bigstar}</math> 
+* <math>\text{Mod}_\text{CA}</math> is the heavy/aviation cruiser night battle evasion bonus. It is <math>5</math> for heavy/aviation cruisers and <math>0</math> otherwise.
+* <math>\text{Mod}_\text{vanguard}</math> is the Vanguard evasion bonus. This is different from the formation modifier that gets taken into account for base evasion. Bonuses are:
+** For ships at the top (slots 1-2 or 1-3): Non-destroyers get a 5% bonus. Destroyers get a 20% bonus.
+** For the rest of the ships at the bottom (slots 3-5 or 4-7): Non-destroyers get a 20% bonus. Destroyers get a 40% bonus.
+* <math>\text{Mod}_\text{fuel}</math> is the remaining fuel penalty.
+** <math>\text{Mod}_\text{fuel} = 75 - \text{Fuel}</math>
+** If fuel is above 75%, the penalty is 0. 
+** The penalty is an integer and not a percentage.
+
+{| class="wikitable"
+|+ Remaining Fuel Penalty
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Remaining Fuel
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Battle #<ref>This only takes into account normal day battles. Special nodes have different resource consumption.</ref>
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Penalty
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|80%
+|style="text-align: center; border-style: solid; border-width: 1px;"|2nd Battle
+|style="text-align: center; border-style: solid; border-width: 1px;"|0
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|60%
+|style="text-align: center; border-style: solid; border-width: 1px;"|3rd Battle
+|style="text-align: center; border-style: solid; border-width: 1px;"|15
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|40%
+|style="text-align: center; border-style: solid; border-width: 1px;"|4th Battle
+|style="text-align: center; border-style: solid; border-width: 1px;"|35
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|20%
+|style="text-align: center; border-style: solid; border-width: 1px;"|5th Battle
+|style="text-align: center; border-style: solid; border-width: 1px;"|55
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|0%
+|style="text-align: center; border-style: solid; border-width: 1px;"|6th+ Battle
+|style="text-align: center; border-style: solid; border-width: 1px;"|75
+|-
+|}<references/>
+{{clear}}
+
+
+'''Important Notes'''
+* The speed of the fleet is supposed to play a role in evasion. Currently, said increase is either nonexistent or too small to test.
+
+
+=Special Cases=
+==PT Imps==
+[[PT Imp Group|PT Imps]] were introduced during the [[Summer 2017 Event]]. They have a very high evasion rate and are next to impossible to hit with normal shelling and torpedo attacks. This even includes special attacks. In order to sink them, your ships will require specific equipment setups.
+
+
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;" rowspan="2"|Equipment Setup
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:96px;" colspan="3"|Bonus
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;" rowspan="2"|Notes
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|DD
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|CL
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|CA/BB
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{SurfaceShipPersonnel}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 50%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 25%
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| Adding more main guns does not increase the hit rate. Adding more lookouts '''halves''' the rate.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|{{SurfaceShipPersonnel}} {{GreenGunMG}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 50%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 25%
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|{{SurfaceShipPersonnel}} {{GreenGunMG}} {{GreenGunMG}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100%?
+|style="text-align: center; border-style: solid; border-width: 1px;"| 50%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 30%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{SurfaceShipPersonnel}} {{GreenGunMG}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100%?
+|style="text-align: center; border-style: solid; border-width: 1px;"| ??
+|style="text-align: center; border-style: solid; border-width: 1px;"| ??
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowGun}} {{SurfaceShipPersonnel}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| 35%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 15%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Radar}} {{SurfaceShipPersonnel}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10%
+|style="text-align: center; border-style: solid; border-width: 1px;"| ??
+|style="text-align: center; border-style: solid; border-width: 1px;"| ??
+|style="text-align: center; border-style: solid; border-width: 1px;"| Only applies to RADARs with LOS stats greater than 5.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowGun}} {{GreenGunMG}} {{Seaplane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| ??
+|style="text-align: center; border-style: solid; border-width: 1px;"| 45%
+|style="text-align: center; border-style: solid; border-width: 1px;"| Only applies to [[:Category:Zuiun|Zuiuns]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowGun}} {{Seaplane}} {{SurfaceShipPersonnel}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| ??
+|style="text-align: center; border-style: solid; border-width: 1px;"| 75%
+|style="text-align: center; border-style: solid; border-width: 1px;"|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{GreenGunMG}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10%
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| Destroyer only.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{RedGunLight}} {{GreenGunMG}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 30%
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| Destroyer only.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{GreenGunMG}} {{GreenGunMG}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 50%
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
+|style="text-align: center; border-style: solid; border-width: 1px;"| Destroyer only.
+|-
+|}<references/>
+{{clear}}
+
+
+'''Important Notes'''
+* Small Caliber Guns + Lookout + Machine Gun is the best anti-imp setup.
+* It is inadvisable to run anti-imp setups on any ship but destroyers because it compromises their combat effectiveness.
+* Having a reinforcement expansion is important because it allows the ship to not waste a slot on a machine gun.
+* The values presented above are theorised to be '''fixed hit rates'''.
+** This means they are unaffected by any outside factors.
+* Certain {{GreenGunDP}} that count as small caliber main guns can substitute for {{RedGunLight}}.
+* Certain {{GreenGunDP}} that count as secondary guns can substitute for {{YellowGun}}.
+
+{{Mechanics}}

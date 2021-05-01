@@ -1,0 +1,27 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+==Usage==
+'''<nowiki>{{Font color|<text color>|<background color>|<text>}}</nowiki>'''
+
+Examples of use:
+*'''<nowiki>{{Font color|blue|this is about plants}}</nowiki>''': {{Font color|blue|this is about plants}}:(it appears in blue text).
+*'''<nowiki>{{Font color|#0033CC|this is about plants}}</nowiki>''':  {{Font color|#0033CC|this is about plants}}: ([[Web colors#Hex triplet|Hex triplet]] codes work also)
+*'''<nowiki>{{Font color||red|text in red background}}</nowiki>''': {{Font color||red|text in red background}}:(no parameters are used for the text color, only for the background)
+*'''<nowiki>{{Font color|red|yellow|red text with yellow background}}</nowiki>''': {{Font color|red|yellow|red text with yellow background}}
+
+== See also ==
+* [[Web colors]]
+* [[HTML color names]]
+* [[List of colors]]
+* {{tl|color}}
+* {{tl|background color}}
+* {{tl|hilite}}
+<includeonly><!--
+++++ PLEASE ADD CATEGORIES AND INTERWIKIS BELOW THIS LINE, INSIDE INCLUDEONLY TAGS, THANK YOU. -->
+
+<!-- categories -->
+[[Category:Text color templates|{{PAGENAME}}]]
+
+<!-- interwiki -->
+</includeonly>

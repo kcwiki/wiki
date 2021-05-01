@@ -1,0 +1,27 @@
+*{{#if:{{{1|}}}|{{{1}}}|'''{{PAGENAME}}'''}} is an installation-type enemy. This changes some of {{#if:{{{1|}}}|{{{2}}}|{{PAGENAME}}'s}} behaviors:
+:* {{#ifeq:{{{2|}}}|her|Her|{{PAGENAME}}'s}} damage indicator text is different from others:
+::* Slightly damaged(小破) →　Confused(混乱) 
+::* Moderately damaged(中破) →　Damaged(損害)
+::* Heavily damaged(大破) → Broken(損壊)
+::* Sunken(撃沈) →　Destroyed(破壊)
+:* With regards to attacking, {{#ifeq:{{{2|}}}|her|she|{{PAGENAME}}}}:
+::* Enables 2nd round of daytime shelling;
+::* ''(If using planes)'' cannot attack during daytime shelling at Damaged or worse;
+::* ''(If using planes)'' cannot attack during daytime shelling if all of {{#if:{{{1|}}}|{{{2}}}|{{PAGENAME}}'s}} carried planes are shot down;
+::* ''(If using planes)'' uses the carrier formula (Daytime: [Firepower + Torpedo + (Dive Bomb × 1.3)] × 1.5 + 55; Nighttime: Firepower + Torpedo) for shelling damage;
+::* Attacks at night if not Broken or Destroyed regardless of equipment setup;
+::* ''(If using planes)'' prioritizes attacking submarines during daytime shelling. (Attacks surface ships at night)
+:* With regards to defending, {{#ifeq:{{{2|}}}|her|She|{{PAGENAME}}}}:
+::* Cannot be the target of torpedo attacks, with the exception of torpedo bombers;
+::* Treats torpedo value as 0 for all other incoming attacks for damage calculation (again, excluding torpedo bombers during aerial combat).
+::* Is not subject to cut-in attacks involving torpedoes; that is, Mixed cut-in and Torpedo cut-in fail to function. If the attacking ship does not have any guns equipped, no equipment name will be shown when attacking.
+::* Cannot be the target of shelling phase attacks from carriers carrying at least 1 dive bomber, but can be chosen as shelling target if all dive bombers equipped on that carrier were shot down or if only torpedo bombers were equipped on that carrier in the first place.
+::* {{#switch: {{PAGENAME}}
+ | Isolated Island Princess = Takes increased damage from ships equipped with [[Type 3 Shell]]s, [[WG42 (Wurfgerät 42)]], [[Daihatsu-class Landing Craft]] (and the version [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)|with tanks & marines]]), and [[Type 2 Ka-Mi Tank]].
+ | #default = Takes increased damage from ships equipped with [[Type 3 Shell]]s and [[WG42 (Wurfgerät 42)]].
+}}
+::* Takes increased damage and has lower evasion rate during daytime shelling from battleships equipped with both large caliber guns {{RedGunHeavy}}and AP shells{{RedAmmo}}.
+::* Not subject to covering from escort ships.
+
+[[Category:Abyssal Land Bases]]
+<noinclude>{{Documentation}}</noinclude>

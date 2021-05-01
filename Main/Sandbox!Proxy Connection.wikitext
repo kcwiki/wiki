@@ -1,0 +1,138 @@
+{{Tutorialportal}}
+Currently, the game is only available to people connecting with a Japanese IP address; thus, this page guides new users on bypassing this restriction.
+
+Here's a link to a Quick Video OverView/Tutorial on the Provided Options (Mainly Option 3):
+
+https://www.youtube.com/watch?v=2EU9Oklro90
+
+==Option 1: VPN Gate Client==
+'''Windows'''
+# Head over to [http://www.vpngate.net/en/ VPN Gate], an "Academic Experiment Project" by the University of Tsukuba.
+# Download, install and run the client.
+# Select a Japanese server in "VPN Gate Public VPN Relay Servers".
+'''Mac / UNIX-based'''
+* There is L2TP VPN interface that has been pre-installed in your kernel system. You can directly set it up without needing to download any clients or using similar software to let you execute Windows-only clients. However, in case your network is blocking the usage of L2TP, you will still need to download VPN clients to let you use VPN with different protocols.
+
+==Option 2: Creating an L2TP or STTP VPN connection (Windows 8)==
+This method works for Windows 7 as well, but the wording of the settings might be different.
+#Go to [http://www.vpngate.net/en/ VPN Gate], and find a Japanese server that supports either "L2TP/IPsec" or "MS-STTP" connections.
+#Copy the server's address (eg. '''<span style="font-size:9pt;">vg2036075803.opengw.net)</span>'''<span style="font-size:9pt;">. For STTP-supporting servers, copy the address plus the port number, shown in the MS-STTP column.</span>
+#"Set up a new connection or network" in Network and Sharing Center.
+#"Connect to a workplace"
+#"Use my Internet connection (VPN)"
+#Paste the address (plus the port, for STTP), name the VPN connection as you wish and click on "Create".
+#(L2TP users skip to step 8 for now) The VPN connection should appear in "Network Connections" (or the sidebar that appears when you click on the network icon in the taskbar). When asked for Username and Password, input "vpn" for both.
+#For L2TP users, you must find the network connection that was just created, and go to its "Properties" by right clicking on the just-created connection in "Network Connections". Go to the "Security" tab, select L2TP/IPsec as the "Type of VPN" and then click on "Advanced settings". Select "Use preshared key for authentication" and then input "vpn". Apply the settings. Connect to the VPN as per step 7.
+
+This method is for users of Mac and UNIX-based systems:
+#Open Network Preferences.
+#Click add connection, then select VPN (L2TP)
+#Go to [http://www.vpngate.net/en/ VPN Gate], and find a Japanese server that supports either "L2TP/IPsec" connections.
+#Copy the server's address (eg. '''<span style="font-size:9pt;">vg2036075803.opengw.net)</span>'''<span style="font-size:9pt;">. </span>
+#Paste the address to the "Server Address", and type '''vpn''' as the "Account Name".
+#Click "Authentication Setting", then type '''vpn''' for both available textboxes. You do not need to change anything else.
+#Click "Advanced", and tick '''Send all traffic over VPN Connection'''.
+#Click OK, then Apply, and test the connection using the "Connect" button.
+#If the VPN fails, try to add the IP address to the "Server Address" instead of the full server name.<br />If this one fails too, you can try turning off your whole internet connection for 1-2 minutes before trying to connect to the VPN again. This issue sometimes occurs when you suddenly disconnect from the VPN due to a poor connection or incomplete request.
+
+==Option 3: Editing DMM Cookie's Region Flag==
+
+===Usage===
+# Log into DMM.com
+# Switch the language of the site from English to Japanese (日本語) at the top of the site.
+# Open the Developer Bar (F12) and insert these lines into the console and execute (by pressing the [Enter] key).
+<pre>
+document.cookie = "ckcy=1;expires=Sun, 09 Feb 2019 09:00:09 GMT;domain=osapi.dmm.com;path=/";
+document.cookie = "ckcy=1;expires=Sun, 09 Feb 2019 09:00:09 GMT;domain=203.104.209.7;path=/";
+document.cookie = "ckcy=1;expires=Sun, 09 Feb 2019 09:00:09 GMT;domain=www.dmm.com;path=/netgame/";
+document.cookie = "ckcy=1;expires=Sun, 09 Feb 2019 09:00:09 GMT;domain=log-netgame.dmm.com;path=/";
+</pre>
+
+===Advantages===
+* Works for any OS or browser.
+* You do not need to download or install any third-party software.
+* You will have access until you specifically clear your browser cookies.
+* It is fast, since you'll be using your direct internet connection.
+
+===How it works===
+[[File:Region_cookies_101.jpg|thumb]]
+* You use the browser's dev tools console to write cookies on your computer. Nothing has been transmitted to the server at this point.
+* Once you refresh DMM, it will check for the cookies. Your browser includes these cookies as a part of the HTTP header on your refresh.
+* DMM will now see the new region flag on the cookies, (''which they do not know you faked since it was given by your browser'') and grant you access.
+* Choose your netgame and play.
+{{clr}}
+
+==API Links==
+===Introduction===
+'''<span style="color:#f00">Getting an API link requires you to be able to view the game, thus you will need one of the three options on this article to initially connect to the game.</span>'''
+* An API Link is a web address pointing directly to your KanColle account.
+* If you acquire this, you can visit the link as a quick way to login.
+* Since it is a direct link, it bypasses DMM, thus bypasses country restrictions as well.
+* It is a safe method and is being used by the majority of the foreign community at this point.
+
+{{Warning
+|title = Security Considerations for API Links
+|message = The API link bypasses login and opens your account directly. '''Be very careful not to let others see your link''' (e.g. when streaming or posting screenshots of the game). Anyone who obtains your API link can also access and control your account!
+}}
+
+===Obtain via Network Logs===
+This is probably the easiest way to get an API link without third-party tools.
+[[File:Api_link_via_network.jpg|thumb]]
+# Open your browser DevTools by pressing F12.
+# Open the game.
+# Go to the '''Network''' tab.
+# Filter/Search for: '''<code>Maind2</code>'''.
+# Only one result will show; Right-click that, and ['''Copy link address'''].
+''Note: This terminology is for Google Chrome. Other browsers may have their own counterparts.''
+{{clr}}
+
+===Obtain via Manual Search===
+# Open the game.
+# Type Ctrl+Shift+I (or F12) to inspect the elements of the page or use "Show resources list" through [https://getadblock.com Adblock], then search for '''api_token''' or '''mainD2.swf'''.
+#* '''Example''': <nowiki>http://125.6.189.7/kcs/mainD2.swf?api_token=xxx&api_starttime=xxx</nowiki>.
+#* '''Note''': The API link is unique for each server and session.
+# Copy the API link.
+# Turn off your proxy/VPN and open the link in your browser.
+#* If the link doesn't work, you probably copied it incorrectly or missed part of it.
+# If you find that the search function in the developer console is not working properly (in either Chrome or Firefox), you can also manually search for the API link by navigating the script in this order: 
+#* html > body > div#w > div#main-ntg > div#page > div#area-game > iframe#game_frame > html > body > div#flashWrap > embed#externalswf.
+{{clr}}
+
+===Important Notes===
+* You will need to obtain a new API link (referred to as ''refreshing'') by repeating one of the processes above each month to reset the extra operation maps' boss gauges.
+* Refreshing your API link every in-game update (after maintenance) is a good practice.
+
+===Further Reading===
+* Looking at the diagram under the Region Cookies section, we can see that DMM is connected to the developer's server through ''Embedded Flash with API Links''.
+** DMM only shows you the game by embedding a flash object on their webpage. In this case, DMM is called the "'''publisher'''".
+** This flash object points to Kadokawa's ('''the developers''') KanColle servers.
+** The link to this flash object is the API Link.
+* Once DMM's country restriction has been bypassed, DMM will embed a flash object, as explained, through the API link - which in turn becomes visible to us.
+* The link DMM used to show us the game can be reused. You can save it on a file, or have it stickied on your computer, only to open it again, without the help of DMM this time around, and thus avoiding country restrictions indefinitely.
+* If region cookies are used, API links seem to be useless since their original purpose, avoiding country restriction, has already been resolved. However, some people still prefer to use API links as they bypass loading the DMM webpage, saving you some network load.
+
+==Tip==
+To avoid having to clear your browser cache everytime you want to connect to the game, you can use different Chrome-like web browser (i.e. [http://coolnovo.com CoolNovo], [http://www.chromium.org/Home Chromium], [http://www.comodo.com/home/browsers-toolbars/browser.php Comodo Dragon], [http://www.maxthon.com/ Maxthon], [http://www.srware.net/en/software_srware_iron_download.php SRWare Iron], [http://www.rockmelt.com/ RockMelt], etc.).<br />
+* Only use this browser for KanColle and don't forget to connect to a Japanese proxy before opening it; In doing so, you won't have to wait for the game's data to download every time you need to connect to the game.
+
+==Troubleshooting==
+''See main article: [[Tutorial: Troubleshooting]]''
+
+[[File:Error_.png|thumb|right]]
+* Have you cleared your cache? ''Try doing it again in Incognito''.
+* Have you tried logging in again on DMM or obtaining a new API link?
+* Have you tried running other sites? ''The problem might stem from your internet connection.''
+* Were you using viewers? ''Try logging in normally on your browser.''
+* Were you banned? ''Login to DMM to confirm whether or not you receive a black error message.''
+** Banned accounts see the cat error-message through an API link and the black error message through DMM.
+* Is your computer clock correct? ''Try switching to your correct timezone.''
+** Issues stemming from your computer clock settings are common.
+
+==Mobile Gameplay==
+
+[[File:PSA-Mobile-new.jpg|thumb|right|300px|]]
+Using a phone or tablet to play Kancolle is highly discouraged and can result in a ban; however, playing on a Windows tablet PC is acceptable.
+{{clear}}
+
+[[Category:Tutorial]]
+[[Category:Help]]

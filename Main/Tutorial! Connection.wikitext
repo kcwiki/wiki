@@ -1,0 +1,73 @@
+{{Tutorialportal}}
+Currently, the game is only available to people connecting with Japanese IP addresses. Thus, this page guides on how to bypass this restriction.
+
+There are two options to connect to the game:
+* Bypassing the existing blocks: [[#General DMM Cookie-based Block|general DMM cookie-based block]] and [[#KanColle Gadget Server Block|KanColle gadget server block]]. Bypassing methods are recommended, please try using them first.
+** In summary, using a viewer that supports both bypass options and enabling those options is enough. Such viewers include: [https://github.com/KC3Kai/KC3Kai KC3Kai], [https://github.com/poooi/poi Poi] ([https://nightly.poi.moe/ nightly] version with a [https://github.com/kcwiki/poi-plugin-let-me-in plugin]), [https://github.com/gre4bee/ElectronicObserver ElectronicObserver] (fork), [https://github.com/antest1/GotoBrowser GotoBrowser] (for Android).
+** Non-viewer solutions include: [https://github.com/Tibowl/KCCacheProxy KCCacheProxy], [https://github.com/kcwiki/chrome-extension-dmm DMM extension] (for Chrome), [https://github.com/einaregilsson/Redirector Redirector extension] (for other browsers, a [https://github.com/kcwiki/cache/blob/master/redirector.json custom config] should be imported, cookie fix should be applied [[#General DMM Cookie-based Block|manually]]).
+* Using a [[#VPN or Proxy|VPN or proxy]] (actually using a Japanese IP).
+
+'''Note that for creating a new game account, it is necessary to use a Japanese VPN, preferably with all other methods disabled.'''
+
+__TOC__
+==Bypassing Blocks==
+===KanColle Gadget Server Block===
+Since February 26, 2020, KanColle gadget server is blocking all non-Japanese IP addresses directly; thus, extra steps are required to load the game:
+* On Android [https://github.com/antest1/GotoBrowser GotoBrowser] can be used: a substitute gadget server will be used if the "alter gadget URL" option is enabled in settings. The substitute server will serve the login assets, allowing a user to log in without needing to access the actual gadget server. [https://antest1.github.io/GotoBrowser/howto.html Additional] connection options can be used as well. Clearing cache may be required.
+* [https://github.com/poooi/poi Poi] (latest [https://nightly.poi.moe/ nightly] version) can use a local cache folder, allowing to serve the [https://github.com/kcwiki/cache login assets] from a local folder, again, bypassing the need to connect to the real gadget server. The "3rd party cache" folder can be found in common settings (<code>%appdata%/poi/MyCache</code> be default on Windows), the path to login assets should be <code>3rd party cache folder/KanColle/gadget_html5</code> (<code>%appdata%/poi/MyCache/KanColle/gadget_html5</code> for Windows; technically, only <code>gadget_html5</code> folder is required to log in). Clearing cache in common settings and restarting the viewer may be required. A [https://github.com/kcwiki/poi-plugin-let-me-in plugin] can be used to automatically update the local cache.
+* Options for Chrome:
+** [https://github.com/KC3Kai/KC3Kai KC3Kai] has an option to use a substitute gadget server (such as https://kcwiki.github.io/cache/ or http://luckyjervis.com/).
+** [https://github.com/kcwiki/chrome-extension-dmm A minimal specialized extension] that handles both DMM cookie block and gadget server block.
+** [https://github.com/einaregilsson/Redirector Redirector extension] with a [https://github.com/kcwiki/cache/blob/master/redirector.json custom config] (supports other browsers as well).
+* [https://github.com/Tibowl/KCCacheProxy KCCacheProxy] can be used with browsers and viewers that support proxy connections. It serves assets from a local cache and so should also speed up asset loading.
+
+===General DMM Cookie-based Block===
+To ensure that region-restricted pages are accessed only from Japan DMM is using an IP check to [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie set] a region flag in its cookies every time a page is loaded. Then the flag is [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie used] to check if a region-restricted page can be accessed. It is possible to bypass this restriction by changing the flag right before loading each page or by setting a path-overriding cookie.
+
+The following tools automatically override the necessary cookies when needed:
+* [https://poi.moe/ Poi], the cookie setting should be enabled.
+* If you want to browse other DMM games, and not just play KanColle, on Chrome you can use one of the following extensions:
+** [https://github.com/KC3Kai/KC3Kai KC3Kai], the cookie setting should be enabled.
+** [https://github.com/kcwiki/chrome-extension-dmm Minimal specialized extension].
+** Note that some games are using IP blocks, so those extensions will not work for them.
+
+To override the cookies manually:
+* Log into [https://www.dmm.com/ dmm.com] if not logged in already, choose an interface language if asked. Make sure the page is fully loaded once you logged in.
+* [https://kb.mailster.co/how-can-i-open-the-browsers-console/ Open the developer tools].
+* Copy-paste the following code into the '''console''':
+<syntaxhighlight lang="javascript">
+expires=new Date(+new Date()+31536e6).toUTCString()
+document.cookie=`ckcy=1;expires=${expires};path=/netgame;domain=.dmm.com`
+</syntaxhighlight>
+<!--
+** https://tools.ietf.org/html/rfc6265.
+** <code>path=/netgame</code> overrides <code>path=/</code> which is set by DMM.
+** <code>expires</code> date should be ahead of the current date by one year, although any future date will work.
+-->
+* Execute it by pressing '''Enter''' or '''Ctrl + Enter''' for Internet Explorer.
+* Then use the address bar or a bookmark to go directly to the [http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/ KanColle play page], you will still need a [[#Gadget Server Block|KanColle gadget server block]] fix.
+
+==VPN or Proxy==
+Different VPN and proxy server providers can be used, as long as they have Japanese locations. Refer to their documentation on how to use them.
+
+Note that VPN/Proxy is only required during login (the real gadget server will be accessed via a Japanese IP address) and can be disabled afterward (game servers do not require a Japanese IP).
+
+One free option is [https://www.vpngate.net/en/ VPN Gate], an "Academic Experiment Project" by the University of Tsukuba. The site can also be used to check your apparent IP address and location. It is '''NOT''' recommended to be used when you are handling sensitive data such as when entering [[Shop/Purchasing|your card details]].
+
+'''Windows'''
+
+* [https://www.vpngate.net/en/download.aspx Download] and [https://www.vpngate.net/en/howto_softether.aspx install] the client.
+* Select a Japanese server in it using "VPN Gate Public VPN Relay Servers".
+* Alternatively, [https://www.vpngate.net/en/howto_l2tp.aspx L2TP/IPsec], [https://www.vpngate.net/en/howto_openvpn.aspx OpenVPN], or [https://www.vpngate.net/en/howto_sstp.aspx MS-SSTP] options can be used.
+
+'''Mac/Linux'''
+
+* Simply import an OpenVPN config file of a Japanese server in your network manager.
+* Alternatively, there is L2TP/IPsec interface, which is usually pre-installed, so it is possible to set it up directly without installing any clients.
+
+Other free options include:
+
+* [https://protonvpn.com/ ProtonVPN].
+* Chrome extensions such as [https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp SetupVPN]<!-- and ?--> can be used as well.
+[[Category:Tutorial]]
+[[Category:Help]]

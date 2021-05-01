@@ -1,0 +1,73 @@
+Due to the potential demands of some templates and the pain I and others have experienced with finding a specific kanmusu card, these images need to be standardized. Add anything you would like to the page to assist in brainstorming as long as it doesn't border on vandalism.
+
+*Kanmusu images need uniform formatting and, ideally, they need to be the same file type (Either .png or .jpg) to expand template possibilities. 
+**Hopefully [[User:Totaku|Totaku]] and others can get on board with this, but otherwise I'll need movement privileges and a lot of feedback about how to standardize them once and for all.
+**''241.png'' (Littorio) is my current vote for formatting. For kanmusu with single or double digit dex numbers, zeros should be added as placeholders for the unused digits. 
+***''001A.png'' for [[Nagato]]'s first card, ''034b.png'' for [[Fumizuki]]'s kai card.
+**Other possibilities off the top of my head are ''241_Littorio.png'' or ''Littorio.png'' (I despise this one). Including a ship's name could be useful, but generally it's more convenient to stick with numbers. [[User:Wsewolod|Wsewolod]] ([[User talk:Wsewolod|talk]]) 08:38, 10 July 2015 (UTC)
+
+:I like this idea, and the naming scheme you have below for Sole Dex Number is good, but think that it should be "A B C" for "Base Kai Kai-Ni". A stripped number could cause issues because you have to explain that single-ships get nothing but if they add an new model, then you need to move it to A and make the kai ni the no-name. [[User:Ravien|Ravien]] ([[User talk:Ravien|talk]]) 18:03, 10 July 2015 (UTC)
+
+::So, letter suffixes for ships like Littorio and the like? No harm is done by adding something that simple and easy to type, but I left it out of Kai Ni because these always involve a dex number change, and any remodels past then (like with [[Bismarck]]) undergo further number changes. I'll look back over the oddities like Chitose-Class and Bismarck (They may be the only 4+ remodels?) and see if there are additional changes needed to accomodate them. At the moment, I equally favor your suggestion and my initial one, so another party "voting" would be helpful. Feel free to edit the "Additional Letter Suffix" subheading to further explain your suggested changes. [[User:Wsewolod|Wsewolod]] ([[User talk:Wsewolod|talk]]) 02:14, 11 July 2015 (UTC)
+:::You know, that's a valid point and I didn't think about the fact that KaiNi's get new ShipIDs. I think we should base our conclusion on Chitose and Bismarck, as you mention. The only thing I dislike is the lack of tethering between the two shipIDs. I feel like maybe we should make 120C.png be a redirect to 142A.png or something maybe. [[User:Ravien|Ravien]] ([[User talk:Ravien|talk]]) 04:53, 11 July 2015 (UTC)
+'''I believe that following some discussion in the IRC the other day, we decided that there was not enough interest in this topic, and that we would just go forward with Gensui's format as it seemed to placate us for the time being. I believe that template was <ID>_<Kanmusu>_<Remodel>(_<Season>)(_Dmg).png so Bismarck Drei's New Year 2016 damaged CG would be 178_Bismarck_Drei_NewYear2016_Dmg.png. Do we agree that this is sufficient for the time being? The only issue I have with this template is that a uniform ID is not kept, but that can be done using redirects with little pain. [[User:Ravien|Ravien]] ([[User talk:Ravien|talk]]) 13:31, 20 July 2015 (UTC)'''
+:No complaints here. [[User:Wsewolod|Wsewolod]] ([[User talk:Wsewolod|talk]]) 16:56, 20 July 2015 (UTC)
+::Erm... '''<ID>_<Kanmusu>_<Remodel>(_Dmg)(_<Season>).png'''... - [[User:KyoriAsh|KyoriAsh]] ([[User talk:KyoriAsh|talk]]) 19:16, 20 July 2015 (UTC)
+:::If we went that route, Kyori, it would make sorting them go wonky, for instance, with Season first the sort is -
+:::*178_Bismarck_Drei.png
+:::*178_Bismarck_Drei_Dmg.png
+:::*178_Bismarck_Drei_EventA.png
+:::*178_Bismarck_Drei_EventA_Dmg.png
+:::*178_Bismarck_Drei_NewYear2016.png
+:::*178_Bismarck_Drei_NewYear2016_Dmg.png
+:::But with dmg before season, it sorts this way, making it so all the repairs are together, not all the images from a certian period -
+:::*178_Bismarck_Drei.png
+:::*178_Bismarck_Drei_EventA.png
+:::*178_Bismarck_Drei_NewYear2016.png
+:::*178_Bismarck_Drei_Dmg.png
+:::*178_Bismarck_Drei_Dmg_EventA.png
+:::*178_Bismarck_Drei_Dmg_NewYear2016.png
+:::Just my 2cents. I believe season should come first for that reason. Opinions? [[User:Ravien|Ravien]] ([[User talk:Ravien|talk]]) 19:34, 20 July 2015 (UTC)
+::::Erm... you listed both are the same... - [[User:KyoriAsh|KyoriAsh]] ([[User talk:KyoriAsh|talk]]) 19:40, 20 July 2015 (UTC)
+==Sole Dex Number==
+For kanmusu cards, as seen on the individual ship pages:
+*''001A.png'' for Nagato.
+*''001B.png'' for Nagato Kai.
+*''010A.png'' for Shimakaze.
+*''010B.png'' for Shimakaze Kai.
+*''120A.png'' for Kinugasa.
+*''120B.png'' for Kinugasa Kai
+*''142.png'' for Kinugasa Kai Ni. (Other dex numbers with only one card assigned to them, like Littorio, can forego the lettering.)
+
+For full-size images like those used in gallery pages:
+*''001A_.png'' for Nagato.
+*''001A_Dmg.png'' for Nagato's damaged CG.
+**The developers sometimes update kai artwork, making the "A" suffix even for dex numbers with only one pair of images assigned to them helpful.
+
+Suffixes can vary across events for seasonal CG.
+
+===Additional Letter Suffix===
+*''241A.png'' for Littorio (note that she is an oddity in that she doesn't have a intermediary kai form before undergoing a change in dex number or ship name)
+*''031B.png'' for Mutsuki Kai.
+*''234C.png'' for Mutsuki Kai Ni.
+*''178D.png'' for Bismarck drei.
+
+==Kanmusu Name and Dex Number==
+A few ideas:
+*''Nagato_001A.png'' 
+
+*''001A_Nagato.png''
+
+*''Nagato_A.png''
+
+====Thoughts====
+Though shipID and shipName are rendundant to have in the same filename, if we went with this idea, I'd have to vote for the second option. If someone is maintaining the file repository, an alphabetical sort should be able to pick by shipID number, as opposed to alpha by name. [[User:Ravien|Ravien]] ([[User talk:Ravien|talk]]) 04:42, 11 July 2015 (UTC)
+
+==New Equipment Naming ID==
+
+To allow the LUA equipment database to be language-neutral, from this point onwards, we are naming the equipment files a new way. This is the reference:
+
+Full Card: SoubiXXX.png
+Item & card: SoubiXXXCard.png
+Fairy: SoubiXXXFairy.png
+Item: SoubiXXXItem.png

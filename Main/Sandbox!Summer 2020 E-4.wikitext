@@ -1,0 +1,345 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consist and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct thier own version of thier guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editor's work without the full consent of the editor and his approval to do so. 
+
+Several version will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Summer 2020 Event]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 version of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version the guide, the said guide will be updated to the main page and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+'''Deadline to complete / Release Initial Guide: WHEN IT'S DONE'''
+
+==A Very Badly Written Proposal That Has Been Reworked==
+
+===Preparation===
+
+'''The event is likely to have several shiplocks (E-1 to E-4 already contain 4 separate locks), please plan your locks carefully.'''
+
+The following things should be considered for this map:
+
+# Access to 931st Air Group Torpedo Bombers, and how many variants of them are available to the player
+# Availability of CV(L/B)s, particularly [[Zuihou|Zuihou K2B]], taking into account possible locking for EOs
+# Access to LBAS interceptors, especially jet/rocket interceptors for debuff requirements
+# Bauxite cost (the final boss phase in particular has high shootdown rates)
+# Access to good LBAS bombers to secure AD (again, for the final boss phase in particular) with fewer fighters
+
+
+===Bonuses (Tentative)===
+
+''Convoy No.4804 Bonus ''
+
+* [[Hatakaze]], [[Nowaki]], [[Akizuki]], [[Hatsuzuki]], [[Zuihou]]
+** 1.3x bonus (All Nodes)
+
+''5th Fleet Bonus''
+
+[[Nachi]], [[Ashigara]], [[Aoba]], [[Kinu]], [[Tama]], [[Abukuma]], [[Kasumi]], [[Hatsuharu]], [[Shiranui]], [[Ushio]]
+** 1.25x bonus (All Nodes)
+
+''Made in Yokusuka Naval Arsenal Bonus''
+
+* [[Yamashiro]], [[Wakaba]], [[Hatsuharu]]
+** 1.25x bonus (All Nodes)
+
+''Chichishima/Iwojima Transport connection bonus''
+
+* [[Kiyoshimo]], [[Satsuki]], [[Yamagumo]]
+** 1.25x bonus (All Nodes)
+
+''Equipment Bonus''
+
+* [[Battleship Summer Princess]]
+** 1.2x bonus w/ AP Shell
+** 1.1x bonus w/ Seaplane Fighter / Bomber
+
+* [[Heavy Cruiser Summer Princess]]
+** 1.1x bonus w/ AP Shell
+** 1.15x bonus w/ Seaplane Fighter / Bomber
+
+* All ships
+** 1.2x multiplier against the '''Final LD boss ONLY''' (does not include rest of her fleet) once debuff steps are complete.
+
+Planes from the 931st Air Group also have a unique bonus on this map. Note that bonuses will '''not''' apply if the slots they are equipped in are completely wiped out:
+
+* [[Type 97 Torpedo Bomber (931 Air Group)]]
+* [[Type 97 Torpedo Bomber (931 Air Group / Skilled)]]
+* [[Tenzan (931 Air Group)]]
+
+To stack bonuses from equipment (see below), a carrier must be equipped with '''different variants''' of bombers. Below is a list of all the bonuses carrier provide depending on the nodes:
+
+* ''Preboss subs''
+* ''Any carrier''
+**1 bomber - x1.45 bonus
+**2 bombers - x1.7 bonus
+**3 bombers - x1.96 bonus
+
+*''Preboss surface except X''
+* ''Any carrier''
+**1 bomber - 1.2x bonus
+**2 bombers - 1.3x bonus
+**3 bombers - 1.45x bonus
+
+*''Preboss X, boss nodes''
+*''[[Zuihou]]''
+**1 bomber - 1.45 bonus (1.45 * 1.3 = 1.885)
+**2 bombers - 1.7 bonus (1.7 * 1.3 = 2.21)
+**3 bombers - 1.96bonus (1.96 * 1.3 = 2.548)
+
+* ''Other carriers''
+**1 bomber - 1.55x bonus
+**2 bombers - 1.67x bonus
+**3 bombers - 1.79x bonus
+
+'''Some ships also have bonuses in later maps!''' [[Yamashiro]], [[Kiso]], [[Kiyoshimo]], [[Hatakaze]], [[Nowaki]], [[Hatsuzuki]], [[Hatakaze]] and [[Tama]] are probably a safe choices to lock here, pending release of EOs.
+
+[[Zuihou]] can stack multiple bonuses (historical bonuses, 931st Air Group bomber bonus[es], carrier bonuses, etc.) on this map, but is highly likely to be relevant in the EO maps, so take this into account before committing her to this map.
+
+===Introduction===
+
+As a heads up to all players reading this guide, as of current we will only include Single, TCF and CTF comps. '''Unlike other guides, we cannot in good faith recommend Nagato+Mutsu for this map due to the unknown factor that is the EO maps. While this makes clearing the map more difficult, it is still possible with a strong CTF comp and the appropriate equipment. If you lack equipment or ships, you should still wait until EOs are released before committing, as we will have a better sense of what EOs require by then.'''
+
+This map consists of multiple phases:
+
+# '''Transport Supplies to Chichi-jima (Node M)'''
+# '''Unlock to path to  Iwo-Jima'''
+# '''Transport Supplies to Iwo-Jima (Node R)'''
+# '''Unlock the path to the [[Destroyer Forest Princess]]'''
+# '''Chip HP for the [[Destroyer Forest Princess]] (Node Z3)'''
+# '''Debuff [[Destroyer Forest Princess]]'''
+# '''Defeat the [[Destroyer Forest Princess]] on Last Dance'''
+
+'''LBAS Defense'''
+
+You have access to your third LBAS base, which cannot be sortied but can be used for defense throughout all phases. Despite the lack of high-altitude bombers listed in enemy air raid equipment, the attacks do still count as high-altitude air raids, so jet/rocket interceptors (ideally 2 or more) are necessary to assist with securing AS and shooting down enemy bombers. AS is also necessary for the Last Dance (LD) debuff, see below.
+
+===Transport Supplies to Chichi-jima (Node M)===
+
+This phase involves depleting an ~850 TP Bar (on Hard). A TCF comp is fairly consistent here; the route nodes consist of 1 sub node and 2 surface nodes. Support expeditions are not necessary, although boss support may help with consistent S ranks depending on LBAS deployment.
+
+'''Transport Combined Fleet'''
+*'''Composition: 1CVE, 1 CAV, 4DD + 1 CL, 0-2 CA, 3-4 DD'''
+*'''Path: C-E-H-I-L-M'''
+*'''LBAS Suggestion 1: Land base #1-2: 1 Fighter, 3 Bombers (Distance of 5 Required) All target M node'''
+*'''LBAS Suggestion 2:'''
+**'''Land base #1: ASW Bombers (All on Node C)'''
+**'''Land base #2: 1 Fighter, 3 Bombers (Distance of 5 Required) All target M node
+* Node C is a submarine fleet.
+* Node H and I are surface fleets, but not especially dangerous.
+* Main fleet should be equipped with transport equipment (Drums and/or Daihatsu), escort should be combat focused.
+* CVE should be armed with 931st Air Group bombers if you possess any to maximize damage potential ([[Zuihou]] recommended, with caveats mentioned above).
+
+The route is not especially dangerous, and the boss is an [[Aircraft Carrier Princess]] in a single fleet; the rest of her fleet is not a significant threat, even during LD. 1-2 LBAS squadrons and your fleet should be more than enough to secure an S rank. Repeat the process until TP gauge is depleted.
+
+===Unlock to path to  Iwo-Jima===
+
+For this phase you will need to clear two nodes that are needed to unlock the path to R and depending on the difficulty the following will be needed:
+
+# '''Get AS on Node A''' (Hard Only)
+#''' Get S rank on Node D''' (Normal+)
+# '''Get AS on Node G''' (Easy +)
+
+
+This can be completed with a single fleet, or with a combined fleet (note that TCF routes E->H and can probably only reach Node A, however). Only lock ships here that you know will be used during later phases of the map, or reuse existing locked ships.
+<tabber>
+|-|Get AS on Node A=
+
+'''Single Fleet Method'''
+*'''Composition: 2 CV(L), 4DD'''
+*'''Path: C-B-A'''
+*'''LBAS: Land base #1: 2-4 Fighters or both LB Rest'''
+* Bring AACI DD
+* Bring good air power (up to 216+ for AS)
+* Node B has subs, bring ASW if necessary.
+
+Secure AS during the Node A air battle and you'll hear a ding upon returning to base.
+
+|-|Get AS on Node G=
+
+'''Single Fleet Method'''
+*'''Composition: 2 CV(L), 1CA(V), 3DD'''
+*'''Path: C-E-G'''
+*'''LBAS: N/A or both set to Node D (see next section'''
+* Bring AACI DD
+* Bring good air power (up to 216+ for AS)
+* Node E has subs, bring ASW if necessary.
+* This requirement can be cleared while en route to Node D
+
+Secure AS during the Node G air battle and you'll hear a ding upon returning to base.
+
+|-|Get S Rank on Node D =
+
+'''Single Fleet Method'''
+*'''Composition: 0-1 BBV, 2 CV(L), 0- 1CA(V), 3DD'''
+*'''Path: C-E-G-F-D'''
+*'''LBAS: N/A or  Land base #1-2: 1 Fighter, 3 Bombers (Both set to Node D)'''
+
+Enemy fleet is a normal surface fleet of light cruisers and destroyers, and does not pose a serious threat.
+
+Achieve an S rank on this node and you'll hear a ding upon returning to base.
+|-|
+</tabber>
+
+Once all conditions are complete, the path to node R will be open.
+
+===Transport Supplies to Iwo-Jima (Node R)===
+
+This phase requires you to deplete a ~900 TP bar (on Hard). Depending on what combined fleet you use, the routing may take additional nodes. Below is a list of all the methods commonly used for this phase. Support expeditions are not necessary, although boss support may help with consistent S ranks depending on LBAS deployment.
+
+<tabber>
+|-|Transport Combined Fleet Method =
+*'''Composition: 1CVE, 1 CAV, 4DD + 1 CL, 0-2 CA, 3-4 DD'''
+*'''Path: C-B-N-A-O-Q-R'''
+*'''LBAS : Land base #1-2: 1 Fighter, 3 Bombers (Distance of 2 Required); all to R node'''
+* Node B and N are submarine nodes; ~2 OASW ships should suffice for pass rate
+* A is an Air Battle Node, 1 AACI ship & 216 FP should suffice (boss AS requirement is ~198)
+* Node O is a surface battle with a light carrier included among the fleet, which can affect a TCF's pass rate.
+**FCF may help with pass rate.
+* Boss node will consist of a Heavy Cruiser Summer Princess along with a Light carrier, Ne-class (up to Kai version), a Tsu-class and DDs.
+* Overall, TCF can potentially deplete greater TP values, but may not S-Rank as consistently.
+|-|Carrier Task Force Method =
+*'''Composition: 3 CV(L), 3DD + 1 CL, 0-2 CA, 3-4 DD'''
+*'''Path: C-B-N-A-D-O-Q-R'''
+*'''LBAS : Land base #1-2: 1 Fighter, 3 Bombers (Distance of 2 Required); all to R node'''
+* Node B and N are submarine nodes; ~2 OASW ships should suffice for pass rate
+* A is an Air Battle Node, 1 AACI ship & 216 FP should suffice (boss AS requirement is ~198)
+* Nodes D & O are surface nodes, but pass rate should be better than with TCF; the extra node D is not particularly challenging, and the stronger opening air strike will help with pass rate.
+**FCF is not really necessary compared to TCF.
+* Boss node will consist of a Heavy Cruiser Summer Princess along with a Light carrier, Ne-class (up to Kai version), a Tsu-class and DDs.
+**Remember to equip 1 or more 931st Air Group torpedo bombers per CV(L/B) for bonus multipliers.
+* Will deplete lower TP values, but can S-rank more consistently, and probably has better pass rate overall.
+|-|
+</tabber>
+
+The boss node is slightly more difficult than the previous boss, but A/S-Ranks should still be manageable, even on LD. Repeat the process until TP gauge is depleted.
+
+===Unlock the path to the [[Destroyer Forest Princess]]===
+
+For this segment, all you will need to do is S-rank Node M, which requires use of a TCF. If you are on '''Medium''' difficulty or higher you will need to complete this step. Otherwise, the next phase should automatically unlock.
+
+'''Transport Combined Fleet'''
+*'''Composition: 1CVE, 1 CAV, 4DD + 1 CL, 0-2 CA, 3-4 DD'''
+*'''Path: C-E-H-I-L-M'''
+*'''LBAS Suggestion 1: Land base #1-2: 1 Fighter, 3 Bombers (Distance of 5 Required) All target M node'''
+*'''LBAS Suggestion 2:'''
+***'''Land base #1: ASW Bombers (All on Node C)'''
+**'''Land base #2: 1 Fighter, 3 Bombers (Distance of 5 Required) All target M node
+
+The next phase will unlock upon completion.
+
+===Chip HP for the [[Destroyer Forest Princess]] (Node Z3)===
+
+The boss HP bar has ~5000 points (on Hard), and assuming the boss is sunk each run, requires ~8 runs (on Hard) to clear. The route to the boss is not particularly long, and only the preboss and boss nodes should really pose any threat to your fleet. Node support is optional but may help with pass rate at the preboss; boss support is recommended.
+
+The following fleet should be considered for this segment:
+
+'''Carrier Task Force Fleet'''
+*'''Composition: 2 CV, 2CVL, 1 BBV, 1 CAV + 1 CL, 2 CA, 0-1 CLT,2-3 DD'''
+**Note that whatever your preferred comp, you '''cannot''' bring >2 CV(B), and you '''cannot''' bring >5 (F)BB(V)+CV(L/B)+[[Akitsu Maru]] for the route described below.
+***[[Shinshuu Maru]] does not count for the >5 large ships types listed above.
+*'''Path: C-E-H-S-V-X-Z3'''
+*''' Land base #1-2: 1 Fighter, 2 Bombers, 1 Recon/Range Extender (Distance of 8 Required) All target Z3 node'''
+**You may be able to run 1 more bomber on the second LBAS depending on quality of LBAS bombers (and proficiency); use an FP calculator to check if this is possible.
+* At least 1 OASW ship is recommended for pass rate at Nodes E & X.
+**Running Zuihou in escort and moving a CA to main fleet is another possibility, assuming FP requirements can still be met; if not, a CAV or [[Shinshuu Maru]] may be necessary.
+***This has the additional advantage of giving the escort another powerful night attack at the cost of one less CVL in the main fleet, and helping with preboss pass rate.
+*Remember to equip 1 or more 931st Air Group torpedo bombers per CV(L/B) for bonus multipliers.
+* BBV should have an AP shell, and a seaplane bomber.
+* CAV will likely need to mule SPFs.
+* 1 AACI DD will help with pass rate, pre-LD.
+* 1-2 historical TCIs are recommended, depending on whether Zuihou is in the escort or not.
+**Ideally, players should wait for EOs before committing TCI ships here, as it remains unclear what EOs might require in terms of ships and shiplocks.
+* Pre-LD, the highest FP required is ~482 FP at node S; accounting for attrition, about 520-530 FP should be safe to consistently AS(+) all nodes along the route.
+* Preboss Node X is a mixed node that includes 1 submarine. Zuihou has a bonus, so positioning her in the escort may help with pass rate (escort attacks first in CTF, and she has OASW ability).
+* Boss fleet has fairly high AA, so it is not uncommon for LBAS and bomber slots to be wiped out.
+
+Pre-LD, the boss is not particularly challenging as there is only one other major target capable of soaking up large amounts of damage (BB Hime Kai). However, do note that the new Na-Class variant has opening torpedo capability. Once the HP bar has been chipped to <700 HP, you will enter LD and the debuff can be unlocked.
+
+===Debuff [[Destroyer Forest Princess]]===
+
+Once you get the princess down to the final kill, you will then need to achieve the following to debuff the boss:
+
+# '''S Rank Node M'''
+# '''S Rank Node R'''
+# '''A Rank Node X'''
+# '''Get AS on Land Base Air Raid (Twice on Hard, Once on Medium)'''
+
+Below are the steps needed clear the requirements:
+
+
+<tabber>
+|-|Node M =
+'''Transport Combined Fleet'''
+*'''Composition: 1CVE, 1 CAV, 4DD + 1 CL, 0-2 CA, 3-4 DD'''
+*'''Path: C-E-H-I-L-M'''
+*'''LBAS Suggestion 1: Land base #1-2: 1 Fighter, 3 Bombers (Distance of 5 Required) All target M node'''
+*'''LBAS Suggestion 2:'''
+**'''Land base #1: ASW Bombers (All on Node C)'''
+**'''Land base #2: 1 Fighter, 3 Bombers (Distance of 5 Required) All target M node
+
+Same process as with the initial unlocking for the final boss. After completion, you'll hear a ding upon returning to base.
+|-|Node R =
+'''Single Fleet'''
+*'''Composition: 2 CV, 2 CVL, 1 BBV, 1 CAV '''
+*'''Path: C-E-G-F-D-O-Q-R'''
+*'''LBAS : Land base #1-2: 1 Fighter, 3 Bombers (Distance of 2 Required) All target R node'''
+
+After completion, you'll hear a ding upon returning to base.
+|-|Node X =
+'''Carrier Task Force Fleet'''
+*'''Composition: 2 CV, 2CVL, 1 BBV, 1 CAV + 1 CL, 2 CA, 0-1 CLT,2-3 DD'''
+*'''Path: C-E-H-S-V-X-Z3'''
+*''' Land base #1-2: 1 Fighter, 2 Bombers, 1 Recon/Range Extender (Distance of 8 Required) All target Z3 node'''
+**You may be able to run 1 more bomber on the second LBAS depending on quality of LBAS bombers (and proficiency); use an FP calculator to check if this is possible.
+
+This can be done in conjunction to deliver the final blow assuming all other requirements on the list are met first before this one.
+
+After completion, you'll hear a ding upon returning to base.
+|-|AS on Land Base Air Raid  =
+
+'''Single Fleet'''
+*'''Composition: 1 SS '''
+*'''LBAS : Land base #1 & #2: Rest or 4 Fighters'''
+
+Depending on how strong your 3rd Land Base is, you may be able to clear this while fulfilling the other requirements (as your 3rd base will be defending against attacks throughout this time). If not, you may need to set additional bases to defense and sortie a single submarine to trigger the air attacks on LBAS. After completion, you'll hear a ding upon returning to base.
+|-|
+</tabber>
+
+Once all conditions are met the princess will be debuffed on LD. All ships will get a 1.2x bonus modifier for the final kill segment against [[Destroyer Forest Princess]] '''ONLY'''.
+
+===Defeat the [[Destroyer Forest Princess]] on Last Dance===
+
+Both support expeditions and sparkling for Last Dance are recommended.
+
+The fleet used should be similar to pre-LD, with the following caveats:
+
+*527 FP is now required to achieve AS at Node S. Adjust FP accordingly.
+*It may be necessary to remove the AACI DD (if any) from the escort fleet in order to slot in more damage-dealers (e.g. TCIs and/or CAs).
+**This will hurt pass rate at Nodes S & X, but help with the night battle phase at the boss node.
+*The BBV has much less utility in the main fleet compared to pre-LD, as even if it is a bonus ship (i.e. [[Yamashiro]]), she cannot  damage or disable the boss' main fleet as reliably compared to CV(L/B)s, as the LD fleet has 2 additional ships with high armor and HP (1 more BB Hime Kai and the Ne Kai).
+**A BBV will also interfere with shelling order as the CV(L/B)s need to get their attacks off as quickly as possible, as they are likely to be disabled if hit.
+*Taking into account the above, Zuihou may be better off in the main fleet compared to the escort, or alternatively another CVL can be slotted into the main fleet.
+**However, again, '''one should ideally wait for EOs to be released before committing an additional CVL here.
+*Preboss Node X has a stronger Yo-class variant (Flagship), stronger DDs, and is locked to Line Ahead.
+*At Boss Node Z3, there are now two Na-class ships with opening torpedoes as compared to one pre-LD; as above, the main fleet is also much stronger/tankier compared to pre-LD.

@@ -1,0 +1,35 @@
+<includeonly>{{Infobox
+| bodyclass  = vcard; outcell
+| bodystyle   =text-align :left; width: 300px;
+| above       ={{#if: {{{nameJp|}}} |'''{{lang|ja|{{{nameJp}}}}}'''<br />}}'''{{{nameEn}}}'''{{#if: {{{other_name|}}}|<br /><span style="font-size: 9px">Also known as '''{{{other_name}}}'''</span>}}
+| aboveclass  = vcard; incell_top 
+| abovestyle  =background-color: #dde6ff
+| headerstyle =background-color: #dde6ff
+| image       ={{{image|No image}}}
+| caption     =<div style="padding-top:0.3em; line-height:1.2em;"><!--
+                    -->{{{caption|}}}</div>
+| labelstyle  =background: transparent
+| label1  =Title
+| data1   ={{{title|}}}
+| label2  =Born
+| data2   ={{{born|}}}
+| label3  =Location
+| data3   ={{{location|}}}
+| label4  =Gender
+| data4   ={{{gender|}}}
+| label5  =Notable from
+| data5   ={{{notable_from|}}}
+| label6  =Circle(s)
+| data6   ={{{circle|}}}
+| label7  =Occupation
+| data7   ={{{occupation|}}}
+| label8  =Music Themes
+| data8   ={{{MusicThemes|}}}
+| label9  =Art Example
+| data9   ={{{art_ex|}}}
+| label10  =Music Example
+| data10   ={{{music_ex|}}}
+| label11  =Websites
+| data11   ={{{website|}}}
+}}</includeonly><noinclude>
+{{Documentation}}</noinclude>

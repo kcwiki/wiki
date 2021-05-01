@@ -1,0 +1,14 @@
+<div class="mw-customtoggle-testbranch globalbutton">Branching Rules</div>
+
+{{#invoke:LabBranching|branchingTemplate
+|start_to_A = SS-only (3 or more), <br>'''or''' [[Taigei]] + Subs-only <br>'''or''' [[Taigei]] + Subs + 1 CL. <br>Weighted Random towards A (instead of B) with [[Taigei]] + Subs + DDs
+|start_to_B = Any composition not going to A or G
+|start_to_G = SS-only (2 or fewer), <br>'''or''' BB≥2, <br>'''or''' [(F)BB(V) + CV(L) + CA(V)]≥3,<br>'''or''' [(F)BB(V) + CV(L) + CA(V)+CLT]≥1 but no DD+CL
+|A_to_C = [[Taigei]] '''not''' in fleet
+|A_to_D = [[Taigei]] in fleet
+|E_to_F = LoS check (with LoS equipment equipped), but still may end up going to H. If heading to F there is the LoS animation.
+|E_to_H = SS≤2, <br>'''or''' LoS check failed. <br>High chance if [(F)BB(V) + CV(L) + CA(V)]≥2 <br>'''or''' no LoS equipment carried. <br>Small chance even with sufficient LoS.
+|F_to_I = Failed LoS check for K. <br>Small chance even with sufficient LoS.
+|F_to_J = Failed LoS check for K. <br>Small chance even with sufficient LoS.
+|F_to_K = LoS check with animation. Can still possibly drift to I or J even with sufficient LoS.
+}}

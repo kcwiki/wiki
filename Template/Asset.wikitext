@@ -1,0 +1,12 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{#vardefine:name|{{#replace:{{#ifeq:{{#sub:{{{1|}}}|-1}}|/|{{#sub:{{{1|}}}|0|-1}}|{{{1|}}}}}|/|&#32;}}}}{{#vardefine:link|{{#ifeq:{{{link|}}}|no|{{#ifeq:{{{type|}}}|Equipment|{{{1|}}}|{{#var:name}}}}|{{{link|{{#ifeq:{{{type|}}}|Equipment|{{{1|}}}|{{#var:name}}}}}}}}}}}{{#if:{{{1|}}}|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative">[[File:{{{type|}}} {{{asset|}}} {{#var:name}}{{#if:{{{suffix1|}}}|&#32;{{{suffix1}}}}}{{#if:{{{suffix2|}}}|&#32;{{{suffix2}}}}}.{{{extension|png}}}{{#if:{{{size|}}}|{{!}}{{{size}}}}}|link={{#var:link}}|{{{caption|{{#ifeq:{{{type|}}}|Equipment|{{{1|}}}|{{#var:name}}}}}}}]]{{#if:{{{layer1|}}}|<span class="image-layer" style="line-height:0px;position:absolute;{{{layer_style1|}}}">[[File:{{{layer1}}}.png|link={{#var:link}}|{{{caption|{{#ifeq:{{{type|}}}|Equipment|{{{1|}}}|{{#var:name}}}}}}}]]</span>}}{{#if:{{{layer2|}}}|<span class="image-layer" style="line-height:0px;position:absolute;{{{layer_style2|}}}">[[File:{{{layer2}}}.png|link={{#var:link}}|{{{caption|{{#ifeq:{{{type|}}}|Equipment|{{{1|}}}|{{#var:name}}}}}}}]]</span>}}</span>|[[File:Catbomb.png|{{{size|240x60px}}}]]}}</includeonly><noinclude>
+<pre>{{Asset|type=Ship|asset=Banner|Ayanami/Kai Ni}}</pre>
+{{Asset|type=Ship|asset=Banner|Ayanami/Kai Ni}}
+<pre>{{Asset|type=Ship|asset=Banner|Ayanami/Kai Ni|size=160x40px}}</pre>
+{{Asset|type=Ship|asset=Banner|Ayanami/Kai Ni|size=160x40px}}
+<pre>{{Asset|type=Enemy|asset=Banner|New Battleship Princess Damaged}}</pre>
+{{Asset|type=Enemy|asset=Banner|New Battleship Princess Damaged}}
+<pre>{{Asset|type=Equipment|asset=Card|Suisei}}</pre>
+{{Asset|type=Equipment|asset=Card|Suisei}}
+<pre>{{Asset|type=Equipment|asset=Card|Ju 87C Kai Ni (w/ KMX)}}</pre>
+{{Asset|type=Equipment|asset=Card|Ju 87C Kai Ni (w/ KMX)}}
+</noinclude>

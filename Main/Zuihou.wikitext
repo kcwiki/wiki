@@ -1,0 +1,736 @@
+==Info==
+{{KanmusuInfo|ID=112}}
+{{KanmusuInfo|ID=113}}
+{{KanmusuInfo|ID=355}}
+{{KanmusuInfo|ID=360}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* She can covert between Kai Ni and Kai Ni B remodels.
+* She can perform OASW at Kai Ni B when certain requirements are fulfilled:
+** With a Sonar and aircraft with 7 or more ASW - 50 ASW
+** With aircraft that have 7 or more ASW - 65 ASW
+* She counts as an escort carrier and can be part of a Transport Escort Fleet at Kai Ni B. See [[Combined Fleet]] for more details.
+
+===Overview===
+'''Kai'''
+* Low firepower and HP.
+* Decent armour.
+* Low plane count.
+* Bad slot distribution.
+
+'''Kai Ni'''
+* Good firepower, HP and armour.
+* Decent plane count.
+* Decent slot distribution.
+
+'''Kai Ni B'''
+* Good firepower, HP and armour.
+* Decent ASW.
+* Low plane count.
+* Decent slot distribution.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+* Kai: '''Low'''
+: She has low firepower for a light carrier which limits her damage potential. Her evenly distributed slots are not very good because they are all on the small side. Her slot sizes are also mostly on the small side which limits her damage potential even further.
+
+* Kai Ni: '''High'''
+: She gains a significant increase in firepower and plane count that makes her work a lot better as a shelling carrier. Aside from the top slot, the rest of her slots remain on the small side which limits her airstrike potential. Being fast, it also means she isn't affected by speed restrictions.
+
+* Kai Ni B: '''High'''
+: She loses plane count in this remodel and her slot distribution becomes more even. This further limits her airstrike potential. It also means it's harder for her to be a shelling carrier since her slots are at risk of being emptied by heavy anti-air. She does gain the ability to perform OASW but her damage is limited by the inability to take advantage of synergy bonuses. The most significant change is her reclassification to "escort carrier" that means she can be included in a transport combined fleet. This allows her to bring significant air support in a fleet where you have limited options for the role.
+
+====Recommended Roles====
+* Combat - Kai Ni/Kai Ni B
+* Air Support - Kai Ni/Kai Ni B
+* Shelling Support - Kai Ni/Kai Ni B
+
+====Not Recommended Roles====
+* Combat - Kai
+* Air Support - Kai
+* Anti-Submarine - Kai Ni B
+* Shelling Support - Kai
+* Airstrike Support
+
+===Important Info===
+*Required for quests A59, A61, B53, and B54.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 瑞鳳です。軽空母ですが、錬度が上がれば、正規空母並の活躍をお見せできます。
+|translation = I'm Zuihou. Even though I'm a light carrier, I can show you that I'll be as good as standard carriers with some experience.
+|audio = Zuihou-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = 瑞鳳です！改装後の服はどうでしょうか。また頑張ります。
+|translation = I'm Zuihou! How are my remodelled clothes? I'll keep doing my best.
+|audio = ZuihouKai-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai2 = yes
+|origin = 瑞鳳です！大規模改装しちゃえました！ぎゅーっと、もっと頑張ります！
+|translation = I'm Zuihou! I've gotten my major remodel! I'll do my very, very best!
+|audio = ZuihouKaiNi-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 祥鳳型軽空母、瑞鳳です。
+も元々は高速給油艦として計画され、次に潜水母艦、最終的に軽空母として完成しました。
+小柄なボディだけれど、機動部隊最後の日まで敢闘しました。
+|translation = I'm the Shouhou-class light carrier, Zuihou.<ref>The IJN officially classified her as a Zuihou-class carrier, the Shouhou-class designation was used in post-war publications.</ref> 
+I was orginally planned as a high-speed oiler, then a submarine tender, then I was finally completed as a light carrier.<ref>She was originally planned as the oiler Takasaki, later submarine tender after Japan left the [https://en.wikipedia.org/wiki/London_Naval_Treaty London Naval Treaty].</ref>
+I may have a small body but I fought to the last days of the Task Force.
+|audio = Zuihou-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 九九艦爆は、足が可愛いのよ、足が。
+|translation = The Type 99 has cute landing gear don't you know.
+|audio = Zuihou-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 彗星は彗星で悪くないんだけれど、整備大変なのよ、整備が。
+|translation = The Suisei isn't bad but the maintenance is a nightmare.<ref>The [https://en.wikipedia.org/wiki/Aichi_Atsuta Aichi Atsuta] engine used in the Suisei was notorious for being difficult to maintain.</ref>
+|audio = Zuihou-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = 天山は…って、あれ？うん、提督？格納庫弄るの止めてくれない？うん…ていうか、邪魔。
+|translation = The Tenzan is... huh? Uh, Admiral? Can you please stop groping my hangar? Yeah... you're being a bother.
+|audio = Zuihou-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 近海の索敵や、輸送船団の護衛も大事よね。って、提督、仕事しようよ。
+|translation = It's important to patrol the coastal waters and escort convoys too. L-let's get to work, Admiral.
+|audio = Zuihou-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督、いつもお疲れさま。私たち軽空母も大事にしてくれて、嬉しいな。
+|translation = Thanks for all your hard work, Admiral. I'm happy that you take good care of us light carriers.
+|audio = Zuihou-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai = yes
+|origin = 提督、あの、私、卵焼きいっぱい焼いたんだけど、食べる？やあ、本当？へへ、良かった。
+|translation = I, uh, made a lot of omelette, Admiral; want some? Oh, really? Hehe, that's great.
+|audio = ZuihouKai-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督、何に？航空隊の視察…じゃないの？あ、なんか顔が真剣だけど。えっ、その花束って、えっ、私に。あ…あ…どうしよう。あ…あ…ありが…とう。
+|translation = What is it, Admiral? It's not an... air wing inspection right? Ah, you have a really serious expression on. Eh, that bouquet is, eh, for me. Ah... ah... What should I do? Th-thank...you.
+|audio = Zuihou-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 戦績とかいつ見るの？今で、いや。別に、いつでもいいけど。
+|translation = When are you going to have a look at the score? Not now. No reason, anytime is fine.
+|audio = Zuihou-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 航空母艦、瑞鳳。推して参ります。
+|translation = Aircraft carrier, Zuihou. Heading out now.
+|audio = Zuihou-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai = yes
+|origin = 航空母艦、瑞鳳。抜錨しちゃいます！
+|translation = Aircraft carrier, Zuihou. Setting sail!
+|audio = ZuihouKai-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai2 = yes
+|origin = はい、瑞鳳もご一緒します、もちろん！
+|translation = Yes, I'll definitely be coming along too!<ref>Introduced as Final Battle 2018 sortie start line.</ref>
+|audio = Zuihou_Kantai_Kessen_2018_Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = 新鋭機っていいよね、やっぱり。
+|translation = New planes are definitely nice.
+|audio = Zuihou-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai = yes
+|origin = いい艦載機ですね、かわいいです。
+|translation = This is a nice plane, it's cute.
+|audio = ZuihouKai-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = 高速給油艦とかに戻しちゃ駄目だからね。
+|translation = Don't turn me back into a high-speed oiler.
+|audio = Zuihou-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = いいかもね。
+|translation = Looks good.
+|audio = Zuihou-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|kai = yes
+|origin = お弁当、食べる？
+|translation = Want to have a lunch box?
+|audio = ZuihouKai-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = 艦載機もしっかり頼むわね。
+|translation = Please take care of my planes too.
+|audio = Zuihou-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = yes
+|origin = ありがとう。後でお返しに、卵焼き焼いてあげるね。
+|translation = Thanks. I'll cook some omelette for you in return later.
+|audio = ZuihouKai-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 装甲は薄いからね。当たらなきゃいいのよ。
+|translation = My armour is thin after all. It's best that I don't get hit.
+|audio = Zuihou-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = やられちゃったな。温泉、入りたいな。
+|translation = I got beat. I wanna get in a hot spring.
+|audio = Zuihou-DockMajor.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|kai = yes
+|origin = ううん…やられちゃった。少し長湯してもいいかな、ね？
+|translation = Yeah... I got beat. Can I take a bit of a long bath?
+|audio = ZuihouKai-DockMajor.mp3
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい艦ができたみたい。空母かな。
+|translation = Looks like a new ship has arrived. Is it a carrier?
+|audio = Zuihou-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|kai = yes
+|origin = 新しい艦娘が来たみたい。正規空母かな？
+|translation = Looks like a new ship girl has arrived. Is it a standard carrier?
+|audio = ZuihouKai-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊が帰投しました。みんな無事かな。
+|translation = The fleet has returned to port. Is everyone alright?
+|audio = Zuihou-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 小沢艦隊の本当の力、見せてやりましょ。
+|translation = I'll now show you the true power of the Ozawa Fleet.<ref>The fleet under [https://en.wikipedia.org/wiki/Jisabur%C5%8D_Ozawa Vice Admiral Ozawa Jisaburou] at the Battle of the Philippine Sea.</ref>
+|audio = Zuihou-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai2 = yes
+|origin = 三航戦、旗艦、瑞鳳、抜錨しちゃいます！
+|translation = CarDiv3, flagship Zuihou, setting sail!
+|audio = ZuihouKaiNi-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = さあ、やるわよ！攻撃隊、発艦。
+|translation = Now, let's do this! Attack corps, take off.
+|audio = Zuihou-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = アウトレンジ、決めます。
+|translation = We'll decide this at long range.<ref>IJN planes had superior range to USN ones and they would try to engage USN carrier beyond the range of their aircraft.</ref>
+|audio = Zuihou-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|kai2 = yes
+|origin = 六五三空、発艦始めてください！
+|translation = 653rd, please begin takeoff!<ref>Referring to the [https://ja.wikipedia.org/wiki/%E7%AC%AC%E5%85%AD%E4%BA%94%E4%B8%89%E6%B5%B7%E8%BB%8D%E8%88%AA%E7%A9%BA%E9%9A%8A 653rd Naval Air Group] that operated from Zuihou, [[Chitose]] and [[Chiyoda]] during the Battle of Leyte Gulf.</ref>
+|audio = ZuihouKaiNi-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Air Battle
+|origin = 数は少なくても、精鋭だから。
+|translation = Even if they are few, they are the elite.
+|audio = Zuihou-Air_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = そうね、追撃しちゃいますか。
+|translation = That's right, we need to pursue them.
+|audio = Zuihou-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|kai = yes
+|origin = よし、艦隊、追撃戦に移行します。行きます。
+|translation = Alright fleet, let's begin the pursuit. Let's go.
+|audio = ZuihouKai-NightBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 瑞鳳の航空隊が活躍したの、やった。軽空母だって、頑張れば活躍できるのよ。
+|translation = I'm glad that my attack corps were able to contribute lots. I can play a large role even if I'm a light carrier.
+|audio = Zuihou-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = きゃ…飛行甲板は無事。
+|translation = Kyah... The flight deck is still fine.
+|audio = Zuihou-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|kai = yes
+|origin = いや、飛行甲板が…格納庫が…
+|translation = No, my flight deck is... my hangar is...
+|audio = ZuihouKai-MinorDamage1.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = 痛た…たたた。やるわね。
+|translation = Ow...owowow. Now you've done it.
+|audio = Zuihou-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|kai = yes
+|origin = 痛た…たたた。あんまりこの迷彩は役に立たないのかな。
+|translation = Ow...owowow. I wonder if this camouflage is of any use.
+|audio = ZuihouKai-MinorDamage2.mp3
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = やら…れた。あ…でも、エンガノ岬のようにはいかないん、だから。
+|translation = They... got me. Ah... But this won't go like Cape Engano.<ref>She was sunk during the [https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf Battle of Leyte Gulf] at the Battle of cape Engano.</ref>
+|audio = Zuihou-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 総員、退艦。また、沈むのね。祥鳳、また、会えるかな。
+|translation = All hands, abandon ship. I'm sinking again huh. I wonder if I can meet Shouhou again.
+|audio = Zuihou-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 日付が変わったよ、提督。
+|translation = The date has changed, Admiral.
+|audio = Zuihou-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = 現在時刻、マルヒトマルマル。
+|translation = The time is now 0100.
+|audio = Zuihou-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = 時刻はマルフタマルマル。眠くない？
+|translation = The time is now 0200. Aren't you sleepy?
+|audio = Zuihou-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = 提督、マルサンマルマルになりました。
+|translation = It's now 0300, Admiral.
+|audio = Zuihou-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = 時刻は…マルヨンマルマルよ。朝じゃないの。
+|translation = The time is... 0400. It's not morning yet.
+|audio = Zuihou-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = 現在時刻…マルゴマルマル…。とうとう朝になっちゃった。
+|translation = The time is now... 0500... It's finally morning now.
+|audio = Zuihou-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = マルロクマルマル。思い切り朝よ。
+|translation = 0600. It's really morning now.
+|audio = Zuihou-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = マルナナマルマルです。提督、朝ご飯作って?
+|translation = It's 0700. Are you making breakfast, Admiral?
+|audio = Zuihou-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = 時刻は、マルハチマルマルです。
+|translation = The time is now 0800.
+|audio = Zuihou-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = 現在時刻、マルキュウマルマルよ。一応直掩機飛ばしとく？
+|translation = The time is now 0900. Should send out the combat air patrols?
+|audio = Zuihou-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマルです。さあ、お仕事お仕事。
+|translation = It's 1000. Right, time to get to work.
+|audio = Zuihou-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマル。お弁当食べちゃう？
+|translation = 1100. Do you want to have a lunch box?
+|audio = Zuihou-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = お昼です！提督、お弁当広げましょう♪。私の作った玉子焼き食べる。
+|translation = It's luncht! Let's lay out the lunch box, Admiral♪ Have some of the omelette that I made.
+|audio = Zuihou-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = 午後の部です！ヒトサンマルマルよ。
+|translation = It's the afternoon now! It's 1300.
+|audio = Zuihou-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = 時刻は、ヒトヨンマルマルになりました。
+|translation = The time is now 1400.
+|audio = Zuihou-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = ヒトゴーマルマルよ。スイーツ食べたいな。ねぇ、提督♪。
+|translation = It's 1500. I want to eat some sweets. Hey, Admiral♪
+|audio = Zuihou-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = 時刻は、ヒトロク…マルマルですっ♪。
+|translation = The time is now 16... 00♪
+|audio = Zuihou-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = ヒトナナマルマルよ。そろそろ夜ね。
+|translation = It's 1700. It's almost night huh.
+|audio = Zuihou-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|kai2 = yes
+|origin = ヒトナナマルマルよ。見て見て、夕日！ねぇ、大好き。
+|translation = It's 1700. Look at the sunset! Hey, I love it.<ref>She's being coy here. What she says can both means she loves the sunset or she loves you.</ref>
+|audio = ZuihouKaiNi-1700.mp3
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = 日没です。ヒトハチマルマルよ。
+|translation = It's sunset. It's 1800.
+|audio = Zuihou-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトマルマ…あ、つまり、7時よ。日が暮れたわね。
+|translation = 100... Ah, I mean it's 7 o'clock. The sun has set.
+|audio = Zuihou-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = フタマルマルマル。お腹空かない？
+|translation = 2000. Aren't you hungry?
+|audio = Zuihou-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = 現在時刻、フタヒトマルマルよ。半舷上陸で飲みに行っちゃう？
+|translation = The time is now 2100. Want to take some shore leave and go drinking?
+|audio = Zuihou-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = 提督、フタフタマルマルです。今日も疲れたねぇ。えっ、疲れてないの？
+|translation = It's 2200, Admiral. Today was tiring too. Eh, you're not tired?
+|audio = Zuihou-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = 現在時刻、フタサンマルマル。ふ…ふぁ…あ…あ…早く寝て、早く起きようよ。
+|translation = The time is now 2300. *yaaaaaaaaaawn*... Early to bed, early to rise.
+|audio = Zuihou-23.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2014|Christmas 2014]]
+|origin =クリスマスですね。私もクリスマスっぽい卵焼き焼いてみたな！どう？
+|translation =	It's Christmas, isn't it? I tried to make Christmas themed tamagoyaki! How is it?
+|audio = Zuihou_christmas2014.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2015|New Year 2015]]
+|origin = 謹賀新年、あけましておめでとうございます。・・・あのっ・・・私の作った伊達巻・・・たべる？
+|translation =	I wish you a very Happy New Year. …Umm… Want to try… some of the datemaki I made?<ref>[https://en.wikipedia.org/wiki/Osechi Datemaki] is part of the traditional Japanese New Year spread. It is sweet rolled omelette mixed with fish paste or mashed shrimp.</ref>
+|audio = Zuihou_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2015|Setsubun 2015]]
+|origin =節分の季節ですね。一応、豆も炒っておきました。提督用の卵焼きも、万全です！
+|translation =	So it’s already the time for Setsubun. I’ve already roasted the beans. The omelette for the Admiral is also perfect!
+|audio = Zuihou_Setsubun_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin = 提督、今日は素敵な一日ですね。そんな日に、一緒に玉子焼き食べれて、よかったです！
+|translation =	Today is a wonderful day, Admiral. It’d be good if we could have omelettes together on a day like this.
+|audio = 112_Zuihou_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Autumn_2015_Seasonal_Update|Early Autumn 2015]]
+|origin = 提督、秋ですね。卵焼きもいいけど、焼き芋もいいですよね？焼き芋、焼いちゃう？
+|translation =	It’s autumn, Admiral. Omelette is fine but roasted sweet potato is nice too right? Shall we make some?
+|audio = Zuihou_Early_Autumn2015.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = 提督、あっという間に今年も年末です。一緒に大掃除かんばりましょ！私箒持ってきますね！
+|translation =	The year just flew by, Admiral. Let’s spring clean together! I’ll go get a broom!
+|audio = Zuihou_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = 提督、私が本気で作ったチョコレート…食べる？
+|translation =	Will you have some… of the chocolate I put my heart into, Admiral?
+|audio = Zuihou_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = えぇ、提督、これ私に？あぁ…チョコレートのお返しですか？ありがとうございます♪
+|translation =	Eh, is this for me, Admiral? Ah… in return for the chocolates? Thank you very much♪
+|audio = Zuihou_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 提督、三周年です、三周年！記念の卵焼き、はりきって沢山つくりますね！
+|translation =	It’s the 3rd Anniversary now, Admiral! I’ll do my best to make lots of Anniversary omelettes!
+|audio = Zuihou_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = 雨の日が多い。はぁ…梅雨の季節ですね。雨の鎮守府も、静かでいいですね。うふふ♪
+|translation =	So many rainy days. *Sigh*… It’s the rainy season. It’s nice how the rain makes the Naval Base peaceful.  Ufufu♪
+|audio = Zuihou_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_2016|Early Summer 2016]]
+|origin = 提督、少し暑くなってきましたね。夏が来ちゃうのかぁ？あぁ…水着、どうしよう…
+|translation =	It’s gotten a bit hotter, Admiral. Is it summer already? Ah… What’ll I do about my swimsuit… 
+|audio = Zuihou_Early_Summer_Sec1_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2016|Midsummer 2016]]
+|origin = 夏ですね。提督、一緒にかき氷はどう？私…いちごミルク！提督は？何味がお好き？
+|translation =	It’s summer. How about getting some shaved ice with me, Admiral? I’ll… have strawberry milk! What will you have, Admiral? What flavour do you like?
+|audio = Zuihou_Sec1_Midsummer_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2017|Spring 2017]]
+|origin = 提督、春ですね。やっぱり春はうきうきしちゃいます。春の新作卵焼き、食べる？
+|translation =	It’s spring, Admiral. Spring definitely makes me feel cheerful. Would you like to try my new springtime omelette? 
+|audio = Zuihou_Spring_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 提督、五周年です、五周年。記念の美味しい卵焼き、張り切っていっぱい焼きますね。提督、食べる？
+|translation =	It’s the 5th Anniversary, Admiral. I’ll work hard to make some delicious tamagoyaki to celebrate. Will you have some, Admiral?
+|audio = Zuihou_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2018|Summer 2018]]
+|origin = 提督、少し暑くなって来ましたね。夏が来ちゃうのかぁ。あぁ、水着どうしよう？
+|translation =	It's gotten a bit hotter, Admiral. I guess summer is coming. Ah, what should I do about a swimsuit?
+|audio = Zuihou_Summer_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = 提督、六周年です！六周年！お祝いの美味しい卵焼き、いっぱい、いっぱい作るから。提督、いっぱい食べる？
+|translation =	Admiral, it's the 6th Anniversary! It's here! I'm going to make lots and lots of delicious celebratory omelettes. Admiral, will you eat lots?
+|audio = Zuihou_6th_Anniversary_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = 提督、七周年！七周年です！美味しい、卵焼きのコツ。それは、愛情なんです。提督、知ってました？本当？
+|translation =	Admiral, it's the 7th Anniversary! It really is! The secret to delicious omelettes is love. Admiral, did you know that? You did?
+|audio = Zuihou_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = 提督、ついに八周年です。八周年。お祝いの玉子焼き、張り切ってたくさん作りました。提督、提督、たべりゅ？
+|translation =	Admiral, it's the 8th Anniversary. It really is. I worked really hard to make a ton of celebratory omelette. Admiral, Admiral, want some?
+|audio = Zuihou_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Eve of the Final Battle 2018]]
+|origin = いよいよ捷一号作戦。瑞鳳、も行ってきます。
+|translation =	It’s finally time for Operation Sho-1. I’ll be going too.
+|audio = Zuihou_Kantai_Kessen_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 瑞鳳、出撃準備、完了です。瑞鶴さん、いつでも！
+|translation =	I’ve completed preparations for sortie. I’m ready anytime, Zuikaku!
+|audio = Zuihou_Kantai_Kessen_2018_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 機動部隊本隊所属、瑞鳳、参ります！
+|translation =	Member of the Mobile Force Main Body, Zuihou, setting off!
+|audio = Zuihou_Kantai_Kessen_2018_JoinFleet.mp3
+|notes = Joining the Fleet
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = はい、瑞鳳もご一緒します、もちろん！
+|translation =	Yes, of course I’m coming along too!
+|audio = Zuihou_Kantai_Kessen_2018_Sortie.mp3
+|notes = Starting a Sortie
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 瑞鳳の艦爆隊、お願い！
+|translation =	I’m counting on you, my dive bomber squadrons!
+|audio = Zuihou_Kantai_Kessen_2018_Atk.mp3
+|notes = Attack
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = ぎゃあぁー！まだ、まだ沈まなったら！
+|translation =	Kyaaaah! I won’t, I won’t sink yet!
+|audio = Zuihou_Kantai_Kessen_2018_MinorDmg1.mp3
+|notes = Minor Damage 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Homecoming 2018]]
+|origin = 提督、ありがとうございます。瑞鳳も、帰ります。ありがとう。
+|translation =	Thank you very much, Admiral. I’ve come home too. Thank you.
+|audio = Zuihou_Homecoming_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Summer 2020 Event]]
+|origin = 行きます。瑞鳳航空隊、とれいぞ！いっけぇ〜！ 
+|translation =	Here I go. Zuihou squadrons, go get them! Goooo!
+|audio = Ship_Voice_Zuihou_Kai_Ni_B_Rainy-Summer_2020_Event_Friend_Fleet_1.mp3
+|notes = Friend Fleet 1
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+116_3.png|Base
+116_4.png|Base Damaged
+117_3.png|Kai
+117_4.png|Kai Damaged
+KanMusu355CG.png|Kai Ni
+KanMusu355CGDmg.png|Kai Ni Damaged
+KanMusu360CG.png|Kai Ni B
+KanMusu360CGDmg.png|Kai Ni B Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Zuihou_New_Year_2016.png|[[Seasonal/New_Year_2016|New Year 2016]]
+Zuihou_New_Year_2016_dmg.png|[[Seasonal/New_Year_2016|New Year 2016 Damaged]]
+Zuihou_Kai_New_Year_2016.png|[[Seasonal/New_Year_2016|Kai New Year 2016]]
+Zuihou_Kai_New_Year_2016_dmg.png|[[Seasonal/New_Year_2016|Kai New Year 2016 Damaged]]
+</gallery>
+|}
+
+== Drop Locations ==
+{{#invoke:ShipDropTable|returnShipDrop|Zuihou}}
+
+==Trivia==
+*Her name means "Auspicious Phoenix" like her sister [[Shouhou]].
+*The camo pattern of her upgraded model clothes refer to the actual flight deck camouflage pattern used during [http://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf Leyte Gulf] battle, the same pattern was used on [[Zuikaku]], [[Chitose]] and [[Chiyoda]].
+*Sunk by air attack during the [http://en.wikipedia.org/wiki/Battle_of_Cape_Enga%C3%B1o Battle of Cape Engaño], 25 October 1944
+
+==See Also==
+*[[Zuihou/Gallery|View Zuihou CG]]
+*[[EliteCVL|List of Light Carriers]]
+*[[wikipedia:Japanese aircraft carrier Zuihō|Wikipedia entry on carrier Zuihou]]
+{{shiplist}}

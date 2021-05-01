@@ -1,0 +1,295 @@
+==World 3-2: キス島沖 [[wikipedia:en:Kiska Island|The Kis Island]]==
+{{LabSortieworld
+| map = 3-2_Map.png
+| difficulty = ☆ ☆ ☆ ☆ ☆
+| item = {{ammo}} {{FBsmall}}
+| exp = 320
+| code = キス島撤退作戦 ([[wikipedia:Japanese_occupation_of_Kiska|Kis Island Withdrawal Tactics]])
+| jptext = 軽巡を旗艦とした水雷戦隊、または駆逐艦のみの艦隊で、敵包囲下の北方海域キス島に突入！島の守備隊を無事収容せよ！
+| entext = Using either a torpedo squadron with light cruiser as flagship or a fleet composed of only destroyers, charge the waters around Kis Island surrounded by the enemy! Take in the forces garrisoned on the island!
+| aircon = {{AirControlSystem
+| Map = 3-2
+| Fleet = CL 5DD
+| Route = Random<br/>C-G-H-F-L (Fast fleet)<br/>C-G-F-L (Fast or Fast+ fleet)<br/>C-E-F-L (Fast+ fleet)
+| AS = 0
+| Notes = 
+}}
+}}
+===Stage Guide===
+{{MapBranchingTable
+|title = 3-2 Branching Rules
+|id = 3-2
+|expand = true
+|0 -> A = * Do not meet the requirements to go to C.
+|0 -> C = 
+* Meet '''ANY''' of the following requirements:
+** Fleet contains (F)BB(V) or CV(L/B)
+** Amount of CL = 1 '''AND''' amount of DD ≥ 4
+** Amount of DD = 6
+
+|C -> A, E/empty, G/storm = 
+* Meeting '''ANY''' of the following '''FORCES''' you to A:
+** Amount of DD ≤ 3
+** Amount of (F)BB(V)+CV(B) ≥ 2
+*Go to G if fleet contains slow ship
+*Meet '''ALL''' of the following to go to E
+**Fleet contains 6 ships
+**'''Fastest''' Fleet
+**Fleet contains CL and DD only
+**4 ships carrying radars
+*The following affects your chances of going to E if you don't meet any of the above conditions
+** Fleet contains AO '''AND''' Fast Fleet, ~40% E, 60% G.
+** Fast+ Fleet, ~10% E, ~90% G.
+** Fastest Fleet, ~50% E, 50% G.
+* Otherwise, go to G.
+
+|E/empty -> D/empty, F/empty =
+* If fleet contains AO, ~25% D, ~75% F.
+* Otherwise, go to F.
+
+|G/storm -> F/empty, H, J = 
+* Meeting '''ANY''' of the following '''FORCES''' you to J:
+** Fleet contains CV(B) or SS(V)
+** Amount of (F)BB(V)+CV(L/B) ≥ 2
+* If Slow Fleet, go to H.
+*Meet '''ALL''' of the following to go to F
+**Fleet contains 6 ships
+**'''Fast+''' Fleet
+**Fleet contains CL and DD only
+**Fleet carries at least 1 radar
+* The following affects your chances of going to F if not meeting any of the above conditions
+** 6 DD, ~50% F, ~50% H.
+** 1CL + 5DD, ~30% F, ~70% H.
+** Fleet contains AO '''AND''' Fast Fleet, ~40% F, 60% H.
+* Otherwise, go to H.
+
+|H -> F/empty = * Amount of CL+DD+AO = 6
+|H -> I/resource = * Do not meet the requirements to go to F.
+}}
+
+===Tips===
+*All destroyers should be remodeled, equipped with double attack setup and have their stats maxed (with the exception of AA).
+*Use Line ahead in boss node.
+<br/>'''Standard Compositions'''
+*Each fleet composition below has a chance of avoiding Node H if specific conditions are met:
+**'''6 DD''' has a '''50% chance''' of avoiding '''Node H'''
+**'''1 CL 5 DD''' have a '''30% chance''' of avoiding '''Node H'''
+<br/>'''Speed Enhanced Compositions'''
+*By using equipment such as turbines and boilers, you can also avoid '''Node G and H''' (See [[Improving Ship Speed]] for additional details on how to improve your ships speed performance when considering the below options)
+** '''Fast+''' fleet that consists of '''1CL 5DD''' and is equipped with 1 Radar '''will always bypass node H'''
+** Using a Fleet of ships that can go '''Fastest''' will give them a 50% chance of avoiding going to '''Node G''' and instead take '''Node E'''
+*** Ships such as [[Shimakaze]] and [[Tashkent]] can easily reach fastest without lots of boilers, however all other DD will need 2 of New High Pressure, High Speed Boilers to achieve Fastest which can only be achieved through [[Amatsukaze]] or expensive engine improvements.
+**A Fast Fleet consisting of '''1 AO, 1 XX, 4 DD''' has a '''40% chance''' of avoiding '''node H''' and 40% chance of going to '''Node E'''
+
+<br/>'''Ammo Farming : 1 XX (as long as ship is not a (F)BB(V) or CV(L)(B)'''
+*This map makes it possible to farm ammo which you can earn anywhere between '''50-155 ammo'''. The process to gaining ammo is simple and it is recommended to use a '''throwaway ship''' to save on spending resources while completing the take.
+*The following steps must be taken to ensure this can be completed:
+** Equip throwaway ship with [[Repair Team]]
+** Send this to Node A and lose the battle
+** Select to use repair team onward.
+** Reach Node B and get ammo
+*'''NOTE:''' The [[Repair Team]] '''is not consumed''' while doing this process as this is the only battle you go through and your repair team is only consumed if you enter a 2nd fight. Since there is no 2nd fight, the repair team remains equipped on your throwaway ship.
+*Once complete, remove [[Repair Team]] from said ship and rinse and repeat as you gain ammo at an alarming rate.
+*'''Additional Note:''' '''This process will cause your Sortie Win/Lose Ratio to drop''' over time if you do not have a large sortie participation number. Please carefully consider doing this practice if you are relatively new as it could risk your chance in participating in  [[Events]] if your sortie % rate drops to below 75%.
+
+===Nodes And Enemy Encounters===
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = 敵北方遊撃任務部隊
+|A-1_node_info = cvl_nu-class_elite ca_ri-class_elite ca_ri-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|A-1_form = diamond
+|A-1_xp =
+|A-1_enemy_air_power = 24
+|A-2_node_info = ca_ri-class_elite ca_ri-class_elite ca_ri-class_elite cl_he-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|A-2_form = line_ahead
+|A-2_xp =
+|A-2_enemy_air_power =
+|A-3_node_info = cvl_nu-class_elite ca_ri-class_elite ca_ri-class_elite cl_he-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|A-3_form = diamond
+|A-3_xp =
+|A-3_enemy_air_power = 24
+|A-4_node_info = ca_ri-class_elite ca_ri-class_elite cl_he-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|A-4_form = line_ahead
+|A-4_xp =
+|A-4_enemy_air_power =
+|A-5_node_info = ca_ri-class_elite ca_ri-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|A-5_form = line_ahead
+|A-5_xp =
+|A-5_enemy_air_power =
+|A-6_node_info = ca_ri-class_elite ca_ri-class_elite cl_he-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|A-6_form = line_ahead
+|A-6_xp =
+|A-6_enemy_air_power =
+|
+|B_label = '''<span style="color:green">Resource Node</span>'''
+|B1_node_info = ammo + 50 150
+|
+|C_label = 敵北方水雷戦隊
+|C-1_node_info = cl_ho-class_flagship clt_chi-class_elite dd_ro-class_late_model dd_ro-class_late_model dd_ro-class dd_ro-class
+|C-1_form = line_ahead double_line
+|C-1_xp =
+|C-1_enemy_air_power =
+|C-2_node_info = clt_chi-class_elite clt_chi-class_elite clt_chi-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|C-2_form = double_line line_ahead
+|C-2_xp =
+|C-2_enemy_air_power =
+|C-3_node_info = cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model dd_ro-class dd_ro-class
+|C-3_form = double_line line_ahead
+|C-3_xp =
+|C-3_enemy_air_power =
+|
+|D_label = '''<span style="color:blue">Battle Avoided</span>'''
+|D1_node_info = "Must be my imagination" (battle avoided)
+|
+|E_label = '''<span style="color:blue">Battle Avoided</span>'''
+|E1_node_info = "Must be my imagination" (battle avoided)
+|
+|F_label = '''<span style="color:blue">Battle Avoided</span>'''
+|F1_node_info = "Must be my imagination" (battle avoided)
+|
+|G_label = '''<span style="color:purple">Maelstrom Node</span>'''
+|G1_node_info = fuel - ?
+|
+|H_label = 敵北方水上打撃艦隊
+|H-1_node_info = bb_ru-class_elite bb_ru-class_elite ca_ri-class_elite cl_he-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|H-1_form = echelon line_ahead
+|H-1_xp =
+|H-1_enemy_air_power =
+|H-2_node_info = bb_ru-class_elite ca_ri-class_elite ca_ri-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|H-2_form = line_ahead echelon
+|H-2_xp =
+|H-2_enemy_air_power =
+|H-3_node_info = bb_ru-class_elite ca_ri-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|H-3_form = echelon line_ahead
+|H-3_xp =
+|H-3_enemy_air_power =
+|
+|I_label = '''<span style="color:green">Resource Node</span>'''
+|I1_node_info = smallfurniture + 1
+|
+|J_label = 敵北方攻撃任務群 先遣護衛戦隊
+|J-1_node_info = ca_ri-class_flagship cl_ho-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|J-1_form = line_ahead
+|J-1_xp =
+|J-1_enemy_air_power =
+|J-2_node_info = cl_he-class_flagship cl_ho-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|J-2_form = line_ahead
+|J-2_xp =
+|J-2_enemy_air_power =
+|J-3_node_info = ca_ri-class_flagship ca_ri-class_flagship cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|J-3_form = line_ahead
+|J-3_xp =
+|J-3_enemy_air_power =
+|J-4_node_info = ca_ri-class_flagship cl_ho-class_flagship cl_ho-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|J-4_form = line_ahead
+|J-4_xp =
+|J-4_enemy_air_power =
+|J-5_node_info = ca_ri-class_flagship cl_he-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|J-5_form = line_ahead
+|J-5_xp =
+|J-5_enemy_air_power =
+|J-6_node_info = ca_ri-class_flagship cl_ho-class_flagship cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|J-6_form = line_ahead
+|J-6_xp =
+|J-6_enemy_air_power =
+|
+|K_label = 敵北方攻撃任務群 機動部隊
+|K-1_node_info = cv_wo-class_flagship cv_wo-class_flagship bb_ru-class_flagship bb_ru-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|K-1_form = diamond
+|K-1_xp =
+|K-1_enemy_air_power = 56
+|K-2_node_info = cv_wo-class_flagship cv_wo-class_flagship bb_ru-class_elite bb_ru-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|K-2_form = diamond
+|K-2_xp =
+|K-2_enemy_air_power = 56
+|K-3_node_info = cv_wo-class_flagship cv_wo-class_elite bb_ru-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|K-3_form = diamond
+|K-3_xp =
+|K-3_enemy_air_power = 55
+|K-4_node_info = cv_wo-class_flagship cv_wo-class_flagship bb_ru-class_flagship bb_ru-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|K-4_form = diamond
+|K-4_xp =
+|K-4_enemy_air_power = 56
+|K-5_node_info = cv_wo-class_flagship cv_wo-class_elite bb_ru-class_elite bb_ru-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|K-5_form = diamond
+|K-5_xp =
+|K-5_enemy_air_power = 55
+|K-6_node_info = cv_wo-class_elite cv_wo-class_elite bb_ru-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|K-6_form = diamond
+|K-6_xp =
+|K-6_enemy_air_power = 54
+|
+|L_label = 敵キス島包囲艦隊
+|L-1_node_info = cl_he-class_flagship cl_he-class_elite dd_ha-class_late_model dd_ha-class_late_model dd_ha-class_late_model transport_wa-class_elite
+|L-1_form = double_line line_ahead
+|L-1_xp =
+|L-1_enemy_air_power =
+|L-2_node_info = cl_he-class_flagship cl_ho-class_elite dd_ha-class_late_model dd_ha-class_late_model transport_wa-class transport_wa-class
+|L-2_form = line_ahead double_line
+|L-2_xp =
+|L-2_enemy_air_power =
+|L-3_node_info = cl_ho-class_flagship cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model transport_wa-class transport_wa-class
+|L-3_form = double_line line_ahead
+|L-3_xp =
+|L-3_enemy_air_power =
+|
+|final_form = 
+|boss_node = L
+}}
+
+===Drops===
+<div class="mw-customtoggle-3-2-drop globalbutton">Show/Hide Drops</div>
+{| id="mw-customcollapsible-3-2-drop" class="mw-collapsible mw-collapsed wikitable"
+!Node
+!Destroyer
+!Light Cruiser
+!Heavy Cruiser
+!Seaplane Tender
+!Aircraft Carrier
+!Submarine
+!Battleship
+|-
+|A
+|[[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Ayanami]], [[Shikinami]], [[Sazanami]], [[Ushio]], [[Suzukaze]], [[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Kagerou]], [[Shiranui]], [[Kuroshio]]
+|[[Kitakami]], [[Tenryuu]], [[Tatsuta]], [[Tama]], [[Kiso]], [[Isuzu]], [[Natori]], [[Yura]], [[Sendai]], [[Jintsuu]], [[Naka]]
+|[[Mogami]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Chikuma]]
+|[[Chitose]], [[Chiyoda]]
+|[[Souryuu]], [[Hiyou]], [[Jun'you]], [[Shouhou]]
+|
+|[[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
+|-
+|C
+|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Ayanami]], [[Suzukaze]], [[Asashio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kagerou]], [[Shiranui]], [[Kuroshio]]
+|[[Kitakami]], [[Tenryuu]], [[Tatsuta]], [[Tama]], [[Kiso]], [[Isuzu]], [[Natori]], [[Yura]], [[Sendai]], [[Naka]]
+|[[Mogami]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Chikuma]]
+|[[Chitose]], [[Chiyoda]]
+|[[Souryuu]], [[Jun'you]], [[Shouhou]]
+|
+|[[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
+|-
+|E
+|[[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Ayanami]], [[Suzukaze]], [[Ooshio]], [[Michishio]], [[Kagerou]], [[Shiranui]], [[Kuroshio]]
+|[[Kitakami]], [[Tenryuu]], [[Tatsuta]], [[Tama]], [[Nagara]], [[Natori]], [[Yura]], [[Sendai]]
+|[[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Chikuma]]
+|[[Chitose]], [[Chiyoda]]
+|[[Souryuu]], [[Jun'you]], [[Shouhou]]
+|
+|[[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
+|-
+|F
+|[[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Shikinami]], [[Suzukaze]], [[Asashio]], [[Kagerou]], [[Shiranui]], [[Kuroshio]]
+|[[Kitakami]], [[Tama]], [[Kiso]], [[Isuzu]], [[Yura]], [[Sendai]], [[Jintsuu]]
+|[[Mogami]], [[Ashigara]], [[Haguro]], [[Maya]], [[Choukai]], [[Chikuma]]
+|[[Chitose]]
+|[[Souryuu]], [[Hiyou]]
+|
+|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Yamashiro]]
+|-
+|'''<span style="color:red">H</span>'''
+|[[Yukikaze|'''<span style="color:red">Yukikaze</span>''']], [[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Asashio]], [[Ooshio]], [[Kagerou]], [[Kuroshio]], [[Naganami|'''<span style="color:red">Naganami</span>''']]
+|[[Ooi]], [[Kitakami]], [[Tenryuu]], [[Tatsuta]]
+|[[Mogami]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Chikuma]]
+|[[Chitose]], [[Chiyoda]]
+|[[Akagi]], [[Kaga]], [[Souryuu]], [[Ryuujou]], [[Hiyou]], [[Jun'you]], [[Shouhou]]
+|
+|[[Nagato|'''<span style="color:red">Nagato</span>''']], [[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
+|}

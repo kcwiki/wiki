@@ -1,0 +1,766 @@
+{{Ambox
+| text = Notice <br><br>This page is awaiting approval<br><br>The contents of this page may be lacking in either accuracy or certain requirements that are needed for overhaul. Please be aware that it was "imported" from another wiki. If you like the new proposed layout or if you dislike it, please make sure to use the [[Talk:Shop/Sandbox|Shop/Sandbox's talk page]]
+}}
+
+{| style="width:100%"
+|-
+| valign="top" |__TOC__
+| valign="top" |[[File:Shop_rendered.png|395px|right]]
+|}
+
+<div style="margin:20px 10px 30px; padding:10px; font-size:16px; background:#cfc; text-align:center; border:1px solid #5c5; font-weight:bold;">If you're looking to buy yourself some in-game items<br />using real money, see the new [[Shop/Purchasing|Purchasing Guide]].</div>
+==Introduction==
+The shop allows you to buy materials and consumables with DMM Points, and furniture with in-game furniture coins.
+===Limitations===
+Any item(s) exceeding the specified limits below '''cannot''' be stored. Beyond this you will not gain additional resources, consumables, etc even from [[Expeditions|expeditions]], sorties or wherever else specified:
+* '''Consumables''' such as {{IR}} Repair Buckets, {{IC}} Instant Construction, {{DM}} Development Materials or even [[File:Item Icon Improvement Material.png|25px]] Improvement Materials are capped at '''3,000'''.
+* Seasonal mini-events such as [[Naval District Saury Festival]] or [[Decoration Material]]. [[Saury]] were capped at '''99'''
+<!-- * Furniture coin boxes such as [[File:Item Icon Furniture Box (Small).png|25px]] , [[File:Item Icon Furniture Box (Medium).png|25px]] as well as [[File:Item Icon Furniture Box (Large).png|25px]] are hard capped at '''300'''. -->
+** For [[File:Item Icon Furniture Coin.png|25px|link=Furniture]] furniture coins you may wish to refer to the [[Shop#Furniture Shop|bottom of this page]].
+<!-- * ''For virtually all other items that has '''not been noted otherwise''' as such it is safe to assume that they are capped at '''999'''''. -->
+
+<tabber>Real Money Shop=
+{{#tag:tabber|Shop Pages=
+<div id="map1">
+<imagemap>
+Image:Shop Background Shop Pages.png|thumb|left|675px|Interactive map. Click on the icons to see more detail.
+rect 194 61 502 91 [[Shop#Resources]]
+rect 235 189 310 264 [[Shop#Fuel]]
+rect 385 189 460 264 [[Shop#Ammo]]
+rect 235 369 310 444 [[Shop#Steel]]
+rect 385 369 460 444 [[Shop#Bauxite]]
+rect 524 61 832 91 [[Shop#Consumables]]
+rect 565 189 640 264 [[Shop#FurnitureFairy]]
+rect 715 189 790 264 [[Shop#DevelopmentMaterial]]
+rect 565 369 640 444 [[Shop#InstantRepair]]
+rect 715 369 790 444 [[Shop#InstantConstruction]]
+rect 854 61 1162 91 [[Shop#RecommendedItems]]
+rect 895 189 970 264 [[Shop#RepairTeam]]
+rect 1045 189 1120 264 [[Shop#RepairGoddess]]
+rect 895 369 970 444 [[Shop#DockExtension]]
+rect 1045 369 1120 444 [[Shop#MixCorner1]]
+desc bottom-right
+</imagemap>
+</div>
+{{clear}}
+
+===Resources===
+{{{!}} border="0" cellpadding="1" cellspacing="1" class="article-table article-table-selected" style="width: 670px;"
+{{!}}-id="Resources"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Effect
+! scope="col" style="text-align: center;" {{!}}Price
+{{!}}-id="Fuel"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Fuel.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 250 fuel
+{{!}} style="text-align: center;" {{!}}100
+{{!}}-id="Ammo"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Ammo.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 250 ammo
+{{!}} style="text-align: center;" {{!}}100
+{{!}}-id="Steel"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Steel.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 200 steel
+{{!}} style="text-align: center;" {{!}}100
+{{!}}-id="Bauxite"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Bauxite.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 150 bauxite
+{{!}} style="text-align: center;" {{!}}100
+{{!}}}
+<div style = "text-align:right">[[#map1|back to map]]</div>
+{{clear}}
+
+===Consumables===
+{{{!}} border="0" cellpadding="1" cellspacing="1" class="article-table article-table-selected" style="width: 670px;"
+{{!}}-id="Consumables"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Effect
+! scope="col" style="text-align: center;" {{!}}Price
+{{!}}-id="FurnitureFairy"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Furniture Fairy.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 1 special order furniture worker (required for some furniture purchases).
+{{!}} style="text-align: center;" {{!}}300
+{{!}}-id="DevelopmentMaterial"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Development Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 7 development materials
+{{!}} style="text-align: center;" {{!}}400
+{{!}}-id="InstantRepair"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Instant Repair Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 6 instant repair buckets
+{{!}} style="text-align: center;" {{!}}300
+{{!}}-id="InstantConstruction"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Instant Construction Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 6 instant construction
+{{!}} style="text-align: center;" {{!}}300
+{{!}}}
+<div style = "text-align:right">[[#map1|back to map]]</div>
+{{clear}}
+
+===Recommended Items===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="RecommendedItems"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Effect
+! scope="col" style="text-align: center;" {{!}}Price
+{{!}}-id="RepairTeam"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Emergency Repair Personnel.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 1 [[Emergency Repair Personnel]]
+{{!}} style="text-align: center;" {{!}}200
+{{!}}-id="RepairGoddess"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Emergency Repair Goddess.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 1 [[Emergency Repair Goddess]]
+{{!}} style="text-align: center;" {{!}}500
+{{!}}-id="DockExtension"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Dock Expansion Set.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 1 key (permanently unlocks 1 repair dock OR 1 construction slot OR 1 [[Fleet Presets]] slot) and gives 6 development materials, 6 instant repairs, and 6 instant construction
+{{!}} style="text-align: center;" {{!}}1000
+{{!}}-id="MixCorner1"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon 88 Resource Set.png|50px]]<br>'''-OR-'''<br>[[File:Shop Icon White Day Cookies.png|50px]]
+{{!}} style="text-align: center;" {{!}}'''88 Resource Set'''<br>Gives 880 of each resource (Fuel, Steel, Ammo, Bauxite)<br>'''-OR-'''<br>'''White Day Cookies'''<br>Gives one Food Supply Ship Mamiya and 314 Steel, 314 Bauxite, as well as 2 Development material.
+{{!}} style="text-align: center;" {{!}}900<br>'''-OR-'''<br>500
+{{!}}}
+'''Please note that:'''
+* '''There is no warning when using the dock extension key. The key is used upon clicking on the repair dock or construction slot unlock button.'''
+* '''"White Day Cookies", "Cookies", etc appears around the usual White Day "maintenance periods". These are either usually unavailable or removed outside White Day.'''
+<div style = "text-align:right">[[#map1|back to map]]</div>
+{{clear}}
+
+{{!}}-{{!}}Special Corner=
+<div id="map2">
+<imagemap>
+Image:Shop Background Special Corner.png|thumb|left|675px|Interactive map. Click on the icons to see more detail.
+rect 210 61 1080 90 [[Shop#SpecialCorner]]
+rect 252 188 327 263 [[Shop#PortExtension]]
+rect 370 188 445 263 [[Shop#PapersandRing]]
+rect 488 188 563 263 [[Shop#BargainRscSet]]
+rect 606 188 681 263 [[Shop#FoodSet]]
+rect 724 188 799 263 [[Shop#FoodPack]]
+rect 852 188 917 263 [[Shop#ConstructCorps]]
+rect 960 188 1035 263 [[Shop#MoraleBooster]]
+rect 252 369 327 444 [[Shop#FuelPack]]
+rect 370 369 445 444 [[Shop#BauxitePack]]
+rect 488 369 563 444 [[Shop#BargainSortieSet]]
+rect 606 369 681 444 [[Shop#ImprovementPack]]
+rect 724 369 799 444 [[Shop#ReinforcementPack]]
+rect 852 369 917 444 [[Shop#SortieResupply]]
+rect 960 369 1035 444 [[Shop#EmergencyRepairMaterial]]
+desc bottom-right
+</imagemap>
+</div>
+
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="SpecialCorner"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Effect
+! scope="col" style="text-align: center;" {{!}}Price
+{{!}}-id="PortExtension"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Homeport Expansion.png|50px]]
+{{!}} style="text-align: center;" {{!}}Increases your ship capacity by 10 and your equipment capacity by 40
+(can only be bought up to however amount of ship slots available. Refer to [[Tutorial:_FAQ| this page]] under "Beginners" tab and "What does the admiral stats page show?" section.)
+{{!}} style="text-align: center;" {{!}}1000
+{{!}}-id="PapersandRing"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Marriage Ring and Documents.png|50px]]
+{{!}} style="text-align: center;" {{!}}
+A set of [[Marriage{{!}}marriage]] papers and ring that allows you to marry one level 99 ship of your choice, can be bought multiple times.
+{{!}} style="text-align: center;" {{!}}700
+{{!}}-id="BargainRscSet"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Discounted Arsenal Set.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 1500 steel, 200 ammo, 200 fuel, 200 bauxite and 3 development materials
+{{!}} style="text-align: center;" {{!}}700
+{{!}}-id="FoodSet"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Food Supply Ship Mamiya.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 1 Mamiya. See more at [[Morale/Fatigue#Food_Supply_Ship_.22Irako.22|Fatigue section under Morale]]
+{{!}} style="text-align: center;" {{!}}300
+{{!}}-id="FoodPack"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Food Supply Ship Irako.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 5 Irako. See more at [[Morale/Fatigue#Food_Supply_Ship_.22Irako.22|Fatigue section under Morale]]
+{{!}} style="text-align: center;" {{!}}1000
+{{!}}-id="MoraleBooster"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Combat Ration.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 3 Morale Boost support items
+{{!}} style="text-align: center;" {{!}}300
+{{!}}-id="ConstructCorps"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Construction Corps.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 1 [[Construction Corps]] item
+{{!}} style="text-align: center;" {{!}}800
+{{!}}-id="FuelPack"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Tanker Expropriation.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 1200 fuel
+{{!}} style="text-align: center;" {{!}}300
+{{!}}-id="BauxitePack"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Aluminium Mass Production.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 650 bauxite
+{{!}} style="text-align: center;" {{!}}300
+{{!}}-id="BargainSortieSet"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Discounted Sortie Set.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 500 fuel, 500 ammo, 200 steel and 3 instant repairs
+{{!}} style="text-align: center;" {{!}}300
+{{!}}-id="ImprovementPack"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Improvement Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 10 Improvement Materials
+{{!}} style="text-align: center;" {{!}}700
+{{!}}-id="ReinforcementPack"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Reinforcement Expansion.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 1 [[Reinforcement Expansion]] item
+{{!}} style="text-align: center;" {{!}}500
+{{!}}-id="SortieResupply"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Underway Replenishment.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 2 [[Underway Replenishment]] item
+{{!}} style="text-align: center;" {{!}}300
+{{!}}-id="EmergencyRepairMaterial"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Emergency Repair Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}Gives 3 [[Emergency Repair Material]] item and 800 steel
+{{!}} style="text-align: center;" {{!}}600
+{{!}}}
+<div style = "text-align:right">[[#map2|back to map]]</div>
+{{clear}}
+}}
+
+|-|Your Inventory=
+{{#tag:tabber|Item List<!--保有アイテム-->=
+Inventory can be accessed through this button:
+[[File:Inventory.png|left]]
+{{clear}}
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map3" style="position:relative;">[[File:Itempanel.png|link=]]
+{{Item|x-axis=47|y-axis=39|type=ring|link=Shop#Ring}}{{clear}}
+{{Item|x-axis=103|y-axis=39|type=medal|link=Shop#Medal}}{{clear}}
+{{Item|x-axis=159|y-axis=39|type=screws|link=Shop#Screws}}{{clear}}
+{{Item|x-axis=215|y-axis=39|type=irako|link=Shop#Irako}}{{clear}}
+{{Item|x-axis=271|y-axis=39|type=presentbox|link=Shop#PresentBox}}{{clear}}
+{{Item|x-axis=327|y-axis=39|type=chocolate|link=Shop#Chocolate}}{{clear}}
+{{Item|x-axis=382|y-axis=39|type=amedal|link=Shop#AMedal}}{{clear}}
+{{Item|x-axis=439|y-axis=39|type=ntablueprint|link=Shop#NTABlueprint}}{{clear}}
+{{Item|x-axis=47|y-axis=108|type=sbox|link=Shop#SBox}}{{clear}}
+{{Item|x-axis=103|y-axis=108|type=mbox|link=Shop#MBox}}{{clear}}
+{{Item|x-axis=159|y-axis=108|type=lbox|link=Shop#LBox}}{{clear}}
+{{Item|x-axis=215|y-axis=108|type=mamiya|link=Shop#Mamiya}}{{clear}}
+{{Item|x-axis=271|y-axis=108|type=blueprint|link=Shop#Blueprint}}{{clear}}
+{{Item|x-axis=327|y-axis=108|type=furniturefairy|link=Shop#Furniturefairy}}{{clear}}
+{{Item|x-axis=383|y-axis=108|type=hqpersonnel|link=Shop#HQPersonnel}}{{clear}}
+{{Item|x-axis=439|y-axis=108|type=punchhole|link=Shop#Punchhole}}{{clear}}
+{{Item|x-axis=47|y-axis=177|type=bucket|link=Shop#Bucket}}{{clear}}
+{{Item|x-axis=103|y-axis=177|type=burner|link=Shop#Burner}}{{clear}}
+{{Item|x-axis=159|y-axis=177|type=devmat|link=Shop#Devmat}}{{clear}}
+{{Item|x-axis=215|y-axis=177|type=dockext|link=Shop#Dockext}}{{clear}}
+{{Item|x-axis=271|y-axis=177|type=damecon|link=Shop#Damecon}}{{clear}}
+{{Item|x-axis=327|y-axis=177|type=damecongod|link=Shop#DameconGod}}{{clear}}
+{{Item|x-axis=383|y-axis=177|type=hishimochi|link=Shop#Hishimochi}}{{clear}}
+{{Item|x-axis=439|y-axis=177|type=saury|link=Shop#Seasonal}}{{clear}}
+{{Item|x-axis=47|y-axis=246|type=acepilot|link=Shop#AcePilot}}{{clear}}
+{{Item|x-axis=103|y-axis=246|type=protopult|link=Shop#Protopult}}{{clear}}
+{{Item|x-axis=159|y-axis=246|type=netypeengine|link=Shop#NeTypeEngine}}{{clear}}
+{{Item|x-axis=215|y-axis=246|type=cannedfish|link=Shop#CannedFish}}{{clear}}
+{{Item|x-axis=271|y-axis=246|type=onigiri|link=Shop#Onigiri}}{{clear}}
+{{Item|x-axis=327|y-axis=246|type=fueldrum|link=Shop#FuelDrum}}{{clear}}
+{{Item|x-axis=383|y-axis=246|type=constructcorps|link=Shop#ConstructionCorps}}{{clear}}
+<!--{{Item|x-axis=439|y-axis=246|type=saury|link=placeholder1}}{{clear}}-->
+</div>
+{{clear}}
+After clicking on an item, the right side pane contains the item's name, the quantity owned, and a description of the item. The blue button at the bottom, when applicable, will allow you to use the item.
+
+===Inventory Top Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Top_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="Ring"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Marriage Ring and Documents.png|50px]]
+{{!}} style="text-align: center;" {{!}}Marriage Ring and Documents
+{{!}} style="text-align: center;" {{!}}For the provisional [[Marriage]] system.
+{{!}}-id="Medal"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Medal.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Medal|Medals]]
+{{!}} style="text-align: center;" {{!}}Earned by clearing Extra Operation maps and Event maps. These can be exchanged for Remodel Blueprints or a pittance of materials.
+{{!}}-id="Screws"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Improvement Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}Improvement Materials
+{{!}} style="text-align: center;" {{!}}Used in [[Akashi's Improvement Arsenal]] once you've acquired [[Akashi]]
+{{!}}-id="Irako"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Food Supply Ship Irako.png|50px]]
+{{!}} style="text-align: center;" {{!}}Food Supply Ship Irako
+{{!}} style="text-align: center;" {{!}}Morale boosting desserts to boost ships to 'sparkling' status. Available *through some [[Quests]]. See more at [[Morale/Fatigue#Food_Supply_Ship_.22Irako.22|Morale/Fatigue]]
+{{!}}-id="PresentBox"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Present Box.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Present Box]]
+{{!}} style="text-align: center;" {{!}}Earned by clearing Extra Operation [[World_1#/1-6|1-6]].<br>Can be exchanged for resources.
+{{!}}-id="Chocolate"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Special Chocolate.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Seasonal/Valentines_2014|Valentine Chocolate]]
+{{!}} style="text-align: center;" {{!}}Reward for logging in from the 14-16th February.<br>Can be exchanged for resources.
+{{!}}-id="AMedal"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon First Class Medal.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Medal#First_Class_Medal|First Class Medal]]
+{{!}} style="text-align: center;" {{!}}Rewarded on completion of the final map of an event on hard difficulty, since [[Winter 2015 Event]].
+{{!}}-id="NTABlueprint"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon New Technology Aircraft Blueprint.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[New Technology Aircraft Blueprint]]
+{{!}} style="text-align: center;" {{!}}See main article: [[New Technology Aircraft Blueprint]]
+{{!}}}
+<div style = "text-align:right">[[#map3|back to map]]</div>
+
+===Inventory Second Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Second_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="SBox"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Furniture Box (Small).png|50px]]
+{{!}} style="text-align: center;" {{!}}Furniture Box (Small)
+{{!}} style="text-align: center;" {{!}}Contains 200 [[Furniture|Furniture Coins]]
+{{!}}-id="MBox"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Furniture Box (Medium).png|50px]]
+{{!}} style="text-align: center;" {{!}}Furniture Box (Medium)
+{{!}} style="text-align: center;" {{!}}Contains 400 [[Furniture|Furniture Coins]]
+{{!}}-id="LBox"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Furniture Box (Large).png|50px]]
+{{!}} style="text-align: center;" {{!}}Furniture Box (Large)
+{{!}} style="text-align: center;" {{!}}Contains 700 [[Furniture|Furniture Coins]]
+{{!}}-id="Mamiya"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Food Supply Ship Mamiya.png|50px]]
+{{!}} style="text-align: center;" {{!}}Food Supply Ship Mamiya
+{{!}} style="text-align: center;" {{!}}Morale boosting desserts to remove fatigue. Available through some [[Quests]]. See more at [[Morale/Fatigue#Food_Supply_Ship_.22Irako.22|Fatigue section under Morale]]
+{{!}}-id="Blueprint"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Remodel Blueprint.png|50px]]
+{{!}} style="text-align: center;" {{!}}Remodel Blueprints
+{{!}} style="text-align: center;" {{!}}Blueprints used for some ship's Second remodel. Costs 4 Medals.
+{{!}}-id="Furniturefairy"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Furniture Fairy.png|50px]]
+{{!}} style="text-align: center;" {{!}}Furniture Fairy
+{{!}} style="text-align: center;" {{!}}Special carpentry fairies for building certain [[Furniture]] items.
+{{!}}-id="HQPersonnel"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Headquarters Personnel.png|50px]]
+{{!}} style="text-align: center;" {{!}}Headquarters Personnel
+{{!}} style="text-align: center;" {{!}}Once consumed it permanently allows you to accept additional [[Quest|quest]] based on however many Headquarters Personnel you have consumed (e.g. If you have 1, you can accept 6 quests instead of 5). Reward upon completing [[Quests#D18|Quest D18]] & [[Quests#B134|Quest B134]].
+{{!}}-id="Punchhole"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Reinforcement Expansion.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Reinforcement Expansion]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Reinforcement Expansion]]
+{{!}}}
+<div style = "text-align:right">[[#map3|back to map]]</div>
+
+===Inventory Third Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Third_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="Bucket"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Instant Repair Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}Instant Repair Material
+{{!}} style="text-align: center;" {{!}}"Buckets" to restore ship HP to full instantly in the [[Docking|Docks]]
+{{!}}-id="Burner"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Instant Construction Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}Instant Construction Material
+{{!}} style="text-align: center;" {{!}}"Blowtorches" to instantly complete a ship construction in the dry dock.
+{{!}}-id="Devmat"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Development Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}Development Material
+{{!}} style="text-align: center;" {{!}}Item consumed when [[Construction|Constructing]] new ships or [[Development|Developing]] new equipment.
+{{!}}-id="Dockext"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Dock Opening Key.png|50px]]
+{{!}} style="text-align: center;" {{!}}Dock Key
+{{!}} style="text-align: center;" {{!}}Used to unlock additional repair docks and construction dry docks
+{{!}}-id="Damecon"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Emergency Repair Personnel.png|50px]]
+{{!}} style="text-align: center;" {{!}}Repair Team
+{{!}} style="text-align: center;" {{!}}Equipment used to prevent a ship sinking. See the [[Repair Team]] for details.
+{{!}}-id="DameconGod"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Emergency Repair Goddess.png|50px]]
+{{!}} style="text-align: center;" {{!}}Repair Goddess
+{{!}} style="text-align: center;" {{!}}Equipment used to prevent a ship sinking. See the [[Repair Goddess]] for details.
+{{!}}-id="Hishimochi"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Hishimochi.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Hishimochi]]
+{{!}} style="text-align: center;" {{!}}Drop from a previous seasonal mini-event.<br>Can be exchanged for resources.<br>{{color|red|All Hishimochi expired after the [[Hinamatsuri 2020 Mini-Event]].}}
+{{!}}-id="Seasonal"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Saury.png|50px]]<br>'''-OR-'''<br>[[File:Item Icon Decoration Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Saury]]<br>'''-OR-'''<br>[[Decoration Material]]
+{{!}} style="text-align: center;" {{!}}Seasonal item usually appears in this "slot" - usually related to seasonal mini-events.
+{{!}}}
+<div style = "text-align:right">[[#map3|back to map]]</div>
+
+===Inventory Bottom Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Bottom_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="AcePilot"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Skilled Crew Member.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Skilled Crew Member]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Aircraft Conversion]]
+{{!}}-id="Protopult"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Prototype Flight Deck Catapult.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Prototype Flight Deck Catapult]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Prototype Flight Deck Catapult]]
+{{!}}-id="NeTypeEngine"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Ne Type Engine.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Ne Type Engine]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Ne Type Engine]]
+{{!}}-id="CannedFish"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Canned Saury.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Canned Saury]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Saury]]
+{{!}}-id="Onigiri"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Combat Ration.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Combat Ration]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Combat Ration]]
+{{!}}-id="FuelDrum"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Underway Replenishment.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Underway Replenishment]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Underway Replenishment]]
+{{!}}-id="ConstructionCorps"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Construction Corps.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Construction Corps]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Construction Corps]]
+{{!}}-id="placeholder1"
+{{!}} style="text-align: center;" {{!}}
+{{!}} style="text-align: center;" {{!}}''Placeholder''
+{{!}} style="text-align: center;" {{!}}
+{{!}}}
+<div style = "text-align:right">[[#map3|back to map]]</div>
+
+{{!}}-{{!}}Extended Item List<!--拡張アイテム-->=
+{{clear}}
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map5" style="position:relative;">[[File:ExtendedItempanel.png|link=]]
+<!--{{Item|x-axis=39|y-axis=39|type=Placeholder10|link=placeholder10}}{{clear}}-->
+<!--{{Item|x-axis=95|y-axis=39|type=Placeholder11|link=Shop#placeholder11}}{{clear}}-->
+{{Item|x-axis=151|y-axis=39|type=actionreport|link=Shop#ActionReport}}{{clear}}
+{{Item|x-axis=39|y-axis=108|type=gunmountmats|link=Shop#GunMountMats}}{{clear}}
+{{Item|x-axis=95|y-axis=108|type=aerialmats|link=Shop#AerialMats}}{{clear}}
+{{Item|x-axis=151|y-axis=108|type=rocketmats|link=Shop#RocketMats}}{{clear}}
+{{Item|x-axis=39|y-axis=177|type=sonigiri|link=Shop#SOnigiri}}{{clear}}
+{{Item|x-axis=95|y-axis=177|type=damemat|link=Shop#DameMat}}{{clear}}
+{{Item|x-axis=151|y-axis=177|type=armamentmats|link=Shop#ArmamentMats}}{{clear}}
+{{Item|x-axis=39|y-axis=246|type=xmaspresentbox|link=Shop#XmasPresentBox}}{{clear}}
+<!--{{Item|x-axis=95|y-axis=246|type=Placeholder15|link=Shop#placeholder15}}{{clear}}-->
+<!--{{Item|x-axis=151|y-axis=246|type=Placeholder16|link=Shop#placeholder16}}{{clear}}-->
+</div>
+{{clear}}
+After clicking on an item, the right side pane contains the item's name, the quantity owned, and a description of the item. The blue button at the bottom, when applicable, will allow you to use the item.
+
+===Inventory Top Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Top_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="Placeholder10"
+{{!}} style="text-align: center;" {{!}}
+{{!}} style="text-align: center;" {{!}}''Placeholder''
+{{!}} style="text-align: center;" {{!}}
+{{!}}-id="Placeholder11"
+{{!}} style="text-align: center;" {{!}}
+{{!}} style="text-align: center;" {{!}}''Placeholder''
+{{!}} style="text-align: center;" {{!}}
+{{!}}-id="ActionReport"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Action Report.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Action Report]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Action Report]]
+{{!}}}
+<div style = "text-align:right">[[#map5|back to map]]</div>
+
+===Inventory Second Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Second_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="GunMountMats"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon New Model Gun Mount Improvement Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[New Model Gun Mount Improvement Material]]
+{{!}} style="text-align: center;" {{!}}See main article: [[New Model Gun Mount Improvement Material]]
+{{!}}-id="AerialMats"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon New Model Aerial Armament Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[New Model Aerial Armament Material]]
+{{!}} style="text-align: center;" {{!}}See main article: [[New Model Aerial Armament Material]]
+{{!}}-id="RocketMats"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon New Model Rocket Development Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[New Model Rocket Development Material]]
+{{!}} style="text-align: center;" {{!}}See main article: [[New Model Rocket Development Material]]
+{{!}}}
+<div style = "text-align:right">[[#map5|back to map]]</div>
+
+===Inventory Third Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Third_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="SOnigiri"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Combat Ration (Special Onigiri).png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Combat Ration (Special Onigiri)]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Combat Ration (Special Onigiri)]]
+{{!}}-id="DameMat"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Emergency Repair Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Emergency Repair Material]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Emergency Repair Material]]
+{{!}}-id="ArmamentMats"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon New Model Armament Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[New Model Armament Material]]
+{{!}} style="text-align: center;" {{!}}See main article: [[New Model Armament Material]]
+{{!}}}
+<div style = "text-align:right">[[#map5|back to map]]</div>
+
+===Inventory Bottom Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Bottom_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="XmasPresentBox"
+{{!}} style="text-align: center;" {{!}}[[File:Item Icon Xmas Select Gift Box.png|50px]]
+{{!}} style="text-align: center;" {{!}}Xmas Select Gift Box
+{{!}} style="text-align: center;" {{!}}Reward for logging in from the ~24-26 December.<br>Can be exchanged for valuable Equipment.<br>{{color|red|Expires mid-January.}}
+{{!}}-id="Placeholder15"
+{{!}} style="text-align: center;" {{!}}
+{{!}} style="text-align: center;" {{!}}''Placeholder''
+{{!}} style="text-align: center;" {{!}}
+{{!}}-id="Placeholder16"
+{{!}} style="text-align: center;" {{!}}
+{{!}} style="text-align: center;" {{!}}''Placeholder''
+{{!}} style="text-align: center;" {{!}}
+{{!}}}
+<div style = "text-align:right">[[#map5|back to map]]</div>
+
+<!--
+
+
+
+
+
+
+
+{{!}}-{{!}}Other=
+{{clear}}
+{|class="wikitable "  style="width:100%; font-size:12px; line-height:22px; margin:10px auto; 
+|-
+
+!colspan="5" style="font-size:14px; line-height:24px;"|Other Mini-Event Items
+|-
+
+!rowspan="2"|[[Spring 2018 Mini-Event|Spring 'Food' Mini-Event]]
+!colspan="1"|[[File:Item Icon Rice|size=50px|link=Spring_2018_Mini-Event#How_to_Obtain}}[[File:Item Icon Umeboshi|size=50px|link=Spring_2018_Mini-Event#How_to_Obtain}}[[File:Item Icon Nori|size=50px|link=Spring_2018_Mini-Event#How_to_Obtain}}[[File:Item Icon Tea|size=50px|link=Spring_2018_Mini-Event#How_to_Obtain}}
+|-
+!colspan="1"|[[File:Item Icon Houshou Dinner Ticket|size=50px|link=Spring_2018_Mini-Event#Food_Ingredients}}See main article: [[Spring 2018 Mini-Event]]
+|-
+!rowspan="1"|[[Setsubun]]
+!colspan="1"|[[File:Item Icon Setsubun Beans|size=50px|link=Setsubun}}
+|}
+{{clear}}
+
+
+
+
+
+
+
+
+-->
+{{!}}-{{!}}Purchased Items<!--購入済みアイテム-->=
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map4" style="position:relative;">[[File:購入済みアイテム_249.png|link=]]
+{{Item|x-axis=50|y-axis=68|type=p_fuel|link=Shop#p_Fuel}}{{clear}}
+{{Item|x-axis=106|y-axis=68|type=p_ammo|link=Shop#p_Ammo}}{{clear}}
+{{Item|x-axis=162|y-axis=68|type=p_steel|link=Shop#p_Steel}}{{clear}}
+{{Item|x-axis=252|y-axis=68|type=p_bauxite|link=Shop#p_Bauxite}}{{clear}}
+{{Item|x-axis=308|y-axis=68|type=p_damecon|link=Shop#p_Damecon}}{{clear}}
+{{Item|x-axis=365|y-axis=68|type=p_damecongod|link=Shop#p_Damecongod}}{{clear}}
+{{Item|x-axis=422|y-axis=68|type=p_onigiri|link=Shop#p_Onigiri}}{{clear}}
+{{Item|x-axis=50|y-axis=144|type=p_devmat|link=Shop#p_Devmat}}{{clear}}
+{{Item|x-axis=106|y-axis=144|type=p_burner|link=Shop#p_Burner}}{{clear}}
+{{Item|x-axis=162|y-axis=144|type=p_bucket|link=Shop#p_Bucket}}{{clear}}
+{{Item|x-axis=252|y-axis=144|type=p_bargainrsc|link=Shop#p_Bargainrsc}}{{clear}}
+{{Item|x-axis=308|y-axis=144|type=p_bargainsort|link=Shop#p_Bargainsort}}{{clear}}
+{{Item|x-axis=365|y-axis=144|type=p_dockext|link=Shop#p_Dockext}}{{clear}}
+{{Item|x-axis=422|y-axis=144|type=p_fueldrum|link=Shop#p_Fueldrum}}{{clear}}
+{{Item|x-axis=50|y-axis=218|type=p_880rscbundl|link=Shop#p_880Rscbundl}}{{clear}}
+{{Item|x-axis=106|y-axis=219|type=p_furniturefairy|link=Shop#p_Furniturefairy}}{{clear}}
+{{Item|x-axis=162|y-axis=219|type=p_fuelpack|link=Shop#p_Fuelpack}}{{clear}}
+{{Item|x-axis=252|y-axis=219|type=p_portexp|link=Shop#PortExtensions}}{{clear}}
+{{Item|x-axis=308|y-axis=219|type=p_mamiya|link=Shop#p_Mamiya}}{{clear}}
+{{Item|x-axis=365|y-axis=219|type=p_bauxitepack|link=Shop#p_Bauxitepack}}{{clear}}
+{{Item|x-axis=422|y-axis=219|type=p_punchhole|link=Shop#p_Punchhole}}{{clear}}
+{{Item|x-axis=50|y-axis=292|type=p_ring|link=Shop#PapersandRings}}{{clear}}
+{{Item|x-axis=106|y-axis=294|type=p_whitedaycookie|link=Shop#WhiteDayCookies}}{{clear}}
+{{Item|x-axis=162|y-axis=294|type=p_irako|link=Shop#p_Irako}}{{clear}}
+{{Item|x-axis=252|y-axis=294|type=p_screws|link=Shop#p_Screws}}{{clear}}
+{{Item|x-axis=308|y-axis=294|type=p_constructcorps|link=Shop#p_ConstructionCorps}}{{clear}}
+{{Item|x-axis=365|y-axis=294|type=p_damemat|link=Shop#p_DameMat}}{{clear}}
+<!--{Item|x-axis=422|y-axis=294|type=decorationmaterial|link=Shop#Placeholder24}}{{clear}}-->
+</div>
+{{clear}}
+
+===Inventory Top Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Top_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="p_Fuel"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Fuel.png|50px]]
+{{!}} style="text-align: center;" {{!}} Fuel
+{{!}} style="text-align: center;" {{!}} Gives 250 fuel upon consumption
+{{!}}-id="p_Ammo"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Ammo.png|50px]]
+{{!}} style="text-align: center;" {{!}} Ammo
+{{!}} style="text-align: center;" {{!}} Gives 250 fuel upon consumption
+{{!}}-id="p_Steel"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Steel.png|50px]]
+{{!}} style="text-align: center;" {{!}} Steel
+{{!}} style="text-align: center;" {{!}} Gives 200 steel upon consumption
+{{!}}-id="p_Bauxite"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Bauxite.png|50px]]
+{{!}} style="text-align: center;" {{!}} Bauxite
+{{!}} style="text-align: center;" {{!}} Gives 150 bauxite upon consumption
+{{!}}-id="p_Damecon"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Emergency Repair Personnel.png|50px]]
+{{!}} style="text-align: center;" {{!}} Repair Team
+{{!}} style="text-align: center;" {{!}} Gives 1 [[Repair Team]] upon consumption
+{{!}}-id="p_Damecongod"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Emergency Repair Goddess.png|50px]]
+{{!}} style="text-align: center;" {{!}} Repair Goddess
+{{!}} style="text-align: center;" {{!}} Gives 1 [[Repair Goddess]] upon consumption
+{{!}}-id="p_Onigiri"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Combat Ration.png|50px]]
+{{!}} style="text-align: center;" {{!}} [[Combat Ration|Combat Rations]]
+{{!}} style="text-align: center;" {{!}} Gives 3 [[Combat Ration|Combat Rations]] support items upon consumption
+{{!}}}
+<div style = "text-align:right">[[#map4|back to map]]</div>
+
+===Inventory Second Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Second_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="p_Devmat"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Development Material.png|50px]]
+{{!}} style="text-align: center;" {{!}} Development Materials
+{{!}} style="text-align: center;" {{!}} Gives 7 development materials upon consumption
+{{!}}-id="p_Burner"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Instant Construction Material.png|50px]]
+{{!}} style="text-align: center;" {{!}} Instant Construction
+{{!}} style="text-align: center;" {{!}} Gives 6 instant construction upon consumption
+{{!}}-id="p_Bucket"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Instant Repair Material.png|50px]]
+{{!}} style="text-align: center;" {{!}} Instant Repair
+{{!}} style="text-align: center;" {{!}} Gives 6 instant repair buckets upon consumption
+{{!}}-id="p_Bargainrsc"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Discounted Arsenal Set.png|50px]]
+{{!}} style="text-align: center;" {{!}} Bargain resources set
+{{!}} style="text-align: center;" {{!}} Gives 1500 steel, 200 ammo, 200 fuel, 200 bauxite and 3 development materials upon consumption
+{{!}}-id="p_Bargainsort"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Discounted Sortie Set.png|50px]]
+{{!}} style="text-align: center;" {{!}} Bargain sortie set
+{{!}} style="text-align: center;" {{!}} Gives 500 fuel, 500 ammo, 200 steel and 3 instant repairs upon consumption
+{{!}}-id="p_Dockext"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Dock Expansion Set.png|50px]]
+{{!}} style="text-align: center;" {{!}} Dock Expansion Set 
+{{!}} style="text-align: center;" {{!}} Gives 1 key (permanently unlocks 1 repair dock OR 1 construction slot OR 1 [[Fleet Presets]] slot) and gives 6 development materials, 6 instant repairs, as well as 6 instant construction upon consumption
+{{!}}-id="p_Fueldrum"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Underway Replenishment.png|50px]]
+{{!}} style="text-align: center;" {{!}} [[Underway Replenishment]]
+{{!}} style="text-align: center;" {{!}} Gives 2 [[Underway Replenishment]] upon consumption
+{{!}}}
+<div style = "text-align:right">[[#map4|back to map]]</div>
+
+===Inventory Third Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Third_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="p_880Rscbundl"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon 88 Resource Set.png|50px]]
+{{!}} style="text-align: center;" {{!}} 880 Resource bundle
+{{!}} style="text-align: center;" {{!}} Gives 880 of each resource (Fuel, Steel, Ammo, Bauxite)
+{{!}}-id="p_Furniturefairy"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Furniture Fairy.png|50px]]
+{{!}} style="text-align: center;" {{!}} Furniture Fairy
+{{!}} style="text-align: center;" {{!}} Gives 1 special order furniture worker (required for some furniture purchases) upon consumption
+{{!}}-id="p_Fuelpack"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Tanker Expropriation.png|50px]]
+{{!}} style="text-align: center;" {{!}} Fuel pack
+{{!}} style="text-align: center;" {{!}} Gives 1200 fuel upon consumption
+{{!}}-id="PortExtensions"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Homeport Expansion.png|50px]]
+{{!}} style="text-align: center;" {{!}} Port expansion set
+{{!}} style="text-align: center;" {{!}} Increases your ship capacity by 10 and your equipment capacity by 40 
+(can only be bought up to however amount of ship slots available. Refer to [[Tutorial:_FAQ| this page]] under "Beginners" tab and "What does the admiral stats page show?" section.)
+{{!}}-id="p_Mamiya" 
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Food Supply Ship Mamiya.png|50px]]
+{{!}} style="text-align: center;" {{!}} Mamiya
+{{!}} style="text-align: center;" {{!}} Gives 1 Mamiya. See more at [[Morale/Fatigue#Food_Supply_Ship_.22Irako.22|Fatigue section under Morale]]
+{{!}}-id="p_Bauxitepack"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Aluminium Mass Production.png|50px]]
+{{!}} style="text-align: center;" {{!}} Bauxite pack
+{{!}} style="text-align: center;" {{!}} Gives 550 bauxite upon consumption
+{{!}}-id="p_Punchhole"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Reinforcement Expansion.png|50px]]
+{{!}} style="text-align: center;" {{!}} Reinforcement slot
+{{!}} style="text-align: center;" {{!}} Gives 1 [[Reinforcement Expansion]] item upon consumption
+{{!}}}
+<div style = "text-align:right">[[#map4|back to map]]</div>
+
+===Inventory Bottom Row===
+{{{!}} class="article-table article-table-selected" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+{{!}}-id="Inventory_Bottom_Row"
+! scope="col" style="text-align: center;" {{!}}Icon
+! scope="col" style="text-align: center;" {{!}}Item Name
+! scope="col" style="text-align: center;" {{!}}Description
+{{!}}-id="PapersandRings"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Marriage Ring and Documents.png|50px]]
+{{!}} style="text-align: center;" {{!}} Marriage papers and wedding ring.
+{{!}} style="text-align: center;" {{!}} A set of [[Marriage{{!}}marriage]] papers and ring that allows you to marry the ship of your choice
+{{!}}-id="WhiteDayCookies"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon White Day Cookies.png|50px]]
+{{!}} style="text-align: center;" {{!}} White Day Cookies
+{{!}} style="text-align: center;" {{!}} Gives one Food Supply Ship Mamiya and 314 Steel, 314 Bauxite, as well as 2 Development material upon consumption
+{{!}}-id="p_Irako"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Food Supply Ship Irako.png|50px]]
+{{!}} style="text-align: center;" {{!}} Irako
+{{!}} style="text-align: center;" {{!}} Gives 5 Irako. See more at [[Morale/Fatigue#Food_Supply_Ship_.22Irako.22|Fatigue section under Morale]]
+{{!}}-id="p_Screws"
+{{!}} style="text-align: center;" {{!}} [[File:Shop Icon Improvement Material.png|50px]]
+{{!}} style="text-align: center;" {{!}} Improvement Pack
+{{!}} style="text-align: center;" {{!}} Gives 10 Improvement materials upon consumption
+{{!}}-id="p_ConstructionCorps"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Construction Corps.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Construction Corps]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Construction Corps]]
+{{!}}-id="p_DameMat"
+{{!}} style="text-align: center;" {{!}}[[File:Shop Icon Emergency Repair Material.png|50px]]
+{{!}} style="text-align: center;" {{!}}[[Emergency Repair Material]]
+{{!}} style="text-align: center;" {{!}}See main article: [[Emergency Repair Material]]
+{{!}}-id="Placeholder24"
+{{!}} style="text-align: center;" {{!}} 
+{{!}} style="text-align: center;" {{!}}''Placeholder''
+{{!}} style="text-align: center;" {{!}}
+{{!}}}
+<div style = "text-align:right">[[#map4|back to map]]</div>
+}}
+</tabber>
+
+==Furniture Shop==
+''See main article: [[Furniture]].''
+
+The furniture shop is where you can spend your furniture coins to purchase furniture that you can use to decorate your office. Some items of furniture require a '''Furniture Fairy''' which are rewards from a few quests and events, and can be bought with DMM points from the item shop.
+
+* {{FB}} '''Furniture coins'''
+** ''See main article: [[Furniture]]''.
+** Used for buying furniture for your HQ Office (game main screen background)
+** Is free, drops from some maps, and given regularly on quests
+** Maximum capacity of 200,000 coins. ''Please take note of this, especially when opening large amounts of furniture boxes.'' unopened furniture boxes do not contribute to this limit, but there are also some limits regarding how many furniture boxes you can store per type.
+
+* This [http://www54.atpages.jp/kancollem/kcoheya.php Furniture viewer] (JP) will allow you to preview many furniture items available in game.
+[[File:Furniture_shop.png|Furniture Shop|500px]]
+
+<!--
+==References==
+<references />
+-->

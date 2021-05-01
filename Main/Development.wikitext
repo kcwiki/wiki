@@ -1,0 +1,469 @@
+=Introduction=
+Development is accessible from the [[Arsenal]] menu. It allows you to build equipment. Note that only some equipment is available through development. The majority of equipment are ship girl default equipment, results of [[Improvement]] upgrades, event-only or ranking-only. See [[#Unbuildable Equipment|below]] for details.
+
+For a more comprehensive list of construction recipes and rates, please see [https://db.kcwiki.org/development/ PoiDB's] or [https://tsundb.kc3.moe/development/pools TsunDB's] development pages. The latter sorts by equipment, the former sorts by flagship type and primary resource.
+
+=Overview=
+Recipes range from 10-300 Fuel {{Fuel}}, Ammo {{Ammo}}, Steel {{Steel}} and Bauxite {{Bauxite}}. Each '''successful''' development costs 1 development material {{DM}}. The rarity of the equipment obtained depends on the recipe used. The type of equipment obtained depends on the recipe used and the ship girl that is used as the secretary. You are able to craft '''three equipment at once''' by using the '''Concentrated Development (集中開発)''' toggle.
+
+===Development Notes===
+
+* Based on data, development recipes appear to be 10 times the equipment's scrap value.
+* You will need the correct secretary ship type to craft specific equipment.
+** The secretary ship need not necessarily be capable of equipping the equipment.
+* When developing equipment, the resource(s) you choose to spend the most determines which crafting table the game pulls the result from. If there's a tie, Fuel/Steel (same table) has the highest priority, followed by the Ammo table, and then Bauxite table.
+**For example, [[Type 0 Observation Seaplane]] has a scrap value of 1 Fuel, 1 Ammo and 2 Bauxite, so in theory it could be created by the 10/10/10/20 recipe. However, the Type 0 Obs is on the Fuel/Steel table, the minimum recipe for the development of such planes is therefore either 20/10/10/20 or 10/10/20/20.
+* HQ level factors into development. You will need at least '''HQ level 10x the rarity''' of the equipment. I.e. HQ30+ to craft 3★ equipment.
+
+=Buildable Equipment=
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|+ Drops
+|-
+!style="text-align: center;  border-radius: 6px 0 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Equipment Type
+!style="text-align: center;  border-radius: 0 6px 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+|style="text-align: center;" rowspan="3"| Main Gun
+|style="text-align: center;" | Small Caliber
+|[[12cm Naval Gun]]{{·}}[[12.7cm Twin Gun Mount]]{{·}}[[10cm Twin High-angle Mount]]
+|-
+|style="text-align: center;" | Medium Caliber
+|[[14cm Naval Gun]]{{·}}[[15.5cm Triple Gun Mount (Main)]]{{·}}[[20.3cm Twin Gun Mount]]{{·}}[[15.2cm Twin Gun Mount]]
+|-
+|style="text-align: center;" | Large Caliber
+|[[35.6cm Twin Gun Mount]]{{·}}[[41cm Twin Gun Mount]]{{·}}[[46cm Triple Gun Mount]]
+|-
+|style="text-align: center;" colspan="2"| Secondary Gun
+|[[12.7cm Twin High-angle Mount]]{{·}}[[15.2cm Naval Gun]]{{·}}[[15.5cm Triple Gun Mount (Secondary)]]{{·}}[[8cm High-angle Mount]]
+|-
+|style="text-align: center;" colspan="2"| Anti-Air Gun
+|[[7.7mm Machine Gun]]{{·}}[[12.7mm Machine Gun]]{{·}}[[25mm Twin Autocannon Mount]]{{·}}[[25mm Triple Autocannon Mount]]{{·}}[[25mm Single Autocannon Mount]]
+|-
+|style="text-align: center;" colspan="2"| Anti-Air Fire Director
+|[[Type 91 Anti-Aircraft Fire Director]]
+|-
+|style="text-align: center;" colspan="2"| Torpedoes
+|[[61cm Triple Torpedo Mount]]{{·}}[[61cm Quad Torpedo Mount]]{{·}}[[61cm Quad (Oxygen) Torpedo Mount]]
+|-
+|style="text-align: center;" rowspan="4"| Carrier-based Plane
+|style="text-align: center;" | Fighters
+|[[Type 96 Fighter]]{{·}}[[Zero Fighter Type 21]]{{·}}[[Zero Fighter Type 52]]{{·}}[[Prototype Reppuu Late Model]]{{·}}[[Shiden Kai 2]]{{·}}[[Zero Fighter Type 32]]
+|-
+|style="text-align: center;" | Torpedo Bombers
+|[[Type 97 Torpedo Bomber]]{{·}}[[Tenzan]]{{·}}[[Ryuusei]]{{·}}[[Ryuusei Kai]]
+|-
+|style="text-align: center;" | Dive Bombers
+|[[Type 99 Dive Bomber]]{{·}}[[Suisei]]{{·}}[[Suisei Model 12A]]{{·}}[[Zero Fighter Type 62 (Fighter-bomber)]]
+|-
+|style="text-align: center;" | Reconnaissance
+|[[Saiun]]{{·}}[[Type 2 Recon Aircraft]]
+|-
+|style="text-align: center;" colspan="2"| Land-Based Plane
+|[[Type 96 Land Attacker]]
+|-
+|style="text-align: center;" rowspan="2"| Seaplane
+|style="text-align: center;" | Reconnaisance
+|[[Type 0 Recon Seaplane]]{{·}}[[Type 0 Observation Seaplane]]{{·}}[[Ro.43 Recon Seaplane]]
+|-
+|style="text-align: center;" | Bomber
+|[[Zuiun (Auspicious Clouds)]]
+|-
+|style="text-align: center;" rowspan="2"| RADAR
+|style="text-align: center;" | Small
+|[[Type 13 Air RADAR]]{{·}}[[Type 22 Surface RADAR]]{{·}}[[Type 33 Surface RADAR]] 
+|-
+|style="text-align: center;" | Large
+|[[Type 32 Surface RADAR]]{{·}}[[Type 42 Air RADAR]]{{·}}[[Type 21 Air RADAR]]
+|-
+|style="text-align: center;" colspan="2"| Depth Charge
+|[[Type 94 Depth Charge]]{{·}}[[Type 3 Depth Charge]]
+|-
+|style="text-align: center;" colspan="2"| SONAR
+|[[Type 93 SONAR]]{{·}}[[Type 3 SONAR]]
+|-
+|style="text-align: center;" colspan="2"| Turbine/Boiler
+|[[Improved Steam Turbine]]{{·}}[[Enhanced Steam Boiler]]
+|-
+|style="text-align: center;" colspan="2"| Shell
+|[[Type 3 Shell]]{{·}}[[Type 91 Armor-Piercing (AP) Shell]]
+|-
+|style="text-align: center;" colspan="2"| Bulge
+|[[Anti-torpedo Bulge (Medium)]]{{·}}[[Anti-torpedo Bulge (Large)]]
+|-
+|style="text-align: center;" colspan="2"| Miscellaneous
+|[[Type A Ko-hyoteki]]{{·}}[[Drum Canister]]
+|-
+|}
+
+=Unbuildable Equipment=
+
+Note that some equipment can appear on more than one list. The lists below do not include buildable equipment. Note that buildable equipment can also be obtained as stock equipment, quests or improvement upgrades. Please refer to the individual equipment pages to find a more detailed list of where to obtain them.
+
+<tabber>Stock equipment=
+These equipment are obtainable as ship girl stock equipment. Equipment marked in '''bold''' are from event-only ships.
+
+{| class="mw-collapsible wikitable" style="width:100%;"
+|-
+!style="text-align: center;  border-radius: 6px 0 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Equipment Type
+!style="text-align: center;  border-radius: 0 6px 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+|style="text-align: center;" rowspan="3"| Main Gun
+|style="text-align: center;" | Small Caliber
+|[[12.7cm High-angle Mount]]{{·}}[[12.7cm Twin Mount Type-B Kai 2]]{{·}}[[12.7cm Twin High-Angle Mount (Late Model)]]{{·}}'''[[10cm Twin High-angle Mount + Anti-Aircraft Fire Director]]'''{{·}}[[12.7cm Naval Gun]]{{·}}[[120mm Twin Gun Mount]]{{·}}[[12.7cm Twin Mount Type-C Kai 2]]{{·}}[[12.7cm Twin Mount Type-D Kai 2]]{{·}}'''[[130mm B-13 Twin Gun Mount]]'''{{·}}'''[[QF 4.7inch Gun Mk.XII Kai]]'''{{·}}[[12.7cm Single High-angle Gun Mount (Late Model)]]{{·}}'''[[5inch Naval Gun Mk.30]]'''{{·}}'''[[5inch Single Gun Mount Mk.30 Kai]]'''
+|-
+|style="text-align: center;" | Medium Caliber
+|[[20.3cm(no.2) Twin Gun Mount]]{{·}}[[20.3cm(no.3) Twin Gun Mount]]{{·}}[[14cm Twin Gun Mount]]{{·}}'''[[SKC34 20.3cm Twin Cannon]]'''{{·}}[[203mm / 53 Twin Gun Mount]]{{·}}'''[[Bofors 15.2cm Twin Gun Mount Model 1930]]'''{{·}}'''[[14cm Twin Gun Mount Kai]]'''{{·}}'''[[152mm/55 Triple Rapid Fire Gun Mount]]'''{{·}}'''[[152mm/55 Triple Rapid Fire Gun Mount Kai]]'''
+|-
+|style="text-align: center;" | Large Caliber
+|[[38cm Twin Gun Mount]]{{·}}[[35.6cm Twin Gun Mount (Dazzle Camouflage)]]{{·}}[[Prototype 41cm Triple Gun Mount]]{{·}}[[38cm Twin Gun Mount Kai]]{{·}}[[Prototype 51cm Twin Gun Mount]]{{·}}'''[[381mm / 50 Triple Gun Mount]]'''{{·}}'''[[381mm / 50 Triple Gun Mount Kai]]'''{{·}}'''[[16in Triple Gun Mount Mk.7]]'''{{·}}'''[[38.1cm Mk.I Twin Gun Mount]]'''{{·}}'''[[30.5cm Triple Gun Mount]]'''{{·}}'''[[30.5cm Triple Gun Mount Kai]]'''{{·}}'''[[38cm Quad Gun Mount]]'''{{·}}'''[[38cm Quad Gun Mount Kai]]'''{{·}}'''[[16inch Mk.I Triple Gun Mount]]'''{{·}}'''[[16inch Mk.I Triple Gun Mount + AFCT Kai]]'''{{·}}[[35.6cm Twin Gun Mount Kai]]{{·}}'''[[16inch Mk.I Twin Gun Mount]]'''{{·}}'''[[16inch Mk.V Twin Gun Mount]]'''
+|-
+|style="text-align: center;" colspan="2"| Secondary Gun
+|[[10cm Twin High-angle Carriage Mount]]{{·}}[[15cm Twin Gun Mount]]{{·}}'''[[10.5cm Twin Gun Mount]]'''{{·}}'''[[90mm Single High Angled Gun]]'''{{·}}'''[[OTO 152mm Triple Rapid Gun Mount]]'''{{·}}'''[[5inch Twin Gun Mount Mk.28 mod.2]]'''{{·}}'''[[15.2cm Triple Gun Mount]]'''{{·}}[[10cm Twin High-angle Gun Mount Kai + Additional Machine Guns]]
+|-
+|style="text-align: center;" colspan="2"| Anti-Air Gun
+|[[12cm 30-tube Rocket Launcher]]{{·}}[[2cm Flakvierling 38]]{{·}}[[3.7cm FlaK M42]]{{·}}[[BI-type 40mm Twin Machine Gun]]{{·}}[[25mm Triple Autocannon Mount (Concentrated Deployment)]]{{·}}'''[[Bofors 40mm Quad Twin Autocannon Mount]]'''{{·}}'''[[QF 2-pounder Octuple "Pom Pom" Naval Gun Mount]]'''{{·}}[[20 Tube 7 Inch UP Rocket Launcher]]
+|-
+|style="text-align: center;" colspan="2"| Anti-Air Fire Director
+|[[Type 94 Anti-Aircraft Fire Director]]
+|-
+|style="text-align: center;" colspan="2"| Torpedoes
+|[[61cm Quint (Oxygen) Torpedo Mount]]{{·}}[[61cm Triple (Oxygen) Torpedo Mount]]{{·}}'''[[Prototype FaT Type 95 Oxygen Torpedo Kai]]'''{{·}}[[53cm Twin Torpedo Mount]]{{·}}'''[[533mm Triple Torpedo Mount]]'''{{·}}'''[[533mm Quintuple Torpedo Mount (Initial Model)]]'''
+|-
+|style="text-align: center;" rowspan="3"| Carrier-based Plane
+|style="text-align: center;" | Fighters
+|[[Zero Fighter Type 21 (Skilled)]]{{·}}[[Zero Fighter Type 52 Model C (601 Air Group)]]{{·}}'''[[Bf109 T Kai]]'''{{·}}'''[[Fw190 T Kai]]'''{{·}}'''[[Type 96 Fighter Kai]]'''{{·}}'''[[Re. 2001 OR Kai]]'''{{·}}'''[[F4F-3]]'''{{·}}'''[[F4F-4]]'''{{·}}'''[[F6F-3]]'''{{·}}'''[[Fulmar]]'''
+|-
+|style="text-align: center;" | Torpedo Bombers
+|[[Type 97 Torpedo Bomber (931 Air Group)]]{{·}}'''[[Tenzan (931 Air Group)]]'''{{·}}[[Type 97 Torpedo Bomber (Tomonaga Squadron)]]{{·}}[[Type 97 Torpedo Bomber (Skilled)]]{{·}}[[Tenzan (601 Air Group)]]{{·}}'''[[Ryuusei (601 Air Group)]]'''{{·}}'''[[Re. 2001 G Kai]]'''{{·}}'''[[Swordfish]]'''{{·}}'''[[TBD]]'''{{·}}'''[[TBF]]'''
+|-
+|style="text-align: center;" | Dive Bombers
+|'''[[Ju 87C Kai]]'''{{·}}[[Type 99 Dive Bomber (Skilled)]]{{·}}[[Type 99 Dive Bomber (Egusa Squadron)]]{{·}}[[Suisei (601 Air Group)]]{{·}}[[SBD]]{{·}}'''[[Skua]]'''{{·}}'''[[F4U-1D]]'''{{·}}'''[[FM-2]]'''{{·}}[[Suisei Model 22 (634 Air Group)]]{{·}}'''[[Ju 87C Kai Ni (w/ KMX)]]'''
+|-
+|style="text-align: center;" rowspan="4"| Seaplane
+|style="text-align: center;" | Reconnaisance
+|[[Type 98 Recon Seaplane (Night Scout)]]{{·}}[[Ar196 Kai]]{{·}}'''[[OS2U]]'''{{·}}[[Type 0 Recon SeaPlane Model 11 B]]{{·}}'''[[S9 Osprey]]'''
+|-
+|style="text-align: center;" | Bomber
+|[[Prototype Seiran]]{{·}}[[Zuiun (634 Air Group)]]{{·}}[[Zuiun Model 12]]{{·}}'''[[Laté 298B]]'''
+|-
+|style="text-align: center;" | Flying Boat
+|[[Type 2 Flying Boat]]
+|-
+|style="text-align: center;" | Fighter
+|[[Ro.44 Seaplane Fighter]]
+|-
+|style="text-align: center;" colspan="2"| Autogyro/Helicopter
+|[[Ka-type Observation Autogyro]]{{·}}[[Type 3 Spotter/Liaison (ASW)]]
+|-
+|style="text-align: center;" rowspan="3"| RADAR
+|style="text-align: center;" | Small
+|[[Type 22 Surface RADAR Kai 4]]{{·}}[[Type 13 Air RADAR Kai]]{{·}}'''[[SG Radar (Initial Model)]]'''
+|-
+|style="text-align: center;" | Large
+|[[Type 21 Air RADAR Kai]]{{·}}'''[[FuMO25 RADAR]]'''{{·}}[[15m Duplex Rangefinder + Type 21 RADAR Kai 2]]
+|-
+|style="text-align: center;" | Special
+|'''[[Submarine Radar and Waterproof Periscope]]'''
+|-
+|style="text-align: center;" colspan="2"| Depth Charge
+|[[Type 95 Depth Charge]]{{·}}'''[[Type 2 12cm Mortar Kai]]'''
+|-
+|style="text-align: center;" colspan="2"| SONAR
+|'''[[Type124 ASDIC]]'''{{·}}'''[[Type144/147 ASDIC]]'''
+|-
+|style="text-align: center;" colspan="2"| Turbine/Boiler
+|[[New High Pressure-Temperature Steam Boiler]]
+|-
+|style="text-align: center;" colspan="2"| Landing Craft
+|[[Daihatsu-class Landing Craft]]
+|-
+|style="text-align: center;" colspan="2"| Bulge
+|'''[[Pugliese-Type Underwater Bulkhead]]'''{{·}}[[Arctic camouflage (+ Arctic equipment)]]
+|-
+|style="text-align: center;" colspan="2"| Searchlight
+|[[Searchlight]]
+|-
+|style="text-align: center;" colspan="2"| Miscellaneous
+|[[Ship Repair Facility]]{{·}}[[Star Shell]]{{·}}[[Fleet Command Facility]]{{·}}'''[[WG42 (Wurfgerät 42)]]'''{{·}}[[Skilled Lookouts]]{{·}}[[Maritime Resupply]]
+|-
+|}<references/>
+
+{{Clear}}
+
+|-|Quest reward=
+These equipment are obtainable through [[Quests]]. Equipment marked in '''bold''' are available from repeatable quests.
+
+{| class="mw-collapsible wikitable" style="width:100%;"
+|-
+!style="text-align: center;  border-radius: 6px 0 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Equipment Type
+!style="text-align: center;  border-radius: 0 6px 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+|style="text-align: center;" rowspan="2"| Main Gun
+|style="text-align: center;" | Small Caliber
+|border-style: solid; border-width: 1px;" | [[12.7cm Twin Mount Type-B Kai 2]]{{·}}[[12.7cm Twin High-Angle Mount (Late Model)]]{{·}}'''[[12.7cm Twin Mount Type-C Kai 2]]'''<ref>Obtained at +3.</ref>{{·}}[[12.7cm Twin Mount Type-D Kai 2]]{{·}}[[12.7cm Single High-angle Gun Mount (Late Model)]]{{·}}'''[[12.7cm Twin Mount Type-A Kai 3 (Wartime Modifications) + Anti-Aircraft Fire Director]]'''{{·}}[[12.7cm Twin Mount Type-B Kai 4 (Wartime Modifications) + Anti-Aircraft Fire Director]]
+|-
+|style="text-align: center;" | Large Caliber
+|[[Prototype 35.6cm Triple Gun Mount]]{{·}}[[Prototype 46cm Twin Gun Mount]]{{·}}[[41cm Triple Gun Mount Kai Ni]]{{·}}[[41cm Twin Gun Mount Kai 2]]{{·}}[[35.6cm Twin Gun Mount Kai Ni]]
+|-
+|style="text-align: center;" colspan="2"| Secondary Gun
+|[[8cm Twin High-angle Mount + Additional Machine Guns]]{{·}}[[10cm Twin High-angle Gun Mount Kai + Additional Machine Guns]]
+|-
+|style="text-align: center;" colspan="2"| Anti-Air Gun
+|'''[[12cm 30-tube Rocket Launcher]]'''{{·}}[[25mm Triple Autocannon Mount (Concentrated Deployment)]]{{·}}[[12cm 30 Tube Rocket Launcher Kai 2]]
+|-
+|style="text-align: center;" colspan="2"| Anti-Air Fire Director
+|[[Type 91 Anti-Aircraft Fire Director]]
+|-
+|style="text-align: center;" colspan="2"| Torpedoes
+|[[53cm Submarine Bow Torpedo Mount (8 tubes)]]{{·}}[[Prototype 61cm Sextuple (Oxygen) Torpedo Mount]]{{·}}[[Late Model Bow Torpedo Mount (6 Tubes)]]{{·}}[[61cm Quad (Oxygen) Torpedo Mount Late Model]]
+|-
+|style="text-align: center;" rowspan="5"| Carrier-based Plane
+|style="text-align: center;" | Fighters
+|[[Reppuu Model 11]]{{·}}'''[[Zero Fighter Type 21 (Skilled)]]'''{{·}}[[Reppuu (601 Air Group)]]{{·}}'''[[Zero Fighter Type 52 (Skilled)]]'''{{·}}[[Zero Fighter Type 52 Model C (Iwai Squadron)]]{{·}}[[Zero Fighter Type 21 (Iwamoto Squadron)]]{{·}}[[Zero Fighter Type 52 Model A (Iwamoto Squadron)]]{{·}}[[Zero Fighter Type 53 (Iwamoto Squadron)]]{{·}}'''[[Zero Fighter Type 32 (Skilled)]]'''{{·}}[[F6F-3N]]{{·}}[[F6F-5N]]
+|-
+|style="text-align: center;" | Torpedo Bombers
+|[[Tenzan Model 12 (Tomonaga Squadron)]]{{·}}[[Type 97 Torpedo Bomber (Murata Squadron)]]{{·}}[[Tenzan Model 12 (Murata Squadron)]]{{·}}[[Ryuusei Kai (CarDiv 1)]]{{·}}[[Ryuusei Kai (CarDiv 1/Skilled)]]{{·}}[[TBM-3D]]
+|-
+|style="text-align: center;" | Dive Bombers
+|[[Ju 87C Kai]]{{·}}[[Suisei (Egusa Squadron)]]{{·}}[[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)]]{{·}}[[Type 0 Fighter Model 63 (Fighter-bomber)]]{{·}}[[F4U-1D]]{{·}}[[Suisei Model 22 (634 Air Group)]]{{·}}[[Suisei Model 22 (634 Air Group/Skilled)]]{{·}}[[Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)]]
+|-
+|style="text-align: center;" | Reconnaissance
+|[[Prototype Keiun]]
+|-
+|style="text-align: center;" | Jet-Powered
+|[[Kikka Kai]]
+|-
+|style="text-align: center;" rowspan="2"| Land-Based Plane
+|style="text-align: center;" | Attack
+|'''[[Type 1 Land Attacker]]'''{{·}}[[Type 1 Land Attacker Model 22A]]{{·}}[[Prototype Toukai]]
+|-
+|style="text-align: center;" | Fighter/Interceptor
+|[[Raiden]]{{·}}[[Type 3 Fighter Hien]]{{·}}'''[[Type 1 Fighter Hayabusa Model II]]'''{{·}}'''[[Shiden Type 11]]'''
+|-
+|style="text-align: center;" rowspan="4"| Seaplane
+|style="text-align: center;" | Reconnaisance
+|[[Ar196 Kai]]{{·}}[[Shiun]]{{·}}[[Ro.43 Recon Seaplane]]{{·}}[[OS2U]]{{·}}[[Type 0 Recon SeaPlane Model 11 B]]
+|-
+|style="text-align: center;" | Bomber
+|[[Zuiun (634 Air Group)]]{{·}}[[Zuiun (631 Air Group)]]{{·}}[[Seiran (631 Air Group)]]{{·}}[[Zuiun (634 Air Group/Skilled)]]{{·}}[[Zuiun Kai Ni (634 Air Group)]]{{·}}[[Zuiun Kai Ni (634 Air Group/Skilled)]]
+|-
+|style="text-align: center;" | Flying Boat
+|[[PBY-5A Catalina]]
+|-
+|style="text-align: center;" | Fighter
+|[[Type 2 Seaplane Fighter Kai]]{{·}}[[Type 2 Seaplane Fighter Kai (Skilled)]]
+|-
+|style="text-align: center;" colspan="2"| Autogyro/Helicopter
+|[[O Type Observation Autogyro Kai]]{{·}}[[S-51J]]
+|-
+|style="text-align: center;" colspan="2"| Small RADAR
+|[[Type 22 Surface RADAR Kai 4]]{{·}}[[Type 13 Air RADAR Kai]]
+|-
+|style="text-align: center;" colspan="2"| Depth Charge
+|'''[[Type 95 Depth Charge]]'''{{·}}[[Type 2 Depth Charge]]{{·}}'''[[Type 2 12cm Mortar Kai]]'''
+|-
+|style="text-align: center;" colspan="2"| SONAR
+|[[Type 0 Passive SONAR]]{{·}}[[Type 4 SONAR]]
+|-
+|style="text-align: center;" colspan="2"| Shell
+|[[Type 1 Armor-Piercing (AP) Shell]]{{·}}[[Type 3 Shell Kai]]
+|-
+|style="text-align: center;" colspan="2"| Landing Craft
+|'''[[Daihatsu-class Landing Craft]]'''{{·}}[[Toku Daihatsu-class Landing Craft]]
+|-
+|style="text-align: center;" colspan="2"| Bulge
+|[[New Design Anti-Torpedo Bulge (Medium)]]{{·}}[[New Design Anti-Torpedo Bulge (Large)]]
+|-
+|style="text-align: center;" colspan="2"| Searchlight
+|[[Searchlight]]
+|-
+|style="text-align: center;" colspan="2"| Miscellaneous
+|[[Type 2 Ka-Mi Tank]]{{·}}[[Skilled Carrier-based Aircraft Maintenance Personnel]]{{·}}'''[[Skilled Lookouts]]'''{{·}}'''[[Battle Rations]]'''{{·}}'''[[Maritime Resupply]]'''{{·}}[[Battle Ration (Special Onigiri)]]{{·}}[[Night Operation Aviation Personnel]]{{·}}[[Night Operation Aviation Personnel + Skilled Deckhands]]{{·}}[[Striking Force Fleet Command Facility]]{{·}}[[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]]
+|-
+|}<references/>
+
+{{Clear}}
+
+|-|Improvement Upgrades=
+These equipment are available by upgrading other equipment through [[Akashi's Improvement Arsenal]]. 
+
+{| class="mw-collapsible wikitable" style="width:100%;"
+|-
+!style="text-align: center;  border-radius: 6px 0 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Equipment Type
+!style="text-align: center;  border-radius: 0 6px 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+|style="text-align: center;" rowspan="3"| Main Gun
+|style="text-align: center;" | Small Caliber
+|[[12.7cm Twin Mount Type-B Kai 2]]{{·}}[[10cm Twin High-angle Mount + Anti-Aircraft Fire Director]]{{·}}[[12.7cm Twin Mount Type-C Kai 2]]{{·}}[[12.7cm Twin Mount Type-D Kai 2]]{{·}}[[12cm Naval Gun Kai 2]]{{·}}[[12.7cm Twin Mount Type-A Kai 2]]
+|-
+|style="text-align: center;" | Medium Caliber
+|[[20.3cm(no.2) Twin Gun Mount]]{{·}}[[20.3cm(no.3) Twin Gun Mount]]{{·}}[[14cm Twin Gun Mount]]{{·}}[[15.2cm Twin Gun Mount Kai]]{{·}}[[15.5cm Triple Gun Mount Kai (Main)]]
+|-
+|style="text-align: center;" | Large Caliber
+|[[Prototype 35.6cm Triple Gun Mount]]{{·}}[[Prototype 41cm Triple Gun Mount]]{{·}}[[38cm Twin Gun Mount Kai]]{{·}}[[381mm / 50 Triple Gun Mount Kai]]{{·}}[[16in Triple Gun Mount Mk.7 + GFCS]]{{·}}[[38.1cm Mk.I/N Twin Gun Mount Kai]]{{·}}[[30.5cm Triple Gun Mount]]{{·}}[[41cm Triple Gun Mount Kai]]{{·}}[[38cm Quad Gun Mount Kai]]{{·}}[[46cm Triple Gun Mount Kai]]{{·}}[[41cm Triple Gun Mount Kai Ni]]{{·}}[[41cm Twin Gun Mount Kai 2]]{{·}}[[35.6cm Twin Gun Mount Kai]]{{·}}[[16inch Mk.V Twin Gun Mount]]
+|-
+|style="text-align: center;" colspan="2"| Secondary Gun
+|[[8cm High-angle Mount]]{{·}}[[12.7cm Twin High-angle Mount + Anti-Aircraft Fire Director]]{{·}}[[8cm Twin High-angle Mount + Additional Machine Guns]]{{·}}[[15.5cm Triple Gun Mount Kai (Secondary)]]
+|-
+|style="text-align: center;" colspan="2"| Anti-Air Gun
+|[[25mm Triple Autocannon Mount (Concentrated Deployment)]]{{·}}[[12cm 30 Tube Rocket Launcher Kai 2]]
+|-
+|style="text-align: center;" colspan="2"| Anti-Air Fire Director
+|[[Type 94 Anti-Aircraft Fire Director]]
+|-
+|style="text-align: center;" colspan="2"| Torpedoes
+|[[61cm Quint (Oxygen) Torpedo Mount]]{{·}}[[61cm Triple (Oxygen) Torpedo Mount]]
+|-
+|style="text-align: center;" rowspan="5"| Carrier-based Plane
+|style="text-align: center;" | Fighters
+|[[Zero Fighter Type 52 (Skilled)]]{{·}}[[Zero Fighter Type 32 (Skilled)]]{{·}}[[F4F-3]]{{·}}[[F4F-4]]{{·}}[[F6F-3]]{{·}}[[F6F-5]]
+|-
+|style="text-align: center;" | Torpedo Bombers
+|[[Type 97 Torpedo Bomber (931 Air Group)]]{{·}}[[Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai)]]
+|-
+|style="text-align: center;" | Dive Bombers
+|[[Type 0 Fighter Model 63 (Fighter-bomber)]]{{·}}[[Re.2001 CB Kai]]
+|-
+|style="text-align: center;" | Reconnaissance
+|[[Saiun]]{{·}}[[Type 2 Recon Aircraft]]
+|-
+|style="text-align: center;" | Jet-Powered
+|[[Jet Keiun Kai]]
+|-
+|style="text-align: center;" colspan="2"| Land-Based Fighter/Interceptor
+|[[Type 3 Fighter Hien Model 1D]]{{·}}[[Type 1 Fighter Hayabusa Model III A]]{{·}}[[Spitfire Mk.V ]]{{·}}[[Shiden Type 21 Shiden Kai]]
+|-
+|style="text-align: center;" rowspan="2"| Seaplane
+|style="text-align: center;" | Bomber
+|[[Zuiun (634 Air Group)]]
+|-
+|style="text-align: center;" | Fighter
+|[[Ro.44 Seaplane Fighter]]{{·}}[[Ro.44 Seaplane Fighter Bis]]{{·}}[[Type 2 Seaplane Fighter Kai]]{{·}}[[Kyoufuu Kai]]
+|-
+|style="text-align: center;" colspan="2"| Autogyro/Helicopter
+|[[O Type Observation Autogyro Kai]]{{·}}[[O Type Observation Autogyro Kai Ni]]{{·}}[[S-51J]]{{·}}[[S-51J Kai]]
+|-
+|style="text-align: center;" rowspan="2"| RADAR
+|style="text-align: center;" | Small
+|[[Type 22 Surface RADAR Kai 4]]{{·}}[[Type 13 Air RADAR Kai]]
+|-
+|style="text-align: center;" | Large
+|[[Type 21 Air RADAR Kai]]{{·}}[[Type 32 Surface RADAR Kai]]
+|-
+|style="text-align: center;" colspan="2"| Depth Charge
+|[[Type 2 Depth Charge]]{{·}}[[Type 2 12cm Mortar Kai (Concentrated Deployment)]]
+|-
+|style="text-align: center;" colspan="2"| SONAR
+|[[Type 4 SONAR]]
+|-
+|style="text-align: center;" colspan="2"| Turbine/Boiler
+|[[New High Pressure-Temperature Steam Boiler]]
+|-
+|style="text-align: center;" colspan="2"| Shell
+|[[Type 1 Armor-Piercing (AP) Shell]]{{·}}[[Type 3 Shell Kai]]
+|-
+|style="text-align: center;" colspan="2"| Landing Craft
+|[[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]]{{·}}[[Toku Daihatsu-class Landing Craft]]
+|-
+|style="text-align: center;" colspan="2"| Bulge
+|[[New Design Anti-Torpedo Bulge (Medium)]]{{·}}[[New Design Anti-Torpedo Bulge (Large)]]
+|-
+|style="text-align: center;" colspan="2"| Searchlight
+|[[Type 96 150cm Searchlight]]
+|-
+|style="text-align: center;" colspan="2"| Miscellaneous
+|[[Type 2 Ka-Mi Tank]]{{·}}[[Battle Ration (Special Onigiri)]]{{·}}[[Type 4 20cm Anti-ground Rocket Launcher (Concentrated Deployment)]]
+|-
+|}<references/>
+
+{{Clear}}
+
+|-|Limited=
+These equipment are currently unobtainable in game. They were event rewards, [[Rank_Rewards|ranking rewards]] or limited-time quest rewards. They ''may'' return as stock equipment, improvement upgrades, event rewards or quest rewards in future.
+
+'''This list does not include equipment from event-only ships.'''
+
+{| class="mw-collapsible wikitable" style="width:100%;"
+|-
+!style="text-align: center;  border-radius: 6px 0 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Equipment Type
+!style="text-align: center;  border-radius: 0 6px 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+|style="text-align: center;" rowspan="3"| Main Gun
+|style="text-align: center;" | Small Caliber
+|[[5inch Naval Gun Mk.30 Kai + GFCS Mk.37]]
+|-
+|style="text-align: center;" | Medium Caliber
+|[[8inch Triple Gun Mount Mk.9]]
+|-
+|style="text-align: center;" | Large Caliber
+|[[51cm Twin Gun Mount]]{{·}}[[35.6cm Triple Gun Mount Kai (Dazzle Camouflage​)]]{{·}}[[16inch Mk.I Triple Gun Mount Kai + FCR Type 284]]{{·}}[[16inch Mk.VIII Twin Gun Mount Kai]]
+|-
+|style="text-align: center;" colspan="2"| Torpedoes
+|[[53cm Hull-mount (Oxygen) Torpedoes]]{{·}}[[Skilled SONAR Personnel + Late Model Bow Torpedo Mount (6 Tubes)]]{{·}}[[61cm Triple (Oxygen) Torpedo Mount Late Model]]
+|-
+|style="text-align: center;" rowspan="4"| Carrier-based Plane
+|style="text-align: center;" | Fighters
+|[[Shinden Kai]]{{·}}[[Re. 2005 Kai]]{{·}}[[Seafire LF.Mk.III Kai]]{{·}}[[Shiden Kai 4]]{{·}}[[Reppuu Kai (Prototype Carrier-based Model)]]{{·}}[[Reppuu Kai Ni]]{{·}}[[Reppuu Kai Ni (CarDiv 1/Skilled)]]{{·}}[[Fw 190 A-5 Kai (Skilled)]]{{·}}[[Reppuu Kai Ni Model E]]{{·}}[[Reppuu Kai Ni Model E (CarDiv 1/Skilled)]]
+|-
+|style="text-align: center;" | Torpedo Bombers
+|[[Swordfish Mk. II (Skilled)]]{{·}}[[Swordfish Mk.III (Skilled)]]{{·}}[[Type 97 Torpedo Bomber (931 Air Group / Skilled)]]{{·}}[[Prototype Type 97 Torpedo Bomber Kai (Skilled) No. 3 Model E (w/ Type 6 Airborne Radar Kai)]]
+|-
+|style="text-align: center;" | Dive Bombers
+|[[Ju 87 C Kai 2 (w/ KMX / Skilled)]]{{·}}[[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)]]
+|-
+|style="text-align: center;" | Reconnaissance
+|[[Saiun (East Caroline Air Group)]]{{·}}[[Saiun (4th Recon)]]
+|-
+|style="text-align: center;" rowspan="3"| Land-Based Plane
+|style="text-align: center;" | Attack
+|[[Type 1 Land Attacker (Nonaka Squadron)]]{{·}}[[Type 1 Land Attacker Model 34]]{{·}}[[Ginga]]{{·}}[[Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (55th Squadron)]]{{·}}[[Toukai (901 Air Group)]]
+|-
+|style="text-align: center;" | Fighter/Interceptor
+|[[Type 1 Fighter Hayabusa Model III A (54th Air Squadron)]]{{·}}[[Type 1 Fighter Hayabusa Model II (64th Air Squadron)]]{{·}}[[Spitfire Mk.IX (Skilled)]]{{·}}[[Shiden Type 21 Shiden Kai]]{{·}}[[Type 4 Fighter Hayate]]{{·}}[[Shiden Kai (343 Air Group) Fighter Unit 301]]{{·}}[[Reppuu Kai]]{{·}}[[Reppuu Kai (352 Air Group/Skilled)]]{{·}}[[Me 163B]]{{·}}[[Prototype Shuusui]]{{·}}[[Shuusui]]{{·}}[[Fw 190 D-9]]
+|-
+|style="text-align: center;" | Reconnaissance
+|[[Type 2 Land Based Reconnaissance Aircraft]]{{·}}[[Type 2 Land-based Reconnaissance Aircraft (Skilled)]]
+|-
+|style="text-align: center;" rowspan="2"| Seaplane
+|Reconnaissance
+|[[Type 0 Reconnaissance Seaplane Model 11B (Skilled)]]
+|-
+|Bomber
+|[[Zuiun Model 12 (634 Air Group)]]
+|-
+|style="text-align: center;" rowspan="3"| RADAR
+|style="text-align: center;" | Small
+|[[Type 22 Surface RADAR Kai 4 (Modified Late Model)]]{{·}}[[GFCS Mk.37]]
+|-
+|style="text-align: center;" | Large
+|[[Submarine Radar and Radio Direction Finder (E27)]]
+|-
+|style="text-align: center;" | Special
+|[[SK Radar]]{{·}}[[SK + SG Radar]]
+|-
+|style="text-align: center;" colspan="2"| Depth Charge
+|[[Type 3 Depth Charge Launcher (Concentrated Deployment)]]{{·}}[[Prototype 15cm Nonuple ASW Rocket Launcher]]
+|-
+|style="text-align: center;" colspan="2"| SONAR
+|[[HF/DF + Type144/147 ASDIC]]
+|-
+|style="text-align: center;" colspan="2"| Landing Craft
+|[[Toku Daihatsu Landing Craft + 11th Tank Regiment]]{{·}}[[M4A1 DD]]
+|-
+|style="text-align: center;" colspan="2"| Miscellaneous
+|[[Type C Kouhyouteki]]
+|-
+|}<references/>
+
+{{Clear}}
+</tabber>
+<br>
+
+=See Also=
+[[Development/Common_Recipes]]<br>
+[[Arsenal]]<br>
+https://db.kcwiki.org/development/ PoiDB Development]<br>
+[https://tsundb.kc3.moe/development/pools TsunDB Development] 
+----
+{{Mechanics}}
+{{Equipmentlist}}
+[[Category:Equipment]]

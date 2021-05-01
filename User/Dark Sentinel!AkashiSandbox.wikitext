@@ -1,0 +1,25 @@
+|-
+| rowspan="0" |{{ {{{ItemType}}} }}
+| rowspan="0" style="text-align:center;" |[[{{{Name}}}]]
+| 0
+| rowspan="0" |{{{Fuel}}}
+| rowspan="0" |{{{Ammo}}}
+| rowspan="0" |{{{Steel}}}
+| rowspan="0" |{{{Baux}}}
+| {{{Mats0-5}}}
+| {{{Screws0-5}}}
+| {{{EquipConsume0-5}}}
+| rowspan="2" {{#if: {{{Sun|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Sun|X}}}
+| rowspan="2" {{#if: {{{Mon|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Mon|X}}}
+| rowspan="2" {{#if: {{{Tue|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Tue|X}}}
+| rowspan="2" {{#if: {{{Wed|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Wed|X}}}
+| rowspan="2" {{#if: {{{Thu|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Thu|X}}}
+| rowspan="2" {{#if: {{{Fri|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Fri|X}}}
+| rowspan="2" {{#if: {{{Sat|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Sat|X}}}
+| rowspan="2" |{{#if: {{{2ndShip|}}} | {{{2ndShip}}} | - }}
+| rowspan="2" |{{{Notes|}}}
+|-
+| 6
+| {{{Mats6-9}}}
+| {{{Screws6-9}}}
+| {{{EquipConsume6-9}}}

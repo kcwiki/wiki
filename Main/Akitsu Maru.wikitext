@@ -1,0 +1,588 @@
+==Info==
+{{KanmusuInfo|ID=161}}
+{{KanmusuInfo|ID=166}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She can equip carrier fighters on Kai.
+
+===Overview===
+Her stats are irrelevant to her main role.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority:'''Low'''
+
+: She has a limited role in providing air support where carriers or other aviation ships cannot be used. Although she can perform ASW, she is subpar in this role because she cannot take advantage of synergy bonuses or achieve OASW.
+
+====Recommendend Roles====
+* Air Support
+
+====Not Recommended Roles====
+* Combat
+* Anti-Submarine
+
+===Important Information===
+* She is a source of [[Daihatsu-class Landing Craft]], [[Type 3 Spotter/Liaison (ASW)]] and [[Ka-type Observation Autogyro]].
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 自分、あきつ丸であります。艦隊にお世話になります。
+|translation = I'm Akitsumaru. I hope to be of service for this fleet.
+|audio = Akitsumaru-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = 自分、航空兵力を充実させてみたのであります。これはもう空母、であります。
+|translation = I took the liberty of enhancing my air power. I might as well be an aircraft carrier now.
+|audio = AkitsumaruKai-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 自分は、陸軍の特種船…その丙型の「あきつ丸」であります。輸送や上陸戦ならお任せ頂きたいのであります。自慢はこの大発であります。ネズミやモグラな輸送とは訳が違うのであります。
+|translation = I am a landing craft carrier of the IJA... the Hei-type carrier "Akitsu Maru".<ref>"Hei-type Landing Craft Carrier" was the official Army designation for Akitsu Maru.</ref> You can leave transport and landing operations to me. These daihatsu landing crafts are my pride and joy. Rat and mole transports are something else entirely.<ref>Both refer to the [https://en.wikipedia.org/wiki/Tokyo_Express Tokyo Express] transport runs. Rat transports being done by fast ships like destroyers under cover of night and mole transports being done by submarines. Both outside the capabilities of Akitsu Maru.</ref>
+|audio = Akitsumaru-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|kai = yes
+|origin = 自分は、陸軍の特種船丙型の「あきつ丸」であります。強襲揚陸艦の先駆けのような自分でありますが、新兵器のオートジャイロなども運用して、対潜戦でも奮闘したのであります。何卒お願いするのであります。
+|translation = I'm Akitsu Maru, a Hei-type landing craft carrier of the IJA. I am called the pioneer of the amphibious assault ships that can operate the new autogyro weapons, though I had a hard time with anti-submarine warfare.<ref>Her and her sister, Nigitsu Maru, are considered to be the first amphibious assault ships.</ref> I look forward to working with you very much.
+|audio = AkitsumaruKai-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 将校殿、いや、提督殿、このあきつ丸に御用でしょうか？
+|translation = Sir, I mean, Admiral, do you have any orders for me?
+|audio = Akitsumaru-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai = yes
+|origin = カ号も固定翼機もあるんだよ、であります。
+|translation = I have both Ka-type and fixed wing planes.<ref>Referring to the [https://en.wikipedia.org/wiki/Kayaba_Ka-1 Kayaba Ka-1 autogyros].</ref>
+|audio = AkitsumaruKai-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 提督殿、見たところこの部隊の編成には偏りがあるな。趣味でありますか？
+|translation = I've noticed that your fleets are organised in a odd way, Admiral. Is this your preference?
+|audio = Akitsumaru-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai = yes
+|origin = 自分、最近この艦隊の雰囲気に呑まれているであります…反省。
+|translation = Recently I've been caught up in the mood of this fleet... I'm sorry.
+|audio = AkitsumaruKai-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = 提督殿！そういうことは、よその子でお願いしたい！
+|translation = Admiral! I'd prefer it if you do that with other girls!
+|audio = Akitsumaru-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kai = yes
+|origin = 提督殿、飛行甲板を触っては…。それに、カ号にも触らないで欲しいのであります。
+|translation = Admiral, touching the flight deck is... Also, please don't touch the Ka-types.
+|audio = AkitsumaruKai-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 提督殿、自分、待機も任務の一つでありますが…隊に所属してから、少し…寂しいと思うようになったであります…
+|translation = Admiral, being on standby might be one of my duties but... Since I became a member of this squad I feel... a bit lonely...
+|audio = Akitsumaru-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督殿、巡り会えない艦娘など、いない。こうして自分も出会えたわけだし…
+|translation = There is no such thing as a ship girl you'll never meet, Admiral. That's how I'm here after all...
+|audio = Akitsumaru-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 自分には関係のないことだと思っていました。この気持ちが強さに繋がるとは…さすが提督殿、恐れ入りました…ますますあなたのことを知りたくなったであります。
+|translation = I thought you didn't give me a second thought. These feelings will lend me strength... As expected, you really are amazing, Admiral... now I want to get to know you even better.
+|audio = Akitsumaru-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 報告は随時確認されるがよろしい。
+|translation = The report is ready for you to review at any time.
+|audio = Akitsumaru-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|kai = yes
+|origin = 提督殿、連絡将校が来ているのであります。
+|translation = The liaison officer has arrived, Admiral.
+|audio = AkitsumaruKai-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = あきつ丸、いざ出航する！
+|translation = Akitsu Maru, departing now!
+|audio = Akitsumaru-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai = yes
+|origin = あきつ丸、カ号も大発も準備万端であります。
+|translation = Akitsu Maru, Ka-types and daihatsu are all ready.
+|audio = AkitsumaruKai-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = うむ、日々の手入れが行き届いていますね。
+|translation = Hmm, I see you are very thorough when it comes to daily maintenance.
+|audio = Akitsumaru-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai = yes
+|origin = うむ、カ号も良く見てあげて欲しいのであります。
+|translation = Hmm, I need you to take care of the Ka-types very carefully.
+|audio = AkitsumaruKai-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = この強化、感謝、であります。
+|translation = I'm grateful for this upgrade.
+|audio = Akitsumaru-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai = yes
+|origin = ここの工廠の者たちは働き者なのであります。
+|translation = The workers in this arsenal are really hardworking.
+|audio = AkitsumaruKai-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = まずまず、であります。
+|translation = It's adequate.
+|audio = Akitsumaru-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = ありがたい…のであります！
+|translation = I'm...grateful!
+|audio = Akitsumaru-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = ここが海軍の入渠ドックか…
+|translation = So these are the Navy's docks...
+|audio = Akitsumaru-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|kai = yes
+|origin = この入渠ドックにも慣れてきたのであります。
+|translation = I'm used to entering these docks now.
+|audio = AkitsumaruKai-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 海軍の入渠ドック、実にいい。あ～あ～
+|translation = The Navy's docks really are splendid. Aaaah~
+|audio = Akitsumaru-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|kai = yes
+|origin = 申し訳ない。また修復をお願いしたいのであります。
+|translation = Forgive me. I request another repair.
+|audio = AkitsumaruKai-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = これが海軍工廠というものか…あっ、新しい艦が建造された。報告する。
+|translation = So this is the Naval Arsenal... oh, a new ship has been completed. Reporting now.
+|audio = Akitsumaru-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|kai = yes
+|origin = 新しい仲間が来たみたいですよ。あぁ…言の葉も感化されてきたであります。
+|translation = Looks like a new comrade has arrived. Aah... what inspiring words.
+|audio = AkitsumaruKai-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊が帰投したのであります。
+|translation = The fleet has returned.
+|audio = Akitsumaru-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|kai = yes
+|origin = カ号の観測によると、艦隊が帰投したようです。
+|translation = According to the Ka-type's report, the fleet has returned to port.
+|audio = AkitsumaruKai-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = よーし、奴らを倒して陸を目指すぞ！
+|translation = Alright, let's defeat them and head towards the shore!
+|audio = Akitsumaru-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai = yes
+|origin = むしろ、とばしていくのであります！
+|translation = We'll blow them away instead!
+|audio = AkitsumaruKai-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 自分には、敵艦隊は見えるのであります。
+|translation = I've found the enemy fleet.
+|audio = Akitsumaru-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|kai = yes
+|origin = さて、進化したこのあきつ丸、本領発揮であります！
+|translation = Now, it's time for the new me to show you what I'm really capable of!
+|audio = AkitsumaruKai-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = それ！着弾～～今！
+|translation = There! Fire~ now~!
+|audio = Akitsumaru-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|kai = yes
+|origin = さぁ、カ号のみんな、出番であります！
+|translation = Now, it's your turn, Ka-types!
+|audio = AkitsumaruKai-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|origin = もう少し近づいて乗り込むであります！
+|translation = I'm going to get a bit closer!
+|audio = Akitsumaru-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Night Battle Attack
+|kai = yes
+|origin = 潜水艦など、自分がいれば近付けさせないのであります！…多分！
+|translation = I won't let submarines get close! ...I hope!
+|audio = AkitsumaruKai-Air_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 大発、エンジンに火は入っているな？
+|translation = Have the daihatsu engines been started?
+|audio = Akitsumaru-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|kai = yes
+|origin = うふふ、夜目も利くのでありますよ。
+|translation = Ufufu, I'm good in the dark too.
+|audio = AkitsumaruKai-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 自分、まだまだであります。精進するのであります。
+|translation = I'm still not done yet. I'll continue to push on.
+|audio = Akitsumaru-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|kai = yes
+|origin = この飛行甲板が役に立ってくれたようであります。自分もうれしいのであります。
+|translation = This flight deck was pretty useful. I'm happy about it too.
+|audio = AkitsumaruKai-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = うぐっ…自分被弾したであります。
+|translation = Urgh... I'm hit.
+|audio = Akitsumaru-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = うわぁっ！
+|translation = Whoaa~!
+|audio = Akitsumaru-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = これでは、将校殿にも提督殿にも、顔向けできない…！
+|translation = I can't face my commanding officer or my admiral now...!
+|audio = Akitsumaru-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 自分がこんなところで、沈むことになるなんて、思わなかった…なぁ…
+|translation = I never thought that I'd sink in a place like... this...
+|audio = Akitsumaru-Sunk.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|kai = yes
+|origin = そうか…これが…俗にいう慢心でありますか…なるほどで…あり…ま…す
+|translation = I see... so this is... what they mean by 'pride'... I under... stand... now...
+|audio = AkitsumaruKai-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = マルマルマルマル。日付が変わったのであります。
+|translation = 0000. The date has changed.
+|audio = Akitsumaru-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = マルヒトマルマル。ふむ、眠れない、でありますか？
+|translation = 0100. Hmmm, you can't sleep?
+|audio = Akitsumaru-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = マルニイマルマル。子守唄でも歌いますか？冗談であります。
+|translation = 0200. Do you want me to sing you a lullaby? Just kidding.
+|audio = Akitsumaru-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = マルサンマルマル。そういうときは酒でも飲んでぇ…くぅ…
+|translation = 0300. In times like this, you drink some alcohol and... *sleeping sounds*...
+|audio = Akitsumaru-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = マルヨンマルマル。はっ…自分、落ちていたでありますか！？
+|translation = 0400. Gah... Did I doze off!?
+|audio = Akitsumaru-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = マルゴマルマル。自分、お腹いっぱいであります……んっ！？何を言ってるのか？
+|translation = 0500. I'm feeling quite full... Hmm!? What am I saying?
+|audio = Akitsumaru-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = マルロクマルマル。朝の空気が心地よいのであります。
+|translation = 0600. The morning air feels good.
+|audio = Akitsumaru-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = マルナナマルマル。寝不足は良くないのであります。
+|translation = 0700. Lack of sleep isn't good for anyone.
+|audio = Akitsumaru-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = マルハチマルマル。提督殿のスケジュールは本日は自分が見ましょう。
+|translation = 0800. Admiral, let me have a look at your schedule today.
+|audio = Akitsumaru-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = マルキュウマルマル。本日の予定。まずは遠征ですね。
+|translation = 0900. Today's schedule, starts with expeditions.
+|audio = Akitsumaru-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマル。デイリー任務だけでも結構大変です。
+|translation = 1000. The daily missions alone already are pretty taxing.
+|audio = Akitsumaru-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマル。もうすぐ午前の任務が終わるであります。頑張りましょう。
+|translation = 1100. The morning missions are almost over. Let's keep at it.
+|audio = Akitsumaru-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = ヒトニイマルマル。昼食どうぞ。陸軍の糧食ですよ。たまにはいかがですか。
+|translation = 1200. Here's lunch. It's Army rations. It's fine once in a while.
+|audio = Akitsumaru-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = ヒトサンマルマル。提督殿、お口に合いませんでしたでしょうか？難しい顔をしてらっしゃる。
+|translation = 1300. Was that not to your tastes, admiral? You've got a frown on your face.
+|audio = Akitsumaru-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = ヒトヨンマルマル。この大量の資材は！？
+|translation = 1400. What are all of these resources for!?
+|audio = Akitsumaru-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = ヒトゴーマルマル。自分にこれを使って戦艦建造をせよ…と？
+|translation = 1500. You want me to construct a battleship... using these?
+|audio = Akitsumaru-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = ヒトロクマルマル。提督殿も無茶なことを。自分は揚陸が専門であります。いくら資材を費やしたところで…なにー！
+|translation = 1600. You're asking too much of me, admiral. My speciality is landing. No matter how many resources you waste... What!?
+|audio = Akitsumaru-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = ヒトナナマルマル。提督殿、陸とか海とか一体何なのでしょうなー
+|translation = 1700. What is land or sea anyway, Admiral~
+|audio = Akitsumaru-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = ヒトハチマルマル。夕飯を食べねばいけませんな。
+|translation = 1800. It's time for dinner.
+|audio = Akitsumaru-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトキュウマルマル。日が暮れましたな。夜の鎮守府も良いものであります。
+|translation = 1900. The sun has set. The Naval Base at night is a good place too.
+|audio = Akitsumaru-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = ニイマルマルマル。陸の潜水艦ですか？知りませんね。まるゆ！？はて？
+|translation = 2000. The Army submarine? I don't know her. Maruyu!? Hmm?
+|audio = Akitsumaru-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = ニイヒトマルマル。明日も早いのです。そろそろ今日は切り上げるのであります。
+|translation = 2100. It's almost tomorrow. It's time to wrap up for today.
+|audio = Akitsumaru-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = ニイニイマルマル。提督殿、今日も一日、大変お疲れ様…であります。
+|translation = 2200. Thank you for another day of hard work... Admiral.
+|audio = Akitsumaru-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = ニイサンマルマル。明日は大物と出会える予感がするのであります。
+|translation = 2300. I have a feeling that I'll meet someone important tomorrow.
+|audio = Akitsumaru-23.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 将校殿…いや、提督殿。三周年、誠におめでたいのであります。自分も大変嬉しく思うのであります。
+|translation =	Sir… No, Admiral. My sincere congratulations on the 3rd Anniversary. I am very happy about it.
+|audio = Akitsumaru_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = 梅雨であります。雨の日は多いのであります。こんな日は、搭載した大発の整備をするのであります。
+|translation =	It’s the rainy season. There are so many rainy days now. On days like these, I should do some maintenance on my Daihatsu.
+|audio = Akitsumaru_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = これが秋刀魚漁支援任務でありますか？自分も参加してみたくはありますが…。提督殿、装備によっては可能でありましょうか？
+|translation =	Is this a Saury Fishing Support mission? I’d like to participate too but… Is it even possible for me to use the equipment, Admiral?<ref>She can’t equip searchlights, skilled lookouts, sonars or depth charges.</ref>
+|audio = Akitsumaru_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2016|Autumn 2016]]
+|origin = 提督殿、自分、この季節は体が少し疼くのであります。何なのでありましょうな？いえ、きっとなんでもないのであります。
+|translation =	My body aches a bit during this time of year, Admiral. Could something be wrong? No, I’m sure it’s nothing.
+|audio = Akitsumaru_MidAutumn_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2016|Christmas 2016]]
+|origin = クリスマスというものでありますか？や、異国のお祭りも興味深いものであります。自分は、嫌いではないのであります。
+|translation =	So this is called “Christmas”? Well, foreign festivals are interesting too. I don’t dislike them. 
+|audio = Akitsumaru_Christmas_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 提督殿、四周年、誠におめでたく思うのであります。自分も大変嬉しいのであります。これからも、一層精進させていただくのであります。
+|translation =	My sincerest congratulations on the 4th Anniversary, Admiral. I’m very happy too. I’ll continue to devote myself to you even more.
+|audio = Akitsumaru_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2019|Setsubun 2019]]
+|origin = 節分でありますな。こういった行事は大事なのであります。自分はカ号部隊を展開して、散らかった豆を回収するであります。
+|translation =	It's Setsubun. This event is an important one. I will be sending out my Ka-type Squardons out to collect the scattered beans.
+|audio = Akitsu_Maru_Setsubun_2019_Sec1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+161_3.png|Base
+161_4.png|Base Damaged
+166_3.png|Kai
+166_4.png|Kai Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+KanMusu166_Saury.png|[[Seasonal/Saury_2016|Saury Festival 2016]]
+KanMusu166_Saury_dmg.png|[[Seasonal/Saury_2016|Saury Festival 2016 Damaged]]
+</gallery>
+|}
+
+== Drop Locations ==
+{{#invoke:ShipDropTable|returnShipDrop|Akitsu Maru}}
+
+==Trivia==
+* The "Akitsu" in her name means "Dragonfly". This is a reference to the ancient name of Japan "Akitsushima" (秋津洲).
+* Like [[Maruyu]] she was built for the Imperial Japanese Army instead of the Navy.
+* Her monochrome look is based off her historical camouflage. 
+* Sunk 15 November 1944 by the submarine [[wikipedia:USS_Queenfish_(SS-393)|''Queenfish'' (SS-393)]].
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View {{PAGENAME}} CG]]
+*[[Auxiliary Ships|List of auxiliary ships]]
+*[http://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Akitsu_Maru Wikipedia entry on carrier Akitsumaru]
+{{shiplist}}
+[[Category:IJA Vessels]]
+[[Category:Auxiliary Ship]]

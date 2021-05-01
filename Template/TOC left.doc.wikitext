@@ -1,0 +1,20 @@
+== Purpose ==
+{{tl|{{BASEPAGENAME}}}} forces the auto-generated "Table of Contents" for an article to appear floated to the left side of the page (as seen left), in order to improve article layout.
+
+== Usage ==
+Insert <nowiki>{{TOC left}}</nowiki> at the point in the article where you want the top of the Table of Contents box to appear. Use with {{tl|clear}} or {{tl|clear left}} to prevent e.g. image collisions. To remove the small default margin/padding included above the box, set ''|top=0'' (or, to customize it, use ''|top=(a value)'').
+{{clear}}
+
+== Cautions ==
+Do not use this template to just force word wrap around the TOC, as this is an inappropriate method of achieving this.  Instead add a CSS class to your current skin's .css file, which will apply site wide. Go to [[Special:Mypage/skin.css]], which redirects to your current [[WP:SKIN|skin]]'s CSS file.
+
+Do not place this template so that the TOC aligns with a large image or infobox; this breaks the layout on narrow screens (even users with screens as wide as 1024px wide can have problems). Also, a TOC that crosses a section division is probably a poor idea, if that can be avoided.
+
+Unless the section in which the {{tl|TOC left}} is placed is long enough, the result may well be undesirable.  Note particularly that if the TOC is floated left of a bulleted list, the bullets will be hidden.
+
+It should only be used in cases where the TOC gets in the way of other content or is detrimental to the layout of the page; it should ''not'' simply be used for aesthetics since it tampers with the standard appearance of articles. See [[Help:Section#Floating the TOC]] for further guidelines.
+
+== See also ==
+*[[Template:TOC right]]
+
+<noinclude>[[Category:Template documentation]]</noinclude>

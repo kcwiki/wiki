@@ -1,0 +1,468 @@
+=Introduction=
+
+Planes have the ability to earn experience and gain ranks. Experience is gained from combat, be it normal sorties or [[LBAS]] attacks and defense. The only planes unable to earn experience are [[:Category:Autogyro|Autogyros]], the [[Type 3 Spotter/Liaison (ASW)]] and [[:Category:LBAS Recon|Land-based reconnaissance planes]]. Certain elite planes such as the [[Tenzan Model 12 (Tomonaga Squadron)]] Will already have some ranks when they are obtained.
+
+=Overview=
+
+As planes earn experience, they will progress through the ranks as follows: 
+{| class="wikitable sortable" style="width: 100%;"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" rowspan="2"| '''Rank Level'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" rowspan="2"| '''Displayed Insignia'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" rowspan="2"| '''Experience'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;" colspan="2"| '''Fighter Power Bonus'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" rowspan="2"| '''Innate Bonus'''
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;" rowspan="2"| '''Notes'''
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:96px;"| {{GreenPlane}} {{PurpleFighter}} {{SeaplaneFighter}} {{Interceptor Fighter}} {{Interceptor Fighter2}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"| {{RedPlane}}
+|- 
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| (blank)
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0-9
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; color:blue; text-shadow: 0 0 5px blue;"| |
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10-24
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| +1 ~ 1.549
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; color:blue; text-shadow: 0 0 5px blue;"| <nowiki>||</nowiki>
+|style="text-align: center; border-style: solid; border-width: 1px;"| 25-39
+|style="text-align: center; border-style: solid; border-width: 1px;"| +2
+|style="text-align: center; border-style: solid; border-width: 1px;"| +1
+|style="text-align: center; border-style: solid; border-width: 1px;"| +1.581 ~ 1.975
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 3
+|style="text-align: center; border-style: solid; border-width: 1px; color:blue; text-shadow: 0 0 5px blue;"| <nowiki>|||</nowiki>
+|style="text-align: center; border-style: solid; border-width: 1px;"| 40-54
+|style="text-align: center; border-style: solid; border-width: 1px;"| +5
+|style="text-align: center; border-style: solid; border-width: 1px;"| +1
+|style="text-align: center; border-style: solid; border-width: 1px;"| +2 ~ 2.324
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4
+|style="text-align: center; border-style: solid; border-width: 1px; color:#FFCE00; text-shadow: 0 0 5px #FFCE00;"| \
+|style="text-align: center; border-style: solid; border-width: 1px;"| 55-69
+|style="text-align: center; border-style: solid; border-width: 1px;"| +9
+|style="text-align: center; border-style: solid; border-width: 1px;"| +1
+|style="text-align: center; border-style: solid; border-width: 1px;"| +2.345 ~ 2.627
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 5
+|style="text-align: center; border-style: solid; border-width: 1px; color:#FFCE00; text-shadow: 0 0 5px #FFCE00;"| \\
+|style="text-align: center; border-style: solid; border-width: 1px;"| 70-84
+|style="text-align: center; border-style: solid; border-width: 1px;"| +14
+|style="text-align: center; border-style: solid; border-width: 1px;"| +3
+|style="text-align: center; border-style: solid; border-width: 1px;"| +2.646 ~ 2.898
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 6
+|style="text-align: center; border-style: solid; border-width: 1px; color:#FFCE00; text-shadow: 0 0 5px #FFCE00;"| \\\
+|style="text-align: center; border-style: solid; border-width: 1px;"| 85-99
+|style="text-align: center; border-style: solid; border-width: 1px;"| +14
+|style="text-align: center; border-style: solid; border-width: 1px;"| +3
+|style="text-align: center; border-style: solid; border-width: 1px;"| +2.915 ~ 3.146
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 7
+|style="text-align: center; border-style: solid; border-width: 1px; color:#FFCE00; text-shadow: 0 0 5px #FFCE00;"| >>
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100-120
+|style="text-align: center; border-style: solid; border-width: 1px;"| +22
+|style="text-align: center; border-style: solid; border-width: 1px;"| +6
+|style="text-align: center; border-style: solid; border-width: 1px;"| +3.162 ~ 3.464
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|}
+
+'''Important Notes'''
+* Planes will gain ranks at different speeds. Exactly what determines that is unknown. Please see [[Plane Proficiency#Ranking Planes|below]] for more details.
+* Planes getting shot down will lose ranks.
+** A slot getting emptied has a high chance of resetting plane ranks.
+** You cannot gain or lose ranks in PvP.
+* Abyssal planes do not have proficiency.
+* Opposing PvP fleets do have proficiency.
+* It is important to secure air superiority where possible to preserve plane proficiency.
+* The innate bonus is calculated as <math>\sqrt{\frac{\text{Exp}_\text{plane}}{10}}</math>; where <math>\text{Exp}_\text{plane}</math> is the current experience level of the plane.
+** Unlike most other formulas in the game, '''it is not rounded down'''.
+
+=Rank Effects=
+===Fighter Power Bonus===
+
+The biggest bonus from plane proficiency is giving a fighter power bonus to help during the [[Aerial_Combat#Air_Control|air control phase]]. The innate bonus is added onto the fighter power bonus of the relevant plane to get the full fighter power bonus.
+
+{| class="wikitable sortable" style="width: 100%;"
+|+Fighter Power Bonus for >> Plane
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:196px;"| '''Plane Type'''
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" rowspan="2"| '''Fighter Power Bonus'''
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|{{GreenPlane}}{{PurpleFighter}} {{SeaplaneFighter}}{{Interceptor Fighter}}{{Interceptor Fighter2}}
+|style="text-align: center; border-style: solid; border-width: 1px;"|+25.464
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|{{Seaplane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| +9.464
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|{{BluePlane}}{{RedPlane}}{{PurpleBomber}}{{YellowPlane}}{{LargeFlyingBoat}}{{Template:JetFighterBomber1}}{{Land Based Attack Aircraft}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| +3.464
+|-
+|}
+
+'''Important Notes'''
+* [[:Category:Fighter-Bombers|Fighter-bombers]] are considered dive bombers and only get the +3 bonus instead of the +25.
+* Only [[:Category:Seaplane Bombers|seaplane bombers]] get the +9 bonus.
+* This is a flat bonus applied after the fighter power of the slot is calculated. This means it is not affected by rounding.
+* Even if the plane has 0 {{AA}}, it will still get the relevant bonus.
+
+===Critical Bonus===
+
+There are two separate critical modifier bonuses for plane proficiency. One affects '''normal carrier attacks''' and '''carrier night cut-ins''', the other affects '''carrier cut-in attacks'''. The '''Captain''' refers to the plane in the top slot.
+
+'''Carrier Attack Modifier'''
+
+<math>\text{CritMod}_\text{CVAtk} = 1 + \lfloor \sqrt{\text{Exp}} + \text{Bonus} \rfloor</math>
+
+
+* <math>\text{Exp}</math> is the current experience value of the plane.
+* <math>\text{Bonus} </math> is the innate bonus based on the level of the plane, detailed in the table below.
+* The critical bonus is '''halved''' for planes not in the top slot.
+* This means a carrier with two maxed proficiency planes equipped in the top two slots, it will have a 1.3x bonus. This makes her total critical strike modifier 1.95x (1.5 x 1.3).
+* This also applies to carrier night attacks.
+** Unlike other carrier night attacks formulas, non-night capable planes are taken into account for calculating the proficiency critical bonus.
+* Planes in empty slots do not count towards proficiency bonuses.
+
+{| class="wikitable sortable" style="width: 100%;"
+|+Critical Bonus
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:196px;"| '''Experience Level'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"| '''Proficiency Bonus'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"| '''First Slot Bonus'''
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"| '''Other Slot Bonus'''
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0-9
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0-3%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0-1.5%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10-24
+|style="text-align: center; border-style: solid; border-width: 1px;"| +1
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4-5%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 2-2.5%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 25-39
+|style="text-align: center; border-style: solid; border-width: 1px;"| +2
+|style="text-align: center; border-style: solid; border-width: 1px;"| 7-8%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 3.5-4%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 40-54
+|style="text-align: center; border-style: solid; border-width: 1px;"| +3
+|style="text-align: center; border-style: solid; border-width: 1px;"| 9-10%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4.5-5%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 55-69
+|style="text-align: center; border-style: solid; border-width: 1px;"| +4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 11-12%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 5.5-6%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 70-79
+|style="text-align: center; border-style: solid; border-width: 1px;"| +5-7
+|style="text-align: center; border-style: solid; border-width: 1px;"| 13-16%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 7.5-8%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 80-99
+|style="text-align: center; border-style: solid; border-width: 1px;"| +7
+|style="text-align: center; border-style: solid; border-width: 1px;"| 16%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 8%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100-120
+|style="text-align: center; border-style: solid; border-width: 1px;"| +10
+|style="text-align: center; border-style: solid; border-width: 1px;"| 20%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10%
+|-
+|}
+
+'''Carrier Cut-In Attacks'''
+
+<math>\text{CritMod}_\text{CVCI} = 1.106 + 0.15\text{(If the plane in the first slot participates in the attack)}</math>
+
+* The average skill level of all planes is taken into account when calculating the modifier. The base multiplier of 1.106 assumes all planes equipped are of max proficiency.
+* If you have multiple aircraft of the same type equipped, the plane in the first slot, "the Captain" will always take priority.
+* This bonus is multiplicative with the base critical modifier. This means if the Captain participates in the CVCI, the attack gets a critical strike modifier of 1.875x (1.5 x 1.25).
+
+===Accuracy Bonus===
+
+The average proficiency of all '''torpedo bombers, dive bombers, seaplane bombers and large flying boats''' on the carrier are taken into account for calculating the accuracy bonus.
+
+<math>\text{Acc Bonus} = \sqrt{0.1 \times \text{Exp}_\text{Avg}} + \text{Mod}_\text{proficiency}</math>
+
+* <math>\text{Exp}_\text{Avg}</math> is the average experience level of all relevant planes on the carrier.
+* <math>\text{Mod}_\text{Skill}</math> is the extra bonus depending on the proficiency level.
+
+{| class="wikitable sortable" style="width: 100%;"
+|+Accuracy Bonus
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:196px;"| '''Experience Level'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"| '''Proficiency Bonus'''
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" rowspan="2"| '''Accuracy Bonus'''
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0-9
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10-24
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| +1
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 25-39
+|style="text-align: center; border-style: solid; border-width: 1px;"| +1
+|style="text-align: center; border-style: solid; border-width: 1px;"| +2
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 40-54
+|style="text-align: center; border-style: solid; border-width: 1px;"| +2
+|style="text-align: center; border-style: solid; border-width: 1px;"| +4
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 55-69
+|style="text-align: center; border-style: solid; border-width: 1px;"| +3
+|style="text-align: center; border-style: solid; border-width: 1px;"| +5
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 70-79
+|style="text-align: center; border-style: solid; border-width: 1px;"| +4
+|style="text-align: center; border-style: solid; border-width: 1px;"| +6
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 80-99
+|style="text-align: center; border-style: solid; border-width: 1px;"| +6
+|style="text-align: center; border-style: solid; border-width: 1px;"| +8-9
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100-120
+|style="text-align: center; border-style: solid; border-width: 1px;"| +9
+|style="text-align: center; border-style: solid; border-width: 1px;"| +12
+|-
+|}
+
+'''Important Notes'''
+* Remember that fighters are '''not counted''' for the accuracy bonus.
+
+===LoS===
+
+* C2 has stated that proficiency will increase provide a bonus to LoS and contact rate.
+** The increase is either bugged or too small to be observed.
+
+=Ranking Planes=
+
+===Carrier-Based Planes===
+
+Carrier-based planes can be ranked anywhere. The most resource efficient way is to send them on sorties to surface nodes with little to no air power. It is possible to rank them through [[LBAS]] but it gets expensive. The following are recommended spots: 
+
+* 1-1
+* 2-2: 3CV+ off route
+
+===Land-Based Planes===
+
+Land-based planes can only be ranked through [[LBAS]]. This makes ranking them quite expensive. Outside of events, only [[World_6#6-4|6-4]] and [[World_6#6-5|6-5]] have LBAS available to use. Of these, '''6-5 is the best place''' because it allows the use of two land bases and has a Range 1 submarine node at B. This allows any land-based plane to be rank and only requires a fleet of at least 1 light cruiser and a mix of destroyers and destroyer escorts.
+
+===Important Notes on Ranking Planes===
+
+* Numbered air group planes like the [[Ryuusei (601 Air Group)]] start at <span style="color:blue; text-shadow: 0 0 5px blue;">|</span>.
+* Named squadron planes like the [[Type 97 Torpedo Bomber (Murata Squadron)]] start at <span style="color:blue; text-shadow: 0 0 5px blue;">||</span>.
+* Remodeling planes to better versions through quests will retain their ranks if it is higher than the default rank.
+** Exceptions are for remodels that require the plane to be at maxed proficiency like for the [[Zero Fighter Type 53 (Iwamoto Squadron)]]. 
+** Remodelling a plane using [[Akashi's Improvement Arsenal]] will only retain 60% of the plane's proficiency.
+* Ranks can decrease by 1-2 if a large number of planes are shot down.
+* Ranks will be reset if the entire squadron is shot down.
+** Even elite squadrons with default ranks can lose all their ranks.
+*** There is a visual bug where elite squadrons may retain default ranks visually, sortieing them again will update it to their actual value.
+* Rank loss is calculated before rank gain, therefore it is possible for a squadron that was wiped to retain 1-2 ranks if it did well.
+* Rank is only calculated once the fleet returns to port.
+** It is possible to save ranks by quitting the sortie before the results screen is shown. This can be useful during events to save preparation time for boss kills.
+* Planes will not gain or lose ranks in [[Support Expedition]]s or [[Exercises]].
+* Planes '''must''' parcitipate in aerial combat to gain/lose ranks. This means planes in 0 slots will not gain or lose ranks.
+
+===Leveling Speed===
+
+Leveling speed is measured in the estimated number of battles it will take to get a plane from no rank to <span style="color:#FFCE00; text-shadow: 0 0 5px #FFCE00;">>></span>.
+
+{| class="wikitable sortable" style="width: 100%;"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"| '''No. of Battles'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"| '''Plane Type'''
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"| '''Plane Name'''
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="3"| ~18
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 96 Fighter]]{{·}}[[Type 96 Fighter Kai]]{{·}}[[Zero Fighter Type 21]]{{·}}[[Fw190 T Kai]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Swordfish]]{{·}}[[Swordfish Mk. II (Skilled)]]{{·}}[[Swordfish Mk.III (Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Recon Seaplane]]{{·}}[[Ar196 Kai]]{{·}}[[OS2U]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="10"| ~20
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52]]{{·}}[[Bf109 T Kai]]{{·}}[[Re. 2001 OR Kai]]{{·}}[[Fulmar]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 99 Dive Bomber]]{{·}}[[Skua]]{{·}}[[Re.2001 CB Kai]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber]]{{·}}[[Tenzan (931 Air Group)]]{{·}}[[Re. 2001 G Kai]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Observation Seaplane]]{{·}}[[Type 98 Recon Seaplane (Night Scout)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun]]{{·}}[[Swordfish (Seaplane Model)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{LargeFlyingBoat}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Flying Boat]]{{·}}[[PBY-5A Catalina]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{SeaplaneFighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ro.44 Seaplane Fighter]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 96 Land Attacker]]{{·}}[[Type 1 Land Attacker]]{{·}}[[Type 1 Land Attacker (Nonaka Squadron)]]{{·}}[[Type 1 Land Attacker Model 22A]]{{·}}[[Type 1 Land Attacker Model 34]]{{·}}[[Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (55th Squadron)]] 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft Blue}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Toukai]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 1 Fighter Hayabusa Model II]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="10"| ~24
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Reppuu Late Model]]{{·}}[[Shiden Kai 2]]{{·}}[[Zero Fighter Type 21 (Skilled)]]{{·}}[[Reppuu (601 Air Group)]]{{·}}[[Zero Fighter Type 52 (Skilled)]]{{·}}[[Zero Fighter Type 32]]{{·}}[[Zero Fighter Type 32 (Skilled)]]{{·}}[[Seafire LF.Mk.III Kai]]{{·}}[[Shiden Kai 4]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Suisei]]{{·}}[[Zero Fighter Type 62 (Fighter-bomber)]]{{·}}[[Ju 87C Kai]]{{·}}[[Type 99 Dive Bomber (Skilled)]]{{·}}[[Suisei (601 Air Group)]]{{·}}[[Type 0 Fighter Model 63 (Fighter-bomber)]]{{·}}[[FM-2]]{{·}}[[Suisei Model 22 (634 Air Group)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Tenzan]]{{·}}[[Ryuusei]]{{·}}[[Type 97 Torpedo Bomber (931 Air Group)]]{{·}}[[Type 97 Torpedo Bomber (Skilled)]]{{·}}[[Ryuusei (601 Air Group)]]{{·}}[[Type 97 Torpedo Bomber (931 Air Group / Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Saiun]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shiun]]{{·}}[[Ro.43 Recon Seaplane]]{{·}}[[Type 0 Recon SeaPlane Model 11 B]]{{·}}[[Type 0 Reconnaissance Seaplane Model 11B (Skilled)]]{{·}}[[S9 Osprey]]{{·}}[[Swordfish Mk.II Kai (Reconnaissance Seaplane Model)]]{{·}}[[Fairey Seafox Kai]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun Model 12]]{{·}}[[Swordfish Mk.III Kai (Seaplane Model)]]{{·}}[[Swordfish Mk.III Kai (Seaplane Model/Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{SeaplaneFighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ro.44 Seaplane Fighter Bis]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ginga]]{{·}}[[Type 4 Heavy Bomber Hiryuu]]{{·}}[[Do 17 Z-2]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft Blue}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Toukai (901 Air Group)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shiden Type 21 Shiden Kai]]{{·}}[[Type 1 Fighter Hayabusa Model III A]]{{·}}[[Type 1 Fighter Hayabusa Model III A (54th Air Squadron)]]{{·}}[[Spitfire Mk.I]]{{·}}[[Spitfire Mk.V]]{{·}}[[Spitfire Mk.IX (Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="8"| ~28
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu Model 11]]{{·}}[[Zero Fighter Type 52 Model C (601 Air Group)]]{{·}}[[Zero Fighter Type 52 Model C (Iwai Squadron)]]{{·}}[[Zero Fighter Type 21 (Iwamoto Squadron)]]{{·}}[[Zero Fighter Type 52 Model A (Iwamoto Squadron)]]{{·}}[[Re. 2005 Kai]]{{·}}[[F4F-3]]{{·}}[[F4F-4]]{{·}}[[F6F-3]]{{·}}[[F6F-5]]{{·}}[[Fw 190 A-5 Kai (Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Suisei Model 12A]]{{·}}[[Type 99 Dive Bomber (Egusa Squadron)]]{{·}}[[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)]]{{·}}[[SBD]]{{·}}[[Suisei Model 22 (634 Air Group/Skilled)]]{{·}}[[Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)]]{{·}}[[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber]]{{·}}[[Tenzan Model 12 (Tomonaga Squadron)]]{{·}}[[Tenzan (601 Air Group)]]{{·}}[[Type 97 Torpedo Bomber (Murata Squadron)]]{{·}}[[TBD]]{{·}}[[TBF]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Recon Aircraft]]{{·}}[[Prototype Keiun]]{{·}}[[Saiun (East Caroline Air Group)]]{{·}}[[Saiun (4th Recon)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Seiran]]{{·}}[[Zuiun (634 Air Group)]]{{·}}[[Zuiun Model 12 (634 Air Group)]]{{·}}[[Seiran (631 Air Group)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{SeaplaneFighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Seaplane Fighter Kai]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ginga (Egusa Squadron)]]{{·}}[[Type 4 Heavy Bomber Hiryuu (Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 3 Fighter Hien (244th Air Combat Group)]]{{·}}[[Type 1 Fighter Hayabusa Model II (64th Air Squadron)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="10"| ~35
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shinden Kai]]{{·}}[[Zero Fighter Type 53 (Iwamoto Squadron)]] 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleFighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[F6F-3N]]{{·}}[[F6F-5N]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Suisei (Egusa Squadron)]]{{·}}[[Prototype Nanzan]]{{·}}[[F4U-1D]]{{·}}[[Ju 87C Kai Ni (w/ KMX)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ryuusei Kai]]{{·}}[[Tenzan Model 12 (Murata Squadron)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleBomber}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[TBM-3D]]{{·}}[[Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai)]]{{·}}[[Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Laté 298B]]{{·}}[[Zuiun (631 Air Group)]]{{·}}[[Zuiun (634 Air Group/Skilled)]]{{·}}[[Zuiun Kai Ni (634 Air Group)]]{{·}}[[Zuiun Kai Ni (634 Air Group/Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{SeaplaneFighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Seaplane Fighter Kai (Skilled)]]{{·}}[[Kyoufuu Kai]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Do 217 E-5 + Hs293 Initial Model]]{{·}}[[Do 217 K-2 + Fritz-X]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Raiden]]{{·}}[[Shiden Kai (343 Air Group) Fighter Unit 301]]{{·}}[[Reppuu Kai]]{{·}}[[Reppuu Kai (352 Air Group/Skilled)]]{{·}}[[Fw 190 D-9]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 3 Fighter Hien]]{{·}}[[Type 3 Fighter Hien Model 1D]]{{·}}[[Type 4 Fighter Hayate]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="6"| ~44
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu Kai (Prototype Carrier-based Model)]]{{·}}[[Reppuu Kai Ni]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ju 87 C Kai 2 (w/ KMX / Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ryuusei Kai (CarDiv 1)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleBomber}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Type 97 Torpedo Bomber Kai (Skilled) No. 3 Model E (w/ Type 6 Airborne Radar Kai)]]{{·}}[[TBM-3W+3S]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Template:JetFighterBomber1}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Jet Keiun Kai]]{{·}}[[Kikka Kai]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shiden Type 11]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="4"| ~65
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[XF5U]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleFighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu Kai Ni Model E]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ryuusei Kai (CarDiv 1/Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Me 163B]]{{·}}[[Prototype Shuusui]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"| 100
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleFighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu Kai Ni Model E (CarDiv 1/Skilled)]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shuusui]]
+|-
+|}
+
+=See Also=
+{{Mechanics}}

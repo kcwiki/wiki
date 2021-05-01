@@ -1,0 +1,12 @@
+<span class="frac nowrap">{{#if:{{{3|}}}
+ |{{{1}}}<span class="visualhide">&nbsp;</span><sup>{{{2}}}</sup>&frasl;<sub>{{{3}}}</sub>
+ |{{#if:{{{2|}}}
+  |<sup>{{{1}}}</sup>&frasl;<sub>{{{2}}}</sub>
+  |{{#if:{{{1|}}}
+   |<sup>1</sup>&frasl;<sub>{{{1}}}</sub>
+   |&frasl;
+  }}
+ }}
+}}</span><noinclude>
+{{documentation}}
+</noinclude>

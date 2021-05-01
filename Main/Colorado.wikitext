@@ -1,0 +1,606 @@
+==Info==
+{{KanmusuInfo|ID=401}}
+{{KanmusuInfo|ID=406}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform special AACI. Please see [[Anti-Air Cut-In]] for more details.
+* She has a special attack that targets 3 enemies at random.
+** The activation requirements are:
+*** Colorado as the flagship of the 1st fleet.
+*** There must be 6 ships in the fleet.
+*** There must be no submarines in the fleet.
+*** The 2nd and 3rd ships in the fleet must be battleships.
+*** Colorado, the 2nd, and 3rd ships must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>.
+*** '''Echelon formation''' needs to be selected in a single fleet OR '''Cruising Formation 2''' for a combined fleet.
+** If triggered, Colorado will perform a special attack at 1.3x post-cap modifier and the 2nd and 3rd ship will each perform an attack at 1.15x post-cap modifier.
+*** If the 2nd ship is a Big 7, she gains an additional 1.1x post-cap modifier.
+*** If the 3rd ship is a Big 7, she gains an additional 1.15x post-cap modifier.
+*** If both the 2nd and 3rd ships are a Big 7, the 3rd ship gains an additional 1.1x post-cap modifier.
+*** Equipping an AP shell gives a 1.35x post-cap modifier.
+*** Equipping an LoS radar (5 LoS or greater) gives a 1.15x post-cap modifier.
+*** See below for calculated bonuses:
+{| class="mw-collapsible" style="width: 100%; text-align: center;"
+!rowspan="2" style="width: 10%; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Equipment'''
+!colspan="3" style="width: 22.5%; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''2nd and 3rd Big 7'''
+!colspan="3" style="width: 22.5%; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''2nd Big 7'''
+!colspan="3" style="width: 22.5%; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''3rd Big 7'''
+!colspan="3" style="width: 22.5%; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''No Big 7'''
+|- style="background-color:#99CCFF"
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 1'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 2'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 3'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 1'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 2'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 3'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 1'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 2'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 3'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 1'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 2'''
+!style="width: 7.5%; border-style: solid; border-width: 1px;" | '''Attack 3'''
+|-
+|style="border-style: solid; border-width: 1px;" |'''AP + Radar'''
+|style="border-style: solid; border-width: 1px;" |2.02
+|style="border-style: solid; border-width: 1px;" |1.96
+|style="border-style: solid; border-width: 1px;" |2.26
+|style="border-style: solid; border-width: 1px;" |2.02
+|style="border-style: solid; border-width: 1px;" |1.96
+|style="border-style: solid; border-width: 1px;" |1.79
+|style="border-style: solid; border-width: 1px;" |2.02
+|style="border-style: solid; border-width: 1px;" |1.79
+|style="border-style: solid; border-width: 1px;" |2.05
+|style="border-style: solid; border-width: 1px;" |2.02
+|style="border-style: solid; border-width: 1px;" |1.79
+|style="border-style: solid; border-width: 1px;" |1.79
+|-
+|style="border-style: solid; border-width: 1px;" |'''AP Only'''
+|style="border-style: solid; border-width: 1px;" |1.75
+|style="border-style: solid; border-width: 1px;" |1.71
+|style="border-style: solid; border-width: 1px;" |1.96
+|style="border-style: solid; border-width: 1px;" |1.75
+|style="border-style: solid; border-width: 1px;" |1.71
+|style="border-style: solid; border-width: 1px;" |1.55
+|style="border-style: solid; border-width: 1px;" |1.75
+|style="border-style: solid; border-width: 1px;" |1.55
+|style="border-style: solid; border-width: 1px;" |1.79
+|style="border-style: solid; border-width: 1px;" |1.75
+|style="border-style: solid; border-width: 1px;" |1.55
+|style="border-style: solid; border-width: 1px;" |1.55
+|-
+|style="border-style: solid; border-width: 1px;" |'''Radar Only'''
+|style="border-style: solid; border-width: 1px;" |1.49
+|style="border-style: solid; border-width: 1px;" |1.45
+|style="border-style: solid; border-width: 1px;" |1.67
+|style="border-style: solid; border-width: 1px;" |1.49
+|style="border-style: solid; border-width: 1px;" |1.45
+|style="border-style: solid; border-width: 1px;" |1.32
+|style="border-style: solid; border-width: 1px;" |1.49
+|style="border-style: solid; border-width: 1px;" |1.32
+|style="border-style: solid; border-width: 1px;" |1.52
+|style="border-style: solid; border-width: 1px;" |1.49
+|style="border-style: solid; border-width: 1px;" |1.32
+|style="border-style: solid; border-width: 1px;" |1.32
+|-
+|style="border-radius: 0 0 0 6px; border-style: solid; border-width: 1px;" |'''No Bonus Equipment'''
+|style="border-style: solid; border-width: 1px;" |1.30
+|style="border-style: solid; border-width: 1px;" |1.26
+|style="border-style: solid; border-width: 1px;" |1.45
+|style="border-style: solid; border-width: 1px;" |1.30
+|style="border-style: solid; border-width: 1px;" |1.26
+|style="border-style: solid; border-width: 1px;" |1.15
+|style="border-style: solid; border-width: 1px;" |1.30
+|style="border-style: solid; border-width: 1px;" |1.15
+|style="border-style: solid; border-width: 1px;" |1.32
+|style="border-style: solid; border-width: 1px;" |1.30
+|style="border-style: solid; border-width: 1px;" |1.15
+|style="border-radius: 0 0 6px 0; border-style: solid; border-width: 1px;" |1.15
+|-
+|}
+** It can be triggered even if you fail to activate artillery spotting.
+** It can only be activated '''once per sortie'''.
+** It has a chance to trigger every time Colorado takes a turn at shelling. If it fails to trigger in day, there is a chance to trigger it in the followup night battle.
+** It consumes additional ammunition when triggered.
+
+===Overview===
+* Decent firepower and armour.
+* Good HP.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+'''Hidden Fit Bonuses'''
+* She has accuracy bonuses and penalties when equipped with certain large guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+Priority: '''Low'''
+
+: Her firepower is not bad but she loses out to the other slow battleships. She is the weakest of the Big 7s with special attacks and that firepower gap is even bigger when taking into account multipliers. Her special attack also has the lowest multipliers among all the Big 7. It is also the most inflexible since it requires her and the two escorts to not be more than moderately damaged. Being event only, she is very rare but don't stress if you can't get her.
+
+====Recommended Roles====
+* Combat
+* Support Expeditions
+
+====Not Recommended Roles====
+* Anti-Air
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = Hi、私がStatesのBig Seven、Colorado級戦艦一番艦、USS Coloradoよ。あなたがAdmiral？悪くないわね。私にしっかり付いてきなさい。返事は？
+|translation = Hi, I'm one of the Big Seven from the States, first of the Colorado-class battleships, USS Colorado. So you're the Admiral? Not too shabby. Make sure you stick real close to me. What do you say?
+|audio = Colorado-Introduction.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = Hi、StatesのBig Seven、Colorado級戦艦一番艦、USS Colorado、配置に付いてるわ。Admiral、今日も私にしっかり付いてきなさい。返事は？OK！
+|translation = Hi, one of the Big Seven from the States, first of the Colorado-class battleship, USS Colorado, arriving on station. Admiral, make sure you stick real close to me today too. What do you say? OK!
+|audio = ColoradoKai-Introduction.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 私がStatesのBig Seven、Colorado級戦艦一番艦、USS BB-45 Coloradoよ。そう、New York生まれ、太平洋艦隊、真珠湾に配属されたわ。でも、本国で入渠中に奇襲があって…まあ、いいわ。Big Sevenの力、存分に見せてあげるわね。覚悟してて。
+|translation = I'm one of the Big Seven from the States, first of the Colorado-class battleships, USS BB-45 Colorado. Yes, I was born in New York and assigned to the Pacific Fleet at Pearl Harbor. But I was under repair back home when the attack happened...<ref>She was undergoing repairs at Puget Sound Navy Yard when the Attack on Pearl Harbor happened.</ref> well, nevermind that. I'll show you what one of the Big Seven can really do. Just you wait.
+|audio = Colorado-Library.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 聞こえてるわ。What’s up？
+|translation = I hear you. What's up?
+|audio = Colorado-Secretary_1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai = yes
+|origin = 私を呼んだ？What’s up？
+|translation = Did you call me? What's up?
+|audio = ColoradoKai-Secretary_1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = Did you need me?
+|translation = Did you need me?
+|audio = Colorado-Secretary_2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai = yes
+|origin = あなたの…あなた達のために戦ってあげる。私がそうしたいの！
+|translation = I fight for your... I fight for all of your sakes. That's what I want!
+|audio = ColoradoKai-Secretary_2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = あなた、少し気安いわね。いいこと、私はあのBig Sevenの、そしてその一番艦なのよ。もっと尊敬と畏敬の念を……えぇ、陸奥、何？そうじゃない？えぇ！？
+|translation = You're being a bit too casual with me. Listen here, I'm one of the Big Seven, and its lead ship to boot! Show some more reverence and respect... Eh, Mutsu, what is it? That's not true? Eeh!?<ref>The ''Colorado''-class was technically designed earlier (as an up-gunned version of the preceding ''Tennessee''-class), but due to various delays ''Nagato'' became the first of the Big Seven to actually be launched.</ref>
+|audio = Colorado-Secretary_3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 長門、陸奥、what’s up？「テイトク」？あぁ、Admiralね。知らない。しばらく見てないわ。
+|translation = Nagato, Mutsu, what's up? "Teitoku"? Ah, the Admiral. I don't know where he is. I haven't seen him for a while.
+|audio = Colorado-Idle.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = えへん。Admiral、この私がcoffeeを入れてあげたわ。よかったらどうぞ。熱いわよ。
+|translation = Ahem. Admiral, I made some coffee. Please have some if you'd like. It's hot.
+|audio = Colorado-Secretary_Married.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = Admiral？このringは何？…えっ、私に？So beautiful！あ・り・が・と！ずっと大切にするわ！
+|translation = Admiral? What's this ring for? ...Eh, it's for me? It's so beautiful! Thank~ you~! I'll always treasure it!
+|audio = Colorado-Wedding.mp3
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = Information? OK!
+|translation = Information? OK!
+|audio = Colorado-Looking_At_Scores.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = USS BB-45, Colorado-class nameship, Colorado. 出るわ。付いて…きなさい！
+|translation = USS BB-45, Colorado-class nameship, Colorado. I'm heading out. Follow... me!
+|audio = Colorado-Joining_A_Fleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = おぉ！そうするの？
+|translation = Ooh! Is this it?
+|audio = Colorado-Equipment_1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai = yes
+|origin = おぉ！それはいいわね。OK！
+|translation = Ooh! This is nice. OK!
+|audio = ColoradoKai-Equipment_1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = Right on！気に入ったわ。
+|translation = Right on! I like it.
+|audio = Colorado-Equipment_2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = OK.
+|translation = OK.
+|audio = Colorado-Equipment_3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = Thanks！助かるわ。
+|translation = Thanks! This helps.
+|audio = Colorado-Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = Take a bath, OK?
+|translation = I'll take a bath, OK?
+|audio = Colorado-Docking_Minor.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = ちょっと休暇をもらうわ。何？あなた、何か文句でもあるの？
+|translation = I'm going to get some rest. What? You got a problem with that?
+|audio = Colorado-Docking_Major.mp3
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = Finished.
+|translation = Finished.
+|audio = Colorado-Construction.mp3
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = Operation complete.
+|translation = Operation complete.
+|audio = Colorado-Returning_From_Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 太平洋艦隊旗艦、戦艦Colorado、出撃します！みんな、いい？私達で蹴散らします！抜錨！
+|translation = Pacific Fleet flagship, battleship Colorado, sortieing. Is everyone ready? We'll put them to rout! Weigh anchor!
+|audio = Colorado-Starting_A_Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = Enemy in sight！さあ、始めます。蹴散らせ！
+|translation = Enemy in sight! Alright, let's get started. Crush them!
+|audio = Colorado-Battle_Start.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = Fire!
+|translation = Fire!
+|audio = Colorado-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|kai = yes
+|origin = この近代化改装はだてじゃないのよ。Fire！
+|translation = My modernisation remodel isn't just for show. Fire!
+|audio = ColoradoKai-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Daytime Spotting/ Night Battle Attack 
+|origin = もっと撃ちなさい！もっとよ！
+|translation = Keep firing! Don't stop!
+|audio = Colorado-Night_Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 全艦、私に付いてきなさい！この夜で殲滅します！
+|translation = All ships, follow me! We'll annihilate them at night!
+|audio = Colorado-Night_Battle.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 私がnumber one？Battle star？そうね、もらっておくわ。みんな、私をお手本にしてもいいのよ。
+|translation = I'm number one? A battle star? Alright, I accept. Everyone, feel free to use me as your role model.
+|audio = Colorado-MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|kai = yes
+|origin = 私がnumber one？Battle star？そうね、もらっておくわ。あなた達のおかげね。Thanks。
+|translation = I'm number one? A battle star? Alright, I accept. It's thanks to all of you. Thanks.
+|audio = ColoradoKai-MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = きゃあぁー！Shit！少しはやるじゃない。
+|translation = Kyaaah! Shit! Not too bad.
+|audio = Colorado-Minor_Damage_1.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = きゃあぁー！
+|translation = Kyaaaah!
+|audio = Colorado-Minor_Damage_2.mp3
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = Oh my God！この私が？今に見てなさい。
+|translation = Oh my God! I've been hit? Look what you've done!
+|audio = Colorado-Major_Damage.mp3
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = Oh my… God…この私が…海に…沈むというの？……水が冷たい…冷たくて…暗いわ…
+|translation = Oh my... God... Someone like me is... sinking... into this sea? ...The water is cold... Cold and... dark...
+|audio = Colorado-Sunk.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 仕方ない。私、Coloradoが、今日はsecretaryをやってあげるわ。今日だけよ。勘違はしないでね。
+|translation = If I must. I, Colorado, will be your secretary for today. Just for today. Don't misunderstand me.
+|audio = ColoradoKai-00.mp3
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = It is 1. まあ、そういうことね？
+|translation = It is 1. Well, something like this?
+|audio = ColoradoKai-01.mp3
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = It is 2. 陸奥は「ウシミツ」って言ってたわね？
+|translation = It is 2. Mutsu said it was "ushimitsu", right?<ref>"Ushimitsu" (丑三つ) is the "hour of the ox" and refers to 0200-0230 in traditional Japanese timekeeping.</ref>
+|audio = ColoradoKai-02.mp3
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = It is 3. さすがに眠いわ。お休みしない？
+|translation = It is 3. Even I'm getting sleepy. Shall we get some rest? 
+|audio = ColoradoKai-03.mp3
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = It’s 4. まだ頑張るの？Really?
+|translation = It's 4. You're still going to keep going? Really?
+|audio = ColoradoKai-04.mp3
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = It’s 5. もう朝になるわ。仕方ない。私がcoffeeを入れてあげる。あなたも飲むでしょう？
+|translation = It's 5. Morning is almost here. I've got no choice then. I'll make some coffee. You'll have some, right?
+|audio = ColoradoKai-05.mp3
+}}
+{{ShipquoteKai
+|scenario = 06:00
+|origin = Good morning. It is 6. さあ、艦隊総員起床をかけるわよ。はぁー、んー。いい朝ね。
+|translation = Good morning. It is 6. Now then, time to sound Reveille. *deep breath* Nngggh. It's a great morning.
+|audio = ColoradoKai-06.mp3
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = It is 7. Morningを用意しておいたわ。卵はscrambleでいいでしょう？はい、どぞ。
+|translation = It is 7. I've made breakfast. Scrambled eggs are fine, right? Here you go.
+|audio = ColoradoKai-07.mp3
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = It is 8. さあ、海に出ましょう！今日はどんな艦隊運用？えぇ、長期入渠？却下よ。
+|translation = It is 8. Now, let's head out to sea! What operations will we be doing today? Eh, long-term docking? I refuse.
+|audio = ColoradoKai-08.mp3
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = It is 9. あっ、Mary？そうね、また会えると思うわ。あの子達、ああ見えてしぶといから。
+|translation = It is 9. Ah, Mary? Yes, I feel like I'll see them again. Those girls are tougher than they look.<ref>Referring to her sister Maryland and the other members of Battleship Row during the Attack on Pearl Harbor. Most were from older classes but survived and returned to service.</ref>
+|audio = ColoradoKai-09.mp3
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = It is 10. あぁ、この艦橋構造？私は嫌いじゃないんだけど。あなたは嫌なの？ん、OK。
+|translation = It is 10. Ah, the shape of my bridge? I don't dislike it. Do you not like it? Hmm, OK.
+|audio = ColoradoKai-10.mp3
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = Elevensies. そろそろランチにする？まだ早いかな…今日は私がlunch boxを持ってきたから。
+|translation = Elevenses. Shall we have lunch soon? I guess it's still early... I've brought a lunch box today.
+|audio = ColoradoKai-11.mp3
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = It is noon. さあ、開けてみて。どう？Colorado特製sandwichのlunch box！豪華でしょう？どうぞ。
+|translation = It is noon. Come on, open it up. Well? It's my special sandwich lunch box! Isn't it grand? Help yourself.
+|audio = ColoradoKai-12.mp3
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = It is 1. 食後はcoffeeでいい？OK。
+|translation = It is 1. Would you like some coffee after your meal? OK.
+|audio = ColoradoKai-13.mp3
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = It is 2. さあ、午後は演習でいい？
+|translation = It is 2. Alright, can we do some exercises this afternoon?
+|audio = ColoradoKai-14.mp3
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = It is 3. あら、Nelson！Fine？
+|translation = It is 3. Oh, Nelson! Are you doing fine?
+|audio = ColoradoKai-15.mp3
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = It is 4. そう、複縦陣…そうね、梯形陣も侮れない気がしない？正面、そして舷側方向に対しても。
+|translation = It is 4. Right, double line... But I don't think you should just ignore echelon either. You can face both forwards and broadside.
+|audio = ColoradoKai-16.mp3
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = It is 5. 夕日が海に沈むわ。きれいね。このmagic hour、私は、好き。あなたは？
+|translation = It is 5. The sun is sinking below the sea. It's beautiful. I like this magic hour.<ref>See [[wikipedia:Golden hour (photography)|golden hour]]</ref> What about you?
+|audio = ColoradoKai-17.mp3
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = It is 6. さあ、dinnerの用意をしましょう。MenuはNew York cut steak。待っていて。
+|translation = It is 6. Alright, I'll go get dinner ready. The menu will be New York cut steak. Just wait! <ref>New York cut steak is more commonly known as [https://en.wikipedia.org/wiki/Strip_steak| strip steak].</ref>
+|audio = ColoradoKai-18.mp3
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = It is 7. さあ、steakが焼けたわ。冷めないうちに召し上がれ。飲み物はbeerでいい？
+|translation = It is 7. There, the steak is done. Eat up before it gets cold. Would you like some beer?
+|audio = ColoradoKai-19.mp3
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = It is 8. 食事中だっていうのに、港が少し騒がしいわね。3rd Squadron？…あっ、出撃した。
+|translation = It is 8. Isn't the port a little busy for mealtime? The 3rd Squadron?<ref>Presumably referring to Sendai's Third Destroyer Squadron setting out for night battle.</ref> ...Ah, they sortied.
+|audio = ColoradoKai-20.mp3
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = It is 9. あぁ、あなたは確か…山城？えぇ、Wee Vee？ここにはいないわ。あぁ、そう？OK。
+|translation = It is 9. Ah, if I'm not mistaken, you're... Yamashiro? Eh, Wee Vee? She's not here. Ah, is that so? OK.<ref>Yamashiro was sunk by ''Colorado'''s sister ship and fellow Big Seven member ''West Virginia'', nicknamed "Wee Vee".</ref>
+|audio = ColoradoKai-21.mp3
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = It is 10. ううん、大丈夫。山城はああ見えて、姉思いのいい子よ。私は嫌いじゃない。
+|translation = It is 10. No, it's fine. It might not seem like it, but Yamashiro's just a girl that loves her sister. I don't dislike that.
+|audio = ColoradoKai-22.mp3
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = It is 11. もうこんな時間。明日？明日も色々手伝ってあげてもいいわ。…あっ！仕方ない…わね！
+|translation = It is 11. Look how late it's gotten. Tomorrow? I'll help you with whatever you want tomorrow. ...Ah! Because... I've got no choice!
+|audio = ColoradoKai-23.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2019|Rainy Season 2019]]
+|origin = ここでは、この季節はやたらとrainyね？。私は晴れのほうが好き。ね、WeeVee、あなたはどう？
+|translation = So it gets pretty rainy here around this season, huh? I prefer it sunny. WeeVee, how about you?
+|audio = Colorado_Rainy_Season_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2019|Autumn 2019]]
+|origin = 鎮守府秋祭り…いいわね。この国のフェスの雰囲気も…あぁ、あの駆逐艦がほうばってるのはなに？食べてみたいわ。
+|translation = The Naval District Autumn Festival... This is nice. The atmosphere of the festivals in this country are... Ah, what is that destroyer eating? I'd like to try some.
+|audio = Colorado_Autumn_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2019|Saury 2019]]
+|origin = 噂のサンマフェス。何か、思ってた以上に大掛かりなのね？せっかくだから、私もその「シオヤキ」試してみたい！いい？
+|translation = So this is the Saury Festival I've heard about. It's a lot larger than I imagined. Since I'm here, I'd like to try one of those "salt grilled saury"! Can I?
+|audio = Colorado_Saury_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2019|End of Year 2019]]
+|origin = Mary、大掃除ですって？大規模cleaningってことね。まあ、いいことじゃない。私たちも協力しましょう！
+|translation = Mary, it's a spring cleaning you say? That means it's a large-scale cleaning. Well, this is good. We'll help out too!
+|audio = Colorado_Year_End_2019_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2020|New Year 2020]]
+|origin = Happy New Year！新年もよろしく頼むわ。OK？さあ、美味しいものでも食べに行きましょう？？
+|translation = Happy New Year! I'm counting on you again this year. OK? Now, shall we go have some good food?
+|audio = Colorado_New_Year_2020_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2020|Setsubun 2020]]
+|origin = あぁ、知っているわ。Saraに聞いたもの。セッツブーンね？任せておいて。初弾から当ててあげる。陸奥、覚悟！
+|translation = Ah, I know about this. I heard about this from Sara. Setsubun, right? Leave it to me. I'll get them on the first shot. Mutsu, brace yourself!
+|audio = Colorado_Setsubun_2020_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2020|Valentine's Day 2020]]
+|origin = あなたにこれをあげるわ。Chocolate。特に深い意味はないの。みんなそうしてるみたいだから。そうよ。
+|translation = This is for you. Some chocolate. There's nothing special about it. It's just that everyone was doing it. That's all.
+|audio = Colorado_Valentines_2020_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2020|White Day 2020]]
+|origin = あら！義理堅いのね。私のくれるの？Thanks！あぁ、そんな喜んではいないわ。普通よ！普通。
+|translation = Oh my! You're so dutiful. Is this for me? Thanks! Ah, I'm not that happy about it! Just average! Yes, just that much.
+|audio = Colorado_White_Day_2020_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = 7th Anniversary! おめでとう！私も祝福するわ。艦隊に、みんなに、栄光ありますように！
+|translation = It's the 7th Anniversary! Congratulations! I give you my blessings. May the entire fleet continue to gain glory!
+|audio = Colorado_7th_Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = Colorado Special Attack
+|origin = Colorado戦隊全力斉射！各個目標に砲撃開始！一気に殲滅する。Fire!
+|translation = Colorado Squadron, full broadside! Open fire when you've confirmed your targets! We'll destroy them in one broadside. Fire!
+|audio = Colorado-Special_1.mp3
+|notes = Special Attack Line
+}}
+{{SeasonalQuote
+|scenario = [[Hinamatsuri 2020 Mini-Event]]
+|origin = 臨時編成、太平洋艦隊、戦場到着。これより友軍を援護する。 
+|translation = The Provisional Pacific Fleet has arrived on the battlefield. We'll now support the allied fleet.
+|audio = Ship_Voice_Colorado_Kai_Hinamatsuri_2020_Mini-Event_Friend_Fleet_1.mp3
+|notes = Friend Fleet 1
+}}
+|} <references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+KanMusu401CG.png|Base
+KanMusu401CGDmg.png|Base Damaged
+KanMusu406CG.png|Kai
+KanMusu406CGDmg.png|Kai Damaged
+</gallery>
+|}
+
+==Drop Locations==
+
+==Trivia==
+* She is named after the state of [https://en.wikipedia.org/wiki/Colorado Colorado]
+
+==See Also==
+[[Elitebb|List of Battleships]]
+
+[https://en.wikipedia.org/wiki/USS_Colorado_(BB-45)| Wikipedia entry on Colorado]
+
+{{shiplist}}

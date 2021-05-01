@@ -1,0 +1,777 @@
+==Info==
+{{KanmusuInfo|ID=107}}
+{{KanmusuInfo|ID=108}}
+{{KanmusuInfo|ID=262}}
+{{KanmusuInfo|ID=267}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to shell while moderately damaged at Kai Ni A.
+* Gains ability to use jets at Kai Ni A.
+* Can freely convert between Kai Ni and Kai Ni A remodels.
+** Modernisation is reset after conversion.
+** You will need to pay the resource cost when converting. A blueprint is not required when converting from Kai Ni A to Kai Ni.
+
+===Overview===
+'''Kai'''
+* Low firepower and armour.
+* Good HP.
+* Good plane count.
+* Decent slot distribution.
+
+'''Kai Ni'''
+* Good firepower, HP and armour
+* Great plane count.
+* Decent slot distribution.
+
+'''Kai Ni A'''
+* High firepower and armour.
+* Good HP.
+* Decent plane count.
+* Great slot distribution.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority:
+
+* Kai: '''Medium'''
+: Her Kai suffers from a lack of firepower which means she is lackluster at shelling. Her good plane count is somewhat let down by the even slot distribution but that makes her flexible since she can increase or decrease the amount of fighters or bombers she takes without compromising too much. This does make her a bit of a jack of all trades, master of none. 
+
+* Kai Ni: '''Low'''
+: Her Kai Ni improves upon everything her Kai can do but at a steep cost. It does bring a significant increase to her firepower which increases her combat ability. Now, she can do powerful shelling attacks in addition to her airstrikes.
+
+* Kai Ni A: '''High'''
+: Her Kai Ni A increases her firepower further and provides a significant upgrade to her slot distribution. She now gets a large top slot and a respectable 2nd slot that makes her even better at being a shelling carrier. She does lose her flexibility with her plane loadouts but that doesn't matter much. In addition, she also gains the ability to shell while moderately damaged. All this makes this remodel well worth the expense. 
+
+====Recommended Roles====
+* Combat - Kai Ni/Kai Ni A
+* Air Support
+* Shelling Support - Kai Ni/Kai Ni A
+* Airstrike Support - Kai/Kai Ni
+
+====Not Recommended Roles====
+* Combat - Kai
+* Shelling Support - Kai
+* Airstrike Support - Kai Ni A
+
+===Important Info===
+* Required for quests A23, A56, A62, B15, and B50, and F19 <Shoukaku>
+* Option for F20
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 翔鶴型航空母艦二番艦、妹の瑞鶴です。幸運の空母ですって？そうじゃないの、一生懸命やってるだけ…よ。 艦載機がある限り、これからだって、負けない！提督さん、あらためて、これからもよろしくね。
+|translation = I'm the 2nd ship of the Shoukaku-class aircraft carriers, the younger sister, Zuikaku. A lucky carrier? Not quite, I just did my best... I won't ever lose as long as I have planes. Once again, nice to meet you, Admiral.<ref>She was called lucky because she survived many engagements.</ref>
+|audio = Zuikaku-Intro.mp3
+}}
+<!--{{ShipquoteKai
+|scenario = Introduction
+|origin = 翔鶴型航空母艦2番艦、妹の瑞鶴です。幸運の空母ですって？そうじゃないの、一生懸命やってるだけ…よ。 艦載機がある限り、負けないわ！
+|translation = I'm the 2nd ship of the Shoukaku-class aircraft carriers, the younger sister, Zuikaku. A lucky carrier? Not quite, I just did my best... I won't lose as long as I have planes.<ref>She was called lucky because she survived many engagements.</ref>
+|audio = Zuikaku_1.ogg
+}}-->
+{{ShipquoteKai
+|scenario = Introduction
+|kai2 = yes
+|origin = 航空艤装を全面てきに近代化改修したこの瑞鶴、ふつうの正規空母だとは思わないでね。
+|translation = Don't think that I'm just your ordinary standard carrier after my flight equipment has been fully modernised.
+|audio = ZuikakuKaiNi-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 翔鶴型航空母艦2番艦、瑞鶴です。
+翔鶴姉と共に、ミッドウェーの後の第一機動部隊の中核として、矢尽き刀折れるまで奮戦しました。 
+文字通り、最後の機動部隊が壊滅する、その日まで…。
+|translation = I'm the 2nd ship of the Shoukaku-class aircraft carriers, Zuikaku.
+I formed the core of the 1st Task Force with Shoukaku-nee after Midway and fought hard until my last breath.<ref>After the disaster at Midway, Shoukaku and Zuikaku were assigned to CarDiv1.</ref>
+I literally fought on until the day that the Task Force was crushed.<ref>Referring to the [https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf Battle of Leyte Gulf] where the IJN was handed it's biggest defeat.</ref>
+|audio = Zuikaku_25.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|kai2 = yes
+|origin = 翔鶴型航空母艦２番艦、瑞鶴です。
+翔鶴姉と共にミッドウェーの後の第一機動部隊の中核として、矢尽き刀折れるまで奮戦しました。文字通り、最後の機動部隊が壊滅する、その日まで。
+でも、今度は違うの。改装された本格正規空母の力、存分にみせるわ！翔鶴姉、やろう！
+|translation = I'm the 2nd ship of the Shoukaku-class aircraft carriers, Zuikaku.
+I formed the core of the 1st Task Force with Shoukaku-nee after Midway and fought hard until my last breath. I literally fought on until the day that the Task Force was crushed.
+But this time will be different. I'll really show you the true power of a remodelled standard carrier! Let's do this, Shoukaku-nee!
+|audio = ZuikakuKaiNi-Library.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 提督さん、何？作戦？
+|translation = What is it, Admiral? An operation?
+|audio = Zuikaku_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = もう、翔鶴姉だって…ちょっとおやつ食べるの控えよかな…あぁ、なんでもない！
+|translation = Jeez, you too, Shoukaku-nee... Maybe I should cut down on snacks a little... Ah, it's nothing!
+|audio = Zuikaku-Sec2.mp3
+}}
+<!--{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 翔鶴姉なに…？って、提督さんじゃん！何やってんの！？爆撃されたいの！？
+|translation = What is it, Shoukaku-nee...? Wha, it's you, Admiral! What do you think you're doing!? Do you want to be bombed!?
+|audio = Zuikaku_3.ogg
+}}-->
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = 全機爆装、準備出来次第発艦！目標、母港執務室の提督！やっちゃって！
+|translation = All bombers take off as soon as you're ready! The target is the Admiral's office! Get him!
+|audio = Zuikaku_4.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 提督ー！なんか瑞鶴、ちょっと退屈なんだけど…不貞腐れるぞ！
+|translation = Admiral~! I'm kind of bored... I'll sulk!
+|audio = Zuikaku_29.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督さん…あんま無理しちゃ駄目だよ…？
+|translation = Admiral... don't push yourself alright...?
+|audio = Zuikaku_28.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督さん、どうしたの、そんな真顔で？瑞鶴の顔になんか付いてる？　えっ？あっ、近い、近いですよ！顔がっ！？あっ…あぁっ…あぁ…
+|translation = What's with that serious expression, Admiral? Is there something on my face? Ah, you're close, too close! Your expression is! Ah... Ah... Ah...
+|audio = Zuikaku_24.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 提督さん、どう？どんな感じどんな感じ？
+|translation = How is it, Admiral? What's the situation like?
+|audio = Zuikaku_8.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 五航戦、瑞鶴出撃よ！
+|translation = CarDiv5, Zuikaku, sortieing!
+|audio = Zuikaku_13.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = うんっ、いいみたい！ありがとね！
+|translation = Yup, looks good! Thanks!
+|audio = Zuikaku_9.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai2 = yes
+|origin = 新しい艦載機？いいじゃあない！さーんきゅっ！
+|translation = A new plane? That's great! Thank you~!
+|audio = ZuikakuKaiNi-Equip1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = やだ…これもいいわね…さーんきゅっ！
+|translation = You shouldn't have... This is great too... Thank you!
+|audio = Zuikaku_10.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2 (Kai Ni A)
+|kai2 = yes
+|origin = 新型艦載機っ…。ん…。たしかに良さそう。うちの装備と艤装なら、運用できるわ！
+|translation = A new model plane... Hmm... That does sound good. I can handle any equipment!
+|audio = ZuikakuKaiNiA-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = いい感じじゃない！
+|translation = This feels great!
+|audio = Zuikaku_26.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|kai2 = yes
+|origin = よし、いい感じじゃあない！
+|translation = Alright, this feels great!
+|audio = ZuikakuKaiNi-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = 燃料、弾薬…艦載機も補充しておくね。
+|translation = Fuel, ammunition... replace my planes too alright.
+|audio = Zuikaku_27.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 少し、お風呂に入ってくるね。
+|translation = I'll be in the bath for a while.
+|audio = Zuikaku_11.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = まぁ、私だってたまにはケガするし。
+|translation = Well, even I get injured sometimes.
+|audio = Zuikaku_12.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 提督さん、新しい船できたみたい。
+|translation = Looks like a new ship is here, Admiral.
+|audio = Zuikaku_5.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊が無事帰投しました。はぁ…よかったぁ！
+|translation = The fleet has returned safely to port. Whew... thank goodness!
+|audio = Zuikaku_7.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 空母瑞鶴、抜錨します！
+|translation = Carrier Zuikaku, setting sail!
+|audio = Zuikaku_14.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai2 = yes
+|origin = 機動部隊、旗艦瑞鶴、抜錨するわ！続いて！
+|translation = Task Force flagship, Zuikaku, setting sail! Follow me!
+|audio = ZuikakuKaiNi-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 第一次攻撃隊、発艦始め！
+|translation = 1st Attack Squadron, begin take off!
+|audio = Zuikaku_15.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|kai2 = yes
+|origin = 翔鶴姉、やるよ！艦首風上、攻撃隊、発艦始め！
+|translation = Let's do this, Shoukaku-nee! Face into the wind, Attack Squadron, take off!<ref>Carriers would sail against the wind to make it easier for planes to take off.</ref>
+|audio = ZuikakuKaiNi-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = アウトレンジで、決めたいわね！
+|translation = We'll decide this out of their range!<ref>IJN planes had better range than the USN ones. They would count on that to try attack USN carriers without being retaliated against.</ref>
+|audio = Zuikaku_16.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack (Kai Ni A)
+|kai2 = yes
+|origin = さぁ、始めるわ！ほんとにアウトレンジしてあげるんだから！攻撃隊、全機発艦！
+|translation = Now, let's get started! We really do outrange them! All Attack Squadrons, take off!
+|audio = ZuikakuKaiNiA-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Air Battle
+|origin = 第二次攻撃隊、稼働機、全機発艦！
+|translation = 2nd Attack Squadron, ready, all planes take off!
+|audio = Zuikaku_17.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 七面鳥ですって…？冗談じゃないわ！
+|translation = "A turkey"...? That's not funny!<ref>Referring to the [https://en.wikipedia.org/wiki/Battle_of_the_Philippine_Sea Battle of the Philippine Sea] that was known as the Great Marianas Turkey Shoot because the inexperienced IJN pilots were shot down en masse by USN AA.</ref>
+|audio = Zuikaku_18.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = やったぁ！見たか！これが五航戦の本当の力よ！瑞鶴には幸運の女神がついていてくれるんだから！
+|translation = Alright! Did you see that! This is the true power of CarDiv5! It's because I have Lady Luck by my side!
+|audio = Zuikaku_23.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|kai2 = yes
+|origin = よーし！見たか！これが新しい五航戦の本当の力よ。瑞鶴には幸運の女神がついていてくれるんだから！
+|translation = Alrigh! Did you see that! This is the true power of the new CarDiv5. It's because I have Lady Luck by my side!
+|audio = ZuikakuKaiNi-MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = っ…かすり傷なんだから。
+|translation = Tch... It's just a scratch.
+|audio = Zuikaku_19.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = や、やるじゃないの…！
+|translation = N-not bad...!
+|audio = Zuikaku_20.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = もうっ、私がここまで被弾するなんて！誘爆を防いで！飛行甲板は大丈夫？
+|translation = Jeez, and I made it this far without being hit! Prevent detonation! Is the flight deck alright?
+|audio = Zuikaku_21.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage (Kai Ni A)
+|kai2 = yes
+|origin = もうっ、私が被弾するなんて！誘爆を防いで！甲板は大丈夫ね？まだまだ戦いるわ！
+|translation = Jeez, I've been hit! Prevent detonation! Is the deck alright? I can still keep fighting!
+|audio = ZuikakuKaiNiA-MajorDamage.mp3
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = うっ…私も逝くの…？ 総員飛行甲板、翔鶴姉、待っていてくれるかな…
+|translation = Urgh... So my time has come too...? All hands to the flight decks, Shoukaku-nee are you waiting for me...
+|audio = Zuikaku_22.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 提督さん、日付が変わっちゃったよ？
+|translation = Admiral, the date has chaged you know?
+|audio = Zuikaku_30.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = 時刻はマルヒトマルマル。ねむーい…
+|translation = The time is now 0100. I'm sleepy...
+|audio = Zuikaku_31.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = マルフタマルマルよ。眠くないの？
+|translation = It's 0200. Aren't you sleepy?
+|audio = Zuikaku_32.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = 提督さんー、マルサンマルマルになったよ…
+|translation = It's now 0300, Admiral...
+|audio = Zuikaku_33.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = マルヨンマルマル。ま、まだおきてます！
+|translation = 0400. I-I'm still awake!
+|audio = Zuikaku_34.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = 朝じゃん…マルゴーマルマル、夜明けだねぇ…
+|translation = It's morning... 0500, it's dawn...
+|audio = Zuikaku_35.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = 現在時刻マルロクマルマル。早起きと言うか、夜更かしと言うか…
+|translation = The time is now 0600. I don't think we're getting up early, it's more like we're staying up late...
+|audio = Zuikaku_36.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = マルナナマルマルよ。朝ごはんなになに？楽しみ～
+|translation = It's 0700. What's for breakfast? I can't wait~
+|audio = Zuikaku_37.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = 現在、マルハチマルマル。さぁ、今日も頑張ってアウトレンジしよ！
+|translation = It's now 0800.  Now, let's do our best to out range them today!
+|audio = Zuikaku_38.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = 時刻はマルキュウマルマル。とりあえず索敵しとく？
+|translation = The time is 0900. Shall we start with recon for now?
+|audio = Zuikaku_39.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマルになったわ…翔鶴姉元気かなぁ？
+|translation = It's now 1000... Is Shoukaku-nee feeling fine?
+|audio = Zuikaku_40.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマルよ。お昼何食べる？ねえ何食べる？
+|translation = It's 1100. What are we having for lunch? Hey, what's for lunch?
+|audio = Zuikaku_41.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = 提督！ヒトフタ…ってお昼ですお昼！ランチしたーい！
+|translation = Admiral! 12... Hey, It's lunchtime now! I want to eat!
+|audio = Zuikaku_42.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = ヒトサン…ん～めんどくさーい。1時よ1時。
+|translation = 13... Ngh, this is a pain. It's 1 o'clock.
+|audio = Zuikaku_43.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = はいはい分かったわよ。現在時刻はヒトヨンマルマル。これでいい？
+|translation = Yes, yes, I get it. The time is now 1400. Better?
+|audio = Zuikaku_44.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = 時刻はヒトゴーマルマル。小沢っちは元気かなぁ？
+|translation = It's now 1500. Are Ozawa and the others doing well?<ref>Referring to [https://en.wikipedia.org/wiki/Jisaburo_Ozawa Vice-Admiral Ozawa Jisaburou] who commanded the Northern Force at Leyte Gulf.</ref>
+|audio = Zuikaku_45.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = ヒトロクマルマルよ。そろそろ夕方よね～？
+|translation = It's 1600. It's amost evening huh?
+|audio = Zuikaku_46.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = だんだん日が暮れて来たぁ。ヒトナナマルマルです。
+|translation = The sun has set. It's 1700.
+|audio = Zuikaku_47.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = ヒトハチマルマル。さぁ、夜の時間ね。
+|translation = 1800. Now, it's night time.
+|audio = Zuikaku_48.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトキュウ･･･ん～まためんどうになって来た。7時よ。夜御飯なんだろうね。
+|translation = 19.... Ngh, it's become a pain again. It's 7 o'lock. It's dinnertime now.
+|audio = Zuikaku_49.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = フタマルマルマル, 8時です！どうでもいいけど…かわう…ん…川内うるさい！
+|translation = It's 2000, 8 o'clock! I don't mind but... Kawau... Ngh... Sendai, shut up!<ref>Kawauchi is another way of reading Sendai's name.</ref>
+|audio = Zuikaku_50.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = 現在時刻フタヒトマルマル。9時よ。
+|translation = The time is now 2100. It's 9 o'clock.
+|audio = Zuikaku_51.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = フタフタマルマル。すっかり夜…提督さん、そろそろ休まなくていいの？
+|translation = 2200. It's totally night... Shouldn't you go to bed soon, Admiral?
+|audio = Zuikaku_52.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = 深夜になって来ました。フタサンマルマル。うーん、そろそろ寝ようよぉ。
+|translation = It's late now. 2300. Yeah, let's go to sleep.
+|audio = Zuikaku_53.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin = 提督さん、翔鶴姉ぇ、おめでとう！二周年だね！なんか信じられないね！…来年も翔鶴姉ぇ達とこの日を迎えられるといいな。
+|translation =	Admiral, Shoukaku-nee, congratulations! It’s the 2nd anniversary! I can’t believe it! …It’d be good if I’ll be able to celebrate this day with you next year with everyone.
+|audio = 107_Zuikaku_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2015|Rainy Season 2015]]
+|origin = この季節は嫌だな…何かやだ、苦手。翔鶴姉、大丈夫かな。なんか、心配。
+|translation =	I don’t like this season… I just don’t. I wonder if Shoukaku is alright. I’m kind of worried.
+|audio = Zuikaku_Rainy_Secretary_1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_Season_Update|Early Summer 2015]]
+|origin = 翔鶴姉、見てみて！今年のおニューの水着だよ♪買っちゃった！だってもうすぐ夏だよ、夏！翔鶴姉も買いに行こうよ、ね？
+|translation =	Look at this, Shoukaku-nee! It’s my new swimsuit for this year♪ I bought one! I mean, it’s almost summer! Let’s go buy one for you too ok, Shoukaku-nee?
+|audio = Zuikaku_Early_Summer_HQ.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Autumn_2015_Seasonal_Update|Early Autumn 2015]]
+|origin = 秋、か。そうね、秋は終わりの季節。でも、始まりの季節でもあるんだ。きっとそう。私はそう思ってるんだ。らしくないか？
+|translation =	It’s autumn. That’s right, autumn is the season of endings. But, it’s also the season of beginnings. I’m sure of it. That’s what I think. Was that not like me?
+|audio = Zuikaku_Early_Autumn2015.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = ん…クリスマスか…あぁ、翔鶴ねえ、その料理は食べない！私絶対食べない！いらないってば！
+|translation =	Hmm… It’s Christmas… Ah, I won’t eat that, Shoukaku-nee! I’ll never eat that! I said I won’t!
+|audio = Zuikaku_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = もう年末って本当あっという間！大掃除も面倒くさいな、もう。ん？翔鶴ねえ、なに？あぁ、そこ危ないよ！だ、大丈夫、翔鶴ねえ？
+|translation =	The end of the year came so fast! Spring cleaning is such a pain, jeez. Hmmm? What is it, Shoukaku-nee? Ah, that’s dangerous! A-are you alright, Shoukaku-nee?
+|audio = Zuikaku_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 提督さん、翔鶴ね！あけましておめでとう！今年もどぞよろしくお願いします！で、として二人がわらているの？
+|translation =	Admiral, Shoukaku-nee! Happy New Year! Please take care of me this year too! Hey, why are both of you laughing?
+|audio = Zuikaku_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = 節分ねぇ…あぁ、翔鶴姉！ 毎年自分から鬼役を買って出なくていいのに！ あぁ、もうこのお面私に貸してよ！ほら、もう…。
+|translation =	It’s Setsubun… Ah, Shoukaku-nee! You volunteer to be the Oni every year! Aaah, just give that mask to me! Come on, jeez…
+|audio = Katsuragi_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = 提督さん、どうせきっと私だけどと思うから、可哀想だからチョコあげるは。ほら。ちゃんとお返ししてよね？
+|translation =	I felt sorry for you thinking that you’d only get chocolates from me, Admiral. So here you go. Make sure you get me something in return alright?
+|audio = Zuikaku_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = 提督さん、チョコのお返しくれるの？やったー！えぇ、翔鶴姉にも？なんでなんで？！微妙に納得出来ない！！
+|translation =	Are you giving me something in return for the chocolates, Admiral? Hooray! Eh, you’re giving some to Shoukaku-nee too? Why in the world?! You have absolutely no tact at all!!
+|audio = Zuikaku_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 提督さん、翔鶴姉、おめでとう！三周年だね。あはぁ！なんか信じられないなあ。来年も翔鶴姉たちとこの日を迎えられるといいな！
+|translation =	Admiral, Shoukaku-nee, Congratulations! It’s the 3rd Anniversary. Ahaa! I just can’t believe it. I want to celebrate this day with all of you again next year!
+|audio = Zuikaku_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2018|Valentine’s Day 2018]]
+|origin = 提督さん、遅いじゃん。少しだけ待ちゃったよ。寒いだからさ、待たせないだよ。あぁ、これ？これはね…
+|translation =	You’re late, Admiral. I’ve waited quite a while. It’s cold so don’t make we wait. Ah, this? This is…
+|audio = Zuikaku_Kantai_Kessen_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 提督さん、翔鶴ねえ、おめでとう！ついに五周年だね。なんか本当に信じられないね。こんなとこまで…来年もまた、翔鶴ねえたちこの日を迎えられるといいな。
+|translation =	Admiral, Shoukaku; congratulations! It’s finally the 5th Anniversary. I really can’t believe it. We’ve made it this far… I’d like to be able to celebrate this day with all of you next year too.
+|audio = Zuikaku_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2018|Saury 2018]]
+|origin = はぁ？秋刀魚？いいけど、なに？なにをどうするの？ほぉ、ほぉ、なるほどね。分かった。やったあげる。
+|translation =	Huuh? Saury? They're good but why? What are you going to do with them? Hmm, hmm, I see. I get it. I'll do it.
+|audio = Zuikaku_Sec1_Saury_2018.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = 提督さん、翔鶴姉、六周年だね！おめでとう！随分遠いとこまで一緒に来ちゃったね。本当。来年も、翔鶴姉たちとこうやって、お祝いしたいよね？ねぇ？
+|translation =	Admiral, Shoukaku; it's the 6th Anniversary! Congrats! We've come such a long way together. We really have. I'll be celebrating with Shoukaku and everyone else next year too right? Right?
+|audio = Zuikaku_6th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = 提督さん、翔鶴ねえ、おめでとう！七周年だね。嬉しいけど、なんか本当に信じられなよね？この先も、ずっと翔鶴ねえたちと一緒に、未来に歩いていきたいな。
+|translation =	Admiral, Shoukaku, congratulations! It's the 7th Anniversary. I'm happy but I really can't believe it you know? I'd like to keep moving forward into the future with Shoukaku and everyone else.
+|audio = Zuikaku_7th_Anniversary_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = 提督さん、翔鶴ねえ、おめでとう！ついに八年目だね？なんか、本当に信じられないね。これからもずっと、提督さんと翔鶴姉たちとこの日を迎えられるといいな。あぁ、もちろん、この娘も。
+|translation =	Admiral, Shoukaku, congrats! It's our 8th year, right? I kinda can't believe it. It'd be nice if I can keep having many happy anniversaries with you, Shoukaku and everyone else. Ah, and of course with her too.
+|audio = Zuikaku_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Eve of the Final Battle 2018]]
+|origin = 提督さん…うん、分かってる。
+|translation =	Admiral… Yes, I understand.
+|audio = Zuikaku_Eve_of_Final_Battle_Sec3.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Eve of the Final Battle 2018]]
+|origin = 大丈夫、今度は艦載機が有る。熟練部隊も。そして…
+|translation =	I’ll be fine, I have planes this time. Skilled squadrons too. And…
+|audio = Zuikaku_Kantai_Kessen_2018_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Eve of the Final Battle 2018]]
+|origin = そう、翔鶴姉がいるんだ。負けない！絶対に！
+|translation =	Yes, Shoukaku-nee will be there. I won’t lose! Count on it!
+|audio = Zuikaku_Kantai_Kessen_2018_Sec3.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = いよいよ捷一号作戦。私たち、大沢艦隊の出撃か？来たんだね、この時が。
+|translation =	It’s finally time for Operation Sho-1. We of the Ozawa Fleet are sortieing? So the time has come.
+|audio = Zuikaku_Kantai_Kessen_2018_Sec1b.mp3
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 翔鶴姉、何？て、提督さんじゃん？何やってんの？作戦中だよ？まじで爆撃されたいの！？
+|translation =	What is it, Shoukaku-nee? I-it’s you, Admiral? What are you doing? We’re in the middle of an operation you know? Do you really want to be bombed!?
+|audio = Zuikaku_Kantai_Kessen_2018_Sec2b.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 全機爆装、準備でき次第発艦！目標、母港執務室の提督！やっちゃって！...って、発艦中止！作戦の後でね。覚えといてよ！
+|translation =	All bombers, take off when ready! The target is the Admiral’s offce! …Wait, belay that order! Wait till after the operation. I’ll remember this!
+|audio = Zuikaku_Kantai_Kessen_2018_Sec3b.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = てーとくー！ぼーっとしてる時間ないよ！ほら、機動部隊の出撃準備！この戦いは負けられないんだから！
+|translation =	Admiral! This isn't the time to be daydreaming! Come on, we need to prepare to sortie the Mobile Force! We can't lose this battle!
+|audio = Zuikaku_Kantai_Kessen_2018_Idle.mp3
+|notes = Secretary Idle
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 補充できる艦載機があるって、本当ありがたい！
+|translation =	I’m really grateful that there are replacement planes!
+|audio = Zuikaku_Kantai_Kessen_2018_Supply.mp3
+|notes = Supply
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 第三艦隊、小沢機動部隊、旗艦瑞鶴、出撃する！
+|translation =	3rd Fleet, Ozawa Mobile Force flagship, Zuikaku, sortieing!
+|audio = Zuikaku_Kantai_Kessen_2018_JoinFleet.mp3
+|notes = Joining the Fleet
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 小沢艦隊、旗艦瑞鶴、出撃する！
+|translation =	Ozawa Fleet flagship, Zuikaku, sortieing!
+|audio = Zuikaku_Kantai_Kessen_2018_Sortie.mp3
+|notes = Starting a Sortie
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = これが私の決戦だからっ！
+|translation =	This is my final battle!
+|audio = Zuikaku_Kantai_Kessen_2018_Atk.mp3
+|notes = Attack
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 肉迫する！くたばれ！瑞鶴航空隊、発艦！
+|translation =	Press the attack! Drop dead! Air wing, take off!
+|audio = Zuikaku_Kantai_Kessen_2018_AirBattle.mp3
+|notes = Air Battle
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = こんなの、全然かすり傷なんだから！
+|translation =	This isn’t even a scratch!
+|audio = Zuikaku_Kantai_Kessen_2018_MinorDmg1.mp3
+|notes = Minor Damage 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = やるじゃない！でも、今度は沈まないよ、私！
+|translation =	Not bad! But I won’t sink this time!
+|audio = Zuikaku_Kantai_Kessen_2018_MinorDmg2.mp3
+|notes = Minor Damage 2
+}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = 捷一号作戦、作戦成功！やった！やったよ私たち！
+|translation =	Operation Sho-1 is complete! Hooray! We did it!
+|audio = Zuikaku_ShoGo_2018_End1.mp3
+|notes = Plays upon completion of Winter 2018 E7. See [[Winter_2018_Event|event page]] for proper order.
+}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = 提督さん、翔鶴姉、ありがとう。愛してる、ずっと。
+|translation =	Admiral, Shoukaku-nee; thank you. I’ll always love you.
+|audio = Zuikaku_ShoGo_2018_End2.mp3
+|notes = Plays upon completion of Winter 2018 E7. See [[Winter_2018_Event|event page]] for proper order.
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Homecoming 2018]]
+|origin = 提督さん、ただいま。ありがとう。
+|translation =	I’m home, Admiral. Thank you.
+|audio = Zuikaku_Homecoming_2018_Sec1.mp3
+|notes = 
+}}
+|} <references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+107_3.png|Base
+107_4.png|Base Damaged
+112_3.png|Kai
+112_4.png|Kai Damaged
+Zuikaku_Kai_Ni.png|Kai Ni
+Zuikaku_Kai_Ni_dmg.png|Kai Ni Damaged
+Zuikaku_Kai_Ni_A.png|Kai Ni A
+Zuikaku_Kai_Ni_A_dmg.png|Kai Ni A Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+KanMusu462_SurigaoStrait.png|[[Seasonal/Final_Battle|Kai Ni Final Battle 2018]]
+KanMusu462_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Kai Ni Final Battle 2018 Damaged]]
+KanMusu467_SurigaoStrait.png|[[Seasonal/Final_Battle|Kai Ni A Final Battle 2018]]
+KanMusu467_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Kai Ni A Final Battle 2018 Damaged]]
+KanMusu262Christmas.png|[[Seasonal/Christmas_2018|Kai Ni Christmas 2018]]
+KanMusu262ChristmasDmg.png|[[Seasonal/Christmas_2018|Kai Ni Christmas 2018 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Zuikaku}}
+
+==Trivia==
+*Her name means "Auspicious Crane".
+*Her high luck value is due to the fact that she did not take much damage until her final battle at [[wikipedia:Battle_of_Leyte_Gulf|Leyte Gulf]], while her sister [[Shoukaku]] always took heavy damage. Her High luck is also due in part to her name, that makes use of the kanji for "luck" as well as "crane".
+*The camouflage pattern of her upgraded model clothes refers to the actual flight deck camouflage pattern used during the Leyte Gulf battle. The same pattern was also used on [[Zuihou]], [[Chitose]] and [[Chiyoda]]. 
+*She was sunk by air attack in the Battle of Leyte Gulf on the 25th of October in 1944.
+
+===Behind the Design===
+[[Konishi]] has noted in the artist interview in the Mel Febri Magazine released back in December 2013 that while he was working on the designs of [[Shoukaku]] and Zuikaku, both girls were orginally design with an identical design as if they were almost twins based upon thier appearance. However, he was not satisfied with how they appeared and chose to redesign both of the ship girls before they were released for the [[Spring 2013 Event]]. In the end Konishi was able to finish and finalize the design of the [[Shoukaku]] and Zuikaku that players know today on '''May 16th, 2013''', one day before the [[Spring 2013 Event]] was released.
+
+[[File:Konishi comparison.png|thumb|right|Konishi's twitter image comparing the aspect ratio of his original drawing (left) to the in-game version of Zuikaku Kai Ni (right) on October 30th, 2015]]
+On October 30th, 2015, following the release of her second remodel, there was a discrepancy with Zuikaku's image that the artist, Konishi, took notice of once he saw her new art in-game. Konishi would later tweet that her aspect ratios got squashed down a little bit. There was a noticeable difference in the image used in-game versus his original concept. Later that same day the developers took notice and announced they would be patching in the correct image the following day. The image has since been replaced with the correct version. It was revealed that Konishi had simply sent the wrong file to the devlopers as there were many revisions to Zuikaku's new design. The tweets in which Konishi noted the mistake and those containing the comparison images were later removed. [https://twitter.com/C_o_nisi/status/660178260391628800]
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View {{PAGENAME}}  CG]]
+*[[EliteCV|List of Standard Carriers]]
+*[[wikipedia:Japanese_aircraft_carrier_Zuikaku|Wikipedia entry on carrier Zuikaku]]
+{{shiplist}}

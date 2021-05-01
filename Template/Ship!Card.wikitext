@@ -1,0 +1,24 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Card|{{{1|}}}|type=Ship|suffix1={{#if: {{{damaged|}}} | Damaged }}|text={{{text|}}}|caption={{{caption|}}}|size={{{size|}}}}}</includeonly><noinclude>
+Inherited from [[Template:Card]]. Used to display ship cards.
+
+<pre>{{Ship/Card|Kasumi}}</pre>
+{{Ship/Card|Kasumi}}
+
+<pre>{{Ship/Card|Kasumi/}}</pre>
+{{Ship/Card|Kasumi/}}
+
+<pre>{{Ship/Card|Jervis Kai}}</pre>
+{{Ship/Card|Jervis Kai}}
+
+<pre>{{Ship/Card|Jervis/Kai|size=80px}}</pre>
+{{Ship/Card|Jervis/Kai|size=80px}}
+
+<pre>{{Ship/Card|Jervis/Kai|damaged=true}}</pre>
+{{Ship/Card|Jervis/Kai|damaged=true}}
+
+<pre>{{Ship/Card|Kasumi/Kai Ni|text=Kachumi}}</pre>
+{{Ship/Card|Kasumi/Kai Ni|text=Kachumi}}
+
+<pre>{{Ship/Card|Kasumi/Kai Ni|caption=Kachumi|damaged=true}}</pre>
+{{Ship/Card|Kasumi/Kai Ni|caption=Kachumi|damaged=true}}
+</noinclude>

@@ -1,0 +1,585 @@
+=Introduction=
+[[File:Pursue_Nightbattle.png|thumb|right|The screen after Daybattle. Click "夜戦突入" on the right to engage the Nightbattle]]
+If your fleet has not defeated the enemy in day combat, you will get the chance to continue the fight in a night battle (夜戦). To engage in night battle, select the "Engage in Night Battle" (夜戦突入) option; to proceed without night battle, select the "Cancel Pursuit" (追撃せず) option. 
+
+The exception to this rule are night battle, night-day battle, air raid, and RADAR ambush nodes.
+
+=Overview=
+[[File:Nightbattle_Order.png|thumb|right|Example of engagement Order in Nightbattle]]
+1.  Firing order during night battle is based on the position in the fleet. 
+* Turns can be skipped if a ship is sunk or disabled before they can take their turn.
+* Sunk ships are not counted towards the turn order.
+
+2.  <span style="color:red;">'''Heavily damaged (大破)'''</span> ships are unable to participate.
+* Ships revived by a [[Repair Goddess]] are able to participate even if they started the night battle heavily damaged. They will be unable to participate again if heavily damaged before their turn.
+
+3. Ships with a base firepower and torpedo stat of 0 will be unable to participate in night battle.
+
+4. The main fleet of a [[Combined Fleet]] is unable to participate in night battle.
+
+5. Most carriers are unable to participate unless they have certain equipment. Please see [[NightBattle#Carrier_Night_Attacks|Carrier Night Attacks]] for more details.
+
+6. It is unaffected by engagement. 
+
+7.  Ammo usage is increased by 50%.
+
+8.  Attack power is calculated using firepower and torpedo stats. Please see [[Damage_Calculations#Surface_Night_Battle|damage calculations]] for more details.
+* When fighting Abyssal installations, the torpedo stat is ignored.
+* The attack power cap is raised to 300 at night.
+
+9.  All ASW attacks will deal [[Damage Calculations#Chip Damage|chip damage]] at night. This makes submarines impossible to sink.
+* The exception is battles that begin at night or combined fleet night battles.
+
+
+==Special Effects==
+[[File:Nightbattle_Gear_Trigger.png|thumb|right|Starshells and Searchlight are activated, the Night Recon can be seen over the enemy Fleet]]
+* All [[:Category:Heavy Cruisers|heavy cruisers]] gain +5{{Evasion}}
+* Heavy cruisers equipped with [[:Category:20.3cm Variants|IJN 20.3cm]] guns will gain an accuracy and evasion bonus. Please see [[Gun_Fit_Bonuses#Medium_Caliber_Guns|Gun Fit Bonuses]] for more details.
+* [[Star Shell]]s increases accuracy by +5 and cut-in chance by +4 while decreasing enemy cut-in chance by 5 when triggered.
+* [[Searchlight]]s increases accuracy by +7 and cut-in chance by 7 and decrease enemy cut in chance by -10 if triggered.
+** They will increase the chance that the ship equipped with it will be targeted by +14% (+25% for [[Type 96 150cm Searchlight]]).
+** They also drastically reduces the evasion it is equipped on by 80%. Please see [[Accuracy,_Evasion_and_Criticals#Evasion_Formulas|Evasion]] for details.
+* Destroyers equipped with [[Skilled Lookouts]] and a [[:Category:RADAR|RADAR]] will gain bonus evasion. The exact amount is unknown.
+
+===Night Contact===
+
+When there is a ship equipped with a [[Type 98 Recon Seaplane (Night Scout)]], there is a chance of triggering Night Contact if certain conditions are fulfilled.
+
+'''Trigger Requirements'''
+
+* Your fleet must have obtained either Air Denial (AD), Air Superiority (AS) or Air Supremacy (AS+) in the fighter combat phase. Please see [[Aerial Combat#Fighter Combat|fighter combat]] for more details.
+** In PvP, this extends to Air Parity (AP).
+** For battles that begin at night, this requirement is waived.
+* The plane must be equipped in a slot bigger than 0.
+* In a [[Combined Fleet]], it must be equipped on a ship in the escort fleet.
+** It will still trigger if the ship has been retreated with the [[Fleet Command Facility]].
+
+'''Trigger Rate'''
+
+<math>\text{Trigger %} = \left[ \sqrt{3 \times \text{Level}} \right] \times 4</math>
+
+* If there is more than one night scout equipped, the game will check against them all.
+* Fleet LOS does not affect the trigger rate.
+* The state of air control does not affect the trigger rate.
+
+'''Effects'''
+When night contact triggers, your fleet will gain several bonuses during night battle.
+
+* +10% accuracy
+* +5 firepower
+* Critical rate increase.
+** The exact increase is not known.
+
+=Night Battle Special Attacks=
+When equipped with specific equipment setups, ships are able to perform powerful special attacks at night when certain conditions are fulfilled. The attack bonus from these modifiers are all '''pre-cap'''. For details on how that affects damage, please see [[Damage Calculations]].
+
+===Trigger Requirements===
+
+* The ship must not be <span style="color:red;">'''heavily damaged (大破)'''</span>.
+* There must be no submarines in the enemy fleet.
+** ASW capable ships are forced to attack submarines and will do normal ASW attacks.
+* The ship must be equipped with the appropriate equipment setup. See below.
+
+===Attack Types===
+The following are the minimum equipment requirements to trigger a night battle special attack.
+
+{| class="wikitable sortable" style="width: 100%;"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" rowspan="2" colspan="2"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;" colspan="6"| '''Number of Equipment'''
+!style="width: 5%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Multiplier'''
+!style="width: 5%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''No. of Attacks'''
+!style="width: 15%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Notes'''
+|- 
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Main Gun'''<br>{{RedGunHeavy}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Secondary Gun'''<br>{{YellowGun}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Torpedo'''<br>{{TorpedoWeapon}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''RADAR'''<br>{{Radar}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Skilled Lookout'''<br>{{SurfaceShipPersonnel}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Submarine Radar'''<ref>[[Submarine Radar and Waterproof Periscope]] and [[Submarine Radar and Radio Direction Finder (E27)]]</ref><br>{{SubmarineRadar}}
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;" rowspan="10"| Cut-In
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Lookout/RADAR<br>Destroyer Lookout
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/RADAR
+<br>Destroyer Mixed
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/Radar<br>Special Destroyer Mixed
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1<ref>Special cut in for the [[12.7cm Twin Mount Type-D Kai 2]].</ref>
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 162.5%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/Radar<br>Special Destroyer Mixed
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1<ref>Special cut in for the [[12.7cm Twin Gun Mount Model D Kai 3]].</ref>
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 170.6%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Torpedo/Torpedo<br>Submarine Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2<ref>Only applies to the [[Late Model Bow Torpedo Mount (6 Tubes)]] and [[Skilled SONAR Personnel + Late Model Bow Torpedo Mount (6 Tubes)]].</ref>
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 160%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Submarines only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Torpedo/Sub RADAR<br>Submarine Radar
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1<ref>As above.</ref>
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 175%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Submarines only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Torpedo/Torpedo<br>Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 150%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Main/Main<br>Gun
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 3
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 200%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Main/Secondary<br>Mixed Gun
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 175%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/Torpedo<br>Mixed Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;" colspan="2"| Double Attack
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;" colspan="2"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|}<references/>
+{{clear}}
+[[File:Night_Attack_Example.png|thumb|right|Uranami is performing the DD-exclusive Torp/Lookout/RADAR-CI]]
+'''Important Notes'''
+* If the ship fulfills the equipment requirements for more than one special attack, the one listed '''higher''' on the table takes priority.
+** The exception are the destroyer exclusive cut-ins. If the higher priority cut-in fails, the game will check the next valid cut in.
+* Using a [[12.7cm Twin Mount Type-D Kai 2]] as the main gun will increase the Special Destroyer Mixed Cut-in multiplier by 1.25x. This is '''multiplicative''' with the original multiplier.
+* Using a [[12.7cm Twin Gun Mount Model D Kai 3]] as the main gun will increase the Special Destroyer Mixed Cut-in multiplier by a further 1.05x. This is '''multiplicative''' with the original multiplier.
+* Adding an additional [[Skilled Lookout]] to the Gun/Torp/RADAR CI for destroyers allows them to check against 3 different CI setups, significantly increasing the CI rate.
+* Combining [[Skilled Lookout]]s with RADAR gives bonus evasion in night battles.
+* If a night battle special attack fails to penetrate the enemy's armour or is evaded, [[Damage Caclulatioins#Chip Damage|chip damage]] will be dealt.
+* [[:Category:Midget Submarine|Midget submarines]] are '''not counted''' as torpedoes.
+** Their torpedo stat still counts towards the damage calculation.
+* You can add more than the minimum number of equipment as long as you '''do not fulfill another attack requirement'''.
+** Auxiliary equipment like AP Shells, seaplanes, RADARs and anti-air guns are recommended.
+* Special attacks that hit twice will roll independently to determine hit, critical chance and armour penetration.
+** This figure is displayed as a sum for cut-ins.
+** This figure is displayed separately for double attacks.
+
+===Trigger Rate===
+====Double Attacks====
+The cut in rate for double attacks is extremely high. Testing places the value at around 99%.
+
+====Cut-Ins====
+[[file:Base_TCI_chance.png|thumb|right|Torpedo-Cut-In chance for a non-flagship without further modifiers. Notice the slow progression beyond 50 Luck]]
+<math>\text{CI %} = \left[ \dfrac{\text{Param}_\text{CI}}{\text{Const}_\text{Atk}} \right] \times 100</math>
+
+Where:
+
+* If luck is less than 50; <math>\text{Param}_\text{CI} = \lfloor 15 + \text{Luck} + 0.75 \times \sqrt{\text{Level}} \rfloor + \text{Mod}_\text{flag} + \text{Mod}_\text{Damage} + \text{Mod}_\text{Equip}</math>
+* If luck is 50 or greater; <math>\text{Param}_\text{CI} = \lfloor 65 + \sqrt{ \left( \text{Luck} - 50 \right) } + 0.8 \times \sqrt{\text{Level}} \rfloor + \text{Mod}_\text{flag} + \text{Mod}_\text{Damage} + \text{Mod}_\text{Equip}</math>
+
+* <math>\text{Const}_\text{Atk}</math> is the constant based on the attack being performed.
+** Gun = <math>140</math>
+** Mixed Gun = <math>130</math>
+** Destroyer Mixed  = <math>130</math>
+** Torpedo = <math>122</math>
+** Mixed = <math>115</math>
+* <math>\text{Luck}</math> is the {{Luck}} stat of the ship.
+* <math>\text{Level}</math> is the level of the ship.
+* <math>\text{Mod}_\text{flag}</math> is the flagship modifier of <math>15</math> if applicable. It is <math>0</math> otherwise.
+* <math>\text{Mod}_\text{Damage}</math> is the damage state modifier of <math>18</math> if <span style="color:orange;">moderately damaged (中破)</span>. It is <math>0</math> otherwise.
+* <math>\text{Mod}_\text{Equip}</math> are the various night battle equipment modifiers. See below for details.
+
+{| class="wikitable sortable" style="width: 256px;"
+|+ Equipment Modifiers
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64%;"| '''Equipment Name'''
+!style="width: 32px; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF"| '''Friendly Bonus'''
+!style="width: 32px; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF"| '''Enemy Penalty'''
+!style="width: 128px; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Notes'''
+|- 
+|[[Star Shell]]
+| +4
+| -10
+|Can exceed the luck cap.
+|- 
+|[[Searchlight]]
+| +7
+| -5
+|Can exceed the luck cap.
+|- 
+|[[Skilled Lookouts]]
+| +5
+| -
+|Can exceed the luck cap. Only applies to the ship it is equipped on.
+|- 
+|}
+
+'''Important Notes'''
+* There are severely diminishing returns in trigger rate beyond 51 luck. 
+** It is not recommended to increase {{Luck}} beyond 51.
+* The '''lower''' the attack constant, the '''higher''' the chance of a particular special attack triggering.
+* The formula above is obtained from information datamined from the KanColle Kai Vita game.
+* Marriage does not directly affect cut-in chances.
+** The luck bonus and increase in levels do.
+* The flagship, damage state and equipment modifiers '''do not''' translate to a direct increase of the trigger rate. They would all be adjusted by the attack type constant.
+* Only the CI Bonus of one Skilled Lookout counts. Equipping a second one on a ship will not further increase CI chance.
+
+===Equipment Setups===
+
+Below are recommended equipment setups for night battle special attacks. If an attack type is not listed, it means that it is subpar and not worth considering. The order of the equipment is for illustrative purposes only. It '''does not''' matter what order the equipment are in.
+
+{| class="wikitable" style="width: 100%;"
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Battleships
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{RedGunHeavy}}{{RedGunHeavy}}{{Seaplane}}{{WildCard}}
+|Double Attack
+|This is the standard setup for all battleships. It maintains an artillery spotting attack and provides consistency of a night battle double attack. The wild card is usually a shell of some sort depending on the enemies you are facing. It must not be a torpedo, secondary gun or main gun.
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Heavy Cruisers
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{RedGunMedium}}{{RedGunMedium}}{{Seaplane}}{{WildCard}}
+|Double Attack
+|This is the standard setup for heavy cruisers. It allows them to double attack at daytime and nighttime. The wild card can be a radar, night battle equipment or even a Type 3 shell for anti-installation work. The wild card should not be a torpedo because it will interfere with night battle special attacks.
+|-
+|{{RedGunMedium}}{{YellowGun}}{{YellowGun}}{{WildCard}}
+|Double Attack
+|This setup is for maximising firepower in day and night battle. Normally, this setup is used when you expect to be fighting under Air Parity (AP) or worse which disables artillery spotting. The wild card can be anything but another main gun or torpedo. 
+|-
+|{{TorpedoWeapon}}{{TorpedoWeapon}}{{TorpedoWeapon}}{{WildCard}}
+|Torpedo Cut-In
+|This is the typical setup for heavy cruiser torpedo cut-ins. The wild card can be anything but is typically night battle equipment to boost cut-in rates.
+|-
+|{{TorpedoWeapon}}{{TorpedoWeapon}}{{RedGunMedium}}{{WildCard}}
+|Torpedo Cut-In
+|This is an alternate heavy cruiser torpedo cut-in setup for high-powered heavy cruisers like [[Myoukou|Myoukou Kai Ni]]. Because they easily hit the night battle attack power cap, they can take a main gun to increase their effectiveness in daytime. Ideally that gun would be an [[:Category:20.3cm_Variants|IJN 20.3cm]] for the evasion bonus. The wild card can be anything but is typically night battle equipment to boost cut-in rates.
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Light Cruisers
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{RedGunMedium}}{{RedGunMedium}}{{Seaplane}}
+|Double Attack
+|This is the standard setup for light cruisers. It allows them to double attack at daytime and nighttime. For light cruisers with four slots, the wild card be a radar or night battle equipment. The wild card should not be a torpedo because it will interfere with night battle special attacks.
+|-
+|{{RedGunMedium}}{{YellowGun}}{{YellowGun}}
+|Double Attack
+|This setup is for maximising firepower in day and night battle. Normally, this setup is used when you expect to be fighting under Air Parity (AP) or worse which disables artillery spotting. For light cruisers with four slots, the wild card can be anything but another main gun or torpedo. 
+|-
+|{{TorpedoWeapon}}{{TorpedoWeapon}}{{TorpedoWeapon}}
+|Torpedo Cut-In
+|This is the typical setup for light cruiser torpedo cut-ins. For ships like [[Abukuma|Abukuma Kai Ni]], one torpedo can be replaced with a [[:Category:Midget Submarine|midget submarine]] to maintain opening torpedoes.
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Destroyers
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{RedGunMedium}}{{RedGunMedium}}{{WildCard}}
+|Double Attack
+|This is the standard night battle setup for destroyers. The wild card should not be a torpedo or secondary gun because it will interfere with night battle special attacks.
+|-
+|{{TorpedoWeapon}}{{TorpedoWeapon}}{{TorpedoWeapon}}
+|Torpedo Cut-In
+|This is the typical setup for destroyer torpedo cut-ins. For destroyers with four slots, the wild card is typically night battle equipment to boost cut-in rates.
+|-
+|{{TorpedoWeapon}}{{TorpedoWeapon}}{{RedGunLight}}'''/'''{{GreenGunDP}}
+|Torpedo Cut-In
+|This is an alternate torpedo cut-in setup for powerful destroyers like [[Ayanami|Ayanami Kai Ni]]. Because adding an extra torpedo will bring them over the night attack power cap, taking a destroyer main gun instead will allow them to maintain some effectiveness in day battle.
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Submarines
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{TorpedoWeapon}}{{TorpedoWeapon}}
+|Torpedo Cut-In
+|This is the usual setup for submarines. For submarines with three slots, just put an extra torpedo on.
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Seaplane Tenders
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{RedGunMedium}}{{RedGunMedium}}{{WildCard}}
+|Double Attack
+|If not carrying seaplanes, this is the setup you would use for seaplane tenders in night battle. The wildcard can be a midget sub if they are capable of carrying one or seaplanes.
+|-
+|}
+
+=Carrier Night Attacks=
+
+Normally carriers cannot attack at night unless certain conditions are fulfilled. There are three different kinds of carrier night attacks; carrier night shelling, Swordfish night attacks and carrier night cut-ins. The focus of this section will be mostly on carrier night cut-ins because they are the most varied. The former two types of carrier night attacks are simple and straightforward.
+
+This is not to be confused with [[Carrier Cut-In Attacks]] which are for daytime shelling.
+
+===Trigger Requirements===
+1. Carrier Night Shelling
+* [[Graf Zeppelin]], [[Taiyou|Taiyou Kai Ni]], [[Shinyou|Shinyou Kai Ni]] and [[Saratoga|base Saratoga]] are able to attack at night with guns regardless of equipment.
+* This attack '''can be triggered''' even when <span style="color:orange;">moderately damaged (中破)</span>.
+* The attack power is calculated using the [[Damage_Calculations#Surface_Night_Battle|'''surface night battle''']] damage formula.
+** Because of this, these attacks are weak.
+* There is no critical multiplier bonus from plane proficiency.
+* If the enemy fleet contains a submarine, the light carriers will be forced to target them.
+
+2. Swordfish Night Attack
+* This is just limited to [[Ark Royal]] when equipped with [[:Category:Swordfish|Swordfish]].
+* This attack '''cannot be triggered''' when <span style="color:orange;">moderately damaged (中破)</span>.
+* The attack power is calculated using the [[Damage_Calculations#Surface_Night_Battle|'''surface night battle''']] damage formula but '''only taking into account''' Ark Royal's base firepower and the Swordfish's stats.
+** All other equipment stat bonuses are ignored.
+* There is a critical multiplier bonus from plane proficiency.
+
+3. Carrier Night Cut-In
+* When equipped with either the [[Night Operation Aviation Personnel]] or [[Night Operation Aviation Personnel + Skilled Deckhands]] along with the right [[:Category:Night Planes|night planes]], all carriers are able to perform carrier night cut-ins.
+** [[Saratoga|Saratoga Mk.II]] and [[Akagi|Akagi Kai Ni E]] are able to do this by default when equipped with the right night planes.
+* This attack '''cannot be triggered''' when <span style="color:orange;">moderately damaged (中破)</span>.
+** Armoured carriers '''can still trigger''' the attack at moderate damage.
+* The attack power is calculated using the [[Damage_Calculations#Carrier_Night_Cut-In|'''carrier night cut-in''']] formula.
+** Only the base stats of the carriers and the stats of the night planes are taken into account.
+** Slot size plays a role in determining damage.
+** Planes in slots that have been reduced to 0 are ignored.
+* It can trigger regardless of the result of the [[Aerial Combat#Fighter Combat|fighter combat]] phase in day.
+* You need a minimum of one [[:Category:Night Fighters|night fighter]] and the Night Operations Personnel to trigger this attack.
+** It can trigger even if you have no bombers.
+* Light carriers will ignore submarines to target surface ships with this attack.
+
+==Attack Types==
+
+{| class="wikitable sortable" style="width: 100%;"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:35%;" rowspan="2" colspan="2"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:40%;" colspan="4"| '''Number of Equipment'''
+!style="width: 5%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Multiplier'''
+!style="width: 20%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Notes'''
+|- 
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:15%;"| '''Night Fighter'''<br>{{PurpleFighter}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:15%;"| '''Night Bomber'''<br>{{PurpleBomber}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:15%;"| '''Dive Bomber'''<ref>Only applies to [[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)]].</ref><br>{{RedPlane}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:15%;"| '''Other'''<ref>Only applies to [[:Category:Swordfish|Swordfish]] and [[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)]].</ref><br>{{RedPlane}}{{BluePlane}}
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;" rowspan="12"| Cut-In
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/NFighter/NBomber
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 125%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NBomber/Dive Bomber
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/Dive Bomber
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/NBomber
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/NBomber/Dive Bomber
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 118%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/NFighter/Dive Bomber
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 118%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/NBomber/NBomber
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 118%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/NFighter/NFighter
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 3
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 118%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/Dive Bomber/Other
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 118%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/NBomber/Other
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 118%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/NFighter/Other
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 118%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| NFighter/Other/Other
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:5%;"| 118%
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;"| 
+|-
+|}<references/>
+{{clear}}
+[[file:NCVCI.png|thumb|right|Kaga is performing a NFighter/NFighter/NFighter Night Carrier-Cut-in]]
+'''Important Notes'''
+* If a ship fulfills multiple cut-in requirements, the game will check against the list from '''top to bottom'''.
+** There is the chance the cut in will fail and trigger a normal carrier attack instead.
+* If the cut in fails to penetrate enemy armour or is evaded, it will deal [[Damage Calculations#Chip Damage|chip damage]] instead.
+
+===Trigger Rate===
+
+Because carrier night shelling and Swordfish night attacks are just normal attacks, they have a 100% trigger chance.
+
+The trigger rate formula for carrier night cut-ins is currently unknown. It is speculated to be similar to the night battle special attack trigger rate formula. It is known that luck plays a role in the trigger rate.
+
+===Equipment Setups===
+Below are recommended equipment setups for carrier night attacks. If an attack type is not listed, it means that it is subpar and not worth considering. The order of the equipment is for illustrative purposes only. You should put your most powerful night planes in the '''largest slots'''. 
+
+{| class="wikitable" style="width: 100%;"
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{PurpleFighter}}{{PurpleFighter}}{{PurpleBomber}}{{AviationPersonnel}}
+|NFighter/NFighter/NBomber<br>
+NFighter/NBomber
+|This is the standard setup for carrier night cut-ins. It gives you the best cut-in with the second best as a backup.
+|-
+|{{PurpleFighter}}{{RedPlane}}{{PurpleBomber}}{{AviationPersonnel}}
+|NFighter/NBomber<br>
+NFighter/NBomber/Other 
+|This is an alternative setup if you lack night planes. The dive bomber would be the [[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)|Type 62 Iwai]]. It allows the carrier to perform some night cut-ins while also allowing them to perform daytime cut-ins. It is generally not recommended because it's multiplier is the weakest.
+|-
+|{{PurpleFighter}}{{PurpleFighter}}{{PurpleBomber}}{{RedPlane}}
+|Various
+|This is an alternative set up for [[Saratoga|Saratoga Mk.II]] and [[Akagi|Akagi Kai Ni E]]. It allows them to perform [[Carrier Cut-In Attack]]s in addition to the night cut-ins. Depending on the 4th plane being the [[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)|Photobomb Suisei]] or the [[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)|T62 Iwai]], it can give them access to a wider array of cut-in attacks, increasing the chance that one will trigger. For Akagi, her 5th slot can hold a [[Saiun]] or another night fighter.
+|-
+|}
+
+=See Also=
+{{Mechanics}}

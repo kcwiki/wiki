@@ -1,0 +1,23 @@
+{{Navbox
+| name   = Template:DocsBox
+| state = mw-collapsible 
+| title = <span style="color:black;">'''Documentation'''</span>
+| basestyle  = background-color:#99CCFF;
+| titlestyle = 
+| liststyle = border:0px none; padding-left:4px; padding:5px; 
+| groupstyle =  padding:5px; 
+| style      = background-color:#FFFFFF; border:1px solid #1A5B70; width:100%;
+|group1 = <center>'''Game Updates'''</center>
+|list1 = <center>''[[Documentation/Ranking Updates|Ranking Updates]]{{·}}[[Documentation/Maintenance|Maintenance]]''</center>
+
+|group2 = <center>'''Events'''</center>
+|list2 = <center>''[[Documentation/Walkthroughs|Walkthroughs]]{{·}}[[Documentation/Events|General Event Stuff]]{{·}}[[Documentation/Ship Girl|Ship Girl]]''</center>
+
+|group3 = <center>'''Backend'''</center>
+|list3 = <center>''[[Documentation/LUA Modules|LUA Modules]]{{·}}[[Documentation/Uploading|Uploading]]''</center>
+
+|group3 = <center>'''Misc'''</center>
+|list3 = <center>''[[Documentation/Translation|Translation]]{{·}}[[Documentation/Editing Policy|Editing Policy]]{{·}}[[Documentation/Helpful Templates|Helpful Templates]]''</center>
+}}
+<includeonly>[[Category:WikiDocs]]</includeonly>
+<noinclude>{{documentation}}[[Category:Navbox Templates]]</noinclude>

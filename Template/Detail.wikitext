@@ -1,0 +1,75 @@
+<includeonly>{{#if:{{{button|}}}|<div class="toggle" data-target="{{{target|default}}}" data-default="{{{default|hide}}}" {{#if:{{{classes|}}}|data-classes="{{{classes}}}"}}>
+<span class="toggle-show" style="{{{show_style|cursor:pointer;color:#006cb0;}}}">☑ {{{show_text|Show details}}}</span>
+<span class="toggle-hide" style="{{{hide_style|cursor:pointer;color:#006cb0;}}}">☒ {{{hide_text|Show details}}}</span>
+</div>|{{#if:{{{1|}}}|<span class="toggle-target-{{{target|default}}}">{{{1|}}}</span>|class="toggle-target-{{{target|default}}}"}}}}</includeonly><noinclude>
+This is a helper template for using [[MediaWiki:DetailToggle.js]] functions, it allows to have arbitrary hidable content that can be toggled with (pseudo) buttons, with current states saved in browser's [https://en.wikipedia.org/wiki/Web_storage#Local_and_session_storage local storage].
+==Parameters==
+*'''target''': property name for hidable elements, <code>toggle-target-'''target'''</code> will be used as a class and a local storage key; defaults to <code>default</code>
+*'''button''': set to generate a toggle button
+**'''default''': <code>hide</code> or <code>show</code>, to hide or show hidable content by default; defaults to <code>hide</code>
+**'''show_style''': button style when showing hidable content; defaults to <code>cursor:pointer;color:#006cb0;</code>
+**'''hide_style''': button style when not showing hidable content; defaults to <code>cursor:pointer;color:#006cb0;</code>
+**'''show_text''': button text when showing hidable content; defaults to <code>Show details</code>
+**'''hide_text''': button text when not showing hidable content; defaults to <code>Show details</code>
+*Without '''button''' parameter a class for hidable element will be generated
+**'''[[[1]]]''': hidable content in a <code>span</code> element
+==Examples==
+===Default===
+<pre>
+{{Detail|button=true}}
+{{Detail|Hidden content}}
+</pre>
+{{Detail|button=true}}
+{{Detail|Hidden content}}
+===Custom property===
+<pre>
+{{Detail|button=true|target=example-custom-property}}
+{{Detail|target=example-custom-property|Hidden content}}
+</pre>
+{{Detail|button=true|target=example-custom-property}}
+{{Detail|target=example-custom-property|Hidden content}}
+===Showing details by default===
+<pre>
+{{Detail|button=true|target=example-custom-default|default=show}}
+{{Detail|Hidable content|target=example-custom-default}}
+</pre>
+{{Detail|button=true|target=example-custom-default|default=show}}
+{{Detail|Hidable content|target=example-custom-default}}
+===Custom hidable elements===
+<pre>
+{{Detail|button=true|target=example-custom-hidable-element}}
+<div {{Detail|target=example-custom-hidable-element}}>Hidden content</div>
+</pre>
+{{Detail|button=true|target=example-custom-hidable-element}}
+<div {{Detail|target=example-custom-hidable-element}}>Hidden content</div>
+===Table===
+<pre>
+{{Detail|button=true|target=example-row|default=show|show_text=Show row|hide_text=Show row (hidden)}}
+{{Detail|button=true|target=example-column|show_text=Show column|hide_text=Show column (hidden)}}
+{| class="wikitable"
+|Normal row
+|{{Detail|target=example-column}}|Hidden column
+|- {{Detail|target=example-row}}
+|Hidable row
+|{{Detail|target=example-column}}|Hidden column
+|}
+</pre>
+{{Detail|button=true|target=example-row|default=show|show_text=Show row|hide_text=Show row (hidden)}}
+{{Detail|button=true|target=example-column|show_text=Show column|hide_text=Show column (hidden)}}
+{| class="wikitable"
+|Normal row
+|{{Detail|target=example-column}}|Hidden column
+|- {{Detail|target=example-row}}
+|Hidable row
+|{{Detail|target=example-column}}|Hidden column
+|}
+===Additional classes===
+Instead of toggling visibility toggles can add and remove custom classes from targets.
+{{Detail|button=true|target=ship-cg-to-blur|show_text=Blur image|hide_text=Blur image|classes=blur}}
+<div {{Detail|target=ship-cg-to-blur}}>
+{{ShipGraphicKai|Maestrale/Christmas}}
+</div>
+<div class="toggle toggle-target-ship-cg-to-blur-2" data-target="ship-cg-to-blur-2" data-default="hide" data-classes="blur">
+{{ShipGraphicKai|Maestrale/Christmas|link=false}}
+</div>
+</noinclude>

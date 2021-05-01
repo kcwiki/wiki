@@ -1,0 +1,92 @@
+__NOTOC__
+{{EquipmentInfo|35}}
+
+==Introduction==
+戦艦の主砲から放たれる対空用特殊砲弾。<br />
+榴散弾の一種で、大量の子弾が爆散、敵を編隊ごと一網打尽に殲滅することが可能。<br />
+戦艦主砲の射撃装置の問題で命中率が低いのが難点だが、艦隊の防空力を大きく高めます。<br />
+戦艦・航空戦艦・重巡洋艦が使用可能。
+
+''A special kind of main battery shell used by battleships that is specifically used as an anti-air weapon.'' <br>
+''The shrapnel, when ejected from the bullet in large quantities, potentially encases and then annihilates all enemy planes in formation.'' <br>
+''The questionable accuracy rate of the firing mechanism of the main battery of battleships is the only weakness, but this is traded for the immense AA firepower boost.'' <br>
+''Available for battleships, aviation battleships, heavy cruisers, and the like.''
+
+==Notes==
+Does [[Damage Calculations#Anti-Installation Attacks|increased damage]] against "installation type" bosses. All of these bosses were based on real-life airfields, which the type 3 shell was designed to destroy. With type 3 equipped, firepower * 2.5 is used for pre-cap damage calculations during night battle instead of firepower + torpedo.
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Buildable'''
+
+'''Stock equipment''' of {{Ship/Link|Haruna Kai Ni}}, {{Ship/Link|Hiei Kai Ni}}
+
+'''From quests: '''[[Quests#B40|B40]], [[Quests#B129|B129]] (x2, choice)
+
+''From limited-time quests: ''[[Quests/Seasonal#20WiB1|20WiB1]] (choice), [[Quests/Seasonal#20WiB2|20WiB2]] (x2, choice), [[Quests/Seasonal#20WiD1|20WiD1]] (choice)
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|Type 3 Shell}}, {{Equipment/Link|Type 3 Shell Kai}}
+
+'''Used by quests: '''[[Quests#F41|F41]]
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2013-04-23:''' '''Implemented''' with initial game release
+* '''2019-02-22:''' Visible bonuses added
+* '''2019-02-27:''' Became '''improvable''' and '''upgradeable''' to {{Equipment/Link|Type 3 Shell Kai}}
+</div></div>
+
+==Fit Bonuses==
+{{:Type 3 Shell/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=GreenAmmo
+|Fuel=50
+|Ammo=120
+|Steel=210
+|Baux=170
+|Mats0-5=7/8
+|Mats6-9=8/10
+|Mats10=10/16
+|Screws0-5=4/4
+|Screws6-9=5/7
+|Screws10=8/10
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{GreenAmmo|Type 3 Shell}}
+|EquipConsume10=1x{{RedAmmo|Type 1 Armor-Piercing (AP) Shell}}<br>1x{{GunMat}}
+|Sun=&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>Ki
+|Mon=Ko<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>Ki
+|Tue=Ko<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+|Wed=Ko<br>Hi<br>HiC<br>&nbsp;<br>&nbsp;
+|Thu=Ko<br>Hi<br>&nbsp;<br>Ha<br>&nbsp;
+|Fri=&nbsp;<br>Hi<br>&nbsp;<br>Ha<br>&nbsp;
+|Sat=&nbsp;<br>&nbsp;<br>&nbsp;<br>Ha<br>Ki
+|2ndShip=[[Kongou]]<br>[[Hiei]]<br>[[Hiei Kai Ni C]]<br>[[Haruna]]<br>[[Kirishima]]
+
+|Notes=Uses 1x [[Type 3 Shell]] for improvement past ★+6 <br> Uses 1x [[Type 1 Armor-Piercing (AP) Shell]] and 1x [[New Model Gun Development Material]] for upgrade to [[Type 3 Shell Kai]].
+}}
+|}
+
+==Trivia==
+The Sanshiki (San-Shiki or sanshikidan, lit. "type 3") ) anti-aircraft shell, also known as "Beehives", was designed for several gun calibers, including the 46.0 cm guns of the Yamato-class battleships.
+
+The round was equipped with a delay fuse set before firing that detonated the shell at the set altitude; on explosion, the steel stays and the incendiary tubes were ejected in a 20-degree cone forward, with the shell fragments from the explosion itself further increasing the amount of debris, in which the explosion of the shell deals heavy damage to incoming aircraft.
+
+However, since it used the battleship's main gun, the low rate of fire means the battleship is vulnerable for a period of time, but it does increase the AA stat of the ship.
+
+==See Also==
+*[[wikipedia:San Shiki (anti-aircraft shell)|Sanshiki]]
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Shells]]
+[[Category:Anti-Aircraft Shells]]

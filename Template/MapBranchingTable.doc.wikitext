@@ -1,0 +1,203 @@
+==Usage==
+Below is a list of all parameters available for this template.
+Keep in mind that invalid parameters and/or arguments will be ignored.
+
+To invoke this template, simply start with:
+<pre>
+{{MapBranchingTable
+|<parameters>
+|<parameters>
+|<parameters>
+}}
+</pre>
+
+===Title===
+* Allows you to set the title of the table
+* '''OPTIONAL'''
+* Default value is "Branching Rules" if not specified
+<pre>
+{{MapBranchingTable
+|title = <value>
+}}
+</pre>
+
+===Id===
+* Allows you to manually set the id of the table. Rarely useful, unless you want multiple tables to be affected by the same button.
+* '''OPTIONAL'''
+* Default value is a RNG generated through the [[Module:RemiLib|RemiLib]] if not specified.
+<pre>
+{{MapBranchingTable
+|id = <value>
+}}
+</pre>
+
+===Width===
+* Allows you to set the width of the table. Value has to be a valid css width property.
+* Check the following [http://www.w3schools.com/cssref/pr_dim_width.asp link] if you're unfamiliar with css width properties.
+* '''OPTIONAL'''
+* Default is "auto" if not specified or if the value given is invalid.
+<pre>
+{{MapBranchingTable
+|width = <value>
+}}
+</pre>
+
+===Order===
+* Allows you to manually set the order of the starting nodes listed from top to bottom.
+* '''Note''': Make sure you list all the relevant nodes!
+* '''OPTIONAL'''
+* Default is alphabetical ordering. This is not desirable if the first node happens to be G, while the second node is C for example.
+<pre>
+{{MapBranchingTable
+|order = G, D, C, Z
+|G -> A = *Text...
+|D -> A = *Text...
+|C -> A = *Text...
+|Z -> A = *Text...
+}}
+</pre>
+
+===Branching Rules===
+* Creates nodes for your branching table.
+* '''REQUIRED'''
+
+<"From" Node/[color]> -> <"To" Node/[color]> = <argument value> for single rows for each node <br />
+'''OR''' <br />
+<"From" Node/[color]> -> <"To" Node/[color]>,<"To" Node/[color]> = <argument value> for joint rows.
+*Valid node values are:
+** 0 = Start
+** 1, 2, 3, etc = Starting points, when a map has multiple starting points.
+** A single alphabetical letter from A to Z
+
+*To add a color to a node ('''OPTIONAL'''), add the following value behind the node:
+** <span style="color:#FF1744">/battle</span>, default if not specified
+** <span style="color:#64DD17">/empty</span>
+** <span style="color:#EA80FC">/storm</span>
+** <span style="color:#40C4FF">/resource</span>
+** Any other valid color value.
+
+<pre>
+{{MapBranchingTable
+|title = Example
+|width = 50%
+|0 -> 1 =
+* Fleet contains a CL
+* Fleet does not meet the requirements to start at 2
+|0 -> 2 = 
+* Fleet contains no CL
+* Fleet contains CV(L)
+* Fleet contains CLT
+
+|1 -> A/storm, B/resource = * Random
+|2 -> C = * Fleet contains a CL
+|2 -> D/empty = * Does not meet the requirements to go to C
+}}
+</pre>
+{{MapBranchingTable
+|title = Example
+|width = 30%
+|0 -> 1 =
+* Fleet contains a CL
+* Fleet does not meet the requirements to start at 2
+|0 -> 2 = 
+* Fleet contains no CL
+* Fleet contains CV(L)
+* Fleet contains CLT
+
+|1 -> A/storm, B/resource = * Random
+|2 -> C = * Fleet contains a CL
+|2 -> D/empty = * Does not meet the requirements to go to C
+}}
+
+
+==Examples==
+===Example 1===
+<pre>
+{{MapBranchingTable
+|title = Example 1
+|0 -> 1, 2 = Some text...
+|1 -> A = Some text...
+|1 -> B/resource = [[DD]], [[CL]]
+|1 -> C/storm =
+* A
+* list
+|C/storm -> D/empty = ...
+}}
+</pre>
+{{MapBranchingTable
+|title = Example 1
+|0 -> 1, 2 = Some text...
+|1 -> A = Some text...
+|1 -> B/resource = [[DD]], [[CL]]
+|1 -> C/storm =
+* A
+* list
+|C/storm -> D/empty = ...
+}}
+
+===Example 2===
+<pre>
+{{MapBranchingTable
+|width = auto
+|0 -> 1 = Some text...
+|0 -> 2 = Some text...
+|1 -> A = Some text...
+|1 -> B/resource = [[DD]], [[CL]]
+|1 -> C/storm =
+* A
+* list
+|C/storm -> D/empty = ...
+}}
+</pre>
+{{MapBranchingTable
+|width = auto
+|0 -> 1 = Some text...
+|0 -> 2 = Some text...
+|1 -> A = Some text...
+|1 -> B/resource = [[DD]], [[CL]]
+|1 -> C/storm =
+* A
+* list
+|C/storm -> D/empty = ...
+}}
+
+===Example 3===
+<pre>
+{{MapBranchingTable
+|id = E-1
+|width = auto
+|0 -> 1, 2, 3 = * Random
+|Q -> = Invalid because there is no destination node
+|QW -> SD = Invalid because there are more than 1 letters assigned per node
+}}
+
+}}
+</pre>
+{{MapBranchingTable
+|id = E-1
+|width = auto
+|0 -> 1, 2, 3 = * Random
+|Q -> = Invalid because there is no destination node. Ignored.
+|QW -> SD = Invalid because there are more than 1 letters assigned per node. Ignored
+}}
+
+===Example 4===
+<pre>
+{{MapBranchingTable
+|order = D, Z, C, G
+|G -> A = *Text...
+|D -> A = *Text...
+|C -> A = *Text...
+|Z -> A = *Text...
+}}
+</pre>
+{{MapBranchingTable
+|order = D, Z, C, G
+|G -> A = *Text...
+|D -> A = *Text...
+|C -> A = *Text...
+|Z -> A = *Text...
+}}
+
+==Credits==
+Special thanks to がか(gaka) for writing this module.

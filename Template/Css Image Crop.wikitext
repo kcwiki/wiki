@@ -1,0 +1,10 @@
+<includeonly><div {{#if:{{{divTitle|}}}|title="{{{divTitle|}}}"}} style="{{{firstDivStyle|}}} width:{{{cWidth}}}px;" class="{{#ifeq:{{{Location|}}}|center|center"><div class="|{{#ifeq: {{{Description|}}}|||thumb}}}} {{#switch:{{{Location|}}}| right = t | left = t | none = t | = {{#ifeq:{{{Description|}}}|||tright}}}}{{{Location|}}}"><!--
+-->{{#ifeq: {{{Description|}}}|||<div style="width: {{{cWidth}}}px;" class="thumbinner">}}<!--
+--><div style="width:{{{cWidth}}}px;height:{{{cHeight}}}px;overflow:hidden;position:relative"><!--
+--><div style="position:relative;top:-{{{oTop}}}px;left:-{{{oLeft}}}px"><!--
+-->[[File:{{{Image}}}|{{{bSize}}}px|link={{{link|}}}]]<!--
+--></div>{{#ifeq: {{{Description|}}}|||</div><div class="thumbcaption">{{magnify icon|link=File:{{{Image}}}}}{{{Description}}}</div>}}<!--
+--></div><!--
+--></div>{{#ifeq: {{{Location}}} | center |</div>|}}</includeonly><noinclude>
+[[Category:Map Templates]]
+</noinclude>

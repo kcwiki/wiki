@@ -1,0 +1,22 @@
+== Usage ==
+Insert <code>&#123;&#123;{{BASEPAGENAME}}&#125;&#125;</code> at the point in the article where you want the top of the Table of Contents box to appear. This should usually be after the text of the lead section, and just before the first section heading, in accordance with [[Wikipedia:Lead section#Elements of the lead]]. Use with {{tl|-}} or {{tl|clear}} to prevent collision with text; use the '''clear''' parameter (see below) to prevent collision with images.
+
+* Avoid placing the TOC in a visually poor location. Crossing a section division is probably a poor idea.
+
+=== Parameters (optional) ===
+;clear: Sets the [[Cascading Style Sheets|CSS]] clear property, which forces this float underneath the side specified with this attribute. So, <code>clear=right</code> (which is the default) will place the element after all the right floating elements before it. Options are <code>left</code>, <code>right</code>, <code>both</code>, or <code>none</code>.
+
+;width: Set the CSS width.
+
+;limit: Limits the depth of subheadings shown. For instance using <code>limit=4</code> will hide the fourth level and deeper subheadings in the hierarchy. And <code>limit=2</code> will hide all subheadings leaving only the main headings. This is implemented as a CSS class in the [[MediaWiki:Common.css]].
+
+== Cautions ==
+Do not use this template to just force word wrap around the TOC, as this is inappropriate method of achieving this.  Instead add a CSS class to your current skin's .css file, which will apply site wide. Go to [[Special:Mypage/skin.css]], which redirects to your current [[WP:SKIN|skin]]'s CSS file.
+
+Do not place this template so that the TOC aligns with a large image or infobox; this breaks the layout on narrow screens (even users with screens as wide as 1024px wide can have problems). Also, a TOC that crosses a section division is probably a poor idea, if that can be avoided.
+
+Unless the section in which the {{tl|TOC right}} is placed is long enough, the result may well be undesirable. 
+
+It should only be used in cases where the TOC gets in the way of other content or is detrimental to the layout of the page; it should ''not'' simply be used for aesthetics since it tampers with the standard appearance of articles. See [[Help:Section#Floating the TOC]] for further guidelines.
+
+<noinclude>[[Category:Template documentation]]</noinclude>

@@ -1,0 +1,14 @@
+This is just a template to serve as the header for the Akashi's workshop document.
+
+While the template includes the headers, because of how the template is called, it does not end and requires manually closing the table at the end with 
+
+"|}"
+
+Refer to [[Template:AkashiWorkshopLine]] for theoretical use case and examples.
+
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|GunType=GreenGunDP}}
+{{AkashiWorkshopLine
+|GunType=RedGunLight}}
+|}

@@ -1,0 +1,520 @@
+==Info==
+{{KanmusuInfo|ID=280}}
+{{KanmusuInfo|ID=280a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform OASW at 100 ASW.
+
+===Overview===
+'''Kai'''
+* Average firepower, torpedo, ASW, HP and armour.  
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Low'''
+
+:At first remodel, she has low firepower and a decent torpedo stat, making her hitting harder in night battle than at day, but not great at either.
+:While not impressive in combat, do keep in mind than many maps require you to bring at least a few destroyers for routing.
+:Furthermore, destroyers are cheap to deploy and can equip [[Drum Canister]], making them suited for expeditions.
+
+:No further remodels have been implemented for her yet (as of January 2020).
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 提督、あの・・・私、綾波型駆逐艦「狭霧」っといます。お手伝えできるよ、がんばります。
+|translation =Admiral, ummm... I'm the Ayanami-class destroyer, Sagiri. I'll do my best to be of assistance.
+|audio = Sagiri_Introduction.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = 提督、あの・・・私、綾波型駆逐艦「狭霧」、参りました。お力になれるよう頑張ります！
+|translation =  Admiral, ummm... I'm the Ayanami-class destroyer, Sagiri, reporting for duty. I hope to serve you well!
+|audio = SagiriKai_Introduction.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin =綾波型駆逐艦、六番艦の狭霧です。吹雪型一番艦から数えて、１６隻目の特型駆逐艦です。
+天霧達と第二十駆逐隊編成し、三水戦の一翼担いました。
+あまり多くの戦いを経験してはいませんが、お見方の為に尽くしたいと思います！
+|translation = I'm the 6th ship of the Ayanami-class destroyers, Sagiri. That's right, if you count from the 1st Fubuki-class ship, I'm the 16th Special Type destroyer.<ref>The Special Type destroyers were the Fubuki, Ayanami and Akatsuki-classes.</ref>
+I was with Amagiri-san and the 20th destroyer squadron, and was part of DesRon3. 
+I don't have much experience in battle, but will do my best for my allies!
+|audio = Sagiri_Library.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin =はい！狭霧が参ります！
+|translation =Yes! Sagiri shall go!
+|audio = Sagiri_Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin =あの、どうされましたか・・・提督？狭霧がお力になれることがあれば・・・
+|translation = What's wrong...Admiral? If there's anything I can do...
+|audio = Sagiri_Sec2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = やだ！潜水艦？違・・・もう天霧～・・・はっ！やだ、私！提督すみません！狭霧をお呼びでしたか？はい。お手伝いできることがあればなんでもおっしゃってください。
+|translation = No! Submarines? Oh wai-...Oh Amagiri~ ah! No, I! I'm sorry, Admiral! Did you call me? Yes. If there's anything I can help you with, please ask me.
+|audio = Sagiri_Secretary3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin =天霧さん、こんなに脱ぎ散らかして・・・やだ・・・提督も？もう～二人とも、片づけて畳んでおいて差し上げよう。お洗濯は・・・あら？誰かもう洗濯場に・・・誰？
+|translation = Amagiri-san, leaving all her clothes all over the floor...oh...even the Admirals? Jeez~ those two, I guess I'll just fold them myself. Now for the laundry...hm? There's already someone doing the laundry...who is it?
+|audio = Sagiri_SecretaryMarried.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督・・・お疲れみたい・・・狭霧、甘いものお持ちしますね。はい！特別配給で頂いた栗ようかんです！本当に美味しいんですよ。お茶をお入れしますね！あ！緑茶でいいですよね？はい！今！
+|translation = Admiral...seems tired...I'll bring some sweets. Here! They distributed these special chestnut yokans! They're really delicious. I'll go add some tea! Oh! Green tea is fine right? Ok! I'll bring some!
+|audio = Sagiri_Idle.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督、あの、狭霧に少しお時間いただいていいですか？あの、もしよかったら・・・え？今なんて？提督が私を？ウソ？ウソ～？これ、夢ではないのでしょうか！？やだ・・・私・・・
+|translation = Admiral, umm, can I have a moment of your time? Ummm, if you don't mind... Eh? What did you say? Admiral, you want me? Really? Really!? This has to be a dream right!? No way...I...
+|audio = Sagiri_Wedding.mp3
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 資料ですね、狭霧がお持ちします！
+|translation = You need the documents? I'll get them!
+|audio = Sagiri_Score.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 第二十駆逐隊、駆逐艦狭霧、抜錨いたします！
+|translation = 20th Destroyer Division, destroyer Sagiri, setting sail!
+|audio = Sagiri_JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = ありがとうございます！提督、狭霧嬉しいです！
+|translation = Thank you very much! I'm happy, Admiral!
+|audio = Sagiri_Equipment1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = この兵装・・・これなら敵潜も怖くありません！
+|translation = With this equipment... I won't be scared of enemy subs anymore!
+|audio = Sagiri_Equipment2.mp3 
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai = yes
+|origin = この兵装・・・これなら狭霧もお役に立てそうです！よし！
+|translation = With this equipment... I'll be able to be of use to you too! Alright!
+|audio = SagiriKai_Equipment2.mp3 
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = なにかしら・・・え？
+|translation = What's this...eh?
+|audio = Sagiri_Equipment3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = 本当にいつも、すみません。
+|translation = Thank you so much for everything.
+|audio = Sagiri_Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 大変申し訳ありません。狭霧、少しだけ下がらせていただきます。
+|translation = I'm very sorry. I'll need to withdraw for a while.
+|audio = Sagiri_DockingMinor.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 大変・・・大変申し訳ありません。狭霧は・・・提督・・・ごめんなさい、ご迷惑をお掛けて。
+|translation = I'm sorry...I'm very sorry. I'm... Admiral...I'm sorry for causing you trouble.
+|audio = Sagiri_DockingMajor.mp3
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin =新しいお見方が・・・提督よかったですね？
+|translation =A new ally has... Isn't this great, Admiral?
+|audio = Sagiri_Construction.mp3
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊戻りました。はぁ～、これで安心。
+|translation = The fleet has returned. Phew~, now we're safe.
+|audio = Sagiri_Return.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 天霧待って・・・私も、第三水雷戦隊狭霧、出撃いたします！
+|translation = Amagiri wait...me too, 3rd Torpedo Squadron, Sagiri, sortieing!
+|audio = Sagiri_StartSortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 敵方の艦隊、発見いたしました。皆さん、ご用意を！
+|translation = Spotted enemy fleet. Get ready, everyone!
+|audio = Sagiri_StartBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 狭霧、打ちます！て――ッ！！
+|translation = I'm shooting! Fire~!
+|audio = Sagiri_Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack 
+|origin = 狭霧、下がりません！
+|translation = I won't back down!
+|audio = Sagiri_NightBattleAttack.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 夜の戦です。皆さん気をつけて！狭霧、先攻いたします！続いてください！
+|translation = It's a night battle. Everyone be careful! I will engage first! Follow me!
+|audio = Sagiri_NightBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 本当ですか？狭霧が？本当に？ありがとうございます！嬉しい！そうなんですね・・・やった！・・・やだ、嬉しい！
+|translation = Really? Me? For real? Thank you very much! I'm happy! I see...Yay!... Oh no, I'm happy!
+|audio = Sagiri_MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = うわあ～っ！
+|translation = Uwaa~!
+|audio = Sagiri_Minor1.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = やだ！痛い！直撃なの！？ウソ！？
+|translation = Ow! That hurts! A direct hit!? No way!?
+|audio = Sagiri_Major1.mp3
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = うわぁ！か、可燃物を廃棄して！誘爆は、誘爆は嫌なの！早く！捨てて！や、やだ！
+|translation = Wah! Dispose the burnable objects! I don't want to detonate! Hurry! Throw it away! N-no!<ref>She was torpedoed in her aft magazine by [https://en.wikipedia.org/wiki/HNLMS_K_XVI HNLMS K XVI] which caught fire and detonated.</ref>
+|audio = Sagiri_Major2.mp3
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = あたし、また沈むんだ・・・こんなに、早く・・・天霧、ごめんなさい。今度も・・・先に・・・あたし・・・
+|translation = I'm sinking again...it's too early...Amagiri, I'm sorry. I'm...sinking first...again...
+|audio = Sagiri_Sunk.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 提督、時刻は午前０時を回りました。本日は私、狭霧が秘書艦を担当させていただきます。どうぞよろしくお願いいたします。
+|translation = It just turned 12am, Admiral. Today I, Sagiri, will be your secretary. I'm looking forward working with you.
+|audio = Sagiri_0000.mp3
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = マルヒトマルマルです、提督！狭霧、今晩お手伝いすることはありますか？
+|translation = It's 0100, Admiral! Can I be of any help tonight?
+|audio = Sagiri_0100.mp3
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = マルフタマルマルです、提督！了解いたしました、この資料の整理ですね！お任せください！狭霧、こう見えて整理や掃除は得意なんです！
+|translation = It's 0200, Admiral! Understood, I'll need to organise these documents right! Leave it to me! I might not look it, but I'm good at organising and cleaning!
+|audio = Sagiri_0200.mp3
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = マルサンマルマルです、提督！資料の整理終わりました！他にお手伝いすることはありますか？
+|translation = It's 0300, Admiral! I'm done with organizing these papers! Is there anything else I could help you with?
+|audio = Sagiri_0300.mp3
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = マルヨンマルマルです、提督！あの～、あ、そうだ！お茶をお入れしますね！甘いものも！一息ついてください。ご用意いたしますね！
+|translation = It's 0400, Admiral! Umm~, oh, right! I'll bring some tea, and some sweets too! Please take a break. I'll prepare them right away!
+|audio = Sagiri_0400.mp3
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = マルゴーマルマルです、提督！おはようございます！皆さんを起こす準備をしますね！
+|translation = It's 0500, Admiral! Good morning! I'll go get ready to wake everyone up!
+|audio = Sagiri_0500.mp3
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = マルロクマルマルです、提督！はあ～皆さん艦隊掃引起こし～です！皆さんおはようございます！
+|translation = It's 0600, Admiral! *deep breath*~ All hands in the fleet, assemble! Good morning, everyone!
+|audio = Sagiri_0600.mp3
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = マルナナマルマルです、提督！朝御飯のご用意こちらに出来ています！今、お味噌汁と納豆とお茶をお持ちしますね！はい！召し上がって！
+|translation = It's 0700, Admiral! I have your breakfast ready! I'll bring your miso soup, natto, and tea! Here! Please help yourself!
+|audio = Sagiri_0700.mp3
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = マルハチマルマルです、提督！はい！洗い物はもうすぐ終わります。第二十駆逐隊、演習開始ですね！了解です！
+|translation = It's 0800, Admiral! Yes! The dishes are almost done. The 20th Destroyer Division will be starting exercises right! Roger!
+|audio = Sagiri_0800.mp3
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = マルキュウマルマルです、提督！あ、天霧さん！おはようございます！そうですね、姉さん達もきっともうすぐですね。
+|translation = It's 0900, Admiral! Ah, Amagiri-san! Good morning! That's right, my elder sisters will be here soon.<ref>Referring to Asagiri and Yuugiri.</ref>
+|audio = Sagiri_0900.mp3
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマルです、提督！あ、天霧さん、あんまり張り切ると危ないから！はい・・・いつもは優しい姐なんですけれど、元気すぎて・・・
+|translation = It's 1000, Admiral! Ah, don't go overboard, Amagiri-san! Yes...she's usually a nice person, but she can go too far...
+|audio = Sagiri_1000.mp3
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマルです、提督！あら、潮ちゃん。このおにぎりを私たちと提督に？ありがとう！いただきますね！お昼が、ウフフ、楽しみですね！
+|translation = It's 1100, Admiral! Oh, Ushio-chan. These rice balls for the Admrial and us? Thank you! I can't wait for lunch!
+|audio = Sagiri_1100.mp3
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = ヒトフタマルマル、お昼です！提督、天霧さん、潮ちゃんから頂いたおにぎり、開けましょう！うわあ～美味しそう！お茶入れますね！
+|translation = 1200, it's lunch time! Admiral, Amagiri-san, lets open up the rice balls we received from Ushio-chan! Wow~ they look delicious! I'll go pour in some tea!
+|audio = Sagiri_1200.mp3
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = ヒトサンマルマルです、提督！頂いたおにぎり、美味しかったですね！海の上で頂くおにぎりって、本当においしいですね！たくさん食べてしまいました。狭霧も、午後はしっかり運動しないと。
+|translation = It's 1300, Admiral! The rice balls were delicious! Eating the rice balls above the sea is really delicious! I ate too much. I'll have to do exercises properly in the afternoon.
+|audio = Sagiri_1300.mp3
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = ヒトヨンマルマ・・・あ、漣ちゃん！お疲れ様です！遠征任務ですか？了解です！気を付けてね！頑張ってください！
+|translation = 140...Ah, Sazanami-chan! Good work! An expedition mission? Roger that! Be careful! Good luck!
+|audio = Sagiri_1400.mp3
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = ヒトゴーマルマルです、提督！お茶にしましょう。今日のご用意の甘味は草餅です！ほら、見てください、あんこも美味しそう！今、お茶をお入れしますね！
+|translation = It's 1500, Admiral! Let's have some tea. Today for sweets, we have kusa mochi! Look, the red bean paste looks delicious! I'll bring in some tea!<ref>[https://en.wikipedia.org/wiki/Kusa_mochi Kusa mochi] is mochi that has been coloured with mugwort.</ref>
+|audio = Sagiri_1500.mp3
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = ヒトロクマルマル。あら、暁ちゃん、どうしたの？うん、はい、もちろんそうです。暁ちゃんは今はもう、立派なお姉さんですね！私も頑張らなきゃ！一緒に頑張ろう！
+|translation = 1600. Oh, Akatsuki-chan, what's wrong? Yes, of course. You're already a great elder sister! I need to do better too! Let's both work hard!
+|audio = Sagiri_1600.mp3
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = ヒトナナマルマルです、提督。もうすぐ日が落ちますね・・・いつも思うんです、夕日って、なんで悲しく見えるんだろうって・・・提督、あんなに綺麗なのになんででしょうね。
+|translation = It's 1700, Admiral. The sun is about to set...I wonder why I feel so sad when I'm watching the setting sun... I wonder why I feel this way even though it's so beautiful, Admiral.<ref>She was sunk in the evening.</ref>
+|audio = Sagiri_1700.mp3
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = ヒトハチマルマルです、提督。夜になりました。夜は・・・狭霧は少し苦手です。三水戦所属なのに、少し変ですか？すみません。
+|translation = It's 1800, Admiral. It's night now. I don't really like the night. Even though I'm part of DesRon3, isn't it weird? I'm sorry.
+|audio = Sagiri_1800.mp3
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトキュウマルマルです、提督。夜御飯、ご準備が出来ました。今日はF作業で、新鮮な鯵がたくさん手に入ったので、鯵フライにしてみました。
+|translation = It's 1900, Admiral. I've prepared dinner. Thanks to the F operation today, I was able to catch a lot of horse mackerel, so I decided to deep fry it!<ref>"F Operation" is the nickname IJN sailors gave to orders to fish off the side of the ship.</ref>
+|audio = Sagiri_1900.mp3
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = フタマルマルマルです、提督。鯵フライいかがでしたか？御飯のお替りもあります、たくさん召し上がってくださいね！え？川内さん、なんでしょうか？え？？いえ、私は夜はあんまり～！
+|translation = It's 2000, Admiral. How was the deep fried horse mackerel? There's still enough for seconds, so please eat more! Eh? What's wrong, Sendai-san? Eh?? No, I'm not really good at night~!
+|audio = Sagiri_2000.mp3
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = フタヒトマルマルです、提督。この時間は、私はあまり好きじゃなくって・・・お腹が痛くなると言うか・・・川内さん、すみません。今度、お昼時間にこのお目合わせを必ず・・・
+|translation = It's 2100, Admiral. I'm not a fan of this time...It's hard to explain, but I feel uneasy...Sendai-san, I'm sorry. Next time, when it's day out, I will accept your challenge.
+|audio = Sagiri_2100.mp3
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = フタフタマルマルです。提督、ごめんなさい、ご心配をおかけして、もう大丈夫です！狭霧しっかりしなきゃ・・・もう平気です！
+|translation = It's 2200. I'm sorry for worrying, Admiral. But I'm alright now! I need to pull myself together...I'm fine now!
+|audio = Sagiri_2200.mp3
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = フタサンマルマルです、提督。本日の一日、大変お疲れさまでした！少しの時間でいいので、提督も横になって、お休みになってください。
+|translation = It's 2300, Admiral. Thank you for your hard work everyday! Please go lie down and take a rest even for a little while, Admiral.
+|audio = Sagiri_2300.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2017|Autumn 2017]]
+|origin = 秋祭り。この既設、この雰囲気、素敵ですね。狭霧の浴衣おかしくないですか？そうですか？良かった。
+|translation =	The autumn festival. This season, and this atmosphere, is wonderful. Does my yukata look strange? Is that so? Great.
+|audio = Sagiri_Autumn_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2017|Saury Festival 2017]]
+|origin = さんま...聞いています！全艦隊をあげた、鎮守府さんま祭り...ですね。あ、天霧さん、張り切りすぎじゃん！もう！
+|translation =	Saury… I’ve heard of it! It’s a… saury festival for the whole fleet. Y-you’re going overboard, Amagiri-san! Jeez!
+|audio = Sagiri_Sec1_Saury_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2017|Christmas 2017]]
+|origin = 提督、メッリクリスマス、です。狭霧、羊羹と白玉を使った、和風ケーキを作ったみたんです。よかったら…あの…召し上がってください。
+|translation =	Merry Christmas, Admiral. I tried making a Japanese-style cake with youkan and shiratama. If you’d like… umm… please have some.
+|audio = Sagiri_Christmas_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2017|End of Year 2017]]
+|origin = よし、やった。提督、私、何かを乗り切った感じがします。心も穏やか。よーし！鎮守府大掃除、頑張りましょう！ねぇ、天霧さん？
+|translation =	Hooray, I did it. I feel like I’ve managed to overcome something, Admiral. It puts my mind at ease. Alright! Let’s work hard for the Naval Base Spring Cleaning! Ok, Amagiri?
+|audio = Sagiri_Year_End_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2018|New Year 2018]]
+|origin = 提督、新年あけまして、おめでとうございます。本年も、第二十駆逐隊、どうぞよろしくご指導いただけますと…あぁ、天霧さん、もう！
+|translation =	A very Happy New Years to you, Commander. Please take good care of the 20th Destroyer Division this year too… Ah, jeez, Amagiri!
+|audio = Sagiri_New_Years_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2018|Setsubun 2018]]
+|origin = えぇ！？嫌だ！私？な、何で？天霧さん、やめ...やめて！痛いから！もう...な、何で...漣ちゃんたちまで...
+|translation =	Eh!? No way! Me? Wh-why me? St-stop that… Amagiri! That hurts! Jeez… Wh-why are… all of you joining in too, Sazanami…
+|audio = Sagiri_Setsubun_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2018|Coming of Spring 2018]]
+|origin = 提督、天霧さん、お花見の季節ですね。そうだ、二十駆でお花見に行きませんか？漣ちゃんに、七駆のみんなも読んでもらって、楽しそうです！
+|translation =	Admiral, Amagiri; it’s the season for cherry blossom viewing. I know, shall DesDiv20 go cherry blossom viewing? I’m sure it will be fun if we invite Sazanami and the rest of DesDiv7 too!
+|audio = Sagiri_Spring_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 提督、おめでとうございます。艦隊は五周年を迎えたそうです。本当にすごいことで、狭霧、そう思います。
+|translation =	Congratulations, Admiral. The fleet is celebrating it’s 5th Anniversary. I think that’s really amazing.
+|audio = Sagiri_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2018|Rainy Season 2018]]
+|origin = 本当によく降りますねぇ…そうだ、天霜さん一緒にてるてる坊主作りませんか？えぇ、興味ないの？あぁ、逃げた！ん、もう。
+|translation =	It’s really pouring… I know, I’ll go make teruteru bouzu with Amagiri. Eh, you’re not interested? Ah, she ran away! Ngh, jeez.
+|audio = Sagiri_Rainy_Season_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2018|Summer 2018]]
+|origin = 夏。天霧さんは水着、どうするんでしょう？ん、私は…んー、どうしよう？
+|translation =	It's summer. What are you going to do about a swimsuit, Amagiri? Hmmm, what am I... Hmmmm, going to do?
+|audio = Sagiri_Summer_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2019|Valentine's Day 2019]]
+|origin = えへへぇ、狭霧特製、栗と抹茶を使った、和風 チョコレート 、完成です！提督、天霧さん、待ってて。これは自信作なんだから。うふふぅ。
+|translation =	Ehehe, my special Japanese-style chocolates made with chestnuts and green tea is complete! Admiral, Amagiri; just you wait. I'm sure this will please you. Ufufu.
+|audio = Sagiri_Valentines_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2019|White Day 2019]]
+|origin = 提督、ありがとうございます。まさか、チョコレートのお返しがいただけるなんて。…そうだ、お返しのお返しを作ってお渡ししなければ…
+|translation =	Admiral, thank you very much. I can't believe that I'm getting something in return for the chocolates... I know, I'll go make something in return for this...
+|audio = Sagiri_White_Day_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary]]
+|origin = 提督、おめでとうございます。艦隊はついに七周年を迎えたそうです。ありがたいことですね？狭霧も感謝です。
+|translation =	Admiral, congratulations. The fleet's 7th Anniversary is finally here. We have to give our thanks, don't we? Thank you very much.
+|audio = Sagiri_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = 提督、おめでとうございます。艦隊は、ついに八周年となりました。これからも提督と二十駆の皆さんとともに、ありがとうございます。
+|translation =	Admiral, congratulations. It's finally the fleet's 8th Anniversary. I'm thankful that I'll still be in the company of you and the rest of DesDiv20.
+|audio = Sagiri_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+Sagiri.png|Base
+SagiriDmg.png|Base Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+KanMusu280Autumn.png|[[Seasonal/Autumn_2017|Autumn 2017]]
+KanMusu280AutumnDmg.png|[[Seasonal/Autumn_2017|Autumn 2017 Damaged]]
+KanMusu280Saury2017.png|[[Seasonal/Saury_2017|Saury 2017]]
+KanMusu280Saury2017Dmg.png|[[Seasonal/Saury_2017|Saury 2017 Damaged]]
+KanMusu280FallCasual.png|[[Seasonal/Late_Autumn_2017|Late Autumn 2017]]
+KanMusu280FallCasualDmg.png|[[Seasonal/Late_Autumn_2017|Late Autumn 2017 Damaged]]
+KanMusu280FallCasual2.png|[[Seasonal/Late_Autumn_2017|Late Autumn 2 2017]]
+KanMusu280FallCasual2dmg.png|[[Seasonal/Late_Autumn_2017|Late Autumn 2 2017 Damaged]]
+KanMusu280_Christmas.png|[[Seasonal/Christmas_2017|Christmas 2017]]
+KanMusu280_Christmas_dmg.png|[[Seasonal/Christmas_2017|Christmas 2017 Damaged]]
+Sagiri_Rainy_Season_2018.png|[[Seasonal/Rainy_Season_2018|Rainy Season 2018]]
+Sagiri_Rainy_Season_2018_dmg.png|[[Seasonal/Rainy_Season_2018|Rainy Season 2018 Damaged]]
+KanMusu280Setsubun2019.png|[[Seasonal/Setsubun_2019|Setsubun 2019]]
+KanMusu280Setsubun2019Dmg.png|[[Seasonal/Setsubun_2019|Setsubun 2019 Damaged]]
+KanMusu480Valentine2019.png|[[Seasonal/Valentine%27s_Day_2019|Valentine's Day 2019]]
+KanMusu480Valentine2019Dmg.png|[[Seasonal/Valentine%27s_Day_2019|Valentine's Day 2019 Damaged]]
+KanMusu480Hinamatsuri2019.png|[[Seasonal/Hinamatsuri_2019|Hinamatsuri 2019]]
+KanMusu480Hinamatsuri2019Dmg.png|[[Seasonal/Hinamatsuri_2019|Hinamatsuri 2019 Damaged]]
+Sagiri Full Autumn 2020.png|[[Seasonal/Autumn_2020|Autumn 2020]]
+Sagiri Full Autumn 2020_Damaged.png|[[Seasonal/Autumn_2020|Autumn 2020 Damaged]]
+</gallery>
+|}
+
+== Drop Locations ==
+Limited to 7-1 boss node and Event.
+
+==Trivia==
+
+==See Also==
+* [[{{PAGENAMEE}}/Gallery|View {{PAGENAMEE}}'s CG]]
+* [[List of destroyers by upgraded maximum stats|List of Destroyers]]
+* [[wikipedia:Japanese_destroyer_Sagiri|Wikipedia entry on Sagiri]]
+
+{{shiplist}}

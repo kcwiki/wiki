@@ -1,0 +1,81 @@
+{{Documentation subpage}}
+
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+{{tlx|Nowrap}} stops wrapping of specific text. It prevents word wraps (line breaks) within text or inside a link which contains spaces or hyphens ("-"). The size of the nowrapped text becomes the minimum width of that paragraph. Before you use this template you might want to read up on [[Wikipedia:Line-break handling]].
+
+== Usage ==
+:: <code><nowiki>{{nowrap|these words stay together}}</nowiki></code>
+:: <code><nowiki>{{nowrap|a, b, c, or d.}}</nowiki></code>
+:: <code><nowiki>{{nowrap| merry-go-round }}</nowiki></code>
+:: <code><nowiki>{{nowrap| [[4-part harmony]] }}</nowiki></code>
+:: <code><nowiki>{{nowrap| [[Cascading Style Sheets|CSS]] }}</nowiki></code>
+:: <code><nowiki>{{nowrap| [[#Examples|Examples section]] }}</nowiki></code>
+
+The template names {{[[Template:j|'''j''']]}} (join) or {{[[Template:nobr|nobr]]}} or {{[[Template:Nobreak|nobreak]]}} may be used instead of "nowrap", as they are redirects to {{tld|nowrap}}.
+
+== Examples ==
+{| class=wikitable
+|"<code>They held <nowiki>{{nowrap|10 kg (22 lb)}}</nowiki> in total.</code>"
+<br/>May render like this:
+:They held {{nowrap|10 kg (22 lb)}}<br/>in total.
+<br/>Or like this:
+:They held<br>10 kg (22 lb) in total.
+<br/>But ''not'' render like this:
+:They held 10 kg (22 <br/>lb) in total.
+
+| "<code>He encountered <nowiki>{{nowrap|a tiger}}</nowiki> in the woods.</code>"
+<br/>May render like this:
+:He encountered a tiger<br/>in the woods.
+<br/>Or like this:
+:He encountered<br/>a tiger in the woods.
+<br/>But ''not'' like this:
+:He encountered a<br/>tiger in the woods.
+|}
+
+== Handling equal-sign or bar ==
+[[Help:Template|Templates]] have problems with parameter data that contains [[equal-sign]]s "<code>=</code>" or vertical bars "<code>|</code>" (pipes). Note that this does not apply if the equal-sign "<code>=</code>" or vertical bar "<code>|</code>" is inside a wikilink or another template.  In the case that there is a bare equal-sign "<code>=</code>" or vertical bar "<code>|</code>", consider using {{tl|nowrap begin}} + {{tl|nowrap end}} instead.  However, there are also other workarounds:
+
+For text that includes an equal-sign "=", precede the text with <code>1=</code>, use a triple-brace unnamed parameter <code><nowiki>{{{|=}}}</nowiki></code>, or the <code><nowiki>{{=}}</nowiki></code> template. For example:
+:<code><nowiki>{{nowrap|</nowiki>1=2 + 2 = 4}}</code>, <br /><code><nowiki>{{nowrap|2 + 2 {{{|=}}} 4}}</nowiki></code>, or <br /><code><nowiki>{{nowrap|2 + 2 {{=}} 4}}</nowiki></code>
+
+which all render as this:
+:{{nowrap|1=2 + 2 = 4}}.
+
+For text that includes a vertical bar "|", escape the bar(s) with "<code><nowiki>&amp;#124;</nowiki></code>" or "<code><nowiki>{{pipe}}</nowiki></code>" or "<code><nowiki>{{abs}}</nowiki></code>". For instance, put two bars "|6|" like this:
+:<code><nowiki>{{nowrap|</nowiki>&amp;#124;6&amp;#124; < 7}}</code> &nbsp;or&nbsp; <code><nowiki>{{nowrap|{{pipe}}6{{pipe}} < 7}}</nowiki></code> &nbsp;or&nbsp; <code><nowiki>{{nowrap|{{abs|6}} < 7}}</nowiki></code>
+
+Which renders this: 
+:{{nowrap|&#124;6&#124; < 7}}
+
+== Technical details ==
+The actual code that does the job is this HTML+CSS code:
+
+:<code><nowiki><span style="white-space:nowrap">This text will not wrap</span></nowiki></code>
+
+Spaces at the beginning or end of the text will fall outside the no-wrap tag in the rendered text due to Wikimedia rendering mechanisms.
+
+The templates {{[[Template:j|j]]}}, {{[[Template:nobr|nobr]]}} and {{[[Template:Nobreak|nobreak]]}} redirect here.
+
+== TemplateData==
+{{TemplateDataHeader}}
+<templatedata>{
+  "description": "Prevents word wraps (line breaks) within text or inside a link which contains spaces or hyphens (-).",
+  "params": {
+    "1": {
+      "label": "Text",
+      "description": "Text or link to be protected.",
+      "type": "string",
+      "required": true
+    }
+  }
+}</templatedata>
+
+== See also ==
+* {{tl|nowraplinks}} – Prevents wraps inside links and only allows wraps between the links and in normal text. Very useful for link lists and easy to use.
+* {{tl|nowrap begin}} – Prevents wraps in both text and links. For the trickier wrapping cases when you need full control, for instance in very complex link lists.
+* [[Wikipedia:Line break handling]] – The how-to guide detailing how to handle word wraps (line breaks) on Wikipedia. 
+
+<includeonly>
+[[Category:Wikipedia formatting and function templates]]
+</includeonly>

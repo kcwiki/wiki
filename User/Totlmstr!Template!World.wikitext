@@ -1,0 +1,111 @@
+{{overlay
+|image = {{{world}}}_Map.jpg
+|width        = {{MapRatio|375|{{{ratio|1|mapwidth=1}}}}}
+|height       = {{MapRatio|186|{{{ratio|1|mapheight=1}}}}}
+<!--|AjaxXMLRequest = {{{AjaxXMLRequest|0}}}-->
+
+|columns      = 0
+|grid         = 0
+
+|highlight    = 0
+|collapsible  = 0
+
+<!--|popupPrefix = World_{{{world}}}_-->
+
+|overlayNoHeader = 0
+
+|overlayHeaderText = World {{{world}}}
+|overlayHeaderTextLink = World 1
+|overlayNoHeader = 
+
+<!--{{User:Totlmstr/Template:WorldPoint
+| point = A  
+| count = 1 
+| xloc = 103
+| yloc = 30
+| special = specialtestpoint
+}}-->
+
+|overlay1 = A
+|overlay1top = {{MapRatio|30|{{{ratio|1}}}}}
+|overlay1left = {{MapRatio|103|{{{ratio|1}}}}}
+<!--|overlay1form = popupajax-->
+|overlay1tip = World1-4-A
+|overlay1popupimage = Blank_square.svg
+|overlay1popupimagewidth = 20
+
+<!--|overlay2 = B
+|overlay2top = {{MapRatio|87|{{{ratio|1}}}}}
+|overlay2left = {{MapRatio|123|{{{ratio|1}}}}}
+|overlay2form = popupajax
+|overlay2tip = World1-4-B
+|overlay2popupimage = Blank_square.svg
+|overlay2popupimagewidth = 20
+
+|overlay3 = C
+|overlay3top = {{MapRatio|51|{{{ratio|1}}}}}
+|overlay3left = {{MapRatio|179|{{{ratio|1}}}}}
+|overlay3form = popup
+|overlay3tip = Steel +10/15/20
+|overlay3popupimage = Blank_square.svg
+|overlay3popupimagewidth = 20
+
+|overlay4 = D
+|overlay4top = {{MapRatio|35|{{{ratio|1}}}}}
+|overlay4left = {{MapRatio|268|{{{ratio|1}}}}}
+|overlay4form = popup
+|overlay4tip = Buaxite +10/15/20
+|overlay4popupimage = Blank_square.svg
+|overlay4popupimagewidth = 20
+
+|overlay5 = E
+|overlay5top = {{MapRatio|84|{{{ratio|1}}}}}
+|overlay5left = {{MapRatio|238|{{{ratio|1}}}}}
+|overlay5form = popupajax
+|overlay5tip = World1-4-E
+|overlay5popupimage = Blank_square.svg
+|overlay5popupimagewidth = 20
+
+|overlay6 = F
+|overlay6top = {{MapRatio|79|{{{ratio|1}}}}}
+|overlay6left = {{MapRatio|317|{{{ratio|1}}}}}
+|overlay6form = popupajax
+|overlay6tip = World1-4-F
+|overlay6popupimage = Blank_square.svg
+|overlay6popupimagewidth = 20
+
+|overlay7 = G
+|overlay7top = {{MapRatio|120|{{{ratio|1}}}}}
+|overlay7left = {{MapRatio|117|{{{ratio|1}}}}}
+|overlay7form = popup
+|overlay7tip = Ammo +10/15/20
+|overlay7popupimage = Blank_square.svg
+|overlay7popupimagewidth = 20
+
+|overlay8 = H
+|overlay8top = {{MapRatio|119|{{{ratio|1}}}}}
+|overlay8left = {{MapRatio|184|{{{ratio|1}}}}}
+|overlay8form = popup
+|overlay8tip = Steel +10/15/20
+|overlay8popupimage = Blank_square.svg
+|overlay8popupimagewidth = 20
+
+|overlay9 = I
+|overlay9top = {{MapRatio|128|{{{ratio|1}}}}}
+|overlay9left = {{MapRatio|249|{{{ratio|1}}}}}
+|overlay9form = popupajax
+|overlay9tip = World1-4-I
+|overlay9popupimage = Blank_square.svg
+|overlay9popupimagewidth = 20
+
+|overlay10 = J
+|overlay10top = {{MapRatio|147|{{{ratio|1}}}}}
+|overlay10left = {{MapRatio|340|{{{ratio|1}}}}}
+|overlay10form = popupajax
+|overlay10tip = World1-4-J
+|overlay10popupimage = Blank_square.svg
+|overlay10popupimagewidth = 20-->
+}}
+<noinclude>
+[[Category:Interactive_Map_Template]]
+</noinclude>

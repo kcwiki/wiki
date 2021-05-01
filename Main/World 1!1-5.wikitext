@@ -1,0 +1,390 @@
+==World 1-5: 【Extra Operation】 鎮守府近海 Seas Near the Naval Base==
+{{LabSortieworld
+| map = 1 05.png
+| difficulty = ☆ ☆ ☆ ☆ ☆
+| item = None
+| exp = 150
+| code = 鎮守府近海対潜哨戒 (Anti-submarine Patrol in Seas Near the Naval Base)
+| jptext = なるべく小編成の対潜哨戒部隊を編成し、鎮守府近海に出没する敵潜水艦を捜索。これを捕捉制圧、近海の安全な航行を実現せよ！
+| entext = Form a small anti-submarine patrol fleet, discover and suppress the enemy submarines deployed in seas near the naval base!}}
+
+===Stage Guide===
+{{MapBranchingTable
+|title = 1-5 Branching Rules
+|expand = true
+|id = 1-5
+|order = D,E,C,F,G
+|D -> E, F = 
+*Meet '''ANY''' of the following to go to E
+** Fleet only contains DEs
+** Fleet contains AO
+**Amount of ships in fleet = 1
+*If Amount of ships in fleet ≥ 5 ('''Overrides E node branching''')
+**Go to F if fleet also contains SS(V)
+**Otherwise, random routing 
+*Otherwise, go to F
+
+|E -> C, J = 
+*Go to C if the amount of ships in fleet ≥ 5
+*Go to J if fleet only contains DE
+*Otherwise, C
+
+|C -> B/empty, J = 
+*Meet '''ANY''' of the following to go to J
+**Fleet only contains DE
+**Amount of ships in fleet ≤ 4 and DD+DE ≥ 2
+*Random if amount of ships in fleet ≤ 4, fleet contains AO and DD+DE ≤ 1
+*Otherwise, B
+
+|F -> G/empty = * Meet '''ALL''' of the following requirements:
+** No (F)BB (BBV does not count)
+** No SS(V)
+** No CV(B)
+** Amount of CVL ≤ 1
+** Amount of CL ≤ 2
+|F -> I = 
+* Do not meet the requirements to go to G. 
+
+|G/empty -> H = * Amount of ships in fleet is ≥ 5
+|G/empty -> J = * Amount of ships in fleet is ≤ 4
+}}
+
+===Tips===
+Clearing this map gives you '''75 points''' and a '''medal'''. At the beginning of each month, the boss HP bar will be reset, thus allowing you to obtain the medal and bonus points again.
+*Unlike quests, the time limit for all Extra Operation is 11:59 PM JST on the last day of the month. Defeating the enemy flagship after the time limit will not count towards either the previous month or the next month.
+*If the HP bar did not reset for you, re-logging into the game typically will fix the problem.
+*Enemy fleets along the route to boss are composed purely of submarines. 
+**At various HQ level thresholds, enemy compositions will increase in difficulty, but if you train a fleet of Destroyers, Light Cruisers and Escorts and maintain strong ASW equipment it should be manageable.
+***Using [[Isuzu|Isuzu Kai Ni]] or any DD/CL that has ASW stats that go over 100, or DE that has an ASW of 60 or higher will allow them to perform a [[Combat/Opening Anti-Submarine Warfare|OASW attack]], which can be very helpful on this map. It can easily turn this map to your advantage for the most part.
+ 
+<br/>'''Recommended Fleet'''
+*'''1CVL, 1 BBV, 2 DD/CL''' - recommended for beginners. 
+**Equipping the Saiun to the CVL will minimize the chance of <span style="color:red">Crossing the T - Disadvantage</span>
+**At least 1 BBV is highly recommended as it is capable of performing ASW while also granting you a second shelling phase.
+*If you happen to own [[Taiyou]], she is highly recommended for this map as she's the only light carrier capable of fighting submarines efficiently.
+**At Kai, she's capable of [[Combat#Anti-Sub_Warfare|Preemptive ASW attack]] using any ASW plane, making her the most resourceful light carrier to take out submarines on that map.
+** If you do not own [[Taiyou]], any other CVL can work, but their damage output will be limited in comparison to her's. 
+* 2-4 DD/DE, 0-2 CL capable of [[Combat#Anti-Sub_Warfare|Preemptive ASW attack]] is recommended for experienced players since the DD and CL will be able to perform two rounds of ASW attacks without the need for a BBV (useful if you want to save your resources).
+**Do not use more than 2 CL (CT and CLT don't count as CLs) in your composition if you are attempting the above set-up, or you ''will'' get routed to I.
+*DE can be used in place of DDs for this map and are economically efficient for your resources in the process. 
+**A full fleet of 4 DE will take a slightly different path (with easier sub enemies) over other compositions, but will still reach the boss node
+
+<br/>'''Sparkling'''
+*This map can now also double for [[Morale_and_Fatigue#Running_1-5|Flagship Sparkling]] for any DD / CL, preferably with [[Combat#Anti-Sub_Warfare|Preemptive ASW attack]].
+*Recommended Sparkling Fleet: 1 DD/CL with ASW equipment ([[Combat#Anti-Sub_Warfare|Preemptive ASW attack]] is preferred, but not essential) as Flagship + 2-3 throwaway LV 1 DDs + Any other throwaway ships
+**By doing this, you can basically sparkle your DD while taking far less damage, aside from the occasional bad targeting roll.
+**Critically, this leveling method works best '''after''' level 80, as throwaway destroyers without ASW equipment are unable to defeat the armor of the most subs on the map, guaranteeing your flag an MVP.
+**Most importantly, by covering three nodes, you gain far more morale per node than you would from sparkling at 1-1.
+** If you plan to use throwaway DDs, be sure to not use DDs you plan to keep/train since you are likely to choose to scrap them afterward the sparkling process.
+
+===Nodes and Enemy Encounters===
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = 敵偵察潜水艦
+|A-1_node_info = ss_ka-class
+|A-1_form = echelon
+|A-1_xp =
+|A-1_enemy_air_power =
+|A-2_node_info = ss_ka-class_elite
+|A-2_form = echelon
+|A-2_xp =
+|A-2_enemy_air_power =
+|A-3_node_info = ss_ka-class_elite ss_ka-class
+|A-3_form = echelon
+|A-3_xp =
+|A-3_enemy_air_power =
+|A-4_node_info = ss_ka-class ss_ka-class ss_ka-class
+|A-4_form = echelon
+|A-4_xp =
+|A-4_enemy_air_power =
+|A-5_node_info = ss_ka-class_elite ss_ka-class ss_ka-class
+|A-5_form = echelon
+|A-5_xp =
+|A-5_enemy_air_power =
+|A-6_node_info = ss_ka-class ss_ka-class
+|A-6_form = echelon
+|A-6_xp =
+|A-6_enemy_air_power =
+|
+|B_label = '''<span style="color:blue">Battle Avoided</span>'''
+|B1_node_info = "Must be my imagination" (battle avoided)
+|
+|C_label = 敵通商破壊高速水上艦隊 A群
+|C-1_node_info = cl_ho-class_flagship dd_i-class_late_model dd_i-class dd_i-class dd_i-class
+|C-1_form = line_ahead
+|C-1_xp =
+|C-1_enemy_air_power =
+|C-2_node_info = cl_he-class_flagship clt_chi-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|C-2_form = line_ahead
+|C-2_xp =
+|C-2_enemy_air_power =
+|C-3_node_info = cl_ho-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|C-3_form = line_ahead
+|C-3_xp =
+|C-3_enemy_air_power =
+|C-4_node_info = cl_he-class_flagship clt_chi-class_flagship dd_i-class_late_model dd_i-class dd_i-class
+|C-4_form = line_ahead
+|C-4_xp =
+|C-4_enemy_air_power =
+|C-5_node_info = cl_he-class_flagship clt_chi-class_flagship clt_chi-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|C-5_form = line_ahead
+|C-5_xp =
+|C-5_enemy_air_power =
+|C-6_node_info = cl_he-class_flagship clt_chi-class_flagship clt_chi-class_flagship dd_i-class_late_model dd_i-class_late_model
+|C-6_form = line_ahead
+|C-6_xp =
+|C-6_enemy_air_power =
+|
+|D_label = 敵潜水艦隊B群
+|D-1_node_info = ss_ka-class_elite ss_ka-class_elite
+|D-1_form = echelon
+|D-1_xp =
+|D-1_enemy_air_power =
+|D-2_node_info = ss_yo-class_elite ss_ka-class ss_ka-class
+|D-2_form = echelon
+|D-2_xp =
+|D-2_enemy_air_power =
+|D-3_node_info = ss_yo-class_elite ss_yo-class_elite
+|D-3_form = echelon
+|D-3_xp =
+|D-3_enemy_air_power =
+|D-4_node_info = ss_yo-class_elite ss_yo-class ss_yo-class
+|D-4_form = echelon
+|D-4_xp =
+|D-4_enemy_air_power =
+|D-5_node_info = ss_ka-class ss_ka-class
+|D-5_form = echelon
+|D-5_xp =
+|D-5_enemy_air_power =
+|D-6_node_info = ss_ka-class_elite ss_ka-class ss_ka-class
+|D-6_form = echelon
+|D-6_xp =
+|D-6_enemy_air_power =
+|
+|E_label = 敵潜水艦隊C群
+|E-1_node_info = ss_ka-class_elite ss_ka-class ss_ka-class
+|E-1_form = echelon
+|E-1_xp =
+|E-1_enemy_air_power =
+|E-2_node_info = ss_yo-class_elite ss_ka-class_elite ss_ka-class_elite
+|E-2_form = echelon
+|E-2_xp =
+|E-2_enemy_air_power =
+|E-3_node_info = ss_ka-class_elite ss_ka-class_elite ss_ka-class
+|E-3_form = echelon
+|E-3_xp =
+|E-3_enemy_air_power =
+|E-4_node_info = ss_ka-class_elite ss_ka-class_elite ss_ka-class_elite
+|E-4_form = echelon
+|E-4_xp =
+|E-4_enemy_air_power =
+|E-5_node_info = ss_ka-class ss_ka-class ss_ka-class
+|E-5_form = echelon
+|E-5_xp =
+|E-5_enemy_air_power =
+|E-6_node_info = ss_yo-class ss_ka-class ss_ka-class
+|E-6_form = echelon
+|E-6_xp =
+|E-6_enemy_air_power =
+|
+|F_label = 敵潜水艦隊A群
+|F-1_node_info = ss_yo-class_elite ss_ka-class_elite ss_ka-class ss_ka-class
+|F-1_form = echelon
+|F-1_xp =
+|F-1_enemy_air_power =
+|F-2_node_info = ss_yo-class_elite ss_ka-class ss_ka-class ss_ka-class
+|F-2_form = echelon
+|F-2_xp =
+|F-2_enemy_air_power =
+|F-3_node_info = ss_yo-class_elite ss_ka-class_elite ss_ka-class_elite ss_ka-class_elite
+|F-3_form = echelon
+|F-3_xp =
+|F-3_enemy_air_power =
+|F-4_node_info = ss_yo-class_elite ss_ka-class_elite ss_ka-class_elite ss_ka-class
+|F-4_form = echelon
+|F-4_xp =
+|F-4_enemy_air_power =
+|F-5_node_info = ss_yo-class ss_ka-class ss_ka-class
+|F-5_form = echelon
+|F-5_xp =
+|F-5_enemy_air_power =
+|F-6_node_info = ss_yo-class_elite ss_ka-class ss_ka-class
+|F-6_form = echelon
+|F-6_xp =
+|F-6_enemy_air_power =
+|
+|G_label = '''<span style="color:blue">Battle Avoided</span>'''
+|G1_node_info = "Must be my imagination" (battle avoided)
+|
+|H_label = 敵通商破壊高速水上艦隊 B群
+|H-1_node_info = cl_ho-class_flagship dd_i-class_late_model dd_i-class dd_i-class dd_i-class
+|H-1_form = line_ahead
+|H-1_xp =
+|H-1_enemy_air_power =
+|H-2_node_info = cl_he-class_flagship clt_chi-class_flagship dd_i-class_late_model dd_i-class dd_i-class
+|H-2_form = line_ahead
+|H-2_xp =
+|H-2_enemy_air_power =
+|H-3_node_info = cl_ho-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|H-3_form = line_ahead
+|H-3_xp =
+|H-3_enemy_air_power =
+|H-4_node_info = cl_he-class_flagship clt_chi-class_flagship clt_chi-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|H-4_form = line_ahead
+|H-4_xp =
+|H-4_enemy_air_power =
+|H-5_node_info = cl_he-class_flagship clt_chi-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|H-5_form = line_ahead
+|H-5_xp =
+|H-5_enemy_air_power =
+|H-6_node_info = cl_he-class_flagship clt_chi-class_flagship clt_chi-class_flagship dd_i-class_late_model dd_i-Class_late_model
+|H-6_form = line_ahead
+|H-6_xp =
+|H-6_enemy_air_power =
+|
+|I_label = 敵侵攻機動部隊
+|I-1_node_info = cvl_nu-class_elite cl_he-class_flagship dd_i-class_late_model dd_i-class dd_i-class
+|I-1_form = diamond
+|I-1_xp =
+|I-1_enemy_air_power = 24
+|I-2_node_info = cv_wo-class_flagship cl_he-class_flagship dd_i-class_late_model dd_i-class dd_i-class
+|I-2_form = diamond
+|I-2_xp =
+|I-2_enemy_air_power = 28
+|I-3_node_info = cvl_nu-class_flagship cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|I-3_form = diamond
+|I-3_xp =
+|I-3_enemy_air_power = 23
+|I-4_node_info = cv_wo-class_flagship cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|I-4_form = diamond
+|I-4_xp =
+|I-4_enemy_air_power = 28
+|I-5_node_info = cvl_nu-class_flagship cl_he-class_flagship dd_i-class_late_model dd_i-class dd_i-class
+|I-5_form = diamond
+|I-5_xp =
+|I-5_enemy_air_power = 23
+|I-6_node_info = cv_wo-class_flagship cl_he-class_flagship cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model
+|I-6_form = diamond
+|I-6_xp =
+|I-6_enemy_air_power = 28
+|
+|J_label = 敵通商破壊主力潜水艦隊
+|J-1_node_info = ss_yo-class_flagship ss_ka-class ss_ka-class ss_ka-class
+|J-1_form = echelon
+|J-1_xp =
+|J-1_enemy_air_power =
+|J-2_node_info = ss_yo-class_flagship ss_yo-class_elite ss_ka-class ss_ka-class
+|J-2_form = echelon
+|J-2_xp =
+|J-2_enemy_air_power =
+|J-3_node_info = ss_so-class_flagship ss_yo-class_elite ss_ka-class ss_ka-class
+|J-3_form = echelon
+|J-3_xp =
+|J-3_enemy_air_power =
+|J-4_node_info = ss_so-class_flagship ss_yo-class_elite ss_yo-class_elite ss_ka-class
+|J-4_form = echelon
+|J-4_xp =
+|J-4_enemy_air_power =
+|J-5_node_info = ss_yo-class_flagship ss_ka-class ss_ka-class
+|J-5_form = echelon
+|J-5_xp =
+|J-5_enemy_air_power =
+|J-6_node_info = ss_yo-class_elite ss_ka-class ss_ka-class
+|J-6_form = echelon
+|J-6_xp =
+|J-6_enemy_air_power =
+|J-7_node_info = ss_ka-class_elite ss_ka-class ss_ka-class
+|J-7_form = echelon
+|J-7_xp =
+|J-7_enemy_air_power =
+|
+|final_form = 
+|boss_node = J
+}}
+
+===Drops===
+
+<div class="mw-customtoggle-1-5-drop globalbutton">Show/Hide Drops</div>
+
+
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-1-5-drop"
+! style="text-align:center; width:5%;" |Node
+! style="text-align:center; width:40%;" |Destroyers
+! style="text-align:center; width:15%;" |Light Cruisers
+! style="text-align:center; width:10%;" |Heavy Cruisers
+! style="text-align:center; width:10%;" |Seaplane Tenders
+! style="text-align:center; width:10%;" |Aircraft Carriers
+! style="text-align:center; width:10%;" |Submarines
+! style="text-align:center; width:10%;" |Auxiliary Ships
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Kisaragi]], [[Sazanami]], [[Hatsuyuki]], [[Samidare]], [[Arare]], [[Nagatsuki]], [[Miyuki]], [[Murakumo]], [[Shigure]], [[Mochizuki]], [[Shikinami]], [[Hatsushimo]], [[Yuudachi]], [[Ooshio]], [[Ushio]], [[Ikazuchi]], [[Hibiki]], [[Inazuma]], [[Murasame]], [[Kikuzuki]], [[Mikazuki]], [[Nagatsuki]], [[Shiranui]], [[Akebono]], [[Satsuki]], [[Isonami]], [[Nenohi]], [[Shirayuki]], [[Arashio]], [[Kasumi]]
+| style="text-align:center;" |[[Naka]], [[Isuzu]]
+|
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+|
+|
+|
+|-
+| style="text-align:center;" |B
+| style="text-align:center;" |[[Shiranui]], [[Kuroshio]], [[Yuudachi]], [[Shigure]], [[Miyuki]], [[Kikuzuki]], [[Fumizuki]], [[Akebono]], [[Hatsuyuki]], [[Isonami]], [[Hibiki]], [[Samidare]], [[Oboro]], [[Michishio]], [[Wakaba]], [[Shikinami]], [[Arare]], [[Sazanami]], [[Mochizuki]], [[Ooshio]], [[Kisaragi]], [[Shirayuki]], [[Mikazuki]], [[Nenohi]], [[Arare]], [[Ikazuchi]], [[Murakumo]]
+| style="text-align:center;" |[[Natori]], [[Jintsuu]], [[Naka]], [[Kitakami]], [[Isuzu]], [[Yura]]
+|
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|
+|
+|-
+| style="text-align:center;" |C
+| style="text-align:center;" |[[Kisaragi]], [[Mochizuki]], [[Hibiki]], [[Kuroshio]], [[Shiranui]], [[Oboro]], [[Ikazuchi]], [[Isonami]], [[Michishio]], [[Mutsuki]], [[Satsuki]], [[Mikazuki]], [[Nagatsuki]], [[Arashio]], [[Nenohi]], [[Sazanami]], [[Murasame]], [[Hatsushimo]], [[Kuroshio]], [[Kikuzuki]], [[Akebono]], [[Shirayuki]], [[Shigure]], [[Ushio]], [[Nenohi]], [[Hatsushimo]], [[Ooshio]], [[Shikinami]], [[Murakumo]], [[Kasumi]], [[Yayoi|'''<span style="color:red">Yayoi</span>''']]
+| style="text-align:center;" |[[Kiso]], [[Jintsuu]], [[Kitakami]], [[Isuzu]], [[Naka]], [[Yura]], [[Natori]]
+|
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+| style="text-align:center;" |
+[[I-58|'''<span style="color:red">I-58</span>''']],[[I-168|'''<span style="color:red">I-168</span>''']]<br>
+[[I-19|'''<span style="color:red">I-19</span>''']](HQ Lv80+?)
+|
+|-
+| style="text-align:center;" |D
+| style="text-align:center;" |[[Inazuma]], [[Akebono]], [[Wakaba]], [[Kuroshio]], [[Satsuki]], [[Hatsuyuki]], [[Shigure]], [[Arare]], [[Samidare]]
+| style="text-align:center;" |[[Naka]], [[Kitakami]], [[Jintsuu]]
+|
+| style="text-align:center;" |[[Chitose]]
+| style="text-align:center;" |[[Houshou]]
+| style="text-align:center;" |
+[[I-58|'''<span style="color:red">I-58</span>''']],[[I-168|'''<span style="color:red">I-168</span>''']]<br>
+[[I-19|'''<span style="color:red">I-19</span>''']](HQ Lv80+?)
+|
+|-
+| style="text-align:center;" |F
+| style="text-align:center;" |[[Ikazuchi]], [[Shigure]], [[Hibiki]], [[Kisaragi]], [[Mochizuki]]
+|
+|
+| style="text-align:center;" |[[Chitose]]
+|
+| style="text-align:center;" |[[I-58|'''<span style="color:red">I-58</span>''']]
+|
+|-
+| style="text-align:center;" |G
+|
+|
+|
+|
+| style="text-align:center;" |[[Houshou]]
+|
+|
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">I<br> Boss Node</span>'''
+| style="text-align:center;" |[[Akatsuki]], [[Oboro]], [[Kikuzuki]], [[Ayanami]], [[Sazanami]], [[Arashio]], [[Kisaragi]], [[Fubuki]], [[Hatsuyuki]], [[Miyuki]], [[Shiranui]], [[Shiratsuyu]], [[Ushio]], [[Samidare]], [[Suzukaze]], [[Murasame]], [[Murakumo]], [[Mochizuki]], [[Nagatsuki]], [[Asashio]], [[Shigure]], [[Isonami]], [[Fumizuki]], [[Mikazuki]], [[Shirayuki]], [[Shikinami]], [[Kuroshio]]
+| style="text-align:center;" |[[Natori]], [[Isuzu]], [[Nagara]], [[Yura]], [[Sendai]], [[Naka]], [[Jintsuu]], [[Kuma]], [[Tama]], [[Kiso]]
+| style="text-align:center;" |[[Kinugasa|'''<span style="color:red">Kinugasa</span>''']], [[Aoba]], [[Kako]], [[Furutaka]]
+|
+| style="text-align:center;" |[[Houshou]], [[Junyou]], [[Hiyou]], [[Ryuujou]]
+| style="text-align:center;" |[[I-58|'''<span style="color:red">I-58</span>''']],[[I-168|'''<span style="color:red">I-168</span>''']]<br>
+[[I-19|'''<span style="color:red">I-19</span>''']] (HQ Lv40+?)<br>
+[[I-8|'''<span style="color:red">I-8</span>''']] (HQ LV80+?)
+|[[Akashi|'''<span style="color:red">Akashi***</span>''']] (HQ Lv40+)
+|}
+
+===Notes===
+* {{ShipLink|Akashi}} drops for those who are HQ40+. She only drops in 1-5 if you currently do not have {{ShipLink|Akashi}}, meaning that you cannot get duplicates this way.

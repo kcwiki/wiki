@@ -1,0 +1,274 @@
+[[File:Marriage_Banner.jpg|centre]]
+=Introduction=
+[[File:Marriage.jpg|thumb|300px|Marriage Ceremony]]
+'''Marriage (ケッコンカッコカリ, lit. Provisional Marriage)''' was introduced with the [[Game_Updates/2014/February_14th|14th February 2014 Update]]. This mechanic allows you to marry ship girls to increase their abilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+=Overview=
+
+To marry a ship girl, the following requirements need to be fulfilled:
+* The girl must be level 99
+* You must have a [[Shop#Special_Corner|Wedding Ring and Documents]] '''in the inventory'''.
+** It is important to remember to take any rings your purchase out of the special inventory first or they cannot be used.
+** You can recieve one ring for free by [[#Marriage Quests|completing the quests below]].
+** More rings can be purchased from the [[Shop]] for 700 points each.
+
+=Marriage Effects=
+
+===Gameplay Effects===
+
+# Raises the level cap of the ship girl to 175.
+#* This allows anti-submarine {{ASW}}, line of sight {{LOS}} and evasion {{Evasion}} to continue increasing according to each ship girl's [[Stats#Linear_Growth|stat growth]] value.
+#* The [[Repairs#Repair_time|repair time]] will increase as a consequence of higher levels. 
+#* Level is increased from 99 to 100 upon marriage.
+# Bonus +3~6 luck {{Luck}}.
+#* This bonus will not go over the ship girl's hard luck cap. 
+# [[Supply_(Mechanic)#Resupplying|Consumption]] of fuel {{Fuel}} and ammo {{Ammo}} is reduced by 15%.
+#* This does not affect bauxite {{Bauxite}} consumption when replenishing planes.
+# Max HP is increased. Please see table below for details.
+#* This cannot exceed her HP cap. 
+#* The HP bonus is fixed according to remodel and does not carry over. I.e. marrying Bismarck Base/Kai will not get her to 101HP upon remodel to Zwei/Drei.
+# [[Gun Fit Bonuses|Overweight fit penalties]] is reduced by 40% '''only for battleships'''.
+
+{| class="wikitable" style="text-align:center;"
+
+!style="background-color:#99CCFF;" | HP Increase
+!style="background-color:#99CCFF;" colspan="2" | Ship List
+|-
+| rowspan="2"| +2
+| Submarine
+| [[Maruyu|Maruyu Kai]]
+|-
+| Auxiliary
+| [[Hayasui]]
+|-
+| +3
+| Battleship
+| [[Bismarck|Bismarck Zwei/Drei]]
+|-
+| rowspan="4"| +4
+| Destroyer
+| [[Destroyers|All Base Remodels]]{{·}}[[:Category:Kamikaze Class|Kamikaze-class Kai]]{{·}}[[:Category:Mutsuki Class|Mutsuki-class Kai/Kai Ni]]
+|-
+| Destroyer Escort
+| [[Destroyer Escorts|All Remodels]]
+|-
+| Light Cruiser
+| [[Light Cruiser|All Base Remodels]]<ref>Except Yuubari and Agano-class.</ref>
+|-
+| Submarine
+| [[Submarine|All SS/V Remodels]]<ref>Except Maruyu Kai.</ref>
+|-
+| rowspan="5"| +5
+| Destroyer
+| [[Destroyers|All Kai/Kai Ni Remodels]]<ref>Except Kamikaze and Mutsuki-class.</ref>
+|-
+| Light Cruiser
+| [[Yuubari|Yuubari Base/Kai]]{{·}}[[:Category:Agano Class|Agano-class Base]]
+|-
+| Battleship
+| [[Battleship|All Base Remodels]]{{·}}[[Bismarck|Bismarck Kai]]{{·}}[[Nelson|Nelson Kai]]
+|-
+| Light Carrier
+| [[Light Carrier|All Base Remodels]]
+|-
+| Auxiliary
+| [[Akitsushima]]{{·}}[[Kamoi]]{{·}}[[Akitsumaru|Akitsumaru Base]]{{·}}[[Taigei]]{{·}}[[Akashi|Akashi Base]]{{·}}[[:Category:Katori Class|Katori-class Base]]
+|-
+| rowspan="5"| +6
+| Light Cruiser
+| [[Light Cruiser|All Kai/Kai Ni Remodels]]<ref>Except Yuubari Kai and Jintsuu Kai Ni.</ref>
+|-
+| Heavy Cruiser
+| [[:Category:Mogami Class|Mogami-class Base]]{{·}}[[:Category:Furutaka Class|Furutaka-class Kai]]{{·}}[[:Category:Aoba Class|Aoba-class Kai]]
+|-
+| Battleship
+| [[Category:Vittorio Veneto Class|Vittorio Veneto-class Kai]]
+|-
+| Light Carrier
+| [[Light Carrier|All Kai Remodels]]<ref>Except Hiyou-class.</ref>
+|-
+| Auxiliary
+| [[Seaplane Tender|All Remodels]]<ref>Except Kamoi and Akitsushima.</ref>{{·}}[[Akitsumaru|Akitsumaru Kai]]{{·}}[[Akashi|Akashi Kai]]{{·}}[[:Category:Katori Class|Katori-class Kai]]
+|-
+| rowspan="4"| +7
+| Light Cruiser
+| [[Jintsuu|Jintsuu Kai Ni]]
+|-
+| Heavy Cruiser
+| [[Heavy Cruiser|All Remodels]]<ref>Except Mogami-class Base and Furutaka/Aoba-class Kai.</ref>
+|-
+| Light Carrier
+| [[Light Carrier|All Kai Ni Remodels]]{{·}}[[:Category:Hiyou Class|Hiyou-class Kai]]
+|-
+| Carrier
+| [[Standard Carrier|All Base/Kai Ni Remodels]]{{·}}[[Souryuu|Souryuu Kai]]{{·}}[[Hiryuu|Hiryuu Kai]]{{·}}[[:Category:Unryuu Class|Unryuu-class Kai]]
+|-
+| rowspan="2"| +8
+| Battleship
+| [[Battleship|All Kai/Kai Ni Remodels]]<ref>Except Bismarck, Nelson, Vittorio Veneto-class, Iowa and Yamato-class.</ref>
+|-
+| Carrier
+| [[Standard Carrier|All Kai Remodels]]<ref>Except Souryuu, Hiryuu and Unryuu-class.</ref>
+|-
+| +9
+| Battleship
+| [[:Category:Yamato Class|Yamato-class Kai]]{{·}}[[Iowa|Iowa Kai]]
+|-
+|} <references/>
+
+{{Clear}}
+
+===Cosmetic Effects===
+[[File:Married_Card.jpg|thumb|150px|Wedding ring appears on bottom right.]]
+[[File:Married_Banner.jpg|thumb|150px|Wedding ring appears on bottom right.]]
+# An animated sakura petal shower effect will appear behind the married ship girl at the [[Home Port]] menu when she is the secertary ship.
+# A wedding ring icon will appear on her card and banner.
+# Her name will have a pink tint on the [[Composition]] menu.
+# She will get an additional secretary voice line.
+
+===Additional Notes===
+
+* You can rewatch the marriage cinematic at any time from the [[Libary]] menu.
+** Note that only the remodel you married will have the cinematic available. I.e. Marrying Kongou Kai Ni will not allow you to view the cinematic for Kongou Base/Kai.
+* Marriage will not change the minimum and maximum stats of a ship girl.
+* Morale and resupply status do not change on marriage.
+** HP will get replenished because of the increase.
+
+
+
+
+
+
+=Marriage Procedure=
+
+# Proceed to the [[Remodel (Menu)|Remodel]] menu and select the girl you wish to marry.
+#* Her level indicator will be glowing to signify that she can be married.[[File:Option_to_Sign.jpg|thumb|230px|Level number glows upon hitting Lv99.]]
+# Click on her level indicator to bring up the marriage menu.[[File:Signing_Confirmation.jpg|thumb|230px|Confirmation dialog. Click the left button to confirm.]]
+# Click on the '''Sign the Document (書類一式にサインする)''' button to confirm.
+#* The cinematic may take a while to load so please be patient.
+[[File:Couple_Futon.jpg|thumb|230px|Couple Futon furniture (bottom left).]]
+
+=Marriage Quests=
+{{QuestsHeader}}
+{{Quests
+| type = Factory
+| listnum = WF01
+| reqQuest = A16
+| page = Quests
+| namejp = 式の準備！(その壱)
+| nameen = Prepare for the Ceremony! (Part 1)
+| req = ''Prepare for the ceremony! Scrap equipment twice at the factory for the preparation!''
+*Completion Condition: Scrap equipment 2 times.
+| fuel = 88
+| ammo = 88
+| steel = 0
+| bauxite = 0
+| other = Development material x1
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = PVP
+| listnum = WC01
+| reqQuest = WF01
+| namejp = 式の準備！(その弐)
+| nameen = Prepare for the Ceremony! (Part 2)
+| req = ''Obtain 2 victories in [[Exercises (PvP)]] in order to sort out feelings for the ceremony!''
+*Completion Requirement: 2 [[Exercises (PvP)]] victories during the same day.
+| fuel = 0
+| ammo = 0
+| steel = 88
+| bauxite = 88
+| other = Development material x1
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = Composition
+| listnum = WA01
+| reqQuest = WC01
+| namejp = 式の準備！(その参)
+| nameen = Prepare for the Ceremony! (Part 3)
+| req = ''Set a highly experienced (Lv90~99) ship girl as the First Fleet flagship and sort out feelings!''
+*Completion Requirement: Set a ship between Lv90 and 99 as the first fleet flagship (a.k.a. Secretary Ship).
+| fuel = 88
+| ammo = 88
+| steel = 88
+| bauxite = 88
+| other = Furniture box (big) x1
+| notes = 
+| once = true
+}}
+{{Quests
+| type = Sortie
+| listnum = WB01
+| reqQuest = WA01
+| namejp = 式の準備！(最終)
+| nameen = Prepare for the Ceremony! (Final)
+| req = ''Sortie with a highly experienced First Fleet Flagship, and gain victory in the dawn horizon of the Orel Sea!''
+*Completion Condition: Obtain S-rank victory at the boss node of [[World 2#2-3|World 2-3]] with a ship between Lv90 and 99 as the first fleet flagship.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = [[Shop#Special_Corner|Marriage Ring and Documents]] x1
+| notes = 
+| once = true
+}}
+{{Quests
+| type = Composition
+| listnum = WA02
+| reqQuest = WB01
+| namejp = 新たなる旅立ち！
+| nameen = Embark on New Travels!
+| req = ''Set a ship girl that you've strengthened the bond with (Lv100+) as the First Fleet Flagship and compose a fleet of 6 ships!''
+*Completion Condition: Compose a six-ship First Fleet with a Lv100+ flagship.
+| fuel = 200
+| ammo = 200
+| steel = 200
+| bauxite = 200
+| other = [[Repair Team]] x1
+| notes = 
+| once = true
+}}
+{{Quests
+| type = Sortie
+| listnum = WB02
+| reqQuest = WA02
+| namejp = 二人でする初めての任務！
+| nameen = First Mission We Do Together!
+| req = ''Sortie with the First Fleet led by a ship girl that you've strengthened the bond with to Ri Lanka Island and eliminate the enemy core!''
+*Completion Condition: Obtain S-rank victory at the boss node of [[World 4#4-3|World 4-3]] with the First Fleet with a level 100+ flagship.
+| fuel = 300
+| ammo = 300
+| steel = 300
+| bauxite = 300
+| other = [[:wikipedia:Futon|Futon]] [[Furniture]]
+| notes = Required by [[Quests#A40|A40]].
+| once = true
+}}
+|}
+
+=See Also=
+*[https://twitter.com/KanColle_STAFF/status/434221877767073792 Official Twitter - Overview of Marriage System]
+*[https://twitter.com/KanColle_STAFF/status/434222176909000704 Official Twitter - Marriage System Note 1: Ceremony Preparation]
+*[https://twitter.com/KanColle_STAFF/status/434222775335534592 Official Twitter - Marriage System Note 2: "Remodelling"]
+*[https://twitter.com/KanColle_STAFF/status/434223144383959040 Official Twitter - Marriage System Note 3: Signing of Document]
+*[https://twitter.com/KanColle_STAFF/status/434223733255852032 Official Twitter - Marriage System Note 4: Getting to Level 100]
+*[https://twitter.com/KanColle_STAFF/status/434224565263155200 Official Twitter - Marriage System Note 5: Other Merits]
+*[https://twitter.com/KanColle_STAFF/status/434225406623744000 Official Twitter - Marriage System Note 6: New Voices]
+*[http://wikiwiki.jp/kancolle/?%A5%B1%A5%C3%A5%B3%A5%F3%A5%AB%A5%C3%A5%B3%A5%AB%A5%EA Wikiwiki Information]
+<br>
+{{Mechanics}}

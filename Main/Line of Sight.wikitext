@@ -1,0 +1,276 @@
+=Introduction=
+
+
+This page is for Effective Line of Sight (ELoS) as it pertains to branching requirements. Certain maps require your fleet to hit a certain LoS threshold in order to get routed to the boss or pre-boss. As a rule '''LoS from equipment is more important than ship LoS''' when determining ELoS.
+
+
+For a details on the LoS {{LOS}} stat, please see [[Stats#Line of Sight|Stats]].
+
+
+=Calculating LoS=
+===Formula 33===
+Similar to the New Fall Simplified formula, but reportedly more accurate. It is described as follows<ref>http://ja.kancolle.wikia.com/wiki/%E3%83%9E%E3%83%83%E3%83%97%E7%B4%A2%E6%95%B5</ref>:
+
+<math>
+\begin{align}
+\phi &= \sum_{s \in \text{Ships}} \sqrt{L_s} + C_{n} \sum_{l \in \text{Slots}}C_{l} ( S_{l} + S_l^{\star} ) - \lceil QH \rceil + 2M \\
+S_l^{\star} &= C_l^{\star} \cdot \sqrt{\bigstar_l}
+\end{align}
+</math>
+
+*<math>L_s</math> is the ship's base LoS.
+*<math>C_{n}</math> is the node factor, it represents the weighting of the formula that is '''known to vary''' across different maps and nodes. See [[Line_of_Sight#Equipment LoS weighting modifier|following section]] for more details.
+*<math>C_{l}</math> is the equipment multiplier:
+**Carrier-Based Fighter: 0.6
+**Carrier-Based Dive Bomber: 0.6
+**Carrier-Based Torpedo Bomber: 0.8
+**Carrier-Based Reconnaissance Aircraft: 1
+**Reconnaissance Seaplane: 1.2
+**Seaplane Bomber: 1.1
+**Small Radar: 0.6
+**Large Radar: 0.6
+**ASW Patrol Aircraft: 0.6
+**Searchlight (Small and Large): 0.6
+**Fleet Command Facility: 0.6
+**SCAMP: 0.6
+**Skilled Lookouts: 0.6
+**Sonar: 0.6
+**Large Flying Boat: 0.6
+**Seaplane Fighter: 0.6
+*<math>S_{l}</math> is the displayed LoS value of the equipment.
+*<math>S_l^{\star}</math> is the equipment's improvement bonus to eLoS.
+**This is calculated by multiplying <math>C_l^{\star}</math>, the improvement multiplier of that equipment, with the square root of the equipment's improvement level.
+***The improvement multiplier of Small Radars is 1.25, Large Radars is 1.4, Reconnaissance Seaplanes is 1.2, and Searchlight is 0 (that is, it receives no eLoS bonus when improved)
+*<math>Q</math> is the HQ level modifier. This varies depending on the map.
+** It is 0.35 in 5-2 and 6-3.
+** Assume 0.4 otherwise.
+*<math>H</math> is your HQ level. The result is rounded up to the nearest whole number.
+*<math>M</math> is the number of empty ship slots in your fleet.
+**It is unknown whether this value increases mid-sortie if a ship disappears from your fleet (e.g. sinking).
+
+===Equipment LoS weighting modifier===
+* Also known as node factor.
+* Depending on the map, equipment is weighted with more importance.
+* It is denoted as C<sub>n</sub> in the formula.
+* See the [[#Estimated LoS|table below]] for C<sub>n</sub> values used by each map.
+* Ship LoS is less effective in those maps with higher equipment weight modifiers.
+
+===Estimated LoS===
+''Data sourced from [http://kc.piro.moe/nav/#/ TsunDB]. Values are the lowest and highest reported LoS for routing. Please note that there may be some margin of error due to random routing.''
+
+{| class="wikitable" style="text-align: center;"
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Map
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |C<sub>n</sub>
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Origin Node
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Lower Threshold
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Upper Threshold
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Destination Node
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Notes
+|-
+|[[World_1#1-6|1-6]]
+| 3
+| M
+| 29.7
+| 159.6
+| J
+| Failing LoS or not meeting composition requirements routes to L.
+|-
+|rowspan="3"| [[World_2#2-5|2-5]]
+|rowspan="3"| 1
+| G
+| 37.3
+| 87.8
+| L
+| Failing LoS routes to K.
+|-
+| I
+| 31.2
+| 59.4
+| O
+| Failing LoS routes to H.
+|-
+| J
+| 42.4
+| 91.2
+| O
+| Failing LoS routes to H.
+|-
+|rowspan="2"| [[World_3#3-5|3-5]]
+|rowspan="2"| 4
+| G
+| 24
+| 337
+| K
+| Failing LoS routes to I.
+|-
+| H
+| 39.1
+| 321.4
+| K
+| Failing LoS routes to J.
+|-
+|rowspan="2"| [[World_7#7-2|7-2]]
+| ??
+| E
+| -32.1
+| 136.5
+| G
+| Failing LoS routes to F. Appears to be fixed routing based on composition but still plays the LoS routing animation.
+|-
+| 4
+| I
+| 66.1
+| 294.5
+| M
+| Failing LoS routes to L.
+|-
+|rowspan="3"| [[World_4#4-5|4-5]]
+|rowspan="2"| 2
+| K
+| 64.8
+| 146.5
+| T
+| Failing LoS routes to L.
+|-
+| Q
+| 62
+| 167
+| N/O
+| Failing LoS routes to P. '''Low number of reports.'''
+|-
+| ??
+| O
+| 62
+| 167
+| T
+| Failing LoS routes to N. Appears to be fixed routing based on composition but still plays the LoS routing animation.
+|-
+|rowspan="2"| [[World_5#5-2|5-2]]
+|rowspan="2"| 2
+| F
+| 64
+| 147
+| O
+| Failing LoS routes to H.
+|-
+| L
+| 73.8
+| 81
+| K
+| Failing LoS routes to N. '''Low number of reports.'''
+|-
+|rowspan="2"| [[World_5#5-4|5-4]]
+|rowspan="2"| 2
+| L
+| 57
+| 185
+| P
+| Failing LoS routes to N.
+|-
+| M
+| 42.3
+| 150.1
+| P
+| Failing LoS routes to O.
+|-
+|rowspan="2"| [[World_5#5-5|5-5]]
+|rowspan="2"| 2
+| O
+| 63.8
+| 134.5
+| S
+| Failing LoS routes to R.
+|-
+| P
+| 74.4
+| 167.7
+| S
+| Failing LoS routes to Q.
+|-
+|rowspan="3"| [[World_6#6-1|6-1]]
+|rowspan="3"| 4
+| G
+| 16.7
+| 218.1
+| H
+| Failing LoS routes to I.
+|-
+| H<br>(With [[Taigei]])
+| 25.4
+| 201.4
+|rowspan="2"| K
+|rowspan="2"| Failing LoS routes to E.
+|-
+| H<br>(Without [[Taigei]])
+| 23.3
+| 218.1
+|-
+|rowspan="3"| [[World_6#6-2|6-2]]
+|rowspan="3"| 3
+| E
+| 46
+| 179.8
+| J
+| Failing LoS routes to I.
+|-
+| H
+| 42.8
+| 42.8
+| K
+| Failing LoS routes to G. '''Low number of reports.'''
+|-
+| I
+| 35.7
+| 205.8
+| K
+| Failing LoS routes to G.
+|-
+|[[World_6#6-3|6-3]]
+| 3
+| E
+| 19.4
+| 180
+| G
+| Failing LoS routes to F. Routing is heavily influenced by composition as well.
+|-
+|rowspan="2"| [[World_6#6-5|6-5]]
+| 3
+| G
+| 56.3
+| 196.2
+| M
+| Failing LoS routes to K.
+|-
+| ??
+| J
+| 37.2
+| 193
+| M
+| Failing LoS routes to L. Appears to be fixed routing based on composition but still plays the LoS routing animation.
+|-
+|}
+
+=See Also=
+{{Mechanics}}
+
+=FAQ=
+
+
+'''Q: Why do I keep getting offrouted?'''
+
+'''A:''' Double check that your fleet LoS according to relevant formula meets the LoS threshold for the map. Viewers such as KanColle Command Center Kai, Poi Viewer, KCANotify, KanColle Viewer and Electronic Observer can calculate your fleet's LoS easily for you.  
+
+
+'''Q: How do I increase my LoS?'''
+
+'''A:''' Reconnaissance seaplanes are the fastest way to raise LoS. The other easy way is to stack radars. Upgrades to reconnaissance seaplanes are also a good way to increase LoS when slots are limited. It is not recommended to stack carrier-based recons or seaplane bombers because too many can compromise the combat ability of your fleet.
+Another way is to level your ships. Because LoS increases as you level, marrying your ships means their LoS stat can go even higher.
+
+
+'''Q: I had enough LoS, how did I get off routed?'''
+
+'''A:''' Planes that are wiped out no longer contribute to LoS. If you were depending on bombers to hit the LoS threshold, you can fall under the threshold when encountering heavy enemy anti-air.
+
+=See Also=
+{{Mechanics}}

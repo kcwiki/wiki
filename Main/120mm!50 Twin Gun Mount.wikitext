@@ -1,0 +1,65 @@
+{{EquipmentInfo}}
+
+==Introduction==
+パスタの国が生み出した連装の小艦艇用主砲兵装です。<br>口径は同クラスの日本海軍の主力駆逐艦の主砲より小さいものの、<br>優れた機構と高いポテンシャルをもった新型小口径火砲です。
+
+''A twin-mounted gun produced in the Country of Pasta as the main armament of small ships.''<br>
+''Although it's calibre is smaller than that of IJN front-line destroyers,''<br>
+''it is still a new model small calibre gun with good machinery and high potential.''
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Buildable'''
+
+'''Stock equipment''' of {{Ship/Link|Grecale Kai}} (x2), {{Ship/Link|Grecale}}, {{Ship/Link|Libeccio Kai}} (x2), {{Ship/Link|Libeccio}}, {{Ship/Link|Maestrale Kai}} (x2), {{Ship/Link|Maestrale}}, {{Ship/Link|Scirocco Kai}} (x2), {{Ship/Link|Scirocco}}
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|120mm/50 Twin Gun Mount}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2015-08-10:''' '''Implemented'''
+* '''2020-10-29:''' Name changed from "120mm Twin Gun Mount" to "120mm/50 Twin Gun Mount", visible bonuses added
+* '''2020-11-13:''' Became '''buildable''', became '''improvable''' and '''upgradeable''' to {{Equipment/Link|120mm/50 Twin Gun Mount mod.1936}}
+</div></div>
+
+==Fit Bonuses==
+{{:120mm/50 Twin Gun Mount/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name=120mm/50 Twin Gun Mount
+|ItemType=RedGunLight
+|Fuel=10
+|Ammo=60
+|Steel=80
+|Baux=10
+|Mats0-5=4/5
+|Mats6-9=5/7
+|Mats10=6/8
+|Screws0-5=2/2
+|Screws6-9=3/4
+|Screws10=4/6
+|EquipConsume0-5=1x{{RedGunLight|12.7cm Twin Mount Type-A}}
+|EquipConsume6-9=2x{{RedGunLight|12.7cm Twin Gun Mount}}
+|EquipConsume10=1x{{RedGunLight|120mm/50 Twin Gun Mount}}
+|Sun=✓
+|Mon=✓
+|Tue=✓
+|Fri=✓
+|Sat=✓|2ndShip=[[Libeccio]]
+|Notes=Upgrades to [[120mm/50 Twin Gun Mount mod.1936]].
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]

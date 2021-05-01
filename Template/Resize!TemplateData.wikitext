@@ -1,0 +1,20 @@
+==TemplateData==
+{{TemplateDataHeader}}
+<templatedata>{
+  "description": "Template to aid switching the font-size used for a text string. Two forms {{resize|<size>|<text>}} and {{resize|<text>}} are possible.",
+  "params": {
+    "1": {
+      "label": "Size/Text",
+      "description": "Specifies a css font size e.g. '80%', '1.2em', 'x-large', 'larger'. In the one parameter version the first parameter is the text and the font size is '90%'.",
+      "type": "string",
+      "required": true
+    },
+    "2": {
+      "label": "Text when size is given",
+      "description": "The text to display in the two parameter version.",
+      "type": "string",
+      "required": false
+    }
+  }
+}
+</templatedata>

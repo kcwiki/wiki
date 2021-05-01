@@ -1,0 +1,22 @@
+Specifically for the [[Template:Circle|Circle]] template, this is the way to include albums in a Circle's discography. Just as with Template:Circle, the staff of this wiki would like to thank [http://en.touhouwiki.net/wiki/Template:DiscographyItem TouhouWiki] for letting us use their template.
+'''Note:''' It is very important that you reference the template without newlines.
+
+== Usage ==
+<pre>
+{{DiscographyItem|Album name|Album cover art|Release date|Convention released at|Optional description|link=Optional}}
+</pre>
+
+== Parameters ==
+;1
+: The name of the album. If this is in japanese, don't forget to use <nowiki>{{</nowiki>[[Template:Lang|lang]]|ja<nowiki>}}</nowiki>.
+: Also, if you use <nowiki>{{</nowiki>[[Template:Lang|lang]]|ja<nowiki>}}</nowiki>, you need to use the link parameter.
+;2
+: Cover art. Just the file name.
+;3
+: Release date in YYYY-MM-DD format.
+;4
+: Name of the convention the album was released at. Will automatically be linked.
+;5
+: An optional one-line description.
+;link
+: If the album title is in japanese, you must specify a link parameter with the name of the album sans <nowiki>{{</nowiki>[[Template:Lang|lang]]|ja<nowiki>}}</nowiki> template.

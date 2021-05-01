@@ -1,0 +1,337 @@
+==How To Use==
+*Notes can be added with the "ref" tag. See Equipment 3 for example.
+*If a ship has different remodel lines, simply copy and paste the relevant section and add the remodel it is related to in brackets to the scenario
+**For first remodels use the kai tag, for second remodels use the kai2 tag like below
+<pre>
+{{ShipquoteKai
+| scenario    =Introduction
+| kai2        =yes
+| origin      =
+| translation =
+| audio       =
+}}
+</pre>
+
+==Quotes==
+<pre>
+{{ShipquoteHeader}}
+{{ShipquoteKai
+| scenario    =Introduction
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Library
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Secretary 1
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Secretary 2
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Secretary 3
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Secretary Idle
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Wedding
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Secretary (Married)
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Player's Score
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Joining the Fleet
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Equipment 1
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Equipment 2
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Equipment 3
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Supply
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Docking (Minor)
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Docking (Major)
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Construction
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Return from Sortie
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Starting a Sortie
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Starting a Battle
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Attack
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Air Battle/ Daytime Spotting/ Night Battle Attack
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Night Battle
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =MVP
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Minor Damage 1
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Minor Damage 2
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Major Damage
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =Sunk
+| origin      =
+| translation =
+| audio       =
+}}
+|}
+</pre>
+
+==Hourlies==
+<pre>
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+| scenario    =00:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =01:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =02:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =03:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =04:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =05:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =06:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =07:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =08:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =09:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =10:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =11:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =12:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =13:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =14:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =15:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =16:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =17:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =18:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =19:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =20:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =21:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =22:00
+| origin      =
+| translation =
+| audio       =
+}}
+{{ShipquoteKai
+| scenario    =23:00
+| origin      =
+| translation =
+| audio       =
+}}
+|}
+</pre>

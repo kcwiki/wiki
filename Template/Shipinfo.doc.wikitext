@@ -1,0 +1,149 @@
+<!--Parameters need not follow the order shown below, however it is highly recommended for easier editing-->
+* Empty or parameters left out will be autofilled with "no data" (except the "time" slot which autofilled with "Unbuildable")
+* Color is based on the ship's rarity and accepts the following: skyblue, cyan, silver, gold, violet
+* The "space1" parameter is used to differentiate between ships capable of carrying aircraft and those that do not. If a ship is unable to equip aircraft, this parameter should be left blank.
+
+==Aircraft-carrying Ship==
+<pre>
+{{Shipinfo
+| name=Kaga Kai
+| japanesename=加賀改
+| id=007
+| image=[[File:007b.png]]
+| color=violet
+| type=Aircraft Carrier
+| class=Kaga
+| fuel=80
+| ammo=80
+| firepower=6 (49)
+| torpedo=0
+| AA=42 (79)
+| LOS=61 (89)
+| ASW=0
+| luck=12
+| hp=79
+| armor=45 (79)
+| evasion=39 (69)
+| aircraft=98
+| speed=High
+| range=Short
+| remodelLv=30
+| remodelAmmo=300
+| remodelSteel=750 
+| slot=4
+| slot1=Type 52 Zero Fighter
+| slot2=Suisei (Comet)
+| slot3=Type 97 Torpedo Bomber
+| slot4=-Unequipped-
+| space1=20
+| space2=20
+| space3=46
+| space4=12
+}}
+</pre>
+
+{{Shipinfo
+| name=Kaga Kai
+| japanesename=加賀改
+| id=007
+| image=[[File:007b.png]]
+| color=violet
+| type=Aircraft Carrier
+| class=Kaga
+| fuel=80
+| ammo=80
+| hp=79
+| firepower=6 (49)
+| armor=45 (79)
+| torpedo=0
+| evasion=39 (69)
+| AA=42 (79)
+| aircraft=98
+| speed=High
+| LOS=61 (89)
+| ASW=0
+| range=Short
+| luck=12
+| slot=4
+| remodelLv=30
+| remodelAmmo=300
+| remodelSteel=750 
+| slot1=Type 52 Zero Fighter 
+| slot2=Suisei (Comet)
+| slot3=Type 97 Torpedo Bomber 
+| slot4=-Unequipped-
+| space1=20
+| space2=20
+| space3=46
+| space4=12
+}}
+
+==Non-Aircraft-carrying Ship==
+<pre>
+{{Shipinfo
+| name         =Mutsuki
+| japanesename =睦月
+| id           =31
+| image        =[[File:031.jpg]]
+| color        =Cyan
+| type         =Destroyer
+| class        =Mutsuki
+| firepower    =6
+| torpedo      =18
+| AA           =7
+| ASW          =16
+| LOS          =4
+| luck         =12
+| hp           =13
+| armor        =5
+| evasion      =37
+| aircraft     =0
+| speed        =Fast
+| range        =Short
+| fuel         =15
+| ammo         =20
+| slot         =2
+| time         =18:00
+| slot1        =12cm Single Cannon
+| slot2        =7.7mm Gun
+| slot3        =-Locked-
+| slot4        =-Locked-
+}}</pre>
+
+{{Shipinfo
+| name         =Mutsuki
+| japanesename =睦月
+| id           =31
+| image        =[[File:031.jpg]]
+| color        =Cyan
+| type         =Destroyer
+| class        =Mutsuki
+| firepower    =6
+| torpedo      =18
+| AA           =7
+| ASW          =16
+| LOS          =4
+| luck         =12
+| hp           =13
+| armor        =5
+| evasion      =37
+| aircraft     =0
+| speed        =Fast
+| range        =Short
+| fuel         =15
+| ammo         =20
+| slot         =2
+| time         =18:00
+| slot1        =12cm Single Cannon
+| slot2        =7.7mm Gun
+| slot3        =-Locked-
+| slot4        =-Locked-
+}}
+
+<includeonly>
+<!--PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS.-->
+
+<!--PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS.-->
+[[Category:Templates]]
+</includeonly>
+<noinclude>[[Category:Template documentation]]</noinclude>

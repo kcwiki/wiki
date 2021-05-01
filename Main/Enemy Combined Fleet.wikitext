@@ -1,0 +1,47 @@
+The '''Enemy Combined Fleet''' is a new mechanic introduced in the ''October 5th, 2016 Update''. It involves a battle where the player's fleet faces off against two Abyssal Fleets that form an opposing Combined Fleet. As of this time, the mechanic is featured in the boss node of [[World_6#6-5|6-5]], and has your fleet challenge 12 Abyssal units in one battle. Currently, only a Single Fleet vs. Combined fleet scenario exists.
+
+==Understanding Enemy Combined Fleets==
+[[File: Enemy Combined Fleet.png|thumb|Enemy Combined Fleet as shown on [[World_6#6-5|6-5]]]] As was previously mentioned, an '''Enemy Combined Fleet''' has your fleet face off against an enemy Abyssal Fleet that consists of two fleets: A '''Main Fleet''' and an '''Escort Fleet'''. While the only example of a combined fleet featured so far is from [[World_6#6-5|6-5]], information so far suggests that the Enemy Combined Fleet follows a set of rules similar to those involving a Regular [[Combined Fleet]] that the player can use during event maps.
+
+So far, '''Enemy Carrier Task Force Fleets''' are the only type of Enemy Combined Fleet implemented in the game. No '''Enemy Surface Task Force''' has been introduced as of yet, and it is unknown if any mechanics will change based on the type of enemy combined fleet. Additionally, the current scenario only features a '''Single fleet vs. a Combined Fleet'''. However, using these mechanics, we can come to understand the basic rules behind how a battle works in this scenario. 
+
+Currently, '''LBAS phase''', '''Air Strike phase''', and the '''Preemptive Torpedo Phase''' remain the same as in regular fleet situations (in terms of the order they play out, with the exception being that they will target anyone from ''both'' the main and escort fleet). However, upon reaching the shelling phase, the mechanics change drastically in terms of shelling order, as your fleet will have to battle the main fleet as well as an escort fleet. The following chart below explains the steps as follows:
+
+===Single Fleet Vs. Enemy Carrier Task Force Fleet===
+{| class="wikitable"
+|-
+! Phase Name !! Description
+|-
+| '''Escort Fleet Shelling''' || After the Preemptive Torpedo Phase and the confrontation notification, your fleet will fire upon the '''Enemy Escort Fleet''' in the same fashion as 1st Phase Shelling in a regular fleet combat situation. Your Fleet will attack in order, based on their range, from longest to shortest. If all ships from the '''Enemy Escort Fleet''' are defeated during the shelling, Torpedo Salvo will be fired immediately.
+|-
+| '''Torpedo Salvo''' || Follows after Escort Shelling. Your fleet will fire torpedoes at any surviving enemy ships from ''both'' the escort fleet and main fleet.
+|-
+| '''1st Main Fleet Shelling''' || Following the Torpedo Salvo, your Fleet will proceed to shell '''Enemy Main Fleet''' during this phase, again based on the fleet's range, going from longest to shortest. If any '''Enemy Escort Ships''' have survived the previous shelling and torpedo salvo, they can be targeted during this phase as well.
+|-
+|'''2nd Main Fleet Shelling''' || After the 1st Main Fleet Fleet Shelling, your Fleet will proceed to shell '''Enemy Main Fleet''' based on the fleet's composition order, going from top to bottom. If any '''Enemy Escort Ships''' have survived the previous rounds, they can be targeted during this phase as well. Once complete, the day battle is over. 
+|}
+
+==Night Battle with Enemy Combined Fleets==
+If the enemy combined fleet has not been defeated in the day, you may choose to pursue them and enter night battle. The key difference is that depending on whether a few conditions have been fulfilled, the enemy escort fleet may participate in night battle '''in place of the main enemy fleet''', thus preventing any further damage from being done to the main fleet.
+
+The simplest way of explaining the requirements that determine which enemy fleet you face during the Night Battle is via a points-based system:
+
+*Start with '''0''' points in the counter.
+*If the '''Escort Fleet Flagship''' is still alive ('''regardless of damage state'''), add '''+1''' point to the counter.
+*If '''any''' remaining ships in the Escort Fleet are still alive and have '''more than 50% HP''', add '''+1''' point to the counter for '''each''' ship.
+**This includes the Escort Fleet Flagship, and is counted separately from the first point.
+**In other words, if the Escort Fleet Flagship is still alive and has more than 50% HP, it adds +2 points total to the counter: 1 point for being alive, and 1 point for having more than 50% HP.
+*If the entire '''Main Fleet''' has been sunk, add '''+3''' points to the counter.
+*If the total number of points is '''3 or more''', you face the '''Escort Fleet''' during the Night Battle.
+*If the total number of points is '''less than 3''', you face the '''Main Fleet''' during the Night Battle.
+
+'''More information may be added / amended as new developments occur.'''
+
+==Tips==
+*When dealing with an enemy combined fleet, it is highly recommended to take out '''Enemy Escort Fleet''' as soon as possible to allow for more opportunities for your fleet to target the main fleet.
+**Assuming that the map allows for the use of [[LBAS]], it is recommended to utilize LBAS to preemptively clear out the as much of the enemy fleets as possible, allowing your own fleet's attacks to focus on whatever remains.
+
+==See Also==
+{{Mechanics}}
+[[Category:Help]]
+[[Category:Events]]

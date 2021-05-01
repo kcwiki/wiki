@@ -1,0 +1,112 @@
+==Countdown==
+===Usage===
+<pre>
+<span class="countdown" style="display:none;">
+	Only <span class="countdowndate">January 01 2015 00:00:00</span> until the new year...
+</span>
+</pre>
+===Output===
+<span class="countdown" style="display:none;">Time until next maintenance: <span class="countdowndate">December 26 2014 11:00:00</span></span>
+
+
+==Wiki Profile==
+===Usage===
+
+===Output===
+{| cellpadding="0" cellspacing="0" style="position:relative; width:670px;"
+|-
+|<div style="width:100px; height:100px; background:#fff; border:1px solid #ccc; padding:2px; position:absolute; margin:75px 0px 0px 15px;">[[File:{{{photo|Ttk.png}}}|100px|link=]]</div>
+<div style="width:200px; height:20px; font-size:24px; font-weight:bold; color:#fff; position:absolute; margin:115px 0px 0px 135px; text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);">{{{admiral|dragonjet}}}</div>[[File:{{{cover|Hq_cover.jpg}}}|670px|link=]]
+|-
+| style="line-height:18px;" |
+<span style="padding:0px 0px 0px 130px;">Server: '''{{{server|Sukumo Bay Docks}}}'''</span>
+<span style="padding:0px 0px 0px 20px;">Rank #'''{{{rank|0000}}}'''</span>
+<span style="padding:0px 0px 0px 30px;">'''{{{title|Marshal Admiral}}}'''</span>
+<br />
+|-
+|other things here
+|}
+
+
+==Audio==
+===Output===
+{{Audio2|filename=Yuudachi_Introduction.ogg}}
+
+==Chat==
+===Usage===
+<pre>
+<chat />
+</pre>
+===Output===
+<div class="move" style="margin:0px 0px 20px 0px;">
+<chat />
+</div>
+
+==Signature==
+===Output===
+<span style="height:19px; line-height:19px;">[[File:Catbomb.png|36px|link=]]</span><span style="height:19px; line-height:22px; margin:0px 0px 0px 8px;">[[User:Dragonjet|Dragonjet]] ([[Message_Wall:Dragonjet|Wall]]) ([[User_blog:Dragonjet|WikiBlog]])</span>
+
+
+==Updates==
+===Usage===
+<pre>
+{{Updates
+|date=Oct 24, 2014
+|image=
+|link=
+|data=
+}}
+</pre>
+===Output===
+{| class="wikitable" style="margin:0px; padding:0px; width:675px;"
+|-
+| style="width:120px; background:#eee;" valign="top" |
+
+{| class="wikitable" style="margin:0px; padding:0px; width:120px;"
+|-
+| style="font-weight:bold; background:#333; color:#fff;" |'''2014'''
+|-
+|[[Thread:78260|June 06]]
+|-
+|[[Thread:78261|June 20]]
+|-
+|[[Thread:81998|July 04]]
+|-
+|[[Thread:84595|July 18]]
+|-
+|[[Thread:84930|July 28]]
+|-
+| style="font-weight:bold; background:#ffcc00;" |☆ [[Thread:88993|August 8]]
+|-
+|[[Thread:109971|August 29]]
+|-
+|[[Thread:120419|September 12]]
+|-
+|[[Thread:120420|September 26]]
+|-
+|[[Thread:122476|October 10]]
+|-
+|[[Thread:132862|October 24]]
+|-
+| style="font-weight:bold; background:#ffcc00;" |☆ November 14
+|-
+|November 28
+|-
+|December 12
+|-
+|December 26
+|-
+| style="font-weight:bold; background:#333; color:#fff;" |'''2015'''
+|-
+|January 09
+|}
+
+| style="width:555px; valign="top" |
+
+<div style="padding:10px; font-size:20px; font-weight:bold;">{{{date|Oct 10, 2014}}} Updates</div>{{#if:{{{image|}}}|[[{{{image|}}}|500px|center]]{{clr}}<br />|}}
+{{{data|# A
+#* A1
+#* A2
+}}}
+
+|}

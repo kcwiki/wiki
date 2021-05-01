@@ -1,0 +1,9 @@
+<includeonly>{{[[{{ns:Template}}:{{{1|Tlx}}}|{{#if:{{{subst|}}}|subst:|{{#if:{{{prefix|}}}|{{{prefix|}}}:| }}}}{{{1|Tlx}}}]]{{#if:{{{2|}}}|<tt>&#124;</tt>{{{2}}}}}{{#if:{{{3|}}}|<tt>&#124;</tt>{{{3}}}}}{{#if:{{{4|}}}|<tt>&#124;</tt>{{{4}}}}}{{#if:{{{5|}}}|<tt>&#124;</tt>{{{5}}}}}{{#if:{{{6|}}}|<tt>&#124;</tt>{{{6}}}}}{{#if:{{{7|}}}|<tt>&#124;</tt>{{{7}}}}}{{#if:{{{8|}}}|<tt>&#124;</tt>{{{8}}}}}{{#if:{{{9|}}}|<tt>&#124;</tt>{{{9}}}}}{{#if:{{{10|}}}|<tt>&#124;</tt>{{{10}}}}}{{#if:{{{11|}}}|<tt>&#124;</tt>{{{11}}}}}{{#if:{{{12|}}}|<tt>&#124;</tt>{{{12}}}}}{{#if:{{{13|}}}|<tt>&#124;</tt>{{{13}}}}}{{#if:{{{14|}}}|<tt>&#124;</tt>{{{14}}}}}{{#if:{{{15|}}}|<tt>&#124;</tt>{{{15}}}}}{{#if:{{{16|}}}|<tt>&#124;</tt>''etc.''}}}}</includeonly><noinclude>{{Tlx|Tlx}} is used to explain different parameters for other templates.
+
+==Usage==
+ {{Tlx|Tlx|template name|first parameter|...}}
+
+*Up to 15 parameters for the specified template are displayed as placeholders, more parameters are shown as "<tt>|</tt>''etc.''".
+*If you want one of the prefixes such as subst: to be shown then add prefix=subst to the parameters.
+*If you wish to explain a named parameter then add the number of the parameter you are at and an = sign eg: 2 for the above 'first parameter'.
+</noinclude>

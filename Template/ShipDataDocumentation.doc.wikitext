@@ -1,0 +1,15 @@
+This template provides the documentation for ship data modules.
+
+==Parameters==
+
+This template accepts two parameters.
+
+At least one of ship or class must be true.
+
+===ship===
+
+Boolean. Whether or not this ship data module contains a ship. Defaults to false.
+
+===class===
+
+Boolean. Whether or not this ship data module contains a ship class. Defaults to false.

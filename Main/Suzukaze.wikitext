@@ -1,0 +1,268 @@
+==Info==
+{{KanmusuInfo|ID=084}}
+{{KanmusuInfo|ID=084a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform OASW at 100 ASW.
+
+===Overview===
+'''Kai'''
+* Average firepower, torpedo, ASW, HP and armour.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Low'''
+
+:At first remodel, she has low firepower and a decent torpedo stat, making her hitting harder in night battle than at day, but not great at either.
+:While not impressive in combat, do keep in mind than many maps require you to bring at least a few destroyers for routing.
+:Furthermore, destroyers are cheap to deploy and can equip [[Drum Canister]], making them suited for expeditions.
+
+:No further remodels have been implemented for her yet (as of January 2020).
+
+===Important Information===
+* Required for B136.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = ちわ！涼風だよ。私が艦隊に加われば百人力さ！
+|translation = Heyo! I'm Suzukaze. I'll add a ton of power to the fleet!
+|audio = Suzukaze-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 涼風だよ。
+特型駆逐艦として数々の攻略作戦の支援に参加したんだ。その後は戦艦や空母の護衛にも従事したよ。
+頼りにしてね！最後まで戦うから！
+|translation = I'm Suzukaze.
+I participated in many operations as a Special-type destroyer.<ref>Although "Special-type" is usually used to refer to the Fubuki, Ayanami and Akatsuki-classes; in some cases the designation has also been expanded to cover the Hatsuharu, Shiratsuyu and Asashio-classes.</ref> After that, I also escorted battleships and carriers.
+You can count on me alright! I'll fight to the end!
+|audio = Suzukaze-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = あたいの出番かい？
+|translation = Is it my turn?
+|audio = Suzukaze-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = さぁ、次に行こっかー！
+|translation = Now, let's go next~!
+|audio = Suzukaze-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = …ちょ！な、何触ってんのさー！
+|translation = ...Wai! Wh-what are you touching~!
+|audio = Suzukaze-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = おーい、提督うー！どうしたぁー！？あたいのこと、ほっときすぎだぞー！？おーい、きいてっかー？てーとくってばー！？
+|translation = Oi~, Admiral~! What's the matter~!? You're not paying enough attention to me you know~!? Oi~, are you listening? Admiral~!?
+|audio = Suzukaze-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai = yes
+|origin = どうした、提督？…あんま元気ないのかい？大丈夫さあ、なんとかなるよぉ！涼風も本気でやるからさ！元気だしなって！な？
+|translation = What's the matter, Admiral? ..Are you not feeling well? Don't worry, it will all work out~! I'll give it my all too! Cheer up! Alright?
+|audio = Suzukaze-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = あのさ。あたい…て、提督の、事さ…うっ。…いや。…違う！なんでもねぇよぉ！
+|translation = You know. I... a-about you, Admiral... Ugh... No... Nevermind! It's nothing~!
+|audio = Suzukaze-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 提督に電文来てっぞ。
+|translation = A telegram has come for you, Admiral.
+|audio = Suzukaze-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = がってんだ！涼風の本気見せたげる！
+|translation = Understood! I'll show you how serious I am!
+|audio = Suzukaze-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = うん！これならいけるいけるぅー！<ref>Shared with Supply before Kai.</ref>
+|translation = Yup! I can definitely work with this~!
+|audio = Suzukaze-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = ありがとう、これでばっちりだね。
+|translation = Thanks, this is perfect.
+|audio = Suzukaze-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = ばっちりだね。<ref>Shared with Secretary Married before Kai.</ref>
+|translation = It's perfect.
+|audio = Suzukaze-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = yes
+|origin = おおう！補給はいいねぇー！
+|translation = Oooh! Supplies are great~!
+|audio = SuzukazeKai-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 休憩入りまーす。
+|translation = I'm taking a break.
+|audio = Suzukaze-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = うぅ…まだやれる…まだやれるのにぃ…
+|translation = Ugh... I can still go on... I really can but...
+|audio = Suzukaze-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = お～、新顔登場ってか？
+|translation = Oh~ a newcomer has arrived?
+|audio = Suzukaze-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 作戦完了っとー、ふぅ…一休みする？
+|translation = Operation complete, whew... Time for a breather?
+|audio = Suzukaze-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = いよっ、待ってましたー！
+|translation = Alright, I've been waiting for this~!
+|audio = Suzukaze-Starting A Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = いっけー！
+|translation = Let's go~!
+|audio = Suzukaze-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = くらえー！
+|translation = Eat this~!
+|audio = Suzukaze-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|origin = てやんでーい！
+|translation = You what~!<ref>This is a Edo dialect phrase that roughy translates to "What the hell are you talking about?"</ref>
+|audio = Suzukaze-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = えいっ！もってけドロボー！
+|translation = Ei~! Take this you thief~!
+|audio = Suzukaze-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = やったぜ！提督、あたいの活躍見てたかい？
+|translation = Alright! Did you see how well I did, Admiral?
+|audio = Suzukaze-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = ううっ
+|translation = Uuugh~
+|audio = Suzukaze-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = いーったいってばぁ！
+|translation = I said that hurts!
+|audio = Suzukaze-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = な…なんでぇ！？
+|translation = Wh... why!?
+|audio = Suzukaze-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = こ…このあたいが…べらぼうめ…
+|translation = I... I'm... you idiot...<ref>An Edo dialect word that means "fool".</ref>
+|audio = Suzukaze-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin = てやんでい！今日はすっげえ大切な日じゃねえか！提督、おめっとさん！なあっ！
+|translation =	Hold on! Isn’t today a really important day!? Congrats, Admiral! Hey!
+|audio = 084_Suzukaze_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2015|Rainy Season 2015]]
+|origin = う～ん、梅雨だな。雨かあ、嫌いじゃねえけど…な、五月雨。なあ？
+|translation =	Yuuup, it’s the rainy season. I don’t dislike the rain… Right, Samidare. Right?
+|audio = Suzukaze_Rainy_Secretary_1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Mid_Summer_Season_Update|Midsummer 2015]]
+|origin = キタキタこの季節最高だぜ！やっぱあたいは夏が好きだな～いい感じだぜ！
+|translation =	It’s finally here; summer is the best! I definitely love summer~ It feels good!
+|audio = Suzukaze_Mid_Summer.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = ん？なんだって？メリクリだ？くあ！なんだその冬まつりは！あたいも混ぜろって！
+|translation =	Hmm? What was that? Merry Christmas? Whoa! What sort of winter festival is this!? Let me in on it!
+|audio = Suzukaze_Christmas_2015_Sec1.ogg
+|notes =
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+084_3.png|Base
+084_4.png |Base Damaged
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Suzukaze}}
+
+==Trivia==
+*Sunk January 25th, 1944.
+*Her name means "cool breeze".
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View {{PAGENAME}} CG]]
+*[[EliteDD|List of Destroyers]]
+*[[wikipedia:Japanese_destroyer_Suzukaze|Wikipedia entry on destroyer Suzukaze]]
+ {{shiplist}}
+[[Category:Shiratsuyu Class]]
+[[Category:Destroyers]]

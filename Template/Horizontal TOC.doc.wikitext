@@ -1,0 +1,46 @@
+{{Documentation subpage}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+
+This template lays out the table of contents in a [[WP:HLIST|horizontal list]] rather than a vertical one.
+
+== Usage ==
+
+<pre>
+{{horizontal TOC}}
+</pre>
+There is no need to specify <code><nowiki>__NOTOC__</nowiki></code>: this template handles that automatically.
+*[https://en.wikipedia.org/w/index.php?title=Template:Horizontal_TOC/doc&oldid=653960465 See example]
+
+To hide the generated heading numbers, use:
+
+<pre>
+{{horizontal TOC|nonum=yes}}
+</pre>
+*[https://en.wikipedia.org/w/index.php?title=Template:Horizontal_TOC/doc&oldid=653960502 See example]
+
+To limit the depth of the generated headings to the first headings only, use:
+
+<pre>
+{{horizontal TOC|limit=2}}
+</pre>
+*[https://en.wikipedia.org/w/index.php?title=Template:Horizontal_TOC/doc&oldid=653960535 See example]
+
+To float the table of contents to the center of the page, use:
+
+<pre>
+{{horizontal TOC|align=center}}
+</pre>
+*[https://en.wikipedia.org/w/index.php?title=Template:Horizontal_TOC/doc&oldid=653960585 See example]
+
+For country and state lists with flag icons, see these examples: [[Legality of cannabis by country]]. And: [[Legality of cannabis by U.S. jurisdiction]].
+
+== See also ==
+*[[Wikipedia:Help:TOC]]
+* {{Wikipedia:tl|Compact ToC}}
+* {{Wikipedia:tl|List TOC}}
+* {{Wikipedia:tl|List TOC Letters}}
+
+<includeonly>
+<!-- Categories go here -->
+[[Category:Wikipedia table of contents templates]]
+</includeonly>

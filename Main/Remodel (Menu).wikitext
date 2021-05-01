@@ -1,0 +1,127 @@
+
+=Introduction=
+
+'''Remodel (改装)''' is a main menu function that can be found on the home screen. This menu allows you to adjust your ship girl's equipment and improve her stats. You can also [[Remodel_(Mechanic)|remodel]] your ship girls from this menu after they have reached certain level thresholds.
+
+[[Modernization]] and equipment are very important in allowing your ship girls to perform at their best. 
+
+=Menu Functions=
+[[File:Remodel Menu Option.png|thumb|right|Basic Modernization Menu Options]]
+The following functions appear in the Remodel menu:
+
+* '''Equipment Slots''' - Allows you to equip or swap a ship girl's equipment.
+* '''Remove Equipment''' - Allows you to remove one equipment.
+* '''Remove All Equipment''' - Removes all equipment from a ship girl.
+* '''Modernization Improvement''' - Allows you to improve the stats of a ship girl by using other ship girls as fodder. Please see [[Modernization]] for more details.
+* '''Remodel''' - Allows you to remodel a ship girl once she has reached a certain level threshold. Please see [[Remodel_(Mechanic)|remodeling]] for more details.
+* '''Stats''' - Displays all the stats of the ship girl. Please see [[Stats]] for more details.
+* '''Reinforcement Expansion''' - This is a hidden feature located on the bottom right section of the ship girl card. It allows you to unlock an extra equipment slot on any girl above level 30. Please see [[Reinforcement Expansion]] for more details.
+* '''Marriage''' - This allows you to marry any ship girl who reached level 99. See [[Marriage]] for more details
+* '''Record''' and '''Deploy''' equipment presets. See below for more details
+
+=Managing Equipment=
+[[file:Equipment_List.png|thumb|right|It can be useful to bring down the equipment categories to find the desired equipment faster]]
+Clicking on any of the equipment slots will bring up a list of all the equipment you possess that the ship girl can equip. 
+
+* The equipment list only shows a list of '''currently unequipped equipment''' by default. 
+** To view equipped equipment, click on the blue '''"Equipped on Other Ship Girls" (他艦娘装備中)''' button in the top right. 
+** To switch back to unequipped equipment, click on the yellow '''"Equipment Stock" (ストック装備)''' button in the top right.  
+** The equipped equipment list will display the name, level and status of the ship girl the equipment is on.
+** You '''cannot''' transfer equipment off ship girls currently on expedition but '''can''' transfer equipment off ship girls being repaired.
+
+The equipment list can be filtered using a drop down located at the top. The options are:
+
+* '''Default''': Lists all equipable equipment.
+* '''Fighters''': Lists all equipable [[:Category:Fighters|carrier-based fighters]].
+* '''Bombers''': Lists all equipable carrier-based [[:Category:Torpedo_Bombers|torpedo bombers]], [[:Category:Dive_Bombers|dive bombers]] and [[:Category:Jets|jets]].
+* '''Seaplanes''': Lists all equippable [[:Category:Recon_Aircraft|carrier-based reconnaissance]], [[:Category:Reconnaissance_Seaplane|reconnaissance seaplanes]], [[:Category:Seaplane_Bombers|seaplane bombers]], [[:Category:Seaplane_Fighters|seaplane fighters]], [[:Category:Flying_Boat|flying boats]], [[:Category:Autogyro|autogyros]], and [[:Category:Helicopter|helicopters]].
+* '''Gun Mounts''': Lists all equippable [[:Category:Main Gun|main guns]].
+* '''Anti-Air Guns''': Lists all equippable [[:Category:Secondary Gun|secondary guns]] and [[:Category:Anti-Air Gun|anti-air guns]].
+* '''Torpedoes''': Lists all equippable [[:Category:Torpedoes|torpedoes]]. Also includes [[:Category:Midget_Submarine|midget submarines]].
+* '''ASW''': Lists all equippable [[:Category:SONAR|SONAR]] and [[:Category:Depth_Charges|depth charges]]. Also includes ASW [[:Category:Mortars|mortars]] and [[Prototype 15cm Nonuple ASW Rocket Launcher|rockets]].
+* '''RADAR''': Lists all equippable [[:Category:RADAR|RADAR]].
+* '''Landing Craft''': Lists all equippable [[:Category:Landing_Craft|landing crafts]], [[:Category:Amphibious_Tank|amphibious tanks]], and [[Drum Canister]]s.
+* '''Rations''': Lists all [[:Category:Ration|rations]].
+* '''Land-Based Bombers''': Lists all [[:Category:Land Based Attack Aircraft|land-based bombers]].
+* '''Miscellaneous''': Lists all equippable equipment not listed in the above categories. Also lists all [[:Category:Interceptors|land-based interceptors/fighters]].
+* '''Sort Improvements by Descending''': Lists all equippable equipment from highest to lowest improvement. Equipment with the same improvement level are sorted by type.
+* '''Sort Improvements by Ascending''': Lists all equippable equipment from lowest to highest improvement. Equipment with the same improvement level are sorted by type.
+* '''All Equipment''': Lists all equipment. This option is only for the browser version. 
+
+===Equipping Ship Girls===
+
+To equip equipment on a ship girl, simply click on any of the equipment slots and select the equipment that you wish to equip. This will bring up a menu showing the before and after stat bonuses of the change. Click the '''Change (変更)''' button to confirm your selection.
+
+===Swapping Equipment===
+
+To swap equipment, you can pick new equipment from the list to replace what is currently equipped. You can also shift equippment around on a ship girl by clicking and dragging. This is useful for arranging planes on aviation ships. Do note that equipment will always '''fill slots from top to bottom'''. You cannot leave any empty slots between equipment.
+
+===Unequipping===
+
+To unequip, you just click the little '''"x"''' icons beside each equipment slot to unequip individual equipment or the '''"x"''' on the bottom left of the equipment slots to unequip all. You can also click and drag equipment away from the slots to unquip it.
+
+===Equipment Locking===
+To lock your equipment, mouse over the empty space to the right of the equipment list. A padlock icon will appear. Click the icon to lock equipment.
+
+Locking equipment will:
+
+* Prevent the equipment from being accidentally scrapped.
+* Prevent ship girls equipped with locked equipment from being scrapped or used for modernization.
+* Prevent equipment from being upgraded to new equipment or being used for upgrade fodder via [[Akashi's Improvement Arsenal]].
+* Prevent equipment from being used for quests.
+
+'''Remember to unlock equipment that you wish to upgrade or use for quests'''.
+
+=Equipment Preset Menu=
+[[File:Equip_preset_record.png|thumb|right|Preset Record Menu]]
+[[File:Equip_preset_deploy.png|thumb|right|Preset Deploy Menu]]
+There are three Equipment Preset Slots available. It is possible to expand it to a maximum of 9 via [[Shop#Regular_Corner|Dock Keys]]. One Key unlocks two presets. Both menus can be left by clicking the cog at the top right or anywhere outside of the preset menu.
+
+'''Recording Equipment Presets:'''
+
+* Equipment setups can be recorded in the "record" section of the equipment preset menu by clicking the record button. 
+* These presets can be locked to not be overwritten by accident by clicking the padlock next to the record button.
+* The equipment of the currently selected ship is recorded, including the reinforcement expansion
+
+'''Deploying Equipment Presets:'''
+
+* You can deploy the saved equipment presets via the deploy button in the equipment preset deployment menu under the following conditions:
+**The target ship must have equal or greater slot number than the preset
+**The target ship must have a reinforcement expansion if the preset has something saved in the reinforcement expansion slot
+**The target ship must be eligible to equip the saved equipment in the same slots as the preset. (e.g. no gun in slot three when deploying onto Ise-Class Kai Ni, no gun in slot 4 when deploying onto Yuubari Kai Ni). This also applies to special rule reinforcement expansion equipment like 8cm HA guns and bulges.
+**The equipment must be in the inventory and not equipped on another ship
+
+* There are two modes to deploying presets:
+** Mode A: Picks the best of the available equipment saved in the preset (based on akashi improvements)
+** Mode B: Picks the same or best available equipment (if same is not available) saved in the preset (based on akashi improvements)
+
+
+=Modernization=
+[[File:Modernisation_Example.png|thumb|right|Modernisation Menu]]
+Clicking on the '''Modernization (近代化改修)''' button will bring up the modernization menu. For more details on how modernization works, please see [[Modernization]].
+
+* Click the '''Select (選択)''' button in the empty modernization slot to bring up a list of non-locked ship girls sorted by level.
+* Select a ship girl to be placed in a modernization slot.
+* Stats that will be improved will turn blue and show you the potential maximum improvement.
+** HP, ASW and Luck will just display a blue up arrow.
+* Once you have made your selection, click either button in the bottom right to begin.
+** The '''Begin Modernisation!! (近代化改修開始！！)''' button to modernize. This method will '''destroy''' any equipped equipment on girls used as modernization material.
+** The '''Begin Modernisation! (After Removing Equipment) (近代化改修開始！（装備解除後）)''' button will '''remove equipment''' from the girls used as modernization material before performing the modernization.
+** The button will be greyed out if the ship girl cannot be modernized any further.
+* To return to the Remodel menu, click the '''Cancel (キャンセル)''' button.
+
+=Remodeling=
+
+Clicking on the '''"Remodeling" (改造)''' button will bring up the remodel menu. Please see [[Remodel (Mechanic)|Remodeling]] for details on how it works.  
+
+
+* The button will be greyed out until the ship girl has reached the required level.
+* A menu will appear showing you the resouce costs needed for the remodel.
+* To confirm the remodel, click the '''Begin Remodel!! (改装開始！！)''' button.
+** The button will be greyed out if you do not have the required resources.
+** The exact quantity of some resources will not be displayed. Please review the individual ship girl pages for the exact costs.
+* To return to the Remodel menu, click the '''Cancel (キャンセル)''' button.
+
+=See Also=
+{{Mechanics}}
+[[Category:UI]]

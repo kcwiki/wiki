@@ -1,0 +1,241 @@
+==World 1-4: 南西諸島防衛線 Nansei Islands Defense Line==
+{{LabSortieworld
+| map = 1 04.png
+| difficulty = ☆ ☆ ☆
+| item = {{Ammo}} {{Steel}} {{Bauxite}}
+| exp = Varies
+| code = 南1号作戦 ([[wikipedia:ja:南号作戦|First Southern Operation]])
+| jptext = 南西諸島の防衛ライン上の敵侵攻艦隊を捕捉、全力出撃でこれを撃滅せよ！
+| entext = An enemy invasion fleet is pressing on the defensive line in the Nansei Islands.  Sail out in full force and destroy them!
+| aircon = {{AirControlSystem
+| Map = 1-4
+| Fleet = AV CL 2DD 2XX
+| Route = Random
+| AS = 30
+| Notes = Strongest Boss Node Comp
+}}
+}}
+
+===Stage Guide===
+{{MapBranchingTable
+|title = 1-4 Branching Rules
+|expand = true
+|id = 1-4
+|0 -> A/empty, B = * Random routing
+
+|B -> C/resource, D = 
+*Meet '''ANY''' of the following to '''FORCE''' D
+**Fleet contains no DD and DE
+**CV(B/L) ≥ 3
+**(F)BB(V) ≥ 3
+*Go to C if DD+DE ≥ 3
+*Otherwise, random routing
+**If fleet contains CL, 80% to C
+**Otherwise, 65% to C
+
+|D -> E/resource, G/resource =
+*Go to E if fleet contains AS
+*Go to G if fleet contains AV
+*Otherwise, random routing
+
+|F/empty -> E/resource, H, I = 
+*Meet '''ANY''' of the following to go to E
+**DD+DE ≥ 4
+**Fleet contains AV and DD+DE ≥ 2
+**BBV ≥ 2 and DD+DE ≥ 2
+*Random between E and H if DD+DE ≥ 2
+*Otherwise, random routing between H and I.
+
+|J -> K/empty, L = 
+*Meet '''ANY''' of the following to go to L
+**DD ≥ 4 and SS(V) = 0
+**Fleet contains both AV and CL, with DD+DE ≥ 2
+*Otherwise, random routing
+}}
+
+===Tips===
+*This is the first map in which the enemy fleets possess carriers (with at least one node of carriers in every route). If you do not bring your own carriers, your ships must deal with aerial bombing prior to being able to counter-attack during the shelling phase(s). You have a few ways to deal with enemy carriers:
+# Ignore the enemy carriers' bombing, which is possible with durable ships (at least CLs, preferably CAs or higher);
+# Bring a submarine-only fleet (likely from construction as there are no submarine drops between 1-1 and 1-4) as only enemy CL and DDs can attack submarines; or
+# Bring your own carriers, which can be obtained through either remodeling [[Chitose]] and/or [[Chiyoda]] at Level 15 to CVL or through normal construction.
+*The third method will also help in completing the quest chain which rewards [[Akagi]]: [[Quests#A11|A11]] (have a CV(L) and 3 destroyers in your second fleet) and [[Quests#B10|B10]] (sink an enemy carrier).
+*This map is also convenient for completing [[Quests#Bw2|Bw2]], preferably with a fleet of three subs. The echelon formations here hurt them far less than those in [[World 2|2-2]].
+
+'''Recommended Fleet'''
+*'''1 AV 1 CL 2 DD 2 XX'''
+
+===Nodes and Enemy Encounters===
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = '''<span style="color:blue">Battle Avoided</span>'''
+|A1_node_info = "Must be my imagination" (battle avoided)
+|
+|B_label = 敵偵察艦隊
+|B-1_node_info = ca_ri-class cl_he-class dd_i-class dd_i-class dd_i-class
+|B-1_form = double_line line_ahead
+|B-1_xp =
+|B-1_enemy_air_power =
+|B-2_node_info = ca_ri-class cl_he-class dd_ro-class dd_ro-class
+|B-2_form = line_ahead double_line
+|B-2_xp =
+|B-2_enemy_air_power =
+|B-3_node_info = cl_he-class cl_he-class dd_ha-class dd_ha-class
+|B-3_form = double_line line_ahead
+|B-3_xp =
+|B-3_enemy_air_power =
+|
+|C_label = '''<span style="color:green">Resource Node</span>'''
+|C1_node_info = steel + 10 20
+|
+|D_label = 敵偵察艦隊
+|D-1_node_info = ca_ri-class cl_he-class dd_i-class dd_i-class dd_i-class
+|D-1_form = double_line line_ahead
+|D-1_xp =
+|D-1_enemy_air_power =
+|D-2_node_info = ca_ri-class cl_he-class dd_ro-class dd_ro-class
+|D-2_form = double_line line_ahead
+|D-2_xp =
+|D-2_enemy_air_power =
+|D-3_node_info = cl_he-class cl_he-class dd_ha-class dd_ha-class
+|D-3_form = line_ahead double_line
+|D-3_xp =
+|D-3_enemy_air_power =
+|
+|E_label = '''<span style="color:green">Resource Node</span>'''
+|E1_node_info = ammo + 15 20
+|
+|F_label = '''<span style="color:blue">Battle Avoided</span>'''
+|F1_node_info = "Must be my imagination" (battle avoided)
+|
+|G_label = '''<span style="color:green">Resource Node</span>'''
+|G1_node_info = bauxite + 10 15 20
+|
+|H_label = 敵前衛任務部隊 I群
+|H-1_node_info = cvl_nu-class cvl_nu-class ca_ri-class cl_he-class dd_ro-class dd_ro-class
+|H-1_form = diamond
+|H-1_xp =
+|H-1_enemy_air_power = 16
+|H-2_node_info = cvl_nu-class cvl_nu-class cl_he-class dd_ro-class dd_ro-class
+|H-2_form = diamond
+|H-2_xp =
+|H-2_enemy_air_power = 16
+|
+|I_label = 敵前衛任務部隊 II群
+|I-1_node_info = cvl_nu-class ca_ri-class cl_ho-class dd_i-class dd_i-class
+|I-1_form = diamond
+|I-1_xp =
+|I-1_enemy_air_power = 8
+|I-2_node_info = cvl_nu-class cvl_nu-class cl_ho-class dd_i-class dd_i-class
+|I-2_form = diamond
+|I-2_xp =
+|I-2_enemy_air_power = 16
+|I-3_node_info = cvl_nu-class cvl_nu-class ca_ri-class cl_ho-class dd_i-class dd_i-class
+|I-3_form = diamond
+|I-3_xp =
+|I-3_enemy_air_power = 16
+|
+|J_label = 敵支援打撃任務群
+|J-1_node_info = bb_ru-class cvl_nu-class cl_he-class cl_he-class dd_ro-class dd_ro-class
+|J-1_form = double_line line_ahead
+|J-1_xp =
+|J-1_enemy_air_power = 8
+|J-2_node_info = bb_ru-class cvl_nu-class cvl_nu-class cl_he-class dd_ro-class dd_ro-class
+|J-2_form = line_ahead double_line
+|J-2_xp =
+|J-2_enemy_air_power = 16
+|J-3_node_info = bb_ru-class clt_chi-class clt_chi-class cl_he-class dd_ro-class dd_ro-class
+|J-3_form = line_ahead double_line
+|J-3_xp =
+|J-3_enemy_air_power =
+|
+|K_label = '''<span style="color:blue">Battle Avoided</span>'''
+|K1_node_info = "Must be my imagination" (battle avoided)
+|
+|L_label = 敵機動部隊
+|L-1_node_info = cv_wo-class cvl_nu-class ca_ri-class cl_he-class dd_ha-class dd_ha-class
+|L-1_form = diamond
+|L-1_xp =
+|L-1_enemy_air_power = 18
+|L-2_node_info = cv_wo-class cvl_nu-class ca_ri-class cl_he-class dd_ro-class dd_ro-class
+|L-2_form = diamond
+|L-2_xp =
+|L-2_enemy_air_power = 18
+|L-3_node_info = cv_wo-class ca_ri-class cl_he-class dd_ro-class dd_ro-class dd_ro-class
+|L-3_form = diamond
+|L-3_xp =
+|L-3_enemy_air_power = 10
+|L-4_node_info = cv_wo-class ca_ri-class cl_he-class dd_ha-class dd_ha-class dd_ha-class
+|L-4_form = diamond
+|L-4_xp =
+|L-4_enemy_air_power = 10
+|L-5_node_info = cv_wo-class cv_wo-class ca_ri-class cl_he-class dd_ni-class dd_ni-class
+|L-5_form = diamond
+|L-5_xp =
+|L-5_enemy_air_power = 20
+|L-6_node_info = cv_wo-class cv_wo-class ca_ri-class cl_he-class dd_ha-class dd_ha-class
+|L-6_form = diamond
+|L-6_xp =
+|L-6_enemy_air_power = 20
+|
+|final_form = 
+|boss_node = L
+}}
+
+===Drops===
+<div class="mw-customtoggle-1-4-drop globalbutton">Show/Hide Drops</div>
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-1-4-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+!Battleship
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Mikazuki]], [[Mochizuki]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Hatsushimo]], [[Wakaba]] [[Shiratsuyu]], [[Shigure]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Kagerou]], [[Shiranui]], [[Kuroshio]]
+| style="text-align:center;" |[[Jintsuu]], [[Naka]], [[Nagara]], [[Isuzu]], [[Natori]], [[Yura]], [[Kuma]], [[Tama]], [[Kiso]], [[Tenryuu]], [[Tatsuta]]
+| style="text-align:center;" |[[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Aoba]], [[Furutaka]], [[Kako]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|
+|-
+| style="text-align:center;" |B
+| style="text-align:center;" |[[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Murakumo]], [[Isonami]], [[Ayanami]], [[Shikinami]], [[Mutsuki]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Nenohi]], [[Wakaba]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Ooshio]], [[Michishio]], [[Arare]], [[Kagerou]], [[Shiranui]]
+| style="text-align:center;" |[[Jintsuu]], [[Naka]], [[Yura]], [[Kuma]], [[Tama]], [[Kiso]], [[Tenryuu]], [[Tatsuta]], [[Nagara]], [[Isuzu]]
+| style="text-align:center;" |[[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Furutaka]], [[Kako]], [[Aoba]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|
+|-
+| style="text-align:center;" |E
+| style="text-align:center;" |[[Samidare]], [[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Ayanami]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Yuudachi]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Kagerou]], [[Shiranui]]
+| style="text-align:center;" |[[Tama]], [[Kuma]], [[Kiso]], [[Tenryuu]], [[Tatsuta]], [[Nagara]], [[Isuzu]], [[Natori]], [[Naka]]
+| style="text-align:center;" |[[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Furutaka]], [[Aoba]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">F</span>'''
+| style="text-align:center;" |[[Fubuki]], [[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Mutsuki]], [[Kisaragi]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Yuudachi]], [[Murasame]], [[Samidare]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Kagerou]], [[Shiranui]], [[Kuroshio]], [[Makigumo|'''<span style="color:red">Makigumo</span>''']]
+| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Natori]], [[Nagara]], [[Isuzu]], [[Yura]], [[Kuma]], [[Kiso]], [[Tenryuu]], [[Tatsuta]]
+| style="text-align:center;" |[[Maya]], [[Choukai]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Aoba]], [[Kinugasa]], [[Furutaka]], [[Kako]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Akagi]], [[Shouhou]], [[Ryuujou]], [[Houshou]]
+|
+|-
+| style="text-align:center;" |I
+| style="text-align:center;" |[[Fubuki]], [[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Shikinami]], [[Ayanami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Kikuzuki]], [[Mochizuki]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Ooshio]], [[Michishio]], [[Kasumi]], [[Kagerou]], [[Kuroshio]]
+| style="text-align:center;" |[[Nagara]], [[Natori]], [[Kuma]], [[Tama]], [[Kiso]], [[Tatsuta]], [[Isuzu]], [[Yura]], [[Jintsuu]], [[Yuubari]]
+| style="text-align:center;" |[[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Aoba]], [[Furutaka]], [[Kako]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Akagi]], [[Shouhou]], [[Ryuujou]], [[Houshou]]
+|
+|-
+| style="text-align:center;" |J
+| style="text-align:center;" |[[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Murakumo]], [[Kisaragi]], [[Kikuzuki]], [[Nagatsuki]], [[Mikazuki]], [[Hibiki]], [[Ikazuchi]], [[Hatsushimo]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Shiratsuyu]], [[Murasame]], [[Yuudachi]], [[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kagerou]], [[Shiranui]], [[Kuroshio]], [[Suzukaze]]
+| style="text-align:center;" |[[Tenryuu]], [[Tatsuta]], [[Kuma]], [[Kiso]], [[Nagara]], [[Natori]], [[Jintsuu]], [[Naka]]
+| style="text-align:center;" |[[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Furutaka]], [[Kako]], [[Aoba]], [[Choukai]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Akagi]], [[Houshou]]
+| style="text-align:center;" |[[Fusou]]
+|}

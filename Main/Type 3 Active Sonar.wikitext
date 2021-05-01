@@ -1,0 +1,86 @@
+{{EquipmentInfo|47}}
+==Introduction==
+対潜兵装です。<br>
+いわゆるアクティブソナーです。性能は残念ながら、ものすごく高くはありません。<br>
+それでも、他兵装と組み合わせて、練度の高い駆逐艦で敵潜水艦隊を文字通り駆逐してください！
+
+''An anti-submarine weapon, also called the "active sonar".''<br>
+''It doesn't have impressive performance; however, when used in tandem with other equipment, a veteran destroyer will surely put enemy submarines down!''
+
+==Notes==
+Ships receive a 15% [[Damage Calculations#Anti-Submarine Warfare|ASW synergy bonus]] when this is used together with a [[:Category:Depth Charge Projectors|depth charge projector]] or [[:Category:Depth Charges|depth charge]]; and a 43% bonus when all three types are used (must be on the same ship). The 43% bonus does not apply when used together with a [[:Category:Special Depth Charge Projectors|special DCP]].
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Buildable'''
+
+'''Stock equipment''' of {{Ship/Link|Amatsukaze Kai}}, {{Ship/Link|Asashimo Kai}}, {{Ship/Link|Kashima Kai}}, {{Ship/Link|Kiyoshimo Kai}}, {{Ship/Link|Makigumo Kai}}, {{Ship/Link|Naganami Kai}}, {{Ship/Link|Okinami Kai Ni}} (★+8), {{Ship/Link|Shiranui Kai Ni}}
+
+'''Upgradeable''' from {{Equipment/Link|Type 93 Passive Sonar}}
+
+'''From quests: '''[[Quests#B36|B36]], [[Quests#B72|B72]], [[Quests#B123|B123]] (choice)
+
+''From limited-time quests: ''[[Quests/Seasonal#2103 LQ2|2103 LQ2]] (choice), [[Quests/Seasonal#SB04|SB04]], [[Quests/Seasonal#SB12|SB12]], [[Quests/Seasonal#SB23|SB23]] (choice), [[Quests/Seasonal#SB30|SB30]] (choice), [[Quests/Seasonal#SB47|SB47]] (x2, choice)
+
+''Event reward for:''
+* [[Summer 2013 Event]] E-2
+
+''Ranking reward for:''
+* May 2013: 1-20, 21-100, 101-200
+* Jul 2013: 1-3, 4-20
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|Type 93 Passive Sonar}}, {{Equipment/Link|Type 3 Active Sonar}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2013-06-03:''' '''Implemented''' as ranking reward
+* '''2013-08-26:''' Became buildable
+* '''2013-11-01:''' '''Stats increased:'''  '''{{ASW}}+6 {{Hit}}+0 → {{ASW}}+10 {{Hit}}+2 '''
+* '''2014-02-26:''' [[Damage Calculations#Anti-Submarine Warfare|Depth charge synergy]] added
+* '''2015-01-09:''' Became '''improvable'''
+* '''2015-06-26:''' [[Accuracy, Evasion and Criticals#Evasion Formulas|Bonus torpedo evasion from improvement]] added
+* '''2019-01-22:''' Visible bonuses added
+* '''2021-03-01:''' Visible bonuses added for {{Ship/Link|Katori|Kashima|text=Katori-class}}
+</div></div>
+
+==Fit Bonuses==
+{{:Type 3 Active Sonar/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=Sonar
+|Fuel=10
+|Ammo=0
+|Steel=30
+|Baux=50
+|Mats0-5=4/5
+|Mats6-9=5/7
+|Mats10=-
+|Screws0-5=2/3
+|Screws6-9=3/5
+|Screws10=-
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{Sonar|Type 3 Active Sonar}}
+|EquipConsume10=-
+|Sun=I<br>&nbsp;
+|Tue=I<br>Y
+|Wed=I<br>Y
+|2ndShip=[[Isuzu#Second Upgrade|Isuzu Kai Ni]]<br>[[Yuubari]]
+|Notes=
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Anti-submarine Weaponry]]
+[[Category:SONAR]]

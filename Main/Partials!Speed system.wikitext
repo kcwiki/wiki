@@ -1,0 +1,232 @@
+<noinclude>
+See full page: [[Improving Ship Speed]]<br><br>
+Ship's speed can take the following values:
+* Slow (低速)
+* Fast (高速)
+* Fast+ (高速+)
+* Fastest (最速)
+Initially, a ship is either slow or fast, the speed can be increased (from slow to fast to fast+ to fastest) using the engine synergy, by equipping a {{Equipment/Link|Improved Kanhon Type Turbine|text=turbine}} (can be equipped in the {{Item/Link|Reinforcement Expansion|text=expansion slot}}) and one or more boilers ({{Equipment/Link|Enhanced Kanhon Type Boiler}} and {{Equipment/Link|New Model High Temperature High Pressure Boiler}}) on a ship.
+The effects are
+* Increase in speed, slow ships will be fast and will count as fast for branching rules. It is also assumed that fast+ and fastest will have their own branching rules in the future.
+** Note, however, that this doesn't change ship types, initially slow [[BB]] and [[BBV]] (ship types 9 and 10) can have fast speed, but still aren't [[FBB]] (ship type 8).
+* Devs [https://twitter.com/KanColle_STAFF/status/818739607776804866 claim] that higher speed values increase evasion. However, its magnitude/scope/existence is still investigated by players (preliminary tests suggest that there is no significant increase in evasion<ref>https://twitter.com/Xe_UCH/status/819164409025032195</ref><ref>http://ja.kancolle.wikia.com/wiki/%E3%82%B9%E3%83%AC%E3%83%83%E3%83%89:676</ref>).
+* Fast+ and Fastest speed values allow BB and BBV to be used in the [[Combat/Combined_Fleet|CTF/STF escort fleet]].
+</noinclude>
+{| class="wikitable typography-xl-optout mw-collapsible {{#if:{{{collapsed|}}}|mw-collapsed|}}" style="width:800px;text-align:center;"
+!colspan="12"|[[Improving Ship Speed|Speed and engine synergy]]
+|-
+!rowspan="3"|{{Equipment/Link|New Model High Temperature High Pressure Boiler|text=+13}} boilers
+!rowspan="3"|{{Equipment/Link|Enhanced Kanhon Type Boiler|text=+10}} boilers
+!colspan="8"|Group/Speed
+!rowspan="3"|Equipment<br>evasion
+!rowspan="3"|Slots<br>required
+|-
+!colspan="4"|Fast
+!colspan="4"|Slow
+|-
+!A
+!B<sub>1</sub>
+!B<sub>2</sub>
+!C
+!A
+!&nbsp;&nbsp;B&nbsp;&nbsp;
+!B*
+!&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;
+|-
+|0
+|0
+|colspan="4"|Fast
+|colspan="2"|Slow
+|Fast
+|Slow
+|6
+|1
+|-
+|0
+|1
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|Fast
+|colspan="2"|Fast
+|Fast
+|16
+|2
+|-
+|0
+|2
+|<span style="color:red">Fastest</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|Fast
+|colspan="2"|Fast
+|Fast
+|26
+|3
+|-
+|0
+|3+
+|<span style="color:red">Fastest</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:orangered">Fast+</span>
+|Fast
+|colspan="2"|<span style="color:orangered">Fast+</span>
+|Fast
+|36+
+|<span style="color:orangered">4+</span>
+|- style="background:#E8F5E9"
+|1
+|0
+|<span style="color:red">Fastest</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|Fast
+|colspan="2"|Fast
+|Fast
+|19
+|2
+|-
+|1
+|1
+|<span style="color:red">Fastest</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|colspan="2"|Fast
+|Fast
+|29
+|3
+|- style="background:#E8F5E9"
+|1
+|2+
+|<span style="color:red">Fastest</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:red">Fastest</span>
+|colspan="2"|<span style="color:orangered">Fast+</span>
+|Fast
+|39+
+|<span style="color:orangered">4+</span>
+|- style="background:#E8F5E9"
+|2
+|0
+|<span style="color:red">Fastest</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:orangered">Fast+</span>
+|colspan="2"|<span style="color:orangered">Fast+</span>
+|Fast
+|32
+|3
+|- style="background:#E8F5E9"
+|2
+|1+
+|<span style="color:red">Fastest</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:red">Fastest</span>
+|colspan="2"|<span style="color:orangered">Fast+</span>
+|Fast
+|42+
+|<span style="color:orangered">4+</span>
+|- style="background:#E8F5E9"
+|3+
+|0+
+|<span style="color:red">Fastest</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:red">Fastest</span>
+|<span style="color:orangered">Fast+</span>
+|<span style="color:red">Fastest</span>
+|colspan="2"|<span style="color:orangered">Fast+</span>
+|Fast
+|45+
+|<span style="color:orangered">4+</span>
+|}
+{| class="wikitable typography-xl-optout mw-collapsible {{#if:{{{collapsed|}}}|mw-collapsed|}}" style="width:800px;text-align:center;"
+!colspan="11"|Simplified table
+|-
+!Speed Increment
+!colspan=2|Required Boiler
+!Fast A
+!Fast B<sub>1</sub>
+!Fast B<sub>2</sub>
+!Fast C
+!Slow A
+!Slow B
+!Slow B*
+!Slow C
+|-
+!rowspan=2|+1!!colspan=2|Just {{Equipment/Link|Improved Kanhon Type Turbine|text=turbine}}
+|colspan=6|N/A
+|colspan=1|1
+|colspan=1|N/A
+|-
+!colspan=2|Any boiler
+|colspan=8|1
+|-
+!rowspan=3|+2!!Either!!{{Equipment/Link|New Model High Temperature High Pressure Boiler|text=+13}} boilers
+|1||2||2||rowspan=3|N/A||2||colspan=2|2||rowspan=3|N/A
+|-
+!rowspan=2|Or!!{{Equipment/Link|New Model High Temperature High Pressure Boiler|text=+13}} boilers, and
+|0||1||0||1||colspan=2|0
+|-
+!Total boiler count
+|2||2||3||2||colspan=2|3
+|-
+!rowspan=3|+3!!Either!!{{Equipment/Link|New Model High Temperature High Pressure Boiler|text=+13}} boilers
+|colspan=4 rowspan=3|N/A||3||colspan=3 rowspan=3|N/A
+|-
+!rowspan=2|Or!!{{Equipment/Link|New Model High Temperature High Pressure Boiler|text=+13}} boilers, and
+|1
+|-
+!Total boiler count
+|3
+|}
+{| class="wikitable typography-xl-optout mw-collapsible {{#if:{{{collapsed|}}}|mw-collapsed|}}" style="width:1000px;"
+!colspan="9"|Speed groups
+|-
+!rowspan=2 |Initial speed
+!rowspan=2 |Group
+!colspan=6 |Ships, classes, types
+|-
+!Destroyers
+!Light Cruisers 
+!Heavy Cruisers 
+!Battleships 
+!Carriers 
+!Others
+|-
+!rowspan="4"|Fast
+!A
+|{{Ship/Link|Shimakaze}}{{·}}{{Ship/Link|Tashkent}}||||{{Ship/Link|Tone|Chikuma|text=Tone-class|link_class=Tone}}{{·}}{{Ship/Link|Mogami|Mikuma|Suzuya|Kumano|text=Mogami-class|link_class=Mogami}}||||{{Ship/Link|Taihou}}{{·}}{{Ship/Link|Shoukaku|Zuikaku|text=Shoukaku-class|link_class=Shoukaku}}{{·}}{{Ship/Link|Suzuya/Carrier Kai Ni|Kumano/Carrier Kai Ni|text=Mogami-class CVL|link_class=Mogami}}|||
+|-
+!B<sub>1</sub>
+|{{Ship/Link|Amatsukaze}}||{{Ship/Link|Agano|Noshiro|Yahagi|Sakawa|text=Agano-class|link_class=Agano}}||||{{Ship/Link|Kongou|Hiei|Haruna|Kirishima|text=Kongou-class|link_class=Kongou}}{{·}}{{Ship/Link|Iowa}}||{{Ship/Link|Souryuu}}{{·}}{{Ship/Link|Hiryuu}}{{·}}{{Ship/Link|Unryuu}}{{·}}{{Ship/Link|Amagi}}||
+|-
+!B<sub>2</sub>
+|Others||Other [[CL]]{{·}}{{Ship/Link|Kitakami/Kai|Ooi/Kai|Kiso/Kai Ni|text=CLT|link=CLT}}{{·}}{{Ship/Link|Yuubari Kai Ni}}||Others||Other [[FBB]]||Fast [[CVL]]{{·}}Other [[CV]]||
+|-
+!C
+|||{{Ship/Link|Yuubari}}||||||{{Ship/Link|Kaga}}||Fast {{Ship/Link|Chitose|Chiyoda|Nisshin|text=AV|link=AV}}
+|-
+!rowspan="4"|Slow
+!A
+|colspan=3|&nbsp;||{{Ship/Link|Yamato|Musashi|text=Yamato-class|link_class=Yamato}}{{·}}{{Ship/Link|Nagato/Kai Ni|Mutsu/Kai Ni|text=Nagato-class Kai Ni|link_class=Nagato}} ||colspan=2|&nbsp;
+|-
+!B
+|||{{Ship/Link|Katori|Kashima|text=CT|link=CT}}||||Other [[BB]]{{·}}[[BBV]]{{·}}{{Ship/Link|Gangut}}||Slow [[CVL]]||Slow {{Ship/Link|Kamoi/Kai|Mizuho|Akitsushima|Commandant Teste|text=AV|link=AV}}{{·}}{{Ship/Link|Jingei|Taigei|text=AS|link=AS}}{{·}}{{Ship/Link|Shinshuu Maru}}{{·}}{{Ship/Link|Kamoi|Kamoi Kai Bo}}
+|-
+!B*
+||{{Ship/Link|Samuel B. Roberts}}||{{Ship/Link|Yuubari/Kai Ni Toku}}||colspan=4|
+|-
+!C
+|colspan=5|&nbsp;||[[SS]]{{·}}[[SSV]]{{·}}{{Ship/Link|Akashi|text=AR|link=AR}}{{·}}{{Ship/Link|Akitsu Maru}}{{·}}{{Ship/Link|Hayasui}}
+|}<noinclude><references/></noinclude>

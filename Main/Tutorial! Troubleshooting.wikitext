@@ -1,0 +1,89 @@
+{| style="width:100%"
+|-
+| valign="top" |__TOC__
+| valign="top" |[[File:Error_.png|300px|right]]
+|}
+
+==Common Procedures in Troubleshooting==
+* Is the game undergoing maintenance? ''Check [[Recent Updates]]''
+* Have you cleared your cache? ''Try doing everything again in Incognito''
+* Have you tried logging in to DMM again to play there or gotten a new API link?
+* Have you tried checking other sites, and made sure your internet connection is functioning properly?
+* Were you using KCV/KC3 or another external application? Try logging in normally using a browser.
+* Were you banned? ''Login on DMM and check''
+** Banned accounts see the '''cat error on API link, and black message on DMM'''
+* '''CHECK IF YOU HAVE THE CORRECT LOCAL TIME '''(This is the most common problem)
+** You do not need to be in JP timezone. As long as you are on your '''local timezone and have the correct local computer time''', that is fine.
+* Are you using the latest Flash Player? ''Try to check for updates''
+** Chrome/KC3 users do not need to check this
+** IE/KCV users [http://get.adobe.com/flashplayer/otherversions go here] and select the Windows OS
+** FlasPlayer users [https://www.adobe.com/support/flashplayer/downloads.html go here] and look for "Flash Player projector"
+* Is the server you're on having problems of its own?
+** Chek the [https://twitter.com/KanColle_STAFF Staff Twitter] if there are announcements
+** Ask [[:Category:Server|server-mates]] if they're also experiencing problems
+[[Category:Tutorial]]
+
+==① Checking Connectivity==
+===<span style="color:#369;">Ping KanColle Servers</span>===
+<div style="padding:0px 0px 0px 30px;">
+Pings sent via speedtest or other means are different and useless at this point. We want to check your connectivity to the KanColle Servers, and '''NOT''' some nearby server or some randomly chosen third-party server. Please follow these steps.
+
+# Know your API Link (an old, expired API link is fine)
+# Get your server's IP address
+## For '''<code>http://203.104.209.39/kcs/mainD2.swf</code>''', its '''203.104.209.39''')
+# Open your command prompt (cmd)
+# <code>ping -t <youeserverIP></code>
+## <code>ping -t 203.104.209.39</code>
+## Ctrl+C to stop ping
+
+You should see something like this:
+[[File:Cmd_ping.jpg|thumb|left]]
+{{clear}}
+
+If you get request timeouts, or "couldn't reach" errors, then the problem lies with your internet connection.
+</div>
+
+
+===<span style="color:#369;">Solutions</span>===
+* '''Restart your Router'''
+** If you're at home on your own internet connection, try to restart the router first and see if it helps.
+* '''Stop using VPN'''
+** If you have been using a VPN, try connecting without it, and using the [[Tutorial:_Proxy_Connection#Option_3:_Editing_DMM_Cookie.27s_Region_Flag|Cookie Method (Proxy Connection Option 3)]].
+** When using a VPN, all your network's bandwidth goes through another person or system (which is why you connect to it: to be seen as someone accessing KanColle from that location). This is sometimes slow, unreliable, and cannot handle a large number of connections.
+* '''Use VPN'''
+** If you weren't using VPN, then try to [[Tutorial: Proxy Connection|connect to one]]. Sometimes the problem lies with your ISP's route to the game servers. A line between you and the game servers may be broken (this can be tested via '''tracert'''). Thus, if you use VPN, you may avoid this broken line, because a VPN re-routes you to another person or system.
+* '''Contact your ISP'''
+** There are times the you must contact your ISP for a solution to your network troubles.
+
+
+==② DNS Issues==
+If you are having problems with your DNS, you may get the following error message:
+
+<div style="padding:0px 0px 0px 30px;">
+''[Fiddler] DNS Lookup for "www.dmm.com" failed. System.Net.Sockets.SocketException The requested name is valid, but no data of the requested type was found''
+</div>
+
+===<span style="color:#369;">Solutions</span>===
+* Change your DNS Servers
+*# Use [https://developers.google.com/speed/public-dns/ Google's public DNS] until the issues abate, set it to '''8.8.8.8''' alt '''8.8.4.4'''
+*# [[File:GoogleDNS.jpg|200px]]
+or
+* Register and use [https://www.opendns.com/ OpenDNS]
+** Look [https://store.opendns.com/setup/?__utma=247635969.1263306279.1432404220.1432404220.1432404220.2&__utmb=247635969.3.9.1432406097657&__utmc=247635969&__utmx=-&__utmz=247635969.1432404220.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=179205159#/ here] for how to use OpenDNS.
+
+==③ Flash and Graphics==
+Flash player is required for the game to function; if you do not have it already, you can get it from [https://get.adobe.com/flashplayer/ here.]  If your flash player is out of date, updating your browser's Flash Player may fix your problem. 
+* Chrome has an inbuilt flash player and so Chrome users should not have to worry about this.
+==④ Other Errors==
+===GET jquery.min.map 404 (Not Found)===
+This is a known error generated on the DMM website and does not affect the game. If you're getting this error, it is normal and is not the cause of any game-related problems you may have.
+
+===Failed to load resource: net::ERR_BLOCKED_BY_CLIENT===
+This is likely caused by your Ad-Block software, or any similar program that would interfere with downloading flash  content.
+
+===Failed to load resource: net:: ERR_CACHE_MISS===
+This is a common error on Chrome, as it auto-blocks web assets that ir registers as "ads". This does not affect the game and is not the cause of any game problems you may have.
+
+==Other Notes==
+* "Game Start" requires a stable connection. The API call at the '''game start button''' screen requires a '''stable connection''' for it will download '''nearly ~700-800kb of text''' and a '''small connection interference''' will give you '''the error cat screen'''. This is also true for the '''HomePort Screen''', which is now larger.
+[[Category:Tutorial]]

@@ -1,0 +1,1596 @@
+=Introduction=
+Experience in Kantai Collection is divided into two types. [[#Ship Girl Experience|Ship Girl experience]] and [[#Admiral Experience|Admiral experience]]. The former makes your ship girls more powerful and the latter increases your HQ level and plays into [[Ranking]].
+
+=Ship Girl Experience=
+
+Ship girls earn experience through [[#SGSortie|sorties]], [[#SGExpedition|expeditions]] and [[#SGExercise|exercises]]. 
+
+* The most time and resource efficient way to earn experience is through exercises.
+** But it is only limited to 10 times a day.
+** This is the best method to level weak or expensive ship girls.
+** A downside is that your experience gain is heavily dependent on other admirals putting up good fleets.
+* A vast majority of ship girl experience is earned through sorties.
+** See [[Tutorial:Leveling|leveling]] for details.
+* Expeditions are for minor passive exp gain. 
+
+==={{anchor|SGSortie}}Sorties===
+
+Experience earned by ship girls in sorties is:
+
+<math>\text{Exp}_\text{sortie} = \lfloor \text{Exp}_\text{base} \times \text{Mod}_\text{MVP} \times \text{Mod}_\text{flag} \times \text{Mod}_\text{rank} \rfloor</math>
+
+* <math>\text{Exp}_\text{base}</math> is the base experience of the node.
+** This is dependent upon the map and the composition faced. Please see the [[Sortie#Sortie_List|individual map pages]] for exact base exp values.
+* <math>\text{Mod}_\text{MVP}</math> is the MVP bonus. It is <math>2</math> for the MVP and <math>1</math> for all other ships.
+* <math>\text{Mod}_\text{flag}</math> is the flagship bonus. It is <math>1.5</math> for the flagship and <math>1</math> for all other ships.
+* <math>\text{Mod}_\text{rank}</math> is the rank bonus according to the table below.
+
+{| class="wikitable"
+|+Sortie Rank Bonus
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Rank
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; " |Multiplier
+|-
+| style="text-align: center;" |S
+| style="text-align: center;" |1.2
+|-
+| style="text-align: center;" |A
+| style="text-align: center;" |1.0
+|-
+| style="text-align: center;" |B
+| style="text-align: center;" |1.0
+|-
+| style="text-align: center;" |C
+| style="text-align: center;" |0.8
+|-
+| style="text-align: center;" |D
+| style="text-align: center;" |0.7
+|-
+| style="text-align: center;" |E
+| style="text-align: center;" |0.5
+|}
+
+'''Important Notes'''
+* The maximum multiplier a ship girl can earn is '''3.6'''. This would be for a flagship MVP at S-rank.
+* It isn't worth it to night battle to increase your rank in sorties. It is more time efficient to take what you get.
+* Most maps heavily reward full clears.
+
+==={{anchor|SGExercise}}Exercises===
+
+Experience earned in exercises is:
+
+<math>\text{Exp}_\text{exercise} = \lfloor \text{Exp}_\text{post-cap} \times \text{Mod}_\text{MVP} \times \text{Mod}_\text{flag} \times \text{Mod}_\text{CT} \rfloor</math>
+
+Experience earned through exercises has a cap where experience over 500 is square rooted. 
+
+<math>\text{Exp}_\text{post-cap} = \lfloor 500 + \sqrt{\text{Exp}_\text{pre-cap}-500} \rfloor </math>
+
+<math>\text{Exp}_\text{pre-cap} = \lfloor \frac{\text{Exp}_\text{Ship1}}{100} + \frac{\text{Exp}_\text{Ship2}}{300} \rfloor + \text{Rand}</math>
+
+* <math>\text{Mod}_\text{MVP}</math> is the MVP bonus. It is <math>2</math> for the MVP and <math>1</math> for all other ships.
+* <math>\text{Mod}_\text{flag}</math> is the flagship bonus. It is <math>1.5</math> for the flagship and <math>1</math> for all other ships.
+* <math>\text{Mod}_\text{rank}</math> is the rank bonus according to the table below.
+* <math>\text{Mod}_\text{CT}</math> is the training cruiser bonus according to the table below.
+* <math>\text{Exp}_\text{Ship1}</math> is the minimum experience value of the opponent's flagship based on [[#Ship Girl Exp Tables|exp tables]] below.
+* <math>\text{Exp}_\text{Ship2}</math>is the minimum experience value of the opponent's 2nd ship based on [[#Ship Girl Exp Tables|exp tables]] below.
+* <math>\text{Rand}</math> is a random number from 0 to 3.
+
+{| class="wikitable"
+|+Exercise Rank Bonus
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Rank
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; " |Multiplier
+|-
+| style="text-align: center;" |S
+| style="text-align: center;" |1.2
+|-
+| style="text-align: center;" |A
+| style="text-align: center;" |1.0
+|-
+| style="text-align: center;" |B
+| style="text-align: center;" |1.0
+|-
+| style="text-align: center;" |C
+| style="text-align: center;" |0.64
+|-
+| style="text-align: center;" |D
+| style="text-align: center;" |0.56
+|-
+| style="text-align: center;" |E
+| style="text-align: center;" |0.4
+|}
+
+{| class="wikitable"
+|+Training Cruiser Bonus
+|-
+!style="width: 20%; text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Position'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 1-9'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 10-29'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 30-59'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 60-99'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 100+'''
+!style="width: 20%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Notes'''
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 5%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 8%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 12%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 20%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | 
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 3%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 5%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 7%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 10%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | 
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Katori/Kashima Flagship + Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 10%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 13%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 16%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 20%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 25%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Bonus determined by the level of the flagship
+|-
+|style="width: 20%; text-align: center; border-radius: 0 0 0 6px; border-style: solid; border-width: 1px; | Katori + Kashima Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 4%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 6%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 8%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 12%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 17.5%
+|style="width: 20%; text-align: center; border-radius: 0 0 6px 0; border-style: solid; border-width: 1px; | Bonus determined by the highest leveled training cruiser
+|-
+|}
+
+'''Important Notes'''
+* Like sorties, the maximum multiplier a ship girl can earn is '''3.6'''. This would be for a flagship MVP at S-rank.
+** With two married CT in the fleet, it is '''4.23'''.
+** It is not recommended to have a CT flagship as a more valuable ship can use that experience.
+* It is recommended that you night battle in order to attempt to get a higher rank for better exp.
+** You only get limited chances to participate in exercises per day so it is important to maximise your exp.
+* Because of the way exp is calculated, even losses can yield a lot of experience.
+* See [[Exercises#Experience_Chart|Exercises]] for calculated experience values.
+
+==={{anchor|SGExpedition}}Expeditions===
+
+Please see [[Expeditions#Reference_Tables|Expeditions]] for the experience earned from each expedition. Note that the experience listed is multiplied by '''4''' on a [[Expeditions#Great_Success|great success]].
+
+===Ship Girl Exp Tables===
+====Pre-Marriage====
+{| border="1" class="mw-collapsible mw-collapsed" style="border:0.1px solid #A9A9A9; border-collapse:collapse; width:743px;text-align:center;"
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+| rowspan="26" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+| rowspan="26" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+| rowspan="26" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+|-
+|1
+|0
+|0
+|26
+|32,500
+|2,500
+|51
+|127,500
+|5,000
+|76
+|331,000
+|12,000
+|-
+|2
+|100
+|100
+|27
+|35,100
+|2,600
+|52
+|132,700
+|5,200
+|77
+|343,400
+|12,400
+|-
+|3
+|300
+|200
+|28
+|37,800
+|2,700
+|53
+|138,100
+|5,400
+|78
+|356,200
+|12,800
+|-
+|4
+|600
+|300
+|29
+|40,600
+|2,800
+|54
+|143,700
+|5,600
+|79
+|369,400
+|13,200
+|-
+|5
+|1,000
+|400
+|30
+|43,500
+|2,900
+|55
+|149,500
+|5,800
+|80
+|383,000
+|13,600
+|-
+|6
+|1,500
+|500
+|31
+|46,500
+|3,000
+|56
+|155,500
+|6,000
+|81
+|397,000
+|14,000
+|-
+|7
+|2,100
+|600
+|32
+|49,600
+|3,100
+|57
+|161,700
+|6,200
+|82
+|411,500
+|14,500
+|-
+|8
+|2,800
+|700
+|33
+|52,800
+|3,200
+|58
+|168,100
+|6,400
+|83
+|426,500
+|15,000
+|-
+|9
+|3,600
+|800
+|34
+|56,100
+|3,300
+|59
+|174,700
+|6,600
+|84
+|442,000
+|15,500
+|-
+|10
+|4,500
+|900
+|35
+|59,500
+|3,400
+|60
+|181,500
+|6,800
+|85
+|458,000
+|16,000
+|-
+|11
+|5,500
+|1,000
+|36
+|63,000
+|3,500
+|61
+|188,500
+|7,000
+|86
+|474,500
+|16,500
+|-
+|12
+|6,600
+|1,100
+|37
+|66,600
+|3,600
+|62
+|195,800
+|7,300
+|87
+|491,500
+|17,000
+|-
+|13
+|7,800
+|1,200
+|38
+|70,300
+|3,700
+|63
+|203,400
+|7,600
+|88
+|509,000
+|17,500
+|-
+|14
+|9,100
+|1,300
+|39
+|74,100
+|3,800
+|64
+|211,300
+|7,900
+|89
+|527,000
+|18,000
+|-
+|15
+|10,500
+|1,400
+|40
+|78,000
+|3,900
+|65
+|219,500
+|8,200
+|90
+|545,500
+|18,500
+|-
+|16
+|12,000
+|1,500
+|41
+|82,000
+|4,000
+|66
+|228,000
+|8,500
+|91
+|564,500
+|19,000
+|-
+|17
+|13,600
+|1,600
+|42
+|86,100
+|4,100
+|67
+|236,800
+|8,800
+|92
+|584,500
+|20,000
+|-
+|18
+|15,300
+|1,700
+|43
+|90,300
+|4,200
+|68
+|245,900
+|9,100
+|93
+|606,500
+|22,000
+|-
+|19
+|17,100
+|1,800
+|44
+|94,600
+|4,300
+|69
+|255,300
+|9,400
+|94
+|631,500
+|25,000
+|-
+|20
+|19,000
+|1,900
+|45
+|99,000
+|4,400
+|70
+|265,000
+|9,700
+|95
+|661,500
+|30,000
+|-
+|21
+|21,000
+|2,000
+|46
+|103,500
+|4,500
+|71
+|275,000
+|10,000
+|96
+|701,500
+|40,000
+|-
+|22
+|23,100
+|2,100
+|47
+|108,100
+|4,600
+|72
+|285,400
+|10,400
+|97
+|761,500
+|60,000
+|-
+|23
+|25,300
+|2,200
+|48
+|112,800
+|4,700
+|73
+|296,200
+|10,800
+|98
+|851,500
+|90,000
+|-
+|24
+|27,600
+|2,300
+|49
+|117,600
+|4,800
+|74
+|307,400
+|11,200
+|99
+|1,000,000
+|148,500
+|-
+|25
+|30,000
+|2,400
+|50
+|122,500
+|4,900
+|75
+|319,000
+|11,600
+| colspan="3" |
+|}
+
+====Post-Marriage====
+Marrying ship girls instantly raises their level to 100. No experience is necessary for this level up. Please see [[Marriage]] for more details.
+
+{|  border="1" class="mw-collapsible mw-collapsed" style="border:0.1px solid #A9A9A9; border-collapse:collapse; width:743px;text-align:center;"
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+| rowspan="26" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+| rowspan="26" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+| rowspan="26" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+|-
+|100
+|1,000,000
+|
+|120
+|1,255,000
+|32,000
+|140
+|2,760,000
+|120,000
+|160
+|6,120,000
+|150,000
+|-
+|101
+|1,010,000
+|10,000
+|121
+|1,290,000
+|35,000
+|141
+|2,887,000
+|127,000
+|161
+|6,320,000
+|200,000
+|-
+|102
+|1,011,000
+|1,000
+|122
+|1,329,000
+|39,000
+|142
+|3,021,000
+|134,000
+|162
+|6,580,000
+|260,000
+|-
+|103
+|1,013,000
+|2,000
+|123
+|1,372,000
+|43,000
+|143
+|3,162,000
+|141,000
+|163
+|6,910,000
+|330,000
+|-
+|104
+|1,016,000
+|3,000
+|124
+|1,419,000
+|47,000
+|144
+|3,310,000
+|148,000
+|164
+|7,320,000
+|410,000
+|-
+|105
+|1,020,000
+|4,000
+|125
+|1,470,000
+|51,000
+|145
+|3,465,000
+|155,000
+|165
+|7,820,000
+|500,000
+|-
+|106
+|1,025,000
+|5,000
+|126
+|1,525,000
+|55,000
+|146
+|3,628,000
+|163,000
+|166
+|7,920,000
+|100,000
+|-
+|107
+|1,031,000
+|6,000
+|127
+|1,584,000
+|59,000
+|147
+|3,799,000
+|171,000
+|167
+|8,033,000
+|113,000
+|-
+|108
+|1,038,000
+|7,000
+|128
+|1,647,000
+|63,000
+|148
+|3,978,000
+|179,000
+|168
+|8,172,000
+|139,000
+|-
+|109
+|1,046,000
+|8,000
+|129
+|1,714,000
+|67,000
+|149
+|4,165,000
+|187,000
+|169
+|8,350,000
+|178,000
+|-
+|110
+|1,055,000
+|9,000
+|130
+|1,785,000
+|71,000
+|150
+|4,360,000
+|195,000
+|170
+|8,580,000
+|230,000
+|-
+|111
+|1,065,000
+|10,000
+|131
+|1,860,000
+|75,000
+|151
+|4,564,000
+|204,000
+|171
+|8,875,000
+|295,000
+|-
+|112
+|1,077,000
+|12,000
+|132
+|1,940,000
+|80,000
+|152
+|4,777,000
+|213,000
+|172
+|9,248,000
+|373,000
+|-
+|113
+|1,091,000
+|14,000
+|133
+|2,025,000
+|85,000
+|153
+|4,999,000
+|222,000
+|173
+|9,705,000
+|457,000
+|-
+|114
+|1,107,000
+|16,000
+|134
+|2,115,000
+|90,000
+|154
+|5,230,000
+|231,000
+|174
+|10,266,000
+|561,000
+|-
+|115
+|1,125,000
+|18,000
+|135
+|2,210,000
+|95,000
+|155
+|5,470,000
+|240,000
+|175
+|10,950,000
+|684,000
+|-
+|116
+|1,145,000
+|20,000
+|136
+|2,310,000
+|100,000
+|156
+|5,720,000
+|250,000
+|
+|
+|
+|-
+|117
+|1,168,000
+|23,000
+|137
+|2,415,000
+|105,000
+|157
+|5,780,000
+|60,000
+|
+|
+|
+|-
+|118
+|1,194,000
+|26,000
+|138
+|2,525,000
+|110,000
+|158
+|5,860,000
+|80,000
+|
+|
+|
+|-
+|119
+|1,223,000
+|29,000
+|139
+|2,640,000
+|115,000
+|159
+|5,970,000
+|110,000
+|
+|
+|
+|}
+
+=HQ Experience=
+
+Like ship girls, Admirals earn HQ experience through [[#HQSortie|sorties]], [[#HQExpedition|expeditions]] and [[#HQExercise|exercises]]. 
+
+* The best way to earn HQ experience is through sorties.
+* Exercises and expeditions give minimial HQ experience. They are only for supplementary gain.
+* The most important use of HQ experience is for [[Ranking]].
+* HQ experience is '''capped at 300,000,000'''.
+
+==={{anchor|HQSortie}}Sorties===
+
+HQ experience from sorties is only affected by rank.
+
+{|  border="1" class="mw-collapsible" style="border:0.1px solid #A9A9A9; border-collapse:collapse; width:743px;text-align:center;"
+|+'''Sortie Experience Modifiers'''
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Rank
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; " |Non-boss Multiplier
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; " |Boss Multiplier
+|-
+| style="text-align: center;" |S
+| style="text-align: center;" |1.0x Non-Boss Exp
+| style="text-align: center;" |1.0x Boss Exp
+|-
+| style="text-align: center;" |A
+| style="text-align: center;" |0.8
+| style="text-align: center;" |Boss Exp - (0.5 x Non-Boss Exp)
+|-
+| style="text-align: center;" |B
+| style="text-align: center;" |0.5x
+| style="text-align: center;" |Boss Exp - (0.8 x Non-Boss Exp)
+|-
+| style="text-align: center;" |C
+| style="text-align: center;" |0
+| style="text-align: center;" |Non-boss exp
+|-
+| style="text-align: center;" |D
+| style="text-align: center;" |0
+| style="text-align: center;" |0
+|-
+| style="text-align: center;" |E
+| style="text-align: center;" |0
+| style="text-align: center;" |0
+|-
+|}
+
+The value of non-boss and boss node experience is given by the table below.
+
+{|  border="1" class="mw-collapsible mw-collapsed" style="border:0.1px solid #A9A9A9; border-collapse:collapse; width:743px;text-align:center;"
+|+'''Sortie HQ EXP Table'''
+|-
+!style="text-align: center; background-color:#99CCFF; width:30px;" |Map
+!style="text-align: center; background-color:#99CCFF; width:70px;" |Non-Boss Exp
+!style="text-align: center; background-color:#99CCFF; width:70px;" |Boss Exp
+| rowspan="14" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; background-color:#99CCFF; width:30px;" |Map
+!style="text-align: center; background-color:#99CCFF; width:70px;" |Non-Boss Exp
+!style="text-align: center; background-color:#99CCFF; width:70px;" |Boss Exp
+| rowspan="14" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; background-color:#99CCFF; width:30px;" |Map
+!style="text-align: center; background-color:#99CCFF; width:70px;" |Non-Boss Exp
+!style="text-align: center; background-color:#99CCFF; width:70px;" |Boss Exp
+| rowspan="14" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; background-color:#99CCFF; width:30px;" |Map
+!style="text-align: center; background-color:#99CCFF; width:70px;" |Non-Boss Exp
+!style="text-align: center; background-color:#99CCFF; width:70px;" |Boss Exp
+|-
+|style="text-align: center;" |[[World_1#1-1|1-1]]
+|style="text-align: center;" |10
+|style="text-align: center;" |20
+|style="text-align: center;" |[[World_3#3-1|3-1]]
+|style="text-align: center;" |110
+|style="text-align: center;" |1,420
+|style="text-align: center;" |[[World_5#5-1|5-1]]
+|style="text-align: center;" |160
+|style="text-align: center;" |2,020
+|style="text-align: center;" |[[World_7#7-1|7-1]]
+|style="text-align: center;" |140
+|style="text-align: center;" |1,680
+|-
+|style="text-align: center;" rowspan="2"|[[World_1#1-2|1-2]]
+|style="text-align: center;" rowspan="2"|20
+|style="text-align: center;" rowspan="2"|140
+|style="text-align: center;" rowspan="2"|[[World_3#3-2|3-2]]
+|style="text-align: center;" rowspan="2"|120
+|style="text-align: center;" rowspan="2"|1,740
+|style="text-align: center;" rowspan="2"|[[World_5#5-2|5-2]]
+|style="text-align: center;" rowspan="2"|170
+|style="text-align: center;" rowspan="2"|2,340
+|style="text-align: center;" |[[World_7#7-2|7-2 boss 1]]
+|style="text-align: center;"  rowspan="2"|180
+|style="text-align: center;" |360
+|-
+|style="text-align: center;" |[[World_7#7-2|7-2 boss 2]]
+|style="text-align: center;" |2,360
+|-
+|style="text-align: center;" |[[World_1#1-3|1-3]]
+|style="text-align: center;" |40
+|style="text-align: center;" |380
+|style="text-align: center;" |[[World_3#3-3|3-3]]
+|style="text-align: center;" |140
+|style="text-align: center;" |2,280
+|style="text-align: center;" |[[World_5#5-3|5-3]]
+|style="text-align: center;" |190
+|style="text-align: center;" |2,680
+|style="text-align: center;" colspan="3"|
+|-
+|style="text-align: center;" |[[World_1#1-4|1-4]]
+|style="text-align: center;" |60
+|style="text-align: center;" |720
+|style="text-align: center;" |[[World_3#3-4|3-4]]
+|style="text-align: center;" |160
+|style="text-align: center;" |3,320
+|style="text-align: center;" |[[World_5#5-4|5-4]]
+|style="text-align: center;" |210
+|style="text-align: center;" |3,020
+|style="text-align: center;" colspan="3"|
+|-
+|style="text-align: center;" |[[World_1#1-5|1-5]]
+|style="text-align: center;" |80
+|style="text-align: center;" |1,060
+|style="text-align: center;" |[[World_3#3-5|3-5]]
+|style="text-align: center;" |190
+|style="text-align: center;" |2,880
+|style="text-align: center;" |[[World_5#5-5|5-5]]
+|style="text-align: center;" |240
+|style="text-align: center;" |3,480
+|style="text-align: center;" colspan="3"|
+|-
+|style="text-align: center;" |[[World_1#1-6|1-6]]
+|style="text-align: center;" |100
+|style="text-align: center;" |-
+|style="text-align: center;" colspan="3"|
+|style="text-align: center;" colspan="3"|
+|style="text-align: center;" colspan="3"|
+|-
+| colspan="15" style="background-color:#7C9DBD; height:1px;" |
+|-
+|style="text-align: center;" |[[World_2#2-1|2-1]]
+|style="text-align: center;" |60
+|style="text-align: center;" |720
+|style="text-align: center;" |[[World_4#4-1|4-1]]
+|style="text-align: center;" |110
+|style="text-align: center;" |1,520
+|style="text-align: center;" |[[World_6#6-1|6-1]]
+|style="text-align: center;" |180
+|style="text-align: center;" |2,160
+|style="text-align: center;" colspan="3"|
+|-
+|style="text-align: center;" |[[World_2#2-2|2-2]]
+|style="text-align: center;" |70
+|style="text-align: center;" |840
+|style="text-align: center;" |[[World_4#4-2|4-2]]
+|style="text-align: center;" |120
+|style="text-align: center;" |1,640
+|style="text-align: center;" |[[World_6#6-2|6-2]]
+|style="text-align: center;" |200
+|style="text-align: center;" |2,600
+|style="text-align: center;" colspan="3"|
+|-
+|style="text-align: center;" |[[World_2#2-3|2-3]]
+|style="text-align: center;" |90
+|style="text-align: center;" |1,180
+|style="text-align: center;" |[[World_4#4-3|4-3]]
+|style="text-align: center;" |140
+|style="text-align: center;" |1,880
+|style="text-align: center;" |[[World_6#6-3|6-3]]
+|style="text-align: center;" |180
+|style="text-align: center;" |2,760
+|style="text-align: center;" colspan="3"|
+|-
+|style="text-align: center;" |[[World_2#2-4|2-4]]
+|style="text-align: center;" |120
+|style="text-align: center;" |1,740
+|style="text-align: center;" |[[World_4#4-4|4-4]]
+|style="text-align: center;" |170
+|style="text-align: center;" |2,340
+|style="text-align: center;" |[[World_6#6-4|6-4]]
+|style="text-align: center;" |230
+|style="text-align: center;" |3,160
+|style="text-align: center;" colspan="3"|
+|-
+|style="text-align: center;" |[[World_2#2-5|2-5]]
+|style="text-align: center;" |160
+|style="text-align: center;" |2,320
+|style="text-align: center;" |[[World_4#4-5|4-5]]
+|style="text-align: center;" |200
+|style="text-align: center;" |2,900
+|style="text-align: center;" |[[World_6#6-5|6-5]]
+|style="text-align: center;" |260
+|style="text-align: center;" |3,520
+|style="text-align: center;" colspan="3"|
+|-
+|}
+
+'''Important Notes'''
+* You only gain HQ exp for every '''combat node'''. Please see [[Nodes]] for more details.
+* It is not worth the time to night battle in an attempt to increase your rank for more exp.
+
+==={{anchor|HQExercise}}Exercises===
+
+HQ exp earned in exercises depends on the level difference between you and your opponent. 
+
+{| class="wikitable"
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Level Difference
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |S
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |A
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |B
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Defeat<br>
+(C/D/E)
+|-
+|≥5
+|160
+|120
+|96
+|80
+|-
+|3~4
+|120
+|80
+|64
+|60
+|-
+|1~2
+|80
+|60
+|48
+|40
+|-
+|0
+|60
+|40
+|32
+|30
+|-
+| -1~-2
+|40
+|30
+|24
+|20
+|-
+| -3~-4
+|30
+|20
+|16
+|15
+|-
+|≤-5
+|20
+|15
+|12
+|10
+|-
+|}
+
+'''Important Notes'''
+* The closer you get to the HQ level cap, the less HQ experience you'll earn from exercises.
+
+==={{anchor|HQExpedition}} Expeditions===
+
+Please see [[Expeditions#Reference_Tables|Expeditions]] for the experience earned from each expedition. Note that the experience listed is multiplied by '''2''' on a [[Expeditions#Great_Success|great success]].
+
+===Admiral Rank===
+
+These are the ranks displayed on your [[Military Record]] screen and beside your name in the server rankings.
+
+* Ranks depend on your current position in the [[Ranking]]s.
+* Ranks currently serve no purpose beyond cosmetic.
+* Ranks are calculated off the '''total number of valid admirals''' on the server.
+** Admirals who have registered but not started the game aren't counted.
+
+{| class="wikitable" style="text-align: center; width:800px;"
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60px;" |Insignia
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:260px;" |Rank<br />Full Rank Name
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:150px;" |Translation
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:120px;" |Notes
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60px;" |Rank Number
+|-
+|[[File:Rank_Marshal_Admiral.png]]
+| style="text-align: center;" |{{Nihongo|元帥|''Gensui''|}}<br />{{Nihongo|元帥海軍大将|''Gensui Kaigun Taishō''|}}
+| style="text-align: center;" |Marshal Admiral
+| style="text-align: left;" |Top 1% of the server.
+|1
+|-
+|[[File:Rank_Admiral.png]]
+| style="text-align: center;" |{{Nihongo|大将|Taishō|}}<br />{{Nihongo|海軍大将|''Kaigun Taishō''|}}
+| style="text-align: center;" |Admiral
+| style="text-align: left;" |Top 5% of the server.
+|2
+|-
+|[[File:Rank_Vice_Admiral.png]]
+| style="text-align: center;" |{{Nihongo|中将|''Chūjō''|}}<br />{{Nihongo|海軍中将|''Kaigun Chūjō''|}}
+| style="text-align: center;" |Vice-Admiral
+| style="text-align: left;" |Top 10% of the server.
+|3
+|-
+|[[File:Rank_Rear_Admiral.png]]
+| style="text-align: center;" |{{Nihongo|少将|''Shōshō''|}}<br />{{Nihongo|海軍少将|''Kaigun Shōshō''|}}
+| style="text-align: center;" |Rear-Admiral
+| style="text-align: left;" |Top 20% of the server.
+|4
+|-
+|[[File:Rank_Captain.png]]
+| style="text-align: center;" |{{Nihongo|大佐|''Taisa''|}}<br />{{Nihongo|海軍大佐|''Kaigun Taisa''|}}
+| style="text-align: center;" |Captain
+| style="text-align: left;" |Top 40% of the server.
+|5
+|-
+|[[File:Rank_Commander.png]]
+| style="text-align: center;" |{{Nihongo|中佐|''Chūsa''}}<br />{{Nihongo|海軍中佐|''Kaigun Chūsa''|}}
+| style="text-align: center;" |Commander
+| style="text-align: left;" |Top 55% of the server.
+|6
+|-
+|[[File:Rank Commander Novice.png]]
+| style="text-align: center;" |{{Nihongo|新米中佐|''Shinmai Chūsa''}}<br/>-
+| style="text-align: center;" |Junior Commander
+| style="text-align: left;" |Top 65% of the server. Does not officialy exist in IJN rankings. Used as an intermediary rank between Lieutenant-Commander and Commander.
+|7
+|-
+|[[File:Rank_Lieutenant-Commander.png]]
+| style="text-align: center;" |{{Nihongo|少佐|''Shōsa''}}<br />{{Nihongo|海軍少佐|''Kaigun Shōsa''|}}
+| style="text-align: center;" |Lieutenant-Commander
+| style="text-align: left;" |Top 80% of the server.
+|8
+|-
+|[[File:Rank Lieutenant Commander Senior.png]]
+| style="text-align: center;" |{{Nihongo|中堅少佐|''Chūken Shōsa''}}<br />-
+| style="text-align: center;" |Vice Lieutenant-Commander
+| style="text-align: left;" |Top 90% of the server. Does not officialy exist in IJN rankings. Used as an intermediary rank between Lieutenant and Lieutenant-Commander. Translates literally to "Mid-level Lt-Commander".
+|8
+|-
+|[[File:Rank_Lieutenant-Commander_Novice.png]]
+| style="text-align: center;" |{{Nihongo|新米少佐|''Shinmai Shōsa''}}<br />-
+| style="text-align: center;" |Junior Lieutenant-Commander
+| style="text-align: left;" |Rest of the server. Does not officialy exist in IJN rankings. Used as an intermediary rank between Lieutenant and Lieutenant-Commander.
+|10
+|}
+
+
+===HQ Exp Table===
+'''''Disclaimer:''''' EXP list from Lv100 through Lv120 is guessed based on patterns observed from known data across several levels. Value may be off by 100000-200000 points per level.
+
+{| class="wikitable collapsible collapsed" style="width:743px;text-align:center;"
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+| rowspan="31" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+| rowspan="31" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+| rowspan="31" style="background-color:#7C9DBD; width:1px;" |
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:30px;" |Lv
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp.
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:70px;" |Exp. Diff
+|-
+| style="background-color:rgb(153,255,0);" |1
+|0
+|0
+| style="background-color:rgb(153,255,0);" |31
+|46,500
+|3,000
+| style="background-color:rgb(255,255,0);" |61
+|188,500
+|7,000
+| style="background-color:rgb(255,76,76);" |91
+|564,500
+|19,000
+|-
+| style="background-color:rgb(153,255,0);" |2
+|100
+|100
+| style="background-color:rgb(153,255,0);" |32
+|49,600
+|3,100
+| style="background-color:rgb(255,255,0);" |62
+|195,800
+|7,300
+| style="background-color:rgb(255,76,76);" |92
+|584,500
+|20,000
+|-
+| style="background-color:rgb(153,255,0);" |3
+|300
+|200
+| style="background-color:rgb(153,255,0);" |33
+|52,800
+|3,200
+| style="background-color:rgb(255,255,0);" |63
+|203,400
+|7,600
+| style="background-color:rgb(255,76,76);" |93
+|606,500
+|22,000
+|-
+| style="background-color:rgb(153,255,0);" |4
+|600
+|300
+| style="background-color:rgb(153,255,0);" |34
+|56,100
+|3,300
+| style="background-color:rgb(255,255,0);" |64
+|211,300
+|7,900
+| style="background-color:rgb(255,76,76);" |94
+|631,500
+|25,000
+|-
+| style="background-color:rgb(153,255,0);" |5
+|1,000
+|400
+| style="background-color:rgb(255,255,0);" |35
+|59,500
+|3,400
+| style="background-color:rgb(255,255,0);" |65
+|219,500
+|8,200
+| style="background-color:rgb(255,76,76);" |95
+|661,500
+|30,000
+|-
+| style="background-color:rgb(153,255,0);" |6
+|1,500
+|500
+| style="background-color:rgb(255,255,0);" |36
+|63,000
+|3,500
+| style="background-color:rgb(255,255,0);" |66
+|228,000
+|8,500
+| style="background-color:rgb(255,76,76);" |96
+|701,500
+|40,000
+|-
+| style="background-color:rgb(153,255,0);" |7
+|2,100
+|600
+| style="background-color:rgb(255,255,0);" |37
+|66,600
+|3,600
+| style="background-color:rgb(255,255,0);" |67
+|236,800
+|8,800
+| style="background-color:rgb(255,76,76);" |97
+|761,500
+|60,000
+|-
+| style="background-color:rgb(153,255,0);" |8
+|2,800
+|700
+| style="background-color:rgb(255,255,0);" |38
+|70,300
+|3,700
+| style="background-color:rgb(255,255,0);" |68
+|245,900
+|9,100
+| style="background-color:rgb(255,76,76);" |98
+|851,500
+|90,000
+|-
+| style="background-color:rgb(153,255,0);" |9
+|3,600
+|800
+| style="background-color:rgb(255,255,0);" |39
+|74,100
+|3,800
+| style="background-color:rgb(255,255,0);" |69
+|255,300
+|9,400
+| style="background-color:rgb(255,76,76);" |99
+|1,000,000
+|148,500
+|-
+| style="background-color:rgb(153,255,0);" |10
+|4,500
+|900
+| style="background-color:rgb(255,255,0);" |40
+|78,000
+|3,900
+| style="background-color:rgb(255,255,0);" |70
+|265,000
+|9,700
+| style="background-color:rgb(255,76,76);" |100
+|1,300,000
+|300,000
+|-
+| style="background-color:rgb(153,255,0);" |11
+|5,500
+|1,000
+| style="background-color:rgb(255,255,0);" |41
+|82,000
+|4,000
+| style="background-color:rgb(255,255,0);" |71
+|275,000
+|10,000
+| style="background-color:rgb(255,76,76);" |101
+|1,600,000
+|300,000
+|-
+| style="background-color:rgb(153,255,0);" |12
+|6,600
+|1,100
+| style="background-color:rgb(255,255,0);" |42
+|86,100
+|4,100
+| style="background-color:rgb(255,255,0);" |72
+|285,400
+|10,400
+| style="background-color:rgb(255,76,76);" |102
+|1,900,000
+|300,000
+|-
+| style="background-color:rgb(153,255,0);" |13
+|7,800
+|1,200
+| style="background-color:rgb(255,255,0);" |43
+|90,300
+|4,200
+| style="background-color:rgb(255,255,0);" |73
+|296,200
+|10,800
+| style="background-color:rgb(255,76,76);" |103
+|2,200,000
+|300,000
+|-
+| style="background-color:rgb(153,255,0);" |14
+|9,100
+|1,300
+| style="background-color:rgb(255,255,0);" |44
+|94,600
+|4,300
+| style="background-color:rgb(255,255,0);" |74
+|307,400
+|11,200
+| style="background-color:rgb(255,76,76);" |104
+|2,600,000
+|400,000
+|-
+| style="background-color:rgb(153,255,0);" |15
+|10,500
+|1,400
+| style="background-color:rgb(255,255,0);" |45
+|99,000
+|4,400
+| style="background-color:rgb(255,255,0);" |75
+|319,000
+|11,600
+| style="background-color:rgb(255,76,76);" |105
+|3,000,000
+|400,000
+|-
+| style="background-color:rgb(153,255,0);" |16
+|12,000
+|1,500
+| style="background-color:rgb(255,255,0);" |46
+|103,500
+|4,500
+| style="background-color:rgb(255,255,0);" |76
+|331,000
+|12,000
+| style="background-color:rgb(255,76,76);" |106
+|3,500,000
+|500,000
+|-
+| style="background-color:rgb(153,255,0);" |17
+|13,600
+|1,600
+| style="background-color:rgb(255,255,0);" |47
+|108,100
+|4,600
+| style="background-color:rgb(255,255,0);" |77
+|343,400
+|12,400
+| style="background-color:rgb(255,76,76);" |107
+|4,000,000
+|500,000
+|-
+| style="background-color:rgb(153,255,0);" |18
+|15,300
+|1,700
+| style="background-color:rgb(255,255,0);" |48
+|112,800
+|4,700
+| style="background-color:rgb(255,255,0);" |78
+|356,200
+|12,800
+| style="background-color:rgb(255,76,76);" |108
+|4,600,000
+|600,000
+|-
+| style="background-color:rgb(153,255,0);" |19
+|17,100
+|1,800
+| style="background-color:rgb(255,255,0);" |49
+|117,600
+|4,800
+| style="background-color:rgb(255,255,0);" |79
+|369,400
+|13,200
+| style="background-color:rgb(255,76,76);" |109
+|5,200,000
+|600,000
+|-
+| style="background-color:rgb(153,255,0);" |20
+|19,000
+|1,900
+| style="background-color:rgb(255,255,0);" |50
+|122,500
+|4,900
+| style="background-color:rgb(255,76,76);" |80
+|383,000
+|13,600
+| style="background-color:rgb(255,76,76);" |110
+|5,900,000
+|700,000
+|-
+| style="background-color:rgb(153,255,0);" |21
+|21,000
+|2,000
+| style="background-color:rgb(255,255,0);" |51
+|127,500
+|5,000
+| style="background-color:rgb(255,76,76);" |81
+|397,000
+|14,000
+| style="background-color:rgb(255,76,76);" |111
+|6,600,000
+|700,000
+|-
+| style="background-color:rgb(153,255,0);" |22
+|23,100
+|2,100
+| style="background-color:rgb(255,255,0);" |52
+|132,700
+|5,200
+| style="background-color:rgb(255,76,76);" |82
+|411,500
+|14,500
+| style="background-color:rgb(255,76,76);" |112
+|7,400,000
+|800,000
+|-
+| style="background-color:rgb(153,255,0);" |23
+|25,300
+|2,200
+| style="background-color:rgb(255,255,0);" |53
+|138,100
+|5,400
+| style="background-color:rgb(255,76,76);" |83
+|426,500
+|15,000
+| style="background-color:rgb(255,76,76);" |113
+|8,200,000
+|800,000
+|-
+| style="background-color:rgb(153,255,0);" |24
+|27,600
+|2,300
+| style="background-color:rgb(255,255,0);" |54
+|143,700
+|5,600
+| style="background-color:rgb(255,76,76);" |84
+|442,000
+|15,500
+| style="background-color:rgb(255,76,76);" |114
+|9,100,000
+|900,000
+|-
+| style="background-color:rgb(153,255,0);" |25
+|30,000
+|2,400
+| style="background-color:rgb(255,255,0);" |55
+|149,500
+|5,800
+| style="background-color:rgb(255,76,76);" |85
+|458,000
+|16,000
+| style="background-color:rgb(255,76,76);" |115
+|10,000,000
+|900,000
+|-
+| style="background-color:rgb(153,255,0);" |26
+|32,500
+|2,500
+| style="background-color:rgb(255,255,0);" |56
+|155,500
+|6,000
+| style="background-color:rgb(255,76,76);" |86
+|474,500
+|16,500
+| style="background-color:rgb(255,76,76);" |116
+|11,000,000
+|1,000,000
+|-
+| style="background-color:rgb(153,255,0);" |27
+|35,100
+|2,600
+| style="background-color:rgb(255,255,0);" |57
+|161,700
+|6,200
+| style="background-color:rgb(255,76,76);" |87
+|491,500
+|17,000
+| style="background-color:rgb(255,76,76);" |117
+|12,000,000
+|1,000,000
+|-
+| style="background-color:rgb(153,255,0);" |28
+|37,800
+|2,700
+| style="background-color:rgb(255,255,0);" |58
+|168,100
+|6,400
+| style="background-color:rgb(255,76,76);" |88
+|509,000
+|17,500
+| style="background-color:rgb(255,76,76);" |118
+|13,000,000
+|1,000,000
+|-
+| style="background-color:rgb(153,255,0);" |29
+|40,600
+|2,800
+| style="background-color:rgb(255,255,0);" |59
+|174,700
+|6,600
+| style="background-color:rgb(255,76,76);" |89
+|527,000
+|18,000
+| style="background-color:rgb(255,76,76);" |119
+|14,000,000
+|1,000,000
+|-
+| style="background-color:rgb(153,255,0);" |30
+|43,500
+|2,900
+| style="background-color:rgb(255,255,0);" |60
+|181,500
+|6,800
+| style="background-color:rgb(255,76,76);" |90
+|545,500
+|18,500
+| style="background-color:rgb(255,76,76);" |120
+|15,000,000
+|1,000,000
+|}
+
+===Effects of HQ Level===
+====Effective LoS====
+The [[Line of Sight]] formula is affected by HQ level. A higher HQ level will result in higher LoS requirements for routing. 
+
+====Resource Soft Cap====
+
+A higher HQ level will result in a higher soft cap on primary resources ({{Fuel}}{{Ammo}}{{Steel}}{{Bauxite}}). Please see [[Resources#Soft_Cap|Resources]] for more information.
+
+====Development Rarity====
+
+The higher your HQ level, the higher your chance of obtaining rare equipment from [[Development]]. 
+
+====Difficulty Tiers====
+The difficulty of events used to automatically be adjusted to HQ level. As of the Winter 2015 event, players have been able to select the difficulty level they wish to challenge. HQ level affects the difficulty levels available to be selected.
+
+HQ level also affects the enemy compositions you can encounter in extra operations. Please see the [[Sortie#Sortie_List|individual extra operation pages]] for the difficulty tier breakdown.
+
+{| class="wikitable" style="text-align:center;"
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:100px;" scope="col" colspan="2" |Tier
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:100px;" scope="col" |Level Range
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:100px;" scope="col" |Rare Drop Availability
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:200px;" scope="col" |Notes
+|-
+| style="text-align:center;background-color:rgb(153,255,0);" rowspan="2"|'''I'''
+| style="text-align:center;" |Casual
+| style="text-align:center;"  rowspan="2"|1~34
+| style="text-align:center;" |None
+|
+|-
+| style="text-align:center;" |Easy
+| style="text-align:center;" |Limited
+|
+|-
+| style="text-align:center;background-color:rgb(255,255,0);" |'''II'''
+| style="text-align:center;" |Medium
+| style="text-align:center;" |35~79
+| style="text-align:center;" |Some rare drops.
+| 
+|-
+| style="text-align:center;background-color:rgb(255,76,76);" |'''III'''
+| style="text-align:center;" |Hard
+| style="text-align:center;" |80~120
+| style="text-align:center;" |A lot of rare drops.
+| 
+|-
+|}
+
+===Server Ranking===
+
+HQ experience earned throughout the year and the month determine your rank in the server. This differs from the [[#Admiral Rank|Admiral Ranks]] detailed above. This is a numerical ranking that awards rare equipment when you achieve certain thresholds. Please see [[Ranking]] for more details and [[Help:Ranking|the help page]] for advice on how to rank.
+
+=See Also=
+[[Ranking]]<br>
+[[Tutorial:Leveling]]<br>
+[[Help:Fleet Formation]]<br>
+[[Ranking/Rank Rewards|Rank Rewards]]<br>
+[[Ranking/Rank History|Rank History]]<br>
+http://senka.com.ru/<br/>
+[[User:Minhfongboy/KC_Phase_2_Ranking|Minhfongboy's P2 Ranking guide]]
+{{Mechanics}}

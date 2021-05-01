@@ -1,0 +1,17 @@
+{| style="border: 1px solid darkgray; border-top-left-radius:20px; border-bottom-left-radius:20px; border-top-right-radius:20px;border-bottom-right-radius:20px" cellpadding="5px" width="100%"
+|-
+|style="width:300px; border-top-left-radius:20px; border-bottom-left-radius:20px; border: solid 2px #{{#switch: {{{type|}}}| figure = cc74bd | nendo = 49ff45 | figma=0266c8 | other=d3d3d3 | d3d3d3}}" rowspan="3"|{{#if:{{{slideshow|}}}|<div style="border: solid 1px; overflow:hidden;width:365px;border-top-left-radius:15px; border-bottom-left-radius:15px;max-height:250px"><div style="position:relative;bottom:5px;right:5px;">{{{slideshow|</div></div>}}}}}
+|style="border: solid 0px;background-color:#{{#switch: {{{type|}}}|figure = cc74bd | bust = cc74bdv | nendo = 49ff45 | figma = 0266c8|other=d3d3d3| d3d3d3}}; max-height:20px; border-top-right-radius:17px" width="100%" align="center" colspan="3"| '''{{{name|Name?}}}'''<br />''{{{jpname|Japanese Name?}}}''
+|-
+|style="border: solid 2px #{{#switch: {{{type|}}}|figure = cc74bd | nendo = 49ff45 | figma = 0266c8|other=d3d3d3| d3d3d3}}; padding:10px; position:relative; left:0.5px; border-bottom-right-radius:19px" width="100%"|{{{info|Information Goes Here}}}
+<br />
+'''Scale:''' {{{scale|Scale}}}<br />
+'''Price (MSRP): '''{{{price|¥0}}}<br />
+'''Release Date: '''{{{date|0000/00}}}<br />
+'''Specifications: '''{{{specs|Specs}}}<br />
+'''Sculptor: '''{{{sculpt|Sculptor}}}
+|}
+
+<noinclude>
+{{documentation}}
+</noinclude>

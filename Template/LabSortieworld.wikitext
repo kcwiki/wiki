@@ -1,0 +1,19 @@
+<div id="mapwrap" style="float: right; margin-left: 20px; display: inline-block; width:450px;">
+	<div style="width:450px; border: 1px #555 solid; border-top-left-radius: 10px; border-top-right-radius: 10px; margin-bottom: 20px;">
+	[[File:{{{map}}}|450px]]
+	{|style="width:450px; text-align:center; margin: 0px;"
+	|style="color:#ffffff; background-color: #3baef5; padding:1px 2px 1px 2px; width: 140px;"|Strategy Name
+	|colspan=3|'''<div style="text-align:left;background-color:#F6F6F6;border:1px solid;border-color: #F6F6F6;">{{{code}}}</div>'''
+	|-
+	|style="background-color: #3baef5; padding:1px 2px 1px 2px; color:#ffffff"|Difficulty
+	|colspan=3|'''<div style="text-align:left; background-color:#F6F6F6;border:1px solid;border-color: #F6F6F6;border-radius:8px;">{{{difficulty}}}</div>'''
+	|-
+	|style="background-color: #3baef5; color:#ffffff;padding:1px 4px 1px 4px;"|Item
+	|'''<div style="text-align:left;background-color:#F6F6F6;border:1px solid;border-color: #F6F6F6;">{{{item}}}</div>'''
+	|-
+	|style="background-color: #3baef5; color:#ffffff; padding:1px 3px 1px 3px;"|Strategy Content
+	|colspan=3|<div style="text-align:left;background-color:#F6F6F6; border:1px solid;border-color: #F6F6F6; min-height:46px;padding:2px 3px 2px 3px;">'''{{{jptext}}}'''<br />{{{entext}}}</div>
+	|}
+</div>
+{{{aircon|}}}
+</div><noinclude>{{documentation}}</noinclude>

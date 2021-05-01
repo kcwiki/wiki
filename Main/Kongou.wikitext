@@ -1,0 +1,718 @@
+==Info==
+{{KanmusuInfo|ID=021}}
+{{KanmusuInfo|ID=021a}}
+{{KanmusuInfo|ID=149}}
+{{KanmusuInfo|ID=391}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform special AACI on Kai Ni. Please see [[Anti-Air Cut-In]] for more details.
+* Able to equip torpedoes and perform closing torpedo at Kai Ni C.
+* Able to equip seaplane bombers at Kai Ni C.
+* She gains a '''night battle''' special attack on Kai Ni C that targets 2 enemies at random: 
+** Activation requirements are as follows:  
+*** Kongou Kai Ni C must be Flagship.
+*** Hiei Kai Ni C, Haruna Kai Ni or Warspite are the second ship.
+*** She must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>.
+*** The escorting BB must not be <span style="color:red;">'''heavily damaged (大破)'''</span>.
+*** '''Line Ahead''' needs to be selected in a single fleet OR '''Cruising Formation 4''' for a combined fleet.
+** It can only be activated '''once per sortie''' and only if '''no other special attack was triggered in the same sortie'''
+** The attack will consume extra ammo from both participating battleships when triggered. The total ammo consumption will be x1.3 of the original ammo consumption of when the attack is triggered, hence:
+***If it is triggered in day battle, it costs 6% extra ammo.
+***If it is triggered in an night battle node, it costs 2% extra ammo.
+***If it is triggered in a night battle in a normal node, it costs 9% extra ammo.
+** Multipliers and activation chance increase are TBD at this point
+
+===Overview===
+'''Kai'''
+* Average firepower.
+* Low HP and armour.
+
+'''Kai Ni'''
+* Average firepower and armour.
+* Low HP
+
+'''Kai Ni C'''
+* Average firepower, HP and armour.
+* High torpedo stat for a battleship.
+* Gains Access to the Kongou Class Night Battle Special Attack
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+'''Hidden Fit Bonuses'''
+* She has accuracy bonuses and penalties when equipped with certain large guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+'''Kongou Kai'''
+
+Priority: '''High''', unless many more fast battleships are available.
+
+:A Japanese fast battleship that's easy to come across for her class.
+:Her stats are decent but nothing to write home about.
+
+
+
+'''Kongou Kai Ni'''
+
+Priority: '''Low'''
+
+:This second remodel improves her stats a bit and that's it.
+:There's no reason not to take it but no reason to rush it either, generally.
+
+
+
+'''Kongou Kai Ni C'''  
+
+Priority: '''Low'''
+:This further remodel comes with a torpedo fitting, allowing her to equip torpedoes and perform closing salvos like cruisers or destroyers, and also increasing her night battle potential. 
+:She also unlock a special night battle combined attack, which further underscores her new niche.
+:Keep in mind that this remodel requires 2 [[Blueprint]]s.
+
+
+====Recommended Roles====
+* Surface combat
+* Night battle (Second remodel C)
+
+===Important Info===
+* Required for unlocking the 4th fleet slot.
+* Required for quests A16 and A40
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 英国で産まれた帰国子女の金剛デース！ ヨロシクオネガイシマース！
+|translation = I'm the English-born returnee, Kongou! Please take good care of me!
+|audio = KongoGet.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai3 = yes
+|origin = 英国で産まれた帰国子女の金剛、その第三改装デース！提督、 ドゾヨロシクオネガイシマース！
+|translation = I'm the English-born returnee, Kongou! Now with my 3rd remodel! Admiral, please take good care of me!
+|audio = KongouKai2C-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 超弩級戦艦として建造技術導入を兼ねて英国ヴィッカース社で建造された、金剛デース！
+太平洋戦域でも持ち前の高速力を活かして、大活躍デース！ 期待してネ！
+|translation = I'm the super dreadnought built with foreign technology by the Vickers Shipbuilding Company in England, Kongou!<ref>The IJN commissioned [https://en.wikipedia.org/wiki/George_Thurston George Thurston] to design them a modern battleship, the result was an improved [https://en.wikipedia.org/wiki/Lion-class_battlecruiser Lion-class].</ref>
+I'll put my naturally high speed to great use in the Pacific Theatre too!<ref>She had a maximum speed of 30 knots, faster than most of her contemporaries and could keep up with the lighter ships in the fleet.</ref> Look forward to it!
+|audio = KongoLibrary.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = Hi！今日も良い天気ネー！
+|translation = Hi! Today is another splendid day!
+|audio = KongoPort1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 紅茶が飲みたいネー
+|translation = I'd love a cuppa~ 
+|audio = KongoPort3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai3 = yes
+|origin = この戦いの後も、また提督と紅茶を飲みたいネ！ 
+|translation = I want to drink tea with the Admiral again after this battle! 
+|audio = Kongou_Kantai_Kessen_2018_Sec2b.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = Hey、提督ぅー！ 触ってもイイけどサー、時間と場所をわきまえなヨー！
+|translation = Hey, Admiral! I don't mind you touching me, but mind the time and place!
+|audio = KongoPort2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kai3 = yes
+|origin = Hey、提督ぅー！愛し合うのはof courseだけど、時間と場所をわきまえなヨー！OK?
+|translation = Hey, Admiral! It's fine to be lovey dovey, but mind the time and place! Ok?
+|audio = KongouKai2C-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 目を離さないでって言ったのにぃ～！提督ぅー、何してるデース！
+|translation = I told you not to take your eyes off me~! Admiral, what are you doing~!?
+|audio = KongoIdle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = Hey、提督ぅ～！いつも頑張ってるけど、あまり無理はしないで欲しいデース！
+|translation = Hey, Admiral~! You're always working hard, but I hope that you don't overdo it!
+|audio = KongoPortMarriage.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai3 = yes
+|origin = 提督…少しだけギュットしてもらってもいいデス…んー…えへへぇ。Thank you! またがんばれます！
+|translation = Admiral... it's fine to hold me just a little tighter... Ngh... Ehehe. Thank you! I can keep working hard!
+|audio = KongouKai2C-SecMarried.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督ぅ～、時間と場所もそうだケド、ムードとタイミングも忘れたらNOなんだからネ…?
+|translation = Admiral~, even though it's the right time and place; it will still be a "No"... If you forget the mood and timing, alright...?
+|audio = KongoMarriage.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 提督！You've got mail！Love letterは許さないからネ！
+|translation = Admiral! You've got mail! I won't forgive you if it's a love letter!
+|audio = KongoScore.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 私たちの出番ネ！Follow me！皆さん、ついてきてくださいネー
+|translation = It's our turn now! Follow me! Everyone, please give it your all!
+|audio = KongoJoin.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai3 = yes
+|origin = 第一遊撃部隊、第二部隊、私達の出番ネー。Follow me! 皆さん、本気でついてきてくださいネー！
+|translation = 1st Striking Force, 2nd Section, it's our turn to shine. Follow me! Everyone, please really give it your all!
+|audio = KongouKai2C-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = Yes！私の実力、見せてあげるネー！
+|translation = Yes! I will show you what I'm made of!
+|audio = KongoEquip1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = やっと本当の私になれた気がシマース！
+|translation = It feels like I've finally became my true self!
+|audio = KongoEquip2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3 
+|origin = Wow！congratulations！
+|translation = Wow! Congratulations!
+|audio = KongoEquip3.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|kai2 = yes
+|origin = Wow！提督にpresentsネー！
+|translation = Wow! Presents from the Admiral!
+|audio = KongoEquip3Kai2.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = Supplyは大切ネ！
+|translation = Supplies are important!
+|audio = KongoSupply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = Tea timeは大事にしないとネー！
+|translation = It's important to take time out for tea time!
+|audio = KongoRepairMinor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = うー…日頃の無理が祟ったみたいデース…
+|translation = Oh... seems like my exertions are catching up to me. <ref>Kongou was routinely deployed in battles due to her speed.</ref>
+|audio = KongoRepairMajor.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = Newfaceが登場したヨー
+|translation = 	A new face has arrived~
+|audio = KongoConstruction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 戦果resultがあがったヨー！
+|translation = The battle results are in!
+|audio = KongoReturn.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 提督のハートを掴むのは、私デース！
+|translation = I will be the one who wins the Admiral's heart!
+|audio = KongoSortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai3 = yes
+|origin = 榛名、準備はいい？第三戦隊、抜錨！提督のハートを掴むのは、私達デス！
+|translation = Haruna, are you ready? 3rd fleet, weigh anchor! We'll be the ones to win the Admiral's heart!
+|audio = KongouKai2C-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 撃ちます！Fire！
+|translation = Engaging! FIRE!
+|audio = KongoBattleStart.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|kai3 = yes
+|origin = New Kongou-classのfirepowerを見るデス！
+|translation = I'll show you the firepower of the new Kongou-class!
+|audio = KongouKai2C-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = Burning...Love！
+|translation = Burning... Love!
+|audio = KongoAttack.ogg
+}}
+{{ShipquoteKai
+|scenario = Special 1
+|kai3 = yes
+|origin = さあ、決めますよ！全主砲、target!
+|translation = Now, it's the moment of truth! All main guns, on target!
+|audio = Ship_Voice_Kongou_Kai_Ni_C_Special_1.mp3
+}}
+{{ShipquoteKai
+|scenario = Daytime Spotting/ Night Battle Attack
+|origin = 全砲門！Fire！
+|translation = 	All guns, Fire!
+|audio = KongoNightAttack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = これでfinish！？な訳無いデショ！私は食らいついたら離さないワ！
+|translation = You think I'm finished!? Think again! I won't let go once I've got you!
+|audio = KongoNightBattle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|kai3 = yes
+|origin = 食らいついたら話さないって…行ったデース！
+|translation = I told you... I won't let you go once I've got you!
+|audio = Kongou_Kantai_Kessen_2018_NightAtk.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 私の活躍見てくれたの？もっと頑張るから目を離しちゃnoなんだからネ！
+|translation = Did you see my exploits? I'll do even better so don't take your eyes off me!
+|audio = KongoMVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = あぁあっ！
+|translation = Aah!
+|audio = KongoHitMinor1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = 提督ぅー！
+|translation = 	Admiral~!
+|audio = KongoHitMinor2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = Shit！提督に貰った大切な装備が！
+|translation = Shit! The precious equipment I got from the Admiral has...!
+|audio = KongoHitMajor.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 提督…どうか武運長久を…私…ヴァルハラから見ているネ…
+|translation = Admiral... May your fortunes hold...I'll... be watching from Valhalla... <ref>Valhalla means a old Norse Valhöll "hall of the slain who die in combat travel to Valhalla upon death influence in Norse mythology in Europe.</ref>
+|audio = KongoSunk.ogg
+}}
+|} <references/>
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00
+|origin = 午前０時justデース！
+|translation = It's just 12am!
+|audio = Kongou-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00
+|origin = 午前１時。提督は働き者デース。
+|translation = 1am. You're a hard worker, Admiral.
+|audio = Kongou-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00
+|origin = 午前…２時…いつまで働くのー？　ふぇぇ…
+|translation = 2... am... How long will you keep working? *Yawn*...
+|audio = Kongou-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00
+|origin = 午前...三時...I'm just sleeping now...
+|translation = 3... am... I'm just sleeping now...
+|audio = Kongou-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00
+|origin = 午前...４時...提督もこっちに来るネ…すぅすぅ…提督～？
+|translation = 4... am... So you came over too, Admiral... *sleeping sounds*... Admiral~?
+|audio = Kongou-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00
+|origin = 午前５時。ん？今比叡の叫び声が聞こえたような？
+|translation = 5am. Hmm? Did I just hear Hiei screaming?
+|audio = Kongou-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00
+|origin = Good morning!朝６時デース！提督ぅー。朝からかっこいいデース！
+|translation = Good morning! It's 6 in the morning! You look good in the morning, Admiral!
+|audio = Kongou-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00
+|origin = 朝７時デース！提督のbreakfastなんですカー？
+|translation = It's 7 in the morning! What are you having for breakfast, Admiral?
+|audio = Kongou-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00
+|origin = 午前８時デース。Wow!朝は納豆ですカー。あのー、混ぜたり、乗せたりするやつですネー！
+|translation = It's 8am. Wow! Natto in the morning? Ummm, first mix it then put it on top like this right!
+|audio = Kongou-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00
+|origin = 午前９時デース。ジャパニーズbreakfast、堪能シマシター。
+|translation = It's 9am. I enjoyed that Japanese breakfast.
+|audio = Kongou-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00
+|origin = Ten o'clock!朝のお仕事、come on!
+|translation = Ten o'clock! Come on, let's do the morning's work!
+|audio = Kongou-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00
+|origin = Eleven～！Hey, 提督ぅー。 見ているダケで、飽きないネー！
+|translation = Eleven~! Hey, Admiral~... You just don't get tired of watching me~!
+|audio = Kongou-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00
+|origin = 正午１２時をアナウンスするデース！ランチの時間デース！
+|translation = It's the 12pm announcement! It's time for lunch!
+|audio = Kongou-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00
+|origin = 午後１時！提督のランチはまた納豆デスカー。紅茶とはあんまり...合わないデス...
+|translation = 1pm.! You're having natto for lunch again, Admiral? That... doesn't go well with... black tea...
+|audio = Kongou-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00
+|origin = 午後２時。もうすぐ tea time ネー！スコーン用意して、waiting for you！
+|translation = 2pm. It's almost tea time! I've got scones waiting for you!
+|audio = Kongou-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00
+|origin = 午後３時。提督と二人でtea timeデース！huuuum～紅茶が美味しいネー♪
+|translation = 3pm. Tea time with the Admiral! Mmmmm, black tea is delicious♪
+|audio = Kongou-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00
+|origin = 午後４時。HEY！提督ぅー、私手作りのスコーンはいかがでしたか～？
+|translation = 4pm. Hey, Admiral~ How about having one of my hand-made scones?
+|audio = Kongou-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00
+|origin = Evening five o'clock． 提督を想う気持ちは誰にも負けないネ！
+|translation = Five o'clock in the evening. I won't lose to anyone in feelings for you, Admiral! 
+|audio = Kongou-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00
+|origin = 午後６時。今日のディナーは英国式のカレーを提督に作ってあげるデース！
+|translation = 6pm. I'll be making English-style curry for you tonight, Admiral!
+|audio = Kongou-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00
+|origin = 時報ですかー？今スープの煮込み中デース。話しかけないで下サーイ。
+|translation = A hourly announcement? I'm making soup right now. Please don't talk to me.
+|audio = Kongou-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00
+|origin = 午後８時デース、HEY、テイトク―！英国式金剛カレーが出来上がったヨー、召し上がれ♪
+|translation = It's 8pm. Hey, Admiral! Kongou's English-style curry is done~ Help yourself♪
+|audio = Kongou-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00
+|origin = 午後９時。カレーの具がないですって？ 問題nothing♪ 溶け込んでるのデース！
+|translation = 9pm. There's nothing in the curry? That's not a problem♪ It's all blended in!
+|audio = Kongou-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00
+|origin = 午後１０時デース！提督ぅー。今日も一日、ご苦労様ネー！一緒に明日も頑張るネ。
+|translation = It's 10pm! Thanks for all your hard work everyday, Admiral! Let's work hard together tomorrow too!
+|audio = Kongou-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00
+|origin = そろそろgood nightの時間デース、明日も提督のtime keeper担当するからネ!
+|translation = It's almost 'good night' time! I'll be your time keeper tomorrow too alright, Admiral?
+|audio = Kongou-23.ogg
+}}
+|} <references/>
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2015|Valentine’s Day 2015]]
+|origin = HEY、提督ぅー！BURNING LOVEな、チョコレート持ってきたヨ－！
+|translation =	Hey, Admiral! I’ve got you some chocolates full of BURNING LOVE~!
+|audio = Kongou_Valentine_Sec1.ogg
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2015|Valentine’s Day 2015]]
+|origin = バーニング...バレンタインラブ！
+|translation = Burning… Valentine’s love!
+|audio = Kongou_Valentine_Atk.ogg
+|notes = Attack
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2015|White Day 2015]]
+|origin = HEY、提督.わたしへのホワイトデーのビッグなお返しは、なんですか？
+|translation = Hey, Admiral. What’s the big return gift I’m getting for White Day?
+|audio =Kongou_WhiteDay.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin = Hey、提督！Second Anniversaryだよ！Congratulations！
+|translation = Hey, Admiral! It’s the 2nd anniversary!  Congratulations!
+|audio = 021_Kongou_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2015|Rainy Season 2015]]
+|origin = Oh、Rainyな梅雨のSeason、私苦手デース！うぅ～
+|translation = Oh, I don’t like the rainy season! Urgh~
+|audio = Kongou_Rainy_Secretary_1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Mid_Summer_Season_Update|Midsummer 2015]]
+|origin = Summer season到来デース！ 比叡？ 私のswimming wearは？ えぇ、nothing？
+|translation = Summer is here! Hiei? What about my swimsuit? Eh, nothing?
+|audio = Kongou_Mid_Summer.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = Hey、提督！メリークリスマスだよ！さ、私へのプレゼントを早く出すのデス！さ！さぁ！あぁ、逃げたデス！待て！！
+|translation = Hey, Admiral! Merry Christmas! Now, hurry up and bring out my present! Hurry it up! Ah, he ran away! Wait!!
+|audio = Kongou_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = おぉ！今年ももうディセンバーです！早いものですね、提督。鎮守府も大掃除ですか？私に任せるデス！
+|translation = Oh! It’s already December! Time flies, Admiral. Spring cleaning the Naval Base? Leave it to me!
+|audio = Kongou_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = わぁ、Happy New Year！！提督ぅ、New Yearも、金剛型高速戦艦を、よろしくお願いしマース！！
+|translation = Yay, Happy New Year!! Please take care of the Kongou-class fast battleships this year too, Admiral!!
+|audio = Kongou_kai_ni_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = Hey、提督ぅー！今年の節分は、この金剛型四姉妹がdirectionさせていただきマース！まず、鬼役ですが…あぁ、提督ぅ！なぜ逃げるデース！？
+|translation = Hey, Admiral! Let us four Kongou-class sisters direct Setsubun this year! First, the Oni will be… Ah, Admiral! Why are you running away!?
+|audio = Kongou_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = Hey 、提督！Third Anniversaryだよ！Yay! Congratulations…and…BURNING…LOVE!
+|translation = Hey, Admiral! It’s the 3rd Anniversary! Yay! Congratulations… and… BURNING… LOVE!
+|audio = Kongou_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = サンマ…？Oh、秋刀魚デスネー！探照灯を満載して、漁場に向かうデース！こういうのも、楽しいネー！
+|translation = Sanma…? Oh, you mean saury! Let’s load up the searchlights and head to the fishing grounds! This will be fun!
+|audio = Kongou_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = HEY、HEY、HEY!提督ぅー！Fourth Anniversaryダヨー!!Yeaaah！！Congratulations、and Burning…Looooooove!!
+|translation = HEY, HEY, HEY! Admiral~! It’s the 4th Anniversary!! Yeaaah! Congratulations and burning… LOOOOOOVE!!
+|audio = Kongou_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = Hey, 提督！5th Anniversaryだよー！Congratulation and BURNING LOVE!
+|translation = Hey, Admiral! It’s the 5th Anniversary! Congratulations and BURNING LOVE!
+|audio = Kongou_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = 比叡、鎮守府祭り！提督、一緒に行くです！今年も何やら…変な祭りです？
+|translation = It's the Naval Base Festival, Hiei! Let's go together, Admiral! Looks like it's... some strange festival this year?
+|audio = Kongou_Late_Autumn_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = Hey, 提督！ 6th Anniversaryダヨ！Yay! Congratulations and BURNING LOVE!
+|translation = Hey, Admiral! It's the 6th Anniversary! Yay! Congratulations and BURNING LOVE!
+|audio = Kongou_6th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2020|Spring 2020]]
+|origin = いらっしゃいませ！鎮守府へようこそです！
+|translation = Welcome! Welcome to the Naval Base!
+|audio = Kongou_Kai_Ni_C_Spring_2020_Secretary_1.mp3
+|notes = Kai Ni C
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = Hey, HEY, 提督！7th Anniversaryだよ！Congratulations aaaaaaaand... BURNING LOVE!!
+|translation = Hey, HEY, Admiral! It's the 7th Anniversary! Congratulations aaaaaaaand... BURNING LOVE!!
+|audio = Kongou_7th_Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Eve of the Final Battle 2018]]
+|origin = 提督、私達三戦隊も、準備を始めるネ。
+|translation = BatDiv3 has begun preparations too, Admiral.
+|audio = Kongou_Kantai_Kessen_2018_Sec2.mp3
+|notes = Seretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = この戦いの後も、また提督と紅茶を飲みたいネー！
+|translation = I want to have tea with the Admiral again after this battle!
+|audio = Kongou_Kantai_Kessen_2018_Sec2b.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 届いて！もう少しだから！
+|translation = Hit! Just a bit closer!
+|audio = Kongou_Kantai_Kessen_2018_Atk.mp3
+|notes = Attack
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 食らいついたら離さないって、言ったデース！
+|translation = I told you, I won’t let go once I’ve got you!
+|audio = Kongou_Kantai_Kessen_2018_NightAtk.mp3
+|notes = Night Battle Attack
+}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = 第三戦隊、榛名、準備はいい？提督のハートは掴むのは、私デス！
+|translation = BatDiv3, are you ready, Haruna? I’ll be the one to capture the Admiral’s heart!
+|audio = Kongou_FriendFleet.mp3
+|notes = Friend Fleet line
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Homecoming 2018]]
+|origin = 提督、私達勝ったよ。レイテ沖の決戦、捷一号作戦、私達、みんなで港に戻れるよ。…提督？えへ、疲れたの？
+|translation = We won, Admiral. We’ve all returned to port from the Final Battle of Leyte Gulf, Operation Sho-1. …Admiral? Heh, are you tired?
+|audio = Kongou_Homecoming_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Spring 2019 Event]]
+|origin = Hey、提督！私達の活躍、絶対見ていてくださいネー！
+|translation = Hey, Admiral! You better not miss our fight!
+|audio = Ship_Voice_Kongou_Kai_Ni_C_Spring_2019_Event_Friend_Fleet_1.mp3
+|notes = Friend Fleet Line
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+21_3.png|Base
+21_4.png|Base Damaged
+149_3.png|Kai Ni
+149_4.png|Kai Ni Damaged
+KanMusu391CG.png|Kai Ni C
+KanMusu391CGDmg.png|Kai Ni C Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+KanMusu21_Nakau.png|[[Seasonal/Nakau_Collaboration|Nakau Collaboration]]
+KanMusu21_Nakau_dmg.png|[[Seasonal/Nakau_Collaboration|Nakau Collaboration Damaged]]
+KanMusu149_Nakau.png|[[Seasonal/Nakau_Collaboration|Kai Ni Nakau Collaboration]]
+KanMusu149_Nakau_dmg.png|[[Seasonal/Nakau_Collaboration|Kai Ni Nakau Collaboration Damaged]]
+KanMusu149_SurigaoStrait.png|[[Seasonal/Final_Battle|Kai Ni Final Battle 2018]]
+KanMusu149_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Kai Ni Final Battle 2018 Damaged]]
+591_Ship_Full_Kongou_Kai_Ni_C_Spring_2020.png|[[Seasonal/Coming_of_Spring_2020|Kai Ni C Spring 2020]]
+591_Ship_Full_Kongou_Kai_Ni_C_Spring_2020_Damaged.png|[[Seasonal/Coming_of_Spring_2020|Kai Ni C Spring 2020 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Kongou}}
+
+==Trivia==
+*She is named after [[:wikipedia:Mount_Kong%C5%8D|Mount Kongou]] which translates to "indestructible"
+*The radar wings that she and her sisters wear share a similar coloration and design to the alternative name for "金剛" which also means "[http://en.wikipedia.org/wiki/Vajra vajra]", but may be more accurately "ghanta" (bells). [http://drilbudorje.tripod.com/_Dorje.htm See this page] (scroll to 12th Century) and compare to the CG artwork.
+*She was the last IJN capital ship to be built by a foreign country.
+**Her affinity for tea is based on her British heritage.
+*She was the only Japanese battleship sunk by submarine in the Second World War, and the last battleship sunk by submarine in history.
+*She received her Kai Ni on November 1, 2013.
+*She is still an existing JDS name as of present, along with ''[[Kirishima]]''.
+
+===Appearances in derivative works=== 
+*Kongou appears in the anime adaptation of Kantai Collection, and was also featured in the adaptation's [https://www.youtube.com/watch?v=ABZN292gvRo first trailer]. She played a big role in it, as she appears to be the only member of the Fifth Mobile Fleet Fubuki can get along with.
+*Kongou appears as one of the main characters in ''[[Print media#side:Kongou|side:Kongou]]''.
+*Kongou - along with other ships voiced by Nao Touyama - was featured in the first KanColle Drama CD, titled "Hiei's Curry" (比叡、カレーを作る). Due to one seiyuu doing all the voices, the CD's short story is also referred to as "One Nao Show". A translated version of the short story can be found [https://www.youtube.com/watch?v=H71UmCq3lWc here]. <!-- An earlier revision also had this: https://soundcloud.com/masapusan/one-nao-show -->
+
+==See Also==
+*[[Kongou/Gallery|View Kongou CG]]
+*[[EliteBB|List of battleships]]
+*[[wikipedia:Japanese_battleship_Kongō|Wikipedia entry on battleship Kongou]]
+* [http://www.nicovideo.jp/watch/sm22168432 Kongou's Hourlies]
+{{shiplist}}
+[[zh:金刚]]
+[[Category:Kongou Class]]
+[[Category:Battleships]]

@@ -1,0 +1,235 @@
+'''February 5th, 2021''' Noshiro Kai Ni and Valentine's Day Update'''
+#'''Setsubun Mini Event has come to an end'''
+#'''Setsubun Voicelines has been removed'''
+#'''Valentine's Day Voice Lines implemented'''
+#* Voice lines given to many of the new ships girls including: [[Hornet]], [[Washington]], [[South Dakota]], [[Sheffield]], [[Helena]], [[Matsu]] and [[Take]]
+#'''Valentine's Day Mode CG'''
+#* [[Akashi]], [[Jingei]], [[Johnston]], [[Maestrale]], [[Libeccio]], [[Scirocco]] and [[Perth]] have received CGs related to Valentine's Day
+#'''Furniture Update'''
+#*Furniture has been updated for Valentine's Day, the following new furniture has been introduced:
+#** Valentine's Day Cabinet
+#** Chocolate Wall Paper
+#** Valentine's Custom made Chest (images will change depending on flagship)
+#'''Valentine's Day related furniture updates'''
+#* Kaiboukan Play Table, Submarine Window Set have been changed to Valentine's Mode
+#* Cafe Table Set and Majong Table set have been reverted to normal mode.
+#'''Limited time Valentine's Quest'''
+#* 3 new limited quests have been implemented:
+#** Valentine's Day Limited Mission (Special Practice)
+#** Valentine's Day Limited Mission (Operation No. 1)
+#** Valentine's Day Limited Mission (Operation No. 2)
+#'''Permanent Quests'''
+#* A total of 5 permanent quests have been implemented
+#** Elite Light Cruiser Exercise
+#** Carry out Light Cruiser Modernization
+#** Continuation: Carry out Light Cruiser Modernization
+#** Preparation for Western Contact Operation
+#** State of the art Light Cruiser Noshiro Kai Ni Sortie!
+#'''New Equipment'''
+#* [[15.2cm Twin Gun Mount Kai Ni]] has been implemented
+#'''Akashi Improvement Arsenal Update'''
+#* [[15.2cm Twin Gun Mount Kai Ni]] can be improved.
+#* Akashi can now upgrade [[15.2cm Twin Gun Mount Kai]] to [[15.2cm Twin Gun Mount Kai Ni]] 
+#* [[Swordfish Mk. II (Skilled)]] can be improved with the help of [[Ark Royal]].
+# '''Equipment buffs'''
+#* [[Ark Royal]] now has been given buffs when armed with Swordfish equipment
+#* [[Jintsuu]] now gets a buff when equipped with a [[searchlight]]
+#*[[Ooyodo]] has received a buff when armed with a [[15.5cm Triple Gun Mount (Main)]] and [[15.5cm_Triple_Gun_Mount_Kai_(Main)]]
+#** This can be further buffed by using a Radar
+#** Mogami-class also received a slight buff from said equipment
+#'''Experience Cap Increase'''
+#* Admiral Experience Cap has increased from 300 million to 360 million
+# ''' Bug Fix'''
+#* Minimize crashing that occurred from expeditions under certain conditions
+# '''Misc Update'''
+#* [[Sheffield]] can now perform Anti Air Cut-ins with British Equipment
+#* Special [[Murasame]] voice lines have been implemented
+# '''New BGM'''
+#* Valentine's Sea has been implemented on certain maps and can be implemented through the Naval Base Jukebox
+# '''New Expeditions'''
+#* The following New Expeditions have been implemented:
+#** Elite Destroyer Squadron Night Battle
+#** Contact with Friendly European Forces
+#** These expeditions are both monthly and will have heavy combat involved.
+#'''Noshiro Kai Ni'''
+#* [[Noshiro|Noshiro Kai Ni]] has been implemented, she will require a high level along with a blueprint and an action report.
+#* She also comes with new voices lines with her remodel
+#* She can also equip anti-installation equipment and Gyrocopters
+#* 4th equip slot has limitations
+
+== {{anchor|Newly Implemented Quests}}Newly Implemented Quests ==
+<!-- Note: Whenever an update introduces new quests, put them here instead of the sections below, especially because the repeatability of sortie quests (which puts them in different sections) can't be checked for a period of time. -->
+<!-- Latest Quest Numbers (here for convenience)
+    Composition: A74
+    Sortie: B94
+    Exercise (PVP): C12
+    Expedition: D21
+    Supply/Docking: E4
+    Factory: F53
+    Modernization: G5
+    Seasonal: SB29
+-->
+===February 5th, 2021===
+
+====Limited Time Quests====
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2102 LQ1
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =バレンタイン限定任務 【一号作戦】
+| nameen = Valentine's Limited Operation (Operation No.1)
+| req = Valentine's Limited Mission: Organize a fleet consisting of 1 Light Cruiser and two or more destroyers and patrol the Nansei Island Defense Line, the waters near the Nansei Islands, Bashi Channel, and the Eastern Orel Sea. Capture and destroy the enemy fleet in each area.
+
+*Organize a fleet consists of 1 CL, 2 DD, 3 XX and score an S rank (?) on 1-4, 2-1, 2-2, and 2-3
+| fuel = 0
+| ammo = 0
+| steel = 2021
+| bauxite = 214
+| other = {{QuestRewardItem|Food Supply Ship Mamiya}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Development Material|qty=4}} {{QuestRewardEquip|25mm Twin Autocannon Mount|qty=2}} {{QuestRewardItem|Furniture Fairy}}
+| notes = 
+| once  = True
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2102 LQ2
+| reqQuest = 2102 LQ1
+| reqQuest2 =
+| reqQuest3 =
+| namejp =バレンタイン限定任務 【二号作戦】
+| nameen = Valentine's Limited Operation (Operation No.2)
+| req = Valentine's Limited Mission: Organize a fleet with a light cruiser as flagship and sortie into the Oil Refinery Area, 
+Okashima Island Area, Northern Moray Sea, The Alfansols, and the Curry Ocean Operation in the Western Sea. Destroy the main enemy fleets in the area!
+
+* Organize a fleet with 1 CL, 5 XX and score an S rank on 1-3, 2-4, 3-1, 3-3, and 4-2 in the boss node.
+ 
+| fuel = 2021
+| ammo = 214
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Special Chocolate}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Medal}} {{QuestRewardItem|Reinforcement Expansion}} {{QuestRewardItem|Action Report}}
+| notes = 
+| once  = True
+}}
+{{ProtoQuests
+| type = PVP
+| listnum =  2102 LQ3
+| reqQuest =  C53
+| reqQuest2 =
+| reqQuest3 =
+| namejp =バレンタイン限定任務 【特別演習】
+| nameen = Valentine's Limited Operation (Special Exercise)
+| req = Valentine's Limited Operation: Organize a special fleet consisting of 1 Seaplane Tender, 1 Heavy Cruiser, 1 Light Cruiser, and 2 Destroyers in your fleet and with said fleet score 4 S rank victories in the same day
+
+*Organize a fleet consisting of 1 AV, 1 CA, 1 CL, 2 DD, 1 XX and score 4 S ranks in PVP.
+| fuel = 0
+| ammo = 2021
+| steel = 0
+| bauxite = 214
+| other = '''Choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardItem|New Model Aerial Armament Material}} {{QuestRewardItem|Development Material|qty=6}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Medal}} {{QuestRewardItem|Food Supply Ship Mamiya}} 
+| notes = 
+| once  = True
+}}
+|}
+
+====Permament Quests====
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B164
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =改装最新鋭軽巡「能代改二」、出撃せよ！
+| nameen = Remodeled State of the Art Light Cruiser Noshiro Kai Ni, Sortie!
+| req = Organize a fleet with Noshiro Kai Ni along with 3 destroyers under her command and sortie into the Okashima Area, Kis Island, Sav Islands, Brunei Anchorage, and deep within the Tawi-Tawi Anchorage. Capture and destroy the main enemy fleet.
+
+*Organize a fleet consists of [[Noshiro|Noshiro Kai Ni]], 3 DD and 2 XX in your fleet and score an S rank at the boss nodes on 2-4, 3-2, 5-3, 7-1, and 7-2 (Part 2)
+| fuel = 1026
+| ammo = 0
+| steel = 1944
+| bauxite = 0
+| other = {{QuestRewardEquip|15.2cm Twin Gun Mount Kai Ni}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|15.2cm Twin Gun Mount|qty=2}} {{QuestRewardEquip|8cm High-angle Gun|qty=2}} {{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}}
+| notes = 
+| once  = True
+}}
+{{ProtoQuests
+| type = PVP
+| listnum = C53
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =「精鋭軽巡」演習！
+| nameen = Elite Light Cruiser Exercise 
+| req = Organize a fleet consisting of 3 Light Cruiser type ships in the fleet, which includes one as the flagship (excluding Torpedo Cruisers) and 2 Destroyer in your fleet. With your fleet score 4 PVP victories (A ranks) within the same day.
+
+* Organize a fleet with 3 CL/CT (with one CL as flagship), 2 DD, 1 XX and score 4 A+ ranks in PVP on the same day.
+ 
+| fuel = 200
+| ammo = 0
+| steel = 200
+| bauxite = 200
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako}} {{QuestRewardItem|Instant Repair Material|qty=3}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|14cm Twin Gun Mount|qty=2}} {{QuestRewardEquip|15.2cm Twin Gun Mount|qty=2}} {{QuestRewardItem|Improvement Material|qty=3}}
+| notes = '''Yearly Quest'''<br/>''Reset February 1st''
+| once  =
+}}
+{{ProtoQuests
+| type = Expedition
+| listnum = D38
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 西方連絡作戦準備を実施せよ！
+| nameen = Preparation for Western Contact Operation
+| req = Complete the expeditions Western Sea Reconnaissance Operations, Submarine Dispatch Exercise, Submarine Dispatch Operation, and Contact with Friendly European Forces and successfully complete them
+*Complete Expeditions 29, 30, D1 and D3
+| fuel = 0
+| ammo = 900
+| steel = 500
+| bauxite = 500
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako|qty=2}} {{QuestRewardItem|Development Material|qty=6}} {{QuestRewardItem|Improvement Material|qty=3}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardEquip|Underway Replenishment|qty=2}} {{QuestRewardItem|New Model Armament Material}}
+| notes = '''Yearly Quest'''<br/>''Reset February 1st''
+| once  = 
+}}
+{{ProtoQuests
+| type = Modernization
+| listnum = G8
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 「軽巡」級の改修工事を実施せよ！
+| nameen = Carry Out the Light Cruiser Modernization Operation
+| req = Light Cruiser Modernization Mission: Prepare 800 steel and 400 bauxite, then prepare any light cruiser to be modernized with 3 other light cruiser and successfully complete this process 2 times.<br/>* After completing the mission, the reserve resources will be consumed.
+*Modernize a CL with 3 CT/CL(T) 2 times.
+| fuel = 500
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other =  '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardItem|Development Material|qty=3}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|25mm Single Autocannon Mount|qty=2}} {{QuestRewardItem|Food Supply Ship Irako}}
+| notes = '''Yearly Quest'''<br/>''Reset February 1st''
+| once  =
+}}
+{{ProtoQuests
+| type = Modernization
+| listnum = G9
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 続：「軽巡」級の改修工事を実施せよ！
+| nameen = Continuation: Carry Out the Light Cruiser Modernization Operation
+| req = Light Cruiser Modernization Mission: Prepare 900 steel and 900 ammo, then prepare any light cruiser to be modernized with 3 other Heavy cruisers and successfully complete this process 2 times.<br/>* After completing the mission, the reserve resources will be consumed.
+*Modernize a CL with 3 CA(V) 2 times.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 500
+| other =  '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=4}} {{QuestRewardEquip|15.2cm Twin Gun Mount}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Type 22 Surface Radar|qty=2}} {{QuestRewardItem|Improvement Material|qty=2}}
+| notes = '''Yearly Quest'''<br/>''Reset February 1st''
+| once  =
+}}
+|}
+[[Category:Game Updates]]

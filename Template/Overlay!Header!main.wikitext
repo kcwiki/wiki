@@ -1,0 +1,78 @@
+<onlyinclude><!--
+-->{{#switch:{{{float|right}}}<!--
+	-->|right=<!--
+		-->{{#switch:{{{headerLevel|1}}}<!--
+			-->|1=<!--
+					--><h1 style="padding:0.2em 0.4em 0.2em 0.4em; margin:{{{marginTop}}} 0 {{{marginBottom}}} 0; border:2px solid #000; background:#5A91CF; color:#FFF; font-weight:bold; text-align:left; -moz-border-radius:0.2em; height:26px; font-size:27px;"><!--
+						--><span style="float:right; color:#ffffff"><!--
+								-->{{#if:{{{headlineTextLink|}}}|[[{{{headlineTextLink}}}|<span style="color:#ffffff; font-size:{{{level1Size}}};">{{{headlineText|error}}}</span>]]|<span style="color:#ffffff; font-size:{{{level1Size}}};">{{{headlineText|error}}}</span>}}<!--
+						--></span><!--
+					--></h1><!--
+			-->|2=<!--
+					--><h2 style="padding:0.12em 0.4em 0.2em 0.4em; margin:{{{marginTop}}} 0 {{{marginBottom}}} 0; border:2px solid #000; background:#5A91CF; color:#FFF; font-size:{{{level2Size}}}; font-weight:bold; text-align:left; -moz-border-radius:0.2em; height:20px; font-size:27px;"><!--
+						--><span style="float:right; color:#ffffff; font-size:{{{level2Size}}};"><!--
+							-->{{#if:{{{editSectionLink|}}}|<!--
+								--><table style="border:0; padding:0px; margin:0; border-spacing:0px; border-collapse:collapse; float:right;"><tr><!--
+									--><td border="0" cellspacing="0" cellpadding="0" style="width:16px; text-align:right; padding-right:1px; margin:0px; border:0px;"><!--
+										-->{{Css Image Crop<!--
+											-->|firstDivStyle=text-align:right;<!--
+											-->|Image = WikiaSkinSprite.png<!--
+											-->|bSize = 1208px<!--
+											-->|cWidth = 16<!--
+											-->|cHeight = 16<!--
+											-->|oTop = 48<!--
+											-->|oLeft = 1000<!--
+											-->|Location=none<!--
+											-->|link={{fullurl:{{{editSectionLink|}}}|action=edit}}<!--
+											-->|divTitle={{{editSectionHoverText|}}}<!--
+										-->}}<!--
+									--></td><!--
+									--><td nowrap="nowrap" border="0" cellspacing="0" cellpadding="0" style="padding:0px; margin:0px; border:0px; display: inline-block;"><!--
+										-->{{#if:{{{headlineTextLink|}}}{{{editSectionLink|}}}|[[{{#if:{{{headlineTextLink|}}}|{{{headlineTextLink|}}}|{{{editSectionLink|}}}}}|<span {{#if:{{{headlineTextLink|}}}||{{#if:{{{editSectionHoverText|}}}|title="{{{editSectionHoverText|}}}"}}}} style="color:#ffffff; font-size:{{{level2Size}}};">{{{headlineText|error}}}</span>]]|{{{headlineText|error}}}}}<!--
+									--></td><!--
+								--></tr></table><!--
+							-->|{{#if:{{{headlineTextLink|}}}|[[{{{headlineTextLink}}}|<span style="color:#ffffff; font-size:{{{level2Size}}};">{{{headlineText|error}}}</span>]]|<span style="color:#ffffff; font-size:{{{level2Size}}};">{{{headlineText|error}}}</span>}}<!--
+							-->}}<!--
+						--></span><!--
+					--></h2><!--
+		-->}}<!--
+	-->|left=<!--
+		-->{{#switch:{{{headerLevel|1}}}<!--
+			-->|1=<!--
+					--><h1 style="padding:0.2em 0.4em 0.2em 0.4em; margin:{{{marginTop}}} 0 {{{marginBottom}}} 0; border:2px solid #000; background:#5A91CF; color:#FFF; font-weight:bold; text-align:left; -moz-border-radius:0.2em; height:26px; font-size:27px;"><!--
+						--><span style="float:left; color:#ffffff"><!--
+							-->{{#if:{{{editSectionLink|}}}|<!--
+								--><table style="border:0; padding:0px; margin:0; border-spacing:0px; border-collapse:collapse; float:right;"><tr><!--
+									--><td nowrap="nowrap" border="0" cellspacing="0" cellpadding="0" style="padding:0px; margin:0px; border:0px; display: inline-block;"><!--
+										-->{{#if:{{{headlineTextLink|}}}|[[{{{headlineTextLink}}}|<span style="color:#ffffff; font-size:{{{level1Size}}};">{{{headlineText|error}}}</span>]]|{{{headlineText|error}}}}}<!--
+									--></td><!--
+									--><td border="0" cellspacing="0" cellpadding="0" style="width:16px; text-align:right; padding-left:6px; margin:0px; border:0px;"><!--
+										-->{{Css Image Crop<!--
+											-->|firstDivStyle=text-align:right;<!--
+											-->|Image = WikiaSkinSprite.png<!--
+											-->|bSize = 1208px<!--
+											-->|cWidth = 16<!--
+											-->|cHeight = 16<!--
+											-->|oTop = 48<!--
+											-->|oLeft = 1000<!--
+											-->|Location=none<!--
+											-->|link={{fullurl:{{{editSectionLink|}}}|action=edit}}<!--
+											-->|divTitle={{{editSectionHoverText|}}}<!--
+										-->}}<!--
+									--></td><!--
+								--></tr></table><!--
+							-->|{{#if:{{{headlineTextLink|}}}|[[{{{headlineTextLink}}}|<span style="color:#ffffff; font-size:{{{level1Size}}};">{{{headlineText|error}}}</span>]]|<span style="color:#ffffff; font-size:{{{level1Size}}};">{{{headlineText|error}}}</span>}}<!--
+							-->}}<!--
+						--></span><!--
+					--></h1><!--
+			-->|2=<!--
+					--><h2 style="padding:0.15em 0.4em 0.15em 0.4em; margin:{{{marginTop}}} 0 {{{marginBottom}}} 0; border:2px solid #000; background:#5A91CF; color:#FFF; font-size:{{{level2Size}}}; font-weight:bold; text-align:left; -moz-border-radius:0.2em; height:20px; font-size:27px;"><!--
+						--><span style="float:left; color:#ffffff; font-size:{{{level2Size}}};"><!--
+								-->{{#if:{{{headlineTextLink|}}}|[[{{{headlineTextLink}}}|<span style="color:#ffffff; font-size:{{{level2Size}}};">{{{headlineText|error}}}</span>]]|<span style="color:#ffffff; font-size:{{{level2Size}}};">{{{headlineText|error}}}</span>}}<!--
+						--></span><!--
+					--></h2><!--
+		-->}}<!--
+-->}}<!--
+--></onlyinclude><noinclude>
+[[Category:Map Templates]]
+</noinclude>

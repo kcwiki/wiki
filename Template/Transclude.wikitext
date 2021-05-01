@@ -1,0 +1,10 @@
+{{#switch: {{NAMESPACE: {{{1}}} }}
+ |#default = {{FULLPAGENAME: {{{1}}} }}
+ |{{ns:0}} = 
+    {{#ifeq: {{NAMESPACE: {{{1}}} }} | {{NAMESPACE: Template{{{1}}} }}
+      | Template:{{{1}}}
+      | {{PAGENAME: {{{1}}} }}
+    }}
+}}<noinclude>
+{{documentation}}
+</noinclude>

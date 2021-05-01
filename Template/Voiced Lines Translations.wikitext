@@ -1,0 +1,17 @@
+<noinclude>{|
+</noinclude>|-
+{{#switch: {{{Type}}}
+| #default = {{!}}{{{Situation}}}
+ {{!}}{{Audio|file={{{Filename}}}.ogg}}
+ {{!}} lang="ja" xml:lang="ja" {{!}}{{{Original Japanese Line}}}
+ {{!}}{{{English Translation}}}
+| seasonal = {{!}} [[{{{Name}}}]]
+<!-- This line below adds banner of the ship girl but that requires both standardizing and adding banner files -->
+<!-- {{!}}[[文件:KanMusu{{{编号}}}Banner.jpg|120px|{{{舰娘名字}}}|link={{{舰娘链接|{{{舰娘名字}}}}}}]] -->
+ {{!}}{{Audio|file={{{Filename}}}.ogg}}
+ {{!}} lang="ja" xml:lang="ja" {{!}}{{{Original Japanese Line}}}
+ {{!}}{{{English Translation}}}
+}}<noinclude>
+|}
+{{documentation}}
+</noinclude>

@@ -1,0 +1,115 @@
+{{sandbox}}
+===Extra Sandboxes===
+[[Sandbox2|Sandbox2]]
+
+===Nolines===
+<gallery mode="nolines" widths="200px">
+File:Equipment225-1.png
+File:Equipment225-2.png
+File:Equipment225-3.png
+File:Equipment225-4.png
+</gallery>
+
+===Slideshow (>mw1.28)===
+<gallery mode="slideshow" widths="200px">
+File:Equipment225-1.png
+File:Equipment225-2.png
+File:Equipment225-3.png
+File:Equipment225-4.png
+</gallery>
+
+==New Event Preparation Guide==
+
+Key target of guide: Beginning-Early intermediate players
+
+Objective: Provide framework for base easy event preparation, while aiming to teach skills to progress to intermediate
+
+[[Sandbox/New Guide Introduction|Intro]]
+
+[[Sandbox/Event Planning|Event Planning]]
+
+[[Sandbox/Key Ships|Key Ship List]]
+
+[[Sandbox/Key Mechanics|Key Event Mechanics]]
+
+[[Sandbox/Beyond Easy|Moving Beyond Easy]]
+
+
+=Sample Node=
+==Sea in Front of the Naval Base==
+{{AreaDetails
+ |AreaCode              =1-1
+ |MapAreaCode           =1-1
+ |AreaOrigName          =鎮守府正面海域
+ |AreaTransName         =Sea in Front of the Naval Base
+ |Difficulty            =☆
+ |OperationOrigName     =近海警備
+ |OperationTransName    =Coastal Waters Defense
+ |OperationOrigContent  =鎮守府正面近海の<br />警備に出動せよ！
+ |OperationTransContent =Mobilize for a patrol of the waters outside the naval base!
+ |Tips         =*This map is used for [[Morale/Fatigue#Running_1-1_solo|flagship-sparkling]].
+**This entails running the ship you want sparkled in the flagship position. Sometimes this is done alone, which minimizes MVP-theft (a rare problem); however, more commonly two "trash" vessels (destroyers picked up from 1-1 while you are sparkling) are placed in the second and third slots to minimize the chances of enemy vessels scratching your flagship. They are not refueled, and are scrapped or used as modernization fodder once they can no longer be deployed.
+*The short length, harmless enemies, and 50% boss encounter rate make this map ideal for completing [[Quests#Bw1|Bw1]].
+**You are recommended to sparkle ships while completing this.
+}}
+
+==Japan Coastal Waters/Nanao Northern Bay/Maizuru Bay==
+{{AreaDetails
+ |AreaCode              =E-1
+ |MapAreaCode           =37-1
+ |AreaOrigName          =日本近海/七尾北湾/舞鶴湾
+ |AreaTransName         =Japan Coastal Waters/Nanao Northern Bay/Maizuru Bay
+ |Difficulty            =☆☆☆☆☆☆☆
+ |OperationOrigName     =「光」作戦準備
+ |OperationTransName    =Preparation for Operation Hikari
+ |OperationOrigContent  =
+ |OperationTransContent =
+ |AreaTP                =100
+ |EventCommonRewards    =[[Reinforcement Expansion]]<br />Submarine Dresser<br />2nd Land Based Air Squadron
+ |EventOpARewards       =[[Zuiun (631 Air Group)]], Irako x 3, Mamiya
+ |EventOpBRewards       =[[Zuiun (631 Air Group)]], Irako x 2
+ |EventOpCRewards       =Irako
+ |Tips                  =*'''Important Note:''' Upon depleting the TP gauge, you will need to complete the map one more time in order to actually finish it
+*'''Recommended Compositions:'''
+**No (F)BBs are allowed on this map.
+**4-6SS(V)
+***Using all submarines can make the map relatively easy and will reduce the gauge very quickly.
+***On lower difficulties, 4SS can make it through the map relatively unharmed. 
+***LBAS strikes should be focused on node B.
+***There are no LoS checks for this map.
+**For people who lack the subs needed 
+***0-1CAV 1-2CL, 3-4 DD 0-2 SS(V)
+****Good for map clearing up till the final run
+*'''Final Run Composition:'''
+**1CA(V), 1CVL, CL, 3DD
+***Since you're facing additional battles in Wo-class Nodes, additional air defence is required.
+*'''Post Clear Run Composition:'''
+**1CA(V), 2CL, 3DD
+***Can be used for post-clear run and evades Node D.
+*TP Gauge on this map is depleted based upon the type of ships you bring (submarines seems to have the most impact) and the number of Zuiun and Seiran seaplane bombers you have equipped in your fleet (which also aid in depleting the TP Gauge).
+*Once you pass '''Node I''', you can safely advance even with ships at red health, as the nodes after that do not involve any more battles.
+*On the final run, the map will change its routing and your fleet will encounter more battles where you'll face more carrier battles and air attacks unless you follow the requirements to prevent being sent to Node D. <br>
+'''Recommended LBAS Attack locations:'''<br>
+'''Node B''' and '''Node I'''
+*Use All Torpedo Bombers or Land Based Attack Aircrafts
+**If using an all-Submarine team, it may be advisable to deploy your LBAS to Node B.
+**If you're aiming to farm Node I you may want to eliminate the surface ships so your fleet has a better chance for S-rank.
+ |OpAEnemyData          ={{EnemyComposition
+   |node          =A
+   |nodeorigname  =敵侵入潜水艦隊 先遣群
+   |nodetransname =
+   |formation     ={{Formation|echelon}}{{Formation|abreast}}
+   |enemy         ={{AbyssalBanner|534|110px}}{{AbyssalBanner|532|110px}}{{AbyssalBanner|532|110px}}
+   |formation2    ={{Formation|echelon}}
+   |enemy2        ={{AbyssalBanner|534|110px}}{{AbyssalBanner|532|110px}}{{AbyssalBanner|532|110px}}{{AbyssalBanner|532|110px}}
+  }}
+  {{EnemyComposition
+   |node          =B
+   |nodeorigname  =深海軽快戦隊 先行侵入群
+   |nodetransname =
+   |formation     ={{Formation|ahead}}
+   |enemy         ={{AbyssalBanner|527|110px}}{{AbyssalBanner|554|110px}}{{AbyssalBanner|575|110px}}{{AbyssalBanner|575|110px}}{{AbyssalBanner|501|110px}}{{AbyssalBanner|501|110px}}
+   |formation2    ={{Formation|ahead}}{{Formation|double}}
+   |enemy2        ={{AbyssalBanner|527|110px}}{{AbyssalBanner|527|110px}}{{AbyssalBanner|554|110px}}{{AbyssalBanner|575|110px}}{{AbyssalBanner|575|110px}}{{AbyssalBanner|575|110px}}
+  }}
+}}

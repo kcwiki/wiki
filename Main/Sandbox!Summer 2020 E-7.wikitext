@@ -1,0 +1,814 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consist and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct thier own version of thier guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editor's work without the full consent of the editor and his approval to do so. 
+
+Several version will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Summer 2020 Event]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 version of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version the guide, the said guide will be updated to the main page and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+'''Projected Deadline for E-7 Guide Release: 7/25/2020 Midnight''' (Not enforced, but only hope to achieve the goal of completion by said date due to map's complexity.)
+
+==Guide Thing==
+
+E-7 is a complicated map that has multiple requirements across different phases, some of which are repeated across different phases, with a total of '''three''' different shiplocks on Hard. (There are no shiplocks on all other difficulties.) This preliminary guide is written with the assumption that the player is playing on Hard difficulty. Nevertheless, the ships used and options listed here are broadly applicable regardless of difficulty.
+
+===Introduction===
+
+E-7 has three boss phases, as well as a number of unlocking/debuff phases:
+
+#Boss 1: Lycoris (Node X)
+#Unlock Phase for Boss 2
+#Boss 2: Summer CV Princess (Node Y)
+#Unlock Phase for Boss 3
+#Unlock Phase for Start Point 4
+#Boss 3: South Pacific Aircraft Carrier Princess (Node Z)
+#Boss 3 Last Dance Debuff
+
+Additionally, the three different shiplocks on Hard are as follows:
+
+*Single Fleet
+*Surface Task Force (STF) and Transport Combined Fleet (TCF)
+*Carrier Task Force (CTF)
+
+Each fleet starts at a different starting point, and there may be differences in routing depending on which phase of the map is currently active. '''Only''' a CTF can sortie from Start Point 4 once it has been unlocked.
+
+As with shiplocks in general, you '''cannot''' sortie with ships from different locks in the same fleet. It is therefore even more important to be aware of what type of fleet you are sortieing before deploying to this map, to avoid accidentally locking ships to the wrong lock. This obviously does not apply to difficulties below Hard. Also, it is worth noting that E7 does not enforce its locks post-clear, should you want to farm the map for drops afterwards.
+
+Once again, '''be aware of your fleet type before sortieing, or risk ruining your entire map run'''.
+
+The following ships have bonuses on this map:
+
+{{:Summer_2020_Event/E-7/historical_ships}}
+
+===Boss 1: Lycoris===
+
+This is arguably the most straightforward boss of the map; the battles along the route are more difficult to pass than the boss node itself.
+
+While there are bonus ships for this phase, you probably want to save some of them for later parts of the map where they have higher utility; examples include [[Kongou]] and [[Haruna]], as well as [[Myoukou]] and [[Naganami]], and possibly [[Junyou]], all of which are arguably better deployed in CTF instead for later parts of the map. However, ships such as [[Kawakaze]], [[Umikaze]], and [[Kuroshio]] are useful for this part because of their anti-installation capabilities.
+
+Sample Fleet - '''Fast''' STF:
+*'''2FBB/2-3DD/1AV or CAV/0-1CA(V) + 1CL/3-4DD/1-2CA'''
+**Make sure you have '''4 surface radars''' total equipped to avoid off-routing.
+**Standard anti-installation doctrine applies. While FBBs can keep AP shells for APCI (for pass rate along route, amongst other things), CA(V)s should have T3 shells for bonus damage against installations. DDs in the main fleet should have anti-installation nuke set-ups to deal with the 3 Supply Princesses in the boss' main fleet.
+***Nuke Set-Up: 1 [[WG42]] or [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]] / 1 [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]] / 1 [[Type 2 Ka-Mi Tank]]
+***Most players probably don't have enough equipment for this set-up across 3 DDs, so the third DD (if used) will likely have to include just 2/3 of the equipment listed above and a surface radar for the routing requirement. Otherwise, just use 2DDs and an additional CA(V).
+**Escort fleet should have Double-Attack set-ups for the night battle, such as 2 guns 1 [[Toku Daihatsu Landing Craft + 11th Tank Regiment]] / 1 [[WG42]] / 1 [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]] or concentrated variant. As above, CAs should use T3 shells. You do not really need recon seaplanes in escort as you will probably hit AP at best at the boss, but keep in mind the LoS check close to the boss node (and having artillery spotting can help with pass rate at nodes along the route in general).
+**At least 1 AACI DD is recommended as you will probably be encountering AP or even AD at the air battle nodes and the boss (depending on number of CA(V) and AV, as well as quality of SPF).
+*Route: '''F-I-K-N-O-X'''
+**The route nodes are more dangerous than the boss node, as there there is a chance of encountering an Abyssal fleet in Vanguard formation at Nodes I and O. Air Battle Nodes F and N can also be dangerous as you will likely only manage AP or AD at these nodes. Nevertheless, you should generally be able to defeat the boss if you reach the boss node.
+***Boss gets slightly more difficult during LD as her escort fleet and the Supply Princesses are changed, and you will likely suffer from AD due to the increased FP, but clearing should not be too difficult compared to the pre-LD comp.
+***It may be worth swapping 1 FBB's position from main to escort for LD to help with clearing the escort fleet out to ensure that you engage the boss' main fleet during the night battle, if necessary.
+*LBAS: 6 waves of LBAS to boss, each base should have 1 Land-Based Fighter 3 Land-Based Bombers and be able to attain AD at the boss. Use a calculator to figure out if requirements are met for AD.
+**May need to be adjusted for LD as the boss has slightly higher FP.
+*Support Expeditions: Boss Support Expedition is generally useful, especially in LD where the Abyssal DDs in the escort have Opening Torpedo capability. Node Support is debatable (since it is unlikely to be effective against the Vanguard comps mentioned above), but can help somewhat with pass rate assuming those comps are not encountered.
+**Resource cost is a factor as well, of course. Keep in mind that this entire phase is just the beginning of a very, ''very'' long slog.
+
+===Unlock Phase for Boss 2===
+
+This unlock phase is fairly straightforward:
+
+*AS on Nodes E, F, H
+*S Rank on Node R
+*Reach Node J (non-battle node)
+*Attain AS during base defence x2
+
+The most optimal means of doing the requirements is as follows:
+
+*Sortie a single submarine until you trigger the base defence sequence, with all bases set to defend. Do this two times.
+**The base defence can trigger across a large range of values (where values are number of nodes visited so far), so this may take some time even if you sortie the submarine for a full 2-3 nodes.
+*Sortie a full submarine fleet with SSVs equipped with SPFs to Nodes E & F. Use LBAS to provide FP.
+**A-B-F or A-C-E, A is active branching.
+**Make sure the submarines also have a decent amount of LoS so that you pass the LoS check at the nodes.
+**Alternative for those lacking SSVs/SPFs: ''IDK lol, someone fill this out thx''.
+*Sortie a CTF to Node H, then reach Node J.
+**You don't really need LBAS for this part as the CTF should have more than enough FP for the node.
+*Sortie a Fast STF that routes F-I-M-R. Use one LBAS with ASW to help with node M; the other two bases can be set to rest or to help with pass rate at the other surface nodes.
+**This LBAS set-up will also largely mirror what you will be using for the next boss phase, at least until LD.
+
+===Boss 2: Summer CV Princess===
+
+YYY
+
+===Unlock Phase for Boss 3===
+
+Still fairly straightforward. The requirements are:
+
+*XX
+
+===Unlock Phase for Start Point 4===
+
+After the final boss node has been unlocked, it becomes possible to unlock Start Point 4, which will then be the default starting point for a '''CTF''' that meets the requirements listed in the branching rules. This is where the requirements begin to get rather onerous (this statement remains applicable all the way through until LD debuff). The requirements for unlocking Start Point 4 are as follows:
+
+*XXX
+
+===Boss 3: South Pacific Aircraft Carrier Princess===
+
+Chipping the boss from Start Point 4 is significantly quicker and more consistent compared to beginning from the original CTF start point. Sample fleets are as follows:
+
+[Table maybe?]
+
+*Shortest Route: 4-Z2-W2-W4-Z
+*Alternative Route (Additional Sub Princess Node Z1): 4-Z2-Z1-W2-W4-Z
+
+Z2: Surface Node with possibility of encountering an Abyssal Vanguard formation (locks to Line Ahead on LD[?]).
+
+Z1: Submarine Node with Submarine Princess (Summer Variant).
+
+W4: Air Battle Node.
+
+The main differences between the two routes are 1) The additional submarine node; and 2) More restrictive speed and large ship limitations for the shorter route. Generally, taking the shortest route should suffice for chipping pre-LD, especially with Friend Fleets now available. Taking the shorter route also allows for all 3 LBAS to be committed to the boss node, while the longer route may need 1 base of Toukai/ASW planes for consistent pass rate at Z1. Node Support is optional; Boss Support may be useful even pre-LD to help with clearing the Escort Fleet prior to the Opening Torpedo phase.
+
+Regardless of your preferred route, it may be worth using [[South Dakota]] here to avoid potentially rolling some of the weaker FFs. Most variants of the [[Hiryuu]]/[[Souryuu]] and [[Akagi]]/[[Kaga]] (added in 7 August patch) FF are very strong here as they are equipped with Murata TBs and NCVCI capability.
+
+Once you are within LD range, the debuff specific to the boss ship (South Pacific Aircraft Carrier Princess) becomes available.
+
+===Boss 3 Last Dance Debuff===
+
+Yet another exercise in revisiting previous nodes, the requirements are:
+
+*XXX
+
+Some things to keep in mind for LD:
+*Ultimately, you're rolling for critical hits against the boss fleet, and any engagement less optimal than Parallel is less likely to clear due to the multipliers involved.
+*Use of the [[Nagato]]/[[Mutsu]] special attack is recommended.
+**[[User:Tsubakura|Tsuba]] has run the numbers for Nagato's special attack and reached the following conclusions:
+***A Nagato/Mutsu pair has higher damage output when the special attack triggers, but does significantly less damage outside of the special attack.
+****[Insert equipment loadout here]
+***A Nagato/SoDak pair has lower damage output when the special attack triggers, but unlike the above, SoDak still has the potential to cause significant damage outside of the special attack.
+****[Insert equipment loadout here]
+****[Same caveat about SoDak FF blocking here]
+**Both options are viable, up to player here
+*[Insert usual thing about F5 to preserve plane ranks here]
+*Node support effectively mandatory, ASW to help with pass rate at the sub node (you're almost definitely going heavy for LD, so you eat the extra sub node).
+**Unless you don't have 3 Murata TBs, then might need to consider alternatives.
+
+==DarkHeron's Proposal==
+
+* This Map contains a total of 3 Different Shiplocks & Shiplock only matter for '''HARD''' Mode
+** Medium and Below will not Enforce Shiplocks
+* The Locks are for '''STF''' '''CTF''' & '''Single Fleet'''
+** '''Single Fleet''' Lock will only be needed for Unlocking in '''Phase 1.5''' Only
+'''Phase 1: Defeat Lycoris Hime "Again"'''
+* This Boss is the same as what you faced against in E6P1 with the exception of in Hard mode, you will face Lycoris and 3 Supply Depot instead of 2 Supply Depot
+** There will be no PT Imps at all in this boss. The main goal is to focus everything for anti Installation
+* Fleet: 2 FBB 1 CA(V) 1 AV 1 CL 1 DD + 1 CL 1 CA 4 DD
+** The fleet must be fast
+** ''' You must have 4 radar in the fleet and you cannot stack radars in 1 ship. You will need to spread 4 radar on 4 different ship'''
+* Route: F-I-K-N-O-X
+
+'''Phase 1.5: Unlocking the Second Boss (Node Y)'''
+
+{{:Summer 2020 Event/E7/Boss 2 Unlocking Guide}}
+
+'''Phase 2: Defeat Carrier Hime Summer mode'''
+* You will be facing against CV Hime in this Phase and boss so bring a lot of air power to AS the boss.
+* Route: D-H-V-V1-V3-V4-Y
+* Fleet: 2 FBB 2 CV(B) 2 CA(V) + 1 CL 1-2 CA(V) 3-4 DD
+** '''The Fleet must be FAST'''
+* The Murata Squadron has a Bonus on Node Y but the bonus do not stack on top of each other
+** It is recommended that if you have 2 Murata Squadrom, have 1 Murata on each CV(B) instead of having them both on
+
+
+'''Phase 2.5: Unlock the Final Boss Node (Node Z)'''
+
+{{:Summer 2020 Event/E7/Boss 3 Unlocking Guide}}
+
+'''Phase 2.75: Starting Point Unlock Gimmick'''
+
+{{:Summer 2020 Event/E7/New Start Point Gimmick}}
+
+'''Phase 3: Defeat Abyssal Hornet'''
+
+'''Armor Reduction Phase (Debuff)'''
+{{:Summer 2020 Event/E7/Boss 3 Debuff}}
+
+==Totaku's Proposal==
+The guide that will be assembled for now will be a fusion of Solo's concepts, Dark's idea, and whatever I can put together to fill the gap. 
+
+===Preparation===
+
+E-7 is a complicated map that has multiple requirements across different phases, some of which are repeated across different phases, others which will require different set ups.
+
+This preliminary guide is written with the assumption that the player is playing on Hard difficulty. Nevertheless, the ships used and options listed here are broadly applicable regardless of difficulty.
+
+'''On Hard mode only''', there are a total of '''three''' different shiplocks. (There are no ship locks on all other difficulties.)
+
+These locks will consist of the following fleets that you must carefully plan out before launching into the map:
+
+* [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard (Surface Task Force/ Transport Combined Fleet)'''
+
+* [[File:RainySeason2020EventGreyAdvanceTag.png]] '''Advance Force (Single Fleet)'''
+
+* [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force (Carrier Task Force)'''
+
+Due to the fact that you will need to split up 3 different ship groups to take on different parts of the map, it will be important to make sure you set up your fleet appropriately before you commence with the sortie.
+
+Failure to do so may result in your ships being locked in the wrong group and can potentially result in your having to change your strategy or possibly forfeit hard mode difficulty.
+
+In addition to this, it's recommended to use only a small team of historicals for the STF while reserving your main line of historical ships for the CTF fleet.
+
+Each fleet starts at a different starting point, and there may be differences in routing depending on which phase of the map is currently active. '''Only''' a CTF can sortie from Start Point 4 once it has been unlocked.
+
+As with shiplocks in general, you '''cannot''' sortie with ships from different locks in the same fleet. It is therefore even more important to be aware of what type of fleet you are sortieing before deploying to this map, to avoid accidentally locking ships to the wrong lock. This obviously does not apply to difficulties below Hard. Also, it is worth noting that E7 does not enforce its locks post-clear, should you want to farm the map for drops afterwards.
+
+Once again, '''be aware of your fleet type before sortieing, or risk ruining your entire map run'''.
+
+Below are the following steps you must consider before you take on this map should you choose to do it on hard mode.
+<tabber>
+|-|Task Force Vanguard (STF) Questions=
+* [[File:RainySeason2020EventGreyVanguardTag.png]]'''Task Force Vanguard Questions'''
+#Do you have 2 Fast BB that are still in reserve that are not historically related?
+#Do you have at least 1 CAV or AV?
+#Do you have at least 4 Seaplane fighters?
+#Do you have enough Anti-installation gear to spread around among a team of CLs and DDs that will need to have for both main and escort fleet?
+#Do you have an AACI ship that is not [[Atlanta]]?
+#Do you have at still have 4 or more slot CLs like [[Ooyodo]], [[Gotland]], Italian CLs, or [[Yuubari|Yuubari Kai Ni Toku]]?
+#Do you still have anti-installation DDs like Asashio-class DDs, [[Umikaze]], [[Shiratsuyu]], [[Murasame]], and [[Kuroshio]] left over?
+#Do you have 2 CVL in reserve that are or can be made fast that are not [[Zuihou]] or [[Junyou]]?
+|-|Advance Force (SF) Questions=
+* '''[[File:RainySeason2020EventGreyAdvanceTag.png]] Advance Force Questions'''
+#Do you have 2 or more CV/CVL that you haven't used that will have less of an important role compared to [[Shoukaku]], [[Zuikaku]], [[Akagi]] and/or [[Saratoga]]? (assuming you have these units still in reserve)
+#Do you have at least 4 DD/DE that are not historically relevant that can take up an ASW role?
+#Alternatively, do you have 6 subs in reserve that can carry seaplane fighters?
+#Do you have around 6-12 Seaplane fighters?
+|-|Task Force (CTF) Questions=
+* [[File:RainySeason2020EventGreyTaskForceTag.png]]  '''Task Force Questions'''
+#Do you still have [[Nagato|Nagato Kai Ni]] or [[Mutsu|Mutsu Kai Ni]] in reserve?
+#Is [[South Dakota]] trained up to Kai? (Recommended but optional)
+#Do you have [[Kongou|Kongou Kai Ni C]] and [[Haruna|Haruna Kai Ni]]?
+#Do you have several CVs remaining in reserve (you will need at least 4)
+#Do you have among them [[Shoukaku]] and [[Zuikaku]]?
+#Do you have other CVs such as [[Akagi]], [[Kaga]] or [[Saratoga]]?
+#Do you have a Light Carrier in reserve such as [[Junyou]] or [[Zuihou]]?
+#Do you have an AACI ship, prefferably [[Atlanta]]?
+#Do you still have a team of historical DDs that can TCI or be made into a TCI and/or [[Guitarsolo]] with a skilled lookout?
+#Do you have among those [[Yukikaze]], [[Naganami]], [[Makigumo]] and [[Kazagumo]]?
+#Do you have at least 3 CAV / Italian CAs in reserve that include [[Kumano]]?
+</tabber>
+
+Due to the amount of questions, the solution will be left to the player to decide if they can truly take on this operation on hard. It is unknown how well you will be able to handle the map until you try for yourself. But we recommend that you meet up with at least 80-90% of the requirements listed before trying to challenge yourself in hard mode due to the sheer amount of planning that will be involved.
+
+===Introduction===
+
+E-7 has three boss phases, as well as a number of unlocking/debuff phases:
+
+#Phase 1: Destroy Lycoris Princess Again (Node X)
+#Phase 2: Unlock path to Summer Carrier Princess
+#Phase 3: Sink the Summer Carrier Princess (Node Y)
+#Phase 4: Unlock path to the South Pacific Aircraft Carrier Princess
+#Phase 5: Unlock the 4th Starting Point (Short cut)
+#Phase 6: Battle the South Pacific Aircraft Carrier Princess (Node Z)
+#Phase 7: Last Dance Debuff
+#Phase 8: Sink the South Pacific Aircraft Carrier Princess
+
+The following ships have bonuses on this map:
+
+{{:Summer_2020_Event/E-7/historical_ships}}
+
+===Phase 1: Destroy Lycoris Princess Again (Node X)===
+
+This is arguably the most straightforward boss of the map; the battles along the route are more difficult to pass than the boss node itself.
+
+While there are bonus ships for this phase, you probably want to save some of them for later parts of the map where they have higher utility; examples include [[Kongou]] and [[Haruna]], as well as [[Myoukou]] and [[Naganami]], and possibly [[Junyou]], all of which are arguably better deployed in CTF instead for later parts of the map. However, ships such as [[Kawakaze]], [[Umikaze]], and [[Kuroshio]] are useful for this part because of their anti-installation capabilities.
+
+'''Recommended Fleet:''' [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/STF''' '''Fast''':
+*'''2FBB/2-3DD/1AV or CAV/0-1CA(V) + 1CL/3-4DD/1-2CA'''
+**Make sure you have '''4 surface radars''' total equipped to avoid off-routing.
+**Standard anti-installation doctrine applies. While FBBs can keep AP shells for APCI (for pass rate along route, amongst other things), CA(V)s should have T3 shells for bonus damage against installations. DDs in the main fleet should have anti-installation nuke set-ups to deal with the 3 Supply Princesses in the boss' main fleet.
+***Nuke Set-Up: 1 [[WG42]] or [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]] / 1 [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]] / 1 [[Type 2 Ka-Mi Tank]]
+***Most players probably don't have enough equipment for this set-up across 3 DDs, so the third DD (if used) will likely have to include just 2/3 of the equipment listed above and a surface radar for the routing requirement. Otherwise, just use 2DDs and an additional CA(V).
+**Escort fleet should have Double-Attack set-ups for the night battle, such as 2 guns 1 [[Toku Daihatsu Landing Craft + 11th Tank Regiment]] / 1 [[WG42]] / 1 [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]] or concentrated variant. As above, CAs should use T3 shells. You do not really need recon seaplanes in escort as you will probably hit AP at best at the boss, but keep in mind the LoS check close to the boss node (and having artillery spotting can help with pass rate at nodes along the route in general).
+**At least 1 AACI DD is recommended as you will probably be encountering AP or even AD at the air battle nodes and the boss (depending on number of CA(V) and AV, as well as quality of SPF).
+*Route: '''F-I-K-N-O-X'''
+**The route nodes are more dangerous than the boss node, as there is a chance of encountering an Abyssal fleet in Vanguard formation at Nodes I and O. Air Battle Nodes F and N can also be dangerous as you will likely only manage AP or AD at these nodes. Nevertheless, you should generally be able to defeat the boss if you reach the boss node.
+***Boss gets slightly more difficult during LD as her escort fleet and the Supply Princesses are changed, and you will likely suffer from AD due to the increased FP, but clearing should not be too difficult compared to the pre-LD comp.
+***It may be worth swapping 1 FBB's position from main to escort for LD to help with clearing the escort fleet out to ensure that you engage the boss' main fleet during the night battle, if necessary.
+*LBAS: 6 waves of LBAS to boss, each base should have 1 Land-Based Fighter 3 Land-Based Bombers and be able to attain AD at the boss. Use a [https://noro6.github.io/kcTools/| calculator] to figure out if requirements are met for AD.
+**May need to be adjusted for LD as the boss has slightly higher FP.
+*Support Expeditions: Boss Support Expedition is generally useful, especially in LD where the Abyssal DDs in the escort have Opening Torpedo capability. Node Support is debatable (since it is unlikely to be effective against the Vanguard comps mentioned above), but can help somewhat with pass rate assuming those comps are not encountered.
+
+===Phase 2: Unlock path to Summer Carrier Princess===
+
+This unlock phase is fairly straightforward, below is a guide which covers what is required for each difficulty:
+
+{{:Summer 2020 Event/E7/Boss 2 Unlocking Guide}}
+
+The most optimal means of doing the requirements is as follows:
+<tabber>
+|-|Node E=
+
+*'''Recommended Fleet:'''[[File:RainySeason2020EventGreyAdvanceTag.png]] '''Advance Force/Single Fleet'''
+*'''Recommended Composition 1: 6 SS'''
+*'''Recommended Composition 2: 2 CV, 4 DE'''
+*'''Path: A-C-E'''
+*'''Recommended LBAS: LBAS 1-2: 4 Fighters: Distance 2 Required''' (Mostly recommended for Comp 1)
+
+* Subs will need to be loaded with around 6-12 seaplane fighter and have LBAS fighter support to score AS on E
+* Carriers will need all fighters while DEs provide ASW against the subs.
+* If using Comp 2, you can opt to bring additional CV/CVL over using an LBAS to conserve resources.
+
+Once the condition is met, a ding sound will play upon returning to your homeport.
+|-|Node F=
+
+*'''Recommended Fleet:'''[[File:RainySeason2020EventGreyAdvanceTag.png]] '''Advance Force/Single Fleet'''
+*'''Recommended Composition 1: 6 SS'''
+*'''Recommended Composition 2: 2 CV, 4 DE'''
+*'''Path: A-B-F'''
+*'''Recommended LBAS: LBAS 1-2: 4 Fighters: Distance 2 Required''' (Mostly recommended for Comp 1)
+
+* Subs will need to be loaded with around 6-12 seaplane fighter and have LBAS fighter support to score AS on E
+* Carriers will need all fighters while DEs provide ASW against the subs.
+* If using Comp 2, you can opt to bring additional CV/CVL over using an LBAS to conserve resources.
+
+Once the condition is met, a ding sound will play upon returning to your homeport.
+|-|Node H=
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B) 2 CA(V) + 1 CL 1-2 CA(V) 3-4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 CV(B) 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route: D-H'''
+
+*Set up your Carrier Task Force you plan to bring for Phase 3 for this segment. (Read Phase 3 for details)
+*Carriers will need to be fighter mules.
+*AACI recommended
+*Can be done in route to J.
+
+Once the condition is met, a ding sound will play upon returning to your homeport.
+|-|Node J=
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B) 2 CA(V) + 1 CL 1-2 CA(V) 3-4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 CV(B) 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route: D-H-J'''
+
+*Set up your Carrier Task Force you plan to bring for Phase 3 for this segment. (Read Phase 3 for details)
+*Carriers will need to be fighter mules.
+*AACI recommended
+*Can be done in route to H.
+
+This node is a dead end, all you need to do is reach it as the node says that you cannot locate the main enemy task force and to begin a search. Regardless of the statement, this is a requirement needed for the map.
+
+Once the condition is met, a ding sound will play upon returning to your homeport.
+|-|Node R=
+
+*'''Recommend Fleet: [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/STF'''
+*'''Recommended Composition:  2FBB,2CA(V),1-2CL,0-1DD + 1FBB,0-1CA(V),1 CL, 3-4DD'''(Fast)
+*'''Path:F-I-M-R'''
+
+*'''Recommended LBAS: LBAS 1: 1 Fighters, 3 Land Base Bomber (Node R) (Distance 5 Required)'''
+*Bring a few ASW capable ships in escort to help pass Node M as it has a [[New Submarine Princes (Summer Mode]]
+*Node R will consist of a surface fleet with some battleships, a Nu-class Kai Light Carrier Flagship, and some various CLs and DDs.
+*LBAS on this node should help you clear the requirements more easily.
+
+Once the condition is met, you will hear a ding sound upon returning to homeport.
+|-|LB Defense=
+
+*'''Recommended LBAS: LBAS 3: 2 Interceptors, 2 Rocket Interceptors
+*Can be done while running one SS or while doing other requirements on the map.
+
+Once the condition is met, a ding sound will play upon returning to your homeport.
+</tabber>
+
+Once the conditions are all met, the path to Node Y will be open.
+
+===Phase 3: Sink the Summer Carrier Princess (Node Y) ===
+
+In this phase, your fleet will be now making their way to attack the [[Summer Aircraft Carrier Princess]]. This phase will take you along a straight path where you'll face off against torpedo squadrons, Submarines, and air strikes along the way. Do note the boss will also have considerable air power, so do expect to bring a strong airpower to achieve AS against the princess.
+
+* You will be facing CV Hime in this Phase and boss so bring a lot of air power to AS the boss.
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B) 2 CA(V) + 1 CL 1-2 CA(V) 3-4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 CV(B) 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route: D-H-V-V1-V3-V4-Y'''
+
+* '''LBAS Recommendation:'''
+** '''Land Base 1: * Fighters, * Land Base Bombers, * Land Base Recon (Enough to get AD) (Node Y) (Distance 7)
+** '''Land Base 2-3: * Fighters, * Land Base Bombers,  * Land Base Recon (Enough to get AD) (Node Y) (Distance 7)
+
+* [[Akagi]] and [[Saratoga]] are the most recommended CVs to use for this segment due to their high bonus.
+* [[Shoukaku]] and [[Zuikaku]] are weaker alternatives for this phase, but may benefit with the ability to use Jets to help score extra hits.
+* The Murata Squadron has a Bonus on Node Y but the bonus do not stack on top of each other
+** It is recommended that if you have 2 Murata Squadron, have 1 Murata on each CV(B) instead of having them both on.
+* Depend on the fleet comp you plan to use for this segment, do note that [[Kongou]] (Kai Ni C) and [[Haruna]] (Kai Ni) should be considered for Escort fleet for Fleet Comp 2 as their night battle special attack can allow them to gain an edge in battle
+** For these two the recommended set up is 2 Main Guns + AP Shell + Surface Radar to maximize the overall damage potential should their abilities trigger.
+*Alternatively, [[Nagato|Nagato Kai Ni]] along with [[South Dakota]] can provide a powerful attack using the Nagato Broadside Special attack from the main fleet.
+** [[Nagato|Nagato Kai Ni]] should be armed with a turbine + boiler, 46cm gun or larger, 1 AP shell and 1 Type 3 (assuming she has an expansion slot)
+** [[South Dakota]] should use the 2 Main Guns + AP Shell + Seaplane Scout set up.
+* 1 CAV should be a seaplane fighter mule.
+* The remaining CAVs in the fleet should use 2 Guns + [[Type 3 Shell]] + Seaplane scouts set up.
+* DDs should consider bringing TCI set up.
+* If need be, bring a DD that can OASW.
+* While not historically relevent, [[Atlanta]] with her AACI is highly recommended due to her high proc and shootdown rate which should allow you to survive almost all air attack nodes with little difficulty.
+* Node H, V1 and V4 are all air attack nodes, each being more powerful than the previous ones.  Good Airpower and AACI is recommended.
+*Node V is a submarine Princess node. Bring ASW isn't entirely necessary, but can be recommended if she is giving your fleet trouble.
+*Node V3 is a surface fleet with a Nu flagship Kai and a Ru-class Battleship along with various CLs and DDs. Make sure your air strike knocks out most of the smaller ships to minimize possible damage and if necessary hopefully nutilize the Nu flagship kai from attacking.
+* If you use Fleet Comp 1, use Double Line against the boss.
+* If you use Fleet Comp 2, use Line Ahead against the boss.
+
+The [[Summer Aircraft Carrier Princess]] will consist of a carrier combined fleet which will have at first 2 Nu-class Flagship Kai, 1 Summer Battleship Princess, 1 Ne-class Kai (Summer Mode), and 1 Tsu-class in the main fleet. While escort will have 1 He-class Flagship, 1 Tsu-class, and 4 Destroyers which on hard mode will consist of 2 Na-class Elites capable of launching and opening torpedo strike.
+
+If you have set up your land base correctly, you should be able to have a chance to wipe out some of the enemy ships easily. And setting yourself up to deliver decent damage against the main fleet depending on the comp you chose. Nagato's Broadside attack can help wipe out certain large ships early on in the battle and leave night battle to pick off against the remaining survivors.
+
+While using Kongou's Night Battle Special will have you banking on taking out some heavy units at night while your main fleet (with a little bit of luck) might be able to successfully destroy part of the enemy main fleet.
+
+The rest will boil down to how well your fleet can launch TCIs against the boss and hit her with them, since she's somewhat vulnerable against TCI you may still need up to 2 direct hits to successfully take down the carrier princess.
+
+On LD, the difficulty will ramp up as you will face a 2nd Carrier Princess, along with an escort fleet full of 4 Na-class Elites all capable of opening Torpedo Strike. While this is going to be challenging, as long as you can get air superiority, there will be a chance you can finish the boss if all goes well. Continue the battle until you successfully destroy the Carrier Princess Flagship.
+
+Once you have defeated her you will then proceed to the next phase.
+
+===Phase 4: Unlock path to the South Pacific Aircraft Carrier Princess===
+
+For this phase, the steps to completing them are still straightforward, but will require use of a surface Task force and Carrier Task Force. The requirements for these are listed below:
+
+{{:Summer 2020 Event/E7/Boss 3 Unlocking Guide}}
+
+You will need to organize your fleet to do these steps and the guide below which fleets you'll need for each segment:
+
+<tabber>
+|-| Node H=
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B) 2 CA(V) + 1 CL 1-2 CA(V) 3-4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 CV(B) 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route: D-H
+
+* '''Recommended LBAS: N/A (LBAS will likely be designated to V1 and V4, look in respective section.)
+
+*Can be done while completing V1 and V4 at the same time.
+*Carriers should be fighter mules
+* One CAV can consider being a seaplane fighter mule.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-| Node V1=
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B) 2 CA(V) + 1 CL 1-2 CA(V) 3-4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 CV(B) 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route: D-H-V-V1
+
+* '''Recommended LBAS: Land Base 1: All Fighter Node V1
+(All other Land bases will be doing other activities, please refer to V4 and LB Defense)
+
+*Can be done while completing H and V4 at the same time.
+*Carriers should be fighter mules
+* One CAV can consider being a seaplane fighter mule.
+* OASW DDs may be needed to bypass V.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-| Node V4=
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B) 2 CA(V) + 1 CL 1-2 CA(V) 3-4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 CV(B) 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route: D-H-V-V1-V3-V4
+
+* '''Recommended LBAS: Land Base 2: All Fighter Node V4
+(All other Land bases will be doing other activities, please refer to V4 and LB Defense, but LB one can be considered to designate all to V4 also if needed.)
+
+*Can be done while completing H and V1 at the same time.
+*Carriers should be fighter mules
+* One CAV can consider being a seaplane fighter mule.
+* OASW DDs may be needed to bypass V.
+* Node V3 will require a strong escort to improve your survival chances.
+* Using a combination of your Land bases Air power + Fighter mule carrier might be enough to get AS but if not set up a 2nd land base all fighters to the same node to ensure your chances of getting AS.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-| Node X=
+* '''Fleet Requirements:''' [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/ STF'''
+* '''Fleet Composition: Same as Phase 1'''
+* '''Land Base Recommendation: Same as Phase 1'''
+
+The process to this step is the same as how you'd fought the Lycoris Princess in phase 1, the only main difference if you only need an A rank.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-|LB Defense=
+
+'''Recommended LBAS: LBAS 3: 2 Land Base Interceptors, 2 Rocket Interceptor''' (more land bases if needed)
+
+*Can be done while doing any of the other nodes
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+</tabber>
+
+It is possible to complete the entire run in two sorties if you are fortunate enough, otherwise it can be done as you complete the requirements individually.
+
+Once all conditions are met, the 3rd boss (Node Z) node will be open.
+
+===Phase 5:Unlock the 4th Starting Point (Short cut)===
+
+After the final boss node has been unlocked, it becomes possible to unlock Start Point 4, which will then be the default starting point for a '''Carrier Task Force''' that meets the requirements listed in the branching rules and will serve as a shortcut to reaching the last boss of the map. This is where the requirements begin to get rather complicated (this statement remains applicable all the way through until LD debuff). The requirements for unlocking Start Point 4 are as follows:
+
+{{:Summer 2020 Event/E7/New Start Point Gimmick}}
+
+<tabber>
+|-| Node V4=
+* '''Fleet Requirements:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force / CTF'''
+* '''Fleet Composition: Same as Phase 3'''
+* '''Land Base Recommendation: Same as Phase 4'''
+
+The process to this step is the same as how you'd do in phase 4.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-| Node W=
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B) 2 CA(V) + 1 CL 1-2 CA(V) 3-4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 CV(B) 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route: D-H-V-V1-V3-V4-W
+
+* '''Recommended LBAS: N/A
+(All other Land bases will be doing other activities, please refer to Node Z)
+
+*This step can be done while going to node Z.
+*  Most confrontations will be the same along the way, please refer to phase 3 and 4 or Node Z for details.
+* Node W will consist of the surface fleet consisting of a CVL, some heavy cruisers, 1 CL and 2 DD.
+
+Overall, getting an S rank on this node should not be difficult.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-| Node X=
+* '''Fleet Requirements:''' [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/ STF'''
+* '''Fleet Composition: Same as Phase 1'''
+* '''Land Base Recommendation: Same as Phase 1'''
+
+The process to this step is the same as how you'd fight the Lycoris Princess in phase 1, the only main difference if you only need an A rank.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-| Node Y=
+* '''Fleet Requirements:''' [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/ STF'''
+* '''Fleet Composition:  2FBB, 1CVL, 2CA(V), CL+CL, 1-2CA(V), CLT0-1, 3DD
+* '''Path: F-I-M-R-Y'''
+
+*'''Recommended LBAS:'''
+**'''LBAS 1: 2 Land Base Fighter, 1-2 Land Base Bomber, 0-1 Land Base Recon''' (Node Y) (Distance 7)
+**'''LBAS 2-3: 1 Land Base Fighter, 2-3 Land Base Bomber, 0-1 Land Base Recon''' (Node Y) (Distance 7)
+
+* Unlike before, you can no longer travel to node Y with a Carrier Task Force, you must use a Surface Task Force from here on out.
+* Path from Nodes F-I-M-R will be the same as done in Phase 2 so plan accordingly.
+* Consider bring a Seaplane Fighter Mule CAV
+* Boss node will have you fight the carrier princess with a surface fleet. While slightly different, the overall experience is still the same especially since she will no longer be in her last dance comp.
+*Simple score an A rank to successfully win.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-| Node Z=
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B) 2 CA(V) + 1 CL 1-2 CA(V) 3-4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 CV(B) 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route: D-H-V-V1-V3-V4-W-W2-W4-Z
+
+* '''Recommended LBAS: '''
+**'''LBAS 1-2: 2 Land Base Fighter, 1-2 Land Base Bomber, 0-1 Land Base Recon/Flying Boat''' (Node Z) (Distance 9)
+**'''LBAS 3: 1 Land Base Fighter, 2-3 Land Base Bomber, 0-1 Land Base Recon/Flying Boat''' (Node Z) (Distance 9)
+
+* For this segment, [[Shoukaku]] and [[Zuikaku]] are highly recommended as your CV.
+* If you have jets, consider equipping them as their extra line of attack can be useful.
+** The Murata Squadron has a Bonus on Node Z but the bonus do not stack on top of each other
+** It is recommended that if you have 2 Murata Squadron, have 1 Murata on each CV(B) instead of having them both on.
+* Depend on the fleet comp you plan to use for this segment, do note that [[Kongou]] (Kai Ni C) and [[Haruna]] (Kai Ni) should be considered for Escort fleet for Fleet Comp 2 as their night battle special attack can allow them to gain an edge in battle
+** For these two the recommended set up is 2 Main Guns + AP Shell + Surface Radar to maximize the overall damage potential should their abilities trigger.
+*Alternatively, [[Nagato|Nagato Kai Ni]] along with [[South Dakota]] can provide a powerful attack using the Nagato Broadside Special attack from the main fleet.
+** [[Nagato|Nagato Kai Ni]] should be armed with a turbine + boiler, 46cm gun or larger, 1 AP shell and 1 Type 3 (assuming she has an expansion slot)
+** [[South Dakota]] should use the 2 Main Guns + AP Shell + Seaplane Scout set up.
+* 1 CAV should be a seaplane fighter mule.
+* The remaining CAVs in the fleet should use 2 Guns + [[Type 3 Shell]] + Seaplane scout set up.
+* DDs should consider bringing TCI set up.
+* If need be, bring a DD that can OASW.
+* While not historically relevant, [[Atlanta]] with her AACI is highly recommended due to her high proc rate which should allow you to survive almost all air attack nodes with little difficulty.
+* Node H, V1, V4, and W4 are all air attack nodes, each being more powerful than the previous ones.  Good Airpower and AACI is recommended.
+*Node V is a submarine Princess node. Bring ASW isn't entirely necessary, but can be recommended if she is giving your fleet trouble.
+*Node V3 is a surface fleet with a Nu flagship Kai and a Ru-class Battleship along with various CLs and DDs. Make sure your air strike knocks out most of the smaller ships to minimize possible damage and if necessary hopefully nutilize the Nu flagship kai from attacking.
+*Node W is a surface fleet with a Nu flagship Kai some heavy cruisers along with various CLs and DDs. Make sure your air strike knocks out most of the smaller ships to minimize possible damage and if necessary hopefully nutilize the Nu flagship kai from attacking.
+* If you use Fleet Comp 1, use Double Line against the boss.
+* If you use Fleet Comp 2, use Line Ahead against the boss.
+
+The boss is overall going to be a tough fight due to having most of your fuel and ammo drained along the trip you need to try your best to knock out as many of the abyssal as you can. Using the special attacks can help turn the tables possibly but you will need to successfully take out 8-12 of the enemy units.
+
+You should try to aim for AS to help you get the best possible outcome to the fight and then hopefully you can deliver enough of a blow to take out enough of the ships.
+
+Details regarding the boss will be covered in the next segment.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+</tabber>
+
+Once the requirements have all completed, the 4th starting point along with another path way will be revealed and from this point, your carrier task force will be taking their starting point form the 4th starting point.
+
+===Phase 6: Battle the South Pacific Aircraft Carrier Princess (Node Z)===
+
+With the 4th Starting Point 4 unlocked, it is significantly quicker and more consistent compared to beginning from the original CTF start point. As of this point you have more room for flexibility and can take a faster path to the boss node. Below are the following comps you will consider for this segment:
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B), 2 CA(V) + 1 CL, CA(V), 4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 (F)BB 2 CV(B), 1 CVL. 1 CA(V) + 1 CL, CA(V), 4 DD''' (Slow)
+* '''Recommended Fleet 3: 2 CV(B), 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route 1 (Using Comp 1 and 3): Z2-W2-W4-Z
+* '''Route 1 (Using Comp 2): Z2-W1-W2-W4-Z
+
+* '''Recommended LBAS: '''
+**'''LBAS 1-2: * Land Base Fighter, * Land Base Bomber, * Land Base Recon/Flying Boat''' (Enough to get AD)(Node Z) (Distance 9)
+**'''LBAS 3: * Land Based Fighter, * Land Base Bomber, * Land Base Recon/Flying Boat''' (Enough to get AD) (Node Z) (Distance 9)
+
+*Both routes can be effective in reaching the boss depending on how you organize your fleet and knowing what you will be up against.
+*[[Shoukaku]] and [[Zuikaku]] are highly recommended as your CV.
+* If you have jets, consider equipping them as their extra line of attack can be useful.
+** The Murata Squadron has a Bonus on Node Z but the bonus do not stack on top of each other
+** It is recommended that if you have 2 Murata Squadron, have 1 Murata on each CV(B) instead of having them both on.
+** If you have a 3rd Murata Squadron you can consider bringing a CVL. Otherwise, avoid using the 2 CV + 1 CVL comp unless air power is a concern.
+* Depend on the fleet comp you plan to use for this segment, do note that [[Kongou]] (Kai Ni C) and [[Haruna]] (Kai Ni) should be considered for Escort fleet for Fleet Comp 2 as their night battle special attack can allow them to gain an edge in battle
+** For these two the recommended set up is 2 Main Guns + AP Shell + Surface Radar to maximize the overall damage potential should their abilities trigger.
+*Alternatively, [[Nagato|Nagato Kai Ni]] along with [[South Dakota]] can provide a powerful attack using the Nagato Broadside Special attack from the main fleet.
+** [[Nagato|Nagato Kai Ni]] should be armed with a turbine + boiler, 46cm gun or larger, 1 AP shell and 1 Type 3 (assuming she has an expansion slot)
+** [[South Dakota]] should use the 2 Main Guns + AP Shell + Seaplane Scout set up.
+* 1 CAV should be a seaplane fighter mule.
+* The remaining CAVs in the fleet should use 2 Guns + [[Type 3 Shell]] + Seaplane scout set up.
+* DDs should consider bringing TCI and/or [[Guitarsolo]] set up.
+* If need be, bring a DD that can OASW.
+* While not historically relevant, [[Atlanta]] with her AACI is highly recommended due to her high proc rate which should allow you to survive almost all air attack nodes with little difficulty.
+*Node Z2 consists of a surface fleet that can possibly appear in vanguard formation, but may be locked in line ahead on LD
+*Node Z1 will have a [[Summer Submarine Princess]] along with other submarines.
+*Node W4 will have an air battle node, bring strong air power and AACI.
+
+The main differences between the two routes are 1) The additional submarine node; and 2) More restrictive speed and large ship limitations for the shorter route. Generally, taking the shortest route should suffice for chipping pre-LD, especially with Friend Fleets now available. Taking the shorter route also allows for all 3 LBAS to be committed to the boss node, while the longer route may need 1 base of Toukai/ASW planes for consistent pass rate at Z1. Node Support is optional; Boss Support may be useful even pre-LD to help with clearing the Escort Fleet prior to the Opening Torpedo phase.
+
+As for the boss itself, the [[South Pacific Aircraft Carrier Princess]] will come with a team of Nu-class Flagship kai, a Battleship Princess, a Ne-class Summer Mode, a Tsu Flagship, along with another He-class flagship, 2 Tsu-class Elites, and 3 Na-class Flagships. Once again a strong round from your LBAS and having your fleet proc their special attacks is the key to success. Overall, chipping the boss down should be a breeze to the end as long as you score AS against the boss.
+
+Once you are within LD range, the debuff specific to the boss ship (South Pacific Aircraft Carrier Princess) becomes available.
+
+===Phase 7: Last Dance Debuff===
+
+In this phase, you will need to complete a massive load of requirements (assuming you're doing hard mode) where you'll need to revisit many of the nodes you've been to in the past and some you haven't visited beforehand. Overall, your fleet will need to complete up to at most 11 steps to meet the requirements.
+
+Below is a list of the tasks that will need to be completed based upon difficulty.
+ 
+{{:Summer 2020 Event/E7/Boss 3 Debuff}}
+
+And from here a list that will be composed to explain the steps and what you'll need to do. For some of them, please refer to the previous steps for details:
+
+<tabber>
+|-|Node N=
+* '''Fleet Requirements:''' [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/ STF'''
+* '''Fleet Composition: Same as Phase 1'''
+* '''Land Base Recommendation:'''
+* '''Land Base 1-3: 4 Land Base Fighters (Node N)''' (Distance 5)
+
+*Can be done alongside Node X
+*CAV should have all Seaplane Fighters, if need be use additional ships that can bring in seaplane fighters to improve your chances to AS.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-|Node Q=
+
+* '''Fleet Requirements:''' [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/ STF'''
+* '''Fleet Composition 1:  3(F)BB(V), 1CVL, 2CA(V) + 2CA(V), CL, 3DD
+* '''Fleet Composition 2:  1AV, 1BBV, 2FBB, 1CV, 1CAV + 1CA, 1CLT, 1CL, 3DD'''
+* '''Path: F-I-M-Q
+* '''Land Base Recommendation:'''
+* '''Land Base 1-3: 4 Land Base Fighters (Node N)''' (Distance 5)
+
+* Bring Fighter power on your CVL and BBV if you bring one.
+* 2nd Comp can be done while going to V4.
+* If necessary, bring OASW DDs to help pass node M.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-|Node V1=
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Fleet Composition: 2FBB, 4CV(B) + 1CL, 5DD
+'''Path: D-H-V-V1'''
+
+* '''Land Base Recommendation: N/A'''
+
+*This comp is needs enough carriers to force CTF to start from the previous starting point
+* Carriers should be fighter mules
+* Escort Fleet should be ASW focused
+
+Overall should be easy to get AS from your fleet alone.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-|Node V4=
+
+*'''Recommended Fleet:'''[[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/ STF'''
+* '''Fleet Composition 1:  2FBB, 2CVL, 1CA(V), 1DD + 1CA(V), 1CL, 4DD
+* '''Fleet Composition 2:  1AV, 1BBV, 2FBB, 1CV, 1CAV + 1CA, 1CLT, 1CL, 3DD'''
+* '''Path: F-I-M-Q-R-V4
+* '''Land Base Recommendation:'''
+* '''Land Base 1: 1 Land Base Fighter, 3 Land Base Bombers (Node R)''' (Distance 5)
+* '''Land Base 2-3: 4 Land Base Fighters (Node N)''' (Distance 5)
+
+* Bring Fighter power on your CVL and BBV if you bring one.
+* Can be done while going to Q
+* If necessary, bring OASW DDs to help pass node M.
+* Bring Land Base to Node R may help you pass more successfully as clearing this node might be difficult.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-|Node W3=
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Composition Fleet : 2(F)BB(V), 2CV(B),1CAV, 1CL + 1FBB, 1CA(V), 1CL, 3DD (Fast)
+* '''Route 1: Z2-Z1-W2-W4-W3
+
+* '''Recommended LBAS: '''
+**'''LBAS 1: 3 Land Base Bomber, 0-1 Land Base Recon/Flying Boat''' (Node W3) (Distance 8)
+
+*W3 will be another surface torpedo fleet that has strong torpedo capabilities like Z2.
+*While Land Base bombing is entirely necessary, it makes the node somewhat easier to pass.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-|Node W4=
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet 1: 2 (F)BB 2 CV(B), 2 CA(V) + 1 CL, CA(V), 4 DD''' (Fast)
+* '''Recommended Fleet 2: 2 (F)BB 2 CV(B), 1 CVL. 1 CA(V) + 1 CL, CA(V), 4 DD''' (Slow)
+* '''Recommended Fleet 3: 2 CV(B), 3 CA(V), 1 DD + 2 FBB 1 CL 3 DD''' (Fast)
+* '''Route 1 (Using Comp 1 and 3): Z2-W2-W4-Z
+* '''Route 1 (Using Comp 2): Z2-W1-W2-W4-Z
+
+* '''Recommended LBAS: '''
+**'''LBAS 1-2: 3 Land Base Fighter, 0-1 Land Base Recon/Flying Boat''' (Node W4) (Distance 8)
+
+Path is identical to almost traveling to the boss, bring standard set up as if heading to the boss and upon reaching node W4 let your land base and carrier force handle the rest. If needed, bring 1 or more carriers as fighter mules.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-|Node X=
+* '''Fleet Requirements:''' [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/ STF'''
+* '''Fleet Composition: Same as Phase 1'''
+* '''Land Base Recommendation: Same as Phase 1'''
+
+The process to this step is the same as how you'd fight the Lycoris Princess in phase 1, the only main difference if you only need an A rank.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-|Node Y=
+* '''Fleet Requirements:''' [[File:RainySeason2020EventGreyVanguardTag.png]] '''Task Force Vanguard/ STF'''
+* '''Fleet Composition: Same as Phase 5'''
+* '''Land Base Recommendation: Same as Phase 5'''
+
+The process to this step is the same as how you'd fight the Carrier Princess in phase 6, the only main difference if you only need an A rank.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+|-|Node Z3=
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Composition Fleet : 2(F)BB(V), 2CV(B),1CAV, 1CL + 1AO, 2CA(V), 1CL, 2DD
+* '''Route 1: Z2-Z3
+
+* '''Recommended LBAS: '''
+**'''LBAS 1: 3 Land Base Bomber, 0-1 Land Base Recon/Flying Boat''' (Node Z3) (Distance 8)
+
+*Z3 will be another surface torpedo fleet that has strong torpedo capabilities like Z2.
+*While Land Base bombing is entirely necessary, it makes the node somewhat easier to pass.
+
+Once the requirement has been completed, a ding sound will play upon returning to Homeport.
+</tabber>
+
+Once all the conditions are met, the [[South Pacific Aircraft Carrier Princess]] should be debuffed with a slight change to her graphics. She will at this point take 1.1x -1.18x more damage than usual.
+
+===Phase 8: Sink the South Pacific Aircraft Carrier Princess===
+
+* '''Recommended Fleet:''' [[File:RainySeason2020EventGreyTaskForceTag.png]] '''Task Force/CTF'''
+* '''Recommended Fleet: Same as Phase 6 (Please read section for details)
+* '''Recommended LBAS: Same as Phase 6 (Please read section for details) '''
+
+Some things to keep in mind for LD:
+*Ultimately, you're rolling for critical hits against the boss fleet, and any engagement less optimal than Parallel is less likely to clear due to the multipliers involved.
+*Use of the [[Nagato]]/[[Mutsu]] special attack is recommended.
+**[[User:Tsubakura|Tsuba]] has run the numbers for Nagato's special attack and reached the following conclusions:
+***A Nagato/Mutsu pair has higher damage output when the special attack triggers, but does significantly less damage outside of the special attack.
+***A Nagato/SoDak pair has lower damage output when the special attack triggers, but unlike the above, SoDak still has the potential to cause significant damage outside of the special attack.
+**Both options are viable, up to player here
+* ASW Node support is effectively mandatory, ASW to help with pass rate at the sub node (you're almost definitely going heavy for LD, so you eat the extra sub node).
+**Unless you don't have 3 Murata TBs, then might need to consider alternatives.
+
+In this phase, with the debuff finally active, it is time to finish off the [[South Pacific Aircraft Carrier Princess]] the route along the way is the same, but the boss herself is now ramped up as she now has 2 Summer Carrier Princesses in her main fleet in place of the Nu Flagship Kais, and her escort now he a He Flagship Kai and a 2 Tsu-Class Flagships, and 3 Na-class Late models capable of launching an opening Torpedo strike. The combination of new air power along with the powered up escort fleet will make it difficult to deliver the final blow, but as before, if you organize your land base so your can get AS, your land base score the necessary hits, and your manage to wipe out some of the enemy ships early on, it should be possible to depend on the rest of your ships in night battle to deliver the killing blow.
+
+If for some reason you know you will not land the killing blow, you can consider refreshing the game to reserve your LBAS rank if necessary.
+
+Once you are able to defeat the [[South Pacific Aircraft Carrier Princess]] the event is considered complete.
+
+===Regarding Friend Fleets===
+Most Friend Fleets should prove to be useful here, but it is possible to rig up your friend fleets to improve your odds of getting a better friend fleet comp.
+
+It may be worth using [[South Dakota]] here to avoid potentially rolling some of the weaker FFs.
+You may also consider avoiding [[Makigumo]] and [[Akigumo]] to allow for one of the very powerful friend fleet comps to possible appear.
+
+Most variants of the [[Hiryuu]]/[[Souryuu]] and [[Akagi]]/[[Kaga]] (added in 7 August patch) FF are very strong here as they are equipped with Murata TBs and NCVCI capability.

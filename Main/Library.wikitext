@@ -1,0 +1,36 @@
+=Introduction=
+
+'''Field Guide (図鑑表示)''' is a main menu function where you can view information about your ship girls and equipment. It is better known as the Library or KanDex. It is to be found under "Assets" for the English UI.
+
+=Menu Functions=
+[[file:Library_Example.png|thumb|right|Field Volume 5, a look at page 4 containing IDs 311-320. 314 is currently not implemented]]
+* '''Field Guide Volumes''' - Allows you to select the volume you'd like to view. 
+* '''Pages''' - Allows you to select the page you'd like to view. Ship girls and equipment are ordered by ID.
+* '''Ship/Equipment Toggle''' - Toggles between the ship girl library and equipment library.
+* '''Entry''' - Clicking on the entries will bring up more detailed information on the ship girl or equipment. Please see below for more details.
+* '''Marriage Indicator''' - Displays which ship girls you have married. The ring only appears on the remodel that you married. 
+
+===Ship Girl Card===
+[[file:Library_Ship.png|thumb|right|Married [[Tashkent]] in the Library]]
+* '''ID''' - The ID of the ship girl's remodel.
+* '''Name''' - The name of the ship girl.
+* '''Class/Type''' - The class name, her position within the class and her ship type.
+* '''Information''' - A short description of the ship girl.
+* '''Stats''' - Displays her base stats.
+* '''Cycle CG''' - Allows you to cycle through all the CG you have unlocked for the girl.
+* '''Play Voice''' - Narrates the Information section.
+* '''Replay Marriage Cinematic''' - Replays the marriage cinematic. This is only available if you have married that remodel.
+
+===Equipment Card===
+
+* '''ID''' - The ID of the equipment.
+* '''Name''' - The name of the equipment.
+* '''Information''' - A short description of the equipment.
+* '''Type''' - The equipment's type.
+* '''Stats''' - Displays the equipment's stats.
+* '''Ship Type''' - Displays the ship types that can equip the equipment.
+* '''Cycle CG''' - Allows you to cycle through the equipment's CG.
+
+=See Also=
+{{Mechanics}}
+[[Category:UI]]

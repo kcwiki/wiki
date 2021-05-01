@@ -1,0 +1,54 @@
+<includeonly>{{#invoke:EquipmentModule|EquipmentInfo|{{{id|}}}|pagename={{PAGENAME}}}}</includeonly>
+<!--
+{|style="border: 1px solid darkgray; width: 400px;"
+|-
+| colspan="2" style="text-align: center; background-color: LightSkyBlue;"|<p style="font-size:25px">'''{{{name|Name?}}}'''</p>
+<p style="font-size:20px">'''{{#if:{{{id|}}}|No.{{{id}}}}} {{lang|ja|{{{japanesename|}}}}}'''</p>
+|-
+| colspan="2" style="text-align: center; background-color: {{{color|}}};"|<p>'''{{{icon|}}} {{{type|}}}'''</p>
+<p>'''Effects: {{{effect|}}}'''</p>
+<p>{{#if:{{{radius|}}}|'''[[Land-Based Air Squadron|Combat Radius]]: {{{radius}}}|}}</p>
+<p>'''Scrap Value: {{{scrap|}}}'''</p>
+|- {{#if: {{{image|}}} | | style="display: none;" }}
+| colspan="2" style="text-align: center;" |{{{image|}}}
+|-
+| colspan="2" style="text-align: center; background-color: LightSkyBlue;"|'''Refittable Class'''
+|-
+| style="width: 200px; text-align: center; background-color: {{{DD|}}};"|Destroyer
+| style="width: 200px; text-align: center; background-color: {{{LC|}}};"|Amphibious Assault Ship
+|-
+| style="text-align: center; background-color: {{{CL|}}};"|Light Cruiser
+| style="text-align: center; background-color: {{{CLT|}}};"|Torpedo Cruiser
+|-
+| style="text-align: center; background-color: {{{CA|}}};"|Heavy Cruiser
+| style="text-align: center; background-color: {{{CAV|}}};"|Aviation Cruiser
+|-
+| style="text-align: center; background-color: {{{BB|}}};"|Battleship
+| style="text-align: center; background-color: {{{BBV|}}};"|Aviation Battleship
+|-
+| style="text-align: center; background-color: {{{FASTBB|}}};"|Fast Battleship
+| style="text-align: center; background-color: {{{AV|}}};"|Seaplane Tender
+|-
+| style="text-align: center; background-color: {{{CVL|}}};"|Light Carrier
+| style="text-align: center; background-color: {{{CV|}}};"|Standard Carrier
+|-
+| style="text-align: center; background-color: {{{CVB|}}};"|Armored Carrier
+| style="text-align: center; background-color: {{{SS|}}};"|Submarine
+|-
+| style="text-align: center; background-color: {{{SSV|}}};"|Submarine Carrier
+| style="text-align: center; background-color: {{{AS|}}};"|Submarine Tender
+|-
+| style="text-align: center; background-color: {{{AR|}}};"|Repair Ship
+| style="text-align: center; background-color: {{{CLP|}}};"|Training Cruiser
+|- 
+| style="text-align: center; background-color: {{{AO|}}};"|Fleet Oiler
+| style="text-align: center; background-color: {{{DE|}}};"|Destroyer Escort
+|-
+{{#if:{{{notes|}}}|{{!}} colspan="2" style="text-align: center; background-color: LightSkyBlue;" {{!}} '''Notes'''
+{{!}}-
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{notes}}}|}}
+|}
+<noinclude>
+{{Documentation}}
+</noinclude>
+-->

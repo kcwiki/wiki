@@ -1,0 +1,12 @@
+<onlyinclude><table class="wikitable" style="width:100%; border:0px; padding:0px; margin:0px;"><!--
+	--><tr>{{#if:{{{templateName|}}}|<th style="text-align:center; background-color:#790700;"><span style="padding-left:80px; width:100%;">[[{{{fullArticleLink}}}|<span style="color:#D5D4D4; font-weight:700; font-size:12pt;">Click Here To View The Full Article</span>]]</span><span style="font-size:0.73em; vertical-align:middle; text-align:right;">{{Overlay/EditThisOverlay|overlayTemplateName={{{templateName|Error}}}|text={{{editLinkText|Edit This Template}}}}}</span></th>|<!--
+	--><th style="text-align:center; background-color:#790700;">[[{{{fullArticleLink}}}|<span style="color:#D5D4D4; font-weight:700; font-size:12pt;">Click Here To View The Full Article</span>]]</th>}}<!--
+	--></tr><!--
+	--><tr><!--
+		--><td><!--
+			-->{{{content}}}<!--
+		--></td><!--
+	--></tr><!--
+--></table></onlyinclude><noinclude>
+[[Category:Map Templates]]
+</noinclude>

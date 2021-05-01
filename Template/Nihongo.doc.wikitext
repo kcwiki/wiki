@@ -1,0 +1,65 @@
+__NOTOC__
+==Disclaimer==
+This is a technical documentation, so proper design or information organization is not needed, as long as it able to explain the code used in the template. If you feel any difficulties on understanding the codes, feel free to ask any technical editors around.
+
+
+==Description==
+This template is used for adding Japanese text to articles.
+
+
+==Functions==
+This template is used to provide the term/name in the original language in the case that the English translation is questioned, as well as to provide the pronunciation of the term/name in the Japanese language.
+
+
+==Syntax==
+===Default Syntax===
+Type these syntax wherever you want to add Japanese text next to a term/name.
+<pre>
+{{Nihongo|<Name>|<Kanji>|<Explanation>}}
+</pre> 
+
+Notes:
+*'''<code><nowiki><Name></nowiki></code>''' is for the English name (or what it was called)
+*'''<code><nowiki><Kanji></nowiki></code>''' is how their Kanji name is written
+*'''<code><nowiki><Explanation></nowiki></code>''' used with three alternatives:
+*#If the '''<code><nowiki><Name></nowiki></code>''' section is an English name, then it'll be used for typing the Romanization of the Kanji.
+*#If the '''<code><nowiki><Name></nowiki></code>''' section is the Romanization of the Kanji, then it'll be used for typing the English naming.
+*#If both the English naming and Romanization are the same, then this part will also include the Romanization name.
+
+
+====Example====
+<pre>
+{{Nihongo|Shimakaze|島風|Shimakaze}}
+</pre>
+will be displayed as:<br/>
+'''{{Nihongo|Shimakaze|島風|Shimakaze}}'''
+
+
+
+===Extended Syntax===
+====With Furigana====
+Additionally, there is also a named "Furigana" parameter, for adding any Furigana given for a set of kanji, in the original text:
+
+<pre>{{Nihongo|<Name>|<Kanji>|Furigana=<Text>|<Explanation>}}</pre>
+
+Notes:
+*For all notes, please see last section's note
+*Text '''without''' <...> is the format and must be typed as is.
+
+
+====Example====
+<pre>
+{{Nihongo|Shimakaze|島風|Furigana=しまかぜ|Shimakaze}}
+</pre>
+will be displayed as:<br/>
+'''{{Nihongo|Shimakaze|島風|Furigana=しまかぜ|Shimakaze}}'''
+
+
+==Additional Notes==
+*The minimum requirement is two pipes (|) for the template to work. So if you just have one or two detail(s), type as following:
+**One detail: '''<code><nowiki>{{Nihongo|<detail>||}}</nowiki></code>'''<br/><br/>Example:<br/>Typing '''<code><nowiki>{{Nihongo|Shimakaze||}}</nowiki></code>'''<br/>will gives you result:<br/>'''{{Nihongo|Shimakaze||}}<br/><small><font color="#FFFFFF">space</font></small>
+**Two details: '''<code><nowiki>{{Nihongo|<detail 1>|<detail 2>|}}</nowiki></code>'''<br/><br/>Example:<br/>Typing '''<code><nowiki>{{Nihongo|Shimakaze|島風|}}</nowiki></code>'''<br/>will gives you result:<br/>'''{{Nihongo|Shimakaze|島風|}}<br/><small><font color="#FFFFFF">space</font></small>
+*The pipes can be extended one more time, to add a "literature meaning". For example:
+**Typing '''<code><nowiki>{{Nihongo|Shimakaze|島風|Furigana=しまかぜ|Shimakaze|lit. Island Breeze}}</nowiki></code>'''<br/>will gives you result:<br/>'''{{Nihongo|Shimakaze|島風|Furigana=しまかぜ|Shimakaze|lit. Island Breeze}}'''
+
+[[Category:Templates|{{PAGENAME}}]]

@@ -1,0 +1,233 @@
+{{documentation subpage}}
+
+This is the {{tl|ombox}} or '''other pages message box''' meta-template.
+
+It is used to build message box templates for pages of the types: User, Wikipedia, MediaWiki, Template, Help, Portal and any new future namespaces. That is, page types not covered by {{tl|ambox}}, {{tl|tmbox}}, {{tl|imbox}} or {{tl|cmbox}}. Thus, it should ''not'' be used for boxes for articles, talk pages, image pages or category pages.
+
+This template works almost exactly like {{tl|ambox}} and uses the same parameters.
+
+=== We are deploying! ===
+After discussions on the [[Template talk:Ombox|talk page]] of this template and announcing it at several places for some time we are now deploying this template. Feel free to convert any message boxes used on "other pages" to use this meta-template. If you find any tricky cases then list them on the talk page of this template and you'll get help.
+
+When this template is used to build other pages message boxes those boxes should contain explanatory texts just like before. (The same texts as before or new improved texts.) If there are more specific images in the boxes or you know a better image, then use them instead of the default images shown here.
+
+=== Usage ===
+Simple usage example:
+
+<pre>
+{{ombox | text = Some text.}}
+</pre>
+
+{{ombox | text = Some text.}}
+{{clear}}
+
+Complex example:
+
+<pre>
+{{ombox
+| type      = style
+| image     = [[Image:Emblem-question-yellow.svg|40px]]
+| style     = width: 400px; 
+| textstyle = color: red; font-weight: bold; font-style: italic;
+| text      = The message body text.
+}}
+</pre>
+
+{{ombox
+| type      = style
+| image     = [[Image:Emblem-question-yellow.svg|40px]]
+| style     = width: 400px; 
+| textstyle = color: red; font-weight: bold; font-style: italic;
+| text      = The message body text.
+}}
+{{clear}}
+
+=== Other pages message box types ===
+The following examples use different '''type''' parameters but use no image parameters; thus, they use the default images for each type.
+
+{{ombox
+| type = speedy
+| text = type=<u>speedy</u> – Speedy deletion templates.
+}}
+{{ombox
+| type = delete
+| text = type=<u>delete</u> – Deletion templates.
+}}
+{{ombox
+| type = content
+| text = type=<u>content</u> – Major warnings and problems, such as {{tl|high-risk}}.
+}}
+{{ombox
+| type = style
+| text = type=<u>style</u> – Minor warnings and problems. {{tl|intricate}} should perhaps use this type.
+}}
+{{ombox
+| type = notice
+| text = type=<u>notice</u> – Notices and messages of any kind, both permanent and temporary. Such as {{tl|guideline}} and {{tl|Wikipedia how to}}.
+}}
+{{ombox
+| type = move
+| text = type=<u>move</u> – Merge, split, rename and transwiki messages and proposals.
+}}
+{{ombox
+| type = protection
+| text = type=<u>protection</u> – Protection templates such as {{tl|pp-protected}} when shown on "other pages".
+}}
+
+=== Examples ===
+Some examples using the "notice" style:
+
+{{ombox
+| text  = No type and no image given ('''default''')
+}}
+{{ombox
+| image = none
+| text  = No type and '''image=none''' – No image is used and the '''text''' uses the whole message box area.
+}}
+{{ombox
+| image = [[Image:Gnome globe current event.svg|42px]]
+| imageright = [[Image:Nuvola apps bookcase.svg|40px]]
+| text  = image = <nowiki>[[Image:Gnome globe current event.svg|42px]]</nowiki> <br> imageright = <nowiki>[[Image:Nuvola apps bookcase.svg|40px]]</nowiki>
+}}
+
+{{ombox
+| type       = notice
+| image      = [[Image:Blue check.svg|30px]]
+| imageright = {{shortcut|WP:SHORT}}
+| text       = 
+'''This page documents an English Wikipedia [[Wikipedia:Policies and guidelines|guideline]].''' It is a generally accepted standard that editors should follow, though it should be treated with [[Wikipedia:Use common sense|common sense]] and the [[Wikipedia:Ignore all rules|occasional exception]]. When editing this page, please ensure that your revision reflects [[Wikipedia:Consensus|consensus]]. When in doubt, discuss on the [[{{TALKPAGENAME}}|talk page]].
+}}
+{{ombox
+| type       = notice
+| image      = [[Image:Nutshell.png|30px]]
+| text       = 
+'''This page in a nutshell:''' This template is used to build message boxes for all pages that are ''not'' articles, talk pages, image pages or category pages.
+}}
+
+=== Parameters ===
+List of all parameters:
+
+<pre>
+{{ombox
+| type  = speedy / delete / content / style / notice / move / protection
+| image = none / [[Image:Some image.svg|40px]]
+| imageright = [[Image:Some image.svg|40px]]
+| style = CSS values
+| textstyle = CSS values
+| text  = The message body text. 
+| small = {{{small|}}} / yes
+| smallimage = none / [[Image:Some image.svg|30px]]
+| smallimageright = none / [[Image:Some image.svg|30px]]
+| smalltext  = A shorter message body text.
+}}
+</pre>
+
+'''type'''
+:If no '''type''' parameter is given the template defaults to type '''notice'''. That means it gets a gray border.
+
+'''image'''
+:'''No parameter''' = If no '''image''' parameter is given the template uses a default image. Which default image it uses depends on the '''type''' parameter. 
+:'''An image''' = Should be an image with usual wiki notation. 40px - 50px width are usually about right depending on the image height to width ratio. (But the message box can handle images of any size.) For example: 
+::<code><nowiki>image = [[Image:Crystal package settings.png|40px]]</nowiki></code>
+:'''none''' = Means that no image is used.
+
+'''imageright'''
+:'''No parameter''' = If no '''imageright''' parameter is given then no image is shown on the right side.
+:'''An image''' = Should be an image with usual wiki notation. 40px - 50px width are usually about right depending on the image height to width ratio. (But the message box can handle images of any size.) For example: 
+::<code><nowiki>imageright = [[Image:Nuvola apps bookcase.png|40px]]</nowiki></code>
+:'''Anything''' = Any other object that you want to show on the right side.
+
+'''style'''
+:Optional CSS values used by the entire message box table. Without quotation marks <code>" "</code> but with the ending semicolons <code>;</code>. For example:
+::<code>style = margin-bottom: 0.5em;</code>
+
+'''textstyle'''
+:Optional CSS values used by the text cell. For example:
+::<code>textstyle = text-align: center;</code>
+
+'''text'''
+:The message body text.
+
+==== The small parameters ====
+{{ombox
+| small = yes
+| text = small = yes
+}}
+{{ombox
+| type = style
+| small = yes
+| text = type = style <br> small = yes
+}}
+'''small'''
+:'''yes''' = Makes it a smaller right floating message box. This also makes the default images smaller. Note that any data fed to the '''smallimage''', '''smallimageright''' and '''smalltext''' parameters is only used if "small=yes". To make it so your template also understands the small parameter you can use this code:
+::<code><nowiki>small = {{{small|}}}</nowiki></code>
+
+{{ombox
+| small = yes
+| image      = [[Image:Replacement filing cabinet.svg|50px]]
+| smallimage = [[Image:Replacement filing cabinet.svg|32px]]
+| text = 
+small = yes <br> image = <nowiki>[[Image:Replacement filing cabinet.svg|50px]]</nowiki> <br> smallimage = <nowiki>[[Image:Replacement filing cabinet.svg|32px]]</nowiki>
+}}
+'''smallimage'''
+:'''No parameter''' = If no '''smallimage''' parameter is given then this template falls back to use the '''image''' parameter. If the '''image''' parameter also is empty then a small default image is used.
+:'''An image''' = Should be an image with usual wiki notation. 30px width is usually about right. For example: 
+::<code><nowiki>smallimage = [[Image:Replacement filing cabinet.svg|30px]]</nowiki></code>
+:'''none''' = Means that no image is used. This overrides any image fed to '''image''', when "small=yes".
+
+{{ombox
+| small = yes
+| imageright = [[Image:Nuvola apps bookcase.png|50px]]
+| smallimageright = none
+| text = 
+small = yes <br> imageright = <nowiki>[[Image:Nuvola apps bookcase.png|50px]]</nowiki> <br> smallimageright = none
+}}
+'''smallimageright'''
+:'''No parameter''' = If no '''smallimageright''' parameter is given then this template falls back to use the '''imageright''' parameter. If the '''imageright''' parameter also is empty then no image is shown on the right side.
+:'''An image''' = Should be an image with usual wiki notation. 30px width is usually about right. For example: 
+::<code><nowiki>smallimageright = [[Image:Nuvola apps bookcase.png|30px]]</nowiki></code>
+:'''Anything''' = Any other object that you want to show on the right side.
+:'''none''' = Means that no right side image is used. This overrides any image fed to '''imageright''', when "small=yes".
+
+'''smalltext'''
+:A shorter version of the message body text. If no '''smalltext''' parameter is given then this template falls back to use the '''text''' parameter.
+
+=== Technical details ===
+If you need to use special characters in the text parameter then you need to escape them like this: 
+
+<pre>
+{{ombox
+| text  = <div>
+Equal sign = and a start and end brace { } work fine as they are. 
+But here is a pipe {{!}} and two end braces &lt;nowiki>}}&lt;/nowiki>. 
+And now a pipe and end braces &lt;nowiki>|}}&lt;/nowiki>.
+</div>
+}}
+</pre>
+
+{{ombox
+| text  = <div>
+Equal sign = and a start and end brace { } work fine as they are. 
+But here is a pipe {{!}} and two end braces <nowiki>}}</nowiki>. 
+And now a pipe and end braces <nowiki>|}}</nowiki>.
+</div>
+}}
+
+This template uses the ombox CSS classes in [[MediaWiki:Common.css]] for most of its looks, thus it is fully skinnable.
+
+This template calls {{tl|ombox/core}} which holds most of the code for {{tl|ombox}}, while {{tl|ombox}} itself does parameter preprocessing. 
+
+Internally this meta-template uses HTML markup instead of wiki markup for the table code. That is the usual way we make meta-templates since wiki markup has several drawbacks. For instance it makes it harder to use [[m:Help:ParserFunctions|parser functions]] and special characters in parameters. 
+
+The default images for this meta-template are in png format instead of svg format. The main reason is that some older web browsers have trouble with the transparent background that MediaWiki renders for svg images. The png images here have hand optimised transparent background colour so they look good in all browsers. Note that svg icons only look somewhat bad in the old browsers, thus such hand optimisation is only worth the trouble for very widely used icons.
+
+For more technical details see the [[Template talk:Ombox|talk page]]. Since this template works almost exactly like {{tl|ambox}}, {{tl|tmbox}}, {{tl|imbox}} and {{tl|cmbox}} their talk pages and related pages might also contain more details.
+
+=== See also ===
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Exclude in print]]
+[[Category:Wikipedia metatemplates|{{PAGENAME}}]]
+
+</includeonly>

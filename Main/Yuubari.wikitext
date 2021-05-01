@@ -1,0 +1,671 @@
+==Info==
+{{KanmusuInfo|ID=111}}
+{{KanmusuInfo|ID=111a}}
+{{KanmusuInfo|ID=422}}
+{{KanmusuInfo|ID=423}}
+{{KanmusuInfo|ID=424}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to freely convert between Kai Ni, Kai Ni Toku and Kai Ni D.
+** The Blueprint and Action Report cost only applies once.
+** The resource, development material {{DM}} and instant construction {{IC}} cost applies for every conversion.
+** Modernisation '''will be reset''' upon conversion.
+* Gains 5-slots on Kai Ni. The slots possess limitations on what can be equipped.
+** All slots:
+*** '''Cannot equip''' [[:Category:Seaplanes|seaplanes]] and [[:Category:Secondary_Gun|secondary guns]].
+*** '''Can equip''' [[:Category:Armor|bulges]].
+** Slots 1-3:
+*** Can equip normal CL equipment barring the exceptions outlined above.
+** Slot 4:
+*** Can equip anything '''except''' [[:Category:Medium_Main_Gun|main guns]] or [[:Category:Torpedoes|torpedoes]].
+** Slot 5: 
+*** Can '''only equip''' [[:Category:Anti-Air_Gun|machine guns]], [[:Category:RADAR|small RADARs]] and [[:Category:Ration|rations]].
+
+'''Kai Ni'''
+* Can equip '''large RADARs'''.
+* Able to perform special AACI. Please see [[Anti-Air Cut-In]] for more details.
+
+'''Kai Ni Toku'''
+* Can equip [[:Category:Landing_Craft|landing crafts]] and [[:Category:Amphibious_Tank|tanks]]
+* Can equip [[:Category:Midget_Submarine|midget submarines]] and perform opening torpedo attacks.
+* Slow speed
+** Can be increased to Fast with only 1 [[Improved Steam Turbine]].
+
+'''Kai Ni D'''
+* Able to perform Opening ASW by default.
+* Can equip [[:Category:Large SONAR|large SONARs]].
+
+===Overview===
+'''Kai'''
+* Average HP, torpedo, ASW, HP and armour.
+
+'''Kai Ni'''
+* Low firepower
+* Average torpedo, HP
+* High ASW and armour
+
+'''Kai Ni Toku'''
+* Low firepower
+* Average ASW and HP.
+* High torpedo and armour
+
+'''Kai Ni D'''
+* Low firepower
+* Average torpedo, HP
+* High ASW and armour
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+'''Hidden Fit Bonuses'''
+* She has accuracy and firepower bonuses when equipped with certain medium guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+'''Yuubari Kai'''
+
+Priority: '''Medium'''
+
+:A four slot light cruiser, who can't equip seaplanes and is therefore unable to perform [[Artillery Spotting]] but brings more flexibility than average to the fleet.
+:For example, the extra slot allows her to perform powerful OASW attacks despite her ASW stat not being anything special, and turns her into an hard-hitting attacker against enemy installations when fitted with two [[WG42 (Wurfgerät 42)]].
+
+'''Yuubari Kai Ni'''
+
+Priority: '''Low'''
+
+:An anti-air focused remodel, she gets a fifth slot, a big AA boost, the ability to carry large RADARs, and her own [[Anti-Air Cut-In]].
+:Also, a base Luck stat of 30 allows for mildly reliable cut-in attacks at night.
+:However, said AACI isn't worth using over the generic one, and she has access to further remodels which keep the excellent five slots but possess more interesting capabilities.
+:This remodel, which is also required to proceed with the following ones, requires a [[Blueprint]] and an [[Action Report]].
+
+'''Yuubari Kai Ni Toku'''
+
+Priority: '''High'''
+
+:Her second remodel increases her her Torpedo stat, but more importantly allows her to use midget submarines to perform a preemptive torpedo strike like a CLT while still being classified as a CL, allowing her to be used where [[Kitakami]], [[Ooi]] and [[Kiso]] would not be allowed.
+:She can also be loaded with tanks and [[Daihatsu]], making her a very versatile ship, to be used to increase expedition income or making her even better at attacking enemy installations as alternatives to her anti-surface role.
+:As a trade-off, she loses speed and is now classified as Slow, but isn't a big drawback as she has five slot and a single [[Improved Steam Turbine]] is enough to fix her speed if needed.
+:Also, a base Luck stat of 30 allows for mildly reliable cut-in attacks at night.
+
+'''Yuubari Kai Ni D'''
+
+Priority: '''Medium-High'''
+
+:Five slots, the ability to perform OASW attacks innately and equip large SONARs plus a good ASW stat boost make her the strongest anti-submarine ship in game so far, able to hit enemy subs like a truck by fully leveraging ASW synergy bonus and by simply having more slots.
+:The only reason she's not listed as higher priority is that her above-mentioned Toku remodel also exists, albeit veteran Admirals might want to raise a second Yuubari.
+:Also, a base Luck stat of 30 allows for mildly reliable cut-in attacks at night.
+
+
+====Recommended Roles====
+* ASW
+* Anti-Installation
+* Surface Combat (Second remodel Toku)
+* Anti-Air (Second remodel)
+
+===Important Info===
+* Required for A50, B41, B140, B141 and Bq13.
+* An option for BQ7.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = はーい！おまたせ。兵装実験軽巡、夕張、到着いたしました！
+|translation = Hey! Thanks for waiting. The test-bed light cruiser, Yuubari, has arrived!
+|audio = Yuubari-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai2= yes
+|origin = は-ーい！提督、待ってました。軽巡夕張、今日も艦隊でスタンバってます。
+|translation = Heeey! Thanks for waiting. Light Cruiser Yuubari, on standby today too!
+|audio = Yuubari Kai Ni Introduction.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai3= yes
+|origin = はーい！提督、おまたせ。フル改装の軽巡、夕張、何でも言ってね！
+|translation = Heeey! Admiral, thanks for waiting. The fully remodelled Yuubari is at your service!
+|audio = Yuubari Kai Ni Toku Introduction.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = コンパクトボディに充実の重武装を施した実験艦的存在の軽巡、夕張です。
+私の残したデータが、様々な重武装最新鋭艦開発の元になったんだから！
+機関室に一発？何いってんの？ほんと…失礼しちゃうわ。
+|translation = I'm an experimental light cruiser with a compact body that is armed to the teeth, Yuubari.<ref>She was commissioned as an experiment to pioneer new designs and technologies to cram the combat potential of the 5,000 ton light cruisers into half the displacement.</ref>
+The data that I provided became the source of developments for many state of the art heavily armed ships.<ref>Referring to how her design influenced future heavy cruisers of the IJN.</ref>
+An explosion in the engine room? What are you talking about? Really... How rude.<ref>She was hit in the engine room and sunk by the [https://en.wikipedia.org/wiki/USS_Bluegill_(SS-242) USS Bluegill].</ref>
+|audio = Yuubari-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 提督！おはようございます！
+|translation = Admiral! Good morning!
+|audio = Yuubari-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 何でしょう？試し撃ち、ご所望ですか？
+|translation = What is it? Do you want to do a test fire?
+|audio = Yuubari-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai2=yes
+|origin = ワンオフの魅力、十分感じてね。
+|translation = Just take in all of my one-of-a-kind charm.
+|audio = Yuubari Kai Ni Secretary 2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = あぁ、提督もやっぱりそう思います？ここに兵装まだ載りそうよね…うん…
+|translation = Ah, you think so too, Admiral? There's still enough space to fit weapons here huh... Yup...
+|audio = Yuubari-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 平賀さんの才能ってほんと素敵よね…って…あ、あれ？提督、居たの？
+|translation = Hiraga-san's abilities are really fantastic huh... Ah... H-huh? You were there, Admiral?<ref>[https://en.wikipedia.org/wiki/Yuzuru_Hiraga Hiraga Yuzuru] was Japan's leading naval architect at the time and one of the minds behind Yuubari's design.</ref>
+|audio = Yuubari-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai2= yes
+|origin = 由～良、そろそろ観念しなさいよ。みんな待ってるんだから。えぇ？私？あぁー、そうね。
+|translation = Yura, just deal with it. Everyone is waiting. Eh? Me? Aaah, right.
+|audio = Yuubari Kai Ni Idle.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 任せておいて。ねっ？提督。
+|translation = Leave it to me. Right? Admiral.
+|audio = Yuubari-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 私、兵装フェチとかって思われてるかもだけど…少し、違うのよね。提督にとって、少しでも良いデータをたくさん残したいの…ほんとよ！ほんとなんだから…
+|translation = I know everyone thinks that I have a weapon fetish but... That's not quite it you know. I wanted to do my part to provide you with lots of good data, Admiral... It's true! It's true you know...
+|audio = Yuubari-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 情報？提督、見せて見せて！
+|translation = Intelligence? Show it to me, Admiral!
+|audio = Yuubari-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 出撃よ！ってやだ、私が一番遅いって…お、置いてかないでよぉ！
+|translation = I'm sortieing! Oh no, I'm the slowest... D-don't leave me behind~!<ref>Although designed for 35kts, after she was launched she could only do slightly over 34kts due to design flaws. This made her slower than the other light cruisers and destroyers in the fleet.</ref>
+|audio = Yuubari-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = どんどん載せて。いい気持ち。
+|translation = Keep piling them on. This feels great.
+|audio = Yuubari-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai2=yes
+|origin = 兵装はバランスも大事。でしょう？
+|translation = The balance of equipment is important too. Don't you think so?
+|audio = Yuubari Kai Ni Equipment 1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai4=yes
+|origin = 潜水艦か？うん、対潜装備、大事かも。
+|translation = Submarines? Yeah, ASW equipment will probably be important.
+|audio = Yuubari Kai Ni D Equipment 1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = この装備、早く試してみましょう！
+|translation = I want to try this equipment out as soon as possible!
+|audio = Yuubari-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai2=yes
+|origin = 新装備は、私がきーっちりチェックするからね。えぇ？小さいのに積みすぎ？いいの、いいの。
+|translation = I've checked all my new equipment properly. Eh? I'm overloaded? Nah, it's all good.
+|audio = Yuubari Kai Ni Equipment 2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = データもバッチリね！
+|translation = The data is perfect!
+|audio = Yuubari-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = よ～し！これで戦えちゃいます！
+|translation = Alright~! I can fight with this!
+|audio = Yuubari-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai2=yes
+|origin = ふあぁ、天ぷらそばって美味しい。
+|translation = Whew, tempura soba is delicious.
+|audio = Yuubari Kai Ni Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 結構兵装はデリケートなの。丁寧にね。
+|translation = The equipment is pretty delicate so please be careful.
+|audio = Yuubari-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = あぁ～もう～っ。ちょっと、長いお風呂にはいるね。
+|translation = Aaaah jeeez~. I'll need to take a pretty long bath.
+|audio = Yuubari-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = うん。新しい艦が就役できたみたい。
+|translation = Yup. Looks like a new ship has been commissioned.
+|audio = Yuubari-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 作戦終了。艦隊が帰投しました。
+|translation = Operation over. The fleet has returned to port.
+|audio = Yuubari-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 軽巡夕張、出撃！ちょっ…まっ…ちょっ、ちょっと待って～！
+|translation = Light cruiser Yuubari, sortieing! Wai... up... Wa-wait up!
+|audio = Yuubari-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = さぁ！色々試してみても、いいかしら？
+|translation = Now! Can I try out lots of things?
+|audio = Yuubari-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = どう？この攻撃は！
+|translation = How's that? That attack!
+|audio = Yuubari-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|origin = ふぅ、後で感想聞かせてね？
+|translation = Whew, let me know what you think later, alright?
+|audio = Yuubari-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|kai2=yes
+|origin = 後で感想、たっぷり聞かせてね？
+|translation = Let me know what you think later, alright?
+|audio = Yuubari Kai Ni Night Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 夜は…また別の顔なんだから！
+|translation = I still... have another face to show at night!<ref>Meaning she acts differently at night.</ref>
+|audio = Yuubari-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 新鋭艦に使う兵装は、私がきっちりチェックするからね！えっ？足が遅いって…？しょ、しょうがないじゃない！装備が重いんだもん！
+|translation = I have to properly check all the weapons being used by the new ships! Eh? I'm slow...? I-I can't help it! My equipments are heavy! 
+|audio = Yuubari-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = きゃあ、やめてったら！
+|translation = Kyah, stop that!
+|audio = Yuubari-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = この装備、まだ試してないのに！
+|translation = I haven't even tried that weapon yet!
+|audio = Yuubari-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = ～っ。やっぱ、ちょっといろいろ積みすぎたのかなぁ‥。
+|translation = Tch. I guess I loaded up too much huh...
+|audio = Yuubari-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = いい、データ…とれたよね…五月雨ちゃんっ、もういいから…この結果だけでも、もっていって…ね…
+|translation = I got some... nice data huh... Samidare-chan, it's fine now... Just take these results... alright...<ref>Samidare attempted to tow Yuubari after she was torpedoed but failed.</ref>
+|audio = Yuubari-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 深夜0時よ。あっ、録画確認しないと。
+|translation = It's 12am. Ah, I need to check the recording.<ref>She's recording late night anime.</ref>
+|audio = Yuubari-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = 1時かぁ‥。っ！私、深夜アニメとか楽しみにしてませんから！
+|translation = 1 o'clock huh... Ah! I'm not looking forward to late night anime at all!
+|audio = Yuubari-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = もう2時ね。提督、お休みください。
+|translation = Already 2 o'clock huh. Please go rest, Admiral.
+|audio = Yuubari-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = 3時です。提督寝た？もう寝た？
+|translation = It's 3 o'clock. Are you asleep, Admiral? Going to sleep?
+|audio = Yuubari-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = 4時･･。提督話しかけないで、私寝てるんですからぁ
+|translation = 4 o'clock... Can you stop talking, Admiral. I want to sleep.
+|audio = Yuubari-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = 明るい‥。5時･･もう朝ですか‥
+|translation = It's bright... 5 o'clock... Already morning huh...
+|audio = Yuubari-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = 6時です。提督シャキッとしてください。
+|translation = It's 6 o'clock. Please look sharp, Admiral.
+|audio = Yuubari-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = 朝7時です。提督二度寝しちゃダーメェー！
+|translation = It's 7am. Don't go back to sleep, Admiral!
+|audio = Yuubari-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = 8時です。さぁ朝のデータ録りますよ。
+|translation = It's 8 o'clock. Now, let's go collect the morning's data.
+|audio = Yuubari-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = 9時になりました。良い一日にしましょうね。
+|translation = It's now 9 o'clock. Let's have a good day.
+|audio = Yuubari-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = 10時です。どう？順調ですか？
+|translation = It's 10 o'clock. Well? Is it going well?
+|audio = Yuubari-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = 11時です。今日のお昼はお蕎麦、とか？
+|translation = It's 11 o'clock. How does soba for lunch sound?<ref>The Yuubari region is famous for curry soba.</ref>
+|audio = Yuubari-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = 12時になりました。今日はおいしいものを食べたいなぁ、天ぷら蕎麦とか！
+|translation = It's now 12 o'clock. I want to eat delicious things today, like tempura soba! 
+|audio = Yuubari-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = 午後1時です。食べたら眠くなっちゃう、自然の摂理です。
+|translation = It's 1pm. I get sleepy after eating, it's just my nature.
+|audio = Yuubari-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = 午後2時。午後も頑張りましょう。
+|translation = 2pm. Let's do our best in the afternoon.
+|audio = Yuubari-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = 午後3時です。甘いものが欲しくなりました。
+|translation = It's 3pm. I feel like eating sweets.
+|audio = Yuubari-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = 午後4時になりました。現在の提督の戦績が気になりますね。
+|translation = It's now 4pm. I'm interested in your current military record, Admiral.<ref>Your current rank on the leadeboard in game.</ref>
+|audio = Yuubari-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = 暮れ泥んできましたね。午後5時です。
+|translation = The night is closing in... It's 5pm.
+|audio = Yuubari-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = 午後6時です。ご飯の支度しないと、間宮とか近くにいないのかしらぁ‥。
+|translation = It's 6pm. Dinner preparations haven't been done. I wonder if Mamiya's is nearby.
+|audio = Yuubari-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = 午後7時です、提督。さ、夜ご飯にしましょう、銀蝿とかしちゃだめですよ
+|translation = It's 7pm, Admiral. Come on, let's have dinner. You're not allowed to steal food.<ref>'Ginpae' is a naval slang term for stealing food from the mess.</ref>
+|audio = Yuubari-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = 午後8時です。どう？美味しかった？
+|translation = It's 8pm. Well? Was it delicious?
+|audio = Yuubari-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = 午後9時。提督の好きなメニューのデータはぜぇーんぶ揃ってます。
+|translation = 9pm. I've put together all this data on your favourite foods, Admiral.
+|audio = Yuubari-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = 午後10時です。あぁ～もう～っ、5500トン級が一隻ホントうるさいですね。文句言ってきましょうか。
+|translation = It's 10pm. Ah~ jeez~. That one 5,500 tonner is really noisy. I should go tell her off.
+|audio = Yuubari-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = 午後11時です。まだ頑張るんですね。じゃぁ、今晩もお付き合いします。
+|translation = It's 11pm. You're still working hard I see. Well then, I'll stick it out with you tonight.
+|audio = Yuubari-23.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2015|White Day 2015]]
+|origin = っえ、提督、これを私に？　ありがとう！　早速、開けて食べてしまってもいいかしら？
+|translation =	Eh, is this for me, Admiral? Thank you! Can I open it and eat it now?
+|audio = Yuubari_WhiteDay.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin =おめでとう！提督と私達！今日は特別な記念日ね。後で感想、たっぷり聞かせてね！
+|translation =	Congratulations! To Admiral and us! Today is a special anniversary. Let me know what you think later!
+|audio = 111_Yuubari_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_Season_Update|Early Summer 2015]]
+|origin = ふあ～、少し暑くなってきたわねえ。今年も夏が来るのかぁ、はっやいな～
+|translation =	Whoa, it’s gotten quite hot. Summer is here again, that was fast~
+|audio = Yuubari_Early_Summer_HQ.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Mid_Summer_Season_Update|Midsummer 2015]]
+|origin = う～、夏は、暑いですね…。提督! 折角ですから、ここは夏っぽい兵装で行きたいかな?
+|translation =	Urgh, summer is hot… Admiral! Since it’s summer, can I wear some equipment fit for summer?
+|audio = Yuubari_Mid_Summer.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Autumn_2015_Seasonal_Update|Early Autumn 2015]]
+|origin = 食欲の秋ですね、提督。いろいろ食べ物が美味しい季節ですよね～。目移りしちゃう。じゅる。
+|translation =	Autumn is for eating right, Admiral? It’s a delicious season with so many things to eat. I can’t decide. *drool*
+|audio = Yuubari_Early_Autumn2015.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = メリークリスマス、提督！提督、これ私からのプレゼント！えぇ？提督も？
+|translation =	Merry Christmas, Admiral! Here’s a present from me, Admiral! Eh? This is for me?
+|audio = Yuubari_Christmas_2015_sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 提督、新年あけましておめでとう！今年も夕張と一緒にね？あぁ、おいでがないてね？
+|translation =	Happy New Year, Admiral! You’ll be with me this year too right? Ah, you can’t leave me alright?
+|audio = Yuubari_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = 節分かぁ…豆まきって、不思議な伝統よね。あぁ、私？私は好きよ、豆まき。ええいっ！
+|translation =	It’s Setsubun… Throwing beans is such a strange tradition. Ah, me? I like throwing beans. Eeiii!
+|audio = Yuubari_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = はい、夕張からのチョコレート！ちゃぁんと果汁が入ってるんだから！本当よ！
+|translation =	Here, some chocolates from me! I made sure to add fruit juice to it! Really!
+|audio = Yuubari_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = うわぁ～、梅雨の季節って機械が錆びやすいから、少し嫌かも。でも、頑張ろっと！
+|translation =	Whoa, I don’t really like how the rainy season makes it easier for my machinery to rust. But, I’ll work hard!
+|audio = Yuubari_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = さぁ、来た！秋刀魚漁の季節！よーし、頑張ろう！明石、秋刀魚漁用のいい装備、がっつり持ってきて？よーし！
+|translation =	It’s finally here! The saury fishing season! Alright, let’s work hard! Can you bring me some good saury fishing equipment, Akashi? Alright!
+|audio = Yuubari_Sec1_Saury_2016.mp3
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 秋刀魚漁用装備…あれは…よし、これも…よし。よーし、満載！ここは私が頑張るところ。今年もやるわ！夕張、出撃します！
+|translation =	The saury fishing equipment… This is… all good, that one is… all good. Alright, I’m all set! This is where I’ll work hard. Let’s go fishing again this year! Yuubari, sortieing!
+|audio = Yuubari_Sec2_Saury_2016.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2017|Spring 2017]]
+|origin = はーい！三水戦集合ぉ。 桜の下でお花見しちゃおう！あぁ、川内さんもどぞどぞ。あぁ、由良！四水戦も一緒しない？
+|translation =	Alriiiight! DesRon3 assemble. Let’s go cherry blossom viewing under the cherry blossoms! Ah, you’re welcome too, Sendai. Ah, Yura! Does DesRon4 want to come too?
+|audio = Yuubari_Spring_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 提督、提督！四周年ですって。本当、私達頑張りましたね。夕張も、嬉しいです！
+|translation =	Admiral, Admiral! It’s the 4th Anniversary. We really worked hard. I’m having fun too!
+|audio = Yuubari_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2017|Autumn 2017]]
+|origin = じゃあ、一緒に秋祭り…行かない？提督と行きたいなって思ってて…だめかな？あぁ、ほんとう！？やった！
+|translation =	So do you want… to go to the autumn festival together? I thought it would be nice to go with you, Admiral… Can’t I? Ah, really!? Hooray!
+|audio = Yuubari_Autumn_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2018|Setsubun 2018]]
+|origin = あぁ、明石、今年も鬼やってんの？じゃ、私も投げちゃってもいいかしら。えい！
+|translation =	Ah, you’re the Oni again this year, Akashi? Then I wonder if it’s alright to throw beans at you. Take this!
+|audio = Yuubari_Setsubun_2018_Sec3.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 提督、提督ぅ、五周年ですって。本当、おめでとう、そしてありがとう。夕張は、本当に嬉しいです。やった！
+|translation =	Admiral, Admiiiiiral; it’s the 5th Anniversary. Congratulations and thank you very much. I’m really happy. Hooray!
+|audio = Yuubari_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+115_3.png|Base
+115_4.png|Base Damaged
+KanMusu422CG.png|Kai Ni
+KanMusu422CGDamaged.png|Kai Ni Damaged
+KanMusu423CG.png|Kai Ni Toku
+KanMusu423CGDamaged.png|Kai Ni Toku Damaged
+KanMusu424CG.png|Kai Ni D
+KanMusu424CGDamaged.png|Kai Ni D Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Yuubari_Rainy_Season.png|[[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+Yuubari_Rainy_Season_dmg.png|[[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+Yuubari_Kai_Ni_Full_Summer_2020.png|[[Seasonal/Summer_2020|Kai Ni Summer 2020]]
+Yuubari_Kai_Ni_Full_Summer_2020_Damaged.png|[[Seasonal/Summer_2020|Kai Ni Summer 2020 Damaged]]
+Yuubari_Kai_Ni_Toku_Full_Summer_2020.png|[[Seasonal/Summer_2020|Kai Ni Toku Summer 2020]]
+Yuubari_Kai_Ni_Toku_Full_Summer_2020_Damaged.png|[[Seasonal/Summer_2020|Kai Ni Toku Summer 2020 Damaged]]
+Yuubari_Kai_Ni_D_Full_Summer_2020.png|[[Seasonal/Summer_2020|Kai Ni D Summer 2020]]
+Yuubari_Kai_Ni_D_Full_Summer_2020_Damaged.png|[[Seasonal/Summer_2020|Kai Ni D Summer 2020 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Yuubari}}
+
+==Trivia==
+*She is named after the [[wikipedia:Yūbari River|Yuubari River]].
+*Additional equipment slots but HP, Armour and Evasion are lower than other CL.
+*Smallest among the CL in the game (in terms of displacement and length; compare her 3,587 ton displacement to the mean Japanese light cruiser displacement of about 6300 tons).
+*Sunk 28 April 1944 by US submarine [[:wikipedia:USS_Bluegill_%28SS-242%29|''Bluegill'']]
+
+==See Also==
+*[[{{PAGENAME}}/Gallery|View {{PAGENAME}} CG]]
+*[[EliteCL|List of Light Cruisers]]
+*[[wikipedia:Japanese_cruiser_Yubari|Wikipedia entry on cruiser Yuubari]]
+{{Shiplist}}

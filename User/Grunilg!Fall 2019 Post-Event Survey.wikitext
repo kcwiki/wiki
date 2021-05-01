@@ -1,0 +1,2379 @@
+==Event Recap==
+
+===Introduction===
+
+Hello everyone,
+
+this Wikipage will be serving as means to present the Results of the '''Fall 2019 Post-Event Survey''', as I feel that Reddit is a bad platform to convey both Text and Images as Part of the same contribution.
+
+A total of '''503''' Surveys have been filled out and I am very grateful for everyone that participated, as well as those who spread it in their various communities. Submissions have been closed as of 2020/17/1 15:34 CET.
+
+I will be presenting my own analysis shortly, but to those interested, you can download the raw CSV containing all the questions and answers [https://docs.google.com/spreadsheets/d/1LWaNTc1EWKV3-ojlZy-ipRSEAG8HYYKFfkKCZnfqfwk/edit?usp=sharing here]. If you just want a quick and dirty, uncommented look at what google survey spews out, you can take a look at this [https://imgur.com/a/w4uxVeo imgur-gallery].
+
+===Survey Feedback===
+
+I have received a good bit of feedback concerning the survey (some of formal/design nature, others concerning the contents), which in turn has lead me to re-evaluate some Questions:
+
+* Questions 41, 61: "If you did E5H, what was your reason to do so?" and "How do you feel about Friend Fleets as a mechanic as a whole?" were perceived as loaded and will therefore be omitted from my Analysis
+
+* Question 13: "Which of these regular enemies did give you the hardest time this Event?" by itself is rather poor as it usually is not the enemy itself posing the Problem, but rather their placement on the map (boss/preboss/first node etc.).
+
+* No Options concerning pre-clear farms
+
+* To few questions with "other:" Option with textbox to fill in
+
+* Reward-Evaluation Questions were outright horribly ordered
+
+* Question 62: "Do you think the difficulty divide between Main Operations and Extra Operations was intentional?" explicitly states that there was a difficulty divide (on my perception). While there is an Option to negate that perception, a sour aftertaste of framing remains.
+
+===Page 1===
+
+Page 1 generally had two purposes: To get the rough overview over the Event and to be able to compare how representative this survey is compared to Database and Official Data. It also allows me to filter specific Questions by Demographic later.
+
+Let's start off with '''Questions 1,3,4,5,6,7,8:''' Event clear and the difficulties chosen on each map compared against official Data ([https://twitter.com/KanColle_STAFF/status/1216963143856877568 official KC Twitter]) and Database submission ([https://twitter.com/FlatIsNice/status/1216892278104645634 Tibot Twitter]). Obviously, our sample size is significantly smaller than both of those.
+
+{| class="wikitable"
+! 
+! style="font-weight:bold;" | E1
+! style="font-weight:bold;" | E2
+! style="font-weight:bold;" | E3
+! style="font-weight:bold;" | E4
+! style="font-weight:bold;" | E5
+! style="font-weight:bold;" | E6
+|-
+| Cleared
+| 
+KC: 90% <br>
+TB: N/A <br>
+SR: 99,6%
+| 
+KC: 85%<br>
+TB: 96,9%<br>
+SR: 99%
+| 
+KC: 83,3%<br>
+TB: 95,6%<br>
+SR: 99%
+| 
+KC: 81,6%<br>
+TB: 94,7%<br>
+SR: 98,6%
+| 
+KC: 77,5%<br>
+TB: 91,8%<br>
+SR: 96,6%
+| 
+KC: 73,6%<br>
+TB: 84,4%<br>
+SR: 94,8%
+|-
+| Most Common Difficulty
+(of those who cleared)
+| 
+KC: H<br>
+TB: H<br>
+SR: H
+| 
+KC: H<br>
+TB: H<br>
+SR: H
+| 
+KC: H<br>
+TB: H<br>
+SR: H
+| 
+KC: H<br>
+TB: H<br>
+SR: H
+| 
+KC: E~M<br>
+TB: E~M<br>
+SR: M
+| 
+KC: E~M~H<br>
+TB: E~M > H<br>
+SR: M~H
+|}
+<small>SR = Survey, TB = Tibi/Database, KC = Official KC Twitter</small>
+
+{| class="wikitable"
+! 
+! E1
+! E2
+! E3
+! E4
+! E5
+! E6
+|-
+| DNF
+| 2
+| 5
+| 5
+| 7
+| 17
+| 26
+|-
+| Casual
+| 2
+| 8
+| 11
+| 19
+| 16
+| 63
+|-
+| Easy
+| 24
+| 34
+| 87
+| 114
+| 163
+| 103
+|-
+| Medium
+| 46
+| 38
+| 59
+| 76
+| 247
+| 153
+|-
+| Hard
+| 422
+| 412
+| 334
+| 281
+| 55
+| 153
+|}
+[[file:Page_1.png|thumb|right|Clear Rates per Map]]
+
+'''Conclusion:''' The clear rates on a per-map basis are higher than the official and DB one. This should be fairly obvious as the people filling out this Survey are more likely to have higher engagement in the game. 
+Difficulty chosen on E5 on this survey is higher than the official tweet suggests (with Easy and Medium being equal), likewise E6 was cleared on mostly Medium and Hard in this survey instead of an even Hard-Medium-Easy split as the tweet and DB suggests (unless our Casual percentage is way higher than the official one, but all other Data suggests otherwise).
+
+The notion of high (or long term) engagement to the Game is reinforced by Question 2: "How many Events have you participated in including this Event?", with less than 13% only having participated in 4 Events or less including this one.
+
+[[file:F 2019 S 1.png|center]]
+
+===Page 2===
+
+'''Question 9:''' "Which one of the new Girls do you like the most?"
+
+Ah yes, the popularity contest. I regret to inform you that most did not pick the [[Akishimo|right Answer]], but overall the result is roughly analogous to the Community Poll on the Front Page of the EN Wiki'''a''' (This survey has a lot more of votes though). If we were to measure popularity by Fanart (uploads on Danbooru) and compare it to our results, a certain amount of United States Navy bias might be seen in those who took the Poll (not surprising considering this is the EN/International Community).
+
+[[file:F 2019 S 2.png|500px]][[file:F 2019 S 3.png|500px]]
+
+<small>Be aware of different colouring</small>
+
+Next up '''Question 10:''' "Which one of the new Girls do you feel will be the most useful in upcoming Events and for general use?"
+
+This subject has been discussed pretty extensively on various channels, but the result in this survey rather clearly shows that Atlanta and her AA power is deemed to be the most useful addition to the current cast. However a not insignificant amount (9%) think that none of the new girls are particularly useful. The addition of a new LHA was welcomed by some (8,2%), while Houston was deemed worthy by another 6,2%.
+
+[[file:F 2019 S 4.png|center]]
+
+The light side is covered now, so let's head for the Abyss with '''Question 11:''' "Which one of the new enemy designs did you like the most?"
+
+Technically CV Hime Kai did get a new CG, but I did not consider the change significant enough to warrant her as an option here.
+The Result pretty much speaks for itself, but I'd like to personally congratulate the 91 true defenders of Humanity resisting the temptations of the Abyss.
+
+[[file:F 2019 S 5.png|center]]
+
+'''Question 12:''' "Which one of the new enemies do you think will make a return in the near Future?"
+
+New Event, new Enemies, which might make a reappearance in the near future. No surprising results here either as named Princess-Grade Enemies take some more time to make a return. However, considering the prevalence of the He-Class Kai on every map starting on E1, surprisingly many thought it won't reappear in the near Future. Maybe the Ne-Class Kai was seen as a way more pressing issue here.
+
+[[file:F 2019 S 6.png|center]]
+
+'''Question 13:''' "Which of these regular enemies did give you the hardest time this Event?"
+
+Yep, Ne Kai was perceived as the big bad this Event. But I want to remind you of the statement about Question 13 made in the Introduction. Sub Loli Hime making a return as major source of annoyance (24%) is hardly surprising either, and at this point we might as well get used to her being a permanent addition to final operations.
+
+[[file:F 2019 S 7.png|center]]
+
+===Page 3===
+
+Page 3 will be dealing with '''E1''', which had us killing Supply Depot Hime for starters while introducing us to the new He-Class Kai in P2. Not really much to say here to be honest, only a minor disagreement for Hard Mode players wanting a better reward.
+
+[[file:F 2019 S 8.png|center]]
+[[file:F 2019 S 9.png|center]]
+[[file:F 2019 S 10.png|center]]
+
+===Page 4===
+
+'''E2''' had us deal with the Heavy Cruiser Princess with the option of unlocking a shortcut, which skipped one air raid, but needed a lighter fleet to facilitate its usage. Only 28% took this option, which is a bit lower than routing on KCNav [http://kc.piro.moe/nav/#/46-2?nodes=R&showMapBackground=false yields with a query] (about 30,4%).
+
+[[file:F 2019 S 11.png|center]]
+
+The map was generally received as easy and the rewards were deemed appropriate. I have to wonder what the 47 people hoping for better Hard Rewards were expecting beyond the best SONAR in the game currently.
+
+[[file:F 2019 S 12.png|center]]
+[[file:F 2019 S 13.png|center]]
+
+===Page 5===
+
+'''E3''' was our first introduction to the new Ne-Class Kai. Part 1 of this map containing the new enemy was deemed harder than the second part boss. Most people cleared it with a Surface Task Force, but a sizable amount preferred a shorter Route and went with a TCF instead.
+
+[[file:F 2019 S 14.png|center]]
+[[file:F 2019 S 15.png|center]]
+[[file:F 2019 S 16.png|center]]
+
+In general, the Rewards were considered appropriate, but not few found the new light cruiser guns lacking.
+
+[[file:F 2019 S 17.png|center]]
+
+===Page 6===
+
+'''E4''' was the final Main Operation. Transport Phase followed by chipping, followed by Debuff and Last Dance. It's also the only (E1P1 doesn't count) Main Operation with Friend Fleets. The majority did not utilize them here though.
+
+[[file:F 2019 S 18.png|center]]
+[[file:F 2019 S 19.png|center]]
+
+Part 1 was considered to be of easy to medium difficulty, and the Debuff for LD has been utilized by most Players.
+
+[[file:F 2019 S 20.png|center]]
+[[file:F 2019 S 21.png|center]]
+
+However, it appears that 13 Individuals (or 2,6%) were incapable of completing the Debuff because of a very recent mechanic (High Altitude Air Raids), which can currently only be countered by ranking and event-exclusive Equipment.
+
+Part 2 allowed us to take an Auxiliary Ship to the Boss to allow for advantageous Routing (heavier fleet) and On-Route Repairs. Akashi was the favoured choice for this Operation. This Phase was mostly received as alright, but the hard perception made a significant advance here.
+
+[[file:F 2019 S 22.png|center]]
+[[file:F 2019 S 23.png|center]]
+
+The rewards were deemed appropriate, but it seems that a craving for something more than a Cruiser Gun was prelevant. Well, and Easy players did not even get one and probably wished they got one. Or they wanted Houston as a reward Ship instead of Shinshuu Maru.
+
+[[file:F 2019 S 24.png|center]]
+
+===Page 7===
+
+'''E5''' as a map is pretty straightforward: Two HP Phases, with the first being cleared with single Fleet and the second by means of a Surface Task Force. The latter had a bit of a Preboss-gauntlet with two Sub Loli Nodes, up to four Airstrikes and two surface engagements. Friend Fleets would also make an appearance here, with a roughly 50/50 split on their utilisation.
+
+[[file:F 2019 S 25.png|center]]
+[[file:F 2019 S 26.png|center]]
+
+While P1 was received as easy to alright, P2 was a more difficult affair it seems.
+
+[[file:F 2019 S 27.png|center]]
+[[file:F 2019 S 28.png|center]]
+
+The rewards are the really interesting thing on this map though. After all, most people cleared this map on medium and overwhelmingly expressed that just two Airmats over medium difficulty are not enough of a reward to be deemed worthy.
+
+[[file:F 2019 S 29.png|center]]
+
+===Page 8===
+
+'''E6''' as the Final Operation would consist of a Transport Phase, an unlocking Phase, a chipping Phase, an (optional) Debuff and Last Dance. There was a lot to do, yet a lot of people only started chipping with the power of friendship.
+
+[[file:F 2019 S 30.png|center]]
+[[file:F 2019 S 31.png|center]]
+
+E6P1 had a fair bit of discussion concerning the "right" fleet to use for the Phase, most people settled for using a Surface Task Force here though. Some were apparently using a Single Fleet here, which indeed would be a rather lengthy affair. Maybe they knew something I didn't.
+
+[[file:F 2019 S 32.png|center]]
+[[file:F 2019 S 33.png|center]]
+
+The next Phase was unlocking X Node and was deemed an alright task by most. A-Ranking V Node alongside S-Ranking P were perceived as the hardest requirements of this Phase.
+
+[[file:F 2019 S 34.png|center]]
+[[file:F 2019 S 35.png|center]]
+
+Like E4, one was allowed (or forced, depending on who you ask) to take an AUX Ship to the Boss, with the majority taking Akitsushima Kai.
+
+[[file:F 2019 S 36.png|center]]
+
+Chipping itself was not a fun affair it would seem as most deemed it outright painful/a resource drain.
+
+[[file:F 2019 S 37.png|center]]
+
+The Debuff was completed by most with about 30% thinking they could take on the boss by themselves. V-Node was considered the hardest requirement of this Phase with 6 poor souls having to run that node more than 60 times for success.
+
+[[file:F 2019 S 38.png|center]]
+[[file:F 2019 S 39.png|center]]
+
+Last Dance was a hard affair for most it seems. Most Kills went to Yuudachi this time around (living up to her name), with next up being Torpedo Cruisers (despite having no Historical Bonus here), followed by Ayanami and a wider gap towards Kinugasa. 3.4% did not get the glory of finishing the boss themselves and had Friend Fleet finish the Job for them.
+
+[[file:F 2019 S 40.png|center]]
+[[file:F 2019 S 41.png|center]]
+
+The rewards were only really cherished for hard mode, with the trailing difficulties probably longing for that sweet GFCS Gun as well.
+
+[[file:F 2019 S 42.png|center]]
+
+===Page 9===
+
+Now for some conclusions and post-clear affairs. Let's start this off with the post-clear Farm: De Ruyter and Houston were equally wanted, with Destroyer Escorts of any kind trailing closely behind. Otherwise Akishimo, Hirato and Fletcher (after her disatrous debut in Spring 2019) were the target for a nice fishing trip.
+
+[[File:F 2019 S 43.png|center]]
+
+This would lead right to the next point, '''Question 58:''' "Did you meet your own set goals this Event?" with a majority being able to fullfill them. 22% had to drop the difficulty along the way.
+
+[[File:F 2019 S 44.png|center]]
+
+This Event was the longest in KC History, with 32% feeling that it was too long, but 5,5% disagreeing and even demanding a longer Event. The majority deemed the Event length as "just right". Considering it took place over the holiday season, it is unsurprising that most took a couple of days break from the Event.
+
+[[File:F 2019 S 45.png|center]]
+[[File:F 2019 S 46.png|center]]
+
+''' Question 62:''' "Do you think the difficulty divide between Main Operations and Extra Operations was intentional?" has been pointed out in the introduction as wonky question. It would appear however, that such a divide was noticed by most players with less liking it than not.
+
+[[File:F 2019 S 47.png|center]]
+
+'''Question 63:''' "Did you like the Worldbuilding this Event?" raised a few eyebrows. Either by the question itself or the very subtle way the lore is constructed in KC leading to many not noticing it. Reading the Ooyodo Boards might help paint a picture of what happened in this Event. We are actually the aggressors in this Main Operation.
+
+[[File:F 2019 S 48.png|center]]
+
+'''Question 64:''' "Did you like the Soundtrack?"
+
+The soundtrack was mostly liked by those who actually listened to it. After all, this question revealed that almost a third of the players play KanColle muted.
+
+[[File:F 2019 S 49.png|center]]
+
+'''Question 65:''' "How do you rate the Event overall?"
+
+Well, the last Question of quantifyable quality. There is not much to say here, the Event has generally been considered as "better than average".
+
+[[File:F 2019 S 50.png|center]]
+
+'''Questions 66+67:''' "What did you like/hate most about this Event?"
+
+While there are some common themes to be seen here, I'm just going to pick out my Favourites here and dump the rest in a collapsible so you can read through all of it yourself.
+{| class="wikitable"
+|-
+! Favourite "like" !! Favourite "hate"
+|-
+|
+Shinshū Maru's thighs <br>
+'staya, cunt.<br>
+The Salt<br>
+Fruitchair<br>
+[Redacted]<br>
+Fuck your ass you cunt tanaka 
+||
+hahahah<br>
+Still no Fuyutsuki ("this year" they said 2017)<br>
+Answering this survey<br>
+FUCKING FLETCHER PLEASE DROP ALREADY<br>
+NANOMACHINES, SON
+|-
+|}
+
+But I cannot leave this one out: 
+
+''"No carriers. No carrier support. No ship bigger than a light cruiser. The event in general was boring. It wasn't bad as summer 2019 but I expected a far better event. Also, Azur Lane is better because at least their Janurary Event had Shinano coming out to fulfill the prophecy of the chosen one. Jesus fuck why can't Tanaka just release Shinano already? Instead he brings out the goddamn Australians and the Dutch. Fuck the Australians, they deserve the nuke the Zeon forces gave them in Mobile Suit Gundam. Also Sieg Zeon. Finally who the fuck thought it was a good idea to bring in a fucking dutch? Nobody likes the Dutch Navy. They don't have carriers so they aren't cool. The Dutch don't have anything cool.. Unless it's about hookers. Then everyone loves hookers. Until you catch herpes. Or Aids. Anyways fuck this event."''
+
+<div class="mw-collapsible mw-collapsed"><h4>What did you hate most about this Event?</h4>
+<div class="mw-collapsible-content">
+Loli sub, Ne Kai
+
+E6 seems to be unnecessarily complicated with the debuff and a struggle for newer players who want to do hard
+
+E6hard reward and wall to get it
+
+The Stupid
+
+
+
+painful nodes in the routing
+
+Ne Kai
+
+The complete and utter lack of any semblance of sane design in e5H and e6H. E5H is just not worth (i still did it) and e6H... the only good thing to be said about it is that you don't need air power. The rest of the map is total, utter, completely idiotic shit.
+
+E5 Hard Mode only having 2 airmats and 1 repairmat over Memedium
+
+E6 Preboss
+
+E6 NotLikeThis
+
+I drop to N
+
+hahahah
+
+Admins being gay
+
+We must farm a lots for these new ship 
+
+Node S on E-6, and I'm sure many would agree.
+
+Screw E6P2 boss
+
+Normal, nothing to be hated. 
+
+....but they were walled behind those goddamned Lolisub + double Ne walls AND THEN the double Super Dyson Kai + double Ne Kai, which are damn impossible to kill during day. That was fucking hell.
+
+Well, could be E-5 that looked way too hard on my league to beat hard, not I had any plans to beat EOs on Hard but without FF it was an overkill. On the other hand I don t like the E-5 new ships the 1st is a DE while the 2nd is just a DD trophy.
+
+Feel like some rewards could have been a bit better. First phase in E-6 felt way too long and could have been shorter
+
+
+
+
+
+The E4H LD boss almost impossible to kill with 1-10hp remaining
+
+CV-hime Kai air requirements
+
+No time(and resources) for farming Saratoga and I-401 because Ne-class Kai CA keeps denying me from reaching boss node in E-6
+
+Shipgirl-specific damage bonuses; lack of freedom to choose your favorites to realistically clear the maps; multi-phase maps are tedious and must be discontinued; skewed difficulty curve, especially between Medium and Hard; garbage drop rates; "progressive EXP" model that discourages power-leveling; unfair and unrealistic armor levels for non-Princess Abyssals.
+
+E6
+
+MO music was not so great. Maybe too much subloli this event
+
+took me 68LD runs without FF to clear E6
+
+I sank Yuudachi
+
+FF come too late
+
+Christmas and New Years break.
+
+High Altitude Bombers
+
+E-6 Chipping
+
+S ranking node V on E6H. Lbas is a waste of resources 
+
+
+
+Ne kai
+
+Low drop rate for Hirato and other new drops
+
+E-6 night battle node
+
+Like every other events, without Nelson = very likely no Hard mode clear. Also screw S-rank only Nelson drop in Summer 19 Event. New player without Nelson will definitely struggle at some point.
+
+E-6's gigantic difficulty spike with the powerful princess fleet for the final boss. While it's up to my personal taste, the fact I had to resort to friend fleets was humiliating. But otherwise, I don't have no ill complaints to it.
+
+The difficulty gap between Medium and Hard on both E5 and E6
+
+Reso drain
+
+hirato drop rate
+
+Another boss that was basically a resource sink with a Debuff gimmick only available after painfully reaching LD. The partly ridiculously delayed FF, that consequently made said boss almost too easy to chip compared to pre-FF. Also the staggered FF release is just unneccessary imo, now that theres a Actication button for those that dont want to use it.
+
+RNG in general
+
+
+
+Using Akitsushima or Akashi is pretty much mandatory. Sacrificing a ship slot for routing seems like an annoyance for higher difficulties.
+
+I didn't have enough buckets to clear E6 REEE
+
+Ne kai
+
+Too many Shiplock
+
+whoever made the question about e5 clearly did it on medium and probably got no clue as for what reasons people have for doing maps on hard 
+
+
+
+Holy shit, fletchers drop chance
+
+Lenght
+
+Very classic and uninspired event, just like most Phase 2 events currently
+
+
+
+Late FF
+
+Idea that you need to snipe boss or have god luck in whole shelling (E6), pre boss with 2 new ne-kai and tsu and he flagship on escort that are hard to kill with dd's.
+
+E6, could've done better in this map
+
+Difficulty spike on EO
+
+RNG on E5/E6
+
+Ne Kai. Node S in general. Node V. All of E6 Preboss really.
+
+Bad difficulty scaling. Terrible, in fact. E6 medium was literally free while hard was neigh impossible without hardcap if you got unlucky on V-node debuff. Also, e6 was significantly harder than the rest of the maps.
+
+Can't decide between sub loli hime or that ne kai
+
+Pre-boss nodes being harder than bosses
+
+E5
+
+E6 friend fleet was really late
+
+Unlocks, never fond of the running around
+
+Sub Loli can just fuck off.
+
+BiS gun for Atlanta locked behind hard difficulty
+
+
+
+
+
+Ne-Class Kai
+
+Ne-class Kai CA
+
+Powercreep
+
+FUCKING FLETCHER PLEASE DROP ALREADY
+
+E6H was designed around friendly fleets which is BS.
+
+
+
+Slow FF implementation. 
+
+Carriers were almost banned from the event
+
+Having to wait fuckin 2 weeks for Friend Fleets
+
+Ne-class Kai can burn in hell
+
+Getting blown to bits.
+
+E-4H LD
+
+Huge difference between medium mode and hard mode.
+
+
+
+E6 shipping boss HP
+
+The week between the main operation being implemented and the extra operation made planning for ship locks difficult. 
+
+Using Akitsushima as routing, TCF lock for farming on E3 and E4 P1 and Ne class Kai
+
+E6 chipping
+
+me not getting any new boat while clearing 
+
+Usage of high altitude raids as it just presents an additional hurdle for newer players
+
+Loli sub + night battle nodes back to back on E6
+
+S-ranking Node V and late introduction of FF
+
+tie between 6 shiplocks and difficulty spike MO/EO
+
+Painfull farming of Akizuki (90 S ranks for her) and Fletcher (84 S ranks for her)
+
+E6H S node and W node boss main fleet
+
+Dependence on High-Attitude Raids (it's not bad by itself, but you had only one opportunity to get HA Intercepters, thus if you lost it you would struggle next events like I did)
+
+route to final boss, super tanky boss escorts, high armor meat shields, NE Classes everywhere...
+
+
+
+Won't be able to get 5in CD with GFCS because I had to drop difficulty.
+
+The jump in difficulty, I think it should have been distributed a bit more evenly between Main Ops and Extra Ops.
+
+
+
+Two BBWD Kai at E-6 boss node.
+
+Its length. It may be contradictory to what I liked most about the event, but I would rather farm the same 3-4 maps for new botes than have an extra 2 maps to grind through.
+
+
+
+Im not prepared enough for it
+
+
+
+E6H route to boss
+
+unlimited unlocks
+
+Nothing
+
+That it is over already, the Event periods are always my favorite Kancolle time (then again we need the downtime to repair the resource stockpile !).
+
+Hard pre-boss
+
+E6P2 boss node meat shields and S ranking node V
+
+E6 med should have at least given the new AA gun along with it
+
+
+
+E-6H chipping
+
+process of framing and drop rate of Fletcher (first)
+
+E6H node V unlock and pre-boss nodes are bullshit
+
+
+
+No carriers.  No carrier support.  No ship bigger than a light cruiser.  The event in general was boring.  It wasn't bad as summer 2019 but I expected a far better event.  Also, Azur Lane is better because at least their Janurary Event had Shinano coming out to fulfill the prophecy of the chosen one.  Jesus fuck why can't Tanaka just release Shinano already?  Instead he brings out the goddamn Australians and the Dutch.  Fuck the Australians, they deserve the nuke the Zeon forces gave them in Mobile Suit Gundam.  Also Sieg Zeon.  Finally who the fuck thought it was a good idea to bring in a fucking dutch?  Nobody likes the Dutch Navy.  They don't have carriers so they aren't cool.  The Dutch don't have anything cool..  Unless it's about hookers.  Then everyone loves hookers.  Until you catch herpes.  Or Aids.  Anyways fuck this event.
+
+Not having the time for e6 hard to get a god tier gun. Farming for Fletcher on non boss node drop rate.
+
+E-5 Hard was utterly pointless. E-1 really needs rockets or tanks to clear, which is punishing for new players. Ne-class Kai is stronger than CA-Hime. Unlocking/Debuff in E-6 was confusing and tiresome. Friend Fleet took way too long to get implemented. Lack of air power was really punishing for anyone without any seaplane fighters.
+
+Late introduction of FF
+
+E-6 nodes K and S.
+
+E6H is a nightmare
+
+I dislike when girls (like Hirato) are only available at a low drop rate on a node that has a chance to drop nothing at all.
+
+The difficulty divide 
+
+Bullshit requirements that prevented me from getting the Super Atlanta gun (Hard mode only, required the enduring of two further shiplock tags - E5N/H and then E6H). If there was a non-improved Super Atlanta gun as Medium reward, instead of the radar, I'd have tried Medium - for just a dupe radar (have 3 GFCS and 4 Fletcher-class radars), I simply went Casual and be done with it (not even Easy, because I don't need the medals).
+
+PTSD Imps
+
+NANOMACHINES, SON
+
+Sub hime and node S on E6.
+
+
+
+Too many sub Hime's
+
+TCF, Ne Kai, Fighting super heavy ships with a goddamn torpedo squadron (seriously knock it off with this please), LBAS raids that slowly drain your resources.
+
+
+
+My 100 last dance runs of E6H. Was depressed to see how painful it gets when u fail even if you tried your best
+
+The heavy RNG needed to dmg the E6 last boss. The escort near impossible to kill normally.
+
+
+
+My fucking shit luck on V
+
+Really big gap between Normal and Hard, to the point where you drop the difficulty and the game turns into laughable breeze
+
+The low passing rate of the EOs
+
+Just stop with the "Chip till LD" mechanics already
+
+
+
+Double Ne Kai Pre-boss and CV Hime Kai S-rank
+
+Weak worldbuilding 
+
+E-6 Chipping. S Node. Goodbye resources.
+
+no new BB/CV
+
+Excessive focus on historical damage modifiers as a requirement for reliably penetrating boss armor. 
+
+E5H reward
+
+How easy it was.
+
+I forgot about the debuff of E-4, making it unnecessarily hard
+
+Chipping during E6H made me drop; making it through S node was BS for me...
+
+Ne Kai
+
+
+
+
+
+E6H LD Crit waiting room. New Ships with GARBAGE Stats. 
+
+New abyssals with excessive armor 
+
+fucking neck bitch fucker
+
+A lot of gimmicks to do for certain maps. Poor RNG overall
+
+The difficulty jump from E6N to E6H is absolute BS
+
+
+
+Very hard pass rate to Boss on EOs
+
+E2
+
+
+
+tsu flag, subhime enroute, ne class kai's armor
+
+The absolute RNG fest that was E6P2..FF clears, lucky Nelson one-shots, TCI taking the boss out of all the ships...  or people taking 150 battles to finally get her hit.  Too many 'all or nothing' shots, too few 'almost but for 1hp' battles.  That and the huge delay on FF for a boss that really felt needed it to limit the RNG to almost-reasonable.
+
+E6H node V... Requiring S ranks on combined fleet battles with no FF in general...
+
+E4H boss was trolling me
+
+Lolisub-Hime. Lack of TÃ´kais to deal with her without having to sacrifice Combat capabilities for half your Escort Fleet / Yasen Fleet.
+
+Not having a nagato or nelson
+
+Double Ne Kai @ S
+
+No sister Sara. Again. (T_______T)
+
+
+
+Funnily enough, E-1H. Wayyy too RNG-ey
+
+
+
+Overlapping historicals. Why is that a thing now.
+
+E6 S node
+
+Ne-Class Kai
+
+Both e6 preboss. 
+
+Couldn't use my Yamato
+
+Akishimo+Hirato farm
+
+
+
+connectivity problems kept me from really enjoying and tackling the event like I wanted to and should have
+
+The difficulty spike was annoying; but clearing & farming takes precedence over pride. As much as I hate dropping difficulty.
+
+Fucking sniper SS Hime
+
+
+
+The late introduction of friend fleet. It should have came waaaay sooner.
+
+E5 and E6 were perhaps overtuned, although it does not matter a lot for people who clear on Hard for the sake of it. Having everyone end up with a copy-carbon comp of everyone else's on E6 sounds a little boring too, but that's how historicals work, ultimately. That E6 chipping can go to hell, however. (So does the late arrival of FF)
+
+E-6 P1 and Chipping P2
+
+KC OMEGALUL
+
+S node
+
+Difficulty rise for the extra operations
+
+E-5H
+
+the sudden spike in difficulty from the MOs to the EOs
+
+Missing Hardlanta guns PepeHands
+
+farming
+
+Sub loli hime...
+
+Tanaka's salty balls
+
+E6H LD
+
+The hell that were the E6P2 preboss nodes
+
+very late introduction of the friend fleets
+
+Due to my bad luck I cant get the ships i want or pass E3 fully
+
+Late Friendly Fleets and E-6 Hard boss
+
+Lack of CV usage
+
+
+
+
+
+Ne-class Kai (CA)
+
+Boss nodes, because I was often unable to kill off the boss on the boss node.
+
+Difficulity divide...
+
+Hard mode relies too much on equipment that are improved
+
+Insane difficulty curve of the EO maps
+
+I'm mad about Houston and Perth's lackluster designs
+
+Sub loli.
+
+Having to rely on TCI crit fishing yet again.
+
+Ne kai
+
+
+
+I play mostly for Rewards and Ships and overall they were very lackluster.  Basically the only good equip was HF/DF ASS/DIC sonar and Atlanta GFC gun.  And while some of the ships are cute (/De Ruyter/Atlanta), Atlanta's the only one who'll probably see any regular action.
+
+
+
+EO difficulty spike
+
+Event delay means Melon K2 delay
+
+Sub Loli Hime
+
+
+
+None
+
+
+
+The grind, as usual
+
+Farming both Hirato and Akishimo on same map and different Node
+
+N/a
+
+The stupid Ne-class kais refused to fucking die and Batavia hime took too much to kill. Hated how I couldn't do E6H because of my few resources combined with the maps absurd difficulty made me drop to medium, despite having so many historicals to kill the boss with. Guess I'll have to wait another event till I can get my first FCM.
+
+
+
+E5
+
+
+
+That I had just gotten back into KanColle the day the event began, and I hadn't prepared for it at all, and so I had to clear on easy (casual on E6). Also the drop rates suck, but that's normal.
+
+How it took far more work just to get to LD on E6H than it did to kill the boss. Also not specific to this event, but the overreliance on historicals to be able to kill EO bosses these days. I want to be able to choose my fleets and send my best ships, but Tanaka is choosing practically every slot in my fleet for me.
+
+not being able to do full hard mode because of shiplocks
+
+the ne-class. deadass
+
+Fletcher's drop rate, she never appeared...
+
+too many gimmicks
+
+Carriers were sidelined for the entire event.
+
+Hirato Farming
+
+transport phases make me suicidal 
+
+Ne-class
+
+E6H LD was overtuned, E5H was not worth considering, lacking rewards for casuals
+
+E-6P2 LD was just a huge game of rolling dices, where you're just rolling dices over and over and over again for that preferred favorable outcome
+
+
+
+Ne-class kai
+
+TCF
+
+sub loli hime,
+
+The whole event concept. And the farm required in between to not even be able to try out the last part.
+
+Nothing particular except the random taihas
+
+Difficulty and length
+
+
+
+High RNG passing rate to boss node combined with high RNG boss kill for E-6 Hard. 
+
+Fucking EOs
+
+E5 Hard rewards
+
+E5
+
+Taiha's
+
+
+
+Ne class FS and Sub Loli Hime
+
+Awful drop rate on old ships
+
+the requirement for similar or same ships for routing on multiple maps
+
+Conflict with holiday season
+
+The difficulty divide between E6H and E6M. E6H felt impossible, yet E6M was an absolute cakewalk.
+
+
+
+Ne-Class Kai can burn in hell
+
+E5 Hard LD is way too hard
+
+Short length 
+
+
+
+Getting to the E6 boss was impossible
+
+Ne-Class CA
+
+E6H pre boss nodes
+
+NE KAI 
+
+The night battle node on E6 Medium along with the Sub hime
+
+E-6 Debuff & Too weak FF & TCI snipe failed
+
+Ne flagship kai and New sub hime
+
+USS Houston as a drop
+
+Node K on E6
+
+Over 50 runs for De Ruyter, E5 PITA to farm
+
+
+
+
+
+It took way too many runs to get Fletcher.
+
+Ne-kai
+
+Original end date
+
+WTF was E6H and why are still here? Just to suffer?
+
+
+
+
+
+
+
+E6H being complete bullshit. Like. Absolutely bullshit and getting stuck on it for 2 weeks and still not managing to get the RNG required snipe within time to clear on hard. Also, the huge difficulty gap between hard and medium that seems to grow with every event is just cancer and only really allows fossils to keep being fossils and gates newer players out of catching up. E1 must've been terrible for newer players especially who lack anti-installation equips.
+
+Long and difficult routing to the boss in some maps
+
+E-6H
+
+The pre-node wall
+
+
+
+MeatshieldHimes/Too tanky escorts
+
+nerfing the OG Sub Princess and calling it an "upgrade"
+
+The new shipgirls.
+
+E-6 Node W
+
+IRL time I didn't have as it overlaps Christmas and New Year's >.<
+
+Didn't get Saratoga though I farmed for her. Akizuki took 280 runs to get. Forgot about Fletcher on E3...
+
+E5.
+
+The requirement of Rocket interceptors. I missed previous Event Due to real life 
+
+
+
+E6 difficulty between easy & medium.  Gap too large.
+
+Sub loli hime, big difficulty spike in EOs
+
+E5 AND E6 were ridiculously grindy
+
+Too many locks and too many phases/steps for the final map.
+
+E6H debuff mechanic and praying RNGesus for TCI sniping in LD
+
+The RNG
+
+The amount of salt generated by the new Ne-Class is astronomical... you can litterally put them in place of BB hime and your taiha rate would not change.
+
+First time i ever spent so many buckets lol
+
+Late introduction of EOs delayed my event start
+
+
+
+E6H chipping was painful
+
+
+
+Ne ca kai / aimbot acculate 100% 1 hit go home
+
+chipping for debuff
+
+No availability of rocket interceptor for newfaces, some rewards were underwhelming, need of Akashi/Kamo, almost no CVs needed, mass genocide of fairies
+
+Friend fleet releasing too late. 
+
+ne kais
+
+E6H
+
+Chipping E6 was pain
+
+
+
+The sublolis
+
+
+
+Equipment rewards were mediocre, except for gfc radar
+
+Bad drop rates for my waifus
+
+
+
+E5 was way too difficult on Hard, more so than E6 imo and the rewards weren't worth the effort in the slightest.
+
+Mediocre rewards for too difficult maps don't give incentives to clear them on anything more than Easy.
+
+
+
+E5's 50% drop rate for Hirato, and late FF
+
+Unryuu's drop rate at E2 node A
+
+
+
+So many steps to open E6 P2
+
+Strong single enemy will taiha one of your combine fleet girl during torp phase
+
+Resource draining during retreats
+
+Ne-class kai bullshit on pre-boss
+
+Stupid haters & AL assholes
+
+e-6 s node
+
+needing akashi/kamo kai even on casual
+
+Walls of high armor and HP to compensate with touch and ff. Long risky route on E-6H to compensate for some new P2W item. Players who pass hard may only have high luck roll to snipe boss with no real management skill.
+
+Long wait time for FF. The rng fest that was E6. Chipping was too painful. Difficulty gap between Eos and MOs
+
+Rewards seemed underwhelming. As I mentioned above, I was more inclined to do easier difficulties on maps cause the rewards hardly seemed worth the effort.
+
+E5P1
+
+Delete retard FF because it is useless. 
+
+
+
+
+
+Tedious Extra Operations
+
+The gap in difficulty between medium and hard mode for the last map is too huge. Definitely banging my head against the wall on hard mode. But after dropping to medium, it only took 2 runs to clear. 1 to chip back into LD. 1 to clear LD. No FF or debuff needed.
+
+Ne kai
+
+E6 preboss (night battle followed by ne kai)
+
+
+
+Artificial delay of content by spacing EO and FF by literal days
+
+
+
+E6 slapped the crap out of me
+
+
+
+
+
+Once again, hard mode is required to get the soon-to-be meta-defining equipment. I can't do later maps on hard mode.
+
+the difficulty escalated too much
+
+Farm took more time and resources than expected.
+
+length. way too long, took a break and almost forgot about it.
+
+New girls are pretty lack luster
+
+Medium E5&6 = easy,   Hard E5&6 = insanity  (good luck post-clear farming),  overloaded maps,  Sub Loli forcing OASW & LBAS Toukai usage, more mechanics for more RNG during clears (forced TCI usage, Nelson not Touching, boss node 99.9% accuracy ships & guaranteed Chuuha/Taiha, etc...) Clearing hard e5 = Hirato & Akishimo are myths
+
+
+
+some enemies are too hard
+
+UnryÅ« only drops on Easy, dammit.
+
+
+
+no medium shiplocks e-6
+
+E5 air strike nodes
+
+everyone else complaining about E6 node V
+
+the difficulty escalated too much in E6 and Ne-class Kai
+
+The atrocious drop rates of specific shipgirls and their locations (some being on non-drop guaranteed nodes). 
+
+Ne-kai CA
+
+E6 Last Dance
+
+Dislike how long before friend fleets are introduced.
+
+
+
+
+
+E6 K night node
+
+rewards for e5h
+
+Not enough time
+
+Drop rates.
+
+E6 Medium - Hard gap is truly absurd
+
+E6H LD too difficult, had to drop
+
+E6 Chipping
+
+Rewards
+
+Ne-class kai on E6 node S.
+
+
+
+Touch dependence. 
+
+Ne Kai
+
+E6 LD
+
+FF introduced way too late, which extended the event way too long
+
+
+
+Everything about the EO. The drops, the rewards (yes, including Atlanta), the boring chore of E5, the painful journey of E6, the gatekeeper node, the bullshit difficulty gap between Med and Hard, everything. 
+
+EO routes were cancer. E6H was cancer. the route, V, ne kais everywhere. The randomness of winning. i was forced to attempt to clear without debuff because V was impossible to S rank.
+
+Absolutely painful E6 - Chipping and Last Dance felt completely RNG-based. I felt like I had no control when trying to do the map on hard mode (I dropped difficulty to normal near the end). Even with level 99 ships and mostly mid-end game equipment.
+
+Subs, night battle, akashi getting taiha
+
+Answering this survey
+
+Too easy. E1 to E4 is a joke.
+
+Running out of buckets and having to drop to E6C-getting nothing but Atlanta
+
+Retarded high enemy defense and HP in hard mode boss compositions (especially in EO) and designing the event around the existence of FF and "historical" damage multipliers.
+
+E6P1
+
+Ne class kai
+
+lack of interesting ship drops
+
+Historical bonuses on every map
+
+Ne-Kai class CA and god damn node S in E6
+
+E-6 LD
+
+Land Bases
+
+
+
+E6H S node, 40-45 sorties, 11 boss in LD and needed drop, because i lose too much fuel, ammo and needed go back to e5m for farming
+
+Underwhelming rewards, E-6H difficulty too high sanity-wise
+
+Night battle nodes
+
+E5, the resources to run in this map skyrocketed especially fuel and bauxite. Farm for 3 ships, neither drop 
+
+
+
+
+
+Getting sent back in V node, or losing my Nelson Touch
+
+long and troublesome debuff and unlock mechanism and late friend fleet.  Both makes the "autumn" event end on 2020.
+
+Difficulty of E6 pre-boss nodes, Tsu-class that ruins my day, Requirement of Nelson touch
+
+E6 chipping
+
+Still no Fuyutsuki ("this year" they said 2017)
+
+MÌ¶yÌ¶ Ì¶oÌ¶wÌ¶nÌ¶ Ì¶lÌ¶uÌ¶cÌ¶kÌ¶ E6 Hard preboss nodes
+
+
+
+E5
+
+The Fletcher farming and drop rate, but I understand it's rarity.
+
+Troll sub nodes
+
+the art for the new ships could be better
+
+
+
+The trolling in E6H node V and the overpowered Ne kai
+
+CV Hime
+
+Ne kai
+
+
+
+The fact that I can't clear the event all Hard because of lack of resource, and decent shipgirls/equipments
+
+Too many E6 debuff conditions
+
+
+
+So many CLs, yet no real use for them as of now. Except a few.
+
+God awful map for farming Fletcher. 
+
+Sniper subs :looks at lolisub:
+
+E6 literally made me want to rage quit
+
+
+
+Doing Debuffs for E4 
+
+slot machine E-6 LD
+
+RNG, duh
+
+Loli Sub Hime
+
+
+
+E6 debuff and chipping
+
+S-Rank Node V
+
+E4 TCF Debuffing
+
+Fucking two Ne-class Kai gatekeeper
+
+big difference in difficulties between medium and hard
+
+Ne-Class Kai II/III
+
+
+
+Too many SS hime nodes
+
+V node
+
+E6 comps all recommend Nelson touch but not all ttks have her
+
+Almost being able to clear E-4H without debuff (boss to 24hp), spending 4 days leveling lbas proficiency to clear debuff and then having to switch to easy cause I still couldn't clear LD. 
+
+
+
+Node S in E-6H was too much RNG. Bad rewards for E-5H ruined my motivation to do an all-hard clear.
+
+Very late FF introduction. Just release the damn FF at once damn it, holding E6 FF for another week for no reason
+
+
+
+
+
+
+
+
+
+
+
+No good DE farming spot like Winter 18 E1
+
+the node with Ne-class before the final boss
+
+Fucking Ne-Class Kai
+
+E6 being stupidly hard once you unlock X, MO a bit too easy, crap rewards for E5H, more 100+hp CLs isn't a good thing
+
+
+
+E-6H attempts being way too expensive and the map taking super long
+
+Loli-hime and forced TCF...
+
+Fucking RNG drops
+
+farming in e5 like honestly fuck that map and its 3 air raids holy shit
+
+Over 60 runs in V node from RNG garbage then 55 in W just to fail
+
+
+
+P1 of last map
+
+High Altitude Interception
+
+
+
+
+
+the intricacy of mechanics... locks is fine to a certain point... but needing a vanguard of users to prod at the maps to find out what works is (i find) totally unneccesary and just delays all the users who cant afford to lock ships away unneccesarily
+
+
+
+Not very good rewards for maps, beside E-2.
+
+Difficulty scale between Medium and Hard E6 boss was huge (2 BB Demons soak way too much damage))
+
+2 Ne-Kais in casual E6/2 Sub Princess in casual E5/ SDH in casual E1
+
+E-2
+
+Taiha everywhere
+
+Stop spamming loli hime Tanaka you fug
+
+It run at the same time with the time limited new year quests and that limited my time to farm ships that I don't have. (Fletcher and Houston)
+
+resources hog
+
+E6
+
+My resources and RNG
+
+E5H reward choices and E6 double ne kai pre boss
+
+Zeco
+
+E-5 AP on boss, E-6, enemy escort having 200+ armor with more health than the Boss :), and also S ranking combined fleets outside of Boss :))
+
+Dealing with so-classes to princess subs on every EO map making me reconsider doing harder difficulties and ditching probably useful equipments in favor of getting new ships easily
+
+Too many overlapping historical/special routing ships between the different maps.
+
+
+
+The requirement for high-altitude interceptors, since I didnÂ´t participate in the events that awared them and thereÂ´s not other way of getting them.
+
+New sub hime random taiha my ship in E-5 and E-6
+</div></div>
+<div class="mw-collapsible mw-collapsed"><h4>What did you like most about this Event?</h4>
+<div class="mw-collapsible-content">
+Easiest final map in a large scale event
+
+Grunlig's guide DesuOP
+
+
+
+The Salt
+
+
+
+More Murica
+
+The BGM
+
+Good rewards for several map
+
+Atlanta
+
+getting Unryuu
+
+I got most of the new ships and good drops while chipping or on LD.
+
+Local offline event, enjoying other TTK salt
+
+hahahah
+
+Short
+
+Its challenging 
+
+E-1 to E-3 being a breeze.
+
+That i had a lot of historical ships 
+
+Farming for ships I do not have.
+
+The new ships (specifically Atlanta) and reward equipments (her guns) were really worth it....
+
+Hmm, If I need to be honest I liked how I could beat 4 maps in Hard since I never had an event that I've done like this before. Otherwise I like the new ships that appeared  (especially shinshuu maru and Atlanta). Boss was nice too, it was great to see Zeco making Bathavia hime as his first abyssal design (much better than Houston that is). Soundtrack was nice too, I mostly liked the EO ones at best. Overall it was a nice event
+
+Shinshuu Maru is super cute and looks like a Sith. Yuudachi (waifu) had lots of bonuses which was nice. 
+
+
+
+
+
+The sentiment of accomplishment 
+
+new girls
+
+Girls who needed to TCI did their job well, I'm very satisfied
+
+Houston and Atlanta.
+
+Easy MOs and Hard EOs
+
+I like that they did not go overboard on unlock or debuff gimmicks. Too many of those is a bad thing
+
+the safe sail in MO maps
+
+
+
+Event OST
+
+The community.
+
+BGM
+
+Atlanta
+
+MO has decent challenges but not impossible to do yourself. E5P2 Hard last dance composition was lazy and the rewards for it were mediocre. 
+
+
+
+
+
+Cool new ships
+
+
+
+Got Houston while chipping boss Kappa
+
+Overall fun map with lots of fun challenges and battles. As it was one of the few events to have you think outside the box and have you learn how to organize historicals, manages you limited CA/CAV/ and do maps (mostly) without CV/CVLs.
+
+E1 was simple enough to allow a farm without spending too much ressources for overall a good numbers of good drops.
+
+Nothing in specific
+
+AA hime art and bgm
+
+The rather gimmickless MO's were a nice breather from last few events that were packed with unlocks and debuffs. It made them comparatively easy but maybe that could be tweaked, I definetly like the straight forward maps more.
+
+Atlanta
+
+
+
+All maps were pretty straightforward without a ton of bullshit gimmicks.
+
+Shinshu Maru
+
+
+
+Soundtrack
+
+no air on the route to the boss
+
+
+
+I liked how it wasnt a complete slog. There was a nice spread of easy to hard maps.
+
+Perth
+
+Ship variety
+
+
+
+DE farm
+
+new equipment, BGM was good and MO were comfy to do.
+
+i get to clear E5 before FF
+
+Increased drop rates
+
+Main OP difficulty
+
+
+
+Nothing really. Was kinda boring.
+
+Atlanta's gun - the one with gfcs - and fletcher too
+
+
+
+New Girls and Enemies
+
+easy MO gave a good feeling to the start
+
+Knocking down the S-rank for V on the first try and S-ranking the LD right afterwards
+
+Clearing is hard, but totally worth it. Also Atlanta.
+
+Lewdable new ship girls
+
+
+
+
+
+Atlanta
+
+"E-6 Hard mode" gun
+
+No shibafu art
+
+Watching Dodagu self-destruct without anyone (read: me) around to save his typo-ridden ass
+
+Got my first Hard clear
+
+
+
+All the new girls are cute.
+
+The large  number of map, american girls
+
+Atlanta
+
+I got Kamoi who got me Saratoga through LSC. Imagine farming E6 4Head
+
+Blowing things to bits.
+
+
+
+A lot of new girls.
+
+
+
+
+
+
+
+Variety of ships used
+
+straight forward maps
+
+the fact I cleared e6h without buckets and baux on second boss encounter
+
+The new kanmusus
+
+Rewards were decent for the amount of time and effort i put into 
+
+First four maps were very doable
+
+music
+
+Fact, that I was able to clear E2 and E3 on medium despite planing to do it on easy. SO basicly did better hten expected
+
+MO felt balanced
+
+Much more new girls then average events have
+
+No Re Class! I fear the day the Re Class Flagship will be  introduced...
+
+
+
+New ships all look good. New equipment is bonkers.
+
+Finally being able to use Hiei and Kirishima as historical ships.
+
+
+
+Variety of new forgein girls. Especially a new heavy cruiser since Pola of Spring 2016.
+
+The large amount of new botes. That's the biggest reason as to why anyone participates in events anyway. 
+
+
+
+Atlanta, Perth
+
+
+
+E1-E4
+
+sm's thicc thighs
+
+My luck with clearing drops
+
+Lots of new ships (7 !), with plenty of historical value behind them ; also plenty of good farming possibilities (Fletcher especially).
+
+All around good opportunity to level/farm in multiple maps
+
+E1-E4 Difficulty
+
+Akishimo <3
+
+Altanta
+
+E3 Leveling
+
+all the clear-reward girls are so cute
+
+Variety and number of new ships
+
+
+
+It was a large-ish event, but the multi phase stages wernt too cancer.
+
+Atlanta
+
+Good spread of ship drops/rewards. Most are pretty average statwise, but they're also mostly either from nations that haven't been represented yet or classes of ships we haven't seen from a particular nation yet. Final boss theme was definitely one of the good ones. Decent equip rewards. Lack of air power was a sigh of relief - one seaplane fighter and done.
+
+New shipgirls
+
+New foreign ships.
+
+more straight forward than the previous ones 
+
+I was glad to see the boss debuffs are ultimately unnecessary, so long as you are sufficiently lucky.
+
+Akitsumaru drops
+
+E6P2 Boss BGM.
+
+De Ruyter
+
+Atlanta's jugs
+
+That I could farm I-13, Hatsuzuki and Saratoga.
+
+
+
+Atlanta and Houston
+
+Year of the Cruiser, we fleshed out our cruiser pool a good bit. Decent guns for CLs.
+
+
+
+E5M gun same as E5H. Saves some resources
+
+Poi's raws is so cute, it brings smile and joy in the midst of raining of Taiha
+
+Saratoga drop
+
+Fuck your ass you cunt tanaka
+
+The girls, Hirato and Akishimo were great. Also the scale seemed right and the middle "calm season" for restocking was nice, made it feel like calm before storm.
+
+Honestly, nothing...
+
+Cruisers getting love
+
+
+
+De Ruyter, Dutch Admiral hype \o/ :3 :}
+
+Length
+
+Having something to do other than expeditions and monthlies.
+
+Akitsushima finally become useful
+
+A fantastic array of new ships, one of the best lineups we've seen in a while.
+
+Being able to CLT my way through all maps
+
+How easy it was.
+
+A new heavy cruiser and light cruisers
+
+The soundtrack and the new characters' designs
+
+Relaxed difficulty & decent drop rates for new ships.
+
+
+
+
+
+Practically nothing, Shit Ships, Shit Rewards, Shit event. 
+
+New ships
+
+killing neck
+
+Good difficulty pacing.
+
+
+
+
+
+First few maps didn't cost too much resources
+
+De Ruyter
+
+
+
+the challenge
+
+That MO was accessible for all while EO was more 'exboss' and not 'MO relettered'
+
+The emergency toukai quest, sub homes at the beginning of sorties
+
+Atlanta guns
+
+First half of the Event was suprisingly easy, I did originally NOT plan to finish that many Maps on Hard/Medium.
+
+Losing my chance at boobie sama 
+
+Atlanta, HF/DF, 8inch mod.2, GFCS+5inch
+
+Atlanta.
+
+
+
+AKISHIMO SO CUTE. OMG I LOVE HER CHARACTER
+
+
+
+Pretty laid back for a large event, and E5/E6 hard is very optional this time around which is nice for new players
+
+Sound track and new boats
+
+Atlanta, De Ruyter
+
+Perth. I wanted an aussie and i got one
+
+Got to use the Touchs and very few air power
+
+E6 boss music
+
+
+
+Forced use of lighter ships, making clever use of new Repair mechanic to encourage bringing Akashi/Akitsushima
+
+Atlanta is a great AA ship for exactly that purpose. *cough* 6-5 North Route
+
+Chill soundtrack
+
+
+
+Atlanta and her busted AACI trigger rate and shotdowns. 
+
+The brutal curve was actually quite nice and the reward balance is overall great. BGM is on point all throughout and reflects the difficulty well, in a way. The best part ? All the new girls are enjoyable.
+
+The BGM
+
+Atlanta :3
+
+E5 
+
+
+
+E-6H P2 BGM
+
+All the new shipgirls except Hirato i liked, they had great designs
+
+Autistic E3 grind and a whole bunch of cute newships (minus E5 exclusive)
+
+
+
+ä¿¡å·žä¸¸ã™ãã§ã™ã€‚
+
+The working mrmin123's bot
+
+Getting it over with
+
+Cruisers
+
+new shipgirls
+
+Atlanta
+
+Various Medium-sized Ships instead of small
+
+Atlanta
+
+
+
+
+
+Sinshuu Maru
+
+I liked that they added a Dutch ship to the game
+
+Perth, and the duration of Event. (IIRC, this is longest event ever)
+
+Easy to get to the hardest part
+
+Atlanta's boss theme
+
+setting up locks
+
+Smaller Navy ship introduction.
+
+'staya, cunt.
+
+Arashio got buffed although it just only E1
+
+
+
+I did like the idea of difficulty divide between MO and EOs.  I just think making the EOs a gauntlet of survining nodes that can OHKO your ships isn't really about gameplay and more about making money off REs,Irako, & Damcons.
+
+
+
+Ease of MOs
+
+
+
+
+
+
+
+The sountrack 
+
+
+
+The music and the new abyssal designs
+
+Atlanta as E6 reward
+
+New ships
+
+Getting De Ruyter to expand the Bofors family, Atlanta for her powercreep AA guns and Fletcher, Houston and Darth Maru will be fine additions to my fleet.
+
+
+
+Getting my Fletcher drop
+
+
+
+New American ships.
+
+How simple and straightforward the first few maps are (I wouldn't have minded them being a bit harder with how simple they were).
+
+cute botes
+
+Levelling my ships as I clear the event. 
+
+The addition of new American ships
+
+new/more foreign ships
+
+NELSON TOUCH
+
+Christmas CGs
+
+Cute girls and fun final boss
+
+Fruitchair
+
+New ships are all good
+
+
+
+So many new foreign shipgirls!
+
+The Music
+
+Atlanta
+
+new girls and equipment
+
+
+
+I was able to farm all the new girls except the DE
+
+Merciful drop rate on the new girls
+
+
+
+Was not a resource black hole like Spring 2019 given E-6 Hard
+
+Main OPs was ez af
+
+The difficulty was just right, for respectvie ones. Ex: Hard being a headache is an expected one than being a breeze.
+
+The designs of the new enemy ships as well as the soundtrack 
+
+New Kanmusu
+
+
+
+Easy to get new ship while clear the map
+
+Good drop rate on new ships
+
+the new ships
+
+Cute Boats
+
+The fact that there were some maps that were very straight-forward
+
+The soundtrack in e5 and e6 and the new ships
+
+De Ruyter's Christmas CG
+
+E6 is awesome w/ new bgm
+
+I finally got Fletcher. My soul is now at ease. 
+
+
+
+E1-E4 were very simple
+
+Atlanta
+
+
+
+First maps being simple. No more than two phases to get to the boss. Keeping the multiple phases for the last map.
+
+Long length allowed it to be squeezed around heavy college work
+
+New ship girls
+
+Atlanta
+
+Felt too easy on Easy
+
+Atlanta
+
+EZ main ops so EOs could be done easier
+
+
+
+
+
+I got Fletcher.
+
+Atlanta
+
+Length of event
+
+Atlanta
+
+
+
+
+
+
+
+The soundtrack as usual, is really nice. Atlanta is a good addition to the game, and isn't completely broken, only really being good at AA.  Shinshuumaru too, another LHA is welcome. Perth is good girl. 
+
+Being able to farm some maps pre-clear
+
+E1-4 was straightforward and not 3+ phases
+
+More girls to obtain
+
+
+
+Atlanta
+
+I was able to use my waifu effectively sue to historical buffs
+
+I got to use Akatsuki for the last map without feeling that I could use someone better.
+
+E-3/E-4 sub nodes
+
+New foreign CL
+
+I like that it wasnt the usual super hard equipcolle. Was much more fun for me.
+
+Best event levelling spot to date.
+
+Atlanta
+
+
+
+More foreign ships, using ships I don't usually use
+
+New ships and soundtrack
+
+Soundtrack 
+
+
+
+Good difficulty balance (except E6H), new girls, good soundtrack.
+
+Worldbuilding
+
+Not worrying much about air power is a nice change of pace. 
+
+The fact that this is the first event i cleared!
+
+Shinshuu Maru
+
+poi!
+
+The designs of the new bosses
+
+
+
+New girl
+
+The most girls I want dropped under 10 runs
+
+Ramp up of difficulty, not as rng centric as other events
+
+Good MO difficulty.
+
+1-2 shot final boss
+
+The maps were pretty straightforward and not overly gimmicky
+
+E6 boss BGM was great
+
+
+
+More foreign ships that recognize cooperation between countries
+
+
+
+I got the rest of the akizukiâ€™s, 2 of which while clearing the map 
+
+More American ships!
+
+
+
+Lots of AA enemies this event, being consistent with the final battle and reward. It was challenging but I didn't mind, for the most part.
+
+All the good and important drops are on Casual.
+
+
+
+New shipgirls
+
+Atlanta
+
+
+
+Pretty easy pre EO
+
+Newbie friendly
+
+Being lucky on drops pepega
+
+The first 4 maps were balanced well. No airpower cancer due to historical event
+
+All
+
+perth
+
+The memes
+
+Free 15 ASW Sonar and new main AA gun for Maya
+
+Atlanta. Well worth the pain 
+
+Farming ships, rewards gave me less incentive to do on higher difficulty
+
+Akashi/Kamo branching and a decent amount of shiplocks
+
+
+
+
+
+
+
+Shinshuu Maru memes
+
+Time length of the event. Had to take a break for 1.5 weeks because of the holidays and being sick. And the length just made everything very manageable.
+
+Atlanta as a reward
+
+MO maps were relatively easy to clear on Hard
+
+
+
+New AA CL and new gear for CA, ie 5inCD+GFCS
+
+
+
+My third time full clearing and my first time not needing Friend Fleets to clear any part of the EO, even if I play on Casual.  I like the world building and the return of the screamo final boss music, LMAO.
+
+
+
+
+
+The designs of the new ships are cute. I love the HF/DF Sonar.
+
+I like music in e6 boss node
+
+E6 not being as painful as I thought it would be.
+
+th easy early maps, allows for better farming.
+
+Fair event for those that were prepared (not me)
+
+Good Ships, new crucial drops not placed in E5
+
+
+
+some new ships that i wanted dropped for me
+
+I finally managed to get two American ships.
+
+
+
+atlanta
+
+Difficult final map
+
+E3 leveling
+
+I like music in e6 boss node
+
+That auxiliaries got some well-deserved attention, though it was in a slightly distasteful way (i.e. used for easier routing/shortcuts).
+
+new shipgirls
+
+Shinshu Maru
+
+Finally getting an Aussie ship in the game
+
+
+
+
+
+Atlanta iyakao
+
+I got Amagi
+
+Difficulty difference
+
+Being able to complete it without needing to drop difficulty.
+
+Atlanta
+
+More new foreign ships
+
+Easy boss farming 
+
+Atlanta is gorgeous
+
+Main Operations are straightforward and relatively cheap to complete.
+
+
+
+E-6 BGM, Atlanta and Akishimo.
+
+moderate resource cost
+
+Perth
+
+Lots of collaboration in discord for e-6
+
+
+
+Not related to the event itself, but I do enjoy the journey I had with my friends, helping out each other. 
+
+MO wasn't cancer, but E1 would not have been noob friendly with sdh with no anti installation gear.
+
+Historical bonuses based on historical ships used in historical battles.
+
+
+
+Knowing that there will be De Ruyter dogeins
+
+M16 Hime and Godlike BGM.
+
+Getting Saratoga drop
+
+HFDF Sonar
+
+Australia represent
+
+Atlanta's Tatas
+
+rewards
+
+EO soundtrack
+
+decent bosses
+
+ShinshÅ« Maru's thighs
+
+De Ruyter is cute
+
+
+
+
+
+HF/DF
+
+It is not too tilting
+
+A smooth ride and painless farming for other ships. Difficulty for Easy is quite managable for newer player from my perspective
+
+
+
+
+
+New Shipgirls seems good and useful
+
+new ship girls
+
+new shipgirls, new equipment, music
+
+
+
+Atlanta, although it was pain to get her
+
+E6 boss node BGM / Fletcher reimplementation
+
+
+
+The feeling of getting a new ship girl.
+
+No ship lock in E6, more allied nation ship.
+
+New boats
+
+One of the event about Java Sea Battle which location I live close by and I did a research about this battle
+
+
+
+Change of CGs all along the event time
+
+Shinshuu Maru and Atlanta.
+
+New shipgirls
+
+
+
+The fact that C2 hiring a well-known seiyuu again, it's already amazing, and how Batavia Hime voice is like representing ABDA struggle.
+
+Reward ships
+
+
+
+Next to no PT imps.
+
+Good drop rate as always. Was not too difficult. 
+
+Many historical buffs
+
+E1 was ez af
+
+
+
+Nuking the Anti-air hime on LD
+
+farming
+
+Shipgirls doing big numbers on abyssals
+
+Good new girls
+
+
+
+New ships
+
+Lots of new waifus
+
+New ships
+
+Soundtrack, obviously. It's the only thing that keeps me playing this game for 4 years.
+
+Multiple shipgirls from different countries, soundtrack with vocal
+
+Finally a new Megane Ship
+
+
+
+Sendai got huge historical bonus
+
+De Ruyter
+
+No potential offroutes
+
+soundtrack, ships, overall theme
+
+
+
+The event had its hard moments but nothing straight up unfair like last time with the very high air defense requirements.
+
+Not that rsc draining compared to certain â€œsmall scaledâ€ event, not much crappy and boring shortcut unlocks in earlier maps
+
+
+
+
+
+
+
+
+
+
+
+Got a dupe Sara during Hayanami hunting
+
+Last Boss song
+
+The BGM, and Atlanta
+
+Balanced FF, Appropriate rewards for Hard, farming possible with decent rates
+
+
+
+Perth
+
+Getting my first Saratoga. Also being able to farm an event for the first time but that's not really down to the event...
+
+Atlanta
+
+when i killed the fucking abyssals, and when i came lots when i finally got hatsuzuki
+
+De Ruyter and Atlanta are cute
+
+
+
+Reward ships
+
+Introduction of Australian ship
+
+Atlanta
+
+
+
+more anglosphere ships, better chance for unryuu even tough i didnt have the resources to farm for her
+
+
+
+No shiplocks for medium E-6
+
+New twintails
+
+Houston's better CA gun
+
+Getting Unryuu and Amagi finally
+
+Atlanta
+
+E-6 Boss music
+
+The new ships
+
+painful
+
+
+
+Challenging and but not hard enough to drop difficulty 
+
+Volume of new ships
+
+Atlanta
+
+Nice Leveling map, 8 screws :), and additional foreign ships
+
+Getting new ships. The only time I get new ships really.
+
+The maps were fairly well-balanced, with a steady increase in difficulty as we progress through the maps.
+
+
+
+
+
+Atlanta and De Ruyter
+</div></div>
+
+===Further Inquiry/Contact===
+
+If you want some specific analysis done (like filtering specific questions to difficulty/player veterancy) or have any questions and/or feedback regarding the survey, contact me on Discord: Grunilg#2096, I should most likely be sharing one of the big KC-Related Servers with you.
+
+===Inquiry by 3ntf4k3d: E6 FF, Debuff and LD sorted by Difficulty===
+
+[[File:F 2019 S 51.png|center|700px]]
+
+<br>
+<br>
+<br>
+
+[[File:F 2019 S 52.png|center|700px]]
+
+===Inquiry by junh1024: Word Clouds/Correlation===
+
+"What did you like the most?"
+[[File:F 2019 S 53.png|center]]
+"What did you hate the most?"
+[[File:F 2019 S 54.png|center]]

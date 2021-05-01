@@ -1,0 +1,36 @@
+[[Project:Administrators|Administrators]] can '''protect''' and '''unprotect''' pages, including ones that do not exist. Protection of a page or image usually means that a non-admin cannot modify it.
+
+The majority of pages on all Wikia should remain publicly editable, and '''not protected'''. Pages may, however, be temporarily or permanently protected for legal reasons (for example, license texts should not be changed) or in cases of extreme vandalism or edit warring or abusive re-creation.
+
+==Uses==
+*Protecting highly vandalised pages, such as the [[Main Page]] on large wikis.
+*Maintaining the integrity of the site's logo and favicon.
+*Maintaining the integrity of key [[Project:copyrights|copyright]] and license pages.
+*Preventing repeatedly created vandal or spam pages from creation. See [[Special:Protectedtitles]]
+*Protecting the interface and system messages in the MediaWiki namespace (these are protected automatically)
+
+A '''temporary''' protection is used for:
+*Enforcing a "cool down" period to stop an "edit war", upon request.
+*Protecting a page or image that has been a recent target of ''persistent'' vandalism or ''persistent'' edits by a banned user. 
+
+There is no need to protect personal .css and .js pages like user/monobook.css or user/cologneblue.js. Only the accounts associated with these pages (and admins) are able to edit them. (For more information on using these pages, see [[Help:User style]])
+
+== Usage ==
+Most pages and images are unprotected by default, only the site logo and favicons are automatically protected. You can protect editing, moving, or both by checking or unchecking the '''Unlock move permissions selection box'''.
+
+*'''(default)''' means any user, whether logged in or anonymous, can edit or move the page. 
+*'''Block unregistered users''', or semi-protected, means anonymous users and new accounts less than 4 days old cannot edit and/or move pages.
+*'''Sysops only''', or fully-protected, means only administrators may edit and/or move the page.
+
+Pages can also be cascade protected, this will cause all images, pages, or templates transcluded onto the page to be fully protected, even if the main article is only semi-protected.
+
+==Rules==
+#Do not make the common mistake of protecting pages unnecessarily. For example, do not protect a page simply because it is the Main Page.
+#Do not [[Help:Editing|edit]] a temporarily protected page except to add a notice explaining the page is protected.
+#Do not protect a page you are involved in an edit dispute over. Admin powers are not editor privileges - admins should only act as servants to the user community at large. 
+#Avoid favoring one version of the article over another, unless one version is vandalism. 
+#Temporarily protected pages should not be left protected for very long.
+#Talk pages and user talk pages are not protected except in extreme circumstances.
+#The protection of a page on any particular version is not meant to express support for that version and requests should therefore not be made that the protected version be reverted to a different one.
+
+[[Category:Site administration|{{PAGENAME}}]]

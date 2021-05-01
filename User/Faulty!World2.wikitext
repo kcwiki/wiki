@@ -1,0 +1,104 @@
+=={{Anchor|2-5}} World 2-5 【Extra Operation】<br/>沖ノ島沖戦闘哨戒 Combat Patrol Off Okinoshima==
+{{LabSortieworld
+| map = 02_05.png
+| difficulty = ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆
+| item = {{Fuel}} {{Steel}}
+| exp = 250
+| code = 沖ノ島沖戦闘哨戒 (Okinoshima Patrol Battles)
+| jptext = 同方面に敵反攻の兆候が報告された｡巡洋艦を中心に哨戒部隊を編成､敵艦隊の動向を探れ！
+| entext = There are reports of an enemy counteroffensive.  Form a cruiser patrol group and track their movements!
+}}
+
+{{#invoke:MapBranching|branchingTemplate
+|start_to_A =
+|start_to_B =
+}}
+
+{|
+ |- style="vertical-align: top;"
+ |{{AirControlSystem
+    | Map   =2-5
+    | AS    =42
+    | Fleet = 
+    | Notes =
+    }}
+ |}
+
+===Tips===
+
+You are required to '''sink''' the flagship at boss node 4 times to clear the map. The reward for clearing the map is '''100 points''' and a '''medal.''' Boss's HP Bar will reset at midnight at the beginning of each month.
+
+This map requires your fleet to have a certain amount of Line of Sight (LoS) in order to route to the boss.
+*This map uses [[Line_of_Sight#Formula%2033|Formula 33 (F33)]] to calculate the LoS of your fleet to determine if you meet the LoS check.
+** Fleets routing from I-O require Cn1 = 34
+** Fleets routing from J-O require Cn1 = 54 '''(requires further confirmation)'''
+* [[Akashi]] can drop with a small chance in 2-5, but only for Admirals who have do not have her yet in their base. If you already have her, she will not drop in this map anymore.
+
+===Stage Guide===
+There are three routes to the boss node that utilize different compositions.
+* South route (C-E-I-O)
+**'''1CV 1CVL 1CL 3DD'''
+* Northern BM1 route (B-F-J-O)
+**'''1BBV 2CAV 3CA'''
+* Northern BM7 route (B-F-E-I-O)
+**'''4DD 1CA 1CL'''
+
+
+'''Routing Considerations'''
+* The south route is the preferred route used for clearing since it allows for 1 CV and 1 CVL to be brought, enabling powerful opening air strikes.
+* The northern routes should be considered for clearing quests such as [[Quests#BM1|BM1]] and [[Quests#BM7|BM7]].
+* Ensure you meet the required LoS in order to route to the boss sucessfully by bringing enough radar, seaplane recons and carrier recons.
+
+
+'''South route C-E-I-O'''
+
+Example Fleets:
+*1CV 1CVL 1CL 3DD
+*2CVL 1CL 3DD
+
+'''Generate Considerations'''
+* Attention should be given to fleet ordering to ensure you maximize for day battle performance. 
+* Use CV(L) that are able to perform strong opening air strikes.
+* Ensure that you meet the required LoS to route to the boss node.
+
+Carriers should be equipped to utilize '''[http://kancolle.wikia.com/wiki/Combat#/Day_Combat#Aircraft_Carrier_.22Fighter_.26_Bomber_Combination.22_Cut-in_Attack|Carrier Cut-In (CVCI)]''' to maximize accuracy and shelling power against the boss node. 
+
+
+'''Northern route B-F-J-O / B-F-E-I-O'''
+
+BM1 Example Fleets:
+*1BBV 2CAV 3CA
+BM7 Example Fleets:
+*4DD 1CA 1CL
+
+'''Generate Considerations'''
+* All enemy compositions before the boss do not have any air power.
+* '''[[Artillery_Spotting|Artillery spotting]]''' requires a minimum of Air Superiority (AS) and will increase the likelihood of reaching the boss node.
+* Ensure that you meet the required LoS to route to the boss node.
+
+
+'''North BM1 route'''
+
+This composition is recommended to be used when attempting to clear the monthly quest [[Quests#Bm1|BM1]].
+
+The routing for this composition is '''B-F-J-O''', 1 [[Drum_Canister|Drum Canister]] is required to be equipped on each CAV and pass a LoS check of Cn1 = '''54''' (needs verification).
+
+All the enemy formations before the boss do not have any air power making it easy to secure Air Supremacy (AS+) with a minimal of 1 Seaplane Bomber (SPB) on a CAV or BBV. 
+
+The boss formation is random between 3 Ru class battleships or 2 Ru class battleships and 1 Wo class carrier so attempt to reach AS using SPB on your CAV and BBVs.
+
+
+'''North BM7 route'''
+
+This composition is recommended to be used when attempting to clear the monthly quest [[Quests#Bm7|BM7]].
+The routing for this composition is '''B-F-J-O''' and pass a LoS check of Cn1 = '''34'''.
+
+This route is difficult without access to ships that are able to equip SPB granting AS+ against the pre-boss nodes.
+
+'''[[Zara|Zara Due]]''' is the ideal choice due to her large first slot ensuring that the SPB will survive until the boss node and potentially securing AS+ against the triple Ru-class battleship formation.   
+
+Otherwise any single '''Zara or Agano class''' with a SPB will be sufficient to secure spotting for the pre-boss nodes.
+
+
+{{Navbox World}}
+[[ko:2해역]]

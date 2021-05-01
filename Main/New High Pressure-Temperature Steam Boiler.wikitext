@@ -1,0 +1,72 @@
+{{EquipmentInfo|87}}
+
+==Introduction==
+次世代駆逐艦などに搭載するための高温高圧缶です。<br>
+従来の艦本式ロ号缶と比べて、その性能は大きく向上しています。<br>
+艦の回避率を大きく向上させると共に、将来的には新型タービンとの併用でさらに高い性能を発揮することが期待されます。
+
+''A high-temperature, high-pressure boiler to be equipped by next-generation destroyers.''<br>
+''Its performance has been drastically improved compared to conventional Kampon boilers.''<br>
+''It impressively increases evasion by itself, and will improve even more when combined with an [[Improved Steam Turbine]].''
+
+==Notes==
+*Enables the engine synergy when equipped together with {{Equipment/Link|Improved Kanhon Type Turbine}}, allowing to upgrade ''Slow'' ships to ''Fast'', ''Fast+'', or ''Fastest'', and ''Fast'' ships to ''Fast+'' or ''Fastest''. See the following tables for details.
+{{:Partials/Speed system|collapsed=true}}
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Amatsukaze Kai}}, {{Ship/Link|Musashi Kai Ni}}
+
+'''Upgradeable''' from {{Equipment/Link|Enhanced Kanhon Type Boiler}}
+
+''Event reward for:''
+* [[Spring 2014 Event]] E-4
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2014-04-23:''' '''Implemented'''
+* '''2017-01-10:''' Became '''improvable''', ability to [[Improving Ship Speed|increase ship speed]] added
+* '''2020-04-23:''' Visible bonuses added
+</div></div>
+
+==Fit Bonuses==
+{{:New Model High Temperature High Pressure Boiler/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=Turbine
+|Fuel=300
+|Ammo=0
+|Steel=750
+|Baux=100
+|Mats0-5=15/30
+|Mats6-9=16/32
+|Mats10=-
+|Screws0-5=8/10
+|Screws6-9=9/12
+|Screws10=-
+|EquipConsume0-5=2x{{Turbine|Improved Steam Turbine}}
+|EquipConsume6-9=2x{{Turbine|Enhanced Steam Boiler}}
+|EquipConsume10=-
+|Mon=&nbsp;<br>S
+|Tue=A<br>S
+|Wed=A<br>&nbsp;
+|Thu=A<br>&nbsp;
+|Fri=&nbsp;<br>S
+|2ndShip=[[Amatsukaze#First Upgrade|Amatsukaze&nbsp;Kai]]<br>[[Shimakaze#First Upgrade|Shimakaze Kai]]
+}}
+|}
+
+==Trivia==
+*Historically used by [[Shimakaze]] and [[Amatsukaze]].
+
+==See Also==
+[[Improving Ship Speed]]
+
+[[wikipedia:ja:艦本式ボイラー|艦本式ボイラー]]
+{{Equipmentlist}}
+[[Category:Engines]]

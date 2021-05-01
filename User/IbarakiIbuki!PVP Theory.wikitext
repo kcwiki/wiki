@@ -1,0 +1,28 @@
+<!--An ''Art of War''-styled PVP guide based on my own observations. Might be released later on Himeuta (or some other site) upon further revisions.-->
+Since any ship can be sunk, there is no such thing as an invulnerable fleet. This implies that for any given fleet it is always possible to compose a second fleet that can "sink" all ships in the first fleet while the second fleet doesn't suffer heavy losses.
+
+In this sense, PvP can (and should) be approached as a puzzle whose the goal is to find and exploit potential vulnerabilities in the oppenent's fleet composition. Since the player can see the opponent's fleet and the player always gets to move first, fleet composition is key to securing victory.
+
+==Ship Groups==
+All (non-support) ships can be divided into one of three groups:
+
+# Heavy ships (BB(V), CA(V), CV): these ships tend to have high firepower, health, & armor, relatively low evasion & torpedo power.
+# Light ships (CVL, CL(T), DD, AV, SSV): tend to have high evasion & torpedo power, all other stats relatively low. also has anti-sub capabilities.
+# Submarines: similar stat-wise to Light ships. can only be targeted by ships with ASW.
+
+When two ships of the same group are pitted one-on-one against each other, we'll take as an axiom that it's possible for either ship to defeat the other, even though in practice the ship with more firepower and/or armor tends to have the advantage. Submarines are the exception to this axiom; that situation is considered a loss to the player.
+
+==The Cycles==
+The reason for this categorization of ships is that it forms a "rock-paper-scissors" cycle:
+
+* Heavy ships, with their greater firepower, can easily damage Light ships.
+* Light ships, who tend to have greater anti-sub power, can easily damage Submarines.
+* Submarines can easily damage Heavy ships without retaliation from Heavy ships which have low if not nonexistent anti-sub power.
+
+Thus if an oppenent's fleet consists ships mainly of one type of ship group, then this cycle suggests we should compose our own fleet primarily of ships of the group that dominates the opponents group. For example, a fleet of submarines can be countered by a fleet consisting of CLs and DDs (Light ships).
+
+However, the combat and damage mechanics provide ships of the dominated group means to counterattack the dominating group (presumably as a way of balancing the game), thus forming a counter-cycle:
+
+* Submarines have a pre-emptive torpedo strike, giving them opportunity to eliminate as many Light ships as possible.
+* Light ships can break through the armor and health of Heavy ships via cut-ins.
+* Some heavy ships (namely BBVs and CAVs) can equip anti-sub gear, thus allowing them to attack subs; their armor and health generally provides a buffer to submarine attacks.

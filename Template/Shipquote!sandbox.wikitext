@@ -1,0 +1,16 @@
+<noinclude><table style="width: 100%;"></noinclude>
+  <tr>
+    {{#switch: {{{type}}}
+     | #default =<td rowspan="2" style="width: 5%; border-radius: 8px 0 0 8px; border-style: solid; border-width: 1px; white-space: nowrap; vertical-align: top; border-width: 1px; padding: 2px 0 2px 5px">{{#if: {{{audio|}}} |{{Audio|file ={{{audio}}}}}&nbsp;}}{{#switch: {{{scenario}}} | #default ={{{scenario}}}| Equipment(3) =Equipment(3)<ref group="note">This scenario is shared with expedition selection, resource collection, instant repair and development.</ref>}}</td>
+    <td lang="{{{orilang|ja}}}" {{#switch: {{{scenario}}} | #default =| Secretary(Married)| Wedding| Sunk = class="spoiler"}} style="width: 95%; border-radius: 0 8px 0 0; border-style: solid; border-width: 1px; padding: 2px 0 2px 10px;">{{{origin}}}</td>
+  </tr>
+  <tr>
+    <td {{#switch: {{{scenario}}} | #default =| Secretary(Married)| Wedding| Sunk = class="spoiler"}} style="border-radius: 0 0 8px 0; border-style: solid; border-width: 1px; padding: 2px 0 2px 10px">{{{translation}}}</td>
+  </tr>
+     | seasonal =<td rowspan="2" style="width: 5%; border-radius: 8px 0 0 8px; border-style: solid; border-width: 1px; white-space: nowrap; vertical-align: top; border-width: 1px; padding: 2px 0 2px 5px">[[File:KanMusu{{#invoke:KanmusuModule|KanmusuInfo|{{{kanmusu}}}}}Banner.jpg|120px|{{{kanmusu}}}|link={{{link|{{{kanmusu}}}}}}]]{{#if: {{{audio|}}} |<br />{{Audio|file ={{{audio}}}}}&nbsp;}}</td>
+    <td lang="{{{orilang|ja}}}" {{#switch: {{{scenario}}} | #default =| Secretary(Married)| Wedding| Sunk = class="spoiler"}} style="width: 95%; border-radius: 0 8px 0 0; border-style: solid; border-width: 1px; padding: 2px 0 2px 10px;">{{{origin}}}</td>
+  </tr>
+  <tr>
+    <td style="border-radius: 0 0 8px 0; border-style: solid; border-width: 1px; padding: 2px 0 2px 10px">{{{translation}}}</td>
+  </tr>}}
+<noinclude></table></noinclude>

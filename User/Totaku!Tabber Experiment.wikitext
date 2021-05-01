@@ -1,0 +1,451 @@
+The ones I depended on may be too busy, so I'm trying to conduct an experiment with tabbers to hopefully learn how to put this together.... Note: Tabbers are not functioning properly whenever audio|file is placed in. Require assistance to fix. 
+
+'''Experiment #1: Build the equipment Tabber'''
+
+===Equipment Tabber Experiment===
+{{Template:Equipmentinfo
+|name = 35.6cm Twin Gun Mount
+|id = 7
+|japanesename = 35.6cm連装砲
+|icon = {{Template:RedGunHeavy}}
+|type = Main Cannon, Heavy
+|effect = {{Firepower}}+15, {{AA}}+4, {{Range}} Long
+|scrap = {{Ammo}}10, {{Steel}}15
+<tabber>Card=
+[[File:Equipment14-1.png]]
+|-|Display=
+[[File:Equipmentthumb14-2.png|link=File:Equipment14-2.png]]
+|-|Fairy=
+[[File:Equipmentthumb14-3.png|link=File:Equipment14-3.png]]
+|-|Equipment=
+[[File:Equipmentthumb14-4.png|link=File:Equipment14-4.png]]
+</tabber>
+|BB = lime
+|BBV = lime
+|FASTBB = lime}}
+
+===Horizontal Equipment Tabber Experiment===
+
+{{Template:EquipmentInfoKaiNi
+|name = 35.6cm Twin Gun Mount
+|id = 7
+|japanesename = 35.6cm連装砲
+|-
+|<tabber>Card=
+[[File:Equipment14-1.png]]
+|-|Display=
+[[File:Equipmentthumb14-2.png|link=File:Equipment14-2.png]]
+|-|Fairy=
+[[File:Equipmentthumb14-3.png|link=File:Equipment14-3.png]]
+|-|Equipment=
+[[File:Equipmentthumb14-4.png|link=File:Equipment14-4.png]]
+</tabber>
+|icon = {{Template:RedGunHeavy}}
+|type = Main Cannon, Heavy
+|effect = {{Firepower}}+15, {{AA}}+4, {{Range}} Long
+|scrap = {{Ammo}}10, {{Steel}}15
+|BB = lime
+|BBV = lime
+|FASTBB = lime}}
+
+===Tabber Reference===
+
+<tabber>Total yield=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:300px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">{{lang|ja|'''鎮守府海域'''}}</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:95%;border-radius:10px;padding:10px;margin:10px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px" cellspacing=0
+! style="cellpadding:10px;width:4%;" |#
+! style="cellpadding:10px;width:24%;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:7%;" |HQ
+! style="cellpadding:10px;width:7%;" |Ship
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:7%;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;width:7%;" |[[File:Ammunition.png|30px|link=]]
+! style="cellpadding:10px;width:7%;" |[[File:Steel.png|30px|link=]]
+! style="cellpadding:10px;width:7%;" |[[File:Bauxite.png|30px|link=]]
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:20%;" colspan="2" |Rewards
+|-
+| style="background:gray;" colspan="14" |
+|-
+| align="center" height="35px" style="background:#EDEDED;"|1
+| align="center" height="35px" style="background:#EDEDED;"|{{lang|ja|練習航海}}
+| align="center" height="35px" style="background:#EDEDED;"|00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:#EDEDED;"|10
+| align="center" height="35px" style="background:#EDEDED;"|10
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED; color:blue"|'''30'''
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |{{lang|ja|長距離練習航海}}
+| align="center" height="35px" |00:30
+| align="center" height="35px" |20
+| align="center" height="35px" |15
+| align="center" height="35px" |
+| align="center" height="35px" style="color:red;"|'''100'''
+| align="center" height="35px" |30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x1
+| align="center" height="35px" |
+|-
+| align="center" height="35px" style="background:#EDEDED;"|3
+| align="center" height="35px" style="background:#EDEDED;"|{{lang|ja|警備任務}}
+| align="center" height="35px" style="background:#EDEDED;"|00:20
+| align="center" height="35px" style="background:#EDEDED;"|30
+| align="center" height="35px" style="background:#EDEDED; color:blue"|'''30'''
+| align="center" height="35px" style="background:#EDEDED;"|30
+| align="center" height="35px" style="background:#EDEDED;"|30
+| align="center" height="35px" style="background:#EDEDED; color:red;"|'''40'''
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |{{lang|ja|対潜警戒任務}}
+| align="center" height="35px" |00:50
+| align="center" height="35px" |30
+| align="center" height="35px" |40
+| align="center" height="35px" |
+| align="center" height="35px" |60
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x1
+| align="center" height="35px" |[[File:Furniture_box_small.png|35px|link=]]x1
+|-
+| align="center" height="35px" style="background:#EDEDED;"|5
+| align="center" height="35px" style="background:#EDEDED;"|{{lang|ja|海上護衛任務}}
+| align="center" height="35px" style="background:#EDEDED;"|01:30
+| align="center" height="35px" style="background:#EDEDED;"|40
+| align="center" height="35px" style="background:#EDEDED;"|40
+| align="center" height="35px" style="background:#EDEDED; color:blue"|'''200'''
+| align="center" height="35px" style="background:#EDEDED; color:blue"|'''200'''
+| align="center" height="35px" style="background:#EDEDED;"|20
+| align="center" height="35px" style="background:#EDEDED;"|20
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |{{lang|ja|防空射撃演習}}
+| align="center" height="35px" |00:40
+| align="center" height="35px" |30
+| align="center" height="35px" style="color:blue"|'''50'''
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" style="color:red"|'''80'''
+| align="center" height="35px" |[[File:Furniture_box_small.png|35px|link=]]x1
+| align="center" height="35px" |
+|-
+| align="center" height="35px" style="background:#EDEDED;"|7
+| align="center" height="35px" style="background:#EDEDED;"|{{lang|ja|観艦式予行}}
+| align="center" height="35px" style="background:#EDEDED;"|01:00
+| align="center" height="35px" style="background:#EDEDED;"|60
+| align="center" height="35px" style="background:#EDEDED;color:red"|'''120'''
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|50
+| align="center" height="35px" style="background:#EDEDED;"|30
+| align="center" height="35px" style="background:#EDEDED;"|[[File:Instant_construction.jpg|35px|link=]]x1
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |{{lang|ja|観艦式}}
+| align="center" height="35px" |03:00
+| align="center" height="35px" |120
+| align="center" height="35px" |140
+| align="center" height="35px" |50
+| align="center" height="35px" |100
+| align="center" height="35px" |50
+| align="center" height="35px" |50
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x2
+| align="center" height="35px" |[[File:Development_material.jpg|35px|link=]]x1
+|-
+|}</div>
+|-|Hourly Yield=
+==World 1==
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:95%;border-radius:10px;padding:10px;margin:10px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px" cellspacing=0
+! style="cellpadding:10px;width:4%;" |#
+! style="cellpadding:10px;width:24%;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:7%;" |HQ
+! style="cellpadding:10px;width:7%;" |Ship
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:7%;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;width:7%;" |[[File:Ammunition.png|30px|link=]]
+! style="cellpadding:10px;width:7%;" |[[File:Steel.png|30px|link=]]
+! style="cellpadding:10px;width:7%;" |[[File:Bauxite.png|30px|link=]]
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:20%;" colspan="2" |Rewards
+|-
+| style="background:gray;" colspan="14" |
+|-
+| align="center" height="35px" style="background:#EDEDED;"|1
+| align="center" height="35px" style="background:#EDEDED;"|練習航海
+| align="center" height="35px" style="background:#EDEDED;"|00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:#EDEDED;"|40
+| align="center" height="35px" style="background:#EDEDED;"|40
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED; color:blue"|'''120'''
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |40
+| align="center" height="35px" |30
+| align="center" height="35px" |
+| align="center" height="35px" style="color:red;"|'''200'''
+| align="center" height="35px" |60
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x1
+| align="center" height="35px" |
+|-
+| align="center" height="35px" style="background:#EDEDED;"|3
+| align="center" height="35px" style="background:#EDEDED;"|警備任務
+| align="center" height="35px" style="background:#EDEDED;"|00:20
+| align="center" height="35px" style="background:#EDEDED;"|90
+| align="center" height="35px" style="background:#EDEDED; color:blue"|'''90'''
+| align="center" height="35px" style="background:#EDEDED;"|90
+| align="center" height="35px" style="background:#EDEDED;"|90
+| align="center" height="35px" style="background:#EDEDED; color:red;"|'''120'''
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |36
+| align="center" height="35px" |48
+| align="center" height="35px" |
+| align="center" height="35px" |72
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x1
+| align="center" height="35px" |[[File:Furniture_box_small.png|35px|link=]]x1
+|-
+| align="center" height="35px" style="background:#EDEDED;"|5
+| align="center" height="35px" style="background:#EDEDED;"|海上護衛任務
+| align="center" height="35px" style="background:#EDEDED;"|01:30
+| align="center" height="35px" style="background:#EDEDED;"|26
+| align="center" height="35px" style="background:#EDEDED;"|26
+| align="center" height="35px" style="background:#EDEDED; color:blue"|'''133'''
+| align="center" height="35px" style="background:#EDEDED; color:blue"|'''133'''
+| align="center" height="35px" style="background:#EDEDED;"|13
+| align="center" height="35px" style="background:#EDEDED;"|13
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |45
+| align="center" height="35px" style="color:blue"|'''75'''
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" style="color:red"|'''120'''
+| align="center" height="35px" |[[File:Furniture_box_small.png|35px|link=]]x1
+| align="center" height="35px" |
+|-
+| align="center" height="35px" style="background:#EDEDED;"|7
+| align="center" height="35px" style="background:#EDEDED;"|観艦式予行
+| align="center" height="35px" style="background:#EDEDED;"|01:00
+| align="center" height="35px" style="background:#EDEDED;"|60
+| align="center" height="35px" style="background:#EDEDED;color:red"|'''120'''
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|50
+| align="center" height="35px" style="background:#EDEDED;"|30
+| align="center" height="35px" style="background:#EDEDED;"|[[File:Instant_construction.jpg|35px|link=]]x1
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |40
+| align="center" height="35px" |46
+| align="center" height="35px" |16
+| align="center" height="35px" |33
+| align="center" height="35px" |16
+| align="center" height="35px" |16
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x2
+| align="center" height="35px" |[[File:Development_material.jpg|35px|link=]]x1
+|}</div>
+|-|Requirements=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''{{lang|ja|鎮守府海域}}'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:95%;border-radius:10px;padding:10px;margin:10px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px" cellspacing=0
+! style="cellpadding:10px;width:4%;" |# 
+! style="cellpadding:10px;width:24%;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:7%;" |Σ(Lv)
+! style="cellpadding:10px;width:7%;" |[[File:Flagship icon.png|link=]]
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:21%;" |Minimum Fleet Size
+! style="cellpadding:10px;width:7%;" |[[File:Drum.png|30px|link=]]
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:10%;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;width:10%;" |[[File:Ammunition.png|30px|link=]]
+|-
+| style="background:gray;" colspan="14" |
+|-
+| align="center" height="35px" style="background:#EDEDED;"|1
+| align="center" height="35px" style="background:#EDEDED;"|{{lang|ja|練習航海}}
+| align="center" height="35px" style="background:#EDEDED;"|00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:#D3D3D3;"|
+| align="center" height="35px" style="background:#EDEDED;"|'''Lv''' 1
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:#D3D3D3;"|2XX
+| align="center" height="35px" style="background:#EDEDED;"|
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:#EDEDED;"|-3
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |{{lang|ja|長距離練習航海}}
+| align="center" height="35px" |00:30
+| align="center" height="35px" style="background:#E8E8E8;"|
+| align="center" height="35px" |'''Lv''' 2
+| align="center" height="35px" style="background:#E8E8E8;"|4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" style="background:#EDEDED;"|3
+| align="center" height="35px" style="background:#EDEDED;"|{{lang|ja|警備任務}}
+| align="center" height="35px" style="background:#EDEDED;"|00:20
+| align="center" height="35px" style="background:#D3D3D3;"|
+| align="center" height="35px" style="background:#EDEDED;"|'''Lv''' 3
+| align="center" height="35px" style="background:#D3D3D3;"|3XX
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|-3
+| align="center" height="35px" style="background:#EDEDED;"|-2
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |{{lang|ja|対潜警戒任務}}
+| align="center" height="35px" |00:50
+| align="center" height="35px" style="background:#E8E8E8;"|
+| align="center" height="35px" |'''Lv''' 3
+| align="center" height="35px" style="background:#E8E8E8;"|1CL 2DD
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" style="background:#EDEDED;"|5
+| align="center" height="35px" style="background:#EDEDED;"|{{lang|ja|海上護衛任務}}
+| align="center" height="35px" style="background:#EDEDED;"|01:30
+| align="center" height="35px" style="background:#D3D3D3;"|
+| align="center" height="35px" style="background:#EDEDED;"|'''Lv''' 3
+| align="center" height="35px" style="background:#D3D3D3;"|1CL 2DD 1XX
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|-5
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |{{lang|ja|防空射撃演習}}
+| align="center" height="35px" |00:40
+| align="center" height="35px" style="background:#E8E8E8;"|
+| align="center" height="35px" |'''Lv''' 4
+| align="center" height="35px" style="background:#E8E8E8;"|4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" style="background:#EDEDED;"|7
+| align="center" height="35px" style="background:#EDEDED;"|{{lang|ja|観艦式予行}}
+| align="center" height="35px" style="background:#EDEDED;"|01:00
+| align="center" height="35px" style="background:#D3D3D3;"|
+| align="center" height="35px" style="background:#EDEDED;"|'''Lv''' 5
+| align="center" height="35px" style="background:#D3D3D3;"|6XX
+| align="center" height="35px" style="background:#EDEDED;"|
+| align="center" height="35px" style="background:#EDEDED;"|-5
+| align="center" height="35px" style="background:#EDEDED;"|
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |{{lang|ja|観艦式}}
+| align="center" height="35px" |03:00
+| align="center" height="35px" style="background:#E8E8E8;"|
+| align="center" height="35px" |'''Lv''' 6
+| align="center" height="35px" style="background:#E8E8E8;"|6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|}</div>
+</tabber>
+
+===Kanmusu Card Tabber Experiment===
+{{shipinfo
+| name=Arashi
+| japanesename=嵐
+| id=254
+| image=<table style="margin-left: auto; margin-right: auto;">
+    <tr>
+       <td class="Card254">[[File:254.jpg|class=CardRollover]]</td>
+    </tr>
+</table>
+| color=yellow
+| type=Destroyer
+| class=Kagerou
+| fuel=15
+| ammo=20
+| firepower=10(29)
+| torpedo=24(69)
+| AA=9(39)
+| ASW=24(49)
+| LOS=6(19)
+| luck= 11(49)
+| hp=16
+| armor=6(19)
+| evasion= 44(79)
+| aircraft=0
+| speed=Fast
+| range=Short
+| slot=2
+| time= Unbuildable
+| slot1=[[12.7cm Twin Gun Mount]]
+| slot2=[[Type 94 Depth Charge]]
+| slot3= - Locked -
+| slot4= - Locked -
+| space1=
+| space2=
+| space3=
+| space4=}}
+
+===Voice File===
+{{audio|file=Kisaragi_Christmas_2015_Sec1.ogg}}

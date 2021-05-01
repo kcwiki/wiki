@@ -1,0 +1,46 @@
+==Description==
+To use this template, copy the following code and fill in the appropriate fields.
+
+==Syntax==
+<pre>
+{{infobox character
+ | title         = 
+ | image         = [e.g. "Example.jpg"]
+ | imagewidth    = [e.g. "150"] [default: 210 pixels]
+ | imagecaption  = 
+ | position      =
+ | age           =
+ | status        =
+ | height        =
+ | weight        =
+}}
+</pre>
+
+==Samples==
+<pre>
+{{infobox character
+ | title         = Flowa
+ | image         = Example.jpg
+ | imagecaption  = Flowa, at rest
+ | position      = Legal Secretary
+ | age           = 2 months
+ | status        = Active
+ | height        = 5 inches
+ | weight        = 20 grams
+}}
+</pre>
+
+Results in...
+
+{{infobox character
+ | title         = Flowa
+ | image         = Example.jpg
+ | imagecaption  = Flowa, at rest
+ | position      = Legal Secretary
+ | age           = 2 months
+ | status        = Active
+ | height        = 5 inches
+ | weight        = 20 grams
+}}
+
+<includeonly>[[Category:Infobox templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

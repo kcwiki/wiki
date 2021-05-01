@@ -1,0 +1,348 @@
+==Info==
+{{KanmusuInfo|ID=037}}
+{{KanmusuInfo|ID=037a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+N/A
+
+===Overview===
+'''Kai'''
+* Low firepower, torpedo, HP and armour.
+* Gains the Ability to equip Daihatsu-Class Landing Craft
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Low'''
+
+:At first remodel, she has low firepower and a decent torpedo stat, making her hitting harder in night battle than at day, but not great at either.
+:While not impressive in combat, do keep in mind than many maps require you to bring at least a few destroyers for routing.
+
+:Furthermore, destroyers are cheap to deploy and can equip [[Drum Canister]], making them suited for expeditions.
+:In particular, she and her sister ships consume a little less ammo than your average DD, therefore increasing net resource gain.
+:She currently is the lowest level DD capable of equipping Daihatsu-Class Landing Craft and will therefore be a bit more useful for expeditions than the other Kai Mutsuki-Class DDs.
+
+:No further remodels have been implemented for her yet (as of January 2020). 
+
+
+
+====Recommended Roles====
+* Expeditions
+
+====Not Recommended Roles====
+* Surface combat
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = あなたが司令官ですね。三日月です。どうぞお手柔らかにお願いします。
+|translation = So you're the Commander huh. I'm Mikazuki. Please don't be too hard on me.
+|audio = Mikazuki-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 軽空母のエスコートや船団護衛に従事した睦月型駆逐艦三日月です。
+激戦のソロモン海域にも出撃しました。
+旧式だけど速力を生かして強行輸送任務も奮闘しました。
+|translation = I'm a Mutsuki-class destroyer that was engaged in escorting light carriers and convoys, Mikazuki.<ref>She was initially assigned to Carrier Division 3 as an escort for Houshou and Zuihou.</ref>
+I also sortied to that fierce battle in the Solomons.<ref>She participated in both the [https://en.wikipedia.org/wiki/Battle_of_Kula_Gulf Battle of Kula Gulf] and the [https://en.wikipedia.org/wiki/Battle_of_Kolombangara Battle of Kolombangara].</ref>
+Even though I'm an older model, I used my speed to my advantage in troop reinforcement transport missions.<ref>The Mutsuki-class were the 3rd fastest destroyers behind Shimakaze and the Fubuki-class subtypes.</ref>
+|audio = Mikazuki-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = お疲れ様です、司令官。
+|translation = Thanks for your hard work Commander.
+|audio = Mikazuki-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = そろそろですか？
+|translation = Is it almost time?
+|audio = Mikazuki-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = あっ、どこ触ってるんですか！もう。
+|translation = Ah, where are you touching! Jeez.
+|audio = Mikazuki-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = 司令官、ちょっとお休みしましょうか？ゆっくりいきましょう、それでいいんです。
+|translation = Shall we rest a while Commander? It's alright to take your time.
+|audio = MikazukiKai-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai = yes
+|origin = 司令官は、みなさんに気を遣ってばかりいるから…私の前では、自然にしていていいんですよ？…えっ？まさか、それが自然なの…？
+|translation = You're always so considerate to everyone Commander... You can act naturally around me you know? ...Eh? You really were acting naturally...?
+|audio = MikazukiKai-Secretary Married.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = もっともっと強くなってみんなを助けたいんです。でも、一番助けてあげたいのは…司令官…。あっ、いえっ、なんでもないです…はい。
+|translation = I want to get stronger so I can help everyone. But, the one I want to help most is... you, Commander... Ah, no, it's nothing... yes.
+|audio = Mikazuki-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = お知らせがあるようですよ。
+|translation = Looks like there's a notification.
+|audio = Mikazuki-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 三日月、出撃します！
+|translation = Mikazuki, sortieing!
+|audio = Mikazuki-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = もっと…頑張らないと、ですね。<ref>Shared with Supply before kai.</ref>
+|translation = I'll... have to work harder right.
+|audio = Mikazuki-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = 司令官、これなら行けそうです。
+|translation = I think I can do it with this Commander.
+|audio = Mikazuki-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = これなら行けそうです。<ref>Shared with Secretary Married before kai.</ref>
+|translation =  I think I can do it with this.
+|audio = Mikazuki-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = yes
+|origin = ありがたく、いただきますね。
+|translation = Thanks, I accept.
+|audio = MikazukiKai-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 少し、みなさんにお任せします…
+|translation = I'll leave it to the rest of you for a while...
+|audio = Mikazuki-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 私の努力が足りなくて…ごめんなさい。
+|translation = I'm sorry... that my efforts weren't enough.
+|audio = Mikazuki-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい仲間ですね。嬉しい。
+|translation = A new comrade huh. I'm happy.
+|audio = Mikazuki-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 作戦が完了したみたいです。
+|translation = Looks like the operation has been completed.
+|audio = Mikazuki-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 負けたくはありません！戦いなんですから！
+|translation = I won't be defeated! Because this is a battle!
+|audio = Mikazuki-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = えぇい！
+|translation = Eeei!<ref>Just a war cry.</ref>
+|audio = Mikazuki-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 当たって…っ！
+|translation = Hit...!
+|audio = Mikazuki-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|origin = 砲雷撃戦、いっきまーす！
+|translation = I'm heading into combat~!
+|audio = Mikazuki-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = もう、来ないでって言ったのに！
+|translation = Jeez, I told you to stay away!
+|audio = Mikazuki-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 私が強いだなんて、そんな…あり得ないです…
+|translation = I didn't think it was possible... for me to be this strong...
+|audio = Mikazuki-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = ふわぁっ！？
+|translation = Whaaa!?
+|audio = Mikazuki-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = ひやぁっ！？
+|translation = Hyaah!?
+|audio = Mikazuki-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = 何てことするのよぅ…！服が台無し…
+|translation = What have you done...! My clothes are ruined...
+|audio = Mikazuki-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 司令官…もっと一緒に戦いたかった…。
+|translation = I wanted to continue fighting with you... Commander...
+|audio = Mikazuki-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin =司令官、今日は特別の日。この三日月がしっかりエスコートしてあげますね？
+|translation =	Today is a special day, Commander. I’ll be a proper escort for you today alright?
+|audio = 037_Mikazuki_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = クリスマス、司令官も楽しんでいますか？これ、ささやかなものですが日ごろの感謝を込めて、三日月からです！
+|translation =	Are you enjoying Christmas, Commander? This isn’t much but it’s a token of my gratitude for everything you do!
+|audio = Mikazuki_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = 大掃除です！ほらほら！もち！ゴロゴロしない！長月、手が止まっている！
+|translation =	It’s spring cleaning! Come on, come on! Mochi! Stop lazing around! Your hands aren’t moving, Nagatsuki!
+|audio = Mikazuki_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 新年あけましておめでとうございます。司令官、今年もよろしくお願いしますね。
+|translation =	Happy New Year. Please treat me well this year too, Commander.
+|audio = Mikazuki_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = ふぅ、お豆輸送中でーす！これ、皆さんの分に分けるの、ちょっと待っててくださいね！あぁぁ、もっち、まだ食べちゃダメ！
+|translation =	Whew, the beans have arrived! I’ll separate them into your portions, please wait, everyone! Aaah, don’t eat them yet, Mocchi!
+|audio = Mikazuki_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = 司令官、まだ見ちゃダメです！もう少し、待っててくださいね。三日月特製のチョコケーキ、もうすぐ完成ですから！
+|translation =	Don’t look yet, Commander! Please wait just a while longer. My special chocolate cake is almost done!
+|audio = Mikazuki_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = えぇ、このクッキー、頂けるんですか！？有難うございます。大切に頂きます！
+|translation =	Eh, I can have these cookies!? Thank you very much. I’ll savour them!
+|audio = Mikazuki_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_2016|Early Summer 2016]]
+|origin = 司令官、大変！夏が近づいてきてしまいました。三日月、用心して参ります！
+|translation =	This is serious, Commander! Summer is getting closer! I’ll be on guard!
+|audio = Mikazuki_Early_Summer_Sec1_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2016|Midsummer 2016]]
+|origin = ふぅ、今年も夏をどうにか乗り越えられそう。司令官、感謝です。はい！
+|translation =	Whew, looks like I can make it through summer this year. Thanks, Commander. Yes!
+|audio = Mikazuki_Sec1_Midsummer_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 秋刀魚漁支援、ですか？了解です。この三日月にお任せください。頑張ります！
+|translation =	Saury fishing suppoer? Roger. Please leave it to me. I’ll work hard!
+|audio = Mikazuki_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 司令官、すごいです！艦隊は四周年を迎えました！皆さんに感謝、ですね！
+|translation =	This is amazing, Commander! The fleet’s 4th Anniversary is here! I’m grateful to everyone!
+|audio = Mikazuki_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 司令官、すごいです。艦隊はついに五周年を迎えました。ずっと…ご一緒したいですね？
+|translation =	This is amazing, Commander. The fleet is finally celebrating it’s 5th Anniversary. We’ll… always be together right? 
+|audio = Mikazuki_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Fall 2015 Event]]
+|origin = ここは三日月に任せて。駆逐艦の誇り、お見せします！
+|translation =	Leave this to me. I’ll show you a destroyer’s pride!
+|audio = Mikazuki_Fall_Event_2015_Sec1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+037_3.png|Base
+037_4.png |Base Damaged
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Mikazuki}}
+
+==Trivia==
+*Sunk in air attack July 28, 1943 at the west end of [http://en.wikipedia.org/wiki/New_Britain New Britain Island], Papua New Guinea ([http://tools.wmflabs.org/geohack/geohack.php?pagename=Japanese_destroyer_Mikazuki&params=5_27_S_148_25_E_ 05°27′S 148°25′E])
+*Her name Mikazuki honors of one the five great swords of Japan taking the name for her elegant name, Mikazuki Munechika, who is also featured as a ''Toudan'' in ''Touken Ranbu''.
+* Her name means "Crescent Moon"
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View {{PAGENAME}} CG]]
+*[[EliteDD|List of Destroyers]]
+*[[wikipedia:Japanese_destroyer_Mikazuki (1926)|Wikipedia entry on destroyer Mikazuki]]
+ {{shiplist}}
+[[Category:Mutsuki Class]]
+[[Category:Destroyers]]
+[[zh:三日月]]

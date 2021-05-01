@@ -1,0 +1,24 @@
+<noinclude>{{Documentation subpage}}</noinclude>
+This template is used for articles about people. e.g. [[Kensuke Tanaka]] and [[Yoshinori]].
+
+Use this and fill out the sections.
+
+<pre>{{Infobox Person
+| nameJp       = Name in Japanese (This one is optional, so if the name is only known in English, leave this blank)
+| nameEn       = Name in English
+| other_name   = Known to be called in other name e.g. Kensuke Tanaka (optional)
+| image        = Image of the person (optional)
+| caption      = What the image is e.g. Takana in at the 2014 Kancolle Naval Review
+| charTitle    = If the person has his/her own title (optional)
+| born         = See http://en.wikipedia.org/wiki/Template:Birth_date_and_age
+| location     = Where is this person's residence?
+| gender       = Male or Female.
+| notable_from = e.g. Kantai Collection
+| circle       = e.g. C2 Architecture
+| occupation   = e.g. Game Producer, Music Composer
+| art_ex       = Example of art the artist can produce. (optional)
+| music_ex     = Example of music the artist can produce. (optional)
+| website      = authors website(s)
+}}</pre><includeonly>
+[[Category:Infobox templates]]
+</includeonly>

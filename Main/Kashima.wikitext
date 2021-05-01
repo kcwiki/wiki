@@ -1,0 +1,593 @@
+==Info==
+{{KanmusuInfo|ID=265}}
+{{KanmusuInfo|ID=265a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She has the ability to increase exp earned from exercises.
+** The bonus depends on her position in the fleet.
+** The bonus depends on her level.
+** Having [[Katori]] in the fleet will increase the bonus.
+** See below for bonus values:
+{| class="mw-collapsible" style="width: 100%;"
+!style="width: 20%; text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Position'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 1-9'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 10-29'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 30-59'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 60-99'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 100+'''
+!style="width: 20%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Notes'''
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 5%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 8%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 12%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 20%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | 
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 3%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 5%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 7%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 10%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | 
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Katori/Kashima Flagship + Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 10%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 13%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 16%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 20%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 25%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Bonus determined by the level of the flagship
+|-
+|style="width: 20%; text-align: center; border-radius: 0 0 0 6px; border-style: solid; border-width: 1px; | Katori + Kashima Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 4%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 6%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 8%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 12%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 17.5%
+|style="width: 20%; text-align: center; border-radius: 0 0 6px 0; border-style: solid; border-width: 1px; | Bonus determined by the highest leveled training cruiser
+|-
+|}
+
+===Overview===
+Her stats are irrelevant to her main role.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+
+===Analysis===
+Priority:'''Low'''
+
+: Her main role is to provide an experience boost in PvP. When paired with her sister [[Katori]], they can give a significant boost. Her low combat and defensive stats makes her unsuited for surface combat. She does have an edge when it comes to ASW because she possesses 4 slots which allows her to get maximum synergy bonuses. However, her low base ASW becomes an issue when trying to achieve OASW. She well require a lot of levels to be effective.
+
+====Recommendend Roles====
+* PvP training
+* Anti-Submarine
+
+====Not Recommended Roles====
+* Combat
+
+===Important Info===
+* Required for expedition 32.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 提督さん、お疲れ様です。練習巡洋艦、鹿島、着任です。うふふ。
+|translation = Thanks for your hard work, Admiral. Training cruiser Kashima, reporting for duty. Ufufu~
+|audio = Kashima-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = 提督さん、お疲れ様。鹿島です。今日も頑張りますね。よろしくお願い致します。
+|translation = Thanks for your hard work, Admiral. I'm Kashima. I'll do my best today. Please look after me.
+|audio = KashimaKai-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 香取型練習巡洋艦二番艦、妹の鹿島です。平和の海で次代の艦隊を育てるために建造されました。
+その本来の役目を果たせる時間はあまり長くありませんでしたが、艦隊旗艦や船団護衛、精一杯頑張りました。 
+戦いが終わった後も、未来のために、私、頑張りました！　鹿島のこと、覚えていてくださいね。
+|translation = I'm the younger and 2nd ship of the Katori-class training cruisers, Kashima. I was built in order to raise the next generation of the fleet for peaceful seas.<ref>She was intended to replace the aging armoured cruisers for training IJN officers in seamanship.</ref>
+I wasn't able to perform my intended role, but I did my best as the fleet flagship and escort.<ref>Because she was only completed right before the start of the war, she was pressed into service as a combat ship quickly after having only performed a single training cruise.</ref> 
+I'll work hard to finish the fight for the sake of the future! Please remember me.
+|audio = Kashima-Library.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 鹿島です！うふふ
+|translation = I'm Kashima! Ufufu~
+|audio = Kashima-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai = yes
+|origin = 練習巡洋艦鹿島です。うふふ♪
+|translation = I'm the training cruiser Kashima. Ufufu♪
+|audio = KashimaKai-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = あら、第四艦隊の旗艦かしら？ちがうの？なぁんだ
+|translation = Oh, the flagship of the 4th fleet? No? Oh well.<ref>She was made flagship of the 4th fleet based out of Truk on 1941/12/1.</ref>
+|audio = Kashima-Sec2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = この感じ、香取姉ではないですよね？ほら、やっぱり。提督さん！　ふふっ♪
+|translation = This doesn't feel like Katori-nee though? I knew it. Admiral! Ufufu♪
+|audio = Kashima-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 提督さん、提督さん？あの、海上護衛隊のご相談を…あ、お忙しそう…ですね。すみません。私、後で良いので、はい。
+|translation = Admiral, Admiral? Umm, the discussion about the surface escort squad... ah, you're... busy. Sorry. I'll come back later then, yes.
+|audio = Kashima-SecIdle.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督さん。いつか平和な海が戻ったら、一緒に遠洋航海に行きたいですね。私、行きたい所いっぱいあるんです！　きっと…きっと行きましょう？　私、楽しみにしています。
+|translation = Admiral. When peace returns to the seas, I want to go on an ocean cruise with you. I have lots of places I'd like to visit! You'll definitely... come with me? I'll be looking forward to it.
+|audio = Kashima-SecMarried.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督さん？　練習遠洋航海の打ち合わせ？　それとも対潜戦闘の…え、違う？　…これを、私に？　うそ、え、本当に？！　ぁぁ…私、お受けします。ありがとうございます！　大事にします…
+|translation = Admiral? Making arrangements for a training cruise? Or is it anti-submarine... eh, that's wrong? ...Is this, for me? No way, eh, really?! Aah... I accept. Thank you very much! I'll take good care of it...
+|audio = Kashima-Wedding.mp3
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = あら、数字を見るのですね？　お持ちしますね。うふっ♪
+|translation = Oh, you want to see the numbers? Here you go. Ufu~♪
+|audio = Kashima-PlayerScore.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 旗艦鹿島、出撃致します。皆さん、続いてくださいね！
+|translation = Flagship Kashima, sortieing. Follow me everyone!
+|audio = Kashima-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai = yes
+|origin = 第四艦隊、旗艦鹿島、出撃いたします！皆さん、頑張りましょう！
+|translation = Flagship of the 4th fleet, Kashima, sortieing! Let's do our best everyone!
+|audio = KashimaKai-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = ありがとうございます。
+|translation = Thank you very much.
+|audio = Kashima-Equip1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = うふふっ、これは期待できそう。えへへっ
+|translation = Ufufu~, these look promising. Ehehe~♪
+|audio = Kashima-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = うふっ…期待できそう！
+|translation = Ufu~... this looks promising!
+|audio = Kashima-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = 提督さん。いつも、ありがとう。
+|translation = Thank you for everything, Admiral.
+|audio = Kashima-Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = うぅ、少し汚れてしまいました。お風呂いただきますね。
+|translation = Uu~, I'm a little dirty. I'm going to take a bath now.
+|audio = Kashima-DockMinor.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = ごめんなさい。鹿島、お洋服とこの体、少し綺麗に…待っていてくださいね？
+|translation = I'm sorry. Please wait a bit... while I clean myself up a bit alright?
+|audio = Kashima-DockMajor.mp3
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 提督さん、新しい船がご挨拶したいんですって。うふっ♪
+|translation = Time to go greet the new ship, Admiral. Ufu~♪
+|audio = Kashima-Construction.mp3
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 提督さん、艦隊が戻りました。うふっ♪
+|translation = The fleet has returned, Admiral. Ufu~♪
+|audio = Kashima-SortieReturn.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 海上護衛総隊旗艦鹿島、出撃します。えへへっ、やってみます！
+|translation = Surface Escort Squadron flagship Kashima, sortieing. Ehehe~, here I go!
+|audio = Kashima-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 敵？敵なの？戦うしか、ありません！艦隊、合戦用意！急いでください！
+|translation = Enemies? It's the enemy? We have to engage! Fleet, make ready! On the double!
+|audio = Kashima-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 撃ち方、始め！
+|translation = Open fire!
+|audio = Kashima-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Daytime Spotting/ Night Battle Attack 
+|origin = 練習巡洋艦を甘く見ないで！装備と練度は十分です。
+|translation = Don't underestimate training cruisers! My equipment and skills are more than enough.
+|audio = Kashima-NightAttack.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 逃がしません！追撃します。機関全速、両舷いっぱい。わ、わたしだって！
+|translation = You won't get away! Chase them. All engines, full speed ahead. I...can do this too!
+|audio = Kashima-NightBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = え、うそ、私？　鹿島が一番戦果をって？　本当に？　やだ、提督さん、わたし、少し…うれしい！
+|translation = Eh, me, really? I did the best? Really? Oh you, Admiral... I'm a bit happy.
+|audio = Kashima-MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = きゃあーっ！やだっ・・・
+|translation = Kyaaaa~! No...
+|audio = Kashima-MinorDamage1.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = いやっ…こんな…いや…
+|translation = I don't... like... this...
+|audio = Kashima-MinorDamage2.mp3
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = きゃあっ！私、沈みません…ここで沈むつもりは、ありません！
+|translation = Kyaa! I won't sink... I won't sink in this place!
+|audio = Kashima-MajorDamage.mp3
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = うそ、冷たい…え、海水が？そんな、私、えっ？私、沈むの？やだ…
+|translation = No, so cold... eh, sea water? It can't be, I, eh? I'm sinking? No...
+|audio = Kashima-Sinking.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 提督さん。本日は私、鹿島がお側で秘書艦を務めさせていただきますね？　…うふふっ、嬉しい♪
+|translation = Admiral. Will you let me, Kashima, serve as your secretary ship for today? ...Ufufu~ I'm happy♪
+|audio = KashimaKai-0000.mp3
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = マルヒトマルマルです、提督さん。うふふっ、楽しい♪　え、何がって？　な、何でも無いです！　…ぇへへ♪
+|translation = It's 0100, Admiral. Ufufu~, this is fun♪ Eh, what is? I-it's nothing! ...Ehehe♪
+|audio = KashimaKai-0100.mp3
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = マルフタマルマルです、提督さん。夜は長いですよね。お茶をお入れしますね。珈琲の方がいいですか？
+|translation = It's 0200, Admiral. The night is long huh. I'll get you some tea. Or would you prefer coffee?
+|audio = KashimaKai-0200.mp3
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = マルサンマルマルです、提督さん。眠くなってしまいますものね。濃い目の珈琲にしました。ここに置いておきますね？　うふふっ♪
+|translation = It's 0300, Admiral. I'm getting a bit sleepy. The strong coffee is ready. I'll leave it over here alright? Ufufu~♪
+|audio = KashimaKai-0300.mp3
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = 提督さん、珈琲お替わりいかがですか？　今度はミルクとお砂糖、たっぷり入れるのはどうでしょう？　あ、マルヨンマルマルになりました！
+|translation = Did you like the coffee, Admiral? Now how about trying it with lots of milk and sugar? Ah, it's now 0400!
+|audio = KashimaKai-0400.mp3
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = マルゴーマルマルです、提督さん。夜が明けてきました。後で朝食の準備もしますね。洋食・和食、今朝はどちらがいいですか？
+|translation = It's 0500, Admiral. The night has ended. I'll go and prepare breakfast. Would you like western or Japanese style?
+|audio = KashimaKai-0500.mp3
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = マルロクマルマルです、提督さん。艦隊に「総員起こし」かけました。むー、当直任務とはいえ、徹夜は堪えますね？　うふふっ♪
+|translation = It's 0600, Admiral. I'll go and get the fleet ready for "Morning Assembly". Urgh~ I need to bear with being on duty and staying up all night huh? Ufufu~♪
+|audio = KashimaKai-0600.mp3
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = マルナナマルマルです、提督さん。朝食こちらに置きますね。スクランブルエッグに、ベーコン、トーストと熱い珈琲です。どうぞ！
+|translation = It's 0700, Admiral. I'll leave your breakfast over here. Scrambled eggs, bacon, toast and hot coffee. Enjoy!
+|audio = KashimaKai-0700.mp3
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = マルハチマルマルです、提督さん。お昼、お忙しいと思いますので、サンドイッチを作っておきますね。タマゴとハム、あとは…うふふっ♪
+|translation = It's 0800, Admiral. We'll be busy during lunch so I'll make some sandwiches. Eggs and ham, and also... Ufufu~♪
+|audio = KashimaKai-0800.mp3
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = 提督さん、マルキュウマルマルとなりました。今日は演習に取り掛かりましょうか？　遠征の状況を、先に確認なさいます？
+|translation = Admiral, it is now 0900. Shall we begin today's exercises? Or would you like to check the status of the expeditions?
+|audio = KashimaKai-0900.mp3
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマルです。あら、六戦隊の皆さん。お元気そうで…青葉さん、任務中ですので今は写真は…え、寝癖が？！　うそ、やだ！
+|translation = It's 1000. Ah, the 6th Squadron girls. They're looking lively... Aoba-san, taking pictures while on a mission is... eh, bed hair?! No way, oh no!
+|audio = KashimaKai-1000.mp3
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマル。もぉ、青葉さんったらびっくりさせて！　寝癖だなんて…私、髪はいつだって…あ、な、何でもありません…
+|translation = 1100. My, Aoba-san really surprised me! What bed hair... my hair is always... ah, it's nothing...
+|audio = KashimaKai-1100.mp3
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = ヒトフタマルマルです、提督さん。お昼に鹿島特製サンドイッチはいかがですか？　はい、執務中でも…あ、珈琲もこちらに。
+|translation = It's 1200, Admiral. Would you like my special sandwiches for lunch? Yes, even though you're working... ah, here's some coffee.
+|audio = KashimaKai-1200.mp3
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = ヒトサンマルマルです、提督さん。鹿島のサンドイッチ、いかがでしたか？　あ、はい、タマゴを大きめに潰しているのがポイントなんです。お口にあって良かったぁ、うふふっ♪
+|translation = It's 1300, Admiral. How were my sandwiches? Ah, yes, I made it a point to mash the eggs in larger pieces. I'm glad you liked it. Ufufu~♪
+|audio = KashimaKai-1300.mp3
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = ヒトヨンマルマルです、提督さん。はい、海上護衛総隊ですね？　そうですね、対潜戦はとっても大事です。私、頑張ります！
+|translation = It's 1400, Admiral. Yes, a Surface Transport Escort Fleet? That's right, anti-submarine warfare is very important. I'll do my best!
+|audio = KashimaKai-1400.mp3
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = ヒトゴーマルマルです。え、井上提督ですか？　はい、色々おっしゃる方もいますが、私は尊敬しています。立派な方だと思います。
+|translation = It's 1500. Eh, Admiral Inoue? Yes, even though a lot has been said about him, I still respect him. I think he's a praiseworthy man.<ref>Admiral Inoue was the commanding officer when Kashima was the 4th fleet flagship.</ref>
+|audio = KashimaKai-1500.mp3
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = ヒトロクマルマルです。懐かしいですね、南洋の日々。色々なことが有りました。今は提督とこの海で…私、精一杯頑張りますね！
+|translation = It's 1600. These Southern Ocean days are nostalgic. So many things happened. I'll work hard for you... right here and now, Admiral.
+|audio = KashimaKai-1600.mp3
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = ヒトナナマルマルです、提督さん。夕焼け、綺麗ですね。ずっと見ていたい。最後のスッと日が落ちる瞬間、私好きなんです。
+|translation = It's 1700, Admiral. The sunset is beautiful. I want to watch it forever. I love that moment when the sun finally slips below the horizon.
+|audio = KashimaKai-1700.mp3
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = ヒトハチマルマルです、提督さん。夕食はちょっと凝ったものにしますね。楽しみに待っていて下さい。うふふっ♪
+|translation = It's 1800, Admiral. Dinner will be a little bit fancy. Please look forward to it. Ufufu~♪
+|audio = KashimaKai-1800.mp3
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトキュウマルマルです、提督さん。もう少し待っていて下さい。もうすぐ出来ますから。
+|translation = It's 1900, Admiral. Please wait a little bit longer. It will be ready soon.
+|audio = KashimaKai-1900.mp3
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = フタマルマルマルです、提督さん。鹿島特製、チキングラタンを作ってみました。熱々です♪　このパンと一緒に召し上がれ。うふふっ♪
+|translation = It's 2000, Admiral. I made you my speciality, chicken gratin. It's piping hot♪ Have some with this bread. Ufufu~♪
+|audio = KashimaKai-2000.mp3
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = フタヒトマルマル…あら、香取姉？　お疲れ様です。はい、大丈夫です！　ちゃんとお勤めしています。ね、提督さん？　…提督さん？
+|translation = 2100... Oh, Katori-nee? Thanks for your hard work. Yes, I'm fine! I've been doing my duties properly. Right, Admiral? ...Admiral?
+|audio = KashimaKai-2100.mp3
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = 本当だ…本当に三水戦…夜は賑やかなんですね。元気ですね。あ、出撃していった。今、フタフタマルマルです。
+|translation = It's true... DesRon3... is really lively at night. They're in high spirits. Ah, there they go. It's now 2200.<ref>The 3rd Torpedo Squadron consisted of Sendai as the flagship from 1941 to 1943.</ref>
+|audio = KashimaKai-2200.mp3
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = フタサンマルマルです。提督さん、本日も大変お疲れ様でした。私、戦闘は得意ではありませんが…旗艦任務、明日も頑張ります♪
+|translation = It's 2300. Thank you for your hard work today, Admiral. I may not be very good in battle but... I'll do my best as flagship tomorrow♪
+|audio = KashimaKai-2300.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = 提督さん、メリークリスマス！この季節はなんだか少し幸せな気持になりますね！今日だけは…少し飲んじゃおうかな。えへへ〜
+|translation =	Merry Christmas, Admiral! This time of year makes you feel a bit happier! Just for today… shall we have a bit to drink? Ehehe~
+|audio = Kashima_Christmas_2015_Sec1.ogg
+|notes =Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = 提督さん、今日は特別な一日ですね。提督さんとご一緒できて、私嬉しいです！うふふ〜
+|translation =	Today is a very special day, Admiral. I’m happy to be able to spend it with you! Ufufu~
+|audio = Kashima_Christmas_2015_Sec2.ogg
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = あっという間に師走ですね。艦隊も大掃除で大忙しですね。私も頑張らなきゃ！
+|translation =	It’s December before you know it. The fleet is busy with spring cleaning. I’ll work hard too!
+|audio = Kashima_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = 香取姉、節分はここではどういう...あぁ、提督さんに投げるんですね！わかりました！鬼は～外！えい！えい！えぇ、違うの…
+|translation = Katori-nee, how is Sestubun celebrated here… Ah, throw these at the Admiral right! Understood! Demon begone! Ei! EI! Eh, that’s wrong…
+|audio = Kashima_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = チョコレートはこれでよし！きれいのラッピングして…あとは タイミングです！
+|translation =	The chocolate is ready! Now to wrap it up nicely… then wait for the right timing!
+|audio = Kashima_Valentine_Sec1.ogg
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = 提督さん？このチョコレート良かったら貰ってください。はい、甘いです！
+|translation =	Admiral? Please accept these chocolates. Yes, they’re sweet!
+|audio = Kashima_Valentine_Sec2.ogg
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = 提督さん、これを私に？美味しそ～♪いただきます。えへへっ♪
+|translation =	Is this for me, Admiral? It looks delicious♪ I’ll help myself to them. Ehehe~♪
+|audio = Kashima_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2016|Spring 2016]]
+|origin = 提督さん、この季節、お花見もいいですよね。私、お弁当作りますね。楽しみ。うふふ。
+|translation =	Going cherry blossom viewing during this season is nice, Admiral. I’ll go make a lunch box. I can’t wait. Ufufu.
+|audio = Kashima_Spring_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 提督さん、おめでとうございます。三周年ですって。私も嬉しいです。うふふっ♪
+|translation =	Congratulations, Admiral. It’s the 3rd Anniversary. I’m happy. Ufufu♪
+|audio = Kashima_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = 最近よく降りますね。こんな日はお部屋の中で、艦隊運用の戦略を練りましょう♪
+|translation =	It’s been really coming down recently. Let’s stay inside and think of strategies for the fleet on days like this♪
+|audio = Kashima_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_2016|Early Summer 2016]]
+|origin = もうすぐ夏。香取姉、水着はどうするんだろ？私、一応準備しようかな？どうしよう…
+|translation =	It’s almost summer. What should we do about swimsuits, Katori-nee? Should I get one ready just in case? What do I do…
+|audio = Kashima_Early_Summer_Sec1_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2016|Autumn 2016]]
+|origin = 提督さん、秋っていいですよね？私が進水したのも秋なんですよ？うふふ♪
+|translation =	Isn’t autumn nice, Admiral? I was launched in autumn you know? Ufufu♪
+|audio = Kashima_Autumn_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 秋刀魚ですか…わかりました！私、漁場警備も頑張ります！えぇ、捕るんですか？
+|translation =	Saury… Understood! I’ll work hard to guard the fisheries! Eh, we’re catching them?
+|audio = Kashima_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2016|Autumn 2016]]
+|origin = 提督さん、寒くなってきましたね。熱い珈琲淹れますね？待ってて下さい。
+|translation =	It’s gotten colder, Admiral. I’ll make some hot coffee alright? Please wait.
+|audio = Kashima_Late_Autumn_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 提督さん、提督さん、四周年おめでとうございます！私もとっても嬉しいです！
+|translation =	Admiral, Admiral; congratulations on the 4th Anniversary! I’m very happy too!
+|audio = Kashima_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 提督さん、今日は特別な一日ですね。提督さんとご一緒できて、私嬉しいです。うふふぅ。
+|translation =	Today is a special day, Admiral. I’m happy that I can spend it with you. Ufufu.
+|audio = Kashima_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Spring 2019 Event]]
+|origin = はい！鹿島、突撃します！
+|translation =	Yes! Kashima, charging in!
+|audio =Kashima-FriendFleet.mp3
+|notes = Friend Fleet Line
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+Kashima.png|Base
+Kashima_dmg.png|Base Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Kashima_Christmas_2015.png|[[Seasonal/Christmas_Eve_2015|Christmas 2015]]
+Kashima_Christmas_2015_dmg.png|[[Seasonal/Christmas_Eve_2015|Christmas 2015 Damaged]]
+Kashima_Valentines_2016.png|[[Seasonal/Valentine%27s_Day_2016|Valentine's Day 2016]]
+Kashima_Valentines_2016_dmg.png|[[Seasonal/Valentine%27s_Day_2016|Valentine's Day 2016 Damaged]]
+KanMusu265Mitsukoshi.png|[[Seasonal/Saury_2017|Mitsukoshi 2017]]
+KanMusu265MitsukoshiDMG.png|[[Seasonal/Saury_2017|Mitsukoshi 2017 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Kashima}}
+
+==Trivia==
+* She is named after [https://en.wikipedia.org/wiki/Kashima_Shrine Kashima Shrine].
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View {{PAGENAME}}  CG]]
+*[[EliteCL|List of Light Cruisers]]
+*[[wikipedia:Japanese_cruiser_Kashima|Wikipedia entry on cruiser Kashima]]
+[[Category:Light Cruisers]]
+[[Category:Auxiliary Ship]]
+{{shiplist}}

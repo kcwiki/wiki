@@ -1,0 +1,25 @@
+<includeonly>{{#vardefine:map|{{#ifeq:{{#sub:{{{page|{{PAGENAME}}}}}|0|5}}|Phase|{{#sub:{{{page|{{PAGENAME}}}}}|0|7}}_{{SUBPAGENAME}}_Map.png|{{#ifeq:{{#explode:{{{page|{{PAGENAME}}}}}|/|0}}|Sandbox|{{#explode:{{{page|{{PAGENAME}}}}}|/|0}}_{{#explode:{{{page|{{PAGENAME}}}}}|/|1}}_{{#explode:{{{page|{{PAGENAME}}}}}|/|2}}_Map.png|{{#ifeq:{{#sub:{{{page|{{PAGENAME}}}}}|0|5}}|World|{{#explode:{{{page|{{PAGENAME}}}}}|/|1}}_Map.png|{{#explode:{{{page|{{PAGENAME}}}}}|/|0}}_{{#explode:{{{page|{{PAGENAME}}}}}|/|1}}_Map.png}}}}}}}}{{#if:{{{1|}}}|<div style="position:relative;" data-map="{{#var:map}}"><!--{{#ifexist:File:{{#var:map}}|-->[[File:{{#var:map}}|{{{size|700}}}px|link={{{link|}}}]]<!--|[[File:Catbomb.png|link=|{{#var:map}} not found]]}}-->{{{1}}}</div>|<div data-map="{{#var:map}}"><!--{{#ifexist:File:{{#var:map}}|-->[[File:{{#var:map}}|{{{size|700}}}px|link={{{link|}}}]]<!--|[[File:Catbomb.png|link=|{{#var:map}} not found]]}}--></div>}}</includeonly><noinclude>
+Puts a map on the page, used on enemy pattern pages.
+==Parameters==
+===page===
+Defaults to <code><nowiki>{{PAGENAME}}</nowiki></code>, if <code>page</code> is <code><area>/<map>/...</code>, then <code><area> <map> Map.png</code> is the file used for map image. <code><area></code> is event name for event maps or world name for regular maps.
+===size===
+Optional, size of the map image, defaults to 700.
+===link===
+Optional, link for the map image, no link by default.
+===[1]===
+Use to overlay clickable nodes with [[Template:Map/ImageNode]].
+==Examples==
+===Just a map===
+<pre>{{Map/Image}}</pre>
+===With clickable nodes===
+<pre>{{Map/Image|
+{{Map/ImageNode|...}}
+...
+}}</pre>
+===Specifying a page===
+<pre>{{Map/Image|page=Fall 2020 Event/E-1}}</pre>
+{{Map/Image|page=Fall 2020 Event/E-1}}
+==Tests==
+* [[Template:Map/Image/Test]]
+</noinclude>

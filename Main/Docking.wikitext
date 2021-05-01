@@ -1,0 +1,42 @@
+''This page provides information about the menu. Please see [[Repairs]] for details on repairing ship girls.''
+
+=Introduction=
+
+'''Docking (repair)''' is a main menu function that lets you repair damaged girls. An alternate method is to use [[Akashi#Special_Mechanics|Akashi's repair function]].
+
+==Menu Functions==
+[[File:Repair-menu.png|thumb|right|Repair Menu and all the available options]]
+
+The following functions appear in the Repair menu:
+
+* '''Occupied Slot''' - Displays ship girls currently being repaired. Ship girl banners are marked with '''Repair (修復)'''. Her name and HP she had when she was put into the docks will be displayed beside her.
+* '''Empty Slot''' - Displays available repair slots.
+* '''Time Remaining''' - Displays how long until repairs are complete.
+* '''Instant Repair''' - Allows you to complete repairs instantly.
+
+=Repairing Ship Girls=
+[[File:Kagaheal.png|right|thumb|404px|Confirmation window for repairs]]
+Repairing a ship girl costs fuel and steel. It will also take time unless an instant repair {{IR}} is used. 
+
+* You start off with only '''2 dock slots'''. You can unlock more by purchasing a '''Dock Key''' (1000 yen) from the [[Shop|Item Shop]]. 
+
+
+To repair a ship:
+
+1. Click on any empty slot to bring up a list of ship girls. It will be sorted by damage as default. 
+2. Click on the ship girl you would like to repair. This brings up the information menu. 
+* The toggle is for using instant repairs. It is set at '''Do Not Use (使用しない)''' by default. You can toggle it to '''Use (使用する)''' if you wish.
+3. Clicking on the '''Begin Repairs! (修復開始！)''' button will bring up the confirmation screen. It shows you all the resource costs again.
+4. Clicking on '''Yes (はい)''' starts the repair. Clicking on '''No (いいえ)''' takes you back to the ship girl selection menu.
+
+'''Notes'''
+*While a ship is being repaired in the docks:
+** You cannot cancel that repair unless you use the '''Instant Repair (高速修復)''' button.
+** You cannot adjust equipments, modernize, or remodel the ship.
+** You can take off her equipment using the equipment swap function.
+* If a ship ends repair with 39 morale or less, it will be set to 40. This includes repairs ended by using Instant Repair.
+* You can shave off the last minute of repair time by switching to the docking screen when a ship has less than one minute of repair time to go.
+
+=See Also=
+{{Mechanics}}
+[[Category:UI]]

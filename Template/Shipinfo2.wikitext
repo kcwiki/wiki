@@ -1,0 +1,75 @@
+{|style="border: 1px solid lightblue; {{border-radius|15px}}; width: 345px;"
+|-
+| colspan="4" style="text-align: center; {{border-radius|15px}}; background-color: {{{color|}}};"|<p style="font-size:20px">'''{{{name|Name?}}}'''</p>
+<p style="font-size:15px">'''{{#if:{{{id|}}}|No.{{{id}}}}} {{lang|ja|{{{japanesename|}}}}}'''</p>
+<p>'''{{#if:{{{class|}}}|{{{class}}} Class}} {{{type|}}}'''</p>
+|-
+|align=center colspan="4" |{{{image|}}}
+|-
+| colspan="4" style="text-align: center; {{border-radius|15px}}; background-color: LightSkyBlue;"|'''Statistics'''
+|-
+| style="width: 90px;"|[[file:icon_HP.png]] HP
+|width="80px"|'''{{{hp|no data}}}'''
+| style="width: 86px;"|[[file:icon_Gun.png]] Firepower
+|'''{{{firepower|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Armor.png]] Armor
+|width="80px"|'''{{{armor|no data}}}'''
+| style="width: 86px;"|[[file:icon_Torpedo.png]] Torpedo
+|'''{{{torpedo|no data}}}'''
+|-
+| style="width: 96px;"|[[file:icon_Evasion.png]] Evasion
+|width="80px"|'''{{{evasion|no data}}}'''
+| style="width: 80px;"|[[file:icon_AA.png]] AA
+|'''{{{AA|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Aircraft.png]] Aircraft
+|width="80px"|'''{{{aircraft|no data}}}'''
+| style="width: 86px;"|[[file:icon_ASW.png]] ASW
+|'''{{{ASW|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Speed.png]] Speed
+|width="80px"|'''{{{speed|no data}}}'''
+| style="width: 86px;"|[[file:icon_LOS.png]] LOS
+|'''{{{LOS|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Range.png]] Range
+|width="80px"|'''{{{range|no data}}}'''
+| style="width: 86px;"|[[file:icon_Luck.png]] Luck
+|'''{{{luck|no data}}}'''
+|-
+| colspan="4" style="text-align: center; {{border-radius|15px}}; background-color: LightSkyBlue;"|'''Consumption'''
+|-
+| |[[File:Fuel.png|25x25px]]Fuel
+| '''{{{fuel|no data}}}'''
+| |[[File:Ammunition.png|25x25px]]Ammo
+| '''{{{ammo|no data}}}'''
+|-
+| colspan="3" style="text-align: center; {{border-radius|15px}}; background-color: LightSkyBlue;"|'''Build Time'''
+|style="text-align: center; {{border-radius|15px}}; background-color: LightSkyBlue;" | '''Slots'''
+|- 
+| colspan="3" style="text-align: center;"|{{{time|Unbuildable}}}
+| align=center |{{{slot|no data}}}
+|-
+| colspan="3" style="text-align: center; {{border-radius|15px}}; background-color: LightSkyBlue;"|'''Stock Equipment'''
+|style="text-align: center; {{border-radius|15px}}; background-color: LightSkyBlue;" | '''[[file:icon_Aircraft.png]]Space'''
+|-
+|align=center colspan="3" |{{{slot1|no data}}}
+|align=center | {{{space1|-}}}
+|-
+|align=center colspan="3" |{{{slot2|no data}}}
+|align=center | {{{space2|-}}}
+|-
+|align=center colspan="3" |{{{slot3|no data}}}
+|align=center | {{{space3|-}}}
+|-
+|align=center colspan="3" |{{{slot4|no data}}}
+|align=center | {{{space4|-}}}
+|}
+<includeonly>
+{{#if: {{NAMESPACE}} | | {{#if:{{{type|}}} | {{#switch:{{{type}}} | Aircraft Carrier = [[Category:Standard Carriers]] | Armored Aircraft Carrier = [[Category:Armored Carriers]] | [[Category:{{{type}}}s]]}} }}
+{{#if:{{{class|}}}|[[Category:{{{class}}} Class]]}} }}
+</includeonly>
+<noinclude>
+{{Documentation}}
+</noinclude>

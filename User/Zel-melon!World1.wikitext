@@ -1,0 +1,823 @@
+=={{Anchor|1-1}}World 1-1: 鎮守府正面海域 Sea in Front of the Naval Base==
+{{Sortieworld
+| map = {{World1-1}}
+| difficulty = ☆
+| item = None
+| exp = 30
+| code = 近海警備 (Coastal Waters Defense)
+| text = 鎮守府正面近海の警備に出動せよ！
+Mobilize for a patrol of the waters outside the naval base!
+}}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="3" |Branching Rules
+|-
+! colspan="2" |Nodes
+!Rules
+|-
+| rowspan="2" style="text-align: center;" |A
+|style="text-align: center;" |B
+| rowspan="2" |
+*Random.
+|-
+|style="text-align: center;" |'''<span style="color:red">C</span>'''
+|-
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="4" |Nodes and Enemy Encounters
+|-
+|style="text-align: center;" |'''Area'''
+|style="text-align: center;" |'''Pattern'''
+|style="text-align: center;" |'''Encountered Vessels'''
+|style="text-align: center;" |'''Formation'''
+|-
+| colspan="1" rowspan="3" style="text-align: center;" |A<br />敵偵察艦
+| style="text-align: center;" |Pattern 1
+|[[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| style="text-align: center;" rowspan="3" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+|-
+| colspan="1" rowspan="3" style="text-align: center;" |B<br />敵はぐれ艦隊
+| style="text-align: center;" |Pattern 1
+|[[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| style="text-align: center;" rowspan="3" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+|-
+| colspan="1" rowspan="4" style="text-align: center;" |'''<span class="wikicolor" style="color:Red">C<br />敵主力艦隊</span>'''
+| style="text-align: center;" |Pattern 1
+|[[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| style="text-align: center;" rowspan="4" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="3" |Drops
+|-
+!Node
+!Destroyers
+!Light Cruisers
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Shirayuki]] [[Hatsuyuki]] [[Miyuki]] [[Murakumo]] [[Isonami]] [[Ayanami]] [[Shikinami]] [[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]][[Oboro]] [[Akebono]] [[Ushio]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuyuki]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Samidare]] [[Suzukaze]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Kasumi]]
+| style="text-align:center;" |[[Tenryuu]] [[Tatsuta]] [[Sendai]] [[Jintsuu]] [[Naka]]
+|-
+| style="text-align:center;" |B
+| style="text-align:center;" |[[Shirayuki]] [[Hatsuyuki]] [[Miyuki]] [[Murakumo]] [[Isonami]] [[Ayanami]] [[Shikinami]] [[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]][[Oboro]] [[Akebono]] [[Ushio]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuyuki]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Samidare]] [[Suzukaze]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Kasumi]]
+| style="text-align:center;" |[[Tenryuu]] [[Tatsuta]] [[Kuma]] [[Tama]] [[Nagara]] [[Sendai]] [[Jintsuu]] [[Naka]]
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">C</span>'''
+| style="text-align:center;" |[[Fubuki]] [[Shirayuki]] [[Hatsuyuki]] [[Miyuki]] [[Murakumo]] [[Isonami]] [[Ayanami]] [[Shikinami]] [[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]][[Oboro]] [[Akebono]] [[Sazanami]] [[Ushio]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuyuki]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Samidare]] [[Suzukaze]] [[Asashio]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Kasumi]] [[Kagerou]] [[Shiranui]] [[Kuroshio]]
+| style="text-align:center;" |[[Kitakami]] [[Tenryuu]] [[Tatsuta]] [[Kuma]] [[Tama]] [[Kiso]] [[Isuzu]] [[Sendai]] [[Jintsuu]] [[Naka]]
+|}
+===Notes===
+*Easy map for [[Morale/Fatigue#Running_1-1_solo|flagship-sparkling]].
+
+=={{Anchor|1-2}}World 1-2: 南西諸島沖 Sea around the Nansei Islands==
+{{Sortieworld
+| map = {{World1-2}}
+| difficulty = ☆
+| item = {{Ammo}}
+| exp = 50
+| code = 南西諸島沖警備 ([[wikipedia:Nansei_Islands|Nansei Islands]] Sea Defense)
+| text = 南西諸島沖に接近する敵前衛艦隊を捕捉、迎撃せよ！ 
+
+Intercept the enemy's vanguard fleet in the seas off the Nansei Islands!
+}}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="3" |Branching Rules
+|-
+! colspan="2" |Nodes
+!Rules
+|-
+| rowspan="2" style="text-align: center;" |Start
+|style="text-align: center;" |A
+| rowspan="2" |
+*Random.
+|-
+|style="text-align: center;" |C
+|-
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="4" |Nodes and Enemy Encounters
+|-
+|style="text-align: center;" |'''Area'''
+|style="text-align: center;" |'''Pattern'''
+|style="text-align: center;" |'''Encountered Vessels'''
+|style="text-align: center;" |'''Formation'''
+|-
+| rowspan="3" style="text-align: center;" |A<br />敵前衛艦隊
+| style="text-align: center;" |Pattern 1
+|[[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| rowspan="3" style="text-align: center;" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|-
+| colspan="1" rowspan="3" style="text-align: center;" |'''<span class="wikicolor" style="color:Red">B<br />敵主力部隊</span>'''
+| style="text-align: center;" |Pattern 1
+|[[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:CT Chi Class.png|Torpedo Cruiser Chi Class|link=Enemy_vessel#Light (Torpedo) Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+| rowspan="3" style="text-align: center;" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |C
+| colspan="3" rowspan="1" style="text-align: center;" |{{Template:Ammo}} + 10 15 20
+|-
+| rowspan="3" style="text-align: center;" |D<br />敵前衛艦隊
+| style="text-align: center;" |Pattern 1
+|[[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| rowspan="3" style="text-align: center;" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="3" |Drops
+|-
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Shirayuki]] [[Hatsuyuki]] [[Miyuki]] [[Isonami]] [[Ayanami]] [[Shikinami]] [[Mutsuki]] [[Kisaragi]] [[Fumizuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Oboro]] [[Sazanami]] [[Ushio]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuharu]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Samidare]] [[Suzukaze]] [[Asashio]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Kasumi]] [[Kuroshio]]
+| style="text-align:center;" |[[Tenryuu]] [[Tama]] [[Kiso]] [[Isuzu]] [[Natori]] [[Yura]] [[Sendai]] [[Jintsuu]] [[Naka]]
+|
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">B</span>'''
+| style="text-align:center;" |[[Shirayuki]] [[Hatsuyuki]] [[Miyuki]] [[Murakumo]] [[Isonami]] [[Ayanami]] [[Shikinami]] [[Mutsuki]] [[Kisaragi]] [[Nagatsuki]] [[Kikuzuki]] [[Oboro]] [[Akebono]] [[Sazanami]] [[Ushio]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuharu]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Samidare]] [[Suzukaze]] [[Asashio]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Kasumi]] [[Kagerou]] [[Shiranui]] [[Kuroshio]]
+| style="text-align:center;" |[[Kitakami]] [[Tenryuu]] [[Tatsuta]] [[Kuma]] [[Tama]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Yura]] [[Sendai]] [[Jintsuu]] [[Naka]] [[Yuubari]]
+| style="text-align:center;" |[[Choukai]] [[Maya]]
+|-
+| style="text-align:center;" |D
+| style="text-align:center;" |[[Hatsuyuki]] [[Miyuki]] [[Isonami]] [[Shikinami]] [[Mutsuki]] [[Kisaragi]] [[Fumizuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Oboro]] [[Akebono]] [[Sazanami]] [[Ushio]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuharu]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Samidare]] [[Suzukaze]] [[Ooshio]] [[Arashio]] [[Kasumi]] [[Kuroshio]]
+| style="text-align:center;" |[[Tenryuu]] [[Tatsuta]] [[Tama]] [[Kiso]] [[Isuzu]] [[Natori]] [[Yura]] [[Sendai]] [[Jintsuu]] [[Naka]]
+|
+|}
+
+=={{Anchor|1-3}}World 1-3: 製油所地帯沿岸 Coastal Refinery Zone==
+{{Sortieworld
+| map = {{World1-3}}
+| difficulty = ☆ ☆
+| item = {{Fuel}}
+| exp = 80
+| code = 海上護衛作戦 (Maritime Convoy Tactics)
+| text = 製油所地帯沿岸部の海上輸送ラインを防衛せよ！
+
+Protect the supply lines from our coastal refineries!
+}}
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="3" |Branching Rules
+|-
+! colspan="2" |Nodes
+!Rules
+|-
+| rowspan="2" style="text-align: center;" |Start
+|style="text-align: center;" |A
+| rowspan="2" |
+*Random.
+|-
+|style="text-align: center;" |B
+|-
+| rowspan="2" style="text-align: center;" |B
+|style="text-align: center;" |C
+| rowspan="2" |
+*Random.
+|-
+|style="text-align: center;" |E
+|-
+| rowspan="1" style="text-align: center;" |C
+|style="text-align: center;" |F
+| rowspan="1" |
+*Fixed.
+|-
+| rowspan="2" style="text-align: center;" |D
+|style="text-align: center;" |C
+| rowspan="2" |
+*Random.
+|-
+|style="text-align: center;" |G
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="4" |Nodes and Enemy Encounters
+|-
+|style="text-align: center;" |'''Area'''
+|style="text-align: center;" |'''Pattern'''
+|style="text-align: center;" |'''Encountered Vessels'''
+|style="text-align: center;" |'''Formation'''
+|-
+| colspan="1" rowspan="3" style="text-align: center;" |A<br />敵前衛艦隊
+| style="text-align: center;" |Pattern 1
+|[[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+| style="text-align: center;" rowspan="3" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |B
+| colspan="3" style="text-align: center;" |Maelstrom: {{Template:Ammo}} -40%
+|-
+| style="text-align: center;" |C
+| colspan="3" style="text-align: center;" |{{Template:Fuel}} +10 to 30(+5 increments)
+|-
+| style="text-align: center;" |D
+| colspan="3" style="text-align: center;" |{{Template:Fuel}} +10 to 30(+5 increments)
+|-
+| rowspan="2" style="text-align: center;" |E<br />敵前衛艦隊
+| style="text-align: center;" |Pattern 1
+|[[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+| style="text-align: center;" rowspan="2" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|-
+| rowspan="3" style="text-align: center;" |F<br />敵支援艦隊
+| style="text-align: center;" |Pattern 1
+|[[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| style="text-align: center;" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+| rowspan="2" style="text-align: center;" |{{Template:DoubleLine}}
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CT Chi Class.png|Torpedo Cruiser Chi Class|link=Enemy_vessel#Light (Torpedo) Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |'''<span class="wikicolor" style="color:Red">G<br />敵主力艦隊</span>'''
+| style="text-align: center;" |Pattern 1
+|[[File:BB Ru Class.png|Battleship Ru Class|link=Enemy_vessel#Battleships]] [[File:CT Chi Class.png|Torpedo Cruiser Chi Class|link=Enemy_vessel#Light (Torpedo) Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| style="text-align:center;white-space:nowrap;" |{{Template:LineAhead}}{{Template:DoubleLine}}
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="3" |Drops
+|-
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Shirayuki]] [[Hatsuyuki]] [[Miyuki]] [[Isonami]] [[Ayanami]] [[Shikinami]] [[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Oboro]] [[Akebono]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuharu]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Suzukaze]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Kasumi]] [[Shiranui]] [[Kuroshio]]
+| style="text-align:center;" |[[Tama]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Yura]] [[Sendai]] [[Jintsu]] [[Naka]]
+| style="text-align:center;" |[[Aoba]]
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|-
+| style="text-align:center;" |E
+| style="text-align:center;" |[[Hatsuyuki]] [[Isonami]] [[Shikinami]] [[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Oboro]] [[Akebono]] [[Ushio]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuharu]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Suzukaze]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Shiranui]] [[Kuroshio]]
+| style="text-align:center;" |[[Tama]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Yura]] [[Sendai]] [[Jintsu]] [[Naka]]
+| style="text-align:center;" |
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |F
+| style="text-align:center;" |[[Shirayuki]] [[Hatsuyuki]] [[Miyuki]] [[Isonami]] [[Shikinami]] [[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Akebono]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuharu]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Suzukaze]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Kasumi]] [[Shiranui]] [[Kuroshio]]
+| style="text-align:center;" |[[Tama]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Yura]] [[Sendai]] [[Jintsu]] [[Naka]]
+| style="text-align:center;" |
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">G</span>'''
+| style="text-align:center;" |[[Fubuki]] [[Shirayuki]] [[Miyuki]] [[Murakumo]] [[Isonami]] [[Ayanami]] [[Shikinami]] [[Kisaragi]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Oboro]] [[Sazanami]] [[Ushio]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuharu]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Samidare]] [[Suzukaze]] [[Ooshio]] [[Arare]] [[Shiranui]] [[Kuroshio]]
+| style="text-align:center;" |[[Kitakami]] [[Tenryuu]] [[Tatsuta]] [[Kuma]] [[Tama]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Yura]] [[Sendai]] [[Jintsu]] [[Naka]] [[Yuubari]]
+| style="text-align:center;" |[[Furutaka]] [[Kako]] [[Aoba]] [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']]
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|}
+
+=={{Anchor|1-4}}World 1-4: 南西諸島防衛線 Hold the Line at the Nansei Islands==
+{{Sortieworld
+| map = {{World1-4}}
+| difficulty = ☆ ☆ ☆
+| item = {{Ammo}} {{Steel}} {{Buax}}
+| exp = 100
+| code = 南1号作戦 ([https://ja.wikipedia.org/wiki/%E5%8D%97%E5%8F%B7%E4%BD%9C%E6%88%A6 First Southern Operation Tactics])
+| text = 南西諸島の防衛ライン上の敵侵攻艦隊を捕捉、全力出撃でこれを撃滅せよ！
+
+An enemy invasion fleet is pressing on the defensive line in the Nansei Islands.  Sail out in full force and destroy them!
+}}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="3" |Branching Rules
+|-
+! colspan="2" |Nodes
+!Rules
+|-
+| rowspan="3" style="text-align: center;" |Start
+|style="text-align: center;" |A
+| rowspan="3" |
+*Random.
+|-
+|style="text-align: center;" |B
+|-
+|style="text-align: center;" |G
+|-
+| rowspan="2" style="text-align: center;" |C
+|style="text-align: center;" |D
+| rowspan="2" |
+*Random.
+|-
+|style="text-align: center;" |E
+|-
+| rowspan="2" style="text-align: center;" |I
+|style="text-align: center;" |'''<span style="color:red">F</span>'''
+| rowspan="2" |
+*Random.
+*Very high chance of J.
+|-
+|style="text-align: center;" |J
+|-
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="4" |Nodes and Enemy Encounters
+|-
+|style="text-align: center;" |'''Area'''
+|style="text-align: center;" |'''Pattern'''
+|style="text-align: center;" |'''Encountered Vessels'''
+|style="text-align: center;" |'''Formation'''
+|style="text-align: center;" |'''Air'''
+|-
+| colspan="1" rowspan="3" style="text-align: center;" |A<br />敵偵察艦
+| style="text-align: center;" |Pattern 1
+|[[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| style="text-align: center;" |{{Template:LineAhead}}
+|
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+| rowspan="2" style="text-align: center;" |{{Template:DoubleLine}}
+|
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|
+|-
+| rowspan="3" style="text-align: center;" |B<br />敵偵察艦隊
+| style="text-align: center;" |Pattern 1
+|[[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| rowspan="1" style="text-align: center;" |{{Template:LineAhead}}
+|
+|-
+| style="text-align: center;" |Pattern 2
+|[[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+| rowspan="2" style="text-align: center;" |{{Template:DoubleLine}}
+|
+|-
+| style="text-align: center;" |Pattern 3
+|[[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+|
+|-
+| style="text-align: center;" |C
+| colspan="4" style="text-align:center;" |{{Template:Steel}} +10 to 20(+5 increments)
+|-
+| style="text-align: center;" |D
+| colspan="4" style="text-align:center;" |{{Bauxite}} +10 to 20(+5 increments)
+|-
+| rowspan="9" style="text-align: center;" |E<br />敵前衛艦隊
+| rowspan="3" style="text-align: center;" |Pattern 1
+| rowspan="3" |[[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+| rowspan="9" style="text-align: center;" |{{Template:Diamond}}
+|-
+| style="text-align: center;" |'''AS+'''<br />48
+|-
+| style="text-align: center;" |'''AS'''<br />24
+|-
+| rowspan="3" style="text-align: center;" |Pattern 2
+| rowspan="3" |[[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CL Ho Class.png|Light Cruiser Ho Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |'''AS+'''<br />48
+|-
+| style="text-align: center;" |'''AS'''<br />24
+|-
+| rowspan="3" style="text-align: center;" |Pattern 3
+| rowspan="3" |[[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]][[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |'''AS+'''<br />48
+|-
+| style="text-align: center;" |'''AS'''<br />24
+|-
+| rowspan="9" style="text-align: center; white-space: nowrap;" |'''<span class="wikicolor" style="color:Red">F<br />敵機動部隊</span>'''
+| rowspan="3" style="text-align: center; white-space: nowrap;" |Pattern 1
+| rowspan="3" |[[File:CV O Class.png|Carrier O Class|link=Enemy_vessel#Standard Aircraft Carriers]] [[File:CV O Class.png|Carrier O Class|link=Enemy_vessel#Standard Aircraft Carriers]] [[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]][[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+| rowspan="9" style="text-align: center;" |{{Template:Diamond}}
+|-
+| style="text-align: center;" |'''AS+'''<br />60
+|-
+| style="text-align: center;" |'''AS'''<br />30
+|-
+| rowspan="3" style="text-align: center;" |Pattern 2
+| rowspan="3" |[[File:CV O Class.png|Carrier O Class|link=Enemy_vessel#Standard Aircraft Carriers]] [[File:CV O Class.png|Carrier O Class|link=Enemy_vessel#Standard Aircraft Carriers]] [[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ni Class.png|Destroyer Ni Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |'''AS+'''<br />60
+|-
+| style="text-align: center;" |'''AS'''<br />30
+|-
+| rowspan="3" style="text-align: center;" |Pattern 3
+| rowspan="3" |[[File:CV O Class.png|Carrier O Class|link=Enemy_vessel#Standard Aircraft Carriers]] [[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]][[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |'''AS+'''<br />54
+|-
+| style="text-align: center;" |'''AS'''<br />27
+|-
+| style="text-align: center;" |G
+| colspan="4" style="text-align:center;" |{{Template:Ammo}} +10 to 20(+5 increments)
+|-
+| style="text-align: center;" |H
+| colspan="4" style="text-align:center;" |{{Template:Steel}} +10 to 20(+5 increments)
+|-
+| rowspan="9" style="text-align: center;" |I<br />敵前衛艦隊
+| rowspan="3" style="text-align: center;" |Pattern 1
+| rowspan="3" |[[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+| rowspan="9" style="text-align: center;" |{{Template:Diamond}}
+|-
+| style="text-align: center;" |'''AS+'''<br />48
+|-
+| style="text-align: center;" |'''AS'''<br />24
+|-
+| rowspan="3" style="text-align: center;" |Pattern 2
+| rowspan="3" |[[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CA Ri Class.png|Heavy Cruiser Ri Class|link=Enemy_vessel#Heavy_Cruisers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]] [[File:DD Ha Class.png|Destroyer Ha Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |'''AS+'''<br />48
+|-
+| style="text-align: center;" |'''AS'''<br />24
+|-
+| rowspan="3" style="text-align: center;" |Pattern 3
+| rowspan="3" |[[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CVL Nu Class.png|Light Carrier Nu Class|link=Enemy_vessel#Light Aircraft Carriers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|-
+| style="text-align: center;" |'''AS+'''<br />48
+|-
+| style="text-align: center;" |'''AS'''<br />24
+|-
+| rowspan="3" style="text-align: center;" |J<br />敵支援艦隊
+| style="text-align: center;" |Pattern 1
+|[[File:BB Ru Class.png|Battleship Ru Class|link=Enemy_vessel#Battleships_.28BB.29]] [[File:CT Chi Class.png|Torpedo Cruiser Chi Class|link=Enemy_vessel#Light (Torpedo) Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+| rowspan="2" style="text-align: center;" |{{Template:LineAhead}}
+|
+|-
+| style="text-align:center;" |Pattern 2
+|[[File:BB Ru Class.png|Battleship Ru Class|link=Enemy_vessel#Battleships_.28BB.29]] [[File:CT Chi Class.png|Torpedo Cruiser Chi Class|link=Enemy_vessel#Light (Torpedo) Cruisers]] [[File:CT Chi Class.png|Torpedo Cruiser Chi Class|link=Enemy_vessel#Light (Torpedo) Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]] [[File:DD Ro Class.jpg|Destroyer Ro Class|link=Enemy_vessel#Destroyers]]
+|
+|-
+| style="text-align:center;" |Pattern 3
+|[[File:BB Ru Class.png|Battleship Ru Class|link=Enemy_vessel#Battleships_.28BB.29]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:CL He Class.png|Light Cruiser He Class|link=Enemy_vessel#Light_Cruisers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]] [[File:DD I Class.png|Destroyer I Class|link=Enemy_vessel#Destroyers]]
+| rowspan="1" style="text-align: center;" |{{Template:DoubleLine}}
+|
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! colspan="3" |Drops
+|-
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+!Battleship
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Shirayuki]] [[Hatsuyuki]] [[Miyuki]] [[Murakumo]] [[Isonami]] [[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Mikazuki]] [[Mochizuki]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuharu]] [[Nenohi]] [[Hatsushimo]] [[Wakaba]] [[Shiratsuyu]] [[Shigure]] [[Yuudachi]] [[Samidare]] [[Suzukaze]] [[Asashio]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Kasumi]] [[Kagerou]] [[Shiranui]] [[Kuroshio]]
+| style="text-align:center;" |[[Tenryuu]] [[Tatsuta]] [[Kuma]] [[Tama]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Yura]] [[Jintsuu]] [[Naka]]
+| style="text-align:center;" |[[Furutaka]] [[Kako]] [[Aoba]] [[Myoukou]] [[Nachi]] [[Ashigara]] [[Haguro]]
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|
+|-
+| style="text-align:center;" |B
+| style="text-align:center;" |[[Fubuki]] [[Shirayuki]] [[Hatsuyuki]] [[Murakumo]] [[Isonami]] [[Ayanami]] [[Shikinami]] [[Mutsuki]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Nenohi]] [[Wakaba]] [[Shiratsuyu]] [[Shigure]] [[Murasame]] [[Yuudachi]] [[Samidare]] [[Suzukaze]] [[Ooshio]] [[Michishio]] [[Arare]] [[Kagerou]] [[Shiranui]]
+| style="text-align:center;" |[[Tenryuu]] [[Tatsuta]] [[Kuma]] [[Tama]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Jintsuu]] [[Naka]]
+| style="text-align:center;" |[[Furutaka]] [[Kako]] [[Aoba]] [[Myoukou]] [[Nachi]] [[Ashigara]] [[Haguro]]
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|
+|-
+| style="text-align:center;" |E
+| style="text-align:center;" |[[Fubuki]] [[Shirayuki]] [[Hatsuyuki]] [[Miyuki]] [[Isonami]] [[Ayanami]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Yuudachi]] [[Samidare]] [[Michishio]] [[Arashio]] [[Arare]] [[Kasumi]] [[Kagerou]] [[Shiranui]]
+| style="text-align:center;" |[[Tenryuu]] [[Tatsuta]] [[Kuma]] [[Tama]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Naka]]
+| style="text-align:center;" |[[Furutaka]] [[Aoba]] [[Myoukou]] [[Nachi]] [[Ashigara]] [[Haguro]]
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">F</span>'''
+| style="text-align:center;" |[[Fubuki]] [[Hatsuyuki]] [[Miyuki]] [[Murakumo]] [[Isonami]] [[Mutsuki]] [[Kisaragi]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Hatsuharu]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Kasumi]] [[Kagerou]] [[Shiranui]] [[Kuroshio]] [[Makigumo|'''<span style="color:red">Makigumo</span>''']]
+| style="text-align:center;" |[[Tenryuu]] [[Tatsuta]] [[Kuma]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Yura]] [[Sendai]] [[Jintsuu]] [[Naka]]
+| style="text-align:center;" |[[Furutaka]] [[Kako]] [[Aoba]] [[Myoukou]] [[Nachi]] [[Ashigara]] [[Haguro]] [[Maya]] [[Choukai]] [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']]
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |[[Akagi]] [[Houshou]] [[Ryuujou]] [[Shouhou]]
+|
+|-
+| style="text-align:center;" |I
+| style="text-align:center;" |[[Fubuki]] [[Hatsuyuki]] [[Miyuki]] [[Murakumo]] [[Isonami]] [[Shikinami]] [[Ayanami]] [[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Kikuzuki]] [[Mochizuki]] [[Akatsuki]] [[Hibiki]] [[Ikazuchi]] [[Hatsuharu]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Shigure]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Suzukaze]] [[Ooshio]] [[Michishio]] [[Kasumi]] [[Kagerou]] [[Kuroshio]]
+| style="text-align:center;" |[[Tatsuta]] [[Kuma]] [[Tama]] [[Kiso]] [[Nagara]] [[Isuzu]] [[Natori]] [[Yura]] [[Jintsuu]] [[Yuubar|'''<span style="color:red">Yuubari</span>''']]
+| style="text-align:center;" |[[Furutaka]] [[Kako]] [[Aoba]] [[Myoukou]] [[Nachi]] [[Ashigara]] [[Haguro]] [[Takao]]
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |[[Akagi]] [[Houshou]] [[Ryuujou]] [[Shouhou]]
+|
+|-
+| style="text-align:center;" |J
+| style="text-align:center;" |[[Hatsuyuki]] [[Miyuki]] [[Isonami]] [[Murakumo]] [[Kisaragi]] [[Kikuzuki]] [[Nagatsuki]] [[Mikazuki]] [[Hibiki]] [[Ikazuchi]] [[Hatsuharu]] [[Nenohi]] [[Wakaba]] [[Hatsushimo]] [[Shiratsuyu]] [[Yuudachi]] [[Murasame]] [[Asashio]] [[Ooshio]] [[Michishio]] [[Arashio]] [[Arare]] [[Kagerou]] [[Shiranui]] [[Kuroshio]]
+| style="text-align:center;" |[[Tenryuu]] [[Tatsuta]] [[Kuma]] [[Kiso]] [[Nagara]] [[Natori]] [[Jintsuu]] [[Naka]]
+| style="text-align:center;" |[[Furutaka]] [[Kako]] [[Aoba]] [[Myoukou]] [[Nachi]] [[Ashigara]] [[Haguro]] [[Choukai]]
+| style="text-align:center;" |[[Chitose]] [[Chiyoda]]
+| style="text-align:center;" |[[Akagi]] [[Houshou]]
+| style="text-align:center;" |[[Fusou]]
+|}
+
+=={{Anchor|1-5}}World 1-5: 【Extra Operation】 鎮守府近海 Adjacent seas of the naval base==
+{{Sortieworld
+| map = [[File:World_1-5.jpg|400px|World 1-5]]
+| difficulty = ☆ ☆ ☆ ☆ ☆
+| item = None
+| exp = 150
+| code = 鎮守府近海対潜哨戒 (Naval base adjacent waters anti-submarine patrol)
+| text = なるべく小編成の対潜哨戒部隊を編成し、鎮守府近海の出没する敵潜水艦を発見・制圧せよ！
+<br>Organize a small seek-and-destroy ASW fleet to clean up the submarine-infested waters near the naval base!}}
+
+===Stage Guide===
+This is a complete submarine map, unless your fleet composition is wrong and you go off-course. Considering the experience you can achieve per sortie *~1500 exp) and compared to the consumption (8-9 bars), this map can be a good place to level up your DDs and CLs for low level admirals. Since the composition of most of the early formations are very small (less than 3), this is a very good place to have the Quests Bd1, Bd2, Bd3, Bd8, and Bw5 completed with little to no danger to ships. (Unless HQ level higher than 80, in case beware of node A)
+*To reach the boss, a fleet of no more than 4 ships is required.
+
+*Having exactly 1 CVL/CAV/AV/LHA prevents you from being sent to node G from E, 50-50 otherwise. 
+*Having more than 2 CL or a normal BB or having more than 4 ships will send you from C to F (enemy carrier).
+* Having a SS might send you from C to F
+*Nodes F and G consist of very strong enemies, even after being adjusted to your admiral level. Make sure you satisfy the fleet requirements above.
+
+*Being sent from node B to node D requires more than 4 ships, but to go from node D  to node I (boss) you must have 4 or fewer ships. If you lose enough ships at D to then have 4 ships or less you can go from D -> I (strongly discouraged)
+
+*At least 1 BBV is highly recommended as it can equip seaplanes to hit subs while allowing you to enter the 2nd shelling phase.
+
+*Clearing this map gives you bonus medals and a boost to your admiral points for ranking purposes. At the beginning of each month, the boss HP bar will be reset, thus allowing you to obtain the medal and bonus points again. (If the month has reset and the boss bar didn't regen for you, get a new API link.)
+
+*The enemies on the map is scaled to your admiral level, which means that the enemy may rank up when you hit a certain admiral level.  Nodes power up at levels 40 and 80.
+*1 CVL, 1 BBV, 2 DD or 2 CL is the usually recommended composition with a 100% chance to reach the boss. Mixed between DD and CL is also ok (ex: 1 DD, 1CL, 1BBV, 1 CVL)
+* Using an AV is an alternative for those without specific ASW equipments for the CVLs, since an AV can equip depth charge (but not SONAR) to boost their ASW damage, and an AV will still attack the enemy under moderate or heavy damage. The downside is that you will have to forego using Saiun, which may result in getting T-crossed in the boss node. A CAV is another alternative if you find the CVLs take too much damage too often, as it may happen beyond HQ level 80.
+* If you don't need any of the stage's drops and your Admiral Level is below 80, you can infinitely grind the first node by fitting your flagship with pure ASW equipment. The submarine can't attack unless it survives the shelling phase, and like grinding the first node of 1-1, getting MVP every run will virtually ensure that she doesn't become fatigued.
+** Provided you have the resources to burn, consider adding units that can't steal MVP to the grind. Example compositions include CLx1/DDx5, CLTx1/DDx3/CVLx2, and DDx1/CVLx3/CAx2. If bringing carriers, remove their planes prior to sortieing. These ships will quickly reach low morale, but seeing as they won't be hitting anything (except in the rare case that the flagship misses), that's not a problem.
+** If you're a low level admiral or just started playing the game, its better to focus on clearing 2-4 and using the first node of that map to level the fleet you will be using to clear it. You can get subs from this map as a drop but they're very rare if you're under HQ level 80 and will have a easier and cheaper time crafting for them.
+* Ideal composition for maximum ASW power: Jun'you Kai Ni(CVL), Ise/Hyuuga(BBV), Isuzu Kai Ni(CL), Yuubari/Ooyodo(CL, if with good ASW equipment). However difference between specific ships is negligible, equipments are much more important.
+* Ideal equipments recommended for HQ level over 80 (not including historical rewards not currently obtainable):
+** [[Type 3 Depth Charge]] (+8)
+** [[Type 3 SONAR]] (+10)
+** [[Ka-type Observation Autogyro]] (+9) (Stock for Akitsu Maru Kai)
+** [[Type 3 Spotter/Liaison (ASW)]] (+7) (Stock for Akitsu Maru Kai)
+** [[Zuiun (634 Air Group)]] (+5) (Stock for Tone/Chikuma Kai Ni, requires remodel blueprint, but also Quest reward)
+** [[Zuiun Model 12]] (+5) (Stock for Fusou/Yamashiro Kai Ni, requires remodel blueprint)
+** [[Prototype Seiran]] (+6) (Stock for I-401 Kai, not preferred if you don't have I-401)
+** [[Tenzan Model 12 (Tomonaga Squadron)]] (+6) (Quest reward, requires Hiryuu Kai Ni)
+** [[Suisei (Comet) (Egusa Squadron)|Suisei (Egusa Squadron)]] (+5) (Quest reward, requires Souryuu Kai Ni)
+** [[Type 97 Torpedo Bomber (931 Air Group)]] (+7) (Stock for Ryuuhou Kai, requires Taigei and remodel blueprint, not recommended)
+** [[Ju 87C Kai|Ju87C Kai]] (+5) (Quest reward, requires 4 submarines and complicated sorties)
+
+=== Tips ===
+
+===Nodes and Enemy Encounters===
+
+<div class="mw-customtoggle-1-5-enemy wikia-menu-button">Show/Hide Nodes and Enemy Encounters</div>
+
+
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-1-5-enemy"
+!Area
+!Admiral Level
+!#
+! width="500px" |Encountered vessels
+!Form
+|-
+| colspan="1" rowspan="2" style="text-align: center;" |A<br />敵偵察潜水艦
+| style="text-align: center;" |79 and below
+| style="text-align: center;" |1
+| style="text-align: left;" |[[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{LineAhead}}
+|-
+| style="text-align: center;" |80 and above
+| style="text-align: center;" |2
+| style="text-align: left;" |[[File:SS Ka Class2.png|Submarine Ka Class Elite|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{LineAhead}}
+|-
+| colspan="1" rowspan="4" style="text-align: center;" |B<br />敵潜水艦隊A群
+| rowspan="1" style="text-align: center;" |
+39 and below
+
+| style="text-align: center;" |1
+| style="text-align: left;" |[[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{Template:Echelon}}
+|-
+| rowspan="2" style="text-align: center;" |40 to 79
+| style="text-align: center;" |2
+| style="text-align: left;" |[[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{Template:Echelon}}
+|-
+| style="text-align: center;" |3
+| style="text-align: left;" |[[File:SS Ka Class2.png|Submarine Ka Class Elite|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{Template:Echelon}}
+|-
+| style="text-align: center;" |80 and above
+| style="text-align: center;" |4
+| style="text-align: left;" |[[File:SS Ka Class2.png|Submarine Ka Class Elite|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{Template:Echelon}}
+|-
+| colspan="1" rowspan="3" style="text-align: center;" |C<br />敵潜水艦隊C群
+| style="text-align: center;" |39 and below
+| style="text-align: center;" |1
+| style="text-align: left;" |[[File:SS Yo Class.png|Submarine Yo Class|link=Submarine Yo-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{LineAbreast}}
+|-
+| style="text-align: center;" |40 to 79
+| style="text-align: center;" |2
+| style="text-align: left;" |[[File:SS Yo Class2.png|Submarine Yo Class Elite|link=Submarine Yo-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{LineAbreast}}
+|-
+| style="text-align: center;" |80 and above
+| style="text-align: center;" |3
+| style="text-align: left;" |[[File:SS Yo Class2.png|Submarine Yo Class Elite|link=Submarine Yo-Class]][[File:SS Yo Class2.png|Submarine Yo Class Elite|link=Submarine Yo-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{LineAbreast}}
+|-
+| colspan="1" rowspan="2" style="text-align: center;" |D<br />敵潜水艦隊B群
+| style="text-align: center;" |Level 49
+| style="text-align: center;" |1
+| style="text-align: left;" |[[File:SS Yo Class.png|Submarine Yo Class|link=Submarine Yo-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{Template:Echelon}}
+|-
+| style="text-align: center;" |Level 99
+| style="text-align: center;" |2
+| style="text-align: left;" |[[File:SS Yo Class2.png|Submarine Yo Class Elite|link=Submarine Yo-Class]][[File:SS Ka Class2.png|Submarine Ka Class Elite|link=Submarine Ka-Class]][[File:SS Yo Class.png|Submarine Yo Class|link=Submarine Yo-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{Template:Echelon}}
+|-
+| style="text-align: center;" |E
+| colspan="4" rowspan="1" style="text-align: center;" |"Must be my imagination" (battle avoided)
+|-
+| colspan="1" rowspan="2" style="text-align: center;" |F<br />敵侵攻打撃艦隊A群
+| style="text-align: center;" |
+| style="text-align: center;" |1
+| style="text-align: left;" |[[File:CVL_Nu_Class2.png|Light Carrier Nu Class Flagship|link=Light Carrier Nu-Class]][[File:CL Ho Class3.png|Light Cruiser Ho Class Flagship|link=Light Cruiser Ho-Class]][[File:DD_Ni_Class2.png|Destroyer Ni-Class Flagship|link=Destroyer Ni-Class]][[File:DD_Ha_Class.png|Destroyer Ha-Class|link=Destroyer Ha-Class]][[File:DD_Ha_Class.png|Destroyer Ha-Class|link=Destroyer Ha-Class]]
+| style="text-align: center;" |{{diamond}}
+|-
+| style="text-align: center;" |
+| style="text-align: center;" |2
+| style="text-align: left;" |[[File:CVL_Nu_Class3.png|Light Carrier Nu Class Flagship|link=Light Carrier Nu-Class]][[File:CL He Class3.png|Light Cruiser He Class Flagship|link=Light Cruiser He-Class]][[File:DD_I_class3.png|Destroyer I-Class Flagship|link=Destroyer I-Class]][[File:DD_I_class3.png|Destroyer I-Class Flagship|link=Destroyer I-Class]][[File:DD_I_class3.png|Destroyer I-Class Flagship|link=Destroyer I-Class]]
+| style="text-align: center;" |{{diamond}}
+|-
+| colspan="1" rowspan="3" style="text-align: center;" |G<br />敵侵攻打撃艦隊B群
+| style="text-align: center;" |
+| style="text-align: center;" |1
+| style="text-align: left;" |[[File:CT_Chi_Class3.png|Torpedo Cruiser Chi Class Flagship|link= Torpedo Cruiser Chi-Class]][[File:CL He Class3.png|Light Cruiser He Class Flagship|link=Light Cruiser He-Class]][[File:DD Ni Class2.png|Destroyer Ni Class Elite|link=Destroyer Ni-Class]][[File:DD Ha Class2.png|Destroyer Ha Class Elite|link=Destroyer Ha-Class]][[File:DD Ha Class2.png|Destroyer Ha Class Elite|link=Destroyer Ha-Class]]
+| style="text-align: center;" |{{Template:LineAhead}}
+|-
+| style="text-align: center;" |
+| style="text-align: center;" |2
+| style="text-align: center;" |
+| style="text-align: center;" |
+|-
+| style="text-align: center;" |
+| style="text-align: center;" |3
+| style="text-align: center;" |
+| style="text-align: center;" |
+|-
+| style="text-align: center;" |H
+| colspan="4" rowspan="1" style="text-align: center;" |"Must be my imagination" (battle avoided)
+|-
+| colspan="1" rowspan="3" style="text-align: center;" |'''<span class="wikicolor" style="color:Red">I<br />敵通商破壊主力艦隊</span>'''
+| style="text-align: center;" |39 and below
+| style="text-align: center;" |1
+| style="text-align: left;" |[[File:SS Ka Class2.png|Submarine Ka Class Elite|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{Template:Echelon}}
+|-
+| style="text-align: center;" |40 to 79
+| style="text-align: center;" |2
+| style="text-align: left;" |[[File:SS Ka Class3.png|Submarine Ka Class Flagship|link=Submarine Ka-Class]][[File:SS Ka Class2.png|Submarine Ka Class Elite|link=Submarine Ka-Class]][[File:SS Ka Class2.png|Submarine Ka Class Elite|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{Template:Echelon}}
+|-
+| style="text-align: center;" |80 and above
+| style="text-align: center;" |3
+| style="text-align: left;" |[[File:SS Yo Class3.png|Submarine Yo Class Flagship|link=Submarine Yo-Class]][[File:SS Ka Class2.png|Submarine Ka Class Elite|link=Submarine Ka-Class]][[File:SS Ka Class2.png|Submarine Ka Class Elite|link=Submarine Ka-Class]][[File:SS Ka Class.png|Submarine Ka Class|link=Submarine Ka-Class]]
+| style="text-align: center;" |{{Template:Echelon}}
+|}
+
+===Drops===
+
+<div class="mw-customtoggle-1-5-drop wikia-menu-button">Show/Hide Drops</div>
+
+
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-1-5-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+!Submarine
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Kisaragi]], [[Sazanami]], [[Hatsuyuki]], [[Samidare]], [[Arare]], [[Nagatsuki]], [[Miyuki]], [[Murakumo]], [[Shigure]], [[Mochizuki]], [[Shikinami]], [[Hatsushimo]], [[Yuudachi]], [[Ooshio]], [[Ushio]], [[Ikazuchi]], [[Hibiki]], [[Inazuma]], [[Murasame]], [[Kikuzuki]], [[Mikazuki]], [[Nagatsuki]], [[Shiranui]], [[Akebono]], [[Satsuki]], [[Isonami]], [[Nenohi]], [[Shirayuki]], [[Arashio]], [[Kasumi]]
+| style="text-align:center;" |[[Naka]], [[Isuzu]]
+|
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+|
+|
+|-
+| style="text-align:center;" |B
+| style="text-align:center;" |[[Shiranui]], [[Kuroshio]], [[Yuudachi]], [[Shigure]], [[Miyuki]], [[Kikuzuki]], [[Fumizuki]], [[Akebono]], [[Hatsuyuki]], [[Isonami]], [[Hibiki]], [[Samidare]], [[Oboro]], [[Michishio]], [[Wakaba]], [[Shikinami]], [[Arare]], [[Sazanami]], [[Mochizuki]], [[Ooshio]], [[Kisaragi]], [[Shirayuki]], [[Mikazuki]], [[Nenohi]], [[Arare]], [[Ikazuchi]],[[Murakumo]]
+| style="text-align:center;" |[[Natori]], [[Jintsuu]], [[Naka]], [[Kitakami]], [[Isuzu]], [[Yura]]
+|
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|
+|-
+| style="text-align:center;" |C
+| style="text-align:center;" |[[Kisaragi]], [[Mochizuki]], [[Hibiki]], [[Kuroshio]], [[Shiranui]], [[Oboro]], [[Ikazuchi]], [[Isonami]], [[Michishio]], [[Mutsuki]], [[Satsuki]], [[Mikazuki]], [[Nagatsuki]], [[Arashio]], [[Nenohi]], [[Sazanami]], [[Murasame]], [[Hatsushimo]], [[Kuroshio]], [[Kikuzuki]], [[Akebono]], [[Shirayuki]], [[Shigure]], [[Ushio]], [[Nenohi]], [[Hatsushimo]], [[Ooshio]], [[Shikinami]], [[Murakumo]], [[Kasumi]], [[Yayoi|'''<span style="color:red">Yayoi</span>''']]
+| style="text-align:center;" |[[Kiso]], [[Jintsuu]], [[Kitakami]], [[Isuzu]], [[Naka]], [[Yura]], [[Natori]]
+|
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+| style="text-align:center;" |
+[[I-19|'''<span style="color:red">I-19</span>''']], [[I-58|'''<span style="color:red">I-58</span>''']],
+
+[[I-168|'''<span style="color:red">I-168</span>''']], [[I-8|'''<span style="color:red">I-8</span>''']]
+|-
+| style="text-align:center;" |D
+| style="text-align:center;" |[[Kisaragi]], [[Inazuma]],  [[Isonami]], [[Akebono]], [[Wakaba]], [[Kuroshio]], [[Satsuki]], [[Hatsuyuki]], [[Shigure]], [[Arare]], [[Samidare]]
+| style="text-align:center;" |[[Naka]], [[Kitakami]], [[Jintsuu]]
+|
+| style="text-align:center;" |[[Chitose]]
+| style="text-align:center;" |[[Houshou]]
+| style="text-align:center;" | [[I-58|'''<span style="color:red">I-58</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']], [[I-19|'''<span style="color:red">I-19</span>''']]
+|-
+| style="text-align:center;" |F
+| style="text-align:center;" |[[Ikazuchi]], [[Shigure]], [[Hibiki]], [[Kisaragi]], [[Mochizuki]], [[Miyuki]]
+|
+|
+| style="text-align:center;" |[[Chitose]]
+|
+| style="text-align:center;" |[[I-58|'''<span style="color:red">I-58</span>''']]
+|-
+| style="text-align:center;" |G
+|
+|
+|
+|
+|[[Houshou]]
+|
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">I Boss Node</span>'''
+| style="text-align:center;" |[[Akatsuki]], [[Oboro]], [[Kikuzuki]], [[Ayanami]], [[Sazanami]], [[Arashio]], [[Kisaragi]], [[Fubuki]], [[Hatsuyuki]], [[Miyuki]], [[Shiranui]], [[Shiratsuyu]], [[Ushio]], [[Samidare]], [[Suzukaze]], [[Murasame]], [[Murakumo]], [[Mochizuki]], [[Nagatsuki]], [[Asashio]], [[Shigure]], [[Isonami]], [[Fumizuki]], [[Mikazuki]], [[Shirayuki]], [[Shikinami]], [[Kuroshio]],[http://kancolle.wikia.com/wiki/Kagerou Kagerou]
+| style="text-align:center;" |[[Natori]], [[Isuzu]], [[Nagara]], [[Yura]], [[Sendai]], [[Naka]], [[Jintsuu]], [[Kuma]], [[Tama]], [[Kiso]]
+| style="text-align:center;" |[[Kinugasa|'''<span style="color:red">Kinugasa</span>''']], [[Aoba]], [[Kako]], [[Furutaka]]
+|
+| style="text-align:center;" |[[Houshou]], [[Jun'you]], [[Hiyou]], [[Ryuujou]]
+| style="text-align:center;" |
+[[I-19|'''<span style="color:red">I-19</span>''']], [[I-58|'''<span style="color:red">I-58</span>''']],
+
+[[I-168|'''<span style="color:red">I-168</span>''']], [[I-8|'''<span style="color:red">I-8</span>''']]
+|}
+
+==Links==
+{{Sortieworldlist}}

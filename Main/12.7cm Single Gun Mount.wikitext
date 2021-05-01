@@ -1,0 +1,77 @@
+{{EquipmentInfo|78}}
+
+==Introduction==
+Z1型駆逐艦に搭載された、かの国の駆逐艦主砲です。<br>
+単装砲ではありますが、対艦・対地射撃では優れた火砲です。<br>
+本兵装は残念ながら対空戦闘には不向きです。
+
+''This was the main gun of destroyers from that country. It was equipped on the Z1 class of destroyers.''<br>
+''Although it was just a single-mount, it was a good gun for anti-ship and anti-ground shelling.''<br>
+''Unfortunately, this gun is unsuited for anti-air combat.''
+
+==Notes==
+Not to be confused with [[12.7cm Twin Gun Mount]].
+
+Requires a German secretary ship (e.g. [[Z1]]) to be constructed.
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Buildable'''
+
+'''Stock equipment''' of {{Ship/Link|Z1 Kai}}, {{Ship/Link|Z1 Zwei}}, {{Ship/Link|Z1}}, {{Ship/Link|Z3 Kai}}, {{Ship/Link|Z3 Zwei}}, {{Ship/Link|Z3}}
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|12.7cm Single Gun Mount}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2014-03-14:''' '''Implemented'''
+* '''2014-03-28:''' Card CG updated
+* '''2020-11-13:''' Became '''buildable''', became '''improvable''', visible bonuses added
+</div></div>
+
+==Fit Bonuses==
+{{:12.7cm Single Gun Mount/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name=12.7cm Naval Gun
+|ItemType=RedGunLight
+|Fuel=10
+|Ammo=20
+|Steel=70
+|Baux=10
+|Mats0-5=3/3
+|Mats6-9=4/5
+|Mats10=-
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=-
+|EquipConsume0-5=1x{{RedGunLight|12.7cm Twin Gun Mount}}
+|EquipConsume6-9=1x{{RedGunLight|12.7cm Naval Gun}}
+|EquipConsume10=-
+|Mon=Z3
+|Tue=Z3
+|Wed=Z1
+|Thu=Z1
+|Fri=Z1
+Z3
+|Sat=Z1
+Z3
+|Sun=Z1
+Z3
+|2ndShip=[[Z1]]<br>[[Z3]]
+}}
+|}
+
+==See Also==
+[[wikipedia:12.7 cm SK C/34 naval gun|12.7 cm SK C/34 naval gun]]
+{{Equipmentlist}}
+[[Category:Equipment]]

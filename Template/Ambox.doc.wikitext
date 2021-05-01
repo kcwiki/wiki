@@ -1,0 +1,73 @@
+==Documentation==
+To be used on articles when the content has issues.
+
+===Sample Code===
+<pre>
+{{Ambox
+|type = protection
+|title = This page is locked because of an edit war.
+|message = If you want to discuss the issue, please check this thread.
+|user_act = Edit war between:
+|users = [[Special:Contributions/190.27.112.124|190.27.112.124]] and [[Special:Contributions/69.120.133.5|69.120.133.5]]
+}}
+</pre>
+
+===Parameters===
+* '''type''' (required) List of types can be seen below
+* '''title''' (optional) The bold text in the description
+* '''message''' (optional) The normal text that comes after title
+* '''user_act''' (optional) Phase before the users e.g. "Proposed by: "
+* '''users''' (required) List of involved users and links to their profiles
+
+
+==Types==
+===construction===
+{{Ambox
+|type = construction
+|message = This is your custom message for this ambox.
+|users = [[User:McDerp|McDerp]]
+}}
+===translation===
+{{Ambox
+|type = translation
+|message = This is your custom message for this ambox.
+|users = [[User:McDerp|McDerp]]
+}}
+===delete===
+{{Ambox
+|type = delete
+|message = This is your custom message for this ambox.
+|users = [[User:McDerp|McDerp]]
+}}
+===cleanup===
+{{Ambox
+|type = cleanup
+|message = This is your custom message for this ambox.
+|users = [[User:McDerp|McDerp]]
+}}
+===notice===
+{{Ambox
+|type = notice
+|message = This is your custom message for this ambox.
+|users = [[User:McDerp|McDerp]]
+}}
+===move===
+{{Ambox
+|type = move
+|message = This is your custom message for this ambox.
+|users = [[User:McDerp|McDerp]]
+}}
+===protection===
+{{Ambox
+|type = protection
+|message = This is your custom message for this ambox.
+|users = [[User:McDerp|McDerp]]
+}}
+===renovate===
+{{Ambox
+|type = renovate
+|message = This is your custom message for this ambox.
+|users = [[User:McDerp|McDerp]]
+}}
+
+<noinclude>[[Category:Template documentation]]</noinclude>

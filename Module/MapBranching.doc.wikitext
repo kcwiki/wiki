@@ -1,0 +1,45 @@
+==Parameter Naming==
+Module invocation is done via passing parameters and arguments. These parameter names and argument values are all done in the following format
+*<"From" Node>_to_<"To" Node> = <argument value>
+except for assigning node labels which is shown below.
+
+All parameters still need a pipe character, "|", before the parameter call. 
+Eg, (replace '{' with '{{')
+*{#invoke:MapBranching | branchingTemplate<br>
+|start_to_A = This is the branching info from the start node to node A<br>
+|start_to_start-1 = This is branching info for starting at the first start node. Eg, when CTF/STF determines your starting node
+|A_to_B = This is branching info from node A to node B<br>
+|A_to_C = This is branching info from node A to node C<br>
+}
+
+All parameters passed to the MapBranching module are named under a simple scheme as described in each subsequent section.<br>
+<b>You may add span and css tags as you wish as they will be pasted in directly to the page. Examples are below.</b>
+
+'''''<span style="color:red">Everything is Case-Insensitive</span>''''
+===Node Names===
+There are only two types of nodes that can be used in either the "From" node or "To" node
+*''Start'' => This indicates the starting node when you first load into a map. This is the starting node that comes before even node A.
+*''Start-#'' => Where # is 1 through 5 (because when are we really going to have more than 5 start points). This will simply indicate which start position. Refer to the [[Spring 2016 Event|Spring 2016 event page]] for examples.
+*''Any alphabet'' => These respectively reflect the node names.
+
+===Example Invocation===
+<code>&#123;&#123;#invoke:MapBranching|branchingTemplate<br>
+|B_to_C = Active Branching<br>
+|B_to_D = Active Branching<br>
+|C_to_E = Change of E with 4 or more CL?&lt;br&gt;Failure on LoS check to H<br>
+|C_to_H = LoS check &lt;br&gt; Failure sends to E<br>
+|F_to_H = LoS check for H. &lt;br&gt;Failure sends to G<br>
+|F_to_G = 5 or more CL&#125;&#125;</code>
+
+Results in
+
+{{#invoke:MapBranching|branchingTemplate
+|B_to_C = Active Branching
+|B_to_D = Active Branching
+|C_to_E = Change of E with 4 or more CL?<br>Failure on LoS check to H
+|C_to_H = LoS check <br> Failure sends to E
+|F_to_H = LoS check for H. <br>Failure sends to G
+|F_to_G = 5 or more CL}}
+
+==Credit==
+Module written by [[User:Remi_Scarlet|Remi_Scarlet]]

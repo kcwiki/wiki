@@ -1,0 +1,11 @@
+{{FancyTable|ranking-table sortable|expand=true|text_align=center|width=50%}} data-year="{{{1}}}" data-month="{{{2}}}" data-day="{{{3}}}" data-time="{{{4}}}"
+!colspan="7"|{{ordinal|{{{3}}}}}, {{{4}}}
+|-
+!No.
+![[Servers|Server]]
+!#1
+!Top {{#ifexpr:{{{1|2015}}}<2014 or ({{{1|2015}}}{{=}}2014 and {{{2|7}}}<7)|3|5}}
+!Top 20
+!Top 100
+!Top 500
+|-

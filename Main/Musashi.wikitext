@@ -1,0 +1,967 @@
+==Info==
+{{KanmusuInfo|ID=143}}
+{{KanmusuInfo|ID=148}}
+{{KanmusuInfo|ID=346}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* She is capable of carrying seaplane fighters on Kai.
+* She gets 5 equipment slots at Kai Ni.
+* She is capable of performing a special AACI at Kai. Please see [[Anti-Air Cut-In]] for more details.
+** She gets another special AACI at Kai Ni.
+
+===Overview===
+'''Kai'''
+* Great firepower, HP and armour.
+* Very long default range.
+
+'''Kai Ni'''
+* Great firepower, HP and armour.
+* Requires three blueprints.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+'''Hidden Fit Bonuses'''
+* She has accuracy bonuses and penalties when equipped with certain large guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+Priority: '''Low'''
+: She is a powerful battleship that is relatively easy to obtain. However, since she is from LSC, she is prohibitively expensive for new players compared to the benefits she brings. She is also very costly to run. Although she can carry seaplane fighters, she needs to compromise her combat ability to do so. Her AACI is also bad with a low fixed shootdown and multiplier.
+: Her Kai Ni makes her the most powerful battleship in the game. Along with the significant boosts to her firepower, HP and armour; she gets 5 slots which give her incredible flexibility in her loadout. The 5th slot allows her to carry a seaplane fighter to assist with air support without sacrificing her combat ability. Her AACI has a good fixed shootdown and decent multiplier. However, it requires a secondary gun to activate, which can interfere with her artillery spotting and night battle attacks. It is an option to use in combined fleets where her night battle performance is irrelevant. All this comes at a very high cost which can be better spent elsewhere for newer admirals.
+
+====Recommended Roles====
+* Combat
+* Support Expeditions
+* Air Support - Kai Ni
+* Anti-Air - Kai Ni
+
+====Not Recommended Roles====
+* Air Support - Kai
+* Anti-Air - Kai
+
+===Important Info===
+* She is an option for A43 and Bm4.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = フッ、随分待たせたようだな……。大和型戦艦二番艦、武蔵。参る！
+|translation = Humph, it seems that I've kept you waiting a while... 2nd ship of the Yamato-class, Musashi. Has arrived!<ref>'I've kept you waiting' is based on Miyamoto Musashi's duel with Sasaki Kojiro, in which Musashi arrived late.</ref>
+|audio = Musashi-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = 大和型二番艦、武蔵…推参する！どうだ？この色。この装束も似合うだろう？
+|translation = 2nd ship of the Yamato-class, Musashi... reporting in! How's this colour? Do these clothes suit me too?
+|audio = MusashiKai-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai2 = yes
+|origin = ふぅ、相棒よ。随分待ったぞ…あぁ、いいだろう。大和型戦艦二番艦、改大和型、武蔵、参る！
+|translation = Hmph, I've been waiting, partner... Ah, very well. 2nd of the Yamato-class and a Kai Yamato-class<ref>The planned [https://en.wikipedia.org/wiki/Design_A-150_battleship Kai Yamato-class] (alternatively Design A-150 or the Super ''Yamato''-class) was a planned class of super battleships that would've surpassed even the ''Yamato''-class as the most powerful battleships in history.</ref> battleship, Musashi, has arrived!
+|audio = MusashiKaiNi-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 大和型戦艦二番艦、武蔵だ。長崎生まれだ。よろしく頼むぞ。
+姉妹艦の大和や信濃と同じく、極秘裏に建造されたのさ。
+ああ、この主砲を存分に撃ち合いたかったな。今度は頼めるか…ありがたい！
+|translation = I'm the 2nd ship of the Yamato-class battleships, Musashi. I'm from Nagasaki. Please take good care of me.
+Like my sisters Yamato and Shinano, I was built in complete secrecy.
+Ah, I really want to fire my main cannons till I'm satisfied.<ref>She never really managed to open fire on other ships before being sunk.</ref> Will I be allowed to this time... My thanks!
+|audio = Musashi-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = よろしくな。
+|translation = Best regards.
+|audio = Musashi-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai = yes
+|origin = この武蔵がいる！心配するな。
+|translation = I am here! Don't worry.
+|audio = MusashiKai-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = どこを見ている？私はここだぞ？
+|translation = Where are you looking? I'm over here.
+|audio = Musashi-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai = yes
+|origin = どこを見ている？そこは特に変わってないぞ？
+|translation = Where are you looking? There's nothing special happening over there.
+|audio = MusashiKai-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = フッ、おいで？遊んで欲しいのかい？
+|translation = Humph, did you call? You want to have some fun? 
+|audio = Musashi-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kai = yes
+|origin = 提督よ！？…まぁ、そういったことも…嫌いではないが……凱旋の後で、な。
+|translation = Admiral!? ...Well, I don't dislike... these sorts of things but... after my triumphant return alright?
+|audio = MusashiKai-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 提督よ、忙しいなら、ブラウザを閉じるのもまた、提督のあり方だ。なに？次の戦略を考えているだと？それはすまなかった。
+|translation = If you're busy, the right way to do things is to close the browser, Admiral. What? You're thinking about the next plan? Sorry about that.
+|audio = MusashiKai-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai2 = yes
+|origin = 相棒よ、忙しいなら、少し休んで外に出るのはどうだ？それもまた、立派な提督のあり方だ。何？次の戦略を考えてるだと？相棒、それはすまなかった、許せ。
+|translation = If you're not too busy, how about going outside for a short break, partner? That's something a model admiral should do too. What? You're laying out future strategies? I had not considered that, partner, forgive me.
+|audio = MusashiKaiNi-Idle.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督よ、貴様も苦労しているのだな。
+|translation = Admiral, you look like you're troubled too.
+|audio = Musashi-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai = yes
+|origin = 提督よ、疲れが溜まっているのではないか？適切な休息をとるのも、また正しい提督のあり方だ。なに？私に見惚れていただと？アッハハハ！面白い奴だ、相棒よ…。
+|translation = Admiral, aren't you pushing yourself too hard? Getting proper rest is part of being a proper Admiral too. What? You were charmed by me? Ahahaha! You're an interesting one, partner...
+|audio = Musashi_Kai_SecWed.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai2 = yes
+|origin = 相棒よ、貴様も貴様なりに、苦労をしているだな。うむ、分かるぞ。だが、この私がいる、心配するな。
+|translation = I know you have your own troubles, partner. Yeah, I understand. However, you don't have to worry, for I am around.
+|audio = MusashiKaiNi-SecMarried.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督よ、貴様を狙うどんな者からも私は守る自信がある。…フッ、疑っているのか？この武蔵、舐められたものだ。…ま、これからも頼むぜ、相棒？
+|translation = Admiral, I'm confident I can protect you from anyone who will target you... Humph, do you doubt me? You're underestimating me ...Well, I'll be relying from you from now on, partner.
+|audio = Musashi-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 通信を報告する。心して聞け。
+|translation = A report transmission is coming in. Listen carefully.
+|audio = Musashi-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|kai = yes
+|origin = どうだ調子は？まあ、のんびり行こう。
+|translation = How are you feeling? Well, just take your time.
+|audio = MusashiKai-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|kai2 = yes
+|origin = どうだ、状況は？は！いいじゃないか。まあ、のんびり行こう。
+|translation = How's the situation? Hah! Isn't that fine. Well, let's take it easy.
+|audio = MusashiKaiNi-PlayerScore.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = この戦、武蔵に任せてもらおうか！
+|translation = Leave this battle to me!
+|audio = Musashi-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai = yes
+|origin = 戦艦武蔵、いざ…出撃するぞ！
+|translation = Battleship Musashi... now sortieing!
+|audio = MusashiKai-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = うーん、悪くないな。
+|translation = Yup, not bad.
+|audio = Musashi-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai = yes
+|origin = 対空火力も…まあ、気になるな。
+|translation = The anti-air firepower is... Well, I'm thinking about it.<ref>During her repair in April 1944 her anti-air strength was increased substantially to six 15.5 cm guns, twenty-four 12.7 cm guns, one hundred and thirty 25 mm guns, and four 13.2 mm machine guns.</ref>
+|audio = MusashiKai-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = そうか。さらに強くなるのだな。
+|translation = Right. I'm getting stronger.
+|audio = Musashi-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai = yes
+|origin = そうだなぁ。大和には悪いが…感謝するぞ。
+|translation = That's right. I feel bad for Yamato but... You have my thanks.<ref>Musashi had more modernisations than Yamato.</ref>
+|audio = MusashiKai-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai2 = yes
+|origin = これが武蔵の新しい力。行ける、行けるぞ！
+|translation = This is my new power. I can do this, I can really do this!
+|audio = MusashiKaiNi-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = えらいぞ！
+|translation = This is great!
+|audio = Musashi-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|kai2 = yes
+|origin = あぁ、偉いぞ。この武蔵が褒めてやろう。
+|translation = Ah, that's praiseworthy. My compliments.
+|audio = MusashiKaiNi-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = ありがたい、補給は大事だ！
+|translation = Thanks, supplies are important!
+|audio = Musashi-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = ちょっと、汚れを落とすかな。
+|translation = I'm going to clean up a bit.
+|audio = Musashi-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|kai = yes
+|origin = あぁ…風呂は良いな…
+|translation = Ah... baths are great...
+|audio = MusashiKai-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = さぁ、ひとっぷろ浴びてくるか。
+|translation = Well, it's time to go take a bath.
+|audio = Musashi-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|kai = yes
+|origin = うっ…この…バイタルパートまでやられては、な…仕方ないさ…。
+|translation = Urgh... They got me... in such a vital place too... Can't be helped...
+|audio = MusashiKai-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい娘が来たようだ。いってやれ。
+|translation = Looks like a new ship girl has arrived. Let's go meet her.
+|audio = Musashi-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|kai = yes
+|origin = 新入りかい？賑やかになるな。
+|translation = A newcomer? It's going to get busy here.
+|audio = MusashiKai-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 作戦完了。艦隊、帰投だ。
+|translation = Operation complete. The fleet has returned to port.
+|audio = Musashi-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|kai = yes
+|origin = 無事、艦隊帰投したぞ。
+|translation = The fleet has returned safely to port.
+|audio = MusashiKai-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|kai2 = yes
+|origin = 港はいいな。うむ、艦隊、戻ったぞ。
+|translation = It's good to be back. Yep, the fleet has returned.
+|audio = MusashiKaiNi-SortieReturn.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 旗艦武蔵、出撃する！
+|translation = Flagship Musashi, sortieing!
+|audio = Musashi-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai = yes
+|origin = 第一遊撃部隊、出撃する！
+|translation = 1st Mobile Force Musashi, sortieing!<ref>Refering to Admiral Kurita's Centre Force at the [https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf#Submarine_action_in_Palawan_Passage_.2823_October_1944.29 Battle of Leyte Gulf].</ref>
+|audio = MusashiKai-Starting_B_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = この武蔵の主砲、伊達ではないぜ！
+|translation = My cannons aren't just for show!
+|audio = Musashi-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|kai = yes
+|origin = さあ、行くぞ！撃ち方…始めっ！
+|translation = Now, let's go! Open... fire!
+|audio = MusashiKai-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|kai2 = yes
+|origin = 武蔵見参！この戦、武蔵に任せて貰うか。
+|translation = Musashi, in position! Leave this battle to me.
+|audio = MusashiKaiNi-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 遠慮はしない、撃てぇ！
+|translation = Don't hold back, fire!
+|audio = Musashi-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|kai = yes
+|origin = 全砲門、開けっ！
+|translation = Ready all guns!
+|audio = MusashiKai-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|kai2 = yes
+|origin = この武蔵の主砲はだてではない！行くぞ！
+|translation = My main guns aren't just for show! Let's do this!
+|audio = MusashiKaiNi-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Daytime Spotting/ Night Battle Attack 
+|origin = この主砲の本当の力、味わうが良い！
+|translation = I love feeling the true power of these main guns!
+|audio = Musashi-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Daytime Spotting/ Night Battle Attack 
+|kai = yes
+|origin = そうだ！シブヤン海のようにはいかないぜ！
+|translation = That's right! I won't let this be like the Sibuyan Sea!<ref>She was sunk in the Sibuyan Sea.</ref>
+|audio = MusashiKai-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Daytime Spotting/ Night Battle Attack
+|kai2 = yes 
+|origin = よし、もらったぞ。大和よ、見てろ。って！
+|translation = Right, I got them now. Watch this, Yamato. Fire!
+|audio = MusashiKaiNi-NightAttack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = あっはは！面白いなぁ。逃げられるとでも？
+|translation = Ahaha! How amusing. Did you really think you could escape?
+|audio = Musashi-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|kai = yes
+|origin = …ふっ、痛快だ！武蔵、突撃するぞ！ついてこい！
+|translation = ...Humph, I love this! I'll be pursuing! Follow me!
+|audio = MusashiKai-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 私は大和型。その良二番艦だからな。当然か。しかし、礼は受け取ろう。
+|translation = It's because I'm the 2nd ship of the Yamato-class. This is to be expected. But, I accept your praise.
+|audio = Musashi-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = そんな攻撃、蚊に刺されたような物だ！
+|translation = That attack feels just like a mosquito bite!
+|audio = Musashi-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = くっ、いいぞ、当ててこい！私はここだ！
+|translation = Guh~, alright, bring it! I'm right here!
+|audio = Musashi-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = まだだ…まだこの程度で、この武蔵は…沈まんぞ！
+|translation = Not yet... I won't sink... with just this!<ref>It took 19 torpedoes and 17 bombs to sink her.</ref>
+|audio = Musashi-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 皆の分まで、この武蔵が攻撃を受け止められたのなら…まぁ、私は…満足だ…。
+|translation = If I can take the hits for everyone else... Well, I'll be... satisfied...<ref>After she was crippled, she played a rear guard so the rest of the fleet could escape.</ref>
+|audio = Musashi-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = この武蔵が深夜0時をお知らせする。
+|translation = I'd like you to know that it is now midnight.
+|audio = Musashi Kai-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 00:00 
+|kai2 = yes
+|origin = 相棒よ、そうだな。この武蔵が、午前0時をお知らせしよう。うん？不服か？よし。
+|translation = That's right, partner. I'm just reporting that it's midnight. Hmm? Do you have a complaint? Good.
+|audio = MusashiKaiNi-0000.mp3
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = 1時か…。こんな時間まで、熱心な物だ。
+|translation = 1 o'clock huh... You're still so energetic at this time.
+|audio = Musashi Kai-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = 2時だ。その集中力、立派な物だ。
+|translation = It's 2 o'clock. Your ability to concentrate is really impressive.
+|audio = Musashi Kai-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|kai2 = yes
+|origin = 2時だ。うん、その集中力、立派なものだ。ある種、才能だな、うん。
+|translation = It's 2 o'clock. Yep, that alertness is praiseworthy. It certainly is a talent, yep.
+|audio = MusashiKaiNi-0200.mp3
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = 提督よ、3時だ。この武蔵...うたた寝などは…。
+|translation = Admiral, it's 3 o'clock. I'm... dozing off...
+|audio = Musashi Kai-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|kai2 = yes
+|origin = 相棒よ、3時だ。この武蔵、うたた寝などは…あぁ、少し眠いな。相棒よ、少し一緒に休むか？ん？
+|translation = It's 3 o'clock, partner. I'm... dozing off... Ah, I'm just a little sleepy. Shall we go get some rest together, partner? Hmm?
+|audio = MusashiKaiNi-0300.mp3
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = 4時か。今日は、提督は寝ずの番なのか？
+|translation = 4 o'clock huh. Was it your turn for the night watch today, Admiral?
+|audio = Musashi Kai-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|kai2 = yes
+|origin = 4時だ。相棒よ、今日は寝ずの番をするつもりか？まあ、休む時は休むよ。それも戦いの一つだぞ。
+|translation = It's 4 o'clock. Are you planning to pull an all-nighter tonight, partner? Well, you should rest when it's time to rest. That's part of fighting too.
+|audio = MusashiKaiNi-0400.mp3
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = 5時になったなぁ。朝は、嫌いではない。
+|translation = It's now 5 o'clock. I don't dislike mornings.
+|audio = Musashi Kai-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|kai2 = yes
+|origin = 海と空が明るくなり始めだか。5時になったな。朝は、嫌いではない。
+|translation = The sea and sky are getting brighter. It's 5 o'clock now. I don't dislike the morning.
+|audio = MusashiKaiNi-0500.mp3
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = 6時か。明るくなり始めたか。
+|translation = 6 o'clock huh. It's starting to get light.
+|audio = Musashi Kai-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|kai2 = yes
+|origin = 6時か。まだ寝ている大和たち、寝坊助姫たち、総員起こし、だな。任せておけ、行くぞ、総員起こし！朝だ、全艦総員起床！
+|translation = It's 6 o'clock. Yamato and the others are still asleep; time to rouse all those sleepy princesses. Just leave it to me, I'll go wake them up! It's morning! All ships, get up!
+|audio = MusashiKaiNi-0600.mp3
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = 7時だ。提督よ、朝も元気だな。
+|translation = It's 7 o'clock. Admiral, you're lively in the mornings too huh.
+|audio = Musashi Kai-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|kai2 = yes
+|origin = 7時だ、相棒よ、朝も元気だな。いい事だ。よし、今日もやるぞ！
+|translation = It's 7 o'clock, you're looking lively this morning, partner. That's good. Alright, let's work hard today too!
+|audio = MusashiKaiNi-0700.mp3
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = 提督は提督だったな。失礼、現在、時刻は8時だ。
+|translation = I guess you are you. Sorry, the time is now 8 o'clock.
+|audio = Musashi Kai-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|kai2 = yes
+|origin = ちっ、朝飯を食い過ぎだか。まあいい、相棒よ、支度をするんだ。なに？時間？現在時刻は、8時だ。
+|translation = Tch, I think I had too much for breakfast. Oh well, I'm preparing now, partner. What? The time? The time is now 8 o'clock.
+|audio = MusashiKaiNi-0800.mp3
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = 9時だな。そういえば、大和はこの艦隊にもういるのか？
+|translation = It's 9 o'clock. Come to think of it, is Yamato in this fleet too?
+|audio = Musashi Kai-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|kai2 = yes
+|origin = 9時だな。あぁ、大和、なんだ？あぁ、大丈夫。相棒とは、うまくやってる。心配はいらん。ん？そうか？
+|translation = It's 9 o'clock. Ah, what is it, Yamato? Ah, I'm fine. I'm doing well with my partner. Don't worry. Hmm? Really?
+|audio = MusashiKaiNi-0900.mp3
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = 10時、大和もいるならそれはすごい。奴は案外、恥ずかしがり屋だからな。なかなか出てこないだろう。
+|translation = 10 o'clock. It'd be great if Yamato was here too. Because she's surprisingly shy. She doesn't get out much.<ref>Yamato was rarely sortied.</ref>
+|audio = Musashi Kai-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|kai2 = yes
+|origin = 10時か。ん？大和か？いや、いい奴だが、少し世話焼きなのがたまに瑕だが。いや、別に嫌ではない。
+|translation = 10 o'clock huh. Hmm? Yamato? No, she's a good girl, but her one flaw is she does become a busybody sometimes. Er, not that I mind, really.
+|audio = MusashiKaiNi-1000.mp3
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = 11時だ。何か問題か？大丈夫。この武蔵に、全て任せておけ。
+|translation = It's 11 o'clock. What's the problem? It'll be fine. Leave it all to me.
+|audio = Musashi Kai-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = 昼飯の時間だな。…何だ？皿うどんとかたべたいな。ああ、懐かしいな。
+|translation = It's time for lunch... What? I want to eat sara udon. Ah, I miss it...<ref>[https://en.wikipedia.org/wiki/Sara_udon Sara udon] is a dish native to Nagasaki, where Musashi was built.</ref>
+|audio = Musashi Kai-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = 午後1時だ。最近は、やたらでかいハンバーガー？とやらも流行っているそうだな。食べてみたいもんだ。
+|translation = It's 1pm. Recently I impulsively bought a large hamburger. It seems they were popular. I wanted to try one.
+|audio = Musashi Kai-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = 午後2時、午後の仕事を始めるぞ。
+|translation = 2pm. It's time to start this afternoon's work.
+|audio = Musashi Kai-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|kai2 = yes
+|origin = 午後2時。うむ、まだ小腹が… なんだ、時雨、それは？佐世保バーガー、だと？そうか、これが！ほっ、うむ。うまいぞ、いいな、これは。この時代、佐世保、悪くはないな。
+|translation = 2pm. Yeah, I'm still hungry... What is that, Shigure? A "Sasebo Burger"<ref>A style of hamburger that emerged in Sasebo during the 1950s, thanks to the presence of a significant US naval base.</ref>? I see, so this is it! ''Om! Nom!'' That's delicious, this is good. Sasebo is pretty good in this era.
+|audio = MusashiKaiNi-1400.mp3
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = 3時か。間宮に、カステラとか、作ってもらっても、いいかも…。
+|translation = 3 o'clock huh. I wonder if it'll be fine for me to ask Mamiya to make a castella...<ref>A [https://en.wikipedia.org/wiki/Castella castella] is a Japanese sponge cake that is a specialty in Nagasaki.</ref>
+|audio = Musashi Kai-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = 午後4時か。よし、まだまだいけるな。
+|translation = 4pm huh. Alright, I can still go on.
+|audio = Musashi Kai-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|kai2 = yes
+|origin = 午後4時。ん、どうした大和？あぁ？貴様は、アイワ…？知らんな。大和の前に、この武蔵が相手になろう。あぁ、演習でいいぞ。さあ、かかって来い！
+|translation = 4pm. Hmm, what's wrong Yamato? Ah? You're... Iowa? Haven't heard of you. You'll have to face me before Yamato. Ah, an exercise is fine. Now, bring it!
+|audio = MusashiKaiNi-1600.mp3
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = 午後5時だ。夜に目を慣らしておけ。
+|translation = It's 5pm. Get your eyes used to the night.
+|audio = Musashi Kai-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = 午後6時か…。チッ、そろそろアクセスが増えてくるぞ。覚悟しとけ。
+|translation = 6pm huh... Tch, access has been increasing steadily. Prepare yourself. 
+|audio = Musashi Kai-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|kai2 = yes
+|origin = 午後6時。偶にはこの武蔵が飯を作ってやるか。あぁ、あんまり過剰な期待をするなよ。そうだなぁ、カレーにするか。
+|translation = 6pm. I should make dinner once in a while. Ah, but don't expect too much. I know, I'll make curry.
+|audio = MusashiKaiNi-1800.mp3
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = 午後7時だ。おう提督よ、夕飯はどうするんだ？一緒するか？
+|translation = It's 7pm. What are you doing for dinner, Admiral? Want to eat together?
+|audio = Musashi Kai-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|kai2 = yes
+|origin = どうだ、出来だぞ。武蔵特製カレーだ。おぉ、清霜。お前も食え！食って立派になれ！時間？あぁ、7時だな。
+|translation = I made it. How is it? It's my special curry. Oh, Kiyoshimo<ref>Kiyoshimo and Hamakaze rescued Musashi's survivors.</ref>. You have some too! Eat up and become a fine person. The time? Ah, it's 7 o'clock.
+|audio = MusashiKaiNi-1900.mp3
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = 午後8時か。摩耶のやつ、ちゃんとやってるかい？
+|translation = 8pm huh. Is Maya doing her duties properly?
+|audio = Musashi Kai-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|kai2 = yes
+|origin = 午後8時か。摩耶のヤツ、ちゃんとやってるか？そうか、鳥海がいるな。安心だ、うむ。
+|translation = 8pm. Is Maya doing her job properly? I see, Choukai is with her. That's a relief, yep.<ref>Maya and Choukai were with Musashi during the Battle of Leyte Gulf but sank early on.</ref>
+|audio = MusashiKaiNi-2000.mp3
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = 午後9時。何だ？島風よ。私は無事だぞ？
+|translation = 9pm. What is it, Shimakaze? I'm alright.<ref>Shimakaze rescued Maya's survivors from the sinking Musashi.</ref>
+|audio = Musashi Kai-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|kai2 = yes
+|origin = 午後9時。ん？何だ？島風よ。私は無事だぞ。そうだ、おまえはいつで元気でいろ。はは、そうだ！
+|translation = 9pm. Hmm? What is it, Shimakaze? I'm alright. Yes, you're always looking lively. Haha, that's right!
+|audio = MusashiKaiNi-2100.mp3
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = 午後10時、後かたづけも、作戦の内だ！
+|translation = 10pm. Cleaning up is also part of the operation!
+|audio = Musashi Kai-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|kai2 = yes
+|origin = 午後10時。辛い仕事も任務の内だ。どうした？浜風、清霜。うむ、私は健在だ。そう…だな、そうだ。
+|translation = 10pm. Hard jobs are also part of the mission. What's wrong, Hamakaze<ref>Hamakaze also helped rescue Musashi's survivors.</ref>, Kiyoshimo? Yep, I'm still in good health. I... see, that's right.
+|audio = MusashiKaiNi-2200.mp3
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = 午後11時か、･･･夜戦も程々にな。
+|translation = 11pm huh... Let's take the night battle slow.
+|audio = Musashi Kai-23.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|kai2 = yes
+|origin = もう午後11時か。ふぅ、相棒よ、夜戦も程々にな。なんだ？仕方のない奴。うふぅ、仕方ないな。
+|translation = It's already 11pm. Hmph, take the night battle nice and easy, partner. What's that? You're so eager. Heheh, just so eager.
+|audio = MusashiKaiNi-2300.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2015|New Year 2015]]
+|origin = 新年か！めでだい！提督よ、謹賀新年だな！今年もしかり頼むぞ！ははははは！
+|translation = It’s the New Year! Let’s celebrate! Happy New Year, Admiral! I’m really counting on you this year too! Hahahahaha!
+|audio = Musashi_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = はむ…ん…うむ。うまい。うまいぞ、クリスマス！悪くないな！提督ももっと食え！
+|translation = *nom*… Mmm… *nom*. Delicious.  Christmas is delicious! Not bad! You eat up too, Admiral!
+|audio = Musashi_Christmas_2015_sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = 早いものだ。もう師走か。そうだな。大掃除に取り掛かるか。そして一杯やろう！
+|translation = Time flies. It’s already December. I know. I should start spring cleaning. Then let’s have a drink!
+|audio = Musashi_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = おぉ、節分か！よし、この武蔵が、鬼役をやってやろう。さぁ、ドンドン撃ってこい！
+|translation = Ooh, it’s Setsubun! Alright the, I’ll be the Oni. Come on, just bring it!
+|audio = Musashi_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = 提督よ、チョコレート用意した。その疲れたら食べてくれ。遠慮は要らん。
+|translation = I got these chocolates for you, Admiral. Eat some when you feel tired. Don’t hold back.
+|audio = Musashi_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = なに？これを、私に？提督よ、ありがとう。見慣れぬ戦闘糧食だが、いただこう。
+|translation = What? Is this for me? Thank you, Admiral. I haven’t seen this kind of combat ration before but I accept.
+|audio = Musashi_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2016|Spring 2016]]
+|origin = 春…桜か…何、大和？きれいなものだな。あは、私らしくもないか。あはは。
+|translation = Spring… The sakura are… What is it, Yamato? They’re beautiful. Aha, it’s not like me huh. Ahaha.
+|audio = Musashi_Spring_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 提督よ、我ら、三周年を迎えたぞ。うふふ、良いものだなぁ。信頼が出来る仲間という者は、次の一年も頼むぜ、相棒。
+|translation = Our 3rd Anniversary is here, Admiral. Ufufu, this is great. I’m counting on you next year as a comrade I can trust, partner.
+|audio = Musashi_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = 雨も…悪くはない。梅雨の季節なら尚更だ。こんな日は熱燗も、いいな。なぁ？
+|translation = The rain… is not bad. That goes for the rainy season too. Hot sake would be nice on days like this. Right?
+|audio = Musashi_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_2016|Early Summer 2016]]
+|origin = ん？夏の海か？いいぞ、いくらでも出撃に付き合うぞ。はぁ？何？水着で？なぜだ？
+|translation = Hmm? The summer sea? It’s fine, I’m ready to sortie anytime. Huh? What? In a swimsuit? Why?
+|audio = Musashi_Early_Summer_Sec1_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 秋刀魚漁支援だと？この武蔵が、か？はは、よかろう！存分にこの力を貸すぞ！
+|translation = Support for saury fishing? Me? Haha, as you wish! I’ll lend you as much power as you need!
+|audio = Musashi_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2016|Autumn 2016]]
+|origin = 提督よ、寒くなってきたな。もっと近くに来てもいいんだぞ？ん？あははぁ、冗談だ。
+|translation = It’s getting colder, Admiral. You can come closer you know? Hmmm? Ahahaha, I was joking.
+|audio = Musashi_Late_Autumn_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 提督よ、我ら、四周年を迎えたぞ。ふふふふぅ、いいものだなぁ。信頼が出来る仲間という者は…次の一年も頼むぜ、相棒。
+|translation = Our 4th Anniversary is here, Admiral. Fufufufu, this is great. Comrades I can trust are… I’m counting on you next year too, Partner.
+|audio = Musashi_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2018|Coming of Spring 2018]]
+|origin = なんだ、なんだこの騒ぎは。何？鎮守府瑞雲祭りだと？日向、伊勢、一体どうなっている？はぁ？
+|translation = What’s all this racket. What? A Naval Base Zuiun Festival? Hyuuga, Ise; what’s going on? Huh?
+|audio = Musashi_Spring_2018_Sec1.mp3
+|notes = Zuiun Festival line
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 提督よ、我ら、ついに五周年だ。ふん、いいものだな、信頼できる仲間というものは…これからも、頼むぞ、相棒。
+|translation = It’s finally our 5th Anniversary, Admiral. Humph, it’s great to have trustworthy comrades… I’ll continue to count on you, partner.
+|audio = Musashi_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = 提督よ、我ら六周年を迎えたよだ。うふぅ、なんだろうな、この感覚は。信頼できる仲間か？ありがたいものだ。これからも頼むぞ、相棒。
+|translation = Admiral, our 6th Anniversary is here. Ufu, I wonder what this feeling is. Could it be because of comrades I can trust? That's something to be thankful for. I'll keep counting on you, partner.
+|audio = Musashi_6th_Anniversary_Sec3.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = 提督よ、我ら、ついに七周年を迎えたか。ふん、驚きだな。だが、わるくはない。信頼できる、仲間か…あぁ、いいものだな。これからも頼むぞ、相棒。
+|translation = Admiral, our 7th Anniversary is finally here. Humph, I'm amazed. But, not bad. Someone you can trust? ...Ah, that's something important. I'll be counting on you, partner.
+|audio = Musashi_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = 提督、そして大和よ、我らついに八周年を迎えたようだ。ふぅ、いいものだ、この感覚。信頼できる、仲間か。あぁ、そうだ。これからも、頼むぞ、相棒！
+|translation =	Admiral, and Yamato, we're finally celebrating our 8th Anniversary. Humph, it's great. It feels nice having comrades I can trust. Ah, yeah. I'll keep counting on you, partner!
+|audio = Musashi_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Eve of the Final Battle 2018]]
+|origin = そろそろか。よし、いうことするか。なぁ、相棒?
+|translation = It’s almost time. Alright, time to do what we said. Right, Partner?
+|audio = Musashi_Kantai_Kessen_2018_Sec1.mp3
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Eve of the Final Battle 2018]]
+|origin = 何だ、清霜よ？そんな顔するな。あははぁ、ばかなやつだ。だが、ありがとうな。
+|translation = What is it, Kiyoshimo? Don’t make that face. Ahaha, don’t be silly. But, thank you.
+|audio = Musashi_Kantai_Kessen_2018_Sec3.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = よし、いよいよ、我が第一遊撃部隊の突入だな。この武蔵に任せておけ。必ずや、レイテに突入するぞ！相棒よ、準備はいいな？よし、いい面構えだ。
+|translation = Right, it’s finally time for the 1st Striking Force to charge in. Leave everything to me. We’ll definitely break through Leyte! Are you ready, Partner? Good, that’s a good expression.
+|audio = Musashi_Kantai_Kessen_2018_Sec1b.mp3
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 来るなあ、空襲が。基地航空隊が上空援護してくれるとありがたいが...戦闘機部隊は健在か？
+|translation = An air raid is coming. I’m grateful that we’ll have cover from land-based aircraft but… will the fighter squadrons be alright?
+|audio = Musashi_Kantai_Kessen_2018_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = うむ、この装備塗装でゆく。何だ、相棒、その顔は？大丈夫だ。今度は…帰って来る！
+|translation = Yup, I’ll go with this paint on my equipment. What’s with that look, Partner? I’ll be fine. This time… I’ll come back!
+|audio = Musashi_Kantai_Kessen_2018_Sec3b.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 第一遊撃部隊、第一部隊、戦艦武蔵、抜錨準備完了。行こうか、相棒？
+|translation = 1st Striking Force, 1st Section, battleship Musashi;  preparations for sail complete. Shall we get going, Partner?
+|audio = Musashi_Kantai_Kessen_2018_JoinFleet.mp3
+|notes = Joining the Fleet
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = 今は遠慮はなしだ。そうだろう、相棒よ？
+|translation = I’m not holding back this time. Isn’t that right, Partner?
+|audio = Musashi_Kantai_Kessen_2018_Atk.mp3
+|notes = Attack
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = はははぁ！痛快だ！主砲、一斉射だ。薙ぎ払えぇ！
+|translation = Hahaha! What a thrill! Main guns, full broadside. Mow them down!
+|audio = Musashi_Kantai_Kessen_2018_NightAtk.mp3
+|notes = Night Battle Attack
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = そうゆう事だ、この武蔵について来い。追撃開始だ！
+|translation = That’s right, follow me. Begin the pursuit!
+|audio = Musashi_Kantai_Kessen_2018_NightBattle.mp3
+|notes = Night Battle
+}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = 相棒よ、終わったぞ。我が連合艦隊、第一遊撃部隊、そう、栗田艦隊は、敵艦隊を撃滅したぞ！うおおおぉ！
+|translation = It’s over, Partner. Our Combined Fleet, the 1st Striking Force, yes, the Kurita Fleet, has annihilated the enemy fleet! Yeeeeeaaaaaaah!
+|audio = Musashi_ShoGo_2018_End1.mp3
+|notes = Plays upon completion of Winter 2018 E7. See [[Winter_2018_Event|event page]] for proper order.
+}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = そうだな、今はゆっくり眠りたい。相棒よ、少しそばにいてくれ。…はぁー、これでゆっくり眠れそうだ。ありが…とう…
+|translation = Right, now I can finally get some rest. Stay by me for a bit, partner. …*sigh* Now I can rest. Thank... you...
+|audio = Musashi_ShoGo_2018_End2.mp3
+|notes = Plays upon completion of Winter 2018 E7. See [[Winter_2018_Event|event page]] for proper order.
+}}
+{{SeasonalQuote
+|scenario = [[KanColle_Sasebo_Naval_Base_Tour|Sasebo Base Tour 2018]]
+|origin = ほぉ、佐世保か。私は佐世保鎮守府の近く、長崎の造船場で建造されたのだ。懐かしいな。春日丸にも世話になった。ほぉ、やつも出征したな。あははは。
+|translation = Oooh, it’s Sasebo. I was built near Sasebo Naval Base at the Nagasaki Shipyards. How nostalgic. Kasuga Maru took care of me. Oh, she was sent to the front too. Ahahaha.
+|audio = Musashi_Sasebo_Homecoming_2018_Sec1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+143_3.png|Base
+143_4.png|Base Damaged
+148_3.png|Kai
+148_4.png|Kai Damaged
+KanMusu346CG.png|Kai Ni
+KanMusu346CGDmg.png|Kai Ni Damaged 
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+KanMusu143_SurigaoStrait.png|[[Seasonal/Final_Battle|Final Battle 2018]]
+KanMusu143_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Final Battle 2018 Damaged]]
+KanMusu148_SurigaoStrait.png|[[Seasonal/Final_Battle|Kai Final Battle 2018]]
+KanMusu148_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Kai Final Battle 2018 Damaged]]
+</gallery>
+|}
+
+== Drop Locations ==
+{{#invoke:ShipDropTable|returnShipDrop|Musashi}}
+
+
+==Trivia==
+*She is named after [https://en.wikipedia.org/wiki/Musashi_Province Musashi Province], made up of parts of modern day [https://en.wikipedia.org/wiki/Saitama_Prefecture Saitama] and [https://en.wikipedia.org/wiki/Kanagawa_Prefecture Kanagawa] Prefectures.
+* [[Fall 2013 Event]], E-5 clear reward.
+* Sunk during the [[wikipedia:Battle_of_Leyte_Gulf|''Battle of Leyte Gulf'']] ([https://tools.wmflabs.org/geohack/geohack.php?pagename=Japanese_battleship_Musashi&params=13_07_N_122_32_E_ 13°07′N 122°32′E﻿]), on October 24th, 1944.
+** Musashi did not sink for 4:06 hours after receiving 19 torpedoes, 17 bombs, & 20 cannon strikes - unprecedented damage to a IJN ship; yet, it still continued to operate & attempt a [[wikipedia:Beaching_(nautical)|beaching]].
+*** A generally accepted reason is [https://danbooru.donmai.us/posts/1674149 even flooding], which prevented quick capsizing & permitted slow sinking.
+** Musashi's wreck was discovered by a [http://paulallen.com Paul Allen]-funded team on March 2nd, 2015.
+*** The [https://twitter.com/PaulGAllen/status/572431062522982400 first post], the [https://twitter.com/PaulGAllen/status/572445094298578944 second post], a [https://www.youtube.com/watch?v=hFG7Oi7roes video clip], & an [https://www.youtube.com/watch?v=qNMmqagTt90 expedition video (2:55:12)].
+** This was celebrated in the [[Game_Updates/2015/March_13th|March 13th, 2015 update]] with several Musashi-related furniture and a rate increase for constructing her.
+
+==See Also==
+* [[{{PAGENAMEE}}/Gallery|View {{PAGENAMEE}}'s CG]]
+* [[List of battleships by upgraded maximum stats|List of battleships]]
+* [http://www.combinedfleet.com/musashi.htm Tabular Records of Movement on {{PAGENAMEE}}]
+* [[wikipedia:Japanese_battleship_Musashi|Wikipedia entry on {{PAGENAMEE}}]]
+
+{{shiplist}}
+
+[[Category:Yamato Class]]
+[[Category:Battleships]]
+[[Category:Ship with hourly notification]]

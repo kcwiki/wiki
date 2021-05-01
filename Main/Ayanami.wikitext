@@ -1,0 +1,576 @@
+==Info==
+{{KanmusuInfo|ID=017}}
+{{KanmusuInfo|ID=017a}}
+{{KanmusuInfo|ID=195}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform OASW at 100 ASW.
+
+===Overview===
+'''Kai'''
+* Average firepower, torpedo, ASW, HP and armour.  
+
+'''Kai Ni'''
+* Great firepower
+* Decent torpedo, ASW and armour.
+* Average HP.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+'''Ayanami Kai'''
+
+Priority: '''Low'''
+
+:At first remodel, she has low firepower and a decent torpedo stat, making her hitting harder in night battle than at day, but not great at either.
+:While not impressive in combat, do keep in mind than many maps require you to bring at least a few destroyers for routing.
+:Furthermore, destroyers are cheap to deploy and can equip [[Drum Canister]], making them suited for expeditions.
+
+
+'''Ayanami Kai Ni'''  
+
+Priority: '''Very High'''
+:Her second remodel increases her Torpedo stat and especially gives her a massive +25 Firepower boost, which combined with her base luck of 40 makes her a destroyer very well suited for surface combat, not just at day but particularly during night battle, which fits her achievements from history.
+
+====Recommended Roles====
+* Surface combat (Second remodel)
+* Night battle (Second remodel)
+
+===Important Information===
+* Required for A72, B78 and B79.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = ごきげんよう。特型駆逐艦、綾波と申します。
+|translation = A pleasure to meet you. I'm the Special Type destroyer Ayanami.<ref>Special Type destroyers refers to the Fubuki, Ayanami and Akatsuki-classes which were designated as such because they represented such a leap in performance over previous destroyer classes.</ref>
+|audio = Ayanami-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 特型駆逐艦、綾波です。改良吹雪型の1番艦なんです。
+第三次ソロモン海海戦では、駆逐艦一隻としては、特別な大活躍をお見せしました。
+頑張ります！
+|translation = I'm the Special Type destroyer Ayanami. The first ship of the Improved Fubuki-class.
+During the Third Battle of the Solomon Sea, I displayed a magnificent solo action.<ref>She was ordered to split off from her squadron to scout the other side of Savo Island during the [https://en.wikipedia.org/wiki/Naval_Battle_of_Guadalcanal Naval Battle of Guadalcanal]. Although she says it was a solo action, the engagement she participated in also involved Nagara and Uranami.</ref>
+I did my best!
+|audio = Ayanami-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = はい、大丈夫ですよ？
+|translation = Yes, I'm fine you know?
+|audio = Ayanami-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = お茶にいたしましょうか？
+|translation = Shall I make tea?
+|audio = Ayanami-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = そんなに話しかけられてしまうとお仕事がちゃんと出来ないです・・・
+|translation = You won't be able to do your job properly if you keep talking to me...
+|audio = Ayanami-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = 司令官、いつもお疲れ様です。お仕事 綾波応援していますね
+|translation = Thanks for all your hard work Commander. I'll always be here to support you.
+|audio = Ayanami-Secretary_(Idle).ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai = yes
+|origin = 司令官、綾波ひとりでも結構頑張れるんですよ？でも、あなたと一緒だったら・・・もっと頑張れます！
+|translation = Commander, I can work hard enough on my own you know? But, when I'm with you... I can work even harder!
+|audio = AyanamiKai-Secretary Married.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 綾波、がんばってますか？お役に立ってますか？…そ、そうですか、うれしいです！
+|translation = Was I doing my best? Was I useful to you? ...R-really! I'm glad to hear it!
+|audio = Ayanami-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 司令官、お便りが来ています。
+|translation = Commander, a letter has arrived.
+|audio = Ayanami-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 綾波、出撃します！
+|translation = Ayanami, sortieing!
+|audio = Ayanami-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = はぁ…癒されます。感謝ですね～<ref>Shared with Supply before kai.</ref>
+|translation = Haa~... That hit the spot. Thanks for that~
+|audio = Ayanami-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai2 = yes
+|origin = こちら、いただきますね。
+|translation = Please, have my thanks.
+|audio =AyanamiKai2-Equipment 1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = 綾波、まるで生まれ変わったみたい！
+|translation = I feel like I've been reborn!
+|audio = Ayanami-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai2 = yes
+|origin = はぁ…癒されます。感謝ですね～
+|translation = Haa~... That hit the spot. Thanks for that~
+|audio =AyanamiKai2-Equipment 2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3 <ref> Equipment(3) is shared with expedition selection, resource collection, instant repair and development. </ref>
+|origin = やりましたー！<ref>Shared with Secretary Married before kai.</ref>
+|translation = I did it!
+|audio = Ayanami-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = yes
+|origin = ありがとうございます！
+|translation = Thank you very much!
+|audio = AyanamiKai-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 少しだけ、休ませてください
+|translation = Please let me rest for a bit...
+|audio = Ayanami-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = ごめんなさい…綾波修理に入りますね…
+|translation = Sorry... I'll be going for repairs...
+|audio = Ayanami-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい仲間が来てくれたみたい！
+|translation = It seems like a new comrade is coming!
+|audio = Ayanami-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊が作戦行動から帰投しました。
+|translation = The fleet is back from completing the operation.
+|audio = Ayanami-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 抜錨！出撃です！
+|translation = Set sail! Let's sortie!
+|audio = Ayanami-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 左舷、砲雷撃戦用意！
+|translation = Port, prepare for combat!
+|audio = Ayanami-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = よく狙って・・・てーっ！
+|translation = Steady your aim... fire!
+|audio = Ayanami-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|origin = 綾波が守ります！
+|translation = I'll protect you!
+|audio = Ayanami-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = この海域は譲れません！
+|translation = I won't give up these waters!
+|audio = Ayanami-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 綾波が一番だなんて嬉しいです！司令官のおかげですね
+|translation = I'm happy that I'm number one! It's thanks to the Commander.
+|audio = Ayanami-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = ぁあっ！被弾した！？
+|translation = Ah! I got hit...!
+|audio = Ayanami-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin =  きゃああああああ
+|translation = Kyaaah!
+|audio = Ayanami-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = まっ…まだ…戦える…はずです…
+|translation = I-I... think... I can still fight...
+|audio = Ayanami-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 吹雪は無事かしら・・・・・そう、良かった
+|translation = I wonder if Fubuki is safe... really, thank goodness.
+|audio = Ayanami-Sunk.ogg
+}}
+|} <references/>
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00
+|origin = 午前0時です。こんな夜更けにすみません
+|translation = It's 12am. Sorry to disturb you so late at night.
+|audio = Ayanami-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00
+|origin = 午前1時です。もしお邪魔でしたら音量下げてくださいね
+|translation = It's 1am. Please lower the volume if I'm disturbing you.
+|audio = Ayanami-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00
+|origin = 午前2時で―す！深夜ですし もうちょっと小声にいたしましょうか
+|translation = It's 2am~! Should I talk quieter since it's the middle of the night?
+|audio = Ayanami-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00
+|origin = ご～ぜ～ん～　3時でーす(小声)
+|translation = It's~ 3~ am~ (Whispering)
+|audio = Ayanami-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00
+|origin = 午前4時です…綾波も…このぐらい大丈夫ですよぉ… もうすぐ…朝ですねぇ…
+|translation = It's 4am... I'm still... doing fine... It's almost... morning...
+|audio = Ayanami-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00
+|origin = 午前5時です。もうすぐ総員起こしの時間ですね。艦娘たちを起こしてきますね
+|translation = It's 5am. Almost time for morning assembly. The shipgirls will be getting up soon.
+|audio = Ayanami-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00
+|origin = 午前6時です。朝になりました。司令官おはようございます。今日も一日頑張りましょう
+|translation = It's 6am. Morning's here. Good morning Commander. Let's give it our all today.
+|audio = Ayanami-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00
+|origin = 午前7時です。司令官、タオルここに置いておきますね
+|translation = It's 7am. I'll leave your towel over here Commander.
+|audio = Ayanami-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00
+|origin = 午前8時です。司令官、朝ごはんのご用意ができてます。お味噌汁はお麩でよかったかしら？
+|translation = It's 8am. Breakfast is ready Commander. Would you like to have some miso soup with seitan?<ref>[https://en.wikipedia.org/wiki/Wheat_gluten_(food) Seitan] is wheat gluten. It is usually baked before being added to soups.</ref>
+|audio = Ayanami-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00
+|origin = 午前9時です 。そろそろデイリー任務を片付けてしまいましょうか。了解しました
+|translation = It's 9am. Shall we start clearing daily missions soon? Roger that.
+|audio = Ayanami-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00
+|origin = 午前10時です。司令官、綾波は何をすればよろしいですか？
+|translation = It's 10am. Do you need me to do anything?
+|audio = Ayanami-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00
+|origin = 午前11時です！ お昼の準備ですね。わかりました。お任せ下さい
+|translation = It's 11am. Time to start preparing lunch huh. Understood. Please leave it me.
+|audio = Ayanami-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00
+|origin = 正午。お昼のご用意ができました。綾波特製肉じゃが定食です！お味はいかが？
+|translation = Noon. Lunch is ready. It's my special Nikugaga meal! Is it to your liking?<ref>[https://en.wikipedia.org/wiki/Nikujaga Nikujaga] is a Japanese stew made with meat, potato and onions stewed in a soy sauce stock.</ref>
+|audio = Ayanami-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00
+|origin = 午後1時です。綾波、我ながら満足しちゃいました。司令官はご満足されましたか？
+|translation = It's 1pm. I'm satisfied with how that turned out. Were you satisfied too Commander?
+|audio = Ayanami-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00
+|origin = 午後2時です。さて！綾波もそろそろ本領発揮しちゃおうかな。頑張りますね
+|translation = It's 2pm. Right! It's time for me to show you what I can really do. I'll do my best.
+|audio =Ayanami-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00
+|origin = 午後3時。私たちの艦隊のランキングを上げるためにも綾波、頑張りますね
+|translation = It's 3pm. I'm going to do my best to help increase our fleet's ranking.
+|audio = Ayanami-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00
+|origin = 午後4時。綾波、こう見えて狙った敵は逃しません。出撃を意見具申いたします
+|translation = 4pm. Despite everything, I didn't let the enemy escape my sights. I'll start on the mission report.
+|audio = Ayanami-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00
+|origin = 午後5時。司令官、もうちょっと先を目指してみます？ 綾波お供いたします。
+|translation = 5pm. Do you want to take it to the next level Commander? I'll accompany you. 
+|audio = Ayanami-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00
+|origin = 午後6時。そろそろ夜の時間ですね。綾波も少し疲労がたまってしまいましたぁ…
+|translation = 6pm. It's almost night time. I've gotten a bit fatigued...
+|audio = Ayanami-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00
+|origin = 午後7時。綾波、執務室の檜のお風呂使ってもいいんですか！ ほっ、本当に！？
+|translation = 7pm. I can use the cypress bath in the office!? R-really!?
+|audio = Ayanami-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00
+|origin = 午後8時。司令官。せっかくですが入渠ドックが空いていますので綾波はこちらで十分です。
+|translation = 8pm. I appreciate the offer but using an empty dock is enough for me.
+|audio = Ayanami-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00
+|origin = 午後9時です。夜の鎮守府は静かですね
+|translation = It's 9pm. The base at night sure is quiet.
+|audio = Ayanami-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00
+|origin = 午後10時となりました。今晩も頑張ってまいりましょう
+|translation = It's now 10pm. Let's do our best tonight too.
+|audio =Ayanami-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00
+|origin = 午後11時です。司令官、綾波も実は少しだけ夜戦には自信があるんです。今度是非！
+|translation = It's 11pm. To tell you the truth Commander, I have a bit of confidence in night battles. Next time let me do it!
+|audio = Ayanami-23.ogg
+}}
+|} <references/>
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin = やりましたー。司令官、二周年本当におめでとうございます！
+|translation =We did it. Congratulations on reaching the 2nd anniversary, Commander!	
+|audio = 017_Ayanami_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2015|Rainy Season 2015]]
+|origin = 梅雨の季節、雨の音も、気持ちを切り替えれば、心地良いですね。司令官も、そう思われます？
+|translation =	You’ll feel better if you look at the rainy season, and the sound of rain, from a different perspective. Don’t you think so, Commander?
+|audio = Ayanami_Rainy_Secretary_1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Mid_Summer_Season_Update|Midsummer 2015]]
+|origin = 夏は…やっぱり暑いですね…。司令官、敷波が持ってきてくれたスイカ、切りましょうか！
+|translation =	Summer… sure is hot… Let’s slice up the watermelon Shikinami got us, Commander! 
+|audio = Ayanami_Mid_Summer.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Mid_Autumn_2015_Seasonal_Update|Midautumn 2015]]
+|origin = 綾波、この季節、好きなんです。綾波が進水したのも、秋なんですよ。ウフフ~
+|translation =	I like this time of year. I was launched in autumn after all. Ufufu~
+|audio = Ayanami_Mid_Autumn2015.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = メリークリスマス、司令官！はい、綾波と敷波からのプレゼントです！ケーキもどうぞ！
+|translation =	Merry Christmas, Commander! Here’s a present from Shikinami and me! Have some cake too!
+|audio = Ayanami_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 司令官、新年、あ～け～ました！本年も、綾波たちを、どうぞよろしくお願いいたします！
+|translation =	Happy New Year, Commander! Please treat us well this year too!
+|audio = Ayanami_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = はい、バレンタインの、チョコレートです。お口に合うといいですが…どうぞっ！
+|translation =	Yes, it’s Valentine’s chocolate. I hope they’re to your liking… Here you go! 
+|audio = Ayanami_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = ついに、や・り・ま・し・た・！司令官、三周年本当におめでとうございます！えへへ、綾波も、うぅれしっ！
+|translation =	It’s finally he~ re~! A huge congratulations on the 3rd Anniversary, Commander! Ehehe, I’m happy too!
+|audio = Ayanami_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 特型駆逐艦綾波、秋刀魚漁支援、出撃準備完了です！司令官、いつでもお明示くださいね！
+|translation =	Special-type destroyer, Ayanami, has finished preparations for saury fishing support! I’m standing by for your orders, Commander!
+|audio = Ayanami_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = ついに、や・り・ま・し・た・！司令官、四周年、本当に本当におめでとうごさいます！えへへ…うふふっ…うふふっ。綾波も…うーれしぃ！
+|translation =	It’s~ finally~ here~! My sincerest congratulations on the 4th Anniversary, Commander! Ehehe… Ufufu… ufufu… I’m… happy too!
+|audio = Ayanami_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2018|White Day 2018]]
+|origin = こちらを、お返しに？司令官、ありがとうございます！綾波、大事にいだたきますね。はーむ。美味しい…美味しいです！
+|translation =	Is this a return gift? Thank you very much, Commander! I’ll be sure to savour it. *nom* It’s… It’s delicious!
+|audio = Ayanami_White_Day_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = や・り・ま・し・た！司令官、五周年、本当におめでとうございます！へへへぇ。
+|translation =	We. Did. It! Congratulations on the 5th Anniversary, Commander! Hehehe.
+|audio = Ayanami_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = 司令官、今日は浴衣で鎮守府の縁日に行きましょう。射的…綾波、射的やりたいです。いいですか？
+|translation =	Since I'm wearing a yukata today, let's go to the Naval Base Festival, Commander. The shooting gallery... I want to play the shooting gallery. Is that alright?
+|audio = Ayanami_Late_Autumn_2018_Sec1.mp3
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = 狙います…えっ、実弾？何がですか？
+|translation =	I'm opening fire... Eh, live ammo? What about it?
+|audio = Ayanami_Late_Autumn_2018_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = やーりーまーしーたー！司令官、ほら、取りました！えへぇ、かわいいですね？えぇ、百式？なにかですか？…えぇー。
+|translation =	Iii diiid ittt! Look, Admiral, I got it! Ehe, isn't it cute? Eh, Type 100? What's that? ...Eeeeh.
+|audio = Ayanami_Late_Autumn_2018_Sec3.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = こほん…や・れ・ま・し・た！司令官、六周年！本当に、おめでとうご・ざ・い・ま・す！えへへぇ。
+|translation =	*Ahem*... It's~ heeeereee~! Commander, it's the 6th Anniversary! My sincerest congraaaatuuulaaatiooonsss! Ehehe.
+|audio = Ayanami_6th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary]]
+|origin = ほはぁ。やりましたぁー。七周年です、司令官。ほんとうにおめでーとうぅーござーいまぁーす！うふふふぅ。
+|translation =	Wowee. We made iiiit. It's the 7th Anniversary, Commander. Coooonnngrraaatuuulaaatiiioonnns! Hehehe.
+|audio = Ayanami_7th_Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|} <references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = 第十九駆逐隊、戦場に到着！これより突撃する！
+|translation =	The 19th Destroyer Division has arrived on the battlefield! We’re charging in now!
+|audio = Ayanami-FriendFleet.mp3
+|notes = Friend Fleet line
+}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = 綾波、了解！い、行きますよおぉー！
+|translation =	Roger that! H-here I gooooooo~!
+|audio = Ayanami-FriendFleet2.mp3
+|notes = Friend Fleet line
+}}
+|} <references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+017_3.png|Base
+017_4.png|Base Damaged
+195_3.png|Kai Ni
+195_4.png|Kai Ni Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+KanMusu17Yukata.png|[[Seasonal/Summer_2017|Summer 2017]]
+KanMusu17Yukatadmg.png||[[Seasonal/Summer_2017|Summer 2017 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Ayanami}}
+
+==Trivia==
+*Scuttled following the [http://en.wikipedia.org/wiki/Naval_Battle_of_Guadalcanal#Second_Naval_Battle_of_Guadalcanal.2C_14.E2.80.9315_November Second Naval Battle of Guadalcanal], November 15, 1942. ([http://tools.wmflabs.org/geohack/geohack.php?pagename=Japanese_destroyer_Ayanami_%281929%29&params=9_10_S_159_52_E_type:landmark_region:SB 9°10′S 159°52′E])
+*Her name means "Crossing waves".
+*While in KanColle she is the lead ship of the Ayanami Class, in other contexts she is referred to to as the 11th ship of the Fubuki class.  She was the first of the greater Fubuki class (containing the Fubuki, Ayanami and Akatsuki classes) with a modified gun turret allowing her guns to angle up to 75 degrees.  When introduced, her class were among the most powerful destroyers in the world along with Fubuki and Akatsuki-class.
+*Wreck discovered in 1992 by [http://en.wikipedia.org/wiki/Robert_Ballard Dr. Robert Ballard]
+*Ayanami is one of the three IJN ships in Iron Bottom Sound, along with [[Kirishima]] and [[Yuudachi]].
+*Her second remodel represents her performance during her final mission, a night battle where she formed a single 'prong' of a three-pronged attack alone (other prongs each contained a light cruiser and multiple destroyers), sank (or helped sink) three destroyers, heavily damaged a fourth, and assisted [[Kirishima]] in trading fire with a battleship, the ''[http://en.wikipedia.org/wiki/USS_South_Dakota_(BB-57) USS South Dakota]''.
+* Received her Kai Ni on 20/06/2014.
+*The Evangelion character Rei Ayanami takes her family name from this ship. In fact, almost all Evangelion characters have names connected to ships (IJN ships in particular); [[Maya]] Ibuki (in this case a double reference because ''Ibuki'' is also the name of an IJN cruiser), Shigeru [[Aoba]], and Ritsuko [[Akagi]] to name a few.
+
+==See Also==
+*[[{{PAGENAME}}/Gallery|View {{PAGENAME}} CG]]
+*[[EliteDD|List of Destroyers]]
+*[[wikipedia:Japanese_destroyer_Ayanami_(1929)|Wikipedia entry on destroyer Ayanami]]
+ {{shiplist}}
+[[Category:Special Type Destroyers]]
+[[Category:Ayanami Class]]
+[[Category:Destroyers]]
+[[zh:绫波]]

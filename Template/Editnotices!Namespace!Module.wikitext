@@ -1,0 +1,35 @@
+{{#ifeq:
+  {{#ifeq: {{BASEPAGENAME}} | {{SUBPAGENAME}}
+  | <!-- Don't match [[Module:Doc]] -->
+  | {{lc: {{SUBPAGENAME}} }}
+  }}
+| doc
+| {{editnotice
+  | expiry=indefinite
+  | text =  This is the <!--[[Wikipedia:Template documentation|-->documentation page<!--]]--> of the module ''[[Module:{{BASEPAGENAME}}|{{BASEPAGENAME}}]]''.
+  }}
+| {{#ifexist:{{FULLPAGENAME}}/doc
+    |{{editnotice
+      | expiry=indefinite
+      | text  = When making changes to this module please be sure to update its [[{{FULLPAGENAME}}/doc|documentation]].
+      | image = <!--[[File:Attention yellow.png|25px|alt=|link=]]-->
+    }}
+  }}<!--
+-->{{editnotice
+| expiry=indefinite
+| header = This is a [[mw:Extension:Scribunto|Scribunto module page]].
+| headerstyle =
+| id    = module-namespace-editnotice
+| class = module-namespace-editnotice
+| text = Pages in this namespace are written in the [[mw:Extension:Scribunto/Lua reference manual|Lua programming language]]. The code is run, usually from a [[Help:Editing#Templates|template]].
+
+<!-- {{fmbox warning ruler}} -->
+<div style="float:right; text-align:right; vertical-align:bottom;font-size:smaller;"> [[Template:Editnotices/Namespace/Module|Hide&nbsp;this&nbsp;message]]</div> 
+Some helpful links: [[mw:Extension:Scribunto/Lua reference manual|Lua reference manual]], {{#ifexist:{{FULLPAGENAME}}/testcases|[[{{FULLPAGENAME}}/testcases|testcases]] <small style="font-style: normal">([{{fullurl:{{FULLPAGENAME}}/testcases|action=edit}} edit])</small>.|testcases <small style="font-style: normal">([{{fullurl:{{FULLPAGENAME}}/testcases|action=edit&preload=Template:Documentation/preload-module-testcases}} create])</small>.}}
+| textstyle =
+| image = <!-- File:Imbox notice.png -->
+}}<!--
+-->}}<noinclude>
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>

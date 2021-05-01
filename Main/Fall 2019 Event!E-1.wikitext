@@ -1,0 +1,137 @@
+===E-1===
+[[File:OoyodoE-1Fall2019.png|600px]]
+{{EventMap1
+|banner = [[File:Fall2019E-1Banner.png|500px]]
+|map_image =[[File:Fall2019E-1Map.png|500px]]
+|map_name = Witness the 8th Destroyer Division! Battle Off Bali
+|map_japanese =
+|information = 
+*'''Event Tag''': [[File:Fall2019EventMagentaTag.png]] '''Occupation Convoy'''
+'''(Phase 1 - Boss): [[Supply Depot Princess]]
+* Hard ({{lang|ja|甲}}): 
+* Medium ({{lang|ja|乙}}): 
+* Easy ({{lang|ja|丙}}):
+* Casual ({{lang|ja|丁}}): 
+
+'''(Phase 2 - Boss): [[Light Cruiser He-Class]] (Enemy type varies upon difficulty)
+* Hard ({{lang|ja|甲}}): 
+* Medium ({{lang|ja|乙}}): 
+* Easy ({{lang|ja|丙}}):
+* Casual ({{lang|ja|丁}}): 
+
+'''Key Rewards:'''
+* Clearing on Hard ({{lang|ja|甲}}): 3x [[Mamiya]], 1x [[Repair Goddess]], 4x [[Emergency Repair Materials]], 1x [[Furniture Fairy]], 1x [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]], 1x [[Action Report]]
+* Clearing on Medium ({{lang|ja|乙}}): 2x [[Mamiya]], 1x [[Furniture Fairy]], 3x [[Emergency Repair Materials]], 1x [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]], 1x [[Action Report]]
+* Clearing on Easy ({{lang|ja|丙}}): 1x [[Mamiya]], 1x [[Furniture Fairy]], 2x [[Emergency Repair Materials]], 1x [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]]
+* Clearing on Casual ({{lang|ja|丁}}): 1x [[Mamiya]], 1x [[Furniture Fairy]], 2x [[Emergency Repair Materials]]
+
+{{MapBranchingTable
+|title = E-1 Branching Rules
+|expand = true
+|id = 46-1
+|order = 1,C,E,F
+
+|1 -> A = * Do not meet the requirements to go to B.
+|1 -> B/empty = 
+* Meet '''ALL''' of the following requirements:
+** Amount of ships ≤ 5
+** Amount of DD ≥ 4
+
+|C -> D = * Do not meet the requirements to go to E.
+|C -> E/empty = 
+* Meet '''ALL''' of the following requirements:
+** Amount of ships ≤ 5
+** Amount of DD ≥ 4
+
+|E/empty -> F/empty = * Amount of DD ≤ 4
+|E/empty -> G = * Amount of DD ≥ 5
+
+|F/empty -> I/empty, H = * Active branching
+}}
+
+Branching compositions were reported over the course of the event.
+
+|tips = <br>
+
+'''Note: The Following Guide is an early version that has been based on current collected info. Be aware that information is subject to change as more of the maps and information is released.'''
+
+'''Preparations'''
+
+'''Historical Bonuses:'''
+
+Note: Base multiplier stacks multiplicatively with node-specific bonuses, if any.
+*8th DesDiv: ([[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]]): 1.25x (base)
+**Node H: 1.45x
+**Node J: 1.2x
+**Node K: 1.3x
+*[[Nagara]] and 21st DesDiv ([[Nenohi]], [[Wakaba]], [[Hatsushimo]]): 1.15x (base)
+
+
+On this map, you will be using a single fleet that cannot include (F)BB(V),CV(L)(B) and LHA. 8th DesDiv ships have the highest bonus here. '''However, it's not strictly necessary to use them to clear, and you can consider conserving them for later maps instead.'''
+
+The three major factors consider before attempting this map are:
+# Do you have any anti-installation equipment? (Type 3 Shell, Anti-Ground Rockets, Mortars, Daihatsu/Ka-Mi Tank, etc.)
+# Do you have any Destroyers and Light Cruisers that can equip said equipment?
+# Do you have any 8th DesDiv Members ([[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]]) (preferably Kai Ni, but not required)?
+
+If you said yes to the first 2 questions, you can clear Part 1 of the map using the recommended lighter ship comps listed below. If you said yes to the 8th DesDiv question, you can consider using them here as well, although just 1-2 of them should be more than sufficient for the purposes of clearing this map (it really is that easy).
+
+The alternative heavier composition should not be used at all on Medium difficulty or higher, especially given how many CAs are required for later Main Operation maps. It has been included only for those with no other alternatives.
+
+Support expeditions are not necessary for this map.
+
+'''Part 1: [[Supply Depot Princess]] (HP Bar)'''
+
+Below is a tab which will cover three of the most recommended fleet comps that can be used on this map. These comps can be used across the whole map.
+
+'''Recommended Fleet'''
+
+Total ships needed: 4-6 ships
+
+<tabber>
+|-|1DD/CL/CLT ,4 DD Comp=
+*Route: '''B-C-E-F-H'''
+* You will only face off against one enemy fleet consisting of 3-4 DDs prior to the boss.
+*This comp is the strongest, most efficient comp for this map as a whole, although you can omit the CL for the purposes of the Part 1 boss.
+**Using a CLT here is not recommended unless you have dupes, or you are playing on Easy or below.
+*This comp is ideal if you have at least 2 DD that can equip anti-installation one-shot builds (Type 2 Amphibious Tank, Marine (Type 89 Daihatsu / M4A1 / Toku Daihatsu 11th Regiment), and WG42 / Shipborne Model Type 4 20cm Anti-ground Rocket Launcher / Concentrated variant) to deal maximum damage to the boss) while the other ships can be equipped for taking out PT imps.
+|-|4 DD Comp=
+*Route: '''B-C-E-F-H'''
+* You will only face off against one enemy fleet consisting of 3-4 DDs prior to the boss.
+*This comp is perfectly viable for the Part 1 boss, although a CL should be added for the Part 2 boss.
+*This comp is ideal if you have at least 2 DD that can equip anti-installation one-shot builds (Type 2 Amphibious Tank, Marine (Type 89 Daihatsu / M4A1 / Toku Daihatsu 11th Regiment), and WG42 / Shipborne Model Type 4 20cm Anti-ground Rocket Launcher / Concentrated variant) to deal maximum damage to the boss) while the other ships can be equipped for taking out PT imps.
+|-|1-3CA, 3-5DD Comp=
+*Route: '''A-C-E-F-H''' (Easy or Less)
+*Route: '''A-C-D-F-H''' (Medium or Higher)
+*'''Not''' recommended on Medium difficulty or above. Shiplocking will be very tight for CAs, taking into account later maps.
+* This comp is recommended only to players who are relatively new and lack in anti-installation equipment for DDs/CLs, and have no means of gaining access to that equipment in the short run.
+* CAs should equip [[Type 3 Shell|Type 3 Shells]] for the bonus against the [[Supply Depot Princess]]. DDs should be equipped to combat PT Imps.
+* You will take the same route on Easy or lower, but on higher difficulties, you will face off against a sub fleet and a fleet consisting of heavy ships.
+|-|
+</tabber>
+
+Once the Part 1 HP bar has been fully depleted, the Part 2 boss will automatically be unlocked.
+
+'''Part 2: Defeat the [[Light Cruiser He-Class]] (HP Bar)'''
+
+*Route: '''A-C-E-F-I-J-K''' (Easy or Less) if using 1 DD/CL/CLT, 4 DD or 4 DD comp
+*Route: '''A-C-D-F-I-J-K''' (Normal or Higher) if using CA-based comp
+
+You can reuse your previous fleet for Part 1. All ships should now be equipped with double-attack set-ups (no anti-installation equipment is required for this part, and anti-PT Imp equipment is also not necessary). If using the 4DD fleet above, adding 1CL is helpful.
+
+There is one additional pre-boss node (J) that is not difficult to clear. If you are having difficulty passing, Vanguard formation may be useful. The boss node (K) is not particularly hard to clear either, particularly with historical bonus ships.
+*The new Kai variant of the He-Class CL has significantly higher HP and armour, but this should not pose a problem with enough historical bonuses.
+
+The event guides are to be constructed through the respective [[Sandbox/Fall 2019 E-1|Event map page guide]] and reviewed by editor staff / collaboration committee before being approved here. '''Do not under any circumstance update the guides through this page or attempt to fix them through this page.''' Please only update guides through their respective sandbox pages.
+{{clear}}
+
+|comps =
+
+{{Section|collapsed=true|left=true}}
+{{:{{BASEPAGENAME}}/E-1/Enemy comps}}
+{{SectionEnd}}
+
+|drops = {{:{{BASEPAGENAME}}/E-1/Ship drops}}
+
+}}
+<!-- 1 -->

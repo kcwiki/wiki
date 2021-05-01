@@ -1,0 +1,1591 @@
+==Composition Quests==
+*At this time, composition quests are all one-time quests.
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Composition
+| listnum = A1
+| namejp = はじめての「編成」！
+| nameen = Your First "Composition"!
+| req = ''Compose a "fleet" with 2 or more ships!''
+*Completion Condition: Have 2 or more ships in the same fleet.
+| fuel = 20
+| ammo = 20
+| steel = 0
+| bauxite = 0
+| other = {{Ship/Banner|Shirayuki}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A2
+| namejp = 「駆逐隊」を編成せよ！
+| nameen = Compose a "Destroyer Division"!
+| req = ''Compose a "Destroyer Division" made up of 4 or more destroyers!''
+*Completion Condition: Have 4 or more [[Ship Class#Destroyer .28DD.29|Destroyers]] in the same fleet.
+| fuel = 30
+| ammo = 30
+| steel = 30
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Construction Material}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A3
+| namejp = 「水雷戦隊」を編成せよ！
+| nameen = Compose a "Torpedo Squadron"!
+| req = Compose a "Torpedo Squadron" that consists of a light cruiser flagship and multiple destroyers!''
+*Completion Condition: Have a [[Ship Class#Light Cruiser .28CL.29|Light Cruiser]] as your flagship and complete the fleet with [[Ship Class#Destroyer .28DD.29|Destroyers]].
+| fuel = 40
+| ammo = 40
+| steel = 0
+| bauxite = 40
+| other = {{QuestRewardItem|Emergency Repair Personnel}}
+| notes = Required by [[#A4|A4]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A4
+| reqQuest = A3
+| namejp = 6隻編成の艦隊を編成せよ！
+| nameen = Compose a Fleet with 6 Ships!
+| req = ''Compose a main fleet formed by 6 ships!''
+*Completion Condition: Have 6 ships in your fleet.
+| fuel = 50
+| ammo = 0
+| steel = 50
+| bauxite = 0
+| other = '''Unlocks the second fleet as well as Expeditions'''
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A5
+| namejp = 軽巡2隻を擁する隊を編成せよ！
+| nameen = Compose a Fleet with 2 Light Cruisers!
+| req = ''Compose a high-speed fleet with 2 light cruisers!''
+*Completion Condition: Have 2 [[Ship_Class#Light_Cruiser_.28CL.29|Light Cruisers]] in the same fleet.
+| fuel = 60
+| ammo = 60
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material}}
+| notes = Required by [[#A7|A7]] and [[#A8|A8]] 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A6
+| namejp = 第2艦隊を編成せよ！
+| nameen = Compose the Second Fleet!
+| req = ''Assign the flagship for the second fleet and compose it!''
+*Completion Condition: Have a ship in your second fleet.
+| fuel = 50
+| ammo = 50
+| steel = 100
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material}}
+| notes =
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A7
+| reqQuest = A5
+| namejp = 「重巡戦隊」を編成せよ！
+| nameen = Compose a "Heavy Cruiser Squadron"!
+| req = ''Compose a heavy cruiser squadron with 2 heavy cruisers!''
+*Completion Condition: Have 2 [[Ship Class#Heavy Cruiser .28CA.29|Heavy Cruisers]] in the same fleet.
+:*[[Ship_Class#Aviation_Cruiser_.28CAV.29|Aviation Cruisers]] do not count.
+| fuel = 0
+| ammo = 70
+| steel = 0
+| bauxite = 30
+| other = {{QuestRewardItem|Instant Repair Material}}
+| notes = Required by [[#A14|A14]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A8
+| reqQuest = A5
+| namejp = 「天龍」型軽巡姉妹の全2艦を編成せよ！
+| nameen = Compose a Fleet with Both "Tenryuu"-class Light Cruiser Sisters!
+| req = ''Assign the [[Ship_Class#Tenryuu-class|"Tenryuu"-class]] light cruisers "Tenryuu" and "Tatsuta" to the same fleet!''
+*Completion Condition: Have [[Tenryuu]] ({{lang|ja|天龍}}) and [[Tatsuta]] ({{lang|ja|龍田}}) in the same fleet.
+| fuel = 100
+| ammo = 100
+| steel = 100
+| bauxite = 50
+| other = {{QuestRewardItem|Instant Construction Material|qty=2}}
+| notes = Required by [[#A17|A17]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A9
+| namejp = 「水上機母艦」を配備せよ！
+| nameen = Assign a "Seaplane Tender"!
+| req = ''Assign a "Seaplane Tender" capable of utilizing multiple reconnaissance seaplanes to the fleet!''
+*Completion Condition: Have a [[Ship_Class#Seaplane_Tender_.28AV.29|seaplane tender]] in your fleet.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 200
+| other = {{QuestRewardItem|Development Material}}
+| notes = Required by [[#A10|A10]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A10
+| reqQuest = A9
+| namejp = 「第六駆逐隊」を編成せよ！
+| nameen = Compose the "6th Destroyer Division"!
+| req = ''Compose the 6th Destroyer Division formed by "Akatsuki", "Hibiki", "Ikazuchi", and "Inazuma"!''
+*Completion Condition: Have '''only''' [[Akatsuki]] ({{lang|ja|暁}}), [[Hibiki]] ({{lang|ja|響}}) (Верный OK), [[Ikazuchi]] ({{lang|ja|雷}}), and [[Inazuma]] ({{lang|ja|電}}) in the same fleet.
+| fuel = 150
+| ammo = 150
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Emergency Repair Personnel}}
+| notes = Required by [[#A28|A28]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A11
+| reqQuest = B3
+| namejp = 第2艦隊で空母機動部隊を編成せよ！
+| nameen = Compose a Mobile Carrier Fleet as the Second Fleet!
+| req = ''Assign a carrier to the second fleet and compose a mobile carrier fleet!''
+*Completion Condition: Have either 1 [[Ship Class#Regular Aircraft Carrier .28CV.29|Aircraft Carrier]] or [[Ship Class#Light Aircraft Carrier .28CVL.29|Light Aircraft Carrier]] or [[Taihou]] ({{lang|ja|大鳳}}), plus 2 [[Ship Class#Destroyer .28DD.29|Destroyers]], in your '''second''' fleet.
+| fuel = 100
+| ammo = 0
+| steel = 0
+| bauxite = 100
+| other = {{QuestRewardItem|Instant Construction Material|qty=2}}
+| notes = Required by [[#A12|A12]] and [[#B10|B10]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A12
+| reqQuest = A11
+| namejp = 「空母機動部隊」を編成せよ！
+| nameen = Compose a "Mobile Carrier Fleet"!
+| req = ''With 1 or more carriers as flagship, compose a mobile carrier fleet along with some escorts!''
+*Completion Condition: 1 [[Ship Class#Regular Aircraft Carrier .28CV.29|Aircraft Carrier]] or [[Ship Class#Light Aircraft Carrier .28CVL.29|Light Aircraft Carrier]] or [[Taihou]] (as flagship), and 3 [[Ship Class#Destroyer .28DD.29|Destroyers]], in your main fleet.
+| fuel = 50
+| ammo = 0
+| steel = 0
+| bauxite = 100
+| other = {{QuestRewardItem|Development Material}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A13
+| reqQuest = A12
+| namejp = 戦艦と重巡による主力艦隊を編成せよ！
+| nameen = Compose a Main Force Fleet with Battleship and Heavy Cruisers!
+| req = ''Compose a surface strike fleet with 1 or more battleships and 2 or more heavy cruisers!''
+*Completion Condition: 1 or more [[Ship Class#Battleship .28BB.29|Battleship]] and 2 or more [[Ship_Class#Heavy_Cruiser_.28CA.29|Heavy Cruisers]] in the same fleet.
+:*[[Ship Class#Aviation Battleship .28BBV.29|Aviation Battleships]] and [[Ship Class#Aviation Cruiser .28CAV.29|Aviation Cruisers]] do not count!
+| fuel = 0
+| ammo = 150
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Construction Material|qty=2}}
+| notes = Required by [[#A19|A19]] and [[#A20|A20]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A14
+| reqQuest = A7
+| namejp = 「川内」型軽巡姉妹の全3艦を編成せよ！
+| nameen = Compose a Fleet with All Three "Sendai"-class Light Cruiser Sisters!
+| req = ''Assign the [[Ship_Class#Sendai-class|"Sendai"-class]] light cruisers "Sendai", "Jintsuu", and "Naka" to the same fleet!''
+*Completion Condition: Have [[Sendai]] ({{lang|ja|川内}}), [[Jintsu]] ({{lang|ja|神通}}), and [[Naka]] ({{lang|ja|那珂}}) in the same fleet.
+| fuel = 100
+| ammo = 0
+| steel = 100
+| bauxite = 0
+| other = '''Unlocks the third fleet'''
+| notes = Required by [[#A15|A15]] and [[#G4|G4]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A15
+| reqQuest = A14
+| namejp = 「妙高」型重巡姉妹の全4隻を編成せよ！
+| nameen = Compose a Fleet with All Four "Myoukou"-class Heavy Cruiser Sisters!
+| req = ''Assign the [[Ship_Class#Myoukou-class|"Myoukou"-class]] heavy cruisers "Myoukou", "Nachi", "Ashigara", and "Haguro" to the same fleet!''
+*Completion Condition: Have [[Myoukou]] ({{lang|ja|妙高}}), [[Nachi]] ({{lang|ja|那智}}), [[Ashigara]] ({{lang|ja|足柄}}), and [[Haguro]] ({{lang|ja|羽黒}}) in the same fleet.
+| fuel = 150
+| ammo = 100
+| steel = 150
+| bauxite = 100
+| other = {{QuestRewardItem|Instant Repair Material}}
+{{QuestRewardItem|Development Material}}
+| notes = Required by [[#A16|A16]] and [[#A28|A28]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A16
+| reqQuest = A15
+| namejp = 「金剛」型による高速戦艦部隊を編成せよ！
+| nameen = Compose a Fast Battleship Fleet with the "Kongou"-class!
+| req = ''Concentrate the assignment of all four [[Ship_Class#Kongou-class|"Kongou"-class]] Fast Battleship "Kongou", "Hiei", "Haruna", and "Kirishima"''
+*Completion Condition: Have [[Kongou]] ({{lang|ja|金剛}}), [[Hiei]] ({{lang|ja|比叡}}), [[Haruna]] ({{lang|ja|榛名}}), and [[Kirishima]] ({{lang|ja|霧島}}) in the same fleet.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = '''Unlocks the fourth fleet'''
+| notes = Required by [[#WF01|WF01]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A17
+| reqQuest = A8
+| namejp = 「扶桑」型戦艦姉妹の全2隻を編成せよ！
+| nameen = Compose a Fleet with Both "Fusou"-class Battleship Sisters!
+| req = ''Assign the [[Ship_Class#Fusou-class|Fusou-class]] battleships "Fusou" and "Yamashiro" to the same fleet!''
+*Completion Condition: Have [[Fusou]] ({{lang|ja|扶桑}}) and [[Yamashiro]] ({{lang|ja|山城}} in the same fleet.
+:*Can be completed even if either (or both) becomes a BBV.
+| fuel = 200
+| ammo = 200
+| steel = 200
+| bauxite = 200
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}
+{{QuestRewardItem|Development Material}}
+| notes = Required by [[#A18|A18]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A18
+| reqQuest = A17
+| namejp = 「伊勢」型戦艦姉妹の全2隻を編成せよ！
+| nameen = Compose a Fleet with Both "Ise"-class Battleship Sisters!
+| req = ''Assign the [[Ship Class#Ise-class|"Ise"-class]] battleships "Ise" and "Hyuuga" to the same fleet!''
+*Completion Condition: Have [[Ise]] ({{lang|ja|伊勢}}) and [[Hyuuga]] ({{lang|ja|日向}}) in the same fleet.
+:*Can be completed even if either (or both) becomes a BBV.
+| fuel = 300
+| ammo = 200
+| steel = 300
+| bauxite = 200
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}
+{{QuestRewardItem|Development Material|qty=2}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A19
+| reqQuest = A13
+| namejp = 「南雲機動部隊」を編成せよ！
+| nameen = Compose the "Nagumo Mobile Fleet"!
+| req = ''Compose the first mobile fleet consist of "Akagi" and "Kaga" from the 1st Carrier Division as well as "Hiryuu" and "Souryuu" from the 2nd Carrier Division!''
+*Completion Condition: Have '''only''' [[Akagi]] ({{lang|ja|赤城}}), [[Kaga]] ({{lang|ja|加賀}}), [[Hiryuu]] ({{lang|ja|飛龍}}), and [[Souryuu]] ({{lang|ja|蒼龍}}) in the same fleet.
+| fuel = 500
+| ammo = 500
+| steel = 500
+| bauxite = 500
+| other = {{QuestRewardItem|Instant Construction Material|qty=2}} {{QuestRewardItem|Development Material|qty=4}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A20
+| reqQuest = A13
+| namejp = 「三川艦隊」を編成せよ！
+| nameen = Compose the "Mikawa Fleet"!
+| req = ''Compose a fast speed fleet containing "Choukai", "Aoba", "Kako", "Furutaka", and "Tenryuu"!''
+*Completion Condition: Have [[Choukai]] ({{lang|ja|鳥海}}), [[Aoba]] ({{lang|ja|青葉}}), [[Kako]] ({{lang|ja|加古}}), [[Furutaka]] ({{lang|ja|古鷹}}), [[Tenryuu]] ({{lang|ja|天龍}}), and 1 additional [[Ship list|FAST]] ship in the same fleet.
+| fuel = 400
+| ammo = 0
+| steel = 200
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}}
+| notes = Required by [[#A21|A21]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A21
+| reqQuest = A20
+| namejp = 「第四戦隊」を編成せよ！
+| nameen = Compose the "4th Squadron"!
+| req = ''Compose the 4th Squadron using "Atago", "Takao", "Choukai", and "Maya" as basis!''
+*Completion Condition: Have [[Atago]] ({{lang|ja|愛宕}}), [[Takao]] ({{lang|ja|高雄}}), [[Choukai]] ({{lang|ja|鳥海}}), and [[Maya]] ({{lang|ja|摩耶}}) in the same fleet.
+| fuel = 300
+| ammo = 150
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}
+{{QuestRewardItem|Development Material}}
+| notes = Required by [[#A22|A22]], [[#A24|A24]] and [[#A27|A27]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A22
+| reqQuest = A21
+| namejp = 「西村艦隊」を編成せよ！
+| nameen = Compose the "Nishimura Fleet"!
+| req = ''Compose the Nishimura Fleet using "Fusou", "Yamashiro", "Mogami", and "Shigure" as basis!''
+*Completion Condition: Have [[Fusou]] (扶桑), [[Yamashiro]] ({{lang|ja|山城}}), [[Mogami]] ({{lang|ja|最上}}), and [[Shigure]] ({{lang|ja|時雨}}) in the same fleet.
+| fuel = 200
+| ammo = 200
+| steel = 200
+| bauxite = 0
+| other = {{QuestRewardItem|Food Supply Ship Mamiya}}
+| notes = Required by [[#A23|A23]] and [[#A26|A26]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A23
+| reqQuest = A22
+| namejp = 「第五航空戦隊」を編成せよ！
+| nameen = Compose the "5th Carrier Division"!
+| req = ''Compose the 5th Carrier Division using "Shoukaku" and "Zuikaku" as basis along with 2 destroyers!''
+*Completion Condition: Have [[Shoukaku]] ({{lang|ja|翔鶴}}), [[Zuikaku]] ({{lang|ja|瑞鶴}}), and 2 [[Ship Class#Destroyer .28DD.29|Destroyers]] in the same fleet.
+| fuel = 300
+| ammo = 0
+| steel = 0
+| bauxite = 300
+| other = {{QuestRewardItem|Emergency Repair Personnel}}
+| notes = Required by [[#A41|A41]], [[#A46|A46]], and [[#B15|B15]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A24
+| reqQuest = A21
+| namejp = 新「三川艦隊」を編成せよ！
+| nameen = Compose the New "Mikawa Fleet"!
+| req = ''Compose the Mikawa Fleet with "Choukai", "Aoba", "Kinugasa", "Kako", "Furutaka", and "Tenryuu"!''
+*Completion Condition: Have [[Choukai]] ({{lang|ja|鳥海}}), [[Aoba]] ({{lang|ja|青葉}}), [[Kinugasa]] ({{lang|ja|衣笠}}), [[Kako]] ({{lang|ja|加古}}), [[Furutaka]] ({{lang|ja|古鷹}}), and [[Tenryuu]] ({{lang|ja|天龍}}) in the same fleet.
+| fuel = 300
+| ammo = 0
+| steel = 300
+| bauxite = 0
+| other = {{QuestRewardItem|Food Supply Ship Mamiya}}
+| notes = Required by [[#B16|B16]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A25
+| reqQuest = A21
+| namejp = 潜水艦隊を編成せよ！
+| nameen = Compose a Submarine Fleet!
+| req = ''Compose a submarine fleet with 2 I-type submarines!''
+*Completion Condition: Have 2 [[Ship Class#Submarine .28SS.29|submarines]] in the same fleet. [[Ship_Class#Submarine_Aircraft_Carrier_.28SSV.29|SSV]] is fine, too.
+:*Despite the quest description, [[Maruyu]] and [[U-511|U-511/Ro-500]] can satisfy the quest requirement as well.
+| fuel = 150
+| ammo = 150
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Emergency Repair Personnel}}
+| notes = Required by [[#B17|B17]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A26
+| reqQuest = A22
+| namejp = 航空水上打撃艦隊を編成せよ！
+| nameen = Compose the Aviation Surface Strike Fleet!
+| req = ''Compose a fleet using 2 aviation battleships and 2 aviation cruisers as basis!''
+*Completion Condition: Have 2 [[Ship Class#Aviation Battleship .28BBV.29|Aviation Battleships]] and 2 [[Ship Class#Aviation Cruiser .28CAV.29|Aviation Cruisers]] in the same fleet.
+| fuel = 0
+| ammo = 0
+| steel = 200
+| bauxite = 200
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}
+| notes = Required by [[#B18|B18]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A27
+| reqQuest = A21
+| namejp = 中規模潜水艦隊を編成せよ！
+| nameen = Compose a Medium-Sized Submarine Fleet!
+| req = ''Compose a submarine fleet with 3 I-type submarines!''
+*Completion Condition: Have 3 [[Ship Class#Submarine .28SS.29|submarines]] in the same fleet. [[Ship_Class#Submarine_Aircraft_Carrier_.28SSV.29|SSV]] is fine, too.
+:*Despite the quest description, [[Maruyu]] and [[U-511|U-511/Ro-500]] can satisfy the quest requirement as well.
+| fuel = 150
+| ammo = 150
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Food Supply Ship Mamiya}}
+| notes = Required by [[#A37|A37]] and [[#D5|D5]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A28
+| reqQuest = A10
+| namejp = 「第六戦隊」を編成せよ！
+| nameen = Compose the "6th Squadron"!
+| req = ''Compose the 6th squadron using "Furutaka", "Kako", "Aoba", and "Kinugasa" as basis!''
+*Completion Condition: Have [[Furutaka]] ({{lang|ja|古鷹}}), [[Kako]] ({{lang|ja|加古}}), [[Kinugasa]] ({{lang|ja|衣笠}}) and [[Aoba]] ({{lang|ja|青葉}}) in the same fleet.
+| fuel = 250
+| ammo = 300
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Food Supply Ship Mamiya}}
+| notes = Exact requirements unknown.
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A29
+| reqQuest = A21
+| namejp = 「第五艦隊」を編成せよ！
+| nameen = Compose the "5th Fleet"!
+| req = ''Compose the 5th fleet centered around "Nachi", "Ashigara", "Tama", and "Kiso"!''
+*Completion Condition: Have [[Nachi]] ({{lang|ja|那智}}), [[Ashigara]] ({{lang|ja|足柄}}), [[Tama]] ({{lang|ja|多摩}}) and [[Kiso]] ({{lang|ja|木曾}}) in the same fleet.
+| fuel = 200
+| ammo = 0
+| steel = 300
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A30
+| reqQuest = A29
+| namejp = 「第一水雷戦隊」を編成せよ！
+| nameen = Compose the "1st Torpedo Squadron"!
+| req = ''Compose the 1st torpedo squadron centered around "Abukuma", "Akebono", "Ushio", "Kasumi", and "Shiranui"!''
+*Completion Condition: Have [[Abukuma]] ({{lang|ja|阿武隈}}), [[Akebono]] ({{lang|ja|曙}}), [[Ushio]] ({{lang|ja|潮}}), [[Kasumi]] ({{lang|ja|霞}}) and [[Shiranui]] ({{lang|ja|不知火}}) in the same fleet.
+| fuel = 200
+| ammo = 300
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Emergency Repair Personnel}}
+| notes = Required by [[#D9|D9]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A31
+| reqQuest = A25
+| namejp = 「第八駆逐隊」を編成せよ！
+| nameen = Compose the "8th Destroyer Division"!
+| req = ''Compose the 8th destroyer division consist of the four ships "Asashio", "Michishio", "Ooshio", and "Arashio"!''
+*Completion Condition: Have '''only''' [[Asashio]] ({{lang|ja|朝潮}}), [[Michishio]] ({{lang|ja|満潮}}), [[Ooshio]] ({{lang|ja|大潮}}), and [[Arashio]] ({{lang|ja|荒潮}}) in the same fleet.
+| fuel = 150
+| ammo = 150
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=3}}
+| notes = Required by [[#A33|A33]] and [[#B20|B20]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A32
+| reqQuest = B20
+| namejp = 「第十八駆逐隊」を編成せよ！
+| nameen = Compose the "18th Destroyer Division"!
+| req = ''Compose the 18th destroyer division consist of the four ships "Kasumi", "Arare", "Kagerou", and "Shiranui"!''
+*Completion Condition: Have '''only''' [[Kasumi]] ({{lang|ja|霞}}), [[Arare]] ({{lang|ja|霰}}), [[Kagerou]] ({{lang|ja|陽炎}}), and [[Shiranui]] ({{lang|ja|不知火}}) in the same fleet.
+| fuel = 180
+| ammo = 180
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material}} {{QuestRewardItem|Emergency Repair Personnel}}
+| notes = Required by [[#B21|B21]], [[#A42|A42]], and [[#A47|A47]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A33
+| reqQuest = A31
+| namejp = 「第三十駆逐隊（第一次）」を編成せよ！
+| nameen = Compose the "30th Destroyer Division (1st Gen.)"!
+| req = ''Compose the 30th destroyer division (1st Gen.) consist of the four ships "Mutsuki", "Kisaragi", "Yayoi", and "Mochizuki"!''
+*Completion Condition: Have '''only''' [[Mutsuki]] ({{lang|ja|睦月}}), [[Kisaragi]] ({{lang|ja|如月}}), [[Yayoi]] ({{lang|ja|弥生}}), and [[Mochizuki]] ({{lang|ja|望月}}) in the same fleet.
+| fuel = 200
+| ammo = 200
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardItem|Emergency Repair Personnel}}
+| notes = Required by [[#A34|A34]] and [[#B22|B22]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A34
+| reqQuest = A33
+| namejp = 「第三十駆逐隊（第二次）」を編成せよ！
+| nameen = Compose the "30th Destroyer Division (2nd Gen.)"!
+| req = ''Compose the 30th destroyer division (2nd Gen.) consist of the four ships "Mutsuki", "Uzuki", "Yayoi", and "Mochizuki"!''
+*Completion Condition: Have '''only''' [[Mutsuki]] ({{lang|ja|睦月}}), [[Uzuki]] ({{lang|ja|卯月}}), [[Yayoi]] ({{lang|ja|弥生}}), and [[Mochizuki]] ({{lang|ja|望月}}) in the same fleet.
+| fuel = 220
+| ammo = 220
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=3}}
+| notes = Required by [[#A50|A50]] and [[#B24|B24]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A35
+| reqQuest = B24
+| namejp = 「第五戦隊」を編成せよ！
+| nameen = Compose the "5th Squadron"!
+| req = ''Compose the 5th squadron using "Myoukou", "Nachi", and "Haguro" as basis!''
+*Completion Condition: Have [[Myoukou]] ({{lang|ja|妙高}}), [[Nachi]] ({{lang|ja|那智}}) and [[Haguro]] ({{lang|ja|羽黒}}) in the same fleet.
+| fuel = 0
+| ammo = 0
+| steel = 300
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=5}}
+| notes = Required by [[#A38|A38]], [[#A44|A44]], [[#D17|D17]], and [[#Bm1|Bm1]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A36
+| reqQuest = A28
+| namejp = 新編「第二航空戦隊」を編制せよ！
+| nameen = Compose the New "2nd Carrier Division"!
+| req = ''Compose the 2nd carrier division using "Hiryuu Kai Ni" (flagship) and "Souryuu" as basis! (Requires 2 destroyers)''
+*Completion Condition: Have [[Hiryuu#Second Upgrade|Hiryuu Kai Ni]] ({{lang|ja|飛龍改二}}, flagship), [[Souryuu]] ({{lang|ja|蒼龍}}), and 2 [[Ship Class#Destroyer .28DD.29|Destroyers]] in the same fleet.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 400
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardItem|Development Material|qty=2}}
+| notes = Required by [[#B25|B25]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A37
+| reqQuest = A27
+| namejp = 潜水艦隊「第六艦隊」を編制せよ！
+| nameen = Compose the Submarine Fleet "6th Fleet"!
+| req = ''Compose the submarine fleet "6th Fleet" made up of a "Submarine Tender" (flagship) and multiple submarines (at least 4)!''
+*Completion Condition: Have a [[Ship Class#Submarine Tender .28AS.29|Submarine Tender]] (as flagship) and 4 [[Ship Class#Submarine .28SS.29|Submarines]]/[[Ship_Class#Submarine_Aircraft_Carrier_.28SSV.29|SSV]] in the same fleet.
+:*[[Taigei]] is the only submarine tender in-game as of May 29, 2015. She also changes ship classification when remodeled, thus currently this quest can only be completed by having an unremodeled Taigei.
+| fuel = 250
+| ammo = 250
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=3}}
+| notes = Required by [[#D13|D13]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A38
+| reqQuest = A35
+| namejp = 新型電探を配備せよ！
+| nameen = Equip the New Radar!
+| req = ''In order to test the new radar, assign "Myoukou Kai Ni" as the flagship of the first fleet!''
+*Completion Condition: Have [[Myoukou#Second Upgrade|Myoukou Kai Ni]] ({{lang|ja|妙高改二}}) as the Secretary Ship.
+| fuel = 300
+| ammo = 0
+| steel = 0
+| bauxite = 300
+| other = {{QuestRewardEquip|Type 22 Surface Radar Kai 4}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A39
+| reqQuest = B25
+| namejp = 再編成「第二航空戦隊」を強化せよ！
+| nameen = Strengthen the Re-Composed "2nd Carrier Division"!
+| req = ''Compose the 2nd carrier division using "Souryuu Kai Ni" (flagship) and "Hiryuu Kai Ni" as basis! (Requires 2 destroyers)''
+*Completion Condition: Have [[Souryuu#Second Remodel|Souryuu Kai Ni]] ({{lang|ja|蒼龍改二}}, flagship), [[Hiryuu#Second Upgrade|Hiryuu Kai Ni]] ({{lang|ja|飛龍改二}}), and 2 [[Ship Class#Destroyer .28DD.29|Destroyers]] in the same fleet.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 450
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardItem|Instant Construction Material|qty=2}}
+| notes = Required by [[#B26|B26]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A40
+| reqQuest = WB02
+| namejp = 精鋭「第三戦隊」全艦集結せよ！
+| nameen = Gather the Elite "3rd Squadron"!
+| req = ''Gather all four twice-remodeled Kongou-class fast battleships!''
+*Completion Condition: Have [[Kongou#Second Upgrade|Kongou Kai Ni]] ({{lang|ja|金剛改二}}), [[Hiei#Second Upgrade|Hiei Kai Ni]] ({{lang|ja|比叡改二}}), [[Haruna#Second Upgrade|Haruna Kai Ni]] ({{lang|ja|榛名改二}}), and [[Kirishima#Second Upgrade|Kirishima Kai Ni]] ({{lang|ja|霧島改ニ}}) in the same fleet.
+| fuel = 0
+| ammo = 100
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardEquip|Prototype 35.6cm Triple Gun Mount}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A41
+| reqQuest = A23
+| namejp = 「新型正規空母」を配備せよ！
+| nameen = Assign the "New-Class Standard Carrier"!
+| req = ''Assign the 1st Unryuu-class aircraft carrier "Unryuu" as the flagship of the first fleet!''
+*Completion Condition: Have [[Unryuu]] ({{lang|ja|雲龍}}) as the Secretary Ship.
+| fuel = 100
+| ammo = 100
+| steel = 100
+| bauxite = 300
+| other = {{QuestRewardItem|Development Material|qty=2}}
+| notes = Required by [[#B28|B28]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A42
+| reqQuest = A32
+| namejp = 主力戦艦部隊「第二戦隊」を編成せよ！
+| nameen = Compose the Main Battleship Fleet "2nd Squadron"!
+| req = ''Compose the 2nd squadron consisting of the two [[Ship Class#Nagato-class|Nagato-class]] and the two [[Ship Class#Fusou-class|Fusou-class]] battleships!''
+*Completion Condition: Have [[Nagato]] ({{lang|ja|長門}}), [[Mutsu]] ({{lang|ja|陸奥}}), [[Fusou]] ({{lang|ja|扶桑}}), and [[Yamashiro]] ({{lang|ja|山城}}) in the same fleet.
+| fuel = 0
+| ammo = 250
+| steel = 250
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}
+| notes = Required by [[#B31|B31]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A43
+| reqQuest = B31
+| namejp = 戦艦を主力とした水上打撃部隊を編成せよ！
+| nameen = Compose the Surface Strike Fleet with Battleships as Main Force!
+| req = ''Assign 3 ships from either [[Ship Class#Yamato-class|Yamato-class]], [[Ship Class#Nagato-class|Nagato-class]], [[Ship Class#Ise-class|Ise-class]], or [[Ship Class#Fusou-class|Fusou-class]] plus a light cruiser and other ships to a surface strike fleet!''
+*Completion Condition: Have exactly 3 ships from the four named classes ([[Yamato]], [[Musashi]], [[Nagato]], [[Mutsu]], [[Ise]], [[Hyuuga]], [[Fusou]], and [[Yamashiro]]) plus 1 [[Ship Class#Light Cruiser .28CL.29|Light Cruiser]] in the same fleet.
+| fuel = 300
+| ammo = 300
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=3}}
+| notes = Required by [[#Bm4|Bm4]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A44
+| reqQuest = A35
+| reqQuest2 = B14
+| namejp = 「西村艦隊」を再編成せよ！
+| nameen = Re-Compose the "Nishimura Fleet"!
+| req = ''Compose the Nishimura Fleet using "Fusou", "Yamashiro", "Mogami", "Shigure", and "Michishio" as basis!''
+*Completion Condition: Have [[Fusou]] ({{lang|ja|扶桑}}), [[Yamashiro]] ({{lang|ja|山城}}), [[Mogami]] ({{lang|ja|最上}}), [[Shigure]] ({{lang|ja|時雨}}), and [[Michishio]] ({{lang|ja|満潮}}) in the same fleet.
+| fuel = 300
+| ammo = 300
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=3}} {{QuestRewardItem|Improvement Material|qty=3}}
+| notes = Required by [[#B33|B33]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A45
+| reqQuest = A9
+| namejp = 改修工廠を準備せよ！
+| nameen = Prepare the Improvement Arsenal!
+| req = ''Assign the Repair Ship "Akashi" as the flagship of the first fleet and prepare the improvement arsenal!''
+*Completion Condition: Have [[Akashi]] ({{lang|ja|明石}}) as the Secretary Ship.
+| fuel = 100
+| ammo = 0
+| steel = 100
+| bauxite = 0
+| other = {{QuestRewardItem|Improvement Material|qty=5}}
+| notes = Required by [[#F17|F17]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A46
+| reqQuest = A23
+| reqQuest2 =
+| namejp = 軽快な「水上反撃部隊」を編成せよ！
+| nameen = Compose a Light and Speedy "Surface Counterattack Fleet"!
+| req = ''With destroyer "Kasumi" as flagship, compose a surface raid fleet with heavy cruiser "Ashigara", a light cruiser, and 4 destroyers!''
+*Completion Condition: [[Kasumi]] ({{lang|ja|霞}}, as flagship), [[Ashigara]] ({{lang|ja|足柄}}), 1 [[Ship Class#Light Cruiser .28CL.29|light cruiser]], and 3 more [[Ship Class#Destroyer .28DD.29|destroyers]] in the same fleet.
+| fuel = 250
+| ammo = 250
+| steel = 0
+| bauxite = 50
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardItem|Development Material|qty=2}}
+| notes = Required by [[#Bm7|Bm7]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A47
+| reqQuest = A32
+| namejp = 「第十一駆逐隊」を編制せよ！
+| nameen = Compose the "11th Destroyer Division"!
+| req = ''Compose the 11th destroyer division consist of the four Special I Type destroyers "Fubuki", "Shirayuki", "Hatsuyuki", and "Murakumo"!''
+*Completion Condition: Have '''only''' [[Fubuki]] ({{lang|ja|吹雪}}), [[Shirayuki]] ({{lang|ja|白雪}}), [[Hatsuyuki]] ({{lang|ja|初雪}}), and [[Murakumo]] ({{lang|ja|叢雲}}) in the same fleet.
+| fuel = 110
+| ammo = 110
+| steel = 110
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=3}}
+| notes = Required by [[#B35|B35]] and [[#B36|B36]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A48
+| reqQuest = B35
+| namejp = 「第二一駆逐隊」を編成せよ！
+| nameen = Compose the "21st Destroyer Division"!
+| req = ''Compose the "21st Destroyer Division" consist of "Hatsuharu", "Nenohi", "Wakaba", and "Hatsushimo"!''
+*Completion Condition: Have '''only''' [[Hatsuharu]] ({{lang|ja|初春}}), [[Nenohi]] ({{lang|ja|子日}}), [[Wakaba]] ({{lang|ja|若葉}}), and [[Hatsushimo]] ({{lang|ja|初霜}}) in the same fleet.
+| fuel = 210
+| ammo = 210
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}}
+| notes = Required by [[#B37|B37]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A49
+| reqQuest = B38
+| namejp = 「第二二駆逐隊」を編成せよ！
+| nameen = Compose the "22nd Destroyer Division"!
+| req = ''Compose the 22nd destroyer division consist of four destroyers: "Satsuki", "Fumizuki", "Nagatsuki", and 1 other!''
+*Completion Condition: Have '''only''' [[Satsuki]] ({{lang|ja|皐月}}), [[Fumizuki]] ({{lang|ja|文月}}), [[Nagatsuki]] ({{lang|ja|長月}}) and 1 more [[Ship Class#Destroyer .28DD.29|destroyer]] in the same fleet.
+| fuel = 220
+| ammo = 220
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}
+{{QuestRewardItem|Development Material|qty=2}}
+| notes = Required by [[#B39|B39]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A50
+| reqQuest = B16
+| reqQuest2 = A34
+| namejp = 「三川艦隊」を新編、突入準備せよ！
+| nameen = Newly Compose the "Mikawa Fleet" and Prepare for Assault!
+| req = ''In the first fleet, form the Mikawa Fleet with "Choukai Kai Ni" as flagship!''
+*Completion Condition: [[Choukai#Second Upgrade|Choukai Kai Ni]] ({{lang|ja|鳥海改二}}, flagship) plus 5 ships from the following in the same fleet: [[Furutaka]] ({{lang|ja|古鷹}}), [[Kako]] ({{lang|ja|加古}}), [[Aoba]] ({{lang|ja|青葉}}), [[Kinugasa]] ({{lang|ja|衣笠}}, [[Yuubari]] ({{lang|ja|夕張}}), and [[Tenryuu]] ({{lang|ja|天龍}}).
+| fuel = 300
+| ammo = 300
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}
+| notes = Required by [[#C5|C5]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A51
+| reqQuest = B42
+| namejp = 「第十八戦隊」を新編成せよ！
+| nameen = Re-Compose the "18th Squadron"!
+| req = ''Re-compose the "18th Squadron" with at least 4 ships using light cruisers "Tenryuu" and "Tatsuta" as basis!''
+*Completion Condition: Have [[Tenryuu]] ({{lang|ja|天龍}}), [[Tatsuta]] ({{lang|ja|龍田}}), and at least two other ships in the same fleet.
+| fuel = 180
+| ammo = 180
+| steel = 0
+| bauxite = 180
+| other = {{QuestRewardItem|Development Material|qty=2}}
+| notes = Required by [[#B43|B43]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A52
+| namejp = 「海上突入部隊」を編成せよ！
+| nameen = Form the Maritime Assault Fleet!
+| req = ''Form the maritime assault fleet composed of battleships "Hiei" and "Kirishima", light cruiser "Nagara", and destroyers "Akatsuki", "Ikazuchi", and "Inazuma"!''
+*Completion Condition: [[Hiei]] ({{lang|ja|比叡}}), [[Kirishima]] ({{lang|ja|霧島}}), [[Nagara]] ({{lang|ja|長良}}), [[Akatsuki]] ({{lang|ja|暁}}), [[Ikazuchi]] ({{lang|ja|雷}}), and [[Inazuma]] ({{lang|ja|電}}).
+| fuel = 0
+| ammo = 300
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=2}}
+{{QuestRewardItem|Instant Construction Material|qty=2}}
+| notes = Required by [[#B44|B44]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A53
+| reqQuest = B14
+| namejp = 新編「第六駆逐隊」を編成せよ！
+| nameen = Re-Compose the "6th Destroyer Division"!
+| req = ''Re-compose the "6th Destroyer Division" led by "Akatsuki Kai Ni" along with "Hibiki", "Ikazuchi", and "Inazuma"!''
+*Completion Condition: Have '''only''' [[Akatsuki|Akatsuki Kai Ni]] (({{lang|ja|暁改二}}, flagship), [[Hibiki]] (({{lang|ja|響}}, Верный OK), [[Ikazuchi]] ({{lang|ja|雷}}), and [[Inazuma]] ({{lang|ja|電}}) in the same fleet.
+| fuel = 150
+| ammo = 150
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardEquip|Searchlight}}
+| notes = Required by [[#B45|B45]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A54
+| reqQuest = B21
+| reqQuest2 = Bd1
+| namejp = 「第一水雷戦隊」北方突入準備！
+| nameen = Prepare "1st Torpedo Squadron" for deployment to the Northern Sea!
+| req = ''Compose the 1st Torpedo Squadron led by "Abukuma", along with "Hibiki", "Hatsushimo", "Wakaba", "Samidare", and "Shimakaze".''
+*Completion Condintion: Have [[Abukuma]] ({{lang|ja|阿武隈}}, flagship), along with [[Hibiki]] ({{lang|ja|響}}), [[Hatsushimo]] ({{lang|ja|初霜}}), [[Wakaba]] ({{lang|ja|若葉}}), [[Samidare]] ({{lang|ja|五月雨}}), and [[Shimakaze]] ({{lang|ja|島風}}) in the same fleet.
+| fuel = 150
+| ammo = 150
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}
+{{QuestRewardItem|Furniture Box (Medium)}}
+| notes = Required by [[#B46|B46]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A55
+| reqQuest = C7
+| namejp = 「第一水雷戦隊」北方再突入準備！
+| nameen = Re-deploy the "1st Torpedo Squadron" for the Northern Sea!
+| req = ''Re-Compose the 1st Torpedo Squadron led by "Abukuma", along with "Hibiki", "Yuugumo", "Naganami", "Akigumo", and "Shimakaze."''
+*Completion Condition: Have [[Abukuma|Abukuma Kai Ni]] ({{lang|ja|阿武隈改二}}, flagship), along with [[Hibiki]] ({{lang|ja|響}}), [[Yuugumo]] ({{lang|ja|夕雲}}), [[Naganami]] ({{lang|ja|長波}}), [[Akigumo]] ({{lang|ja|秋雲}}), and [[Shimakaze]] ({{lang|ja|島風}}) in the same fleet.
+| fuel = 200
+| ammo = 200
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}}
+{{QuestRewardItem|Furniture Box (Large)}}
+| notes = Required by [[#B47|B47]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A56
+| reqQuest = A23
+| reqQuest2 = Bm6
+| namejp = 「第五航空戦隊」を再編成せよ！
+| nameen = Re-Compose the "5th Carrier Division"!
+| req = ''Re-compose the 5th Carrier Division composed of "Shoukaku", "Zuikaku" and their escorts "Oboro" and "Akigumo"!''
+*Completion Condition: Have [[Shoukaku]] ({{lang|ja|翔鶴}}), [[Zuikaku]] ({{lang|ja|瑞鶴}}), [[Oboro]] ({{lang|ja|朧}}) and [[Akigumo]] ({{lang|ja|秋雲}}) in your main fleet.
+| fuel = 300
+| ammo = 0
+| steel = 0
+| bauxite = 300 
+| other = {{QuestRewardItem|Development Material|qty=3}}
+| notes = Required by [[#B50|B50]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A57
+| reqQuest = A50
+| namejp = 新編「第二一戦隊」出撃準備！
+| nameen = Prepare the New "21st Squadron" for Sortie!
+| req = ''Organize the 21th Squadron consisting of "Nachi Kai Ni", "Ashigara Kai Ni", "Tama", and "Kiso"!''
+*Completion Condition: Have [[Nachi|Nachi Kai Ni]] ({{lang|ja|那智改二}}), [[Ashigara|Ashigara Kai Ni]] ({{lang|ja|足柄改二}}), [[Tama]] ({{lang|ja|多摩}}) and [[Kiso]] ({{lang|ja|木曾}}) in your main fleet.
+| fuel = 150
+| ammo = 150
+| steel = 150
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardItem|Improvement Material|qty=2}}
+| notes = Required by [[#B51|B51]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A58
+| namejp = 「第十六戦隊(第一次)」を編成せよ！
+| nameen = Compose the "16th Squadron (1st gen.)"!
+| req = ''Compose the 16th Squadron (1st gen.) consisting of "Ashigara" as flagship alongside "Kuma" and "Nagara"!''
+*Completion Condition: Have [[Ashigara]] ({{lang|ja|足柄}}, flagship), [[Kuma]] ({{lang|ja|球磨}}), and [[Nagara]] ({{lang|ja|長良}}) in your main fleet.
+| fuel = 150
+| ammo = 150
+| steel = 150
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardItem|Instant Repair Material|qty=2}}
+| notes = Required by [[#B52|B52]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A59
+| reqQuest = Bm6
+| reqQuest2 = F21
+| namejp = 「第三航空戦隊」を編成せよ！
+| nameen = Organise the 3rd Carrier Division!
+| req = ''Compose an carrier division with "Zuikaku Kai" as flagship alongside "Zuihou", "Chitose", and "Chiyoda"!''
+*Completion Condition: Have [[Zuikaku#Upgrade|Zuikaku Kai]] ({{lang|ja|瑞鶴改}}, flagship), [[Zuihou]] ({{lang|ja|瑞鳳}}), [[Chitose#Chitose Carrier|Chitose Carrier]] ({{lang|ja|千歳航}}), and [[Chiyoda#Chiyoda Carrier|Chiyoda Carrier]] ({{lang|ja|千代田航}}) in the same fleet.
+:*Note: Quest can be completed with [[Zuikaku#Second Upgrade|Zuikaku Kai Ni]] or Kai Ni A; Chitose and Chiyoda must both be CVL (Carrier / Carrier Kai / Carrier Kai Ni).
+| fuel = 200
+| ammo = 200
+| steel = 0
+| bauxite =  200
+| other = {{QuestRewardItem|Development Material|qty=2}}
+{{QuestRewardItem|Skilled Crew Member}}
+| notes = Required by [[#B53|B53]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A60
+| reqQuest = B53
+| namejp = 「第四航空戦隊」を編成せよ！
+| nameen = Organise the 4th Carrier Division!
+| req = ''With "Ise Kai" and "Hyuuga Kai" as the main force, organise the 4th Carrier Division!''
+*Completion Condition: Have [[Ise#Upgrade|Ise Kai]] ({{lang|ja|伊勢改}}) and [[Hyuuga#Upgrade|Hyuuga Kai]] ({{lang|ja|日向改}}) in your main fleet.
+| fuel = 0
+| ammo = 200
+| steel = 0
+| bauxite =  200
+| other = {{QuestRewardItem|Improvement Material|qty=2}} {{QuestRewardEquip|Zuiun (634 Air Group)}}
+| notes = Required by [[#A61|A61]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A61
+| reqQuest = A60
+| reqQuest2 = Bm7
+| namejp = 「小沢艦隊」を編成せよ！
+| nameen = Organise the 'Ozawa Fleet'!
+| req = ''Compose the fleet consisting of the following: "Zuikaku Kai" as flagship, "Zuihou", "Chitose", "Chiyoda", "Ise Kai", and "Hyuuga Kai"!''
+*Completion Condition: Have [[Zuikaku#Upgrade|Zuikaku Kai]] ({{lang|ja|瑞鶴改}}, flagship), [[Zuihou#Upgrade|Zuihou Kai]] ({{lang|ja|瑞鳳改}}), [[Chitose#Chitose Carrier|Chitose Carrier]] ({{lang|ja|千歳航}}), [[Chiyoda#Chiyoda Carrier|Chiyoda Carrier]] ({{lang|ja|千代田航}}), [[Ise#Upgrade|Ise Kai]] ({{lang|ja|伊勢改}}) and [[Hyuuga#Upgrade|Hyuuga Kai]] ({{lang|ja|日向改}}) in your main fleet.
+:*Note: Quest can be completed with [[Zuikaku#Second Upgrade|Zuikaku Kai Ni]] or Kai Ni A; Chitose and Chiyoda must both be CVL (Carrier / Carrier Kai / Carrier Kai Ni).
+| fuel = 300
+| ammo = 0
+| steel = 0
+| bauxite = 300
+| other = {{QuestRewardItem|Development Material|qty=2}}
+{{QuestRewardEquip|Emergency Repair Goddess}}
+| notes = Required by [[#B54|B54]] and [[#F28|F28]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A62
+| reqQuest = F29
+| namejp = 新航空戦隊を編成せよ！
+| nameen = Organise the New Carrier Division!
+| req = 改二改装を終えた翔鶴型航空母艦2隻と同護衛艦による新航空戦隊を新編成せよ！''Form a new carrier division with two Shoukaku-class carriers that have finished their second remodels and some escorts!''
+*Completion Condition: Have [[Shoukaku#Second Upgrade|Shoukaku Kai Ni]] ({{lang|ja|翔鶴改二}}), [[Zuikaku#Second Upgrade|Zuikaku Kai Ni]] ({{lang|ja|瑞鶴改二}}), and 2 [[Destroyer]]s in your main fleet.
+** [[Zuikaku#Second Upgrade|Zuikaku Kai Ni]] is required to be Flagship.
+| fuel = 0
+| ammo = 300
+| steel = 300
+| bauxite = 300
+| other = {{QuestRewardItem|Food Supply Ship Irako}} {{QuestRewardItem|Skilled Crew Member}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A63
+| reqQuest = B52
+| namejp = 「第十六戦隊(第二次)」を編成せよ！
+| nameen = Organize the "16th Squadron (2nd Gen.)"!
+| req = ''Have Natori as your flagship along with Isuzu and Kinu to form the 16th Squadron (2nd Gen.)!''
+*Completion Condition: Have [[Natori]] ({{lang|ja|名取}}, flagship), [[Isuzu]] ({{lang|ja|五十鈴}}), and [[Kinu]] ({{lang|ja|鬼怒}}) in the fleet.
+| fuel = 160
+| ammo = 160
+| steel = 160
+| bauxite =  0
+| other = {{QuestRewardItem|Development Material|qty=2}}
+{{QuestRewardItem|Instant Repair Material|qty=2}}
+| notes = Required by [[#B55|B55]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A64
+| reqQuest = B55
+| namejp = 「新編成航空戦隊」を編成せよ！
+| nameen = Organize a "New Carrier Division"!
+| req = ''Form a new carrier division consisting of 2 carriers + 2 (aviation battleships or aviation cruisers) + 2 destroyers!
+*Completion Condition: Have 2 [[Standard Carrier|Aircraft Carrier]]s or [[Light Aircraft Carrier]]s, 2 [[Aviation Battleship]]s or [[Aviation Cruiser]]s, and 2 [[Destroyer]]s in your fleet.
+| fuel = 0
+| ammo = 200
+| steel = 0
+| bauxite = 200  
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardItem|Improvement Material|qty=2}}
+| notes = Required by [[#B56|B56]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A65
+| reqQuest = B56
+| namejp = 精強な「水上反撃部隊」を再編成せよ！
+| nameen = Reorganize the powerful "Surface Counterattack Fleet"!
+| req = ''Reorganize the surface counterattack fleet led by "Kasumi" along with "Ashigara", "Ooyodo", "Asashimo", "Kiyoshimo" and others!''
+*Completion Condition: Have [[Kasumi]] ({{lang|ja|霞}}, flagship), [[Ashigara]] ({{lang|ja|足柄}}), [[Asashimo]] ({{lang|ja|朝霜}}), [[Ooyodo]] ({{lang|ja|大淀}}), and [[Kiyoshimo]] ({{lang|ja|清霜}}) in your fleet.
+| fuel = 300
+| ammo = 300
+| steel = 0
+| bauxite =  0
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}}
+| notes = Required by [[#B57|B57]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A66
+| reqQuest = B55
+| reqQuest2 = Bd2
+| namejp = 「第三十一戦隊(第一次)」を編成せよ！
+| nameen =  Organize the "31st Squadron (1st gen.)"!
+| req = ''Organize an anti-submarine patrol using "Isuzu Kai Ni", "Satsuki Kai Ni" and "Uzuki Kai."''
+*Completion Condition: Have [[Isuzu#Second Upgrade|Isuzu Kai Ni]] ({{lang|ja|五十鈴改二}}) (flagship), [[Satsuki#Second Upgrade|Satsuki Kai Ni]] ({{lang|ja|皐月改二}}), and [[Uzuki#Upgrade|Uzuki Kai]] ({{lang|ja|卯月改}}) in your fleet
+| fuel = 310
+| ammo = 310
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardItem|Food Supply Ship Irako}}
+| notes = Required by [[#B60|B60]]
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A67
+| reqQuest = B12
+| reqQuest2 = Bd2
+| namejp = 「第二七駆逐隊」を編成せよ！
+| nameen =  Organize the "27st Destroyer Division"!
+| req = ''Organize a fleet consisting of "Shiratsuyu Kai" along with "Shigure", "Harusame", and "Samidare" to form the 27st Destroyer Division!''
+*Completion Condition: Have [[Shiratsuyu#Upgrade|Shiratsuyu Kai]] ({{lang|ja|白露}}, flagship), [[Shigure]] ({{lang|ja|時雨}}), [[Harusame]] ({{lang|ja|春雨}}), and [[Samidare]] ({{lang|ja|五月雨}}) in your fleet
+| fuel = 0
+| ammo = 270
+| steel = 270
+| bauxite = 0
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardItem|Instant Repair Material|qty=2}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A68
+| reqQuest = A60
+| namejp = 強行高速輸送部隊を編成せよ！
+| nameen = Organize the high speed transport fleet.
+| req = ''Organize a torpedo squadron fleet consiting of Sendai Kai Ni, Shigure Kai Ni, and Kawakaze Kai Ni, along with two other destroyers in the fleet.''
+*Make a fleet composition which has [[Sendai#Second Upgrade|Sendai Kai Ni]], [[Shigure#Second Upgrade|Shigure Kai Ni]], and [[Kawakaze#Second Upgrade|Kawakaze Kai Ni]], and other two DD in the same fleet.
+| fuel = 100
+| ammo = 100
+| steel = 100
+| bauxite = 0
+| other = 
+| notes = Required by [[#B68|B68]]
+| once  = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A69
+| reqQuest = 
+| namejp = 編「水雷戦隊」を含む艦隊を再編成せよ！
+| nameen = Organize the new reformed Torpedo Squadron Fleet!
+| req = ''Organize a torpedo squadron fleet consisting of 4 Destroyers and a Light Cruiser as the flagship!''
+*Make a fleet composition which has a Light Cruiser Flagship and 4 Destroyers in your fleet.
+| fuel = 200
+| ammo = 200
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}
+| notes = 
+| once  = 
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A70
+| reqQuest = 
+| namejp = 新編「第八駆逐隊」を再編成せよ！
+| nameen = Organize the new reformed 8th Destroyer Division!
+| req = ''Organize the Destroyer Division consisting of [[Asashio|Asashio Kai Ni]] flagship, along with [[Ooshio]], [[Arashio]], and [[Michishio]]!''
+*Make a fleet composition which has [[Asashio|Asashio Kai Ni]] flagship, along with [[Ooshio]], [[Arashio]], and [[Michishio]] in your fleet.
+| fuel = 200
+| ammo = 200
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}}
+| notes = Required for [[#B73|B73]]
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A71
+| reqQuest = B72
+| namejp = 精鋭！八駆第一小隊！
+| nameen = Elite Force! 8th Destroyer Division First Platoon!
+| req = ''Form the Elite 8th Destroyer Division consisting of [[Asashio|Asashio Kai Ni D]] as the flagship and [[Ooshio|Ooshio Kai Ni]] along with two other ships.''
+*Form a fleet consisting of [[Asashio|Asashio Kai Ni D]] as the flagship and [[Ooshio|Ooshio Kai Ni]] along with two other ships of choice.
+| fuel = 250
+| ammo = 250
+| steel = 0
+| bauxite = 0
+| other = 
+| notes = Required for [[#B74|B74]]
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A72
+| reqQuest = Bd1
+| reqQuest2 =
+| namejp = 「第十九駆逐隊」を編成せよ！
+| nameen = Organize the 19th Destroyer Division!
+| req = ''Organize the 19th Destroyer Division consisting of the 4 ships [[Ayanami]], [[Shikinami]], [[Uranami]], and [[Isonami]]!''
+* Have [[Ayanami]], [[Shikinami]], [[Uranami]], and [[Isonami]] in your fleet composition.
+| fuel = 190
+| ammo = 190
+| steel = 190
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardEquip|Combat Ration}}
+| notes = 
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A73
+| reqQuest = B55
+| reqQuest2 =
+| namejp = 「第十六戦隊(第三次)」を編成せよ！
+| nameen = Organize the 16th Sqaudron (3rd Gen.) 
+| req = Organize the 16th Sqaudron (3rd Gen.) consisting of [[Kinu]], [[Aoba]], [[Kitakami]], and [[Ooi]]
+*Organize a fleet consisting of [[Kinu]], [[Aoba]], [[Kitakami]], and [[Ooi]].
+| fuel = 200
+| ammo = 200
+| steel = 200
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}}  {{QuestRewardItem|Development Material|qty=2}}
+| notes =
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A74
+| reqQuest = B83 
+| reqQuest2 = 
+| namejp = 精鋭「第十六戦隊」を再編成せよ！
+| nameen = Organize the "Elite 16th Squadron"!
+| req = Organize a fleet consisting of [[Kinu|Kinu Kai Ni]] (as flagship), along include 5 of the 6 following members in your fleet, [[Kitakami|Kitakami Kai Ni]], [[Ooi|Ooi Kai Ni]], [[Aoba|Aoba Kai]], [[Kuma|Kuma Kai]], [[Shikinami|Shikinami Kai]] and/or [[Uranami|Uranami Kai]] to organized the reformed "Elite 16th Squadron"!
+*Organize a fleet consisting of [[Kinu|Kinu Kai Ni]] (as flagship), along include 5 of the 6 following members in your fleet, [[Kitakami|Kitakami Kai Ni]], [[Ooi|Ooi Kai Ni]], [[Aoba|Aoba Kai]], [[Kuma|Kuma Kai]], [[Shikinami|Shikinami Kai]] and/or [[Uranami|Uranami Kai]]
+| fuel = 300
+| ammo = 300
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}} {{QuestRewardItem|Emergency Repair Personnel}}
+| notes = 
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A75
+| reqQuest = 
+| reqQuest2 = 
+| namejp = 新編「第一戦隊」を編成せよ！
+| nameen = Organise the new "First Squadron"!
+| req = Deploy the new "First Squadron" to the first fleet with Nagato Kai Ni as the flagship and Mutsu Kai as the second ship!
+* Form a fleet with [[Nagato|Nagato Kai Ni]] as the flagship along with [[Mutsu|Mutsu Kai]]
+| fuel = 0
+| ammo = 880
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardItem|Food Supply Ship Irako}}
+| notes = 
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A76
+| reqQuest = B95
+| reqQuest2 = C2
+| namejp = 新編「第七戦隊」を編成せよ！
+| nameen = Organize the new "Seventh Squadron"!
+| req = Organization Mission: Deploy the new "Seventh Squadron" to the first fleet with Kumano Kai Ni as the flagship and Suzuya Kai Ni as the second ship, along with Mogami Kai and Mikuma Kai.
+* Form a fleet with [[Kumano|Kumano Kai Ni]] as the flagship along with [[Suzuya|Suzuya Kai Ni]] as the second ship, [[Mogami|Mogami Kai]] and [[Mikuma|Mikuma Kai]] in the first fleet.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 700
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardItem|Food Supply Ship Irako}}
+| notes = 
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A77
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 精鋭「第四航空戦隊」を再編成せよ！
+| nameen = Reorganize the Elite "Fourth Carrier Division"!
+| req = Organization Mission: Organize in the First Fleet the two aviation Battleships Ise and Hyuuga as your first and second ships with no less Level 50 in experience and have 1 Light Cruiser and 2 Destroyer to reorganize the Elite "Fourth Carrier Division"!
+*Have [[Ise]] and [[Hyuuga]] as the First and Second Ship in your fleet that are Level 50 higher. In addition, have at least 1 CL and 2 DD in your fleet.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 400
+| other = {{QuestRewardItem|Development Material|qty=4}} {{QuestRewardItem|Skilled Crew Member}}
+| notes = 
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A78
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 新編「第四水雷戦隊」を編成せよ！
+| nameen = Organize the New 4th Torpedo Squadron!
+| req = Organization Mission: Deploy [[Yura|Yura Kai Ni]] as the Flagship of your First fleet along with destroyers being [[Yuudachi]], [[Murasame]], [[Harusame]] and [[Samidare]] along with one other Destroyer to organize the New 4th Torpedo Squadron!
+*Have [[Yura|Yura Kai Ni]] as your flagship along with [[Yuudachi]]. [[Murasame]], [[Harusame]], and [[Samidare]], and one wildcard DD.
+| fuel = 400
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=4}} {{QuestRewardItem|Emergency Repair Personnel}}
+| notes = 
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A79
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 精鋭「第二二駆逐隊」を再編成せよ！
+| nameen =
+| req = Composition Mission: Reorganize the 22nd Destroyer Division by forming a fleet of 4 powerful destroyers consisting of Fumizuki Kai Ni, Satsuki Kai Ni, Nagatsuki Kai, and Minazuki Kai.
+*Assemble a fleet consisting of Fumizuki Kai Ni, Satsuki Kai Ni, Nagatsuki Kai, and Minazuki Kai.
+| fuel = 220
+| ammo = 0
+| steel = 220
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardEquip|Combat Ration|qty=2}}
+| notes =
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A80
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 精強「任務部隊」を編成せよ！
+| nameen = Organize the Reinforced "Task Force"
+| req = Composition Mission: Organize the Night Battle Capable Powerful Task force which must consist of [[Saratoga|Saratoga Mk.II]] or Mod 2 in the flagship of your fleet along with 1 Light Cruiser and 2 or more Destroyers in your fleet!
+*Have [[Saratoga|Saratoga Mk.II]] or Mod. 2 as your flagship + 1 CL + 2 DD and 2 Wildcards of choice. 
+| fuel = 0
+| ammo = 300
+| steel = 0
+| bauxite = 300
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|F6F-3}} {{QuestRewardEquip|F4U-1D}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|TBF}} {{QuestRewardItem|New Model Aerial Armament Material}}
+| notes =
+| once  = true
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A81
+| reqQuest = B108
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 最精鋭「第八駆逐隊」を編成せよ！
+| nameen = Organize the Most Elite 8th Destroyer Division!
+| req = Organization Mission consisting of highly ranked Destroyers: Complete the composition consisting of the finest members of new "8th Destroyer Division"consisting the 4 Asashio-class members Asashio Kai Ni, Arashio Kai Ni, Ooshio Kai Ni, and Michishio Kai Ni!
+*Organize a fleet consisting of [[Asashio|Asashio Kai Ni]], [[Arashio|Arashio Kai Ni]], [[Ooshio|Ooshio Kai Ni]], and [[Michishio|Michishio Kai Ni]] ONLY!
+| fuel = 200
+| ammo = 200
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardEquip|Combat Ration}} {{QuestRewardItem|Food Supply Ship Irako}}
+| notes = Special Lines plays upon the completion of the quest.
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A82
+| reqQuest = D27
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 「西村艦隊」第二戦隊随伴部隊、集結せよ！
+| nameen = "Nishimura Fleet" Second Squadron Accompanying Unit, Assemble!
+| req = Operation Shou-Gou 1 Preparation Mission: Assemble ships to form your first attack force from Second Squadron. Organize a fleet within the 3rd Fleet consisting of Mogami, Shigure, Michishio, Asagumo and Yamagumo!
+*Organize a fleet consisting of [[Mogami]], [[Shigure]],[[ Michishio]], [[Asagumo]] and [[Yamagumo]]. Fleet must be organized in the '''3rd fleet''' to count.
+| fuel = 0
+| ammo = 300
+| steel = 300
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako|qty=2}} {{QuestRewardItem|Furniture Fairy}} {{QuestRewardItem|New Model Gun Mount Improvement Material}}
+| notes = Special Lines plays upon the completion of the quest.
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A83
+| reqQuest = F65
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 精銳「三一駆」第一小隊、抜錨準備!
+| nameen = Elite "31st Destroy Division" First plantoon, prepare to Weigh Anchor!
+| req = Organization Mission: Organize the 31st Destroyer Division, 1st Platoon (with 2 ships) consisting of [[Naganami|Naganami Kai Ni]] as flagship along with [[Takanami|Takanami kai]], [[Asashimo|Asashimo kai]] or [[Okinami|Okinami kai]] in the fleet
+* Assemble a Fleet consisting of [[Naganami|Naganami Kai Ni]] as flagship along with [[Takanami|Takanami kai]], [[Asashimo|Asashimo kai]] or [[Okinami|Okinami kai]] in the fleet (Fleet Must consist of 2 members)
+| fuel = 200
+| ammo = 200
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Combat Ration|qty=2}} {{QuestRewardItem|Furniture Fairy}}
+| notes = 
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A84
+| reqQuest =
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 精鋭「四水戦」抜錨準備！
+| nameen = Elite "4th Torpedo Squadron", prepare to Weigh Anchor!
+| req = 4th Torpedo Squadron (4Sd) Special Formation: Organize the Elite 4th Torpedo Squadron with Murasame Kai Ni as a flagship , along with 3 ships consisting of Yura Kai ni,  Yuudachi Kai ni, Harusame Kai, Samidare Kai, or Akizuki Kai and 2 other ships to form the main elite fleet that will prepare to sortie into the Southern Waters.
+* Assemble a fleet consisting of [[Murasame|Murasame Kai Ni]] as flagship along with 3 of the following ships [[Yura|Yura kai ni]], [[Yuudachi|Yuudachi Kai ni]], [[Harusame|Harusame Kai]], [[Samidare|Samidare Kai]] or [[Akizuki|Akizuki Kai]] and 2 XX in the fleet
+| fuel = 0
+| ammo = 400
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}} {{QuestRewardEquip|Emergency Repair Goddess}}
+| notes = 
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A85
+| reqQuest =
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 精鋭「第二一駆逐隊」、抜錨準備！
+| nameen = Elite "21th Destroyer Division", prepare to Weigh Anchor!
+| req = Elite Destroyer Preperation Mission: Support of the Shogou One Operation. For the sake of transporting resources to front line air bases, organize the elite 21st Destroyer Division, with 3 of the 4 members being Wakaba Kai, Hatsuharu Kai Ni and Hatsushimo Kai Ni. Godspeed! 
+* Assemble a fleet consisting of 4 ships which includes [[Wakaba|Wakaba Kai]], [[Hatsuharu|Hatsuharu Kai Ni]], [[Hatsushimo|Hatsushimo Kai ni]] and 1DD
+| fuel = 100
+| ammo = 0
+| steel = 0
+| bauxite = 300
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}} {{QuestRewardEquip|Combat Ration}}
+| notes = Quest completion dialogue will play upon completion
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A86
+| reqQuest = B61
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 改装「第十七駆逐隊」、再編始め！
+| nameen = Remodelled 17th Destroyer Division, Realign!
+| req = Remodelled Destroyer Division Formation Mission: Reorganise the 17th Destroyer Division consisting of the remodelled Kagerō-class destroyers "Urakaze Kai", "Tanikaze Kai", and the destroyers "Isokaze Kai B" & "Hamakaze Kai B" who underwent a massive refit with a focus on anti-air equipment in order to deal with the increasing frequency of anti-air engagements!
+*Orgnize a fleet with [[Urakaze|Urakaze Kai]], [[Tanikaze|Tanikaze Kai]], [[Isokaze|Isokaze Kai B]] and [[Hamakaze|Hamakaze Kai B]] only.
+| fuel = 170
+| ammo = 170
+| steel = 170
+| bauxite = 0
+| other = {{QuestRewardItem|Food Supply Ship Irako}} {{QuestRewardItem|Reinforcement Expansion}}
+| notes = Quest completion dialogue will play upon completion
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A87
+| reqQuest =
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 精鋭 「第十八駆逐隊」 を編成せよ!
+| nameen = Form the elite 18th Destroyer Division!
+| req = Elite 18th Destroyer Division Formation Mission: Organize Arare Kai Ni, Kasumi Kai Ni/Kai Ni B, Kagerou Kai and Shiranui Kai into the elite 18th Destroyer Division.
+*Organize a fleet with [[Arare|Arare Kai Ni]], [[Kasumi|Kasumi Kai Ni /Kai Ni B]], [[Kagerou|Kagerou Kai]] and [[Shiranui|Shiranui Kai]] only.
+| fuel = 180
+| ammo = 0
+| steel = 180
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Furniture Fairy}} {{QuestRewardItem|Reinforcement Expansion}}
+| notes = Quest completion dialogue will play upon completion
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A88
+| reqQuest = B109
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 最精鋭甲型駆逐艦、集結せよ！
+| nameen = Elite Type-A Destroyers, Assemble!
+| req = Type-A Destroyer Fleet Formation Mission: Form a an elite fleet-type destroyer fleet consisting of Kagerou Kai 2, Shiranui Kai 2 and Kuroshio Kai 2 as well as three more Lv.70+ Type-A Destroyers (Kagerō-/Yūgumo-class destroyers)!
+* Organize a fleet with [[Kagerou|Kagerou Kai Ni]], [[Shiranui|Shiranui Kai Ni]], [[Kuroshio|Kuroshio Kai Ni]] and 3 more Kagerou-class / Yuugumo-class DDs. All Destroyers must be Level 70+.
+| fuel = 150
+| ammo = 150
+| steel = 150
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|12.7cm Twin Gun Mount Model C Kai 2}} {{QuestRewardItem|Medal}}
+| notes = Quest completion dialogue will play upon completion
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A89
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 精鋭「第十八戦隊」を再編成せよ！
+| nameen = Reform the Elite 18th Cruiser Division!
+| req = Reorganizing the old fashioned, small, remodeled light cruisers: Organize a composition consisting of the elite old fashioned, small, remodeled light cruisers [[Tenryuu|Tenryuu Kai Ni]] and [[Tatsuta|Tatsuta Kai Ni]] to form the elite 18th Cruiser Division.
+* Organize a fleet consisting of [[Tenryuu|Tenryuu Kai Ni]] and [[Tatsuta|Tatsuta Kai Ni]] in your fleet.
+| fuel = 180
+| ammo = 0
+| steel = 180
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=5}} {{QuestRewardItem|Furniture Fairy}}
+| notes = 
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A90
+| reqQuest =
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 精強「第十七駆逐隊」を編成せよ！
+| nameen = Organise the powerful DesDiv 17!
+| req = Remodelled Type-A Destroyers Formation Mission: Organize the powerful DesDiv 17 consisting of 4 ships, namely Isokaze B Kai & Hamakaze B Kai, whose anti-air armaments have been substantially improved, as well as Urakaze D Kai & Tanikaze D Kai, whose ASW armaments have been improved!
+* Take a fleet consisting of '''ONLY''' [[Isokaze|Isokaze B Kai]], [[Hamakaze|Hamakaze B Kai]], [[Urakaze|Urakaze D Kai]], [[Tanikaze|Tanikaze D Kai]]
+| fuel = 170
+| ammo = 170
+| steel = 0
+| bauxite = 170
+| other = {{QuestRewardItem|Food Supply Ship Irako}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Combat Ration|qty=2}} {{QuestRewardItem|Instant Repair Material|qty=3}}
+| notes = 
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A91
+| reqQuest =
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 精鋭「第十駆逐隊」、抜錨準備！
+| nameen =  Elite DesDiv 10, Get Ready To Set Sail!
+| req = Type-A Destroyer Formation Mission: Form the elite DesDiv 10 (2 ships) that consists of the Yūgumo-class destroyers Yūgumo K2 and Makigumo K2!
+
+* Organize a fleet consisting of '''ONLY''' [[Makigumo|Makigumo Kai Ni]] and [[Yuugumo|Yuugumo Kai Ni]]
+| fuel = 200
+| ammo = 0
+| steel = 200
+| bauxite = 0
+| other = {{QuestRewardEquip|Combat Ration}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=5}} {{QuestRewardItem|Furniture Fairy}}
+| notes = 
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A92
+| reqQuest =
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 精鋭無比「第一戦隊」抜錨準備！
+| nameen = Unrivaled "First Squadron" prepare to weigh anchor!
+| req = Main Battleship Fleet Organizing Mission: Organize a fleet in the first fleet consisting of Nagato Kai Ni in the Flagship position and Mutsu Kai Ni in the 2nd ship position to for the ultimate elite Battleship Squadron!
+
+* In the First Fleet, put Nagato Kai Ni in the first slot (Flagship Position), and Mutsu Kai Ni in the 2nd slot.
+| fuel = 0
+| ammo = 800
+| steel = 800
+| bauxite = 0
+| other = {{QuestRewardEquip|Type 3 Shell Kai}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|41cm Twin Gun Mount|qty=2}} {{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardItem|Development Material|qty=8}}
+| notes = 
+| once  = True
+}}
+{{ProtoQuests
+| type = Composition
+| listnum = A93
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 主力オブ主力、精強「十駆」出撃準備ヨシ！
+| nameen = Main Force of the Main Force, Powerful "DesDiv 10", ready to sortie!
+| req = 10th Destroyer Division Formation Mission: Organize a fleet consisting of the powerful 10th Destroyer Division consisting of the 4 destroyers: Yuugumo Kai Ni, Makigumo Kai Ni, Kazagumo Kai Ni, and Akigumo Kai Ni.
+*Organize a fleet consisting of ONLY [[Yuugumo|Yuugumo Kai Ni]], [[Makigumo|Makigumo Kai Ni]], [[Kazagumo|Kazagumo Kai Ni]], and [[Akigumo|Akigumo Kai Ni]].
+| fuel = 100
+| ammo = 100
+| steel = 100
+| bauxite = 100
+| other =  {{QuestRewardEquip|12.7cm Twin Gun Mount Model D Kai 2|stars=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=6}} {{QuestRewardItem|Furniture Fairy}}
+| notes =
+| once  = True
+}}
+|}
+
+===Quest Completion Lines===
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! Quest Completion Line for A81
+|-
+|The Following Lines Play Upon completing the A81 Quest line, make sure to have the "Voice" turned '''ON''' if you wish to listen to the line.
+{{audio|file=A81lines.mp3}}
+[[Michishio]]: Phew, kept you waiting, girls!<br/>
+[[Arashio]]: Oh my, were you that impatient~?<br/>
+[[Asashio]]: All right! Commander, the Remodeled DesDiv 8 has now assembled!<br/>
+[[Ooshio]]: This is so exciting!<br/>
+[[Asashio]]: 8th Destroyer Division, ready to sally!
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable"
+|-
+! Quest Completion Line for A82
+|-
+|The Following Lines Play Upon completing the A82 Quest line, make sure to have the "Voice" turned '''ON''' if you wish to listen to the line.<br/>
+{{audio|file=A82Lines.mp3}}
+[[Michishio]]: "Why did they assign me to this fleet...?"<br/>
+[[Shigure]]: "Oh, Michishio. Nice to see you."<br/>
+[[Michishio]]: "Shigure?! What are you doing here? Don't tell me we're in the same unit!<br/>
+[[Shigure]]: "Looks like it... Force C of the First Striking Force..."<br/>
+[[Michishio]]: "What's wrong, Shigure? You don't look so good.  Maybe you should lie down for a bit."<br/>
+[[Shigure]]: "It's okay, I'm fine. It's because of the rain... I guess. Anyway, let's go."
+|}
+
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = A84
+|origin = 村雨：んふふふ、村雨のちょっといい所、本気で見せちゃうかな？
+
+由良：村雨さん、頼むしですね、ね？今度の戦い四水船おねがいしてもいいですか？
+
+時雨：由良さん、村雨、了解しました！
+
+夕立：ぽい！由良たちも連れて行くほしぽい！
+
+村雨：第四水雷船体を預かります。さあ、行きましょうか！
+|translation = Murasame: Mfufufu, make sure you check out all my good points in detail okay?
+
+Yura: Murasame, I'll counting on you okay, okay?  I'm looking forward to all the help you'll give the 4th Torpedo Squadron in the upcoming battle, sound good?
+
+Murasame: Yura-san, Murasame understands, Roger that!
+
+Yuudachi: Poi! I want to go with Yura and everyone else poi!
+
+Murasame: I'll take good care of the 4th Torpedo Squadron.  Okay, let's go everyone!
+|audio = 
+}}
+{{ShipquoteKai
+|scenario = A85
+|origin = 若葉：　二十一駆、配置につけ！　この若葉が指令駆逐艦を務めよう。各艦、状況はどうか？
+
+初春：　なんじゃなんじゃ、騒々しい！　妾はもちろんいつでも抜錨できるぞ。
+
+初霜：はっはい！初霜も、ここに！　若葉姉さん、二十一駆、全艦出撃準備完了しました！
+|translation = Wakaba: "DesDiv 21, action stations! I, Wakaba, shall be the commanding destroyer. Everyone, what's your status?"
+
+Hatsuharu: "Oh my goodness gracious, are you noisy! Of course we are ready to weigh anchor whenever you are.
+
+Hatsushimo: "Y-yes! Hatsushimo, present! Wakaba, All ships of DesDiv 21 are ready to sortie!
+|audio = 
+}}
+{{ShipquoteKai
+|scenario = A85 (Alternative)<ref> Line plays only if [[Nenohi]] is added in as the 4th member of the quest before completing mentioned quest.</ref>
+|origin = 若葉：　二十一駆、配置につけ！　この若葉が指令駆逐艦を務めよう。各艦、状況はどうか？
+
+子日：　若葉ぁ～、何気に張り切っているー！　子日、配置についたよ。ほら、ここー！
+
+初春：　なんじゃなんじゃ、騒々しい！　妾はもちろんいつでも抜錨できるぞ。
+
+初霜：はっはい！初霜も、ここに！　若葉姉さん、二十一駆、全艦出撃準備完了しました！
+|translation = Wakaba: "DesDiv 21, action stations! I, Wakaba, shall be the commanding destroyer. Everyone, what's your status?"
+
+Nenohi: "Oh wow Wakaba, didn't expect you to be so eager! Nenohi, at action station. Look, I'm here~!
+
+Hatsuharu: "Oh my goodness gracious, are you noisy! Of course we are ready to weigh anchor whenever you are.
+
+Hatsushimo: "Y-yes! Hatsushimo, present! Wakaba, All ships of DesDiv 21 are ready to sortie!
+|audio = 
+}}
+{{ShipquoteKai
+|scenario = A86
+|origin = 磯風：十七駆、集合ちゃ、磯風栄華の素敵じゃけ。
+浜風：よし、いくぞ、浜風は問題ありません、谷風は。。。どう？
+谷風：おお？なんで？谷風をお呼びかい？て、やんで。かあ、こちとら、ずっと戦闘配置よ！
+浜風：ああ、大丈夫そうですね。。。。
+浦風：提督、すげき準備完了じゃ、いつでも出れるいけ。
+
+|translation = Isokaze: 17th Destroyer Division, all present and accounted for.  My radiance is truly superb.
+Hamakaze: Alright, let’s go.  No problems on this end.  How bout you, Tanikaze?
+Tanikaze:  Oh?  What’s up?  You calling for me? Hmm, what, you should know, I’m always in battle formation!   
+Hamakaze: Ah…yeah…she’s fine…
+Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at any time. 
+
+|audio = 
+}}
+|}
+
+<references/>

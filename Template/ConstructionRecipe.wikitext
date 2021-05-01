@@ -1,0 +1,17 @@
+{| class="wikitable" style="text-align:center;" 
+|- style="height: 50px;"
+! colspan="{{#if:{{{LSC|}}}|5|4}}" style="background-color: #{{#if:{{{LSC|}}}|FF8080|47D147}};" | {{#if:{{{LSC|}}}|Large-Ship|Basic}} Construction
+|- style="height: 50px;"
+! style="width: 25px; background: #94DB94;" |{{Fuel}}
+| style="width: 50px; background: #94DB94;" |{{{fuel|{{#if:{{{LSC|}}}|1500|30}}}}}
+! style="width: 25px; background: #D9D9D9;" |{{Steel}}
+| style="width: 50px; background: #D9D9D9;" |{{{steel|{{#if:{{{LSC|}}}|2000|30}}}}}{{#if:{{{LSC|}}}|{{!!}}style="width: 50px;"{{!}}[[File:Development material.png]]|}}
+|- style="height: 50px;"
+! style="width: 25px; background: #CC0;" |{{Ammo}}
+| style="width: 50px; background: #CC0;" |{{{ammo|{{#if:{{{LSC|}}}|1500|30}}}}}
+! style="width: 25px; background: #FB9;" |{{Bauxite}}
+| style="width: 50px; background: #FB9;" |{{{ammo|{{#if:{{{LSC|}}}|1000|30}}}}}{{#if:{{{LSC|}}}|{{!!}}style="width: 50px;"{{!}}{{{devMat|1}}}|}}
+|- style="height: 50px;"
+! colspan="2" | % to obtain
+| colspan="{{#if:{{{LSC|}}}|3|2}}" | ~{{{percent|0}}}% {{{link|}}}
+|}

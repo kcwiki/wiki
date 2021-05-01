@@ -1,0 +1,72 @@
+{{Equipmentinfo
+|name = F4F-4
+|id = 198
+|japanesename = F4F-4
+|icon = {{GreenPlane}}
+|type = Carrier-Based Fighter
+|effect = {{Firepower}}+1, {{AA}}+5, {{Hit}}+1, {{Evasion}}+2, {{LOS}}+1
+|radius = 4
+|scrap = {{Fuel}} 1, {{Ammo}} 3, {{Bauxite}} 2
+|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
+Equipment198-1.png
+Equipment198-2.png
+Equipment198-3.png
+Equipment198-4.png
+</gallery>
+| CVL=lime
+| CV=lime
+| CVB=lime
+| LC=lime
+}}
+==Introduction==
+大戦初期の太平洋上で零戦としのぎを削った名艦上戦闘機、その改良型です。<br>
+ワイルドキャットとよばれたF4Fシリーズは、格闘戦闘で劣る零戦隊を相手に果敢に戦いました。<br>
+本機は火力を強化し、空母艦載に最適化したF4Fの完成形といえるバージョンです。
+
+''An improved version of the famous shipboard fighter that competed with the Zero in the Pacific at the beginning of the Great War.''<br>
+''Known as the Wildcat, the F4F series fought valiantly against the Zero squadrons despite being inferior.''<br>
+''This aircraft is a final version of the F4F with enhanced firepower and optimizations for carrier operations.''<br>
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Hornet Kai}} (★+4), {{Ship/Link|Saratoga Kai}}
+
+'''Upgradeable''' from {{Equipment/Link|F4F-3}}
+
+''Event reward for:''
+* [[Fall 2016 Event]] E-5: Hard
+
+</div></div>
+
+== Akashi's Improvement Arsenal ==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+| Name = {{PAGENAME}}
+| ItemType = GreenPlane
+| Fuel = 100
+| Ammo = 120
+| Steel = 0
+| Baux = 300
+|Mats0-5 = 3/6
+|Mats6-9 = 4/8
+|Mats10 = 8/16
+|Screws0-5 = 3/4
+|Screws6-9 = 3/6
+|Screws10 = 6/9
+|EquipConsume0-5 = 1x{{GreenPlane|Zero Fighter Type 21}}
+|EquipConsume6-9 = 1x{{GreenPlane|Zero Fighter Type 32}}
+|EquipConsume10 = 2x{{GreenPlane|Zero Fighter Type 52}}
+| Mon = S<br>Sk<br>S2
+| Tue = S<br>Sk<br>&nbsp;
+| Wed = &nbsp;<br>Sk<br>&nbsp;
+| Thu = &nbsp;<br>&nbsp;<br>S2
+| 2ndShip = [[Saratoga]]<br>[[Saratoga#First Upgrade|Saratoga Kai]]<br>[[Saratoga#Second Upgrade|Saratoga Mk.II]]
+| Notes =  Upgrades to [[F6F-3]].
+}}
+|}
+
+==See Also==
+[[wikipedia:Grumman F4F Wildcat#F4F-4|Grumman F4F Wildcat]]
+{{Equipmentlist}}
+[[Category:Fighters]]

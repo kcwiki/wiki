@@ -1,0 +1,8 @@
+==Usage==
+Format: <nowiki>{{PlanelessInstallation|1= (optional)|2= (optional)}}</nowiki>:
+*Variable 1= replaces the first instance of the page name to something else you indicate. For example, <nowiki>{{PlanelessInstallation|1=Test}}</nowiki> would begin with the text ''Test is an installation-type enemy that doesn't use planes ...'' regardless of where you put the template.
+*Variable 2= should either be '''her''' or '''its''' (it's meant to be a possessive pronoun). It is also used to put either the pronoun "She" or the pagename in other sentences. Note that the text is case-sensitive. Note that variable 1 should be used if you want to use variable 2.
+Use on any Installation-type Abyssal ships that don't use planes.<br>
+For those who do, use {{tl|Installation}} instead. For those that can be either depending on equipment setup, use {{tl|HybridInstallation}}.<br>
+Note that a switch template exist as different equipment are effective against different enemies (add in switch statements in cases where it's not the usual Type 3+WG42).<br>
+The inclusion of this template automatically adds [[:Category:Abyssal Land Bases]] to the page, with the exception of Artillery Imps which gets [[:Category:Abyssal Coastal Defenses]] instead.

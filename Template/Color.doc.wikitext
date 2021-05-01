@@ -1,0 +1,58 @@
+{{Documentation subpage}}
+
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+The quick '''[[Template:Color]]''' can be used to add a span of text with any given text color, such as an [[RGB color model|RGB]] hex code, #C9E72A, or any of the [[web colors]]: red, blue, green, moccasin, or darkorchid, etc. The foreground text color is set, but to reset the background color, see: {{[[Template:Bg|bg]]}}.
+
+== Usage ==
+
+:: {{Tlx|color|name of color or hex code of color|Text}}
+
+For example:
+
+{{Tlx|color|red|Hello, world!}} {{ns|8}}gives:&nbsp; {{color|red|Hello, world!}}<br />
+{{Tlx|color|#00F000|Hello, world!}}{{ns}}gives:&nbsp; {{color|#00F000|Hello, world!}}
+
+Wikitext generated:
+::<pre>
+<span style="color:{{{1|}}}">{{{2|}}}</span>
+</pre>
+
+See: [[Web colors]], for a list of colors. A misspelled color name will not be reported, but will cause the text to remain as black text.
+
+== Performance considerations ==
+The template merely uses a span tag:&nbsp; <code>&lt;span style="color:{{{1}}}">{{{2}}}&lt;/span></code>. It runs at speeds in excess of 700 per second, and so it is functionally identical to the longer span-tag markup.
+
+==Template data==
+{{TemplateDataHeader}}
+<templatedata>
+{
+        "description": "The color template can be used to add a span of text with any given text color",
+        "params": {
+                "1": {
+                        "label": "Color",
+                        "description": "CSS name of color or hex code of color, e.g. 'red' or '#00F000'.",
+                        "type": "string",
+                        "required": true
+                },
+                "2": {
+                        "label": "Text",
+                        "description": "The string of text to be be formatted in the desired color",
+                        "type": "string",
+                        "required": true
+                }
+        }
+}
+</templatedata>
+
+== See also ==
+
+* {{tl|Background color}}
+* {{tl|Resize}}
+* {{tl|LinkColor}}
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Text color templates|{{PAGENAME}}]]
+
+</includeonly>

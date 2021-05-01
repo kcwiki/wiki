@@ -1,0 +1,6 @@
+<onlyinclude><div style="{{#if:{{{width|}}}|width:{{{width|}}}px;}} {{#if:{{{height|}}}|height:{{{height|}}}px;}} text-align:center;">
+[[File:{{{fileLocation}}}|link= |{{{width|50}}}{{#if:{{{height|}}}|x{{{height}}}}}px|(click me)]]
+<div style="width:100%; position:relative; left:0px; text-align:center; color:#ff0000;">{{{number|1}}}</div>
+</div></onlyinclude><noinclude>
+[[Category:Map Templates]]
+</noinclude>

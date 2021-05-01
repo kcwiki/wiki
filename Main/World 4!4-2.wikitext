@@ -1,0 +1,295 @@
+==World 4-2: カレー洋制圧戦 Curry Ocean Pacification==
+{{LabSortieworld
+| map = 4-2_Map.png
+| difficulty = ☆ ☆ ☆ ☆ ☆
+| item = {{steel}}
+| exp = 320
+| code = カレー洋制圧戦 ([[wikipedia:Indian_Ocean_raid|Curry Ocean Takeover Battle]])
+| jptext = カレー洋の制圧作戦を行う。 採掘地域を確保しつつ、カレー半島水域の敵艦隊を無力化せよ！
+| entext = We are undertaking operations to control the Curry Ocean.  Secure the mines and incapacitate the enemy fleet!
+| aircon = {{AirControlSystem
+| Map = 4-2 Short Path
+| Fleet = 2XX CL 3DD (XX = (F)BB(V) or CV(L))
+| Route = Random.<br/>A-C-L<br/>B-D-C-L
+| Notes = Node D Air Power is listed.
+| AS = 84
+}}
+{{AirControlSystem
+| Map = 4-2 Long Path
+| Fleet = 2CV CVL XX 2DD (XX = CL, CAV or AV)
+| Route = Random.
+| Notes = Node D Air Power is listed.<br/>BBs and CVs are interchangeable.
+| AS = 84
+}}
+}}
+===Stage Guide===
+{{MapBranchingTable
+|expand = true
+|id = 4-2
+|0 -> A, B = 
+*Random routing, but the amount of DDs in your fleet affects your chances of going to A:
+** 0 DD = 6%
+** 1 DD = 11%
+** 2 DD = 61%
+** 3 DD = 71%
+** 4 DD = 86%
+** 5 DD = 91%
+** 6 DD = 96%
+
+|A -> C, E = 
+* Meeting '''ALL''' of the following requirements to go to C
+** Amount of DD ≥ 3
+** CL+DD ≥ 4
+*Go to E if DD+DE ≤ 1
+*Otherwise, random routing
+
+|C -> G, L =
+* Meeting '''ANY''' of the following requirements to '''FORCE''' L
+**DD ≥ 4
+**CL ≥ 1, (F)BB(V)+CV(L/B) ≤ 2 and DD ≥ 2
+*Meeting '''ANY''' of the following to go to G
+**DD ≤ 1
+**(F)BB(V)+CV(L/B) ≥ 4
+*Otherwise, random routing
+
+|D -> C, H = 
+*Go to H if (F)BB(V)+CV(L/B) = 6
+*Random routing if fleet contains any SS(V)
+*Meeting '''ANY''' of the following to go to C
+**CL+DD ≥ 4
+**(F)BB(V)+CV(L/B) ≤ 2 and DD ≥ 2
+*Otherwise, random routing
+
+|G -> F/empty, I/empty, L = 
+*Go to L if DD ≥ 2 and meet one of the following
+**CL+CAV+AV ≥ 1
+**(F)BB(V) ≥ 4
+*Higher chance of going to I if (F)BB(V)+CV(L/B) ≥ 5
+*Very high chance of going to F if fleet contains any SS(V)
+*Go to F if fleet contains AS ([[Taigei]])
+*Otherwise, random routing
+
+|H -> G, K/resource =
+* Go to G if amount of DD ≥ 2
+* Higher chance of going to K if CV(B) ≥ 3
+*Otherwise, random routing
+}}
+
+===Tips===
+*This map can be taken advantage in multiple ways while playing the map area as it is a location that can be considered for completing the World 4 Weekly and scoring lots of transport kills for your transport dailies and weeklies.
+*Regarding the map nodes
+**Node B is a mixed node consisting of CLs and subs, fuel and ammo cost will cost the same as if you were in a standard surface battle. 
+**Node H is a pure submarine node
+<br/>
+'''Recommended Fleet'''
+*'''2 [(F)BB(V)+CV(L)] 1 CL 3 DD (Short route: ACL or BDCL)'''
+**Possible to get the shortest route to the boss node, but the bottom path may present a bigger risk for this fleet due to Ru-class and Wo-class, the upper path should be less problematic though.
+**Easily let you score 12 wins at boss for Weekly World 4 boss quest and score 2 Transport kills per run.
+*'''3 [(F)BB(V)+CV(L)] 1 CL 2 DD (Maximum 2 CV(B) / Long route)'''
+**Random routing across the map, but will never reach any dead-end and always reach the boss node in the end.
+**Usually good enough to help you net Transports at an alarming rate of 3-5 Transport per run while getting the boss kills on the way.
+**Out of all the paths you can get, going the path '''B - D - C - G - L''' will be the most dangerous as your fleet will arrive at the boss node with only 20% fuel and ammo making them quite vulnerable to both attack and deliver weak shelling attacks. It should still be winnable if you are lucky, but at expense of extra instant repairs being used. 
+**Going most other paths, however, will allow you to arrive with more fuel and ammo which should easily make the boss fight much easier.
+
+===Nodes and Enemy Encounters===
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = 敵東方前衛艦隊
+|A-1_node_info = ca_ri-class_flagship cl_ho-class_flagship cl_ho-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|A-1_form = line_ahead double_line
+|A-1_xp =
+|A-1_enemy_air_power =
+|A-2_node_info = cl_he-class_flagship ca_ri-class_elite cl_ho-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|A-2_form = double_line line_ahead
+|A-2_xp =
+|A-2_enemy_air_power =
+|A-3_node_info = ca_ri-class_flagship cl_ho-class_flagship cl_ho-class_elite dd_ro-class_late_model dd_i-class dd_i-class
+|A-3_form = double_line line_ahead
+|A-3_xp =
+|A-3_enemy_air_power =
+|
+|B_label = 敵潜水教導艦隊
+|B-1_node_info = ss_yo-class_elite ss_yo-class_elite ss_ka-class ss_ka-class cl_to-class_elite
+|B-1_form = echelon line_abreast
+|B-1_xp =
+|B-1_enemy_air_power =
+|B-2_node_info = ss_yo-class_elite ss_ka-class ss_ka-class cl_to-class_elite dd_i-class_late_model dd_i-class_late_model
+|B-2_form = line_abreast echelon
+|B-2_xp =
+|B-2_enemy_air_power =
+|B-3_node_info = ss_yo-class_elite ss_ka-class ss_ka-class ss_ka-class cl_to-class_elite dd_i-class_late_model
+|B-3_form = line_abreast echelon
+|B-3_xp =
+|B-3_enemy_air_power =
+|
+|C_label = 敵東方艦隊 遊撃戦隊
+|C-1_node_info = ca_ri-class_flagship cl_ho-class_flagship cl_ho-class_elite dd_ro-class_late_model dd_i-class dd_i-class
+|C-1_form = line_ahead double_line echelon
+|C-1_xp =
+|C-1_enemy_air_power =
+|C-2_node_info = cvl_nu-class_flagship ca_ri-class_flagship ca_ri-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|C-2_form = diamond double_line line_ahead
+|C-2_xp =
+|C-2_enemy_air_power = 23
+|C-3_node_info = cvl_nu-class_flagship ca_ri-class_flagship ca_ri-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|C-3_form = double_line line_ahead diamond
+|C-3_xp =
+|C-3_enemy_air_power = 23
+|
+|D_label = 敵空母機動部隊
+|D-1_node_info = cv_wo-class_flagship cv_wo-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|D-1_form = diamond
+|D-1_xp =
+|D-1_enemy_air_power = 56
+|D-2_node_info = cv_wo-class_flagship cvl_nu-class_elite bb_ru-class_flagship cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|D-2_form = diamond
+|D-2_xp =
+|D-2_enemy_air_power = 52
+|D-3_node_info = cv_wo-class_flagship cvl_nu-class_elite bb_ru-class_elite cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|D-3_form = diamond
+|D-3_xp =
+|D-3_enemy_air_power = 52
+|D-4_node_info = cv_wo-class_flagship cvl_nu-class_elite bb_ru-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|D-4_form = diamond
+|D-4_xp =
+|D-4_enemy_air_power = 52
+|
+|E_label = 敵東方艦隊 遊撃戦隊分遣隊
+|E-1_node_info = ca_ri-class_flagship cl_ho-class_flagship cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|E-1_form = line_ahead double_line echelon
+|E-1_xp =
+|E-1_enemy_air_power =
+|E-2_node_info = cvl_nu-class_flagship ca_ri-class_flagship cl_ho-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|E-2_form = double_line diamond line_ahead
+|E-2_xp =
+|E-2_enemy_air_power = 23
+|E-3_node_info = ca_ri-class_flagship cl_ho-class_flagship cl_ho-class_elite dd_ro-class_late_model dd_i-class dd_i-class
+|E-3_form = line_ahead echelon double_line
+|E-3_xp =
+|E-3_enemy_air_power =
+|
+|F_label = '''<span style="color:blue">Battle Avoided</span>'''
+|F-1_node_info = "Must be my imagination" (battle avoided)
+|
+|G_label = 敵東方艦隊 上陸輸送船団
+|G-1_node_info = transport_wa-class_flagship transport_wa-class_elite transport_wa-class_elite cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|G-1_form = diamond double_line
+|G-1_xp =
+|G-1_enemy_air_power =
+|G-2_node_info = transport_wa-class_elite transport_wa-class_elite transport_wa-class_elite cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|G-2_form = diamond double_line
+|G-2_xp =
+|G-2_enemy_air_power =
+|G-3_node_info = transport_wa-class_elite transport_wa-class_elite transport_wa-class_elite cl_ho-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|G-3_form = diamond double_line
+|G-3_xp =
+|G-3_enemy_air_power =
+|
+|H_label = 敵潜水哨戒部隊
+|H-1_node_info = ss_yo-class_elite ss_ka-class ss_ka-class ss_ka-class ss_ka-class
+|H-1_form = echelon line_abreast
+|H-1_xp =
+|H-1_enemy_air_power =
+|H-2_node_info = ss_yo-class_elite ss_yo-class_elite ss_ka-class ss_ka-class ss_ka-class
+|H-2_form = echelon line_abreast
+|H-2_xp =
+|H-2_enemy_air_power =
+|H-3_node_info = ss_yo-class_elite ss_yo-class_elite ss_ka-class ss_ka-class ss_ka-class ss_ka-class
+|H-3_form = echelon line_abreast
+|H-3_xp =
+|H-3_enemy_air_power =
+|
+|I_label = '''<span style="color:blue">Battle Avoided</span>'''
+|I-1_node_info = "Must be my imagination" (battle avoided)
+|
+|J_label = '''<span style="color:green">Resource Node</span>'''
+|J-1_node_info = bauxite + 40
+|
+|K_label = '''<span style="color:green">Resource Node</span>'''
+|K-1_node_info = steel + 80
+|
+|L_label = 敵東方艦隊 強襲上陸主力艦隊
+|L-1_node_info = bb_ta-class_flagship cv_wo-class_flagship transport_wa-class_elite transport_wa-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|L-1_form = line_ahead double_line
+|L-1_xp =
+|L-1_enemy_air_power = 28
+|L-2_node_info = bb_ta-class_flagship cv_wo-class_flagship transport_wa-class_flagship transport_wa-class_flagship dd_ha-class_late_model dd_ha-class_late_model
+|L-2_form = line_ahead double_line
+|L-2_xp =
+|L-2_enemy_air_power = 28
+|L-3_node_info = bb_ta-class_flagship cv_wo-class_elite transport_wa-class transport_wa-class dd_ha-class_late_model dd_ha-class_late_model
+|L-3_form = double_line line_ahead
+|L-3_xp =
+|L-3_enemy_air_power = 27
+|
+|final_form = 
+|boss_node = L
+}}
+
+===Drops===
+
+<div class="mw-customtoggle-4-2-drop globalbutton">Show/Hide Drops</div>
+
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-4-2-drop"
+!Node
+!Destroyer
+!Light Cruiser
+!Heavy Cruiser
+!Seaplane Tender
+!Aircraft Carrier
+!Submarine
+!Battleship
+|-
+|  A
+|  [[Fubuki]], [[Shirayuki]], [[Mutsuki]], [[Kisaragi]], [[Akatsuki]], [[Samidare]], [[Murasame]], [[Suzukaze]], [[Shiranui]], [[Kuroshio]]
+|  [[Kitakami]], [[Tenryuu]], [[Tatsuta]], [[Tama]], [[Kiso]], [[Isuzu]], [[Natori]], [[Yura]], [[Jintsu]], [[Naka]]
+|  [[Mogami]], [[Furutaka]], [[Kako]], [[Aoba]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Chikuma]]
+|[[Chitose]], [[Chiyoda]]
+|[[Kaga]], [[Ryuujou]], [[Hiyou]], [[Junyou]], [[Shouhou]]
+|
+|  [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
+|-
+|  C
+|  [[Fubuki]], [[Hatsuyuki]], [[Akatsuki]], [[Suzukaze]], [[Kagerou]], [[Kuroshio]], [[Kisaragi]]
+|  [[Ooi]], [[Kitakami]], [[Tenryuu]], [[Tatsuta]], [[Tama]], [[Kiso]], [[Natori]], [[Yura]], [[Sendai]], [[Jintsu]], [[Naka]]
+|  [[Furutaka]], [[Aoba]], [[Nachi]], [[Haguro]], [[Maya]]
+|
+|  [[Kaga]], [[Souryuu]], [[Hiyou]], [[Junyou]], [[Shouhou]]
+|
+|  [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]]
+|-
+|  '''<span style="color:red">D</span>'''
+|  [[Yukikaze|'''<span style="color:red">Yukikaze</span>''']], [[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Yuugumo|'''<span style="color:red">Yuugumo</span>''']], [[Yayoi|'''<span style="color:red">Yayoi</span>''']],[[Urakaze|'''<span style="color:red">Urakaze</span>''']]
+|  [[Ooi]], [[Kitakami]], [[Tenryuu]], [[Tatsuta]], [[Tama]], [[Kiso]], [[Isuzu]], [[Natori]], [[Yura]], [[Kinu|'''<span style="color:red">Kinu</span>''']], [[Abukuma|'''<span style="color:red" class="">Abukuma, </span>''']] [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+|  [[Mogami]], [[Kako]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Chikuma]]
+|  [[Chitose]], [[Chiyoda]]
+|  [[Akagi]], [[Kaga]], [[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']], [[Houshou]], [[Ryuujou]], [[Hiyou]], [[Junyou]], [[Zuihou|'''<span style="color:red">Zuihou</span>''']], [[Shouhou]]
+|  [[I-58|'''<span style="color:red">I-58</span>''']]
+|  [[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
+|-
+|  F
+|  [[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Mutsuki]], [[Kisaragi]], [[Akatsuki]], [[Samidare]], [[Murasame]], [[Suzukaze]], [[Kagerou]], [[Shiranui]]
+|  [[Kitakami]], [[Tenryuu]], [[Tama]], [[Kiso]], [[Isuzu]], [[Natori]], [[Yura]], [[Sendai]], [[Jintsuu]], [[Naka]]
+|  [[Mogami]], [[Furutaka]], [[Kako]], [[Aoba]], [[Nachi]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Chikuma]]
+|  [[Chitose]], [[Chiyoda]]
+|  [[Kaga]], [[Ryuujou]], [[Hiyou]], [[Junyou]], [[Shouhou]]
+|
+|  [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
+|-
+|  H
+|  [[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Mutsuki]], [[Kisaragi]], [[Akatsuki]], [[Samidare]], [[Murasame]], [[Suzukaze]], [[Kagerou]], [[Shiranui]], [[Kuroshio]]
+|  [[Kitakami]], [[Tatsuta]], [[Tama]], [[Kiso]], [[Isuzu]], [[Natori]], [[Yura]], [[Sendai]], [[Jintsuu]], [[Naka]]
+|  [[Mogami]], [[Furutaka]], [[Kako]], [[Aoba]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]]
+|  [[Chitose]], [[Chiyoda]]
+|  [[Kaga]], [[Ryuujou]], [[Hiyou]], [[Junyou]], [[Shouhou]]
+|
+|  [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
+|-
+|  I
+|  [[Fubuki]], [[Shirayuki]], [[Miyuki]], [[Isonami]], [[Mutsuki]], [[Kisaragi]], [[Samidare]], [[Murasame]], [[Kagerou]], [[Shiranui]], [[Kuroshio]]
+|  [[Kitakami]], [[Tenryuu]], [[Tatsuta]], [[Tama]], [[Kiso]], [[Isuzu]], [[Natori]], [[Yura]], [[Sendai]], [[Jintsu]], [[Naka]]
+|  [[Furutaka]], [[Kako]], [[Aoba]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Mogami]]
+|  [[Chitose]], [[Chiyoda]]
+|  [[Kaga]], [[Ryuujou]], [[Hiyou]], [[Shouhou]], [[Junyou]]
+|
+|  [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
+|}

@@ -1,0 +1,35 @@
+{{EquipmentInfo|228}}
+
+==Introduction==
+旧式の艦上戦闘機の性能向上タイプです。零戦より前に実戦配備されていた旧型機ですが、優れた格闘戦能力を持っています。<br>
+武装や速度の点で既に二線級ではありますが、防空戦闘には活用可能です。
+
+''An improved version of an old carrier-based fighter aircraft. It is an outdated aircraft that was deployed in combat long before the Zero Fighter, but it possesses outstanding dogfighting capabilities.''<br>
+''While its armament and speed are already second-class, it can still be used for air defence.''
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Kasuga Maru}}, {{Ship/Link|Taiyou}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2017-05-02:''' '''Implemented'''
+* '''2018-11-19:''' '''Stats increased:'''  '''{{Evasion}}+1 → {{Evasion}}+2 '''
+* '''2019-08-08:''' Visible bonuses added, fixed bug causing ships equipped with this plane to deal extra ASW damage
+* '''2020-03-27:''' Visible bonuses increased
+</div></div>
+
+==Fit Bonuses==
+{{:Type 96 Fighter Kai/Bonuses}}
+
+==Trivia==
+Around 2019-07-22, a bug was discovered which caused ships equipped with this plane to ignore target defence when performing ASW, allowing them to deal very high damage to enemy submarines. The suspected cause was that this plane was mistakenly set to use [[Damage_Calculations#Defense_Power|depth charge penetration]] (due to having adjacent IDs with [[Type 95 Depth Charge]] and [[Type 2 Depth Charge]]), which broke the sqrt calculation because its ASW stat is 0. This bug was fixed on 2019-08-08.
+
+==See Also==
+
+{{Equipmentlist}}
+[[Category:Equipment]]

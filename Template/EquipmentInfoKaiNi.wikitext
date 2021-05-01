@@ -1,0 +1,19 @@
+{|style="border: 1px solid darkgray; width: 900px"
+|-
+| rowsnap="2" style="border: 1px solid darkgray;text-align: center; background-color: LightSkyBlue;"|<p style="font-size:25px">'''{{{name|Name?}}}'''</p>
+<p style="font-size:20px">'''{{#if:{{{id|}}}|No.{{{id}}}}} {{{japanesename|}}}'''</p>
+| style="border: 1px solid darkgray;width:60%; background-color: LightSkyBlue;"|<p style="text-align: center;font-size:25px">'''Equipment Information'''</p>
+|-
+| colsnap="2" rowspan="4 style="text-align: center; background-color: {{{color|}}};"|<p>'''{{{icon|}}} {{{type|}}}'''</p>
+<p>'''{{#if:{{{effect|}}}|Effects :{{{effect}}}}}'''</p>
+<p>'''{{#if:{{{scrap|}}}|Scrap value :{{{scrap}}}}}'''</p>
+|- {{#if: {{{image|}}} | | style="display: none;" }}
+| colspan="2" style="text-align: center;" |{{{image|}}}
+|-
+{{#if:{{{notes|}}}|{{!}} colspan="2" style="text-align: center; background-color: LightSkyBlue;" {{!}} '''Notes'''
+{{!}}-
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{notes}}}|}}
+|}
+<noinclude><!--PLEASE DO NOT ADD DOCUMENTATION/CATEGORIES/INTERWIKIS HERE-->
+{{Documentation}}
+<!--MAKE ADDITIONS TO THE /doc SUBPAGE INSTEAD, THANKS--></noinclude>

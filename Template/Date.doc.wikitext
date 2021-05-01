@@ -1,0 +1,220 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+===Description===
+This template converts a date to one of the standard date formats used on the English Wikipedia. This template is probably best used internally in other templates.
+
+If you want sortable dates for a table, use {{tl|Dts}} or {{tl|Date sortable}} instead.
+
+===Syntax===
+This template takes up to two parameters, both of which are optional:
+
+<code><nowiki>{{</nowiki>date|</code><span style="color:gray;">''<date to be formatted>''</span>|<span style="color:gray;">''<date formatting style>''</span><code><nowiki>}}</nowiki></code>
+
+* '''''<date to be formatted>''''' is an (optional) date to be formatted.
+*: If no date is specified, the template emits the current date.<br />For example, {{nowrap|<tt><nowiki>{{date}}</nowiki></tt>}} produces {{date}}.
+*:If a date is provided, but is not recognized as one, the text is just returned ''as is''. Most dates will however be recognized as such, including all the formats typically used on Wikipedia. Numerous variations thereof are also supported, including abbreviated or lower-case month names; genitive "st", "nd", "rd", "th"; extraneous white space; missing comma etc.
+*:'''Notes''':
+*:* Some dates are converted even if they are not real dates, and some dates are not converted even though they are real dates. See [[#Known issues|known issues]] below.
+*:* Only dates within the range {{date|January 1, 1000}} and {{date|December 31, 9999}} are supported. Dates with two-digit years will have unexpected results. Other dates outside the range 1000&ndash;9999 will be treated as if the second parameter were "none".
+
+* '''''<date formatting style>''''' controls the date format in which the result is to be emitted. Recognized values for the second parameter are:
+*:* '''<tt style="padding-right:2.5em;">none</tt>''' applies no formatting whatsoever
+*:* '''<tt style="padding-right:3em;">dmy</tt>''' gives ''d mmmm yyyy'' (eg ''{{date|2011-12-25|dmy}}''). This is the default format.
+*:* '''<tt style="padding-right:3em;">mdy</tt>''' gives ''mmmm d, yyyy'' (eg ''{{date|2011-12-25|mdy}}'')
+*:* '''<tt style="padding-right:3em;">ymd</tt>''' gives ''yyyy mmmm dd'' (eg ''{{date|2011-12-25|ymd}}'')
+*:* '''<tt style="padding-right:3em;">iso</tt>''' gives an [[WP:ISO 8601|ISO 8601]] style ''yyyy-mm-dd'' (eg ''{{date|2011-12-25|iso}}'')
+*: If a date to be formatted is provided but no style is specified, the template emits a date in "d month yyyy" format, as it appears (for example) on discussion pages. When no date is specified, then the current date is emitted with no year, either in "d&nbsp;month" format for formatting style <code>dmy</code>, or in "month&nbsp;d" format for formatting styles <code>mdy</code>, <code>ymd</code> and <code>iso</code>.
+*:'''Notes''':
+*:* Although these are the four formats supported by MediaWiki's date autoformatting mechanism, only <code>dmy</code>/<code>ldmy</code> and <code>mdy</code>/<code>lmdy</code> are in accordance with the English language Wikipedia's [[MOS:DATE#Full_date_formatting|Manual of Style]]. The use of <code>iso</code>/<code>liso</code> ([[WP:ISO 8601|ISO 8601]]) format ''within article prose'' is expressly discouraged by the Manual of Style; this format should only be used in tables or lists.
+*:* In each case, the result is exactly the same as what would be emitted by MediaWiki's date autoformatting mechanism.<div>However, dates are '''''not''''' manipulated by MediaWiki's date autoformatting mechanism even when linked. This permits dates to have a consistent appearance regardless of whether they are linked or not.</div>
+
+===Examples===
+==== With valid input ====
+{| class="wikitable" style="width:80%; margin:0 10%"
+!scope="col" style="width:20%;"| Format
+!scope="col" style="width:40%;"| Input
+!scope="col" style="width:40%;"| Output
+|-
+!scope="row" rowspan="6"| No format specified
+|<tt><nowiki>{{date|2006-08-04}}</nowiki></tt>
+|{{date|2006-08-04}}
+|-
+|<tt><nowiki>{{date|Aug 4, 2006}}</nowiki></tt>
+|{{date|Aug 4, 2006}}
+|-
+|<tt><nowiki>{{date|4 Aug 2006}}</nowiki></tt>
+|{{date|4 Aug 2006}}
+|-
+|<tt><nowiki>{{date|4 Aug}}</nowiki></tt>
+|{{date|4 Aug}}
+|-
+|<tt><nowiki>{{date|Aug 4}}</nowiki></tt>
+|{{date|Aug 4}}
+|-
+|<tt><nowiki>{{date}}</nowiki></tt>
+|{{date}}
+|-
+!scope="row" rowspan="6"| ''none'' format
+|<tt><nowiki>{{date|2006-08-04|none}}</nowiki></tt>
+|{{date|2006-08-04|none}}
+|-
+|<tt><nowiki>{{date|Aug 4, 2006|none}}</nowiki></tt>
+|{{date|Aug 4, 2006|none}}
+|-
+|<tt><nowiki>{{date|4 Aug 2006|none}}</nowiki></tt>
+|{{date|4 Aug 2006|none}}
+|-
+|<tt><nowiki>{{date|4 Aug|none}}</nowiki></tt>
+|{{date|4 Aug|none}}
+|-
+|<tt><nowiki>{{date|Aug 4|none}}</nowiki></tt>
+|{{date|Aug 4|none}}
+|-
+|<tt><nowiki>{{date||none}}</nowiki></tt>
+|{{date||none}}
+|-
+!scope="row" rowspan="6"| ''dmy'' format
+|<tt><nowiki>{{date|2006-08-04|dmy}}</nowiki></tt>
+|{{date|2006-08-04|dmy}}
+|-
+|<tt><nowiki>{{date|Aug 4, 2006|dmy}}</nowiki></tt>
+|{{date|Aug 4, 2006|dmy}}
+|-
+|<tt><nowiki>{{date|4 Aug 2006|dmy}}</nowiki></tt>
+|{{date|4 Aug 2006|dmy}}
+|-
+|<tt><nowiki>{{date|4 Aug|dmy}}</nowiki></tt>
+|{{date|4 Aug|dmy}}
+|-
+|<tt><nowiki>{{date|Aug 4|dmy}}</nowiki></tt>
+|{{date|Aug 4|dmy}}
+|-
+|<tt><nowiki>{{date||dmy}}</nowiki></tt>
+|{{date||dmy}}
+|-
+!scope="row" rowspan="6"| ''mdy'' format
+|<tt><nowiki>{{date|2006-08-04|mdy}}</nowiki></tt>
+|{{date|2006-08-04|mdy}}
+|-
+|<tt><nowiki>{{date|Aug 4, 2006|mdy}}</nowiki></tt>
+|{{date|Aug 4, 2006|mdy}}
+|-
+|<tt><nowiki>{{date|4 Aug 2006|mdy}}</nowiki></tt>
+|{{date|4 Aug 2006|mdy}}
+|-
+|<tt><nowiki>{{date|4 Aug|mdy}}</nowiki></tt>
+|{{date|4 Aug|mdy}}
+|-
+|<tt><nowiki>{{date|Aug 4|mdy}}</nowiki></tt>
+|{{date|Aug 4|mdy}}
+|-
+|<tt><nowiki>{{date||mdy}}</nowiki></tt>
+|{{date||mdy}}
+|-
+!scope="row" rowspan="6"| ''ymd'' format
+|<tt><nowiki>{{date|2006-08-04|ymd}}</nowiki></tt>
+|{{date|2006-08-04|ymd}}
+|-
+|<tt><nowiki>{{date|Aug 4, 2006|ymd}}</nowiki></tt>
+|{{date|Aug 4, 2006|ymd}}
+|-
+|<tt><nowiki>{{date|4 Aug 2006|ymd}}</nowiki></tt>
+|{{date|4 Aug 2006|ymd}}
+|-
+|<tt><nowiki>{{date|4 Aug|ymd}}</nowiki></tt>
+|{{date|4 Aug|ymd}}
+|-
+|<tt><nowiki>{{date|Aug 4|ymd}}</nowiki></tt>
+|{{date|Aug 4|ymd}}
+|-
+|<tt><nowiki>{{date||ymd}}</nowiki></tt>
+|{{date||ymd}}
+|-
+!scope="row" rowspan="6"| ''iso'' format
+|<tt><nowiki>{{date|2006-08-04|iso}}</nowiki></tt>
+|{{date|2006-08-04|iso}}
+|-
+|<tt><nowiki>{{date|Aug 4, 2006|iso}}</nowiki></tt>
+|{{date|Aug 4, 2006|iso}}
+|-
+|<tt><nowiki>{{date|4 Aug 2006|iso}}</nowiki></tt>
+|{{date|4 Aug 2006|iso}}
+|-
+|<tt><nowiki>{{date|4 Aug|iso}}</nowiki></tt>
+|{{date|4 Aug|iso}}
+|-
+|<tt><nowiki>{{date|Aug 4|iso}}</nowiki></tt>
+|{{date|Aug 4|iso}}
+|-
+|<tt><nowiki>{{date||iso}}</nowiki></tt>
+|{{date||iso}}
+|}
+
+====Other acceptable input====
+A wide variety of other input formats are handled correctly by the template:
+
+{| class="wikitable" style="width:80%; margin:0 10%"
+!scope="col" style="width:50%;"| Input
+!scope="col" style="width:50%;"| Output
+|-
+|<tt><nowiki>{{date|1st December 2008}}</nowiki></tt> ([[Ordinal number (linguistics)|ordinal]] 'st')
+|{{date|1st December 2008}}
+|-
+|<tt><nowiki>{{date|June 24 2006}}</nowiki></tt> (missing comma)
+|{{date|june 24 2006}}
+|-
+|<tt><nowiki>{{date|24 june 2006}}</nowiki></tt> (lowercase month name)
+|{{date|24 june 2006}}
+|-
+|<tt><nowiki>{{date|24 jun}}</nowiki></tt> (abbreviated month name)
+|{{date|24 jun}}
+|-
+|<tt><nowiki>{{date|June 2006}}</nowiki></tt>
+|{{date|June 2006}}
+|}
+
+====Invalid input====
+Input strings that the template cannot format are returned unaltered. This includes strings containing characters such as square brackets, so any links will result in unformatted output.
+
+{| class="wikitable" style="width:80%; margin:0 10%"
+!scope="col" style="width:50%;"| Input
+!scope="col" style="width:50%;"| Output
+|-
+|<tt><nowiki>{{date|23007-031-24}}</nowiki></tt>
+|{{date|23007-031-24}}
+|-
+|<tt><nowiki>{{date|[[1 December]] [[2008]]|ymd}}</nowiki></tt>
+|{{date|[[1 December]] [[2008]]|ymd}}
+|-
+|<tt><nowiki>{{date|1 December [[2008 in film|2008]]|mdy}}</nowiki></tt>
+|{{date|1 December [[2008 in film|2008]]|mdy}}
+|}
+
+===Known issues===
+; Out-of-range values are "fixed"
+* The [[PHP]] library that this template ultimately depends on converts out-of-range values to the next-best in-range values. As a result, some date-like values that are not actually valid dates get converted anyway. These include...
+** all dates with zero day-of-the-month. Such a "zero-th" day of a month gets converted into the last day of the previous month.<div>For example, <code><nowiki>{{date|June 0, 2006}}</nowiki></code> results in <code>{{date|June 0, 2006}}</code>.</div><div>Similarly, <code><nowiki>{{date|0 January 2006}}</nowiki></code> becomes <code>{{date|0 January 2006}}</code>.</div>
+** all dates with day-number values that exceed the number of days in the specified month cause the date to be incremented into the next month.<div>For example, <code><nowiki>{{date|31 November 2008}}</nowiki></code> results in <code>{{date|31 November 2008}}</code>, since November has only 30 days.</div><div>Similarly, <code><nowiki>{{date|February 29, 2007}}</nowiki></code> results in <code>{{date|February 29, 2007}}</code>, since 2007 was not a leap year.</div><div><small>Note: Due to a parser peculiarity in the PHP library, 'December 32' and '32 December' are treated differently, and the latter results in an error (which causes this template to emit it unchanged), and only the former "overflows" into the next month.</small></div>
+
+; Non-Gregorian dates are treated as Gregorian
+* The PHP library that this template ultimately depends on assumes that all dates, irrespective of context, are [[Gregorian calendar]] dates. Consequently:
+** some dates that would be valid in a non-Gregorian context are treated as out-of-range dates and converted to the next-best in-range values. For example, <code><nowiki>{{date|30 February 1712}}</nowiki></code> results in <code>{{date|30 February 1712}}</code> because &ndash; even though 30 February 1712 is a valid date in the Swedish calendar &ndash; February 1712 had only 29 days in the Gregorian calendar.
+** ten dates are not reformatted. These are 29 February & 1 March of the years 1000, 1100, 1300, 1400, 1500. The cause of this is the same as that of the Swedish 30 February 1712.
+** some dates that would not be valid in some contexts are converted normally. For example, 29 February 1912 or 1 February 1918 are not valid in a Russian context, but perfectly valid in the Gregorian one.
+
+; ISO 8601 format not suitable for years before 1583
+The ISO 8601 standard requires mutual agreement between those using the format to use years earlier than 1583. Since no agreement has been obtained from our readers, that format should not be used for such years, nor for any date not in the Gregorian calendar.
+
+; Does not provide Microformats
+* [[hCalendar]] and [[hCard]] [[microformat]]s have various date properties, which are not emitted by this template. Use {{Tl|Start date}}, {{Tl|End date}}, {{Tl|Birth date}} or one of their variants, as necessary, in infoboxes which allow microformat-compatible date templates.
+
+==See also==
+*{{tl|Currentdate}}
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Date-computing templates]]
+[[Category:ISO date templates]]
+
+</includeonly>

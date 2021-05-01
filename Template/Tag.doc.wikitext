@@ -1,0 +1,44 @@
+{{Documentation subpage}}
+
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This template provides a quick way to mention an XML-style tag in a preformatted way. Mainly used in discussion/help pages.
+
+=== Usage ===
+
+*'''first parameter''' — ''(mandatory)''  the name of the HTML tag
+*'''second parameter''' — what type of tag to display:
+**<code>p</code> or <code>pair</code> – ''(default)'' display a matched pair of open-and-close tags: {{tag|font|pair}}
+***To suppress the ellipsis which appears between the tags, add an empty {{para|content}} parameter
+**<code>o</code> or <code>open</code> – display only the opening tag of an open-and-close pair: {{tag|span|open}}
+**<code>c</code> or <code>close</code> – display only the closing tag of an open-and-close pair: {{tag|span|close}}
+**<code>s</code> or <code>single</code> – display a single tag: {{tag|br|single}}
+*'''content=''' — the text content of the tags
+*'''params=''' — any parameters to be included in the opening tag
+
+====Examples====
+
+* <code><nowiki>{{tag|ref}}</nowiki></code> → {{tag|ref}}
+* <code><nowiki>{{tag|ref|content=}}</nowiki></code> → {{tag|ref|content=}}
+* <code><nowiki>{{tag|ref|content=hello}}</nowiki></code> → {{tag|ref|content=hello}}
+* <code><nowiki>{{tag|font|content=foo}}</nowiki></code> → {{tag|font|content=foo}}
+* <code><nowiki>{{tag|font|open}}</nowiki></code> → {{tag|font|open}}
+* <code><nowiki>{{tag|font|open|content=hello}}</nowiki></code> → {{tag|font|open|content=hello}}
+* <code><nowiki>{{tag|span|close|content=hello}}</nowiki></code> → {{tag|span|close|content=hello}}
+* <code><nowiki>{{tag|span|pair|content=hello}}</nowiki></code> → {{tag|span|pair|content=hello}}
+* <code><nowiki>{{tag|ref|open|params=group="note"}}</nowiki></code> → {{tag|ref|open|params=group="note"}}
+* <code><nowiki>{{tag|references|single}}</nowiki></code> → {{tag|references|single}}
+* <code><nowiki>{{tag|br|single}}</nowiki></code> → {{tag|br|single}}
+
+=== See also ===
+*{{tl|HTMLElement}}
+*{{tl|XMLElement}}
+*{{tl|xtag}} adds a MediaWiki parser or extension tag that links to the extension page.
+*The [[mw:Help:Magic words#Miscellaneous|#tag:]] parserfunction generates working tags.
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS BELOW THIS LINE PLEASE -->
+[[Category:Programming typing-aid templates|{{PAGENAME}}]]
+[[Category:Wikipedia XHTML tag replacing templates|*]]
+
+</includeonly>

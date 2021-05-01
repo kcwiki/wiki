@@ -1,0 +1,211 @@
+==World 1-3: 製油所地帯沿岸 Coastal Refinery Zone==
+{{LabSortieworld
+| map = 1 03.png
+| difficulty = ☆ ☆
+| item = {{Fuel}}
+| exp = Varies
+| code = 海上護衛作戦 (Maritime Escort Operation)
+| jptext = 製油所地帯沿岸部の海上輸送ラインを防衛せよ！
+| entext = Protect the supply lines around our coastal refineries!
+}}
+{{MapBranchingTable
+|title = 1-3 Branching Rules
+|expand = true
+|id = 1-3
+|0 -> A/empty, C = 
+*Go to A if fleet contains AO or AV
+*Go to C if fleet contains CV(L)
+*Otherwise, random routing
+
+|A/empty -> D/resource, E = 
+*Meet '''ANY''' of the following to go to D
+**Fleet contains AO
+**DE ≥ 4
+*Go to E if fleet only contains SS(V)
+*80% to D if fleet contains AV and DD+DE ≥ 4
+*Otherwise, random routing
+
+|F -> H/storm, J = 
+*Go to H if fleet contains any CV(B), slow BBs (BBV doesn't count)
+*Meet '''ANY''' of the following to go to J
+**DD ≥ 4
+**Fleet contains CL and DD+DE ≥ 4
+*Otherwise, random routing (The more CV(L/B) you bring, the higher chance you will go to node H)
+
+|H/storm -> G/resource, I/empty, J = 
+*Go to G if fleet contains AO
+*Go to J if fleet contains CL and DD ≥ 2, or fleet contains AV
+*Otherwise
+**If DD ≥ 3, random routing (Very small chance for I)
+**If DD ≤ 2, random routing (Very small chance for G)
+}}
+
+===Stage Guide===
+<br/>'''Recommended Fleet'''
+*'''2 XX 4 DD (XX can't be any heavy ships such as (F)BB or CV, BBV and CVL are fine though)''' guarantees '''F-J branching'''
+<br/>'''Oil Refinery Farming'''
+*The Oil Refinery area is now the new hot spot for farming for {{fuel}} since the former '''"Orel Cruise"''' has become insufficient due to the increase difficulty subs will face on 2-3. As such '''Node D''' of this map now serves as a major area to farm for fuel.
+**'''1 AV, 4-5 D, 0-1 SS / [[Kamoi]], 4-5 DD, SS ([[Luigi Torelli]] recommended)'''
+***Requires [[Drum Canister]] and [[Daihatsu]] type equipment to increase fuel gain
+***You will only have around 80% of reaching node D if you are using the AV comp. If the fleet you are using contains AO such as [[Kamoi]], however, will guarantee node D instead
+***Node D will provide you with with a base amount of '''10/15/20''' {{fuel}}
+***In addition to this, each {{Drum}} and {{LandingCraft}} you equip will give the following bonuses:
+****+2 {{fuel}} per {{Drum}}
+****+3 {{fuel}} per {{LandingCraft}}
+***With enough {{Drum}} and {{LandingCraft}} it can become possible to gain a large amount of resources if you make constant trips to this spot.
+***Once you complete your first battle, return to your base and refuel your fleet before going back out again.
+***If done correctly, this can result in an alarming fuel gain that can end up possibly surpassing any fuel base [[expedition]] making this become the ideal location to farm for fuel.
+***If you use throwaway DDs, remember to remove their [[Drum Canister]] once they run out of fuel and ammo or are critically damaged before scrapping them before proceeding to replace them with another DD that will use the [[Drum Canister]]s to run the map to continue the cycle.
+
+===Nodes and Enemy Encounters===
+{{Map/Image|page=World 1/1-3|
+{{Map/ImageNode|C|x=472|y=285}}
+}}
+
+<div class="map-nodes">
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = '''<span style="color:blue">Battle Avoided</span>'''
+|A1_node_info = "Must be my imagination" (battle avoided)
+|
+|
+|B_label = '''<span style="color:blue">Battle Avoided</span>'''
+|B1_node_info = "Must be my imagination" (battle avoided)
+|
+|C_label = <div id="1-3 C">敵前衛艦隊
+|C-1_node_info = cl_he-class dd_ha-class dd_ha-class
+|C-1_form = line_ahead
+|C-1_xp =
+|C-1_enemy_air_power =
+|C-2_node_info = cl_he-class dd_ha-class dd_ro-class dd_ro-class
+|C-2_form = line_ahead
+|C-2_xp =
+|C-2_enemy_air_power =
+|C-3_node_info = cl_ho-class dd_ro-class dd_ro-class
+|C-3_form = line_ahead
+|C-3_xp =
+|C-3_enemy_air_power =
+|C-4_node_info = cl_ho-class dd_i-class dd_i-class
+|C-4_form = line_ahead
+|C-4_xp =
+|C-4_enemy_air_power =
+|C-5_node_info = cl_he-class dd_ro-class dd_ro-class
+|C-5_form = line_ahead
+|C-5_xp =
+|C-5_enemy_air_power =
+|C-6_node_info = cl_ho-class dd_ha-class dd_ha-class
+|C-6_form = line_ahead
+|C-6_xp =
+|C-6_enemy_air_power =
+|
+|D_label = '''</div><span style="color:green">Resource Node</span>'''
+|D1_node_info = fuel + 10 20
+|
+|E_label = 敵前衛艦隊
+|E-1_node_info = cl_he-class dd_ha-class dd_ro-class dd_ro-class
+|E-1_form = line_ahead
+|E-1_xp =
+|E-1_enemy_air_power =
+|E-2_node_info = cl_he-class dd_ha-class dd_ha-class
+|E-2_form = line_ahead
+|E-2_xp =
+|E-2_enemy_air_power =
+|E-3_node_info = cl_he-class dd_ro-class dd_ro-class
+|E-3_form = line_ahead
+|E-3_xp =
+|E-3_enemy_air_power =
+|E-4_node_info = cl_ho-class dd_ha-class dd_ha-class
+|E-4_form = line_ahead
+|E-4_xp =
+|E-4_enemy_air_power =
+|E-5_node_info = cl_ho-class dd_i-class dd_i-class
+|E-5_form = line_ahead
+|E-5_xp =
+|E-5_enemy_air_power =
+|E-6_node_info = cl_ho-class dd_ro-class dd_ro-class
+|E-6_form = line_ahead
+|E-6_xp =
+|E-6_enemy_air_power =
+|
+|F_label = 敵支援艦隊
+|F-1_node_info = ca_ri-class dd_ro-class dd_ro-class dd_ro-class
+|F-1_form = double_line line_ahead
+|F-1_xp =
+|F-1_enemy_air_power =
+|F-2_node_info = ca_ri-class ca_ri-class dd_ro-class dd_ro-class
+|F-2_form = line_ahead double_line
+|F-2_xp =
+|F-2_enemy_air_power =
+|F-3_node_info = ca_ri-class clt_chi-class dd_ro-class dd_ro-class
+|F-3_form = double_line line_ahead
+|F-3_xp =
+|F-3_enemy_air_power =
+|F-4_node_info = ca_ri-class dd_i-class dd_i-class dd_i-class
+|F-4_form = double_line line_ahead
+|F-4_xp =
+|F-4_enemy_air_power =
+|
+|G_label = '''<span style="color:green">Resource Node</span>'''
+|G1_node_info = fuel + ?
+|
+|H_label = '''<span style="color:purple">Maelstrom Node</span>'''
+|H1_node_info = ammo - ?
+|
+|I_label = '''<span style="color:blue">Battle Avoided</span>'''
+|I1_node_info = "Must be my imagination" (battle avoided)
+|
+|J_label = <div id="1-3 J">敵主力艦隊</div>
+|J-1_node_info = bb_ru-class clt_chi-class cl_he-class dd_ro-class dd_ro-class
+|J-1_form = line_ahead double_line
+|J-1_xp =
+|J-1_enemy_air_power =
+|J-2_node_info = bb_ru-class clt_chi-class cl_he-class dd_i-class dd_i-class
+|J-2_form = line_ahead double_line
+|J-2_xp =
+|J-2_enemy_air_power =
+|J-3_node_info = bb_ru-class cl_he-class dd_i-class dd_i-class dd_i-class
+|J-3_form = line_ahead double_line
+|J-3_xp =
+|J-3_enemy_air_power =
+|
+|final_form = 
+|boss_node = J
+}}</div>
+
+===Drops===
+<div class="mw-customtoggle-1-3-drop globalbutton">Show/Hide Drops</div>
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-1-3-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Ayanami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Akebono]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]] [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Suzukaze]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Shiranui]], [[Kuroshio]]
+| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Nagara]], [[Isuzu]], [[Natori]], [[Yura]], [[Tama]], [[Kiso]]
+| style="text-align:center;" |[[Aoba]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|-
+| style="text-align:center;" |E
+| style="text-align:center;" |[[Hatsuyuki]], [[Isonami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Akebono]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]] [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Suzukaze]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Shiranui]], [[Kuroshio]]
+| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Nagara]], [[Isuzu]], [[Natori]], [[Yura]], [[Tama]], [[Kiso]]
+| style="text-align:center;" | -
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" | -
+|-
+| style="text-align:center;" |F
+| style="text-align:center;" |[[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Akebono]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Suzukaze]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Shiranui]], [[Kuroshio]]
+| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Nagara]], [[Isuzu]], [[Natori]], [[Yura]], [[Tama]], [[Kiso]]
+| style="text-align:center;" | -
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Akagi]]
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">G</span>'''
+| style="text-align:center;" |[[Fubuki]], [[Shirayuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Ayanami]], [[Shikinami]], [[Kisaragi]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Sazanami]], [[Ushio]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Ooshio]], [[Arare]], [[Shiranui]], [[Kuroshio]]
+| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Yuubari]], [[Nagara]], [[Isuzu]], [[Natori]], [[Yura]], [[Kuma]], [[Tama]], [[Kitakami]], [[Kiso]], [[Tenryuu]], [[Tatsuta]]
+| style="text-align:center;" |[[Aoba]], [[Kinugasa]], [[Furutaka]], [[Kako]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Houshou]]
+|}

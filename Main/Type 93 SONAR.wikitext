@@ -1,0 +1,89 @@
+{{EquipmentInfo|46}}
+
+==Introduction==
+対潜兵装です。<br>
+いわゆるパッシブソナーです。性能は残念ながら、あまり良くはありません。<br>
+でも、あるとないとでは大違い！対潜作戦のお供に、ぜひどうぞ！
+
+''An anti-submarine weapon, also known as the passive SONAR. It may not perform its job well, but it's better than nothing. Please use it for anti-submarine operations!''
+
+==Notes==
+Ships receive a 15% [[Damage Calculations#Anti-Submarine Warfare|ASW synergy bonus]] when this is used together with a [[:Category:Depth Charge Projectors|depth charge projector]] or [[:Category:Depth Charges|depth charge]]; and a 43% bonus when all three types are used (must be on the same ship). The 43% bonus does not apply when used together with a [[:Category:Special Depth Charge Projectors|special DCP]].
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Buildable'''
+
+'''Stock equipment''' of {{Ship/Link|Asashimo}}, {{Ship/Link|Fukae Kai}}, {{Ship/Link|Hatakaze Kai}}, {{Ship/Link|Hayanami Kai}}, {{Ship/Link|Hiburi Kai}}, {{Ship/Link|Hirato Kai}}, {{Ship/Link|Katori Kai}}, {{Ship/Link|Kishinami Kai}}, {{Ship/Link|Matsukaze Kai}}, {{Ship/Link|Nowaki Kai}}, {{Ship/Link|Shikinami Kai Ni}}, {{Ship/Link|Shimakaze Kai}}, {{Ship/Link|Tanikaze Kai}}, {{Ship/Link|Tsushima Kai}}, {{Ship/Link|Umikaze Kai Ni}} (★+5), {{Ship/Link|Urakaze D Kai}}, {{Ship/Link|Urakaze Kai}}, {{Ship/Link|Yamakaze Kai}}, {{Ship/Link|Yukikaze Kai}}
+
+'''From quests: '''[[Quests#B42|B42]], [[Quests#B45|B45]]
+
+''From limited-time quests: ''[[Quests/Seasonal#SB03|SB03]]
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|Type 93 Passive Sonar}}, {{Equipment/Link|Type 4 Passive Sonar}}
+
+'''Used by quests: '''[[Quests#F50|F50]]
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2013-05-08:''' '''Implemented'''
+* '''2013-11-01:''' '''Stats increased:'''  '''{{ASW}}+4 {{Hit}}+0 → {{ASW}}+6 {{Hit}}+1 '''
+* '''2014-02-26:''' [[Damage Calculations#Anti-Submarine Warfare|Depth charge synergy]] added
+* '''2015-01-09:''' Became '''improvable''' and '''upgradeable''' to {{Equipment/Link|Type 3 Active Sonar}}
+* '''2015-06-26:''' [[Accuracy, Evasion and Criticals#Evasion Formulas|Bonus torpedo evasion from improvement]] added
+* '''2015-09-25:''' Became '''upgradeable''' to {{Equipment/Link|Type 4 Passive Sonar}}
+* '''2017-02-28:''' Build rate increased
+* '''2021-03-01:''' Visible bonuses added for {{Ship/Link|Katori|Kashima|text=Katori-class}}
+</div></div>
+
+==Fit Bonuses==
+{{:Type 93 Passive Sonar/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine2
+|Name={{PAGENAME}}
+|ItemType=Sonar
+|Fuel=10
+|Ammo=0
+|Steel=30
+|Baux=30
+|Mats0-5=2/2
+|Mats6-9=3/4
+|Mats10=10/20
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=6/12
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{Sonar|Type 93 SONAR}}
+|EquipConsume10=2x{{Sonar|Type 3 Active SONAR}}
+|Sun=S<br>K<br>&nbsp;
+|Mon=&nbsp;<br>&nbsp;<br>I
+|Thu=S<br>&nbsp;<br>I
+|Fri=S<br>K<br>I
+|Sat=S<br>K<br>&nbsp;
+|2ndShip=[[Shigure#Second Upgrade|Shigure Kai Ni]]<br>[[Katori#First Upgrade|Katori Kai]]<br>[[Isuzu#Second Upgrade|Isuzu Kai Ni]]
+|Notes=Upgrades to [[Type 4 Passive SONAR]].
+|Mats10:2=6/9
+|Screws10:2=3/5
+|EquipConsume10:2=2x{{Sonar|Type 93 SONAR}}
+|Sun:2=Y
+|Fri:2=Y
+|Sat:2=Y
+|2ndShip:2=[[Yuubari]]
+|Notes:2=Upgrades to [[Type 3 Active Sonar]] ★+3.
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Anti-submarine Weaponry]]
+[[Category:SONAR]]

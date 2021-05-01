@@ -1,0 +1,82 @@
+===CA Efficiency (Choukai Kai Ni)===
+[[Choukai#Second Upgrade|Choukai Kai Ni]] (highest firepower amongst CA/CAVs at '''85''') equipped with 2x [[20.3cm(no.3) Twin Gun Mount]]★+9 (+ [[Type 3 Shell]] + Seaplane) has an effective firepower of 111.<br/>
+''(Alternatively, 1x [[20.3cm(no.3) Twin Gun Mount]]★+9 and 2x [[OTO 152mm triple extended machine gun]]★+9 + Type 3 Shell gives an effective firepower of 120 at the cost of not able to do artillery spotting attack during daytime.)''<br/>
+Using the latest damage calculation formula, assuming that the remodel Effective Bonus applies against Installation-type enemies and no night spotting, Choukai's expected damage against [[Harbor Princess]]'s final form is:<br/>
+<math> \text {Attack Power} = 111 \times 120 \% \text {(Nighttime Double Attack Modifier)} \times 250 \% \text {(Bonus Against Installation)} = 332.5 </math>, becoming 305 after damage cap calculation<br/>
+<math> 305 - (0.7 \times 177 \text {(Armor of Harbor Princess)} + 0.6 \times \text {Random} (0 \text { ~ } 176 \text {(Armor of Harbor Princess - 1)} )) = 305 - (123.9 + \text {Random} (0 \text { ~ } 105.6)) = 305 - (123.9 \text { ~ } 229.5) = 75.5 \text { ~ } 181.1</math><br/>
+<math> (75.5 \text { ~ } 181.1) \times 80 \% \text {(Remaining Ammo Modifier)} = 60.4 \text { ~ } 144.88</math>, rounds off to '''60 to 144 damage per hit'''.<br/>
+''(Similar calculation yields damage between 62 and 146 per hit with the No.3 + 2x OTO setup.)''
+
+However, if Choukai has suffered Moderated Damage, the calculation becomes<br/>
+<math> \text {Attack Power} = 111 \times 120 \% \times 70 \% \text {(Health Modifier)} \times 250 \% = 232.5 </math>, rounds down to 232
+<math> 232 - (0.7 \times 177 + 0.6 \times \text {Random} (0 \text { ~ } 176)) = 232 - (123.9 + \text {Random} (0 \text { ~ } 105.6)) = 232 - (123.9 \text { ~ } 229.5) = 2.5 \text { ~ } 108.1</math><br/>
+<math> (2.5 \text { ~ } 108.1) \times 80 \% = 2 \text { ~ } 86.48</math>, rounds off to '''2 to 86 damage per hit'''.<br/>
+
+===BB Efficiency (Haruna Kai Ni)===
+[[Haruna#Second Upgrade|Haruna Kai Ni]] has the lowest maximum firepower (96) amongst all final remodel battleships (and variants) except [[Ise]] and [[Hyuuga]]. Equipped with a [[41cm Twin Gun Mount]], [[35.6cm Twin Gun Mount (Dazzle Camouflage)]], [[Type 3 Shell]] and seaplane, she has an effective firepower of 131.
+Her expected damage against [[Harbor Princess]]'s final form is, then<br/>
+<math> \text {Attack Power} = 131 \times 120 \% \times 250 \% = 392.5 </math>, becoming 309 after damage cap calculation<br/>
+<math> 309 - (0.7 \times 177 + 0.6 \times \text {Random} (0 \text { ~ } 176)) = 309 - (123.9 + \text {Random} (0 \text { ~ } 105.6)) = 309 - (123.9 \text { ~ } 229.5) = 79.5 \text { ~ } 185.1</math><br/>
+<math> (79.5 \text { ~ } 185.1) \times 80 \% = 63.6 \text { ~ } 148.08</math>, rounds off to '''63 to 148 damage per hit'''.
+
+If Haruna has suffered Moderated Damage, the calculation becomes<br/>
+<math> \text {Attack Power} = 131 \times 120 \% \times 70 \% \times 250 \% = 272.5 </math>, rounds down to 272<br/>
+<math> 272 - (0.7 \times 177 + 0.6 \times \text {Random} (0 \text { ~ } 176)) = 272 - (123.9 + \text {Random} (0 \text { ~ } 105.6)) = 272 - (123.9 \text { ~ } 229.5) = 42.5 \text { ~ } 148.1</math><br/>
+<math> (42.5 \text { ~ } 148.1) \times 80 \% = 34 \text { ~ } 118.48</math>, rounds off to '''34 to 118 damage per hit'''.
+
+===Observation===
+Clearly, while there was minimal difference between Haruna's (Firepower 131) and Choukai's (Firepower 111) expected damage while not suffering penalties to attack power, there is a significant difference at the moderate damage state. And this is considering the strongest CA(V) compared to the weakest BB (and variants) that are normally used in combat. The damage gap is even bigger if 144 Firepower is obtained, since at 144 Firepower the ship still reaches nighttime damage cap even at moderate damage (144 * 120% * 70% * 250% = 300 even after rounding down during all intermediate steps), so we have<br/>
+<math> 300 - (0.7 \times 177 + 0.6 \times \text {Random} (0 \text { ~ } 176) = 300 - (123.9 + \text {Random} (0 \text { ~ } 105.6)) = 300 - (123.9 \text { ~ } 229.5) = 70.5 \text { ~ } 176.1</math><br/>
+<math> (70.5 \text { ~ } 176.1) \times 80 \% = 56.4 \text { ~ } 140.88</math>, rounds off to '''56 to 140 damage per hit'''.<br/>
+(The expected damage if not penalized for health, in this case, is 65~149 per hit)
+
+So, to summarize: The expected nighttime damage against [[Harbor Princess]] final form is:<br/>
+;Full Health Damage Table
+{| class="wikitable"
+|-
+! scope="col" style="text-align:center;" |Ship (Firepower)
+! scope="col" style="text-align:center;" |Damage Per Hit
+! scope="col" style="text-align:center;" |Average Expected Total Damage
+|-
+| Choukai Kai Ni (111)
+| style="text-align:center;" |60~144
+| style="text-align:center;" |204
+|-
+| Haruna Kai Ni (131)
+| style="text-align:center;" |63~148
+| style="text-align:center;" |211
+|-
+| Theoretical BB (144)
+| style="text-align:center;" |65~149
+| style="text-align:center;" |214
+|-
+| Theoretical BB (150)
+| style="text-align:center;" |66~150
+| style="text-align:center;" |216
+|}
+No significant difference here.
+
+;Moderate Damage Table
+{| class="wikitable"
+|-
+! scope="col" style="text-align:center;" |Ship (Firepower)
+! scope="col" style="text-align:center;" |Damage Per Hit
+! scope="col" style="text-align:center;" |Average Expected Total Damage
+|-
+| Choukai Kai Ni (111)
+| style="text-align:center;" |2~86
+| style="text-align:center;" |88
+|-
+| Haruna Kai Ni (131)
+| style="text-align:center;" |34~118
+| style="text-align:center;" |152
+|-
+| Theoretical BB (144)
+| style="text-align:center;" |56~140
+| style="text-align:center;" |196
+|-
+| Theoretical BB (150)
+| style="text-align:center;" |58~143
+| style="text-align:center;" |201
+|}
+Here a clear gap can be seen.

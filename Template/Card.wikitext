@@ -1,0 +1,27 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Asset|{{{1}}}|type={{{type|}}}|asset=Card|size={{{size|}}}|caption={{#if: {{{text|}}} | {{{text}}} | {{{caption|}}} }}|suffix1={{{suffix1|}}}}}</includeonly><noinclude>
+Inherited from [[Template:Asset]]. Used to display ship, equipment and item cards.
+
+<pre>{{Card|Suisei|type=Equipment|size=80x80px}}</pre>
+{{Card|Suisei|type=Equipment|size=80x80px}}
+
+<pre>{{Card|Suisei|type=Equipment}}</pre>
+{{Card|Suisei|type=Equipment}}
+
+<pre>{{Card|Emergency Repair Goddess|type=Item|size=80x80px}}</pre>
+{{Card|Emergency Repair Goddess|type=Item|size=80x80px}}
+
+<pre>{{Card|Emergency Repair Goddess|type=Item}}</pre>
+{{Card|Emergency Repair Goddess|type=Item}}
+
+<pre>{{Card|Kasumi|type=Ship|size=80px|text=Kachumi}}</pre>
+{{Card|Kasumi|type=Ship|size=80px|text=Kachumi}}
+
+<pre>{{Card|Kasumi|type=Ship|caption=Kachumi}}</pre>
+{{Card|Kasumi|type=Ship|text=Kachumi}}
+
+<pre>{{Card|Kasumi|type=Ship|suffix1=Damaged|size=80px}}</pre>
+{{Card|Kasumi|type=Ship|suffix1=Damaged|size=80px}}
+
+<pre>{{Card|Kasumi|type=Ship|suffix1=Damaged}}</pre>
+{{Card|Kasumi|type=Ship|suffix1=Damaged}}
+</noinclude>

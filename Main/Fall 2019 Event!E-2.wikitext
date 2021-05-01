@@ -1,0 +1,173 @@
+
+===E-2===
+[[File:OoyodoE-2Fall2019.png|600px]]
+{{EventMap1
+|banner = [[File:Fall2019E-2Banner.png|500px]]
+|map_image =[[File:Fall2019E-2Map.png|500px]]
+|map_name = Assault! The 2nd Battle of the Java Sea
+|map_japanese =
+|information = 
+*'''Event Tag''': [[File:Fall2019EventLightBlueTag.png]] '''Air Raid Unit'''
+'''(Phase 1 - Boss): [[Heavy Cruiser Princess]]
+* Hard ({{lang|ja|甲}}): 
+* Medium ({{lang|ja|乙}}): 
+* Easy ({{lang|ja|丙}}):
+* Casual ({{lang|ja|丁}}): 
+
+'''Key Rewards:'''
+* Clearing on Hard ({{lang|ja|甲}}): 1x Medal, 1x [[Reinforcement Expansion]], 2x New Model Rocket Development Material, 2x [[Maritime Resupply]], 1x [[HF/DF + Type144/147 ASDIC]]
+* Clearing on Medium ({{lang|ja|乙}}): 1x [[Reinforcement Expansion]], 2x New Model Rocket Development Material, 2x [[Maritime Resupply]], 1x [[Type144/147 ASDIC]]
+* Clearing on Easy ({{lang|ja|丙}}): 1x [[Reinforcement Expansion]], 2x [[Maritime Resupply]], 1x [[Type124 ASDIC]]
+* Clearing on Casual ({{lang|ja|丁}}): 1x [[Reinforcement Expansion]], 2x [[Maritime Resupply]]
+
+{{MapBranchingTable
+|title = E-2 Branching Rules
+|expand = true
+|id = 46-2
+|order = I,F,B,G,J,L,Q,O
+
+|I -> F/empty, J = * Active branching
+
+|F/empty -> C = * Do not meet the requirements to go to E.
+|F/empty -> E = * Amount of CV(L/B)+(F)BB(V) ≤ 2
+
+|B -> D/empty = * Fast Fleet
+|B -> G = * Slow Fleet
+
+|G -> D/empty = * ???
+|G -> H = * ???
+
+|J -> K = * Do not meet the requirements to go to either L or S.
+|J -> L = 
+* Meet '''ALL''' of the following requirements:
+** Do not meet the requirements to go to S.
+** No CV
+** Amount of CVL+(F)BB(V) ≤ 1
+** Amount of CA(V) ≤ 3
+|J -> S/empty = 
+* Meet '''ALL''' of the following requirements:
+** Fast Fleet
+** Amount of DD ≥ 4
+** No CV
+** Amount of CVL+(F)BB(V) ≤ 1
+** Amount of CA(V) ≤ 3
+** Short is unlocked.
+
+|L -> N = * Do not meet the requirements to go to P.
+|L -> P = 
+* Meet '''ALL''' of the following requirements:
+** No (F)BB(V)
+** No CV
+** Amount of CA(V) ≤ 3
+
+|Q -> O = * Do not meet the requirements to go to R.
+|Q -> R = 
+* Meet '''ALL''' of the following requirements:
+** Pass the LoS check.
+** No CV(B)
+** No BB(V)
+** Amount of CVL+FBB ≤ 1
+
+|O -> M/empty = * Do not meet the requirements to go to R.
+|O -> R = 
+* Meet '''ALL''' of thhe following requirements:
+** Pass the LoS check.
+** No CV(B)
+}}
+
+Branching compositions were reported over the course of the event.
+
+|tips = <br> '''Note: The Current Guide is an early version of the guide and some hints may be subject to change as more information comes out with the release of EO maps and other information. Use this guide with caution as it is subject for possible finalization.'''
+
+'''Preparation'''
+
+On this map, there are several ships that will have historical benefits on this map. A good number of them while useful on this map '''could possibly be useful in later maps'''. So be sure to only use ships you can carefully toss in here while doing this map on Normal and Hard Difficulty. In addition, while there is a mechanic to open a shortcut on this map, completing it isn't entirely necessary.
+
+The only main question you need to ask here is the following:
+
+# Are you willing to use some of the following ships such as [[Choukai]], [[Sendai]], [[Yura]], [[Amagiri]], [[Atago]], [[Takao]], [[Kongou]], [[Haruna]] on this map?
+# Are you willing to go through with completing a shortcut phase on this map?
+
+If you agree with the first one, carefully consider who you'll use as they may become useful in later maps. If you agree with the 2nd, you will need additional ships to meet shortcut requirements. Plan carefully using your ships on this map.
+
+'''Historical Bonuses'''
+
+Below is a list of the following historical bonuses:
+
+* [[Choukai]], [[Sendai]], [[Yura]], [[Amagiri]] - 1.25x
+* [[Kongou]], [[Haruna]], [[Atago]], [[Takao]] - 1.15x
+* [[Akagi]], [[Kaga]] - 1.1x
+* [[Souryuu]], [[Hiryuu]] - 1.1x
+
+You may be able to use up to 3-4 historical ships here that will likely benefit this map. But once more, '''please carefully weigh your options before doing so.'''
+
+'''Step 1: Deciding your course of action'''
+
+On this map, you can choose to do the following options:
+
+* Go Directly for the [[Heavy Cruiser Princess]]
+* Attack Port Darwin (Node A) and defeat the [[Harbor Water Demon]] several times with an A rank to unlock the shortcut (1 times on Easy / Normal, 2 Times on Hard.
+
+Depend on the direction you choose some options will need to be considered, keep in mind however that there it is '''not necessary to do the Node A Shortcut'''
+
+Below we will focus on the shortcut first before engaging in the actual battle. You are welcome to skip and go directly to attacking the [[Heavy Cruiser Princess]].
+
+'''Step 1a: Attack Port Darwin (Node A) and defeat the [[Harbor Water Demon]]'''
+
+*<font color="red">'''Note that it's completely possible to defeat Heavy Cruiser Princess without the need of unlocking extra route. This phase should be done only if your fleet can't finish off the boss in Final Form to take an alternative route to avoid one air raid!'''</font>
+
+* Recommend Fleet: '''2 CA, 1 CL, 2DD, 1 CVL''' (Fast Fleet)
+* Path: '''I-F-E-B-D-A'''
+* LBAS Recommendation:
+**LBAS 1: 1 Land Base Fighter, 3 Land Base Bombers (Distance of 7 Required)
+
+* On this path your fleet will take the shortest route
+* Your Fleet will encounter a surface fleet consisting of CLs and DD, Vanguard Formation is recommended.
+* Air Nodes will require decent air defense and AACI to pass efficiently. Use your CVL as a fighter mule, and bring a DD that can AACI to help efficiently past these nodes.
+*It's recommended to also bring some Anti-Installation equipment, but it's not necessary to use a nuke setup to efficiently kill the enemies in Node A.
+
+[[Harbor Water Demon]] will usually have possibly have an Airfield Princess, 2 DD and 2 Transports. Having an LBAS target this node should make short work of the enemies allowing for your fleet to do extensive damage to the boss. All you will need is 1-2 A ranks to successfully complete the requirements.
+
+Once you successfully complete the requirement you will open a shortcut through nodes '''J-S-P'''
+
+'''Step 1b: Defeat the [[Heavy Cruiser Princess]]'''
+
+<tabber>
+|-|2CA(V) 2DD 1CVL 1CL/CLT Comp=
+* Path: '''I-J-L-P-Q-R'''
+* Standard comp that '''DOES NOT''' go through the shortcut should you decide not to unlock it
+* You will encounter 2 Air Attack Nodes and 2 Surface Battle Nodes before reaching the boss
+* For the Air Nods, use Diamond formation and have a CVL that's a fighter mule along with AACI DD.
+*If you have some of the better planes, a CVL can easily get 110 AP 1 Fighter and 1 Fighter Bomber which you only need at minimum which is considered suitable enough to susive the air attacks. You can then use the other spots for torpedo bombers.
+* For the Surface Fleet, use Line Ahead or Vanguard Formation to take out or evade most of the enemies attacks and survive depending on what you bring.
+|-|1FBB/CVL 1CLT/CA(V)/CL 4DD=
+*Route: '''I-J-S-P-Q-R'''
+* Ths comp will allow you to take the shortcut if you completed Step 1a's process.
+* A '''Fast Fleet" is required to take this path.
+*Going through the shortcut and skipping one air raid node, also enabling second shelling at the boss node for higher chance of disabling the closing torpedo salvo from enemies
+***However, your fleet will become very light due to the presence of 4DDs, may cause higher retreat pre-boss
+*If you have some of the better planes, a CVL can easily get 110 AP 1 Fighter and 1 Fighter Bomber which you only need at minimum which is considered suitable enough to susive the air attacks. You can then use the other spots for torpedo bombers.
+* For the Surface Fleet, use Line Ahead or Vanguard Formation to take out or evade most of the enemies attacks and survive depending on what you bring.
+|-|
+</tabber>
+
+'''Recommended LBAS'''
+*'''4 Land Base Bombers''' (Range 6 Required)
+
+The [[Heavy Cruiser Princess]] will be of a weaker variant that will consist of some CLs and DDs in her fleet. She will not have any airpower therefore allowing your fleet to get an easy AS if you bring a carrier with some fighter power. In addition to this, you can use an all bomber LBAS group to swiftly take out the majority of the enemy fleet so your fleet can focus more on the Princess.
+
+The most effective way to win is to either have a DD that can TCI or use a ship with historical bonuses such as [[Atago]], [[Takao]], and [[Sendai]] who are most effective against the Princess with a double attack on this map. Bringing night battle gear such as a Night scout and star shells will also improve your win rate. Whichever method you choose you can make short work of her and eventually you will clear the map with little effort.
+
+
+The event guides are to be constructed through the respective [[Sandbox/Fall 2019 E-2|Event map page guide]] and reviewed by editor staff / collaboration committee before being approved here. '''Do not under any circumstance update the guides through this page or attempt to fix them through this page.''' Please only update guides through their respective sandbox pages.
+{{clear}}
+
+|comps =
+
+{{Section|collapsed=true|left=true}}
+{{:{{BASEPAGENAME}}/E-2/Enemy comps}}
+{{SectionEnd}}
+
+|drops = {{:{{BASEPAGENAME}}/E-2/Ship drops}}
+
+}}

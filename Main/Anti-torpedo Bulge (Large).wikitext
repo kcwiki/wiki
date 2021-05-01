@@ -1,0 +1,75 @@
+{{EquipmentInfo|73}}
+
+==Introduction==
+艦艇の防御力を強化する増加装甲の一種です。<br>
+戦艦等の大型艦艇の船体側面への増設が可能です。<br>
+(戦艦・巡洋戦艦・航空戦艦・正規空母(含む装甲空母)用)
+
+''This is a type of armor add-on used by warships. It can be mounted on the hulls of battleships or any other large warships. (Useable by battleships, fast battleships, aviation battleships, and standard/armored carriers)''
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Buildable'''
+
+'''Stock equipment''' of {{Ship/Link|Mutsu Kai Ni}}, {{Ship/Link|Nagato Kai Ni}}
+
+'''From quests: '''[[Quests#F83|F83]] (choice)
+
+''From limited-time quests: ''[[Quests/Seasonal#SB15|SB15]] (choice)
+
+''Ranking reward for:''
+* Dec 2013: 1-3, 4-20
+* Jan 2014: 1-3, 4-20, 21-100
+* Feb 2014: 1-3
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|Anti-torpedo Bulge (Large)}}, {{Equipment/Link|New Kanhon Design Anti-torpedo Bulge (Large)}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2014-01-15:''' '''Implemented''' as ranking reward
+* '''2014-03-14:''' '''Stats increased:'''  '''{{Armor}}+8 → {{Armor}}+9 '''
+* '''2014-07-04:''' Became '''buildable'''
+* '''2016-12-22:''' Became '''improvable''' and '''upgradeable''' to {{Equipment/Link|New Kanhon Design Anti-torpedo Bulge (Large)}}, became possible to equip in expansion slots
+</div></div>
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=ArmorEquipment
+|Fuel=80
+|Ammo=0
+|Steel=880
+|Baux=0
+|Mats0-5=8/10
+|Mats6-9=20/30
+|Mats10=32/48
+|Screws0-5=4/5
+|Screws6-9=6/9
+|Screws10=8/12
+|EquipConsume0-5=2x{{ArmorEquipment|Anti-torpedo Bulge (Medium)}}
+|EquipConsume6-9=1x{{ArmorEquipment|Anti-torpedo Bulge (Large)}}
+|EquipConsume10=2x{{ArmorEquipment|Anti-torpedo Bulge (Large)}}
+|Mon=&nbsp;<br>M2<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+|Tue=&nbsp;<br>M2<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+|Wed=M<br>&nbsp;<br>&nbsp;<br>Y<br>&nbsp;<br>&nbsp;
+|Thu=M<br>&nbsp;<br>N<br>Y<br>Mu<br>Mu2
+|Fri=M<br>&nbsp;<br>N<br>Y<br>Mu<br>&nbsp;
+|Sat=&nbsp;<br>&nbsp;<br>N<br>&nbsp;<br>Mu<br>&nbsp;
+|2ndShip=[[Mutsu|Mutsu (base/Kai)]]<br>[[Mutsu#Second Upgrade|Mutsu Kai Ni]]<br>[[Nagato]]<br>[[Yamato]]<br>[[Musashi|Musashi&nbsp;(base/Kai)]]<br>[[Musashi#Second Upgrade|Musashi Kai Ni]]
+|Notes=Upgrades to [[New Design Anti-Torpedo Bulge (Large)]].
+}}
+|}
+
+==See Also==
+[[wikipedia:Anti-torpedo bulge|Anti-torpedo bulge]]
+{{Equipmentlist}}
+[[Category:Armor]]

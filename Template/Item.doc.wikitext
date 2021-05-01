@@ -1,0 +1,402 @@
+==Purpose==
+:Item template to be used in a position:relative divider frame.
+:Intended for interactive maps and especially on [[Shop]] page.
+:''This template is loosely based off [[Template:Node]].''
+==Positioning arguments==
+:<code><nowiki>x-axis</nowiki></code>, <code><nowiki>y-axis</nowiki></code>
+:*Top-left most pixel is the origin
+:*Measured in pixel, input without px unit
+:*'''Images are scaled down to 700px width-wise to fit the screen. If you're using the full size image to make those coordinate, you're off by miles.'''
+==Node type argument==
+:<code><nowiki>type</nowiki></code>
+{| class="wikitable sortable"
+!Icon
+!Type
+!Icon
+!Type
+!Icon
+!Type
+!Icon
+!Type
+|-
+|[[File:Item Icon Instant Repair Material.png|50px]]
+|bucket
+|[[File:Item Icon Instant Construction Material.png|50px]]
+|burner
+|[[File:Item Icon Development Material.png|50px]]
+|devmat
+|[[File:Item Icon Improvement Material.png|50px]]
+|screws
+|-
+|[[File:Item Icon Furniture Box (Small).png|50px]]
+|sbox
+|[[File:Item Icon Furniture Box (Medium).png|50px]]
+|mbox
+|[[File:Item Icon Furniture Box (Large).png|50px]]
+|lbox
+|[[File:Item Icon Dock Opening Key.png|50px]]
+|dockext
+|-
+|[[File:Item Icon Emergency Repair Personnel.png|50px]]
+|damecon
+|[[File:Item Icon Emergency Repair Goddess.png|50px]]
+|damecongod
+|[[File:Item Icon Furniture Fairy.png|50px]]
+|furniturefairy
+|[[File:Item Icon Food Supply Ship Mamiya.png|50px]]
+|mamiya
+|-
+|[[File:Item Icon Marriage Ring and Documents.png|50px]]
+|ring
+|[[File:Item Icon Special Chocolate.png|50px]]
+|chocolate
+|[[File:Item Icon Medal.png|50px]]
+|medal
+|[[File:Item Icon Remodel Blueprint.png|50px]]
+|blueprint
+|-
+|[[File:Item Icon Food Supply Ship Irako.png|50px]]
+|irako
+|[[File:Item Icon Present Box.png|50px]]
+|presentbox
+|[[File:Item Icon First Class Medal.png|50px]]
+|amedal
+|[[File:Item Icon Hishimochi.png|50px]]
+|hishimochi
+|-
+|[[File:Item Icon Headquarters Personnel.png|50px]]
+|hqpersonnel
+|[[File:Item Icon Reinforcement Expansion.png|50px]]
+|punchhole
+|[[File:Item Icon Prototype Flight Deck Catapult.png|50px]]
+|protopult
+|[[File:Item Icon Combat Ration.png|50px]]
+|onigiri
+|-
+|[[File:Item Icon Underway Replenishment.png|50px]]
+|fueldrum
+|[[File:Item Icon Saury.png|50px]]
+|saury
+|[[File:Item Icon Canned Saury.png|50px]]
+|cannedfish
+|[[File:Item Icon Skilled Crew Member.png|50px]]
+|acepilot
+|-
+|[[File:Item Icon Ne Type Engine.png|50px]]
+|netypeengine
+|[[File:Item Icon Decoration Material.png|50px]]
+|decorationmaterial
+|[[File:Item Icon Construction Corps.png|50px]]
+|constructcorps
+|[[File:Item Icon New Technology Aircraft Blueprint.png|50px]]
+|ntablueprint
+|-
+|[[File:Item Icon New Model Gun Mount Improvement Material.png|50px]]
+|gunmountmats
+|[[File:Item Icon Combat Ration (Special Onigiri).png|50px]]
+|sonigiri
+|[[File:Item Icon New Model Aerial Armament Material.png|50px]]
+|aerialmats
+|[[File:Item Icon Action Report.png|50px]]
+|actionreport
+|-
+|[[File:Item Icon Xmas Select Gift Box.png|50px]]
+|xmaspresentbox
+|[[File:Item Icon Rice.png|50px]]
+|okome
+|[[File:Item Icon Umeboshi.png|50px]]
+|umeboshi
+|[[File:Item Icon Nori.png|50px]]
+|nori
+|-
+|[[File:Item Icon Tea.png|50px]]
+|tea
+|[[File:Item Icon Houshou Dinner Ticket.png|50px]]
+|houshou_dinner_ticket
+|[[File:Item Icon Setsubun Beans.png|50px]]
+|setsubun_beans
+|[[File:Item Icon Emergency Repair Material.png|50px]]
+|damemat
+|-
+|[[File:Item Icon New Model Rocket Development Material.png|50px]]
+|rocketmats
+|[[File:Item Icon Sardine.png|50px]]
+|sardine
+|[[File:Item Icon New Model Armament Material.png|50px]]
+|armamentmats
+|<!--inventory item name here-->
+|<!--inventory item image here-->
+|}
+
+:<code><nowiki>type</nowiki></code>
+{| class="wikitable sortable"
+!Icon
+! Paid/Shop Type
+!Icon
+! Paid/Shop Type
+!Icon
+! Paid/Shop Type
+!Icon
+! Paid/Shop Type
+|-
+|[[File:Shop Icon Fuel.png|50px]]
+|p_fuel
+|[[File:Shop Icon Ammo.png|50px]]
+|p_ammo
+|[[File:Shop Icon Steel.png|50px]]
+|p_steel
+|[[File:Shop Icon Bauxite.png|50px]]
+|p_bauxite
+|-
+|[[File:Shop Icon Development Material.png|50px]]
+|p_devmat
+|[[File:Shop Icon Instant Construction Material.png|50px]]
+|p_burner
+|[[File:Shop Icon Instant Repair Material.png|50px]]
+|p_bucket
+|[[File:Shop Icon Discounted Arsenal Set.png|50px]]
+|p_bargainrsc
+|-
+|[[File:Shop Icon Discounted Sortie Set.png|50px]]
+|p_bargainsort
+|[[File:Shop Icon Dock Expansion Set.png|50px]]
+|p_dockext
+|[[File:Shop Icon Emergency Repair Personnel.png|50px]]
+|p_damecon
+!<!--paid/shop item name here-->
+|<!--paid/shop item image here-->
+|-
+|[[File:Shop Icon 88 Resource Set.png|50px]]
+|p_880rscbundl
+|[[File:Shop Icon Emergency Repair Goddess.png|50px]]
+|p_damecongod
+|[[File:Shop Icon Furniture Fairy.png|50px]]
+|p_furniturefairy
+|[[File:Shop Icon Homeport Expansion.png|50px]]
+|p_portexp
+|-
+|[[File:Shop Icon Tanker Expropriation.png|50px]]
+|p_fuelpack
+|[[File:Shop Icon Food Supply Ship Mamiya.png|50px]]
+|p_mamiya
+|[[File:Shop Icon Aluminium Mass Production.png|50px]]
+|p_bauxitepack
+|[[File:Shop Icon Marriage Ring and Documents.png|50px]]
+|p_ring 
+|-
+|[[File:Shop Icon White Day Cookies.png|50px]]
+|p_whitedaycookie
+|[[File:Shop Icon Improvement Material.png|50px]]
+|p_screws
+|[[File:Shop Icon Food Supply Ship Irako.png|50px]]
+|p_irako
+|[[File:Shop Icon Combat Ration.png|50px]]
+|p_onigiri
+|-
+|[[File:Shop Icon Underway Replenishment.png|50px]]
+|p_fueldrum
+|[[File:Shop Icon Reinforcement Expansion.png|50px]]
+|p_punchhole
+|[[File:Shop Icon Construction Corps.png|50px]]
+|p_constructcorps
+|[[File:Shop Icon Emergency Repair Material.png|50px]]
+|p_damemat
+|-
+!<!--paid/shop item name here-->
+|<!--paid/shop item image here-->
+!<!--paid/shop item name here-->
+|<!--paid/shop item image here-->
+!<!--paid/shop item name here-->
+|<!--paid/shop item image here-->
+!<!--paid/shop item name here-->
+|<!--paid/shop item image here-->
+|}
+:*[[File:Blank_square.svg|30px]]
+
+==Embedded link & tooltip arguments==
+:<code><nowiki>tooltip</nowiki></code>
+:*Add a mouse-over tooltip with <code><nowiki>cursor:help</nowiki></code> CSS style.
+:<code><nowiki>link</nowiki></code>
+:*Override <code><nowiki>tooltip</nowiki></code> and embed internal wiki link.
+==Sample/result==
+<tabber>保有アイテム=
+<pre>
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map3" style="position:relative;">[[File:Itempanel.png|link=]]
+{{Item|x-axis=47|y-axis=39|type=ring|link=Shop#Ring}}{{clear}}
+{{Item|x-axis=103|y-axis=39|type=medal|link=Shop#Medal}}{{clear}}
+{{Item|x-axis=159|y-axis=39|type=screws|link=Shop#Screws}}{{clear}}
+{{Item|x-axis=215|y-axis=39|type=irako|link=Shop#Irako}}{{clear}}
+{{Item|x-axis=271|y-axis=39|type=presentbox|link=Shop#PresentBox}}{{clear}}
+{{Item|x-axis=327|y-axis=39|type=chocolate|link=Shop#Chocolate}}{{clear}}
+{{Item|x-axis=382|y-axis=39|type=amedal|link=Shop#AMedal}}{{clear}}
+{{Item|x-axis=439|y-axis=39|type=ntablueprint|link=Shop#NTABlueprint}}{{clear}}
+{{Item|x-axis=47|y-axis=108|type=sbox|link=Shop#SBox}}{{clear}}
+{{Item|x-axis=103|y-axis=108|type=mbox|link=Shop#MBox}}{{clear}}
+{{Item|x-axis=159|y-axis=108|type=lbox|link=Shop#LBox}}{{clear}}
+{{Item|x-axis=215|y-axis=108|type=mamiya|link=Shop#Mamiya}}{{clear}}
+{{Item|x-axis=271|y-axis=108|type=blueprint|link=Shop#Blueprint}}{{clear}}
+{{Item|x-axis=327|y-axis=108|type=furniturefairy|link=Shop#Furniturefairy}}{{clear}}
+{{Item|x-axis=383|y-axis=108|type=hqpersonnel|link=Shop#HQPersonnel}}{{clear}}
+{{Item|x-axis=439|y-axis=108|type=punchhole|link=Shop#Punchhole}}{{clear}}
+{{Item|x-axis=47|y-axis=177|type=bucket|link=Shop#Bucket}}{{clear}}
+{{Item|x-axis=103|y-axis=177|type=burner|link=Shop#Burner}}{{clear}}
+{{Item|x-axis=159|y-axis=177|type=devmat|link=Shop#Devmat}}{{clear}}
+{{Item|x-axis=215|y-axis=177|type=dockext|link=Shop#Dockext}}{{clear}}
+{{Item|x-axis=271|y-axis=177|type=damecon|link=Shop#Damecon}}{{clear}}
+{{Item|x-axis=327|y-axis=177|type=damecongod|link=Shop#DameconGod}}{{clear}}
+{{Item|x-axis=383|y-axis=177|type=hishimochi|link=Shop#Hishimochi}}{{clear}}
+{{Item|x-axis=439|y-axis=177|type=saury|link=Shop#Seasonal}}{{clear}}
+{{Item|x-axis=47|y-axis=246|type=acepilot|link=Shop#AcePilot}}{{clear}}
+{{Item|x-axis=103|y-axis=246|type=protopult|link=Shop#Protopult}}{{clear}}
+{{Item|x-axis=159|y-axis=246|type=netypeengine|link=Shop#NeTypeEngine}}{{clear}}
+{{Item|x-axis=215|y-axis=246|type=cannedfish|link=Shop#CannedFish}}{{clear}}
+{{Item|x-axis=271|y-axis=246|type=onigiri|link=Shop#Onigiri}}{{clear}}
+{{Item|x-axis=327|y-axis=246|type=fueldrum|link=Shop#FuelDrum}}{{clear}}
+{{Item|x-axis=383|y-axis=246|type=constructcorps|link=Shop#ConstructionCorps}}{{clear}}
+<!--{{Item|x-axis=439|y-axis=246|type=saury|link=placeholder1}}{{clear}}-->
+</div>
+<div class="caption">Interactive map. Click on the icons to see more detail.</div>
+{{clear}}
+</div>
+</pre>
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map3" style="position:relative;">[[File:Itempanel.png|link=]]
+{{Item|x-axis=47|y-axis=39|type=ring|link=Shop#Ring}}{{clear}}
+{{Item|x-axis=103|y-axis=39|type=medal|link=Shop#Medal}}{{clear}}
+{{Item|x-axis=159|y-axis=39|type=screws|link=Shop#Screws}}{{clear}}
+{{Item|x-axis=215|y-axis=39|type=irako|link=Shop#Irako}}{{clear}}
+{{Item|x-axis=271|y-axis=39|type=presentbox|link=Shop#PresentBox}}{{clear}}
+{{Item|x-axis=327|y-axis=39|type=chocolate|link=Shop#Chocolate}}{{clear}}
+{{Item|x-axis=382|y-axis=39|type=amedal|link=Shop#AMedal}}{{clear}}
+{{Item|x-axis=439|y-axis=39|type=ntablueprint|link=Shop#NTABlueprint}}{{clear}}
+{{Item|x-axis=47|y-axis=108|type=sbox|link=Shop#SBox}}{{clear}}
+{{Item|x-axis=103|y-axis=108|type=mbox|link=Shop#MBox}}{{clear}}
+{{Item|x-axis=159|y-axis=108|type=lbox|link=Shop#LBox}}{{clear}}
+{{Item|x-axis=215|y-axis=108|type=mamiya|link=Shop#Mamiya}}{{clear}}
+{{Item|x-axis=271|y-axis=108|type=blueprint|link=Shop#Blueprint}}{{clear}}
+{{Item|x-axis=327|y-axis=108|type=furniturefairy|link=Shop#Furniturefairy}}{{clear}}
+{{Item|x-axis=383|y-axis=108|type=hqpersonnel|link=Shop#HQPersonnel}}{{clear}}
+{{Item|x-axis=439|y-axis=108|type=punchhole|link=Shop#Punchhole}}{{clear}}
+{{Item|x-axis=47|y-axis=177|type=bucket|link=Shop#Bucket}}{{clear}}
+{{Item|x-axis=103|y-axis=177|type=burner|link=Shop#Burner}}{{clear}}
+{{Item|x-axis=159|y-axis=177|type=devmat|link=Shop#Devmat}}{{clear}}
+{{Item|x-axis=215|y-axis=177|type=dockext|link=Shop#Dockext}}{{clear}}
+{{Item|x-axis=271|y-axis=177|type=damecon|link=Shop#Damecon}}{{clear}}
+{{Item|x-axis=327|y-axis=177|type=damecongod|link=Shop#DameconGod}}{{clear}}
+{{Item|x-axis=383|y-axis=177|type=hishimochi|link=Shop#Hishimochi}}{{clear}}
+{{Item|x-axis=439|y-axis=177|type=saury|link=Shop#Seasonal}}{{clear}}
+{{Item|x-axis=47|y-axis=246|type=acepilot|link=Shop#AcePilot}}{{clear}}
+{{Item|x-axis=103|y-axis=246|type=protopult|link=Shop#Protopult}}{{clear}}
+{{Item|x-axis=159|y-axis=246|type=netypeengine|link=Shop#NeTypeEngine}}{{clear}}
+{{Item|x-axis=215|y-axis=246|type=cannedfish|link=Shop#CannedFish}}{{clear}}
+{{Item|x-axis=271|y-axis=246|type=onigiri|link=Shop#Onigiri}}{{clear}}
+{{Item|x-axis=327|y-axis=246|type=fueldrum|link=Shop#FuelDrum}}{{clear}}
+{{Item|x-axis=383|y-axis=246|type=constructcorps|link=Shop#ConstructionCorps}}{{clear}}
+<!--{{Item|x-axis=439|y-axis=246|type=saury|link=placeholder1}}{{clear}}-->
+</div>
+{{clear}}
+|-|拡張アイテム=
+<pre>
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map5" style="position:relative;">[[File:ExtendedItempanel.png|link=]]
+<!--{{Item|x-axis=39|y-axis=39|type=ring|link=placeholder10}}{{clear}}-->
+<!--{{Item|x-axis=95|y-axis=39|type=houshou_dinner_ticket|link=Shop#placeholder11}}{{clear}}-->
+{{Item|x-axis=151|y-axis=39|type=actionreport|link=Shop#ActionReport}}{{clear}}
+{{Item|x-axis=39|y-axis=108|type=gunmountmats|link=Shop#GunMountMats}}{{clear}}
+{{Item|x-axis=95|y-axis=108|type=aerialmats|link=Shop#AerialMats}}{{clear}}
+{{Item|x-axis=151|y-axis=108|type=rocketmats|link=Shop#RocketMats}}{{clear}}
+{{Item|x-axis=39|y-axis=177|type=sonigiri|link=Shop#SOnigiri}}{{clear}}
+{{Item|x-axis=95|y-axis=177|type=damemat|link=Shop#DameMat}}{{clear}}
+<!--{{Item|x-axis=151|y-axis=177|type=umeboshi|link=Shop#placeholder13}}{{clear}}-->
+{{Item|x-axis=39|y-axis=246|type=xmaspresentbox|link=Shop#XmasPresentBox}}{{clear}}
+<!--{{Item|x-axis=95|y-axis=246|type=tea|link=Shop#placeholder15}}{{clear}}-->
+<!--{{Item|x-axis=151|y-axis=246|type=nori|link=Shop#placeholder16}}{{clear}}-->
+</div>
+{{clear}}
+</pre>
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map5" style="position:relative;">[[File:ExtendedItempanel.png|link=]]
+<!--{{Item|x-axis=39|y-axis=39|type=ring|link=placeholder10}}{{clear}}-->
+<!--{{Item|x-axis=95|y-axis=39|type=houshou_dinner_ticket|link=Shop#placeholder11}}{{clear}}-->
+{{Item|x-axis=151|y-axis=39|type=actionreport|link=Shop#ActionReport}}{{clear}}
+{{Item|x-axis=39|y-axis=108|type=gunmountmats|link=Shop#GunMountMats}}{{clear}}
+{{Item|x-axis=95|y-axis=108|type=aerialmats|link=Shop#AerialMats}}{{clear}}
+{{Item|x-axis=151|y-axis=108|type=rocketmats|link=Shop#RocketMats}}{{clear}}
+{{Item|x-axis=39|y-axis=177|type=sonigiri|link=Shop#SOnigiri}}{{clear}}
+{{Item|x-axis=95|y-axis=177|type=damemat|link=Shop#DameMat}}{{clear}}
+{{Item|x-axis=151|y-axis=177|type=armamentmats|link=Shop#ArmamentMats}}{{clear}}
+{{Item|x-axis=39|y-axis=246|type=xmaspresentbox|link=Shop#XmasPresentBox}}{{clear}}
+<!--{{Item|x-axis=95|y-axis=246|type=tea|link=Shop#placeholder15}}{{clear}}-->
+<!--{{Item|x-axis=151|y-axis=246|type=nori|link=Shop#placeholder16}}{{clear}}-->
+</div>
+{{clear}}
+
+|-|購入済みアイテム=
+<pre>
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map4" style="position:relative;">[[File:購入済みアイテム_249.png|link=]]
+{{Item|x-axis=50|y-axis=68|type=p_fuel|link=Shop#p_Fuel}}{{clear}}
+{{Item|x-axis=106|y-axis=68|type=p_ammo|link=Shop#p_Ammo}}{{clear}}
+{{Item|x-axis=162|y-axis=68|type=p_steel|link=Shop#p_Steel}}{{clear}}
+{{Item|x-axis=252|y-axis=68|type=p_bauxite|link=Shop#p_Bauxite}}{{clear}}
+{{Item|x-axis=308|y-axis=68|type=p_damecon|link=Shop#p_Damecon}}{{clear}}
+{{Item|x-axis=365|y-axis=68|type=p_damecongod|link=Shop#p_Damecongod}}{{clear}}
+{{Item|x-axis=422|y-axis=68|type=p_onigiri|link=Shop#p_Onigiri}}{{clear}}
+{{Item|x-axis=50|y-axis=144|type=p_devmat|link=Shop#p_Devmat}}{{clear}}
+{{Item|x-axis=106|y-axis=144|type=p_burner|link=Shop#p_Burner}}{{clear}}
+{{Item|x-axis=162|y-axis=144|type=p_bucket|link=Shop#p_Bucket}}{{clear}}
+{{Item|x-axis=252|y-axis=144|type=p_bargainrsc|link=Shop#p_Bargainrsc}}{{clear}}
+{{Item|x-axis=308|y-axis=144|type=p_bargainsort|link=Shop#p_Bargainsort}}{{clear}}
+{{Item|x-axis=365|y-axis=144|type=p_dockext|link=Shop#p_Dockext}}{{clear}}
+{{Item|x-axis=422|y-axis=144|type=p_fueldrum|link=Shop#p_Fueldrum}}{{clear}}
+{{Item|x-axis=50|y-axis=218|type=p_880rscbundl|link=Shop#p_880Rscbundl}}{{clear}}
+{{Item|x-axis=106|y-axis=219|type=p_furniturefairy|link=Shop#p_Furniturefairy}}{{clear}}
+{{Item|x-axis=162|y-axis=219|type=p_fuelpack|link=Shop#p_Fuelpack}}{{clear}}
+{{Item|x-axis=252|y-axis=219|type=p_portexp|link=Shop#PortExtensions}}{{clear}}
+{{Item|x-axis=308|y-axis=219|type=p_mamiya|link=Shop#p_Mamiya}}{{clear}}
+{{Item|x-axis=365|y-axis=219|type=p_bauxitepack|link=Shop#p_Bauxitepack}}{{clear}}
+{{Item|x-axis=422|y-axis=219|type=p_punchhole|link=Shop#p_Punchhole}}{{clear}}
+{{Item|x-axis=50|y-axis=292|type=p_ring|link=Shop#PapersandRings}}{{clear}}
+{{Item|x-axis=106|y-axis=294|type=p_whitedaycookie|link=Shop#WhiteDayCookies}}{{clear}}
+{{Item|x-axis=162|y-axis=294|type=p_irako|link=Shop#p_Irako}}{{clear}}
+{{Item|x-axis=252|y-axis=294|type=p_screws|link=Shop#p_Screws}}{{clear}}
+{{Item|x-axis=308|y-axis=294|type=p_constructcorps|link=Shop#p_ConstructionCorps}}{{clear}}
+{{Item|x-axis=365|y-axis=294|type=p_damemat|link=Shop#p_DameMat}}{{clear}}
+<!--{{Item|x-axis=422|y-axis=294|type=decorationmaterial|link=Shop#Placeholder24}}{{clear}}-->
+</div>
+{{clear}}
+</pre>
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map4" style="position:relative;">[[File:購入済みアイテム_249.png|link=]]
+{{Item|x-axis=50|y-axis=68|type=p_fuel|link=Shop#p_Fuel}}{{clear}}
+{{Item|x-axis=106|y-axis=68|type=p_ammo|link=Shop#p_Ammo}}{{clear}}
+{{Item|x-axis=162|y-axis=68|type=p_steel|link=Shop#p_Steel}}{{clear}}
+{{Item|x-axis=252|y-axis=68|type=p_bauxite|link=Shop#p_Bauxite}}{{clear}}
+{{Item|x-axis=308|y-axis=68|type=p_damecon|link=Shop#p_Damecon}}{{clear}}
+{{Item|x-axis=365|y-axis=68|type=p_damecongod|link=Shop#p_Damecongod}}{{clear}}
+{{Item|x-axis=422|y-axis=68|type=p_onigiri|link=Shop#p_Onigiri}}{{clear}}
+{{Item|x-axis=50|y-axis=144|type=p_devmat|link=Shop#p_Devmat}}{{clear}}
+{{Item|x-axis=106|y-axis=144|type=p_burner|link=Shop#p_Burner}}{{clear}}
+{{Item|x-axis=162|y-axis=144|type=p_bucket|link=Shop#p_Bucket}}{{clear}}
+{{Item|x-axis=252|y-axis=144|type=p_bargainrsc|link=Shop#p_Bargainrsc}}{{clear}}
+{{Item|x-axis=308|y-axis=144|type=p_bargainsort|link=Shop#p_Bargainsort}}{{clear}}
+{{Item|x-axis=365|y-axis=144|type=p_dockext|link=Shop#p_Dockext}}{{clear}}
+{{Item|x-axis=422|y-axis=144|type=p_fueldrum|link=Shop#p_Fueldrum}}{{clear}}
+{{Item|x-axis=50|y-axis=218|type=p_880rscbundl|link=Shop#p_880Rscbundl}}{{clear}}
+{{Item|x-axis=106|y-axis=219|type=p_furniturefairy|link=Shop#p_Furniturefairy}}{{clear}}
+{{Item|x-axis=162|y-axis=219|type=p_fuelpack|link=Shop#p_Fuelpack}}{{clear}}
+{{Item|x-axis=252|y-axis=219|type=p_portexp|link=Shop#PortExtensions}}{{clear}}
+{{Item|x-axis=308|y-axis=219|type=p_mamiya|link=Shop#p_Mamiya}}{{clear}}
+{{Item|x-axis=365|y-axis=219|type=p_bauxitepack|link=Shop#p_Bauxitepack}}{{clear}}
+{{Item|x-axis=422|y-axis=219|type=p_punchhole|link=Shop#p_Punchhole}}{{clear}}
+{{Item|x-axis=50|y-axis=292|type=p_ring|link=Shop#PapersandRings}}{{clear}}
+{{Item|x-axis=106|y-axis=294|type=p_whitedaycookie|link=Shop#WhiteDayCookies}}{{clear}}
+{{Item|x-axis=162|y-axis=294|type=p_irako|link=Shop#p_Irako}}{{clear}}
+{{Item|x-axis=252|y-axis=294|type=p_screws|link=Shop#p_Screws}}{{clear}}
+{{Item|x-axis=308|y-axis=294|type=p_constructcorps|link=Shop#p_ConstructionCorps}}{{clear}}
+{{Item|x-axis=365|y-axis=294|type=p_damemat|link=Shop#p_DameMat}}{{clear}}
+<!--{{Item|x-axis=422|y-axis=294|type=decorationmaterial|link=Shop#Placeholder24}}{{clear}}-->
+</div>
+{{clear}}
+</tabber>

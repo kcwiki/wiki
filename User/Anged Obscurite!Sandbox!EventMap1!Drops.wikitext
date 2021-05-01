@@ -1,0 +1,62 @@
+==={{{map_id}}} Drops===
+<table class="mw-collapsible mw-collapsed wikitable" width="100%">
+<tr>
+	<th style="width:50px;">Node</th>
+	<th>Ship List</th>
+</tr>
+{{#if:{{{dropsA|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">A</td><td>
+{{{dropsA|}}}
+</td></tr>}}{{#if:{{{dropsB|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">B</td><td>
+{{{dropsB|}}}
+</td></tr>}}{{#if:{{{dropsC|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">C</td><td>
+{{{dropsC|}}}
+</td></tr>}}{{#if:{{{dropsD|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">D</td><td>
+{{{dropsD|}}}
+</td></tr>}}{{#if:{{{dropsE|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">E</td><td>
+{{{dropsE|}}}
+</td></tr>}}{{#if:{{{dropsF|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">F</td><td>
+{{{dropsF|}}}
+</td></tr>}}{{#if:{{{dropsG|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">G</td><td>
+{{{dropsG|}}}
+</td></tr>}}{{#if:{{{dropsH|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">H</td><td>
+{{{dropsH|}}}
+</td></tr>}}{{#if:{{{dropsI|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">I</td><td>
+{{{dropsI|}}}
+</td></tr>}}{{#if:{{{dropsJ|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">J</td><td>
+{{{dropsJ|}}}
+</td></tr>}}{{#if:{{{dropsK|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">K</td><td>
+{{{dropsK|}}}
+</td></tr>}}{{#if:{{{dropsL|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">L</td><td>
+{{{dropsL|}}}
+</td></tr>}}{{#if:{{{dropsM|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">M</td><td>
+{{{dropsM|}}}
+</td></tr>}}{{#if:{{{dropsN|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">N</td><td>
+{{{dropsN|}}}
+</td></tr>}}{{#if:{{{dropsO|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">O</td><td>
+{{{dropsO|}}}
+</td></tr>}}{{#if:{{{dropsX|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">X</td><td>
+{{{dropsX|}}}
+</td></tr>}}{{#if:{{{dropsY|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">Y</td><td>
+{{{dropsY|}}}
+</td></tr>}}{{#if:{{{dropsZ|}}}|
+<tr><td style="text-align:center; font-size:18px; font-weight:bold;">Z</td><td>
+{{{dropsZ|}}}}}
+</table>
+|}

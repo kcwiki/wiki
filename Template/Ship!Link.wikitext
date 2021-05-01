@@ -1,0 +1,44 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{#if:{{{kai|}}}{{{kai_ni|}}}|{{Link|{{{1|}}}|{{#if:{{{kai|}}}|{{{1|}}}/Kai}}|{{#if:{{{kai_ni|}}}|{{{1|}}}/Kai Ni}}|type=Ship|asset=Banner|help={{{help|}}}|text={{{text|}}}|link_category={{#if:{{{link_class|}}}|{{{link_class}}} Class|{{{link_category|}}}}}}}|{{Link|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}|{{{11|}}}|{{{12|}}}|{{{13|}}}|{{{14|}}}|{{{15|}}}|{{{16|}}}|{{{17|}}}|{{{18|}}}|{{{19|}}}|{{{20|}}}|type=Ship|asset=Banner|help={{{help|}}}|text={{{text|}}}|link_category={{#if:{{{link_class|}}}|{{{link_class}}} Class|{{{link_category|}}}}}}}}}</includeonly><noinclude>
+Links with ship battle card tooltips. Uses [[Template:Link]] and so is not limited by Lua limits (but is limited in features compared to [[Template:ShipBattleCardKai]], see [[Template:Banner#Interface]]).
+==Examples==
+<pre>{{Ship/Link|Nagato}}</pre>
+{{Ship/Link|Nagato}}
+<pre>{{Ship/Link|Nagato/}}</pre>
+{{Ship/Link|Nagato/}}
+<pre>{{Ship/Link|Hiryuu/Kai Ni}}</pre>
+{{Ship/Link|Hiryuu/Kai Ni}}
+<pre>{{Ship/Link|Hiryuu/Kai Ni|help=true}}</pre>
+{{Ship/Link|Hiryuu/Kai Ni|help=true}}
+<pre>{{Ship/Link|Kongou|Hiei|Kirishima|Haruna|text=Kongou Class|link_class=Kongou|help=true}}</pre>
+{{Ship/Link|Kongou|Hiei|Kirishima|Haruna|text=Kongou Class|link_class=Kongou|help=true}}
+<pre>{{Ship/Link|Fusou/Kai Ni|Yamashiro/Kai Ni|text=Fusou Class (Kai Ni)|link_class=Fusou|help=true}}</pre>
+{{Ship/Link|Fusou/Kai Ni|Yamashiro/Kai Ni|text=Fusou Class (Kai Ni)|link_class=Fusou|help=true}}
+<pre>{{Ship/Link|Littorio|Roma|text=Vittorio Veneto|link_class=Vittorio Veneto|help=true}}</pre>
+{{Ship/Link|Littorio|Roma|text=Vittorio Veneto|link_class=Vittorio Veneto|help=true}}
+<pre>{{Ship/Link|Hiryuu|kai=x|kai_ni=x}}</pre>
+{{Ship/Link|Hiryuu|kai=x|kai_ni=x}}
+<pre>{{Ship/Link|Ro-500|text=Ro-series|link_category=Ro-series}}</pre>
+{{Ship/Link|Ro-500|text=Ro-series|link_category=Ro-series}}
+==Tests==
+(Souryuu in slot 18 to help with counting.)<br>
+{{Ship/Link|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Souryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Souryuu|Hiryuu}}
+{{Ship/Link|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Hiryuu|Souryuu|Hiryuu|Hiryuu}}
+</noinclude>

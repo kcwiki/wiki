@@ -1,0 +1,11 @@
+== Sortable tables ==
+
+I want to make the table on this page and the other EliteX pages sortable to allow people to easily compare ships by one stat. However if there are multiple headers in the table it ends up looking like this: https://i.imgur.com/upZ27JI.png when they get sorted smallest to largest. The three options I've come up with are: removing the inner headers, leaving them in and ignoring how it looks sorted that way, or just not making the tables sortable. Anyone can share their thoughts on this? --[[User:Cenyth|Cenyth]] ([[User talk:Cenyth|talk]]) 17:01, 1 July 2016 (UTC)
+
+:I'd remove the inner headers, they're unnecessary if the table is sortable. --[[User:HydraGoliath|HydraGoliath]] ([[User talk:HydraGoliath|talk]]) 17:35, 1 July 2016 (UTC)
+
+:Being able to sort ships by stats is a useful feature, so I'm also in favor of removing the inner headers. -[[User:IbarakiIbuki|Ibaraki Ibuki]] ([[User talk:IbarakiIbuki|talk]]) 18:02, 1 July 2016 (UTC)
+
+:I'm also highly in support of making the tables sortable and cleaning them up. Was just thinking about it the other day, actually. [[User:Ravien|Ravien]] ([[User talk:Ravien|talk]]) 18:22, 1 July 2016 (UTC)
+::Refer [[Ship list|here]] for floating header? - [[User:KyoriAsh|KyoriAsh]] ([[User talk:KyoriAsh|talk]]) 20:09, 1 July 2016 (UTC)
+:::Unfortunately fixtable and sortable don't seem to work well together. Fixtable duplicates the table header along with (only) that row's width specifications so it needs predictable fixed width tables for the columns to align properly. Sortable replaces the original table with a sortable version and seems to discard any width values the original had, so fixtable's header doesn't align with the resulting table.-[[User:Cenyth|Cenyth]] ([[User talk:Cenyth|talk]]) 19:30, 2 July 2016 (UTC)

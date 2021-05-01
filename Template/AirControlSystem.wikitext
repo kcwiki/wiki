@@ -1,0 +1,23 @@
+	<div id="aircom" style="display: inline-block; width: 450px; border: 1px #555 solid; border-top-left-radius: 10px; border-top-right-radius: 10px; margin-bottom: 20px;">
+{| style="text-align:center; vertical-align: top; width: 450px; margin: 0px;"
+|-
+| colspan=4; style="background-color: #3baef5; padding:1px 2px 1px 2px; color:#ffffff; border-top-left-radius: 8px; border-top-right-radius: 8px; font-size: 120%;" | '''{{{Map}}}'''
+|-
+| style="background-color: #3baef5; padding:1px 2px 1px 2px; color:#ffffff" | '''Fleet'''
+| colspan=3; style="text-align:left;background-color:#F6F6F6;border:1px solid;border-color: #F6F6F6;" | {{{Fleet|}}}
+|-
+| style="background-color: #3baef5; padding:1px 2px 1px 2px; color:#ffffff" | '''Route'''
+| colspan=3; style="text-align:left;background-color:#F6F6F6;border:1px solid;border-color: #F6F6F6;" | {{{Route|}}}
+|-	
+| style="background-color: #3baef5; padding:1px 2px 1px 2px; color:#ffffff" | '''Other Notes'''
+| colspan=3; style="text-align:left;background-color:#F6F6F6;border:1px solid;border-color: #F6F6F6;" | {{{Notes|}}}
+|- style="color:#FFFFFF;"
+|colspan=1; style="background-color: #DBA222; padding:0px; width: 33%;"| '''AP'''
+|colspan=1; style="background-color: #73B344; padding:0px; width: 33%;"| '''AS'''
+|colspan=1; style="background-color: #208A2E; padding:0px; width: 33%;"| '''AS+'''
+|-	
+|style="text-align:center; background-color:#F6F6F6; border:0px solid; border-color: #F6F6F6; width: 33%;"| '''{{#expr: ceil( {{#expr: trunc {{{AS|0}}} }} * 4 / 9 ) }}'''
+|style="text-align:center; background-color:#F6F6F6; border:0px solid; border-color: #F6F6F6; width: 33%;"| '''{{#expr: trunc {{{AS|0}}} }}'''		
+|style="text-align:center; background-color:#F6F6F6; border:0px solid; border-color: #F6F6F6; width: 33%;"| '''{{#expr: ceil( {{#expr: trunc {{{AS|0}}} }} * 2 ) }}'''
+|}</div>
+<noinclude>{{documentation}}</noinclude>

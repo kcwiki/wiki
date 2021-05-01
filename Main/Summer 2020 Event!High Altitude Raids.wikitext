@@ -1,0 +1,779 @@
+The following tests suggest that all Hard and Medium Air Raids are treated as High Altitude Raids (LBAS Air Power is [https://wikiwiki.jp/kancolle/基地航空隊#antiHA multiplied] by 0.5, 0.8, 1.1, or 1.2 for 0, 1, 2, or 3+ [[:Category:High Altitude Interceptors|High Altitude Interceptors]], respectively), while Easy and Casual Air Raids are treated as normal Air Raids (no scaling).
+{|class="wikitable"
+|Min. registered Air Power for the state ~ Max. registered<br>Enemy Air Power → after scaling<br>Δ difference with the scaled boundary
+|}
+==E-3==
+===Casual===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]]<br>[[File:Enemy Banner Destroyer I-Class.png|160x40px|link=Destroyer I-Class]][[File:Enemy Banner Destroyer I-Class.png|160x40px|link=Destroyer I-Class]][[File:Enemy Banner Destroyer I-Class.png|160x40px|link=Destroyer I-Class]]
+|-
+|0||37<br>24 → 48<br>Δ -11~59||90<br>48 → 96<br>Δ -6~124||168~170<br>107 → 214<br>Δ -46~256||226~398<br>213 → 426<br>Δ -200
+|-
+|1||?<br>24 → 30<br>Δ ?||?<br>48 → 60<br>Δ ?||169<br>107 → 134<br>Δ 35~97||?<br>213 → 266<br>Δ ?
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite]][[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]]<br>[[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer I-Class.png|160x40px|link=Destroyer I-Class]][[File:Enemy Banner Destroyer I-Class.png|160x40px|link=Destroyer I-Class]]
+|-
+|0||59<br>32 → 64<br>Δ -5~69||90~92<br>64 → 128<br>Δ -38~194||164~174<br>143 → 286<br>Δ -122~396||289~398<br>285 → 570<br>Δ -281
+|-
+|1||?<br>32 → 40<br>Δ ?||?<br>64 → 80<br>Δ ?||151~172<br>143 → 179<br>Δ -28~184||347~357<br>285 → 356<br>Δ -9
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]]<br>[[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer I-Class.png|160x40px|link=Destroyer I-Class]][[File:Enemy Banner Destroyer I-Class.png|160x40px|link=Destroyer I-Class]]
+|-
+|0||90<br>47 → 94<br>Δ -4~98||155~172<br>94 → 188<br>Δ -33~248||213~289<br>210 → 420<br>Δ -207~551||?<br>420 → 840<br>Δ ?
+|-
+|1||?<br>47 → 59<br>Δ ?||164~172<br>94 → 118<br>Δ 47~91||?<br>210 → 263<br>Δ ?||?<br>420 → 525<br>Δ ?
+|}
+===Easy===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]]<br>[[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer I-Class.png|160x40px|link=Destroyer I-Class]]
+|-
+|0||59<br>47 → 94<br>Δ -35~129||101~209<br>94 → 188<br>Δ -87~211||210~417<br>210 → 420<br>Δ -210~423||424~601<br>420 → 840<br>Δ -416
+|-
+|1||?<br>47 → 59<br>Δ ?||84~187<br>94 → 118<br>Δ -33~76||228~388<br>210 → 263<br>Δ -34~137||431~682<br>420 → 525<br>Δ -94
+|-
+|2||?<br>47 → 43<br>Δ ?||?<br>94 → 85<br>Δ ?||157~382<br>210 → 191<br>Δ -34||386~746<br>420 → 382<br>Δ 4
+|-
+|3||?<br>47 → 39<br>Δ ?||?<br>94 → 78<br>Δ ?||320<br>210 → 175<br>Δ 145~30||396<br>420 → 350<br>Δ 46
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite]][[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]]<br>[[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer I-Class.png|160x40px|link=Destroyer I-Class]]
+|-
+|0||59~62<br>32 → 64<br>Δ -5~66||97~135<br>64 → 128<br>Δ -31~151||150~268<br>143 → 286<br>Δ -136~302||286~662<br>285 → 570<br>Δ -284
+|-
+|1||?<br>32 → 40<br>Δ ?||?<br>64 → 80<br>Δ ?||79~282<br>143 → 179<br>Δ -100~74||291~684<br>285 → 356<br>Δ -65
+|-
+|2||?<br>32 → 29<br>Δ ?||?<br>64 → 58<br>Δ ?||?<br>143 → 130<br>Δ ?||282~746<br>285 → 259<br>Δ 23
+|-
+|3||?<br>32 → 27<br>Δ ?||?<br>64 → 53<br>Δ ?||?<br>143 → 119<br>Δ ?||320<br>285 → 238<br>Δ 83
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite]]<br>[[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]]
+|-
+|0||90~107<br>55 → 110<br>Δ -20~113||110~243<br>110 → 220<br>Δ -110~249||247~443<br>246 → 492<br>Δ -245~541||570~593<br>492 → 984<br>Δ -414
+|-
+|1||?<br>55 → 69<br>Δ ?||77~233<br>110 → 138<br>Δ -60~75||258~484<br>246 → 308<br>Δ -49~131||495~684<br>492 → 615<br>Δ -120
+|-
+|2||?<br>55 → 50<br>Δ ?||?<br>110 → 100<br>Δ ?||291~409<br>246 → 224<br>Δ 67~38||452~633<br>492 → 447<br>Δ 5
+|}
+===Medium===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]]<br>[[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]]
+|-
+|0||?<br>47 → 94<br>Δ ?||279~380<br>94 → 188<br>Δ 91~40||576~776<br>210 → 420<br>Δ 156~64||?<br>420 → 840<br>Δ ?
+|-
+|1||?<br>47 → 59<br>Δ ?||?<br>94 → 118<br>Δ ?||269~499<br>210 → 263<br>Δ 7~26||623<br>420 → 525<br>Δ 98
+|-
+|2||?<br>47 → 43<br>Δ ?||?<br>94 → 85<br>Δ ?||304~366<br>210 → 191<br>Δ 113~16||386~750<br>420 → 382<br>Δ 4
+|-
+|3||?<br>47 → 39<br>Δ ?||?<br>94 → 78<br>Δ ?||246~315<br>210 → 175<br>Δ 71~35||379~476<br>420 → 350<br>Δ 29
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite]]<br>[[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]]
+|-
+|0||162<br>55 → 110<br>Δ 52~58||253~397<br>110 → 220<br>Δ 33~95||593~721<br>246 → 492<br>Δ 101~263||?<br>492 → 984<br>Δ ?
+|-
+|1||?<br>55 → 69<br>Δ ?||268~305<br>110 → 138<br>Δ 131~3||334~499<br>246 → 308<br>Δ 27~116||625<br>492 → 615<br>Δ 10
+|-
+|2||?<br>55 → 50<br>Δ ?||?<br>110 → 100<br>Δ ?||313~435<br>246 → 224<br>Δ 89~12||452~787<br>492 → 447<br>Δ 5
+|-
+|3||?<br>55 → 46<br>Δ ?||?<br>110 → 92<br>Δ ?||246~394<br>246 → 205<br>Δ 41~16||421~686<br>492 → 410<br>Δ 11
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span><br>[[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]]
+|-
+|0||237~256<br>70 → 140<br>Δ 97~24||289~602<br>140 → 280<br>Δ 9~26||636~731<br>314 → 628<br>Δ 8~523||?<br>627 → 1254<br>Δ ?
+|-
+|1||?<br>70 → 88<br>Δ ?||260~358<br>140 → 175<br>Δ 85~35||406~433<br>314 → 393<br>Δ 14~351||?<br>627 → 784<br>Δ ?
+|-
+|2||?<br>70 → 64<br>Δ ?||?<br>140 → 127<br>Δ ?||298~452<br>314 → 285<br>Δ 13~118||684~772<br>627 → 570<br>Δ 114
+|-
+|3||?<br>70 → 58<br>Δ ?||?<br>140 → 117<br>Δ ?||311~421<br>314 → 262<br>Δ 49~102||?<br>627 → 523<br>Δ ?
+|}
+===Hard===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Flagship.png|160x40px|link=Light Carrier Nu-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Abyssal_Cat_Fighter_Kai_556_Equipment.png|35x30px|link=Light Carrier Nu-Class Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Flagship.png|160x40px|link=Light Carrier Nu-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Abyssal_Cat_Fighter_Kai_556_Equipment.png|35x30px|link=Light Carrier Nu-Class Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Flagship.png|160x40px|link=Light Carrier Nu-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Abyssal_Cat_Fighter_Kai_556_Equipment.png|35x30px|link=Light Carrier Nu-Class Flagship III]]</span></span><br>[[File:Enemy Banner Heavy Cruiser Ne-Class Elite.png|160x40px|link=Heavy Cruiser Ne-Class Elite]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]]
+|-
+|0||197~370<br>94 → 188<br>Δ 9~6||378~838<br>188 → 376<br>Δ 2~6||844~912<br>422 → 844<br>Δ 0~774||?<br>843 → 1686<br>Δ ?
+|-
+|1||218<br>94 → 118<br>Δ 101~17||272~504<br>188 → 235<br>Δ 37~24||545~878<br>422 → 528<br>Δ 18~176||?<br>843 → 1054<br>Δ ?
+|-
+|2||?<br>94 → 85<br>Δ ?||168~475<br>188 → 171<br>Δ -3~-91||380~765<br>422 → 384<br>Δ -4~1||766~916<br>843 → 766<br>Δ 0
+|-
+|3||?<br>94 → 78<br>Δ ?||232~421<br>188 → 157<br>Δ 75~-69||351~699<br>422 → 352<br>Δ -1~4||707~930<br>843 → 703<br>Δ 5
+|-
+|4||?<br>94 → 78<br>Δ ?||424~447<br>188 → 157<br>Δ 267~-95||390~426<br>422 → 352<br>Δ 38~277||766~916<br>843 → 703<br>Δ 64
+|-
+|5||?<br>94 → NaN<br>Δ ?||?<br>188 → NaN<br>Δ ?||?<br>422 → NaN<br>Δ ?||816~925<br>843 → NaN<br>Δ NaN
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Flagship.png|160x40px|link=Light Carrier Nu-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Abyssal_Cat_Fighter_Kai_556_Equipment.png|35x30px|link=Light Carrier Nu-Class Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Flagship.png|160x40px|link=Light Carrier Nu-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Abyssal_Cat_Fighter_Kai_556_Equipment.png|35x30px|link=Light Carrier Nu-Class Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Flagship.png|160x40px|link=Light Carrier Nu-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Abyssal_Cat_Fighter_Kai_556_Equipment.png|35x30px|link=Light Carrier Nu-Class Flagship III]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]]
+|-
+|0||251~426<br>117 → 234<br>Δ 17~40||486~912<br>233 → 466<br>Δ 20~132||?<br>522 → 1044<br>Δ ?||?<br>1044 → 2088<br>Δ ?
+|-
+|1||242~287<br>117 → 146<br>Δ 96~4||293~650<br>233 → 291<br>Δ 2~3||653~856<br>522 → 653<br>Δ 1~449||?<br>1044 → 1305<br>Δ ?
+|-
+|2||408~464<br>117 → 106<br>Δ 302~-252||310~475<br>233 → 212<br>Δ 98||476~916<br>522 → 475<br>Δ 1~33||1050<br>1044 → 949<br>Δ 101
+|-
+|3||?<br>117 → 98<br>Δ ?||232~459<br>233 → 194<br>Δ 38~-24||435~867<br>522 → 435<br>Δ 0~3||870~930<br>1044 → 870<br>Δ 0
+|-
+|4||386<br>117 → 98<br>Δ 289~-192||388~455<br>233 → 194<br>Δ 194~-20||719~865<br>522 → 435<br>Δ 284~5||886~916<br>1044 → 870<br>Δ 16
+|-
+|5||?<br>117 → NaN<br>Δ ?||?<br>233 → NaN<br>Δ ?||828<br>522 → NaN<br>Δ NaN||925<br>1044 → NaN<br>Δ NaN
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Flagship.png|160x40px|link=Light Carrier Nu-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Abyssal_Cat_Fighter_Kai_556_Equipment.png|35x30px|link=Light Carrier Nu-Class Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Flagship.png|160x40px|link=Light Carrier Nu-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Abyssal_Cat_Fighter_Kai_556_Equipment.png|35x30px|link=Light Carrier Nu-Class Flagship III]]</span></span>[[File:Enemy Banner Heavy Cruiser Ne-Class Elite.png|160x40px|link=Heavy Cruiser Ne-Class Elite]]<br>[[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]][[File:Enemy Banner Destroyer Ro-Class Late Model.png|160x40px|link=Destroyer Ro-Class Late Model]]
+|-
+|0||129~134<br>63 → 126<br>Δ 3~118||258~562<br>126 → 252<br>Δ 6~2||564~912<br>282 → 564<br>Δ 0~216||?<br>564 → 1128<br>Δ ?
+|-
+|1||?<br>63 → 79<br>Δ ?||264~349<br>126 → 158<br>Δ 107~4||360~684<br>282 → 353<br>Δ 8~21||742~857<br>564 → 705<br>Δ 37
+|-
+|2||?<br>63 → 57<br>Δ ?||233~447<br>126 → 115<br>Δ 118~-191||254~495<br>282 → 256<br>Δ -2~18||548~916<br>564 → 513<br>Δ 35
+|-
+|3||223<br>63 → 53<br>Δ 171~-118||230<br>126 → 105<br>Δ 125~5||211~469<br>282 → 235<br>Δ -24~1||482~930<br>564 → 470<br>Δ 12
+|-
+|4||?<br>63 → 53<br>Δ ?||?<br>126 → 105<br>Δ ?||378~468<br>282 → 235<br>Δ 143~2||776~912<br>564 → 470<br>Δ 306
+|-
+|5||?<br>63 → NaN<br>Δ ?||?<br>126 → NaN<br>Δ ?||?<br>282 → NaN<br>Δ ?||828<br>564 → NaN<br>Δ NaN
+|}
+==E-4==
+===Casual===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess.png|160x40px|link=Destroyer Forest Princess]][[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship]][[File:Enemy Banner Standard Carrier Wo-Class Elite.png|160x40px|link=Standard Carrier Wo-Class Elite]]<br>[[File:Enemy Banner Battleship Ru-Class Elite.png|160x40px|link=Battleship Ru-Class Elite]][[File:Enemy Banner Battleship Ru-Class Elite.png|160x40px|link=Battleship Ru-Class Elite]][[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]]
+|-
+|0||?<br>20 → 40<br>Δ ?||?<br>39 → 78<br>Δ ?||?<br>86 → 172<br>Δ ?||225~422<br>171 → 342<br>Δ -117
+|-
+|1||?<br>20 → 25<br>Δ ?||?<br>39 → 49<br>Δ ?||87~102<br>86 → 108<br>Δ -20~112||208~552<br>171 → 214<br>Δ -6
+|-
+|2||?<br>20 → 18<br>Δ ?||?<br>39 → 35<br>Δ ?||?<br>86 → 78<br>Δ ?||344~391<br>171 → 155<br>Δ 189
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess.png|160x40px|link=Destroyer Forest Princess]][[File:Enemy Banner Standard Carrier Wo-Class Elite.png|160x40px|link=Standard Carrier Wo-Class Elite]][[File:Enemy Banner Standard Carrier Wo-Class Elite.png|160x40px|link=Standard Carrier Wo-Class Elite]]<br>[[File:Enemy Banner Battleship Ru-Class Elite.png|160x40px|link=Battleship Ru-Class Elite]][[File:Enemy Banner Battleship Ru-Class Elite.png|160x40px|link=Battleship Ru-Class Elite]][[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]]
+|-
+|0||?<br>19 → 38<br>Δ ?||?<br>38 → 76<br>Δ ?||?<br>84 → 168<br>Δ ?||188~422<br>168 → 336<br>Δ -148
+|-
+|1||?<br>19 → 24<br>Δ ?||?<br>38 → 48<br>Δ ?||92~166<br>84 → 105<br>Δ -13~44||205~359<br>168 → 210<br>Δ -5
+|-
+|2||?<br>19 → 17<br>Δ ?||?<br>38 → 35<br>Δ ?||?<br>84 → 76<br>Δ ?||340~391<br>168 → 153<br>Δ 187
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess Damaged.png|160x40px|link=Destroyer Forest Princess Damaged]][[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship]][[File:Enemy Banner Standard Carrier Wo-Class Elite.png|160x40px|link=Standard Carrier Wo-Class Elite]]<br>[[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Heavy Cruiser Ne-Class Elite.png|160x40px|link=Heavy Cruiser Ne-Class Elite]]
+|-
+|0||?<br>21 → 42<br>Δ ?||?<br>41 → 82<br>Δ ?||?<br>92 → 184<br>Δ ?||225~422<br>183 → 366<br>Δ -141
+|-
+|1||?<br>21 → 26<br>Δ ?||?<br>41 → 51<br>Δ ?||96<br>92 → 115<br>Δ -19~133||227~359<br>183 → 229<br>Δ -2
+|-
+|2||?<br>21 → 19<br>Δ ?||?<br>41 → 37<br>Δ ?||?<br>92 → 84<br>Δ ?||391<br>183 → 166<br>Δ 225
+|}
+===Easy===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess.png|160x40px|link=Destroyer Forest Princess]][[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship]][[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship]]<br>[[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]]
+|-
+|0||?<br>21 → 42<br>Δ ?||56~83<br>42 → 84<br>Δ -28~103||100~185<br>93 → 186<br>Δ -86~187||185~426<br>186 → 372<br>Δ -187
+|-
+|1||?<br>21 → 26<br>Δ ?||?<br>42 → 53<br>Δ ?||?<br>93 → 116<br>Δ ?||240~549<br>186 → 233<br>Δ 8
+|-
+|2||?<br>21 → 19<br>Δ ?||?<br>42 → 38<br>Δ ?||?<br>93 → 85<br>Δ ?||282~452<br>186 → 169<br>Δ 113
+|-
+|3||?<br>21 → 18<br>Δ ?||?<br>42 → 35<br>Δ ?||?<br>93 → 78<br>Δ ?||398~465<br>186 → 155<br>Δ 243
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess.png|160x40px|link=Destroyer Forest Princess]][[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship]][[File:Enemy Banner Standard Carrier Wo-Class Elite.png|160x40px|link=Standard Carrier Wo-Class Elite]]<br>[[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Heavy Cruiser Ne-Class.png|160x40px|link=Heavy Cruiser Ne-Class]]
+|-
+|0||?<br>21 → 42<br>Δ ?||80<br>41 → 82<br>Δ -2~104||100~150<br>92 → 184<br>Δ -84~216||188~426<br>183 → 366<br>Δ -178
+|-
+|1||?<br>21 → 26<br>Δ ?||?<br>41 → 51<br>Δ ?||?<br>92 → 115<br>Δ ?||260~552<br>183 → 229<br>Δ 31
+|-
+|2||?<br>21 → 19<br>Δ ?||?<br>41 → 37<br>Δ ?||?<br>92 → 84<br>Δ ?||282~452<br>183 → 166<br>Δ 116
+|-
+|3||?<br>21 → 18<br>Δ ?||?<br>41 → 34<br>Δ ?||?<br>92 → 77<br>Δ ?||398~465<br>183 → 153<br>Δ 246
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess Damaged.png|160x40px|link=Destroyer Forest Princess Damaged]][[File:Enemy Banner Battleship Princess Kai.png|160x40px|link=Battleship Princess Kai]][[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship]]<br>[[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship]][[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Heavy Cruiser Ne-Class Kai.png|160x40px|link=Heavy Cruiser Ne-Class Kai]]
+|-
+|0||?<br>22 → 44<br>Δ ?||?<br>43 → 86<br>Δ ?||?<br>96 → 192<br>Δ ?||225~435<br>192 → 384<br>Δ -159
+|-
+|1||?<br>22 → 28<br>Δ ?||?<br>43 → 54<br>Δ ?||?<br>96 → 120<br>Δ ?||253~552<br>192 → 240<br>Δ 13
+|-
+|2||?<br>22 → 20<br>Δ ?||?<br>43 → 39<br>Δ ?||?<br>96 → 87<br>Δ ?||282~452<br>192 → 175<br>Δ 107
+|-
+|3||?<br>22 → 18<br>Δ ?||?<br>43 → 36<br>Δ ?||?<br>96 → 80<br>Δ ?||362~465<br>192 → 160<br>Δ 202
+|}
+===Medium===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess.png|160x40px|link=Destroyer Forest Princess II]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:44px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:60px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:44px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:60px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Flagship III]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Heavy Cruiser Ne-Class Elite.png|160x40px|link=Heavy Cruiser Ne-Class Elite]]
+|-
+|0||204~348<br>92 → 184<br>Δ 20~18||368~754<br>183 → 366<br>Δ 2~66||?<br>410 → 820<br>Δ ?||?<br>819 → 1638<br>Δ ?
+|-
+|1||?<br>92 → 115<br>Δ ?||294~499<br>183 → 229<br>Δ 65~14||?<br>410 → 513<br>Δ ?||?<br>819 → 1024<br>Δ ?
+|-
+|2||?<br>92 → 84<br>Δ ?||183~372<br>183 → 166<br>Δ 17~1||374~495<br>410 → 373<br>Δ 1~250||?<br>819 → 745<br>Δ ?
+|-
+|3||?<br>92 → 77<br>Δ ?||281~340<br>183 → 153<br>Δ 129~2||343~469<br>410 → 342<br>Δ 1~214||?<br>819 → 683<br>Δ ?
+|-
+|4||?<br>92 → 77<br>Δ ?||?<br>183 → 153<br>Δ ?||426<br>410 → 342<br>Δ 84~257||?<br>819 → 683<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess.png|160x40px|link=Destroyer Forest Princess II]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:44px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:60px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:44px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:60px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Flagship III]]</span></span><br>[[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Heavy Cruiser Ne-Class Elite.png|160x40px|link=Heavy Cruiser Ne-Class Elite]]
+|-
+|0||225~267<br>69 → 138<br>Δ 87~9||293~397<br>138 → 276<br>Δ 17~221||?<br>309 → 618<br>Δ ?||?<br>618 → 1236<br>Δ ?
+|-
+|1||?<br>69 → 86<br>Δ ?||346~382<br>138 → 173<br>Δ 174~4||435~499<br>309 → 386<br>Δ 49~274||?<br>618 → 773<br>Δ ?
+|-
+|2||?<br>69 → 63<br>Δ ?||?<br>138 → 125<br>Δ ?||303~491<br>309 → 281<br>Δ 22~71||?<br>618 → 562<br>Δ ?
+|-
+|3||?<br>69 → 58<br>Δ ?||?<br>138 → 115<br>Δ ?||289~469<br>309 → 258<br>Δ 32~46||?<br>618 → 515<br>Δ ?
+|-
+|4||?<br>69 → 58<br>Δ ?||?<br>138 → 115<br>Δ ?||426<br>309 → 258<br>Δ 169~89||?<br>618 → 515<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess Damaged.png|160x40px|link=Destroyer Forest Princess Damaged II]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:44px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:60px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Flagship.png|160x40px|link=Standard Carrier Wo-Class Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:44px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:60px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Flagship III]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Heavy Cruiser Ne-Class Kai.png|160x40px|link=Heavy Cruiser Ne-Class Kai II]]
+|-
+|0||253<br>92 → 184<br>Δ 69~115||370~532<br>184 → 368<br>Δ 2~294||990<br>413 → 826<br>Δ 164~660||?<br>825 → 1650<br>Δ ?
+|-
+|1||?<br>92 → 115<br>Δ ?||392~491<br>184 → 230<br>Δ 162~25||747~1028<br>413 → 516<br>Δ 231~3||?<br>825 → 1031<br>Δ ?
+|-
+|2||?<br>92 → 84<br>Δ ?||334~364<br>184 → 167<br>Δ 167~11||382~720<br>413 → 375<br>Δ 7~30||782~870<br>825 → 750<br>Δ 32
+|-
+|3||?<br>92 → 77<br>Δ ?||?<br>184 → 153<br>Δ ?||395~469<br>413 → 344<br>Δ 51~219||908~913<br>825 → 688<br>Δ 221
+|-
+|4||?<br>92 → 77<br>Δ ?||?<br>184 → 153<br>Δ ?||426<br>413 → 344<br>Δ 82~262||?<br>825 → 688<br>Δ ?
+|}
+===Hard===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess.png|160x40px|link=Destroyer Forest Princess III]][[File:Enemy Banner Battleship Princess Kai.png|160x40px|link=Battleship Princess Kai III]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Kai Flagship.png|160x40px|link=Standard Carrier Wo-Class Kai Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:109px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Kai Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:125px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Kai Flagship III]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Kai Flagship.png|160x40px|link=Standard Carrier Wo-Class Kai Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:109px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Kai Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:125px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Kai Flagship III]]</span></span>[[File:Enemy Banner Battleship Ru-Class Flagship.png|160x40px|link=Battleship Ru-Class Flagship]][[File:Enemy Banner Heavy Cruiser Ne-Class Elite.png|160x40px|link=Heavy Cruiser Ne-Class Elite]]
+|-
+|0||?<br>87 → 174<br>Δ ?||356~504<br>173 → 346<br>Δ 10~270||?<br>387 → 774<br>Δ ?||?<br>774 → 1548<br>Δ ?
+|-
+|1||?<br>87 → 109<br>Δ ?||404~477<br>173 → 216<br>Δ 188~7||485~851<br>387 → 484<br>Δ 1~117||?<br>774 → 968<br>Δ ?
+|-
+|2||?<br>87 → 79<br>Δ ?||?<br>173 → 157<br>Δ ?||369~495<br>387 → 352<br>Δ 17~209||763<br>774 → 704<br>Δ 59
+|-
+|3||?<br>87 → 73<br>Δ ?||262<br>173 → 144<br>Δ 118~61||350~482<br>387 → 323<br>Δ 28~163||800~867<br>774 → 645<br>Δ 155
+|-
+|4||?<br>87 → 73<br>Δ ?||302<br>173 → 144<br>Δ 158~21||361~537<br>387 → 323<br>Δ 39~108||916<br>774 → 645<br>Δ 271
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess.png|160x40px|link=Destroyer Forest Princess III]][[File:Enemy Banner Battleship Princess Kai.png|160x40px|link=Battleship Princess Kai III]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Kai Flagship.png|160x40px|link=Standard Carrier Wo-Class Kai Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:109px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Kai Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:125px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Kai Flagship III]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Kai Flagship.png|160x40px|link=Standard Carrier Wo-Class Kai Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:109px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Kai Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:125px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Kai Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Heavy Cruiser Ne-Class Elite.png|160x40px|link=Heavy Cruiser Ne-Class Elite]]
+|-
+|0||356~410<br>109 → 218<br>Δ 138~24||455~504<br>217 → 434<br>Δ 21~472||?<br>488 → 976<br>Δ ?||?<br>975 → 1950<br>Δ ?
+|-
+|1||?<br>109 → 136<br>Δ ?||304~504<br>217 → 271<br>Δ 33~106||706~821<br>488 → 610<br>Δ 96~398||?<br>975 → 1219<br>Δ ?
+|-
+|2||?<br>109 → 99<br>Δ ?||352~443<br>217 → 197<br>Δ 155~1||446~716<br>488 → 444<br>Δ 2~170||912<br>975 → 886<br>Δ 26
+|-
+|3||?<br>109 → 91<br>Δ ?||323~397<br>217 → 181<br>Δ 142~10||407~777<br>488 → 407<br>Δ 0~36||813~867<br>975 → 813<br>Δ 1
+|-
+|4||?<br>109 → 91<br>Δ ?||330~401<br>217 → 181<br>Δ 149~6||408~426<br>488 → 407<br>Δ 1~387||835<br>975 → 813<br>Δ 23
+|-
+!colspan="5"|[[File:Enemy Banner Destroyer Forest Princess Damaged.png|160x40px|link=Destroyer Forest Princess Damaged III]][[File:Enemy Banner Battleship Princess Kai.png|160x40px|link=Battleship Princess Kai III]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Kai Flagship.png|160x40px|link=Standard Carrier Wo-Class Kai Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:109px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Kai Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:125px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Kai Flagship III]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Standard Carrier Wo-Class Kai Flagship.png|160x40px|link=Standard Carrier Wo-Class Kai Flagship III]]<span class="image-layer" style="line-height:0px;position:absolute;top:9px;left:109px;">[[File:Hell plane 2.png|30x30px|link=Standard Carrier Wo-Class Kai Flagship III]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:0px;left:125px;">[[File:Abyssal Revenge Torpedo Bomber Kai.png|35x44px|link=Standard Carrier Wo-Class Kai Flagship III]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Light Carrier Nu-Class Elite.png|160x40px|link=Light Carrier Nu-Class Elite II]]<span class="image-layer" style="line-height:0px;position:absolute;top:8px;left:126px;">[[File:Hell plane 1.png|25x30px|link=Light Carrier Nu-Class Elite II]]</span></span>[[File:Enemy Banner Heavy Cruiser Ne-Class Kai.png|160x40px|link=Heavy Cruiser Ne-Class Kai III]]
+|-
+|0||368~432<br>110 → 220<br>Δ 148~6||461~894<br>219 → 438<br>Δ 23~88||1267<br>491 → 982<br>Δ 285~695||?<br>981 → 1962<br>Δ ?
+|-
+|1||?<br>110 → 138<br>Δ ?||438~499<br>219 → 274<br>Δ 164~115||666~863<br>491 → 614<br>Δ 52~363||?<br>981 → 1226<br>Δ ?
+|-
+|2||?<br>110 → 100<br>Δ ?||228~444<br>219 → 199<br>Δ 29~2||450~885<br>491 → 446<br>Δ 4~7||907~967<br>981 → 892<br>Δ 15
+|-
+|3||?<br>110 → 92<br>Δ ?||357~409<br>219 → 183<br>Δ 175||412~470<br>491 → 409<br>Δ 3~348||848~1338<br>981 → 818<br>Δ 31
+|-
+|4||?<br>110 → 92<br>Δ ?||365~392<br>219 → 183<br>Δ 183~17||426<br>491 → 409<br>Δ 17~392||839<br>981 → 818<br>Δ 22
+|}
+==E-5==
+===Casual===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||?<br>12 → 24<br>Δ ?||?<br>23 → 46<br>Δ ?||?<br>51 → 102<br>Δ ?||157~422<br>102 → 204<br>Δ -47
+|-
+|1||?<br>12 → 15<br>Δ ?||?<br>23 → 29<br>Δ ?||?<br>51 → 64<br>Δ ?||115~441<br>102 → 128<br>Δ -12
+|-
+|2||?<br>12 → 11<br>Δ ?||?<br>23 → 21<br>Δ ?||?<br>51 → 46<br>Δ ?||370~495<br>102 → 93<br>Δ 277
+|-
+|3||?<br>12 → 10<br>Δ ?||?<br>23 → 19<br>Δ ?||?<br>51 → 43<br>Δ ?||369~448<br>102 → 85<br>Δ 284
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>17 → 34<br>Δ ?||?<br>33 → 66<br>Δ ?||?<br>72 → 144<br>Δ ?||157~422<br>144 → 288<br>Δ -131
+|-
+|1||?<br>17 → 21<br>Δ ?||?<br>33 → 41<br>Δ ?||92~124<br>72 → 90<br>Δ 2~56||228~443<br>144 → 180<br>Δ 48
+|-
+|2||?<br>17 → 15<br>Δ ?||?<br>33 → 30<br>Δ ?||?<br>72 → 65<br>Δ ?||370~495<br>144 → 131<br>Δ 239
+|-
+|3||?<br>17 → 14<br>Δ ?||?<br>33 → 28<br>Δ ?||?<br>72 → 60<br>Δ ?||369~448<br>144 → 120<br>Δ 249
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||31<br>23 → 46<br>Δ -15~61||?<br>46 → 92<br>Δ ?||0~157<br>102 → 204<br>Δ -204~251||0~422<br>204 → 408<br>Δ -408
+|-
+|1||?<br>23 → 29<br>Δ ?||?<br>46 → 58<br>Δ ?||115~135<br>102 → 128<br>Δ -12~120||228~574<br>204 → 255<br>Δ -27
+|-
+|2||?<br>23 → 21<br>Δ ?||?<br>46 → 42<br>Δ ?||?<br>102 → 93<br>Δ ?||370~495<br>204 → 185<br>Δ 185
+|-
+|3||?<br>23 → 19<br>Δ ?||?<br>46 → 38<br>Δ ?||?<br>102 → 85<br>Δ ?||369~448<br>204 → 170<br>Δ 199
+|}
+===Easy===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||?<br>12 → 24<br>Δ ?||?<br>23 → 46<br>Δ ?||?<br>51 → 102<br>Δ ?||222~539<br>102 → 204<br>Δ 18
+|-
+|1||?<br>12 → 15<br>Δ ?||?<br>23 → 29<br>Δ ?||?<br>51 → 64<br>Δ ?||194~561<br>102 → 128<br>Δ 67
+|-
+|2||?<br>12 → 11<br>Δ ?||?<br>23 → 21<br>Δ ?||?<br>51 → 46<br>Δ ?||361~564<br>102 → 93<br>Δ 268
+|-
+|3||?<br>12 → 10<br>Δ ?||?<br>23 → 19<br>Δ ?||?<br>51 → 43<br>Δ ?||355~469<br>102 → 85<br>Δ 270
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>17 → 34<br>Δ ?||33<br>33 → 66<br>Δ -33~111||?<br>72 → 144<br>Δ ?||198~435<br>144 → 288<br>Δ -90
+|-
+|1||?<br>17 → 21<br>Δ ?||?<br>33 → 41<br>Δ ?||?<br>72 → 90<br>Δ ?||194~562<br>144 → 180<br>Δ 14
+|-
+|2||?<br>17 → 15<br>Δ ?||?<br>33 → 30<br>Δ ?||?<br>72 → 65<br>Δ ?||347~564<br>144 → 131<br>Δ 216
+|-
+|3||?<br>17 → 14<br>Δ ?||?<br>33 → 28<br>Δ ?||?<br>72 → 60<br>Δ ?||353~469<br>144 → 120<br>Δ 233
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||?<br>23 → 46<br>Δ ?||?<br>46 → 92<br>Δ ?||123~198<br>102 → 204<br>Δ -81~210||220~474<br>204 → 408<br>Δ -188
+|-
+|1||?<br>23 → 29<br>Δ ?||?<br>46 → 58<br>Δ ?||194<br>102 → 128<br>Δ 67~61||241~562<br>204 → 255<br>Δ -14
+|-
+|2||?<br>23 → 21<br>Δ ?||?<br>46 → 42<br>Δ ?||?<br>102 → 93<br>Δ ?||347~978<br>204 → 185<br>Δ 162
+|-
+|3||?<br>23 → 19<br>Δ ?||?<br>46 → 38<br>Δ ?||?<br>102 → 85<br>Δ ?||353~469<br>204 → 170<br>Δ 183
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||?<br>28 → 56<br>Δ ?||?<br>55 → 110<br>Δ ?||221~228<br>123 → 246<br>Δ -25~264||250~619<br>246 → 492<br>Δ -242
+|-
+|1||?<br>28 → 35<br>Δ ?||?<br>55 → 69<br>Δ ?||186~241<br>123 → 154<br>Δ 32~67||246~625<br>246 → 308<br>Δ -61
+|-
+|2||?<br>28 → 25<br>Δ ?||?<br>55 → 50<br>Δ ?||?<br>123 → 112<br>Δ ?||349~975<br>246 → 224<br>Δ 125
+|-
+|3||?<br>28 → 23<br>Δ ?||?<br>55 → 46<br>Δ ?||?<br>123 → 103<br>Δ ?||360~469<br>246 → 205<br>Δ 155
+|}
+===Medium===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>35 → 70<br>Δ ?||260<br>69 → 138<br>Δ 122~46||308~401<br>153 → 306<br>Δ 2~211||706~894<br>306 → 612<br>Δ 94
+|-
+|1||?<br>35 → 44<br>Δ ?||?<br>69 → 86<br>Δ ?||244~373<br>153 → 191<br>Δ 53~10||396~495<br>306 → 383<br>Δ 14
+|-
+|2||?<br>35 → 32<br>Δ ?||?<br>69 → 63<br>Δ ?||?<br>153 → 139<br>Δ ?||326~682<br>306 → 278<br>Δ 48
+|-
+|3||?<br>35 → 29<br>Δ ?||?<br>69 → 58<br>Δ ?||?<br>153 → 128<br>Δ ?||402~469<br>306 → 255<br>Δ 147
+|-
+|4||?<br>35 → 29<br>Δ ?||?<br>69 → 58<br>Δ ?||?<br>153 → 128<br>Δ ?||426<br>306 → 255<br>Δ 171
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>39 → 78<br>Δ ?||253~340<br>78 → 156<br>Δ 97~8||349~401<br>174 → 348<br>Δ 1~295||706~894<br>348 → 696<br>Δ 10
+|-
+|1||?<br>39 → 49<br>Δ ?||?<br>78 → 98<br>Δ ?||255~426<br>174 → 218<br>Δ 38~9||443~495<br>348 → 435<br>Δ 8
+|-
+|2||?<br>39 → 35<br>Δ ?||?<br>78 → 71<br>Δ ?||?<br>174 → 158<br>Δ ?||328~495<br>348 → 316<br>Δ 12
+|-
+|3||?<br>39 → 33<br>Δ ?||?<br>78 → 65<br>Δ ?||?<br>174 → 145<br>Δ ?||400~469<br>348 → 290<br>Δ 110
+|-
+|4||?<br>39 → 33<br>Δ ?||?<br>78 → 65<br>Δ ?||?<br>174 → 145<br>Δ ?||426<br>348 → 290<br>Δ 136
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||?<br>28 → 56<br>Δ ?||?<br>55 → 110<br>Δ ?||306~401<br>123 → 246<br>Δ 60~91||602~709<br>246 → 492<br>Δ 110
+|-
+|1||?<br>28 → 35<br>Δ ?||?<br>55 → 69<br>Δ ?||262~298<br>123 → 154<br>Δ 108~10||306~656<br>246 → 308<br>Δ -1
+|-
+|2||?<br>28 → 25<br>Δ ?||?<br>55 → 50<br>Δ ?||?<br>123 → 112<br>Δ ?||335~495<br>246 → 224<br>Δ 111
+|-
+|3||?<br>28 → 23<br>Δ ?||?<br>55 → 46<br>Δ ?||?<br>123 → 103<br>Δ ?||407~469<br>246 → 205<br>Δ 202
+|-
+|4||?<br>28 → 23<br>Δ ?||?<br>55 → 46<br>Δ ?||?<br>123 → 103<br>Δ ?||426<br>246 → 205<br>Δ 221
+|}
+===Hard===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|0||?<br>55 → 110<br>Δ ?||?<br>110 → 220<br>Δ ?||?<br>246 → 492<br>Δ ?||?<br>492 → 984<br>Δ ?
+|-
+|1||?<br>55 → 69<br>Δ ?||?<br>110 → 138<br>Δ ?||421~491<br>246 → 308<br>Δ 114~124||?<br>492 → 615<br>Δ ?
+|-
+|2||?<br>55 → 50<br>Δ ?||?<br>110 → 100<br>Δ ?||409~439<br>246 → 224<br>Δ 185~8||452~495<br>492 → 447<br>Δ 5
+|-
+|3||?<br>55 → 46<br>Δ ?||?<br>110 → 92<br>Δ ?||?<br>246 → 205<br>Δ ?||418~667<br>492 → 410<br>Δ 8
+|-
+|4||?<br>55 → 46<br>Δ ?||?<br>110 → 92<br>Δ ?||?<br>246 → 205<br>Δ ?||417~426<br>492 → 410<br>Δ 7
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|1||?<br>49 → 61<br>Δ ?||?<br>97 → 121<br>Δ ?||432~491<br>216 → 270<br>Δ 162~49||733<br>432 → 540<br>Δ 193
+|-
+|2||?<br>49 → 45<br>Δ ?||?<br>97 → 88<br>Δ ?||?<br>216 → 196<br>Δ ?||409~754<br>432 → 393<br>Δ 16
+|-
+|3||?<br>49 → 41<br>Δ ?||?<br>97 → 81<br>Δ ?||?<br>216 → 180<br>Δ ?||404~906<br>432 → 360<br>Δ 44
+|-
+|4||?<br>49 → 41<br>Δ ?||?<br>97 → 81<br>Δ ?||?<br>216 → 180<br>Δ ?||417~426<br>432 → 360<br>Δ 57
+|-
+!colspan="5"|<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|2||?<br>44 → 40<br>Δ ?||?<br>87 → 79<br>Δ ?||?<br>195 → 177<br>Δ ?||452<br>390 → 355<br>Δ 97
+|-
+|3||?<br>44 → 37<br>Δ ?||?<br>87 → 73<br>Δ ?||?<br>195 → 163<br>Δ ?||469<br>390 → 325<br>Δ 144
+|}
+==E-6==
+===Casual===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]
+|-
+|0||?<br>44 → 88<br>Δ ?||192<br>87 → 174<br>Δ 18~198||222~342<br>195 → 390<br>Δ -168~438||?<br>390 → 780<br>Δ ?
+|-
+|1||?<br>44 → 55<br>Δ ?||?<br>87 → 109<br>Δ ?||233~358<br>195 → 244<br>Δ -11~130||569<br>390 → 488<br>Δ 82
+|-
+|3||?<br>44 → 37<br>Δ ?||?<br>87 → 73<br>Δ ?||293~312<br>195 → 163<br>Δ 131~13||388~430<br>390 → 325<br>Δ 63
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>60 → 120<br>Δ ?||214~222<br>119 → 238<br>Δ -24~312||267~342<br>267 → 534<br>Δ -267~726||?<br>534 → 1068<br>Δ ?
+|-
+|1||?<br>60 → 75<br>Δ ?||233<br>119 → 149<br>Δ 84~101||297~370<br>267 → 334<br>Δ -37~298||?<br>534 → 668<br>Δ ?
+|-
+|3||?<br>60 → 50<br>Δ ?||?<br>119 → 99<br>Δ ?||293~430<br>267 → 223<br>Δ 71~15||448<br>534 → 445<br>Δ 3
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||?<br>55 → 110<br>Δ ?||222<br>110 → 220<br>Δ 2~270||262~342<br>246 → 492<br>Δ -230~642||?<br>492 → 984<br>Δ ?
+|-
+|1||?<br>55 → 69<br>Δ ?||213<br>110 → 138<br>Δ 76~95||252~380<br>246 → 308<br>Δ -55~235||565<br>492 → 615<br>Δ -50
+|-
+|3||?<br>55 → 46<br>Δ ?||?<br>110 → 92<br>Δ ?||293~388<br>246 → 205<br>Δ 88~22||428~448<br>492 → 410<br>Δ 18
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>67 → 134<br>Δ ?||262~285<br>133 → 266<br>Δ -4~309||303~342<br>297 → 594<br>Δ -291~846||?<br>594 → 1188<br>Δ ?
+|-
+|1||?<br>67 → 84<br>Δ ?||245~266<br>133 → 166<br>Δ 79~105||305~370<br>297 → 371<br>Δ -66~373||?<br>594 → 743<br>Δ ?
+|-
+|3||?<br>67 → 56<br>Δ ?||?<br>133 → 111<br>Δ ?||312~448<br>297 → 248<br>Δ 65~47||?<br>594 → 495<br>Δ ?
+|}
+===Easy===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>67 → 134<br>Δ ?||259~295<br>133 → 266<br>Δ -7~299||316~439<br>297 → 594<br>Δ -278~749||?<br>594 → 1188<br>Δ ?
+|-
+|1||?<br>67 → 84<br>Δ ?||208~277<br>133 → 166<br>Δ 42~94||302~562<br>297 → 371<br>Δ -69~181||730~786<br>594 → 743<br>Δ -12
+|-
+|2||?<br>67 → 61<br>Δ ?||?<br>133 → 121<br>Δ ?||367~505<br>297 → 270<br>Δ 97~35||?<br>594 → 540<br>Δ ?
+|-
+|3||?<br>67 → 56<br>Δ ?||?<br>133 → 111<br>Δ ?||381~478<br>297 → 248<br>Δ 134~17||?<br>594 → 495<br>Δ ?
+|-
+|4||?<br>67 → 56<br>Δ ?||?<br>133 → 111<br>Δ ?||426<br>297 → 248<br>Δ 179~69||?<br>594 → 495<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|0||?<br>76 → 152<br>Δ ?||268~338<br>151 → 302<br>Δ -34~340||341~447<br>339 → 678<br>Δ -337~909||?<br>678 → 1356<br>Δ ?
+|-
+|1||?<br>76 → 95<br>Δ ?||269~285<br>151 → 189<br>Δ 80~139||345~562<br>339 → 424<br>Δ -79~286||?<br>678 → 848<br>Δ ?
+|-
+|2||?<br>76 → 69<br>Δ ?||?<br>151 → 137<br>Δ ?||364~427<br>339 → 308<br>Δ 56~189||?<br>678 → 616<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||?<br>55 → 110<br>Δ ?||240<br>110 → 220<br>Δ 20~252||259~447<br>246 → 492<br>Δ -233~537||916<br>492 → 984<br>Δ -68
+|-
+|1||?<br>55 → 69<br>Δ ?||?<br>110 → 138<br>Δ ?||251~460<br>246 → 308<br>Δ -56~155||495~680<br>492 → 615<br>Δ -120
+|-
+|2||?<br>55 → 50<br>Δ ?||?<br>110 → 100<br>Δ ?||367~427<br>246 → 224<br>Δ 143~20||712~724<br>492 → 447<br>Δ 265
+|-
+|3||?<br>55 → 46<br>Δ ?||?<br>110 → 92<br>Δ ?||393<br>246 → 205<br>Δ 188~17||448~478<br>492 → 410<br>Δ 38
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>60 → 120<br>Δ ?||252~266<br>119 → 238<br>Δ 14~268||272~447<br>267 → 534<br>Δ -262~621||?<br>534 → 1068<br>Δ ?
+|-
+|1||?<br>60 → 75<br>Δ ?||256~264<br>119 → 149<br>Δ 107~70||268~495<br>267 → 334<br>Δ -66~173||536~575<br>534 → 668<br>Δ -131
+|-
+|2||?<br>60 → 55<br>Δ ?||?<br>119 → 108<br>Δ ?||367~435<br>267 → 243<br>Δ 124~50||?<br>534 → 485<br>Δ ?
+|-
+|3||?<br>60 → 50<br>Δ ?||?<br>119 → 99<br>Δ ?||393<br>267 → 223<br>Δ 171~52||448~688<br>534 → 445<br>Δ 3
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>71 → 142<br>Δ ?||259~295<br>142 → 284<br>Δ -25~341||320~439<br>318 → 636<br>Δ -316~833||?<br>636 → 1272<br>Δ ?
+|-
+|1||?<br>71 → 89<br>Δ ?||239~302<br>142 → 178<br>Δ 62~96||348~562<br>318 → 398<br>Δ -49~233||?<br>636 → 795<br>Δ ?
+|-
+|2||?<br>71 → 65<br>Δ ?||?<br>142 → 129<br>Δ ?||367~439<br>318 → 289<br>Δ 78~139||?<br>636 → 578<br>Δ ?
+|-
+|3||?<br>71 → 59<br>Δ ?||?<br>142 → 118<br>Δ ?||381~478<br>318 → 265<br>Δ 116~52||?<br>636 → 530<br>Δ ?
+|}
+===Medium===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|0||?<br>76 → 152<br>Δ ?||?<br>151 → 302<br>Δ ?||?<br>339 → 678<br>Δ ?||?<br>678 → 1356<br>Δ ?
+|-
+|2||?<br>76 → 69<br>Δ ?||?<br>151 → 137<br>Δ ?||401~452<br>339 → 308<br>Δ 93~164||694<br>678 → 616<br>Δ 78
+|-
+|3||?<br>76 → 63<br>Δ ?||?<br>151 → 126<br>Δ ?||448~469<br>339 → 283<br>Δ 166~96||?<br>678 → 565<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>67 → 134<br>Δ ?||375<br>133 → 266<br>Δ 109~219||609<br>297 → 594<br>Δ 15~579||?<br>594 → 1188<br>Δ ?
+|-
+|2||?<br>67 → 61<br>Δ ?||?<br>133 → 121<br>Δ ?||390~452<br>297 → 270<br>Δ 120~88||?<br>594 → 540<br>Δ ?
+|-
+|3||?<br>67 → 56<br>Δ ?||?<br>133 → 111<br>Δ ?||448~469<br>297 → 248<br>Δ 201~26||865<br>594 → 495<br>Δ 370
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>71 → 142<br>Δ ?||?<br>142 → 284<br>Δ ?||?<br>318 → 636<br>Δ ?||?<br>636 → 1272<br>Δ ?
+|-
+|2||?<br>71 → 65<br>Δ ?||?<br>142 → 129<br>Δ ?||378~477<br>318 → 289<br>Δ 89~101||?<br>636 → 578<br>Δ ?
+|-
+|3||?<br>71 → 59<br>Δ ?||?<br>142 → 118<br>Δ ?||448~469<br>318 → 265<br>Δ 183~61||?<br>636 → 530<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|0||?<br>85 → 170<br>Δ ?||609<br>169 → 338<br>Δ 271~151||?<br>380 → 760<br>Δ ?||?<br>759 → 1518<br>Δ ?
+|-
+|1||?<br>85 → 106<br>Δ ?||?<br>169 → 211<br>Δ ?||676<br>380 → 475<br>Δ 201~273||?<br>759 → 949<br>Δ ?
+|-
+|2||?<br>85 → 77<br>Δ ?||?<br>169 → 154<br>Δ ?||386~452<br>380 → 345<br>Δ 41~238||?<br>759 → 690<br>Δ ?
+|-
+|3||?<br>85 → 71<br>Δ ?||?<br>169 → 141<br>Δ ?||448<br>380 → 317<br>Δ 131~185||?<br>759 → 633<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>60 → 120<br>Δ ?||?<br>119 → 238<br>Δ ?||?<br>267 → 534<br>Δ ?||?<br>534 → 1068<br>Δ ?
+|-
+|2||?<br>60 → 55<br>Δ ?||?<br>119 → 108<br>Δ ?||389~452<br>267 → 243<br>Δ 146~33||?<br>534 → 485<br>Δ ?
+|-
+|3||?<br>60 → 50<br>Δ ?||?<br>119 → 99<br>Δ ?||?<br>267 → 223<br>Δ ?||448~469<br>534 → 445<br>Δ 3
+|}
+===Hard===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>114 → 228<br>Δ ?||?<br>228 → 456<br>Δ ?||?<br>512 → 1024<br>Δ ?||?<br>1023 → 2046<br>Δ ?
+|-
+|2||?<br>114 → 104<br>Δ ?||?<br>228 → 207<br>Δ ?||473~776<br>512 → 465<br>Δ 8~154||?<br>1023 → 930<br>Δ ?
+|-
+|3||?<br>114 → 95<br>Δ ?||394~426<br>228 → 190<br>Δ 204~1||433~847<br>512 → 427<br>Δ 6||894~899<br>1023 → 853<br>Δ 42
+|-
+|4||?<br>114 → 95<br>Δ ?||407<br>228 → 190<br>Δ 217~20||?<br>512 → 427<br>Δ ?||?<br>1023 → 853<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><br>
+|-
+|0||?<br>98 → 196<br>Δ ?||?<br>196 → 392<br>Δ ?||?<br>440 → 880<br>Δ ?||?<br>879 → 1758<br>Δ ?
+|-
+|2||?<br>98 → 89<br>Δ ?||?<br>196 → 178<br>Δ ?||452~783<br>440 → 400<br>Δ 52~16||984<br>879 → 799<br>Δ 185
+|-
+|3||?<br>98 → 82<br>Δ ?||?<br>196 → 163<br>Δ ?||418~469<br>440 → 367<br>Δ 51~264||890~928<br>879 → 733<br>Δ 158
+|-
+|4||?<br>98 → 82<br>Δ ?||?<br>196 → 163<br>Δ ?||426<br>440 → 367<br>Δ 59~307||916<br>879 → 733<br>Δ 184
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|0||?<br>85 → 170<br>Δ ?||?<br>169 → 338<br>Δ ?||?<br>380 → 760<br>Δ ?||?<br>759 → 1518<br>Δ ?
+|-
+|1||?<br>85 → 106<br>Δ ?||?<br>169 → 211<br>Δ ?||812<br>380 → 475<br>Δ 337~137||?<br>759 → 949<br>Δ ?
+|-
+|2||?<br>85 → 77<br>Δ ?||?<br>169 → 154<br>Δ ?||414~495<br>380 → 345<br>Δ 69~195||776~840<br>759 → 690<br>Δ 86
+|-
+|3||?<br>85 → 71<br>Δ ?||?<br>169 → 141<br>Δ ?||409~469<br>380 → 317<br>Δ 92~164||798~912<br>759 → 633<br>Δ 166
+|-
+|4||?<br>85 → 71<br>Δ ?||?<br>169 → 141<br>Δ ?||426<br>380 → 317<br>Δ 109~207||916<br>759 → 633<br>Δ 284
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|0||?<br>92 → 184<br>Δ ?||?<br>183 → 366<br>Δ ?||?<br>410 → 820<br>Δ ?||?<br>819 → 1638<br>Δ ?
+|-
+|1||?<br>92 → 115<br>Δ ?||?<br>183 → 229<br>Δ ?||815<br>410 → 513<br>Δ 303~209||?<br>819 → 1024<br>Δ ?
+|-
+|2||?<br>92 → 84<br>Δ ?||?<br>183 → 166<br>Δ ?||452~491<br>410 → 373<br>Δ 79~254||783~985<br>819 → 745<br>Δ 38
+|-
+|3||?<br>92 → 77<br>Δ ?||?<br>183 → 153<br>Δ ?||374~620<br>410 → 342<br>Δ 32~63||706~983<br>819 → 683<br>Δ 24
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>108 → 216<br>Δ ?||?<br>215 → 430<br>Δ ?||?<br>482 → 964<br>Δ ?||?<br>963 → 1926<br>Δ ?
+|-
+|1||?<br>108 → 135<br>Δ ?||?<br>215 → 269<br>Δ ?||803<br>482 → 603<br>Δ 201~401||?<br>963 → 1204<br>Δ ?
+|-
+|2||?<br>108 → 98<br>Δ ?||?<br>215 → 195<br>Δ ?||446~821<br>482 → 438<br>Δ 8~54||?<br>963 → 875<br>Δ ?
+|-
+|3||?<br>108 → 90<br>Δ ?||?<br>215 → 179<br>Δ ?||426~798<br>482 → 402<br>Δ 24~5||924~928<br>963 → 803<br>Δ 122
+|-
+|4||?<br>108 → 90<br>Δ ?||?<br>215 → 179<br>Δ ?||426<br>482 → 402<br>Δ 24~377||916<br>963 → 803<br>Δ 114
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>101 → 202<br>Δ ?||?<br>201 → 402<br>Δ ?||?<br>452 → 904<br>Δ ?||?<br>903 → 1806<br>Δ ?
+|-
+|1||?<br>101 → 126<br>Δ ?||?<br>201 → 251<br>Δ ?||815<br>452 → 565<br>Δ 250~314||?<br>903 → 1129<br>Δ ?
+|-
+|2||?<br>101 → 92<br>Δ ?||401<br>201 → 183<br>Δ 218~10||432~688<br>452 → 411<br>Δ 21~133||823<br>903 → 821<br>Δ 2
+|-
+|3||?<br>101 → 84<br>Δ ?||?<br>201 → 168<br>Δ ?||408~622<br>452 → 377<br>Δ 31~131||799~982<br>903 → 753<br>Δ 47
+|-
+|4||?<br>101 → 84<br>Δ ?||?<br>201 → 168<br>Δ ?||426<br>452 → 377<br>Δ 49~327||?<br>903 → 753<br>Δ ?
+|}
+==E-7==
+===Casual===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]
+|-
+|0||?<br>44 → 88<br>Δ ?||?<br>87 → 174<br>Δ ?||286~388<br>195 → 390<br>Δ -104~392||401<br>390 → 780<br>Δ -379
+|-
+|1||?<br>44 → 55<br>Δ ?||?<br>87 → 109<br>Δ ?||306~378<br>195 → 244<br>Δ 62~110||486~624<br>390 → 488<br>Δ -1
+|-
+|3||?<br>44 → 37<br>Δ ?||?<br>87 → 73<br>Δ ?||?<br>195 → 163<br>Δ ?||349~439<br>390 → 325<br>Δ 24
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>60 → 120<br>Δ ?||?<br>119 → 238<br>Δ ?||286~491<br>267 → 534<br>Δ -248~577||580<br>534 → 1068<br>Δ -488
+|-
+|1||?<br>60 → 75<br>Δ ?||?<br>119 → 149<br>Δ ?||306~486<br>267 → 334<br>Δ -28~182||?<br>534 → 668<br>Δ ?
+|-
+|2||?<br>60 → 55<br>Δ ?||211<br>119 → 108<br>Δ 103~32||?<br>267 → 243<br>Δ ?||?<br>534 → 485<br>Δ ?
+|-
+|3||?<br>60 → 50<br>Δ ?||?<br>119 → 99<br>Δ ?||361~439<br>267 → 223<br>Δ 139~6||?<br>534 → 445<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||?<br>55 → 110<br>Δ ?||?<br>110 → 220<br>Δ ?||286~401<br>246 → 492<br>Δ -206~583||491~570<br>492 → 984<br>Δ -493
+|-
+|1||?<br>55 → 69<br>Δ ?||?<br>110 → 138<br>Δ ?||306~491<br>246 → 308<br>Δ -1~124||?<br>492 → 615<br>Δ ?
+|-
+|2||?<br>55 → 50<br>Δ ?||194<br>110 → 100<br>Δ 94~30||?<br>246 → 224<br>Δ ?||?<br>492 → 447<br>Δ ?
+|-
+|3||?<br>55 → 46<br>Δ ?||?<br>110 → 92<br>Δ ?||377~389<br>246 → 205<br>Δ 172~21||439<br>492 → 410<br>Δ 29
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>67 → 134<br>Δ ?||286<br>133 → 266<br>Δ 20~308||316~570<br>297 → 594<br>Δ -278~618||?<br>594 → 1188<br>Δ ?
+|-
+|1||?<br>67 → 84<br>Δ ?||?<br>133 → 166<br>Δ ?||306~486<br>297 → 371<br>Δ -65~257||?<br>594 → 743<br>Δ ?
+|-
+|3||?<br>67 → 56<br>Δ ?||?<br>133 → 111<br>Δ ?||393~439<br>297 → 248<br>Δ 146~56||?<br>594 → 495<br>Δ ?
+|}
+===Easy===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>60 → 120<br>Δ ?||?<br>119 → 238<br>Δ ?||?<br>267 → 534<br>Δ ?||?<br>534 → 1068<br>Δ ?
+|-
+|1||?<br>60 → 75<br>Δ ?||221~263<br>119 → 149<br>Δ 72~71||275~291<br>267 → 334<br>Δ -59~377||?<br>534 → 668<br>Δ ?
+|-
+|2||?<br>60 → 55<br>Δ ?||?<br>119 → 108<br>Δ ?||452<br>267 → 243<br>Δ 209~33||?<br>534 → 485<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>67 → 134<br>Δ ?||?<br>133 → 266<br>Δ ?||565<br>297 → 594<br>Δ -29~623||?<br>594 → 1188<br>Δ ?
+|-
+|1||?<br>67 → 84<br>Δ ?||232~291<br>133 → 166<br>Δ 66~80||380~538<br>297 → 371<br>Δ 9~205||648~840<br>594 → 743<br>Δ -94
+|-
+|2||?<br>67 → 61<br>Δ ?||?<br>133 → 121<br>Δ ?||401~452<br>297 → 270<br>Δ 131~88||601<br>594 → 540<br>Δ 61
+|-
+|3||?<br>67 → 56<br>Δ ?||?<br>133 → 111<br>Δ ?||426~448<br>297 → 248<br>Δ 179~47||?<br>594 → 495<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|0||?<br>71 → 142<br>Δ ?||?<br>142 → 284<br>Δ ?||373<br>318 → 636<br>Δ -263~899||?<br>636 → 1272<br>Δ ?
+|-
+|1||?<br>71 → 89<br>Δ ?||254~291<br>142 → 178<br>Δ 77~107||?<br>318 → 398<br>Δ ?||648<br>636 → 795<br>Δ -147
+|-
+|2||?<br>71 → 65<br>Δ ?||?<br>142 → 129<br>Δ ?||405~452<br>318 → 289<br>Δ 116~126||?<br>636 → 578<br>Δ ?
+|-
+|3||?<br>71 → 59<br>Δ ?||?<br>142 → 118<br>Δ ?||411~448<br>318 → 265<br>Δ 146~82||?<br>636 → 530<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span>
+|-
+|0||?<br>55 → 110<br>Δ ?||?<br>110 → 220<br>Δ ?||?<br>246 → 492<br>Δ ?||?<br>492 → 984<br>Δ ?
+|-
+|1||?<br>55 → 69<br>Δ ?||?<br>110 → 138<br>Δ ?||253~290<br>246 → 308<br>Δ -54~325||?<br>492 → 615<br>Δ ?
+|-
+|2||?<br>55 → 50<br>Δ ?||?<br>110 → 100<br>Δ ?||405<br>246 → 224<br>Δ 181~42||452<br>492 → 447<br>Δ 5
+|-
+|3||?<br>55 → 46<br>Δ ?||?<br>110 → 92<br>Δ ?||?<br>246 → 205<br>Δ ?||424~448<br>492 → 410<br>Δ 14
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|0||?<br>76 → 152<br>Δ ?||?<br>151 → 302<br>Δ ?||?<br>339 → 678<br>Δ ?||?<br>678 → 1356<br>Δ ?
+|-
+|1||?<br>76 → 95<br>Δ ?||282<br>151 → 189<br>Δ 93~142||437<br>339 → 424<br>Δ 13~411||?<br>678 → 848<br>Δ ?
+|}
+===Medium===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess IV]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess V]]<span class="image-layer" style="line-height:0px;position:absolute;top:10px;left:120px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess V]]</span></span><br>
+|-
+|2||?<br>71 → 65<br>Δ ?||?<br>142 → 129<br>Δ ?||409<br>318 → 289<br>Δ 120~169||?<br>636 → 578<br>Δ ?
+|}
+===Hard===
+{|class="wikitable" style="text-align:center;width:690px"
+!HA Interceptors!!style="width:20%"|AD!!style="width:20%"|AP!!style="width:20%"|AS!!style="width:20%"|AS+
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>101 → 202<br>Δ ?||?<br>201 → 402<br>Δ ?||?<br>452 → 904<br>Δ ?||?<br>903 → 1806<br>Δ ?
+|-
+|2||?<br>101 → 92<br>Δ ?||?<br>201 → 183<br>Δ ?||473<br>452 → 411<br>Δ 62~348||?<br>903 → 821<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><br>
+|-
+|0||?<br>98 → 196<br>Δ ?||?<br>196 → 392<br>Δ ?||?<br>440 → 880<br>Δ ?||?<br>879 → 1758<br>Δ ?
+|-
+|2||?<br>98 → 89<br>Δ ?||?<br>196 → 178<br>Δ ?||473<br>440 → 400<br>Δ 73~326||?<br>879 → 799<br>Δ ?
+|-
+|3||?<br>98 → 82<br>Δ ?||?<br>196 → 163<br>Δ ?||621<br>440 → 367<br>Δ 254~112||840<br>879 → 733<br>Δ 108
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>114 → 228<br>Δ ?||?<br>228 → 456<br>Δ ?||?<br>512 → 1024<br>Δ ?||?<br>1023 → 2046<br>Δ ?
+|-
+|2||?<br>114 → 104<br>Δ ?||?<br>228 → 207<br>Δ ?||473<br>512 → 465<br>Δ 8~457||?<br>1023 → 930<br>Δ ?
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|0||?<br>85 → 170<br>Δ ?||?<br>169 → 338<br>Δ ?||?<br>380 → 760<br>Δ ?||?<br>759 → 1518<br>Δ ?
+|-
+|2||?<br>85 → 77<br>Δ ?||?<br>169 → 154<br>Δ ?||473<br>380 → 345<br>Δ 128~217||?<br>759 → 690<br>Δ ?
+|-
+|3||?<br>85 → 71<br>Δ ?||?<br>169 → 141<br>Δ ?||426<br>380 → 317<br>Δ 109~207||821<br>759 → 633<br>Δ 189
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span>
+|-
+|0||?<br>108 → 216<br>Δ ?||?<br>215 → 430<br>Δ ?||?<br>482 → 964<br>Δ ?||?<br>963 → 1926<br>Δ ?
+|-
+|3||?<br>108 → 90<br>Δ ?||377<br>215 → 179<br>Δ 198~25||641~660<br>482 → 402<br>Δ 239~143||818<br>963 → 803<br>Δ 16
+|-
+!colspan="5"|[[File:Enemy Banner Lycoris Princess.png|160x40px|link=Lycoris Princess V]]<span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VII]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VII]]</span></span><span class="image-stack" style="display:inline-block;overflow:hidden;vertical-align:middle;position:relative;">[[File:Enemy Banner Airfield Princess.png|160x40px|link=Airfield Princess VI]]<span class="image-layer" style="line-height:0px;position:absolute;top:15px;left:104px;">[[File:Abyssal Liberation Land-based Dive Bomber Ace 562 Equipment.png|32x24px|link=Airfield Princess VI]]</span><span class="image-layer" style="line-height:0px;position:absolute;top:3px;left:125px;">[[File:Abyssal Liberation Land-based Dive Bomber 561 Equipment.png|32x24px|link=Airfield Princess VI]]</span></span><br>
+|-
+|0||?<br>92 → 184<br>Δ ?||?<br>183 → 366<br>Δ ?||?<br>410 → 820<br>Δ ?||?<br>819 → 1638<br>Δ ?
+|}

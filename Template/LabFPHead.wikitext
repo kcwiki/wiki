@@ -1,0 +1,57 @@
+{| style="width:100%; margin:0px 0px 10px 0px; text-align:left;" class="mobile-hide"
+
+<!-- Default: FIRST ROW: Recent/Game updates, SECOND ROW: event lines -->
+<!-- To do: add an example for when there's no event & when there's an event, as well as list images for use -->
+
+<!-- FIRST ROW -->
+|-
+|[[File:Recent_updates.jpg|link=Game Updates]]
+
+
+|<span style="font-size:16px;">'''[[Game Updates]]'''</span><br />
+{{{update_text|&nbsp;}}}<br />
+{{{update_next|&nbsp;}}}
+{{{update_countdown|}}}
+ <!-- During an event, switch these three lines with event lines -->
+
+
+| style="width:110px;" |[[File:Admin_Icon_Front.png|link=Kancolle_Wiki:Staff]]
+
+| style="min-width:230px;" |<span style="font-size:18px;">'''[[Kancolle_Wiki:Policy|Rules & Policies]]'''</span><br />
+&nbsp; &nbsp; &nbsp; &#8226; [[Kancolle_Wiki:Staff|KanColle Wiki Staff]]<br />
+&nbsp; &nbsp; &nbsp; &#8226; [[Suggestion|Suggestions]]<br />
+
+
+<!-- SECOND ROW -->
+|-
+| style="width:110px;" |[[File:Spring2015EventIcon.png|link={{{event_link|Events}}}]]
+| style="min-width:220px;" |<span style="font-size:18px;">{{{event_title|&nbsp;}}}</span><br />
+{{{event_text_1|&nbsp;}}}{{#if: {{{event_text_2|}}}|<br />|}}
+{{{event_text_2|&nbsp;}}}
+ <!-- During regular updates, switch these four lines with recent/game updates -->
+
+|[[File:Wiki_discuss.png|link=General Discussion]]
+|<span style="font-size:18px;">'''[[General Discussion]]'''</span><br />
+&nbsp; &nbsp; &nbsp; &#8226; [[General Discussion/Art|Players' Artworks]]
+
+<!-- THIRD ROW -->
+|-
+|[[File:Seasonal_2015_Cake.png|link=Seasonal]]
+|<span style="font-size:18px;">'''[[Seasonal]]'''</span><br />
+{{{seasonal_text|&nbsp;}}}
+
+|[[File:Wiki_merch.png|link=Merchandise]]
+|<span style="font-size:18px;">'''[[Merchandise|Manga]]'''</span><br />
+& Expanded Franchise
+
+<!-- FOURTH ROW -->
+|-
+| style="width:110px;" |[[File:Wiki_tutorial.png|link=Category:Tutorial]]
+| colspan="1" |
+<span style="font-size:18px;">'''[[:Category:Tutorial|Tutorials]]'''</span>
+<br />
+[[Tutorial: How to Register|Registration]] &nbsp; &#8594; &nbsp; [[Tutorial: Proxy Connection|Connection]] &nbsp; &#8594; &nbsp; [[Tutorial: How to Play|Gameplay]] &nbsp; &#8594; &nbsp; [[Tutorial: Leveling|Leveling]]
+<br />
+[[Tutorial: FAQ|FAQ]] &nbsp; / &nbsp; [[Glossary]] &nbsp; / &nbsp; [[Tutorial: Troubleshooting|Troubleshooting]]
+|}
+[[Category:Main_Page]]

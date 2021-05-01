@@ -1,0 +1,45 @@
+==Description==
+This template is used to insert descriptions on template pages.
+
+==Syntax==
+Add <code><nowiki><noinclude></nowiki>{{t|documentation}}<nowiki></noinclude></nowiki></code> at the end of the template page.
+
+==Usage==
+
+===On the Template page===
+This is the normal format when used:
+
+<pre>
+TEMPLATE CODE<includeonly>Any categories to be inserted into articles by the template</includeonly><noinclude>
+{{documentation}}</noinclude>
+</pre>
+
+''If your template is not a completed div or table, you may need to close the tags just before <code><nowiki>{{documentation}}</nowiki></code> is inserted (within the noinclude tags).''
+
+''A line break right before <code><nowiki>{{documentation}}</nowiki></code> can also be useful as it helps prevent the documentation template "running into" previous code.''
+
+===On the Template/doc page===
+Normally, you will want to write something like the following on the documentation page:
+
+<pre>
+==Description==
+This template is used to do something.
+
+==Syntax==
+Type <code>{{t|templatename}}</code> somewhere.
+
+==Samples==
+<code>&lt;nowiki>{{templatename|input}}&lt;/nowiki></code> 
+
+results in...
+
+{{templatename|input}}
+
+<includeonly>Any categories for the template itself</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>
+</pre>
+
+Use any or all of the above description/syntax/sample output sections. You may also want to add "see also" or other sections.
+
+Note that the above example also uses the [[Template:T]] and [[Template:T/piece]] templates.
+
+<includeonly>[[Category:General wiki templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

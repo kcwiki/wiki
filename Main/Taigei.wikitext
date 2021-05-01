@@ -1,0 +1,883 @@
+==Info==
+{{KanmusuInfo|ID=184}}
+{{KanmusuInfo|ID=185}}
+{{KanmusuInfo|ID=190}}
+{{KanmusuInfo|ID=483}}
+{{KanmusuInfo|ID=488}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Can only carry seaplanes before remodel to Ryuuhou.
+
+===Overview===
+'''Taigei'''
+* Low firepower, HP and armour.
+
+'''Ryuuhou'''
+* Low firepower, HP and armour.
+* Low slot count.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Very Low'''
+
+* Taigei
+: Her main use as Taigei is routing requirements in 6-1. In all other respects, she is a subpar ship. She can be used to contest air superiority where carriers are banned but any other aviation ship will be better than her.
+
+* Ryuuhou
+: Her firepower is bad and her plane counts to not help. In addition, she has a bad slot distribution with a single large slot and the rest of her slots being small. This limits her to taking only one bomber. Her one saving grace is that her large slot is on top which allows her to take advantage of the proficiency bonus easily. All that said, her remodel requires a blueprint which makes it very costly for the minimal benefits she brings.
+
+====Not Recommended Roles====
+* Combat
+* Air Support
+* Shelling Support
+* Airstrike Support
+
+==Voice Lines==
+===Quotes===
+'''Taigei'''
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = こんにちわ。潜水母艦、大鯨です。不束者ですが、よろしくお願い致します。
+|translation = Hello. I'm the submarine tender, Taigei. I may not be very skilled, but please take good care of me.
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 潜水母艦、大鯨です。
+潜水艦作戦を支援します。いざという時は、空母に改装できる空母予備艦として設計されました。頑張ります。
+|translation = I'm the submarine tender, Taigei.
+I will support submarine operations. In desperate circumstances, I can be remodeled into a reserve aircraft carrier. I'll do my best.
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = なんでしょうか?
+|translation = What is it?
+|audio = Kc184v2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 潜水艦と編成ですか？お任せください。
+|translation = A submarine composition? Leave it to me.
+|audio = Kc184v3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = ええと、この中ですか？玉ねぎや馬鈴薯…あと…補給用の魚雷とか…です…はい…
+|translation = Ummm, in here? There's onions and potatoes... also... extra torpedoes... yes...
+}}
+{{ShipquoteKai
+|scenario = Idle
+|origin = て・い・と・く、提督！あ、あの…潜水艦作戦は…あっ、しばらくお休み…そ、そうですか…いえ、なんでもないんです…はい…
+|translation = Ad~mi~ra~l~, Admiral! U-ummm... about the submarine operation... Ah, it's time to rest a while... I-is that so... No, it's nothing... Yes...
+}}
+{{ShipquoteKai
+|scenario = Secretary Married
+|origin = 提督、お疲れではないですか？私、潜水母艦なので、居住性はちょっと自信あります。
+|translation = Aren't you tired, Admiral? Since I'm a submarine tender, I'm confident in my comforts.<ref>Submarine tenders were also designed to house submarine crews to allow them to rest.</ref>
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督、こんな私を、生まれたままの姿で育ててくれて、本当にありがとうございます…いつも、はい、いつも、感謝しています。いつまでも、提督と一緒に…
+|translation = Thank you very much for all the training you've provided since I've arrived, Admiral. I'll always, yes, I'll always be grateful. I'll be with you always...
+}}
+{{ShipquoteKai
+|scenario = Looking At Scores
+|origin = 提督、状況把握ですね、大切ですね。
+|translation = Admiral, you want to know the situation, right? That's important.
+}}
+{{ShipquoteKai
+|scenario = Joining A Fleet
+|origin = 潜水艦隊旗艦、大鯨、出撃します。
+|translation = Submarine squadron flagship, Taigei, sortieing.
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = まあ… ありがとうございます。
+|translation = Well... Thank you very much.
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = 本当に。ちょっと嬉しいかも。
+|translation = Honestly. I might be a little bit happy.
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = 嬉しいかも。
+|translation = I might be happy.
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = はい、ありがとうございます。
+|translation = Yes, thank you very much.
+}}
+{{ShipquoteKai
+|scenario = Docking Minor
+|origin = ごめんなさい、ちょっとお風呂に…。
+|translation = I'm sorry, I'll be in the bath for a while...
+}}
+{{ShipquoteKai
+|scenario = Docking Major
+|origin = すみません、また少しお風呂に…あう、電気溶接だとダメなのかしら。
+|translation = Sorry, I need to go take another short bath... I-I wonder if the arc welding is bad.<ref>She was one of the first ships made by the IJN using electric welding techniques. As a result of the immature technology, the joins in her hull were weak. This resulted in many problems with leaks.</ref>
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = まあ、新しいお仲間が来たみたいです。
+|translation = Well, it looks like some new comrades have arrived.
+}}
+{{ShipquoteKai
+|scenario = Returning From Sortie
+|origin = 無事帰ってきました。よかった。
+|translation = We're back safely. Thank goodness.
+}}
+{{ShipquoteKai
+|scenario = Starting A Sortie
+|origin = 潜水母艦、大鯨、抜錨しますね。
+|translation = Submarine tender, Taigei, setting sail.
+}}
+{{ShipquoteKai
+|scenario = Battle Start
+|origin = 敵艦発見！…ど…どうしましょう？
+|translation = Enemy ships spotted! ...Wh...what should I do?
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = ええ、ええと…こ、攻撃。
+|translation = Uuuh, ummmm... A-attack.
+}}
+{{ShipquoteKai
+|scenario = Night Attack
+|origin = 当たって…当たって。
+|translation = Hit... please hit.
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = この武装で艦隊戦は…無理かも。
+|translation = It's probably impossible... for me to participate in a naval battle with this equipment.
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = えっ…嘘…わ、私…あっ、ありがとうございます…がん、頑張ります！
+|translation = Eh... No way... I-I'm... Th-thank you very much... I-I'll do my best!
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = きゃー。
+|translation = Kyah
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = やっ…やめてください。
+|translation = Pl... please stop that.
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = ちょ…直撃。もっ…もうやだ…排水を急いで、沈んちゃう。
+|translation = A... direct hit. En... enough already... If I don't pump out the water quickly, I'll sink.
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = え…私、沈むの…これが…水の…中……
+|translation = Eh... I'm sinking... This is... the depths of... the sea...
+}}
+|} <references/>
+
+{{clear}}
+
+'''Ryuuhou'''
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|name=Ryuuhou
+|origin = 潜水母艦改装空母の、龍鳳です。航空母艦として、私、頑張ります。
+|translation = I'm the submarine tender converted into an aircraft carrier, Ryuuhou. I'll do my best as an aircraft carrier.
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai2e = yes
+|name=Ryuuhou
+|origin = 機動部隊、航空母艦龍鳳、本気で参ります。
+|translation = Carrier task force, carrier Ryuuhou, ready for anything.
+}}
+{{ShipquoteKai
+|scenario = Library
+|name=Ryuuhou
+|origin = 潜水母艦改装空母の龍鳳です。
+機関の換装の影響で速度は計画通りには出なかったけれど、このクラスの軽空母としては充実の飛行甲板と兵装なんです。
+空母龍鳳、精一杯頑張ります。
+|translation = I'm the submarine tender convered into an aircraft carrier, Ryuuhou.
+Although my speed wasn't as high as planned due to an engine replacement, I'm still a class of light carrier armed with a full sized flight deck.<ref>Her diesel engines were replaced by turbine engines during her conversion. Although more powerful, they were not enough to overcome the increased displacement and her speed was reduced by 2 knots.</ref>
+I'll do my very best as the carrier Ryuuhou.
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|name=Ryuuhou
+|origin = はい、出撃ですか？
+|translation = Yes, is it a sortie?
+|audio = Ryuuhou-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|name=Ryuuhou
+|origin = 不幸…運が悪い…ええ、私が…そんなこと無いです。
+|translation = Unfortunate... having bad luck... Eh, that... doesn't apply to me.
+|audio = Ryuuhou-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|name=Ryuuhou
+|kai = yes
+|origin = えっ！？機動部隊の出撃ですか！？
+|translation = Eh!? Sortieing with the carrier task force!?<ref>Kidou Butai (機動部隊) literally means 'mobile force' but the IJN used it to refer to their carrier task forces.</ref>
+|audio = RyuuhouKai-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|name=Ryuuhou
+|kai2e = yes
+|origin =機動部隊、出撃準備、参ります。
+|translation = Carrier task force ready to sortie.
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|name=Ryuuhou
+|origin = ドーリットル、何か、ちょっと苦手な響きの言葉ですね。何もしない…何…
+|translation = Somehow I don't quite like the sound of the word 'Doolittle'. I couldn't do anything... what...<ref>She was the only ship damaged during the [https://en.wikipedia.org/wiki/Doolittle_Raid Doolittle Raid].</ref>
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|name=Ryuuhou
+|kai = yes
+|origin = もう！輸送艦や防空砲台じゃなくて、私、空母です！空母！
+|translation = Jeez! I'm not a transport ship or an anti-air battery, I'm a carrier! A carrier!<ref>She was used primarily for transporting planes during the war. After being badly damaged in the [https://en.wikipedia.org/wiki/Bombing_of_Kure_(July_1945) Bombing of Kure], she was permanently moored in the bay and had AA guns set up on her as an air defense position.</ref>
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|name=Ryuuhou
+|kai2e = yes
+|origin = 提督、あ…あの、低速軽空母だって、十分戦えますよね。輸送艦代わりの遠征ばっかりじゃ、ないですよね？ねぇ？私、信じてます。
+|translation = Admiral, uh-ummm, even though I'm a slow light carrier, I'm still good in a fight. You're not going to use me for nothing but expeditions, right? Right? I trust you.
+}}
+{{ShipquoteKai
+|scenario = Idle
+|name=Ryuuhou
+|origin = て・い・と・く？提督！あ、あの、空母機動部隊の出撃は？…あ…えっと…暫くお休み？…そ、そうですか…あ、はい…
+|translation = Ad~mi~ra~l~? Admiral! U-ummm, is it time for the carrier task force to sortie? ...Ah... Ummm... rest for a while? ...I-I see... Ah, yes...
+}}
+{{ShipquoteKai
+|scenario = Idle
+|kai2 = yes
+|name=Ryuuhou
+|origin = 素敵ですね？提督、このワイン、私の装束と同じ色。て・い・と・く、私酔ってしまえそうです。
+|translation =Isn't this wonderful? Admiral, this wine is the same colour as my clothes. Ad~ mi~ ra~ l~, I'm a bit tipsy now.
+}}
+{{ShipquoteKai
+|name=Ryuuhou
+|scenario = Secretary Married
+|origin = 提督、お疲れではないですか？私の飛行甲板で少しお休みになられますか？はい。
+|translation = Aren't you tired, Admiral? Would you like to rest a while on my flight deck? Yes.
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|name=Ryuuhou
+|origin = 提督、改装空母の私をここまで育ててくれて、本当にありがとうございます。いつも、いつも感謝しています。いつまでも、いつまでも提督の機動部隊に、私…
+|translation =Thank you very much for all the training from when I was convered into a carrier, Admiral. I'm... I'm always grateful. I want to always, always be a part of your task force, Admiral...
+}}
+{{ShipquoteKai
+|scenario = Looking At Scores
+|name=Ryuuhou
+|origin = 提督、どんな状況ですか。大丈夫？
+|translation = What's the situation, Admiral? Is it fine?
+}}
+{{ShipquoteKai
+|scenario = Joining A Fleet
+|name=Ryuuhou
+|origin = はい、航空母艦「龍鳳」、抜錨します。
+|translation = Yes, aircraft carrier Ryuuhou, setting sail.
+}}
+{{ShipquoteKai
+|scenario = Joining A Fleet
+|name=Ryuuhou
+|kai = yes
+|origin = 空母龍鳳の本当の力、お見せしたいと思います！
+|translation = I want to show you my true power!
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|name=Ryuuhou
+|origin = 嬉しいです、ありがとうございます。
+|translation = I'm happy, thank you very much.
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|name=Ryuuhou
+|kai = yes
+|origin = 天山って、可愛いと思うんです、私。
+|translation = I think the Tenzans are cute.
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|name=Ryuuhou
+|origin = これなら、敵艦載機に負けません。
+|translation = I won't lose to enemy planes with this.
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|name=Ryuuhou
+|kai = yes
+|origin = 提督、ありがとうございます！
+|translation = Thank you very much, Admiral!
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|name=Ryuuhou
+|kai2 = yes
+|origin = あら、美味しい。素敵ですね。
+|translation = Oh my, it's delicious. This is wonderful.
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|name=Ryuuhou
+|kai2e = yes
+|origin = あら、美味しい。素敵ですね。
+|translation = Oh my, it's delicious. This is wonderful.
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|name=Ryuuhou
+|origin = やりましたね。
+|translation = I've done it.
+}}
+{{ShipquoteKai
+|scenario = Supply
+|name=Ryuuhou
+|origin = 艦載機の補充も、感謝いたします。
+|translation = Thanks for replacing my planes too.
+}}
+{{ShipquoteKai
+|scenario = Docking Minor
+|name=Ryuuhou
+|origin = ちょっとお風呂入りますね。
+|translation = I'll be in the bath for a while.
+}}
+{{ShipquoteKai
+|scenario = Docking Major
+|name=Ryuuhou
+|origin = すいません。ちょっと、長いお風呂になるかも。
+|translation = Sorry, I'll be taking quite a long bath.
+}}
+{{ShipquoteKai
+|scenario = Construction
+|name=Ryuuhou
+|origin = 新しい仲間が来たみたい。
+|translation = Looks like a new comrade has arrived.
+}}
+{{ShipquoteKai
+|scenario = Returning From Sortie
+|name=Ryuuhou
+|origin = 今回も無事帰って来れました。よかった。
+|translation = We returned safely again this time. Thank goodness.
+}}
+{{ShipquoteKai
+|scenario = Returning From Sortie
+|name=Ryuuhou
+|kai = yes
+|origin = 無事に母港に戻って来れました。よかった。
+|translation = We've returned safely to port. Thank goodness.
+}}
+{{ShipquoteKai
+|scenario = Starting A Sortie
+|name=Ryuuhou
+|origin = 機動部隊、出撃です！勝つ気で参ります。
+|translation = Task Force, sortieing! Forwards to victory.
+}}
+{{ShipquoteKai
+|scenario = Battle Start
+|name=Ryuuhou
+|origin = 気持ちいい…第一攻撃隊、発艦。
+|translation = This feels good... 1st Attack Corps, take off.
+}}
+{{ShipquoteKai
+|scenario = Attack
+|name=Ryuuhou
+|origin = 続けていきます。龍鳳、攻撃隊、発艦。
+|translation = Let's go. Ryuuhou Attack Corps, take off.
+}}
+{{ShipquoteKai
+|scenario = Attack
+|name=Ryuuhou
+|kai = yes
+|origin = 艦載機があれば、私だって！
+|translation = I can do this too when I have planes!
+}}
+{{ShipquoteKai
+|scenario = Night Attack
+|name=Ryuuhou
+|origin = 七面鳥ですか。誰が…わたしの…いいえ、精鋭たちです。侮らないで。
+|translation = Turkey huh. Who is... my... No, they are the elite. Don't look down on them.<ref>Referring to the [https://en.wikipedia.org/wiki/Battle_of_the_Philippine_Sea Battle of the Philippine Sea] aka the Great Marianas Turkey Shoot where inexperienced IJN air crews were shot down en masse by USN AA crews.</ref>
+}}
+{{ShipquoteKai
+|scenario = Night Attack
+|name=Ryuuhou
+|kai = yes
+|origin = 私達、改装空母を舐めないで！
+|translation = Don't underestimate my carrier remodel!
+}}
+{{ShipquoteKai
+|scenario = Night Attack
+|name=Ryuuhou
+|kai2e = yes
+|origin = 龍鳳攻撃隊、発艦！お願い致します。
+|translation = Ryuuhou Attack Squadron, take off! I'm counting on you.
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|name=Ryuuhou
+|origin = 追撃に移行します。全艦、突撃。
+|translation = Let's pursue them. All ships, charge.
+}}
+{{ShipquoteKai
+|scenario = MVP
+|name=Ryuuhou
+|origin = 私の艦載機が活躍したの。や、やった！これが空母の、龍鳳の力なんです。
+|translation = My planes have achieved great things? Y-Yay! This is the power of me as a carrier.
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|name=Ryuuhou
+|origin = きゃあ～。
+|translation = Kyaah~
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|name=Ryuuhou
+|origin = やだ、飛行甲板の格納庫が。
+|translation = Oh no, my flight deck hangar.<ref>Her hangar was rendered inoperable during the 1945 Kure Raid.</ref>
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|name=Ryuuhou
+|origin = やられました…エレベーターが…で、でも、まだ大丈夫、沈みません。
+|translation = They got me... My elevator is... B-but, I'm still fine, I won't sink.
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|name=Ryuuhou
+|origin = 空母として、沈むのね…今度は活躍、できた…かな。
+|translation = So I'll sink as a carrier... I wonder if... I was able to achieve lots this time...<ref>Technically she was sunk as an AA platform.</ref>
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = ちょうど午前零時です。すっかり深夜ですね。お疲れじゃないですか？
+|translation = It's now 12am. It's really late at night. Aren't you tired?
+|audio = RyuuhouKai-Hourly_0000.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = マルヒトマルマル。提督、深夜ですよ。
+|translation = 0100. It's late at night, Admiral.
+|audio = RyuuhouKai-Hourly_0100.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = マルフタマルマル。提督、お休みにならなくていいのですか？
+|translation = 0200. Are you sure you don't need some rest, Admiral?
+|audio = RyuuhouKai-Hourly_0200.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = マルサンマルマル。ふはぁ、私も少し眠くなってしまいました…だ、大丈夫！あぁ…
+|translation = 0300. *yawn* I'm a bit sleepy now... I-I'm fine! Ah...
+|audio = RyuuhouKai-Hourly_0300.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = マルヨンマルマル。だ、大丈夫です！格納庫の天山数えて起きているので、大丈夫。
+|translation = 0400. I-I'm fine! I'll be fine staying awake by counting the Tenzan in my hangar.
+|audio = RyuuhouKai-Hourly_0400.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = マルゴーマルマル。提督、朝です！お早いですね？まさか、徹夜でしょうか…
+|translation = 0500. It's morning, Admiral! It sure came quick right? You couldn't have stayed up all night...
+|audio = RyuuhouKai-Hourly_0500.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = マルロクマルマル。朝ごはんは何がいいですか？さすがに朝からカレーは重いですよね…
+|translation = 0600. What would you like for breakfast? Curry omellete rice is definitely too heavy for breakfast...
+|audio = RyuuhouKai-Hourly_0600.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = マルナナマルマル。提督、朝ごはんはお味噌汁と卵焼き、鮭の切り身を焼いてみました。さぁ、召し上がれ！
+|translation = 0700. It's miso soup, rolled omelette and grilled salmon fillets for breakfast, Admiral. Now, help yourself!
+|audio = RyuuhouKai-Hourly_0700.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = マルハチマルマル。さぁ、今日も元気に頑張りましょう！ね？提督！？
+|translation = 0800.  Now let's give it our all today too! Right? Admiral!? 
+|audio = RyuuhouKai-Hourly_0800.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = マルキュウマルマル。鎮守府のお掃除もしたいですね。私、掃き掃除しますね！
+|translation = 0900. I'll need to clean the Naval Base too. I'll go get started!
+|audio = RyuuhouKai-Hourly_0900.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマル。結構埃も溜まっていますね。提督も一緒に。はい、これ持って。
+|translation = 1000. It was really dusty. Give me a hand, Admiral. Yes, hold this.
+|audio = RyuuhouKai-Hourly_1000.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマル。お掃除すると、お腹が空きますね…お昼ご飯は何にしましょうか？
+|translation = 1100. You get do get hungry after cleaning huh... What should we have for lunch?
+|audio = RyuuhouKai-Hourly_1100.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = ヒトフタマルマル。今日のお昼ご飯は、大げぃ…じゃなかった、龍鳳特製カレーです！
+|translation = 1200. Today's lunch is Taigei's... No wait, Ryuuhou's Special Curry!
+|audio = RyuuhouKai-Hourly_1200.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = ヒトサンマルマル。龍鳳特製カレー、いかがでしたか？馬鈴薯もおいしいでしょ？
+|translation = 1300. How was my special curry? The potatoes were delicious too right?
+|audio = RyuuhouKai-Hourly_1300.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = ヒトヨンマルマル。提督、あの、そろそろ本格的な機動部隊の…あ、まだ？…はぃ…
+|translation = 1400. Ummm, Admiral, is it almost time for a full scale task force... Ah, Not yet? ...Yes...
+|audio = RyuuhouKai-Hourly_1400.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = ヒトゴーマルマル。提督、そろそろ本格的に空母機動部隊で出撃ですよね？…ね！？
+|translation = 1500. Is it almost time for a full scale task force sortie right, Admiral? ...Right!?
+|audio = RyuuhouKai-Hourly_1500.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = ヒトロクマルマル。なんだか、夕焼け空が綺麗…もう夕方ですね。
+|translation = 1600. The sky is somewhat beautiful... It's already sunset huh.
+|audio = RyuuhouKai-Hourly_1600.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = ヒトナナマルマル。そろそろ、お夕食の準備をしないと。提督、何がいいでしょう？
+|translation = 1900. I need to go prepare dinner soon. What would you like, Admiral?
+|audio = RyuuhouKai-Hourly_1700.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = ヒトハチマルマル。お昼はカレーですし、夜は少し凝ったものがいいでしょうか…
+|translation = 1800. Since we had curry for lunch, I should make something more refined tonight...
+|audio = RyuuhouKai-Hourly_1800.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトキュウマルマル。提督、今晩はフーカデンビーフにしてみました。どうでしょう？
+|translation = 1900. I made fricandeau beef tonight, Admiral. How is it?<ref>[https://cookpad.com/recipe/3382370 Fricandeau Beef] is a type of meatloaf of egg wrapped with minced beef.</ref>
+|audio = RyuuhouKai-Hourly_1900.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = フタマルマルマル。フーカデンビーフ、いかがでしたか？…ふふ、良かった！
+|translation = 2000. How was the fricandeau beef? ...Fufu, great!
+|audio = RyuuhouKai-Hourly_2000.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = フタヒトマルマル。提督、洗い物片付けたら、明日の作戦の計画を立てましょう。
+|translation = 2100. Let's make plans for tomorrow's operations after I'm done cleaning up, Admiral.
+|audio = RyuuhouKai-Hourly_2100.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = フタフタマルマル。明日こそ、本格的な空母機動部隊による出撃を…ね、提督！？
+|translation = 2100. You'll send out a full scale task force sortie tomorrow... right, Admiral!?
+|audio = RyuuhouKai-Hourly_2200.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = フタサンマルマル。提督、本日も一日、大変お疲れ様でした。明日も頑張りましょう。
+|translation = 2300. Thank you very much for your hard work everyday, Admiral. Let's do our best tomorrow too.
+|audio = RyuuhouKai-Hourly_2300.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 提督？あ、あの…潜水母艦、いいですよね？必要ですよね？…あぁ、良かった。はい！潜水艦達のお世話は、お任せ下さい！
+|translation =	Admiral? Uh-ummm… Aviation submarines are good right? They’re necessary right? …Ah, thank goodness.  Yes! Please leave taking care of the submarines to me!
+|audio = Taigei_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_2016|Early Summer 2016]]
+|origin = て・い・と・く♪えぇ、何ですか？水着ですか？一応用意してあるのですが…えぇ、今ですか？！夏まで待っててくださいね？
+|translation =	Ad~ mi~ ral~♪ Eh, what is it? A swimsuit? I have one ready just in case… Eh, now?! Please wait till summer alright?
+|audio = Taigei_Early_Summer_Sec1_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2016|Autumn 2016]]
+|origin = あぁ、時雨さん、お疲れ様です。えぇ、秋はバルジが…？そうですね、時雨さんは大丈夫ですけど、私気をつけなきゃ…。
+|translation =	Ah, thanks for your hard work, Shigure. Eh, the autumn bulge…? That’s right, you’re fine but I need to be careful…
+|audio = Taigei_Autumn_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 艦隊で秋刀魚漁支援ですか？了解しました！あぁ、磯風さんも準備万端ですね！よし！
+|translation =	The fleet is going to support saury fishing? Roger that! Ah, Isokaze is ready too! Alright!
+|audio = Taigei_Sec1_Saury_2016.mp3
+|notes = As Taigei
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 艦隊全力で秋刀魚漁支援ですか？龍鳳、了解しました！磯風さん、浜風さんも、準備万端ですね？
+|translation =	The whole fleet is going to support saury fishing? Roger that! Isokaze, Hamakaze; are you ready?
+|audio = Ryuuhou_Sec1_Saury_2016.mp3
+|notes = As Ryuuhou
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2016|Christmas 2016]]
+|origin = て・い・と・く♪クリスマスですね。私、腕を奮っちゃいます！お料理のリクエスがあったら、言ってくださいね？
+|translation =	Ad~ mi~ ral~♪ It’s Christmas. I’ll work my hardest! Please let me know if you have anything you’d like to eat alright?
+|audio = Taigei_Christmas_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2016|End of Year 2016]]
+|origin = 鳳翔さんどうされたんですか？そうか、鎮守府の大掃除ですね。私も手伝えいたします。あぁ、はい！まず、掃き掃除ですね？
+|translation =	What are you doing, Houshou-san? I see, it’s the Naval Base’s spring cleaning. I’ll help too. Ah, yes! First we’ll be sweeping right?
+|audio = Taigei_End_Of_Year_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2017|New Year 2017]]
+|origin = て・い・と・く♪提督、新年あけましておめでとうございます。本年もどうぞよろしくお願い致します。
+|translation =	Ad~ mi~ ral~♪ Happy New Year, Admiral. Please look after me this year too.
+|audio = Ryuuhou_New_Year_2017_sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2017|Setsubun 2017]]
+|origin = 節分なんですけど、潜水艦の子達が…いたい！や、やだ！いたぁ！も、もう、いやだぁ！あぁ、やめてぇ！もう降参だからぁ。
+|translation =	Even though it’s Setsubun, the submarine girls are… Ouch! N-no! Ouch! J-jeez, no way! Ah, stop that! I give up already.
+|audio = Ryuuhou_Setsubun_2017.mp3
+|notes = As Taigei
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2017|Setsubun 2017]]
+|origin = 節分なんですけど、さすがに空母になった私には、潜水艦の子達が…いたい！えぇ、どうしてぇ！？いた、いたたたたぁ！も、もう、もうやめて！どうして！？もうぅ！
+|translation =	Even though it’s Setsubun and since I’m a carrier now, those submarine girls are… Ouch! Eh, why!? Ow, owowowow! J-jeez, stop that already! Why!? Jeez!
+|audio = Ryuuhou_Setsubun_2017_Sec1.mp3
+|notes = As Ryuuhou
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2017|Valentine’s Day 2017]]
+|origin = て・い・と・く！はい、大鯨からのチョコレート、どうか受け取ってください！あ、ありがとうございます！
+|translation =	Ad~ mi~ ral~! Here, please accept my chocolates! Th-thank you very much!
+|audio = Taigei_Valentines_Day_2017_Sec1.mp3
+|notes = As Taigei
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2017|Valentine’s Day 2017]]
+|origin = て・い・と・く！はい、龍鳳からのチョコレート、どうか受け取ってください！あ、ありがとうございます！
+|translation =	Ad~ mi~ ral~! Here, please accept my chocolates! Th-thank you very much!
+|audio = Ryuuhou_Valentine_Sec1.ogg
+|notes = As Ryuuhou
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Hinamatsuri_2017|Hinamatsuri 2017]]
+|origin = ひな祭り、ひな人魚かわいいですね。潜水艦たちもかわいく…あれ？菱餅が…おかしいは…確かに…また良いしなくちゃ。
+|translation =	It’s Hinamatsuri, the hina dolls are cute. The submarines are cute too… Huh? The hishimochi is… That’s strange… I’m sure… I have to make them again.
+|audio = Taigei_Hinamatsuri_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2017|White Day 2017]]
+|origin = もしかしてこちらを私に？ありがとうございます！私、だいじにだいじに頂きます！
+|translation =	Could this be for me? Thank you very much! I’ll really, really savour this!
+|audio = Ryuuhou_White_Day_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2017|Spring 2017]]
+|origin = お花見ですか？おまかせください！お重いっぱいにお料理詰めて馳せ参じますね。あの子達何好きかしら？
+|translation =	Cherry blossom viewing? Leave it to me! I’ll hurry and fill an ojyuu with lots of food. I wonder what those girls would like?<ref>An ojyuu is a multi-tiered lunchbox usually for picnics.</ref>
+|audio = Taigei_Spring_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = て・い・と・く、おめでとう御座います。艦隊は四周年を迎えました。大鯨もお祝い申し上げます。祝賀のお料理、作りますね！
+|translation =	Ad~ mi~ ral~, congratulations. The fleet’s 4th Anniversary is here. I give you my regards. I’ll cook something for the celebrations!
+|audio = Taigei_4th_Anniversary_Sec1_2017.mp3
+|notes = As Taigei
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = て・い・と・く、おめでとう御座います。艦隊は四周年を迎えました。龍鳳もお祝い申し上げます。祝賀のお料理、作りますね！
+|translation =	Ad~ mi~ ral~, congratulations. The fleet’s 4th Anniversary is here. I give you my regards. I’ll cook something for the celebrations!
+|audio = Ryuuhou_4th_Anniversary_Sec1_2017.mp3
+|notes = As Ryuuhou
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2017|Late Autumn 2017]]
+|origin = 少し寒きなって来ましたね。かぜを引かないようにしないと。提督も暖かくしてくださいね。
+|translation =	It’s gotten a bit colder. I hope that I won’t catch a cold. You better keep warm too, Admiral.
+|audio = Ryuuhou_Late_Autumn_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = て・い・と・く、おめでとうございます！艦隊はついに、五周年を迎えました！大鯨も、お祝い申し上げます！祝賀のお料理がんばりますね。
+|translation =	Congratulations, Ad-mi-ral! The fleet is finally celebrating it’s 5th Anniversary! I’d like to congratulate you too! I’ll work hard on making food for the celebration.
+|audio = Taigei_5th_Anniversary_Sec1.mp3
+|notes = As Taigei
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = て・い・と・く！おめでとうございます！艦隊はついに五周年を迎えました。龍鳳もお祝い申し上げます。祝賀の料理、がんばりますね。
+|translation =	Congratulations, Ad-mi-ral! The fleet is finally celebrating it’s 5th Anniversary! I’d like to congratulate you too! I’ll work hard on making food for the celebration.
+|audio = Ryuuhou_5th_Anniversary_Sec1.mp3
+|notes = As Ryuuhou
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = て・い・と・く、おめでとうございます。艦隊は、この春また、新たの歴史を刻むことができました。お祝いとお礼申し上げます。
+|translation =	Ad~ mi~ ra~ l~, congratulations. This spring, the fleet has marked a new page in it's history. I offer my sincerest thanks and congratulations.
+|audio = Taigei_6th_Anniversary_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2020|Rainy Season 2020]]
+|origin = 雨の季節。うふふ、つくちゃった。て・い・と・くのてるてる坊主。可愛い！あぁ、提督、ほら。似てるでしょう？
+|translation =	It's the rainy season. Ufufu, I made this. It's a teriteru bouzu of you, ad-mi-ra-l. It's cute! Ah, Admiral, look at it. Doesn't it look just like you?
+|audio = Taigei_Rainy_Season_2020_Secretary_1.mp3
+|notes = As Taigei
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2020|Rainy Season 2020]]
+|origin = 雨の季節。うふふ、作っちゃった。て・い・と・くと、龍鳳のてるてる坊主。あぁ、提督、ほら見て。可愛いでしょう？
+|translation =	It's the rainy season. Ufufu, I made this. It's a teruteru bouzu of ad-mi-ra-l and me. Admiral, take a look. Isn't it cute?
+|audio = Ryuuhou_Rainy_Season_2020_Secretary_1.mp3
+|notes = As Ryuuhou
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Fall 2020 Event]]
+|origin = 潜水艦隊旗艦、大鯨、本気の攻撃で参ります。
+|translation =	Submarine fleet flagship, Taigei, coming at you with all I've got.
+|audio = Ship_Voice_Taigei_Fall_2020_Event_Friend_Fleet_1.mp3
+|notes = Taigei Friend Fleet 1
+}}
+{{SeasonalQuote
+|scenario = [[Fall 2020 Event]]
+|origin = 機動部隊、航空母艦、龍鳳、本気で参ります。
+|translation =	Carrier task force, carrier Ryuuhou, coming at you with all I got.
+|audio = Ship_Voice_Ryuuhou_Fall_2020_Event_Friend_Fleet_1.mp3
+|notes = Ryuuhou Friend Fleet 1
+}}
+{{SeasonalQuote
+|scenario = [[Fall 2020 Event]]
+|origin = 機動部隊、航空母艦、龍鳳、本気で参ります。
+|translation =	Carrier task force, carrier Ryuuhou, coming at you with all I got.
+|audio = Ship_Voice_Ryuuhou_Kai_Fall_2020_Event_Friend_Fleet_1.mp3
+|notes = Ryuuhou Kai Friend Fleet 1
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+184.png|Taigei
+184_X.png|Taigei Damaged
+185.png|Ryuuhou
+185_X.png|Ryuuhou Damaged
+190_3.png|Ryuuhou Kai
+190_4.png|Ryuuhou Kai Damaged
+Ship Full Ryuuhou Kai Ni E.png|Kai Ni E
+Ship Full Ryuuhou Kai Ni E Damaged.png|Kai Ni E Damaged
+Ship Full Ryuuhou Kai Ni.png|Kai Ni
+Ship Full Ryuuhou Kai Ni Damaged.png|Kai Ni Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Taigei_Summer.png|[[Seasonal/Summer_2016|Taigei Midsummer 2016]]
+Taigei_Summer_dmg.png|[[Seasonal/Summer_2016|Taigei Midsummer 2016 Damaged]]
+Ryuuhou_Summer.png|[[Seasonal/Summer_2016|Ryuuhou Midsummer 2016]]
+Ryuuhou_Summer_dmg.png|[[Seasonal/Summer_2016|Ryuuhou Midsummer 2016 Damaged]]
+KanMusu184_Saury.png|[[Seasonal/Saury_2016|Taigei Saury Festival 2016]]
+KanMusu184_Saury_dmg.png|[[Seasonal/Saury_2016|Taigei Saury Festival 2016 Damaged]]
+KanMusu185_Saury.png|[[Seasonal/Saury_2016|Ryuuhou Saury Festival 2016]]
+KanMusu185_Saury_dmg.png|[[Seasonal/Saury_2016|Ryuuhou Saury Festival 2016 Damaged]]
+Ship Full Taigei Christmas 2020.png|[[Seasonal/Christmas_2020|Taigei Christmas 2020]]
+Ship Full Taigei Christmas 2020 Damaged.png|[[Seasonal/Christmas_2020|Taigei Christmas 2020 Damaged]]
+Ship Full Ryuuhou Christmas 2020.png|[[Seasonal/Christmas_2020|Ryuuhou Christmas 2020]]
+Ship Full Ryuuhou Christmas 2020 Damaged.png|[[Seasonal/Christmas_2020|Ryuuhou Christmas 2020 Damaged]]
+Ship Full Ryuuhou Kai Christmas 2020.png|[[Seasonal/Christmas_2020|Ryuuhou Kai Christmas 2020]]
+Ship Full Ryuuhou Kai Christmas 2020 Damaged.png|[[Seasonal/Christmas_2020|Ryuuhou Kai Christmas 2020 Damaged]]
+Ship Full Ryuuhou New Years 2021.png|[[Seasonal/New_Year_2021|Ryuuhou New Years 2021]]
+Ship Full Ryuuhou New Years 2021 Damaged.png|[[Seasonal/New_Year_2021|Ryuuhou New Years 2021 Damaged]]
+Ship Full Ryuuhou Kai New Years 2021.png|[[Seasonal/New_Year_2021|Ryuuhou Kai New Years 2021]]
+Ship Full Ryuuhou Kai New Years 2021 Damaged.png|[[Seasonal/New_Year_2021|Ryuuhou Kai New Years 2021 Damaged]]
+</gallery>
+|}
+
+== Drop Locations ==
+{{#invoke:ShipDropTable|returnShipDrop|Taigei}}
+
+==Trivia==
+*"Taigei" means "Big Whale" while "Ryuuhou" literally means "Dragon Phoenix".
+*She started her service as a Submarine Tender until December 1941, when conversion into a Light Aircraft Carrier began.
+*She was the only major IJN vessel to be struck during the [[wikipedia:Doolittle_Raid|Doolittle Raid]], which delayed her launch as a CVL.
+*She was the last Aircraft Carrier to sail overseas from Japan.
+*Ryuuhou's hair band bears resemblance to the Ensign of Japan Post (Japan's Postal service).
+*Ryuuhou's Kai art is based on her real-life camouflage.
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View Ryuuhou/Taigei CG]]
+* [[Auxiliary Ships|List of auxiliary ships]]
+* [[EliteCVL|List of light carriers]]
+*[[wikipedia:Japanese_aircraft_carrier_Ryūhō|Wikipedia entry on carrier Ryuhou/Taigei]]
+{{shiplist}}
+[[Category:Light Carriers]]
+[[Category:Auxiliary Ship]]
+[[Category:World War II Survivors]]

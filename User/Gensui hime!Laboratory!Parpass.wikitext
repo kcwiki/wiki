@@ -1,0 +1,22 @@
+<!--
+Possible Parameters for Front Page (DO NOT INCLUDE IN WIDGET PARAMETERS FOR DEFAULT VALUES.)
+$eventlink	Link on Event Banner
+$eventimgalt	Event Banner Alternate Name (img alt)
+$eventimg	Event Banner Image (Must Link To Image, size specific. 710x93 px)(WARNING: you must replace the image background in Common.CSS as well if you intend on messing with this)
+$lastuplink	Last Update Link
+$lastuptitle	Last Update Title
+$nextuplink	Next Update Link
+$nextuptitle	Next Update Title
+$seasonimg	Seasonal Icon (Must Link To Image, size spefic. 110x110 px)
+$seasonlink	Seasonal Text Link
+$seasontitle	Seasonal Text Title
+-->
+{{#widget:Parpass
+|lastuplink=http://en.kancollewiki.net/wiki/Game_Updates/2016/January_7
+|lastuptitle=7th January 2016
+|nextuplink=http://en.kancollewiki.net/wiki/Game_Updates/2016/January_19
+|nextuptitle=19th January 2016
+|seasonimg=http://kure.kancollewiki.net/images/7/7b/Portal_xmas2015.png
+|seasonlink=http://en.kancollewiki.net/wiki/Seasonal/New_Year_2016
+|seasontitle=New Year 2016
+}}

@@ -1,0 +1,71 @@
+{{Tutorialportal}}
+This tutorial will guide you through the process of creating an account to play Kantai Collection on PC. It is nominally region locked to Japan but anyone outside Japan can play by jumping through a few hoops.<!--Please see [[Tutorial:KanColle Mobile|KanColle Mobile]] for instructions on how to get started with the mobile app.-->
+
+''Please read the [[Tutorial:_How_to_Register#Registration_FAQ|FAQ]] for additional help. If you are still having problems registering, you can try the [https://discord.gg/fAK6K9j Kancolle Wiki Discord] for further assistance.''
+
+==Step 1: DMM Account==
+The first thing that must be done is creating an account on the [https://www.dmm.com/en/my/-/register/ DMM] website. '''It does not matter if the account is created using the English or Japanese interface.''' They are functionally the same so using the English interface may make the sign up process smoother. You will receive a verification email once you register. Follow the link sent to you to complete the registration.
+
+==Step 2: Bypassing Region Lock==
+{{main|Tutorial: Connection}}
+
+You will need a Japanese VPN in order to sign up for the game. Refer to the main article for detailed instructions.
+
+You are successful in bypassing the region lock if you see the Game Information page when you visit the [http://www.dmm.com/netgame_s/kancolle/ KanColle] page.
+
+<gallery type="slideshow" widths="250">
+KanColle_StartGame.png|KanColle Game Information Page
+DMM_RegionSetting.png|Japanese Region Button
+DMM_ErrorArea_ENG.png|DMM English Error Area Page
+DMM_ErrorArea_JPN.png|DMM Japanese Error Area Page
+DMM_ErrorAreaMini_JPN.png|DMM Japanese Error Area Page on logon screen
+</gallery>
+
+==Step 3: KanColle Enrollment==
+Once you have clicked the large red button at the top of the KanColle page, you will have to complete a three step enrollment process in order to get in the game. 
+[[File:DMM_Enroll.png|thumb|DMM NetGame Enrollment]]
+You have to enter 3 pieces of information, from the top to the bottom:
+*Nickname
+*Gender (Male/Female)
+*Birth date
+Once completed press the yellow button at the bottom. The next two windows are confirmation windows, so click the yellow button on each to proceed to the next page.
+
+==Step 4: Server Selection==
+After enrollment, you will be presented with a [[Servers|server]] selection page. Simply pick the server you wish to join. The only advantage to picking servers is for having an easier time [[Ranking]]. Servers are otherwise identical.
+
+Once you've selected a server, you're in the game! For further guidance through the starting tutorial, please see [[Tutorial: How to Play]]
+[[file:Server_Select.png|thumb|The server browser]].
+
+''You will need to sync your computer time with internet time in order to access KanColle properly. Please use a search engine to find the instructions for your specific operating system.''
+
+==Registration FAQ==
+'''I click on the big red button and nothing happens!'''
+*Please make sure you do not have anything enabled on your browser that could manipulate the page elements. This includes the browser plugins 'NoScript' and 'AdBlock', among others.
+
+'''My verify email is not working!'''
+*On some email clients, there is an problem when verifying your e-mail. To solve this, copy and paste the verification link into your browser instead of clicking on the link. It should say that the verification is complete. 
+
+'''Help! I'm getting a B-001 error when attempting to register!'''
+*Try a different VPN.
+*Clear your cache.
+*This can also be fixed by visiting the English website without a VPN by logging in there and then turning on your VPN to visit the Japanese website.
+
+'''This page is not available in your area.'''
+*Connect to a VPN before opening KanColle.
+*Refresh the page. (It's just a false error from DMM)
+
+'''When I connected to the game all the servers were full (満), what do I do?'''
+* The capacity status of the servers is meaningless. Just click on any one to join it.
+
+'''Do I have to do this every time I want to play?'''
+*No. Once you have selected a server, you never have to visit this page again.
+
+'''Where do I go to play the game!?'''
+*The direct link to the KanColle game information page is http://www.dmm.com/netgame_s/kancolle/
+*The direct link to the game itself is http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/
+** This link only works ''after'' you have enrolled in the game.
+
+==See Also==
+{{Help}}
+[[Category:Tutorial]]
+[[Category:Help]]

@@ -1,0 +1,161 @@
+==World 1-2: 南西諸島沖 Sea around the Nansei Islands==
+{{LabSortieworld
+| map = 1 02.png
+| difficulty = ☆
+| item = {{Ammo}}
+| exp = Varies
+| code = 南西諸島沖警備 ([[wikipedia:Nansei_Islands|Nansei Islands]] Sea Defense)
+| jptext = 南西諸島沖に接近する敵前衛艦隊を捕捉、迎撃せよ！ 
+| entext = Intercept the enemy's vanguard fleet in the seas off the Nansei Islands!
+}}
+
+===Stage Guide===
+{{MapBranchingTable
+|title = 1-2 Branching Rules
+|expand = true
+|id = 1-2
+|0 -> A, B/resource = 
+* Meet '''ALL''' of the following requirements to go to A:
+** Fleet contains ≤ 5 ships.
+** DD+DE = 4
+* Otherwise, random between A and B
+** 40% to A if fleet contains 6 ships
+** 50% to A if fleet contains 5 ships
+** 60% to A if fleet contains 4 ships
+** 70% to A if fleet contains ≤ 3 ships
+|A -> D,E =
+*Go to D if fleet contains slow ships '''and''' DD+DE ≤ 3
+*Meet '''ANY''' of the following to go to E
+**Fast Fleet
+**Fleet contains CL and DD ≥ 4
+**CL = 1 and DD+DE = 5
+*Otherwise, random routing
+}}
+
+===Tips===
+*Sortie '''1 CL 4 DD''' for fixed routing towards the boss node via node A.
+
+===Nodes and Enemy Encounters===
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = 敵前衛艦隊
+|A-1_node_info = cl_ho-class dd_i-class dd_i-class
+|A-1_form = line_ahead
+|A-1_xp =
+|A-1_enemy_air_power =
+|A-2_node_info = dd_ro-class dd_i-class dd_i-class
+|A-2_form = line_ahead
+|A-2_xp =
+|A-2_enemy_air_power =
+|A-3_node_info = cl_he-class dd_i-class dd_i-class
+|A-3_form = line_ahead
+|A-3_xp =
+|A-3_enemy_air_power =
+|A-4_node_info = dd_ro-class dd_i-class
+|A-4_form = line_ahead
+|A-4_xp =
+|A-4_enemy_air_power =
+|A-5_node_info = cl_he-class dd_ro-class dd_ro-class
+|A-5_form = line_ahead
+|A-5_xp =
+|A-5_enemy_air_power =
+|
+|B_label = '''<span style="color:green">Resource Node</span>'''
+|B1_node_info = {{Template:Ammo}} + 10 15 20 40
+|
+|C_label = 敵前衛艦隊
+|C-1_node_info = cl_ho-class dd_i-class dd_i-class
+|C-1_form = line_ahead
+|C-1_xp =
+|C-1_enemy_air_power =
+|C-2_node_info = dd_ro-class dd_i-class dd_i-class
+|C-2_form = line_ahead
+|C-2_xp =
+|C-2_enemy_air_power =
+|C-3_node_info = cl_he-class dd_i-class dd_i-class
+|C-3_form = line_ahead
+|C-3_xp =
+|C-3_enemy_air_power =
+|C-4_node_info = cl_he-class dd_ro-class dd_ro-class
+|C-4_form = line_ahead
+|C-4_xp =
+|C-4_enemy_air_power =
+|C-5_node_info = dd_ro-class dd_i-class
+|C-5_form = line_ahead
+|C-5_xp =
+|C-5_enemy_air_power =
+|
+|D_label = 敵水雷戦隊
+|D-1_node_info = cl_ho-class dd_ro-class dd_ro-class dd_ro-class
+|D-1_form = line_ahead
+|D-1_xp =
+|D-1_enemy_air_power =
+|D-2_node_info = cl_ho-class dd_i-class dd_i-class dd_i-class
+|D-2_form = line_ahead
+|D-2_xp =
+|D-2_enemy_air_power =
+|D-3_node_info = cl_he-class dd_ha-class dd_ro-class dd_ro-class
+|D-3_form = line_ahead
+|D-3_xp =
+|D-3_enemy_air_power =
+|D-4_node_info = cl_he-class dd_ro-class dd_ro-class dd_ro-class
+|D-4_form = line_ahead
+|D-4_xp =
+|D-4_enemy_air_power =
+|D-5_node_info = cl_ho-class dd_ro-class dd_i-class dd_i-class
+|D-5_form = line_ahead
+|D-5_xp =
+|D-5_enemy_air_power =
+|D-6_node_info = cl_ho-class dd_ro-class dd_ro-class dd_i-class
+|D-6_form = line_ahead
+|D-6_xp =
+|D-6_enemy_air_power =
+|
+|E_label = 敵主力艦隊
+|E-1_node_info = cl_he-class dd_i-class dd_i-class dd_i-class dd_i-class
+|E-1_form = line_ahead
+|E-1_xp =
+|E-1_enemy_air_power =
+|E-2_node_info = cl_he-class clt_chi-class clt_chi-class dd_ha-class dd_ha-class
+|E-2_form = line_ahead
+|E-2_xp =
+|E-2_enemy_air_power =
+|E-3_node_info = cl_he-class cl_ho-class clt_chi-class dd_i-class dd_i-class
+|E-3_form = line_ahead
+|E-3_xp =
+|E-3_enemy_air_power =
+|E-4_node_info = cl_ho-class dd_i-class dd_i-class dd_i-class dd_i-class
+|E-4_form = line_ahead
+|E-4_xp =
+|E-4_enemy_air_power =
+|E-5_node_info = cl_he-class cl_ho-class dd_i-class dd_i-class dd_i-class
+|E-5_form = line_ahead
+|E-5_xp =
+|E-5_enemy_air_power =
+|
+|final_form = 
+|boss_node = E
+}}
+
+===Drops===
+<div class="mw-customtoggle-1-2-drop globalbutton">Show/Hide Drops</div>
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-1-2-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+|-
+| style="text-align:center;" |A
+| style="text-align:center;" |[[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Ayanami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Fumizuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Sazanami]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Kasumi]], [[Kuroshio]]
+| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Natori]], [[Isuzu]], [[Yura]], [[Tama]], [[Kiso]], [[Tenryuu]]
+|
+|-
+| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">B</span>'''
+| style="text-align:center;" |[[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Ayanami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Nagatsuki]], [[Kikuzuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Kagerou]], [[Shiranui]], [[Kuroshio]],
+| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Isuzu]], [[Yuubari]], [[Nagara]], [[Natori]], [[Yura]], [[Kuma]], [[Tama]], [[Kitakami]], [[Kiso]], [[Tenryuu]], [[Tatsuta]]
+| style="text-align:center;" | [[Choukai]]
+|-
+| style="text-align:center;" |D
+| style="text-align:center;" |[[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Fumizuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Ooshio]], [[Arashio]], [[Kasumi]], [[Kuroshio]]
+| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Isuzu]], [[Natori]], [[Yura]], [[Tama]], [[Kiso]], [[Tenryuu]], [[Tatsuta]]
+|
+|}

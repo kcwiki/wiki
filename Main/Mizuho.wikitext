@@ -1,0 +1,511 @@
+==Info==
+{{KanmusuInfo|ID=251}}
+{{KanmusuInfo|ID=251a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks at Kai. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She can perform opening torpedo attacks when equipped with a midget submarine.
+* It is possible to increase her maximum HP by modernizing her with additional Mizuho.
+** It is recommended to use 2 per try and to aim for 43 HP (not married) or 49 HP (married)
+
+===Overview===
+* Good firepower and torpedo.
+* Decent HP and armour.
+* Good plane count.
+* Good slot distribution.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+
+===Analysis===
+Priority: '''Medium'''
+
+: She has a good torpedo stat that allows her to take out lighter ships with her opening torpedo. She also has respectable firepower for a seaplane tender that makes her a decent surface combatant. Her slots are also large enough that she can use seaplane bombers to deal with light targets. Being able to carry seaplane fighters means she can provide air supports in maps where carriers are restricted. However, she is slow which means she will be affected by speed restrictions.
+
+====Recommendend Roles====
+* Combat
+* Air Support
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+| scenario    =Introduction
+| origin      =提督、お疲れ様です。水上機母艦「瑞穂」、推参致しました。どうぞよろしくお願い申し上げます。
+| translation =Thank you for the hard work, Admiral. Seaplane tender, Mizuho, reporting for duty. Please take very good care of me.
+| audio       =Mizuho-Intro.mp3
+}}
+{{ShipquoteKai
+| scenario    =Library
+| origin      =水上機母艦、瑞穂です。千歳、千代田に続いて建造された、
+甲標的も運用可能な特殊水上機母艦です。新機軸の機関部があまり上手く行かなくって……
+でも、開戦初頭の南方作戦などに参加致しました。 お役に立てるよう頑張りますね！
+| translation =I'm the seaplane tender, Mizuho. I was built based on the design of Chitose and Chiyoda and I'm a special seaplane carrier that can use midget subs. 
+The innovative engines were designed really well, but...<ref>She was to be mounted with a mixed steam/diesel engine but it was prone to breakdowns due to complexity.</ref> 
+I was not able to make it in time for the Southern Operations. I'll do my best to be useful!<ref>Referring to the [https://ja.wikipedia.org/wiki/%E5%8D%97%E6%96%B9%E4%BD%9C%E6%88%A6 Japanese invasion of South East Asia].</ref>
+| audio       =Mizuho-Library.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 1
+| origin      =うふふ♪　提督、どうされたのですか？　何かお忘れ物でも？
+| translation =Ufufu♪ Is something the matter, Admiral? Did you forget something?
+| audio       =Mizuho-Sec1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 2
+| origin      =瑞穂をお呼びかしら？　嬉しいわ。
+| translation =Did you call me? I'm happy.
+| audio       =Mizuho-Sec2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 3
+| origin      =提督、瑞穂にお気を使っていただいて、うれしいです。大丈夫、いつでも出撃できますわ。
+| translation =I'm happy that I can be of service to you, Admiral. I'm fine, we can sortie at any time.
+| audio       =Mizuho-Sec3.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary Idle
+| origin      =おかしいわ、新しい機関部のはずなのに…あ、提督。なんでもありません。瑞穂、大丈夫です。
+| translation =That's strange, there should be a new engine part somewhere... Ah, Admiral. It's nothing. I'm is fine.
+| audio       =Mizuho-SecIdle.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary (Married)
+| origin      =提督、お疲れですか？　いけません。瑞穂、何か美味しいものでもお作りしますね？　ええと、何がいいかしら？
+| translation =Are you tired, Admiral? That's no good. Shall I make you something tasty? Ummm, I wonder what would be good?
+| audio       =Mizuho-SecMarried.mp3
+}}
+{{ShipquoteKai
+| scenario    =Wedding
+| origin      =提督…瑞穂をお呼びでしょうか？　なにか大きな失敗をしてしまったかしら…ぇえ、この箱を私に？　開けてみてもいいのでしょうか？　あ……えっ？！　あ、あの………嬉しい…
+| translation =Admiral... did you call me? I wonder if I made a really big mistake... Eh, is this box for me? Can I open it? Ah... eh?! Ah, umm... I'm happy...
+| audio       =Mizuho-Wedding.mp3
+}}
+{{ShipquoteKai
+| scenario    =Player's Score
+| origin      =情報を確認されるのですね？　お待ちください。整理してお持ちします。
+| translation =Do you want to review the inteligence? Please wait a minute. I'll have it organised for you.
+| audio       =Mizuho-PlayerScore.mp3
+}}
+{{ShipquoteKai
+| scenario    =Joining The Fleet
+| origin      =水上機母艦、瑞穂、参ります。少しゆっくりで、ごめんなさい。
+| translation =Seaplane tender, Mizuho, heading out. I'm sorry for being a little slow.
+| audio       =Mizuho-JoinFleet.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 1
+| origin      =水上機がいいかしら？　それとも甲標的？　どうしましょう…
+| translation =Would a seaplane be good? Or perhaps a midget sub? What should I do...
+| audio       =Mizuho-Equip1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 2
+| origin      =見たことのない兵装ですね。新兵器でしょうか？　ありがとうございます。
+| translation =I've never seen many of these weapons before. Is this one new? Thank you very much.
+| audio       =Mizuho-Equip2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 3
+| origin      =水上機を出しましょうか？
+| translation =Shall I take the seaplanes out?
+| audio       =Mizuho-Equip3.mp3
+}}
+{{ShipquoteKai
+| scenario    =Supply
+| origin      =提督。瑞穂、感謝いたします。
+| translation =Admiral. I'm really grateful.
+| audio       =Mizuho-Supply.mp3
+}}
+{{ShipquoteKai
+| scenario    =Docking (Minor)
+| origin      =少し、煤が付いてしまいました。申し訳ありません、しばし下がりますね。
+| translation =I've got a bit of soot on me. Please forgive me, I'll be out of action for a while.
+| audio       =Mizuho-DockMinor.mp3
+}}
+{{ShipquoteKai
+| scenario    =Docking (Major)
+| origin      =申し訳ありません、このような姿で…瑞穂、湯浴みに参ります。すみません…	
+| translation =Please forgive my appearance... I'll will be going to the baths. Excuse me...
+| audio       =Mizuho-DockMajor.mp3
+}}
+{{ShipquoteKai
+| scenario    =Construction
+| origin      =提督、新しい艦の建造が完了した模様です。
+| translation =A new ship has been completed according to the plans, Admiral.
+| audio       =Mizuho-Construction.mp3
+}}
+{{ShipquoteKai
+| scenario    =Return From Sortie
+| origin      =提督、艦隊戻りました。無事に港に着いてよかったです。
+| translation =Tthe fleet has returned, Admiral. It was good that we could return safely.
+| audio       =Mizuho-SortieReturn.mp3
+}}
+{{ShipquoteKai
+| scenario    =Starting A Sortie
+| origin      =艦隊旗艦、瑞穂、進発いたします。皆さん、参りましょう。
+| translation =Fleet flagship, Mizuho, departing. Everyone, let's go.
+| audio       =Mizuho-Sortie.mp3
+}}
+{{ShipquoteKai
+| scenario    =Starting A Battle
+| origin      =て、敵艦！？　発見いたしました。ど、どうしましょう？　か、合戦、用意！　…ですね？
+| translation =En-enemy ships!? We've been detected. Wh-what should we do? Ba-battle stations! ...Right?
+| audio       =Mizuho-BattleStart.mp3
+}}
+{{ShipquoteKai
+| scenario    =Attack
+| origin      =瑞穂、参ります。攻撃開始。撃ち方、始め！
+| translation =Mizuho, heading out. Begin attack. Open fire!
+| audio       =Mizuho-Attack.mp3
+}}
+{{ShipquoteKai
+| scenario    =Air Battle/ Daytime Spotting/ Night Battle Attack
+| origin      =敵艦を、捕捉しなくては…！瑞穂、しっかり！
+| translation =The enemy ships, won't capture us...! I need to keep it together!
+| audio       =Mizuho-AirBattle.mp3
+}}
+{{ShipquoteKai
+| scenario    =Night Battle
+| origin      =よ、夜ですね。敵を追撃いたしますが、夜戦になってしまいます。どうしましょう？
+| translation =I-it's night. We have to keep pursuing the enemy but, it has to be in night battle. What should I do?
+| audio       =Mizuho-NightBattle.mp3
+}}
+{{ShipquoteKai
+| scenario    =MVP
+| origin      =えぇ！？　瑞穂の、瑞穂の戦果が一番なのですか？　提督、あの、どうしましょう？
+| translation =Eeh!? I, I contributed the most? Admiral, ummm, what should I do?
+| audio       =Mizuho-MVP.mp3
+}}
+{{ShipquoteKai
+| scenario    =Minor Damage 1
+| origin      =あぁ～っ!　い、痛い…魚雷ですか？！
+| translation =	Aaaah~! I-it hurts... Was it a torpedo?!
+| audio       =Mizuho-MinorDamage1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Minor Damage 2
+| origin      =いやぁっ！　だ、大丈夫？　まだ沈まないで、お願い！
+| translation =Nooo~! A-am I alright? Please don't let me sink yet!
+| audio       =Mizuho-MinorDamage2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Major Damage
+| origin      =あぁ～っ！　こ、こんな恰好で…でもまだ、航行でき…ます！
+| translation =Aaaah~! T-to be in a state like this... but, I can still sail!
+| audio       =Mizuho-MajorDamage.mp3
+}}
+{{ShipquoteKai
+| scenario    =Sunk
+| origin      =瑞穂…沈むのですね？　でも、今度はお役にたてて…瑞穂…良かった…です…
+| translation =I'm... sinking? But, this time I feel unburdened... I'm... is... glad...
+| audio       =Mizuho-Sinking.mp3
+}}
+|}<references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+| scenario    =00:00
+| origin      =提督。本日は、瑞穂がお側でお時間をお伝えいたします。よろしくお願い致します
+| translation =Admiral. I'll be by your side to tell the time today. I look forward to working with you.
+| audio       =MizuhoKai-0000.mp3
+}}
+{{ShipquoteKai
+| scenario    =01:00
+| origin      =提督、マルヒトマルマルとなりました。夜の艦隊は、本当に静かですね
+| translation =It is now 0100, Admiral. The fleet is really quiet at night.
+| audio       =MizuhoKai-0100.mp3
+}}
+{{ShipquoteKai
+| scenario    =02:00
+| origin      =提督、マルフタマルマルとなりました。こんな時間まで、本当にお疲れ様です
+| translation =It is now 0200, Admiral. Thank you for working hard even at this hour.
+| audio       =MizuhoKai-0200.mp3
+}}
+{{ShipquoteKai
+| scenario    =03:00
+| origin      =提督、マルサンマルマルとなりました。何かお夜食でもお作りしましょうか？　簡単な、お茶漬けでもいかがでしょうか？
+| translation =It is now 0300, Admiral. Would you like me to make you anything for supper? How about something simple, like ochazuke?<ref>Ochazuke is tea poured over rice.</ref>
+| audio       =MizuhoKai-0300.mp3
+}}
+{{ShipquoteKai
+| scenario    =04:00
+| origin      =提督、マルヨンマルマルとなりました。瑞穂特製のお茶漬け、お持ちしました。いかがでしょうか？　…そうですか？　良かったです♪
+| translation =It is now 0400, Admiral. My special ochazuke is ready. How is it? ...Is that so? I'm glad♪	
+| audio       =MizuhoKai-0400.mp3
+}}
+{{ShipquoteKai
+| scenario    =05:00
+| origin      =提督、マルゴーマルマルとなりました。少し空が白み始めましたね。もうすぐ、朝ですね
+| translation =It is now 0500, Admiral. The sky is getting a little brighter. It will be morning soon.
+| audio       =MizuhoKai-0500.mp3
+}}
+{{ShipquoteKai
+| scenario    =06:00
+| origin      =提督、マルロクマルマルとなりました。艦隊に総員起こしをかけますね
+| translation =It is now 0600, Admiral. I will go assemble the fleet.
+| audio       =MizuhoKai-0600.mp3
+}}
+{{ShipquoteKai
+| scenario    =07:00
+| origin      =提督、マルナナマルマルとなりました♪　朝食、お持ちしますね？　白米と焼き魚、お浸しと豆腐のお味噌汁です。召し上がって♪
+| translation =It is now 0700, Admiral♪ I'll go get breakfast for you OK? Rice and grilled fish, vegetables and tofu miso soup. Enjoy♪
+| audio       =MizuhoKai-0700.mp3
+}}
+{{ShipquoteKai
+| scenario    =08:00
+| origin      =提督、マルハチマルマルとなりました。昼食用の戦闘配食のおにぎりを作っておきますね？　少し、お待ちください
+| translation =It is now 0800, Admiral. Shall I make some rice ball combat rations for lunch? Please wait a minute.
+| audio       =MizuhoKai-0800.mp3
+}}
+{{ShipquoteKai
+| scenario    =09:00
+| origin      =提督、マルキュウマルマルとなりました。本格的な艦隊運用を始めるのですね？　了解いたしました。まずは編成を見なおされますか？
+| translation =It is now 0900, Admiral. Isn't it time to start full-scale fleet operations? Roger that. First we need to organise the fleet right?
+| audio       =MizuhoKai-0900.mp3
+}}
+{{ShipquoteKai
+| scenario    =10:00
+| origin      =提督、ヒトマルマルマルとなりました。～♪　海の上は気持ちいいですね。瑞穂、頑張りますね？
+| translation =It is now 1000, Admiral. ～♪ The sea feels really good. I'll do my best OK?
+| audio       =MizuhoKai-1000.mp3
+}}
+{{ShipquoteKai
+| scenario    =11:00
+| origin      =提督、ヒトヒトマルマルとなりました。もう少し頑張ったら、お昼にいたしましょう？　本日の戦闘配食は…瑞穂特製おにぎり、です♪
+| translation =It is now 1100, Admiral. After a little more work, shall we get lunch? Today's combat rations are... My special rice balls♪
+| audio       =MizuhoKai-1100.mp3
+}}
+{{ShipquoteKai
+| scenario    =12:00
+| origin      =提督ー！　ヒトフタマルマル、お昼です。瑞穂特製のおにぎりを召し上がって？　お味噌汁も…お持ちしました。茶碗に注いでおきますね？
+| translation =Admiral! 1200, it's lunchtime. Do you want to have some of my special rice balls? I have some... miso soup here. Shall I pour you a bowl?
+| audio       =MizuhoKai-1200.mp3
+}}
+{{ShipquoteKai
+| scenario    =13:00
+| origin      =提督、ヒトサンマルマルとなりました。午後も頑張ってまいりましょう。瑞穂もお側でお手伝い致します。
+| translation =It is now 1300, Admiral. Let's work hard this afternoon. I'll be by your side to help.
+| audio       =MizuhoKai-1300.mp3
+}}
+{{ShipquoteKai
+| scenario    =14:00
+| origin      =提督、ヒトヨンマルマ…あら、千歳さん？　お疲れ様です。また瑞穂もご一緒できて、嬉しいです♪　よろしくお願い致します
+| translation =It is now 1400, Admi... Oh, Chitose-san? Thank you for your hard work. I'd be happy if you can accompany me♪ I look forward to working with you.
+| audio       =MizuhoKai-1400.mp3
+}}
+{{ShipquoteKai
+| scenario    =15:00
+| origin      =提督、ヒトゴーマルマルです。千歳さんですか？　はい、第十一航空船団でご一緒させていただきました。はい。大切な…素敵な方です
+| translation =It's 1500, Admiral. About Chitose-san? Yes, we were both serving in the 11th Air Fleet. Yes. She's an important... and amazing person.
+| audio       =MizuhoKai-1500.mp3
+}}
+{{ShipquoteKai
+| scenario    =16:00
+| origin      =提督、ヒトロクマルマルとなりました。あ、那珂さん。こんにちわ。え、サイン？　あぁ…あ、ありがとうございます。大事にします…
+| translation =It is now 1600, Admiral. Ah, Naka-san. Good afternoon. Eh, an autograph? Ah... Th-thank you very much. I'll treasure it...
+| audio       =MizuhoKai-1600.mp3
+}}
+{{ShipquoteKai
+| scenario    =17:00
+| origin      =提督、ヒトナナマルマルとなりました。そろそろ艦載機の作戦時間はお終いですね。母港に艦隊を戻しましょう
+| translation =It is now 1700, Admiral. It's almost time to end the naval aviation operations. Let's return the fleet to the home port.
+| audio       =MizuhoKai-1700.mp3
+}}
+{{ShipquoteKai
+| scenario    =18:00
+| origin      =提督。ヒトハチマルマル、お夕飯の支度に入りますね。今晩は何がいいかしら？　炊き込みご飯と、イワシのつみれ汁はいかがでしょう？
+| translation =Admiral. 1800, I'll begin dinner preparations now. I wonder what should I make? Would you like takikomi gohan and fish ball soup?<ref>[https://en.wikipedia.org/wiki/Takikomi_gohan Takikomi gohan] is a rice dish with ingredients cooked with the rice.</ref>
+| audio       =MizuhoKai-1800.mp3
+}}
+{{ShipquoteKai
+| scenario    =19:00
+| origin      =提督、ヒトキュウマルマルとなりました。さぁ、お夕飯が出来ました。召し上がれ♪　炊き込みご飯、おかわり、いかがですか？
+| translation =It is now 1900, Admiral. There we go, your dinner is ready. Enjoy♪ Would you like a second helping of the takikomi gohan?
+| audio       =MizuhoKai-1900.mp3
+}}
+{{ShipquoteKai
+| scenario    =20:00
+| origin      =提督、フタマルマルマルです。炊き込みご飯、多めに作っておきましたので、おにぎりにしておきますね？提督、良かったらどうぞ
+| translation =It's 2000, Admiral. I've made too much takikomi gohan, shall I make the leftovers into rice balls? I'll do it if you like.
+| audio       =MizuhoKai-2000.mp3
+}}
+{{ShipquoteKai
+| scenario    =21:00
+| origin      =提督、フタヒトマルマ…あら、高雄さん、摩耶さん。お疲れ様です。その節は、大変お世話になりました。瑞穂、感謝しています
+| translation =Admiral, 210... oh, Takao-san, Maya-san. Thank you for your hard work. I'm sorry for troubling you so much before. Mizuho is really grateful.<ref>Takao and Maya rescued Mizuho's survivors after she was sunk.</ref>
+| audio       =MizuhoKai-2100.mp3
+}}
+{{ShipquoteKai
+| scenario    =22:00
+| origin      =提督、フタフタマルマルとなりました。神通さん、川内さんはこの時間でも頑張っていますね。流石です…ふわぁ…
+| translation =It is now 2200, Admiral. Jintsu-san and Sendai-san are still so lively at this time. As expected of them... yawn...
+| audio       =MizuhoKai-2200.mp3
+}}
+{{ShipquoteKai
+| scenario    =23:00
+| origin      =提督、フタサンマルマルです。本日も大変お疲れ様でした。おにぎり、この棚にしまってありますので、小腹がすいたら召し上がって？
+| translation =It's 2300, Admiral. Thank you so much for all your hard work. I'll leave some rice balls on the shelf, eat them if you get hungry alright?
+| audio       =MizuhoKai-2300.mp3
+}}
+|}<references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Autumn_2015_Seasonal_Update|Early Autumn 2015]]
+|origin = 秋ですね。提督、ご飯の美味しい季節です。瑞穂、何かお作りしますね？何にしよう…
+|translation =	It’s autumn. It’s the season of delicious meals, Admiral. Shall I make something? What should I make…
+|audio = Mizuho_Early_Autumn2015.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = クリスマス…楽しいですね！瑞穂もライスコロッケ作ってみました！お味どうでしょう？
+|translation =	Chirstmas… is fun! I made some rice croquettes! How do they taste?
+|audio = Mizuho_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = もう年末…提督、一年間本当に早いですね。瑞穂も大掃除に加わりますね。
+|translation =	It’s already the end of the year… The year sure flew by, Admiral. I’ll go join in the spring cleaning.
+|audio = Mizuho_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 提督、新年…明けましておめでとうございます！本年も第十一航空戦隊と瑞穂、どうぞ宜しくお願いいたします！
+|translation =	Happy… New Year, Admiral! Please take care of Carrier Division 11 and I this year too!
+|audio = Mizuho_New_Years_Day_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = 節…分…ですか？え？摩耶さん、鬼役されるのですか？投げてみろって…え、ええっ？
+|translation =	It’s… Setsubun? Eh? You’re playing the Oni, Maya-san? “Just throw it”… E-eeeeh?
+|audio = Mizuho_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = 提督、瑞穂チョコレートのお菓子作って見たんです？お一ついかがでしょうか？
+|translation =	Did you see me making chocolate candy, Admiral? Would you like one?
+|audio = Mizuho_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = 提督、これは？チョコレート菓子のお返し？…感謝いたします。瑞穂、嬉しいです！
+|translation =	What’s this, Admiral? In return for the chocolate candy? …I’m grateful. I’m happy!
+|audio = Mizuho_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2016|Spring 2016]]
+|origin = 提督、少し暖かくなてきましたね？今年も春が訪れるですね。瑞穂、感慨深いです！
+|translation =	It’s gotten a bit warmer right, Admiral? Spring is here again this year. I’m deeply moved!
+|audio = Mizuho_Spring_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 提督、三周年だそうです。本当におめでとうございます。瑞穂も、嬉しいです♪
+|translation =	It’s the 3rd Anniversary, Admiral. My sincerest congratulations. I’m happy♪
+|audio = Mizuho_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = この季節…少し、物悲しいですね。潜水艦ですか？そうですね、未だに少し…複雑、ですね。
+|translation =	The rainy season… is a bit melancholy. Submarines? My feelings towards them are still… a bit complicated.
+|audio = Mizuho_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_2016|Early Summer 2016]]
+|origin = だいぶ暑くなってきましたね。今年も…今年も夏がくるのですね。瑞穂、夏はあまり…
+|translation =	It’s gotten really hot now. Summer… Summer is here again. Summer is too much for me…
+|audio = Mizuho_Early_Summer_Sec1_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2016|Midsummer 2016]]
+|origin = 猛暑日が続きますね。提督、お体は大丈夫ですか？そうですか。お元気そう…ですね。
+|translation =	The blazing days are continuing. How are you holding up, Admiral? I see. You’re looking… well.
+|audio = Mizuho_Sec1_Midsummer_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 提督、四周年だそうですね。本当におめでとうございます。瑞穂も…瑞穂も嬉しいです！
+|translation =	It’s the 4th Anniversary, Admiral. My sincerest congratulations. I’m… I’m happy too!
+|audio = Mizuho_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 提督、今日は大切な記念日ですね。瑞穂も、ご一緒できて…よかったです。
+|translation =	Today is an important anniversary, Admiral. I’m happy… that I can spend it with you.
+|audio = Mizuho_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+|}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+KanMusu251.png|Base
+KanMusu251Dmg.png|Base Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Mizuho_Autumn2015.png|[[Seasonal/Early_Autumn_2015_Seasonal_Update|Early Autumn 2015]]
+Mizuho_Autumn2015_dmg.png|[[Seasonal/Early_Autumn_2015_Seasonal_Update|Early Autumn 2015 Damaged]]
+Mizuho_New_Year_2016.png|[[Seasonal/New_Year_2016|New Year 2016]]
+Mizuho_Setsubun_2016.png|[[Seasonal/Setsubun_2016|Setsubun 2016]]
+Mizuho_Valentines_2016.png|[[Seasonal/Valentine%27s_Day_2016|Valentine's Day 2016]]
+Mizuho_Sukiya.png|[[Seasonal/White_Day_2016|Sukiya Collaboration 2016]]
+Mizuho_Third_Anniversery.png|[[Seasonal/Third_Anniversary|3rd Anniversary]]
+Mizuho_Rainy_Season.png|[[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+KanMusu251Nakau.png|[[Seasonal/Nakau_Collaboration|Nakau Collaboration]]
+KanMusu251NakauDmg.png|[[Seasonal/Nakau_Collaboration|Nakau Collaboration Damaged]]
+Kanmusu_251_Christmas_2016.png|[[Seasonal/Christmas_2016|Christmas 2016]]
+Kanmusu_251_Christmas_2016_dmg.png|[[Seasonal/Christmas_2016|Christmas 2016 Damaged]]
+KanMusu_251_Hinamatsuri.png|[[Seasonal/Hinamatsuri_2017|Hinamatsuri 2017]]
+KanMusu_251_Hinamatsuri_dmg.png|[[Seasonal/Hinamatsuri_2017|Hinamatsuri 2017 Damaged]]
+KanMusu251Halloween.png|[[Seasonal/Late_Autumn_2017|Halloween 2017]]
+KanMusu251HalloweenDmg.png|[[Seasonal/Late_Autumn_2017|Halloween 2017 Damaged]]
+KanMusu251Summer.png|[[Seasonal/Summer_2018|Summer 2018]]
+KanMusu251SummerDmg.png||[[Seasonal/Summer_2018|Summer 2018 Damaged]]
+KanMusu251Fall.png|[[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+KanMusu251FallDmg.png||[[Seasonal/Late_Autumn_2018|Late Autumn 2018 Damaged]]
+KanMusu451Lawson2019.png|[[Seasonal/Valentine%27s_Day_2019|Lawson Collaboration 2019]]
+</gallery>
+|}
+
+=== Drop Locations ===
+Limited to 5-3 Boss node, LSC, and Event Maps
+
+==Trivia==
+* Her name is an ancient name for Japan meaning "Abundant Rice". 
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View {{PAGENAME}} CG]]
+*[[Auxiliary Ships|List of Auxiliary ships]]
+*[[:wikipedia:Japanese_seaplane_carrier_Mizuho|Wikipedia page on Japanese Seaplane Carrier Mizuho]]
+{{Shiplist}}
+[[Category: Auxiliary Ship]]
+[[zh:瑞穗]]

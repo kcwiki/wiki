@@ -1,0 +1,106 @@
+==Statuses==
+{|class="wikitable"
+|style="background:#FFCDD2"|Blocked by other decisions or tasks
+|-
+|style="background:#FFE0B2"|Ready for implementation/execution
+|-
+|style="background:#C8E6C9"|Done
+|}
+==Assets==
+{|class="wikitable"
+!colspan="6"|Current migrations
+|-
+|colspan="6"|General scheme:
+* <code>File:<object type> <asset type> <object name>[ <asset name>].<extension></code>
+Rationale:
+* Prefixing by object and asset types ensures good enumeration properties ("pseudo-namespaces")
+* Using names ensures straightforward lookup
+Additional rules:
+* All duplicate or missing image (not voice!) assets should be still represented with redirects?
+|-
+!Object type!!Object names!!Asset type!!Asset names!!Examples!!Status
+|-
+|rowspan="4"|<code>Ship</code>||rowspan="4"|[https://github.com/kcwiki/kancolle-data/blob/master/tl/ship.json Ship names]||<code>Banner</code>||rowspan="3"| -<br><code>Damaged</code>||<code>File:Ship Banner Ayanami Kai Ni.png</code><br><code>File:Ship Banner Ayanami Kai Ni Damaged.png</code>||style="background:#C8E6C9"|Done
+|-
+|<code>Card</code>||<code>File:Ship Card Ayanami Kai Ni.png</code><br><code>File:Ship Card Ayanami Kai Ni Damaged.png</code>||style="background:#C8E6C9"|Done
+|-
+|<code>Full</code>||<code>File:Ship Full Ayanami Kai Ni.png</code><br><code>File:Ship Full Ayanami Kai Ni Damaged.png</code>||style="background:#FFE0B2"|WIP
+|-
+|<code>Voice</code>||[https://github.com/kcwiki/kancolle-data/blob/master/tl/ship-line.json Line names]||<code>File:Ship Voice Ayanami Introduction.mp3</code>||style="background:#FFE0B2"|WIP (regular lines)<ref>Voice comparison for existing lines?</ref>
+|-
+|rowspan="4"|<code>Equipment</code>||rowspan="4"|[https://github.com/kcwiki/kancolle-data/blob/master/tl/equipment.json Equipment names]<ref><code>/</code> in equipment names should be replaced with spaces (without multi-spaces)</ref>||<code>Card</code>||rowspan="4"| -||<code>File:Equipment Card Suisei.png</code>||style="background:#C8E6C9"|Done
+|-
+|<code>Character</code>||<code>File:Equipment Character Suisei.png</code>||style="background:#C8E6C9"|Done
+|-
+|<code>Item</code>||<code>File:Equipment Item Suisei.png</code>||style="background:#C8E6C9"|Done
+|-
+|<code>Full</code>||<code>File:Equipment Full Suisei.png</code>||style="background:#C8E6C9"|Done
+|-
+|rowspan="3"|<code>Item</code>||rowspan="3"|[https://github.com/kcwiki/kancolle-data/blob/master/tl/item.json Item names]<ref>TODO: pseudo-items</ref>||<code>Card</code>||rowspan="3"| -||<code>File:Item Card Action Report.png</code>||style="background:#FFE0B2"|Consistency check
+|-
+|<code>Icon</code>||<code>File:Item Icon Action Report.png</code>||style="background:#FFE0B2"|Consistency check
+|-
+|<code>Full</code>||<code>File:Item Full Action Report.png</code>||style="background:#FFE0B2"|Consistency check
+|-
+|rowspan="2"|<code>Enemy</code>||rowspan="2"|[https://github.com/kcwiki/kancolle-data/blob/master/tl/enemy.json Enemy names]<ref>TODO: remove <code>-</code></ref>||<code>Banner</code>||rowspan="2"| -<br><code>Debuffed</code>||<code>File:Enemy Banner New Battleship Princess.png</code>||style="background:#FFE0B2"|WIP
+|-
+|<code>Full</code>||<code>File:Enemy Full New Battleship Princess.png</code><br><code>File:Enemy Full New Battleship Princess Damaged Debuffed.png</code>||style="background:#FFE0B2"|WIP
+|-
+!colspan="5"|Other tasks||Status
+|-
+|colspan="5"|Delete regular <code>KanMusu</code> leftovers||style="background:#FFCDD2"|Blocked
+|-
+|colspan="5"|Delete all redirects||style="background:#FFCDD2"|Blocked
+|-
+|colspan="5"|Generic rollouts as GitHub actions||style="background:#FFCDD2"|Blocked
+|-
+|colspan="5"|Other assets (icons, BGM, maps, etc.)||style="background:#FFCDD2"|Blocked
+|-
+|colspan="5"|Seasonal voices, cards and full CG||style="background:#FFCDD2"|Blocked
+|}
+<references />
+
+==Backend==
+{|class="wikitable"
+!Namespace!!Task!!Status
+|-
+|<code>Module:+</code>||Import revisions of non-existing modules||style="background:#FFE0B2"|Ready
+|-
+|<code>Template:+</code>||Import revisions of (some?) non-existing templates||style="background:#FFE0B2"|Ready
+|-
+|<code>Module:*</code>||Resolve module conflicts and finish importing||style="background:#FFCDD2"|Blocked
+|-
+|<code>Template:*</code>||Resolve template conflicts and finish importing||style="background:#FFCDD2"|Blocked
+|-
+|<code>Main:+</code>||Import revisions of some core automated pages||style="background:#FFCDD2"|Blocked
+|-
+|<code>Main:*</code>||Page conflicts||style="background:#FFCDD2"|Blocked
+|-
+|<code>MediaWiki:+/*</code>||JS/CSS support||style="background:#FFCDD2"|Blocked
+|}
+==Pages==
+* Delete all redirects.
+* Equipment pages should have correct names. [[Kancolle Wiki:Backlog/Rename]]: legacy Lua names, new Lua names, unknown names, and redirects. Name-based renaming won't fly, find equipment pages via content instead.
+* Equipment pages should have correct content layout.
+{|class="wikitable"
+!Task!!Status
+|-
+|Rename equipment pages||style="background:#FFE0B2"|WIP
+|-
+|Update equipment pages layout||style="background:#FFCDD2"|Blocked
+|-
+|Rename ship pages, setup ship redirects||style="background:#FFE0B2"|Ready
+|-
+|Update ship pages layout||style="background:#FFCDD2"|Blocked
+|-
+|Quests?||style="background:#FFCDD2"|Blocked
+|-
+|Expeditions?||style="background:#FFCDD2"|Blocked
+|-
+|Event/regular maps?||style="background:#FFCDD2"|Blocked
+|}
+
+==Content==
+{|class="wikitable"
+!Task!!Status
+|}

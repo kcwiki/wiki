@@ -1,0 +1,195 @@
+''This page is about the Moderinization mechanic. Please see [[Remodel_(Menu)]] for information about the UI.''
+
+=Introduction=
+[[file:moderniztion_intro01.jpg|300px|right]]
+Modernisation is used to increase the firepower {{Firepower}}, torpedo {{Torpedo}}, anti-air {{AA}}, armour {{Armor}}, HP {{HP}}, ASW {{ASW}} and Luck {{Luck}} stats of your ship girls. You will require up to 5 copies of other ship girls in order to perform a modernisation.
+
+=How To Modernise=
+
+# Click the '''Select (選択)''' button in the empty modernization slot to bring up a list of non-locked ship girls sorted by level.
+
+# Select a ship girl to be placed in a modernization slot.
+
+# Stats that will be improved will turn blue and show you the potential maximum improvement.
+
+#* HP, ASW and Luck will just display a blue up arrow.
+
+# Once you have made your selection, click the '''Begin Synthesis!! (合成開始！！)''' button to modernize.
+#*  The button will be greyed out if the ship girl cannot be modernized any further.
+
+=Overview=
+
+* Modernisation upgrades for firepower, torpedo, AA and armour are reset upon [[Remodel (Mechanic)|remodeling]].
+** HP, ASW and luck modernisation upgrades are carried over.
+* Equipment on a ship girl used for modernisation will be lost.
+** Remember to '''remove valuable equipment''' before using a ship girl as modernisation fodder.
+* You cannot increase stats beyond certain caps.
+** For firepower, torpedo, AA, armour and luck; it is dependent on the ship girl and remodel. Please see the individual ship girl pages or [[Ship Maximum Status]] for the caps.
+* For HP, it is '''+2'''.
+* For ASW, it is '''+9'''.
+* [[Composition#Locking_Ship_Girls|Locking]] ship girls will prevent them from showing up as modernisation fodder.
+
+=General Modernisation=
+
+This applies to firepower, torpedo, anti-air and armour. The formula for bonus stats from modernisation to these stats is:
+
+<math>\text{Stat}_\text{success} = \text{Stat}_\text{input} + \lfloor \frac{\text{Stat}_\text{input} +1}{5} \rfloor</math><br>
+<math>\text{Stat}_\text{failure} = \lfloor 0.5 \times \left( \text{Stat}_\text{input} + \frac{\text{Stat}_\text{input} +2}{5} \right) \rfloor</math>
+
+* <math>\text{Stat}_\text{input}</math> is the stat increase displayed on the modernisation menu.
+
+'''Important Notes'''
+* There is a fixed 50/50 chance of success/failure.
+* Success/failiure is calculated '''independently per stat'''.
+** This means that it is possible for one stat to succeed and another fail.
+* Successes are capped by the cap of the respective stat.
+** This can change the modernisation efficiency listed below.
+* For maximum gains, it is better to spam multiple +5 modernisations.
+
+{| class="wikitable" style="text-align:center;"
+|+General Modernisation Chart
+|style="background-color:#99CCFF;" |Input Value||style="background-color:#99CCFF;" | '''1''' ||style="background-color:#99CCFF;" | '''2''' ||style="background-color:#99CCFF;" | '''3''' ||style="background-color:#99CCFF;" | '''4''' ||style="background-color:#99CCFF;" | '''5''' ||style="background-color:#99CCFF;" | '''6''' ||style="background-color:#99CCFF;" | '''7''' ||style="background-color:#99CCFF;" | '''8''' ||style="background-color:#99CCFF;" | '''9''' ||style="background-color:#99CCFF;" | '''10''' ||style="background-color:#99CCFF;" | '''11''' ||style="background-color:#99CCFF;" | '''12'''
+|-
+|style="background-color:#99CCFF;" |Success|| 1 || 2 || 3 || 5 || 6 || 7 || 8 || 9 || 11 || 12 || 13 || 14
+|-
+|style="background-color:#99CCFF;" |Failure|| 0 || 1 || 2 || 2 || 3 || 3 || 4 || 5 || 5 || 6 || 6 || 7
+|-
+|style="background-color:#99CCFF;" |Efficiency %<ref>Calculated as the weighted expected value for a given input.</ref>|| 50 || 75 || 83.3 || 87.5 || '''90''' || 83.3 || 85.7 || 87.5 || 88.9 || '''90''' || 86.4 || 87.5
+|-
+|style="background-color:#99CCFF;" |Input Value||style="background-color:#99CCFF;" | '''13''' ||style="background-color:#99CCFF;" | '''14''' ||style="background-color:#99CCFF;" | '''15''' ||style="background-color:#99CCFF;" | '''16''' ||style="background-color:#99CCFF;" | '''17''' ||style="background-color:#99CCFF;" | '''18''' ||style="background-color:#99CCFF;" | '''19''' ||style="background-color:#99CCFF;" | '''20''' ||style="background-color:#99CCFF;" | '''21''' ||style="background-color:#99CCFF;" | '''22''' ||style="background-color:#99CCFF;" | '''23''' ||style="background-color:#99CCFF;" | '''24'''
+|-
+|style="background-color:#99CCFF;" |Success|| 17 || 18 || 19 || 20 || 21 || 23 || 24 || 25 || 26 || 27 || 29 || 30
+|-
+|style="background-color:#99CCFF;" |Failure|| 8 || 8 || 9 || 9 || 10 || 11 || 11 || 12 || 12 || 13 || 14 || 14
+|-
+|style="background-color:#99CCFF;" |Efficiency|| 88.5 || 89.3 || '''90''' || 87.5 || 88.2 || 88.9 || 89.5 || '''90''' || 88.1 || 88.6 || 89.1 || 89.6
+|-
+|style="background-color:#99CCFF;" |Input Value||style="background-color:#99CCFF;" | '''25''' ||style="background-color:#99CCFF;" | '''26''' ||style="background-color:#99CCFF;" | '''27''' ||style="background-color:#99CCFF;" | '''28''' ||style="background-color:#99CCFF;" | '''29''' ||style="background-color:#99CCFF;" | '''30''' ||style="background-color:#99CCFF;" | '''31''' ||style="background-color:#99CCFF;" | '''32''' ||style="background-color:#99CCFF;" | '''33''' ||style="background-color:#99CCFF;" | '''34''' ||style="background-color:#99CCFF;" | '''35''' ||style="background-color:#99CCFF;" | '''36'''<ref>Not possible to currently achieve.</ref>
+|-
+|style="background-color:#99CCFF;" |Success|| 30 || 31 || 32 || 33 || 35 || 36 || 37 || 38 || 39 || 41 || 42 || -
+|-
+|style="background-color:#99CCFF;" |Failure|| 15 || 15 || 16 || 17 || 17 || 18 || 18 || 19 || 20 || 20 || 21 || -
+|-
+|style="background-color:#99CCFF;" |Efficiency|| '''90''' || 88.5 || 88.9 ||89.3  || 89.7 || '''90''' || 88.7 || 89.1 || 89.4 || 89.7 || '''90''' || -
+|-
+|}<references/>
+
+{{Clear}}
+
+=Luck Modernisation=
+
+Luck can be modernised either by using [[Maruyu]] or [[:Category:Destroyer_Escorts|DEs]]. Remember that '''luck modernisation is not reset on remodel.''' 
+
+'''Important Notes'''
+* Modernisation success is '''guaranteed''' if using 5 Maruyu.
+** This is why it is very important to remodel her to Kai before using her as modernisation fodder.
+* Maruyu is the easiest and most efficient method to modernise luck. You are better off saving your DEs to modernise HP.
+
+===Maruyu===
+
+A base remodel Maruyu will provide '''+1.2''' luck while her Kai remodel provides '''+1.6''' luck. Refer to the chart below for modernisation results:
+
+{| class="wikitable" style="text-align:center;"
+|+Maruyu Luck Modernisation Chart
+!style="background-color:#99CCFF;" rowspan="2" colspan="2"| Success/Failure<br>(Expected Result)
+!style="background-color:#99CCFF;" colspan="6"| Base Remodel
+|-
+!style="background-color:#99CCFF;"| 0
+!style="background-color:#99CCFF;"| 1
+!style="background-color:#99CCFF;"| 2
+!style="background-color:#99CCFF;"| 3
+!style="background-color:#99CCFF;"| 4
+!style="background-color:#99CCFF;"| 5
+|-
+| rowspan="6"| Kai Remodel
+| 0
+| -
+| 2/1<br>(1.2)
+| 3/2<br>(2.4)
+| 3/4<br>(3.6)
+| 5/4<br>(4.8)
+| 6/-<br>(6.0)
+|-
+| 1
+| 2/1<br>(1.6)
+| 3/2<br>(2.8)
+| 4/-<br>(4.0)
+| 6/5<br>(5.2)
+| 7/6<br>(6.4)
+| -
+|-
+| 2
+| 4/3<br>(3.2)
+| 5/4<br>(4.4)
+| 6/5<br>(4.6)
+| 7/6<br>(6.8)
+| -
+| -
+|-
+| 3
+| 5/4<br>(4.8)
+| 6/-<br>(6.0)
+| 8/7<br>(7.2)
+| -
+| -
+| -
+|-
+| 4
+| 7/6<br>(6.4)
+| 8/7<br>(7.6)
+| -
+| -
+| -
+| -
+|-
+| 5
+| 8/-<br>(8.0)
+| -
+| -
+| -
+| -
+| -
+|-
+|}
+
+===Destroyer Escorts===
+
+DEs have a 50/50 chance of granting '''+1''' luck when used alone or in pairs. '''The pair must be two different ship girls from the same class.'''
+
+* +1 luck or [[#ASW Modernisation|ASW]] is guaranteed from single DE upgrades.
+* +1 luck or [[#HP Modernisation|HP]] is guaranteed from paired DE upgrades.
+** There is a small chance (~6-7%) for an extra +1 luck if the pair is Kai.
+
+=ASW Modernisation=
+
+Currently, DEs are the only way to modernise ASW. They have a 50/50 chance of granting '''+1''' ASW when used alone or in pairs. 
+
+* +1 ASW or [[#Luck Modernisation|Luck]] is guaranteed from single DE upgrades.
+* There is a 20-30% chance of gaining +1 ASW  when using pairs of Kai DEs. 
+** This chance is independent of the HP/Luck gain.
+** Using two Kai DE pairs has a chance of +2 ASW.
+* ASW increase is capped at '''+9'''.
+* Modernisation will fail if the ship girl is at the ASW cap.
+** Modernisation can still succeed if luck is rolled instead of ASW (if the ship girl is not at her luck cap).
+
+=HP Modernisation=
+
+HP can be increased by using [[:Category:Destroyer_Escorts|DEs]], [[Mizuho]] or [[Kamoi]]. DEs must be used in pairs of '''two different ship girls from the same class''' to get +1 HP. Mizuho or Kamoi must be used in pairs to trigger HP modding.
+
+* +1 HP or [[#Luck Modernisation|Luck]] is guaranteed from using pairs of DEs.
+** There is a small chance (~6-7%) for an extra +1 HP if the pair is Kai.
+* The success rate for AV modernisation can be increased by adding more duplicates.
+** +30% per base AV
+** +40% per Kai AV
+** If the success rate goes over 100%, a roll for a second HP increase is performed. E.g 120% = 20% chance for +2HP.
+* HP increase is capped at '''+2'''. Exceptions are:
+** Capped at +1: [[I-13]], [[I-14]], [[I-19]], [[I-26]], [[I-58]], [[U-511|U-511 Kai]], and [[Hayasui]]. 
+** Cannot be modernised: [[I-168|I-168 Kai]], [[I-400]], [[I-401]], [[I-8]], [[Maruyu]], [[Hayasui|Hayasui Kai]], [[Bismarck]], [[Littorio|Littorio/Italia]], [[Musashi]], [[Mutsu|Mutsu Kai]], [[Nagato|Nagato Kai/Kai Ni]], [[Nelson|Nelson Kai]], [[Richelieu]], [[Roma|Roma/Kai]], and [[Yamato]].
+* AVs can only be used to increase the HP of certain ships.
+** Mizuho: [[Mizuho]], [[Kamoi]].
+** Kamoi: [[Mizuho]], [[Kamoi]], [[:Category:Agano Class|Agano-class]], [[:Category:Yamato Class|Yamato-class]].
+
+=See Also=
+[[Modernization/Tables]]<br>
+[[Help:Modernization|Modernization Priority]]<br>
+{{Mechanics}}

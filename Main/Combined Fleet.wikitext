@@ -1,0 +1,567 @@
+=Introduction=
+[[File:Combined_Fleet_in_Action.png|thumb|350px|A combined fleet during battle (aerial phase).]]
+Combined Fleets were first introduced during the [[Summer 2014 Event|Summer 2014 Event]].
+
+During events, you may be required to sortie two fleets at a time in a combined fleet. You are only able to sortie Combined Fleets to certain event maps and you are not allowed to use them in normal maps when they are available. A Combined Fleet is formed out of your 1st and 2nd fleets so you must have the 2nd fleet unlocked. You form a combined fleet by clicking and dragging the flag icon for the 2nd fleet over to the flag icon for the 1st fleet and selecting the type of fleet you want to form from the pop-up menu. The three different fleets are detailed below, but they are:  
+
+* [[Combined Fleet#Carrier Task Force|Carrier Task Force]] (Kidou Butai "機動部隊")
+* [[Combined Fleet#Surface Task Force|Surface Task Force]] (Suijou Butai "水上部隊")
+* [[Combined Fleet#Transport Escort Force|Transport Escort Force]] (Yuusou Goei Butai "輸送護衛部隊")
+
+=General Information=
+
+1. If the flagship of the 1st or 2nd fleet is <span style="color:orange;">'''Moderately Damaged (中破)'''</span> or worse, the Combined Fleet cannot be sortied.
+
+2. The accuracy of shelling and carrier attacks during daytime combat is reduced. Please see [[Accuracy,_Evasion_and_Criticals#Daytime_Shelling|Accuracy]] for more details.
+
+3. The flagships of both fleets '''cannot be sunk'''.
+* You will be forced to retreat if the 1st fleet flagship is <span style="color:red;">'''Heavily Damaged (大破)'''</span> unless she has damage control equipped.
+* You will be allowed to continue the sortie if the 2nd fleet flagship is <span style="color:red;">'''Heavily Damaged (大破)'''</span>.
+
+4. Aerial combat works differently.
+* When contesting the air control state:
+** '''Versus single fleets''', only the fighter power of the '''main fleet''' is taken into account.
+** '''Versus combined fleets''', the fighter power of '''both fleets'' is taken into account.
+** This means that versus single fleets, planes in the 2nd fleet aren't considered for triggering [[Aerial Combat#Contact|contact]].
+* [[Anti-Air Fire|Anti-air shoot down]] is calculated using the sum of both fleets.
+** Ships in the 2nd fleet are eligible to perform anti-air cut-ins.
+* Ships in the 2nd fleet are eligible targets for enemy bombers.
+
+5. Torpedo attacks, [[Opening Anti-Submarine Warfare]], and night battle are only performed by the 2nd fleet.
+
+6. When encountering a maelstrom node, there are two types of supply loss reductions at play. Which version applies depends on the node and is fixed.
+** The first only considers the amount of radars in the 1st fleet and the 2nd fleet does not lose any supplies.
+** The second considers the amount of radars in both fleets '''independently'''. This means that having no radars in the 1st fleet but radars in the 2nd fleet would cause only the 1st fleet to lose supplies.
+
+7. The Combined Fleet will automatically be disbanded if you no longer meet the composition requirements for that specific fleet.  
+
+8. You are allowed to bring duplicate ships as long as they are in separate fleets.
+
+===Special Mechanics===
+====Fleet Command Facility====
+
+When the flagship of the 1st fleet is equipped with a [[Fleet Command Facility]] (FCF), you are able to evacuate <span style="color:red;">'''Heavily Damaged (大破)'''</span> mid-sortie. This can help increase your pass rate to the boss node. The option to evacuate "退避" or not evacuate "退避せず" will appear after the results screen but before the continue/abandon sortie option. You will be shown the damaged ship to be evacuated and the ship that will be escorting her back. '''You are not able to pick which damaged ship gets evacuated and who escorts her.''' The selection is based off '''fleet order''' and the ships higher in the fleet order are selected.
+
+Requirements for using FCF are:
+* FCF equipped on the 1st fleet flagship.
+* At least one heavily damaged ship.
+** The damaged ship must not be the flagships of either fleet.
+* At least one destroyer '''in the 2nd fleet''' that is not <span style="color:#f2eb14;">'''Lightly Damaged (小破)'''</span> or worse.
+** The destroyer must not be the 2nd fleet flagship.
+
+'''Important Notes'''
+* It is important to remember that '''only one''' ship can be evacuated per battle. If you have more than one heavily damaged ship, you should retreat.
+* Evacuated ships and their escorts will '''lose 40 morale and all their remaining fuel'''.
+* Missing ships will not count towards ships lost for determining victory conditions.
+* It is possible to fail LoS checks or routing requirements if you evacuate too many key ships.
+
+====Combined Fleet Night Battle====
+
+In Combined vs Combined engagements, only a single fleet will participate in night battle. So the game will determine if your escort fleet engages the enemy escort or main fleet.
+
+Your fleet must obtain '''3 points or less''' in order to fight the enemy main fleet.
+* Escort flagship alive - 1 point
+* For every ship in the escort above moderate damage - 1 point
+** This means the escort flagship can count for 2 points if she is above moderate damage.
+
+The following are also exceptions to Combined Fleet night battles.
+* ASW damage and accuracy is '''not reduced'''.
+* Night battle equipment on the main fleet '''does not count'''.
+
+=Combined Fleet Types=
+[[File:Choose_Combined_Fleet_Revision.png|thumb|225x225px|You may be allowed to choose which type of task force to create.]]
+===Carrier Task Force===
+[[File:Combined Fleet Icons.png|thumb|186x186px|Combined Fleet icons: Surface Task Force (top), Carrier Task Force (bottom)]]
+Main Fleet (1st Fleet):
+* 2-4 Carriers (CVL/CV/CVB)
+* Maximum of 2 Battleships (FBB/BB/BBV)
+* Maximum of 4 Submarines (SS/SSV) - They cannot be the flagship
+* Maximum of 4 Other ships (CA/CAV/CL/DD/etc)
+
+Escort Fleet (2nd Fleet):
+* 1 Light Cruiser (CL)
+* 2-5 Destroyers (DD)
+* Maximum of 2 Heavy Cruisers (CA/CAV)
+* Maximum of 1 Seaplane Tender (AV)
+* Maximum of 1 Light Carrier (CVL/CVE)
+* Maximum of 2 Fast Battleships (FBB) - Slow battleships can be categorised as fast battleships if their speed is increased to Fast+. Please see [[Ship Speed]] for details. [[Gangut]] is considered a FBB even though her speed is slow.
+* Maximum of 3 Submarines (SS/SSV) - They cannot be the flagship
+* Maximum of 3 Other ships (CLT/CT/DE/etc).
+* No Carriers allowed (CV/CVB)
+
+'''Important Notes'''
+* This is the easiest type to obtain air supremacy because of the amount of carriers you are allowed to bring.
+* The powerful airstrike can take out multiple enemies before shelling begins.
+* Because the escort fleet attacks first, it can leave your vulnerable ships exposed.
+** It does mean that your escort has a chance to take out the weaker ships so that your main fleet can focus on the tougher targets.
+
+===Surface Task Force===
+
+Main Fleet (1st Fleet):
+* '''At least''' 2 CL/CLT/CA/CAV/FBB/BB/BBV
+* Maximum of 4 Battleships (BB/FBB/BBV)
+* Maximum of 4 Heavy Cruisers (CA/CAV)
+* Maximum of 1 Carrier (CV/CVB) - Cannot be combined with 2 light carriers.
+* Maximum of 2 Light Carriers (CVL/CVE) - Cannot be combined with 1 carrier.
+* Maximum of 4 Submarines (SS/SSV) - Cannot be flagship.
+* Maximum of 4 Other ships (CL/CLT/CT/DD/AV/etc)
+
+Escort Fleet (2nd Fleet):
+* 1 Light Cruiser (CL)
+* 2-5 Destroyers (DD)
+* Maximum of 2 Heavy Cruisers (CA/CAV)
+* Maximum of 1 Seaplane Tender (AV) - Can be combined with 1 light carrier.
+* Maximum of 1 Light Carrier (CVL/CVE) - Can be combined with 1 seaplane tender.
+* Maximum of 2 Fast Battleships (FBB) - Slow battleships can be categorised as fast battleships if their speed is increased to Fast+. Please see [[Ship Speed]] for details. [[Gangut]] is considered a FBB even though her speed is slow.
+* Maximum of 3 Submarines (SS/SSV) - They cannot be the flagship
+* Maximum of 3 Other ships (CLT/CT/DE/etc).
+* No Carriers allowed (CV/CVB)
+
+'''Important Notes'''
+* This fleet typically has the highest pass rate because your heavy main fleet faces the enemy first. This spares your light escort from the brunt of enemy attacks.
+* It can be difficult to secure air superiority because of a lack of fighter power.
+
+===Transport Escort Force===
+[[File:Transport combined fleet.png|thumb|300px|Transport Escort Fleet was introduced in Fall 2015.]]
+[[File:Tcf icon.png|thumb|136x119px|Combined Fleet icon: Transport Escort Fleet]]
+Main Fleet (1st Fleet):
+* 4-6 Destroyers or Destroyer Escorts (DD/DE)
+* Maximum of 2 Light Cruisers, Aviation Cruisers, Aviation Battleships, Seaplane Tenders or Oilers (CL/CT/CAV/BBV/AV/AO)
+* Maximum of 1 Landing Ship, Escort Carrier or Submarine Tender (LHA/CVE/AS)
+
+Escort Fleet (2nd Fleet):
+* 1-2 Light Cruisers or Training Cruisers (CL/CT) - 1 must be flagship.
+* 3-5 Destroyers (DD)
+* Maximum of 2 Heavy Cruisers (CA/CAV)
+
+'''Important Notes'''
+* The lightest of all the Combined Fleets, making it the most vulnerable to attacks.
+* It is typically only used for Transport phases during events or for anti-installation work.
+* It can be very hard to secure air superiority because of a lack of carriers.
+
+=Combat Flow=
+===Formation Selection===
+
+Combined Fleets have special formations that differ from the standard single fleet formations. You will be able to select from the following formations.
+
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:310px;" rowspan="2"|Formation
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;width:69px;" rowspan="2"|Formation Icon
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;width:32px;" rowspan="2"|Fleet
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;width:96px;" colspan="3"|Shelling
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;width:96px;" colspan="3"|Torpedo
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;width:96px;" colspan="3"|Anti-Submarine
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;width:96px;" rowspan="2"|Anti-Air
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;" rowspan="2"|Flagship Protection
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;" rowspan="2"|Notes
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" |Damage
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" |Accuracy
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" |Evasion
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" |Damage
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" |Accuracy
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" |Evasion
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" |Damage
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" |Accuracy
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;" |Evasion
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Cruising Formation 1 (ASW Alert)<br>第一警戒航行序列（対潜警戒）
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|{{CruisingForm1}}
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |0.8
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |-
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.3
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|1.1
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|??
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Moderate shelling and torpedo accuracy. Similar to Line Abreast.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |0.8
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |0.7
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.3
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Cruising Formation 2 (Forward Alert)<br>第二警戒航行序列（前方警戒）
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|{{CruisingForm2}}
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.0
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |-
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.1
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|1.0
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|??
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Higher shelling and torpedo accuracy than Formation 1. Similar to Double Line without the accuracy bonus.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.0
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |0.9
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.1
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Cruising Formation 3 (Ring Formation)<br>第三警戒航行序列（輪形陣）
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|{{CruisingForm3}}
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |0.7
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |-
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.0
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|1.5
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|??
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Requires 5 or more ships in the 2nd fleet. Very low shelling and torpedo accuracy. Similar to Diamond.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |0.7
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |0.6
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.0
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Cruising Formation 4 (Battle Formation)<br>第四警戒航行序列（戦闘隊形）
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|{{CruisingForm4}}
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.1
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.0
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |-
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |0.7
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|1.0
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|??
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Requires 4 or more ships in the 2nd fleet. Highest shelling and torpedo accuracy. Similar to Line Ahead.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.1
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |1.0
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |0.7
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|-
+|}
+
+===Combined Fleet vs Single Fleet===
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:310px;"|Combat Phase
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Carrier Task Force
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Surface Task Force
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;" |Transport Escort Force
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Detection
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Detection|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Jet Assault
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Jet Assault|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Land Based Bombing
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Land Based Bombing|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Aerial Combat 
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Aerial Combat |single fleet]] with '''only the main fleet''' participating.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Support Fleet
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Support Fleet|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Opening Attacks
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Opening Attacks|single fleet]] with '''only the escort fleet''' participating.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Engagement
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Engagement Form|single fleet]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |1st Shelling
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Closing Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort 
+|style="text-align: center; border-style: solid; border-width: 1px;" |N/A
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |2nd Shelling<ref>2nd and 3rd shelling phases only occur when there is a Battleship or similar in the 1st fleet or enemy fleet.</ref>
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |3rd Shelling
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Closing Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px;" |N/A 
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |N/A
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Night Battle
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Night Battle|single fleet]] with '''only the escort fleet''' participating.
+|-
+|}<references/>
+
+{{clear}}
+
+===Combined Fleet vs Combined Fleet===
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:310px;"|Combat Phase
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Carrier Task Force
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Surface Task Force
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;" |Transport Escort Force
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Detection
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Detection|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Jet Assault
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Jet Assault|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Land Based Bombing
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Land Based Bombing|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Aerial Combat 
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Aerial Combat |single fleet]] with '''both fleets''' participating.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Support Fleet
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Support Fleet|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Opening Attacks
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Opening Attacks|single fleet]] with '''only the escort fleet''' participating.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Engagement
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Engagement Form|single fleet]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |1st Shelling<ref>The 1st round of shelling for each fleet is in range order and the 2nd round for the main fleets is in position order.</ref>
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main vs Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main vs Main
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main vs Main
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |2nd Shelling<ref>The 2nd round of shelling for the main fleets only happens when there is a battleship or similar in either '''main fleet'''.</ref>
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort vs Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main vs Both Fleets
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort vs Escort
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Closing Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort vs Both Fleets 
+|style="text-align: center; border-style: solid; border-width: 1px;" |N/A
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort vs Both Fleets 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |3rd Shelling
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main vs Both Fleets
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort vs Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |Main vs Both Fleets
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Closing Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px;" |N/A 
+|style="text-align: center; border-style: solid; border-width: 1px;" |Escort vs Both Fleets
+|style="text-align: center; border-style: solid; border-width: 1px;" |N/A
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Night Battle
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="3"|Same as  [[Combat#Night Battle|single fleet]] with '''only the escort fleet''' participating. There is an extra determination to see whether your fleet will fight the enemy escort or main fleet.
+|-
+|}<references/>
+
+{{clear}}
+
+===Single Fleet vs Combined Fleet===
+
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:310px;"|Combat Phase
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;" |Action
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Detection
+|style="text-align: center; border-style: solid; border-width: 1px;" |Same as  [[Combat#Detection|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Jet Assault
+|style="text-align: center; border-style: solid; border-width: 1px;" |Same as  [[Combat#Jet Assault|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Land Based Bombing
+|style="text-align: center; border-style: solid; border-width: 1px;" |Same as  [[Combat#Land Based Bombing|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Aerial Combat 
+|style="text-align: center; border-style: solid; border-width: 1px;" |Same as  [[Combat#Aerial Combat |single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Support Fleet
+|style="text-align: center; border-style: solid; border-width: 1px;" |Same as  [[Combat#Support Fleet|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Opening Attacks
+|style="text-align: center; border-style: solid; border-width: 1px;" |Same as  [[Combat#Opening Attacks|single fleet]].
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Engagement
+|style="text-align: center; border-style: solid; border-width: 1px;" |Same as  [[Combat#Engagement Form|single fleet]]
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |1st Shelling<ref>1st and 2nd shelling is in range order.</ref>
+|style="text-align: center; border-style: solid; border-width: 1px;" |Vs Escort
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Closing Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px;" |Vs Both Fleets
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |2nd Shelling
+|style="text-align: center; border-style: solid; border-width: 1px;" |Vs Main
+|-
+
+|style="text-align: center; border-style: solid; border-width: 1px;" |3rd Shelling<ref>In position order. Only occurs if battleship or similar present in your fleet or the enemy's main fleet.</ref>
+|style="text-align: center; border-style: solid; border-width: 1px;" |Vs Both Fleets
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Night Battle
+|style="text-align: center; border-style: solid; border-width: 1px;" |Same as  [[Combat#Night Battle|single fleet]]. There is an extra determination to see whether your fleet will fight the enemy escort or main fleet.
+|-
+|}<references/>
+
+{{clear}}
+
+===Special Nodes===
+
+The special nodes with exceptions to the usual combat flow are:
+* '''Air Battle''' nodes that are similar to the ones in 1-6 consist of two aerial combat phases with only the main fleet participating.
+* '''Air Raid''' nodes that are similar to the ones in 6-5 just consist of a single aerial combat phase with only the main fleet participating.
+* '''Submarine Only''' nodes will skip the aerial combat phase.
+* '''Night Battle''' that are similar to the ones in 5-3 work the same way as a single fleet.
+* '''Night/Day''' nodes that can be found on some event maps begin with a normal single fleet night battle then shifts to combined fleet battle in the day. Because you must select from single fleet formations, your fleet will shift to the equivalent combined fleet formation in day.
+** Line Abreast → Cruising Formation 1
+** Double Line → Cruising Formation 2
+** Diamond → Cruising Formation 3
+** Line Ahead → Cruising Formation 4
+
+=Damage Calculations=
+
+Basic attack power in a Combined Fleet has slightly different formulas for shelling, carrier attacks and torpedo attacks. Damage is otherwise calculated the same way as a single fleet. Please see [[Damage Calculations]] for more details on the pre- and post- cap modifiers applicable. The new basic attack power formulas are as follows:
+
+<math>\text{Shelling Power}_\text{CF} = \text{FP} + \bigstar + \text{Mod}_\text{CF} + 5</math>
+
+<math>\text{Power}_\text{carrierCF} = \left[ \left[ \text{FP} + \text{TRP} + \bigstar + \left[ \text{DB} \times 1.3 \right] + \text{Mod}_\text{CF} \right] \times 1.5 \right] + 55</math>
+
+<math>\text{Torpedo Power}_\text{CF} = \text{TRP} + \bigstar</math>
+
+* <math>\text{Mod}_\text{CF}</math> is the combined fleet modifier based on the tables below.
+
+'''Combined Fleet vs Single Fleet Modifiers'''
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;"|Combat Phase
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|Forces
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Carrier Task Force
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Surface Task Force
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;" |Transport Escort Force
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Main Fleet Shelling
+|style="text-align: center; border-style: solid; border-width: 1px;" |Allies
+|style="text-align: center; border-style: solid; border-width: 1px;" |+2
+|style="text-align: center; border-style: solid; border-width: 1px;" |+10
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Enemy
+|style="text-align: center; border-style: solid; border-width: 1px;" |+10
+|style="text-align: center; border-style: solid; border-width: 1px;" |+5
+|style="text-align: center; border-style: solid; border-width: 1px;" |+10
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Escort Fleet Shelling
+|style="text-align: center; border-style: solid; border-width: 1px;" |Allies
+|style="text-align: center; border-style: solid; border-width: 1px;" |+10
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|style="text-align: center; border-style: solid; border-width: 1px;" |+10
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Enemy
+|style="text-align: center; border-style: solid; border-width: 1px;" |+5
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|style="text-align: center; border-style: solid; border-width: 1px;" |+5
+|-
+|}
+
+'''Combined Fleet vs Combined Fleet Modifiers'''
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;"|Combat Phase
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|Forces
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Carrier Task Force
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Surface Task Force
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;" |Transport Escort Force
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Main Fleet Shelling
+|style="text-align: center; border-style: solid; border-width: 1px;" |Allies
+|style="text-align: center; border-style: solid; border-width: 1px;" |+2
+|style="text-align: center; border-style: solid; border-width: 1px;" |+2
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Enemy
+|style="text-align: center; border-style: solid; border-width: 1px;" |+10
+|style="text-align: center; border-style: solid; border-width: 1px;" |+10
+|style="text-align: center; border-style: solid; border-width: 1px;" |+10
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Escort Fleet Shelling
+|style="text-align: center; border-style: solid; border-width: 1px;" |Allies
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Enemy
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|-
+|}
+
+'''Single Fleet vs Combined Fleet Modifiers'''
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;"|Combat Phase
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|Forces
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;" |Bonus
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Vs Main Fleet
+|style="text-align: center; border-style: solid; border-width: 1px;" |Allies
+|style="text-align: center; border-style: solid; border-width: 1px;" |+5
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Enemy
+|style="text-align: center; border-style: solid; border-width: 1px;" |+10
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"|Vs Escort
+|style="text-align: center; border-style: solid; border-width: 1px;" |Allies
+|style="text-align: center; border-style: solid; border-width: 1px;" |+5
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |Enemy
+|style="text-align: center; border-style: solid; border-width: 1px;" |-5
+|-
+|}
+
+=See Also=
+[[Accuracy, Evasion and Criticals]]<br>
+[[Help:Equipment Setups]]
+----
+{{Mechanics}}

@@ -1,0 +1,93 @@
+=Introduction=
+
+'''Inventory (アイテム)''' is a main menu function that displays all the items you have earned.
+
+=Menu Functions=
+
+* '''Owned Items (保有アイテム)''' - All items that you own. Items must be in this inventory before they can be used.
+* '''Purchased Items (購入済みアイテム)''' - Items that have just been purchased from the cash stop appear here. They need to be moved over to Owned Items before they can be used.
+* '''Expanded Inventory (拡張アイテム)''' - Extra inventory space implemented to fit newly introduced items.
+* '''Use Item (使用する)''' - Available from some items, allows you to use the item.
+
+=Inventory Contents=
+[[File:Newinventory.jpg|none]]
+[[File:Expanded_inventory.png|right]]
+{| class="wikitable"
+|+Standard Inventory
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Row
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="8"|Item Name
+|-
+|style="text-align: center; "|1
+|style="text-align: center; "|[[Marriage|Marriage Papers]]
+|style="text-align: center; "|[[Medal]]s
+|style="text-align: center; "|Improvement Materials
+|style="text-align: center; "|[[Irako]]
+|style="text-align: center; "|[[Present Box]]es
+|style="text-align: center; "|[[Valentine's Chocolate]]s
+|style="text-align: center; "|[[Medal#Hard Mode Medal|Hard Mode Medals]]
+|style="text-align: center; "|[[Jets|New Aircraft Blueprint]]
+|-
+|style="text-align: center; "|2
+|style="text-align: center; "|[[Furniture#Obtaining%20Furniture%20Coins|Furniture Box (Small)]]
+|style="text-align: center; "|[[Furniture#Obtaining%20Furniture%20Coins|Furniture Box (Medium)]]
+|style="text-align: center; "|[[Furniture#Obtaining%20Furniture%20Coins|Furniture Box (Large)]]
+|style="text-align: center; "|[[Mamiya]]
+|style="text-align: center; "|[[Blueprint]]s
+|style="text-align: center; "|[[Furniture#Purchasing Furniture|Furniture Fairies]]
+|style="text-align: center; "|[[Headquarters Personnel]]
+|style="text-align: center; "|[[Reinforcement Expansion]]
+|-
+|style="text-align: center; "|3
+|style="text-align: center; "|Instant Repairs
+|style="text-align: center; "|Instant Constructions
+|style="text-align: center; "|Development Materials
+|style="text-align: center; "|Dock Key
+|style="text-align: center; "|[[Repair Team]]
+|style="text-align: center; "|[[Repair Goddess]]
+|style="text-align: center; "|[[Hishimochi]]
+|style="text-align: center; "|[[Saury]]
+|-
+|style="text-align: center; "|4
+|style="text-align: center; "|[[Skilled Pilot]]
+|style="text-align: center; "|[[Prototype Flight Deck Catapult]]
+|style="text-align: center; "|[[Jets|Ne-Type Jet Engine]]
+|style="text-align: center; "|[[Canned Saury]]
+|style="text-align: center; "|[[Battle Rations]]
+|style="text-align: center; "|[[Maritime Resupply]]
+|style="text-align: center; "|[[Construction Team]]
+|style="text-align: center; "|-
+|-
+|}
+{| class="wikitable"
+|+Expanded Inventory
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Row
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="3"|Item Name
+|-
+|style="text-align: center; "|1
+|style="text-align: center; "|-
+|style="text-align: center; "|-
+|style="text-align: center; "|[[Action Report]]s
+|-
+|style="text-align: center; "|2
+|style="text-align: center; "|[[New Model Gun Development Material]]s
+|style="text-align: center; "|[[New Model Aviation Development Material]]s
+|style="text-align: center; "|[[New Model Rocket Development Material]]s
+|-
+|style="text-align: center; "|3
+|style="text-align: center; "|[[Battle Ration (Special Onigiri)]]
+|style="text-align: center; "|[[Emergency Repair Materials]]
+|style="text-align: center; "|[[New Model Armament Material]]s
+|-
+|style="text-align: center; "|4
+|style="text-align: center; "|[[Xmas Select Gift Box]]
+|style="text-align: center; "|-
+|style="text-align: center; "|[[Setsubun Mini-Event|Setsubun Beans]]
+|-
+|}
+
+==See Also==
+{{Mechanics}}
+[[Category:Items]]
+[[Category:UI]]

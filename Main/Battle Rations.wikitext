@@ -1,0 +1,99 @@
+__NOTOC__
+{{EquipmentInfo|145}}
+
+==Introduction==
+
+腹が減ってはなんとやら･･････戦闘前にしっかりと腹ごしらえをしておきましょう。<br>
+海の上で食べる握り飯の味は格別です！<br>
+(発動すると消滅します)
+
+''You can't fight on an empty whatever......Let's make sure to fill our stomachs before battle.''<br>
+''The flavour of rice balls eaten at sea is something special!''<br>
+''(Is consumed on activation)''
+
+==Notes==
+Battle Rations are a consumable item that, when an equipped ship drops to a certain level of [[morale]], will be consumed, resulting in a large boost in morale for the ship that 'eats' the Ration, while the ships 'besides' (the ones directly above and below in the combat screen) are given a small boost.
+*{{PAGENAME}} slightly increases TP gauge drain during [[Transport Operation#Equipment TP Value|Transport Operations]]
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Purchasable'''
+
+'''From quests: '''[[Quests#A72|A72]], [[Quests#A79|A79]] (x2), [[Quests#A81|A81]], [[Quests#A85|A85]], [[Quests#A90|A90]] (x2, choice), [[Quests#A91|A91]], [[Quests#Bq5|Bq5]], [[Quests#B49|B49]] (x2), [[Quests#B51|B51]], [[Quests#B58|B58]], [[Quests#B63|B63]], [[Quests#B64|B64]], [[Quests#B66|B66]], [[Quests#B82|B82]], [[Quests#C8|C8]], [[Quests#C9|C9]], [[Quests#C15|C15]] (x2, choice), [[Quests#D24|D24]] (x2), [[Quests#D25|D25]] (x2), [[Quests#F59|F59]] (x2), [[Quests#G6|G6]] (x2, choice)
+
+''From limited-time quests: ''[[Quests/Seasonal#5A03|5A03]] (x5, choice), [[Quests/Seasonal#Le1A1|Le1A1]] (x3, choice), [[Quests/Seasonal#SB23|SB23]] (x4, choice), [[Quests/Seasonal#SB26|SB26]] (x2, choice), [[Quests/Seasonal#SB30|SB30]] (x3, choice), [[Quests/Seasonal#SB33|SB33]] (x2, choice), [[Quests/Seasonal#SB48|SB48]] (x4, choice), [[Quests/Seasonal#SB52|SB52]] (x2, choice), [[Quests/Seasonal#SF1|SF1]], [[Quests/Seasonal#SN01|SN01]], [[Quests/Seasonal#SN02|SN02]], [[Quests/Seasonal#SN04|SN04]] (x2), [[Quests/Seasonal#SN05|SN05]], [[Quests/Seasonal#SN09|SN09]], [[Quests/Seasonal#20WiG3|20WiG3]] (x2, choice)
+
+''Event reward for:''
+* [[Summer 2015 Event]] E-1: Hard (x4), Medium (x3), Easy (x2)
+* [[Summer 2015 Event]] E-2: Hard (x2)
+* [[Summer 2015 Event]] E-4: Hard (x2), Medium, Easy
+* [[Summer 2015 Event]] E-5: Hard (x2), Medium (x2)
+* [[Summer 2015 Event]] E-7: Hard (x3), Medium (x2)
+* [[Fall 2015 Event]] E-2: Hard (x2), Medium, Easy
+* [[Fall 2015 Event]] E-4: Hard (x2), Medium
+* [[Winter 2016 Event]] E-1: Hard (x2), Medium (x2), Easy
+* [[Winter 2016 Event]] E-2: Hard (x2)
+* [[Spring 2016 Event]] E-1: Hard (x2), Medium, Easy
+* [[Summer 2016 Event]] E-1: Hard (x2), Medium (x2), Easy (x2)
+* [[Fall 2016 Event]] E-2: Hard (x2), Medium, Easy
+* [[Spring 2017 Event]] E-2: Hard (x2), Medium (x2), Easy
+* [[Summer 2017 Event]] E-1: Hard (x2), Medium, Easy
+* [[Fall 2017 Event]] E-1: Hard (x3), Medium (x2), Easy (x2)
+* [[Winter 2018 Event]] E-1: Hard (x2), Medium (x2), Easy (x2), Casual (x2)
+* [[Early Fall 2018 Event]] E-1: Hard (x2), Medium (x2), Easy (x2), Casual (x2)
+* [[Winter 2019 Event]] E-2: Hard (x2), Medium (x2), Easy (x2), Casual
+
+''Exchange reward'' from [[Spring 2018 Food Collection Mini-Event|Food Collection Mini-Event]]
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|Combat Ration}}
+
+'''Used by quests: '''[[Quests#C16|C16]], [[Quests#F60|F60]]
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2015-08-10:''' '''Implemented'''
+* '''2016-04-01:''' Mechanics changed: used randomly starting from 3rd battle node or boss -> can be chosen to be used before boss battles
+* '''2017-07-14:''' Effects increased, became '''improvable''' and '''upgradeable''' into {{Equipment/Link|Combat Ration (Special Onigiri)}}
+</div></div>
+
+== Akashi's Improvement Arsenal ==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+| Name = {{PAGENAME}}
+| ItemType = Rations
+| Fuel = 10
+| Ammo = 0
+| Steel = 0
+| Baux = 5
+|Mats0-5 = 1/2
+|Mats6-9 = 1/2
+|Mats10 = 1/3
+|Screws0-5 = 0/0
+|Screws6-9 = 1/1
+|Screws10 = 0/1
+|EquipConsume0-5 = 1x{{Rations|Combat Ration}}
+|EquipConsume6-9 = -
+|EquipConsume10 = 1x{{Rations|Combat Ration}}
+| Sun = Na<br/>A
+| Mon = Na<br/>&nbsp;
+| Tue = Na<br/>&nbsp;
+| Wed = Na<br/>&nbsp;
+| Thu = Na<br/>&nbsp;
+| Fri = Na<br/>A
+| Sat = Na<br/>A
+| 2ndShip = [[Naganami]]<br/>[[Agano]]
+| Notes = Uses [[Combat Ration]] for improvement up to ★+6 <br> Upgrades [[Battle Ration (Special Onigiri)|Combat Ration (Special Onigiri)]]
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Ration]]

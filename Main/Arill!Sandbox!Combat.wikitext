@@ -1,0 +1,276 @@
+=Introduction=
+
+Combat is a major component of the game in Kantai Collection. Combat is accessed through the sortie menu by selecting a map to send a fleet. Multiple mechanics weave together to create an intricate combat dynamic. For more detailed explanations on the various combat mechanics, please see the individual pages below.
+
+=Combat Phases=
+
+In each node, combat will consist of at least one, up to several Combat Phases. The number of combat phases depends on the node type, with each node type using a different set of combat phases and order.
+More information on [[Arill/Sandbox/Combat/Map Mechanics & Nodes#Nodes|Nodes]].
+
+In no particular order, the combat phases are made out of '''[[Aerial Combat]]''', '''[[Battle Opening]]''', '''[[Day Battle]]''', '''[[Night Battle]]''', '''[[Land-Based Aerial Support]]''', and '''[[Support Expedition]]'''.
+
+==Formation Selection==
+
+If the fleet currently deployed has 4 or more ships, the player will be prompted to pick a fleet formation before every battle. Fleets with 3 or less ships will not have a fleet formation prompt and will default to '''Line Ahead'''.
+
+{| class="wikitable" style="max-width: 800px !important; text-align: center"
+|-
+!rowspan="2" colspan="2"|Formation
+!colspan="3"|Shelling
+!colspan="3"|Torpedo
+!colspan="3"|Anti-Submarine
+!colspan="3"|Night Battle
+!rowspan="2"|AA
+!rowspan="2"|Flagship Protection
+|-
+!Damage
+!Accuracy
+!Evasion
+!Damage
+!Accuracy
+!Evasion
+!Damage
+!Accuracy
+!Evasion
+!Damage
+!Accuracy<ref name="NBacc">Source: [http://kankoregouchin.blog.fc2.com/blog-entry-37.html '''艦これ-チラ裏検証- '''][http://kankoregouchin.blog.fc2.com/blog-entry-37.html / 夜戦陣形と命中回避] (Jan 1, 2015). Currently the hit rates only apply on nodes starting with night battle (eg. [[World_5:_%E5%8D%97%E6%96%B9%E6%B5%B7%E5%9F%9F#World_5-3:_.E3.82.B5.E3.83.96.E5.B3.B6.E6.B2.96.E6.B5.B7.E5.9F.9F_Sav_Island|5-3-C]]). In addition, please be aware that given limited sample sizes from the exp't, the measured hit rates by using different formations are NOT differing on a large scale, thus using "higher / lower" not simply "high / low".</ref>
+!Evasion
+|-
+| Line Ahead<br />{{Nihongo|単縦陣|''Tanjuu-jin''|}}
+| <center>{{LineAhead}}</center>
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |45%
+|-
+| Double Line<br />{{Nihongo|複縦陣|''Fukujuu-jin''|}}
+| <center>{{DoubleLine}}</center>
+|style="text-align: center; border-style: solid; border-width: 1px;" |80%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''<ref name="DL_SAcc">Source: [http://bs-arekore.at.webry.info/201412/article_2.html '''半製造BSｱﾚｺﾚ雑記帳''' / 「艦これ」砲撃命中率について・複縦陣 中間報告]'' (Dec 5, 2014). If more relevant sources are discovered please add them in.''
+</ref>
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |80%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |80%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |90%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |120%
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|-
+| Diamond<br />{{Nihongo|輪形陣|''Rinkei-jin''|}}
+| <center>{{Diamond}}</center>
+|style="text-align: center; border-style: solid; border-width: 1px;" |70%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |110%
+|style="text-align: center; border-style: solid; border-width: 1px;" |70%
+|style="text-align: center; border-style: solid; border-width: 1px;" |40%
+|style="text-align: center; border-style: solid; border-width: 1px;" |110%
+|style="text-align: center; border-style: solid; border-width: 1px;" |120%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |70%
+|style="text-align: center; border-style: solid; border-width: 1px;" |110%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''160%'''
+
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''75%'''
+|-
+| Echelon<br />{{Nihongo|梯形陣|''Teikei-jin''|}}
+| <center>{{Echelon}}</center>
+|style="text-align: center; border-style: solid; border-width: 1px;" |75%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |120%
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px;" |130%
+|style="text-align: center; border-style: solid; border-width: 1px;" |110%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''130%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |90%
+|style="text-align: center; border-style: solid; border-width: 1px;" |130%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|-
+| Line Abreast<br />{{Nihongo|単横陣|''Tan'ou-jin''|}}
+| <center>{{LineAbreast}}</center>
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''130%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px;" |30%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''140%'''
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''130%'''
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |110%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |80%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|-
+| rowspan="2"|Vanguard<ref>The direct translation of "Keikai" is "alert".</ref><br />{{Nihongo|警戒陣|''Keikai-jin''|}}
+| rowspan="2"|<center>{{Vanguard}}</center>
+|style="text-align: center; border-style: solid; border-width: 1px;" |50%
+|style="text-align: center; border-style: solid; border-width: 1px;" |80%
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |50%
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |110%
+|style="text-align: center; border-style: solid; border-width: 1px;" |Medium
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
+|style="text-align: center; border-style: solid; border-width: 1px;" |110%
+|style="text-align: center; border-style: solid; border-width: 1px;" |High
+|-
+|}<references/>
+
+'''Notes:'''
+* Exact values were datamined from KanColle Kai for the Vita. Testing on the browser version has corroborated these results.
+** Values for Vanguard are vague as it wasn't introduced for KanColle Kai.
+* Diamond Formation specifically requires 5 or more ships present in the fleet.
+* Flagship protection refers to when an escorting ship (as in, any ship except the flagship) may protect the flagship from being damaged by receiving the attack instead.
+
+'''Vanguard Formation:'''
+* Vanguard is only available when the Event World is active. It is usable in any map during such time, however.
+* The modifiers on Vanguard Formation refer respectively to the "upper half" and "bottom half" of the fleet.
+** For a fleet with 6 or 7 ships, the top row applies to ships 1, 2 and 3 and the bottom row applies to the remaining ships.
+** For a fleet with 4 or 5 ships, the top row applies to ships 1 and 2 and the bottom row applies to the remaining ships.
+* '''Attacks from support fleets are affected by the top row multipliers.'''
+* The bottom half ships have increased aggro (increased chance of being targeted by the enemy), being targeted 75% of the time. See [1] for tested values. Valid as of 09/03/2018.
+* Vanguard has a further post-cap evasion modifier for all ships in the fleet. See [2] for tested values. Valid as of 09/03/2018.
+** For ships at the top half: Non-destroyers get a 5% bonus. Destroyers get a 20% bonus.
+** For ships at the bottom half: Non-destroyers get a 20% bonus. Destroyers get a 40% bonus.
+
+===Choosing a Formation===
+
+[[File:Formation_Selection_Screen.png|thumb|right|Formation Selection Screen]]
+When selecting a formation, its modifiers will be applied to the entirety of the next battle node whenever applicable. Picking another formation will discard any previous formation bonuses and penalties and use the new modifiers instead. Each formation has a general use-case archetype based on its modifiers.
+
+* '''Line Ahead''': All-out surface combat formation.
+* '''Double Line''': All-around, high accuracy formation.
+* '''Diamond''': Anti-Air formation.
+* '''Echelon''': Mixed surface-ASW combat formation.
+* '''Line Abreat''': ASW formation.
+* '''Vanguard''': Defensive/evasive formation.
+
+=Victory Conditions=
+A damage gauge that is displayed at the post-combat screen for each fleet, using the following calculation:
+
+<math>\text{Damage%} = \dfrac{\text{Fleet HP lost}}{\text{Fleet HP}}</math>
+
+The following conditions must be met to attain each rank:
+
+{| class="wikitable" style="width: 75%; margin: auto;"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"|Victory State
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:80%;"|Conditions
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:#63620a;"|'''Total Victory:  S'''<br>
+'''(完全勝利S)'''
+|style="border-style: solid; border-width: 1px;"| 
+* Sink all enemy ships, while taking no damage in return.
+* In special nodes like air raids and RADAR ambush; take 0 damage.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:#63620a;"|'''Victory: S'''<br>
+'''(勝利S)'''
+|style="border-style: solid; border-width: 1px;"| 
+* Sink all enemy ships.
+* In special nodes like air raids and RADAR ambush; take less than 5% damage.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:#7d0a0a;"|'''Victory: A'''<br>
+'''(勝利A)'''
+|style="border-style: solid; border-width: 1px;"| 
+* Sink 2/3 of the enemy ships.
+* In special nodes like air raids and RADAR ambush; take between 5% and 10% damage.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:#91450a;"|'''Tactical Victory: B'''<br>
+'''(戦術的勝利B)'''
+|style="border-style: solid; border-width: 1px;"| 
+* Sink the enemy flagship.
+** The number of enemies sunk must be greater than the number of your ships sunk.
+* If the enemy flagship survives, have the enemy Damage % gauge be 2.5x of yours.
+* In special nodes like air raids and RADAR ambush; take between 10% and 20% damage.
+* ''If any of your ships sink, this is the maximum rank you can get''.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:#918f0a;"|'''Tactical Defeat: C'''<br>
+'''(戦術的敗北C)'''
+|style="border-style: solid; border-width: 1px;"| 
+* If the enemy flagship survives, have the enemy Damage % gauge be between 0.5x and 2.5x of yours.
+** Also applies if you sunk any ships during the battle.
+* If the enemy flagship is sunk but you have more sunken ships than the enemy, as well as having the enemy Damage % gauge be between 0.5x and 2.5x of yours.
+* In special nodes like air raids and RADAR ambush; take between 50% and 20% damage.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:#0b732e;"|'''Defeat: D'''<br>
+'''(敗北D)'''
+|style="border-style: solid; border-width: 1px;"| 
+* If the enemy flagship survives and your Damage % gauge is less than 0.5x of the enemy's.
+* If your Damage % gauge is 0.05% (essentially 0).
+* If both fleets deal no damage to each other.
+** This applies to submarine vs submarine battles and air battle nodes.
+* Ships are sunk but not enough to meet the conditions for E.
+* In special nodes like air raids and RADAR ambush; take heavy damage.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:#074eb8;"|'''Defeat: E'''<br>
+'''(敗北E)'''
+|style="border-style: solid; border-width: 1px;"| 
+* The enemy flagship survives and the number of sunk ships in your fleet meets the minimum kill requirements.
+** Not meeting the requirements for a D Rank.
+|-
+|}
+
+'''Important Notes'''
+
+* B-ranks are the minimum victory requirements for:
+** Obtaining drops.
+** Clearing a map without a boss gauge.
+* Drops (both rate and pool) scale based on rank obtained. Some drops might be exclusive to higher ranks.
+* Perfect S (Total Victory) ranks count as a regular S-Rank.
+
+==MVP==
+At the end of combat, one ship is picked as the MVP. She gains bonuses to exp and morale. For more details, please see ''Experience and Rank'' and ''Morale and Fatigue''.
+
+The way MVP is determined is:
+* The ship who deals the highest total damage (sum of all attacks during the combat) is awarded MVP. This damage is not weighted.
+* If multiple ships are tied for damage, the MVP goes to the topmost ship in the fleet order.
+** As such, if no damage is dealt to the enemy, the flagship automatically receives MVP.
+* Battles ending in an E-Rank have no MVP.
+* In a Combined Fleet, each fleet has their own, independent MVP.
+
+
+
+{{GameMechanics2}}
+[[zh:战斗]]
+[[Category:Game Mechanics]]

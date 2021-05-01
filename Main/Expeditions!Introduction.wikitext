@@ -1,0 +1,253 @@
+<noinclude><div style="width:96%; border:2px solid #aa5; background:#ffc; text-align:center; margin:15px auto 20px;">{{for|success conditions and yields in '''absolute''' reference|Expedition/Reference tables}} {{for|success conditions and yields in '''hourly''' reference|Expedition/Hourly reference tables}}</div></noinclude>
+
+[[File:Expedition.png|right|framed|Expeditions button in your sortie screen]]
+Expeditions are the backbone of naval economy. They provide a safe, steady income of virtually all common in-game resources with the exception of [[Akashi's_Improvement_Arsenal|Improvement materials]].
+*The fuel, ammo, steel and bauxite gained from expeditions can accumulate beyond the [[Tutorial:_FAQ#I_heard_about_the_resource_cap._How_much_is_the_limit.3F_Does_that_mean_I_can.27t_gather_resources_exceeding_my_limit.3F|soft cap]]. This makes expeditions the best way to stockpile resources for events.
+*Expeditions also provide [[Experience_and_Rank|experience]], making them useful for passively leveling weak ships.
+*A few expeditions are sortie support expeditions, which provide additional support fire for difficult sorties and events.
+*Many expeditions are also [[Quests|quest requirements]].
+
+Expeditions themselves need to be unlocked first, usually by completing other expeditions or quests. Once they have been unlocked, they can be repeated indefinitely. The list of expeditions does not change from one update to another. However, support expeditions for special event maps might be temporarily included during events.
+
+==Unlocking an expedition==
+Expeditions are unlocked by completing [[Quests#A4|Quest A4]].
+
+[[File:Expedition page.png|right|thumb|300px|An expedition page showing a new expedition, an incomplete expedition and several completed expeditions. The number 3 marker denotes the third fleet is going on this expedition]]
+
+Normally, completing an expedition will unlock the next one in numerical order. However, there are exceptions:
+*Expedition 5 unlocks '''Expedition #9'''.
+*Expedition 18 unlocks '''Expeditions #22, 25 and 33'''.
+*Expedition 20 unlocks '''Expedition #27'''.
+*Expeditions 1 through 8 unlock '''Expedition #32.'''
+*Expedition 26 unlocks '''Expeditions #34 and 35'''.
+
+Additionally, some expeditions requires clearing a certain map and completing multiple expeditions. They are:
+*[[World_1:_鎮守府海域#World_1-5:_.E3.80.90Extra_Operation.E3.80.91_.E9.8E.AE.E5.AE.88.E5.BA.9C.E8.BF.91.E6.B5.B7_Adjacent_seas_of_the_naval_base|Clear 1-5]], Expedition #9-20 and 27-29 unlocks '''Expedition 30 and 31 (for Quests D5 to D8)'''.
+*Clear 1-5, Expedition #9-18, 25, 35 and 36 unlocks '''Expeditions 37, 38, 39 (for Quests D9, 11, 13, 14)'''.
+*Clear 1-5, Expedition #9-18 and 22 unlocks '''Expedition 23 (for Quests D10 and D12)'''.
+
+==Sending a fleet on expedition==
+{{for|instructions on how to access Sortie screen|Tutorial: How to Play}}
+[[File:Expedition fleet.png|right|thumb|300px|Sending a fleet on expedition]]
+To send fleets on expedition:
+#Access the Sortie screen and click the rightmost, blue button.
+#Select an expedition.
+#Select a fleet to send on expedition.
+#Click the bottom right button to send the selected fleet on expedition.
+
+Once unlocked, an expedition can be repeated indefinitely without any penalty to subsequent runs. However, an expedition can only be attempted once at any given moment. Multiple fleets can go on different expeditions, but not the same expedition.
+
+'''The first fleet (main fleet) cannot go on an expedition'''; only the second, third and fourth fleet can.
+*Quest A4 unlocks the second fleet at the same time as expeditions
+*[[Quests#A14|Quest A14]] unlocks the third fleet
+*[[Quests#A16|Quest A16]] unlocks the fourth fleet.
+
+Every expedition has its own success conditions. Failure to meet the conditions results in a failed expedition. In which case, the fleet would still consume fuel, ammunition and time specified by the expedition but no resources or reward will be returned. [[Experience and Rank|HQ XP]] gain from failed expeditions is significantly reduced to 30%, however, Ship XP gain remains unaffected. While this might prove desirable for those who want to suppress their HQ level, it is generally not recommended due to the resource costs involved.
+
+Check the top right corner in home screen for the bubble indicating an expedition has returned, click on the home screen to obtain rewards.
+*Expedition quests only counts when the expedition fleet returns therefore, one only need to activate the quest when the fleet returns.
+*Expedition can be completed earlier by entering the main screen when there is less than one minute remaining.
+*Ships lose 3 morale per expedition.
+
+Lightly or moderately damaged ships do not affect the outcome of the expedition. However, having a ship that is majorly damaged or under repair in the fleet will prevent that fleet from going on expedition.
+
+===Recalling an expedition===
+[[File:Expedition_Recall.jpg||border|frame|right|Only seen in an active expedition]]In the event where the wrong fleet was accidentally sent on expedition, an "Expedition Recall" is possible to cancel the expedition and save the time otherwise would be wasted on expedition.
+
+An expedition canceled in this manner yields no resources, rewards, or experience. It is also counted as a fail in Admiral's profile. Supply and morale required by the expedition are still consumed. This should only be used with discretion, especially since '''a recall cannot be cancelled'''.
+
+The recalled fleet does not return immediately as it will take a while to return to base. The calculation for return call time is as follows:
+
+<div align="center" style="margin:20px;"><span style="border:1px red solid;padding:10px;">''The smaller time between '''remaining time''' and '''elapsed time''' / 3.''</span></div>
+
+For example, a fleet is sent on expedition #1 (15 minutes), then after 6 minutes, it is recalled.
+#The remaining time is 9 minutes.
+#The elapsed time is 6 minutes.
+#The smaller number of the two, 6 minutes elapsed time in this case, is divided by 3.
+#The final recall time is 2 minutes.
+
+==Success conditions==
+===Ratings and rewards===
+Expeditions will always yield the primary resources upon success and they will always grant experience unless recalled. However, secondary item rewards are not guaranteed to be obtained upon success.
+[[File:Expedition_Secondary_Reward.jpg|border|frame|right|Expedition #12 gives medium box (left) and development material (right)]]
+*For expeditions that give only one type of item, there is 50% chance of getting the item.
+*For expeditions that give two types of items, the item listed on the left of the game screen will have 50% chance. The item on the right will always be rewarded upon ''Great Success'', and it has a low reward chance with ''Normal Success''.
+
+The outcome of expeditions depend on several conditions. There exist four possible outcome ratings; each of which has different resources, experiences and item rewards yield ratios.
+
+{| class="wikitable" border="1" padding="10px" width="80%" align="center"
+! align="center" rowspan="2" | Rating
+! align="center" rowspan="2" | Resources
+! align="center" colspan="2" | Experiences
+! align="center" colspan="2" | Rewards
+|-
+! align="center" | HQ XP
+! align="center" | Ship XP
+! align="center" | Left
+! align="center" | Right
+|-
+| align="center" | Recall
+| align="center" | 0%
+| align="center" | 0%
+| align="center" | 0%
+| align="center" | 0%
+| align="center" | 0%
+|-
+| align="center" | Failure
+| align="center" | 0%
+| align="center" | 30%
+| align="center" | 100%
+| align="center" | 0%
+| align="center" | 0%
+|-
+| align="center" | Normal Success
+| align="center" | 100%
+| align="center" | 100%
+| align="center" | 100%
+| align="center" | 50%
+| align="center" | 15%
+|-
+| align="center" | Great Success
+| align="center" | 150%
+| align="center" | 200%
+| align="center" | 400%
+| align="center" | 50%
+| align="center" | 100%
+|}
+
+{| style="padding:10px; margin:20px; border:1px solid gray; border-radius:10px;"
+| valign="center" | '''[[File:LandingCraft.png|30px]][[Daihatsu-class Landing Craft|Landing Craft]]'''
+
+[[Daihatsu-class Landing Craft]] (LC) is obtainable from [[Akitsu Maru]] as stock equipment. Each equipped LC will net an additional 5% gain in resources from expeditions, up to 20%.
+
+Total resource gain is multiplicative with great success bonus. Combined with great success bonus, the net resource gain is calculated as 50%+7.5% per LC. Thus the max resource bonus is an additional 80% with great success and 4 LC.
+
+[[Akitsu Maru]] can be constructed in [[Construction#Large Ship Construction|Large Ship Construction]]
+| width="140px" | [[File:Equipment68-1.png|120px]]
+|}
+
+===Normal Success===
+Meeting all the following conditions guarantees a ''Normal Success'':
+
+<blockquote>'''1. Fleet's supply'''<br />
+Fleets sent on expedition must be fully [[Tutorial:_How_to_Play#Repair_and_Resupply|resupplied]]. Missing even a bar of supply results in a failure.</blockquote>
+
+<blockquote>
+'''2. Flagship's level'''<br />
+The level of the flaship (first ship of a fleet) must be greater than or equal to the ''flagship's level'' specified by the expedition.
+
+
+'''3. Total level of fleet'''<br />
+The sum level of every ship in the fleet, including the flagship must be greater than or equal to the ''total level of fleet'' specified by the expedition.
+
+'''4. Ship types'''<br />
+{{for|a list of ship type abbreviations|Glossary#Class classification}}
+Most expeditions require a certain number of ships of specific types. The ships in a fleet can be in any order but the required number of ships in each type must be met. Some ship types can be used as substitutes for another ship types, some remodeled ship types and their old model are not interchangeable, while other types follow a one-way relationship.
+*Light carriers [CVL] and Seaplane tenders [AV] can be used as substitutes for Fleet carriers [CV]
+*Aviation submarines [SSV] can be used as substitutes for Submarines [SS]
+*Aviation cruisers [CAV] and Heavy cruisers [CA] are not interchangeable.
+*Torpedo cruisers [CLT] and Light cruisers [CL] are not interchangeable
+*Battleships [BB] and Fast battleships [FBB] cannot be used as substitutes for Aviation battleships [BBV]
+*Light carriers [CVL] and Fleet carriers [CV] cannot be used as substitutes for Seaplane tenders [AV]
+
+'''5. Number of ships in fleet'''<br />
+Fleets sent on expedition must contain at least a certain number of ships. After ship types requirements are meet, wild card ships (denoted as type XX in expedition tables) can be added to meet the ''minimum number of ships'' condition. Extra ships beyond the minimum number to help with other conditions are allowed.
+
+'''6. Number of drum canisters and drum carriers'''<br />
+Expedition 21, 37, 38 also require [[Drum Canister]]s to be equipped. The total number of drums and the number of ships carrying drums must be greater than or equal to a minimum value.
+
+
+
+</blockquote>
+{| style="padding:10px; margin:20px; border:1px solid gray; border-radius:10px;"
+| valign="center" | '''[[File:Drum.png|30px]][[Drum Canister]]'''
+
+[[Drum Canister]] is obtainable through quest [[Quests#F11|Quest F11]], [[Quests#F12|Quest F12]] and via [[Development#Drum_Canister|crafting]] equipment. Only Destroyers, Light Cruisers, Aviation Cruisers and Seaplane Tenders can equip drums.
+| width="140px" | [[File:Equipment75-1.png|120px]]
+|}
+
+===Great Success===
+{{for|more information and tips on how to sparkle ships|Morale/Fatigue}}
+[[File:Greatsuccess.jpg|center|500px|Great Success]]
+
+Great Success is an advanced form of success. It grants 50% additional resources, double (x2) the Admiral experience, quadruple (x4) the ship experience, and great success item reward if applicable. Great Success can be achieved when:
+<blockquote>1. [[#Normal Success|Normal Success]] conditions are meet.<br />
+2. There exists Great Success factor(s):</blockquote>
+<blockquote>
+*Fleet contains ships with 50 morale or higher (i.e. sparkling)
+*Expedition requires [[Drum Canister]]s.
+</blockquote>
+
+The chance of ''Great Success'' increases approximately 16% per sparkled ship. Furthermore, expeditions that require [[Drum Canister]]s have a chance to produce ''Great Success'' independently of morale. These two factors can be stacked so as to achieve Great Success with less sparkling.
+
+Please note that success rate increased per sparkled ship for drum canister expedition is lesser than expedition without drum canister {{cite}}. There are speculations that exceedingly high number of drums (drum overload) may also affect ''Great Success'' chance of these expeditions {{cite}}.
+
+==Support expedition==
+[[File:Support Expedition.png|250px|right]]
+Support expeditions involve sending a fleet into an expedition to provide additional bombardment during the [[Combat|opening stages of Combat]]. There are two types of support expedition; normal support and boss support:
+*''Expedition #33'' is a normal support expedition (15 minutes). It gives support at every node other than boss node with ~50% chance to trigger at each node.
+*''Expedition #34'' is a boss support expedition (30 minutes). It gives support at the boss node with ~80% chance to trigger.
+Events usually come with their exclusive support expeditions (e.g. Expedition 133 & 134) that can only be used throughout the event. These event expeditions are unlocked by default.
+
+Sparkling your ships (mainly flagship) increases the probability to trigger support while using fatigued ships reduces it. Currently, support expeditions '''''only work in World 5 and events'''''. Furthermore, support does not work on nodes that begin in night battle. Support expeditions will end if either of these two conditions are fulfilled:
+#Finish a sortie.
+#The timer runs out.
+It is recommended to start a sortie immediately after the support expedition has been sent in order to avoid the timer running out halfway through the sortie.
+
+===Support Types===
+A support expedition requires a minimum of '''at least 2 DDs (Destroyers)'''. The other 4 slots affect what type of support will be provided. The three types provided are Aerial Support, Long Range Torpedo Attack, and Support Shelling:
+
+{| border="1" class="wikitable" width="100%"
+! width="10%" |Type
+! width="25%" |Info
+! width="10%" |Fleet
+! width="15%" |Costs
+! width="20%" |Pros
+! width="20%" |Cons
+|-
+! style="width: 50px;"|
+Aerial Support
+| Sends a number of planes to carry out bombardment
+| 3CV 1XX
+| 50% Fuel, 40% Ammo, Bauxite
+|
+*Damage is spread out
+*Low cost
+|
+*Unlikely to sink any ship.
+*Affected by enemy's AA.
+|-
+! Long Range Torpedo Attack
+| Long range torpedo attack with high miss chance and low damage
+| 4CL/CLT/DD
+([[File:Icon_Torpedo.png|link=]]>250)
+| 50% Fuel, 80% Ammo
+|
+*No particular advantage
+|
+*High cost, low damage.
+|-
+! Support Shelling
+| Medium to long distance shelling attack with concentrated power
+| Other fleets
+| 50% Fuel, 80% Ammo
+|
+*High damage if hit.
+*Likely to sink enemy's ship.
+|
+*High cost
+|}
+
+===Shelling damage calculation===
+
+Most ships' damage is dependent on their firepower stat. However, CVs and CVLs are calculated differently using the following equation: (Firepower (FP), Torpedo (TP), Divebomb (DB))
+
+<div align="center" style="margin:20px;"><span style="border:1px red solid;padding:10px;"><math>Damage= 55 + (1.5 * FP) + (1.5 * \sum(TP)) + (2.0 * \sum(DB)) </math></span></div>
+
+For example; a fully modernized [[Kaga| Kaga Kai]] with 4 slots of [[Suisei Model 12A]], which provide a total sum of 40 dive bombing power (10 dive-bomb for each Suisei Model 12A):
+
+<div align="center" style="margin:20px;"><span style="border:1px red solid;padding:10px;"><math>Damage = 55 + (1.5 * 49) + (1.5 * 0) + (2.0 * (10 + 10 + 10 + 10)) = 208 </math></span></div>
+
+Accuracy, overweight penalty and [[Type 91 Armor-Piercing (AP) Shell|AP Shells]] do affect support expeditions' performance. Therefore, it is recommended to sparkle your fleet or equip accuracy equipment (i.e. radar) onto your fleet.
+
+<noinclude>[[Category:Tutorial]]</noinclude>

@@ -1,0 +1,1478 @@
+== {{Anchor|6-1}} World 6-1: 潜水艦作戦 Submarine Operation==
+{{LabSortieworld
+| map = 6-1 Map.jpg
+| difficulty = ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆
+| item = None
+| exp = 380
+| code = 潜水艦作戦 (Submarine Operation)
+| jptext = 有力な潜水艦隊を編成し、中部海域哨戒線に進出せよ。敵艦隊を発見、これを漸減撃滅せよ！
+| entext = Organize a strong submarine fleet and advance a patrol line into the Middle Sea region.  Locate enemy fleets and gradually destroy them!
+}}
+
+===Stage Guide===
+{{AirControlSystem
+| Map = 6-1
+| AS = 126
+| Notes = 540/270/120 FP for AS+/AS/AP at H node. 
+}}
+{{#invoke:MapBranching|branchingTemplate
+|start_to_A = SS-only (3 or more), <br>'''or''' [[Taigei]] + Subs-only <br>'''or''' [[Taigei]] + Subs + 1 CL. <br>Weighted Random towards A (instead of B) with [[Taigei]] + Subs + DDs
+|start_to_B = Any composition not going to A or G
+|start_to_G = SS-only (2 or fewer), <br>'''or''' BB≥2, <br>'''or''' [(F)BB(V) + CV(L) + CA(V)]≥3,<br>'''or''' [(F)BB(V) + CV(L) + CA(V)+CLT]≥1 but no DD+CL
+|A_to_C = [[Taigei]] '''not''' in fleet
+|A_to_D = [[Taigei]] in fleet
+|E_to_F = SS(V) ≥ 3 '''and''' BB(V) + CV(L) + CA(V) ≤ 1 '''and''' LoS [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=4)]] > 16. Routing becomes random with [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=4)]] in range 12-15.9, small chance to offroute with passed LoS if fleet does not contain [[Taigei]]
+|E_to_H = SS ≤ 2 '''or''' BB(V) + CV(L) + CA(V) ≥ 2 '''or''' LoS check failed, small chance to offroute with passed LoS if fleet does not contain [[Taigei]]
+|F_to_I = Random between I and J if LoS check failed
+|F_to_J = Random between I and J if LoS check failed
+|F_to_K = LoS [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=4)]] > 25, routing becomes random with [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=4)]] in range 20-24.9
+}}
+
+*The only map since 4-4 that does not have a gauge, but even B Victory takes some work here.
+*At least 3 SS are required to reach the boss.
+*There are LoS checks E → F and F → K.  They do not have high LoS requirements (SSVs with a couple recon planes will pass), but an all-sub fleet without recon planes will be sent to H.
+
+===Fleet Tips===
+*All the nodes are filled with asw abyssal ships, which can harm your submarines greatly even in Red-T. Sparkle for submarines is recommended.
+*Fleet composition for clearing purposes typically are one of the three types:
+** CLT + CL + CV + 3 SS(V) (B → D → E → F  → K): Effective fleet for taking out the boss but it will have to go through node B where there's a Ru-class Flagship.
+***CV may or may not wish to equip SCAMP, as it allows the CV to act first. Try to use armored CV so that it can attack even in chuuha.
+***Saiun is probably not a good idea for clearing purposes (you want to minimize damage taken along the route). Only consider that if you're using this fleet for the monthly quest (3 S Victory at 6-1 boss).
+**An all-sub fleet (A → C → D → E → F → K): Allows the fleet to completely ignore any enemy ships that can't attack subs, however node C is pretty harsh on subs with late-model DDs and flagship CLs.
+***You pretty much want to count on cut-in attacks (at boss), so only use remodeled subs if you're using this composition. Note that you need recon planes for this map, and as SS(V) only have 2 slots, you may want to just give both planes to the same girl. You want as many submarines that are actually combat capable for this route, and yes, this means that you really need I-401 and/or U-511 (Ro-500).
+***For those who obtained both during the Spring 2017 event, the kai versions of I-13 & I-14 have 3 equipment slots.  You can equip a recon plane in their first slot, leaving 2 slots available for torpedo equipment (and torpedo cut-ins).
+**Taigei + 3~5 SS(V) + 0~2 escorts (A → D → E → F → K): The shortest route in terms of number of battles. Taigei can also equip recon planes to free up slots for your SS(V)s.
+***The trade off is that any enemy ship still in lightly damage or better shape at the end of shelling phase will have fewer targets to launch their torpedoes at. Taigei (and escorts if any) also has to tank all the preboss ships that can't perform ASW i.e. the Wa-class Transport Elite at D, and far more dangerously, the Flag and/or Elite Ri-Class CA at F. 
+****She'll also be targeted by closing torpedoes, which now have much fewer targets than normal. However, most of the formation pre-boss is diamond or echelon so the chance of getting hit by torpedoes is small.
+*Pattern 1 on node H has a chance to drop I-401 with S Victory. If you want to farm her there, 1 BB 3 CLT 1 CL 1 CV or 1 CL 3 CLT 2 CV both guarantee B → D → E → H and are good enough to get S Rank.
+
+===Nodes And Enemy Encounters===
+
+{{#invoke:EnemyEncounters|encounterTemplate
+|A_label = No Combat
+|A1_node_info = <span style="color:blue">"Must be my imagination" (battle avoided)</span>
+|
+|B_label = 中部海域<br>敵遊撃部隊
+|B1_node_info = bb_ru-class_flagship cvl_nu-class_flagship ca_ri-class_elite cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|B1_form = double_line
+|B1_enemy_air_power = 23
+|B2_node_info = bb_ru-class_flagship cvl_nu-class_flagship ca_ri-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|B2_form = line_ahead<br>double_line
+|B2_enemy_air_power = 23
+|
+|C_label = 中部海域哨戒戦<br>A地点
+|C1_node_info = cl_ho-class_flagship dd_ha-class_elite dd_ha-class_elite dd_i-class_late_model dd_i-class_late_model
+|C1_form = line_ahead<br>diamond<br>echelon
+|
+|D_label = 中部海域哨戒戦<br>B地点
+|D1_node_info = cl_he-class_flagship dd_ha-class_elite dd_ha-class_elite dd_i-class_late_model dd_i-class_late_model
+|D1_form = double_line
+|D2_node_info = cl_he-class_flagship dd_ni-class_elite dd_ni-class_elite dd_i-class_late_model dd_i-class_late_model
+|D2_form = double_line
+|D3_node_info = cl_he-class_flagship transport_wa-class_elite transport_wa-class_elite dd_i-class_late_model dd_i-class_late_model
+|D3_form = diamond
+|
+|E_label = No Combat
+|E1_node_info = <span style="color:blue">"Must be my imagination" (battle avoided)</span>
+|
+|F_label = 中部海域哨戒戦<br>D地点
+|F1_node_info = ca_ri-class_flagship cl_he-class_flagship dd_ha-class_elite dd_ha-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|F1_form = echelon
+|F2_node_info = ca_ri-class_flagship dd_ha-class_elite dd_ha-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|F2_form = diamond
+|F3_node_info = ca_ri-class_flagship ca_ri-class_elite clt_chi-class_elite cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|F3_form = double_line
+|
+|G_label = No Combat
+|G1_node_info = <span style="color:blue">"Must be my imagination" (battle avoided)</span>
+|
+|H_label = 敵機動部隊
+|H1_node_info = aircraft_carrier_demon cv_wo-class_flagship_2 ca_ri-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|H1_form = diamond
+|H1_enemy_air_power = 180
+|H2_node_info = aircraft_carrier_demon ca_ri-class_flagship ca_ri-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|H2_form = diamond
+|H2_enemy_air_power = 96
+|H3_node_info = cv_wo-class_flagship_2 cv_wo-class_flagship_2 ca_ri-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|H3_form = diamond
+|H3_enemy_air_power = 168
+|
+|I_label = No Combat
+|I1_node_info = <span style="color:blue">"Must be my imagination" (battle avoided)</span>
+|
+|J_label = 中部海域<br>敵輸送船団
+|J1_node_info = transport_wa-class_flagship transport_wa-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|J1_form = line_ahead
+|J2_node_info = transport_wa-class_flagship transport_wa-class_flagship cl_he-class_flagship cl_he-class_flagship dd_ha-class_late_model dd_ha-class_late_model
+|J2_form = line_ahead<br>double_line
+|
+|K_label = 敵回航中空母
+|K1_node_info = cv_wo-class_flagship_2 ca_ri-class_flagship cl_tsu-class_elite cl_tsu-class_elite dd_ni-class_late_model dd_ni-class_late_model
+|K1_form = double_line<br>diamond
+|K1_enemy_air_power = 84
+|K2_node_info = cv_wo-class_flagship_2 ca_ri-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|K2_form = diamond
+|K2_enemy_air_power = 84
+}}
+
+===Drops===
+<div class="mw-customtoggle-6-1-drop globalbutton">Show/Hide Drops</div>
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-6-1-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+!Battleship
+!Submarine
+!Others
+|-
+|A
+|
+|
+|
+|
+|[[Shouhou]]
+|
+|
+|
+|-
+|B
+|[[Ayanami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Samidare]], [[Suzukaze]]
+|[[Kiso]], [[Nagara]], [[Isuzu]], [[Natori]], [[Yura]], [[Jintsuu]], [[Naka]], [[Kinu]]
+|[[Furutaka]], [[Kako]], [[Ashigara]], [[Haguro]], [[Choukai]], [[Maya]]
+|
+|[[Hiyou]], [[Junyou]]
+|
+|[[I-168|'''<span style="color:red">I-168</span>''']]
+|
+|-
+|C
+|[[Ayanami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Samidare]], [[Suzukaze]]
+|[[Kiso]], [[Nagara]], [[Natori]], [[Yura]], [[Jintsuu]], [[Naka]]
+|[[Furutaka]], [[Kako]], [[Ashigara]], [[Haguro]], [[Choukai]], [[Maya]], [[Nachi]], [[Aoba]]
+|
+|[[Hiyou]], [[Junyou]], [[Shouhou]], [[Ryuujou]]
+|[[Kirishima]]
+|[[I-19|'''<span style="color:red">I-19</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']]
+|
+|-
+|D
+|[[Ayanami]], [[Shikinami]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Samidare]], [[Suzukaze]]
+|[[Kiso]], [[Nagara]], [[Isuzu]], [[Natori]], [[Yura]], [[Jintsuu]], [[Naka]], [[Sendai]]
+|[[Furutaka]], [[Kako]], [[Ashigara]], [[Haguro]], [[Choukai]], [[Maya]], [[Nachi]], [[Aoba]], [[Mogami]], [[Myoukou]], [[Takao]], [[Atago]], [[Chikuma]], [[Kumano]]
+|
+|[[Hiyou]], [[Junyou]], [[Shouhou]], [[Ryuujou]]
+|[[Kongou]]
+|[[I-19|'''<span style="color:red">I-19</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']]
+|
+|-
+|G
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|H
+|[[Ayanami]], [[Kisaragi]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Samidare]]
+|[[Kiso]], [[Isuzu]], [[Yura]], [[Naka]]
+|[[Kako]], [[Ashigara]], [[Haguro]], [[Maya]], [[Nachi]], [[Aoba]], [[Mogami]], [[Myoukou]]
+|
+|[[Hiyou]], [[Shouhou]]
+|[[Hiei]], [[Kongou]]
+|[[I-19|'''<span style="color:red">I-19</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']], [[I-58|'''<span style="color:red">I-58</span>''']], [[I-401|'''<span style="color:red">I-401</span>''']], [[Maruyu|'''<span style="color:red">Maruyu</span>''']]
+|
+|-
+|F
+|[[Ayanami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Samidare]], [[Suzukaze]]
+|[[Kiso]], [[Nagara]], [[Isuzu]], [[Natori]], [[Yura]], [[Jintsuu]], [[Naka]], [[Sendai]]
+|[[Furutaka]], [[Kako]], [[Ashigara]], [[Haguro]], [[Choukai]], [[Maya]], [[Nachi]], [[Aoba]], [[Mogami]], [[Myoukou]], [[Takao]], [[Atago]], [[Chikuma]], [[Tone]]
+|
+|[[Hiyou]], [[Junyou]], [[Shouhou]], [[Ryuujou]]
+|[[Kongou]], [[Hiei]], [[Kirishima]], [[Haruna]]
+|[[I-19|'''<span style="color:red">I-19</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']], [[I-58|'''<span style="color:red">I-58</span>''']]
+|
+|-
+|J
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="color:red" |'''K'''
+|[[Yukikaze|'''<span style="color:red">Yukikaze</span>''']], [[Amatsukaze|'''<span style="color:red">Amatsukaze</span>''']], [[Naganami|'''<span style="color:red">Naganami</span>''']], [[Makigumo|'''<span style="color:red">Makigumo</span>''']]
+|[[Yuubari|'''<span style="color:red">Yuubari</span>''']], [[Ooi]], [[Kinu]]
+|[[Kinugasa|'''<span style="color:red">Kinugasa</span>''']], [[Kumano|'''<span style="color:red">Kumano</span>''']], [[Takao]], [[Mogami]], [[Suzuya]]
+|[[Chiyoda]]
+|
+[[Hiyou]], [[Souryuu]], [[Ryuujou]], [[Zuihou|'''<span style="color:red">Zuihou</span>''']]'''<span style="color:red">, [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']]'''
+|[[Hiei]], [[Ise]], [[Kongou]], [[Kirishima]], [[Yamashiro]], [[Mutsu|'''<span style="color:red">Mutsu</span>''']]'''<span style="color:red">, [[Nagato|'''<span style="color:red">Nagato</span>''']]'''
+|[[I-19|'''<span style="color:red">I-19</span>''']], [[I-8|'''<span style="color:red">I-8</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']], [[I-58|'''<span style="color:red">I-58</span>''']], [[Maruyu|'''<span style="color:red">Maruyu</span>''']]
+|[[Taigei|'''<span style="color:red">Taigei</span>''']]
+|}
+
+== {{Anchor|6-2}} World 6-2: MS諸島防衛戦 Defense of the MS Archipelago==
+{{LabSortieworld
+| map = 6-2 Map.jpg
+| difficulty = ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆
+| item = None
+| exp = 420
+| code = MS諸島防衛戦 (Defense of the MS Archipelago)
+| jptext = MS諸島沖前面に展開し、同諸島方面に接近しつつある敵攻略部隊を捕捉、全力で撃滅せよ！
+| entext = Expand to the forward part of the MS Archipelago sea, seize the enemy fleet that is slowly advancing to capture the archipelago, and destroy them with all your might!
+}}
+
+===Stage Guide===
+
+{{#invoke:MapBranching|branchingTemplate
+|start_to_A = 3+ BB '''or''' 4+ [CL + DD] '''or''' random if no criteria for A or B are met
+|start_to_B = 3 or less [BB + CV(L)] '''or''' random if no criteria for A or B are met
+|A_to_B = 3+ BB '''or''' 3+ CV(L) '''or''' random if no criteria for B or D are met
+|A_to_D = 0-1 [BB(V) + CV(L)] & 0-1 [CA(V) + CLT] & 4+ [CL + DD] (?) '''or''' random if no criteria for B or D are met
+|B_to_C = 6 [BB + CV + CA(V)] (?) '''or''' 4+ [BB(V) + CV(L)] (?)
+|B_to_D = Criteria for C or F not met
+|B_to_F = 0-1 BB & 0-2 [BB + CV(L)]
+|D_to_E = Criteria for G not met
+|D_to_G = 3+ DD & 4+ [CL + DD] & 0 [BB(V) + CV(L)]
+|E_to_H = Always
+|F_to_E = Criteria for H or I not met
+|F_to_H = BB ≤ 1 & CV(L) ≤ 1 & DD ≥ 2 '''and''' LoS [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=3)]] < 43
+|F_to_I = BB ≤ 1 & CV(L) ≤ 1 & DD ≥ 2 '''and''' LoS [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=3)]] > 43
+|G_to_J = Random or guaranteed if LoS to K not met, boundary unknown
+|G_to_K = LoS [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=3)]] > 40
+|H_to_J = Random or guaranteed if LoS to K not met, boundary unknown
+|H_to_K = LoS [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=3)]] > 40
+}}
+
+Requires sinking the flagship at the boss node '''3''' times to deplete the gauge.
+
+===Tips===
+;Compositions
+
+{|
+ |- style="vertical-align: top;"
+ |{{AirControlSystem
+    | Map   =6-2 ADGK
+    | AS    =126
+    | Fleet =1 CA(V), 2 CL, 3DD
+    | Notes =''No'' CVs allowed for this route.
+    }}
+ |{{AirControlSystem
+    | Map   =6-2 BEHK
+    | AS    =252
+    | Fleet =2 CLT, 2 CA(V), 2CV or 1 CV & 1 BB
+    | Notes =BFHK requires failing LoS for H but passing LoS for K, a very narrow margin}}
+ |{{AirControlSystem
+    | Map   =6-2 BFIK
+    | AS    =153
+    | Fleet =1 BB(V), 1 CV, 2DD, 2 CLT/CA(V)
+    | Notes =Up to ''one'' CV allowed for this route
+    }}
+ |}
+
+*'''B-F-H/I-K''' : 1BB(V), 1CV, 2DD, 2CA(V) or 1BB(V), 1CV, 2DD, 2CLT; Passing an LoS check sends you to I, otherwise to H (LoS [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=3)]] > 43 needed for F → I)
+** There is a LoS check for F → I. Using a composition that fails this check will to go H instead. 
+** H is generally an easier node than I, so failing this LoS check is largely preferable. 
+*** LoS [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=3)]] in range 40-43 guarantees going H and passing the second LoS check.
+** The major weakness of this setup are the two DDs which are both vulnerable and which don't contribute much offensive power.
+*'''B-F-E-H-K''' : 2CLT, 2CA(V), 2CV or 2CLT, 2CA(V), 1CV, 1BB <!-- (29+ Refined LoS guarantees H-K) -->
+** Higher chance to kill the boss, but not as efficient for farming. Can guarantee the H node path, though.
+** 2CV setup for this route might be better, as Pattern 1 at E node requires relatively large amount of AS (on top of boss having 50% chance of requiring 126 or higher air power for AS). Remember that you probably want bombers in larger slots so you don't run the risk of having them all shot down, rendering your CVs unable to attack during shelling.
+*'''A-D-G-K''': CA(V), 2CL, 3DD (Unknown LOS check on G-K). Strongly recommended to use a CAV with at least a seaplane bomber.
+** Note that you only have 50% chance for air superiority/supremacy in this case (you won't have nearly enough AS for Pattern 2).
+
+===Nodes And Enemy Encounters===
+{{#invoke:EnemyEncounters|encounterTemplate
+|A_label = 敵攻略支援部隊A群
+|A1_node_info = ca_ri-class_flagship cvl_nu-class_elite cl_tsu-class dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|A1_form = diamond
+|A1_enemy_air_power = 24
+|A2_node_info = ca_ri-class_flagship cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|A2_form = double_line<br>diamond
+|A2_enemy_air_power = 48
+|
+|B_label = 敵攻略支援部隊B群
+|B1_node_info = bb_ru-class_flagship ca_ri-class_elite ca_ri-class_elite cvl_nu-class_elite dd_i-class_late_model dd_i-class_late_model
+|B1_form = double_line
+|B1_enemy_air_power = 24
+|B2_node_info = cvl_nu-class_flagship cvl_nu-class_flagship bb_ru-class_elite cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|B2_form = diamond
+|B2_enemy_air_power = 46
+|B3_node_info = bb_ru-class_flagship cvl_nu-class_elite ca_ri-class_elite cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|B3_form = diamond
+|B3_enemy_air_power = 24
+|B4_node_info = cvl_nu-class_flagship bb_ru-class_flagship ca_ri-class_elite cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|B4_form = diamond
+|B4_enemy_air_power = 23
+|
+|C_label = No Combat
+|C1_node_info = "Must be my imagination" (battle avoided)
+|
+|D_label = No Combat
+|D1_node_info = Maelstrom: {{ammo}}
+|
+|E_label = 敵空母機動部隊
+|E1_node_info = cv_wo-class_flagship_2 cv_wo-class_flagship_2 cl_tsu-class_elite dd_ro-class_late_model dd_i-class_late_model dd_i-class_late_model
+|E1_form = diamond
+|E1_enemy_air_power = 168
+|E2_node_info = cv_wo-class_flagship_2 cl_tsu-class cl_tsu-class dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model 
+|E2_form = double_line<br>diamond
+|E2_enemy_air_power = 84
+|E3_node_info = cv_wo-class_flagship_2 ca_ri-class_flagship cl_tsu-class cl_tsu-class dd_i-class_late_model dd_i-class_late_model 
+|E3_form = diamond
+|E3_enemy_air_power = 84
+|
+|F_label = No Combat
+|F1_node_info = "Must be my imagination" (battle avoided)
+|
+|G_label = 敵高速水上打撃部隊
+|G1_node_info = bb_ta-class_flagship ca_ri-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|G1_form = line_ahead<br>double_line
+|G2_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|G2_form = line_ahead
+|
+|H_label = 敵任務部隊B群
+|H1_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_tsu-class cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|H1_form = line_ahead<br>double_line
+|H2_node_info = bb_ru-class_flagship bb_ru-class_flagship cvl_nu-class_flagship cl_tsu-class dd_ha-class_late_model dd_ha-class_late_model
+|H2_form = line_ahead<br>double_line
+|H2_enemy_air_power = 23
+|
+|I_label = 敵任務部隊A群
+|I1_node_info = bb_ru-class_flagship_kai bb_ru-class_elite bb_ru-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|I1_form = line_ahead
+|I2_node_info = cv_wo-class_flagship_kai bb_ru-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|I2_form = diamond
+|I2_enemy_air_power = 102
+|I3_node_info = ca_ri-class_flagship_kai bb_ru-class_flagship cvl_nu-class_elite cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|I3_form = double_line
+|I3_enemy_air_power = 24
+|
+|J_label = No Combat
+|J1_node_info = "Must be my imagination" (battle avoided)
+|
+|K_label = 敵攻略部隊本体
+|K1_node_info = transport_wa-class_flagship bb_ru-class_flagship_kai cl_tsu-class_elite cl_tsu-class_elite dd_ni-class_late_model dd_ni-class_late_model
+|K1_form = line_ahead
+|K2_node_info = transport_wa-class_flagship cv_wo-class_flagship_2 bb_ru-class_flagship_kai cl_tsu-class_elite dd_ha-class_late_model dd_ni-class_late_model
+|K2_form = line_ahead<br>diamond
+|K2_enemy_air_power = 84
+}}
+
+===Drops===
+<div class="mw-customtoggle-6-2-drop globalbutton">Show/Hide Drops</div>
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-6-2-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+!Battleship
+!Submarine
+!Others
+|-
+|A
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|B
+|[[Arashio]], [[Asashio]], [[Fubuki]], [[Kasumi]], [[Murakumo]], [[Nenohi]]
+|[[Isuzu]], [[Jintsuu]],  [[Kinu|'''<span style="color:red">Kinu</span>''']], [[Naka]], [[Sendai]]
+|[[Aoba]], [[Atago]], [[Haguro]], [[Kako]], [[Maya]]
+|
+|[[Hiyou]], [[Junyou]], [[Shouhou]]
+|
+|
+|
+|-
+|C
+|
+|
+|
+|
+|
+|
+|
+
+|
+|-
+|E
+|
+|[[Naka]]
+|[[Mogami]]
+|
+|
+|
+|
+|
+|-
+|G
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|H
+|[[Hatsuharu]], [[Hatsuyuki]], [[Ooshio]], [[Shirayuki]], [[Yuugumo|'''<span style="color:red">Yuugumo</span>''']]
+|[[Isuzu]], [[Jintsuu]], [[Kinu|'''<span style="color:red">Kinu</span>''']], [[Nagara]]
+|[[Aoba]], [[Ashigara]], [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']], [[Kumano|'''<span style="color:red">Kumano</span>''']], [[Myoukou]], [[Suzuya|'''<span style="color:red">Suzuya</span>''']], [[Tone]]
+|
+|[[Junyou]], [[Shouhou]]
+|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Yamashiro]]
+|
+|[[Akashi|'''<span style="color:red">Akashi</span>''']]
+|-
+|I
+|
+|[[Kinu|'''<span style="color:red">Kinu</span>''']], [[Sendai]]
+|[[Ashigara]], [[Choukai]], [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']], [[Kumano|'''<span style="color:red">Kumano</span>''']], [[Suzuya|'''<span style="color:red">Suzuya</span>''']],  [[Takao]]
+|
+|
+|[[Ise]], [[Mutsu|'''<span style="color:red">Mutsu</span>''']]
+|
+|[[Akashi|'''<span style="color:red">Akashi</span>''']]
+|-
+|J
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="color:red" |'''K'''
+|[[Hamakaze|'''<span style="color:red">Hamakaze</span>''']], [[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Yuugumo|'''<span style="color:red">Yuugumo</span>''']], [[Uranami|'''<span style="color:red">Uranami</span>''']]
+|[[Sakawa|'''<span style="color:red">Sakawa</span>''']], [[Yahagi|'''<span style="color:red">Yahagi</span>''']], [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+|[[Atago]], [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']], [[Kumano|'''<span style="color:red">Kumano</span>''']], [[Mogami]], [[Myoukou]], [[Suzuya|'''<span style="color:red">Suzuya</span>''']], [[Tone]]
+|
+|[[Junyou]], [[Ryuujou]], [[Shoukaku|'''<span style="color:red">Shoukaku</span>''']], [[Shouhou]], [[Zuihou]], [[Zuikaku|'''<span style="color:red">Zuikaku</span>''']]
+|[[Fusou]], [[Haruna]], [[Hiei]], [[Hyuuga]], [[Ise]], [[Kirishima]], [[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Nagato|'''<span style="color:red">Nagato</span>''']], [[Yamashiro]]
+|[[I-168|'''<span style="color:red">I-168</span>''']], [[I-19|'''<span style="color:red">I-19</span>''']], [[Maruyu|'''<span style="color:red">Maruyu</span>''']]
+|
+|}
+
+== {{Anchor|6-3}} World 6-3: K作戦 Operation K==
+{{LabSortieworld
+| map = 6-3 Map.png
+| difficulty = ☆ ☆ ☆ ☆ ☆ ☆ ☆ 
+| item = Depends
+| exp = Varies
+| code = K作戦 (Operation K)
+| jptext = 飛行艇または水上偵察機を装備した水上機母艦・軽巡・駆逐艦による艦隊を同方面へ進出、航空偵察「K作戦」を実施せよ！
+| entext = Sortie to this region with light cruisers, destroyers, and seaplane tenderd equipped with [[Type 2 Flying Boat|flying boats]] or recon seaplanes, and undertake the air reconnaissance "Operation K"!
+}}
+
+===Stage Guide===
+{{#invoke:MapBranching|branchingTemplate
+|A_to_B = Active Branching
+|A_to_C = Active Branching
+|E_to_F = CL≥3 (confirmed)<br/>''or'' (CL+AV)≥4 (?)<br/>Weighted Random towards F with AV≥2 or CL≥2
+|E_to_G = All other cases
+|H_to_I = Failed LoS check for J
+|H_to_J = LoS [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=3)]] > 38, routing becomes random with [[Line of Sight#Equipment LoS weighting modifier|F33(C<sub>n</sub>=3)]] in range 36-38
+}}
+
+*'''Requires sinking boss flagship 4 times to clear.'''
+*'''Only seaplane tenders, light cruisers, training cruisers, and destroyers allowed!'''
+:*Specifically at least 1 AV, at least 1 DD, and at least 1CL+CLp.
+:*No, torpedo cruisers (CLT) cannot be used here.
+*Specific node notes:
+:*Node C is a submarine node, but you will not get the normal indication that it is a submarine node. Node B can be a submarine node, but isn't always.
+::*There is very little reason to head towards B, unless the fleet cannot (or do not) want to face [[Submarine So-Class#Elite|SS So-Class Elite]], who makes its (her?) first appearance in a regular map. But avoiding So-Class requires an additional fight.
+:*[[Light Cruiser Tsu-Class#Elite|CL Tsu-Class Elite]] can show up at node E.
+:*Node G can be guaranteed with 4 destroyers.
+;Air Reconnaissance
+From nodes G and H, recon planes will be flown towards the green X (the recon route is shown on the map as green arrows). Successful reconnaissance will reward additional resources upon '''winning at the boss node'''.
+*Neither G or H have combat.
+*Animation will be shown for the Air Reconnaissance; if both [[Type 2 Flying Boat]] and other seaplanes are brought, Type 2 Flying Boat animation takes priority.
+*Success rate (and possibly critical success rate) of the air reconnaissance depends on which AV and what equipment(s) are equipped, if any. [[Akitsushima]] equipped with [[Type 2 Flying Boat]] appears to increase the critical (and normal?) success rate.
+*'''You forfeit all reconnaissance rewards if you either drift away from boss or lose at the boss node.'''.
+;Boss Fleet
+Before the gauge can be depleted, the boss fleet consists of 1~2 [[Battleship Ta-Class#Flagship|BB Ta-Class Flagships]], 1~2 [[Heavy Cruiser Ri-Class#Flagship|CA Ri-Class Flagships]], 0~1 [[Light Cruiser He-Class#Flagship|CL He-Class Flagship]], the [[Destroyer Princess]] (weaker version), and 2 late model destroyers (either [[Destroyer Ro-Class#Late Model|Ro-Class]], [[Destroyer Ha-Class#Late Model|Ha-Class]], or [[Destroyer Ni-Class#Late Model|Ni-Class]]; the two destroyers appearing will be the same class).
+*When the gauge can be depleted, the boss fleet is led by [[Destroyer Princess]] (stronger version), 2 [[Battleship Ta-Class#Flagship|BB Ta-Class Flagships]], 1 [[Heavy Cruiser Ri-Class#Flagship|CA Ri-Class Flagship]], and 2 [[Destroyer Ni-Class#Late Model|DD Ni-Class Late Models]].
+*Because you can only deploy AV/CL/CLp/DD, it is unlikely for the player's fleet to be able to inflict significant damage during daytime battle. You should expect the battle to last into nighttime.
+
+===Tips===
+;Suggested fleets
+*1AV, 1CL, 4DD (A → C → E → G → H → J, 3 fights total)
+:*Pros: The most cost-effective way to get to boss, and guarantees G branching, which allows two air reconnaissance rewards.
+:*Cons: Lowest damage output of the setup; may not be able to consistently get a victory at boss.
+*1AV, [[Abukuma|Abukuma Kai Ni]], 4DD (A → C → E → G → H → J, 3 fights total)
+:*Pros: Similar to the composition above as it's cost-effective to getting to the boss fleet, and guarantees G branching, which allows two air reconnaissance rewards, but also can grant another pre-emptive torpedo salvo if Abukuma is equipped with a [[Type A Ko-hyoteki]].
+:*Cons: Can still be a game of chance to score a victory at boss, but makes victory easier to achieve.
+*2AV, 3CL, 1DD (A → C → E → F → H → J, 4 fights total)
+:*Pros: Highest damage output at boss, especially due to the boss fight almost always requiring night battle.  Bringing [[Abukuma|Abukuma Kai Ni]] & [[Yura|Yura Kai Ni]] gives you two additional pre-emptive torpedo salvoes if they are equipped with [[Type A Ko-hyoteki]].
+:*Cons: Needs to fight an extra battle against enemy fleet led by a [[Heavy Cruiser Ne-Class#Elite|CA Ne-Class Elite]] which has the stats close to a battleship.
+*1AV, 2CL, 3DD (Either of the above routes, 3 or 4 fights total)
+:*Pros: Has better damage over 1AV+1CL+4DD, and if the random compass sends you to G node, can fight at boss with better output and still only fighting 3 battles total.
+:*Cons: Has to deal with RNG, and being sent to node F this way hurts a bit more.
+;Suggested ships (and equipment setups)
+*AV: Despite the fact that [[Akitsushima]] with her [[Type 2 Flying Boat|flying boats]] can succeed at the air reconnaissance better, her battle output is low, and as the boss fleet is rather tanky, using either [[Chitose]], [[Chiyoda]] or most preferably [[Mizuho]] equipped with 2 Zuiun (or variants) and 1 [[Type A Ko-hyoteki]] probably is the better choice, especially since the opening torpedo can easily take out a less-armored target before shelling begins. (Akitsushima cannot equip [[Type A Ko-hyoteki]], lower plane capacity, and no torpedo capability, period.) Note that any setup with seaplane bombers have chances being shot down, especially if Tsu-Class Elite shows up at node E, which may result in no air superiority at boss node.
+*CL: Generally, your 1~3 best CLs here. Unless your other ships can compensate for the lowered night battle damage, it is not recommended to use [[Ooyodo]] here.  [[Abukuma|Abukuma Kai Ni]] is highly recommended for here since she can be armed with a [[Type A Ko-hyoteki]].
+*DD: Consider the boss fight will require night battle for the most part, and the fact that [[Destroyer Princess]] (harder version) has 115 armor, it is better to bring ships that have better night battle performances. Anti-Air equipment is not required for this map because no enemy fleets here have air capability.
+
+===Nodes And Enemy Encounters===
+{{#invoke:EnemyEncounters|encounterTemplate
+|A_label = <span style="color:blue">Active Branching</span>
+|A1_node_info = (No combat)
+|
+|B_label = 泊地哨戒線
+|B1_node_info = ss_ka-class_elite ss_ka-class ss_ka-class ss_ka-class ss_ka-class
+|B1_xp = 100
+|B1_form = echelon<br>line_abreast
+|B2_node_info = cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|B2_xp = ?
+|B2_form = 
+|B3_node_info = dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|B3_xp = ?
+|B3_form = double_line
+|
+|C_label = 深海潜水艦隊
+|C1_node_info = ss_yo-class_elite ss_yo-class_elite ss_ka-class ss_ka-class ss_ka-class
+|C1_xp = 90
+|C1_form = echelon<br>line_abreast
+|C2_node_info = ss_yo-class_elite ss_ka-class_elite ss_ka-class_elite ss_ka-class ss_ka-class ss_ka-class
+|C2_xp = 100
+|C2_form = echelon<br>line_abreast
+|C3_node_info = ss_so-class_elite ss_yo-class_elite ss_ka-class_elite ss_ka-class ss_ka-class ss_ka-class
+|C3_xp = 110
+|C3_form = echelon<br>line_abreast
+|
+|D_label = 深海ピケット艦隊
+|D1_node_info = cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|D1_xp = 150
+|D1_form = line_ahead
+|D2_node_info = cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|D2_xp = 140
+|D2_form = double_line
+|D3_node_info = cl_he-class_flagship dd_ro-class_late_model dd_i-class_late_model dd_i-class_late_model
+|D3_xp = 130
+|D3_form = line_ahead
+|D4_node_info = cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|D4_xp = 110
+|D4_form = line_ahead
+|
+|E_label = 深海哨戒水雷戦隊
+|E1_node_info = cl_tsu-class_elite clt_chi-class_elite clt_chi-class_elite dd_i-class_late_model dd_i-class_late_model
+|E1_xp = 220
+|E1_form = line_ahead<br>double_line
+|E2_node_info = cl_he-class_flagship clt_chi-class_elite clt_chi-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|E2_xp = 210
+|E2_form = line_ahead<br>double_line
+|E3_node_info = cl_he-class_flagship clt_chi-class_elite clt_chi-class_elite dd_i-class_late_model dd_i-class_late_model
+|E3_xp = 200
+|E3_form = line_ahead<br>double_line
+|
+|F_label = 深海中部水上打撃群
+|F1_node_info = ca_ne-class_elite ca_ri-class_elite cl_to-class_elite dd_i-class_late_model dd_i-class_late_model
+|F1_xp = 240
+|F1_form = double_line
+|F2_node_info = ca_ne-class_elite cl_to-class_elite cl_to-class_elite dd_i-class_late_model dd_i-class_late_model
+|F2_xp = 230
+|F2_form = line_ahead
+|F3_node_info = ca_ne-class_elite cl_to-class_elite cl_to-class_elite dd_i-class_late_model dd_i-class_late_model
+|F3_xp = 220
+|F3_form = double_line
+|F4_node_info = ca_ne-class_elite cl_to-class_elite cl_ho-class_elite dd_i-class_late_model dd_i-class_late_model
+|F4_xp = 210
+|F4_form = line_ahead
+|
+|G_label = <span style="color:green">Air Reconnaissance</span>
+|G1_node_info = (No combat)
+|
+|H_label = <span style="color:green">Air Reconnaissance</span>
+|H1_node_info = (No combat)
+|
+|I_label = No Combat
+|I1_node_info = <span style="color:blue">"No enemy sighted. Operation was a failure." (battle avoided)</span>
+|
+|J_label = 留守泊地旗艦艦隊
+|J1_node_info = bb_ta-class_flagship bb_ta-class_flagship ca_ri-class_flagship destroyer_princess dd_ni-class_late_model dd_ni-class_late_model
+|J1_xp = 400
+|J1_form = line_ahead
+|J2_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_flagship destroyer_princess dd_ni-class_late_model dd_ni-class_late_model
+|J2_xp = 400
+|J2_form = line_ahead
+|J3_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_flagship destroyer_princess dd_ha-class_late_model dd_ha-class_late_model
+|J3_xp = 400
+|J3_form = line_ahead
+|J4_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_flagship destroyer_princess dd_ro-class_late_model dd_ro-class_late_model
+|J4_xp = 400
+|J4_form = line_ahead
+|J5_node_info = bb_ta-class_flagship ca_ri-class_flagship cl_he-class_flagship destroyer_princess dd_ro-class_late_model dd_ro-class_late_model
+|J5_xp = 400
+|J5_form = line_ahead
+|J6_node_info = destroyer_princess bb_ta-class_flagship bb_ta-class_flagship ca_ri-class_flagship dd_ni-class_late_model dd_ni-class_late_model
+|J6_xp = 400
+|J6_form = line_ahead
+|
+|final_form = J6
+}}
+
+===Drops===
+<div class="mw-customtoggle-6-3-drop globalbutton">Show/Hide Drops</div>
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-6-3-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+!Battleship
+!Submarine
+!Others
+|-
+|B
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|C
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|D
+|[[Kikuzuki]], [[Mutsuki]]
+|
+|[[Maya]]
+|
+|
+|
+|
+|
+|-
+|E
+|[[Satsuki]], [[Sazanami]]
+|[[Isuzu]], [[Jintsuu]], [[Kiso]], [[Kitakami]], [[Naka]], [[Ooi]], [[Sendai]], [[Tatsuta]], [[Tenryuu]]
+|[[Aoba]], [[Ashigara]], [[Chikuma]], [[Choukai]], [[Furutaka]], [[Kinugasa]], [[Mogami]]
+|
+|
+|[[Hiei]], [[Hyuuga]], [[Ise]], [[Kirishima]], [[Kongou]]
+|[[I-19|'''<span style="color:red">I-19</span>''']]
+|[[Katori|'''<span style="color:red">Katori</span>''']]
+|-
+|F
+|
+|[[Jintsuu]], [[Sendai]]
+|[[Mogami]]
+|
+|
+|[[Hiei]], [[Ise]]
+|[[I-19|'''<span style="color:red">I-19</span>''']]
+|
+|-
+| style="color:red" |'''J'''
+|[[Harusame|'''<span style="color:red">Harusame</span>''']], [[Mutsuki]], [[Satsuki]], [[Shiranui]]
+|[[Kitakami]], [[Nagara]], [[Noshiro|'''<span style="color:red">Noshiro</span>''']], [[Ooi]], [[Ooyodo|'''<span style="color:red">Ooyodo</span>''']], [[Sendai]], [[Tama]],[[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+|[[Aoba]], [[Ashigara]], [[Atago]], [[Chikuma]], [[Choukai]], [[Furutaka]], [[Haguro]], [[Kako]], [[Kinugasa]], [[Kumano]], [[Mogami]], [[Myoukou]], [[Suzuya]], [[Takao]], [[Tone]]
+|
+|[[Hiyou]], [[Jun'you]], [[Ryuujou]], [[Shouhou]], [[Shoukaku]], [[Unryuu|'''<span style="color:red">Unryuu?</span>''']], [[Zuihou]], [[Zuikaku]]
+|[[Haruna]], [[Hiei]], [[Hyuuga]], [[Ise]], [[Kirishima]], [[Kongou]]
+|[[I-19|'''<span style="color:red">I-19</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']], [[I-58|'''<span style="color:red">I-58</span>''']], 
+|
+|}
+
+== {{Anchor|6-4}} World 6-4: Central Northern Offshore Sea of Peacock Island==
+{{LabSortieworld
+| map = Map_6-4.png
+| difficulty = ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆
+| item = 
+| exp = Varies
+| code = 離島再攻略作戦 (Island Recapture Operation)
+| jptext = 水雷戦隊を旗艦とした攻略部隊または空母最大2隻を擁する機動部隊による中部海域離島攻略作戦を発動！艦隊、出撃せよ！
+| entext = Organize a unit to undertake an operation to capture the Island. Form a fleet consisting of a maximum of 2 Aircraft Carrier or a torpedo squadron flagship! Fleet, set sail!
+}}
+
+===Stage Guide===
+{{#invoke:MapBranching|branchingTemplate
+|start_to_M = Fleets that have more than 2 CAV, 2 BB, any CV or Akitsumaru; Fleets that do not have 2 DDs also start here
+|Start_to_A = Fleets that fail conditions for B
+|Start_to_B = Fleet is fast and has either 4DD, or CL3DD with a flag CL
+|A_to_D = Fleet Having no BB OR less than 3 CAV; <br/>
+Fleet with Akitsushima AND BB < 2 AND BB + CAV < 3; <br/>
+Fleet with 2 CAVs AND CL flagship
+|A_to_E = Fleet that doesn't satisfy A to D 
+|E_to_D = Fleet with Akitsushima
+|E_to_G = Fleet without Akitsushima
+|K_to_J = Fleet with 2 DD and BB < 2, BB + CV < 4
+|K_to_H = the other case
+|J_to_I = Fast fleet with 1 CL + 2 DD and BB + CV < 3
+|J_to_N = Fleet having Akitsumaru
+|J_to_L = The other cases
+}}
+*'''Requires destroying the [[Isolated Island Princess]] 5 times to clear.'''
+
+<!--*Specific node notes: -->
+*This map features multiple starting zone positions which were introduced in the [[Winter 2016 Event]].
+**Ships consisting of a Torpedo Squadron (i.e. mostly DDs or CL and DDs) will start on left Side of the map
+**Any carrier will start on the east, as will any two battleships, or three CA(V)s
+**Not having two destroyers will also start on the west
+** You cannot bring no more than 2 CV(L)(B)
+** You cannot bring more than 2 (F)BB
+* Recommended fleet composition: 
+* 1CL flagship, 1 FBB, 3DD, 1CAV
+**Gives the shortest and easiest route to boss - B,D,C,F,N.
+**Highly recommended only if you have enough [[WG42]]s, [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]] and [[Type 2 Ka-Mi Tank]] and had constructed a Seaplane Fighter.
+**Fleet has the best chance of reaching the boss node while maintaining fuel and ammo to allow for a better outcome in the boss fight.
+** It's highly recommended to have a seaplane fighter or an Italian ship to help aid you in maintaining air superiority / air parity over the fights on your way to the boss.
+** DDs and CLs are recommended to have [[WG42]]s and [[Daihatsu]] as these are the only effective ways to do damage to the [[Battery Imp]]s and do decent chipping damage to the [[Isolated Island Princess]], CAs and BBs should be armed with a [[Type 3 Shell]] against the installation bosses. BBs may also bring AP shells to help aid in doing daytime battle damage.
+*1 BB(V), 1 CAV, 1CL, 2 DD, and [[Akitsushima]]
+**[[Akitsushima]] allows for the shortest possible path on the west entrance going from A,D,C,F and N.
+**In this case Akitsushima should be armed with at least 2 seaplane fighters as her role will serve to be a distraction and to maintain a degree of air superiority at the boss node depending on the formation.
+*2 CAV, 1CL, and 3 DD
+**Allows for A,D,C,F and N.
+*More powerful set up in compared to [[Akitsushima]] but will result in some luck to ensure you'll deliver damage.
+''Regarding Boss Fleet''
+*Boss Fleet is heavily effected based on your HQ level.
+*Admirals below HQ level 103 (as currently known) will not feature a 6 enemy composition in the boss composition outside of the last kill. But will appear if your HQ level is '''103 or higher'''.
+*Boss fleet's flagship is the [[Isolated Island Princess]]
+**Isolated Hime will usually have [[Battery Imp]]s and [[Supply Depot Princess]] with her.
+**Dev tweet says [[Battery Imp]]s are immune to [[Type 3 Shell]]s but there are many reports of CAs and BBs doing high damage to them in yasen.
+**Using [[WG42]] and [[Daihatsu]] will do decent damage to them.
+**If you have enough [[WG42]] then you may want to use [[Ooyodo]] and equip her with 2 of them as they stack and can deliver severe damage and can easily one shot an Imp or one of the Hime.
+**Stacking [[Type 2 Ka-Mi Tank]] and [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]] upgraded with [[WG42]] can do a lot of damage to [[Supply Depot Princess]] and [[Battery Imp]].
+''Regarding [[Land-Based Air Squadron]]s''
+*You are permitted to use 1 [[Land-Based Air Squadron]]
+*There will be no air raids on this map.
+
+*Completing the quests B80 and F43 to earn a Construction Team to gain access to your [[Land-Based Air Squadron]] is '''highly recommended''' to help simplify the battle on the boss node for this map.
+*It's recommended to bring 2 Land Based Bombers and 2 Fighters if you have access to your [[LBAS]].
+**3 Land Based Bombers and 1 Fighters is an alternative recommendation, if you want to have a better shot at damaging the installations, but may result in your loosing planes more and also will likely loose your Land Based Attack Bombers' expertise in the process.
+*The Distance your Land Based Planes can travel on this map is calculated from Start Point 1 and heading eastward each node.
+*Bring planes with a distance of 5 or more in order for this to support an attack on the boss node.
+*If your Land Based planes focus on targeting the [[Artillery Imp]]s and [[Supply Depot Princess]] the battle will be significantly easier.
+*This map can also serve as a good location to train your Land Based attack planes to max expertise. Bring only Land Based Attackers with a distances of 8 or more as they will reach enough distance to allow you to use Maruyu solo on the submarine node on Node M which your planes should target in order to train them.
+
+===Nodes And Enemy Encounters===
+{{#invoke:EnemyEncounters|encounterTemplate
+|A_label = 中部海域哨戒水雷戦隊 A群 <br> Central Waters Patrolling<br> Torpedo Sqaudron Group A
+|A1_node_info = cl_ho-class_flagship clt_chi-class_flagship clt_chi-class_flagship dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|A1_Lv = 102 - 120
+|A1_xp = 160
+|A1_form = line_ahead
+|A2_node_info = cl_ho-class_flagship clt_chi-class_flagship clt_chi-class_flagship dd_ro-class_late_model dd_i-class_late_model dd_i-class_late_model
+|A2_Lv = 120
+|A2_xp = 140
+|A2_form = line_ahead
+|A3_node_info = cl_ho-class_flagship clt_chi-class_flagship clt_chi-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|A3_Lv = 99 - 108
+|A3_xp = 130
+|A3_form = line_ahead double_line
+|A4_node_info = cl_ho-class_flagship clt_chi-class_flagship clt_chi-class_flagship dd_ha-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|A4_Lv = 120
+|A4_xp = 170
+|A4_form = line_ahead
+|
+|B_label = 中部海域哨戒水雷戦隊 B群 <br> Central Waters Patrolling<br> Torpedo Sqaudron Group B
+|B1_node_info = cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model dd_i-class_late_model dd_i-class_late_model
+|B1_Lv = 99 - 116
+|B1_xp = 140
+|B1_form = line_ahead
+|B2_node_info = cl_ho-class_flagship dd_ro-class_late_model dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|B2_Lv =  109 - 120
+|B2_xp = 130
+|B2_form = line_ahead
+|B3_node_info = cl_ho-class_flagship dd_ro-class_late_model dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|B3_Lv =  99 - 104
+|B3_xp = 120
+|B3_form = line_ahead double_line
+|B4_Lv =  109 - 120
+|B4_xp = 170
+|B4_form = line_ahead
+|B4_node_info =  cl_ho-class_flagship dd_ha-class_late_model dd_ha-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|B5_Lv =  99 - 109
+|B5_xp = 160
+|B5_form = line_ahead
+|B5_node_info = cl_ho-class_flagship dd_ha-class_late_model dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|
+|C_label = 離島防衛低速戦艦部隊 <br> Isolated Island Defense <br> Battleship Unit
+|C1_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model cvl_nu-class_elite
+|C1_Lv = 109 - 120 
+|C1_xp = 200
+|C1_form = line_ahead
+|C1_enemy_air_power = 24
+|C2_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model cvl_nu-class_elite
+|C2_Lv = 108 or below
+|C2_xp = 200
+|C2_form = line_ahead
+|C2_enemy_air_power = 24
+|C3_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model cvl_nu-class
+|C3_Lv =  105 - 120
+|C3_xp = 190
+|C3_form = line_ahead
+|C3_enemy_air_power = 8
+|C4_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model cvl_nu-class
+|C4_Lv =  108 or below
+|C4_xp = 170
+|C4_form = line_ahead double_line
+|C4_enemy_air_power = 8
+|C5_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_ni-class_late_model dd_ni-class_late_model cvl_nu-class_elite
+|C5_Lv =  107 - 120
+|C5_xp = 240
+|C5_form = line_ahead 
+|C5_enemy_air_power = 24
+|C6_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_ha-class_late_model dd_ha-class_late_model cvl_nu-class_elite
+|C6_Lv =  107 or below
+|C6_xp = 220
+|C6_form = line_ahead
+|C6_enemy_air_power = 24
+|
+|D_label = 離島陸上航空隊 <br> Isolated Island Land Based <br> Air Group <br>'''<span style="color:green">Air Battle Node</span>'''
+|D1_node_info = isolated_island_princess
+|D1_xp = 120
+|D1_form =
+|D1_enemy_air_power = 82
+|D2_node_info = isolated_island_princess
+|D2_xp = 120
+|D2_form =
+|D2_enemy_air_power = 59
+|
+|E_label = 中部海域哨戒遊撃部隊 <br> Central Waters Patrolling <br> Mobile Unit
+|E1_node_info = ca_ri-class_flagship cl_ho-class_flagship dd_i-class_late_model dd_i-class_late_model ss_ka-class_elite ss_ka-class_elite
+|E1_Lv =  105 - 120
+|E1_xp = 160
+|E1_form = line_ahead
+|E2_node_info = ca_ri-class_flagship cl_ho-class_flagship dd_i-class_late_model dd_i-class_late_model ss_ka-class ss_ka-class_elite
+|E2_Lv =  104 - 120
+|E2_xp = 150
+|E2_form = line_ahead
+|E3_node_info = ca_ri-class_flagship cl_ho-class_flagship dd_i-class_late_model dd_i-class_late_model ss_ka-class ss_ka-class
+|E3_Lv = 119 and below
+|E3_xp = 140
+|E3_form = line_ahead
+|
+|F_label = 離島陸上航空隊 <br> Isolated Island Land Based <br> Air Group <br> '''<span style="color:green">Air Battle Node</span>'''
+|F1_node_info = isolated_island_princess
+|F1_Lv = 120
+|F1_xp = 120
+|F1_form =
+|F1_enemy_air_power = 82
+|F2_node_info = isolated_island_princess
+|F2_Lv = 120 and lower
+|F2_xp = 120
+|F2_form =
+|F2_enemy_air_power = 78
+|F3_node_info = isolated_island_princess
+|F3_Lv = 105 and lower
+|F3_xp = 120
+|F3_form =
+|F3_enemy_air_power = 59
+|
+|G_label = 離島陸上航空隊 <br> Isolated Island Land Based <br> Air Group <br> '''<span style="color:green">Air Battle Node</span>'''
+|G1_node_info = isolated_island_princess
+|G1_Lv = 120 
+|G1_xp = 100
+|G1_form =
+|G1_enemy_air_power = 82
+|G2_node_info = isolated_island_princess
+|G2_Lv = 120 and lower
+|G2_xp = 100
+|G2_form =
+|G2_enemy_air_power = 59
+|
+|H_label = 離島防衛低速戦艦部隊 <br> Isolated Island Defense <br> Battleship Unit
+|H1_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model cvl_nu-class_flagship
+|H1_Lv = 120 
+|H1_xp = 200
+|H1_form = line_ahead
+|H1_enemy_air_power = 23
+|H2_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model cvl_nu-class_elite
+|H2_Lv = 120
+|H2_xp = 200
+|H2_form = line_ahead
+|H2_enemy_air_power = 24
+|H3_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model cvl_nu-class_elite
+|H3_Lv =  118
+|H3_xp = 180
+|H3_form = line_ahead
+|H3_enemy_air_power = 24
+|H4_node_info = bb_ru-class_flagship bb_ru-class_flagship cl_he-class_flagship dd_ha-class_late_model dd_ha-class_late_model cvl_nu-class_flagship
+|H4_Lv = 120 
+|H4_xp = 230
+|H4_form = line_ahead
+|H4_enemy_air_power = 23
+|
+|I_label = 離島混成航空隊 <br> Isolated Island Mixed <br> Air Group <br> '''<span style="color:green">Air Battle Node</span>'''
+|I1_Lv = 120 
+|I1_node_info = isolated_island_princess cvl_nu-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|I1_xp = 170
+|I1_form = diamond
+|I1_enemy_air_power = 105
+|I2_Lv = 120 and lower
+|I2_node_info = isolated_island_princess cvl_nu-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|I2_xp = 160
+|I2_form = diamond
+|I2_enemy_air_power = 101
+|
+|J_label = 任務部隊 I群 <br> Task Force Group I
+|J1_Lv = 120 
+|J1_node_info = cv_wo-class_flagship_kai bb_ru-class_flagship_kai ca_ne-class_elite cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|J1_xp = 280
+|J1_form = diamond
+|J1_enemy_air_power = 132
+|J2_Lv = 120 
+|J2_node_info = cv_wo-class_flagship bb_ta-class_flagship ca_ne-class_elite cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|J2_xp = 270
+|J2_form = diamond
+|J2_enemy_air_power = 126
+|J3_Lv = 120 and below
+|J3_node_info = cv_wo-class_flagship bb_ta-class_flagship ca_ne-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|J3_xp = 270
+|J3_form = diamond
+|J3_enemy_air_power = 108
+|J4_Lv = 120 and below
+|J4_node_info = cv_wo-class_flagship bb_ta-class_flagship ca_ne-class_elite cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|J4_xp = 270
+|J4_form = diamond
+|J4_enemy_air_power = 108
+|J5_Lv = 120 
+|J5_node_info = aircraft_carrier_princess bb_ru-class_flagship_kai ca_ne-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|J5_xp = 280
+|J5_form = diamond
+|J5_enemy_air_power = 129
+|J6_Lv = 119 and lower
+|J6_node_info = aircraft_carrier_princess bb_ru-class_flagship_kai ca_ne-class_elite cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|J6_xp = 280
+|J6_form = diamond
+|J6_enemy_air_power = 129
+|
+|K_label = 任務部隊 II群 <br> Task Force Group II
+|K1_Lv = 105 - 120 
+|K1_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship ca_ri-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|K1_xp = 240
+|K1_form = diamond
+|K1_enemy_air_power = 108
+|K2_Lv = 105 - 120 
+|K2_node_info = cv_wo-class_flagship_kai bb_ta-class_elite ca_ri-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|K2_xp = 220
+|K2_form = diamond
+|K2_enemy_air_power = 103
+|K3_Lv = 99 - 120
+|K3_node_info = cv_wo-class_flagship_kai bb_ta-class_elite ca_ri-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|K3_xp = 200
+|K3_form = diamond
+|K3_enemy_air_power = 100
+|K4_Lv = 99 and lower 
+|K4_node_info = cv_wo-class_flagship bb_ta-class_elite ca_ri-class_flagship cl_ho-class_flagship dd_i-class_late_model dd_i-class_late_model
+|K4_xp = 180
+|K4_form = diamond
+|K4_enemy_air_power = 28
+|K5_Lv = 120 
+|K5_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship ca_ri-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|K5_xp = 250
+|K5_form = diamond
+|K5_enemy_air_power = 126
+|
+|L_label = 増援護衛空母部隊 <br>Reinforcement Escort<br> Aircraft Carrier Unit
+|L1_Lv = 120 
+|L1_node_info = cvl_nu-class_flagship cvl_nu-class_flagship ca_ri-class_flagship cl_ho-class_flagship dd_i-class_late_model dd_i-class_late_model 
+|L1_xp = 160
+|L1_form = diamond
+|L1_enemy_air_power = 46
+|L2_Lv = 120 
+|L2_node_info = cvl_nu-class_flagship cvl_nu-class_flagship ca_ri-class_flagship dd_i-class_late_model dd_i-class_late_model 
+|L2_xp = 140
+|L2_form = double_line diamond
+|L2_enemy_air_power = 46
+|L3_Lv = 120 
+|L3_node_info = cvl_nu-class_flagship cvl_nu-class_flagship ca_ri-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model 
+|L3_xp = 180
+|L3_form = diamond
+|L3_enemy_air_power = 46
+|
+|M_label = 中部海域潜水哨戒線 <br> Central Water Subamrine <br> Patrol Line
+|M1_Lv = 120 
+|M1_node_info = ss_so-class_flagship ss_so-class_elite ss_so-class ss_so-class ss_so-class
+|M1_xp = 160
+|M1_form = echelon line_abreast  
+|M2_Lv = 120 
+|M2_node_info = ss_so-class_flagship ss_so-class_elite ss_so-class ss_so-class 
+|M2_xp = 140
+|M2_form = echelon 
+|M3_Lv = 120 
+|M3_node_info = ss_so-class_flagship ss_so-class_elite ss_so-class_elite ss_so-class ss_so-class
+|M3_xp = 180
+|M3_form = echelon line_abreast  
+|
+|N_label = 離島守備隊 <br> Isolated Island Garrison
+|N1_Lv = 106 - 120 
+|N1_node_info = isolated_island_princess artillery_imp artillery_imp artillery_imp supply_depot_princess_damaged cl_ho-class_flagship
+|N1_xp = 580
+|n1_form =  line_ahead
+|N1_enemy_air_power = 48
+|N2_Lv = 103 - 120 
+|N2_node_info = isolated_island_princess artillery_imp artillery_imp artillery_imp supply_depot_princess transport_wa-class_flagship
+|N2_xp = 560
+|N2_form = line_ahead
+|N2_enemy_air_power = 112
+|N3_Lv = 99 - 120 
+|N3_node_info = isolated_island_princess artillery_imp artillery_imp supply_depot_princess cl_ho-class_flagship
+|N3_xp = 540
+|N3_form = line_ahead
+|N3_enemy_air_power = 34
+|N4_Lv = 98 - 107
+|N4_node_info = isolated_island_princess artillery_imp artillery_imp dd_i-class_late_model dd_i-class_late_model
+|N4_xp = 500
+|N4_form = line_ahead
+|N4_enemy_air_power = 78
+|N5_Lv = 105 - 120
+|N5_node_info = isolated_island_princess artillery_imp artillery_imp artillery_imp supply_depot_princess_damaged transport_wa-class_flagship
+|N5_xp = 600
+|N5_form = line_ahead
+|N5_enemy_air_power = 48
+|N6_Lv = 103 - 120
+|N6_node_info = isolated_island_princess artillery_imp artillery_imp artillery_imp supply_depot_princess_damaged cl_he-class_flagship
+|N6_xp = 600
+|N6_form = line_ahead
+|N6_enemy_air_power = 48
+|final_form = A4 B4 B5 C5 C6 H4 J5 J6 K5 L3 M3 N5 N6
+|boss_node = N
+
+}}
+
+===Drops===
+<div class="mw-customtoggle-6-4-drop globalbutton">Show/Hide Drops</div>
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-6-4-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+!Battleship
+!Submarine
+!Others
+|-
+|A
+|[[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Suzukaze]]
+|
+|
+|
+|
+|
+|
+|
+|-
+|B
+|[[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Suzukaze]]
+|
+|
+|
+|
+|
+|
+|
+|-
+|C
+|[[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Suzukaze]] [[Yayoi]] [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']] [[Urakaze|'''<span style="color:red">Urakaze</span>''']]
+|[[Tenryuu]] [[Tatsuta]] [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+|[[Furutaka]], [[Kako]], [[Tone]], [[Chikuma]], [[Aoba]], [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']]
+|[[Chiyoda]], [[Chitose]], [[Akitsushima|'''<span style="color:red">Akitsushima</span>''']] [[Mizuho|'''<span style="color:red">Mizuho</span>''']]
+|[[Souryuu]], [[Hiryuu]]
+|
+|
+|
+|-
+|E
+|[[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Suzukaze]] [[Yayoi]]
+|[[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+|[[Aoba]]
+|
+|
+|
+|
+|
+|-
+|H
+|[[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Suzukaze]] [[Yayoi]] [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']] [[Urakaze|'''<span style="color:red">Urakaze</span>''']]
+|[[Tenryuu]] [[Tatsuta]] [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+|[[Furutaka]], [[Kako]], [[Tone]], [[Chikuma]], [[Aoba]], [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']]
+|[[Chiyoda]], [[Chitose]], [[Akitsushima|'''<span style="color:red">Akitsushima</span>''']] 
+|[[Souryuu]], [[Hiryuu]]
+|
+|
+|
+|-
+|J
+|[[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Suzukaze]] [[Yayoi]] [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']] [[Urakaze|'''<span style="color:red">Urakaze</span>''']]
+|[[Tenryuu]] [[Tatsuta]] [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+|[[Furutaka]], [[Kako]], [[Tone]], [[Chikuma]], [[Aoba]], [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']]
+|
+|[[Souryuu]], [[Hiryuu]]
+|
+|
+|
+|-
+|K
+|[[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Suzukaze]] 
+|
+|
+|
+|
+|
+|
+|
+|-
+|L
+|[[Mutsuki]] [[Kisaragi]] [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Yuudachi]] [[Murasame]] [[Samidare]] [[Suzukaze]] [[Yayoi]] [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']] 
+|
+|[[Furutaka]], [[Kako]]
+|[[Akitsushima|'''<span style="color:red">Akitsushima</span>''']], [[Mizuho|'''<span style="color:red">Mizuho</span>''']]
+|[[Souryuu]], [[Hiryuu]]
+|
+|
+|
+|-
+| style="color:red" |'''N'''
+|[[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Murakumo]], [[Ayanami]], [[Isonami]], [[Shikinami]], [[Oboro]], [[Sazanami]], [[Akebono]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Inazuma]], [[Ikazuchi]], [[Hatsuharu]], [[Wakaba]], [[Hatsushimo]], [[Nenohi]], [[Asashio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Ooshio]], [[Michishio]], [[Kagerou]], [[Shiranui]], [[Kuroshio]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Shiratsuyu]], [[Shigure]], [[Yuudachi]], [[Murasame]], [[Samidare]], [[Suzukaze]], [[Yayoi]], [[Akigumo]] [[Yuugumo|'''<span style="color:red">Yuugumo</span>''']], [[Makigumo|'''<span style="color:red">Makigumo</span>''']], [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']], [[Tokitsukaze|'''<span style="color:red">Tokitsukaze</span>''']], [[Asagumo|'''<span style="color:red">Asagumo</span>''']], [[Yamagumo|'''<span style="color:red">Yamagumo</span>''']]
+|[[Tenryuu]], [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+|[[Aoba]], [[Atago]], [[Chikuma]], [[Furutaka]], [[Kako]], [[Kinugasa]], [[Mogami]], [[Takao]], [[Tone]]
+|[[Chiyoda]], [[Chitose]]
+|[[Souryuu]], [[Hiryuu]]
+|[[Haruna]], [[Hiei]], [[Hyuuga]], [[Ise]], [[Kirishima]], [[Kongou]], [[Fusou]], [[Yamashiro]], [[Nagato]], [[Mutsu]]
+|
+|[[Hayasui|'''<span style="color:red">Hayasui</span>''']]
+|}
+
+== {{Anchor|6-5}} World 6-5: "Carrier Task Force Interception" Off the Coast of KW Atoll==
+{{LabSortieworld
+| map = 6-5Map.png
+| difficulty = ☆☆☆☆☆☆☆☆☆☆☆☆☆
+| item = None
+| exp = Varies
+| code = 空母機動部隊迎撃戦 <br>Carrier Task Force Interception
+| jptext = 中部海域最前線に有力な敵機動部隊が襲来した！同戦域に展開する基地航空隊と協同し、敵艦隊を迎撃、これを撃滅せよ！
+| entext = A Powerful Carrier Task force is conducting an invasion in the Central Water Frontlines! With the Cooperation of your Land Base Air Sqaudron, deploy into the same theater, intercept the enemy fleet, and eliminate them!
+}}
+
+===Stage Guide===
+
+'''Data here may not be 100% accurate yet'''
+
+{{AirControlSystem
+    | Map   =6-5 ACDGM Pre-Final
+    | AS    = 468
+    | Fleet = 3(BB+CV) CA(V) CLT DD
+    | Notes =
+    }}
+
+{{AirControlSystem
+    | Map   =6-5 ACDGM Final
+    | AS    = 468
+    | Fleet =  3(BB+CV) CA(V) CLT DD
+    | Notes =
+    }}
+{{#invoke:MapBranching|branchingTemplate
+|start_to_A = Fleets that do not satisfy the requirement to start at B
+|start_to_B = no CLT / CV(B), at least 1 CL in fleet and BB < 4
+|C_to_D = CV + BB < 4 , at least 1 DD, less than 2 CA and less than 2 CLT
+|C_to_E = not satisfy the requirement from C to D
+|B_to_C = not satisfy the requirement from B to C
+|B_to_F = satisfy all of the requirement: have 1 CL 2 DD and BB < 3
+|I_to_H = start from 1
+|I_to_J = start from 2
+}}
+
+*'''Requires destroying the [[Aircraft Carrier Princess]] 6 times to clear.'''
+<!--*Specific node notes: -->
+*This map features multiple starting zone positions. However, the south route goes through more nodes without CVs and has J node (a night battle node). 
+*Clearing this map rewards 1 Medal and 250 ranking points. The boss HP bar is reset at the beginning of each month.
+*Air raids will appear once you get the second kill on the boss. However, these will stop after you deplete the bar.
+*The enemy composition of the map will get harder after you get 3 kills (1 elite ship) and when you reach the final kill (all elite ships)
+*Recommended fleet composition: 
+
+** North route: 1 DD 1 BB 2 CV 1 CA 1 CLT
+*** Shortest route: A-C-D-G-M
+*** Since there is [[Standard Carrier Wo-Class]] flagship on C node [[Light Carrier Nu-Class ]] in D node, do consider the use of an Akizuki-class or Maya K2
+
+** South route: 1 CL 2 BB 1 CA(V) 2 DD 
+*** Longer route: B-F-I-J-M
+*** Pre-boss is easier except the night battle at J, you'll also have to depend a lot on your LBAS
+
+*'''Tips:'''
+*Having access to both of your [[LBAS]] for this map is highly recommended for the sake of being able to complete this map with relative easy. 
+*[[LBAS]] setup should be 2 fighters and 2 Land Based Land Attack Bombers.
+*[[LBAS]] should be set to target the boss node.
+*If fortunate enough, it can be possible to take out the [[Aircraft Carrier Princess]] with the [[LBAS]] or take out a majority of her planes allowing for a chance to easily wipe out all of her bombers rendering her defenseless. 
+*Eliminating the entire Escort fleet is key so that you can have a high chance of getting a torpedo salvo on the main fleet. 
+*If you are able to take out the enemy fleet's escort flagship, the escort fleet should be removed in night battle leaving only the main fleet.
+*Do prepare a sizable amount of bauxite for this map as it'll be a costly monthly EO.
+
+===Nodes And Enemy Encounters===
+{{#invoke:EnemyEncounters|encounterTemplate
+|A_label = 先遣任務部隊 前衛艦隊 <br>Advancing Task Force<br> Vanguard Fleet
+|A1_node_info = cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|A1_xp = 100
+|A1_form = line_ahead
+|A2_node_info = cl_he-class_flagship cl_ho-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model 
+|A2_xp = 110
+|A2_form = line_ahead
+|A3_node_info = cl_he-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model dd_i-class_late_model dd_i-class_late_model 
+|A3_xp = 120
+|A3_form = line_ahead
+|A4_node_info = cl_he-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model 
+|A4_xp = 130
+|A4_form = line_ahead
+|A5_node_info = cl_he-class_flagship cl_ho-class_flagship dd_ha-class_late_model dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model 
+|A5_xp = 140
+|A5_form = line_ahead
+|A6_node_info = cl_he-class_flagship cl_ho-class_flagship dd_ha-class_late_model dd_ha-class_late_model dd_ro-class_late_model dd_ro-class_late_model 
+|A6_xp = 150
+|A6_form = line_ahead
+|A7_node_info = cl_he-class_flagship cl_ho-class_flagship  cl_ho-class_flagship dd_ha-class_late_model dd_ro-class_late_model dd_ro-class_late_model 
+|A7_xp = 160
+|A7_form = line_ahead
+|A8_node_info = cl_he-class_flagship cl_ho-class_flagship  cl_ho-class_flagship dd_ha-class_late_model dd_ha-class_late_model dd_ha-class_late_model 
+|A8_xp = 170
+|A8_form = line_ahead
+|A9_node_info = cl_he-class_flagship cl_he-class_flagship  cl_ho-class_flagship  cl_ho-class_flagship dd_ha-class_late_model dd_ha-class_late_model 
+|A9_xp = 180
+|A9_form = line_ahead
+|
+|B_label = 深海潜水艦隊 前方展開部隊 <br> Abyssal Submarine Fleet <br> Advnaced Deployment Unit
+|B1_node_info = ss_ka-class_elite ss_ka-class_elite ss_ka-class_elite
+|B1_xp = 90
+|B1_form = echelon 
+|B2_node_info = ss_ka-class_flagship ss_ka-class_elite ss_ka-class_elite
+|B2_xp = 100
+|B2_form = echelon line_abreast
+|B3_node_info = ss_ka-class_flagship ss_ka-class_elite ss_ka-class_elite ss_ka-class_elite
+|B3_xp = 120
+|B3_form = echelon line_abreast
+|B4_node_info = ss_ka-class_flagship ss_ka-class_flagship ss_ka-class_elite ss_ka-class_elite ss_ka-class_elite
+|B4_xp = 160
+|B4_form = echelon 
+|
+|C_label = 先遣任務部隊 <br> Advancing Task Force
+|C1_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship cl_tsu-class cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|C1_xp = 240
+|C1_form = diamond
+|C1_enemy_air_power = 132
+|C2_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship ca_ne-class cl_tsu-class dd_i-class_late_model dd_i-class_late_model
+|C2_xp = 240
+|C2_form = diamond
+|C2_enemy_air_power = 132
+|C3_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship ca_ne-class ca_ne-class dd_i-class_late_model dd_i-class_late_model
+|C3_xp = 240
+|C3_form = diamond
+|C3_enemy_air_power = 132
+|C4_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship cl_tsu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|C4_xp = 270
+|C4_form = diamond
+|C4_enemy_air_power = 132
+|C5_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship ca_ne-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|C5_xp = 270
+|C5_form = diamond
+|C5_enemy_air_power = 132
+|C6_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship ca_ne-class_elite ca_ne-class dd_ro-class_late_model dd_ro-class_late_model
+|C6_xp = 270
+|C6_form = diamond
+|C6_enemy_air_power = 132
+|C7_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship cl_tsu-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|C7_xp = 300
+|C7_form = diamond
+|C7_enemy_air_power = 132
+|C8_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship ca_ne-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|C8_xp = 300
+|C8_form = diamond
+|C8_enemy_air_power = 132
+|C9_node_info = cv_wo-class_flagship_kai bb_ta-class_flagship ca_ne-class_elite ca_ne-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|C9_xp = 300
+|C9_form = diamond
+|C9_enemy_air_power = 132
+|
+|D_label = 深海護衛空母部隊 B群 <br> Abyssal Escort Carrier<br> Unit Group B
+|D1_node_info = cvl_nu-class_flagship cvl_nu-class_flagship cl_tsu-class dd_ro-class_late_model dd_i-class_late_model dd_i-class_late_model
+|D1_xp = 200
+|D1_form = line_ahead double_line diamond
+|D1_enemy_air_power = 46
+|D2_node_info = cvl_nu-class_flagship cvl_nu-class_flagship ca_ne-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|D2_xp = 240
+|D2_form = line_ahead double_line diamond
+|D2_enemy_air_power = 46
+|D3_node_info = cvl_nu-class_flagship cvl_nu-class_flagship ca_ne-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|D3_xp = 270
+|D3_form = line_ahead double_line diamond
+|D3_enemy_air_power = 46
+|
+|E_label = 深海潜水艦隊 精鋭群狼部隊 <br> Abyssal Submarine Group <br> Elite Wolf Pack Unit
+|E1_node_info = ss_so-class_flagship ss_so-class_elite ss_so-class_elite
+|E1_xp = 160
+|E1_form = echelon
+|E2_node_info = ss_so-class_flagship ss_so-class_elite ss_so-class_elite ss_so-class_elite
+|E2_xp = 190
+|E2_form = echelon line_abreast
+|E3_node_info = ss_so-class_flagship ss_so-class_elite ss_so-class_elite ss_so-class_elite ss_so-class_elite
+|E3_xp = 220
+|E3_form = echelon
+|
+|F_label = 深海巡洋艦戦隊<br> Abyssal Cruiser Squadron
+|F1_node_info =  ca_ri-class_flagship clt_chi-class_flagship clt_chi-class_flagship cl_ho-class_flagship dd_i-class_late_model dd_i-class_late_model
+|F1_xp = 120
+|F1_form = line_ahead double_line diamond
+|F2_node_info =  ca_ri-class_flagship clt_chi-class_flagship clt_chi-class_flagship cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|F2_xp = 140
+|F2_form = line_ahead double_line diamond
+|F3_node_info =  ca_ri-class_flagship_kai clt_chi-class_flagship clt_chi-class_flagship cl_he-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|F3_xp = 160
+|F3_form = line_ahead double_line diamond
+|
+|G_label = 深海任務部隊 艦載機群 <br> Abyssal Task Force<br>Carrier Air Group <br> '''<span style="color:green">Air Attack Node</span>'''
+|G1_node_info = aircraft_carrier_princess cv_wo-class_flagship ca_ri-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|G1_xp = 200
+|G1_form = diamond
+|G1_enemy_air_power = 209
+|G2_node_info = aircraft_carrier_princess cv_wo-class_flagship cv_wo-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|G2_xp = 250
+|G2_form = diamond
+|G2_enemy_air_power = 312
+|G3_node_info = aircraft_carrier_princess cv_wo-class_flagship cv_wo-class_flagship cl_tsu-class_elite dd_ni-class_late_model dd_ni-class_late_model
+|G3_xp = 250
+|G3_form = diamond
+|G3_enemy_air_power = 312
+|
+|H_label = 深海任務部隊 艦載機群 <br> Abyssal Task Force<br>Carrier Air Group
+|H1_node_info = cv_wo-class_flagship ca_ri-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model 
+|H1_xp = 120
+|H1_form = diamond
+|H1_enemy_air_power = 103
+|H2_node_info = cv_wo-class_flagship cv_wo-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model dd_ha-class_late_model
+|H2_xp = 120
+|H2_form = diamond
+|H2_enemy_air_power = 206
+|
+|I_label =  深海護衛空母部隊 A群 <br> Abyssal Escort Carrier<br> Unit Group A
+|I1_node_info = cvl_nu-class_flagship cvl_nu-class_flagship cl_tsu-class dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|I1_xp = 200
+|I1_form = line_ahead double_line diamond
+|I1_enemy_air_power = 46
+|I2_node_info = cvl_nu-class_flagship cvl_nu-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_i-class_late_model dd_i-class_late_model
+|I2_xp = 230
+|I2_form = line_ahead double_line diamond
+|I2_enemy_air_power = 46
+|I3_node_info = cvl_nu-class_flagship cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|I3_xp = 260
+|I3_form = diamond
+|I3_enemy_air_power = 46
+|
+|J_label = 深海護衛空母部隊 C群 <br> Abyssal Escort Carrier<br> Unit Group C <br> '''<span style="color:blue">Night Battle</span>'''
+|J1_node_info = cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class dd_i-class dd_i-class dd_i-class
+|J1_xp = 180
+|J1_form = line_ahead double_line diamond
+|J1_enemy_air_power = 23
+|J2_node_info = cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class dd_i-class_late_model dd_i-class dd_i-class
+|J2_xp = 190
+|J2_form = line_ahead double_line diamond
+|J2_enemy_air_power = 23
+|J3_node_info = cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class dd_ro-class_late_model dd_i-class_late_model dd_i-class_late_model
+|J3_xp = 200
+|J3_form = diamond
+|J3_enemy_air_power = 23
+|
+|M_label = 任務部隊 主力群 <br> Main Task Force Unit <br> '''<span style="color:green">Enemy Combined Fleet</span>'''
+|M1_node_info = <center> '''Main Fleet''' </center> aircraft_carrier_princess cv_wo-class_flagship ca_ri-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model <br> <center> '''Escort Fleet''' </center> cl_he-class_flagship ca_ri-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|M1_xp = 500
+|M1_enemy_air_power = 209
+|M1_form = 
+|M2_node_info = <center> '''Main Fleet''' </center> aircraft_carrier_princess cv_wo-class_flagship cv_wo-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model <br> <center> '''Escort Fleet''' </center> cl_he-class_flagship ca_ri-class_flagship ca_ri-class_flagship dd_ha-class_late_model dd_i-class_late_model dd_i-class_late_model
+|M2_xp = 520
+|M2_enemy_air_power = 312
+|M2_form = 
+|M3_node_info = <center> '''Main Fleet''' </center> aircraft_carrier_princess cv_wo-class_flagship cv_wo-class_flagship cl_tsu-class_elite dd_ni-class_late_model dd_ni-class_late_model <br> <center> '''Escort Fleet''' </center> cl_he-class_flagship ca_ri-class_flagship ca_ri-class_flagship dd_ha-class_late_model dd_ro-class_late_model dd_ro-class_late_model 
+|M3_xp = 550
+|M3_enemy_air_power = 312
+|M3_form = 
+|second_phase = A5 A6 A7 B2 B3 C4 C5 C6 D2 E2 F2 G3 I2 J2 M2 
+|final_form = A8 A9 B4 C7 C8 C9 D3 E3 F3 G3 I3 J3 M3
+}}
+
+===Drops===
+<div class="mw-customtoggle-6-5-drop globalbutton">Show/Hide Drops</div>
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-6-5-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+!Battleship
+!Submarine
+!Others
+|-
+|A
+|[[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Murakumo]], [[Ayanami]], [[Isonami]], [[Shikinami]], [[Oboro]], [[Sazanami]], [[Akebono]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Inazuma]], [[Ikazuchi]], [[Hatsuharu]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Yuudachi]], [[Murasame]], [[Samidare]], [[Suzukaze]]
+|[[Isuzu]], [[Natori]], [[Jintsuu]], [[Naka]]
+|
+|
+|
+|
+|
+|
+|-
+|C
+|[[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Murakumo]], [[Ayanami]], [[Isonami]], [[Shikinami]], [[Oboro]], [[Sazanami]], [[Akebono]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Inazuma]], [[Ikazuchi]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Shiratsuyu]], [[Shigure]], [[Yuudachi]], [[Murasame]], [[Samidare]], [[Suzukaze]], [[Akigumo]]
+|[[Nagara]], [[Natori]], [[Isuzu]], [[Yura]], [[Kuma]], [[Tama]], [[Kiso]], [[Sendai]], [[Jintsuu]], [[Naka]]
+|
+|
+|[[Houshou]], [[Ryuujou]], [[Hiyou]], [[Junyou]]
+|
+|
+|
+|-
+|D
+|[[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Murakumo]], [[Ayanami]], [[Isonami]], [[Shikinami]], [[Oboro]], [[Sazanami]], [[Akebono]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Inazuma]], [[Ikazuchi]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Shiratsuyu]], [[Shigure]], [[Yuudachi]], [[Murasame]], [[Samidare]], [[Suzukaze]], [[Akigumo]]
+|[[Nagara]], [[Natori]], [[Isuzu]], [[Yura]], [[Kinu]], [[Abukuma]], [[Kuma]], [[Tama]], [[Kiso]], [[Kitakami]], [[Ooi]], [[Sendai]], [[Jintsuu]], [[Naka]]
+|
+|
+|[[Houshou]], [[Ryuujou]], [[Hiyou]], [[Junyou]], [[Shouhou]]
+|
+|[[I-168]]
+|
+|-
+|style="color:red" |'''M'''
+|[[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Murakumo]], [[Ayanami]], [[Isonami]], [[Shikinami]], [[Oboro]], [[Sazanami]], [[Akebono]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Inazuma]], [[Ikazuchi]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Shiratsuyu]], [[Shigure]], [[Yuudachi]], [[Murasame]], [[Samidare]], [[Suzukaze]], [[Akigumo]], [[Maikaze|'''<span style="color:red">Maikaze</span>''']],  [[Yuugumo|'''<span style="color:red">Yuugumo</span>''']],  [[Makigumo|'''<span style="color:red">Makigumo</span>''']],  [[Naganami|'''<span style="color:red">Naganami</span>''']],  [[Harusame|'''<span style="color:red">Harusame</span>''']], [[Asashimo|'''<span style="color:red">Asashimo</span>''']], [[Nowaki|'''<span style="color:red">Nowaki</span>''']], [[Takanami|'''<span style="color:red">Takanami</span>''']], [[Kawakaze|'''<span style="color:red">Kawakaze</span>''']], [[Umikaze|'''<span style="color:red">Umikaze</span>''']], [[Okinami|'''<span style="color:red">Okinami</span>''']]
+|[[Tenryuu]], [[Tatsuta]], [[Nagara]], [[Natori]], [[Isuzu]], [[Yura]], [[Kinu]], [[Abukuma]], [[Kuma]], [[Tama]], [[Kiso]], [[Kitakami]], [[Ooi]], [[Sendai]], [[Jintsuu]], [[Naka]], [[Yuubari]]
+|[[Furutaka]], [[Kako]], [[Aoba]], [[Takao]], [[Atago]], [[Choukai]], [[Maya]], [[Tone]], [[Chikuma]], [[Suzuya]], [[Kinugasa]]
+|[[Chiyoda]], [[Chitose]]
+|[[Akagi]],[[Kaga]], [[Shoukaku]], [[Zuikaku]], [[Houshou]]
+|[[Nagato]], [[Mutsu]], [[Kongou]], [[Hiei]], [[Kirishima]], [[Haruna]]
+|
+|[[Kashima|'''<span style="color:red">Kashima</span>''']]
+|-
+|}
+
+{{Navbox World}}
+[[ko:6해역]]

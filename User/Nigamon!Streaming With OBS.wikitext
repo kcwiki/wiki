@@ -1,0 +1,120 @@
+<big>Guide to Streaming</big>
+
+There are many different programs that you can stream with. The guide here is to teach you how to stream with OBS.
+
+So what is needed to stream?
+*OBS : https://obsproject.com/
+*A twitch account
+
+What you are recommended to have:
+*At least 4 gigs of ram, more is better.
+*2 Monitors (a laptop with a monitor connected to it will suffice).
+*Something occurring in the background; it can be commentary, music or something else. No one wants to tune into a stream with no noise and just people farming resources.
+
+<big>How to get setup</big>
+* Download and install OBS
+* Open up OBS, click ''settings'', go to ''Broadcast Settings''.
+  * Mode : Live Stream 
+  * Streaming Service : Twitch
+  * FMS URL : Whatever is closest to you
+  * Play Path/Stream Key (if any) : Put your stream key here.
+    * Finding your twitch stream key:
+      * To find your stream key log into twitch, go into your dash board, then click on ''stream key''.
+      * Or http://www.twitch.tv/broadcast/dashboard/streamkey
+* Go to the Encoding tab
+  * Video Encoding
+    * If you have the option you should use (in order) ''Quick Sync'', ''Nvidia NVENC'' and ''X264''.
+      * Though sometimes you might have to just use X264 as the others might have problem on your computer.
+  * Max Bitrate
+    * Finding out how much you can upload
+      * Go to http://www.speedtest.net/ and find how how fast you can upload. You want a little bit of extra bandwidth so Kancolle can function with some additional space.
+      * Take that number and multiply it by .75
+        * 1mbs is = 1000
+* Go to the Video tab
+  * Base Resolution
+    * Monitor
+      * Monitor should be based on which one you are playing Kancolle on
+  * Resolution Downscale
+    * This is based on your upload speed and your computer; you are going to have to play around with this.
+  * Filter
+    * Bilinear
+  * FPS
+    * 30 FPS
+      * If you are playing Kancolle, you don't need any more than 30; you can even lower this if your computer/internet is struggling.
+* Go to the ''Advance'' tab
+  * Video
+    * Encoding Profile
+      * Main
+    * Keyframe Interval
+      * 2
+* Go to the Audio tab
+  * Desktop Audio Device
+    *Should be what you want people to hear, for the most part it should be default unless you have your audio though a sound card.
+  * Microphone/Auxiliary Audio Device.
+    * This one you might have to play around as if you have a laptop that has a microphone in it, default might be the laptop microphone.
+
+<big>How to add Kancolle to the stream</big>
+* Right Click Sources
+
+  * Window Capture
+    * Name can be anything you want but I recommend naming it to Kancolle
+  * Window : Kancolle Viewer of your choice
+  * Sub-region : Check it
+  * Select Region
+    * Move it around to your liking you can have just the game or you can have everything including the bottom.
+
+Some people for some odd reason cannot use Window Capture as a source and will have to resort to monitor capture.
+
+  * Monitor Capture
+    *Kancolle needs to be on it's own monitor and maximized to make it consistent, as this will capture the monitor not the game/window itself. You move anything on top of it, it will show up on stream.
+  * Sub-region : Check it
+  * Select Region
+    * Move it around to your liking you can have just the game or you can have everything including the bottom.
+
+* After you add in Kancolle source
+  * Click on preview stream
+  * Click on the Kancolle source
+  * Click on edit scene, there should be a red box around Kancolle, at the bottom right you can change the size of the stream.
+    * Change it as big or as small as you want. I would recommend making it almost as big as the stream but not all the way.
+
+Congrats you should now have a working stream.
+
+Some people might have this problem when they start up a stream again after closing out of OBS the Kancolle source does not show up on the preview/stream. To re-enable it right click the Kancolle in the source list, go to properties, then go to ok. It should fix the problem.
+
+<big>Adding in other things</big>
+
+No one wants a boring looking stream so at least throw in something to make it more enjoyable to look at.
+
+* Source order
+
+This is important to understand if you are going to add other things. Under the source in the sources list you have things you have added in. Currently it should only be Kancolle. But it's a boring stream as it is now and adding in something as stated above would make things look better. Not knowing how to order things under sources will make it impossible to actually make it impossible to make things look the way you want. It's not a hard concept to understand, just know the source up top means it will be on top of everything. And the source on bottom would be behind everything. So if you want to have a background make sure that is the bottom source. The picture below is what it should look like if you did it right, in order, If you did not do it in the right order all you might see is the background.
+
+[[File:Correct Stream Order.png|thumbnail]]
+
+* Pictures
+  * Right click
+  * Add
+  * Image
+    * Name Image
+  * Click on image under the source list and change the order of where you want it to be
+  * Edit scene
+    * Change the size and move it to your liking.
+
+* Webcam
+  * Right click
+  * Add "Video Capture Device"
+  * Name it
+  * Device
+    * What ever your webcam is, then press ok
+  * Under sources click on the webcam then click "edit scene"
+    * Move it around and change the size to of your liking.
+
+* Music
+  * Just open up the music program of your choice
+  * On the OBS layout there should be 2 Icons with bars next to them one is microphone and the other is a speaker
+    * Moving the bars will change the volume of your microphone and the noise that is coming out of your speaker/headphone.
+    * Clicking on the microphone/speaker icon will gray it out and make the mute that source.
+
+FAQ
+* Why do you use window capture instead of game capture?
+  * Game capture just makes the actual Kancolle game just black.

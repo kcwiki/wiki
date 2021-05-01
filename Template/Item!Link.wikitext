@@ -1,0 +1,22 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Link|type=Item|asset={{#if: {{{asset|}}} | {{{asset}}} | {{#if: {{{Card|}}} | Card | Full }}}}|size={{{size|160x160px}}}|text={{{text|}}}|link={{{link|}}}|{{{1|}}}|{{{2|}}}}}</includeonly><noinclude>
+Links with item card tooltips.
+
+<br>Item Full assets are used by default. Card/Icon can be used with Card=(Boolean) or asset=(Card/Icon).
+<br>Supports just 2 assets till someone re-adds the code below or allows for this and equipmentlink to have multiple image rows/columns.
+<pre>|{{{3|}}}|{{{4|}}}|{{{5|}}}</pre>
+
+
+<pre>{{Item/Link|Remodel Blueprint}}</pre>
+{{Item/Link|Remodel Blueprint}}
+
+<pre>{{Item/Link|Remodel Blueprint|link=Medal}}</pre>
+{{Item/Link|Remodel Blueprint|link=Medal}}
+
+<pre>{{Item/Link|Food Supply Ship Irako|text=Irako}}</pre>
+{{Item/Link|Food Supply Ship Irako|text=Irako}}
+
+<pre>{{Item/Link|Medal|Card=true}}</pre>
+{{Item/Link|Medal|Card=true}}
+
+<pre>{{Item/Link|Development Material|Improvement Material|text=Screws and Nails|asset=Icon|size=75px}}</pre>
+{{Item/Link|Development Material|Improvement Material|text=Screws and Nails|asset=Icon|size=75px}}

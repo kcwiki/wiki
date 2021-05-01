@@ -1,0 +1,244 @@
+<includeonly>{| class="wikitable"
+{{!}}-
+! colspan="7" align="center" {{!}}{{{TitleIcons|}}}{{{Title}}} - Suggested Recipes
+{{!}}-
+! colspan="4" align="center" {{!}}Resource Input
+! rowspan="2" align="center" style="width:100px" {{!}}Secretary Ship Type
+! rowspan="2" align="center" style="width:300px" {{!}}Equipment
+! rowspan="2" align="center" style="width:300px" {{!}}Note
+{{!}}-
+! align="center" scope="col" style="width:32px" {{!}}{{Template:Fuel}}
+! align="center" scope="col" style="width:32px" {{!}}{{Template:Ammo}}
+! align="center" scope="col" style="width:32px" {{!}}{{Template:Steel}}
+! align="center" scope="col" style="width:32px" {{!}}{{Template:Bauxite}}
+{{!}}-
+! colspan="7" align="center"  {{!}} {{{Category1}}}
+{{!}}-
+{{!}} align="center" rowspan="{{#if:{{{Category2|}}}|1|{{#ifeq:{{{R1Fuel|}}}|{{{R2Fuel|}}}|{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Fuel|}}}|{{{R3Fuel|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Fuel|}}}|{{{R4Fuel|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Fuel|}}}|{{{R5Fuel|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Fuel|}}}|{{{R6Fuel|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Fuel|}}}|{{{R7Fuel|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Fuel|}}}|{{{R8Fuel|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Fuel|}}}|{{{R9Fuel|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Fuel|}}}|{{{R10Fuel|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}}|1}}}}" {{!}} {{{R1Fuel}}}
+{{!}} align="center" rowspan="{{#if:{{{Category2|}}}|1|{{#ifeq:{{{R1Ammo|}}}|{{{R2Ammo|}}}|{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Ammo|}}}|{{{R3Ammo|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Ammo|}}}|{{{R4Ammo|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Ammo|}}}|{{{R5Ammo|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Ammo|}}}|{{{R6Ammo|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Ammo|}}}|{{{R7Ammo|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Ammo|}}}|{{{R8Ammo|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Ammo|}}}|{{{R9Ammo|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Ammo|}}}|{{{R10Ammo|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}}|1}}}}" {{!}} {{{R1Ammo}}}
+{{!}} align="center" rowspan="{{#if:{{{Category2|}}}|1|{{#ifeq:{{{R1Steel|}}}|{{{R2Steel|}}}|{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Steel|}}}|{{{R3Steel|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Steel|}}}|{{{R4Steel|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Steel|}}}|{{{R5Steel|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Steel|}}}|{{{R6Steel|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Steel|}}}|{{{R7Steel|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Steel|}}}|{{{R8Steel|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Steel|}}}|{{{R9Steel|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Steel|}}}|{{{R10Steel|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}}|1}}}}" {{!}} {{{R1Steel}}}
+{{!}} align="center" rowspan="{{#if:{{{Category2|}}}|1|{{#ifeq:{{{R1Bauxite|}}}|{{{R2Bauxite|}}}|{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Bauxite|}}}|{{{R3Bauxite|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Bauxite|}}}|{{{R4Bauxite|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Bauxite|}}}|{{{R5Bauxite|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Bauxite|}}}|{{{R6Bauxite|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Bauxite|}}}|{{{R7Bauxite|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Bauxite|}}}|{{{R8Bauxite|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Bauxite|}}}|{{{R9Bauxite|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Bauxite|}}}|{{{R10Bauxite|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}}|1}}}}" {{!}} {{{R1Bauxite}}}
+! align="center" style="background-color:#EEFFCC;" rowspan="{{#if:{{{Category2|}}}|1|{{#ifeq:{{{R1Secretary|}}}|{{{R2Secretary|}}}|{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Secretary|}}}|{{{R3Secretary|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Secretary|}}}|{{{R4Secretary|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Secretary|}}}|{{{R5Secretary|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Secretary|}}}|{{{R6Secretary|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Secretary|}}}|{{{R7Secretary|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Secretary|}}}|{{{R8Secretary|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Secretary|}}}|{{{R9Secretary|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Secretary|}}}|{{{R10Secretary|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}}|1}}}}" {{!}} {{{R1Secretary}}}
+{{!}} {{{R1Results}}}
+{{!}} {{{R1Notes}}}
+{{!}}-
+{{#if:{{{Category2|}}}{{{R2Fuel|}}}{{{R2Ammo|}}}{{{R2Steel|}}}{{{R2Bauxite|}}}| }}<!--move later-->{{#if:{{{Category2|}}}
+! colspan="7" align="center"  {{!}} {{{Category2}}}}}
+{{#if:{{{Category2|}}}{{#ifeq:{{{R1Fuel|}}}|{{{R2Fuel|}}}||a}}|{{!}} align="center" rowspan="{{#expr: -1+{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Fuel|}}}|{{{R3Fuel|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Fuel|}}}|{{{R4Fuel|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Fuel|}}}|{{{R5Fuel|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Fuel|}}}|{{{R6Fuel|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Fuel|}}}|{{{R7Fuel|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Fuel|}}}|{{{R8Fuel|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Fuel|}}}|{{{R9Fuel|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Fuel|}}}|{{{R10Fuel|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}} }}" {{!}} {{{R2Fuel}}} }}
+{{#if:{{{Category2|}}}{{#ifeq:{{{R1Ammo|}}}|{{{R2Ammo|}}}||a}}|{{!}} align="center" rowspan="{{#expr: -1+{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Ammo|}}}|{{{R3Ammo|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Ammo|}}}|{{{R4Ammo|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Ammo|}}}|{{{R5Ammo|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Ammo|}}}|{{{R6Ammo|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Ammo|}}}|{{{R7Ammo|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Ammo|}}}|{{{R8Ammo|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Ammo|}}}|{{{R9Ammo|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Ammo|}}}|{{{R10Ammo|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}} }}" {{!}} {{{R2Ammo}}} }}
+{{#if:{{{Category2|}}}{{#ifeq:{{{R1Steel|}}}|{{{R2Steel|}}}||a}}|{{!}} align="center" rowspan="{{#expr: -1+{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Steel|}}}|{{{R3Steel|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Steel|}}}|{{{R4Steel|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Steel|}}}|{{{R5Steel|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Steel|}}}|{{{R6Steel|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Steel|}}}|{{{R7Steel|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Steel|}}}|{{{R8Steel|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Steel|}}}|{{{R9Steel|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Steel|}}}|{{{R10Steel|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}} }}" {{!}} {{{R2Steel}}} }}
+{{#if:{{{Category2|}}}{{#ifeq:{{{R1Bauxite|}}}|{{{R2Bauxite|}}}||a}}|{{!}} align="center" rowspan="{{#expr: -1+{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Bauxite|}}}|{{{R3Bauxite|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Bauxite|}}}|{{{R4Bauxite|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Bauxite|}}}|{{{R5Bauxite|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Bauxite|}}}|{{{R6Bauxite|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Bauxite|}}}|{{{R7Bauxite|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Bauxite|}}}|{{{R8Bauxite|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Bauxite|}}}|{{{R9Bauxite|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Bauxite|}}}|{{{R10Bauxite|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}} }}" {{!}} {{{R2Bauxite}}} }}
+{{#if:{{{Category2|}}}{{#ifeq:{{{R1Secretary|}}}|{{{R2Secretary|}}}||a}}|{{!}} ! align="center" style="background-color:#EEFFCC;" rowspan="{{#expr: -1+{{#if:{{{Category3|}}}|2|{{#ifeq:{{{R2Secretary|}}}|{{{R3Secretary|}}}|{{#if:{{{Category4|}}}|3|{{#ifeq:{{{R3Secretary|}}}|{{{R4Secretary|}}}|{{#if:{{{Category5|}}}|4|{{#ifeq:{{{R4Secretary|}}}|{{{R5Secretary|}}}|{{#if:{{{Category6|}}}|5|{{#ifeq:{{{R5Secretary|}}}|{{{R6Secretary|}}}|{{#if:{{{Category7|}}}|6|{{#ifeq:{{{R6Secretary|}}}|{{{R7Secretary|}}}|{{#if:{{{Category8|}}}|7|{{#ifeq:{{{R7Secretary|}}}|{{{R8Secretary|}}}|{{#if:{{{Category9|}}}|8|{{#ifeq:{{{R8Secretary|}}}|{{{R9Secretary|}}}|{{#if:{{{Category10|}}}|9|{{#ifeq:{{{R9Secretary|}}}|{{{R10Secretary|}}}|10|9}}}}|8}}}}|7}}}}|6}}}}|5}}}}|4}}}}|3}}}}|2}}}} }}" {{!}} {{{R2Secretary}}} }}
+{{!}} {{{R2Results}}}
+{{!}} {{{R2Notes}}}
+{{!}}-
+{{!}}}</includeonly><noinclude>
+
+<!--
+{{#ifeq:{{{R1Bauxite|}}}|{{{R2Bauxite|}}}|{{if:{{{Category2|}}}|full|empty}}|full}}   
+
+
+{{#if:{{{Category2|}}}{{#ifeq:{{{R1Bauxite|}}}|{{{R2Bauxite|}}}||a}}|true}}
+
+
+Could alternatively spam #var, then do calculations on/with them
+-->
+
+{{:User:Chocolatecravinghobo/Sandbox/4
+|TitleIcons={{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+|Title=Aircraft Development
+
+|Category1= Naval Aircraft
+
+|R1Fuel= 10
+|R1Ammo= 20
+|R1Steel= '''30'''
+|R1Bauxite= 40
+|R1Secretary= Aviation
+|R1Results= 16% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}<br>4% {{Equipment/Link|Ryuusei}}<br>2% {{Equipment/Link|Ryuusei Kai}}
+|R1Notes= '''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}'''
+
+|Category2= 
+
+|R2Fuel= 10
+|R2Ammo= 20
+|R2Steel= '''30'''
+|R2Bauxite= 50
+|R2Secretary= Aviation
+|R2Results= +<br>4% {{Equipment/Link|Saiun}}
+|R2Notes= '''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}} & {{Template:YellowPlane}}'''{{Equipment/Link|Saiun}}
+
+|Category3= 
+
+|R3Fuel= 30
+|R3Ammo= 30
+|R3Steel= 30
+|R3Bauxite= '''130'''
+|R3Secretary= Aviation
+|R3Results= +<br>2% {{Equipment/Link|Type 2 Reconnaissance Aircraft}}
+|R3Notes= All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+}}
+
+==Page Content==
+{{CollapsibleToggle}}
+<br>Can probably remove "Secretary Ship Type" categories if they can't build it at all.
+<br>Can turn this table into a template
+==Development Table==
+Moved out of sandbox to these two pages
+<br>[[Development/Equipment_Rates]]
+<br>[[Template:DevelopmentByEquipment]]
+
+==Suggested Recipes==
+
+LOTS OF TEXT
+
+===Naval Aircraft===
+{| class="wikitable"
+|-
+! colspan="7" align="center" |{{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}Aircraft Development - Suggested Recipes
+|-
+! colspan="4" align="center" |Resource Input
+! rowspan="2" align="center" style="width:100px" |Secretary Ship Type
+! rowspan="2" align="center" style="width:300px" |Equipment
+! rowspan="2" align="center" style="width:300px" |Note
+|-
+! align="center" scope="col" style="width:32px" |{{Template:Fuel}}
+! align="center" scope="col" style="width:32px" |{{Template:Ammo}}
+! align="center" scope="col" style="width:32px" |{{Template:Steel}}
+! align="center" scope="col" style="width:32px" |{{Template:Bauxite}}
+|-
+! colspan="7" align="center"  |Naval Aircraft
+|-
+| rowspan="2" align="center" |20
+| rowspan="3" align="center" |60
+| rowspan="3" align="center" |10
+| align="center" |'''100'''
+! rowspan="3" style="background-color:#EEFFCC;" align="center" | Aviation
+| 16% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}<br>4% {{Equipment/Link|Ryuusei}}<br>2% {{Equipment/Link|Ryuusei Kai}}
+|'''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}'''
+|-
+| align="center" |'''110'''
+| +<br>4% {{Equipment/Link|Saiun}}
+|'''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}} & {{Template:YellowPlane}}'''{{Equipment/Link|Saiun}}
+|-
+| align="center" |30
+| align="center" |'''130'''
+| +<br>2% {{Equipment/Link|Type 2 Reconnaissance Aircraft}}
+|All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+|-
+! colspan="7" align="center" |<!-- Mini gap Mini gap Mini gap Mini gap Mini gap Mini gap Mini gap -->
+|-
+| align="center" |20
+| align="center" |90
+| align="center" |60
+| align="center" |'''100'''
+! style="background-color:#EEFFCC;" align="center" | Aviation
+| 10% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}<br>4% {{Equipment/Link|Ryuusei}}<br>2% {{Equipment/Link|Ryuusei Kai}}<br>'''6% {{Equipment/Link|Type 3 Shell}}'''
+|Chance for {{Template:GreenAmmo}}{{Equipment/Link|Type 3 Shell}}
+|-
+! colspan="7" align="center" |<!-- Mini gap Mini gap Mini gap Mini gap Mini gap Mini gap Mini gap -->
+|-
+| align="center" |20
+| align="center" |30
+| align="center" |10
+| align="center" |'''90'''
+! style="background-color:#EEFFCC;" align="center" | Aviation
+| 32% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}
+|Focus on {{Template:RedPlane}}&{{Template:GreenPlane}}
+|-
+| align="center" |20
+| align="center" |30
+| align="center" |10
+| align="center" |'''40'''
+! style="background-color:#EEFFCC;" align="center" | Aviation
+| 42% Penguin<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}
+|Focus on {{Template:RedPlane}}
+|-
+| align="center" |20
+| align="center" |20
+| align="center" |10
+| align="center" |'''90'''
+! style="background-color:#EEFFCC;" align="center" | Aviation
+| 48% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}
+|Focus on {{Template:GreenPlane}}
+|-
+! colspan="7" align="center" |<!-- Mini gap Mini gap Mini gap Mini gap Mini gap Mini gap Mini gap -->
+|-
+| align="center" |10
+| rowspan="2" align="center" |10
+| align="center" |'''20'''
+| rowspan="2" align="center" |20
+! rowspan="2" style="background-color:#EEFFCC;" align="center" | Aviation
+| rowspan="2" | 58/60% Penguin<br>2% {{Equipment/Link|Type 0 Observation Seaplane}}
+| rowspan="2" | (Fuel/Steel wins in max resource ties,<br> therefore not needing 21 of either)
+|-
+| align="center" |'''20'''
+| align="center" |10
+|-
+! colspan="7" align="center" |<br>{{Template:Land-based Attack Aircraft}}Land-based Attack Aircraft<br><br>
+|-
+| rowspan="2" align="center" |240
+| rowspan="2" align="center" |260
+| align="center" |10
+| rowspan="2" align="center" |'''261'''
+! rowspan="2" style="background-color:#EEFFCC;" align="center" | Aviation
+| 10% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}<br>4% {{Equipment/Link|Ryuusei}}<br>2% {{Equipment/Link|Ryuusei Kai}}<br>'''8% {{Equipment/Link|Type 96 Land-based Attack Aircraft}}'''
+|Recipe for all {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}} & <br>'''{{Template:Land-based Attack Aircraft}} {{Equipment/Link|Type 96 Land-based Attack Aircraft}}'''
+|-
+| align="center" |60
+| +<br>6% {{Equipment/Link|Type 3 Shell}}
+| +<br>Chance for {{Template:GreenAmmo}}{{Equipment/Link|Type 3 Shell}}
+|}
+
+
+===Turbine===
+{| class="wikitable"
+|-
+! colspan="7" align="center" |{{Turbine}}Engine Development - Suggested Recipes
+|-
+! colspan="4" align="center" |Resource Input
+! rowspan="2" align="center" style="width:100px" |Secretary Ship Type
+! rowspan="2" align="center" style="width:300px" |Equipment
+! rowspan="2" align="center" style="width:300px" |Note
+|-
+! align="center" scope="col" style="width:32px" |{{Template:Fuel}}
+! align="center" scope="col" style="width:32px" |{{Template:Ammo}}
+! align="center" scope="col" style="width:32px" |{{Template:Steel}}
+! align="center" scope="col" style="width:32px" |{{Template:Bauxite}}
+|-
+! colspan="7" align="center"  |Engine
+|-
+| rowspan="3" align="center" |100
+| rowspan="3" align="center" |10
+| rowspan="2" align="center" |'''200'''
+| rowspan="3" align="center" |10
+! style="background-color:#EEFFCC;" align="center" | Aviation
+|60% Penguin<br>
+6% {{Equipment/Link|Improved Kanhon Type Turbine}}<br>
+4% {{Equipment/Link|Enhanced Kanhon Type Boiler}}<br>
+8% {{Equipment/Link|10cm Twin High-angle Gun Mount|text=10cm High Angle Gun}}
+|{{Turbine}} Only
+|-
+! rowspan="2" style="background-color:#FFEEEE;" align="center" | Heavy
+| 62% Penguin<br>
+4% {{Equipment/Link|Improved Kanhon Type Turbine}}<br>
+2% {{Equipment/Link|Enhanced Kanhon Type Boiler}}<br>
+2% {{Equipment/Link|10cm Twin High-angle Gun Mount|text=10cm High Angle Gun}}<br>
+4% {{Equipment/Link|Anti-torpedo Bulge (Medium)}}
+|Lower rate of {{Turbine}}.<br>Chance for {{ArmorEquipment}}(Medium)<br>Generally not worth using over Aviation.
+|-
+| align="center" |'''300'''
+| +<br>2% {{Equipment/Link|Anti-torpedo Bulge (Large)}}
+|Chance for {{ArmorEquipment}}(Large)
+|-
+! colspan="7" align="center" |<!-- Mini gap Mini gap Mini gap Mini gap Mini gap Mini gap Mini gap -->
+|-
+| align="center" |100
+| align="center" |'''251'''
+| align="center" |250
+| align="center" |10
+! style="background-color:#FFEEEE;" align="center" | Heavy
+| 16% Penguin<br>
+4% {{Equipment/Link|Improved Kanhon Type Turbine}}<br>4% {{Equipment/Link|Enhanced Kanhon Type Boiler}}<br>4% {{Equipment/Link|46cm Triple Gun Mount}}<br>2% {{Equipment/Link|Type 91 Armor Piercing Shell}}
+| More expensive, but can yield<br>{{RedGunHeavy}}{{Equipment/Link|46cm Triple Gun Mount}}
+|}

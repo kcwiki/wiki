@@ -1,0 +1,42 @@
+==Usage==
+This template is used for Ship List, please refer code below for usage:
+
+<pre>{{ShipListTable/Header}}
+{{ShipListTable
+|no         =Library no
+|name       =Kanmusu name
+|class      =Kanmusu class
+|type       =Kanmusu type
+|firepower  =
+|torpedo    =
+|aa         =Anti-Air
+|asw        =Anti-Submarine Warfare
+|viewRange  =
+|luck       =
+|hp         =
+|armor      =
+|evasion    =
+|aircraft   =
+|speed      =Fast/Slow
+|range      =V. Long/Long/Medium/Short
+|build      =
+|supply     =
+|firepower2 =(Optional)
+|torpedo2   =(Optional)
+|aa2        =(Optional)
+|asw2       =(Optional)
+|viewRange2 =(Optional)
+|luck2      =(Optional)
+|hp2        =(Optional)
+|armor2     =(Optional)
+|evasion2   =(Optional)
+|aircraft2  =(Optional)
+|build2     =(Optional)
+|supply2    =(Optional)
+}}
+{{TableFooter|html}}</pre>
+
+Please note that those with "2" are used for Kanmusu with Kai only.<includeonly><!--Please insert category and Interwiki below this line.-->
+[[Category:Templates|{{PAGENAME}}]]
+[[zh:模板:舰娘列表]]</includeonly>
+<noinclude>[[Category:Template documentation]]</noinclude>

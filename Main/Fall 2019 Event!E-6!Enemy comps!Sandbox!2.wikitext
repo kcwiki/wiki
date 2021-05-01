@@ -1,0 +1,1259 @@
+<!-- 2 -->
+<tabber>Hard=
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = '''<span style="color:blue">Choose your route</span>'''
+|A-1_node_info = '''<span style="color:blue">Choose your route</span>'''
+|
+|B_label = 深海レーダー射撃 重巡戦隊 <br>'''<span style="color:orange">Ambush Node</span>'''<br> Abyssal Radar Fire <br> Heavy Cruiser Fleet
+|B-1_node_info = ca_ne-class_elite ca_ne-class_elite ca_ne-class_elite dd_ni-class_kai_late_model_elite dd_ni-class_kai_late_model dd_ni-class_kai_late_model
+|B-1_form = 
+|B-1_xp = 220
+|B-1_enemy_air_power = 
+|B-2_node_info =  ca_ne-class_elite ca_ne-class_elite dd_ni-class_kai_late_model dd_ni-class_kai_late_model dd_ni-class_kai dd_ni-class_kai
+|B-2_form = 
+|B-2_xp = 200
+|B-2_enemy_air_power =
+|
+|C_label = 深海潜水艦隊 増援阻止線<br> Abyssal Submarine Fleet <br> Reinforcement Prevention Line
+|C-1_node_info = new_submarine_princess_c ss_so-class ss_so-class ss_yo-class_elite
+|C-1_form = echelon
+|C-1_xp = 220
+|C-1_enemy_air_power =
+|C-2_node_info = new_submarine_princess_c ss_so-class ss_so-class 
+|C-2_form = echelon
+|C-2_xp = 200
+|C-2_enemy_air_power =
+|C-3_node_info = new_submarine_princess_c ss_so-class_elite ss_so-class_elite ss_so-class_elite
+|C-3_form = echelon
+|C-3_xp = 230
+|C-3_enemy_air_power =
+|C-4_node_info = new_submarine_princess_c ss_so-class_elite ss_so-class_elite 
+|C-4_form = echelon
+|C-4_xp = 220
+|C-4_enemy_air_power =
+|
+|D_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''<br>Lycoris Air Base <br> Air Attack
+|D-1_node_info = lycoris_princess airfield_princess airfield_princess
+|D-1_form = diamond
+|D-1_xp = 140
+|D-1_enemy_air_power = 198
+|D-2_node_info = lycoris_princess airfield_princess 
+|D-2_form = diamond
+|D-2_xp = 130
+|D-2_enemy_air_power = 164
+|D-3_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess
+|D-3_form = diamond
+|D-3_xp = 170
+|D-3_enemy_air_power = 259
+|D-4_node_info = lycoris_princess airfield_princess airfield_princess
+|D-4_form = diamond
+|D-4_xp = 160
+|D-4_enemy_air_power = 225
+|D-5_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess
+|D-5_form = diamond
+|D-5_xp = 180
+|D-5_enemy_air_power = 287
+|
+|E_label = 深海巡洋艦部隊 前衛警戒隊<br> Abyssal Cruiser Vanguard Fleet <br> Vanguard Squadron
+|E-1_node_info = cl_he-class_flagship cl_ho-class_flagship cl_tsu-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|E-1_form = line_ahead double_line echelon
+|E-1_xp =
+|E-1_enemy_air_power =
+|
+|F_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''<br>Lycoris Air Base <br> Air Attack
+|F-1_node_info = lycoris_princess airfield_princess 
+|F-1_form = diamond
+|F-1_xp = 140
+|F-1_enemy_air_power = 164
+|F-2_node_info = lycoris_princess airfield_princess airfield_princess
+|F-2_form = diamond
+|F-2_xp = 160
+|F-2_enemy_air_power = 225
+|F-3_node_info = lycoris_princess airfield_princess
+|F-3_form = diamond
+|F-3_xp = 150
+|F-3_enemy_air_power = 191
+|F-4_node_info = lycoris_princess airfield_princess airfield_princess
+|F-4_form = diamond
+|F-4_xp = 170
+|F-4_enemy_air_power = 253
+|F-5_node_info = lycoris_princess 
+|F-5_form = diamond
+|F-5_xp = 130
+|F-5_enemy_air_power = 157
+|
+|G_label = '''<span style="color:blue">Choose your route</span>'''
+|G-1_node_info = '''<span style="color:blue">Choose your route</span>'''
+|
+|H_label = '''<span style="color:purple">Maelstrom Node</span>'''
+|H-1_node_info = fuel - ?
+|
+|I_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''<br>Lycoris Air Base <br> Air Attack
+|I-1_node_info = lycoris_princess airfield_princess airfield_princess 
+|I-1_form = diamond
+|I-1_xp = 160
+|I-1_enemy_air_power = 198
+|I-2_node_info = lycoris_princess airfield_princess
+|I-2_form = diamond
+|I-2_xp = 140
+|I-2_enemy_air_power = 164
+|I-3_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess 
+|I-3_form = diamond
+|I-3_xp = 200
+|I-3_enemy_air_power = 259
+|I-4_node_info = lycoris_princess airfield_princess airfield_princess
+|I-4_form = diamond
+|I-4_xp = 180
+|I-4_enemy_air_power = 225
+|I-5_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess 
+|I-5_form = diamond
+|I-5_xp = 220
+|I-5_enemy_air_power = 273
+|
+|J_label = 深海ソロモン艦隊 前衛集団'''<br> Abyssal Solomon Fleet <br> Vanguard Group
+|J-1_node_info = ca_ri-class_flagship ca_ne-class_elite ca_ne-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|J-1_form = line_ahead double_line
+|J-1_xp = 200
+|J-1_enemy_air_power =
+|J-2_node_info = cvl_nu-class_flagship ca_ne-class_elite ca_ne-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|J-2_form = diamond
+|J-2_xp = 220
+|J-2_enemy_air_power =
+|
+|K_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''<br>Lycoris Air Base <br> Air Attack
+|K-1_node_info = lycoris_princess airfield_princess airfield_princess 
+|K-1_form = diamond
+|K-1_xp = 180
+|K-1_enemy_air_power = 198
+|K-2_node_info = lycoris_princess airfield_princess
+|K-2_form = diamond
+|K-2_xp = 140
+|K-2_enemy_air_power = 164
+|K-3_node_info = lycoris_princess
+|K-3_form = diamond
+|K-3_xp = 120
+|K-3_enemy_air_power = 130
+|K-4_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess 
+|K-4_form = diamond
+|K-4_xp = 200
+|K-4_enemy_air_power = 259
+|K-5_node_info = lycoris_princess airfield_princess airfield_princess
+|K-5_form = diamond
+|K-5_xp = 180
+|K-5_enemy_air_power = 225
+|K-6_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess
+|K-6_form = diamond
+|K-6_xp = 220
+|K-6_enemy_air_power = 273
+|
+|L_label = 深海ソロモン艦隊 重巡戦隊 前衛<br> Abyssal Solomon Fleet <br> Heavy Cruiser Vanguard Fleet
+|L-1_node_info =  ca_ri-class_flagship_kai ca_ri-class_flagship ca_ri-class_flagship cl_tsu-class dd_ro-class_late_model
+ dd_ro-class_late_model
+|L-1_form = line_ahead double_line echelon
+|L-1_xp =
+|L-1_enemy_air_power =
+|
+|M_label = '''<span style="color:blue">Battle Avoided</span>'''
+|M-1_node_info = '''<span style="color:blue">"Must be my imagination" (battle avoided)</span>'''
+|
+|N_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''<br>Lycoris Air Base <br> Air Attack
+|N-1_node_info = lycoris_princess airfield_princess airfield_princess 
+|N-1_form = diamond
+|N-1_xp = 140
+|N-1_enemy_air_power = 198
+|N-2_node_info = lycoris_princess airfield_princess
+|N-2_form = diamond
+|N-2_xp = 130
+|N-2_enemy_air_power = 164
+|N-3_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess 
+|N-3_form = diamond
+|N-3_xp = 170
+|N-3_enemy_air_power = 259
+|N-4_node_info = lycoris_princess airfield_princess airfield_princess
+|N-4_form = diamond
+|N-4_xp = 160
+|N-4_enemy_air_power = 225
+|N-5_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess 
+|N-5_form = diamond
+|N-5_xp = 180
+|N-5_enemy_air_power = 287
+|
+|O_label = 深海ブイン攻略部隊 火力支援群 <br> Abyssal Buin Landing Force <br> Support Group
+|O-1_node_info = battleship_princess battleship_princess cl_tsu-class_elite dd_ro-class_late_model dd_ni-class_kai_late_model_elite dd_ni-class_kai_late_model 
+|O-1_form = line_ahead double_line daimond
+|O-1_xp = 340
+|O-1_enemy_air_power =
+|
+|P_label = '''<span style="color:green">Transport Drop-Off Node</span>'''
+|P-1_node_info = 
+|
+|Q_label = 深海ソロモン配備 魚雷艇教導団<br> Abyssal Solomon Delpoyment<br> Torpedo Boat Operation Unit
+|Q-1_node_info = cl_tsu-class_elite dd_ni-class_kai_late_model dd_ni-class_kai_late_model pt_imp pt_imp pt_imp
+|Q-1_form = echelon
+|Q-1_xp =220
+|Q-1_enemy_air_power =
+|Q-2_node_info = dd_ni-class_kai_late_model dd_ni-class_kai_late_model pt_imp pt_imp pt_imp pt_imp
+|Q-2_form = echelon
+|Q-2_xp = 200
+|Q-2_enemy_air_power =
+|Q-3_node_info = dd_ni-class_kai_late_model dd_ni-class_kai_late_model dd_ni-class_kai_late_model pt_imp pt_imp pt_imp
+|Q-3_form = echelon
+|Q-3_xp = 210
+|Q-3_enemy_air_power =
+|
+|R_label = 深海レーダー射撃 戦艦戦隊 <br>'''<span style="color:orange">Ambush Node</span>'''<br> Abyssal Radar Fire <br> Battleship Squadon
+|R-1_node_info = bb_ta-class_flagship bb_ta-class_flagship dd_ni-class_kai_late_model_flaghip dd_ni-class_kai_late_model_flaghip dd_ni-class_kai dd_ni-class_kai
+|R-1_form = 
+|R-1_xp = 220
+|R-1_enemy_air_power = 
+|
+|S_label = 深海ブイン攻略部隊 支援艦隊<br> Abyssal Buin Capture Unit <br> Support Fleet
+|S-1_node_info = southern_war_princess cl_tsu-class_elite cl_tsu-class_elite dd_na-class_late_model_elite dd_na-class_late_model_elite dd_na-class_late_model_elite
+|S-1_form = line_ahead
+|S-1_xp = 590
+|S-1_enemy_air_power = 47
+|S-2_node_info = southern_war_princess cl_tsu-class_elite cl_tsu-class_elite dd_ni-class_kai_late_model_elite dd_na-class_late_model_elite dd_na-class_late_model_elite
+|S-2_form = line_ahead
+|S-2_xp = 580
+|S-2_enemy_air_power = 47
+|S-3_node_info = southern_war_princess cl_tsu-class_elite cl_tsu-class_elite dd_ni-class_kai_late_model_elite dd_ni-class_kai_late_model_elite dd_na-class_late_model_elite
+|S-3_form = line_ahead
+|S-3_xp = 570
+|S-3_enemy_air_power = 47
+|
+|T_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''<br>Lycoris Air Base <br> Air Attack
+|T-1_node_info = lycoris_princess airfield_princess airfield_princess 
+|T-1_form = diamond
+|T-1_xp = 180
+|T-1_enemy_air_power = 198
+|T-2_node_info = lycoris_princess airfield_princess
+|T-2_form = diamond
+|T-2_xp = 140
+|T-2_enemy_air_power = 164
+|T-3_node_info = lycoris_princess
+|T-3_form = diamond
+|T-3_xp = 120
+|T-3_enemy_air_power = 130
+|T-4_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess 
+|T-4_form = diamond
+|T-4_xp = 200
+|T-4_enemy_air_power = 259
+|T-5_node_info = lycoris_princess airfield_princess airfield_princess
+|T-5_form = diamond
+|T-5_xp = 180
+|T-5_enemy_air_power = 225
+|T-6_node_info = lycoris_princess airfield_princess airfield_princess airfield_princess
+|T-6_form = diamond
+|T-6_xp = 220
+|T-6_enemy_air_power = 273
+|
+|U_label = 深海ソロモン派遣 空母任務部隊<br>'''<span style="color:green">Air Battle Node</span>'''<br> Abyssal Solomon Deployment <br> Carrier Task Force
+|U-1_node_info = cv_wo-class_flagship_kai cv_wo-class_flagship_kai bb_ta-class_flagship bb_ta-class_flagship cl_he-class_flagship cl_tsu-class_elite
+|U-1_form = diamond
+|U-1_xp = 150
+|U-1_enemy_air_power = 264
+|U-2_node_info = cv_wo-class_flagship_kai cvl_nu-class_flagship bb_ta-class_flagship bb_ta-class_flagship cl_he-class_flagship cl_tsu-class_elite
+|U-2_form = diamond
+|U-2_xp = 140
+|U-2_enemy_air_power = 164
+|U-3_node_info = cv_wo-class_flagship_kai cvl_nu-class_flagship cvl_nu-class_flagship bb_ta-class_flagship cl_he-class_flagship cl_tsu-class_elite
+|U-3_form = diamond
+|U-3_xp = 150
+|U-3_enemy_air_power = 346
+|
+|V_label = 深海任務部隊 上陸支援打撃群<br> Abyssal Task Force <br> Landing Support Fleet
+|V-1_node_info = bbv_re-class_elite bbv_re-class_elite ca_ne-class_elite cl_tsu-class_elite dd_ni-class_kai_late_model dd_ni-class_kai_late_model
+|V-1_form = line_ahead echelon
+|V-1_xp = 210
+|V-1_enemy_air_power = 214
+|V-2_node_info = bbv_re-class_elite bbv_re-class_elite ca_ne-class_elite cl_tsu-class_elite dd_ni-class_kai_late_model_elite dd_ni-class_kai_late_model_elite
+|V-2_form = line_ahead echelon
+|V-2_xp = 230
+|V-2_enemy_air_power = 214
+|
+|W_label = 深海ソロモン派遣 機動部隊群<br> Abyssal Solomon Deployment <br> Task Force Group
+|W-1_node_info = cv_wo-class_flagship_kai cv_wo-class_flagship_kai cvl_nu-class_flagship battleship_princess battleship_princess cl_tsu-class_elite
+|W-1_form = diamond
+|W-1_xp = 590
+|W-1_enemy_air_power = 414
+|W-2_node_info = cv_wo-class_flagship_kai cvl_nu-class_flagship cvl_nu-class_flagship battleship_princess  battleship_princess cl_tsu-class_elite
+|W-2_form = diamond
+|W-2_xp = 580
+|W-2_enemy_air_power = 432
+|W-3_node_info =cv_wo-class_flagship_kai cvl_nu-class_flagship cvl_nu-class_flagship cvl_nu-class_flagship battleship_princess cl_tsu-class_elite
+|W-3_form = diamond
+|W-3_xp = 570
+|W-3_enemy_air_power = 582
+|
+|Z_label = 深海ブイン攻略部隊 旗艦艦隊<br>'''<span style="color:red">Enemy Combined Fleet</span>'''<br> Abyssal Buin Capture Unit<br> Flagship Fleet
+|Z-1_node_info = abyssal_sun_princess battleship_princess battleship_princess cvl_nu-class_flagship cvl_nu-class_flagship transport_wa-class_flagship ca_ne-class_elite cl_tsu-class_elite cl_tsu-class_elite dd_na-class_late_model_elite dd_na-class_late_model_elite dd_na-class_late_model_elite
+|Z-1_form = cruising_form_4
+|Z-1_xp =
+|Z-1_enemy_air_power = 329
+|Z-2_node_info = abyssal_sun_princess_damaged aircraft_carrier_princess battleship_princess battleship_princess cvl_nu-class_flagship cvl_nu-class_flagship ca_ne-class_elite cl_tsu-class_elite cl_tsu-class_elite dd_na-class_late_model_flagship dd_na-class_late_model_flagship dd_na-class_late_model_flagship
+|Z-2_form = cruising_form_4
+|Z-2_xp =
+|Z-2_enemy_air_power = 458
+|
+|ZZ1_label = 深海ブイン旗艦艦隊 護衛潜水群<br> Abyssal Buin Flagship Fleet <br> Escort Submarine Fleet
+|ZZ1-1_node_info = new_submarine_princess_c ss_ka-class_flagship ss_ka-class_flagship ss_yo-class_elite
+|ZZ1-1_form = echelon
+|ZZ1-1_xp = 260
+|ZZ1-1_enemy_air_power =
+|ZZ1-2_node_info = new_submarine_princess_c ss_ka-class_flagship ss_ka-class_flagship
+|ZZ1-2_form = echelon
+|ZZ1-2_xp = 250
+|ZZ1-2_enemy_air_power =
+|ZZ1-3_node_info = new_submarine_princess_c ss_yo-class_flagship ss_ka-class_flagship ss_ka-class_flagship
+|ZZ1-3_form = echelon
+|ZZ1-3_xp = 270
+|ZZ1-3_enemy_air_power =
+|ZZ1-4_node_info = new_submarine_princess_c ss_yo-class_flagship ss_yo-class_flagship
+|ZZ1-4_form = echelon
+|ZZ1-4_xp = 260
+|ZZ1-4_enemy_air_power =
+|
+|final_form = Z2
+|boss_node = S Z
+}}
+|-|Medium=
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = '''<span style="color:blue">Choose your route</span>'''
+|A-1_node_info = '''<span style="color:blue">Choose your route</span>'''
+|
+|B_label = 深海レーダー射撃 重巡戦隊 <br>'''<span style="color:orange">Ambush Node</span>'''
+|B-1_node_info = ca_ne-class ca_ne-class ca_ne-class dd_ni-class_kai_late_model dd_ni-class_kai dd_ni-class_kai
+|B-1_form = 
+|B-1_xp = 190
+|B-1_enemy_air_power = 
+|B-2_node_info =  ca_ne-class ca_ne-class dd_ni-class_kai_late_model dd_ni-class_kai dd_ni-class_kai
+|B-2_form = 
+|B-2_xp = 180
+|B-2_enemy_air_power =
+|
+|C_label = 深海潜水艦隊 増援阻止線
+|C-1_node_info = new_submarine_princess_a ss_so-class ss_so-class
+|C-1_form = echelon
+|C-1_xp = 170
+|C-1_enemy_air_power =
+|C-2_node_info = new_submarine_princess_b ss_so-class ss_so-class ss_yo-class
+|C-2_form = echelon
+|C-2_xp = 180
+|C-2_enemy_air_power =
+|C-3_node_info = new_submarine_princess_b ss_so-class ss_so-class ss_so-class
+|C-3_form = echelon
+|C-3_xp = 190
+|C-3_enemy_air_power =
+|C-4_node_info = new_submarine_princess_c ss_so-class ss_so-class ss_yo-class_elite
+|C-4_form = echelon
+|C-4_xp = 220
+|C-4_enemy_air_power =
+|C-5_node_info = new_submarine_princess_c ss_so-class ss_so-class
+|C-5_form = echelon
+|C-5_xp = 200
+|C-5_enemy_air_power =
+|
+|D_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|D-1_node_info = airfield_princess airfield_princess airfield_princess
+|D-1_form = diamond
+|D-1_xp = 120
+|D-1_enemy_air_power = 102
+|D-2_node_info = airfield_princess airfield_princess 
+|D-2_form = diamond
+|D-2_xp = 100
+|D-2_enemy_air_power = 68
+|D-3_node_info = lycoris_princess airfield_princess airfield_princess
+|D-3_form = diamond
+|D-3_xp = 140
+|D-3_enemy_air_power = 198
+|D-4_node_info = lycoris_princess airfield_princess 
+|D-4_form = diamond
+|D-4_xp = 130
+|D-4_enemy_air_power = 164
+|D-5_node_info = lycoris_princess
+|D-5_form = diamond
+|D-5_xp = 90
+|D-5_enemy_air_power = 130
+|D-6_node_info = lycoris_princess airfield_princess airfield_princess 
+|D-6_form = diamond
+|D-6_xp = 160
+|D-6_enemy_air_power = 225
+|
+|E_label = 深海巡洋艦部隊 前衛警戒隊
+|E-1_node_info = cl_he-class_flagship cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class
+|E-1_form = line_ahead double_line echelon
+|E-1_xp =
+|E-1_enemy_air_power =
+|
+|F_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|F-1_node_info = airfield_princess 
+|F-1_form = diamond
+|F-1_xp = 100
+|F-1_enemy_air_power = 68
+|F-2_node_info = lycoris_princess airfield_princess 
+|F-2_form = diamond
+|F-2_xp = 140
+|F-2_enemy_air_power = 164
+|F-3_node_info = lycoris_princess 
+|F-3_form = diamond
+|F-3_xp = 120
+|F-3_enemy_air_power = 130
+|F-4_node_info = lycoris_princess airfield_princess
+|F-4_form = diamond
+|F-4_xp = 170
+|F-4_enemy_air_power = 191
+|F-5_node_info = lycoris_princess 
+|F-5_form = diamond
+|F-5_xp = 130
+|F-5_enemy_air_power = 157
+|
+|G_label = '''<span style="color:blue">Choose your route</span>'''
+|G-1_node_info = '''<span style="color:blue">Choose your route</span>'''
+|
+|H_label = '''<span style="color:purple">Maelstrom Node</span>'''
+|H-1_node_info = fuel - ?
+|
+|I_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|I-1_node_info = airfield_princess airfield_princess 
+|I-1_form = diamond
+|I-1_xp = 120
+|I-1_enemy_air_power = 68
+|I-2_node_info = lycoris_princess airfield_princess airfield_princess
+|I-2_form = diamond
+|I-2_xp = 160
+|I-2_enemy_air_power = 198
+|I-3_node_info = lycoris_princess airfield_princess
+|I-3_form = diamond
+|I-3_xp = 140
+|I-3_enemy_air_power = 164
+|I-4_node_info = lycoris_princess
+|I-4_form = diamond
+|I-4_xp = 120
+|I-4_enemy_air_power = 130
+|I-5_node_info = lycoris_princess airfield_princess airfield_princess
+|I-5_form = diamond
+|I-5_xp = 220
+|I-5_enemy_air_power = 225
+|
+|J_label = 深海ソロモン艦隊 前衛集団<br>'''
+|J-1_node_info = ca_ri-class_flagship ca_ne-class_elite cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class
+|J-1_form = line_ahead double_line
+|J-1_xp = 180
+|J-1_enemy_air_power =
+|J-2_node_info = cvl_nu-class_elite ca_ne-class_elite cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class
+|J-2_form = diamond
+|J-2_xp = 190
+|J-2_enemy_air_power =132
+|
+|K_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|K-1_node_info = lycoris_princess airfield_princess airfield_princess 
+|K-1_form = diamond
+|K-1_xp = 120
+|K-1_enemy_air_power = 68
+|K-2_node_info = airfield_princess airfield_princess
+|K-2_form = diamond
+|K-2_xp = 110
+|K-2_enemy_air_power = 48
+|K-3_node_info = lycoris_princess airfield_princess airfield_princess 
+|K-3_form = diamond
+|K-3_xp = 160
+|K-3_enemy_air_power = 198
+|K-4_node_info = lycoris_princess airfield_princess
+|K-4_form = diamond
+|K-4_xp = 140
+|K-4_enemy_air_power = 164
+|K-5_node_info = lycoris_princess
+|K-5_form = diamond
+|K-5_xp = 120
+|K-5_enemy_air_power = 130
+|K-6_node_info = lycoris_princess airfield_princess airfield_princess 
+|K-6_form = diamond
+|K-6_xp = 180
+|K-6_enemy_air_power = 225
+|
+|L_label = 深海ソロモン艦隊 重巡戦隊 前衛
+|L-1_node_info =  ca_ri-class_flagship ca_ri-class_flagship cl_tsu-class dd_ro-class_late_model
+ dd_ro-class_late_model dd_i-class
+|L-1_form = line_ahead double_line echelon
+|L-1_xp =
+|L-1_enemy_air_power =
+|
+|M_label = '''<span style="color:blue">Battle Avoided</span>'''
+|M-1_node_info = '''<span style="color:blue">"Must be my imagination" (battle avoided)</span>'''
+|
+|N_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|N-1_node_info = airfield_princess  airfield_princess airfield_princess 
+|N-1_form = diamond
+|N-1_xp = 140
+|N-1_enemy_air_power = 198
+|N-2_node_info = airfield_princess airfield_princess
+|N-2_form = diamond
+|N-2_xp = 100
+|N-2_enemy_air_power = 68
+|N-3_node_info = lycoris_princess airfield_princess airfield_princess 
+|N-3_form = diamond
+|N-3_xp = 140
+|N-3_enemy_air_power = 198
+|N-4_node_info = lycoris_princess airfield_princess
+|N-4_form = diamond
+|N-4_xp = 130
+|N-4_enemy_air_power = 225
+|N-5_node_info = lycoris_princess 
+|N-5_form = diamond
+|N-5_xp = 90
+|N-5_enemy_air_power = 287
+|N-6_node_info = lycoris_princess airfield_princess airfield_princess
+|N-6_form = diamond
+|N-6_xp = 160
+|N-6_enemy_air_power = 225
+|
+|O_label = 深海ブイン攻略部隊 火力支援群
+|O-1_node_info = battleship_princess battleship_princess cl_tsu-class dd_ni-class_late_model dd_ni-class_late_model dd_ni-class_kai dd_ni-class_kai
+|O-1_form = line_ahead double_line daimond
+|O-1_xp = 340
+|O-1_enemy_air_power =
+|
+|P_label = '''<span style="color:green">Transport Drop-Off Node</span>'''
+|P-1_node_info = 
+|
+|Q_label = 深海ソロモン配備 魚雷艇教導団
+|Q-1_node_info = cl_tsu-class dd_ni-class_kai_late_model dd_ni-class_kai_late_model pt_imp pt_imp pt_imp
+|Q-1_form = echelon
+|Q-1_xp = 190
+|Q-1_enemy_air_power =
+|Q-2_node_info = dd_ni-class_kai_late_model dd_ni-class_kai_late_model pt_imp pt_imp pt_imp pt_imp
+|Q-2_form = echelon
+|Q-2_xp = 170
+|Q-2_enemy_air_power =
+|Q-3_node_info = dd_ni-class_kai_late_model dd_ni-class_kai_late_model dd_ni-class_kai_late_model pt_imp pt_imp pt_imp
+|Q-3_form = echelon
+|Q-3_xp = 180
+|Q-3_enemy_air_power =
+|Q-4_node_info = dd_ni-class_kai_late_model_elite dd_ni-class_kai_late_model_elite pt_imp pt_imp pt_imp pt_imp
+|Q-4_form = echelon
+|Q-4_xp = 200
+|Q-4_enemy_air_power =
+|
+|R_label = 深海レーダー射撃 戦艦戦隊 <br>'''<span style="color:orange">Ambush Node</span>'''
+|R-1_node_info = bb_ta-class_elite bb_ta-class_elite dd_ni-class_kai_late_model_elite dd_ni-class_kai_late_model_elite dd_ni-class_kai dd_ni-class_kai
+|R-1_form = 
+|R-1_xp = 220
+|R-1_enemy_air_power = 
+|
+|S_label = 深海ブイン攻略部隊 支援艦隊
+|S-1_node_info = southern_war_princess cl_tsu-class cl_tsu-class dd_na-class_late_model_elite dd_na-class_late_model_elite dd_na-class_late_model_elite
+|S-1_form = line_ahead
+|S-1_xp = 520
+|S-1_enemy_air_power = 47
+|S-2_node_info = southern_war_princess cl_tsu-class cl_tsu-class dd_na-class_late_model dd_ni-class_kai dd_ni-class_kai
+|S-2_form = line_ahead
+|S-2_xp = 510
+|S-2_enemy_air_power = 47
+|S-3_node_info = southern_war_princess cl_tsu-class cl_tsu-class dd_ni-class_kai dd_ni-class_kai dd_ni-class_kai
+|S-3_form = line_ahead
+|S-3_xp = 500
+|S-3_enemy_air_power = 47
+|
+|T_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|T-1_node_info = airfield_princess airfield_princess 
+|T-1_form = diamond
+|T-1_xp = 120
+|T-1_enemy_air_power = 68
+|T-2_node_info = airfield_princess
+|T-2_form = diamond
+|T-2_xp = 110
+|T-2_enemy_air_power = 48
+|T-3_node_info = lycoris_princess airfield_princess airfield_princess
+|T-3_form = diamond
+|T-3_xp = 160
+|T-3_enemy_air_power = 198
+|T-4_node_info = lycoris_princess airfield_princess 
+|T-4_form = diamond
+|T-4_xp = 140
+|T-4_enemy_air_power = 164
+|T-5_node_info = lycoris_princess 
+|T-5_form = diamond
+|T-5_xp = 120
+|T-5_enemy_air_power = 130
+|T-6_node_info = lycoris_princess airfield_princess airfield_princess
+|T-6_form = diamond
+|T-6_xp = 180
+|T-6_enemy_air_power = 225
+|
+|U_label = 深海ソロモン派遣 空母任務部隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|U-1_node_info = cv_wo-class_flagship cv_wo-class_flagship bb_ta-class_elite bb_ta-class_elite cl_he-class_flagship cl_tsu-class
+|U-1_form = diamond
+|U-1_xp = 140
+|U-1_enemy_air_power = 206
+|U-2_node_info = cv_wo-class_flagship_kai cvl_nu-class_elite cvl_nu-class_elite bb_ta-class_flagship cl_he-class_flagship cl_tsu-class_elite
+|U-2_form = diamond
+|U-2_xp = 130
+|U-2_enemy_air_power = 241
+|U-3_node_info = cv_wo-class_flagship_kai cvl_nu-class_flagship bb_ta-class_flagship bb_ta-class_flagship cl_he-class_flagship cl_tsu-class
+|U-3_form = diamond
+|U-3_xp = 130
+|U-3_enemy_air_power = 180
+|
+|V_label = 深海任務部隊 上陸支援打撃群
+|V-1_node_info = bbv_re-class bbv_re-class ca_ne-class cl_tsu-class dd_ni-class_kai_late_model dd_ni-class_kai_late_model
+|V-1_form = line_ahead echelon
+|V-1_xp = 200
+|V-1_enemy_air_power = 214
+|V-2_node_info = bbv_re-class ca_ne-class cl_tsu-class dd_ni-class_kai_late_model dd_ni-class_kai dd_ni-class_kai
+|V-2_form = line_ahead echelon
+|V-2_xp = 190
+|V-2_enemy_air_power = 214
+|
+|W_label = 深海ソロモン派遣 機動部隊群
+|W-1_node_info = cv_wo-class_flagship cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite battleship_princess cl_tsu-class_elite
+|W-1_form = diamond
+|W-1_xp = 540
+|W-1_enemy_air_power = 470
+|W-2_node_info = cv_wo-class_flagship_kai cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite battleship_princess cl_tsu-class
+|W-2_form = diamond
+|W-2_xp = 520
+|W-2_enemy_air_power = 499
+|W-3_node_info =cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite ccvl_nu-class_elite battleship_princess cl_tsu-class
+|W-3_form = diamond
+|W-3_xp = 490
+|W-3_enemy_air_power = 402
+|
+|Z_label = 深海ブイン攻略部隊 旗艦艦隊<br>'''<span style="color:red">Enemy Combined Fleet</span>'''<br> Abyssal Buin Capture Unit<br> Flagship Fleet
+|Z-1_node_info = abyssal_sun_princess battleship_princess battleship_princess cvl_nu-class_elite cvl_nu-class_elite transport_wa-class_elite ca_ne-class cl_tsu-class cl_tsu-class dd_na-class dd_na-class dd_na-class
+|Z-1_form = cruising_form_4
+|Z-1_xp =
+|Z-1_enemy_air_power = 329
+|Z-2_node_info = abyssal_sun_princess_damaged aircraft_carrier_princess battleship_princess battleship_princess cvl_nu-class_elite cvl_nu-class_elite ca_ne-class_elite cl_tsu-class_elite cl_tsu-class_elite dd_na-class_late_model dd_na-class_late_model dd_na-class_late_model
+|Z-2_form = cruising_form_4
+|Z-2_xp =
+|Z-2_enemy_air_power = 458
+|
+|ZZ1_label = 深海ブイン旗艦艦隊 護衛潜水群
+|ZZ1-1_node_info = new_submarine_princess_a ss_yo-class_elite ss_yo-class_elite
+|ZZ1-1_form = echelon
+|ZZ1-1_xp = 260
+|ZZ1-1_enemy_air_power =
+|ZZ1-2_node_info = new_submarine_princess_b ss_ka-class_elite ss_ka-class_elite ss_yo-class
+|ZZ1-2_form = echelon
+|ZZ1-2_xp = 250
+|ZZ1-2_enemy_air_power =
+|ZZ1-3_node_info = new_submarine_princess_b ss_yo-class_flagship ss_ka-class_elite ss_ka-class_elite
+|ZZ1-3_form = echelon
+|ZZ1-3_xp = 270
+|ZZ1-3_enemy_air_power =
+|
+|final_form = Z2
+|boss_node = S Z
+}}
+|-|Easy=
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = '''<span style="color:blue">Choose your route</span>'''
+|A-1_node_info = '''<span style="color:blue">Choose your route</span>'''
+|
+|B_label = 深海レーダー射撃 重巡戦隊 <br>'''<span style="color:orange">Ambush Node</span>'''
+|B-1_node_info = ca_ne-class ca_ne-class dd_ni-class dd_ni-class
+|B-1_form = 
+|B-1_xp = 160
+|B-1_enemy_air_power = 
+|B-2_node_info =  ca_ne-class ca_ne-class dd_ni-class_late_model dd_ni-class dd_ni-class
+|B-2_form = 
+|B-2_xp = 180
+|B-2_enemy_air_power =
+|
+|C_label = 深海潜水艦隊 増援阻止線
+|C-1_node_info = new_submarine_princess_a ss_yo-class
+|C-1_form = echelon
+|C-1_xp = 150
+|C-1_enemy_air_power =
+|C-2_node_info = new_submarine_princess_a ss_so-class ss_so-class
+|C-2_form = echelon
+|C-2_xp = 170
+|C-2_enemy_air_power =
+|C-3_node_info = new_submarine_princess_a ss_so-class 
+|C-3_form = echelon
+|C-3_xp = 160
+|C-3_enemy_air_power =
+|C-4_node_info = new_submarine_princess_b ss_so-class ss_so-class ss_yo-class
+|C-4_form = echelon
+|C-4_xp = 180
+|C-4_enemy_air_power =
+|
+|D_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|D-1_node_info = airfield_princess airfield_princess airfield_princess
+|D-1_form = diamond
+|D-1_xp = 120
+|D-1_enemy_air_power = 102
+|D-2_node_info = airfield_princess airfield_princess 
+|D-2_form = diamond
+|D-2_xp = 100
+|D-2_enemy_air_power = 68
+|D-3_node_info = airfield_princess
+|D-3_form = diamond
+|D-3_xp = 80
+|D-3_enemy_air_power = 34
+|D-4_node_info = lycoris_princess airfield_princess airfield_princess 
+|D-4_form = diamond
+|D-4_xp = 140
+|D-4_enemy_air_power = 198
+|D-5_node_info = lycoris_princess airfield_princess 
+|D-5_form = diamond
+|D-5_xp = 130
+|D-5_enemy_air_power = 164
+|D-6_node_info = lycoris_princess
+|D-6_form = diamond
+|D-6_xp = 90
+|D-6_enemy_air_power = 130
+|
+|E_label = 深海巡洋艦部隊 前衛警戒隊
+|E-1_node_info = cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class dd_i-class
+|E-1_form = line_ahead double_line echelon
+|E-1_xp = 170
+|E-1_enemy_air_power =
+|E-2_node_info = cl_he-class_flagship cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class
+|E-2_form = line_ahead double_line echelon
+|E-2_xp = 190
+|E-2_enemy_air_power =
+|
+|F_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|F-1_node_info = airfield_princess 
+|F-1_form = diamond
+|F-1_xp = 80
+|F-1_enemy_air_power = 34
+|F-2_node_info = airfield_princess  
+|F-2_form = diamond
+|F-2_xp = 90
+|F-2_enemy_air_power = 48
+|F-3_node_info = airfield_princess 
+|F-3_form = diamond
+|F-3_xp = 100
+|F-3_enemy_air_power = 68
+|F-4_node_info = lycoris_princess 
+|F-4_form = diamond
+|F-4_xp = 120
+|F-4_enemy_air_power = 130
+|F-5_node_info = lycoris_princess 
+|F-5_form = diamond
+|F-5_xp = 130
+|F-5_enemy_air_power = 157
+|
+|G_label = '''<span style="color:blue">Choose your route</span>'''
+|G-1_node_info = '''<span style="color:blue">Choose your route</span>'''
+|
+|H_label = '''<span style="color:purple">Maelstrom Node</span>'''
+|H-1_node_info = fuel - ?
+|
+|I_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|I-1_node_info = airfield_princess airfield_princess 
+|I-1_form = diamond
+|I-1_xp = 120
+|I-1_enemy_air_power = 68
+|I-2_node_info = airfield_princess
+|I-2_form = diamond
+|I-2_xp = 100
+|I-2_enemy_air_power = 34
+|I-3_node_info = airfield_princess
+|I-3_form = diamond
+|I-3_xp = 140
+|I-3_enemy_air_power = 48
+|I-4_node_info = lycoris_princess airfield_princess
+|I-4_form = diamond
+|I-4_xp = 140
+|I-4_enemy_air_power = 164
+|I-5_node_info = lycoris_princess 
+|I-5_form = diamond
+|I-5_xp = 120
+|I-5_enemy_air_power = 130
+|
+|J_label = 深海ソロモン艦隊 前衛集団<br>'''
+|J-1_node_info = ca_ri-class_flagship ca_ri-class_elite cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class
+|J-1_form = line_ahead double_line
+|J-1_xp = 150
+|J-1_enemy_air_power =
+|J-2_node_info = cvl_nu-class_elite ca_ri-class_elite cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class
+|J-2_form = diamond
+|J-2_xp = 160
+|J-2_enemy_air_power =107
+|J-3_node_info = cvl_nu-class_elite ca_ne-class_elite cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class
+|J-3_form = diamond
+|J-3_xp = 190
+|J-3_enemy_air_power =132
+|
+|K_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|K-1_node_info = airfield_princess airfield_princess 
+|K-1_form = diamond
+|K-1_xp = 120
+|K-1_enemy_air_power = 68
+|K-2_node_info =  airfield_princess
+|K-2_form = diamond
+|K-2_xp = 100
+|K-2_enemy_air_power = 34
+|K-3_node_info =  airfield_princess 
+|K-3_form = diamond
+|K-3_xp = 110
+|K-3_enemy_air_power = 48
+|K-4_node_info = lycoris_princess airfield_princess
+|K-4_form = diamond
+|K-4_xp = 140
+|K-4_enemy_air_power = 164
+|K-5_node_info = lycoris_princess
+|K-5_form = diamond
+|K-5_xp = 120
+|K-5_enemy_air_power = 130
+|
+|L_label = 深海ソロモン艦隊 重巡戦隊 前衛
+|L-1_node_info =  ca_ri-class_flagship ca_ri-class_elite cl_tsu-class dd_ro-class_late_model
+ dd_i-class dd_i-class
+|L-1_form = line_ahead double_line echelon
+|L-1_xp = 190
+|L-1_enemy_air_power =
+|L-2_node_info =  ca_ri-class_flagship ca_ri-class_flagship cl_tsu-class dd_ro-class_late_model
+  dd_ro-class_late_model dd_i-class
+|L-2_form = double_line echelon
+|L-2_xp = 210
+|L-2_enemy_air_power =
+|
+|M_label = '''<span style="color:blue">Battle Avoided</span>'''
+|M-1_node_info = '''<span style="color:blue">"Must be my imagination" (battle avoided)</span>'''
+|
+|N_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|N-1_node_info = airfield_princess airfield_princess airfield_princess 
+|N-1_form = diamond
+|N-1_xp = 120
+|N-1_enemy_air_power = 102
+|N-2_node_info = airfield_princess airfield_princess
+|N-2_form = diamond
+|N-2_xp = 100
+|N-2_enemy_air_power = 68
+|N-3_node_info = airfield_princess 
+|N-3_form = diamond
+|N-3_xp = 80
+|N-3_enemy_air_power = 34
+|N-4_node_info = lycoris_princess airfield_princess airfield_princess 
+|N-4_form = diamond
+|N-4_xp = 140
+|N-4_enemy_air_power = 198
+|N-5_node_info = lycoris_princess airfield_princess 
+|N-5_form = diamond
+|N-5_xp = 130
+|N-5_enemy_air_power = 164
+|N-6_node_info = lycoris_princess 
+|N-6_form = diamond
+|N-6_xp = 90
+|N-6_enemy_air_power = 130
+|
+|O_label = 深海ブイン攻略部隊 火力支援群
+|O-1_node_info = battleship_princess battleship_princess cl_tsu-class dd_ni-class_late_model dd_ni-class dd_ni-class 
+|O-1_form =  double_line echelon
+|O-1_xp = 300
+|O-1_enemy_air_power =
+|O-2_node_info = battleship_princess dd_ni-class_late_model dd_ni-class dd_ni-class dd_i-class dd_i-class 
+|O-2_form = line_ahead double_line echelon
+|O-2_xp = 240
+|O-2_enemy_air_power =
+|
+|P_label = '''<span style="color:green">Transport Drop-Off Node</span>'''
+|P-1_node_info = 
+|
+|Q_label = 深海ソロモン配備 魚雷艇教導団
+|Q-1_node_info = cl_tsu-class dd_ni-class_late_model dd_ni-class_late_model pt_imp pt_imp pt_imp
+|Q-1_form = echelon
+|Q-1_xp = 160
+|Q-1_enemy_air_power =
+|Q-2_node_info = dd_ni-class_kai_late_model dd_ni-class_late_model pt_imp pt_imp pt_imp pt_imp
+|Q-2_form = echelon
+|Q-2_xp = 140
+|Q-2_enemy_air_power =
+|Q-3_node_info = dd_ni-class_late_model dd_ni-class dd_ni-class pt_imp pt_imp pt_imp
+|Q-3_form = echelon
+|Q-3_xp = 150
+|Q-3_enemy_air_power =
+|Q-4_node_info = dd_ni-class_late_model dd_ni-class_late_model pt_imp pt_imp pt_imp pt_imp
+|Q-4_form = echelon
+|Q-4_xp = 170
+|Q-4_enemy_air_power =
+|
+|R_label = 深海レーダー射撃 戦艦戦隊 <br>'''<span style="color:orange">Ambush Node</span>'''
+|R-1_node_info = bb_ta-class_elite dd_ni-class dd_ni-class  dd_i-class dd_i-class
+|R-1_form = 
+|R-1_xp = 180
+|R-1_enemy_air_power = 
+|
+|S_label = 深海ブイン攻略部隊 支援艦隊
+|S-1_node_info = southern_war_princess cl_tsu-class cl_tsu-class dd_ni-class dd_ni-class dd_ni-class
+|S-1_form = line_ahead
+|S-1_xp = 500
+|S-1_enemy_air_power = 47
+|S-2_node_info = southern_war_princess cl_tsu-class dd_na-class_late_model dd_na-class_late_model dd_ni-class dd_i-class
+|S-2_form = line_ahead
+|S-2_xp = 440
+|S-2_enemy_air_power = 47
+|S-3_node_info =  southern_war_princess cl_tsu-class dd_na-class_late_model dd_ni-class dd_ni-class dd_i-class
+|S-3_form = line_ahead
+|S-3_xp = 420
+|S-3_enemy_air_power = 47
+|S-4_node_info =  southern_war_princess cl_tsu-class dd_ni-class dd_ni-class dd_i-class dd_i-class
+|S-4_form = line_ahead
+|S-4_xp = 420
+|S-4_enemy_air_power = 47
+|
+|T_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|T-1_node_info = airfield_princess airfield_princess 
+|T-1_form = diamond
+|T-1_xp = 120
+|T-1_enemy_air_power = 68
+|T-2_node_info = airfield_princess
+|T-2_form = diamond
+|T-2_xp = 100
+|T-2_enemy_air_power = 34
+|T-3_node_info =  airfield_princess
+|T-3_form = diamond
+|T-3_xp = 110
+|T-3_enemy_air_power = 48
+|T-4_node_info = lycoris_princess airfield_princess 
+|T-4_form = diamond
+|T-4_xp = 140
+|T-4_enemy_air_power = 164
+|T-5_node_info = lycoris_princess 
+|T-5_form = diamond
+|T-5_xp = 120
+|T-5_enemy_air_power = 130
+|
+|U_label = 深海ソロモン派遣 空母任務部隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|U-1_node_info = cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite bb_ta-class bb_ta-class cl_tsu-class
+|U-1_form = diamond
+|U-1_xp = 120
+|U-1_enemy_air_power = 151
+|U-2_node_info = cv_wo-class_flagship cvl_nu-class_elite bb_ta-class_elite bb_ta-class cl_he-class_flagship cl_tsu-class_elite
+|U-2_form = diamond
+|U-2_xp = 110
+|U-2_enemy_air_power = 127
+|U-3_node_info = cv_wo-class_flagship cv_wo-class_elite bb_ta-class_elite bb_ta-class cl_he-class_flagship cl_tsu-class_elite
+|U-3_form = diamond
+|U-3_xp = 120
+|U-3_enemy_air_power = 130
+|U-4_node_info = cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite bb_ta-class_elite cl_he-class_flagship cl_tsu-class_elite
+|U-4_form = diamond
+|U-4_xp = 120
+|U-4_enemy_air_power = 241
+|
+|V_label = 深海任務部隊 上陸支援打撃群
+|V-1_node_info = bbv_re-class ca_ne-class cl_tsu-class dd_ni-class_late_model dd_ni-class dd_ni-class
+|V-1_form = line_ahead echelon
+|V-1_xp = 190
+|V-1_enemy_air_power = 94
+|V-2_node_info = bbv_re-class ca_ne-class dd_ni-class dd_ni-class dd_i-class dd_i-class
+|V-2_form = line_ahead echelon
+|V-2_xp = 170
+|V-2_enemy_air_power = 94
+|
+|W_label = 深海ソロモン派遣 機動部隊群
+|W-1_node_info = cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite battleship_princess cl_tsu-class_elite
+|W-1_form = diamond
+|W-1_xp = 470
+|W-1_enemy_air_power = 303
+|W-2_node_info = cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite battleship_princess cl_tsu-class
+|W-2_form = diamond
+|W-2_xp = 460
+|W-2_enemy_air_power = 258
+|W-3_node_info =cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite battleship_princess cl_tsu-class
+|W-3_form = diamond
+|W-3_xp = 490
+|W-3_enemy_air_power = 402
+|W-4_node_info =cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite battleship_princess cl_tsu-class
+|W-4_form = diamond
+|W-4_xp = 440
+|W-4_enemy_air_power = 224
+|
+|Z_label = 深海ブイン攻略部隊 旗艦艦隊<br>'''<span style="color:red">Enemy Combined Fleet</span>'''
+|Z-1_node_info = abyssal_sun_princess battleship_princess cvl_nu-class_elite cvl_nu-class_elite transport_wa-class_elite transport_wa-class_elite ca_ne-class cl_tsu-class dd_na-class dd_na-class dd_i-class dd_i-class
+|Z-1_form = cruising_form_4
+|Z-1_xp = 500
+|Z-1_enemy_air_power = 319
+|Z-2_node_info = abyssal_sun_princess_damaged battleship_princess battleship_princess cvl_nu-class_elite cvl_nu-class_elite  transport_wa-class_elite ca_ne-class cl_tsu-class dd_na-class dd_na-class dd_na-class dd_i-class
+|Z-2_form = cruising_form_4
+|Z-2_xp = 540
+|Z-2_enemy_air_power = 458
+|
+|ZZ1_label = 深海ブイン旗艦艦隊 護衛潜水群
+|ZZ1-1_node_info = new_submarine_princess_b ss_yo-class ss_yo-class
+|ZZ1-1_form = echelon
+|ZZ1-1_xp = 190
+|ZZ1-1_enemy_air_power =
+|ZZ1-2_node_info = new_submarine_princess_b ss_ka-class_elite ss_yo-class
+|ZZ1-2_form = echelon
+|ZZ1-2_xp = 200
+|ZZ1-2_enemy_air_power =
+|ZZ1-3_node_info = new_submarine_princess_b ss_yo-class_elite ss_yo-class_elite
+|ZZ1-3_form = echelon
+|ZZ1-3_xp = 210
+|ZZ1-3_enemy_air_power =
+|ZZ1-4_node_info = new_submarine_princess_a ss_ka-class_elite ss_ka-class_elite ss_yo-class
+|ZZ1-4_form = echelon
+|ZZ1-4_xp = 220
+|ZZ1-4_enemy_air_power =
+|
+|final_form = Z2
+|boss_node = S Z
+}}
+|-|Casual=
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = '''<span style="color:blue">Choose your route</span>'''
+|A-1_node_info = '''<span style="color:blue">Choose your route</span>'''
+|
+|B_label = 深海レーダー射撃 重巡戦隊 <br>'''<span style="color:orange">Ambush Node</span>'''
+|B-1_node_info = ca_ne-class ca_ne-class dd_ni-class dd_ni-class
+|B-1_form = 
+|B-1_xp = 160
+|B-1_enemy_air_power = 
+|B-2_node_info =  ca_ne-class ca_ne-class dd_ni-class_late_model dd_ni-class dd_ni-class
+|B-2_form = 
+|B-2_xp = 180
+|B-2_enemy_air_power =
+|
+|C_label = 深海潜水艦隊 増援阻止線
+|C-1_node_info = new_submarine_princess_a ss_yo-class
+|C-1_form = echelon
+|C-1_xp = 150
+|C-1_enemy_air_power =
+|C-2_node_info = new_submarine_princess_a ss_so-class ss_so-class
+|C-2_form = echelon
+|C-2_xp = 170
+|C-2_enemy_air_power =
+|C-3_node_info = new_submarine_princess_a ss_so-class 
+|C-3_form = echelon
+|C-3_xp = 160
+|C-3_enemy_air_power =
+|
+|D_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|D-1_node_info = airfield_princess airfield_princess airfield_princess
+|D-1_form = diamond
+|D-1_xp = 120
+|D-1_enemy_air_power = 102
+|D-2_node_info = airfield_princess airfield_princess 
+|D-2_form = diamond
+|D-2_xp = 100
+|D-2_enemy_air_power = 68
+|D-3_node_info = airfield_princess
+|D-3_form = diamond
+|D-3_xp = 80
+|D-3_enemy_air_power = 34
+|D-4_node_info = lycoris_princess
+|D-4_form = diamond
+|D-4_xp = 90
+|D-4_enemy_air_power = 130
+|
+|E_label = 深海巡洋艦部隊 前衛警戒隊
+|E-1_node_info = cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class dd_i-class
+|E-1_form = line_ahead double_line echelon
+|E-1_xp = 170
+|E-1_enemy_air_power =
+|
+|F_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|F-1_node_info = airfield_princess 
+|F-1_form = diamond
+|F-1_xp = 80
+|F-1_enemy_air_power = 34
+|F-2_node_info = airfield_princess  
+|F-2_form = diamond
+|F-2_xp = 90
+|F-2_enemy_air_power = 48
+|F-3_node_info = airfield_princess 
+|F-3_form = diamond
+|F-3_xp = 100
+|F-3_enemy_air_power = 68
+|
+|G_label = '''<span style="color:blue">Choose your route</span>'''
+|G-1_node_info = '''<span style="color:blue">Choose your route</span>'''
+|
+|H_label = '''<span style="color:purple">Maelstrom Node</span>'''
+|H-1_node_info = fuel - ?
+|
+|I_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|I-1_node_info = airfield_princess airfield_princess 
+|I-1_form = diamond
+|I-1_xp = 120
+|I-1_enemy_air_power = 68
+|I-2_node_info = airfield_princess
+|I-2_form = diamond
+|I-2_xp = 100
+|I-2_enemy_air_power = 34
+|I-3_node_info = airfield_princess
+|I-3_form = diamond
+|I-3_xp = 140
+|I-3_enemy_air_power = 48
+|
+|J_label = 深海ソロモン艦隊 前衛集団<br>'''
+|J-1_node_info = ca_ri-class_flagship ca_ri-class_elite cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class
+|J-1_form = line_ahead double_line
+|J-1_xp = 150
+|J-1_enemy_air_power =
+|J-2_node_info = cvl_nu-class_elite ca_ri-class_elite cl_tsu-class dd_ro-class_late_model dd_i-class dd_i-class
+|J-2_form = diamond
+|J-2_xp = 160
+|J-2_enemy_air_power =107
+|
+|K_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|K-1_node_info = airfield_princess airfield_princess 
+|K-1_form = diamond
+|K-1_xp = 120
+|K-1_enemy_air_power = 68
+|K-2_node_info =  airfield_princess
+|K-2_form = diamond
+|K-2_xp = 100
+|K-2_enemy_air_power = 34
+|K-3_node_info =  airfield_princess 
+|K-3_form = diamond
+|K-3_xp = 110
+|K-3_enemy_air_power = 48
+|
+|L_label = 深海ソロモン艦隊 重巡戦隊 前衛
+|L-1_node_info =  ca_ri-class_flagship ca_ri-class_elite cl_tsu-class dd_ro-class_late_model
+ dd_i-class dd_i-class
+|L-1_form = line_ahead double_line echelon
+|L-1_xp = 190
+|L-1_enemy_air_power =
+|
+|M_label = '''<span style="color:blue">Battle Avoided</span>'''
+|M-1_node_info = '''<span style="color:blue">"Must be my imagination" (battle avoided)</span>'''
+|
+|N_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|N-1_node_info = airfield_princess airfield_princess airfield_princess 
+|N-1_form = diamond
+|N-1_xp = 120
+|N-1_enemy_air_power = 102
+|N-2_node_info = airfield_princess airfield_princess
+|N-2_form = diamond
+|N-2_xp = 100
+|N-2_enemy_air_power = 68
+|N-3_node_info = airfield_princess 
+|N-3_form = diamond
+|N-3_xp = 80
+|N-3_enemy_air_power = 34
+|N-4_node_info = lycoris_princess 
+|N-4_form = diamond
+|N-4_xp = 90
+|N-4_enemy_air_power = 130
+|
+|O_label = 深海ブイン攻略部隊 火力支援群
+|O-1_node_info = battleship_princess dd_ni-class_late_model dd_ni-class dd_ni-class dd_i-class dd_i-class 
+|O-1_form = line_ahead double_line echelon
+|O-1_xp = 240
+|O-1_enemy_air_power =
+|
+|P_label = '''<span style="color:green">Transport Drop-Off Node</span>'''
+|P-1_node_info = 
+|
+|Q_label = 深海ソロモン配備 魚雷艇教導団
+|Q-1_node_info = cl_tsu-class dd_ni-class_late_model dd_ni-class_late_model pt_imp pt_imp pt_imp
+|Q-1_form = echelon
+|Q-1_xp = 160
+|Q-1_enemy_air_power =
+|Q-2_node_info = dd_ni-class_kai_late_model dd_ni-class_late_model pt_imp pt_imp pt_imp pt_imp
+|Q-2_form = echelon
+|Q-2_xp = 140
+|Q-2_enemy_air_power =
+|Q-3_node_info = dd_ni-class_late_model dd_ni-class dd_ni-class pt_imp pt_imp pt_imp
+|Q-3_form = echelon
+|Q-3_xp = 150
+|Q-3_enemy_air_power =
+|
+|R_label = 深海レーダー射撃 戦艦戦隊 <br>'''<span style="color:orange">Ambush Node</span>'''
+|R-1_node_info = bb_ta-class dd_ni-class dd_i-class dd_i-class
+|R-1_form = 
+|R-1_xp = 160
+|R-1_enemy_air_power = 
+|
+|S_label = 深海ブイン攻略部隊 支援艦隊
+|S-1_node_info = southern_war_princess cl_tsu-class dd_na-class_late_model dd_na-class_late_model dd_ni-class dd_i-class
+|S-1_form = line_ahead
+|S-1_xp = 420
+|S-1_enemy_air_power = 47
+|S-2_node_info = southern_war_princess cl_tsu-class dd_na-class_late_model dd_ni-class dd_ni-class dd_i-class
+|S-2_form = line_ahead
+|S-2_xp = 420
+|S-2_enemy_air_power = 47
+|S-3_node_info =  southern_war_princess cl_tsu-class dd_ni-class dd_ni-class dd_i-class dd_i-class
+|S-3_form = line_ahead
+|S-3_xp = 400
+|S-3_enemy_air_power = 47
+|
+|T_label = リコリス飛行場 基地航空隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|T-1_node_info = airfield_princess airfield_princess 
+|T-1_form = diamond
+|T-1_xp = 120
+|T-1_enemy_air_power = 68
+|T-2_node_info = airfield_princess
+|T-2_form = diamond
+|T-2_xp = 100
+|T-2_enemy_air_power = 34
+|T-3_node_info =  airfield_princess
+|T-3_form = diamond
+|T-3_xp = 110
+|T-3_enemy_air_power = 48
+|
+|U_label = 深海ソロモン派遣 空母任務部隊<br>'''<span style="color:green">Air Battle Node</span>'''
+|U-1_node_info = cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite bb_ta-class bb_ta-class cl_tsu-class
+|U-1_form = diamond
+|U-1_xp = 120
+|U-1_enemy_air_power = 151
+|U-2_node_info = cv_wo-class_flagship cvl_nu-class_elite bb_ta-class_elite bb_ta-class cl_he-class_flagship cl_tsu-class
+|U-2_form = diamond
+|U-2_xp = 110
+|U-2_enemy_air_power = 151
+|U-3_node_info = cv_wo-class_flagship cv_wo-class_elite bb_ta-class_elite bb_ta-class cl_he-class_flagship cl_tsu-class
+|U-3_form = diamond
+|U-3_xp = 120
+|U-3_enemy_air_power = 130
+|
+|V_label = 深海任務部隊 上陸支援打撃群
+|V-1_node_info = bbv_re-class ca_ne-class cl_tsu-class dd_ni-class_late_model dd_ni-class dd_ni-class
+|V-1_form = line_ahead echelon
+|V-1_xp = 190
+|V-1_enemy_air_power = 94
+|V-2_node_info = bbv_re-class ca_ne-class dd_ni-class dd_ni-class dd_i-class dd_i-class
+|V-2_form = line_ahead echelon
+|V-2_xp = 170
+|V-2_enemy_air_power = 94
+|
+|W_label = 深海ソロモン派遣 機動部隊群
+|W-1_node_info = cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite battleship_princess cl_tsu-class_elite
+|W-1_form = diamond
+|W-1_xp = 470
+|W-1_enemy_air_power = 303
+|W-2_node_info = cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite battleship_princess cl_tsu-class
+|W-2_form = diamond
+|W-2_xp = 460
+|W-2_enemy_air_power = 258
+|W-3_node_info =cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite cvl_nu-class_elite battleship_princess cl_tsu-class
+|W-3_form = diamond
+|W-3_xp = 490
+|W-3_enemy_air_power = 402
+|
+|Z_label = 深海ブイン攻略部隊 旗艦艦隊<br>'''<span style="color:red">Enemy Combined Fleet</span>'''
+|Z-1_node_info = abyssal_sun_princess bb_ru-class_elite cvl_nu-class_elite cvl_nu-class_elite transport_wa-class_elite transport_wa-class_elite ca_ne-class cl_tsu-class dd_na-class dd_i-class dd_i-class dd_i-class
+|Z-1_form = cruising_form_4
+|Z-1_xp = 420
+|Z-1_enemy_air_power = 314
+|Z-2_node_info = abyssal_sun_princess_damaged battleship_princess cvl_nu-class_elite cvl_nu-class_elite transport_wa-class_elite transport_wa-class_elite ca_ne-class cl_tsu-class dd_na-class dd_na-class dd_i-class dd_i-class
+|Z-2_form = cruising_form_4
+|Z-2_xp = 540
+|Z-2_enemy_air_power = 314
+|
+|ZZ1_label = 深海ブイン旗艦艦隊 護衛潜水群
+|ZZ1-1_node_info = new_submarine_princess_a ss_yo-class ss_yo-class
+|ZZ1-1_form = echelon
+|ZZ1-1_xp = 190
+|ZZ1-1_enemy_air_power =
+|ZZ1-2_node_info = new_submarine_princess_a ss_ka-class_elite ss_yo-class
+|ZZ1-2_form = echelon
+|ZZ1-2_xp = 200
+|ZZ1-2_enemy_air_power =
+|ZZ1-3_node_info = new_submarine_princess_a ss_yo-class_elite ss_yo-class_elite
+|ZZ1-3_form = echelon
+|ZZ1-3_xp = 210
+|ZZ1-3_enemy_air_power =
+|
+|final_form = Z2
+|boss_node = S Z
+}}
+</tabber>

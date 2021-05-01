@@ -1,0 +1,51 @@
+{{Documentation subpage}}
+{{tsh|dot|middot|,}}
+__NOTOC__
+This is the '''bold middot''' template, it looks like this: " '''&middot;''' ". It works similarly to the html+wiki markup sequence [<code>'''&amp;nbsp;<nowiki><b>&amp;middot;</b></nowiki>'''&nbsp;</code>]. That is, a [[non-breaking space]], a bolded middot and a normal space.
+
+This template is used when you want something smaller than a [[Template:•|bullet]] "&bull;", or [[Template:spaced ndash|ndash]] "&ndash;".
+
+This template's use for dotted lists is now '''deprecated'''. Use {{Tl|Flatlist}} or <code>class="hlist"</code> instead; see [[WP:HLIST]].
+
+
+{| class="wikitable" style="border: none; background: none;"
+|<center>Here's an example of how it's used</center>
+|-
+| <p>Normally, in a real box these items would be links, but this is an example.</p> Item1{{dot}} A{{dot}} B{{dot}} Item2{{dot}} Item3{{dot}} Item4{{dot}} Item5{{dot}} extra item{{dot}} E{{dot}} 1{{dot}} 2{{dot}} 3{{dot}} 4{{dot}} 5{{dot}} 6{{dot}} 7{{dot}} {{nowrap|item that won't attach to prior line unless it fits in the remaining space{{dot}}}} Q{{dot}} A slightly longer item{{dot}} KK{{dot}} An obviously really even longer item that the dash will hang at its end{{dot}} Item6{{dot}} C{{dot}} Item7{{dot}} Item8{{dot}} Item9{{dot}} Item10{{dot}} Item11{{dot}} Item12{{dot}} D{{dot}} Item13{{dot}} Item14{{dot}} Item15{{dot}} Item16{{dot}} Item17{{dot}} Item18 <p>The space on the end makes sure the dot doesn't touch the edge of the box, either</p>
+|}
+
+Template Dot is not really intended to be used in article text; it's intended for use in other templates, tables, lists and other equivalent things, in order to include a separator between items such as in infoboxes. It's also to be consistent so that the article editor can use their choice of '''<nowiki>{{</nowiki>bull}}''', '''<nowiki>{{</nowiki>dot}}''', '''<nowiki>{{</nowiki>middot}}''', or  '''<nowiki>{{</nowiki>spaced ndash}}''' and not have to insert the {{bull}}, {{dot}}, {{middot}}, or {{spaced ndash}} symbol, they can use any of these as a simple macro.  The idea being that if you have a table with a list of items, you can insert a bolded middot (or the other symbols) between items that will appear correct, in that the items always have just one separator between them, and when a list crawls to the next line, the dash hangs onto the prior item instead of rolling over to the next line.  Notice on the end of this box, the dot symbol "'''&middot;'''" hangs on the end of the last item that will fit on the line indicating that additional items follow on the next line as part of this list, but the item only stays on the line if the item and the dot will fit.  See the column on the right.  In code it's ''' Item1<nowiki>{{</nowiki>dot}} Item2<nowiki>{{</nowiki>dot}} Item3<nowiki>{{</nowiki>dot}} Item4<nowiki>{{</nowiki>dot}} Item5<nowiki>{{</nowiki>dot}}''' etc. (with some smaller items squeezed in to show that the list doesn't have to be the same number of items per line) but in the box they all fold perfectly once it runs out of space on the line to fit the next item and the symbol following.
+
+== Technical details ==
+The space before the dot is a [[non-breaking space]]. That means it will not line break and will not collapse together with normal spaces that come before the template.
+
+The space after the dot is a normal space. That means it wraps (allows line breaks) and it will collapse together with normal spaces that come after the template to form one single space.
+
+Under some circumstances dotted link lists misbehave. They might get unexpected line wraps or they might expand outside the box they are enclosed in. The how-to guide [[Wikipedia:Line break handling]] explains when that happens and how to fix it.
+
+== Parameters ==
+<TemplateData>{
+  "description": "Display a bold spaced middle dot (smaller than bullet)",
+  "params": {}
+}</TemplateData>
+
+== Redirects ==
+* {{tl2|,}}
+* {{tl2|dot}}
+* {{tl2|middot}}
+
+== Dot sizes ==
+{{Dot size}}
+
+== See also ==
+There are several similar templates:
+
+* {{tn|•}} – Bullet "&bull;" is mostly used for dotted lists that use small font sizes.
+* {{tl|mid-dot}} – middot without the bold.
+* {{tl|spaced ndash}} – Ndash "&ndash;" is a short dash.
+* {{tn|\}} – For the occasional slash "/" in lists.
+* {{tl2|-!}} – Spaced pipe "|"
+
+<includeonly>
+[[Category:Wikipedia formatting and function templates|{{PAGENAME}}]]
+</includeonly>

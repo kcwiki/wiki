@@ -1,0 +1,65 @@
+
+Musashi {{#invoke:ShipDatabase|TotalAircraft|Musashi}}
+
+Ise Kai Ni {{#invoke:ShipDatabase|TotalAircraft|Ise Kai Ni}}
+
+Kaga {{#invoke:ShipDatabase|TotalAircraft|Kaga}}
+
+Fubuki {{#invoke:ShipDatabase|TotalAircraft|Fubuki}}
+
+Tenryuu {{#invoke:ShipDatabase|TotalAircraft|Tenryuu}}
+
+==Shipinfo Revision==
+<table style="{{border-radius|10px 10px 10px 10px}} border: 1px solid #aaaaaa; min-width: 495px;">
+<tr>
+<td>{{#invoke:KanmusuModule|getArtVoice|Nagato}}{{#invoke:KanmusuModule|EquipmentBox|Nagato}}</td>
+</tr>
+</table>
+
+<!-- 
+<table style="{{border-radius|10px 10px 10px 10px}} border: 1px solid #aaaaaa; min-width: 495px;">
+<tr>
+<td>
+<table style="width: 100%">
+<th style="width: 25%; white-space: nowrap; {{border-radius|12px 4px 4px 12px}} background-color: #3baef5; color: #ffffff; padding-left: 5px; padding-right: 5px; text-align: right;">Artist</th>
+<td style="width: 25%; white-space: nowrap; text-align: center;"> illustrator </td>
+<th style="width: 25%; white-space: nowrap; {{border-radius|12px 4px 4px 12px}} background-color: #3baef5; color: #ffffff; padding-left: 5px; padding-right: 5px; text-align: right;">Seiyuu</th>
+<td style="width: 25%; white-space: nowrap; text-align: center;">voiceactor</td>
+</table>
+</td>
+</tr>
+</table>
+-->
+
+==Modernization Tables==
+[[:Module:ShipData]]
+<!-- ===Destroyer===
+{{#invoke:ShipData|ModTable|Destroyer}}
+
+===Battleship===
+{{#invoke:ShipData|ModTable|Battleship}}
+
+===Aircraft Carrier===
+{{#invoke:ShipData|ModTable|Aircraft Carrier}} -->
+
+==Elite Ship Lists==
+[[/Ship Stats]]
+
+==QuestInfo==
+[[:Module:QuestInfo]]
+
+Shigure: {{#invoke:QuestInfo|KanmusuQuestList|Shigure}}
+
+Akatsuki: {{#invoke:QuestInfo|KanmusuQuestList|Akatsuki}}
+
+Nachi: {{#invoke:QuestInfo|KanmusuQuestList|Nachi}}
+
+Aoba: {{#invoke:QuestInfo|KanmusuQuestList|Aoba}}
+
+Hiei: {{#invoke:QuestInfo|KanmusuQuestList|Hiei}}
+
+Yamashiro: {{#invoke:QuestInfo|KanmusuQuestList|Yamashiro}}
+
+==ShipDropTable==
+{{#invoke:ShipData|shipdroptable|Nagato}}
+{{#invoke:ShipData|shipdroptable|Agano}}

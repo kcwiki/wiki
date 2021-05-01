@@ -1,0 +1,74 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE. -->
+
+==Usage==
+Wraps a short span of text in <code><nowiki><syntaxhighlight></nowiki></code> tags (see [[mw:Extension:SyntaxHighlight GeSHi]]).  This template should be used for short samples; longer content should use {{tag|pre}} or {{tag|syntaxhighlight}}. See [[Help:Wiki markup]] for an explanation of what the various tags do.{{clarify|reason=[[Help:Wiki markup]] does not mention any such "source" XML tag.}}
+
+If the content includes an equals sign (=), you must specify the parameter explicitly: <code><nowiki>{{code|1=date=30 Feb 2010}}</nowiki></code>.
+
+The template uses the <code><nowiki><syntaxhighlight></nowiki></code> tag with the attribute <code>enclose="none"</code>. This works like the combination of the <code><nowiki><code></nowiki></code> and <code><nowiki><nowiki></nowiki></code> tags, applied to the expanded wikitext. For example, <code><nowiki>{{code|some '''wiki''' text}}</nowiki></code> will '''''not''''' render the word "wiki" in bold, and will render the tripled-single-quotes:
+
+:{{code|some '''wiki''' text}}
+
+However, <code><nowiki>{{code|a {{template}} call}}</nowiki></code> will still invoke the template:
+
+:{{code|a {{template}} call}}
+
+Use {{tag|nowiki}} around the template name to avoid this problem:
+
+:{{code|a <nowiki>{{template}}</nowiki> call}}
+
+When used inline with regular text, {{tnull|code}} generally looks best and is easiest to read when it is explicitly spaced apart from the regular text:
+:{{code|foo &nbsp;<nowiki>{{code|bar baz}}</nowiki>&nbsp; quux.}}
+is well spaced:
+:foo &nbsp;{{code|bar baz}}&nbsp; quux.
+versus:
+:{{code|foo <nowiki>{{code|bar baz}}</nowiki> quux.}}
+which is going to be visually confusing for many:
+:foo {{code|bar baz}} quux.
+because "foo" and "{{code|bar}}" will seem more closely associated than "{{code|bar}}" and "{{code|baz}}"; the width of the space character in a monospaced font is almost always larger than in a proportional font.
+
+Use parameter {{{2}}} (unnamed, as {{para|2}}, or more explicitly as {{para|lang}}) to specify a language for [[mw:Extension:SyntaxHighlight GeSHi]]. This option defaults to plain-text, i.e. no highlighting.  There is no highlighting option for wikitext as a markup language, though {{code|html4strict}} and {{code|html5}} are valid values, as are {{code|php}}, {{code|perl}}, {{code|css}}, {{code|javascript}}, {{code|mysql}} and many others. Attempting to use an invalid one causes a list of valid ones to be displayed in place of the template output, when the page is previewed or saved.
+
+This template does not need to be [[Wikipedia:Template substitution|substituted]].
+
+===Examples===
+
+{{markup
+|<nowiki>Lorem {{code|ipsum '''dolor'''}} sit amet</nowiki>
+|Lorem {{code|ipsum '''dolor'''}} sit amet
+
+|<nowiki>The declaration {{code |lang=cpp |int foo(const std::string& bar, const std::vector<long double*>& baz);}} is the prototype for a function defined later.</nowiki>
+|The declaration {{code |lang=cpp |int foo(const std::string& bar, const std::vector<long double*>& baz);}} is the prototype for a function defined later.
+
+|<nowiki>If the code contains an [[equals sign]], such as {{code |lang=javascript |code=var img = document.getElementsByTagName("img");}}, you must identify the first parameter explicitly as {{{1}}} or {{{code}}}; see also [[:bugzilla:5138]].</nowiki>
+|If the code contains an [[equals sign]], such as {{code |lang=javascript |code=var img = document.getElementsByTagName("img");}}, you must identify the first parameter explicitly as {{{1}}} or {{{code}}}; see also [[:bugzilla:5138]].
+}}
+
+===Included templates===
+Embedded templates do not function as expected inside {{tl|code}}; for longer, free-form blocks of code, which can contain templates such as {{tl|var}} and {{tl|samp}}, use {{tag|code}} as a wrapper instead of this template.
+
+Templates used inside {{tl|code}} expose the rendered HTML— this can be useful. For example:
+
+{{markup
+|1=<nowiki>{{code|
+{{cite web |title=Title |url=http://example.org}}
+}}</nowiki>
+|2={{code|
+{{cite web |title=Title |url=http://example.org}}
+}}
+}}
+
+The above example shows the HTML rendered by the citation template, including the hidden metadata.
+
+== See also ==
+{{Var/seealso}}
+* [[Help:Wiki markup]]
+
+<includeonly><!--
+++++ PLEASE ADD CATEGORIES AND INTERWIKIS BELOW THIS LINE, THANK YOU. -->
+[[Category:Programming typing-aid templates|{{PAGENAME}}]]
+[[Category:Semantic markup templates|{{PAGENAME}}]]
+[[Category:Wikipedia XHTML tag replacing templates|{{PAGENAME}}]]
+
+</includeonly>

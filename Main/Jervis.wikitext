@@ -1,0 +1,567 @@
+==Info==
+{{KanmusuInfo|ID=319}}
+{{KanmusuInfo|ID=319a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform OASW at Kai.
+
+===Overview===
+* Average firepower, HP and armour.
+* Great torpedo and ASW.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''High'''
+:A British destroyer with average firepower but an excellent torpedo and ASW stat.
+:Once remodeled, she can also perform OASW attacks innately, albeit those won't do much unless she has actual ASW gear on her.
+:Furthermore, a stellar base Luck of 55 allows her to perform reliable but not too powerful cut-in attacks at night.
+
+:No further remodels have been implemented for her yet (as of January 2020).
+
+====Recommended Roles====
+* ASW
+* Night battle
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+| scenario    =Introduction
+| origin      = Nice to meet you. Lucky Jervis、来たわ！ そう、もうゼッタイよ！ 任せておいて！
+| translation = Nice to meet you. Lucky Jervis is here! Yeah, that's absolutely right! Leave it to me!<ref>She was called "Lucky" Jervis because she lost no crew to enemy action in WW2.</ref>
+| audio       = Jervis-Intro.mp3
+}}
+{{ShipquoteKai
+| scenario    =Introduction
+| kai         =yes
+| origin      = Hey, how's it going? Lucky Jervis, 今日もゼッタイよ！All right! 任せておいて！
+| translation = Hey, how's it going? Lucky Jervis, today will be an absolutely fine day as well! All right! Leave it to me!
+| audio       = JervisKai-Intro.mp3
+}}
+{{ShipquoteKai
+| scenario    =Library
+| origin      = J-class~ ジャーヴィスよ！そう、Lucky Jervisって呼んでもらってもいいかな～？本国艦隊から、地中海艦隊まで、護衛、輸送、艦隊戦や、陸戦支援まで本当に頑張っちゃた！Lucky Jervis!覚えておいてね！
+| translation = I'm the J-class Jervis! Yup, can you call me "Lucky Jervis"? From the Home Fleet to the Mediterranean Fleet, I helped out with escorting, transporting, fighting, and even supporting land battles! "Lucky Jervis"! Remember it, okay?
+| audio       = Jervis-Library.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 1
+| origin      = All right~!
+| translation = All right~!
+| audio       = Jervis-Sec1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 1
+| kai         =yes
+| origin      = Steady north!
+| translation = Steady north!
+| audio       = JervisKai-Sec1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 2
+| origin      = 出番かな～？あぁ？まだ？いつでもいいよ～！
+| translation = Am I up~? Ah? Not yet? I'm ready whenever~!
+| audio       = Jervis-Sec2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 3
+| origin      = Could you make a report? えぇ、私が書くの？う～そ～！Are you for real?
+| translation = Could you make a report? Ehh, I have to write it? No~way~! Are you for real?
+| audio       = Jervis-Sec3.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary Idle
+| origin      = Battle honour? んん～どこにしまったかな～？えっと・・・あはは～　ま、いいじゃない！うんんん～！
+| translation = Battle honour? Hmm~ Where did it go~? Umm.... haha~ Oh well~! Yeah!<ref>HMS ''Jervis'' had 13 Royal Navy Battle Honours from WW2, a feat matched by only two ships and beaten by a third (Warspite, with 14).</ref>
+| audio       = Jervis-Idle.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary (Married)
+| origin      = Darling! Tea Timeにする～？ジャーヴィスが、紅茶淹れてあげる！上手よ～あたし！任せておいて！
+| translation = Darling! Would you like to have some tea~? Jervis will make you some! I'm good at it! Leave it to me!
+| audio       = Jervis-SecMarried.mp3
+}}
+{{ShipquoteKai
+| scenario    =Wedding
+| origin      = な～に～？また、battle honour?うぇ？違うんだ・・・な～に～ darling?これは？綺麗ね～lovely!私に、そなの？本当に？Lucky!やったね！
+| translation = Wh~at~? Another battle honour? Eh? It's not...? What~is~it, darling? What's this? It's beautiful~ Lovely! It's for me? Really? Lucky! Yay!
+| audio       = Jervis-Wedding.mp3
+}}
+{{ShipquoteKai
+| scenario    =Player's Score
+| origin      =わぁ！Report見たいの～？待ってて！はい！これね！Thank you!
+| translation =Wah! You want to see the report~? Gimmie a sec! Here! This, right! Thank you!
+| audio       = Jervis-PlayerScore.mp3
+}}
+{{ShipquoteKai
+| scenario    =Player's Score
+| kai         =yes
+| origin      =わぁ～darling, report見たいの？待ってて！はい！これね！これも～？
+| translation =Waa~ Darling, do you want to see the report? Gimmie a sec! Alright! This, right! This too~?
+| audio       = JervisKai-PlayerScore.mp3
+}}
+{{ShipquoteKai
+| scenario    =Joining the Fleet
+| origin      = Lucky Jervis! 出るわ！行っけ～！
+| translation = Lucky Jervis! Heading out! Let's go~!
+| audio       = Jervis-JoinFleet.mp3
+}}
+{{ShipquoteKai
+| scenario    =Joining the Fleet
+| kai         =yes
+| origin      = Mediterranean Fleet, flagship Lucky Jervis! 出るわ！
+| translation = Mediterranean Fleet, flagship Lucky Jervis! Heading out!
+| audio       = JervisKai-JoinFleet.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 1
+| origin      = Thank you! 試してみたい！
+| translation = Thank you! I wanna try this out!
+| audio       = Jervis-Equip1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 1
+| kai         =yes
+| origin      = Darling! Thanks! 早く試してみたい！
+| translation = Darling! Thanks! I can't wait to try this out!
+| audio       = JervisKai-Equip1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 2
+| origin      = よ～さ～そ～う～これで、行ってみましょう！
+| translation = This~looks~great. Let's take this for a spin!
+| audio       = Jervis-Equip2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 3
+| origin      = Lucky! あは！
+| translation = Lucky! Aha!
+| audio       = Jervis-Equip3.mp3
+}}
+{{ShipquoteKai
+| scenario    =Supply
+| origin      = Thank you~! 助かる～！
+| translation = Thank you~! That helps~!
+| audio       = Jervis-Supply.mp3
+}}
+{{ShipquoteKai
+| scenario    =Docking (Minor)
+| origin      = うわぁ～　まあ、仕方ない・・・すぐ直すから！
+| translation = Uwaa~ Well, it can't be helped... I'll fix it in a jiffy!
+| audio       = Jervis-DockMinor.mp3
+}}
+{{ShipquoteKai
+| scenario    =Docking (Major)
+| origin      = うわぁ～　もう！ちょっと修理！ Sorry!
+| translation = Whoaaa~ dang! Need to hurry up and repair! Sorry!
+| audio       = Jervis-DockMajor.mp3
+}}
+{{ShipquoteKai
+| scenario    =Construction
+| origin      = 新しい子か～ Nice to meet you!
+| translation = Someone new~? Nice to meet you!
+| audio       = Jervis-Construction.mp3
+}}
+{{ShipquoteKai
+| scenario    =Return from Sortie
+| origin      = 艦隊～無事帰還！当然よ！
+| translation = The fleet~ has safely returned! Of course!
+| audio       = Jervis-SortieReturn.mp3
+}}
+{{ShipquoteKai
+| scenario    =Starting a Sortie
+| origin      = Jervis! 抜錨よ！みんな～Follow me～！
+| translation = Jervis! Weigh anchor! Everyone~ Follow ME~!
+| audio       = Jervis-Sortie.mp3
+}}
+{{ShipquoteKai
+| scenario    =Starting a Battle
+| origin      = Jervis! Enemy is in sight!
+| translation = Jervis! Enemy is in sight!
+| audio       = Jervis-BattleStart.mp3
+}}
+{{ShipquoteKai
+| scenario    =Attack
+| origin      = さあ～行こうか！Shoot!
+| translation = Alright~ Let's go! Shoot!
+| audio       = Jervis-Atk.mp3
+}}
+{{ShipquoteKai
+| scenario    =Night Battle Attack
+| origin      = そこね！逃がさないから～！
+| translation = There you are! You won't escape~!
+| audio       = Jervis-NightAtk.mp3
+}}
+{{ShipquoteKai
+| scenario    =Night Battle Attack
+| kai         =yes
+| origin      = Darling! ちゃんと見てた？
+| translation = Darling? Were you watching?
+| audio       = JervisKai-NightAtk.mp3
+}}
+{{ShipquoteKai
+| scenario    =Night Battle
+| origin      = 各艦、突撃隊形！いい～？フォローミ～！
+| translation = All ships, assault formation! Re-ady? Follow ME~!
+| audio       = Jervis-NightBattle.mp3
+}}
+{{ShipquoteKai
+| scenario    =Night Battle
+| kai         =yes
+| origin      = Darling! 夜戦も、あたしに任せて！そこね！
+| translation = Darling! Leave night battle to me too! There you are!
+| audio       = JervisKai-NightBattle.mp3
+}}
+{{ShipquoteKai
+| scenario    =MVP
+| origin      = Battle honour? Lucky! I'm glad I have been able to help!
+| translation = Battle honour? Lucky! I'm glad I have been able to help!
+| audio       = Jervis-MVP.mp3
+}}
+{{ShipquoteKai
+| scenario    =MVP
+| kai         =yes
+| origin      = Battle honour? Lucky! I'm glad to have been able to help! Darling!
+| translation = Battle honour? Lucky! I'm glad to have been able to help! Darling!
+| audio       = JervisKai-MVP.mp3
+}}
+{{ShipquoteKai
+| scenario    =Minor Damage 1
+| origin      = いやだ～
+| translation = No~!
+| audio       = Jervis-MinorDmg1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Minor Damage 2
+| origin      = う～そ～！本当に？
+| translation = No~ way~! Really?
+| audio       = Jervis-MinorDmg2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Major Damage
+| origin      = こんなの・・・まだよ！Lucky Jervisは沈まない！
+| translation = No... not yet! Lucky Jervis won't sink!
+| audio       = Jervis-MajorDmg.mp3
+}}
+{{ShipquoteKai
+| scenario    =Sunk
+| origin      = うそだ・・・うそだ・・・こんなの・・・Lucky Jervisは・・・Jerivsは・・・
+| translation = No way... No way... Not like this... Lucky Jervis is... I'm...
+| audio       = Jervis-Sunk.mp3
+}}
+|}<references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+| scenario    =00:00
+| origin      = Darling! Luckyね！今日はあたし、ジャーヴィスが色々サービスしてあげる！期待してて！
+| translation = Darling! You're in luck! Today I, Jervis, will help you out with things! You can count on me!
+| audio       = JervisKai-0000.mp3
+}}
+{{ShipquoteKai
+| scenario    =01:00
+| origin      = It's 1 o'clock! ね、時間のお知らせも任せとおいて！
+| translation = It's 1 o'clock! Hey, leave telling the time to me too!
+| audio       = JervisKai-0100.mp3
+}}
+{{ShipquoteKai
+| scenario    =02:00
+| origin      = It's 2 o'clock! こんな感じでしょ～？ No problem!
+| translation = It's 2 o'clock! Like this, right~? No problem!
+| audio       = JervisKai-0200.mp3
+}}
+{{ShipquoteKai
+| scenario    =03:00
+| origin      = It's 3 o'clock! Sleepy? そう？
+| translation = It's 3 o'clock! Sleepy? Really?
+| audio       = JervisKai-0300.mp3
+}}
+{{ShipquoteKai
+| scenario    =04:00
+| origin      = It's 4 o'clock! Darling? Tired?
+| translation = It's 4 o'clock! Darling? Tired?
+| audio       = JervisKai-0400.mp3
+}}
+{{ShipquoteKai
+| scenario    =05:00
+| origin      = It's 5 o'clock! Good morning! お・は・よ～！
+| translation = It's 5 o'clock! Good morning! Good~ mor~ ning~!
+| audio       = JervisKai-0500.mp3
+}}
+{{ShipquoteKai
+| scenario    =06:00
+| origin      = It's 6 o'clock! Let's 総員起こし～！ Everyone~ get up!
+| translation = It's 6 o'clock! Let's wake everyone up~! Everyone~ get up!
+| audio       = JervisKai-0600.mp3
+}}
+{{ShipquoteKai
+| scenario    =07:00
+| origin      = 7 o'clock! Full breakfast! どうぞ！ Enjoy!
+| translation = 7 o'clock! Full breakfast<ref>As in a full English breakfast.</ref>! Here you go! Enjoy!
+| audio       = JervisKai-0700.mp3
+}}
+{{ShipquoteKai
+| scenario    =08:00
+| origin      = It's 8 o'clock! The Home Fleet... 様子はどうかな～？
+| translation = It's 8 o'clock! The Home Fleet... I wonder how they're doing~?
+| audio       = JervisKai-0800.mp3
+}}
+{{ShipquoteKai
+| scenario    =09:00
+| origin      = It's 9 o'clock! あら、Ark！元気そうね。あたし？あたしはもちろん、元気一杯よ！
+| translation = It's 9 o'clock! Oh, [[Ark Royal|Ark]]! You look good. Me? I'm totally great, of course!
+| audio       = JervisKai-0900.mp3
+}}
+{{ShipquoteKai
+| scenario    =10:00
+| origin      = It's 10 o'clock! Ah~ Kelly? 彼女は・・・そうね・・・う～ん、大丈夫よ！
+| translation = It's 10 o'clock! Ah~ Kelly? She's... yeah... never mind, she's doing well!<ref>[https://en.wikipedia.org/wiki/HMS_Kelly_(F01) ''HMS Kelly''] was identical to HMS ''Jervis'' despite belonging to the K-class, as they were both designed as flotilla leaders. ''Kelly'' tends to be the better known sister despite ''Jervis''' impressive record and ''Kelly''<nowiki>'s</nowiki> bad luck.</ref>
+| audio       = JervisKai-1000.mp3
+}}
+{{ShipquoteKai
+| scenario    =11:00
+| origin      = It's 11です！ Oh~ これ？対潜兵装よ。大事大事！ここの装備はどうなの～？おお～、ああ～、なるほど・・・うん。大丈夫？
+| translation = It's 11! Oh~ this? It's anti-submarine equipment. It's a big, big deal! What sorta equipment do you have here? Ohh~ Ahh~, I see... hmmm. Will you be ok?
+| audio       = JervisKai-1100.mp3
+}}
+{{ShipquoteKai
+| scenario    =12:00
+| origin      = It is noon! さ～ lunchよ！ Sandwichはできたよ！どうぞ！ボン・アペタイト！
+| translation = It is noon! Here's lunch! I made some sandwiches! Here you go! Bon appetit!
+| audio       = JervisKai-1200.mp3
+}}
+{{ShipquoteKai
+| scenario    =13:00
+| origin      = It's 1 o'clo...わあぁ！ Hey! あなたは確か・・・そう、ゆき・・・かぜ！How is it going!
+| translation = It's 1 o'clo...whoa! Hey! You're... right, Yuki... kaze! How is it going!
+| audio       = JervisKai-1300.mp3
+}}
+{{ShipquoteKai
+| scenario    =14:00
+| origin      = It's 2 o'clock! Hi, lady~ Lucky Jervis見参よ！ もちろん！
+| translation = It's 2 o'clock! Hi, lady~ Lucky Jervis here! Of course!
+| audio       = JervisKai-1400.mp3
+}}
+{{ShipquoteKai
+| scenario    =15:00
+| origin      = It's 3 o'clock! Let's tea time! Yes~!
+| translation = It's 3 o'clock! Let's tea time! Yes~!
+| audio       = JervisKai-1500.mp3
+}}
+{{ShipquoteKai
+| scenario    =16:00
+| origin      = It's 4 o'clock! Janus？ああ、そうね・・・大丈夫。いつか、会える。何か、そんな気がするの・・・ね、darling?
+| translation = It's 4 o'clock! Janus? Ahh, yeah... it's alright. I'll see her again one day. I just, have a feeling... don't you think, darling?<ref>[https://en.wikipedia.org/wiki/HMS_Janus_(F53) HMS ''Janus''] was one of ''Jervis'''s sister ships and a member of her flotilla from 1940. She briefly took over while ''Jervis'' was under repair in 1940.</ref>
+| audio       = JervisKai-1600.mp3
+}}
+{{ShipquoteKai
+| scenario    =17:00
+| origin      = It's 5 o'clock! Lovely! 地中海の夕日もいいけど～ここの夕日も素敵、darling!
+| translation = It's 5 o'clock! Lovely! The sunset at the Mediterranean Sea is great, but the sunset here is pretty as well, darling!
+| audio       = JervisKai-1700.mp3
+}}
+{{ShipquoteKai
+| scenario    =18:00
+| origin      = It's 6 o'clock! さ、今日はおしまい！Fleet戻しましょう！
+| translation = It's 6 o'clock! Now then, day's over! Let's bring back the fleet!
+| audio       = JervisKai-1800.mp3
+}}
+{{ShipquoteKai
+| scenario    =19:00
+| origin      = It's 7 o'clock! Darling, 夕食は外で？ Lucky!
+| translation = It's 7 o'clock! Darling, we're going out for dinner? Lucky!
+| audio       = JervisKai-1900.mp3
+}}
+{{ShipquoteKai
+| scenario    =20:00
+| origin      = モグモグ・・・It's... 8 o'clock! Darling、マミーア～ it's delicious!
+| translation = ''Nom nom''... It's... 8 o'clock! Darling, Mami-ya~! It's delicious!
+| audio       = JervisKai-2000.mp3
+}}
+{{ShipquoteKai
+| scenario    =21:00
+| origin      = It's 9 o'clock! んん～あや？あそこで騒いでる重巡達・・・見覚えが・・・Hey! Hey you! おぉ！おおううう～～！
+| translation = It's 9 o'clock! Hmmm~ Oh? Those noisy heavy cruisers over there... I think I know them... Hey! Hey you! Oh! Whoaaa~!<ref>''Jervis'' was at the [https://en.wikipedia.org/wiki/Battle_of_Cape_Matapan Battle of Cape Matapan], where she helped sink Italian heavy cruisers ''[[Zara]]'' and (after a boarding party transferred the surviving crew) ''[[Pola]]''.</ref>
+| audio       = JervisKai-2100.mp3
+}}
+{{ShipquoteKai
+| scenario    =22:00
+| origin      = It's 10 o'clock! あら？時雨？What are you doing on such a night? んん？これは？Thanks!
+| translation = It's 10 o'clock! Huh? Shigure? What are you doing on such a night? Hmm? For me? Thanks!
+| audio       = JervisKai-2200.mp3
+}}
+{{ShipquoteKai
+| scenario    =23:00
+| origin      = It's 11 o'clock! Darling,頂いた、green tea飲む？あたしが、淹れてあげる！Just a moment!
+| translation = It's 11 o'clock! Darling, would you like to drink some of the green tea I got earlier? I'll make you some! Just a moment!
+| audio       = JervisKai-2300.mp3
+}}
+|}<references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2018|White Day 2018]]
+|origin = これは？お返し？私、何も上げてないけど…いいの？えへ、thanks!じゃぁ、来年はきっとね？
+|translation =	What’s this? A return gift? I didn’t even give you anything though… Is this alright? Ehe, thanks! I’ll definitely get you something next year ok?
+|audio = Jervis_White_Day_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2018|Coming of Spring 2018]]
+|origin = 春だ！Lucky!桜もきれい！Lovely!Darling、何？お花見party?手伝お、手伝お！
+|translation =	It’s spring! Lucky! The sakura are beautiful! Lovely! What is it, Darling? A cherry blossom viewing party? I’ll definitely help out!
+|audio = Jervis_Spring_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 5th Anniversary! Darling, congratulations!
+|translation =	5th Anniversary! Darling, congratulations!
+|audio = Jervis_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2018|Rainy Season 2018]]
+|origin = 雨。これが「ツーユー」ね？うん、聞いていたわ。
+|translation =	It’s raining. So this is “Tsuyuu” right? Yup, I’ve heard of it.
+|audio = Jervis_Rainy_Season_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2018|Summer 2018]]
+|origin = この国の夏は暑いのね。ん？…あの、あたしなんか装甲薄そうな艤装はなに？なんなの？
+|translation =	Summer in this country sure is hot. Hmmm? ...What's this lightly armoured rigging? What's it for?
+|audio = Jervis_Summer_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2018|Saury 2018]]
+|origin = Sanma Operationでしょう？任せておいて。この優秀なソナーがあれば…えぇ、それだけじゃだめ？難しいわね。Darling、教えて。
+|translation =	It's a Sanma Operation right? Leave it to me. With this excellent Sonar, I'll... Eh, that's not enough? This is hard. Teach me, Darling.
+|audio = Jervis_Sec1_Saury_2018.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = あぁ、Lady, どうしたの？あぁ、あれか？あれの古傷？そういえば、あたしも頭が痛く…うん、お互い空からの何かにを気をつけましょう。
+|translation =	What's wrong, Lady? Ah, it's that right? That old wound? Now that you mention it, my head hurts too... Yes, let's watch the skies for each other.<ref>Referring to [[Warspite]].</ref>
+|audio = Jervis_Late_Autumn_2018_Sec1.mp3
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = この季節は…あれ…あれに気をつけないと！Janus、対空監視気をつけて！あれは嫌い！
+|translation =	I'll... I'll need to be careful of ''that'' during this time of year! Janus, keep the anti-air watch on alert! I hate those things!
+|audio = Jervis_Late_Autumn_2018_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2018|Christmas 2018]]
+|origin = Darling, Happy Christmas! ケーキ、美味しいそう！さあ、食べましょう！
+|translation =	Darling, Happy Christmas! The cake looks delicious! Come on, let's start eating!
+|audio = Jervis_Christmas_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2019|New Years 2019]]
+|origin = Darling, Lucky New Year! さあ、いざ行きましょう！ハツモデ！
+|translation =	Darling, Lucky New Year! Now, let's go! For the first shrine visit!
+|audio = Jervis_New_Year_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2019|Valentine's Day 2019]]
+|origin = My Darling、これ差し上げます。この艦隊の伝統は大事にしないと。さあ、どうぞ。
+|translation =	My Darling, this is for you. I must treasure this fleet's traditions. Come on, help yourself.
+|audio = Jervis_Valentines_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2019|White Day 2019]]
+|origin = これ、チョコのお返し？Lucky! Thanks, my Darling。やったぁー！
+|translation =	Is this in return for the chocolates? Lucky! Thanks, my Darling. Hoooooraaaaaay!
+|audio = Jervis_White_Day_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = 6th Anniversary? Darling, lucky and congratulations!
+|translation =	6th Anniversary? Darling, lucky and congratulations!
+|audio = Jervis_6th_Anniversary_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary]]
+|origin = 7th Anniversary! My Darling, lucky! And congratulations!
+|translation =	7th Anniversary! My Darling, lucky! And congratulations!
+|audio = Jervis_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = 8th Anniversary! My darling, super lucky and congratulations!
+|translation =	8th Anniversary! My darling, super lucky and congratulations!
+|audio = Jervis_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Hinamatsuri 2020 Mini-Event]]
+|origin = Royal Navy Fleet、貴艦隊を友軍艦隊と認む。これより貴艦隊を援護する！
+|translation =	The Royal Navy Fleet has recognised your fleet as an allied fleet. We'll now support you! Shoot!
+|audio = Ship_Voice_Jervis_Kai_Hinamatsuri_2020_Mini-Event_Friend_Fleet_1.mp3
+|notes = Friend Fleet 1
+}}
+{{SeasonalQuote
+|scenario = [[Fall 2020 Event]]
+|origin = Super lucky！あは！
+|translation =	Super lucky! Aha!
+|audio = Ship_Voice_Jervis_Kai_Fall_2020_Event_Friend_Fleet_1.mp3
+|notes = Friend Fleet 1
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|
+<gallery>
+KanMusu319CG.png|Base
+KanMusu319CGDmg.png|Base Damaged
+KanMusu319aCG.png|Kai
+KanMusu319aCGDmg.png|Kai Damaged
+</gallery>
+|}
+==Drop Locations==
+Currently limited to event-only.
+
+==Trivia==
+* She is named after [https://en.wikipedia.org/wiki/John_Jervis,_1st_Earl_of_St_Vincent Admiral John Jervis].
+* Decommissioned in May 1946
+* The black stripe at the top of her smokestack serves as a visual indicator of her role as a Destroyer Leader. 
+* The differences between her base and Kai CGs (most prominent in the damaged versions) reflect various changes over the course of her career. 
+** While under repair in 1940 after a major collision, ''Jervis''' command was changed from the 7th to the 14th Destroyer Flotilla. However, the funnel markings on her Kai CG reflect the colors of the 7th Destroyer Flotilla (two white stripes), not the 14th (one red and one black stripe).
+** Her pennant number was also updated from F00 to G00, as the letter F was being reassigned to armed merchant vessels.
+
+==See Also==
+* [[EliteDD|List of Destroyers]]
+* [[wikipedia:HMS Jervis|Wikipedia entry on Jervis]]
+{{Shiplist}}

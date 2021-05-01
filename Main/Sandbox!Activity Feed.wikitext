@@ -1,0 +1,31 @@
+==Filtered==
+<span style="color:#00f; font-size:16px; font-weight:bold;">Removes User Profile Updates, User Blog Posts and its comments.</span>
+===Output===
+<activityfeed size=10 exclude="user,user_blog,user_blog_comment" />
+
+==Total Filter==
+<span style="color:#00f; font-size:16px; font-weight:bold;">Removes User Profile Updates, User Blog Posts and its comments, and Article Comments</span> (feed only. comments below articles still exist in its own page)
+===Output===
+<activityfeed size=10 exclude="user,user_blog,user_blog_comment,talk,user_talk,file,forum,message_wall,thread" />
+
+==Short List==
+<span style="color:#00f; font-size:16px; font-weight:bold;">Compressed. Only Article Edits are seen.</span>
+===Output===
+<activityfeed size=15 shortlist=true />
+
+==Original==
+<span style="color:#00f; font-size:16px; font-weight:bold;">Stay as it is.</span>
+===Output===
+<activityfeed />
+
+
+==Tabber==
+<tabber>
+Articles=
+<activityfeed size=10 exclude="user,user_blog,user_blog_comment,talk,user_talk,forum,message_wall,thread,board_thread" />
+|-|Discussions=
+<activityfeed size=10 exclude="main,user,user_blog,file" />
+|-|Teitokus=
+<activityfeed size=10 exclude="main,user_blog_comment,talk,user_talk,file,forum,message_wall,thread,board_thread" />
+</tabber>
+[[Category:Sandbox]]

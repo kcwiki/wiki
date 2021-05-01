@@ -1,0 +1,12 @@
+{| align=center cellpadding="3" cellspacing="1" style="background:#def; width: 90%; border-width:thin; border-color: #85B4FA; border-style:solid; clear:both;margin-top:10px;margin-bottom:10px;"
+|- style="text-align:center;"
+|This {{#if: {{{Scope|}}} |{{{Scope}}}|article}} is {{#if: {{{Desc|}}} |{{{Desc}}}|missing some information.}}{{#if: {{{Page Adopted|}}} |<br/>'''''<font color="#ff0000">The {{#if: {{{Scope|}}} |{{{Scope}}}|article}} is already being adopted and currently under renovation.</font>'''''|<br/>You can help by adopting it {{#if: {{{Help|}}} |{{{Help}}}|and adding the missing information.}} }}
+|-style="text-align:center;" 
+|{{#if: {{{Missing Information|}}} | {{!}} '''Missing Information''': ''{{{Missing Information}}}''}}{{#if: {{{Notes|}}} | {{!}} '''Additional Notes''': ''{{{Notes}}}''}}
+|- style="text-align:center;"
+|{{#if: {{{Page Adopted|}}} | {{!}} '''Page Adopted By''': {{#if: {{{Page Adopted 2|}}} | [[User:{{{Page Adopted}}}|''{{{Page Adopted}}}'']], [[User:{{{Page Adopted 2}}}|''{{{Page Adopted 2}}}'']] | [[User:{{{Page Adopted}}}|''{{{Page Adopted}}}'']] }}{{#if: {{{Page Adopted 3|}}} |, [[User:{{{Page Adopted 3}}}|''{{{Page Adopted 3}}}'']] | }}<br><span style=font-size:8.0pt>''Please contact {{#if: {{{Page Adopted 2|}}} |these people|{{#if: {{{Page Adopted 3|}}} |these people|this person}}}} before making any major (non-grammar, typo correction, redesigning etc.) edits on this {{#if: {{{Scope|}}} |{{{Scope}}}|article}}.''| '''''This {{#if: {{{Scope|}}} |{{{Scope}}}|article}} is open for adoption.'''''}}
+|}<includeonly>[[Category:Under Construction Articles]]</includeonly>
+<noinclude>
+[[Category:Templates]]
+{{documentation}}
+</noinclude>

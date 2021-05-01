@@ -1,0 +1,214 @@
+{|style="border: 1px solid darkgray; width: 295px;"
+|-
+| colspan="4" style="text-align: center; background-color: {{{color|}}};"|<p style="font-size:20px">'''{{{name|Name?}}}'''</p>
+<p style="font-size:15px">'''No.{{{id|??}}} {{{japanesename|}}}'''</p>
+<p>'''{{{class|???}}} Class {{{type|}}}'''</p>
+|-
+|align=center colspan="4" |{{{image|}}}
+|-
+| colspan="4" style="text-align: center; background-color: LightSkyBlue;"|'''Statistic'''
+|-
+| style="width: 70px;"|[[file:icon_HP.png]] HP
+|width="60px"|'''{{{hp|no data}}}'''
+| style="width: 80px;"|[[file:icon_Gun.png]] Firepower
+|'''{{{firepower|no data}}}'''
+|-
+| style="width: 70px;"|[[file:icon_Armor.png]] Armor
+|width="60px"|'''{{{armor|no data}}}'''
+| style="width: 80px;"|[[file:icon_Torpedo.png]] Torpedo
+|'''{{{torpedo|no data}}}'''
+|-
+| style="width: 70px;"|[[file:icon_Evasion.png]] Evasion
+|width="60px"|'''{{{evasion|no data}}}'''
+| style="width: 80px;"|[[file:icon_AA.png]] AA
+|'''{{{AA|no data}}}'''
+|-
+| style="width: 70px;"|[[file:icon_Aircraft.png]] Aircraft
+|width="60px"|'''{{{aircraft|no data}}}'''
+| style="width: 80px;"|[[file:icon_ASW.png]] ASW
+|'''{{{ASW|no data}}}'''
+|-
+| style="width: 70px;"|[[file:icon_Speed.png]] Speed
+|width="60px"|'''{{{speed|no data}}}'''
+| style="width: 80px;"|[[file:icon_LOS.png]] LOS
+|'''{{{LOS|no data}}}'''
+|-
+| style="width: 70px;"|[[file:icon_Range.png]] Range
+|width="60px"|'''{{{range|no data}}}'''
+| style="width: 80px;"|[[file:icon_Luck.png]] Luck
+|'''{{{luck|no data}}}'''
+|-
+| colspan="3" style="text-align: center; background-color: LightSkyBlue;"|'''Build Time'''
+|style="text-align: center; background-color: LightSkyBlue;" | '''Slot'''
+|- 
+| colspan="3" style="text-align: center;"|{{{time|no dataaaaaaaaaaa}}}
+| align=center |{{{slot|no data}}}
+|-
+| colspan="3" style="text-align: center; background-color: LightSkyBlue;"|'''Stock Equipment'''
+|style="text-align: center; background-color: LightSkyBlue;" | '''[[file:icon_Aircraft.png]]Space'''
+|-
+|align=center colspan="3" |{{{slot1|no data}}}
+|align=center | {{{space1|}}}
+|-
+|align=center colspan="3" |{{{slot2|no data}}}
+|align=center | {{{space2|}}}
+|-
+|align=center colspan="3" |{{{slot3|no data}}}
+|align=center | {{{space3|}}}
+|-
+|align=center colspan="3" |{{{slot4|no data}}}
+|align=center | {{{space4|}}}
+|}
+<noinclude>
+
+*That is not necessary to follow the order below, and have all data filled. missing item will show as "?" or "no data"
+*Suggested color for ship card (color=XXXXX) : skyblue / cyan / silver / gold / violet ; but you can choose other as you fit.
+Demo 1:
+
+<pre>
+{{shipinfotest
+| name=Shimakaze Kai
+| japanesename=島風改
+| id=10
+| image=[[File:010M.jpg]]
+| color=violet
+| type=Destroyer
+| class=Shimakaze
+| hp=36
+| firepower=17(59)
+| armor=13(59)
+| torpedo=57(99)
+| evasion=60
+| AA=23(59)
+| aircraft=0
+| speed=Fast
+| LOS=15(39)
+| ASW=33(59)
+| range=Short
+| luck=12
+| slot=3
+| time=Lv20 Remodel
+| slot1=?
+| slot2=?
+| slot3=?
+| slot4=-Locked-
+}}
+</pre>
+
+{{ShipinfoTest
+| name=Shimakaze Kai
+| japanesename=島風改
+| id=10
+| image=[[File:010M.jpg]]
+| color=violet
+| type=Destroyer
+| class=Shimakaze
+| hp=36
+| firepower=17(59)
+| armor=13(59)
+| torpedo=57(99)
+| evasion=60
+| AA=23(59)
+| aircraft=0
+| speed=Fast
+| LOS=15(39)
+| ASW=33(59)
+| range=Short
+| luck=12
+| slot=3
+| time=Lv20 Remodel
+| slot1=?
+| slot2=?
+| slot3=?
+| slot4=-Locked-
+}}
+
+*Demo 2 (note the order has changed to meet ship list for easier editing)
+<pre>
+{{shipinfotest
+| name=Mutsuki
+| japanesename=睦月
+| id=31
+| image=[[File:031.jpg]]
+| color=Cyan
+| type=Destroyer
+| class=Mutsuki
+| firepower=6
+| torpedo=18
+| AA=7
+| ASW=16
+| LOS=4
+| luck=12
+| hp=13
+| armor=5
+| evasion=37
+| aircraft=0
+| speed=Fast
+| range=Short
+| slot=2
+| time=18:00
+| slot1=?
+| slot2=?
+| slot3=-Locked-
+| slot4=-Locked-
+}}
+</pre>
+{{ShipinfoTest
+| name=Mutsuki
+| japanesename=睦月
+| id=31
+| image=[[File:031.jpg]]
+| color=Cyan
+| type=Destroyer
+| class=Mutsuki
+| firepower=6
+| torpedo=18
+| AA=7
+| ASW=16
+| LOS=4
+| luck=12
+| hp=13
+| armor=5
+| evasion=37
+| aircraft=0
+| speed=Fast
+| range=Short
+| slot=2
+| time=18:00
+| slot1=?
+| slot2=?
+| slot3=-Locked-
+| slot4=-Locked-
+}}
+
+{{ShipinfoTest
+| name=Kaga Kai
+| japanesename=加賀改
+| id=007b
+| image=[[File:007b.png]]
+| color=violet| type=Aircraft Carrier
+| class=Kaga
+| hp=79
+| firepower=6 (49)
+| armor=45 (79)
+| torpedo=0
+| evasion=39 (69)
+| AA=42 (79)
+| aircraft=98
+| speed=High
+| LOS=61 (89)
+| ASW=0
+| range=Short
+| luck=12
+| slot=4
+| time=Lv30 Remodel
+| slot1=[[Type 52 Zero Fighter]] 
+| slot2=[[Suisei (Comet)]] 
+| slot3=[[Type 97 Torpedo Bomber]] 
+| slot4=-Unequipped-
+| space1=20
+| space2=20
+| space3=46
+| space4=12
+}}
+</noinclude>

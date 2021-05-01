@@ -1,0 +1,246 @@
+=Introduction=
+Artillery spotting allows ships with specific equipment setups to perform powerful special attacks during daytime shelling when certain conditions are fulfilled. The attack bonus modifiers for artillery spotting are all '''post-cap'''. For details on how that affects damage, please see [[Damage Calculations]]. 
+
+This page only covers special attacks for '''surface ships'''. For carrier daytime special attacks, please see [[Carrier Cut-In Attack]].
+
+==Trigger Requirements==
+[[File:Air_Superiority_Aquired.png|thumb|right|The green Text on the bottom during the opening Air Phase indicates Air Superiority. Artillery Spotting Attacks are now aviable]]
+1. Your fleet must obtain <span style="color:green;">'''Air Supremacy (AS+)'''</span> or <span style="color:green;">'''Air Superiority(AS)'''</span>.
+
+* For details on air control states, please see [[Aerial Combat#Fighter Combat|Aerial Combat]].
+* Where you fail the [[Combat#Detection|detection phase]] and no aerial combat phase is triggered, you will not be able to activate artillery spotting.
+* You will need any plane with an anti-air {{AA}} stat in order to contest air superiority. 
+** The exception to this is if an enemy fleet with 0 air power triggers an aerial combat phase. You will default to Air Supremacy.
+
+2. Ships must be equipped with at least one [[:Category:Reconnaissance Seaplane|reconnaissance seaplane]] or a [[:Category:Seaplane Bombers|seaplane bomber]].
+* Ships with a slot size of 0 are unable to perform artillery spotting.
+** Where ships have a mix of valid slots and size-0 slots, placing the seaplane in the size-0 slots will render her unable to artillery spot.
+
+3. Ships must have at least one main gun {{RedGunHeavy}}{{RedGunMedium}}.
+
+4. Ships must not be <span style="color:red;">'''heavily damaged (大破)'''</span>
+
+=Attack Types=
+The following are the equipment requirements to trigger artillery spotting.
+
+{| class="wikitable sortable" style="width: 100%;"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" rowspan="2" colspan="2"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;" colspan="6"| '''Number of Equipment'''
+!style="width: 5%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" colspan="2"| '''Multiplier'''
+!style="width: 15%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Notes'''
+|- 
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Main Gun'''<br>{{RedGunHeavy}}{{RedGunMedium}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Secondary Gun'''<ref>Only [[:Category:Secondary High-Angle_Gun|certain high-angle guns]] count as secondaries.</ref><br>{{YellowGun}}{{GreenGunDP}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''AP Shell'''<br>{{RedAmmo}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''RADAR'''<br>{{Radar}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Zuiun'''<br>{{Seaplane}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Suisei (634) Variants'''<br>{{RedPlane}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:2.5%;"| '''Attack'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:2.5;"| '''Accuracy'''
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;" rowspan="6"| Cut-In
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Main
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 150%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/AP
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/RADAR
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 150%
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Secondary
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 110%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Zuiun
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 135%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| ??
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| [[Ise]] or [[Hyuuga]] Kai Ni Only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Suisei
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| ??
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| [[Ise]] or [[Hyuuga]] Kai Ni Only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;" colspan="2"| Double Attack
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 120% x2
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 110%
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|}<references/>
+
+{{clear}}
+[[File:Main_Main_Cutin.png|thumb|right|Musashi is performing a Main/Main Cut-In]]
+'''Important Notes'''
+
+* If a ship meets the requirements for multiple attacks, the game will check each special attack in order of priority.
+** Priority is according to the table above.
+** The Suisei and Zuiun cut ins take priority for Ise and Hyuuga.
+* Equipping more than the stated number of equipment will still trigger the attack.
+* The order of the equipment on the ship is not important.
+* If artillery spotting fails to penetrate enemy armour or the enemy evades, it will deal [[Damage Calculations#Chip Damage|chip damage instead]].
+* If the ship fails to artillery spot, it will do a normal attack instead.
+
+=Trigger Rate=
+
+''Reminder that all formulas are rounded down.''
+
+<math>\text{Spotting %} = \dfrac{\text{Base %}}{\text{Const}_\text{Atk}} \times 100</math>
+
+Where:
+
+<math>\text{Base %} = \bigl\lfloor \left( 10 + \sqrt{\text{Luck}} + \text{Mod}_\text{Air 1} + \text{Const}_\text{Flag} \right) + \lfloor \text{LOS}_\text{Fleet} + \left[ \text{Mod}_\text{Air 2} \times \text{LOS}_\text{Ship} \right) \rfloor \times \text{Mod}_\text{Air 3} \bigr\rfloor</math>
+
+* <math>\text{Const}_\text{Atk}</math> is a constant based on the attack. Values are taken from datamined information from the KanColle Kai Vita game.
+** Main/Main = <math>150</math>
+** Main/AP = <math>140</math>
+** Main/RADAR = <math>130</math>
+** Main/Secondary = <math>120</math>
+** Double Attack = <math>130</math>
+* <math>\text{Luck}</math> is the {{Luck}} of the ship.
+* <math>\text{LOS}_\text{Ship}</math> is the ship's total LOS {{LOS}} including equipment.
+* <math>\text{LOS}_\text{Fleet}</math> is the fleet's LOS {{LOS}} calculated as <math>\biggl\lfloor \sqrt{\text{LOS}_\text{weighted}} + \frac{\text{LOS}_\text{weighted}}{10}\biggr\rfloor</math>
+** <math>\text{LOS}_\text{weighted} =  \sum_{\text{All Ships}} \text{LOS}_\text{base} + \sum_{\text{Seaplanes}} \text{LOS}_{equip} \times \sqrt{\text{Size}_\text{slot}}</math>
+** <math>\text{LOS}_\text{base}</math> is the LOS {{LOS}} of the ship '''without equipment'''.
+** <math>\text{LOS}_{equip}</math> is the LOS {{LOS}} of the '''reconnaissance seaplanes and seaplane bombers''' equipped.
+** <math>\text{Size}_\text{slot}</math> is the size of the slot where a reconnaissance seaplane or seaplane bomber is equipped.
+* <math>\text{Mod}_\text{Air 1}</math> is the first air state modifier of <math>10</math> for '''Air Supremacy (AS+)''' and <math>0</math> for '''Air Superiority (AS)'''
+* <math>\text{Mod}_\text{Air 2}</math> is the second air state modifier of <math>1.6</math> for '''Air Supremacy (AS+)''' and <math>1.2</math> for '''Air Superiority (AS)'''
+* <math>\text{Mod}_\text{Air 3}</math> is the third air state modifier of <math>0.7</math> for '''Air Supremacy (AS+)''' and <math>0.6</math> for '''Air Superiority (AS)'''
+* <math>\text{Const}_\text{Flag}</math> is the flagship constant of <math>15</math> for flagships, <math>0</math> otherwise.
+
+'''Important Notes'''
+
+* Because slot sizes play a part in determining trigger chance, it is best to put seaplanes in the largest slot available.
+* Increasing the {{LOS}} of your ships through levels and equipment will help increase trigger rate.
+* Having a combination of different attack types available will drastically increase the chance that your ships will perform artillery spotting.
+* The higher the Attack Constant, the lower the chance of triggering that attack.
+
+=Equipment Setups=
+
+Below are recommended equipment setups for artillery spotting. If an attack type is not listed, it means that it is subpar and not worth considering. The order of the equipment is for illustrative purposes only. It '''does not''' matter what order the equipment are in.
+
+{| class="wikitable" style="width: 100%;"
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Battleships
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{RedGunHeavy}}{{RedGunHeavy}}{{Seaplane}}{{RedAmmo}}
+|Main/Main Cut-In<br>
+Double Attack
+|This is the standard setup for all battleships. It allows you to perform both the powerful AP cut-in and a double attack as backup. For battleships with 5 slots, the last equipment must not be a secondary gun or radar.
+|-
+|{{RedGunHeavy}}{{RedGunHeavy}}{{Seaplane}}{{GreenAmmo}}
+|Double Attack
+|This is reserved for anti-installation work. It will reduce a battleship's effectiveness against surface targets so keep that in mind when using this setup.
+|-
+|{{RedGunHeavy}}{{RedGunHeavy}}{{Seaplane}}{{RedAmmo}}{{Radar}}'''<'''{{GreenGunDP}}'''>'''
+|Main/Main Cut-In<br>
+Main/AP Cut-In<br>
+Main/RADAR Cut-In<br>
+Main/Secondary Cut-In<br>
+Double Attack
+|This setup is exclusive to [[Musashi|Musashi Kai Ni]] when she has the [[10cm Twin High-angle Gun Mount Kai + Additional Machine Guns]] equipped in her reinforcement expansion and an anti-air radar. This setup is to allow her to perform her special AACI.
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Heavy Cruisers
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{RedGunMedium}}{{RedGunMedium}}{{Seaplane}}{{WildCard}}
+|Double Attack
+|This is the standard setup for heavy cruisers. It allows them to double attack at daytime and nighttime. The wild card can be a radar, night battle equipment or even a Type 3 shell for anti-installation work. The wild card should not be a torpedo because it will interfere with night battle special attacks.
+|-
+|{{RedGunMedium}}{{RedGunMedium}}{{RedGunMedium}}{{Seaplane}}
+|Double Attack
+|This is a setup to maximise firepower during the daytime. It's use should be limited to the main fleet of a combined fleet. This is because it will trigger a gun cut-in at night which can be undesirable.
+|-
+|{{RedGunMedium}}{{SeaplaneFighter}}{{SeaplaneFighter}}{{Seaplane}}'''<'''{{GreenGunDP}}'''>'''
+|Main/Secondary Cut-In
+|This is exclusive to [[Suzuya|Suzuya Kai Ni]] and [[Kumano|Kumano Kai Ni]] that have either the [[8cm High-angle Mount]] or [[8cm Twin High-angle Mount + Additional Machine Guns]] equipped in their reinforcement expansion. This setup is for them to maximise the fighter power while allowing them to do artillery spotting in the day and double attacks at night.
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Light Cruisers
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{RedGunMedium}}{{RedGunMedium}}{{Seaplane}}
+|Double Attack
+|This is the standard setup for light cruisers. It allows them to double attack at daytime and nighttime. For light cruisers with four slots, the wild card be a radar or night battle equipment. The wild card should not be a torpedo because it will interfere with night battle special attacks.
+|-
+|{{RedGunMedium}}{{Seaplane}}{{TorpedoWeapon}}'''<'''{{GreenGunDP}}'''>'''
+|Main/Secondary Cut-In
+|This is exclusive to [[Yura|Yura Kai Ni]] when she has either the [[8cm High-angle Mount]] or [[8cm Twin High-angle Mount + Additional Machine Guns]] equipped in her reinforcement expansion. The torpedo equipment '''must''' be a midget submarine. It allows her to perform both artillery spotting and have an opening torpedo while maintaining double attacks at night.
+|-
+!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="3"| Seaplane Tenders
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+|- 
+|{{RedGunMedium}}{{RedGunMedium}}{{Seaplane}}{{WildCard}}
+|Double Attack
+|Essentially the only seaplane tender that you would run a spotting setup on is [[Nisshin]] and [[Commandant Teste]]. Although other seaplane tenders are capable of performing artillery spotting, you would be giving up an opening torpedo to do so. The wild card for Nisshin should be a midget submarine.
+|-
+|}<references/>
+
+{{clear}}
+
+=See Also=
+
+{{Mechanics}}

@@ -1,0 +1,99 @@
+{{Navbox
+| name   = Template:Shiplist
+| state = mw-collapsible 
+| title = <span style="color:black;">'''[[Ship|List of Ships]]'''</span>
+| basestyle  = background-color:#99CCFF;
+| titlestyle = color:black;
+| liststyle = border:0px none; padding-left:4px; padding:5px; 
+| groupstyle =  color:black; padding:5px; 
+| style      = color:black; background-color:#FFFFFF; border:1px solid #1A5B70; width:100%;
+| abovestyle = background-color:#CCDDFF;
+| above = '''[[Ship Class|By Class]]{{·}}[[Ship List (Image)|Gallery]]{{·}}[[Ship list|Start Stats]]{{·}}[[Ship Maximum Status|Max Stats]]{{·}}[[Drop List]]{{·}}[[List of ships required by quests and expeditions|By Quests & Expeditions]]'''
+|group1 = <center>'''[[EliteDD|Destroyers]] (DD)'''</center>
+|list1 = {{Navbox|child
+  |basestyle  = background-color:#99CCFF;
+  |groupstyle = color:black; background-color:#CCDDFF 
+  |group1 = [[:Category:Kamikaze Class|Kamikaze Class]]
+  |list1 = [[Kamikaze]]{{·}}[[Harukaze]]{{·}}[[Asakaze]]{{·}}[[Matsukaze]]{{·}}[[Hatakaze]]
+  |group2 = [[:Category:Mutsuki Class|Mutsuki Class]]
+  |list2 = [[Mutsuki]]{{·}}[[Kisaragi]]{{·}}[[Yayoi]]{{·}}[[Uzuki]]{{·}}[[Satsuki]]{{·}}[[Minazuki]]{{·}}[[Fumizuki]]{{·}}[[Nagatsuki]]{{·}}[[Kikuzuki]]{{·}}[[Mikazuki]]{{·}}[[Mochizuki]]
+  |group3 = [[:Category:Fubuki Class|Fubuki Class]]
+  |list3 = [[Fubuki]]{{·}}[[Shirayuki]]{{·}}[[Hatsuyuki]]{{·}}[[Miyuki]]{{·}}[[Murakumo]]{{·}}[[Usugumo]]{{·}}[[Isonami]]{{·}}[[Uranami]]
+  |group4 = [[:Category:Ayanami Class|Ayanami Class]]
+  |list4 = [[Ayanami]]{{·}}[[Shikinami]]{{·}}[[Amagiri]]{{·}}[[Sagiri]]{{·}}[[Oboro]]{{·}}[[Akebono]]{{·}}[[Sazanami]]{{·}}[[Ushio]]
+  |group5 = [[:Category:Akatsuki Class|Akatsuki Class]]
+  |list5 = [[Akatsuki]]{{·}}[[Hibiki|Hibiki/{{lang|ru|Верный}}]]{{·}}[[Ikazuchi]]{{·}}[[Inazuma]]
+  |group6 = [[:Category:Hatsuharu Class|Hatsuharu Class]]
+  |list6 = [[Hatsuharu]]{{·}}[[Nenohi]]{{·}}[[Wakaba]]{{·}}[[Hatsushimo]]{{·}}[[Ariake]]
+  |group7 = [[:Category:Shiratsuyu Class|Shiratsuyu Class]] 
+  |list7 = [[Shiratsuyu]]{{·}}[[Shigure]]{{·}}[[Murasame]]{{·}}[[Yuudachi]]{{·}}[[Harusame]]{{·}}[[Samidare]]{{·}}[[Umikaze]]{{·}}[[Yamakaze]]{{·}}[[Kawakaze]]{{·}}[[Suzukaze]]
+  |group8 = [[:Category:Asashio Class|Asashio Class]]
+  |list8 = [[Asashio]]{{·}}[[Ooshio]]{{·}}[[Michishio]]{{·}}[[Arashio]]{{·}}[[Asagumo]]{{·}}[[Yamagumo]]{{·}}[[Minegumo]]{{·}}[[Kasumi]]{{·}}[[Arare]]
+  |group9 = [[:Category:Kagerou Class|Kagerou Class]]
+  |list9 = [[Kagerou]]{{·}}[[Shiranui]]{{·}}[[Kuroshio]]{{·}}[[Oyashio]]{{·}}[[Hatsukaze]]{{·}}[[Yukikaze]]{{·}}[[Amatsukaze]]{{·}}[[Tokitsukaze]]{{·}}[[Urakaze]]{{·}}[[Isokaze]]{{·}}[[Hamakaze]]{{·}}[[Tanikaze]]{{·}}[[Nowaki]]{{·}}[[Arashi]]{{·}}[[Hagikaze]]{{·}}[[Maikaze]]{{·}}[[Akigumo]]
+  |group10 = [[:Category:Yuugumo Class|Yuugumo Class]]
+  |list10 = [[Yuugumo]]{{·}}[[Makigumo]]{{·}}[[Kazagumo]]{{·}}[[Naganami]]{{·}}[[Takanami]]{{·}}[[Fujinami]]{{·}}[[Hayanami]]{{·}}[[Hamanami]]{{·}}[[Okinami]]{{·}}[[Kishinami]]{{·}}[[Asashimo]]{{·}}[[Hayashimo]]{{·}}[[Akishimo]]{{·}}[[Kiyoshimo]]
+  |group11 = [[:Category:Akizuki Class|Akizuki Class]]
+  |list11 = [[Akizuki]]{{·}}[[Teruzuki]]{{·}}[[Hatsuzuki]]{{·}}[[Suzutsuki]]
+  |group12 = [[:Category:Shimakaze Class|Shimakaze Class]]
+  |list12 = [[Shimakaze]]
+  |group13 = [[:Category:Matsu Class|Matsu Class]]
+  |list13 = [[Matsu]]{{·}}[[Take]]
+  |group14 = [[:Category:Type 1934 Class|Type 1934 Class]] 
+  |list14 = [[Z1]]{{·}}[[Z3]]
+  |group15 = [[:Category:Maestrale Class|Maestrale Class]]
+  |list15 = [[Maestrale]]{{·}}[[Grecale]]{{·}}[[Libeccio]]{{·}}[[Scirocco]]
+  |group16 = [[:Category:J Class|J Class]]
+  |list16 = [[Jervis]]{{·}}[[Janus]]
+  |group17 = [[:Category:Tashkent Class|Tashkent Class]]
+  |list17 = [[Tashkent]]
+  |group18 = [[:Category:John C. Butler Class|John C. Butler Class]]
+  |list18 = [[Samuel B. Roberts]]
+  |group19 = [[:Category:Fletcher Class|Fletcher Class]]
+  |list19 = [[Fletcher]]{{·}}[[Johnston]]
+ }}
+
+|group2 = <center>[[Destroyer_Escorts|Destroyer Escorts]] '''(DE)'''<br> (Escort Ships)</center>
+|list2 = {{Navbox|child
+  |basestyle  = background-color:#99CCFF;
+  |groupstyle = color:black; background-color:#CCDDFF 
+  |group1 = [[:Category:Shimushu_Class|Shimushu Class]]
+  |list1 = [[Shimushu]]{{·}}[[Kunashiri]]{{·}}[[Ishigaki]]{{·}}[[Hachijou]]
+  |group2 = [[:Category:Etorofu_Class|Etorofu Class]]
+  |list2 = [[Etorofu]]{{·}}[[Matsuwa]]{{·}}[[Sado]]{{·}}[[Tsushima]]{{·}}[[Hirato]]{{·}}[[Fukae]]
+  |group3 = [[:Category:Mikura_Class|Mikura Class]]
+  |list3 = [[Mikura]]{{·}}[[Yashiro]]
+  |group4 = [[:Category:Hiburi_Class|Hiburi Class]]
+  |list4 = [[Hiburi]]{{·}}[[Daitou]]
+  |group5 = Type D
+  |list5 = [[Kaiboukan No.4]]
+}}
+
+|group3 = <center>[[Elitecl|Light Cruisers]] '''(CL)'''</center>
+|list3 = [[Tenryuu]]{{·}}[[Tatsuta]]{{·}}[[Kuma]]{{·}}[[Tama]]{{·}}[[Kitakami]]{{·}}[[Ooi]]{{·}}[[Kiso]]{{·}}[[Nagara]]{{·}}[[Isuzu]]{{·}}[[Natori]]{{·}}[[Yura]]{{·}}[[Kinu]]{{·}}[[Abukuma]]{{·}}[[Yuubari]]{{·}}[[Sendai]]{{·}}[[Jintsuu]]{{·}}[[Naka]]{{·}}[[Agano]]{{·}}[[Noshiro]]{{·}}[[Yahagi]]{{·}}[[Sakawa]]{{·}}[[Ooyodo]]{{·}}[[Gotland]]{{·}}[[Duca degli Abruzzi]]{{·}}[[Giuseppe Garibaldi]]{{·}}[[Perth]]{{·}}[[De Ruyter]]{{·}}[[Atlanta]]{{·}}[[Helena]]{{·}}[[Sheffield]]
+
+|group4 = <center>[[Eliteca|Heavy Cruisers]] '''(CA)'''</center>
+|list4 = [[Furutaka]]{{·}}[[Kako]]{{·}}[[Aoba]]{{·}}[[Kinugasa]]{{·}}[[Myoukou]]{{·}}[[Nachi]]{{·}}[[Ashigara]]{{·}}[[Haguro]]{{·}}[[Takao]]{{·}}[[Atago]]{{·}}[[Maya]]{{·}}[[Choukai]]{{·}}[[Mogami]]{{·}}[[Mikuma]]{{·}}[[Suzuya]]{{·}}[[Kumano]]{{·}}[[Tone]]{{·}}[[Chikuma]]{{·}}[[Prinz Eugen]]{{·}}[[Zara]]{{·}}[[Pola]]{{·}}[[Houston]]
+
+|group5 = <center>[[elitebb|Battleships]] '''(BB)'''</center>
+|list5 = [[Kongou]]{{·}}[[Hiei]]{{·}}[[Haruna]]{{·}}[[Kirishima]]{{·}}[[Fusou]]{{·}}[[Yamashiro]]{{·}}[[Ise]]{{·}}[[Hyuuga]]{{·}}[[Nagato]]{{·}}[[Mutsu]]{{·}}[[Yamato]]{{·}}[[Musashi]]{{·}}[[Bismarck]]{{·}}[[Littorio]]{{·}}[[Roma]]{{·}}[[Iowa]]{{·}}[[Warspite]]{{·}}[[Gangut]]{{·}}[[Richelieu]]{{·}}[[Nelson]]{{·}}[[Colorado]]{{·}}[[South Dakota]]{{·}}[[Washington]]
+
+|group6 = <center>[[elitecvl|Light Carriers]] '''(CVL)'''</center>
+|list6 = [[Houshou]]{{·}}[[Ryuujou]]{{·}}[[Taigei|Ryuuhou]]{{·}}[[Hiyou]]{{·}}[[Junyou]]{{·}}[[Zuihou]]{{·}}[[Shouhou]]{{·}}[[Chitose]]{{·}}[[Chiyoda]]{{·}}[[Kasuga Maru|Taiyou]]{{·}}[[Shinyou]]{{·}}[[Gambier Bay]]
+
+|group7 = <center>[[elitecv|Standard Carriers]] '''(CV)'''</center>
+|list7 = [[Akagi]]{{·}}[[Kaga]]{{·}}[[Souryuu]]{{·}}[[Hiryuu]]{{·}}[[Shoukaku]]{{·}}[[Zuikaku]]{{·}}[[Taihou]]{{·}}[[Unryuu]]{{·}}[[Amagi]]{{·}}[[Katsuragi]]{{·}}[[Graf Zeppelin]]{{·}}[[Aquila]]{{·}}[[Saratoga]]{{·}}[[Ark Royal]]{{·}}[[Intrepid]]{{·}}[[Hornet]]
+
+|group8 = <center>[[elitess|Submarines]] '''(SS)'''</center>
+|list8 = [[I-168]]{{·}}[[I-8]]{{·}}[[I-19]]{{·}}[[I-26]]{{·}}[[Maruyu]]{{·}}[[I-58]]{{·}}[[I-13]]{{·}}[[I-14]]{{·}}[[I-400]]{{·}}[[I-401]]{{·}}[[I-47]]{{·}}[[U-511|U-511/Ro-500]]{{·}}[[Luigi Torelli|Luigi Torelli/UIT-25/I-504]]
+
+|group9 = <center>[[eliteav|Seaplane Tenders]] '''(AV)'''</center>
+|list9 = [[Chitose]]{{·}}[[Chiyoda]]{{·}}[[Mizuho]]{{·}}[[Nisshin]]{{·}}[[Akitsushima]]{{·}}[[Commandant Teste]]{{·}}[[Kamoi]]
+
+|group10 = <center>[[Auxiliary Ships]]</center>
+|list10 = [[Taigei]]{{·}}[[Akashi]]{{·}}[[Katori]]{{·}}[[Kashima]]{{·}}[[Akitsu Maru]]{{·}}[[Hayasui]]{{·}}[[Kamoi]]{{·}}[[Shinshuu Maru]]{{·}}[[Jingei]]
+
+| belowstyle = background-color:#CCDDFF; 
+| below = [[Enemy Vessel|'''<span style="color:crimson">Enemy Vessels</span>''']]
+}}
+[[Category:Ships]] <noinclude>[[Category:Navbox Templates]]</noinclude>

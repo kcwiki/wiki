@@ -1,0 +1,187 @@
+==Parameter Naming==
+Module invocation is done via passing parameters and arguments. These parameter names and argument values are all done in the following format
+*<Node Letter><Pattern Number>_<parameter> = <argument value>
+except for assigning node labels which is shown below.
+
+All parameters still need a pipe character, "|", before the parameter call. 
+Eg, (replace '{' with '{{')
+*{#invoke:EnemyEncounters | encounterTemplate<br>|A1_xp=900<br>|A1_lv=< 80<br>|A1_node_info=BBV_Re-class_Elite bbv_re-class_elite cv_wo-class_flagship_kai clt_chi-class_flagship ss_so-class_flagship ss_so-class_flagship<br>|A1_form=line_ahead<br>}
+
+All parameters passed to the EnemyEncounters module are named under a simple scheme as described in each subsequent section.<br>
+<b>You may add span and css tags as you wish as they will be pasted in directly to the page. Examples are below.</b>
+
+'''''<span style="color:red">Everything is Case-Insensitive</span>'''''
+===Node Label===
+Simply pass the name of the node with 
+*<Node Letter>_label = <some name>
+For example,
+*A_label =  Night Battle
+*B_label = 敵前衛警戒部隊 &lt;br&gt; &lt;span style="color:yellow"&gt;Day Battle&lt;/span&gt;
+
+===Air Superiority and Air Supremacy===
+The module will automatically calculate required air power for Air Superiority and Air Supremacy.
+*<Node Letter and Pattern Number>_enemy_air_power = <value>
+'''Do not pass a value of 0 unless enemy launches plane but has 0 air power (e.g. [[Anchorage Water Demon]]).'''
+
+For example,
+*B2_enemy_air_power = 50
+
+
+===Boss Nodes===
+If an explicit boss node is not given, the module will assume it is the last letter given.
+
+*boss_node = <Node letter>
+Eg,
+*boss_node = M
+*boss_node = J
+
+===Xp===
+*<Node Letter and Pattern Number>_xp = <value>
+Eg,
+*F3_xp = 120
+
+===Pattern By Level===
+In the case that a pattern's appearance is determined by the HQ level such as 1-5 ExOp's first node.
+*<Node Letter and Pattern Number>_lv = <expression>
+Eg,
+*A2_lv = >80 (Node A's pattern 2 will show up for admirals over level 80)
+*A1_lv = <=80 (Node A's pattern 1 will show up for admirals equal to or under level 80)
+
+===Form===
+Form refers to the enemy formation.
+*<Node Letter and Pattern Number>_form = <formation>
+Formations are:
+*line_ahead
+*double_line
+*diamond
+*echelon
+*line_abreast
+
+Examples are:
+*A1_form = line_ahead
+*B2_form = line_abreast
+
+===Node Final Forms===
+This is for denoting that a certain node pattern is the final form. For example, the composition of an enemy fleet might change for the final kill of a gauge map. These would be denoted by being a "final form" of the node's patterns. The parameter takes multiple arguments because there may be multiple final forms for a node.
+
+*final_form = <space separated list of nodepatterns>
+Eg,
+*final_form = C2 C3
+
+===Node Post-Clear Forms===
+This is for denoting certain node pattern(s) that only appear after the map is cleared. These would be denoted by being a "post-clear only form" of the node's patterns. The parameter takes multiple arguments because there may be multiple post-clear only forms for a node.
+
+*post_final_form = <space separated list of nodepatterns>
+Eg,
+*post_final_form = D2 D3
+
+===Enemies===
+Enemies are passed in a single parameter,
+*<Node Letter and Pattern Number>_node_info = <argument>
+The formation argument should simply be the enemy names, listed below, separated by a space.
+All spellings are English spellings. Eg, "harbor" instead of "harbour".
+All enemy information can be seen at the bottom of the source as there is a gigantic table of the mappings.
+
+Enemy ship names are done as follows:
+*<Shiptype>_<Class Name>_<Extra Ship Parameters>
+where Shiptype is from the following list
+*DD
+*CL
+*CLT
+*CA
+*CVL
+*CV
+*BB
+*BBV
+*Transport
+*SS
+
+The class name is for example:
+*Wo-class
+*Re-class
+*Nu-class
+*Ha-class
+
+The Extra Ship parameter is optional and from the following list
+*Elite
+*Flagship
+*Flagship_2
+*Flagship_Kai
+*Late_Model
+
+'''Some examples are:'''
+*''SS_Yo-class''
+*''Transport_Wa-class_Flagship''
+*''CVL_Nu-class_Flagship''
+*''CV_Wo-class_Flagship_Kai''
+
+'''For bosses, type out their full name (don't use shorthand like BB_hime).
+*For final forms, simply add "_final_form" at the end
+*Floating Fortresses and Escort Fortresses have three forms and need "_1", "_2", and "_3" appended
+**floating_fortress_1
+**floating_fortress_2
+**etc
+*For Hoppou (Northern Hime), the 3-5 form has 3-5 appended as such
+**northern_princess_3-5_final_form
+
+You would invoke the full argument such as follows:
+*B2_node_info = clt_chi-class_elite dd_ro-class_elite dd_ni-class_late_model
+*C5_node_info = dd_i-class_late_model cl_he-class_flagship
+
+You can find all ship names via the [[Enemy Vessel|enemy vessel's]] page. Simply replace spaces with underscores.
+
+===Information for Non-Combat Nodes===
+For nodes such as maelstroms and resource nodes, you will use the "node_info" argument.<br>
+As a note, the words <b>"fuel"</b>, <b>"steel"</b>, <b>"ammo"</b> and <b>"bauxite"</b> will be replaced by their respective small icons such as
+[[File:Fuel.png|Fuel|25px]] [[File:Ammunition.png|Ammo|25px]] [[File:Steel.png|Steel|25px]] [[File:Bauxite.png|Bauxite|25px]]
+
+Eg,
+*B2_node_info = Maelstrom fuel -50 75 100 125
+will result in
+*''Maelstrom [[File:Fuel.png|Fuel|25px]] -50 75 100 125''
+
+Eg,
+*B3_node_info = "Must be my imagination" (battle avoided)
+*C2_node_info = "steel +100 125 150 175
+
+==Example invocation==
+<code>&#123;&#123;#invoke:EnemyEncounters|encounterTemplate<br>
+|A1_xp=900<br>
+|A1_lv=< 80<br>
+|A1_node_info=BBV_Re-class_Elite bbv_re-class_elite cv_wo-class_flagship_kai clt_chi-class_flagship ss_so-class_flagship ss_so-class_flagship<br>
+|A1_form=line_ahead<br>
+|<br>
+|A2_xp=9000<br>
+|A2_lv=> 80<br>
+|A2_node_info=fuel +50 75 100 125<br>
+|A2_enemy_air_power = 33<br>
+|<br>
+|B1_xp=900<br>
+|B1_node_info=Maelstrom fuel -50<br>
+|B_label = 敵前衛警戒部隊 &lt;br&gt; &lt;span style="color:yellow"&gt;Day Battle&lt;/span&gt;<br>
+|final_form = A2
+|post_final_form = A1&#125;&#125;</code>
+
+will result in 
+
+{{#invoke:EnemyEncounters|encounterTemplate
+|A1_xp=900
+|A1_lv=< 80
+|A1_node_info=BBV_Re-class_Elite bbv_re-class_elite cv_wo-class_flagship_kai clt_chi-class_flagship ss_so-class_flagship ss_so-class_flagship
+|A1_form=line_ahead
+|
+|A2_xp=9000
+|A2_lv=> 80
+|A2_node_info=fuel +50 75 100 125
+|A2_enemy_air_power = 33
+|
+|B1_xp=900
+|B1_node_info=Maelstrom fuel -50
+|B_label = 敵前衛警戒部隊 <br> <span style="color:yellow">Day Battle</span>
+|final_form = A2
+|post_final_form = A1}}
+
+Ignore the nonsense pattern information, please :D (Apparently you fight a maelstrom at node B and it's only day battle)
+
+==Credit==
+Module written by [[User:Remi_Scarlet|Remi_Scarlet]]

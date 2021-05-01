@@ -1,0 +1,102 @@
+{{documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{{template shortcut|bull|bullet}} 
+__NOTOC__ 
+This is the '''bullet''' template; it looks like this: [&nbsp;&bull; ]
+
+It works similarly to the HTML markup sequence: [<code>'''&amp;nbsp;&amp;bull;'''&nbsp;</code>], that is, a [[non-breaking space]], a [[Bullet (typography)|bullet]] and a normal [[Space (punctuation)|space]].
+
+This template is used when you want a larger bullet than a [[Template:·|bold middot]] ['''&middot;'''], but something smaller than an [[Template:spaced ndash|en dash]] [&ndash;]. 
+
+This template's use for dotted lists is now '''deprecated'''. use {{Tl|Flatlist}} or <code>class="hlist"</code> instead; see [[WP:HLIST]].
+
+== Normal usage ==
+The recommended usage is to use ''no'' space before the template and one space after the template, like this:
+ <nowiki>[[Salt]]{{&bull;}} [[Pepper]]</nowiki>
+
+Because the template ''contains'' a non-breaking space on the left side, the text will render one space on each side of the bullet, like this:
+:[[Salt]] &bull; [[Black pepper|Pepper]]
+
+The purpose of this is to ensure that, if the line breaks, it will do so on the right side of the bullet.
+:[[Salt]] &bull; 
+:[[Black pepper|Pepper]]
+{| class="wikitable" style="border: none; background: none;"
+|Colspan=2 |<center>Here's an example of how it's used</center>
+|-
+|| Template Bull is not really intended to be used in article text; it's intended for use in other templates, tables, lists and other equivalent things, in order to include a separator between items such as in infoboxes. It's also to be consistent so that the article editor can use their choice of '''<nowiki>{{</nowiki>bull}}''', '''<nowiki>{{</nowiki>dot}}''', '''<nowiki>{{</nowiki>middot}}''', or  '''<nowiki>{{</nowiki>ndash}}''' and not have to insert the {{bull}}, {{dot}}, {{middot}}, or {{ndash}}  symbol, they can use any of these as a simple macro.  The idea being that if you have a table with a list of items, you can insert a bullet (or the other symbols) between items that will appear correct, in that the items always have just one separator between them, and when a list crawls to the next line, the bullet hangs onto the prior item instead of rolling over to the next line.  Notice on the end of this box, the bullet symbol "&bull;" hangs on the end of the last item that will fit on the line indicating that additional items follow on the next line as part of this list, but the item only stays on the line if the item and the dash will fit.  See the column on the right.  In code it's ''' Item1<nowiki>{{</nowiki>bull}} Item2<nowiki>{{</nowiki>bull}} Item3<nowiki>{{</nowiki>bull}} Item4<nowiki>{{</nowiki>bull}} Item5<nowiki>{{</nowiki>bull}}''' etc. (with some smaller items squeezed in to show that the list doesn't have to be the same number of items per line) but in the box they all fold perfectly once it runs out of space on the line to fit the next item and the symbol following.
+| <p>Normally, in a real box these items would be links, but this is an example.</p> Item1{{bull}} A{{bull}} B{{bull}} Item2{{bull}} Item3{{bull}} Item4{{bull}} Item5{{bull}} extra item{{bull}} E{{bull}} 1{{bull}} 2{{bull}} 3{{bull}} 4{{bull}} 5{{bull}} 6{{bull}} 7{{bull}} {{nowrap|item that won't attach to prior line unless it fits in the remaining space{{bull}}}} Q{{bull}} A slightly longer item{{bull}} KK{{bull}} An obviously really even longer item that the bullet will hang at its end{{bull}} Item6{{bull}} C{{bull}} Item7{{bull}} Item8{{bull}} Item9{{bull}} Item10{{bull}} Item11{{bull}} Item12{{bull}} D{{bull}} Item13{{bull}} Item14{{bull}} Item15{{bull}} Item16{{bull}} Item17{{bull}} Item18 <p>The space on the end makes sure the bullet doesn't touch the edge of the box, either</p>
+|}
+
+== Incorrect usage ==
+If the template is used slightly wrong, it will, in some cases, still behave well. For instance, if there are no or several spaces after the template, like these examples:
+
+ <nowiki>[[Salt]]{{&bull;}}[[Pepper]]</nowiki>
+ <nowiki>[[Salt]]{{&bull;}}   [[Pepper]]</nowiki>
+
+Both of them will render exactly as before, with just one space on each side of the bullet, like this:
+:[[Salt]] &bull; [[Black pepper|Pepper]]
+
+And it will still only line break ''after'' the bullet, like this:
+:[[Salt]] &bull; 
+:[[Black pepper|Pepper]]
+
+But putting one or more spaces before the template will cause problems, like these examples:
+ <nowiki>[[Salt]] {{&bull;}}[[Pepper]]</nowiki>
+ <nowiki>[[Salt]]   {{&bull;}}[[Pepper]]</nowiki>
+ <nowiki>[[Salt]] {{&bull;}} [[Pepper]]</nowiki>
+ <nowiki>[[Salt]]   {{&bull;}}   [[Pepper]]</nowiki>
+
+Then it will render with ''two'' spaces before the bullet and one after, like this:
+:[[Salt]] &nbsp;&bull; [[Black pepper|Pepper]]
+
+And if it line breaks it might break ''before'' the bullet, like this:
+:[[Salt]] 
+:&nbsp;&bull; [[Black pepper|Pepper]]
+
+==Template data==
+{{TemplateDataHeader}}
+<templatedata>
+{
+        "description": "The template makes a bullet. There are no optional or required parameters for this template. 'bull' or 'bullet' may be used as alternative template names.",
+        "params": {
+         }
+}
+</templatedata>
+
+== Technical details ==
+The space before the bullet is a [[non-breaking space]]. That means it will not line break and will not collapse together with normal spaces that come before the template.
+
+The space after the bullet is a normal space. That means it wraps (allows line breaks) and it will collapse together with normal spaces that come after the template to form one single space.
+
+Under some circumstances, dotted link lists misbehave. They might get unexpected line wraps or they might expand outside the box they are enclosed in. The how-to guide: [[Wikipedia:Line break handling]], explains when that happens and how to fix it.
+
+* The bullet used is {{unichar|2022|Bullet|html=|note=hex: &amp;#x2022;}}.
+* Not to be confused with {{unichar|00B7|Middot|html=|note=hex: &amp;#x00B7;}}, used in {{tlx|&middot;}}.
+
+== Redirects ==
+* {{tl2|*}}
+* {{tl2|bull}}
+* {{tl2|bullet}}
+
+== See also ==
+There are several other templates with similar stream formatting purposes and such (or related) functionality:
+* {{tl2|·}}&nbsp;– bold middot or ('''&middot;''')
+* {{tl2|spaced ndash}}&nbsp;– [[dash#En dash|en dash]] or "&ndash;", a short [[dash]]
+* {{tl2|\}}&nbsp;– for the occasional slash or "/" in lists (note that the template is a backslash because template names may not contain a slash)
+* {{tl2|-!}} – Spaced pipe "|"
+
+===Wrap control templates===
+* You might need to handle proper word wrapping (line breaking):
+**{{tl|nowraplinks}} – Prevents wraps inside links and only allows wraps between the links and in normal text, very useful for link lists and easy to use.
+**{{tl|nowrap begin}} – Prevents wraps in both text and links. For the really tricky wrapping cases when you need full control, for instance in very complex link lists.
+* For further information, see: [[Wikipedia:Line break handling]] – The how-to guide detailing how to handle line wrapping on Wikipedia.
+
+=== Dot size reference list ===
+{{Dot size}}
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Typing-aid templates|{{PAGENAME}}]]
+[[Category:Wikipedia formatting and function templates|{{PAGENAME}}]]
+
+</includeonly>

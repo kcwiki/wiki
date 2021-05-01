@@ -1,0 +1,161 @@
+{{Infobox Person
+|nameEn = Ibaraki Ibuki
+}}
+I'm Admiral 茨木, stationed at Buin server (ブイン基地) since December 27, 2014.  If you find me, I hope my comment will be thought-provoking. <br/>
+And yes, I'm also [http://en.touhouwiki.net/wiki/User:IbarakiIbuki this guy]. How did you think I decided on my alias?
+
+[[/PVP Theory|My PVP "guide"]] for the curious and/or bored.
+
+<code>shipNum is a string, not a number</code>
+==To-Do List==
+#[[/Event Template Lab|'''Rework Event Template''']]
+#Fix Event Drop Lists
+#Convert Shipquote --> Shipquotekai on Shipgirl pages
+#Reorganize [[:Module:ShipDatabase]]
+#Incorporate modules into templates with data from [[:Module:ShipDatabase]]
+#* [[:Template:Shipinfo]]
+#Seasonal Quote Module
+#Akashi Workshop Template Implementation
+#Quest Info Module
+#*Revise [[List of ships required by quests and expeditions|ships by quests]]
+#Update Equipment Categories
+
+==Experiments==
+{{#invoke:DropTable|createDropTable
+|A_DD = [[Mutsuki]], [[Fubuki]], [[Yuudachi]]
+|B_CL = [[Sendai]], [[Jintsuu]], [[Naka]]
+|A_BB = [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]]
+|B_BB = [[Nagato]], [[Yamato]]
+}}
+
+{| class = "wikitable"
+|-
+| Sunk (Waifu) || <nowiki>^(Sunk).*</nowiki> || {{#invoke:RegExpr|findMatch|Sunk (Waifu)|^(Sunk).*}}
+|-
+| Wedding (Waifu) || <nowiki>^(Wedding).*</nowiki> || {{#invoke:RegExpr|findMatch|Wedding (Waifu)|^(Wedding).*}}
+|-
+| Secretary (Married) (Waifu) || ^(Secretary %(Married%)).* || {{#invoke:RegExpr|findMatch|Secretary (Married) (Waifu)|^(Secretary %(Married%)).*}}
+|}
+
+{|class = "wikitable"
+| Secretary (Married) (Italia) || {{#invoke:RegExpr|findMatch|Secretary (Married) (Italia)|^(Sunk).*}}{{#invoke:RegExpr|findMatch|Secretary (Married) (Italia)|^(Wedding).*}}{{#invoke:RegExpr|findMatch|Secretary (Married) (Italia)|(Secretary %(Married%)).*}}
+|-
+| Wedding (Italia) || {{#invoke:RegExpr|findMatch|Wedding (Italia)|^(Sunk).*}}{{#invoke:RegExpr|findMatch|Wedding (Italia)|^(Wedding).*}}{{#invoke:RegExpr|findMatch|Wedding (Italia)|(Secretary %(Married%)).*}}
+|-
+| Sunk (Italia) || {{#invoke:RegExpr|findMatch|Sunk (Italia)|^(Sunk).*}}{{#invoke:RegExpr|findMatch|Sunk (Italia)|^(Wedding).*}}{{#invoke:RegExpr|findMatch|Sunk (Italia)|(Secretary %(Married%)).*}}
+|}
+===ShipData Module===
+[[/ShipData Module|Page just for Module testing]]
+
+===Drop Table===
+[[/Drop Table Test|Potential alternative to Module:ShipDropTable]]
+===Resource Gauge Tables===
+entry = number of sorties needed to empty the gauge (approximate range) (from top to bottom: easy, medium, hard)
+====Fall 2015 E2====
+{| border="1" cellpadding="1" cellspacing="1" style="width: 670px; height: 400px; text-align:center;"
+! scope="col" |'''Number of Drum Canisters / '''
+<span style="font-weight:bold;">Number of Daihatsu</span>
+! scope="col" |0
+! scope="col" |1
+! scope="col" |2
+! scope="col" |3
+! scope="col" |4
+! scope="col" |5
+! scope="col" |6
+! scope="col" |7
+! scope="col" |8
+! scope="col" |9
+! scope="col" |10
+|-
+|'''0'''
+| 4 - 6 <br/> 8 - 12 <br/> 12 - 18
+| 4 - 5 <br/> 7 - 10 <br/> 10 - 15
+| 3 - 4 <br/> 6 - 8 <br/> 9 - 13
+| 3 - 4 <br/> 5 - 7 <br/> 8 - 12
+| 3 - 4 <br/> 5 - 7 <br/> 7 - 10
+| 2 - 3 <br/> 4 - 6 <br/> 6 - 9
+| 2 - 3 <br/> 4 - 6 <br/> 6 - 9
+| 2 - 3 <br/> 4 - 5 <br/> 5 - 8
+| 2 - 3 <br/> 3 - 5 <br/> 5 - 7
+| 2 - 2 <br/> 3 - 4 <br/> 5 - 7
+| 2 - 2 <br/> 3 - 4 <br/> 4 - 7
+|-
+|'''1'''
+| 3 - 5 <br/> 6 - 9 <br/> 9 - 14
+| 3 - 4 <br/> 5 - 8 <br/> 8 - 12
+| 3 - 4 <br/> 5 - 7 <br/> 7 - 11
+| 2 - 3 <br/> 4 - 6 <br/> 7 - 10
+| 2 - 3 <br/> 4 - 6 <br/> 6 - 9
+| 2 - 3 <br/> 4 - 5 <br/> 6 - 8
+| 2 - 3 <br/> 3 - 5 <br/> 5 - 8
+| 2 - 3 <br/> 3 - 5 <br/> 5 - 7
+| 2 - 2 <br/> 3 - 4 <br/> 5 - 7
+| 2 - 2 <br/> 3 - 4 <br/> 4 - 6
+| 2 - 2 <br/> 3 - 4 <br/> 4 - 6
+|-
+|'''2'''
+|3 - 4
+|2 - 4
+|2 - 3
+|2 - 3
+|2 - 3
+|2 - 3
+|2 - 2
+|2 - 2
+|2 - 2
+|2 - 2
+|2 - 2
+|-
+|'''3'''
+|2 - 3
+|2 - 3
+|2 - 3
+|2 - 3
+|2 - 3
+|2 - 2
+|2 - 2
+|2 - 2
+|2 - 2
+|2 - 2
+|1 - 2
+|}
+
+===Encounter===
+<!-- Encounter table borrowed from [[Sandbox#TEST]] "World B" version -->
+[[:Template:I-Class]]
+
+{| id="mw-customcollapsible" class="mw-collapsible mw-expanded wikitable"
+|-
+! style="text-align: center;" |'''Node'''
+! style="text-align: center;" |'''Pattern'''
+! style="text-align:center;" width="500px" |'''Encountered vessels'''
+! style="text-align: center;" |'''Form'''
+! style="text-align: center;" |''' Air '''
+|-
+| style="text-align:center;" rowspan="6" colspan="1" |A<br />敵水雷戦隊<br />'''<span style="color:gold">Day Battle</span>'''
+| style="text-align: center;" rowspan="3" |Pattern 1
+| style="text-align: center;" rowspan="3" |{{I-Class}} {{I-Class|type=Elite}} {{I-Class|type=Flagship}} {{I-Class|type=Late Model}} {{I-Class|type=Late Model Elite}}
+| style="text-align: center;" rowspan="3" |{{LineAhead}}
+|-
+| style="text-align: center;" |'''N/A'''
+|}
+
+===Quest===
+*[[User:IbarakiIbuki/QLink]]
+{{User:IbarakiIbuki/QLink|A19}}
+{{User:IbarakiIbuki/QLink|B22}}
+
+===Quote===
+[[/QuoteBox]]
+{| class="mw-collapsible" style="width: 100%;"
+!style="width: 10%; text-align: center; border-radius: 6px; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''{{#switch: {{{type|}}}| #default = Event | hourly = Time | seasonal = Ship}}'''
+!style="width: 90%; text-align: center; border-radius: 6px; border-style: solid; border-width: 1px; background-color:#99CCFF" colspan = 2| '''Voice Line'''
+|- 
+|rowspan="{{#expr: 2 * {{{numQuotes|1}}} }}" style="width: 10%; text-align: center; border-radius: 6px; border-style: solid; border-width: 1px; {{#if: {{{kai2|}}} | background-color:#FFB6C1 | {{#if: {{{kai|}}} | background-color:#ccffcc | background-color:#CCDDFF }} }}" | '''{{{scenario|Shiratsuyu}}}'''{{#switch: {{{scenario}}} | #default = | Equipment 3 =<ref>This line is shared with expedition selection, resource collection, instant repair and development.</ref> | Docking (Completed) =<ref>Unused line, likely would have been used as a repair notifier</ref> }} <br/>{{#if:{{{audio|}}} | {{Audio|file = {{{audio}}} }} }}
+{{:User:IbarakiIbuki/QuoteBox}}
+|-
+|rowspan="{{#expr: 2 * {{{numQuotes|3}}} }}" style="width: 10%; text-align: center; border-radius: 6px; border-style: solid; border-width: 1px; {{#if: {{{kai2|}}} | background-color:#FFB6C1 | {{#if: {{{kai|}}} | background-color:#ccffcc | background-color:#CCDDFF }} }}" | '''{{{scenario|Shigure}}}'''{{#switch: {{{scenario}}} | #default = | Equipment 3 =<ref>This line is shared with expedition selection, resource collection, instant repair and development.</ref> | Docking (Completed) =<ref>Unused line, likely would have been used as a repair notifier</ref> }} <br/>{{#if:{{{audio|}}} | {{Audio|file = {{{audio}}} }} }}
+{{:User:IbarakiIbuki/QuoteBox}}
+|-
+{{:User:IbarakiIbuki/QuoteBox}}
+|}

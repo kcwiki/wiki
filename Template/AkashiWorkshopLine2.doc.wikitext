@@ -1,0 +1,406 @@
+=Summary=
+This template is designed to accommodate for any item in [[Akashi's Improvement Arsenal|Akashi's workshop]] that has 2 different crafting trees with different requirements and/or resource costs. It must be accompanied by a manually formatted table or [[Template:AkashiWorkshop]] to make the content into a proper format.
+
+==Variables==
+Variables are identical to [[Template:AkashiWorkshopLine]] with the following caveats:
+*For the second route/type, every variable is identical but appended with ":2" (i.e: Fuel becomes Fuel:2)
+*If omitted from the second instance:
+**Fuel, Ammo, Steel, Bauxite, and the notes section will span the entire section with the data from the first instance.
+**Materials, screws, and consumed equipment will utilize the data from the first instance.
+***This enables you to only have to add a second instance for the data that differs.
+*The day of the week and 2nd ship fields are required for both instances, as they are the unique variables.
+
+
+=Examples=
+==Testing Example==
+Combined with [[Template:AkashiWorkshop]]. Strictly for purposes of seeing how the template works, data is gibberish.
+
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine2
+|Name=Daihatsu-class Landing Craft
+|ItemType=Turbine
+|Fuel=10
+|Ammo=0
+|Steel=30
+|Baux=30
+|Mats0-5=No2
+|Mats6-9=3/4
+|Mats10=6/9
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=No2
+|EquipConsume0-5=No2
+|EquipConsume6-9=No2
+|EquipConsume10=2
+|Sun=Y
+|Mon=I
+|Fri=Y
+|Sat=Y
+|2ndShip=[[Isuzu#2nd Upgrade|Isuzu Kai Ni]]<br />[[Yuubari]]
+|Notes=There is no note in the second section. But here is a link to [[Akashi's Improvement Arsenal]]
+|Ammo:2=400
+|Baux:2=99
+|Mats6-9:2=Ha!
+|Mats10:2=10/20
+|Screws0-5:2=44
+|Screws6-9:2=6/40
+|Screws10:2=6/12
+|EquipConsume10:2=2*
+|Sun:2=K<br>S
+|Thu:2=I<br>S
+|Fri:2=✓
+|Sat:2=K<br>S
+|2ndShip:2=[[Isuzu#Second Remodel|Isuzu Kai Ni]]<br />[[Katori#Remodel|Katori Kai]]<br />[[Shigure#Second Remodel|Shigure Kai Ni]]
+}}
+|}
+
+===Raw code input===
+ <nowiki>
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine2
+|Name=Daihatsu-class Landing Craft
+|ItemType=Turbine
+|Fuel=10
+|Ammo=0
+|Steel=30
+|Baux=30
+|Mats0-5=No2
+|Mats6-9=3/4
+|Mats10=6/9
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=No2
+|EquipConsume0-5=No2
+|EquipConsume6-9=No2
+|EquipConsume10=2
+|Sun=Y
+|Mon=I
+|Fri=Y
+|Sat=Y
+|2ndShip=[[Isuzu#2nd Upgrade|Isuzu Kai Ni]]<br />[[Yuubari]]
+|Notes=There is no note in the second section. But here is a link to [[Akashi's Improvement Arsenal]]
+|Ammo:2=400
+|Baux:2=99
+|Mats6-9:2=Ha!
+|Mats10:2=10/20
+|Screws0-5:2=44
+|Screws6-9:2=6/40
+|Screws10:2=6/12
+|EquipConsume10:2=2*
+|Sun:2=K<br>S
+|Thu:2=I<br>S
+|Fri:2=✓
+|Sat:2=K<br>S
+|2ndShip:2=[[Isuzu#Second Remodel|Isuzu Kai Ni]]<br />[[Katori#Remodel|Katori Kai]]<br />[[Shigure#Second Remodel|Shigure Kai Ni]]
+}}
+|}
+ </nowiki>
+
+==Practical Example==
+Combined with [[Template:AkashiWorkshop]] and [[Template:AkashiWorkshopLine]].
+
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name=10cm Twin High-angle Mount + Anti-Aircraft Fire Director
+|ItemType=GreenGunDP
+|Fuel=10
+|Ammo=60
+|Steel=150
+|Baux=50
+|Mats0-5=6/7
+|Mats6-9=5/8
+|Mats10=-
+|Screws0-5=3/4
+|Screws6-9=4/7
+|Screws10=-
+|EquipConsume0-5=-
+|EquipConsume6-9=2*
+|EquipConsume10=-
+|Sun=T
+|Mon=A
+|Tue=A
+|Wed=A
+|Thu=✓
+|Fri=T
+|Sat=T
+|2ndShip=[[Akizuki]]<br>[[Teruzuki]]
+|Notes=Uses [[10cm Twin High-angle Mount]]s for improvement past ★+6. 
+}}
+{{AkashiWorkshopLine
+|Name=12.7cm Twin Gun Mount
+|ItemType=RedGunLight
+|Fuel=10
+|Ammo=30
+|Steel=60
+|Baux=0
+|Mats0-5=1/2
+|Mats6-9=1/2
+|Mats10=2/3
+|Screws0-5=1/2
+|Screws6-9=1/2
+|Screws10=3/6
+|EquipConsume0-5=-
+|EquipConsume6-9=1
+|EquipConsume10=2
+|Sun=✓
+|Mon=✓
+|Tue=✓
+|Wed=✓
+|Thu=✓
+|Fri=✓
+|Sat=✓
+}}
+{{AkashiWorkshopLine
+|Name=12.7cm Twin Mount Type-B Kai 2
+|ItemType=RedGunLight
+|Fuel=10
+|Ammo=60
+|Steel=100
+|Baux=0
+|Mats0-5=2/2
+|Mats6-9=2/2
+|Mats10=-
+|Screws0-5=2/3
+|Screws6-9=2/4
+|Screws10=-
+|EquipConsume0-5=-
+|EquipConsume6-9=1
+|EquipConsume10=-
+|Mon=✓
+|Tue=✓
+|Wed=✓
+|2ndShip=[[Yuudachi#Second Upgrade|Yuudachi Kai Ni]]<br>[[Ayanami#Second Upgrade|Ayanami Kai Ni]]
+}}
+{{AkashiWorkshopLine2
+|Name=Type 94 Anti-Aircraft Fire Director
+|ItemType=AntiAircraftFireDirector
+|Fuel=0
+|Ammo=0
+|Steel=80
+|Baux=70
+|Mats0-5=4/5
+|Mats6-9=3/5
+|Mats10=8/10
+|Screws0-5=2/3
+|Screws6-9=3/5
+|Screws10=5/10
+|EquipConsume0-5=-
+|EquipConsume6-9=1*
+|EquipConsume10=2*
+|Sun=✓
+|Mon=A<BR>T
+|Tue=A<BR>T
+|Wed=A<BR>T
+|Thu=✓
+|Fri=✓
+|Sat=✓
+|2ndShip=[[Akizuki]]<br>[[Fubuki#Second Remodel|Fubuki Kai Ni]]<br>[[Teruzuki]]<br>[[Hatsuzuki]]
+|Notes=Uses [[10cm Twin High-angle Mount|10cm Twin High-angle Mounts]] for improvement. <br />Upgrades into [[10cm Twin High-angle Mount + Anti-Aircraft Fire Director]].
+|Mats0-5:2=4/5
+|Mats6-9:2=3/5
+|Mats10:2=7/9
+|Screws0-5:2=2/3
+|Screws6-9:2=3/5
+|Screws10:2=5/9
+|EquipConsume0-5:2=-
+|EquipConsume6-9:2=1*
+|EquipConsume10:2=2*
+|Sun:2=✓
+|Thu:2=✓
+|Fri:2=✓
+|Sat:2=✓
+|2ndShip:2=[[Maya#Second Remodel|Maya Kai Ni]]
+|Notes:2=Uses [[12.7cm Twin High-angle Mount|12.7cm Twin High-angle Mounts]] for improvement. <br />Upgrades into [[12.7cm Twin High-angle Mount + Anti-Aircraft Fire Director]].
+}}
+{{AkashiWorkshopLine2
+|Name=Type 93 SONAR
+|ItemType=Sonar
+|Fuel=10
+|Ammo=0
+|Steel=30
+|Baux=30
+|Mats0-5=2/2
+|Mats6-9=3/4
+|Mats10=6/9
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=3/5
+|EquipConsume0-5=-
+|EquipConsume6-9=1
+|EquipConsume10=2
+|Sun=Y
+|Mon=I
+|Fri=Y
+|Sat=Y
+|2ndShip=[[Isuzu#2nd Upgrade|Isuzu Kai Ni]]<br />[[Yuubari]]
+|Notes=Upgrades into [[Type 3 SONAR]] ★+3.
+|Fuel:2=10
+|Ammo:2=0
+|Steel:2=30
+|Baux:2=30
+|Mats10:2=10/20
+|Screws10:2=6/12
+|EquipConsume10:2=2*
+|Sun:2=K<br>S
+|Thu:2=I<br>S
+|Fri:2=✓
+|Sat:2=K<br>S
+|2ndShip:2=[[Isuzu#Second Remodel|Isuzu Kai Ni]]<br />[[Katori#Remodel|Katori Kai]]<br />[[Shigure#Second Remodel|Shigure Kai Ni]]
+|Notes:2=Uses [[Type 3 SONAR]] for upgrading.<br>Upgrades into [[Type 4 SONAR]].
+}}
+|}
+
+===Raw code input===
+
+ <nowiki>
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name=10cm Twin High-angle Mount + Anti-Aircraft Fire Director
+|ItemType=GreenGunDP
+|Fuel=10
+|Ammo=60
+|Steel=150
+|Baux=50
+|Mats0-5=6/7
+|Mats6-9=5/8
+|Mats10=-
+|Screws0-5=3/4
+|Screws6-9=4/7
+|Screws10=-
+|EquipConsume0-5=-
+|EquipConsume6-9=2*
+|EquipConsume10=-
+|Sun=T
+|Mon=A
+|Tue=A
+|Wed=A
+|Thu=✓
+|Fri=T
+|Sat=T
+|2ndShip=[[Akizuki]]<br>[[Teruzuki]]
+|Notes=Uses [[10cm Twin High-angle Mount]]s for improvement past ★+6. 
+}}
+{{AkashiWorkshopLine
+|Name=12.7cm Twin Gun Mount
+|ItemType=RedGunLight
+|Fuel=10
+|Ammo=30
+|Steel=60
+|Baux=0
+|Mats0-5=1/2
+|Mats6-9=1/2
+|Mats10=2/3
+|Screws0-5=1/2
+|Screws6-9=1/2
+|Screws10=3/6
+|EquipConsume0-5=-
+|EquipConsume6-9=1
+|EquipConsume10=2
+|Sun=✓
+|Mon=✓
+|Tue=✓
+|Wed=✓
+|Thu=✓
+|Fri=✓
+|Sat=✓
+}}
+{{AkashiWorkshopLine
+|Name=12.7cm Twin Mount Type-B Kai 2
+|ItemType=RedGunLight
+|Fuel=10
+|Ammo=60
+|Steel=100
+|Baux=0
+|Mats0-5=2/2
+|Mats6-9=2/2
+|Mats10=-
+|Screws0-5=2/3
+|Screws6-9=2/4
+|Screws10=-
+|EquipConsume0-5=-
+|EquipConsume6-9=1
+|EquipConsume10=-
+|Mon=✓
+|Tue=✓
+|Wed=✓
+|2ndShip=[[Yuudachi#Second Upgrade|Yuudachi Kai Ni]]<br>[[Ayanami#Second Upgrade|Ayanami Kai Ni]]
+}}
+{{AkashiWorkshopLine2
+|Name=Type 94 Anti-Aircraft Fire Director
+|ItemType=AntiAircraftFireDirector
+|Fuel=0
+|Ammo=0
+|Steel=80
+|Baux=70
+|Mats0-5=4/5
+|Mats6-9=3/5
+|Mats10=8/10
+|Screws0-5=2/3
+|Screws6-9=3/5
+|Screws10=5/10
+|EquipConsume0-5=-
+|EquipConsume6-9=1*
+|EquipConsume10=2*
+|Sun=✓
+|Mon=A<BR>T
+|Tue=A<BR>T
+|Wed=A<BR>T
+|Thu=✓
+|Fri=✓
+|Sat=✓
+|2ndShip=[[Akizuki]]<br>[[Fubuki#Second Remodel|Fubuki Kai Ni]]<br>[[Teruzuki]]<br>[[Hatsuzuki]]
+|Notes=Uses [[10cm Twin High-angle Mount|10cm Twin High-angle Mounts]] for improvement. <br />Upgrades into [[10cm Twin High-angle Mount + Anti-Aircraft Fire Director]].
+|Mats0-5:2=4/5
+|Mats6-9:2=3/5
+|Mats10:2=7/9
+|Screws0-5:2=2/3
+|Screws6-9:2=3/5
+|Screws10:2=5/9
+|EquipConsume0-5:2=-
+|EquipConsume6-9:2=1*
+|EquipConsume10:2=2*
+|Sun:2=✓
+|Thu:2=✓
+|Fri:2=✓
+|Sat:2=✓
+|2ndShip:2=[[Maya#Second Remodel|Maya Kai Ni]]
+|Notes:2=Uses [[12.7cm Twin High-angle Mount|12.7cm Twin High-angle Mounts]] for improvement. <br />Upgrades into [[12.7cm Twin High-angle Mount + Anti-Aircraft Fire Director]].
+}}
+{{AkashiWorkshopLine2
+|Name=Type 93 SONAR
+|ItemType=Sonar
+|Fuel=10
+|Ammo=0
+|Steel=30
+|Baux=30
+|Mats0-5=2/2
+|Mats6-9=3/4
+|Mats10=6/9
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=3/5
+|EquipConsume0-5=-
+|EquipConsume6-9=1
+|EquipConsume10=2
+|Sun=Y
+|Mon=I
+|Fri=Y
+|Sat=Y
+|2ndShip=[[Isuzu#2nd Upgrade|Isuzu Kai Ni]]<br />[[Yuubari]]
+|Notes=Upgrades into [[Type 3 SONAR]] ★+3.
+|Fuel:2=10
+|Ammo:2=0
+|Steel:2=30
+|Baux:2=30
+|Mats10:2=10/20
+|Screws10:2=6/12
+|EquipConsume10:2=2*
+|Sun:2=K<br>S
+|Thu:2=I<br>S
+|Fri:2=✓
+|Sat:2=K<br>S
+|2ndShip:2=[[Isuzu#Second Remodel|Isuzu Kai Ni]]<br />[[Katori#Remodel|Katori Kai]]<br />[[Shigure#Second Remodel|Shigure Kai Ni]]
+|Notes:2=Uses [[Type 3 SONAR]] for upgrading.<br>Upgrades into [[Type 4 SONAR]].
+}}
+|}
+ </nowiki>

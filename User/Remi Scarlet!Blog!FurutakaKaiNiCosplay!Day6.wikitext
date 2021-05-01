@@ -1,0 +1,70 @@
+==Day 6==
+Date: 5/28/15(A tiny bit on 5/27/15 as well)<br />
+Time spent: ~4 hours
+
+<span class="mw-customtoggle-furutaka-day6" style="border:1px solid blue; border-radius: 5px;padding:5px">Show/Hide Day 6</span>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-furutaka-day6">
+===5/27===
+So I'll quickly go over what I did on 5/27/15 since I didn't get a whole lot done. Basically, yesterday was spent clicking around ebay and amazon buying various parts. So things I bought include
+
+*Knee socks
+*Thigh highs
+*Cotton bodysuit
+*Penny loafer shoes
+*Pleated blue skirt
+*Two 4.1kg-cm rated servo motors
+
+For the servo motors, they have to be able to rotate two barrels that are have two components to them of certain length. The two components have different diameters.
+
+[[File:Furutaka Kai Ni 53.png|500px|Furutaka cannon diagram]]
+
+Where <math> a </math> is pipe of diameter 0.5inches and <math> b </math> is pipe of diameter 0.75inches.<br />
+''Note that with servo motor ratings, <math>kg</math>⋅<math>cm</math>, it seems that it's just it's torque without the gravity component calculated in. The <math>\tau</math> I use in the calculations isn't actually torque but it's the same idea so I use the symbol for it, even if it's technically incorrect.<br />
+<math>CoM</math> is Center of Mass''<br />
+{| class="wikitable"
+!Pipe <math>a</math>
+!Pipe <math>b</math>
+|-
+|<math>\lambda_a = \frac{100g}{24inches} = 4.16\frac{g}{in}</math>
+|<math>\lambda_b = \frac{150g}{24inches} = 6.24\frac{g}{in}</math>
+|-
+|Given <math>\ell_a = 7in</math>
+|Given <math>\ell_b = 4in</math>
+|-
+|<math>m_a = \lambda_{a}*\ell_{a} = 24.96g</math>
+|<math>m_b = \lambda_{b}*\ell_{b} = 29.12g</math>
+|-
+|<math>d_{{CoM}_a} = \frac{4in}{2} = 2in</math>
+|<math>d_{{CoM}_b} = 4in + \frac{7in}{2} = 7.5in</math>
+|-
+|<math>\tau_a = m_{a}*d_{{CoM}_a} = 49.92g</math>⋅<math>in</math><br /><math>\tau_a = 49.92g</math>⋅<math>in*\frac{1kg}{1000g}*\frac{2.54cm}{1in}</math><br /><math>\tau_a = 0.127kg</math>⋅<math>cm</math>
+|<math>\tau_b = m_{b}*d_{{CoM}_b} = 219.56g</math>⋅<math>in</math><br /><math>\tau_b = 219.56</math>⋅<math>in*\frac{1kg}{1000g}*\frac{2.54cm}{1in}</math><br /><math>\tau_b = 0.558kg</math>⋅<math>cm</math>
+|}
+<math>\tau_{total} = 0.127kg</math>⋅<math>cm + 0.558kg</math>⋅<math>cm = 0.785kg</math>⋅<math>cm</math>
+
+And since I have two of these barrels, I needed a servo motor with at least a kg⋅cm rating of <math>0.785 * 2 = 1.57kg</math>⋅<math>cm</math>. Since it's always better to err on the side of caution, I decided to just go overkill and get a 4.1kg⋅cm rated servo.
+
+Shoutout to the [https://www.facebook.com/groups/kancolleusa/ Kancolle USA group] because I completely forgot how torque worked. It's been a few years kek. And to think I was originally a mechanical engineering major a long time ago.
+
+That said, let's move onto what I actually did today.
+
+===5/28===
+So today, I decided to ''actually'' start working on the cannons since I'd been delaying them for a few days now. That said, I didn't really plan too much out other than some basic goals for dimensions. I aimed for about a 12in x 4.5in x 7.5in frame for the body and so I decided to go ahead and run with that. Images will likely serve as better explanation so I'll do that gallery thing again with explanations for the images in the annotation. Again, feel free to look through my [http://imgur.com/a/PEyTY Imgur Album] for easier viewing of images.
+
+<gallery>
+File:Furutaka Kai Ni 39.jpg|Double barrel cannons for shoulder mount on Furutaka kai ni
+File:Furutaka Kai Ni 40.jpg|Applying pressure to wood glue to elevate contact-point with board due to screw head
+File:Furutaka Kai Ni 41.jpg|Process of cutting foamboard with an x-acto knife
+File:Furutaka Kai Ni 42.jpg|Preliminary cutout sketch with some measurements
+File:Furutaka Kai Ni 43.jpg|Loosely attached cutouts (preliminary)
+File:Furutaka Kai Ni 44.jpg|Attaching cannon base to PVC frame
+File:Furutaka Kai Ni 45.jpg|Cutout of front cross-sectional support of cannon
+File:Furutaka Kai Ni 46.jpg|Attaching smaller pieces together before attaching to main cannon body
+File:Furutaka Kai Ni 47.jpg|Shot of the used wood glue
+File:Furutaka Kai Ni 48.jpg|Front wall of cannon. Note the depressed cut to allow cannon barrels to move
+File:Furutaka Kai Ni 49.jpg|Glued and combined shot of cannon without wall coverings
+File:Furutaka Kai Ni 50.jpg|Another shot of cannons before wall covering
+File:Furutaka Kai Ni 51.jpg|Closer shot of cannon barrels in the frame
+File:Furutaka Kai Ni 52.jpg|Back view of cannon
+</gallery>
+</div>

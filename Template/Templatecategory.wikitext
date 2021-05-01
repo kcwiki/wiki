@@ -1,0 +1,8 @@
+==Using this category==
+To put a template in '''Category:{{PAGENAME}}''':
+
+* Use <code><nowiki><includeonly>[[Category:</nowiki>{{PAGENAME}}<nowiki>|{{PAGENAME}}]]</includeonly></nowiki></code> on the documentation page (see [[Template:Documentation]] for more info). The "&lt;includeonly&gt;" tags are necessary to prevent categorizing all pages using the template (and the documentation page) in the template category! Please also note the <tt style="border-bottom: 1px dotted; cursor: help;" title="Makes it sort on the actual template name rather than 'T' as in 'Template:'."><nowiki>|{{PAGENAME}}</nowiki></tt>.
+* If your template is meant to be '''used in-line''', try and make sure that there are as few line feeds (breaks, whitespace, etc.) as possible.
+* Remember that a template can be put in multiple categories if it belongs to them all!
+* Or, if this is not quite the right category, go back to [[:Category:Templates]] and try to find a better suited subcategory.<noinclude>
+{{documentation}}</noinclude>

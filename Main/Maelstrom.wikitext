@@ -1,0 +1,149 @@
+=Overview=
+
+Maelstroms are special nodes that your fleet can encounter during sorties. Upon hitting a maelstrom node, your fleet will lose either fuel {{Fuel}} or ammo {{Ammo}}. 
+
+* The type of resource lost is determined by the node. 
+* The amount of resource loss is a percentage of '''remaining fuel or ammo'''.
+** This means the actual value of resources lost is reduced if your fleet encounters the maelstrom late in the sortie.
+* Certain nodes are '''strong maelstroms'''; these nodes drain 150% more resources than regular maelstroms with a roughly 25% chance of draining '''all''' of a resource.
+* Resource loss can be reduced depending on the amount of RADAR-equipped ships.
+** Equipping multiple RADAR on one ship does not count.
+** Any RADAR counts towards reducing maelstrom losses.
+* The value of the loss displayed when encountering a maelstrom is just from '''the ship girl with the greatest loss''' in the fleet.
+** This means the total resources lost to the maelstrom is not shown.
+** The value displayed can exceed the actual amount of resources remaining in the case of strong maelstroms.
+* The number of bars remaining displayed at the [[Supply_(Mechanic)|resupply]] menu may differ from the percentages given in this page due to rounding errors.
+* Remember that the resource loss '''reduces your fleet's combat effectiveness'''. Maelstroms should be avoided where possible. Please see [[Damage_Calculations#Ammunition_Modifier|Damage Calculations]] and [[Accuracy,_Evasion_and_Criticals#Evasion_Formulas|Evasion]] for more details.
+* When a [[Combined Fleet]] encounters a maelstrom, the resource loss is dependent on the type of maelstrom node encountered. The version encountered depends on the map.
+** The first only considers the amount of radars in the 1st fleet and the 2nd fleet does not lose any supplies.
+** The second considers the amount of radars in both fleets '''independently'''. This means that having no radars in the 1st fleet but radars in the 2nd fleet would cause only the 1st fleet to lose supplies.
+
+'''Important Notes'''
+* There are significant diminishing returns beyond having 3 RADAR-equipped ship girls. It is recommended that you only have 3 RADAR-equipped ship girls max to mitigate maelstrom losses.
+* It is '''highly recommended''' that you avoid strong maelstroms. There is a significant chance that your fleet's combat effectiveness will be severely hampered.
+* The actual maximum displayed major loss from strong maelstroms can vary from map to map.
+** The difference is academic as they all drain 100% fuel with 0-1 RADARs.
+
+=Resource Loss Calculation=
+
+The resource loss from maelstroms is given as:
+
+<math>\text{Loss} = \lfloor \text{Resource} \times \text{Loss}_\text{Maelstrom} \times \left( 1-\text{Mod}_\text{RADAR} \right) \rfloor</math>
+
+* <math>\text{Resource}</math> is the '''remaining amount''' of targeted resources per ship girl when the fleet encounters the maelstrom.
+* <math>\text{Loss}_\text{Maelstrom}</math> is the base maelstrom loss. See the percentages for 0 RADAR in the [[#Resource Loss Charts|table below]].
+* <math>\text{Mod}_\text{RADAR}</math> is the loss reduction from RADAR-equipped ship girls.
+
+{| class="wikitable" style="text-align:center;"
+!style=" background-color:#99CCFF;"| RADAR-Equipped Ship Girls
+!style=" background-color:#99CCFF;"| Loss Reduction
+|-
+| 1
+| 0.25
+|-
+| 2
+| 0.40
+|-
+| 3
+| 0.50
+|-
+| 4
+| 0.55
+|- 
+| 5
+| 0.58
+|-
+| 6
+| 0.60
+|-
+|}
+
+=Resource Loss Charts=
+
+{| class="wikitable" style="text-align:center;"
+!style=" background-color:#99CCFF;" rowspan="2"| RADAR-Equipped Ship Girls
+!style=" background-color:#99CCFF;" rowspan="2"| Regular Maelstrom
+!style=" background-color:#99CCFF;" colspan="2"| Strong Maelstrom
+!style=" background-color:#99CCFF;" rowspan="2"| Notes
+|-
+!style=" background-color:#99CCFF;"| Normal Loss
+!style=" background-color:#99CCFF;"| Major Loss
+|-
+| 0
+| 30%
+| 40%
+| 100%<ref>Displayed as 150% in sortie.</ref>
+| 
+|-
+| 1
+| 22.5%
+| 30%
+| 100%<ref>Displayed as roughly 112.5% in sortie.</ref>
+| 
+|-
+| 2
+| 18%
+| 24%
+| 90%
+| 
+|-
+| 3
+| 15%
+| 20%
+| 75%
+| 
+|-
+| 4
+| 13.5%
+| 18%
+| 67.5%
+| 
+|-
+| 5
+| 12.6%
+| 16.8%
+| 63%
+| 
+|-
+| 6
+| 12%
+| 16%
+| 60%
+| 
+|-
+|}<references/>
+{{Clear}}
+
+===Strong Maelstrom Locations===
+
+{| class="wikitable" style="text-align:center;"
+!style=" background-color:#99CCFF;"| World
+!style=" background-color:#99CCFF;"| Map(s)
+!style=" background-color:#99CCFF;"| Resource Drained
+|-
+| [[World 1]]
+| 1-3H
+| Fuel
+|-
+| [[World 2]]
+| 2-5G
+| Fuel
+|-
+| [[World 3]]
+| 3-3F<br>3-4F
+| Fuel
+|-
+| [[World 5]]
+| 5-2M<br>5-4K<br>5-5L
+| Fuel
+|-
+| [[World 6]]
+| 6-2D
+| Ammo
+|-
+|}
+
+=See Also=
+[[Nodes]]<br>
+[[Combat]]<br>
+{{Mechanics}}

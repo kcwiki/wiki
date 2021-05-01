@@ -1,0 +1,84 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+__NOTOC__
+This is the '''spaced ndash''' template; it looks like this " &ndash; ". 
+
+It works similarly to the HTML markup sequence "<code>'''&amp;nbsp;&amp;ndash;'''&nbsp;</code>". That is, a [[non-breaking space]], a short dash (known as an [[Dash#En dash|en dash]]) and a normal space. 
+
+This template is used when you want something stronger than a [[Template:·|bold middot]] "'''&middot;'''" or a [[Template:•|bullet]] "&bull;", but shorter than an [[Dash#Em dash|em dash]] "&mdash;". (An en dash is half the width of an em dash).
+
+For horizontal lists use {{tl|Flatlist}} or <code>class="hlist"</code> instead (see [[WP:HLIST]]).
+
+==Shorter forms==
+{{tl|snd}}, {{tl|spnd}}, {{tl|sndash}}, and {{tl|spndash}} redirect to {{tl|spaced ndash}}.
+
+==Normal usage==
+The recommended usage is to use ''no'' space before the template and one space after the template, like this:
+ <nowiki>[[Salt]]{{spaced ndash}} [[Pepper]]</nowiki>
+
+It will render one space on each side of the dash, like this:
+:[[Salt]] &ndash; [[Black pepper|Pepper]]
+
+A line break will come ''after'' one of the dashes, not before, when the spacing is used as suggested, like this:
+:[[Salt]] &ndash; [[Black pepper|Pepper]] &ndash;
+:[[Curry]] &ndash; [[Saffron]]
+
+{| class="wikitable" style="border: none; background: none;"
+|Colspan=2 |<center>Here's an example of how it is used</center>
+|-
+|| Template "Spaced ndash" is not really intended to be used in article text but for use in other templates, tables, lists, and other equivalent things in order to include a separator between items such as in infoboxes. It is also to be consistent so that the article editor can use their choice of '''<nowiki>{{</nowiki>bull}}''', '''<nowiki>{{</nowiki>dot}}''', '''<nowiki>{{</nowiki>middot}}''', or  '''<nowiki>{{</nowiki>spaced ndash}}''' and not have to insert the {{bull}}, {{dot}}, {{middot}}, or {{spaced ndash}} symbol, they can use any of these as a simple macro. The idea being that if you have a table with a list of items, you can insert a spaced short dash (or the other symbols) between items that will appear correct, in that the items always have just one separator between them, and when a list crawls to the next line, the dash hangs onto the prior item instead of rolling over to the next line. Notice on the end of this box, the symbol hangs on the end of the last item that will fit on the line indicating that additional items follow on the next line as part of this list, but the item only stays on the line if the item and the dash will fit.  See the column on the right.  In code it is ''' Item1<nowiki>{{</nowiki>spaced ndash}} Item2<nowiki>{{</nowiki>spaced ndash}} Item3<nowiki>{{</nowiki>spaced ndash}} Item4<nowiki>{{</nowiki>spaced ndash}} Item5<nowiki>{{</nowiki>spaced ndash}}''' etc. (with some smaller items squeezed in to show that the list does not have to be the same number of items per line) but in the box they all fold perfectly once it runs out of space on the line to fit the next item and the dash following.
+| <p>Normally, in a real box these items would be links, but this is an example.</p> Item1{{spaced ndash}} A{{spaced ndash}} B{{spaced ndash}} Item2{{spaced ndash}} Item3{{spaced ndash}} Item4{{spaced ndash}} Item5{{spaced ndash}} extra item{{spaced ndash}} E{{spaced ndash}} 1{{spaced ndash}} 2{{spaced ndash}} 3{{spaced ndash}} 4{{spaced ndash}} 5{{spaced ndash}} 6{{spaced ndash}} 7{{spaced ndash}} {{nowrap|item that won't attach to prior line unless it fits in the remaining space{{spaced ndash}}}} Q{{spaced ndash}} A slightly longer item{{spaced ndash}} KK{{spaced ndash}} An obviously really even longer item that the dash will hang at its end{{spaced ndash}} Item6{{spaced ndash}} C{{spaced ndash}} Item7{{spaced ndash}} Item8{{spaced ndash}} Item9{{spaced ndash}} Item10{{spaced ndash}} Item11{{spaced ndash}} Item12{{spaced ndash}} D{{spaced ndash}} Item13{{spaced ndash}} Item14{{spaced ndash}} Item15{{spaced ndash}} Item16{{spaced ndash}} Item17{{spaced ndash}} Item18 <p>The space on the end makes sure the dash doesn't touch the edge of the box, either</p>
+|}
+
+==Incorrect usage==
+If the template is used slightly wrong it will in some cases still behave well. For instance if there are no or several spaces after the template. Like these examples:
+
+ <nowiki>[[Salt]]{{spaced ndash}}[[Pepper]]</nowiki>
+ <nowiki>[[Salt]]{{spaced ndash}}   [[Pepper]]</nowiki>
+
+Both of them will render exactly as before, with just one space on each side of the dash, like this:
+:[[Salt]] &ndash; [[Black pepper|Pepper]]
+
+And it will still only line break ''after'' a dash, like this:
+:[[Salt]] &ndash;
+:[[Black pepper|Pepper]]
+
+But putting one or more spaces ''before'' the template will cause problems, like these examples:
+ <nowiki>[[Salt]] {{spaced ndash}}[[Pepper]]</nowiki>
+ <nowiki>[[Salt]]   {{spaced ndash}}[[Pepper]]</nowiki>
+ <nowiki>[[Salt]] {{spaced ndash}} [[Pepper]]</nowiki>
+ <nowiki>[[Salt]]   {{spaced ndash}}   [[Pepper]]</nowiki>
+
+Then it will render with ''two'' spaces before the dash, and one after, like this:
+:[[Salt]] &nbsp;&ndash; [[Black pepper|Pepper]]
+
+And if it line breaks it might break ''before'' the dash, like this:
+:[[Salt]]
+:&nbsp;&ndash; [[Black pepper|Pepper]]
+
+Also, this template should ''not'' routinely be used in regular article text and certainly not where an [[em dash]] would be more appropriate. As a rule, this template should not be used between clauses of a sentence.
+
+Because Wikipedia suppresses the contents of templates in tool tip preview when the user hovers the pointer over a Wikilink, one should avoid using the Spaced ndash and Ndash templates in an article's lead section. Using the template will cause a confusing blank space to appear in the tool tip preview instead of the expected en dash character.  Instead, use <code><nowiki>&amp;nbsp;&amp;ndash; </nowiki></code> or <code><nowiki>&amp;nbsp;– </nowiki></code>, and be sure to add the trailing space.
+
+==Technical details==
+The space before the dash is a [[non-breaking space]]. That means it will not line break and will not collapse together with normal spaces that come before the template.
+
+The space after the dash is a normal space. That means it wraps (allows line breaks) and it will collapse together with normal spaces that come after the template to form one single space.
+
+==Dot sizes==
+{{Dot size}}
+
+==See also==
+There are several other templates with similar functionality:
+
+* {{tn|·}} – Bold middot "'''&middot;'''"
+* {{tn|•}} – Bullet "&bull;"
+* {{tl2|\}} – Spaced slash "/"
+* {{tl2|-!}} – Spaced pipe "|"
+* &amp;minus; – Minus "&minus;" is a mathematical symbol
+* {{tl|Ndash}} – Ndash "&ndash;" is a plain en dash
+
+<includeonly>
+[[Category:Wikipedia formatting and function templates]]
+
+</includeonly>

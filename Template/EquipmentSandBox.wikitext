@@ -1,0 +1,80 @@
+{|style="border: 1px solid darkgray; border-radius:10px"
+|-
+| colspan="2" style="text-align:center; border-top-left-radius:8px; border-top-right-radius:8px; background-color:#{{#switch:{{{rarity}}}| common=d1d1d1 | semirare=b8ddeb | rare=ffb7ff | ffb7ff}}; overflow:hidden; border:solid 1px; border-color:darkgrey;"|<div style="border-radius:20px; align:right; width:419px">{{#switch:{{{rarity}}}| common=[[File:RegularBanner.png|417px]] | semirare=[[File:SemiRareBanner.png|417px]] | rare=[[File:RareBanner.png|417px]]| [[File:RareBanner.png|417px]]}}</div><p style="font-size:25px; overflow:hidden; ">'''{{{name|Name?}}}'''</p>
+<p style="font-size:20px">'''{{#if:{{{id|}}}|No.{{{id}}}}} {{{japanesename|JPName?}}}'''</p>
+|-
+| style="text-align:left; max-height:201px; overflow:hidden" | <slideshow sequence="forward" transition="fade" refresh="5000" center="true">
+{{{images|<div>[[File:Equipment1-1.png|212px]]</div>
+<div style="height:212px; overflow:hidden">[[File:Equipment1-2.png|212px]]</div>}}}
+</slideshow>
+| style="border:solid 1px; border-color:darkgrey; width:201px; text-align:center; border-radius:10px; height:210px; overflow:hidden" | <div style="border: solid 1px; border-color:darkgrey; border-radius:10px">'''{{{icon|{{Template:RedGunHeavy}}}}} {{{type|Main Cannon, Heavy}}}'''</div>
+<div style="width:201px; text-align:center; height:164px; margin:0px">
+
+
+<p>'''{{#if:{{{effect|}}}|Effects :{{{effect}}}}}'''</p>
+
+
+<p>'''{{#if:{{{scrap|}}}|Scrap value :{{{scrap}}}}}'''</p>
+</div>
+|-
+| colspan="2" style="text-align: center; background-color:#{{#switch:{{{rarity}}}| common=d1d1d1 | semirare=b8ddeb | rare=ffb7ff | ffb7ff}}; border-top-left-radius:8px; border-top-right-radius:8px; border:solid 1px; border-color:darkgrey; width:419px"|'''Refittable Class'''
+|-
+| style="width: 200px; text-align: center; background-color: {{{DD|}}};"|Destroyer
+| style="width: 200px; text-align: center; background-color: {{{LC|}}};"|Amphibious Assault Ship
+|-
+| style="text-align: center; background-color: {{{CL|}}};"|Light Cruiser
+| style="text-align: center; background-color: {{{CLT|}}};"|Torpedo Cruiser
+|-
+| style="text-align: center; background-color: {{{CA|}}};"|Heavy Cruiser
+| style="text-align: center; background-color: {{{CAV|}}};"|Aviation Cruiser
+|-
+| style="text-align: center; background-color: {{{BB|}}};"|Battleship
+| style="text-align: center; background-color: {{{BBV|}}};"|Aviation Battleship
+|-
+| style="text-align: center; background-color: {{{FASTBB|}}};"|Fast Battleship
+| style="text-align: center; background-color: {{{AV|}}};"|Seaplane Tender
+|-
+| style="text-align: center; background-color: {{{CVL|}}};"|Light Carrier
+| style="text-align: center; background-color: {{{CV|}}};"|Standard Carrier
+|-
+| style="text-align: center; background-color: {{{SS|}}};"|Submarine
+| style="text-align: center; background-color: {{{SSV|}}};"|Submarine Carrier
+|-
+| style="text-align: center; background-color: {{{AS|}}};"|Submarine Tender
+| style="text-align: center; background-color: {{{AR|}}};"|Repair Ship
+|-
+|style="text-align: center; background-color: {{{CLP|}}}; border-bottom-left-radius:8px"|Training Cruiser
+|style="text-align: center; background-color: white; border-bottom-right-radius:8px"|
+|}
+
+<noinclude>
+{{EquipmentSandBox
+| rarity = common
+| raritycolor1 = common
+| raritycolor2 = common
+| name = Yamato Cannon
+| id = 000
+| type=Main Cannon, Huge
+| icon={{Template:RedGunHeavy}}
+| effect={{Firepower}}+100, {{AA}}+20
+| images=<div>[[File:Equipment1-1.png|212px]]</div>
+<div style="height:212px; overflow:hidden">[[File:Equipment1-2.png|212px]]</div>
+| scrap={{ammo}} ?,{{steel}}?
+
+}}
+
+{{EquipmentSandBox
+| rarity = semirare
+| raritycolor1 = semirare
+| raritycolor2 = semirare
+| name = Yamato Cannon
+| id = 000
+| type=Main Cannon, Huge
+| icon={{Template:RedGunHeavy}}
+| effect={{Firepower}}+100, {{AA}}+20
+| images=<div>[[File:Equipment1-1.png|212px]]</div>
+<div style="height:212px; overflow:hidden">[[File:Equipment1-2.png|212px]]</div>
+| scrap={{ammo}} ?,{{steel}}?
+
+}}
+</noinclude>

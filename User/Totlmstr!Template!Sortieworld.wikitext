@@ -1,0 +1,36 @@
+{{{map}}}
+{|class="wikitable"
+|style="width: 110px; background-color: LightSkyBlue;"|Difficulty
+|'''{{{difficulty}}}'''
+|style="width: 100px; background-color: LightSkyBlue;"|Item
+|'''{{{item}}}'''
+|-
+|style="background-color: LightSkyBlue;"|Experience
+|'''{{{exp}}}'''
+|style="background-color: LightSkyBlue;"|Strategy Name
+|'''{{{code}}}'''
+|-
+|style="background-color: LightSkyBlue;"|Strategy Content
+|colspan=3|{{{text}}}
+|}<noinclude>
+*<nowiki>In the map section (map = ??), interactive map template {{World1-2}} can be replace with image file, e.g. [[File:1-2_Map.jpg|400px]] if the template is not ready yet.</nowiki>
+*Test your code in [[Template:Sortieworld/Sandbox]]
+<pre>
+{{Sortieworld
+| map = {{World1-2}}
+| difficulty = ☆
+| item = None
+| exp = 50
+| code = 南西諸島沖警備 
+| text = 南西諸島沖に接近する敵前衛艦隊を捕捉、迎撃せよ！ 
+}}
+</pre>
+<!--{{Sortieworld
+| map = {{World1-2}}
+| difficulty = ☆
+| item = None
+| exp = 50
+| code = 南西諸島沖警備 
+| text = 南西諸島沖に接近する敵前衛艦隊を捕捉、迎撃せよ！ 
+}}-->
+</noinclude>

@@ -1,0 +1,58 @@
+'''Fleet Report Template'''
+
+[Design is inspired by DragonJet's Event report template]
+
+
+
+This is to allow easier reporting of the admiral's fleet which can be use for displaying information for the hope of being an aid to someone or be aided themselves. This one is expected to do the following:
+*Allow people to write down the info they need for sortie such as
+**World map/Event Map, Route taken, HQLVL?
+*Allow people to display their fleet info such as
+**Ship girl's name
+**Ship girl's lvl
+**Ship girl's equipments
+**Ship girl's modernization star(?)
+*Allow people a small box for describing their problem/solution/summary(?)
+*To allow me to be lazy and makes it easier for me to give info to others.
+
+{{FleetReport-Zel
+|flagship=Jun'you|flaglvl=82|flageq= Reppu Reppu Reppu REPUUU
+|ship2=Tone|ship2lvl=82|ship2eq= Damecon
+|ship3=Mutsuki|ship3lvl=82|ship3eq= Damecon
+|ship4=Fubuki|ship4lvl=82|ship4eq= Damecon
+|ship5=Kisaragi|ship5lvl=82|ship5eq= Damecon
+|ship6=Yuudachi|ship6lvl=82|ship6eq= Damecon
+|fleet-type = Escort Fleet|Map = E-4
+|HQLvl = 97
+|Route = B-D-G-I-K}}
+
+
+<p style="margin-top:0.4em;margin-bottom:0.5em;">'''Sortie-Quest Report Template'''</p>
+This is to allow easier reporting of the admiral's fleet which can be use for displaying information for the hope of being an aid to someone or be aided themselves. This one is expected to do the following:
+*Allow people to write down the info they need for sortie such as
+**World map [Picture shown]
+*Allow people to display their fleet info such as
+**Ship girl's name & Class?
+**Ship girl's lvl
+**Ship girl's equipments
+**Ship girl's modernization star(?)
+*Allow people a small box for describing their problem/solution/summary(?)
+*To allow me to be lazy and makes it easier for me to give info to others.
+
+{{SortieQuest-Zel}}
+
+
+
+'''Expedition 32 Exp Difference Report Template'''
+
+[http://kancolle.wikia.com/wiki/Thread:193171 Thread]
+
+{{Exp32Kat-Zel
+|ship1bef=30/125| ship1aft= (For Level/EXP put it as 32 / 452 [amount left]) | ship1dif= 375
+|ship2= Insert name here| ship2bef=32/125| ship2aft=33/2850| ship2dif= 375
+|ship3= Insert name here| ship3bef=33/125| ship3aft=34/2850| ship3dif= 385
+|ship4= Insert name here| ship4bef=34/125| ship4aft=35/2850| ship4dif= 395
+|ship5= Insert name here| ship5bef=35/125| ship5aft=36/2850| ship5dif= 405
+|ship6= Insert name here| ship6bef=36/125| ship6aft=37/2850| ship6dif= 415
+|Success= Insert Success or Great success here
+|Description= put whatever info/picture you want here}}

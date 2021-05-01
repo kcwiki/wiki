@@ -1,0 +1,148 @@
+'''March 1st, 2021''' ''Akebono Kai Ni / Hina Matsuri 2021 Update''
+
+#'''Akebono Kai Ni'''
+#* No Blueprints or Action reports required
+#**Large Voiceline overhaul for her K2 remodel
+#'''Valentines update content removed'''
+#* All Valentine's Day Content removed, voice lines and CGs will be reserved in the library
+#'''Equipment fit Buffs'''
+#* [[Akebono|Akebono Kai Ni]] and [[Ushio|Ushio Kai Ni]] have received additional buffs from various equipment including the [[12.7cm Twin High-angle Gun Mount Kai 2]]
+#* [[Ar196 Kai]] provides a buff to various German Ship girls
+#* [[Shiun]] provides a buff when armed on [[Ooyodo]]
+#* [[14cm Twin Gun Mount Kai]] provides additional buffs to Yuubari, Nisshin, and Katori-class ships.
+#* Katori class training cruisers have been given a buff when armed with ASW equipment and/or 25mm Auto Cannon type equipment.
+#'''Max Capacity Increase'''
+#* Base expansion available to make max ship capacity increase by + 10 and equipment by +40
+#'''Voice line update'''
+#* Hina Matsuri Voice have been updated, including new lines for new ships girls like [[Matsu]], [[Fukae]] and [[Kaiboukan No.4]]
+#* DesDiv 7 Members [[Sazanami]], [[Oboro]], [[Akebono]], and [[Ushio]] have recived updated voice lines include for those that have K2 variants.
+#'''CG Update'''
+#* [[Yuugumo]], [[Fukae]] and [[Kaiboukan No.4]] has been given Hinamatsuri CG
+#* [[Amatsukaze]] has been given Spring Time Casual CG
+#'''Quests'''
+#* There is a large amount of quests available both for limited time and permanent which includes the following:
+#* Limited Time Operation:
+#**[Hina Matsuri] Ensure safety in spring near the Naval Base
+#**[Peach Festival] Spring battle patrol in the waters of the Nansei Islands!
+#**[Peach Festival] Spring decisive battle! Hit the enemy task force!
+#**[Peach Festival: Extra Operation] Spring Offensive Operation!
+#** [Hina Maruri] Hishimochi Repair: 2021
+#*** All of these quests will reward you with lots of Hishimochi
+#*** It's possible to exchange these for Hishimohi for resources or for other stuff like Blueprints or Flight Decks
+#* Permanent Quests
+#** Elite "7th Destroyer" exercise started!
+#** Elite "Seventh Destroyer", sortie!
+#**Acquiring aviation technology through Western Contact Operation (※ German aircraft [[Do 17 Z-2]] can be acquired)
+#'''Regarding Hishimochi'''
+#* "Hishimochi" can be exchanged for resources by itself, but it is also possible to acquire valuable items utilizing the [Peach Festival Modernization] mission. 
+#'''Furniture'''
+#* Along with Hina Matsuri Furniture and White day Furniture, the following new Furniture has been implemented:
+#** Hina Matsuri Floor
+#** Yuugumo-class Doll with 2 Tier Decoration Stand
+#** Etorofu-class Peach Festival Wall Display Shelf 
+#** Amatsukaze and Admiral's table 
+#'''Small technical changes'''
+#* Some small graphical changes have been made with missle guided bombers
+#* AB Boats armed onto Shinshuu Maru's Expansion slot can now provide resource bonuses
+#* Various furniture have been updated for Hina Matsuri
+#'''BGM Update'''
+#* Jukebox and some maps have been updated with Music that centers around the Hina Matsuri themed music
+#'''Limited Time Drops'''
+#* [[Amatsukaze]], [[Fukae]] and [[Matsuwa]] are available as drops in the Nansei Island Map area.
+#'''Sortie Combat Mechanics update'''
+#* Sortie cap has been changed:
+#** Firepower, Torpedo Power, Night Battle, Anti-Air, ASW, Airstrikes from Bombing planes and Jet have had their cap increased
+#** Support Expeditions also had their damage cap increased
+#'''Akashi Improvement Arsenal Update'''
+#* [[14cm Twin Gun Mount]] can now be improved and upgraded into the [[14cm Twin Gun Mount Kai]]
+#* [[14cm Twin Gun Mount Kai]] can be improved
+#* [[Shiun]] can now be improved
+#* [[Ar196 Kai]] can now be improved.
+#* [[Do 17 Z-2]] can now be improved and upgraded into the [[Do 217 E-5 + Hs293 Initial Model]]
+#* [[Type 97 Torpedo Bomber (Skilled)]] can now be improved and upgraded into the [[Prototype Type 97 Torpedo Bomber Kai (Skilled) No. 3 Model E (w/ Type 6 Airborne Radar Kai)]]
+#* [[FM-2]] can be improved and upgraded into the [[F4U-1D]]
+[[Category: Game Updates]]
+
+=Newly implemented Quests=
+
+====Limited Timed Quests====
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2103 B5
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =【春限定】春の天津風!
+| nameen = (Limited Spring Quest) Amatsukaze of Spring
+| req = Limited Spring Quest: Organize a fleet in which part of it consists of the 16th Destroyer Division member [[Amatsukaze]] as flagship along with 1 other member being [[Yukikaze]], [[Tokitsukaze]] or [[Hatsukaze]] as the 2nd ship in the fleet. Sortie into the the Nansei Island Sea's Bashi Channel, Eastern Orel Sea, and South Western Sea's Deepest part of the Malacca Strait going into Penang confront the main enemy fleet and destroy them multiple times.
+
+*Organize a fleet consists of [[Amatsukaze]] as flagship, a ship in the 2nd slot that can be either [[Yukikaze]], [[Tokitsukaze]] or [[Hatsukaze]], and 4 XX. Then score an S rank on the boss nodes of 2-2, 2-3 and 7-3 (Part 2) twice each.
+| fuel =  1945
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Furniture Fairy}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=6}} {{QuestRewardEquip|Type 3 Depth Charge Projector|qty=3}}  {{QuestRewardItem|Underway Replenishment|qty=3}} 
+| notes = Limited Time Quest
+}}
+|}
+
+====Permanent Quests====
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B165
+| reqQuest = C55
+| reqQuest2 =
+| reqQuest3 =
+| namejp =精鋭「第七駆逐隊」、出撃せよ！
+| nameen = Elite DesDiv 7, Sortie!
+| req = Organize a fleet consist the DesDiv 7 Members [[Akebono|Akebono Kai Ni]] and [[Ushio|Ushio Kai Ni]] then sortie into Nansei Island East Orel Sea, Northern Sea's Kis Islands, Western Sea's Casgadama, and the Southern Sea's Salmon Sea Area. Confront the main enemy fleets and destroy them
+
+*Organize a fleet consists of [[Akebono|Akebono Kai Ni]],[[Ushio|Ushio Kai Ni]], and 4 XX in your fleet and score an S rank at the boss nodes on 2-3, 3-2, 4-4, 5-4
+| fuel = 0
+| ammo = 1944 
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardEquip|12.7cm Twin High-angle Gun Mount Kai 2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Reinforcement Expansion|qty=2}} {{QuestRewardEquip|Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (65th Squadron)}} 
+| notes = 
+}}
+{{ProtoQuests
+| type = PVP
+| listnum = C55
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 精鋭「第七駆逐隊」演習開始！
+| nameen = Elite DesDiv 7 Commence Exercise 
+| req = Organize a fleet consisting of the 4 destoyers [[Sazanami]], [[Akebono]], [[Ushio]], and [[Oboro]] along with additional ships and have them participate in excersice and win 3 battles (A rank) on the same day! Elite DesDiv 7 Commence Exercise!
+
+* Organize a fleet with [[Sazanami]], [[Akebono]], [[Ushio]], and [[Oboro]] along with 2 XX and score 3 A ranks in the same day
+ 
+| fuel = 350
+| ammo = 350
+| steel = 350
+| bauxite = 0
+| other = {{QuestRewardItem|Food Supply Ship Mamiya}} </br>'''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako|qty=2}} {{QuestRewardItem|New Model Armament Material}} {{QuestRewardItem|Instant Repair Material|qty=3}}
+| notes = '''Yearly Quest'''<br/>''Reset March 1st''
+}}
+{{ProtoQuests
+| type = Expedition
+| listnum = D39
+| reqQuest = D38
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 西方連絡作戦による航空技術獲得
+| nameen = Acquisition of aircraft technology by establishing contact with the West 
+| req = Western Contact Operation: Perform Multiple Submarine Dispatch Operation using several submarines and obtain the aircraft technology from Friendly European Forces and successfully complete them.
+*Complete Expeditions 30 twice.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 300
+| other = </br>'''Choose between:'''<br/> {{QuestRewardEquip|Bf 109T Kai}} {{QuestRewardEquip|Do 17 Z-2}} <br/> '''Then choose between:'''<br/>  {{QuestRewardItem|New Model Armament Material}}  {{QuestRewardItem|New Model Aerial Armament Material|qty=2}} {{QuestRewardItem|Improvement Material|qty=4}}
+| notes = 
+}}
+|}

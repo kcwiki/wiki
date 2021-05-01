@@ -1,0 +1,633 @@
+==Info==
+{{KanmusuInfo|ID=183}}
+{{KanmusuInfo|ID=183a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Can equip [[10cm Twin High-angle Gun Mount Kai + Additional Machine Guns]] in reinforcement expansions.
+
+===Overview===
+* High firepower, HP and armour.
+* Low torpedo and ASW.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+'''Hidden Fit Bonuses'''
+* She has accuracy and firepower bonuses when equipped with certain medium guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+Priority: '''Medium'''
+
+:A four slot light cruiser, similar to [[Gotland]], who brings more flexibility than average to the fleet.
+:For example, she can turn into an hard-hitting attacker against enemy installations when fitted with two [[WG42 (Wurfgerät 42)]].
+:However, do note that her ASW stat is very low, so not even the fourth slot makes her able to perform OASW before marriage.
+:Likewise, a low Torpedo stat makes her perform poorly in night battles.
+:No further remodels have been implemented for her yet (as of January 2020).
+
+
+====Recommended Roles====
+* Anti-installation
+
+===Important Info===
+* Required for A65, B57, B114, and B134.
+* Source of [[Fleet Command Facility]]
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 提督、軽巡大淀、戦列に加わりました。艦隊指揮、運営はどうぞお任せください。
+|translation = Light cruiser Ooyodo has arrived at the front, Admiral. Please leave administrating the fleet up to me.
+|audio = Ooyodo_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = 提督、旗艦大淀お供いたします。前線艦隊指揮はどうぞお任せ下さい
+|translation = Flagship Ooyodo will be accompanying you, Admiral. Please leave administrating the front line fleet to me.
+|audio = OoyodoKai-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 艦隊旗艦として特化設計された新鋭軽巡洋艦、大淀です。
+搭載予定の新型水偵の失敗や戦局の変化もあって、連合艦隊旗艦としてはあまり活躍できなかったの。
+でも、北号作戦や礼号作戦では活躍したのよ。私も前線で、頑張りますね。
+|translation = I'm a newly produced light cruiser specifically designed to be a fleet flagship, Ooyodo.
+Due to failures with the seaplanes that were planned to be given to me and a change in the fortunes of war, I wasn't able to serve as the combined fleet flagship.<ref>She was meant to carry the [https://en.wikipedia.org/wiki/Kawanishi_E15K Shiun] that didn't perform as expected and were cancelled.</ref>
+But, I still participated in Operation Kita and Operation Rei.<ref>[https://en.wikipedia.org/wiki/Operation_Kita Operation Kita] was the evacuation of [[Ise]], [[Hyuuga]], [[Ooyodo]], [[Asashimo]], [[Hatsushimo]] and [[Kasumi]] from Singapore back to Japan. [https://ja.wikipedia.org/wiki/%E7%A4%BC%E5%8F%B7%E4%BD%9C%E6%88%A6 Operation Rei] was the naval battle in support of the [https://en.wikipedia.org/wiki/Battle_of_Mindoro Battle of Mindoro].</ref> I'll continue to do my best on the front lines.
+|audio = Ooyodo_25.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = はい。お任せください
+|translation = Yes. Leave it to me.
+|audio = Ooyodo-Secretary 1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 提督、その通信方法はどうなんでしょう。平文で良いかと思います。はい
+|translation = What communication method should we use, Admiral? I think unencrypted is fine. Yes.
+|audio = Ooyodo_4a.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai = yes
+|origin = 提督、その通信方法はどうなんでしょう？暗号ですか？そうなのですか？ 
+|translation = What is that communication method, Admiral? Is it in code? Is that so?
+|audio = Ooyodo_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = 提督、そこは通信機ではありません。勝手に触られると、艦隊指揮に支障が出ます
+|translation = That isn't communications equipment, Admiral. Touching without permission will cause problems with administrating the fleet.
+|audio = Ooyodo_3a.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kai = yes
+|origin = 提督、そこは司令部施設とは無関係です。お願い、艦隊指揮の邪魔をしないで！
+|translation = That has nothing to do with the command facility. Please stop getting in the way of fleet administration. 
+|audio = Ooyodo_4.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 提督、次の任務のお時間です。…って、提督？提督？聞いていらっしゃいます？ねえ
+|translation = It's time for the next mission, Admiral... Hey, Admiral? Admiral? Are you listening? Hey.
+|audio = Ooyodo_29a.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = 提督、改装された大淀どうですか？どうですかって聞いてるのに。もうっ！
+|translation = What do you think of my remodel, Admiral? I asked what you thought. Jeez!
+|audio = Ooyodo_29.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督、大淀をいつも大事にして下さって本当にありがとうございます。私、ずっと見ていたんですよ。気づいていました？
+|translation = Thank you for always treasuring me, Admiral. I've always been watching you. Did you notice?
+|audio = Ooyodo_28.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督、大淀をお呼びでしょうか？えっ、これを私に？ありがとうございます、提督。いつまでも、大切にします。
+|translation = Did you call me Admiral? Eh, is this for me? Thank you, Admiral. I'll always treasure it.
+|audio = Ooyodo_24.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 提督、我が艦隊の情報を整理しました
+|translation = I've organised the fleet's information, Admiral.
+|audio = Ooyodo_8a.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|kai = yes
+|origin = 提督、艦隊の情報ご覧になります？
+|translation = Would you like to view the fleet's information, Admiral?
+|audio = Ooyodo_8.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 艦隊旗艦、大淀。出撃致します。
+|translation = Fleet flagship, Ooyodo. Sortieing.
+|audio = Ooyodo_13a.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai = yes
+|origin = 連合艦隊旗艦、大淀。出撃致します。
+|translation = Combined fleet flagship Ooyodo. Sortieing.
+|audio = Ooyodo_13.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = 私の改装ですか？　ありがとうございます。
+|translation = An upgrade for me? Thank you.
+|audio = Ooyodo_9a.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai = yes
+|origin = さらに改装ですか？ありがとうございます。
+|translation = Another upgrade? Thank you.
+|audio = Ooyodo_9.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = そうですね。雷装を積みたいような、そうでもないような・・・
+|translation = That's right. I wanted to be equipped with torpedoes, but I wasn't...<ref>Ooyodo never mounted torpedoes.</ref>
+|audio = Ooyodo_10a.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai = yes
+|origin = 雷装を積みたいような…水偵を積みたいような…
+|translation = I want to be equipped with torpedoes... I want to be equipped with recon seaplanes...
+|audio = Ooyodo_10.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = 計算通りです。
+|translation = All according to my calculations.
+|audio = Ooyodo_26.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = 補給と兵站、大切ですね
+|translation = Supply and logistics are important.
+|audio = Ooyodo_27.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 申し訳ありません。少し後方に下がります
+|translation = Please forgive me. I'll fall back a while.
+|audio = Ooyodo_11.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 大変申し訳ありません。少しお暇を頂けますと幸いです
+|translation = I beg for your forgiveness. I'll be grateful if you could let me take some leave.
+|audio = Ooyodo_12.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新建造艦が完成致しました
+|translation = A new ship has been completed.
+|audio = Ooyodo_5.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊、作戦終了です。お疲れ様でした。
+|translation = The fleet operations have finished. Thanks for your hard work.
+|audio = Ooyodo_7.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 連合艦隊旗艦　大淀。抜錨します。
+|translation = Combined fleet flagship, Ooyodo. Setting sail.
+|audio = Ooyodo_14a.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai = yes
+|origin = 旗艦 大淀。全力出撃。参りましょう！
+|translation = Flagship Ooyodo. Sortieing at full power. Let's go!
+|audio = Ooyodo_14.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 敵艦隊見ゆ。砲戦、用意。お願いします
+|translation = Enemy fleet spotted. Prepare for battle. Please!
+|audio = Ooyodo_15a.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|kai = yes
+|origin = 敵艦隊見ゆ。砲戦、用意。みなさん行きましょう！ 
+|translation = Enemy fleet spotted. Prepare for battle. Let's go everyone!
+|audio = Ooyodo_15.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = よーく狙って。てーッ
+|translation = Ready, aim, fiiireee~!
+|audio = Ooyodo_16a.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|kai = yes
+|origin = 全砲門。よーく狙って。てーっ！
+|translation = All guns. Ready, aim, fiiireee~!
+|audio = Ooyodo_16.ogg
+}}
+{{ShipquoteKai
+|scenario = Daytime Spotting/Night Battle Attack 
+|origin = 艦隊運動。そう、上手よ、皆
+|translation = Fleet movements are... That's right, good work everyone.
+|audio = Ooyodo_17a.ogg
+}}
+{{ShipquoteKai
+|scenario = Daytime Spotting/Night Battle Attack
+|kai = yes
+|origin = そう、これが本当の大淀型の力よ！
+|translation = That's right, this the true power of the Ooyodo-class!
+|audio = Ooyodo_17.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 礼号作戦を思い出す。全艦、突撃！
+|translation = Remember Operation Rei. All ships, charge!
+|audio = Ooyodo_18.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = え、私の武勲が一番？　あら、意外なこと。でも何だか誇らしいですね、うふふっ
+|translation = Eh, my accomplishments were the greatest? My, how unexpected. But I'm somewhat proud, ufufu.
+|audio = Ooyodo_23.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = ひゃっ！やっ、やられた！
+|translation = Hya! T-They got me!
+|audio = Ooyodo_19.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = やだ・・・右に傾斜。注水傾斜復元を！
+|translation = No way... A starboard list? Flood the ballast!<ref>Caused by repeated air raids in July 1945.</ref>
+|audio = Ooyodo_20.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = ぐっ…やられました。でっ、でもまだ沈みません。大淀沈みは…しません！
+|translation = Ugh... They got me! B-but, I won't sink yet. I will... not sink!
+|audio = Ooyodo_21.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 排水急いで！え…ダメ…？ダメなの！？提督…ここまでのようです…また、いつかどこかで…きっと…
+|translation = Hurry with the draining! Eh... it's no use...? It's really no use!? It looks like this is it for me Admiral... I'm sure... we'll meet again someday...
+|audio = Ooyodo_22.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 提督、日付が変わりました。本日もどうぞよろしくお願いいたします
+|translation = The date has changed, Admiral. Please look after me today as well.
+|audio = Ooyodo_30.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = 提督、現在時刻マルヒトマルマル。時報担当もこの大淀にお任せ下さい
+|translation = The time is now 0100, Admiral. Please leave the time announcements to me.
+|audio = Ooyodo_31.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = 提督、マルフタマルマルです。あら？提督、もしかして寝てらっしゃいます？
+|translation = It's 0200, Admiral. Oh? Could you be getting sleepy Admiral? 
+|audio = Ooyodo_32.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = マルサンマルマル。提督のお休みの間に艦隊運営計画を再検討しておきましょう
+|translation = 0300. I'll review the fleet operation plans while you're resting, Admiral.
+|audio = Ooyodo_33.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = 現在時刻マルヨンマルマル。提督の寝顔可愛いわ。うふふ、少し得したかな
+|translation = The time is now 0400. Your sleeping face is cute, Admiral. Ufufu, I got something special.
+|audio = Ooyodo_34.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = マルゴーマルマルです。提督、朝です。総員起こしをかけますね。総員起こし！
+|translation = It's 0500. It's morning, Admiral. I'll go wake everyone now. All hands, assemble!
+|audio = Ooyodo_35.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = マルロクマルマル。提督、朝食をご用意しました。お味噌汁はお麩にしてみました
+|translation = 0600. I've made breakfast, Admiral. I tried putting wheat gluten in the miso soup.<ref>[https://en.wikipedia.org/wiki/Wheat_gluten_(food) Wheat gluten] is an alternative to soy.</ref>
+|audio = Ooyodo_36.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = 現在時刻マルナナマルマルです。提督、朝食はお済みですか？片づけますね
+|translation = The time is now 0700. Are you done with breakfast, Admiral? I'll clean up.
+|audio = Ooyodo_37.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = マルハチマルマルです。よしっ！艦隊訓練です。訓練、厳しくいきましょう！
+|translation = It's 0800. Alright! It's time for fleet drills. Let's have a harsh session!
+|audio = Ooyodo_38.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = 提督、マルキューマルマルです。演習の次は出撃ですね。出撃計画はこちらです
+|translation = It's 0900 Admiral. After exercises it's time for sorties right? Here is the sortie plan.
+|audio = Ooyodo_39.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマルです。今日も利根さんがいらっしゃいましたね。利根さーん！
+|translation = It's 1000. Tone-san is here today too huh. Tone-san~!
+|audio = Ooyodo_40.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマル。利根さんと筑摩さん、いつも仲が良くて少し妬けちゃいますね
+|translation = 1100. Tone-san and Chikuma-san are always so close, I'm a bit jealous.<ref>Ooyodo was meant to have a sister ship, Niyodo but she was cancelled.</ref>
+|audio = Ooyodo_41.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = ヒトフタマルマル。提督、お昼はカレーにしましょう。軍楽隊付きでカレーです
+|translation = 1200. We're having curry for lunch, Admiral. It's military band-style curry.
+|audio = Ooyodo_42.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = ヒトサンマルマルです。提督、大淀のカレーいかがでしたか？一味違うでしょう？
+|translation = It's 1300. How was my curry, Admiral? The taste was different right?
+|audio = Ooyodo_43.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = 現在時刻ヒトヨンマルマルです。あら？足柄さん。どうされました？うん
+|translation = The time is now 1400. Oh? Ashigara-san. What's the matter? Hmmm.
+|audio = Ooyodo_44.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = ヒトゴーマルマルです。重巡だけど足柄さんとは不思議と波長が合うの。うふふっ
+|translation = It's 1500. Even though she's a heavy cruiser, Ashigara-san and I are mysteriously on the same wavelength.<ref>Ooyodo and Ashigara were the only members of the 2nd Volunteer corps during Operation Rei-go which takes place during the Battle of Mindoro.</ref>
+|audio = Ooyodo_45.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = ヒトロクマルマルです。提督、足柄さん。大量のロース肉と食用油の申請でした
+|translation = It's 1600. Admiral, Ashigara-san. Requesting a large amount of pork sirloin and cooking oil.
+|audio = Ooyodo_46.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = 現在時刻ヒトナナマルマルです。提督、夕焼けと海が綺麗ですね
+|translation = The time is now 1700. Admiral, the sea and sunset are beautiful right?
+|audio = Ooyodo_47.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = 提督、ヒトハチマルマルです。お夕食は何がよろしいでしょうか？お刺身、とか？
+|translation = It's 1800 Admiral. What would you like for dinner? Something like sashimi?
+|audio = Ooyodo_48.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトキューマルマルです。提督、お夕食は悩みましたがカツレツにしてみました。どうでしょう？
+|translation = It's 1900. Admiral, I had a bit of trouble with dinner but I made cutlets. How are they?
+|audio = Ooyodo_49.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = フタマルマルマルです。提督、食後のお茶はここに置きますね
+|translation = It's 2000. I'll leave your after-meal tea here, Admiral.
+|audio = Ooyodo_50.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = 現在時刻フタヒトマルマルです。そろそろ夜戦…の時間ですね。うふふ。やりませんよ夜戦。ほら書類がまだ沢山
+|translation = The time is now 2100. It's almost time... for night battles. Ufufu. I won't be participating. Look at how much paperwork is left.
+|audio = Ooyodo_51.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = フタフタマルマルです。提督、そろそろ残業を切り上げてゆっくりされますか？
+|translation = It's 2200. It's almost time to end overtime, Admiral, won't you take it easy?
+|audio = Ooyodo_52.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = 提督、フタサンマルマルです。今日も一日本当にお疲れ様でした。明日も頑張りましょう
+|translation = It's 2300 Admiral. Thank you so much for your hard work everyday. Let's do our best tomorrow too.
+|audio = Ooyodo_53.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2014|Christmas 2014]]
+|origin =提督、クリスマスですね？メリークリスマス！
+|translation =	It’s Chirstmas, right Admiral? Merry Christmas!
+|audio = Ooyodo_Christmas_2014_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2014|End of Year 2014]]
+|origin = 提督、そろそろ礼号作戦ですね。私もがんばります！
+|translation =  It’s almost time for Operation Rei, Admiral. I’ll do my best!<ref>Referring to [https://ja.wikipedia.org/wiki/%E7%A4%BC%E5%8F%B7%E4%BD%9C%E6%88%A6 Operation Rei].</ref>
+|audio = Ooyodo_Year_End_2014_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2015|New Year 2015]]
+|origin = 提督！新年もあけましておめでとうございます。本年もどうぞ、よろしくお願い致します！
+|translation =	Admiral! Happy New Year. Please look after me next year too!
+|audio = Ooyodo_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Autumn_2015_Seasonal_Update|Early Autumn 2015]]
+|origin = 提督、秋の気配を感じますね。
+|translation =	You can really feel it’s autumn now, Admiral.
+|audio = Ooyodo_Early_Autumn2015.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 提督、我が艦隊は三周年を迎えることができました。おめでとうございます！これからもどうぞよろしくお願い致します。
+|translation =	Our fleet has reached it’s 3rd Anniversary, Admiral. Congratulations! Please keep looking after us.
+|audio = Ooyodo_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = 最近雨の日が続きますが、艦隊は稼動状態に有ります。梅雨の一日…提督、艦隊運用はどうなさいますか？…えぇ、本日はお休み？本当に？提督、いいんですか？
+|translation =	It’s been raining so much recently, but the fleet is still operational. What do… you want to do on this rainy day, Admiral? …Eh, take a day off? Really? Is this alright, Admiral?
+|audio = Ooyodo_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2016|Autumn 2016]]
+|origin = 提督、鎮守府も秋祭りの季節ですね。私も着替えてみました。どうでしょ？提督も、甚平とかいかがですか？私、ご用意してもいいですか？
+|translation =	It’s the time of year for an Autumn Festival at the naval base, Admiral. I went and changed. How do I look? Do you want to try on a jinbei, Admiral? I’ll go get one ready alright?
+|audio = Ooyodo_Autumn_2016_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 灯り、よし！水中探信儀、よし！大淀、装備は万全です。北方海域及び近海秋刀魚漁支援艦隊抜錨準備完了しました。
+|translation =	Lights, check! Sonar, check! My equipment is perfect. The Saury Fishing Support Flet to the Northern and Coastal Waters has finished preparations for setting sail.
+|audio = Ooyodo_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2017|Setsubun 2017]]
+|origin = 今年の節分の各艦隊、戦隊の鬼役は…えっと、あれ？鬼役の人事資料がない…あれ？おかしいなぁ、昨日ちゃんと用意しておいたのに。
+|translation =	The Oni of each squadron in the fleet for this year’s Setsubun is… Ummm, huh? The personnel file of all the ones playing the Oni are gone… Huh? That’s trange, I’m sure I had it ready yesterday.
+|audio = Ooyodo_Setsubun_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2017|Spring 2017]]
+|origin = 提督、春です。鎮守府の桜も咲き始めました。やはりこの季節はいいですね。私が進水したのもこの季節なんですよ。桜の季節、です
+|translation =	It’s spring, Admiral. The cherry blossoms around the Naval Base have started blooming. This season is definitely great. I was launched during this season. The season of cherry blossoms.
+|audio = Ooyodo_Spring_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 提督、我が艦隊は遂に四周年を迎えることとなりました、おめでとうございます。五年目の艦隊もどうぞよろしくお願いいたします。
+|translation =	Our fleet has finally reached it’s 4th Anniversary, Admiral. Congratulations. Please keep looking after the fleet in our 5th year.
+|audio = Ooyodo_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_2017|Early Summer 2017]]
+|origin = 明石、何？水着？いえ、私は鎮守府での任務がありますから…えぇ、明石もそれあるって？感けないって？あの、いや、だからね…
+|translation =	What is it, Akashi? A swimsuit? No, I have duties around the Naval Base so… Eh, you have them too? They don’t matter? Umm, no, you see…
+|audio = Ooyodo_Sec1_Summer_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2017|Midsummer 2017]]
+|origin = あぁ、もう、明石に影響されてやってしまったけれど。ごめんなさい、私着替えて来ますね。やっぱり、無理です！
+|translation =	Ah, jeez, I got convinced by Akashi. I’m sorry, I’ll go get changed right away. I can’t do this after all!
+|audio = Ooyodo_Sec1_Midsummer_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2020|Valentine's Day 2020]]
+|origin = 提督、あの、すみません。大淀からのチョコレートも受け取って頂けますか？あぁ、ありがとうございます。手作りなんです。
+|translation =	Admiral, umm, excuse me. Will you accept my chocolates? Ah, thank you very much. I made them myself.
+|audio = Ooyodo_Valentines_2020_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary]]
+|origin = 提督、今日はとっても大切な日ですね。私、任務とはいえ、提督とご一緒できて、光栄です。ありがとうございます、提督。
+|translation =	Admiral, today is a very important day. Though it's my duty, I'm honoured I can be by your side today. Thank you very much, Admiral.
+|audio = Ooyodo_7th_Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+183.png|Base
+183_X.png|Base Damaged
+321.png|Kai
+321_X.png|Kai Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+183_2015.png|[[Seasonal/New_Year_2015|New Year 2015]]
+183_X_2105.png|[[Seasonal/New_Year_2015|New Year 2015 Damaged]]
+321_2015.png|[[Seasonal/New_Year_2015|Kai New Year 2015]]
+321_X_2015.png|[[Seasonal/New_Year_2015|Kai New Year 2015 Damaged]]
+Ooyodo_Christmas_2015.png|[[Seasonal/Christmas_2015|Christmas 2015]]
+Ooyodo_Christmas_2015_dmg.png|[[Seasonal/Christmas_2015|Christmas 2015 Damaged]]
+Ooyodo_Kai_Christmas_2015.png|[[Seasonal/Christmas_2015|Kai Christmas 2015]]
+Ooyodo_Kai_Christmas_2015_dmg.png|[[Seasonal/Christmas_2015|Kai Christmas 2015 Damaged]]
+Ooyodo_quest_Christmas_2015.png|[[Seasonal/Christmas_2015|NPC Christmas 2015 Pose 1]]
+Ooyodo_quest_Christmas_2_2015.png|[[Seasonal/Christmas_2015|NPC Christmas 2015 Pose 2]]
+Ooyodo_NPC_Spring.png|[[Seasonal/Spring_Peach_Festival_2016|NPC Sukiya Collaboration 2016 Pose 1]]
+Ooyodo_NPC_Spring2.png|[[Seasonal/Spring_Peach_Festival_2016|NPC Sukiya Collaboration 2016 Pose 2]]
+Ooyodo_Sukiya_dmg.png|[[Seasonal/White_Day_2016|Sukiya Collaboration 2016 Damaged]]
+Ooyodo _Swimsuit.png|[[Seasonal/Summer_2016|Midsummer 2016]]
+Ooyodo _Swimsuit_dmg.png|[[Seasonal/Summer_2016|Midsummer 2016 Damaged]]
+Ooyodo _ Kai_Swimsuit.png|[[Seasonal/Summer_2016|Kai Midsummer 2016]]
+Ooyodo _ Kai_Swimsuit_dmg.png|[[Seasonal/Summer_2016|Kai Midsummer 2016 Damaged]]
+NPC_Ooyodo1.png|[[Seasonal/Summer_2016|NPC Midsummer 2016 Pose 1]]
+NPC_Ooyodo2.png |[[Seasonal/Summer_2016|NPC Midsummer 2016 Pose 2]]
+183a_SummerCG_2017.png|[[Seasonal/Early_Summer_2017|Kai Early Summer 2017]]
+183a_SummerCGDmg_2017.png|[[Seasonal/Early_Summer_2017|Kai Early Summer 2017 Damaged]]
+KanMusu183_SurigaoStrait.png|[[Seasonal/Final_Battle|Final Battle 2018]]
+KanMusu183_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Final Battle 2018 Damaged]]
+KanMusu321_SurigaoStrait.png|[[Seasonal/Final_Battle|Kai Final Battle 2018]]
+KanMusu321_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Kai Final Battle 2018 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Ooyodo}}
+
+==Trivia==
+* She is named after the [[wikipedia:%C5%8Cyodo_River|Ōyodo River]].
+* Initially she was the [[NPC#Multi-duty|Mission advisor & Quest-musume NPC]].
+* [[Summer 2014 Event]], E-2 clear reward
+* Intended as a command vessel for submarine operations - a scouting cruiser
+** As such, she traded torpedoes for additional floatplanes and is the only IJN cruiser to lack a torpedo armament 
+* Never became a scouting cruiser & was converted to a command ship due to the war's progression & the [[wikipedia:Kawanishi_E15K|E15K1 ''Shiun'' floatplane]]'s failure.
+* The flagship of the [[Historical Formations|Combined Fleet]] during 1944, as well as the flagship of [[wikipedia:Jisabur%C5%8D_Ozawa|Vice Admiral Ozawa]] after [[Zuikaku]] sunk during the ''Battle of Cape Engaño''.
+* Capsized during the [[wikipedia:Bombing_of_Kure_(July_1945)|''Bombing of Kure'']] on July 28th, 1945.
+** Spent the last half-year of the war in port
+** Subject to multiple air raids from [[wikipedia:Task_Force_58|Task Force 58]] & [[wikipedia:Task_Force_38|Task Force 38]] that left her repeatedly listing to starboard
+
+===Appearances in Derivative Works===
+* A supporting character in the [[Anime]].
+** [[Anime/Characters#Ooyodo|Ooyodo's art was standardized]].
+** [[Anime/Notes & Trivia#Eyecatches|Ooyodo was illustrated in the tenth eyecatch]]
+
+==See Also==
+* [[{{PAGENAME}}/Gallery|View {{PAGENAME}}'s CG]]
+* [[EliteCL|List of Light Cruisers]]
+* [[NPC|List of NPCs]]
+* [http://www.combinedfleet.com/oyodo_c.htm Tabular Record of Movement on {{PAGENAME}}]
+* [[wikipedia:Japanese_cruiser_Oyodo|Wikipedia entry on {{PAGENAME}}]]
+{{Shiplist}}
+[[zh:大淀]]
+[[Category:Light Cruisers]]

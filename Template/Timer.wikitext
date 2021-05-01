@@ -1,0 +1,29 @@
+<includeonly><div style="{{{style|text-align:center;font-size:18px;font-weight:bold;color:red;margin:0px 0px 10px 0px}}};{{{extra_style|}}}">
+<span class="countdown" data-options="no-leading-zeros" data-end="toggle" data-toggle=".{{{class|{{{endClass|countdownComplete{{{2|1}}}}}}}}}" style="display:none">
+<span class="countdowndate">{{{1|{{{time|}}}}}}</span>
+</span>
+<span class="{{{class|{{{endClass|countdownComplete{{{2|1}}}}}}}}}" style="display:none">{{{text|{{{endText|Countdown complete!}}}}}}</span>
+</div></includeonly><noinclude>
+Displays a countdown timer.
+==Parameters==
+* <code>time</code> or <code>[1]</code> : [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse time] to countdown to, required.
+* <code>class</code> : specify when multiple timers are used on the page, <code>countdownComplete1</code> by default, e.g., <code>countdownComplete2</code> for a second timer, etc.
+** <code>[2]</code> : alternatively, to only specify a number, e.g. <code>2</code> for a second timer.
+* <code>text</code> : optional completion text, <code>Countdown complete!</code> by default.
+* <code>style</code> : custom style, optional.
+* <code>extra_style</code> : extra style to add to the default style, optional.
+See [[MediaWiki:Gadget-Countdown.js]] for JS implementation details.
+==Examples==
+<pre>
+{{Timer|January 1 2021 00:00:00 +0900|extra_style = text-align:left}}
+</pre>
+{{Timer|January 1 2021 00:00:00 +0900|extra_style = text-align:left}}
+<pre>
+{{Timer|January 1 2030 00:00:00 +0900|2|style = font-style:italic|text = Not yet.}}
+</pre>
+{{Timer|January 1 2030 00:00:00 +0900|2|style = font-style:italic|text = Not yet.}}
+<pre>
+{{Timer|January 19 2038 12:14:07 +0900|3|style = font-weight:bold|text = The time is now!}}
+</pre>
+{{Timer|January 19 2038 12:14:07 +0900|3|style = font-weight:bold|text = The time is now!}}
+</noinclude>

@@ -1,0 +1,219 @@
+=Introduction=
+The '''Exercise (演習)''' menu can be accessed from the '''Sortie (出撃)''' button on the main menu. This is the PvP section of the game where you fight a random selection of 5 other players on your server.
+
+* The exercise list will reset at 0300 and 1500 JST daily.
+
+=Menu Functions=
+[[file:PvP_Menu.png|thumb|right|PvP Menu]]
+* '''Flagship''' - Displays the opponent's current flagship.
+* '''Name''' - Displays the opponent's name.
+* '''Message''' - Displays the opponent's message that was set in the Information menu.
+* '''HQ Level''' - Displays the opponent's HQ level.
+* '''Medals''' - Displays the number of hard mode medals the opponent has earned.
+* '''Result''' - Displays the result of the exercise. It will be blank if you haven't fought the opponent yet.
+* '''Matchmaking Mode''' - Allows you to select which matchmaking mode you'd prefer. See [[#Matchmaking Mode|below]] for details.
+* '''Fleet Preview''' - Displays the opponent's current fleet.
+* '''Opponent Information''' - Displays the opponent's current rank, exp total, number of ship girls, equipment and furniture.
+* '''Challenge''' - Starts the exercise.
+
+=How to Exercise=
+[[file:PvP_Oppenent.png|thumb|right|A more detailed look at the opponent]]
+1. To begin an exercise, just click on the opponent you wish to fight. This will bring up the opponent's information.
+2. Clicking on '''Challenge (演習を挑む)''' will bring up your fleet. 
+3. Clicking on '''Begin Exercise (演習開始！)''' will start the exercise.
+4. Select a formation to begin combat.
+* This step is your last chance to back out if you wish. Once you select a formation, the battle result will be locked in and you cannot challenge this opponent again.
+* '''Your ship girls will not earn experience from cancelled exercises.'''
+
+'''Important Notes'''
+* The flagship must not be <span style="color:red;">'''heavily damaged (大破)'''</span>.
+** Can deploy if an escort ship is heavily damaged, but it may result in that ship not receiving any EXP. See [[#General Tips|below]] for details.
+* The list of opponents refreshes twice a day at 0300 and 1500 JST.
+** This means a maximum of 10 exercises a day.
+** Since the daily quest list refreshes at 0500, it is possible to "finish" the day's exercise quest by exercising between 0300 and 0500. However, this will cause you to have fewer battles for the next day (you end up using the next day's list early).
+* The opposing fleet is the 1st fleet of the opponent.
+** The composition of that fleet is updated almost real-time. It is only confirmed '''after formation is selected'''.
+** You can end up fighting a different fleet than what was presented at the opponent information menu.
+* Ship girls cannot be sunk in exercises.
+** But they can be considered "sunk" for exp and victory condition purposes.
+* You cannot gain or lose [[Plane Proficiency|plane proficiency]] in exercises.
+* The opponent's fleet will always be at full HP and 0 plane proficiency regardless of their actual status.
+* You will not be able to have a rematch with the opponent.
+** They can still be selected as your opponent again during another reset.
+* Exercises cost as much as a normal combat node. That is '''20% fuel and ammo'''.
+* Ship girls cannot be truly sunk in exercies. They will not go below 1HP.
+** This can lead to confusion as actual 1HP ship girls are still not considered "sunk" for the purposes of determining rank.
+
+=Matchmaking Modes=
+
+The three different matchmaking modes are as follows:
+
+* Exercise Fleet (Group 1) (演習艦隊【第一群】): Opponents will be selected from those that have a higher HQ level. Fleets are generally tougher but will have better experience rewards.
+
+* Exercise Fleet (Group 2) (演習艦隊【第二群】): Opponents are selected from those around your HQ level. Fleets will generally be evenly matched to yours but provide less experience.
+
+* Entire Server (全体): This is the original PvP matchmaking system and it is the '''default''' unless you change it. Oppontents are selected as follows:
+** 1 random player within the '''Top 1000''' of your server.
+** 3 players '''immediately above you in rankings'''.
+** 1 player '''10 places above you in rankings'''.
+** If you are within the Top 1000, it will just be '''5 random players within the top 1000'''.
+
+'''Important Notes'''
+* You are able to freely swap between matchmaking modes until '''2 hours before PvP reset''' (0100 and 1300 JST).
+* It is generally advised to use "Group 1" whenever possible because it will match you with high level players. They will generally have high leveled ships that give the most exp. 
+
+=Fleet Formations=
+The formation of the opponent's fleet is determined by a few factors:
+
+* If ''your opponent'' has '''3 or fewer ships in the fleet''', their formation will be '''line ahead''' regardless of your composition. Otherwise:
+# If ''you'' have a '''SS or SSV flagship''' and '''at least 1 other SS/SSV''', their formation will be '''line abreast'''.
+# If ''your opponent'' has a '''SS or SSV flagship''', their formation will be '''echelon'''.
+# If ''your opponent'' has a '''CV or CVL flagship''' and '''at least 5 ships''', their formation will be '''diamond'''.
+#* Note that this means CV flagship of a 4-ship fleet will not be in diamond.
+# In all other cases, their formation will be '''line ahead'''.
+
+In case multiple criteria are met (for example, a fleet of 5 ships led by a CV facing a submarine-only fleet), the precedence is:
+# '''Line abreast'''
+# '''Echelon''' / '''Diamond''' (equal priority)
+# '''Line ahead'''
+So in the example given above, the enemy will be in line abreast.
+
+=Experience Gain=
+ 
+Please see [[Experience and Rank#Exercises|Experience and Rank]] for more details on the formula used for calculating experience earned in exercises.
+
+===Experience Chart===
+
+The table below represents the '''post-cap experience without the rank multiplier''' depending on the 1st and 2nd ships of your opponent. 
+
+* The first column represents the flagship level and the first row is the 2nd ship level.
+* The red numbers represent the 100s thresholds for experience. 
+* The numbers assumes a random integer of 0, as per the experience formula.
+
+{| class="wikitable typography-xl-optout mw-collapsible mw-collapsed" style="width:100%;text-align:center;"
+|+Exercise EXP Chart
+|-
+!
+!colspan="32"|Second ship level
+|-
+!Flagship<br>level
+!1||5||10||15||20||25||30||40||50||60||70||80||90||99||110||120||130||140||150||155||160||165||170||175
+|-
+!1
+|style="color:blue"|0||style="color:blue"|3||style="color:blue"|15||style="color:blue"|35||style="color:blue"|63||100||145||260||408||style="color:red"|510||519||527||536||553||554||560||573||593||style="color:red"|618||633||641||659||667||689
+|-
+!5
+|style="color:blue"|10||style="color:blue"|13||style="color:blue"|25||style="color:blue"|45||style="color:blue"|73||110||155||270||418||style="color:red"|510||519||528||536||553||555||560||573||593||style="color:red"|618||633||641||659||667||689
+|-
+!10
+|style="color:blue"|45||style="color:blue"|48||style="color:blue"|60||style="color:blue"|80||108||145||190||305||453||style="color:red"|512||520||528||536||553||555||561||574||593||style="color:red"|618||633||641||660||667||689
+|-
+!15
+|105||108||120||140||168||205||250||365||style="color:red"|503||514||522||529||537||554||555||561||574||593||style="color:red"|618||633||641||660||667||690
+|-
+!20
+|190||193||205||225||253||290||335||450||style="color:red"|509||517||523||531||538||554||556||562||575||594||style="color:red"|619||633||641||660||668||690
+|-
+!25
+|300||303||315||335||363||400||445||style="color:red"|507||514||520||526||532||540||555||557||563||575||594||style="color:red"|619||634||642||660||668||690
+|-
+!30
+|435||438||450||470||498||style="color:red"|505||style="color:red"|508||513||518||523||528||534||541||557||558||564||576||595||style="color:red"|620||634||642||661||668||690
+|-
+!40
+|style="color:red"|516||style="color:red"|516||style="color:red"|517||style="color:red"|517||style="color:red"|518||519||520||523||526||529||534||539||545||560||561||566||578||597||style="color:red"|621||636||643||662||669||691
+|-
+!50
+|526||526||527||527||528||528||529||531||533||536||540||544||550||563||565||570||581||599||style="color:red"|623||637||645||663||671||692
+|-
+!60
+|536||536||536||536||537||537||538||539||541||543||546||550||555||568||569||574||585||style="color:red"|602||625||639||647||665||672||694
+|-
+!70
+|546||546||546||546||547||547||547||549||550||552||555||558||562||574||575||579||590||style="color:red"|606||629||642||650||667||675||696
+|-
+!80
+|557||557||557||558||558||558||558||559||561||562||564||567||571||581||582||586||596||style="color:red"|611||633||646||654||671||678||699
+|-
+!90
+|570||570||570||570||570||571||571||572||573||574||576||578||582||591||592||595||style="color:red"|604||618||639||652||659||676||683||style="color:red"|703
+|-
+!99
+|597||597||597||597||597||597||598||598||599||style="color:red"|600||style="color:red"|601||style="color:red"|603||style="color:red"|606||style="color:red"|613||style="color:red"|614||style="color:red"|616||624||636||655||666||672||688||695||style="color:red"|714
+|-
+!110
+|style="color:red"|600||style="color:red"|600||style="color:red"|600||style="color:red"|600||style="color:red"|600||style="color:red"|600||style="color:red"|600||style="color:red"|601||style="color:red"|602||603||604||606||608||615||616||619||626||638||656||668||674||690||696||style="color:red"|715
+|-
+!120
+|609||609||609||609||610||610||610||610||611||612||613||615||617||624||624||627||634||645||663||674||680||695||style="color:red"|701||720
+|-
+!130
+|631||631||631||631||631||632||632||632||633||633||635||636||638||643||644||646||652||662||678||688||694||style="color:red"|708||714||732
+|-
+!140
+|664||664||664||664||664||664||665||665||665||666||667||668||670||674||674||676||681||690||style="color:red"|704||style="color:red"|712||style="color:red"|717||730||736||752
+|-
+!150
+|style="color:red"|707||style="color:red"|707||style="color:red"|707||style="color:red"|707||style="color:red"|707||style="color:red"|707||style="color:red"|707||style="color:red"|708||style="color:red"|708||style="color:red"|709||style="color:red"|709||style="color:red"|710||style="color:red"|711||style="color:red"|715||style="color:red"|715||style="color:red"|717||style="color:red"|721||style="color:red"|728||740||747||751||762||767||782
+|-
+!155
+|732||732||732||732||732||733||733||733||733||734||734||735||736||739||740||741||745||751||762||769||773||783||787||style="color:red"|801
+|-
+!160
+|746||746||746||746||746||746||746||746||747||747||748||748||750||753||753||754||758||764||774||780||784||794||798||style="color:red"|811
+|-
+!165
+|778||778||778||778||778||778||779||779||779||779||780||781||781||784||784||786||789||794||style="color:red"|803||style="color:red"|809||style="color:red"|813||style="color:red"|822||style="color:red"|826||837
+|-
+!170
+|792||792||792||792||792||792||792||792||792||793||793||794||795||797||798||799||style="color:red"|802||style="color:red"|807||815||821||825||833||837||848
+|-
+!175
+|style="color:red"|830||style="color:red"|830||style="color:red"|830||style="color:red"|830||style="color:red"|830||style="color:red"|830||style="color:red"|830||style="color:red"|830||style="color:red"|830||style="color:red"|831||style="color:red"|831||style="color:red"|832||style="color:red"|832||style="color:red"|835||style="color:red"|835||style="color:red"|836||839||843||851||856||859||867||870||881
+|}
+
+=Exercise Tips=
+===General Tips===
+
+* If the sum of your opponent's first two ships is ≥50, then you can expect a base experience of 500. 
+* It is always worth doing exercises against powerful opponents. Even if you lose badly, you stand to gain a significant amount of experience from high level ship girls.
+** Setting your matchmaker to "Group 1" will help you find powerful opponents.
+* It is inadvisable to run carriers with bombers in exercises.
+** Due to how powerful ship girl anti-air can be, it can cost between 200-500 bauxite if you run into a fleet with heavy anti air.
+* The flagship receives a significant bonus, this makes it a great way to level weak or expensive ship girls.
+* <span style="color:red;">'''Heavily damaged (大破)'''</span> ship girls are subject to "sinking" just like in sorties.
+** You will not lose them if they are "sunk" in exercises, but they will not earn any experience and will affect your rank.
+
+===Fleet Setup===
+
+* You can abuse the formation triggers to get an easy fight.
+** Eg. running submarines to neuter a fleet by forcing it into line abreast.
+** It is inadvisable to do this too often as you would be wasting experience that could go to more useful ship girls.
+* Running a carrier loaded with fighters is advisable to gain air superiority and activate artillery spotting.
+** Having a [[Saiun]] can also be helpful for preventing Crossing T (Disadvantage).
+* When facing submarines, use line abreast formation and ASW ships.
+** Adding a battleship to allow a 2nd round of shelling will help.
+** Being able to [[Opening Anti-Submarine Warfare|OASW]] will make sumbmarine fleets trivial.
+* When facing a heavy fleet, you can run a full submarine fleet to scrape a victory.
+** Placing a surface ship as the flag can force the opponent into line ahead to neuter any ASW ships present.
+* A single submarine can help tank light ships in the opponent's fleet.
+
+=Exercise Result Reports=
+
+If you were challenged to an exercise, you will be able to view the results of the battle by clicking the small blue arrow at the bottom of your home screen.
+
+[[File:PVP_Translate.jpg|300px|center]]
+
+<center>[Blue = Victory, Red = Defeat, Green = PvP, Orange = Name]</center>
+
+Reports marked with '''Exercise (演習)''' are the exercise reports. The result will either be:
+* Victory (勝利)
+* Defeat (敗北)
+
+These results do not affect your win/loss ratio in your Information page.
+
+=See Also=
+{{Mechanics}}
+[[Category:Help]]
+[[Category:Tutorial]]
+[[Category:UI]]

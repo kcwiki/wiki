@@ -1,0 +1,20 @@
+<noinclude>{{QuestsHeader}}</noinclude>
+|- id = "{{{listnum}}}"
+| style="text-align:center; background-color: {{#switch:{{{type}}} 
+| Composition = rgb(50,205,50); <!--LimeGreen-->
+| Sortie = rgb(232, 57, 41);
+| PVP = rgb(152, 217, 142);
+| Expedition = rgb(160, 216, 239);
+| Supply = rgb(215, 207, 58);
+| Factory = rgb(168, 111, 76);
+| Modernization = rgb(165, 154, 202);
+}}" | {{{listnum}}}
+| style="text-align:center;" |{{lang|ja|{{{namejp}}} }}<br>''{{{nameen}}}''
+| {{{req}}}
+| style="text-align:center;" | {{{fuel}}}
+| style="text-align:center;" | {{{ammo}}}
+| style="text-align:center;" | {{{steel}}}
+| style="text-align:center;" | {{{bauxite}}}
+| {{{other}}}
+| style="text-align:center;" | {{#if:{{{notes|}}}|{{{notes}}}|}} {{#if:{{{once|}}}|<br/>''One time only.''|}}
+<noinclude> |} <br/>{{documentation}} </noinclude><includeonly>{{{1|}}}<nowiki /></includeonly>

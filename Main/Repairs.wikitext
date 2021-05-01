@@ -1,0 +1,93 @@
+=Introduction=
+
+Repairs to your ship girls can be done either through the [[Docking]] menu or by using [[Akashi]] or [[Akitsushima]]. It is important to keep your ship girls healthy as damage can have detrimental effects on their [[Damage_Calculations#Damage_State|combat performance]]. Also important to note is that <span style="color:red;">'''heavily damaged'''</span> ship girls can be sunk and '''permanently lost''' in sorties.
+
+=Overview=
+
+* Repairs cost fuel {{Fuel}}, steel {{Steel}} and time.
+** The cost is the same for both methods.
+* Repairs can be completed immediately using Instant Repairs {{IR}}.
+* Repairs will reset a ship girl's [[Morale and Fatigue|morale]] to 40 if she is below 39 morale.
+* Ship girls being repaired can be:
+** [[Supply (Mechanic)|Resupplied]]
+** [[Composition|Placed in a fleet]]
+* Ship girls being repaired cannot: 
+** Have their equipment adjusted through the [[Remodel_(Menu)|Remodel menu]].
+*** Swapping equipment with another ship girl still works.
+*** Equipment in a [[Reinforcement Expansion]] can still be adjusted.
+** Be sent on [[Sortie]]s, [[Expeditions]], or [[Exercises]].
+* There are actions which will restore your ship girl to full HP besides repairs.
+** [[Repair Goddess]]
+** [[Remodel (Mechanic)|Remodeling]]
+** [[Marriage]]
+* Returning to the docking menu with less than 1 minute remaining on the timer will automatically complete the repair.
+** This also works for skipping the instant repair animation.
+
+===Repair time===
+
+The length of time (in seconds) it takes to repair a ship girl can be calculated by:
+
+<math>\text{Repair Time} = \text{HP}_\text{loss} \times \text{Repair Time}_\text{base} \times \text{Mod}_\text{ship} + 30</math>
+
+* <math>\text{HP}_\text{loss}</math> is the amount of HP that needs recovering.
+* <math>\text{Repair Time}_\text{base} = \begin{align*}
+\left\{
+\begin{array}{l l}
+\text {Level} \times 10 & \text {if Level }  \le \text {11} \\ 
+\text {Level} \times 5 + \lfloor (\sqrt {Level - 11})\rfloor \times 10 + 50 & \text {if Level } \ge \text {12}
+\end{array}
+\right\}
+\end{align*}</math>
+* <math>\text{Mod}_\text{ship}</math> is the ship type modifier given by the table below:
+
+{| class="wikitable"
+!style="background-color:#99CCFF;" | Ship Type
+! style="background-color:#99CCFF;text-align: center;"| Multiplier
+|-
+|Battleships, Aviation Battleships, Aircraft Carriers, Repair Ships
+| style="text-align: center;"|2
+|-
+|Heavy Cruisers, Aviation Cruisers, Fast Battleships, Light Aircraft Carriers, Submarine Tenders
+| style="text-align: center;"|1.5
+|-
+|Light Cruisers, Destroyers, Submarine Aircraft Carriers, Seaplane Tenders, Amphibious Assault Ships, Torpedo Cruisers
+| style="text-align: center;"|1
+|-
+|Submarines, Destroyer Escorts
+| style="text-align: center;"|0.5
+|}
+
+===Repair cost===
+
+The fuel {{Fuel}} and steel {{Steel}} costs for repairs are calculated by:
+
+<math>\text {Fuel} = \lfloor(\text {Base Fuel} \times \text{HP}_\text{loss} \times 0.032)\rfloor</math><br />
+<math>\text {Steel} = \lfloor(\text {Base Fuel} \times \text{HP}_\text{loss} \times 0.06)\rfloor</math>
+
+* <math>\text {Base Fuel}</math> is the fuel cost for that ship girl. Please refer to the individual ship girl pages for their fuel costs. Remember that this can vary based on remodel.
+* <math>\text{HP}_\text{loss}</math> is the amount of HP that needs recovering.
+
+=Anchorage Repairs=
+
+[[Akashi]] has the ability to repair ships that are <span style="color:gold;">'''lightly damaged (小破)'''</span> or better. Please refer to her page for details on how this ability works.
+
+=Emergency Anchorage Repairs=
+
+[[Akashi]] or [[Akitsushima|Akitsushima Kai]] have the ability to repair moderately damaged ships mid-sortie if they are equipped with [[Emergency Repair Materials]] and [[Ship Repair Facility]]. The repairs are triggered when the fleet reaches an [[Combat/Nodes#Non-Combat_Nodes|Emergency Repair Node]] and Akashi or Akitsushima are not moderately damaged or worse. They must also not be in the '''flagship position''' of the main fleet.
+
+This repair restores 30% (Akashi) or 25% (Akitsushima) of '''Max HP''' rounded up. It also provides a +7 morale boost to all repaired ships.
+
+The amount of ships repaired depends on how many Ship Repair Facilities are currently equipped:
+* Akashi:
+** 1: Slots 1-3 of the main fleet.
+** 2: Slots 1-6 of the main fleet.
+** 3: Slots 1-6 of the main fleet and 1-3 of the escort fleet.
+** 4. All ships in the combined fleet.
+* Akitsushima:
+** 1: Slots 1-3 of the escort fleet.
+** 2: Slots 1-6 of the escort fleet.
+
+Take note that Akitsushima is incapable of repairing the main fleet. This ability is of limited usefulness because it does not repair enough damage to make a difference and it requires taking a non-combat ship that is liable to cause retreats. This ability also '''does not repair heavily damaged''' ships.
+
+=See Also=
+{{Mechanics}}

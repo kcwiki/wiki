@@ -1,0 +1,160 @@
+{| class="mw-collapsible wikitable"
+ !Event
+ !Japanese
+ !English
+ !Note
+ |-
+ |Introduction<br />{{{Clip1|}}}{{{IntroClip|}}}
+ |{{lang|ja|{{{自己紹介|}}}}}{{lang|ja|{{{IntroJp|}}}}}
+ |{{{EN1|}}}{{{IntroEn|}}}
+ |{{{Note1|}}}{{{IntroNote|}}}
+ |- 
+ |Library Intro<br />{{{Clip0|}}}{{{LibraryClip|}}}
+ |{{lang|ja|{{{Library|}}}}}{{lang|ja|{{{LibraryJp|}}}}}
+ |{{{EN0|}}}{{{LibraryEn|}}}
+ |{{{Note0|}}}{{{LibraryNote|}}}
+ |-
+ |Secretary(1)<br />{{{Clip2|}}}{{{Sec1Clip|}}}
+ |{{lang|ja|{{{秘書クリック会話①|}}}}}{{lang|ja|{{{Sec1Jp|}}}}}
+ |{{{EN2|}}}{{{Sec1En|}}}
+ |{{{Note2|}}}{{{Sec1Note|}}}
+ |-
+ |Secretary(2)<br />{{{Clip3|}}}{{{Sec2Clip|}}}
+ |{{lang|ja|{{{秘書クリック会話②|}}}}}{{lang|ja|{{{Sec2Jp|}}}}}
+ |{{{EN3|}}}{{{Sec2En|}}}
+ |{{{Note3|}}}{{{Sec2Note|}}}
+ |-
+ |Secretary(3)<br />{{{Clip4|}}}{{{Sec3Clip|}}}
+ |{{lang|ja|{{{秘書クリック会話③|}}}}}{{lang|ja|{{{Sec3Jp|}}}}}
+ |{{{EN4|}}}{{{Sec3En|}}}
+ |{{{Note4|}}}{{{Sec3Note|}}}
+ |-
+ |Secretary(idle)<br />{{{Clip4a|}}}{{{SecIdleClip|}}}
+ |{{lang|ja|{{{秘書放置時|}}}}}{{lang|ja|{{{SecIdleJp|}}}}}
+ |{{{EN4a|}}}{{{SecIdleEn|}}}
+ |{{{Note4a|}}}{{{SecIdleNote|}}}
+ |- 
+ |Secretary(Married)<br />{{{Clip25|}}}{{{SecMarriedClip|}}}
+ |{{Template:Background_color|#000000|{{lang|ja|{{{Married|}}}}}}}{{Template:Background_color|#000000|{{lang|ja|{{{SecMarriedJp|}}}}}}}
+ |{{Template:Background_color|#000000|{{{EN25|}}}}}{{Template:Background_color|#000000|{{{SecMarriedEn|}}}}}
+ |{{Template:Background_color|#000000|{{{Note25|}}}}}{{Template:Background_color|#000000|{{{SecMarriedNote|}}}}}
+ |- 
+ |Wedding<br />{{{Clip26|}}}{{{WeddingClip|}}}
+ |{{Template:Background_color|#000000|{{lang|ja|{{{Wedding|}}}}}}}{{Template:Background_color|#000000|{{lang|ja|{{{WeddingJp|}}}}}}}
+ |{{Template:Background_color|#000000|{{{EN26|}}}}}{{Template:Background_color|#000000|{{{WeddingEn|}}}}}
+ |{{Template:Background_color|#000000|{{{Note26|}}}}}{{Template:Background_color|#000000|{{{WeddingNote|}}}}}
+ |-
+ |Show player's score<br />{{{Clip5|}}}{{{ScoreClip|}}}
+ |{{lang|ja|{{{戦績表示時|}}}}}{{lang|ja|{{{ScoreJp|}}}}}
+ |{{{EN5|}}}{{{ScoreEn|}}}
+ |{{{Note5|}}}{{{ScoreNote|}}}
+ |-
+ |Joining a fleet<br />{{{Clip6|}}}{{{JoinClip|}}}
+ |{{lang|ja|{{{編成選択時|}}}}}{{lang|ja|{{{JoinJp|}}}}}
+ |{{{EN6|}}}{{{JoinEn|}}}
+ |{{{Note6|}}}{{{JoinNote|}}}
+ |-
+ |Equipment(1)<br />{{{Clip7|}}}{{{Equip1Clip|}}}
+ |{{lang|ja|{{{装備時①|}}}}}{{lang|ja|{{{Equip1Jp|}}}}}
+ |{{{EN7|}}}{{{Equip1En|}}}
+ |{{{Note7|}}}{{{Equip1Note|}}}
+ |-
+ |Equipment(2)<br />{{{Clip8|}}}{{{Equip2Clip|}}}
+ |{{lang|ja|{{{装備時②|}}}}}{{lang|ja|{{{Equip2Jp|}}}}}
+ |{{{EN8|}}}{{{Equip2En|}}}
+ |{{{Note8|}}}{{{Equip2Note|}}}
+ |-
+ |Equipment(3)<br />{{{Clip9|}}}{{{Equip3Clip|}}}
+ |{{lang|ja|{{{装備時③|}}}}}{{lang|ja|{{{Equip3Jp|}}}}}
+ |{{{EN9|}}}{{{Equip3En|}}}
+ |{{{Note9|}}}{{{Equip3Note|}}}
+ |-
+ | colspan="5"| Equipment(3) is shared with expedition selection, resource collection, instant repair and development.
+ |-
+ |Supply<br />{{{Clip24|}}}{{{SupplyClip|}}}
+ |{{lang|ja|{{{補給時|}}}}}{{lang|ja|{{{SupplyJp|}}}}}
+ |{{{EN24|}}}{{{SupplyEn|}}}
+ |{{{Note24|}}}{{{SupplyNote|}}}
+ |-
+ |Docking <br /> Current HP ≥ 50% of Max HP<br />{{{Clip10|}}}{{{DockingMinorClip|}}}
+ |{{lang|ja|{{{ドック入り(小破以下)|}}}}}{{lang|ja|{{{DockingMinorJp|}}}}}
+ |{{{EN10|}}}{{{DockingMinorEn|}}}
+ |{{{Note10|}}}{{{DockingMinorNote|}}}
+ |-
+ |Docking <br /> Current HP < 50% of Max HP<br />{{{Clip11|}}}{{{DockingMajorClip|}}}
+ |{{lang|ja|{{{ドック入り(中破以上)|}}}}}{{lang|ja|{{{DockingMajorJp|}}}}}
+ |{{{EN11|}}}{{{DockingMajorEn|}}}
+ |{{{Note11|}}}{{{DockingMajorNote|}}}
+ |- {{#if: {{{DockingDoneJp|}}} | | style="display: none;" }}
+ |Docking <br />completed<br />{{{Clip27|}}}{{{DockingDoneClip|}}}
+ |{{lang|ja|{{{入渠完了|}}}}}{{lang|ja|{{{DockingDoneJp|}}}}}
+ |{{{EN27|}}}{{{DockingDoneEn|}}}
+ |{{{Note27|}}}{{{DockingDoneNote|}}}
+ |-
+ |Ship construction<br />{{{Clip12|}}}{{{ConstructionClip|}}}
+ |{{lang|ja|{{{建造時|}}}}}{{lang|ja|{{{ConstructionJp|}}}}}
+ |{{{EN12|}}}{{{ConstructionEn|}}}
+ |{{{Note12|}}}{{{ConstructionNote|}}}
+ |-
+ |Return from sortie<br />{{{Clip13|}}}{{{SortieFinClip|}}}
+ |{{lang|ja|{{{艦隊帰投時|}}}}}{{lang|ja|{{{SortieFinJp|}}}}}
+ |{{{EN13|}}}{{{SortieFinEn|}}}
+ |{{{Note13|}}}{{{SortieFinNote|}}}
+ |-
+ |Start a sortie<br />{{{Clip14|}}}{{{SortieStartClip|}}}
+ |{{lang|ja|{{{出撃時|}}}}}{{lang|ja|{{{SortieStartJp|}}}}}
+ |{{{EN14|}}}{{{SortieStartEn|}}}
+ |{{{Note14|}}}{{{SortieStartNote|}}}
+ |-
+ |Battle start<br />{{{Clip15|}}}{{{BattleStartClip|}}}
+ |{{lang|ja|{{{戦闘開始時|}}}}}{{lang|ja|{{{BattleStartJp|}}}}}
+ |{{{EN15|}}}{{{BattleStartEn|}}}
+ |{{{Note15|}}}{{{BattleStartNote|}}}
+ |-{{#if: {{{航空戦開始時|}}} | | style="display: none;" }}
+ |Air battle<br />{{{Clip15a|}}}{{{AirBattleClip|}}}
+ |{{lang|ja|{{{航空戦開始時|}}}}}{{lang|ja|{{{AirBattleJp|}}}}}
+ |{{{EN15a|}}}{{{AirBattleEn|}}}
+ |{{{Note15a|}}}{{{AirBattleNote|}}}
+ |-
+ |Attack<br />{{{Clip16|}}}{{{AttackClip|}}}
+ |{{lang|ja|{{{攻撃時|}}}}}{{lang|ja|{{{AttackJp|}}}}}
+ |{{{EN16|}}}{{{AttackEn|}}}
+ |{{{Note16|}}}{{{AttackNote|}}}
+ |-
+ |Night battle<br />{{{Clip17|}}}{{{NightBattleClip|}}}
+ |{{lang|ja|{{{夜戦開始時|}}}}}{{lang|ja|{{{NightBattleJp|}}}}}
+ |{{{EN17|}}}{{{NightBattleEn|}}}
+ |{{{Note17|}}}{{{NightBattleNote|}}}
+ |- {{#if: {{{夜戦攻撃時|}}} | | style="display: none;" }}
+ |Night attack<br />{{{Clip18|}}}{{{NightAttackClip|}}}
+ |{{lang|ja|{{{夜戦攻撃時|}}}}}{{lang|ja|{{{NightAttackJp|}}}}}
+ |{{{EN18|}}}{{{NightAttackEn|}}}
+ |{{{Note18|}}}{{{NightAttackNote|}}}
+ |-
+ |MVP<br />{{{Clip19|}}}{{{MVPClip|}}}
+ |{{lang|ja|{{{MVP時|}}}}}{{lang|ja|{{{MVPJp|}}}}}
+ |{{{EN19|}}}{{{MVPEn|}}}
+ |{{{Note19|}}}{{{MVPNote|}}}
+ |-
+ |Minor damaged(1)<br />{{{Clip20|}}}{{{MinorDamage1Clip|}}}
+ |{{lang|ja|{{{小破①|}}}}}{{lang|ja|{{{MinorDamage1Jp|}}}}}
+ |{{{EN20|}}}{{{MinorDamage1En|}}}
+ |{{{Note20|}}}{{{MinorDamage1Note|}}}
+ |-
+ |Minor damaged(2)<br />{{{Clip21|}}}{{{MinorDamage2Clip|}}}
+ |{{lang|ja|{{{小破②|}}}}}{{lang|ja|{{{MinorDamage2Jp|}}}}}
+ |{{{EN21|}}}{{{MinorDamage2En|}}}
+ |{{{Note21|}}}{{{MinorDamage2Note|}}}
+ |-
+ |≥Moderately damaged<br />{{{Clip22|}}}{{{MajorDamageClip|}}}
+ |{{lang|ja|{{{中破|}}}}}{{lang|ja|{{{MajorDamageJp|}}}}}
+ |{{{EN22|}}}{{{MajorDamageEn|}}}
+ |{{{Note22|}}}{{{MajorDamageNote|}}}
+ |-
+ |Sunk<br />{{{Clip23|}}}{{{SinkClip|}}}
+ |{{Template:Background_color|#000000|{{lang|ja|{{{撃沈時(反転)|}}}}}}}{{Template:Background_color|#000000|{{lang|ja|{{{SinkJp|}}}}}}}
+ |{{Template:Background_color|#000000|{{{EN23|}}}}}{{Template:Background_color|#000000|{{{SinkEn|}}}}}
+ |{{Template:Background_color|#000000|{{{Note23|}}}}}{{Template:Background_color|#000000|{{{SinkNote|}}}}}
+ |}<noinclude>
+{{Documentation}}
+</noinclude>

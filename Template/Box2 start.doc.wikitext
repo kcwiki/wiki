@@ -1,0 +1,14 @@
+;Description
+:This template starts a purple box, as the second part of a two column box.
+;Syntax
+:Type <code>{{t|Box1 start}}</code>, then whatever you would like inside the first box, then <code>{{t|Box2 start}}</code> and whatever you want in the second box, ended by <code>{{t|Boxes end}}</code>.
+:For example...
+<pre>
+{{Box1 start}}
+Text
+{{Box2 start}}
+Text
+{{Boxes end}}
+</pre>
+
+<includeonly>[[Category:General wiki templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

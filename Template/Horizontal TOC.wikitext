@@ -1,0 +1,9 @@
+<div class="hlist {{#if:{{{limit|}}}|toclimit-{{{limit}}}}} {{#if:{{{nonum|}}}|nonumtoc}} {{#ifeq:{{lc:{{{align|}}}}}|center|center}}" style="{{#switch:{{lc:{{{align|}}}}}
+|left=float: left; clear: {{{clear|left}}};
+|right=float: right; clear: {{{clear|right}}};
+|center=clear: {{{clear|none}}};
+|#default=clear: {{{clear|left}}};
+}}">__TOC__</div><noinclude>
+{{documentation}}
+<!-- place category links on the /doc sub-page, not here -->
+</noinclude>

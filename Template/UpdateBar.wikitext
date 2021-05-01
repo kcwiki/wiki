@@ -1,0 +1,10 @@
+{| class="wikitable" style="text-align: center; width: 75%; margin: auto;"
+|- style="background-color: #ddeeff;" 
+| style="width: 30%;" |'''Previous'''
+| style="width: 40%;" |'''Current'''
+| style="width: 30%;" |'''Next''' 
+|-
+| {{#if: {{{PrevYear|}}} | {{#if: {{{PrevDate|}}} | [[Game Updates/{{{PrevYear}}}/{{{PrevDate}}}|{{{PrevDate}}}, {{{PrevYear}}}]] }} }}
+| {{#ifeq: {{ROOTPAGENAME}} | Game Updates | {{#titleparts: {{PAGENAME}} | 1 | -1 }}, {{#titleparts: {{PAGENAME}} | 1 | 2 }} | Unknown }}
+| {{#if: {{{NextYear|}}} | {{#if: {{{NextDate|}}} | [[Game Updates/{{{NextYear}}}/{{{NextDate}}}|{{{NextDate}}}, {{{NextYear}}}]] }} | TBA }}
+|}

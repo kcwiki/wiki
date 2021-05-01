@@ -1,0 +1,59 @@
+<noinclude><table class="centertable"></noinclude><onlyinclude>
+            <tr>
+                <td style="width: 100px; font-size: 120%; text-align: center; {{border-radius|8px 16px 8px 16px}} border: 1px solid {{#switch: {{{nodetype}}}| #default  =#1abaef|supply|resource =#70d800| maelstorm =#ae87e9| boss =#ef1a1a}}; background-color: {{#switch: {{{nodetype}}}| #default  =#79e7ff|supply|resource =#b1ff5e| maelstorm =#d2c6ff| boss =#ff7979}}; color: #ffffff;">'''{{{node|A}}}'''{{#switch: {{{nodebattletype}}}| #default =| nightbattle =<br />Night Battle| airstrike =<br />Air Strike}}</td>
+                <td>{{#switch: {{{nodetype}}}|#default ={{lang|ja|{{{nodeorigname}}}}}<br />{{{nodetransname}}}|resource ={{{rewards}}}|supply ={{lang|ja|揚陸地点}}<br />Supply Node|maelstorm ={{lang|ja|うずしお}}<br />Maelstorm|imaginary ={{lang|ja|気のせいだった。（戦闘回避）}}<br />Must be my imagination. (Battle avoided)|noenemy ={{lang|ja|敵影を見ず。}}<br />Enemy not found.|noenemy2 ={{lang|ja|なにもなかった。}}<br />Nothing's here.|activebranch ={{lang|ja|能動分岐}}<br />Active Branch}}</td>
+            </tr>{{#switch: {{{nodetype}}} |resource|maelstorm|imaginary|noenemy|noenemy2|activebranch|supply =|#default =
+            <tr>
+                <td colspan="2"><table style="border: 1px solid {{#switch: {{{nodetype}}}| #default  =#1abaef| boss =#ff0000}}; {{border-radius|8px 8px 8px 8px}}">
+                    <tr>
+                        <td style="text-align: center; width: 150px;">{{{formation}}}</td>
+                        <td>{{{enemy}}}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">{{#if: {{{ap|}}} |<span class="greenCell">&nbsp;AP: {{{ap}}}&nbsp;</span><span class="lightBlueCell">&nbsp;AS: {{{as}}}&nbsp;</span><span class="blueCell">&nbsp;AS+: {{{as+}}}&nbsp;</span>}}</td>
+                    </tr>
+                </table>{{#if: {{{formation2|}}} |<table style="border: 1px solid {{#switch: {{{nodetype}}}| #default  =#1abaef| boss =#ff0000}}; {{border-radius|8px 8px 8px 8px}}">
+                    <tr>
+                        <td style="text-align: center; width: 150px;">{{{formation2}}}</td>
+                        <td>{{{enemy2}}}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">{{#if: {{{ap2|}}} |<span class="greenCell">&nbsp;AP： {{{ap2}}}&nbsp;</span><span class="lightBlueCell">&nbsp;AS： {{{as2}}}&nbsp;</span><span class="blueCell">&nbsp;空保值：{{{as+2}}}&nbsp;</span>}}</td>
+                    </tr>
+                </table>}}{{#if: {{{formation3|}}} |<table style="border: 1px solid {{#switch: {{{nodetype}}}| #default  =#1abaef| boss =#ff0000}}; {{border-radius|8px 8px 8px 8px}}">
+                    <tr>
+                        <td style="text-align: center; width: 150px;">{{{formation3}}}</td>
+                        <td>{{{enemy3}}}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">{{#if: {{{ap3|}}} |<span class="greenCell">&nbsp;AP: {{{ap3}}}&nbsp;</span><span class="lightBlueCell">&nbsp;AS： {{{as3}}}&nbsp;</span><span class="blueCell">&nbsp;AS+： {{{as+3}}}&nbsp;</span>}}</td>
+                    </tr>
+                </table>}}{{#if: {{{formation4|}}} |<table style="border: 1px solid {{#switch: {{{nodetype}}}| #default  =#1abaef| boss =#ff0000}}; {{border-radius|8px 8px 8px 8px}}">
+                    <tr>
+                        <td style="text-align: center; width: 150px;">{{{formation4}}}</td>
+                        <td>{{{enemy4}}}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">{{#if: {{{ap4|}}} |<span class="greenCell">&nbsp;AP： {{{ap4}}}&nbsp;</span><span class="lightBlueCell">&nbsp;AS： {{{as4}}}&nbsp;</span><span class="blueCell">&nbsp;AS+： {{{as+4}}}&nbsp;</span>}}</td>
+                    </tr>
+                </table>}}{{#if: {{{formation5|}}} |<table style="border: 1px solid {{#switch: {{{nodetype}}}| #default  =#1abaef| boss =#ff0000}}; {{border-radius|8px 8px 8px 8px}}">
+                    <tr>
+                        <td style="text-align: center; width: 150px;">{{{formation5}}}</td>
+                        <td>{{{enemy5}}}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">{{#if: {{{ap5|}}} |<span class="greenCell">&nbsp;AP： {{{ap5}}}&nbsp;</span><span class="lightBlueCell">&nbsp;AS： {{{as5}}}&nbsp;</span><span class="blueCell">&nbsp;AS+： {{{as+5}}}&nbsp;</span>}}</td>
+                    </tr>
+                </table>}}{{#if: {{{formation6|}}} |<table style="border: 1px solid {{#switch: {{{nodetype}}}| #default  =#1abaef| boss =#ff0000}}; {{border-radius|8px 8px 8px 8px}}">
+                    <tr>
+                        <td style="text-align: center; width: 150px;">{{{formation6}}}</td>
+                        <td>{{{enemy6}}}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">{{#if: {{{ap6|}}} |<span class="greenCell">&nbsp;AP： {{{ap6}}}&nbsp;</span><span class="lightBlueCell">&nbsp;AS： {{{as6}}}&nbsp;</span><span class="blueCell">&nbsp;AS+： {{{as+6}}}&nbsp;</span>}}</td>
+                    </tr>
+                </table>}}</td>
+            </tr>}}
+</onlyinclude><noinclude></table><!--PLEASE DO NOT ADD DOCUMENTATION/CATEGORIES/INTERWIKIS HERE-->
+{{Documentation}}
+<!--MAKE ADDITIONS TO THE /doc SUBPAGE INSTEAD, THANKS--></noinclude>

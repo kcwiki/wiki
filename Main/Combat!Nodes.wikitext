@@ -1,0 +1,140 @@
+=Introduction=
+
+You will encounter a variety of different nodes during sorties. This page serves to provide an in-depth description of what you can expect to encounter at each node.
+
+=Combat Nodes=
+
+''Actual consumption values may be slightly off because they are '''rounded up'''.''
+
+{| class="wikitable" style="text-align:center;"
+!style="background-color:#99CCFF;" rowspan="2"| Name
+!style="background-color:#99CCFF;" rowspan="2"| Image
+!style="background-color:#99CCFF;" colspan="2"| Resource Cost
+!style="background-color:#99CCFF;" rowspan="2"| Description
+!style="background-color:#99CCFF;" rowspan="2"| Example Map
+|-
+!style="background-color:#99CCFF;"| Fuel<br>{{Fuel}}
+!style="background-color:#99CCFF;"| Ammo<br>{{Ammo}}
+|-
+| Standard Combat<br>(Including Boss Node)
+| 
+| 20%
+| 20%
+| Standard combat versus a surface or mixed surface/sub fleet.
+| Any map.
+|-
+| 
+: '''↪With Night Battle'''
+| 
+| 0
+| +10%
+| Extra cost if you proceed to night battle on a standard combat node.
+| 
+|-
+| Night/Day Combat
+| 
+| 20%
+| 30%
+| Node that starts in night battle then shifts to day. The shift to day will automatically happen if there are any enemy ships remaining after night battle.
+| [[Winter 2018 Event]]
+|-
+| Submarine-Only Combat
+| 
+| 8%
+| -
+| Applies when the only enemies in a standard combat node are submarines. '''If it is a submarine-only boss node, normal standard combat costs apply.'''
+| [[World 1#1-5|1-5]]
+|-
+| PT Imp-Only Combat
+| 
+| 4%
+| 8%
+| Applies when the only enemies in a standard combat node are [[PT Imp]]s.
+| [[Winter 2019 Event]]
+|-
+| Night Battle
+| 
+| 10%
+| 10%
+| Nodes that only consist of the [[Night Battle]] phase.
+| [[World 5#5-3|5-3]]
+|-
+| Air Combat
+| 
+| 20%
+| 20%
+| Nodes that are just two [[Aerial Combat]] phases.
+| [[World 1#1-6|1-6]]
+|-
+| Air Raid
+| 
+| 8%
+| 4%
+| Node that just consist of a single [[Aerial Combat]] phase.
+| [[World_7#World_7-2|7-2]]
+|-
+| Air Raid (Event)
+| 
+| 6%
+| 4%
+| Identical to Air Raid nodes but with reduced consumption for events.
+| Events.
+|-
+| RADAR Ambush
+| 
+| 4%
+| -
+| Node where your fleet takes a shelling attack from the enemy. The enemy can trigger artillery spotting if the conditions are met.
+| [[Winter 2019 Event]]
+|-
+|}
+
+=Non-Combat Nodes=
+
+{| class="wikitable" style="text-align:center;"
+!style="background-color:#99CCFF;"| Name
+!style="background-color:#99CCFF;"| Image
+!style="background-color:#99CCFF;"| Description
+!style="background-color:#99CCFF;"| Example Map
+|-
+| Empty Node
+| 
+| An empty node used as filler to make maps look nice or dead end nodes. Can contain historical flavour text relating to the operation the map is based on. 
+| [[World_1#World_1-3|1-3]]
+|-
+| Resource Node
+| 
+| A node containing a random amount of certain resources. Your fleet must complete the sortie either by retreating in the battle after the node or finishing the map (battle boss or reach a dead end node) to claim the resources.
+| [[World_1#World_1-3|1-3]]
+|-
+| Air Reconnaisance
+| 
+| Works similarly to resource nodes except your fleet needs to succeed in a reconnaisance check in order to collect resources. Your fleet also needs to '''score a victory at the boss''' in order to claim the resources. 
+| [[World_6#World_6-3|6-3]]
+|-
+| Maelstrom
+| 
+| Drains a certain percentage of remaining resources from your fleet depending on the amount of RADAR-equipped ship girls in the fleet.. The type of resource it drains is fixed depending on the node. See [[Maelstrom]] for additional details. 
+| [[World_1#World_1-3|1-3]]
+|-
+| Active Branching
+| 
+| Allows you to pick which direction you'd like to proceed.
+| [[World_4#World_4-5|4-5]]
+|-
+| Tranport Drop Off
+| 
+| The resource drop off point during the transport phase in event maps. Your fleet will need to score at least an '''A rank''' at the boss in order for the drop off to count. Please see [[Transport Operation]] for more details.
+| 
+|-
+| Emergency Repair
+| 
+| Repairs minor damage in your fleet. Please see [[Repairs#Emergency Anchorage Repairs|Emergency Anchorage Repairs]] for more details.
+| 
+|-
+|}
+
+=See Also=
+[[Combat]]<br>
+[[Sortie]]<br>
+{{Mechanics}}

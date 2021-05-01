@@ -1,0 +1,126 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consist and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct thier own version of thier guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editor's work without the full consent of the editor and his approval to do so. 
+
+Several version will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Sandbox/Summer 2018 Event|Event Page Sandbox]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 version of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version the guide, the said guide will be updated to the main page and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+===SoloBlast's Propoal===
+<br>
+
+'''Recommended fleet:''' 2CL/CT, 3-4DE, 0-1DD. This fleet takes the shortest route to the boss. (Start Point #2->G->F->I)
+<br>
+
+It is also possible to use a 5-ship fleet (see routing restrictions above) to clear the map via the shortest route, although having one less ship in the fleet will probably affect your chances of success. A fleet of 3-6DE, 0-3DD could hypothetically also reach the boss via the same route, but the primary consideration in recommending the 2CL/CT configuration is survivability, as nodes G & F are surface combat nodes.
+<br>
+
+Vanguard Formation and node support is recommended to help your fleet reach the boss node. Line abreast is recommended for the boss node. During Last Dance, boss support (ASW) may also be useful to help deal with the other submarines in the boss fleet before your own fleet engages, especially when faced with disadvantageous engagement modifiers.
+
+'''Approval for main guide notes accepted'''
+
+<br>
+<tabber>Medium=
+{{#invoke:EnemyEncounters2|encounterTemplate
+|G-1_node_info = dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|G-1_form = echelon
+|G-1_xp = 100
+|G-1_enemy_air_power = 0
+|G-2_node_info = dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|G-2_form = line_ahead
+|G-2_xp = 
+|G-2_enemy_air_power = 0
+|G-3_node_info = dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|G-3_form = double_line
+|G-3_xp = 100
+|G-3_enemy_air_power = 0
+|G-4_node_info = dd_i-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|G-4_form = double_line
+|G-4_xp = 140
+|G-4_enemy_air_power = 0
+|
+|F_label =
+|F-1_node_info = transport_wa-class_elite transport_wa-class transport_wa-class transport_wa-class dd_i-class_late_model dd_i-class_late_model
+|F-1_form = double_line
+|F-1_xp = 
+|F-1_enemy_air_power = 0
+|F-2_node_info = transport_wa-class transport_wa-class transport_wa-class dd_i-class_late_model dd_i-class_late_model
+|F-2_form = double_line
+|F-2_xp = 
+|F-2_enemy_air_power = 0
+|F-3_node_info = transport_wa-class_elite transport_wa-class_elite transport_wa-class_elite transport_wa-class_elite dd_i-class_late_model dd_i-class_late_model
+|F-3_form = double_line
+|F-3_xp = 220
+|F-3_enemy_air_power = 0
+|
+|I_label = 
+|I-1_node_info = boss ss_ka-class ss_ka-class dd_i-class_late_model
+|I-1_form = echelon
+|I-1_xp = 210
+|I-1_enemy_air_power = 0
+|I-2_node_info = boss ss_ka-class ss_ka-class
+|I-2_form = echelon
+|I-2_xp = 200
+|I-2_enemy_air_power = 0
+}}
+Node F pattern 3 = boss HP 1/7 (or 1/6)
+HQ lvl > 80
+
+drops
+{| class="wikitable" style="text-align:center;"
+|- style="font-weight: bold;"
+| Difficulty
+| Node
+| Rank / Grade
+| Ship dropped
+|-
+| Medium
+| I
+| A
+| [[Suzuya]] [[Aoba]] [[Shouhou]]
+|}
+
+===Totaku's Intermidiate / Finalize proposal===
+
+'''Sinking the [[New Submarine Princess]] (Vacation Mode)
+
+'''Recommended fleet:''' 2CL/CT, 3-4DE, 0-1DD. This fleet takes the shortest route to the boss. (Start Point #2->G->F->I)
+<br>
+
+Using this fleet set up makes it possible to use up to 6 ships via the shortest path. It is also possible to use a 5-ship fleet (see routing restrictions above) to clear the map via the shortest route, although having one less ship in the fleet will probably affect your chances of success.
+
+A fleet of 3-6DE, 0-3DD could hypothetically also reach the boss via the same route, but the primary consideration in recommending the 2CL/CT configuration is survivability, as nodes G & F are surface combat nodes.
+<br>
+
+[[Vanguard Formation]] and node support is recommended for harder difficulties to help your fleet reach the boss node. Line abreast is recommended for the boss node. 
+
+During the final kill, ASW boss support may also be useful to help deal with the other submarines in the boss fleet before your own fleet engages, especially when faced with disadvantageous engagement modifiers.
+
+'''Additional notes'''
+
+Attempting to farm fuel here (especially on higher difficulties) is not recommended, as it can be quite bucket-intensive, and, in addition, will lock AVs and AOs that you may need for later maps. If you find it necessary to farm fuel, consider 1-3, as it will not apply tags to your ships and is a much safer map overall.
+
+'''Approval for Additional notes accepted'''

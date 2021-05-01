@@ -1,0 +1,358 @@
+===E-8===
+{{EventInfoBox
+|title_en=The Evergreen Blockade
+|title_jp=エバーグリーンの封鎖
+|tag= 
+|tag_text=Free Tag
+|header_thumb=[[File:Evergreen-parody-image.png]]
+|map_1=[[File:Parody Event Full Map 1.png|450px]]
+|map_1_text=Map
+|map_2=[[File:Parody Event Map Phase 1.png|450px]]
+|map_2_text=Phase 1
+|map_3=[[File:Parody Event Full Map 1.png|450px]]
+|map_3_text=Phase 2
+|map_4=[[File:Suez Canal E8.png|450px]]
+|map_4_text=LBAS
+|boss_hard= 11,988 HP + 10,000 TP
+|boss_medium= 9,990 HP + 5,000 TP
+|boss_easy= 6,993 HP + 2,000 TP
+|boss_casual= 6,993 HP + 2,000 TP
+|phase_1_boss={{EnemyLink|Evergreen Hime}}
+|phase_2_boss=
+|phase_3_boss=
+|phase_4_boss=
+|phase_5_boss=
+|reward_1={{QuestRewardItem|Medal}}
+|reward_1_casual= 1
+|reward_1_easy= 2
+|reward_1_medium= 3
+|reward_1_hard= 4
+|reward_2={{QuestRewardItem|Improvement Material}}
+|reward_2_casual= 
+|reward_2_easy= 10
+|reward_2_medium= 50
+|reward_2_hard= 100
+|reward_3={{QuestRewardItem|Wyvern S.4|image=File:Parody equipment.png|64px}}
+|reward_3_casual=
+|reward_3_easy= 1
+|reward_3_medium= (★2)
+|reward_3_hard= (★6)
+|reward_4={{QuestRewardItem|New Model Aerial Armament Material}}
+|reward_4_casual=
+|reward_4_easy=1
+|reward_4_medium=2
+|reward_4_hard=3
+|reward_5={{QuestRewardItem|Wyvern S.4 (Skilled)|image=File:Parody Equipment 2.png|64px}}
+|reward_5_casual= 
+|reward_5_easy=
+|reward_5_medium= (★2)
+|reward_5_hard=1 (★4)
+|reward_6={{QuestRewardItem|First Class Medal}}
+|reward_6_casual=
+|reward_6_easy=
+|reward_6_medium=
+|reward_6_hard=1 
+}}
+<div style="min-width:440px;">
+{{center|[[File:Ooyodo-Kai-Chalkboad-HD-parody.png|440px]]}}
+
+{{MapBranchingTable
+|title = E-8 Branching Rules
+|expand = true
+|id = 49-1
+|order = 1, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
+
+|A/empty -> D/empty = * Do not meet the requirements to go to either B or C.
+|A/empty -> B = 
+* Meet '''ALL''' of the following requirements:
+** Fleet contains an AV
+** Fleet is '''SLOW'''
+
+|A/empty -> C = 
+* Meet '''ALL''' of the following requirements:
+** Have an AV in the fleet
+** Fleet is '''Fast''' or '''Fast+'''
+
+|D/empty -> I, E = * Choose your own adventure! 
+
+|E -> F =
+* If fleet contains CA(V) or (F)BB(V)
+|E -> G = 
+*If a fleet is slow and contains no DE
+|E -> H =
+* Does not meet any other requirements to go to F or G
+** Slow fleet with DE
+
+|L -> M =
+* The fleet contains more than 5 CV(L/B) + (F)BB(V)
+* The fleet speed is '''SLOW'''
+|L -> N =
+* Fleet's speed is '''FAST'''
+
+|N -> O, P = *Choose your own adventure!
+
+|Q -> R =
+* ???
+|Q -> T =
+* ???
+
+|T/empty -> U/resource =
+*???
+|T/empty -> V =
+*???
+
+|W -> X =
+*???
+|W > Z =
+*???
+
+|X/resource -> Z =
+*???
+|X/resource -> Y =
+*???
+}}
+
+Branching compositions were reported over the course of the event.
+</div>
+
+'''Disclaimer: This is a parody operation event from the current event with the Evergreen Blockade that occurred on March 23rd, 2021. Do not take this guide seriously and if you found this page. Congratulation. Here is a cookie for you :)
+
+'''Credits:''' Totaku, Sherm, Dark Sentinel, DarkHeron, Prinz-Eugen Sama, Mikado
+
+==General Guidelines==
+
+E-8 is a 2021 event trying to free up the Suez canal from the blockade. It will comprise of only 1 HP phase against a 999 HP boss with 400 Armor. The TP phase will take days to clear.
+{{clear}}
+
+==Ship Bonuses (Tentative)==
+
+{{:{{BASEPAGENAME}}/E-1/Historical_Ships}}
+
+==Event Quest==
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2021EX B1
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【期間限定任務】　独逸艦隊の航海！
+| nameen = Event Limited time quest! Sortie a German fleet around the oceans!
+| req = Special Event operation. Sortie a fleet with German ships through the Nansei Island, ...
+
+*Sortie to 3-5, 4-3, 4-4, 4-5, and 5-5. S rank each boss node twice. Use any two of Bismarck, Prinz Eugen, Z1, Z3, Graf Zepplin and U-511
+| fuel =  666
+| ammo = 666
+| steel = 666
+| bauxite = 666
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Shinden Kai}}{{QuestRewardItem|Tauchpanzer IVD |image=File:Parody Equipment 1 Tank.png|64px}}{{QuestRewardItem|Prototype Flight Deck Catapult}}
+| notes = 
+| once  = 
+}}
+
+{{ProtoQuests
+| type = Factory
+| listnum = 2021EX F1
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【期間限定任務】艦上攻撃機の研究
+| nameen = Event limited time quest! Research on Carrier based bombers
+| req = Have 4 [[Prototype Reppuu Late Model]], 2 [[Swordfish]], and 2 [[New Technology Aircraft Blueprint]]. Equip a fully improved Wyvern S.4 on any carrier's first slot. Scrap 6 [[Shiden Kai 2]], 4 [[Ryuusei Kai]], and 2 [[Zuiun]]
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 333
+| other = {{QuestRewardEquip|Wyvern S.4 Kai (931 Skilled) |image=File:Parody Equipment 3.png|64px}}
+| notes = Wyvern S.4 will become Wyvern S.4 Kai (931 Skilled) and all the corresponding equipment from the quest will be consumed
+| once  = true
+}}
+|}
+
+==New Event Mechanic: '''Army Depot'''==
+
+Each Tank unit has 18 tanks within the unit, there are four slots for tanks, however, one slot can be used for an AP shell to give your tanks more firepower against targets like abyssal cruisers and destroyers and other armored targets at the cost of one tank company. Depending on what tanks you have in the army depot will reflect the amount of damage you can deal on an enemy installation. If an enemy is in a river, or canal sometimes tanks can target enemy fleet units. Your tanks can be taken out by the enemy fire and it will cost ammo and steel to replenish them. As long as an enemy node is near or on land your tanks based in the army depot can be used to attack the node. Node selection is the same as the LBAS in where you can send half of all against one node. Tanks will arrive before your fleet arrives on the scene just like LBAS however if LBAS is used on the same node as tanks the LBAS goes first before the tanks are used in support.
+
+*[[M4A1 DD]] x1.5 Bonus
+*[[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]] x1.15
+* Tauchpanzer IVD x2.5 Bonus
+
+==Map Phases Breakdown==
+
+==Phase 0.5: Unlock the Path to the Suez Canal (Node V)==
+
+<tabber>
+|-|Node C=
+* Recommended Fleet: Single Fleet 1 AV 5 XX
+* Route: {{MapRoute|A|blue|C|red}}
+* LBAS: Range 1 
+** Have the fleet using Fast AV (Either use Nisshin or speed mod any fast AV)
+|-|Node F=
+* Recommended Fleet: Single Fleet 4 CA(V), 2 (F)BB(V)
+* Route: {{MapRoute|A|blue|D|blue|E|red|F|red}}
+* LBAS: Range 3 
+|-|Node H=
+* Recommended Fleet: Single Fleet 6 DE
+* Route: {{MapRoute|A|blue|D|blue|E|red|H|red}}
+** LBAS Range:  2
+|-|Node I= 
+* Recommended Fleet: Single Fleet 1 Cl 5 DD
+* Route: {{MapRoute|A|blue|D|blue|I|red}}
+* LBAS: Range 2
+</tabber>
+
+Once all conditions are met the path to the 2nd TP area will be unlocked.
+
+==Phase 1: Free up the Suez Canal==
+
+The aim of this phase is to deplete the HP Phase as quickly and efficiently as possible. Uses of 6 Submarine is highly recommended for this phase as they have a 2.5x Bonus against the Suez Canal Hime staying at Node N. The boss armor is at 400 HP and she has 999 HP for players to chip. Make sure to equip your ship with TCI for maximum damage. 
+
+* Recommended Fleet: 6 SS or 5 DD 1 CL with full TCI Set Up
+** It is possible to use a combined to get to Node V, but, using this fleet will force you to take the longest route to reach Node V and you will be going through all the nodes
+* Route: {{MapRoute|A|blue|D|blue|I|red|J|blue|K|blue|L|red|N|blue|P|red|Q|red|T|blue|V|red}}
+* LBAS: Range 8, 166 AD/ 331 AP /744 AS under hardest composition
+* Additional Notes: Vanguard Formation can be utilized to help with preboss Nodes. Support Expeditions are essential to clear this phase on LD
+
+==Phase 1.5: Unlock the TP Node==
+
+This is not required on lower difficulties. On Hard Mode, you need to A+-Rank Node D consisting of up to 3 Supply Depot Hime, 1-2 Artillery Imps, and 2 PT Imps. Set up your Ships according to equipment to deal with them as outlined [[Anti-Installation#Equipment_Setups|here]]. PT Imps are weak to AA Guns + Skilled Lookouts on your DDs.
+
+<tabber>
+|-|Node O=
+* Recommended Fleet: Single Fleet with full anti installation nukes to squash Supply Depot Hime
+* Route: {{MapRoute|A|blue|D|blue|I|red|J|blue|K|blue|L|red|N|blue|O|red}}
+* LBAS: Range 7 
+** LBAS with 1 fighter 3 Bombers is recommended in squashing Supply Depot Hime
+|-|Node V=
+* Recommended Fleet: Same Fleet used against Evergreen Hime
+* Route: {{MapRoute|A|blue|D|blue|I|red|J|blue|K|blue|L|red|N|blue|P|red|Q|red|T|blue|V|red}}
+* LBAS: Range 8 
+** All Land Fighters in Land Base 1-3 (Optional)
+* Notes:
+** This should be achievable without using a Land base, so you can opt to put your land base on rest
+*** The Node becomes easier after you cleared the map once preparing players for the TP phase
+</tabber>
+
+Once all conditions are met the path to the 2nd TP area will be unlocked.
+
+==Phase 2: Deplete the TP Gauge==
+
+The aim of this phase is to deplete the TP bar as quickly as possible. Given the TP bar is very big (10,000 on Hard Mode) and Tanaka himself stated that it will take you days to clear out the TP. Take your time to try and clear the TP phase and bring as much Daihatsu as possible in order to deplete the TP Bar fast.
+* Recommended Fleet: Transport Combined Fleet: 1 AV 1 CAV 4 DD + 1 CL 2 CA 3 DD
+* Route: {{MapRoute|A|blue|D|blue|I|Red|J|blue|K|Blue|L|red|N|blue|P|red|Q|red|T|blue|V|red|W|blue|Z|red}}
+* LBAS: Range 11, 50 Airpower for AS (108 LD)
+** The routing may look daunting because of the longer route. The nodes however mostly comprise of choice node and empty nodes 
+** Node V will be heavily nerfed after the initial clear allow the player to pass through the node much easier
+*** This is technically the pre boss node as the very next node will be node W which is an empty node.
+*** The player can choose to go to node X to repair their ship just in case they get damaged in Node V or any other nodes before. 
+
+{{clear}}
+
+==Friend Fleets==
+{|class="wikitable mw-collapsible mw-collapsed" style="text-align:center;min-width:700px"
+|-
+!colspan="11"|E-8 V
+|-
+!colspan="11"|E-8 V : Ark Royal FS (Variant 1, 2020-12-18~) '''{{color|red|{{tooltip|Powerful|6 samples}}}}''' {{audio|file=Ship Voice Ark Royal Kai Fall 2020 Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Janus Kai Hinamatsuri 2020 Mini-Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Ark Royal Kai.png|160px|link=Ark Royal]]<br>[[Ark Royal|Ark Royal Kai]]||86||style="text-align:left;white-space:nowrap"|[[File:Equipment Card Swordfish Mk.III (Skilled).png|100px|link=Swordfish Mk.III (Skilled)]][[File:Equipment Card Seafire Mk.III Kai.png|100px|link=Seafire Mk.III Kai]][[File:Equipment Card TBM-3D.png|100px|link=TBM-3D]][[File:Equipment Card Night Operation Aviation Personnel + Skilled Deckhands.png|100px|link=Night Operation Aviation Personnel + Skilled Deckhands]]||71||50||0||82||70
+|-
+|[[File:Ship Banner Janus Kai.png|160px|link=Janus]]<br>[[Janus|Janus Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||31||53||90||72||50
+|-
+|[[File:Ship Banner Jervis Kai.png|160px|link=Jervis]]<br>[[Jervis|Jervis Kai]]||88||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card 533mm Quintuple Torpedo Mount (Late Model).png|100px|link=533mm Quintuple Torpedo Mount (Late Model)]][[File:Equipment Card SG Radar (Initial Model).png|100px|link=SG Radar (Initial Model)]]||31||52||90||70||50
+|-
+!colspan="11"|E-8 V : Grecale FS (Variant 1, 2020-12-19~) '''{{color|red|{{tooltip|Powerful|6 samples}}}}''' {{audio|file=Ship Voice Grecale Kai Summer 2019 Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Scirocco Kai Fall 2020 Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Grecale Kai.png|160px|link=Grecale]]<br>[[Grecale|Grecale Kai]]||82||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 120mm 50 Twin Gun Mount Kai A.mod.1937.png|100px|link=120mm/50 Twin Gun Mount Kai A.mod.1937]][[File:Equipment Card 120mm 50 Twin Gun Mount Kai A.mod.1937.png|100px|link=120mm/50 Twin Gun Mount Kai A.mod.1937]][[File:Equipment Card Searchlight.png|100px|link=Searchlight]]||29||55||68||80||50
+|-
+|[[File:Ship Banner Scirocco Kai.png|160px|link=Scirocco]]<br>[[Scirocco|Scirocco Kai]]||76||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 120mm 50 Twin Gun Mount mod.1936.png|100px|link=120mm/50 Twin Gun Mount mod.1936]][[File:Equipment Card 120mm 50 Twin Gun Mount mod.1936.png|100px|link=120mm/50 Twin Gun Mount mod.1936]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||28||55||72||63||50
+|-
+!colspan="11"|E-8 V, E-2 Q, E-3 Z : Janus FS (Variant 1, 2020-12-18~) '''{{color|green|{{tooltip|Regular|5 samples}}}}''' '''{{color|red|{{tooltip|Powerful|11 samples}}}}''' {{audio|file=Ship Voice Janus Kai Fall 2020 Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Jervis Kai Fall 2020 Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Janus Kai.png|160px|link=Janus]]<br>[[Janus|Janus Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||31||53||90||72||50
+|-
+|[[File:Ship Banner Jervis Kai.png|160px|link=Jervis]]<br>[[Jervis|Jervis Kai]]||88||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card 533mm Quintuple Torpedo Mount (Late Model).png|100px|link=533mm Quintuple Torpedo Mount (Late Model)]][[File:Equipment Card SG Radar (Initial Model).png|100px|link=SG Radar (Initial Model)]]||31||52||90||70||50
+|-
+!colspan="11"|E-8 V : Jervis FS (Variant 1, 2020-12-19~) '''{{color|red|{{tooltip|Powerful|7 samples}}}}''' {{audio|file=Ship Voice Jervis Kai Hinamatsuri 2020 Mini-Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Janus Kai Hinamatsuri 2020 Mini-Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Jervis Kai.png|160px|link=Jervis]]<br>[[Jervis|Jervis Kai]]||88||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||31||52||90||70||50
+|-
+|[[File:Ship Banner Janus Kai.png|160px|link=Janus]]<br>[[Janus|Janus Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card 533mm Quintuple Torpedo Mount (Late Model).png|100px|link=533mm Quintuple Torpedo Mount (Late Model)]][[File:Equipment Card SG Radar (Initial Model).png|100px|link=SG Radar (Initial Model)]]||31||53||88||72||50
+|-
+!colspan="11"|E-8 V : Maestrale FS (Variant 1, 2020-12-19~) '''{{color|red|{{tooltip|Powerful|5 samples}}}}''' {{audio|file=Ship Voice Maestrale Kai Early Fall 2018 Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Grecale Kai Summer 2019 Event Friend Fleet 2.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Maestrale Kai.png|160px|link=Maestrale]]<br>[[Maestrale|Maestrale Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 120mm 50 Twin Gun Mount mod.1936.png|100px|link=120mm/50 Twin Gun Mount mod.1936]][[File:Equipment Card 120mm 50 Twin Gun Mount mod.1936.png|100px|link=120mm/50 Twin Gun Mount mod.1936]][[File:Equipment Card Searchlight.png|100px|link=Searchlight]]||29||54||72||63||50
+|-
+|[[File:Ship Banner Grecale Kai.png|160px|link=Grecale]]<br>[[Grecale|Grecale Kai]]||82||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 120mm 50 Twin Gun Mount Kai A.mod.1937.png|100px|link=120mm/50 Twin Gun Mount Kai A.mod.1937]][[File:Equipment Card 120mm 50 Twin Gun Mount Kai A.mod.1937.png|100px|link=120mm/50 Twin Gun Mount Kai A.mod.1937]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||29||55||68||80||50
+|-
+!colspan="11"|E-8 V : Warspite FS (Variant 1, 2020-12-18~) '''{{color|red|{{tooltip|Powerful|6 samples}}}}''' {{audio|file=Ship Voice Warspite Kai Early Fall 2018 Event Friend Fleet 3.mp3}} {{audio|file=Ship Voice Jervis Kai Fall 2020 Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Warspite Kai.png|160px|link=Warspite]]<br>[[Warspite|Warspite Kai]]||90||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 38.1cm Mk.I N Twin Gun Mount Kai.png|100px|link=38.1cm Mk.I/N Twin Gun Mount Kai]][[File:Equipment Card 38.1cm Mk.I N Twin Gun Mount Kai.png|100px|link=38.1cm Mk.I/N Twin Gun Mount Kai]][[File:Equipment Card 38.1cm Mk.I N Twin Gun Mount Kai.png|100px|link=38.1cm Mk.I/N Twin Gun Mount Kai]][[File:Equipment Card Searchlight.png|100px|link=Searchlight]]||82||106||0||98||93
+|-
+|[[File:Ship Banner Janus Kai.png|160px|link=Janus]]<br>[[Janus|Janus Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||31||53||90||72||50
+|-
+|[[File:Ship Banner Jervis Kai.png|160px|link=Jervis]]<br>[[Jervis|Jervis Kai]]||88||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card 533mm Quintuple Torpedo Mount (Late Model).png|100px|link=533mm Quintuple Torpedo Mount (Late Model)]][[File:Equipment Card SG Radar (Initial Model).png|100px|link=SG Radar (Initial Model)]]||31||52||90||70||50
+|}
+
+==E8 Clear Message==
+'''Freeing up the Suez Canal, successfully accomplished!'''
+
+Deployed into the Suez Canal, our fleet and our land-based corps and tank operatives 
+have defeated the enemy Abyssal Blockade that was preventing ships from passing the canal, and
+have admirably completed the transport operation deliver supplies to the ships waiting in the Mediterranean Sea!
+Our fleet has successfully allowed for safe passage through the Canal!

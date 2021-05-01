@@ -1,0 +1,180 @@
+<includeonly><br clear=all></includeonly>
+__TOC__
+==Template Inputs==
+{| class="wikitable" style="width:100%;"
+! style="width:25%" | Argument
+! style="width:15%" | Input
+! Details
+|-
+|id
+|''Text''
+|A Unique ID for the popup. Cannot match any other ID on the page.
+|-
+|hovertext
+|''Text''
+|The text that the user will hover over to see the popup
+|-
+|link (optional)
+|''Text''
+|A link for the hover text
+|-
+|popup
+|''Text''
+|The content of the popup.
+|-
+|nodelay (optional)
+|''1 or 0''
+|No delay for popup.
+|-
+|ajax (optional)
+|''1 or 0''
+|You can load an entire wiki article by setting ''ajax=1'' and setting your id equal to the page you want to load.
+|-
+|click (optional)
+|''1 or 0''
+|Requires the user to click the text to see the popup.
+|-
+|sticky (optional)
+|''1 or 0''
+|Requires that the user clicks an "X" to close the popup.
+|-
+|notransparentbg (optional)
+|''1 or 0''
+|Disables the popup's transparency.
+|-
+|classic (optional)
+|''1 or 0''
+|Makes the popup use the classic theme rather than the wiki-specific theme.
+|-
+|plain (optional)
+|''1 or 0''
+|Makes the popup use the plain theme rather than the wiki-specific theme.
+|-
+|box (optional)
+|''1 or 0''
+|Makes the popup use the box theme, which uses no images, rather than the wiki-specific theme.
+|-
+|fade (optional)
+|''1 or 0''
+|Makes the popup use the fade theme rather than the wiki-specific theme. Box will fade in and out of view.
+|-
+|nostem (optional)
+|''1 or 0''
+|Removes the stem from the popup
+|-
+|opacity (optional)
+|''Numbers 0 - 100''
+|Sets a custom opacity for the popup. If set above ''1'', it is divided by 100.
+|-
+|fontcolor (optional)
+|''Color Name''
+|Sets a custom color for the popup's text.
+|-
+|fontsize (optional)
+|''fot size ex. 5pt''
+|Sets a custom size for the popup's text.
+|-
+|bgcolor (optional)
+|''Color Name''
+|Sets a custom background color for a '''box''' popup.
+|}
+
+==Gallery==
+<gallery>
+Jgjake2_Popup_Example_1.png|Example of using an ajax popup in an overlay template
+Jgjake2_Popup_Example_2.png|Example of using a regular popup in an overlay template
+Jgjake2_Popup_Example_3.png|Example of using a standard click-popup.
+</gallery>
+
+==Descriptions==
+===Standard Hover Popup===
+<pre>{{Popup|id=balloon1|hovertext=Hover|popup=balloon1 bla bla bla}}</pre>
+Result: {{Popup|id=balloon1|hovertext=Hover|popup=balloon1 bla bla bla}}
+
+
+===Add Image Inside Hover Balloon===
+<pre>{{Popup|id=balloon2|hovertext=Hover|popup=Balloon 2<br>[[File:Banoi_Herald_Excerpt_001.jpg|300px]]}}</pre>
+Result: {{Popup|id=balloon2|hovertext=Hover|popup=Balloon 2<br>[[File:Example.jpg|300px]]}}
+
+===Use Ajax To Load An Entire Page In A Popup===
+<pre>{{Popup|id=ID_Card_01|hovertext=Hover|ajax=1}}</pre>
+Result: {{Popup|id=ID_Card_01|hovertext=Hover|ajax=1}}
+
+
+===Require A Click To Activate A Popup===
+<pre>{{Popup|id=balloon3|hovertext=Click|popup=balloon3 bla bla bla|click=1}}</pre>
+Result: {{Popup|id=balloon3|hovertext=Click|popup=balloon3 bla bla bla|click=1}}
+
+
+====Requiring A Click For An Ajax Popup====
+<pre>{{Popup|id=ID_Card_01|hovertext=Click|ajax=1|click=1}}</pre>
+Result: {{Popup|id=ID_Card_01|hovertext=Click|ajax=1|click=1}}
+
+
+===Make A Sticky Popup===
+<pre>{{Popup|id=balloon4|hovertext=Hover|popup=balloon4 bla bla bla|sticky=1}}</pre>
+Result: {{Popup|id=balloon4|hovertext=Hover|popup=balloon4 bla bla bla|sticky=1}}
+
+
+===Make A Classic Looking Popup===
+<pre>{{Popup|id=balloon5|hovertext=Hover|popup=balloon5 bla bla bla|classic=1}}</pre>
+Result: {{Popup|id=balloon5|hovertext=Hover|popup=balloon5 bla bla bla|classic=1}}
+
+
+===Include a page in a popup like a template===
+<pre>{{Popup|id=balloon_Kancolle_Wiki|hovertext=Hover|popup={{:Kancolle_Wiki}}|classic=1}}</pre>
+Result: {{Popup|id=balloon_Kancolle_Wiki|hovertext=Hover|popup={{:Kancolle_Wiki}}|classic=1}}
+
+===Make A Popup Without A Transparent Background===
+<pre>{{Popup|id=Kancolle_Wiki|hovertext=Hover|ajax=1|notransparentbg=1}}</pre>
+Result: {{Popup|id=Kancolle_Wiki|hovertext=Hover|ajax=1|notransparentbg=1}}
+
+===Make A Plain Popup===
+<pre>{{Popup|id=balloon6|hovertext=Hover|popup=balloon6 bla bla bla|plain=1}}</pre>
+Result: {{Popup|id=balloon6|hovertext=Hover|popup=balloon6 bla bla bla|plain=1}}
+
+
+===Make A Box Popup (No Images)===
+<pre>{{Popup|id=balloon7|hovertext=Hover|popup=balloon7 bla bla bla|box=1}}</pre>
+Result: {{Popup|id=balloon7|hovertext=Hover|popup=balloon7 bla bla bla|box=1}}
+
+
+===No Delay Popup===
+<pre>{{Popup|id=balloon8|hovertext=Hover|popup=balloon8 bla bla bla|nodelay=1}}</pre>
+Result: {{Popup|id=balloon8|hovertext=Hover|popup=balloon8 bla bla bla|nodelay=1}}
+
+
+===Fade Popup===
+<pre>{{Popup|id=balloon9|hovertext=Hover|popup=balloon9 bla bla bla|fade=1}}</pre>
+Result: {{Popup|id=balloon9|hovertext=Hover|popup=balloon9 bla bla bla|fade=1}}
+
+
+===Fade Box Popup===
+<pre>{{Popup|id=balloon10|hovertext=Hover|popup=balloon10 bla bla bla|fadeBox=1}}</pre>
+Result: {{Popup|id=balloon10|hovertext=Hover|popup=balloon10 bla bla bla|fadeBox=1}}
+
+
+===No Stem Popup - Not Working===
+'''Not Working'''
+<pre>{{Popup|id=balloon11|hovertext=Hover|popup=balloon11 bla bla bla|nostem=1}}</pre>
+Result: {{Popup|id=balloon11|hovertext=Hover|popup=balloon11 bla bla bla|nostem=1}}
+
+
+===Custom Opacity===
+<pre>{{Popup|id=balloon12|hovertext=Hover|popup=balloon12 bla bla bla|opacity=20}}</pre>
+Result: {{Popup|id=balloon12|hovertext=Hover|popup=balloon12 bla bla bla|opacity=20}}
+
+===Custom Font Color===
+<pre>{{Popup|id=balloon13|hovertext=Hover|popup=balloon13 bla bla bla|fontcolor=Black}}</pre>
+Result: {{Popup|id=balloon13|hovertext=Hover|popup=balloon13 bla bla bla|fontcolor=Black}}
+
+
+===Custom Font Size===
+<pre>{{Popup|id=balloon14|hovertext=Hover|popup=balloon14 bla bla bla|fontsize=5pt}}</pre>
+Result: {{Popup|id=balloon14|hovertext=Hover|popup=balloon14 bla bla bla|fontsize=5pt}}
+
+
+===Custom BG Color===
+<pre>{{Popup|id=balloon15|hovertext=Hover|popup=balloon15 bla bla bla|box=1|bgcolor=Green}}</pre>
+Result: {{Popup|id=balloon15|hovertext=Hover|popup=balloon15 bla bla bla|box=1|bgcolor=Green}}
+<noinclude>[[Category:Documentation Templates]]</noinclude>

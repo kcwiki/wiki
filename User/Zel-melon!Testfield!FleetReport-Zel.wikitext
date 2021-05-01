@@ -1,0 +1,27 @@
+'''Fleet Report Template'''
+
+[Design is inspired by DragonJet's Event report template]
+
+
+
+This is to allow easier reporting of the admiral's fleet which can be use for displaying information for the hope of being an aid to someone or be aided themselves. This one is expected to do the following:
+*Allow people to write down the info they need for sortie such as
+**World map/Event Map, Route taken, HQLVL?
+*Allow people to display their fleet info such as
+**Ship girl's name
+**Ship girl's lvl
+**Ship girl's equipments
+**Ship girl's modernization star(?)
+*Allow people a small box for describing their problem/solution/summary(?)
+*To allow me to be lazy and makes it easier for me to give info to others.
+
+{{FleetReport-Zel
+|flagship=Jun'you|flaglvl=82|flageq= Reppu Reppu Reppu REPUUU
+|ship2=Tone|ship2lvl=82|ship2eq= Damecon
+|ship3=Mutsuki|ship3lvl=82|ship3eq= Damecon
+|ship4=Fubuki|ship4lvl=82|ship4eq= Damecon
+|ship5=Kisaragi|ship5lvl=82|ship5eq= Damecon
+|ship6=Yuudachi|ship6lvl=82|ship6eq= Damecon
+|fleet-type = Escort Fleet|Map = E-4
+|HQLvl = 97
+|Route = B-D-G-I-K}}

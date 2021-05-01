@@ -1,0 +1,1970 @@
+/*****************************************************************************************/
+/*** This page is the central stylesheet for the entire wiki. Any additions or changes ***/
+/*** that are made here will be reflected globally around the website. Do NOT          ***/
+/*** modify unless you know exactly what you are doing. Consult me if you have         ***/
+/*** something in mind but don't know how to make it happen. You will only end up      ***/
+/*** breaking things already in place.                                                 ***/
+/*** - Gensui Hime                                                                     ***/
+/*****************************************************************************************/
+
+/* CSS sheet for fp.html*/
+
+/* Separate from Common.CSS in order to make changes swift and easy? Debatable */
+/*Primary Container*/
+#widgetcontainer{
+	line-height:1.2 !important; /*MediaWiki resizes line height, destroying placements.*/
+	max-width:1600px;
+	margin-left:auto;
+	margin-right:auto;	/*Mediawiki max space for 1080p is some 1600px*/
+	min-width:710px;
+	padding-left:18px;
+	/*height:918px;*/
+	margin-bottom:2%;
+}
+
+/*Column Settings*/
+.rightcol{
+	width:auto;
+	margin-right:4%;
+	margin-left:4%;
+	float:left;
+	height:auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.leftcol{
+	width:710px;
+	float:left;
+	
+	margin-left:4%;
+	margin-bottom:1%;
+	position:relative;
+}
+/* Misc Icons */
+#iconcluster {
+	float:right;
+	width:710px;
+	height:70px;
+	margin-top:14.4px;	
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+	margin-bottom:1%;
+}
+.portalicon {
+	height:70px;
+	width:160px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	color:black;
+	background-color:white;
+	border-radius:10px;
+	margin-bottom:1%;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.portalicon:hover {
+	color:white;
+	/*font-weight:bold;*/
+	text-shadow:1px 1px 15px black;	
+	background-color:#3090c7;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+#clustertitle {
+	width:100%;
+	background-color:#3090c7;
+	border-radius:8px;
+	text-align:center;
+	padding-top:2px;
+	padding-bottom:2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:white;
+	margin-bottom:14.4px;
+}
+/*More Misc Buttons, not a subcategory of quick links*/
+#infodiv {
+	margin-top:2%;
+	width:710px;
+	height:200px;
+	background:transparent url(frontpage_files/infobarbg.png) no-repeat;
+}
+#infoicons {
+	padding-top:10px;
+	padding-left:40px;
+	padding-right:40px;
+	position:relative;
+	top:30px;
+	height:124px;
+	width:auto;
+}
+.questicon {
+	float:left;
+	width:100px;
+	height:100px;
+	border-radius:10px;
+	margin-right:32px;
+	background-color:#005e95;
+}
+.questicon:hover {
+	background-color:#2886bd;
+}
+.infoicon {
+	float:left;
+	width:100px;
+	height:100px;
+	border-radius:10px;
+	margin-right:32px;
+	position: relative;
+    display: inline-block;
+	background-color:#005e95;
+}
+.listdrop {
+	display: none;
+    position: absolute;
+	bottom:100px;
+    background-color: #555;
+    width: 100px;
+    box-shadow: 0px -8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:14px;
+	
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	overflow:hidden;
+}
+.listdrop .selbox {
+	width:100px;
+	color:white;
+	background-color:#2886bd;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.listdrop .selbox:hover {
+	color:black;
+	background-color:#f9f9f9;
+}
+.infoicon:hover {
+	background-color:#2886bd;
+	
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	
+}
+.infoicon:hover .listdrop {
+	background-color:#2886bd;
+	display:block;
+}
+.infotxt {
+	padding-top:3px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	text-align:center;
+	align:middle;
+	width:auto;
+	font-size:14px;
+}
+/*Icon Triumvirate Styling*/
+#iconcontainer{
+	background:url(frontpage_files/mainboxbg.jpg) no-repeat;
+	width:710px;
+	height:300px;
+	overflow:hidden;
+	border:0px solid #0099ff;
+	border-radius:8px;	
+	overflow:hidden;
+}
+.sortext{
+	/*font-weight:bold;*/
+	color:white;
+	padding:4px 4px 4px 4px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.sortext:hover{
+	text-shadow:0px 0px 10px #D50000;
+}
+.pvptext{
+	color:white;
+	padding:4px 4px 4px 4px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.pvptext:hover{
+	text-shadow:0px 0px 10px #03D500;
+}
+.exptext{
+	color:white;
+	padding:4px 4px 4px 4px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.exptext:hover{
+	text-shadow:0px 0px 10px #00B1D5;
+}
+#sortie{
+	background:transparent url(frontpage_files/sortiev2.png) no-repeat;
+}
+.sortie{ 
+	padding-right:10px;
+	float:left;
+	width:217px;
+	height:247px;
+	display:block;
+	opacity: 0.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.sortie:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+#pvp{
+	background:transparent url(frontpage_files/pvpv2.png) no-repeat;
+}
+.pvp{
+	padding-right:10px;
+	float:left;
+	width:217px;
+	height:247px; 
+	display:block;
+	opacity: 0.0;
+	-webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.pvp:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#exped{
+	background:transparent url(frontpage_files/expedv2.png) no-repeat;
+}
+.exped{
+	padding-right:10px;
+	float:left;
+	width:217px;
+	height:247px; 
+	
+	display:block;
+	opacity: 0.0;
+	-webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+.exped:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+/*Link Style Reset*/
+a:link {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+/*Event Banner*/
+/*When there is no event, replace with noevban.png*/
+.eventbanner{
+	
+	width:710px;
+	height:93px;
+	float:left;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	
+	display:block;
+	opacity: 0.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+.eventbanner:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+}
+#eventbanner{
+	text-align:center;
+	border:0px solid #a7d7f9;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	background:url(/w/images/0/00/Hishimochi-Quest-bannner.png) no-repeat center center;
+	overflow:hidden;
+	width:710px;
+	height:93px;
+	background-size: contain;
+}
+#eventwrap{
+	border:0px solid #b6b6b4; 
+	border-top:0px;
+	width:710px; 
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:4px;
+	margin-bottom:2%;
+}
+#eventinfo{
+	text-align:center;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border:0px solid #b6b6b4;
+	/*border-bottom:0px;*/
+	background:#3090c7;
+	font-weight:bold;
+	color:white;
+	padding:4px 4px 4px 4px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*World List*/
+#worldicons{
+	width:710px;
+	border:0px solid #3090c7;
+	margin-top:2%;
+	text-align:center;
+	height:128px;
+	border-top-right-radius:12px;
+	border-bottom-right-radius:12px;
+	background:transparent url(frontpage_files/worldv3.png) no-repeat;
+	
+	font-weight:bold;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	
+	margin-bottom:2%;
+}
+.wor1{
+	margin:auto;
+	background: transparent url(frontpage_files/w1v2.png) no-repeat;
+	background-position:0 0;
+	display:block;
+	width:70px;
+	height:70px;
+}
+
+.wor1:hover{
+	background-position:0 100%;	
+}
+.wor2{
+	margin:auto;
+	background: transparent url(frontpage_files/w2v2.png) no-repeat;
+	background-position:0 0;
+	display:block;
+	width:70px;
+	height:70px;
+}
+
+.wor2:hover{
+	background-position:0 100%;	
+}
+.wor3{
+	margin:auto;
+	background: transparent url(frontpage_files/w3v2.png) no-repeat;
+	background-position:0 0;
+	display:block;
+	width:70px;
+	height:70px;
+}
+
+.wor3:hover{
+	background-position:0 100%;	
+}
+.wor7{
+	margin:auto;
+	background: transparent url(frontpage_files/w7.png) no-repeat;
+	background-position:0 0;
+	display:block;
+	width:70px;
+	height:70px;
+}
+
+.wor7:hover{
+	background-position:0 100%;	
+}
+.wor4{
+	margin:auto;
+	background: transparent url(frontpage_files/w4v2.png) no-repeat;
+	background-position:0 0;
+	display:block;
+	width:70px;
+	height:70px;
+}
+
+.wor4:hover{
+	background-position:0 100%;	
+}
+.wor5{
+	margin:auto;
+	background: transparent url(frontpage_files/w5v2.png) no-repeat;
+	background-position:0 0;
+	display:block;
+	width:70px;
+	height:70px;
+}
+
+.wor5:hover{
+	background-position:0 100%;	
+}
+.wor6{
+	margin:auto;
+	background: transparent url(frontpage_files/w6v2.png) no-repeat;
+	background-position:0 0;
+	display:block;
+	width:70px;
+	height:70px;
+}
+
+.wor6:hover{
+	background-position:0 100%;	
+}
+.wortext{
+	font-size:16px;
+	/*background-color:#3090c7;
+	color:#3090c7;
+	text-decoration:none;*/
+	/*text-shadow:0px 0px 8px #5DADE2;*/
+	color:black;
+	border-radius:6px;	
+	padding:1px 4px 1px 4px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+	
+}
+
+.wortext:hover{
+	color:black;
+	/*text-shadow:0px 0px 16px #2E86C1;*/
+	
+}
+
+#worlds{
+	padding-top:3px;
+	margin:auto;
+	width:101px;
+	float:left;
+}
+
+.worname{
+	/*text-shadow:0px 0px 8px #5DADE2;*/
+	color:black;
+	font-size:13px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.worname:hover{
+	color:black;
+	text-shadow:0px 0px 10px #FFB813;
+}
+/* Twitter and Seasonals */
+.twidget{
+	border:0px solid white;
+	border-radius:4px;
+	background-color:white;
+	height:368px;
+	width:48%;
+	float:left;
+}
+.seasonalbox {
+	width:100%;
+	height:200px;
+	background: url(frontpage_files/seasonalbg.jpg) no-repeat;
+	margin-right:0px;
+	border-radius:8px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+}
+.seasoncont {
+	padding: 4px 4px 4px 4px;
+	width:auto;
+	height:auto;
+	align:middle;
+	text-align:center;
+}
+.seasonicon{
+	margin-left:auto;
+	margin-right:auto;
+	width:110px;
+	height:110px;
+	border-radius:55px;
+	background-color:#4EAEE5;
+
+	-webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.seasonicon:hover{
+	background-color:#6cccff;
+}
+/*FactoryBox Div*/
+.factorybox{
+	border-radius:8px;	
+	width:710px;
+	height:170px;
+	background: url(frontpage_files/iconboxbgv2.png) no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top:2%;
+}
+
+/* Factorybox Individual Containers - Icon+Text */
+.constbox{
+	width:176px;
+	position:relative;
+	top:1px;
+	left:50px;
+	margin-right:0px;	
+}
+.develbox{
+	width:176px;
+	position:relative;
+	top:-94px;
+	left:276px;
+}
+.kaisyubox{
+	width:171px;
+	position:relative;
+	top:-90px;
+	left:53px;
+}
+.kaisoubox{
+	width:171px;
+	position:relative;
+	top:-159px;
+	left:279px;
+}
+.revampbox{
+	width:155px;
+	position:relative;
+	bottom:320px;
+	left:522px;	
+}
+/* Construction Icon FX */
+#const{
+	background: transparent url(frontpage_files/constv2.png) no-repeat center center;
+}
+.const{
+	width:176px;
+	height:70px;
+	display:block;
+	margin-top:8px;
+	margin-bottom:-4px;
+	opacity: 0.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.const:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+/* Development Icon FX */
+#devel{
+	background: transparent url(frontpage_files/develv2.png) no-repeat center center;
+}
+
+.devel{
+	width:176px;
+	height:70px;
+	display:block;
+	margin-top:8px;
+	margin-bottom:-4px;
+	opacity: 0.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.devel:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+/*More FX*/
+#kaisyu{
+	background: transparent url(frontpage_files/kaisyu.png) no-repeat;
+}
+.kaisyu{
+	display:block;
+	width:171px;
+	height:47px;
+	margin-left:auto;
+	margin-right:auto;
+	opacity: 0.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.kaisyu:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+/*More FX*/
+#kaisou{
+	background: transparent url(frontpage_files/kaisouv2.png) no-repeat;
+}
+.kaisou{
+	display:block;
+	width:171px;
+	height:47px;
+	margin-left:auto;
+	margin-right:auto;
+	opacity: 0.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.kaisou:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+/*More FX*/
+#revamp{
+	background:transparent url(frontpage_files/revampv2.png) no-repeat;
+}
+.revamp{
+	margin-top:8px;
+	margin-bottom:8px;
+	background:transparent url(frontpage_files/revamp.png) no-repeat;
+	display:block;
+	width:155px;
+	height:95px;
+	margin-left:auto;
+	margin-right:auto;
+	opacity: 0.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.revamp:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/* OBSOLETE
+.iconname{
+	font-size:18px;
+	text-align:center;
+	color:black;
+	margin-left:auto;
+	margin-right:auto;
+}
+*/
+/*Factorybox Names Alignment*/
+.constname{
+	font-size:18px;
+	text-align:center;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	
+	border-radius:6px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.develname{
+	font-size:15px;
+	text-align:center;
+	color:white;
+	padding-top:2px;
+	margin-left:auto;
+	margin-right:auto;
+	height:20px;
+	border-radius:6px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.kaisyuname{
+	font-size:18px;
+	text-align:center;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2px;
+	
+	border-radius:6px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.kaisouname{
+	font-size:18px;
+	text-align:center;
+	color:white;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2px;
+	
+	border-radius:6px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.revampname{
+	font-size:15px;
+	text-align:center;
+	color:white;
+	border-radius:6px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+/*Prevent visited links from turning blue*/
+.constname:visited{
+	text-decoration:none;
+	color:white;	
+}
+.develname:visited{
+	text-decoration:none;
+	color:white;	
+}
+.kaisyuname:visited{
+	text-decoration:none;
+	color:white;	
+}
+.kaisouname:visited{
+	text-decoration:none;
+	color:white;	
+}
+.revampname:visited{
+	text-decoration:none;
+	color:white;	
+}
+/*Hover FX - MUST be placed AFTER .visited*/
+.constname:hover{
+	background-color:#BB2F2F;
+	text-shadow:2px 2px 10px black;	
+}
+.develname:hover{
+	background-color:#3EBB2F;
+	text-shadow:2px 2px 10px black;	
+}
+.kaisouname:hover{
+	background-color:#2FA6BB;
+	text-shadow:2px 2px 10px black;
+}
+.kaisyuname:hover{
+	background-color:#2FA6BB;
+	text-shadow:2px 2px 10px black;
+}
+.revampname:hover{
+	background-color:#39ADF0;
+	text-shadow:2px 2px 10px black;
+}
+/*Icon Platform - Not in use*/
+.iconplat{
+	background:transparent url(frontpage_files/iconplat.png) no-repeat;
+	display:block;
+	width:182px;
+	height:10px;
+	position:relative;
+	left:0px;
+	z-index:1000;
+}
+/*Wiki Description*/
+#wikidesc{
+	border-radius:8px;
+	border-top-left-radius:16px;
+	width:auto;
+	max-width:710px;
+	height:auto;	
+	background-color:#3090c7;
+	min-height:103px;
+	margin-bottom:14.4px;
+}
+.craneicon{
+	float:left;
+	width:101px;
+	height:87px;
+	align:left;
+	border:1px solid #333;
+	border-radius:18px;
+	overflow:hidden;
+	margin-right:8px;
+}
+.desctext{
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+}
+#descbox{
+	padding:10px 8px 10px 8px;	
+}
+/*JP lang*/
+#nihontext{
+	font-family: Yu Gothic, 遊ゴシック, Meiryo, メイリオ, Serif !important;
+}
+/*World div Addon*/
+.worldside{
+	background:transparent url(frontpage_files/worldsidev2.png) no-repeat;
+	width:26px;
+	height:128px;
+	position:absolute;
+	left:-21px;
+}
+/*Update Box*/
+#updateheader{
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	width:auto;
+	height:auto;
+	background-color:#3090c7;
+	border-top-right-radius:8px;
+	border-top-left-radius:8px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	font-weight:bold;
+	width:100%;
+}
+.updatebox{
+	border-radius:8px;
+	border-bottom-right-radius:8px;
+	border-top-left-radius:8px;
+	background: url(frontpage_files/updatebg.jpg) no-repeat;
+	text-align:center;
+	width:100%;
+	height:154px;
+	font-family: Arial, Helvetica, sans-serif;
+	opacity:1;
+	margin-bottom:14.203px;
+}
+.updatecontainer {
+	float:left;	
+}
+#uptextbox {
+	margin-top:13px;	
+}
+.uptext{
+	color:white;
+	text-shadow:0px 0px 16px #0071e6;
+	padding:2px 2px 2px 2px;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.uptext:visited{
+	text-decoration:none;
+	color:white;	
+}
+.uptext:hover{
+	color:#80bfff;
+}
+
+/*@media headers specified for front page layout modulation*/
+
+/* Add 242px to whatever @media header is defined for use with MW */
+@media screen and (min-width:0px) {
+	html {
+		min-width:983px;	
+	}
+	.rightcol, .leftcol {
+		
+		width:710px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#widgetcontainer {
+		max-width:710px;
+		padding:0px 0px 0px 0px;	
+		height:1800px;
+	}
+	.updatecontainer {
+		width:48%;
+		margin-right:4%;	
+	}
+	.seasoncont {
+		padding-top:30px;
+	}
+}
+@media screen and (min-width:1259px) {
+	.rightcol {
+		width:260px;
+		margin-left:4%;
+	}
+	#widgetcontainer {
+		max-width:1014px;
+		height:1300px;
+	}
+	.updatecontainer {
+		width:100%;	
+	}
+	#iconcluster {
+		float:left;
+		position:relative;
+		top:-50px;
+	}
+	.seasoncont {
+		padding-top:30px;
+	}
+	#uptextbox {
+		margin-top:33px;	
+	}
+	.updatebox {
+		height:	200px;
+	}
+	.seasonalbox {
+		height: 200px;
+	}
+}
+@media screen and (min-width:1350px) {
+	.rightcol {
+		width:350px;
+	}
+	#widgetcontainer {
+		max-width:1106px;
+		height:1300px;
+	}
+	.seasonalbox {
+		height: 200px;
+	}
+	#iconcluster {
+		position:relative;
+		top:-25px;
+		width:710px;
+		float:left;
+	}
+	.seasoncont {
+		padding-top:30px;
+	}
+	#uptextbox {
+		margin-top:33px;	
+	}
+	.updatebox {
+		height:	200px;
+	}
+}
+@media screen and (min-width:1660px) {
+	.rightcol {
+		width:650px;	
+	}
+	#widgetcontainer {
+		max-width:1418px;
+		height:950px;
+	}
+	.updatecontainer {
+		width:48%; /*right margin 4%*/
+		margin-right:4%;
+	}
+	.seasonalbox {
+		height: 200px;
+	}
+	.updatebox {
+		height:	200px;
+	}
+	#uptextbox {
+		margin-top:33px;	
+	}
+	.seasoncont {
+		padding-top:30px;
+	}
+	#iconcluster {
+		width:650px;
+		float:right;
+		top:0px;
+	}
+}
+
+
+/**************************************************************/
+/* Global Language Stylesheet */
+/* Set fonts for lang type */
+:lang(zh), :lang(zh-cn) {					/*All Chinese languages?*/
+	font-family: Microsoft Yahei, 微软雅黑, Serif;
+}
+ 
+:lang(zh-tw) {					/*Taiwanese*/
+	font-family: Microsoft Jhenghei, 微軟正黑體, Serif;
+}
+ 
+:lang(ja) {					/*Japanese*/
+	font-family: Yu Gothic, 遊ゴシック, Meiryo, メイリオ, Serif;
+}
+
+/*************************************/
+/* Button Stylesheet */
+/*Button Settings*/
+.globalbutton {
+	-webkit-border-radius: 13;
+	-moz-border-radius: 13;
+	border-radius: 13px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	background: #3baef5;
+	padding: 4px 5px 4px 5px;
+	text-decoration: none;
+	max-width:300px;
+	text-align:center;
+}
+.globalbutton:hover {				/*When mouse hover*/
+	background: #2b9ce3;
+	text-decoration: none;
+}
+.globalbutton:active {				/*When mouse press*/
+	background: #1d90d8;
+	text-decoration: none;
+}
+.globalbutton:focus {				/*Removes blue outline*/
+	outline:0 !important;
+}
+
+/************************************************/
+/* Scrolling Text CSS - Combined with Common.js */
+#scrollDiv{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+}
+#scrollDiv li{
+	height: 25px;
+	padding-left: 10px;
+	list-style: none;
+}
+
+/************************************************/
+/* SPOILER ALERT */
+.spoiler {
+	background-color: black;
+	color: #000000;
+}
+ 
+.spoiler:hover {
+	background-color: black;
+	color: #ffffff;
+}
+
+/************************************************/
+/* Centered Table (instead of <table align="center">) */
+.centertable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/******************************/
+/*     Everything Else        */
+/******************************/
+/*Construction Table Wrap*/
+#constable {					/*box*/
+	width: 100%;
+	padding: 1px 3px 1px 3px;
+	box-sizing: border-box;			/*Resizing*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+/* For template documentation */
+.template-documentation {
+	clear: both;
+	margin: 1em 0 0 0;
+	border: 1px solid #aaa;
+	background-color: #ecfcf4;
+	padding: 1em;
+}
+
+/* Default skin for navigation boxes */
+table.navbox {								/* Navbox container style */
+	border: 1px solid #7384B5;
+	width: 100%;
+	margin: auto;
+	clear: both;
+	font-size: 88%;
+	text-align: center;
+	padding: 1px;
+}
+ 
+/* Navbox Layout */
+	table.navbox + table.navbox {			/* Single pixel border between adjacent navboxes */
+	margin-top: -1px;						/* (doesn't work for IE6, but that's okay)       */
+}
+.navbox-title,
+.navbox-abovebelow,
+table.navbox th {
+	text-align: center;						/* Title and above/below styles */
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.navbox-group {								/* Group style */
+	white-space: nowrap;
+	text-align: right;
+	font-weight: bold;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.navbox-list {
+	text-align: left;
+}
+.collapseButton {          					/* 'show'/'hide' buttons created dynamically */
+	float: right;							/* by the CollapsibleTables javascript in    */
+	font-weight: normal;					/* [[MediaWiki:Common.js]]are styled here    */
+	text-align: right;						/* so they can be customised.                */
+	width: auto;
+}
+.navbox .collapseButton {					/* In navboxes, the show/hide button balances */
+	width: 6em;								/* the vde links from [[Template:Tnavbar]],   */
+}											/* so they need to be the same width.         */
+.navbox-title, .navbox-above, .navbox-below {
+	padding-left:1em;
+	padding-right:1em;
+	text-align:center;
+}
+ 
+/* Navbox Colors */
+.navbox, .navbox-subgroup {
+	background: #fdfdfd;     /* Background color */
+}
+.navbox-list {
+	border-color: #fdfdfd;   /* Must match background color */
+}
+.navbox-title,
+table.navbox th {
+	background:#CEDAFF;     /* Level 1 color */
+}
+.navbox-abovebelow,
+.navbox-group,
+.navbox-subgroup .navbox-title {
+	background: #DDE6FF;     /* Level 2 color */
+}
+.navbox-subgroup .navbox-group, .navbox-subgroup .navbox-abovebelow {
+	background: #DDE6FF;     /* Level 3 color */
+}
+.navbox-even {
+	background: #f7f7f7;     /* Even row striping */
+}
+.navbox-odd {
+	background: transparent; /* Odd row striping */
+}
+
+
+/* Mark redirects in Special:Allpages and Special:Watchlist
+-------------------------------*/
+.allpagesredirect {
+	font-style: italic;
+}
+.allpagesredirect:after {
+	color: #808080; content: " (redirect)"
+}
+.watchlistredir {
+	font-style: italic;
+}
+
+/* Cell sizes for ambox/tmbox/imbox/cmbox/ombox/fmbox/dmbox message boxes */
+th.mbox-text, td.mbox-text {   /* The message body cell(s) */
+	border: none;
+	padding: 0.25em 0.9em;     /* 0.9em left/right */
+	width: 100%;               /* Make all mboxes the same width regardless of text length */
+}
+td.mbox-image {                /* The left image cell */
+	border: none;
+	padding: 2px 0 2px 0.9em;  /* 0.9em left, 0px right */
+	text-align: center;
+}
+td.mbox-imageright {           /* The right image cell */
+	border: none;
+	padding: 2px 0.9em 2px 0;  /* 0px left, 0.9em right */
+	text-align: center;
+}
+td.mbox-empty-cell {           /* An empty narrow cell */
+	border: none;
+	padding: 0px;
+	width: 1px;
+}
+ 
+/* Article message box styles */
+	table.ambox {
+	margin: 0px 10%;                  /* 10% = Will not overlap with other elements */
+	border: 1px solid #aaa;
+	border-left: 10px solid #1e90ff;  /* Default "notice" blue */
+	background: #fbfbfb;
+}
+	table.ambox + table.ambox {      /* Single border between stacked boxes. */
+	margin-top: -1px;
+}
+.ambox th.mbox-text,
+.ambox td.mbox-text {            /* The message body cell(s) */
+	padding: 0.25em 0.5em;       /* 0.5em left/right */
+}
+.ambox td.mbox-image {           /* The left image cell */
+	padding: 2px 0 2px 0.5em;    /* 0.5em left, 0px right */
+}
+.ambox td.mbox-imageright {      /* The right image cell */
+	padding: 2px 0.5em 2px 0;    /* 0px left, 0.5em right */
+}
+ 
+table.ambox-notice {
+	border-left: 10px solid #1e90ff;    /* Blue */
+}
+table.ambox-speedy {
+	border-left: 10px solid #b22222;    /* Red */
+	background: #fee;                   /* Pink */
+}
+table.ambox-delete {
+	border-left: 10px solid #b22222;    /* Red */
+}
+table.ambox-content {
+	border-left: 10px solid #f28500;    /* Orange */
+}
+table.ambox-style {
+	border-left: 10px solid #f4c430;    /* Yellow */
+}
+table.ambox-move {
+	border-left: 10px solid #9932cc;    /* Purple */
+}
+table.ambox-protection {
+	border-left: 10px solid #bba;       /* Gray-gold */
+}
+ 
+/* Image message box styles */
+table.imbox {
+	margin: 4px 10%;
+	border-collapse: collapse;
+	border: 3px solid #1e90ff;    /* Default "notice" blue */
+	background: #fbfbfb;
+}
+.imbox .mbox-text .imbox {  /* For imboxes inside imbox-text cells. */
+	margin: 0 -0.5em;       /* 0.9 - 0.5 = 0.4em left/right.        */
+	display: block;         /* Fix for webkit to force 100% width.  */
+}
+.mbox-inside .imbox {       /* For imboxes inside other templates.  */
+	margin: 4px;
+}
+ 
+table.imbox-notice {
+	border: 3px solid #1e90ff;    /* Blue */
+}
+table.imbox-speedy {
+	border: 3px solid #b22222;    /* Red */
+	background: #fee;             /* Pink */
+}
+table.imbox-delete {
+	border: 3px solid #b22222;    /* Red */
+}
+table.imbox-content {
+	border: 3px solid #f28500;    /* Orange */
+}
+table.imbox-style {
+	border: 3px solid #f4c430;    /* Yellow */
+}
+table.imbox-move {
+	border: 3px solid #9932cc;    /* Purple */
+}
+table.imbox-protection {
+	border: 3px solid #bba;       /* Gray-gold */
+}
+table.imbox-license {
+	border: 3px solid #88a;       /* Dark gray */
+	background: #f7f8ff;          /* Light gray */
+}
+table.imbox-featured {
+	border: 3px solid #cba135;    /* Brown-gold */
+}
+ 
+/* Category message box styles */
+table.cmbox {
+	margin: 3px 10%;
+	border-collapse: collapse;
+	border: 1px solid #aaa;
+	background: #DFE8FF;    /* Default "notice" blue */
+}
+ 
+table.cmbox-notice {
+	background: #D8E8FF;    /* Blue */
+}
+table.cmbox-speedy {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border: 4px solid #b22222;    /* Red */
+	background: #FFDBDB;          /* Pink */
+}
+table.cmbox-delete {
+	background: #FFDBDB;    /* Red */
+}
+table.cmbox-content {
+	background: #FFE7CE;    /* Orange */
+}
+table.cmbox-style {
+	background: #FFF9DB;    /* Yellow */
+}
+table.cmbox-move {
+	background: #E4D8FF;    /* Purple */
+}
+table.cmbox-protection {
+	background: #EFEFE1;    /* Gray-gold */
+}
+ 
+/* Other pages message box styles */
+table.ombox {
+	margin: 4px 10%;
+	border-collapse: collapse;
+	border: 1px solid #aaa;       /* Default "notice" gray */
+	background: #f9f9f9;
+}
+ 
+table.ombox-notice {
+	border: 1px solid #aaa;       /* Gray */
+}
+table.ombox-speedy {
+	border: 2px solid #b22222;    /* Red */
+	background: #fee;             /* Pink */
+}
+table.ombox-delete {
+	border: 2px solid #b22222;    /* Red */
+}
+table.ombox-content {
+	border: 1px solid #f28500;    /* Orange */
+}
+table.ombox-style {
+	border: 1px solid #f4c430;    /* Yellow */
+}
+table.ombox-move {
+	border: 1px solid #9932cc;    /* Purple */
+}
+table.ombox-protection {
+	border: 2px solid #bba;       /* Gray-gold */
+}
+
+/* Allow limiting of which header levels are shown in a TOC;
+   <div class="toclimit-3">, for instance, will limit to
+   showing ==headings== and ===headings=== but no further
+   (as long as there are no =headings= on the page, which
+   there shouldn't be according to the MoS). */
+.toclimit-2 .toclevel-1 ul,
+.toclimit-3 .toclevel-2 ul,
+.toclimit-4 .toclevel-3 ul,
+.toclimit-5 .toclevel-4 ul,
+.toclimit-6 .toclevel-5 ul,
+.toclimit-7 .toclevel-6 ul {
+    display: none;
+}
+
+.thisisafuckingborder * {
+    border-spacing: 0px;
+    border-collapse: separate;  
+    border-radius: 5px;
+    border:1px solid black;
+    margin:15px;
+    font-family: sans-serif;
+    font-size: 1em;
+    
+}
+.thisisafuckingborder th {
+  background-color: #92d3fa; 
+  color:#333333
+}
+.thisisafuckingborder a {
+  border-style: none !important;
+}
+.thisisafuckingborder td {
+  padding:6px;
+  background-color:#F6F6F6;
+}
+
+/* For template documentation */
+.template-documentation {
+	clear: both;
+	margin: 1em 0 0 0;
+	border: 1px solid #aaa;
+	background-color: #ecfcf4;
+	padding: 1em;
+}
+
+/* 'show'/'hide' buttons created dynamically by the CollapsibleTables javascript
+   in [[MediaWiki:Common.js]] are styled here so they can be customised. */
+.collapseButton {
+	/* @noflip */
+	float: right;
+	font-weight: normal;
+	/* @noflip */
+	margin-left: 0.5em;
+	/* @noflip */
+	text-align: right;
+	width: auto;
+}
+/* In navboxes, the show/hide button balances the v·d·e links
+   from [[Template:Navbar]], so they need to be the same width. */
+.navbox .collapseButton {
+	width: 6em;
+}
+ 
+/* Styling for JQuery makeCollapsible, matching that of collapseButton */
+.mw-collapsible-toggle {
+	font-weight: normal;
+	/* @noflip */
+	text-align: right;
+}
+.navbox .mw-collapsible-toggle {
+	width: 6em;
+}
+
+/* Standard Navigationsleisten, aka box hiding thingy
+from .de.  Documentation at [[Wikipedia:NavFrame]]. */
+div.NavFrame {
+	margin: 0;
+	padding: 4px;
+	border: 1px solid #aaa;
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 95%;
+}
+	div.NavFrame + div.NavFrame {
+	border-top-style: none;
+	border-top-style: hidden;
+}
+div.NavPic {
+	background-color: #fff;
+	margin: 0;
+	padding: 2px;
+	/* @noflip */
+	float: left;
+}
+div.NavFrame div.NavHead {
+	line-height: 1.6em;
+	font-weight: bold;
+	background-color: #ccf;
+	position: relative;
+}
+div.NavFrame p,
+div.NavFrame div.NavContent,
+div.NavFrame div.NavContent p {
+	font-size: 100%;
+}
+div.NavEnd {
+	margin: 0;
+	padding: 0;
+	line-height: 1px;
+	clear: both;
+}
+a.NavToggle {
+	position: absolute;
+	top: 0;
+	/* @noflip */
+	right: 3px;
+	font-weight: normal;
+	font-size: 90%;
+}
+ /* Fix table style*/
+tr.fix {
+	position: fixed;
+	top: 0;
+	margin-left: 0;
+}
+ 
+table.fix {
+	margin-top: 0px;
+}
+/*Signature CSS - Yay!*/
+#sigadmin {
+	overflow:hidden;
+	border:3px solid #990012;
+	width:50px;
+	border-radius:5px;
+	float:left;
+	margin-right:8px;
+	margin-bottom:2px;
+}
+
+/* Styling for branching tables
+Added by: がか
+----------------------------------------------------------------------*/
+table.wikitable.branching-table > * > tr > td {
+    border-left: none;
+    border-right: none;
+}
+ 
+table.wikitable.branching-table {
+    border: 1px #aaa solid;
+}
+ 
+table.branching-table {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    overflow: hidden;
+}
+ 
+table.branching-table > tbody > tr:first-child > th {
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #3baef5;
+    padding: 4px 5px 4px 5px;
+    text-decoration: none;
+    max-width:300px;
+    text-align:center;
+}
+
+table.branching-table > tbody > tr:first-child > th:hover {
+    background: #2b9ce3;
+    text-decoration: none;
+}
+
+table.branching-table > tbody > tr:first-child > th:active {
+    background: #1d90d8;
+    text-decoration: none;
+}
+
+table.branching-table > tbody > tr:first-child > th:focus {
+    outline:0 !important;
+}
+
+/* ROUTE TEMPLATE
+Added by: dragonjet
+Origin from Wikia
+----------------------------------------------*/
+.maproute{
+    display: inline-block;
+    font-weight:bold;
+    color:#fff;
+}
+.maproute .mapnode{
+    float:left;
+    margin:0px 3px 0px 0px;
+    width:20px;
+    height:20px;
+    border:2px solid #ccc;
+    border-radius:12px;
+    text-align:center;
+    line-height:20px; 
+}
+.maproute .mapnodewide{
+    float:left;
+    margin:0px 3px 0px 0px;
+    width:40px;
+    height:20px;
+    border:2px solid #ccc;
+    border-radius:12px;
+    text-align:center;
+    line-height:20px; 
+}
+/* Fade in Fade out */
+
+.fadein {
+    opacity: 0.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.fadein:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/* Event Banners */
+.eventBanner01 {
+    background: url(images/8/8f/2013SpringEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner02 {
+    background: url(images/1/11/2013SummerEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner03 {
+    background: url(images/c/c3/2013AutumnEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner04 {
+    background: url(images/4/4e/2013ChristmasEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner05 {
+    background: url(images/9/95/2014SpringEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner06 {
+    background: url(images/0/06/2014SummerEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner07 {
+    background: url(images/8/80/2014AutumnEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner08 {
+    background: url(images/c/c8/2015WinterEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner09 {
+    background: url(images/3/35/2015SpringEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner10 {
+    background: url(images/3/36/2015SummerEventBanner.png) no-repeat center center;
+}
+
+.eventBanner11 {
+    background: url(images/f/f1/2015AutumnEventBanner.png) no-repeat center center;
+}
+
+.eventBanner12 {
+    background: url(images/8/87/2016WinterEventBanner.png) no-repeat center center;
+}
+
+.eventBanner13 {
+	background: url(images/2/2e/2016SpringEventBanner.png) no-repeat center center;
+}
+
+.eventBanner14 {
+	background: url(images/a/af/2016SummerEventBanner.png) no-repeat center center;
+}
+
+.eventBanner15 {
+    background: url(images/a/aa/2016AutumnEventBanner.png) no-repeat center center;
+}
+
+.eventBanner16 {
+    background: url(images/3/3b/2017WinterEventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner17 {
+    background: url(images/6/60/2017SpringEventBanner.png) no-repeat center center;
+}
+
+.eventBanner18 {
+    background: url(images/9/95/2017SummerEventBanner.png) no-repeat center center;
+}
+
+.eventBanner19 {
+    background: url(images/f/f8/2017FallEventBanner.png) no-repeat center center;
+}
+
+.eventBanner20 {
+    background: url(images/e/e6/2018WinterEventBanner.png) no-repeat center center;
+}
+
+.eventBanner21 {
+    background: url(images/8/80/2018EarlyAutumnEventBanner.png) no-repeat center center;
+}
+
+.eventBanner22 {
+    background: url(images/5/53/Winter2019EventBanner.jpg) no-repeat center center;
+}
+
+.eventBanner23 {
+    background: url(images/a/a0/Spring2019EventBanner.png) no-repeat center center;
+}
+.eventBanner24 {
+    background: url(images/5/59/Summer2019EventBanner.png) no-repeat center center;
+}
+.eventBanner25 {
+    background: url(images/2/29/Fall2019EventBanner.png) no-repeat center center;
+}
+.eventBanner26 {
+    background: url(images/d/d2/2020HinamatsuriEventBanner.png) no-repeat center center;
+}
+.eventBanner27 {
+    background: url(images/8/83/Summer2020EventBanner.png) no-repeat center center;
+}
+.eventBanner28 {
+    background: url(images/f/fc/Fall2020EventBanner.png) no-repeat center center;
+}
+.eventBanner29 {
+    background: url(images/1/19/Fall2020EventBannerEO.png) no-repeat center center;
+}
+
+/* 
+    From https://gbf.wiki/MediaWiki:Common.css 
+    Provides the classes used by Template:Tooltip
+    Author: Tsubakura
+*/
+
+.tooltip {
+  position: relative;
+  display: inline;
+  border-bottom: 1px dotted black;
+  font-size: inherit;
+  /*padding: inherit;*/
+}
+ 
+.tooltiptext {
+  visibility: hidden;
+  padding: 12px 14px;
+ 
+  position: absolute;
+  left: 50%;
+  bottom: calc(20px + 100%);
+  z-index: 99999;
+ 
+  background: #fff;
+  box-shadow: 0 2px 0 0 rgba(0,0,0,0.15);
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+ 
+  white-space: nowrap;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+}
+ 
+.tooltiptext:after,
+.tooltiptext:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  border-style: solid;
+}
+ 
+.tooltiptext:after {
+  top: 100%;
+  bottom: auto;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  margin-top: -10px;
+  margin-left: -10px;
+  box-shadow: 1px 1px 0px #a2a9b1;
+  transform: rotate(45deg);
+  border-width: 0;
+}
+ 
+.tooltiptext:before {
+  top: 100%;
+  bottom: auto;
+  border-width: 18px;
+  margin-left: -18px;
+  border-color: rgba(0,0,0,0.15) transparent transparent transparent;
+  pointer-events: none;
+}
+ 
+.tooltip .tooltip .tooltiptext,
+.header-fixed-helper .tooltip .tooltiptext {
+  bottom: auto;
+  top: calc(20px + 100%);
+}
+ 
+.tooltip .tooltip .tooltiptext:after,
+.header-fixed-helper .tooltip .tooltiptext:after {
+  top: auto;
+  bottom: 100%;
+  border-width: 15px;
+  margin-left: -15px;
+  border-color: transparent transparent white transparent;
+  width: 0;
+  height: 0;
+  box-shadow: none;
+  background: none;
+  transform: none;
+}
+ 
+.tooltip .tooltip .tooltiptext:before,
+.header-fixed-helper .tooltip .tooltiptext:before {
+  top: auto;
+  bottom: 100%;
+  border-width: 16px;
+  margin-left: -16px;
+  border-color: transparent transparent #888 transparent;
+}
+ 
+.tooltiptext span.hr {
+    display: block;
+    height: 1px;
+    background-color: #a2a9b1;
+}
+ 
+.tooltiptext hr,
+.tooltiptext span.hr {
+  margin: 10px 0 12px;
+  position: relative;
+  background: none;
+}
+ 
+.tooltiptext hr:after,
+.tooltiptext span.hr:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px !important;
+  position: absolute;
+  left: -14px;
+  background: #a2a9b1;
+  padding: 0 14px;
+}
+ 
+.tooltip:hover > .tooltiptext,
+.tooltip.hover > .tooltiptext {
+  visibility: visible;
+}
+ 
+.tooltiptext {
+  opacity: 0;
+  transition: opacity 200ms ease, visibility 0s ease 200ms, transform 200ms ease;
+  transform: translate(-50%, 8px);
+}
+ 
+.tooltip .tooltip .tooltiptext,
+.header-fixed-helper .tooltip .tooltiptext {
+  transform: translate(-50%, -8px);
+}
+ 
+.tooltip:hover > .tooltiptext,
+.tooltip.hover > .tooltiptext {
+  opacity: 1;
+  transition-delay: 0s;
+  transform: translate(-50%, 0);
+}
+ 
+.tooltiptext a { color: #0645ad; border-bottom: 0; }
+.tooltiptext a:visited { color: #0b0080; }
+.tooltiptext a:active { color: #faa700; }
+.tooltiptext a:hover, a:focus { text-decoration: underline; }
+.tooltiptext { color: #252525; }
+.tooltiptext a.new { color: #ba0000; }
+
+.mw-body-content { z-index: auto !important;}
+
+/* 
+    Provides the classes used by Template:Map/ImageNode
+    Author: gaka
+    Added by: Tsubakura
+*/
+
+.square-link a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.map-nodes {
+  max-height: 500px;
+  overflow: auto;
+}
+
+/* Template:Event/Route class
+Author: gaka
+Added by: Tsubakura
+----------------------------------------------------------------------*/
+.map-route-node {
+    display: inline-block;
+    min-width: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 100%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+}
+
+/**
+ * Quest templates support.
+ */
+
+.quest-ri {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.quest-rii {
+	vertical-align: middle;
+	width: 88px;
+	min-height: 64px;
+	position: relative;
+	display: inline-block;
+}
+
+.quest-rit {
+	margin-left: -3px;
+	margin-bottom: 5px;
+	color: #000;
+	position: relative;
+	width: 94px;
+	max-height: 64px;
+	font-size: 10px;
+	line-height: 9px;
+	text-align: center;
+	overflow: hidden;
+	vertical-align: top !important;
+}
+
+.quest-riq {
+	color: #ff6611;
+	position: absolute;
+	top: 44px;
+	left: 55px;
+	text-shadow: -1px -1px 4px #fff, 1px 1px 4px #fff, -1px 1px 4px #fff, 1px -1px 4px #fff;
+	pointer-events: none;
+	font-size: 18px;
+}
+
+.quest-ris {
+	color: #ff6611;
+	position: absolute;
+	top: -5px;
+	left: 52px;
+	text-shadow: -1px -1px 4px #fff, 1px 1px 4px #fff, -1px 1px 4px #fff, 1px -1px 4px #fff;
+	pointer-events: none;
+	font-size: 18px;
+}

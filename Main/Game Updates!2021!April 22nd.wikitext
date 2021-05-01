@@ -1,0 +1,95 @@
+'''April 22nd 2021''' ''8th Anniversary Update''
+
+#'''8th Anniversary Update Commence!'''
+#* To celebrate KanColle's 8th Anniversary, you will receive 10 extra equip slots when you log into the game.
+#'''8th Anniversary Voice Lines'''
+#* A huge amount of Kanmusu have now been given 8th Anniversary Voice Lines to celebrate the occasion. This includes many old ship girls along with everyone released from last year.
+#* In addition, special voice lines have been given to the 7th Destroyer Division ([[Sazanami]], [[Akebono]], [[Oboro]], and [[Ushio]]) and the 8th Destroyer Division ([[Asashio]], [[Arashio]], [[Ooshio]], and [[Michishio]])
+#'''8th Anniversary CG'''
+#* 7th Destroyer Division have gotten an update to their CG for the 8th Anniversary.
+#* [[South Dakota]] has been given Spring Casual CG.
+#* [[I-47]] has been given Bouquet Mode CG
+#* [[Umikaze|Umikaze Kai Ni]] has been given bouquet Mode CG with slight differences for this year's update.
+#'''Max Ship capacity increased'''
+#* Maximum capacity of ships slots has increased from 480 to 490.
+#* Equipment slot capacity has also increased by +40
+#'''Equipment Preset update'''
+#* Initial Equipment Presets have been now expanded from 3 to 4
+#* A scrolling function has been added to the equipment presets
+#* Reinforcement expansion slot inclusion can now be toggled on and off with the preset you select
+#* Maximum number of presets has been increased to 12.
+# '''Furniture Update'''
+#*The following new furniture has been implemented for this update:
+#** 8th Destroyer Division Window
+#** Balloon Decoration for the 8th Anniversary
+#** 8th Anniversary hanging scroll
+#**Some furniture has updated to the new seasonal period
+#'''New Quests'''
+#* Limited time Quest "Catalina Festival" has been implemented!
+#** Completing this quest will get you a chance to choose between a [[PBY-5A Catalina]] or a [[Prototype Flight Deck Catapult]]
+#* Permanent quest "New found wings! Remodeled Light Carrier Ryuuhou, Sorite!" has been implemented.
+#*** This quest will reward you with special equipment well suited for Ryuuhou Kai Ni (E)
+#'''[[PBY-5A Catalina]] rescue function'''
+#* [[PBY-5A Catalina]] now has the ability to rescue fallen pilots that lose their planes in Land Based Air Operations.
+#** By placing a [[PBY-5A Catalina]] in your land base, you can minimize the lose of planes.
+#** The rescue function will not trigger if the Catalina takes a large amount of damage.
+#**The number of Catalina used to rescue affects the rescue ration.
+#** Aircraft rescued by the Catalina will be restored.
+#'''Akashi Improvement Arsenal Update'''
+#* [[Tenzan Model 12A]] can now be improved.
+#'''Equipment Bonus Update'''
+#* The Fighter Bombers (Type 62, 63 and Iwai) now provide bonuses to [[Chitose]] [[Chiyoda]], [[Hiyou]], [[Junyou]], [[Shouhou|Shouhou Kai]] and [[Zuihou]]
+#'''[[Ryuuhou|Ryuuhou Kai Ni / Kai Ni E]]'''
+#* It is now possible to remodel [[Ryuuhou]] into her Kai Ni E remodel.
+#* In her Kai Ni E remodel, she becomes a slow night escort carrier
+#* She can also be remodeled into her Kai Ni remodel
+#* In her Kai Ni remodel, she becomes a fast escort carrier with a larger slot capacity, but loses her night battle capabilities.
+#'''Opening Voice Lines'''
+#* Additional Opening Voice lines for when logging into the game have been implemented for the 8th Anniversary.
+#* There will be slight differences between the Android and HTML 5 version
+[[Category:Game Updates]]
+
+=Newly Implemented Quests=
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B169
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =「新しき翼。改装航空母艦「龍鳳」、出撃せよ！
+| nameen = New Wings, Remodeled Light Carrier Ryuuhou, Sortie!
+| req = Have [[Ryuuhou|Ryuuhou Kai Ni/E]] as the flagship along with [[Shigure Kai Ni]] in the first fleet. Sortie to the Nansei Islands area's Bashi Channel, the Eastern Orel Bay, the Okinoshima Islands, the Okinoshima Sea, and the deepest parts of the sea near the Tawi-Tawi Anchorage in the Southwestern Area. Engage and destroy any enemy fleets! 
+
+* Sortie the first fleet with [[Ryuuhou|Ryuuhou Kai Ni/E]] as the flagship along with [[Shigure Kai Ni]] and 4 XX in the First fleet and score a S-Rank victory at the boss nodes on 2-2, 2-3, 2-4, 2-5, and 7-2-2.
+| fuel = 0
+| ammo = 0
+| steel = 1946
+| bauxite = 2021
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=8}}{{QuestRewardEquip|Tenzan Model 12A}}{{QuestRewardEquip|Emergency Repair Goddess}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|8cm High-angle Gun Kai + Additional Machine Guns|stars=2}}{{QuestRewardEquip|Type 0 Fighter Model 63 (Fighter-bomber)|qty=2}}{{QuestRewardEquip|Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)}}
+| notes = 
+}}
+|}
+
+====Limited Time Quests====
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2104 LQ1
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【八周年限定】カタリナフェスティバル！
+| nameen = (8th Anniversary Limited Quest) Catalina Festival!
+| req = Organize a fleet with either a light cruiser or [[Fletcher]] as the flagship, along with 3 Destroyers or Coastal Defense Ships. Sortie repeatedly to the sea near the Nansei Islands, the Coastal Refinery Zone, the Nansei Island's Defense Line, and the Kis Island. Strive to crush any enemy fleets you encounter!
+
+* Sortie a fleet with CL or [[Fletcher]] as flagship plus up to 3 DD/DE and 2 XX and score a A?-Rank victory at the boss nodes on 1-2, 1-3, 1-4, and 3-2, twice each.
+| fuel = 888
+| ammo = 888
+| steel = 0
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|PBY-5A Catalina}}{{QuestRewardItem|Development Material|qty=28}}{{QuestRewardEquip|Tenzan|qty=8}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|PBY-5A Catalina}}{{QuestRewardItem|Prototype Flight Deck Catapult}}{{QuestRewardItem|Improvement Material|qty=8}}
+| notes = ''Limited Time Quest.''
+}}
+|}

@@ -1,0 +1,59 @@
+{{EquipmentInfo|204}}
+
+==Introduction==
+艦政本部によって新設計された、大型艦艇の防御力を強化する増加装甲の一種です。戦艦・正規空母等の大型艦艇への増設により防御力を高めることが可能です。<br>
+(戦艦級・正規空母級に適用可能です)
+
+
+A new armour designed by the Imperial Japanese Navy Technical Department to increase the large ships' defences.<br>
+It can be used to increase the defences of large ships like battleships and fleet carriers when mounted on the sides of the hull.<br>
+(Usable on battleships and fleet carriers.)
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Upgradeable''' from {{Equipment/Link|Anti-torpedo Bulge (Large)}}
+
+'''From quests: '''[[Quests#B99|B99]], [[Quests#B144|B144]] (★+2, choice)
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2016-12-22:''' '''Implemented'''
+* '''2020-04-23:''' Visible bonuses added
+</div></div>
+
+==Fit Bonuses==
+{{:New Kanhon Design Anti-torpedo Bulge (Large)/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=ArmorEquipment
+|Fuel=180
+|Ammo=0
+|Steel=980
+|Baux=0
+|Mats0-5=20/30
+|Mats6-9=32/48
+|Mats10=-
+|Screws0-5=6/9
+|Screws6-9=8/12
+|Screws10=-
+|EquipConsume0-5=1x{{ArmorEquipment|Anti-torpedo Bulge (Large)}}
+|EquipConsume6-9=2x{{ArmorEquipment|Anti-torpedo Bulge (Large)}}
+|EquipConsume10=-
+|Sun=Y<br>M<br>&nbsp;
+|Tue=&nbsp;<br>M<br>M2
+|Sat=Y<br>&nbsp;<br>&nbsp;
+|2ndShip=[[Yamato]]<br>[[Musashi|Musashi&nbsp;(base/Kai)]]<br>[[Musashi#Second Upgrade|Musashi Kai Ni]]
+|Notes=
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Armor]]

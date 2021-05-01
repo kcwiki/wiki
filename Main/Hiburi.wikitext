@@ -1,0 +1,368 @@
+==Info==
+{{KanmusuInfo|ID=351}}
+{{KanmusuInfo|ID=351a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform OASW at 60ASW.
+* Provides luck, ASW or HP when used for modernization. Please see [[Modernization]] for more details.
+
+===Overview===
+* Low firepower, HP and armour.
+* Good ASW.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Medium'''
+
+:Destroyer escorts, also known as ''kaiboukan'', are cheap, mass-produced vessels focused on ASW, and that's what they should be used for.
+:With proper gear, they can perform OASW attacks from level 1 and consume very little fuel and ammo, giving an excellent bang for your bucks when it comes to dealing with subs.
+:However, they are a poor fit for surface combat, so make sure not to expose them to enemy surface ships too much.
+
+:The differences in combat stats that actually matter between DEs are minimal, so feel free to use the ones you prefer.
+:They're also very cheap and easy to sparkle, and can therefore be used in expeditions that do not require a [[Drum Canister]] (as they cannot equip those).
+:Furthermore, they can be used for an unique kind of [[Modernization]] that can increase HP, ASW and Luck. Refer to the corresponding page for details on that.
+
+
+====Recommended Roles====
+* ASW
+* Modernization
+* Expeditions
+
+====Not Recommended Roles====
+* Surface combat
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+| scenario    =Introduction
+| origin      =日振型海防艦、一番艦、日振。提督、日振型、着任しましだ。頑張ります！
+| translation =1st ship of the Hiburi-class coastal defence ships. Hiburi. The Hiburi-class is reporting for duty, Admiral. We'll do our best!
+| audio       = Hiburi-Intro.mp3
+}}
+{{ShipquoteKai
+| scenario    =Introduction
+| kai         =yes
+| origin      =日振型海防艦、一番艦、日振。提督、日振型、今日も目一杯、がんばります！
+| translation =1st ship of the Hiburi-class coastal defence ships. Hiburi. The Hiburi-class will do our very best today, Admiral.
+| audio       = HiburiKai-Intro.mp3
+}}
+{{ShipquoteKai
+| scenario    =Library
+| origin      =日振型海防艦、一番艦、日振です！はい、もう色々と大変な時期で…成るべく、量産性を高めて、直線が多い設計で建造されました！でも、装備は決して劣りません！対潜、護衛、掃海と、日振型頑張りました！よろしくお願いします！
+| translation =I'm the 1st ship of the Hiburi-class coastal defense ships, Hiburi! Yes, because we were in very troubled times... the ability to be mass produced was prioritised, and I was built from blueprints with a lot of straight lines.<ref>The [https://en.wikipedia.org/wiki/Hiburi-class_escort_ship ''Hiburi''-class] were a subclass or variant of the [https://en.wikipedia.org/wiki/Mikura-class_escort_ship ''Mikura''-class] that borrowed significant design elements from the simplified [https://en.wikipedia.org/wiki/Ukuru-class_escort_ship ''Ukuru''-class]. While the armament resembled ''Mikura'', ships of the class were mostly assembled from prefabricated parts like ''Ukuru'', leading to some ambiguity as to their classification.</ref> But, I'm definitely not lacking in armament! Be it ASW, escorting, or minesweeping; the Hiburi-class will do their best! Please look after me!
+| audio       = Hiburi-Library.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 1
+| origin      =はい！日振はここです。
+| translation =Yes! I'm here.
+| audio       = Hiburi-Sec1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 2<ref>Becomes Secretary 1 on kai.</ref>
+| origin      =護衛ですか？お任せください。日振、働きます。
+| translation =An escort mission? Leave it to me. I'll work hard.
+| audio       = Hiburi-Sec2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 2
+| kai         =yes
+| origin      =さて、お茶でを入れますね。お待ち下さい。
+| translation =I'll go make some tea now. Please wait.
+| audio       = HiburiKai-Sec2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary 3
+| origin      =大東、ダメだよいたずらしたら。あぁ、提督。はい！爆雷の調整は万全です。日振、いつでも。
+| translation =Stop messing around, Daitou. Ah, Admiral. Yes! The depth charges are all calibrated properly. I'm ready at any time.
+| audio       = Hiburi-Sec3.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary Idle
+| origin      =提督、あの、ヒ船団の暗号って…あぁ、そうですよね。やっぱり。どうしますか？裏を書いていますか？
+| translation =Admiral, umm, the code for the Hi-convoy is...<ref>[https://en.wikipedia.org/wiki/Hi_convoys The Hi convoys] ran between Japan and Singapore. She was part of [https://en.wikipedia.org/wiki/Convoy_Hi-71 Convoy Hi-71].</ref> Ah, that's right. I got it. What should I do? Should I reply?
+| audio       = Hiburi-Idle.mp3
+}}
+{{ShipquoteKai
+| scenario    =Secretary (Married)
+| origin      =提督、なにか日振が働けること、ありますか？護衛？対潜掃討？あぁ、そうだ！まずお茶入れますね？待てて！
+| translation =Is there anything for me to do, Admiral? An escort? An ASW sweep? Ah, I know! I'll make some tea first alright? Please wait!
+| audio       = Hiburi-SecMarried.mp3
+}}
+{{ShipquoteKai
+| scenario    =Wedding
+| origin      =提督、お呼びでしょうか？日振、来ました。あぁ、これは…なんでしょう？開けてもいいですか？えぇ？あとで、いい…ですか？日振、了解です。いつものお礼のような物ですか？えぇ？嬉しです。日振感謝申し上げます。では！
+| translation =Did you call me, Admiral? I'm here now. Ah, what is... this? Can I open it now? Eh? Do it... later? Roger that... Is this the usual reward? Eh? I'm happy. I'm very grateful for it. Now then!
+| audio       = Hiburi-Wedding.mp3
+}}
+{{ShipquoteKai
+| scenario    =Player's Score
+| origin      =はい！日振が情報一式、お持ちします！
+| translation =Yes! I'll bring all the information to you!
+| audio       = Hiburi-PlayerScore.mp3
+}}
+{{ShipquoteKai
+| scenario    =Player's Score
+| kai         =yes
+| origin      =はい、提督！日振が最新情報一式、お持ちします！
+| translation =Yes, Admiral! I'll bring all the latest intelligence to you!
+| audio       = HiburiKai-PlayerScore.mp3
+}}
+{{ShipquoteKai
+| scenario    =Joining the Fleet
+| origin      =第一海上護衛隊、日振、出撃です！
+| translation =1st Surface Escort Division, Hiburi, sortieing!
+| audio       = Hiburi-JoinFleet.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 1
+| origin      =ありがとうございます。
+| translation =Thank you very much.
+| audio       = Hiburi-Equip1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 2
+| origin      =これは、日振、強化されました！もーっと働きます！
+| translation =This has made me stronger! I'll work even harder!
+| audio       = Hiburi-Equip2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Equipment 3
+| origin      =敵潜、気配…なし！良し！
+| translation =No trace... of enemy subs! Alright!
+| audio       = Hiburi-Equip3.mp3
+}}
+{{ShipquoteKai
+| scenario    =Supply
+| origin      =ありがとうございます！いたたきます！
+| translation =Thank you very much! I'll help myself!
+| audio       = Hiburi-Supply.mp3
+}}
+{{ShipquoteKai
+| scenario    =Docking (Minor)
+| origin      =提督、すみません。少しだけ、お風呂に入っていいですか？早く戻ります！
+| translation =Sorry, Admiral. Can I go take a short bath? I'll be right back!
+| audio       = Hiburi-DockMinor.mp3
+}}
+{{ShipquoteKai
+| scenario    =Docking (Minor)
+| kai         =yes
+| origin      =提督、ごめん…なさい。日振、少しお振りに入っていいですか？なる早で戻ります！
+| translation =I'm... sorry, Admiral. Can I go take a short bath? I'll be back as soon as I can!
+| audio       = HiburiKai-DockMinor.mp3
+}}
+{{ShipquoteKai
+| scenario    =Docking (Major)
+| origin      =すみません、提督。少し…えっと、ちょっといっぱい、日振、お休みは…成るべく、早く戻ります！
+| translation =Sorry, Admiral. I'll go take a short... uhm, a long... rest. But I'll be back as soon as I can!
+| audio       = Hiburi-DockMajor.mp3
+}}
+{{ShipquoteKai
+| scenario    =Construction
+| origin      =新造艦、就役です。どんな方でしょう？
+| translation =A new ship has been commissioned. What sort of person is she?
+| audio       = Hiburi-Construction.mp3
+}}
+{{ShipquoteKai
+| scenario    =Return from Sortie
+| origin      =提督、艦隊、戻りました。無事の航海で、何よりです。
+| translation =The fleet has returned, Admiral. I'm glad it was a safe voyage.
+| audio       = Hiburi-SortieReturn.mp3
+}}
+{{ShipquoteKai
+| scenario    =Starting a Sortie
+| origin      =ヒ船団、護衛部隊旗艦、日振、抜錨します。皆さん、対潜警戒厳として、行きましょう！
+| translation =Hi convoy, Escort Group flagship, Hiburi, setting sail. Everyone, make sure to be on high alert for submarines. Let's go!
+| audio       = Hiburi-Sortie.mp3
+}}
+{{ShipquoteKai
+| scenario    =Starting a Battle
+| origin      =皆さん、気を付けて。敵、発見です。護衛艦隊増速、合戦用意！
+| translation =Be careful, everyone. The enemy has been detected. Escort fleet, increase speed and prepare for contact!
+| audio       = Hiburi-BattleStart.mp3
+}}
+{{ShipquoteKai
+| scenario    =Attack
+| origin      =守ります、てぇぇ！
+| translation =I'll protect everyone, fire!
+| audio       = Hiburi-Atk.mp3
+}}
+{{ShipquoteKai
+| scenario    =Night Battle Attack
+| origin      =こっちよ！本隊はやらせません！
+| translation =Over here! I won't let you near the main fleet!
+| audio       = Hiburi-NightAtk.mp3
+}}
+{{ShipquoteKai
+| scenario    =Night Battle
+| origin      =夜の海は、気を付けてないと。
+| translation =We need to be careful of the night sea.<ref>She was torpedoed by [https://en.wikipedia.org/wiki/USS_Harder_(SS-257) USS ''Harder''] at 0456.</ref>
+| audio       = Hiburi-NightBattle.mp3
+}}
+{{ShipquoteKai
+| scenario    =Night Battle
+| kai         =yes
+| origin      =夜の海は、目一杯気を付けてないっと。
+| translation =We need to be very careful of the night sea.
+| audio       = HiburiKai-NightBattle.mp3
+}}
+{{ShipquoteKai
+| scenario    =MVP
+| origin      =えっ、本当ですか？日振が？えっと…提督、褒めたいただいて、ありがとうございます。やった！
+| translation =Eh, really? Me? Umm... thank you very much for the praise, Admiral. Hooray!
+| audio       = Hiburi-MVP.mp3
+}}
+{{ShipquoteKai
+| scenario    =Minor Damage 1
+| origin      =わあ、あぁぁぁ！嫌だ！
+| translation =Wha, aaaa! Oh no!
+| audio       = Hiburi-MinorDmg1.mp3
+}}
+{{ShipquoteKai
+| scenario    =Minor Damage 2
+| origin      =えぇぇ！ひ、被弾？
+| translation =Eeeh! I-I'm hit?
+| audio       = Hiburi-MinorDmg2.mp3
+}}
+{{ShipquoteKai
+| scenario    =Major Damage
+| origin      =嫌だぁぁぁ～！も、もう、こんなの…
+| translation =Oh nooo! This, this is...
+| audio       = Hiburi-MajorDmg.mp3
+}}
+{{ShipquoteKai
+| scenario    =Sunk
+| origin      =日振、沈むんだ…また…佐ちゃん、松ちゃん…気を付けて…ここは…ダメッ…
+| translation =So I'm sinking... again... Sacchan, Macchan... be careful... Don't... come here...<ref>Referring to ''[[Sado]]'' and ''[[Matsuwa]]'', who sank with her while escorting Convoy Hi-71.</ref>
+| audio       = Hiburi-Sunk.mp3
+}}
+|}<references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2018|Coming of Spring 2018]]
+|origin = 提督、春です！第一海上護衛隊のお花見です！えっちゃん、まっちゃん、さっちゃんも…そうです、だいちゃんも読んで…日振、お花見良い、始めます！
+|translation =	It’s spring, Admiral! The 1st Surface Escort Division is having a cherry blossom viewing! With Ecchan, Macchan and Sacchan and… That’s right, Dai-chan too… I’m ready to start the viewing!
+|audio = Hiburi_Spring_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = おめでとうございます。艦隊は五周年だそうです。日振、日振型を代表して、お祝い申し上げます。
+|translation =	Congratulations. I heard it is the fleet’s 5th Anniversary. On behalf of the Hiburi-class, I congratulate you.
+|audio = Hiburi_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2018|Rainy Season 2018]]
+|origin = 最近、よく降りますね。梅雨だから、仕方ないですけど。だいちゃん？あぁ、爆雷危ないから！
+|translation =	It’s been pouring recently. It can’t be helped since it’s the rainy season. Dai-chan? Ah, depth charges are dangerous!
+|audio = Hiburi_Rainy_Season_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2018|Summer 2018]]
+|origin = さっちゃん、まっちゃん、なんか今年も暑いくなった来たね。夏の夜や朝は、用心しないと…さっちゃん？
+|translation =	Sacchan, Macchan; it's gotten kinda hot this year too. We'll need to take care on summer nights or mornings... Sacchan?
+|audio = Hiburi_Summer_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2018|Saury 2018]]
+|origin = 鎮守府秋刀魚祭りですね？日振型にお任せください。大ちゃん、行くよ。って、その爆雷はなに？なにするき？！
+|translation =	It's the Naval Base Saury Festival right? Leave it to the Hiburi-class. Let's get going, Dai-chan. What's with those depth charges? What are you going to do with them!?
+|audio = Hiburi_Sec1_Saury_2018.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = ちょっと寒いですね。でも、日振、大丈夫！働きます！だいちゃんだって…だいちゃん？あ、あれ？あれ！？
+|translation =	It's gotten a bit colder. But I'm fine! I'll work hard! Dai-chan too... Dai-chan? H-huh? Huuuh!?
+|audio = Hiburi_Late_Autumn_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2018|Christmas 2018]]
+|origin = クリスマス…これがそうなんですね？いいですね？日振、こんなおまつりはとってもいいと思います。はい！
+|translation =	Christmas... this is what it's called, right? Isn't it great? I think that this festival is really nice. Yup!
+|audio = Hiburi_Christmas_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2019|New Years 2019]]
+|origin = あけまして、おめでとうございます。今年も海上護衛隊、どぞよろしくおねがいいたします。はい！
+|translation =	A very Happy New Year. Please take care of the Surface Escort Fleet this year too. Yes!
+|audio = Hiburi_New_Year_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2019|Setsubun 2019]]
+|origin = えっと、私達船団護衛部隊の鬼役は…あぁ、大鷹さん。じゃあ、すみません。行きます！鬼は外！えい。
+|translation =	Ummm, the person playing the Oni for us in the Fleet Escort Division is... Ah, Taiyou. Well, excuse me. Here I come! Demon begone! There.
+|audio = Hiburi_Setsubun_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2019|Valentine's Day 2019]]
+|origin = 提督、こちら、差し上げます。もちろん、手作り。あぁ、だいちゃん。はい、だいちゃんにもあるよ。ねぇ？
+|translation =	Admiral, this is for you. Of course it's hand made. Ah, Dai-chan. Here, there's some for you too. Alright?
+|audio = Hiburi_Valentines_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2019|White Day 2019]]
+|origin = こちら…チョコのお返しに？提督、ありがとうございます！はむ…美味しい！提督、お上手です。
+|translation =	This is... in return for the chocolates? Admiral, thank you very much! *nom*... It's delicious! Admiral, you're good at this.
+|audio = Hiburi_White_Day_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = おめでとうございます。艦隊は六周年だそうです。日振、日振型を代表して、お祝い目一杯申し上げます！
+|translation =	Congratulations. I heard it's the fleet's 6th Anniversary. As the representative of the Hiburi-class, I offer you lots of my sincerest congratulations.
+|audio = Hiburi_6th_Anniversary_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary]]
+|origin = おめでとうございます。艦隊は七周年だそうです。日振、日振型各艦とともに、お祝い、申し上げます。
+|translation =	Congratulations. It's the fleet's 7th Anniversary. Please accept these good wishes from me and the rest of the Hiburi-class ships.
+|audio = Hiburi_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = おめでとうございます。ついに八周年だそうです。日振、目一杯のお祝い申し上げます、提督！
+|translation =	Congratulations. I heard that it's the 8th Anniversary. I offer you my most heartfelt congratulations, Admiral!
+|audio = Hiburi_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+KanMusu351CG.png|Base
+KanMusu351CGDmg.png|Base Damaged
+</gallery>
+|}
+
+==Trivia==
+*She is named after [https://ja.wikipedia.org/wiki/%E6%97%A5%E6%8C%AF%E5%B3%B6 Hiburi Island].
+
+==See Also==
+* [[Destroyer Escorts|List of Destroyer Escorts]]
+* [[wikipedia:Hiburi-class escort ship|Wikipedia entry on Hiburi]]
+{{Shiplist}}

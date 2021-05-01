@@ -1,0 +1,430 @@
+==World 1-6: 【Extra Operation】 鎮守府近海航路 Sea Route Near Naval Base ==
+
+{{LabSortieworld
+| map = 1_06.png
+| difficulty = ☆ ☆ ☆ ☆ ☆ ☆
+| item = {{Fuel}} {{Ammo}} {{Steel}} {{Bauxite}}
+| exp = Variable
+| code = 輸送船団護衛作戦 (Convoy Escort Operation)
+| jptext = 対潜及び防空能力に優れた艦艇を基幹戦力とした艦隊を編成、輸送船団航路の護衛にあたれ！
+| entext = Form a fleet consisting of ships with excellent anti-submarine warfare and anti-aircraft capabilities, and protect the transport ship routes!
+| aircon = {{AirControlSystem
+| Map = 1-6 South
+| Fleet = 1CL 5DD
+| Route = A-E-G-F-B-N
+| AS = 83
+| Notes= Assuming highest AS formations
+}}
+{{AirControlSystem
+| Map = 1-6 North
+| Fleet = 2BBV 1CL 3DD
+| Route = B-C-H-K-M-J-D-N
+| AS = 177
+| Notes= Assuming highest AS formations
+}}
+}}
+
+===Stage Guide===
+{{MapBranchingTable
+|id = 1-6
+|0 -> A/empty = 
+* Meet '''ALL''' of the requirements
+** Amount of DD+DE ≧ 4
+** Fleet doesn't contain CA(V), BBV or CVL
+|0 -> C/battle = 
+* Meet '''ANY''' of the requirements
+** Fleet contains CA, BBV or CVL
+** Amount of DD + DE in fleet is ≦ 3
+
+|G/resource -> F/battle = 
+* Fleet consists of 1 CL + 5 [DD + DE]
+* 75% chance if the requirement isn't met
+|G/resource -> K/battle = 
+* 25% chance if the requirement to go to node F isn't met
+
+|M/resource -> J/battle =
+*Meet '''ALL''' of the following requirements:
+** Fleet with at least 3 DD + DE 
+** CVL + BBV + CA + CAV ≦ 2 
+** Pass the LoS check by reaching '''30 or higher with the F33 formula (C<sub>n</sub>=3)'''
+|M/resource -> L/battle =
+*Meet '''ANY''' of the following requirements:
+** CVL + BBV + CA + CAV ≧ 3
+** Fleet doesn't have 3 DD + DE
+** Fail the LoS check
+}}
+
+=== Tips ===
+Reaching node N '''7 times''' clears the map.
+* You are rewarded with a certain amount of resources upon reaching node N. The value depends on whether the resource bar is depleted or not.
+* The resource bar will reset at midnight at the beginning of each month.
+* The map will be locked at the beginning of each month until you have completed 1-5 for the month.
+* Clearing this map rewards you with '''1 [[Seasonal/Present Box 2014|Present Box]] & 75 ranking points'''. No medal.
+* Double-arrow nodes (D, F, L) are Air Battle Only nodes like those first appearing in the Summer 2014 Event. Daytime combat at these nodes have two Aerial Combat phases but no shelling.
+** If your fleet has no ships that can attack during Aerial Combat, you will automatically get a D Defeat (see [[Combat#Victory_Conditions|1st D Defeat condition]]) unless you enter night combat (which is just a normal night battle).
+There is no Boss node in this map. Instead you will receive a random amount of resources of either Fuel, Ammo, Steel, or Bauxite at the node with the Anchor symbol.
+*Because Node N (the node after node B and D) is the End Node, you may advance with a heavily damaged ship (taiha) from node B or D without risk of sinking any of your ships.
+**An exception would be when the flagship is heavily damaged. However, if the flagship is equipped with either [[Repair Team]] or [[Repair Goddess]], the player may choose to use it and continue. (There are reports that the item is not consumed if used this way?)
+**Because Node N is not considered to be a boss node, it will not count towards certain quests (namely [[Quests#Bw1|Bw1]]) that requires you to reach a boss node.
+*Using BBV, CA, CVL will take you to node C which leads to a route with harder enemies such as Flagship Wo-class and Flagship Ru-class. Submarine fleets with line ahead formation also appears at node I (3 out of 6 patterns).
+**Generally speaking, the route through C is only taken if a player wishes to brute-force the map.
+*The other route (A -> E -> G -> F -> B -> N) has 3 battles total.
+**Node E is Submarine Node with Echelon formation. Because this node is so minor in nature, bringing Anti-Submarine equipments is not required.
+**Node F is air-battle only.
+***Having a ship with Anti-Air Cut-In equipment setup is highly recommended to reduce damage taken at node F. 
+***This node creates a dilemma for players as most fleets coming through this way have no air attack and so must take a defeat unless night battle is undertaken here (which consumes ammo and can be risky).
+***You can bring either 2 AV or Akitsu Maru + CAV to have a chance at avoiding defeat at Node F, but this fleet can go from G to K which is hard for a light fleet.
+
+<br/>'''Branching rules:'''
+* The following ship types are not allowed on this map: (F)BB, CV, CLT, SS(V)
+* You may only use BBV, CA(V), CVL, AV, CL, DD, [[Akitsumaru]], [[Katori]], [[Kashima]], [[Akashi]], and [[Taigei]].
+**Using BBV, CA, CVL will take you to node C which leads to a route with harder enemies such as Flagship Wo-class and Flagship Ru-class. Submarine fleets with line ahead formation also appears at node I (3 out of 6 patterns).
+***Generally speaking, the route through C is only taken if a player wishes to brute-force the map or completing very specific quests that involve using ships that are not just 1 CL , 5 DD.
+**The other route (A -> E -> G -> F -> B -> N) has 3 battles total.
+***Node E is a submarine node with Echelon formation. Because this node is so minor in nature, bringing ASW equipment is not required.
+***Node F is an Air Battle node only.
+***Having a ship with Anti-Air Cut-In equipment setup is highly recommended to reduce damage taken at node F. 
+****This node creates a dilemma for players as most fleets coming through this way have no air attack and so must take a defeat unless night battle is undertaken here (which consumes ammo and can be risky).
+***You can bring either 2 AV or Akitsu Maru + CAV to have a chance at avoiding defeat at Node F, but this fleet can go from G to K which is hard for a light fleet.
+
+<br/>'''Additional Notes'''
+* Node E is a good place for players above Level 80 HQ to complete [[Quests#Bd8|Bd8]] (Sink 6 Submarines) and [[Quests#Bw5|Bw5]] (Sink 15 Submarines).
+* Equipping a damecon (Repair Team) onto your flagship might be a good idea if by some chance the flagship takes heavy damage at node B, since it allows you to advance to the end node (Node N). Since the damecon is only used upon entering the next fight it'll remain in your inventory upon completing the stage.
+<br/>'''Recommended Fleet'''
+*'''1 CL 5 DD''' routes '''A-E-G-F-B-N'''
+**The only composition that guarantees A -> E -> G -> F -> B -> N. 
+**However this fleet will not be able to fight back at node F, so expect your win rate to go down slightly.
+**You can also use '''6 DD / 2 CL + 4 DD / Akitsu Maru + CAV + 4 DD / 2 AV + 4 DD / 2 AO + 4 DD''' as you maybe able to get B Victory at Node F with these fleets, but these can off-route G -> K.
+*'''2 BBV 1 CL 3 DD''' routes '''C-H-K-M-J-D-N'''
+**Should only be used for some quests such as '''Bq3'''
+**Goes through a longer and much more dangerous route compared to the light fleet route above
+**There is an LoS check at node M. You need to have '''LoS F33 Cn3 > 30''' in order to go M -> J
+
+===Nodes and Enemy Encounters===
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = '''<span style="color:blue">Battle Avoided</span>'''
+|A1_node_info = "Must be my imagination" (battle avoided)
+|
+|B_label = 任務部隊C群 前衛部隊
+|B-1_node_info = cl_he-class_flagship cvl_nu-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|B-1_form = line_ahead
+|B-1_xp =
+|B-1_enemy_air_power = 24
+|B-2_node_info = ca_ri-class_flagship cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|B-2_form = line_ahead
+|B-2_xp =
+|B-2_enemy_air_power =
+|B-3_node_info = cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|B-3_form = line_ahead
+|B-3_xp =
+|B-3_enemy_air_power =
+|B-4_node_info = cl_he-class_flagship dd_i-class_late_model dd_i-class dd_i-class dd_i-class dd_i-class
+|B-4_form = line_ahead double_line
+|B-4_xp =
+|B-4_enemy_air_power =
+|B-5_node_info = cl_he-class_flagship dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class dd_i-class
+|B-5_form = line_ahead
+|B-5_xp =
+|B-5_enemy_air_power =
+|
+|C_label = 通商破壊潜水艦隊 II群
+|C-1_node_info = ss_ka-class_elite ss_ka-class_elite ss_ka-class ss_ka-class ss_ka-class
+|C-1_form = echelon line_abreast
+|C-1_xp =
+|C-1_enemy_air_power =
+|C-2_node_info = ss_ka-class_elite ss_ka-class ss_ka-class ss_ka-class
+|C-2_form = line_abreast echelon
+|C-2_xp =
+|C-2_enemy_air_power =
+|C-3_node_info = ss_ka-class_elite ss_ka-class ss_ka-class ss_ka-class ss_ka-class
+|C-3_form = echelon
+|C-3_xp =
+|C-3_enemy_air_power =
+|C-4_node_info = ss_ka-class_elite ss_ka-class ss_ka-class
+|C-4_form = echelon
+|C-4_xp =
+|C-4_enemy_air_power =
+|
+|D_label = 任務部隊A群 機動部隊(第二波)<br>'''<span style="color:green">Air Raid Node</span>'''
+|D-1_node_info = cv_wo-class_flagship_2 cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class_elite dd_i-class_late_model dd_i-class_late_model
+|D-1_form = diamond
+|D-1_xp =
+|D-1_enemy_air_power = 132
+|D-2_node_info = cvl_nu-class_flagship cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class_elite dd_i-class_late_model dd_i-class_late_model
+|D-2_form = diamond
+|D-2_xp =
+|D-2_enemy_air_power = 71
+|D-3_node_info = cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class_elite dd_i-class_late_model dd_i-class_late_model
+|D-3_form = diamond
+|D-3_xp =
+|D-3_enemy_air_power = 76
+|D-4_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|D-4_form = diamond
+|D-4_xp =
+|D-4_enemy_air_power = 47
+|D-5_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|D-5_form = diamond
+|D-5_xp =
+|D-5_enemy_air_power = 48
+|D-6_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class_elite dd_i-class dd_i-class dd_i-class
+|D-6_form = diamond
+|D-6_xp =
+|D-6_enemy_air_power = 48
+|
+|E_label = 通商破壊潜水艦隊 III群
+|E-1_node_info = ss_ka-class_elite ss_ka-class ss_ka-class ss_ka-class ss_ka-class
+|E-1_form = echelon
+|E-1_xp =
+|E-1_enemy_air_power =
+|E-2_node_info = ss_ka-class_elite ss_ka-class_elite ss_ka-class ss_ka-class ss_ka-class
+|E-2_form = echelon
+|E-2_xp =
+|E-2_enemy_air_power =
+|E-3_node_info = ss_ka-class ss_ka-class ss_ka-class ss_ka-class ss_ka-class
+|E-3_form = echelon
+|E-3_xp =
+|E-3_enemy_air_power =
+|E-4_node_info = ss_ka-class_elite ss_ka-class ss_ka-class ss_ka-class
+|E-4_form = echelon
+|E-4_xp =
+|E-4_enemy_air_power =
+|E-5_node_info = ss_ka-class_elite ss_ka-class ss_ka-class
+|E-5_form = echelon
+|E-5_xp =
+|E-5_enemy_air_power =
+|E-6_node_info = ss_ka-class ss_ka-class ss_ka-class ss_ka-class
+|E-6_form = echelon
+|E-6_xp =
+|E-6_enemy_air_power =
+|
+|F_label = 任務部隊C群 機動部隊<br>'''<span style="color:green">Air Raid Node</span>'''
+|F-1_node_info = cv_wo-class_flagship cvl_nu-class_elite ca_ri-class_elite dd_i-class dd_i-class dd_i-class
+|F-1_form = diamond
+|F-1_xp =
+|F-1_enemy_air_power = 52
+|F-2_node_info = cv_wo-class_flagship cv_wo-class_elite cl_tsu-class_elite dd_i-class dd_i-class dd_i-class
+|F-2_form = diamond
+|F-2_xp =
+|F-2_enemy_air_power = 55
+|F-3_node_info = cvl_nu-class_flagship cvl_nu-class_elite ca_ri-class_elite dd_i-class dd_i-class dd_i-class
+|F-3_form = diamond
+|F-3_xp =
+|F-3_enemy_air_power = 47
+|F-4_node_info = cv_wo-class_flagship ca_ri-class_elite dd_i-class dd_i-class dd_i-class dd_i-class
+|F-4_form = diamond
+|F-4_xp =
+|F-4_enemy_air_power = 28
+|F-5_node_info = cv_wo-class_elite ca_ri-class_elite dd_i-class dd_i-class dd_i-class dd_i-class
+|F-5_form = diamond
+|F-5_xp =
+|F-5_enemy_air_power = 27
+|F-6_node_info = cvl_nu-class_elite cvl_nu-class_elite ca_ri-class_elite dd_i-class dd_i-class dd_i-class
+|F-6_form = diamond
+|F-6_xp =
+|F-6_enemy_air_power = 48
+|
+|G_label = '''<span style="color:green">Resource Node</span>'''
+|G1_node_info = ammo + 20 + ( daihatsu * 5) up to 35 max
+|
+|H_label = '''<span style="color:blue">Battle Avoided</span>'''
+|H1_node_info = "Must be my imagination" (battle avoided)
+|
+|I_label = 通商破壊潜水艦隊 I群
+|I-1_node_info = ss_ka-class_flagship ss_ka-class_elite ss_ka-class_elite ss_ka-class ss_ka-class
+|I-1_form = line_ahead echelon
+|I-1_xp =
+|I-1_enemy_air_power =
+|I-2_node_info = ss_yo-class_flagship ss_ka-class_elite ss_ka-class_elite ss_ka-class ss_ka-class
+|I-2_form = echelon line_ahead
+|I-2_xp =
+|I-2_enemy_air_power =
+|I-3_node_info = ss_ka-class_flagship ss_ka-class_elite ss_ka-class ss_ka-class
+|I-3_form = line_ahead echelon
+|I-3_xp =
+|I-3_enemy_air_power =
+|
+|J_label = 任務部隊A群 機動部隊本隊
+|J-1_node_info = cv_wo-class_flagship cvl_nu-class cvl_nu-class cl_tsu-class_elite dd_i-class_late_model dd_i-class_late_model
+|J-1_form = diamond
+|J-1_xp =
+|J-1_enemy_air_power = 118
+|J-2_node_info = cv_wo-class_flagship_2 cvl_nu-class cvl_nu-class cl_tsu-class_elite dd_i-class_late_model dd_i-class_late_model
+|J-2_form = diamond
+|J-2_xp =
+|J-2_enemy_air_power = 100
+|J-3_node_info = cv_wo-class_flagship_2 cvl_nu-class cvl_nu-class cvl_nu-class dd_i-class_late_model dd_i-class_late_model
+|J-3_form = diamond
+|J-3_xp =
+|J-3_enemy_air_power = 108
+|J-4_node_info = cv_wo-class_flagship cvl_nu-class cvl_nu-class cvl_nu-class dd_i-class_late_model dd_i-class_late_model
+|J-4_form = diamond
+|J-4_xp =
+|J-4_enemy_air_power = 52
+|J-5_node_info = cv_wo-class_flagship cvl_nu-class cvl_nu-class dd_i-class_late_model dd_i-class_late_model transport_wa-class
+|J-5_form = diamond
+|J-5_xp =
+|J-5_enemy_air_power = 44
+|J-6_node_info = cv_wo-class_flagship cl_he-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class dd_i-class
+|J-6_form = diamond
+|J-6_xp =
+|J-6_enemy_air_power = 28
+|
+|K_label = 任務部隊支援 水上打撃部隊
+|K-1_node_info = ca_ri-class_flagship bb_ru-class_elite cl_to-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|K-1_form = double_line line_ahead
+|K-1_xp =
+|K-1_enemy_air_power =
+|K-2_node_info = ca_ri-class_flagship ca_ri-class_elite cl_to-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|K-2_form = double_line line_ahead
+|K-2_xp =
+|K-2_enemy_air_power =
+|K-3_node_info = ca_ri-class_flagship cl_to-class_elite dd_i-class_late_model dd_i-class dd_i-class dd_i-class
+|K-3_form = double_line line_ahead
+|K-3_xp =
+|K-3_enemy_air_power =
+|
+|L_label = 任務部隊A群 機動部隊(第一波)<br>'''<span style="color:green">Air Raid Node</span>'''
+|L-1_node_info = cv_wo-class_flagship_2 cv_wo-class_flagship_2 cvl_nu-class_elite cl_tsu-class_elite dd_i-class dd_i-class
+|L-1_form = diamond
+|L-1_xp =
+|L-1_enemy_air_power = 192
+|L-2_node_info = cv_wo-class_flagship_2 cv_wo-class_elite cvl_nu-class_elite cl_tsu-class_elite dd_i-class dd_i-class
+|L-2_form = diamond
+|L-2_xp =
+|L-2_enemy_air_power = 135
+|L-3_node_info = cvl_nu-class_flagship cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class_elite dd_i-class dd_i-class
+|L-3_form = diamond
+|L-3_xp =
+|L-3_enemy_air_power = 71
+|L-4_node_info = cv_wo-class_flagship_2 cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class_elite dd_i-class dd_i-class
+|L-4_form = diamond
+|L-4_xp =
+|L-4_enemy_air_power = 132
+|L-5_node_info = cv_wo-class_flagship cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class_elite dd_i-class dd_i-class
+|L-5_form = diamond
+|L-5_xp =
+|L-5_enemy_air_power = 76
+|L-6_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class_elite dd_i-class dd_i-class dd_i-class
+|L-6_form = diamond
+|L-6_xp =
+|L-6_enemy_air_power = 47
+|
+|M_label = '''<span style="color:green">Resource Node</span>'''
+|M1_node_info = fuel + 40 + ( daihatsu * 10) up to 70 max
+|
+|N_label = '''<span style="color:green">Resource Node</span>'''
+|N-1_node_info = '''pre-clear''' fuel + 300 500 700 1000
+|N-1_form = anchor
+|N-1_enemy_air_power = 
+|N-2_node_info = '''pre-clear''' ammo + 300 500
+|N-2_form = anchor
+|N-2_enemy_air_power = 
+|N-3_node_info = '''pre-clear''' steel + 100 300
+|N-3_form = anchor
+|N-3_enemy_air_power = 
+|N-4_node_info = '''pre-clear''' bauxite + 100 200
+|N-4_form = anchor
+|N-4_enemy_air_power = 
+|N-5_node_info = '''post-clear''' fuel + 30 50 70 100
+|N-5_form = anchor
+|N-5_enemy_air_power = 
+|N-6_node_info = '''post-clear''' ammo + 50 70 100
+|N-6_form = anchor
+|N-6_enemy_air_power = 
+|N-7_node_info = '''post-clear''' steel + 50 70 100
+|N-7_form = anchor
+|N-7_enemy_air_power = 
+|N-8_node_info = '''post-clear''' bauxite + 50
+|N-8_form = anchor
+|N-8_enemy_air_power = 
+|
+|final_form = 
+|boss_node = 
+}}
+
+===Drops===
+
+<div class="mw-customtoggle-1-6-drop globalbutton">Show/Hide Drops</div>
+
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-1-6-drop"
+!Node
+!Destroyers
+!Light Cruisers
+!Heavy Cruisers
+!Seaplane Tender
+!Aircraft Carrier
+!Submarine
+|-
+| style="text-align:center;" |B
+| style="text-align:center;" |[[Kisaragi]], [[Kikuzuki]], [[Hatsuyuki]], [[Nagatsuki]], [[Miyuki]], [[Fumizuki]], [[Mikazuki]], [[Murakumo]], [[Shikinami]], [[Nenohi]], [[Shiranui]], [[Wakaba]], [[Murasame]], [[Yuudachi]], [[Ooshio]], [[Hibiki]], [[Shigure]], [[Samidare]], [[Ushio]], [[Arare]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Kasumi]], [[Hatsushimo]], [[Mochizuki]], [[Hamakaze]], [[Urakaze]], [[Asagumo|<font color="#ff0000">'''Asagumo'''</font>]]
+| style="text-align:center;" |[[Kitakami]], [[Nagara]], [[Isuzu]], [[Yuubari]], [[Tatsuta]], [[Tenryuu]], [[Ooyodo|<font color="#ff0000">'''Ooyodo'''</font>]]
+| style="text-align:center;" |[[Tone]], [[Aoba]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Jun'you]], [[Houshou]]
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |C
+| style="text-align:center;" |[[Arare]], [[Ooshio]]
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |D
+| style="text-align:center;" |[[Kisaragi]], [[Kikuzuki]], [[Hatsuyuki]], [[Nagatsuki]], [[Miyuki]], [[Fumizuki]], [[Mikazuki]], [[Murakumo]], [[Shikinami]], [[Nenohi]], [[Shiranui]], [[Wakaba]], [[Murasame]], [[Yuudachi]], [[Ooshio]], [[Hibiki]], [[Shigure]], [[Samidare]], [[Ushio]], [[Arare]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Kasumi]], [[Hatsushimo]], [[Mochizuki]], [[Hamakaze]], [[Urakaze]], [[Asagumo|<font color="#ff0000">'''Asagumo'''</font>]]
+| style="text-align:center;" |[[Kitakami]], [[Nagara]], [[Isuzu]], [[Yuubari]], [[Tatsuta]], [[Tenryuu]], [[Ooyodo|<font color="#ff0000">'''Ooyodo'''</font>]]
+| style="text-align:center;" |[[Tone]], [[Aoba]]
+| style="text-align:center;" |[[Chitose]], [[Chiyoda]]
+| style="text-align:center;" |[[Jun'you]], [[Houshou]]
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |E
+| style="text-align:center;" |[[Fumizuki]], [[Akebono]], [[Michishio]], [[Ooshio]], [[Kasumi]], [[Murasame]], [[Nagatsuki]], [[Mochizuki]], [[Kuroshio]], [[Shiranui]], [[Oboro]], [[Sazanami]], [[Yuudachi]], [[Kikuzuki]], [[Hatsushimo]], [[Wakaba|Wakaba,]] [[Satsuki]], [[Samidare]], [[Nenohi]], [[Arare]], [[Ushio]], [[Shigure]]
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |F
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |I
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |J
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |[[Houshou]]
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |K
+| style="text-align:center;" |[[Akebono]], [[Miyuki]]
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" |L
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|}
+</tabber>

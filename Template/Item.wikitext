@@ -1,0 +1,95 @@
+<!--Implementation-->
+<span style="
+	position:absolute;
+	left:{{#expr:{{{x-axis|0}}}-50/2 round 0}}px;
+	top:{{#expr:{{{y-axis|0}}}-50/2 round 0}}px;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	{{#if: {{{tooltip|}}}|cursor:help;" title="{{{tooltip|}}}"|"}}>[[File:{{#switch:{{{type|}}}
+  |bucket = Item Icon Instant Repair Material.png
+  |burner = Item Icon Instant Construction Material.png
+  |devmat = Item Icon Development Material.png
+  |screws = Item Icon Improvement Material.png
+
+  |sbox = Item Icon Furniture Box (Small).png
+  |mbox = Item Icon Furniture Box (Medium).png
+  |lbox= Item Icon Furniture Box (Large).png
+
+  |dockext = Item Icon Dock Opening Key.png
+  |damecon = Item Icon Emergency Repair Personnel.png
+  |damecongod = Item Icon Emergency Repair Goddess.png
+  |furniturefairy = Item Icon Furniture Fairy.png
+
+  |mamiya = Item Icon Food Supply Ship Mamiya.png
+  |ring = Item Icon Marriage Ring and Documents.png
+  |chocolate = Item Icon Special Chocolate.png
+  |medal = Item Icon Medal.png
+  |blueprint = Item Icon Remodel Blueprint.png
+  |irako = Item Icon Food Supply Ship Irako.png
+  |presentbox = Item Icon Present Box.png
+  |amedal = Item Icon First Class Medal.png
+  |hishimochi = Item Icon Hishimochi.png
+  |hqpersonnel = Item Icon Headquarters Personnel.png
+  |punchhole = Item Icon Reinforcement Expansion.png
+  |protopult = Item Icon Prototype Flight Deck Catapult.png
+  |onigiri = Item Icon Combat Ration.png
+  |fueldrum = Item Icon Underway Replenishment.png
+  |saury = Item Icon Saury.png
+  |cannedfish = Item Icon Canned Saury.png
+  |acepilot = Item Icon Skilled Crew Member.png
+  |netypeengine = Item Icon Ne Type Engine.png
+  |decorationmaterial = Item Icon Decoration Material.png
+  |constructcorps = Item Icon Construction Corps.png
+  |ntablueprint = Item Icon New Technology Aircraft Blueprint.png
+  |gunmountmats = Item Icon New Model Gun Mount Improvement Material.png
+  |sonigiri = Item Icon Combat Ration (Special Onigiri).png
+  |aerialmats = Item Icon New Model Aerial Armament Material.png
+  |actionreport = Item Icon Action Report.png
+  |xmaspresentbox = Item Icon Xmas Select Gift Box.png
+
+  |okome = Item Icon Rice.png
+  |umeboshi = Item Icon Umeboshi.png
+  |nori = Item Icon Nori.png
+  |tea = Item Icon Tea.png
+  |houshou_dinner_ticket = Item Icon Houshou Dinner Ticket.png
+  |setsubun_beans = Item Icon Setsubun Beans.png
+  |damemat = Item Icon Emergency Repair Material.png
+  |rocketmats = Item Icon New Model Rocket Development Material.png
+  |sardine = Item Icon Sardine.png
+  |armamentmats = Item Icon New Model Armament Material.png
+
+
+  |p_fuel = Shop Icon Fuel.png
+  |p_ammo = Shop Icon Ammo.png
+  |p_steel = Shop Icon Steel.png
+  |p_bauxite = Shop Icon Bauxite.png
+  |p_devmat = Shop Icon Development Material.png
+  |p_burner = Shop Icon Instant Construction Material.png
+  |p_bucket = Shop Icon Instant Repair Material.png
+  |p_bargainrsc = Shop Icon Discounted Arsenal Set.png
+  |p_bargainsort = Shop Icon Discounted Sortie Set.png
+  |p_dockext = Shop Icon Dock Expansion Set.png
+  |p_damecon = Shop Icon Emergency Repair Personnel.png
+
+  |p_880rscbundl = Shop Icon 88 Resource Set.png
+  |p_damecongod = Shop Icon Emergency Repair Goddess.png
+  |p_furniturefairy = Shop Icon Furniture Fairy.png
+  |p_portexp = Shop Icon Homeport Expansion.png
+  |p_fuelpack = Shop Icon Tanker Expropriation.png
+  |p_mamiya = Shop Icon Food Supply Ship Mamiya.png
+  |p_bauxitepack = Shop Icon Aluminium Mass Production.png
+  |p_ring = Shop Icon Marriage Ring and Documents.png
+  |p_whitedaycookie = Shop Icon White Day Cookies.png
+  |p_screws = Shop Icon Improvement Material.png
+  |p_irako = Shop Icon Food Supply Ship Irako.png
+  |p_onigiri = Shop Icon Combat Ration.png
+  |p_fueldrum = Shop Icon Underway Replenishment.png
+  |p_punchhole = Shop Icon Reinforcement Expansion.png
+  |p_constructcorps = Shop Icon Construction Corps.png
+  |p_damemat = Shop Icon Emergency Repair Material.png
+  |Blank_square.svg}}|{{#if: {{{type|}}}|50px{{!}} |50px{{!}} }}link={{{link|}}}]]
+</span>
+<noinclude>
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,14 @@
+|-
+| 10
+| {{{Mats10}}}
+| {{{Screws10}}}
+| {{{EquipConsume10}}}
+| rowspan="1" {{#if: {{{Sun|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Sun|X}}}
+| rowspan="1" {{#if: {{{Mon|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Mon|X}}}
+| rowspan="1" {{#if: {{{Tue|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Tue|X}}}
+| rowspan="1" {{#if: {{{Wed|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Wed|X}}}
+| rowspan="1" {{#if: {{{Thu|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Thu|X}}}
+| rowspan="1" {{#if: {{{Fri|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Fri|X}}}
+| rowspan="1" {{#if: {{{Sat|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Sat|X}}}
+| rowspan="1" |{{#if: {{{2ndShip|}}} | {{{2ndShip}}} | - }}
+| rowspan="1" |{{{Notes|}}}

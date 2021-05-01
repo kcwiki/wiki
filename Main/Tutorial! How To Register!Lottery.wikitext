@@ -1,0 +1,103 @@
+{{Tutorialportal}}
+The time of the entrance lottery is announced on the [https://twitter.com/KanColle_STAFF official Twitter account] and occurs almost daily.
+* English translations of the lottery information can be found on [http://himeuta.org/forum.php Himeuta Channel].
+* If you're unable to participate in any of the lotteries, you can request help [http://himeuta.org/forumdisplay.php?42-Lottery-Help here].'''
+
+==Finding Lottery Info==
+===Lottery Tweet===
+You need to look for a message on [https://twitter.com/KanColle_STAFF KanColle STAFF Twitter] that's similar to this:
+<div style="width:520px;">
+{{Tweet
+|link = https://twitter.com/KanColle_STAFF/status/576563226697031680
+|JP = 次回の「艦これ」新規着任サーバ開放は、【本日】実施致します！<br />
+開放日時：【3/14(土曜日) 17:00】開放開始予定<br />
+開放方式：【抽選】による多段階着任方式<br />
+開放規模：新規【約10,000名】規模予定<br />
+開放サーバ：計7～8サーバ群投入予定　※調整中
+|EN =
+}}
+</div>
+* The first line is usually a greeting and intro statement.
+* The usual second line: '''開放日時''' is the date and time
+** '''【3/14(土曜日) 17:00】''' means March 14 (Saturday) 17:00 ('''JST''')
+* The usual third line: '''開放方式''' is the method of entry
+** '''【抽選】''' means Lottery
+** '''【無抽選着任モード】''' means there's no lottery! (rare)
+* The usual fourth line: '''開放規模''' is the number of players that can enter today
+** 【約10,000名】 means around 10,000 slots for new players
+
+===Other Announcements===
+If the lottery time for the specific day is not yet available, you will need to look for something similar to this:
+<div style="width:520px;">
+{{Tweet
+|link = https://twitter.com/KanColle_STAFF/status/576563226697031680
+|JP = 次回の「艦これ」新規着任サーバ開放は、明後日【3/14】に実施予定です。<br />
+開放日時：【3/14(土曜日)】開放予定<br />
+開放方式：【抽選】による多段階着任方式<br />
+開放規模：新規【約10,000名】規模予定　※調整中<br />
+開放サーバ：複数サーバ群投入予定　※調整中
+|EN =
+}}
+</div>
+* 朝 = morning
+* 昼 = afternoon
+* 夕方 = evening
+* 夜 = night
+* 調整中 = Time adjustment in progress
+
+===Entering the Lottery===
+Navigate to the [http://www.dmm.com/netgame/social/application/-/detail/=/app_id=854854/ game website] at the specified time to enter the lottery.
+
+Here are tips from the staff to facilitate your lottery attempt:
+*Before connecting to the site, clear your browser cache.
+*Set your PC timezone to JST (UTC+09:00. 5 minutes time deviation is fine).
+
+*Set your browser cache to at least 1024MB (''not mandatory, but recommended'').
+**Windows Chrome: create another shortcut to Chrome (go to the program folder) and append its "Target" path (right click > Properties) with this at the end:{{Talkquote|text=
+''<nowiki>chrome.exe" --disk-cache-size=1073741824</nowiki>''
+}}
+** Mac Chrome: create a .command file with the following command (Replace /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome with your app location):
+{{Template:Talkquote|||text = #!/bin/sh
+
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disk-cache-size=1073741824 &
+}}
+* Remember to close your Chrome browser (Mac users must make sure it has quit) before restarting if you are changing your disk cache size.
+* To verify the current disk cache size of your Chrome browser, go to this address:
+**chrome://net-internals/#httpCache
+**Look for '''Max size'''. It should now be '''1073741824'''.
+*Once you reach the cat waiting screen (refer to top-left image below), refresh at the interval specified in each lottery post ([https://twitter.com/KanColle_STAFF/statuses/457099059388354560 Example], listing 3-5 minutes as the advised refresh interval); if none is provided, every 5-10 minutes is recommended.
+**5分 (5 minutes); 10分 (10 minutes).
+
+<gallery type="slideshow" widths="500">
+Lottery1.jpg|You made it into the lottery! Keep refreshing every 5~10 minutes.
+Tutorial-servernotfull.jpg|You have won a place. Click on a server with a green/blue bar.
+Tutorial-fullserver.jpg|Servers are full; you missed the lottery. Please try again next time.
+Lottery2.jpg|You did not get into the lottery. Please try again next time.
+Error1.jpg|A network error has occurred.
+maintainance.jpg|Game/site is in maintenance.
+KanColle Error.jpg|An error has occurred.
+</gallery>
+{{clr}}
+===Lottery FAQ===
+'''Are there people who are willing to help newbies who are unable to enter the lottery?'''
+*Check [http://himeuta.org/forumdisplay.php?5-News-and-Announcements Kancolle forum] for lottery help as there are people out there who will help make an account for those who did not manage to get in.
+
+'''I got (or stuck) into the lottery process, although the lottery hasn't started/has ended already.'''
+*''Set your timezone to Japan/JST.''
+
+'''When I connected to the game all the servers were full''', '''what do I do?'''
+*You missed the lottery process. Follow the lottery process to get into the game, and if you fail, try again in another lottery.
+'''NOTE: '''If you receive the screen with the servers list and they appear full you may still have gotten a place; click on all the servers to make sure. Only servers showing "満" are actually full.
+
+'''What time does the Lottery start?'''
+*Check the [https://twitter.com/KanColle_STAFF/ official twitter] for the exact time by looking through the [[Tutorial:_How_to_Register#Finding_Lottery_Info|lottery info]] .
+
+'''Why is it so hard to get in? I have been trying for a few days!'''
+*You are competing with thousands of other users for spots. Keep trying and don't give up hope.
+*Don't be impatient and refresh more often than recommended, as it will lower your chances.
+
+'''Do I have to do this every time I want to play?'''
+*No, you only have to win the lottery once.
+
+[[Category:Tutorial]]
+[[Category:Help]]

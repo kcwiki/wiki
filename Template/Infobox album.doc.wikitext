@@ -1,0 +1,47 @@
+==Description==
+To use this template, enter the following and fill in the appropriate fields. Most fields left blank will not show up. Don't forget to include brackets, to make the fields into links.
+
+==Syntax==
+<pre>
+{{infobox album
+ | title         = 
+ | image         = [e.g. "Example.jpg"]
+ | imagewidth    = [e.g. "150"] [default: 210 pixels]
+ | imagecaption  = 
+ | artist        = 
+ | released      = 
+ | recorded      = 
+ | length        = 
+ | label         = 
+ | producer      = 
+}}
+</pre>
+
+==Samples==
+<pre>
+{{infobox album
+ | title         = Fleur
+ | image         = Example.jpg
+ | artist        = Marigold
+ | released      = June 2012
+ | recorded      = 2011
+ | length        = 88:88
+ | label         = Spring
+ | producer      = Daffy
+}}
+</pre>
+
+Results in...
+
+{{infobox album
+ | title         = Fleur
+ | image         = Example.jpg
+ | artist        = Marigold
+ | released      = June 2012
+ | recorded      = 2011
+ | length        = 88:88
+ | label         = Spring
+ | producer      = Daffy
+}}
+
+<includeonly>[[Category:Infobox templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

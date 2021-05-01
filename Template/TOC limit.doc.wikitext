@@ -1,0 +1,54 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+This template inserts a Table of Contents which omits subheadings beyond a certain depth. The table obeys the same layout rules as the <nowiki>__TOC__</nowiki> [[WP:MAGIC|magic word]]. Omitted sections still have section edit links in the article body; the main use for this template is situations where you want section edit links for ease of editing but don't want to clutter the table of contents.
+
+===Usage===
+{{tlx|TOC limit}}
+
+The template defaults to including only the first- and second-level headings, e.g. those numbered "1" and "1.1" in the TOC.
+
+You can specify a different limit by adding a header level:
+
+{{tlx|TOC limit|4}}
+
+4 allows for third-level headings, e.g. "1.1.1", but omits any subheadings below that from the TOC.
+
+The template works by hiding the lower levels with CSS. See [[MediaWiki:Common.css]].
+
+=== TOC levels versus wikitext header levels ===
+The heading levels in the TOC normally correspond to the header levels in the wikitext, so a "== Level-2 header ==" will normally generate the first-level ("1") TOC headings, a "=== Level-3 header ===" will normally generate the second-level ("1.1") TOC headings, and so on. This correspondence does ''not'' hold if the page contains "= Level-1 headers =" or skips header levels. For example, wikitext like this:
+ == Level-2 heading (A) ==
+ === Level-3 heading (B) ===
+ == Level-2 heading (C) ==
+ ====== Level-6 heading (D) ======
+ = Level-1 heading (E) =
+ == Level-2 heading (F) ==
+ === Level-3 heading (G) ===
+will generate a TOC like this:
+{| class="toc"
+|<div style="text-align:center"><b>Contents</b></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><span class="tocnumber">1</span> <span class="toctext">Level-2 heading (A)</span><ul>
+<li class="toclevel-2 tocsection-2"><span class="tocnumber">1.1</span> <span class="toctext">Level-3 heading (B)</span></li>
+</ul></li>
+<li class="toclevel-1 tocsection-1"><span class="tocnumber">2</span> <span class="toctext">Level-2 heading (C)</span><ul>
+<li class="toclevel-2 tocsection-2"><span class="tocnumber">2.1</span> <span class="toctext">Level-6 heading (D)</span></li>
+</ul></li>
+<li class="toclevel-1 tocsection-1"><span class="tocnumber">3</span> <span class="toctext">Level-1 heading (E)</span><ul>
+<li class="toclevel-2 tocsection-2"><span class="tocnumber">3.1</span> <span class="toctext">Level-2 heading (F)</span><ul>
+<li class="toclevel-3 tocsection-3"><span class="tocnumber">3.1.1</span> <span class="toctext">Level-3 heading (G)</span></li>
+</ul></li>
+</ul></li>
+</ul>
+|}
+Using <tt><nowiki>{{TOC limit}}</nowiki></tt> on this page ''would not'' hide header D, because even though it is a level-6 heading it is shown at the second level in the TOC. And it ''would'' hide header G even though it is a level-3 heading just like header B, because header G is shown at the third level in the TOC while header B is shown at the second level.
+
+=== Conflicts ===
+This template does not interact well with the {{tl|TOC right}}, {{tl|TOC left}}, {{tl|TOC center}} templates.  To achieve the correct effect, use those with a limit parameter.  For example, {{tlx|TOC&nbsp;right|2=limit=2}} has the effect that {{tlx|TOC&nbsp;right}} and {{tlx|TOC&nbsp;limit|2}} would have—if they worked together.
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+</includeonly>

@@ -1,0 +1,6 @@
+<div style="color:transparent; width:1px; height:1px; overflow:hidden;">----- ----- ----- ----- ----- ----- This comment contains spoiler tags ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----</div >
+{{#switch: {{{episode|3}}}
+|1|2 = {{{msg|THIS IS A SPOILER}}}
+|{{SpoilersMessage|msg={{{msg|}}} }}
+}}
+<noinclude>[[Category:Templates]]</noinclude>

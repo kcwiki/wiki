@@ -1,0 +1,109 @@
+=Introduction=
+
+[[File:Compositionbutton.png|right]]'''Composition (編成)''' is a main menu function that appears in the main home screen. In this menu, you can organise your fleets, view ship girl [[Stats|stats]] or record/deploy preset fleets.
+
+=Menu Functions=
+[[File:Composition_Menu.png|thumb|right|Overview of the Composition Menu Functions]]
+The following functions appear in the composition menu:
+
+*'''Fleets''' - Fleets are arranged from numbers 1-4. You start with one fleet and  gain access to more as you complete [[Quests]].
+** [[Quests#A4|A4]]: 2nd Fleet
+** [[Quests#A14|A14]]: 3rd Fleet
+** [[Quests#A16|A16]]: 4th Fleet
+*'''Change''' - Allows you to assign, swap or remove ship girls.
+*'''Details''' - Allows you to view ship girl stats.
+*'''Fleet's Name''' - The name of the fleet. 
+*'''Gift''' - Allows you to use [[Morale_and_Fatigue#Provisions|Mamiya and Irako]] to provide a quick morale boost to your fleets.
+*'''Removal all but Flagship''' - Automatically remove all ship girls in the fleet except the flagship (first ship).
+*'''Record Composition''' - Allows you to save the current fleet as a preset. See [[Composition#Preset Fleets|below]] for details.
+*'''Deploy Composition''' - Allows you to deploy saved preset fleets. See [[Composition#Preset Fleets|below]] for details.
+
+=Changing Fleet Composition=
+
+====Assigning or Swapping Ship Girls====
+[[file:Composition_Ship_List.png|thumb|right|Destroyers sorted by latest acquisition]]
+To assign or swap a ship girl in your fleet, you simply need to click the '''Change (変更)''' button. This will bring up a list of all the ship girls you possess. You can change how the girls are sorted by clicking on the blue button in the top right and cycling through the following options: 
+
+*'''Level''' - Sorts from highest to lowest level.
+*'''Ship Type'''- Sorts by ship type and ID. 
+** You can filter the ship types shown by using the tabs along the top of the ship girl list. '''This option is only available for the browser version'''.
+*** Clicking ◀ on the right will (de-)select all tabs
+*** Clicking on the small circle on the left will toggle between IJN and Royal Navy Ship Hull classifications
+*'''New''' - Sorts by newest to oldest.
+*'''Damaged''' - Sorts by most to least damaged. Undamaged girls are sorted by level.
+
+Once you have made your selection, click on her entry to bring up her stat card. You can then click '''Change (変更)''' on her card to confirm your selection.
+
+====Removing Ship Girls====
+There are two ways to remove a ship girl from your fleet: 
+
+# Select the ship girl you want to remove and press the '''Change (変更)''' button. Then select the '''Undo (はずす)''' at the top of your ship girl list. '''This option is at the top of every page in the browser version but only at the top of the first page in Android'''. <br>The 1st fleet flagship (secretary ship) cannot be removed and can only be swapped out.
+
+# The second way is to select the '''"Remove All but Flagship" (随伴艦一括解除)''' option located at the top. This option will remove all ship girls but the flagship.
+
+====Adjusting Fleet Positions====
+[[File:Clickinganddraggingcomp.png|thumb|right|The example shows how to move a ship girl from position 2 to the flagship position.]]
+You are able to click and drag ship girls around to adjust their position in the fleet. To do this, click on the ship girl's portrait and drag her to the desired position. She will swap places with the girl in that position.
+
+You can also use this method to quickly remove girls from the fleet by clicking and dragging her portrait off the fleet slots.
+
+=Locking Ship Girls=
+You can lock ship girls to prevent them from being available for [[Modernization]] or Dismantling. To lock a ship girl, click the '''Change (変更)''' button to bring up the ship girl list and mouse over the empty space on the right of the list. A greyed out unlocked padlock will appear. Click on it to lock a ship girl.
+
+'''Always remember to lock the ship girls you wish to keep'''.
+
+=Preset Fleets=
+
+Fleet presets allows you to save fleet compositions and load them quickly. All players start with '''3 preset fleets''' but can unlock more by purchasing a '''Dock Key''' (1000 yen) from the [[Shop|Item Shop]]. You can currently have a total of '''17 Preset Fleets'''. 
+
+===Recording Presets===
+[[File:comprecord.png|right|thumb|Fleet composition Deployment Menu]]
+'''Composition Recording''' can be done by selecting the Composition Record (編成記録) tab located in the bottom left corner of the Composition menu.
+
+You will be presented with a list of your preset fleets and any empty slots. Simply click the blue '''Record (記録)''' button to save your current fleet. To delete a preset, click the red '''Delete (削除)''' button.  
+
+You can also unlock more fleet preset slots from this menu. Locked slots will be displayed at the bottom of the list. If you have Dock Keys in your inventory, you can click the '''Unlock''' button to increase the number of fleet presets.
+
+'''Important Notes'''
+* The fleet name will be recorded as well. Anytime you deploy this fleet, the name will change to the recorded one.
+* Equipment is not recorded. Ship girls will be deployed with whatever equipment they currently have on them.
+* You cannot record a fleet currently on expedition.
+
+===Deploying Presets===
+[[File:deploycomp.png|right|thumb|Fleet composition Recording Menu]]
+'''Composition Deployment''' can be done by selecting the Deploy Composition (編成展開) tab located in the bottom left corner of the Composition menu.
+
+You will be presented with a list of all your saved preset fleets. Simply click the blue '''Deploy (展開)''' button to load the selected fleet. You can also click the red '''Delete (削除)''' button to delete a preset from this menu. 
+
+'''Important Notes'''
+* If you attempt to deploy a preset with girls currently in another fleet, you will get a warning. You can still choose to '''"Deploy All Except Those Assigned to Another Fleet" (別艦隊配属艦を除いて編成展開)''', which will only deploy eligible ships in the preset.
+* The fleet name will be overwritten with the saved name.
+* You can deploy ship girls that are in the docks.
+* If a ship girl in the preset is no longer part of your forces, '''"Decommissioned Ship" (除籍艦)''' will be displayed in her place.
+** You can still load the preset sans the missing girl.
+
+=Gifts=
+[[File:ShipMamiya.png|thumb|150px|left|Food Supply Ship Mamiya]] [[File:ShipIrako.png|thumb|140px|right|Food Supply Ship Irako]]
+'''Gifts (給)''' are used to restore the morale of your fleet using items called '''Mamiya (間宮)''' and '''Irako (伊良湖)'''. The number beside the button shows the total number of '''Mamiya and Irako''' you possess. Please see [[Fatigue and Morale]] for more details on how morale affects ship girls.
+
+Clicking on the button brings up a menu with the following options:
+
+* '''Use Mamiya''' - Uses 1 Mamiya to restore a ship girl's morale to 49 if between 40-49 or 40 if under 40. There is a random chance of having some ships get 50 morale.
+* '''Use Irako''' - Uses 1 Irako to give the flagship and 0-3 consort ships a +25 morale boost. The bonus morale to 
+* '''Use Mamiya and Irako''' -  Uses 1 Mamiya and Irako to gives all ships a +16 morale boost with a chance of bonus morale for Destroyers.
+
+Note that although Mamiya and Irako are available through quests, they are still in short supply. It is recommended that you resort to other means to restore morale and sparkle first.
+
+=Fleet Name=
+To change the name of your fleet, just type a new name into the text box and clicking the "Edit" (編集) button. '''This only works if playing on the DMM website or the Android app'''.
+
+Keep in mind that the fleet's name is also saved when being used for preset compositions as well.
+
+The name of your fleet is merely cosmetic but can be viewed by all players that challenge you in [[PVP]] or in [[Experience_and_Rank|Ranking]].
+
+=View Details=
+Clicking on the yellow '''Details (詳細)''' button will bring up their stats card. Please see the [[Stats]] page for more details on what each stat is.
+
+=See Also=
+{{Mechanics}}
+[[Category:UI]]

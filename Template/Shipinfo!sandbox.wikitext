@@ -1,0 +1,91 @@
+<table style="border: 1px solid {{#switch: {{{templatetype}}} | #default =lightblue| Abyssal =darkgray}}; {{border-radius|15px}} width: 345px;">
+  <tr>
+    <td colspan="4" style="text-align: center; {{border-radius|15px}} background-color: {{{color|transparent}}};"><p style="font-size: 20px">'''{{{name|Name?}}}'''</p>
+      <p style="font-size: 15px">'''{{#if:{{{id|}}}|No.{{{id}}}}} {{lang|ja|{{{japanesename|}}}}}'''</p>
+      <p>'''{{#if:{{{class|}}}|{{{class}}} Class}} {{{type|}}}'''</p></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;" colspan="4">{{{image|}}}</td>
+  </tr>
+  <tr>
+    <td colspan="4" style="text-align: center; {{border-radius|15px}} background-color: LightSkyBlue;">'''Statistics'''</td>
+  </tr>
+  <tr>
+    <td style="width: 90px;">[[File:icon HP.png|HP]] HP</td>
+    <td style="width: 80px;">'''{{{hp|no data}}}'''</td>
+    <td style="width: 86px;">[[File:icon Gun.png|Firepower]] Firepower</td>
+    <td>'''{{{firepower|no data}}}'''</td>
+  </tr>
+  <tr>
+    <td style="width: 90px;">[[File:icon Armor.png|Armor]] Armor</td>
+    <td style="width: 80px;">'''{{{armor|no data}}}'''</td>
+    <td style="width: 86px;">[[File:icon Torpedo.png|Torpedo]] Torpedo</td>
+    <td>'''{{{torpedo|no data}}}'''</td>
+  </tr>
+  <tr>
+    <td style="width: 96px;">[[File:icon Evasion.png|Evasion]] Evasion</td>
+    <td style="width: 80px;">'''{{{evasion|no data}}}'''</td>
+    <td style="width: 80px;">[[File:icon AA.png|AA]] AA</td>
+    <td>'''{{{AA|no data}}}'''</td>
+  </tr>
+  <tr>
+    <td style="width: 90px;">[[File:icon Aircraft.png|Aircraft]] Aircraft</td>
+    <td style="width: 80px;">'''{{{aircraft|no data}}}'''</td>
+    <td style="width: 86px;">[[File:icon ASW.png|ASW]] ASW</td>
+    <td>'''{{{ASW|no data}}}'''</td>
+  </tr>
+  <tr>
+    <td style="width: 90px;">[[File:icon Speed.png|Speed]] Speed</td>
+    <td style="width: 80px;">'''{{{speed|no data}}}'''</td>
+    <td style="width: 86px;">[[File:icon LOS.png|LOS]] LOS</td>
+    <td>'''{{{LOS|no data}}}'''</td>
+  </tr>
+  <tr>
+    <td style="width: 90px;">[[File:icon Range.png|Range]] Range</td>
+    <td style="width: 80px;">'''{{{range|no data}}}'''</td>
+    <td style="width: 86px;">[[File:icon Luck.png|Luck]] Luck</td>
+    <td>'''{{{luck|no data}}}'''</td>
+  </tr>{{#switch: {{{templatetype}}} | Abyssal =| #default =
+  <tr>
+    <td colspan="4" style="text-align: center; {{border-radius|15px}} background-color: LightSkyBlue;">'''Consumption'''</td>
+  </tr>
+  <tr>
+    <td>[[File:Fuel.png|25x25px]]Fuel</td>
+    <td>'''{{{fuel|no data}}}'''</td>
+    <td>[[File:Ammunition.png|25x25px]]Ammo</td>
+    <td>'''{{{ammo|no data}}}'''</td>
+  </tr>
+  <tr>
+    <td colspan="3" style="text-align: center; {{border-radius|15px}} background-color: LightSkyBlue;">'''Build Time'''</td>
+    <td style="text-align: center; {{border-radius|15px}} background-color: LightSkyBlue;">'''Slots'''</td>
+  </tr>
+  <tr>
+    <td colspan="3" style="text-align: center;">{{{time|Unbuildable}}}</td>
+    <td style="text-align: center;">{{{slot|no data}}}</td>
+  </tr>}}
+  <tr>
+    <td colspan="{{#if: {{{space1|}}} |3|4}}" style="text-align: center; {{border-radius|15px}} background-color: LightSkyBlue;">'''{{#switch: {{{templatetype}}} | #default =Stock Equipment| Abyssal =Equipment}}'''</td>
+    {{#if: {{{space1|}}} |<td style="text-align: center; {{border-radius|15px}} background-color: LightSkyBlue;">'''[[File:icon Aircraft.png|Space]]Space'''</td>}}
+  </tr>
+  <tr>
+    <td colspan="{{#if: {{{space1|}}} |3|4}}" style="text-align: center;">{{{slot1|no data}}}</td>
+    {{#if: {{{space1|}}} |<td style="text-align: center;">{{{space1|-}}}</td>}}
+  </tr>
+  <tr>
+    <td colspan="{{#if: {{{space1|}}} |3|4}}" style="text-align: center;">{{{slot2|no data}}}</td>
+    {{#if: {{{space1|}}} |<td style="text-align: center;">{{{space2|-}}}</td>}}
+  </tr>
+  <tr>
+    <td colspan="{{#if: {{{space1|}}} |3|4}}" style="text-align: center;">{{{slot3|no data}}}</td>
+    {{#if: {{{space1|}}} |<td style="text-align: center;">{{{space3|-}}}</td>}}
+  </tr>
+  <tr>
+    <td colspan="{{#if: {{{space1|}}} |3|4}}" style="text-align: center;">{{{slot4|no data}}}</td>
+    {{#if: {{{space1|}}} |<td style="text-align: center;">{{{space4|-}}}</td>}}
+  </tr>
+</table><includeonly>
+{{#switch: {{{templatetype}}}
+ | #default ={{#if: {{NAMESPACE}} | |{{#if:{{{type|}}} |{{#switch:{{{type}}} |#Default =[[Category:{{{type}}}s]]| Aircraft Carrier =[[Category:Standard Carriers]]| Armored Aircraft Carrier =[[Category:Armored Carriers]]}}}}
+{{#if: {{{class|}}} |[[Category:{{{class}}} Class]]}}}}
+ | Abyssal  =[[Category:Enemy Vessel]][[Category:{{{class}}} {{{type}}}s]]
+}}

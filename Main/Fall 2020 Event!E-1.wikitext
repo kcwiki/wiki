@@ -1,0 +1,298 @@
+===E-1===
+{{EventInfoBox
+|title_en=Commence! Operation MG1
+|title_jp=発動！MG1作戦
+|tag=[[File:Fall2020EventTag1.png]]
+|tag_text=Mediterranean Fleet
+|header_thumb=[[File:Fall2020_E1BossThumb.png]]
+|map_1=[[File:Fall2020E-1Map.png|450px]]
+|map_1_text=Map
+|map_2=[[File:Fall2020E-1MapP1.png|450px]]
+|map_2_text=Phase 1
+|map_3=[[File:Fall2020E-1MapP2.png|450px]]
+|map_3_text=Phase 2
+|map_4=[[File:Fall2020E-1LBASMap.png|450px]]
+|map_4_text=LBAS
+|boss_hard=3700 HP + 700 TP
+|boss_medium= 3500 HP + 600 TP
+|boss_easy= 2800 HP + 500 TP
+|boss_casual= 2800 HP + 500 TP
+|phase_1_boss={{EnemyLink|Abyssal Mediterranean Princess}}
+|phase_2_boss={{EnemyLink|French Battleship Princess}}
+|phase_3_boss=
+|phase_4_boss=
+|phase_5_boss=
+|reward_1={{QuestRewardItem|Food Supply Ship Mamiya}}
+|reward_1_casual=1
+|reward_1_easy=1
+|reward_1_medium=2
+|reward_1_hard=2
+|reward_2={{QuestRewardItem|Food Supply Ship Irako}}
+|reward_2_casual=
+|reward_2_easy=
+|reward_2_medium=2
+|reward_2_hard=2
+|reward_3={{QuestRewardEquip|Emergency Repair Goddess}}
+|reward_3_casual=
+|reward_3_easy=1
+|reward_3_medium=2
+|reward_3_hard=2
+|reward_4={{QuestRewardItem|New Model Aerial Armament Material}}
+|reward_4_casual=
+|reward_4_easy=
+|reward_4_medium=1
+|reward_4_hard=2
+|reward_5={{QuestRewardEquip|120mm/50 Twin Gun Mount mod.1936}}
+|reward_5_casual=1
+|reward_5_easy=
+|reward_5_medium=
+|reward_5_hard=1 (★2)
+|reward_6={{QuestRewardEquip|120mm/50 Twin Gun Mount Kai A.mod.1937}}
+|reward_6_casual=
+|reward_6_easy=1
+|reward_6_medium=1
+|reward_6_hard=1 (★2)
+}}
+<div style="min-width:440px;">
+{{center|[[File:OoyodoE-1Fall2020.png|440px]]}}
+
+{{MapBranchingTable
+|title = E-1 Branching Rules
+|expand = true
+|id = 49-1
+|order = 1,B,C,F,H,G,K,N
+
+|1 -> A = * Do not meet the requirements to go to either B or C.
+|1 -> B = 
+* Meet '''ALL''' of the following requirements:
+** Do not meet the requirements to go to C.
+** Amount of CV ≤ 1
+** Amount of (F)BB(V)+CV(L/B) ≤ 2
+|1 -> C = 
+* Meet '''ALL''' of the following requirements:
+** Amount of CL+DD+DE ≥ 3 and CL ≥ 1 '''OR''' amount of CL+DD+DE ≥ 4
+** If Slow, amount of CL+DD+DE ≥ 4
+** Amount of CV(L/B) ≤ 1
+** Amount of (F)BB(V)+CV(L/B)+CAV+CL ≤ 3
+** No LHA, AV or BB
+* Alternatively, bring a Fast+ Fleet
+
+|B -> C = 
+* Meet '''ALL''' of the following requirements:
+** Fast Fleet '''OR''' amount of DD+DE ≥ 3
+** No LHA
+|B -> D = * Do not meet the requirements to go to C.
+
+|C -> E/resource = 
+* If amount of ships ≥ 2, meet '''ANY''' of the following requirements:
+** Fleet is Slow '''AND''' contains AO or AV
+** No DD/DE in fleet.
+|C -> F/empty = * Do not meet the requirements to go to E.
+
+|F/empty -> G, H = * Choose your own adventure!
+
+|H -> I/empty = * Fail the LoS check.
+|H -> J = * Pass the LoS check.
+
+|G -> K = * Do not meet the requirements to go to N.
+|G -> N/resource = 
+* Meet '''ALL''' of the following requirements:
+** Amount of DD+DE ≥ 4
+** No SS(V)
+
+|K -> L = * ???
+|K -> N/resource = * ???
+
+|N/resource -> O = * Pass the LoS check.
+|N/resource -> M/empty = * Fail the LoS check.
+}}
+
+Branching compositions were reported over the course of the event.
+</div>
+
+'''Disclaimer: The following guide is a preliminary release for this event map, it contains information from early tests, do note that some things are subject to change as more information is gathered over the event and thus the guide is subject to change.'''
+
+The event guides are to be constructed through the respective [[Sandbox/Fall 2020 E-1|Event map page guide]] and reviewed by editor staff / collaboration committee before being approved here. '''Do not under any circumstance update the guides through this page or attempt to fix them through this page.''' Please only update guides through their respective sandbox pages.
+
+==General Guidelines==
+
+E-1 is a 2.5 Phase Single-Fleet Map consisting of a Transport, Unlock and TP Phase. It is also possible to farm fuel in large quantities on this map. See the collapsible guide below for more information.
+
+{{clear}}
+
+==Ship Bonuses (Tentative)==
+
+{{:{{BASEPAGENAME}}/E-1/Historical_Ships}}
+
+==Map Phases Breakdown==
+
+==Fuel Farming==
+<div class="mw-collapsible mw-collapsed"><h4>Guide to Fuel Farming on E1</h4>
+<div class="mw-collapsible-content">
+Node E is a resource Node on this map that can be farmed for fuel. Its maximum reward of 200 Fuel is calculated as:
+
+<math>\text{Fuel}= \text{min}\begin{cases} 20 + 15\times\text{N}_\text{Drum} + 20 \times\text{N}_\text{DLC} \\
+                    200 \end{cases}</math>
+
+The Ships required for the shortest routing (Start-C-E) are '''1AO 4DD''', the remaining slot can be filled by a CV(L)/SS(V). In case of AV/CV(L) they should be set up with a full bombing setup as the opening airstrike is not affected by Morale. The single Combat Node is C, containing a light enemy Torpedo Squadron.
+
+Notes:
+* You can advance even after a ship in your fleet was '''{{font color | red | heavily damaged (大破) }}''' and put into taiha-state at Node C as the following Resource Node is not a combat node. Doublecheck your fleets status before reentering the map
+* Fodder use and zero morale farming is possible
+* Kamoi is the recommended pick for AO as Hayasui is more expensive to sortie. Kamoi '''Kai''' is not a AO, but an AV.
+* If you havent started the Event yet, you can farm fuel on Casual difficulty to make the combat node easier
+* Be aware that locks still get applied to ships you use to farm fuel here, so plan accordingly if you plan to clear maps on higher difficulties
+
+'''"I dont have a Fleet Oiler, what are my options?"'''
+
+A '''Fast+''' Fleet without DDs routes C-E as well.
+
+While not recommended it is also possible to get to the Fuel Node with a slow fleet consisting of AV CVL 4DD, but it takes the additional combat Node B, greatly impacting efficiency due to lower speed, higher cost and retreat rates.
+</div></div>
+
+==Phase 1: Defeat Mediterranean CL Princess==
+
+The goal of this phase is to deplete the HP Bar and defeat the CL Princess found at Node J. Aside from a Nu Class Flagship Kai Light Carrier in some compositions her escorts are not a threat. Only she herself with 740HP and up to 228 Armour on Hard Mode can be considered troublesome. One to three historical ships to deal with her are recommended.
+
+* Recommended Fleet: 1FBB 1CA 1CL 1CV 2DD ('''Fast Fleet''')
+* Route: {{MapRoute|C|Red|F|Blue|H|Red|J|Red}}
+* LBAS: Range 6, 100/225 Airpower for AP/AS
+* Additional Notes: Vanguard Formation can be utilized to help with preboss Nodes. Support Expeditions are not needed
+
+==Phase 1.5: Unlock the TP Node==
+
+This is not required on lower difficulties. On Hard Mode, you need to A+-Rank Node D consisting of up to 3 Supply Depot Hime, 1-2 Artillery Imps and 2 PT Imps. Set up your Ships with the according equipment to deal with them as outlined [[Anti-Installation#Equipment_Setups|here]]. PT Imps are weak to AA Guns + Skilled Lookouts on your DDs.
+
+* Recommended Fleet: 1FBB 1CA 1CL 1CVL 2DD ('''Slow Fleet''')
+* Route: {{MapRoute|B|Red|D|Red}}
+* LBAS: Range 3, 136 Airpower for AP
+* Additional Notes: Support Expeditions are not needed but node support can be used to deal with PT Imps
+
+==Phase 2: Deplete the TP Gauge==
+
+The Goal of this Phase is to deplete the TP Gauge. The TP boss can consist of (French BB Hime) and a weaker variant of the Mediterranean CL Hime accompanied by some elite DDs. To deplete the Gauge faster, it is recommended to take Transport Equipment like Drums and Daihatsu-Class landing craft on your weak surface combatants. AACI for the preboss Air Raid is recommended.
+
+* Recommended Fleet: 1FBB 1CV 4DD
+* Route: {{MapRoute|C|Red|F|Blue|G|Red|N|Green|O|Red}}
+* LBAS: Range 7, 101 Airpower for AS (108 LD)
+* Additional Notes: It might be preferable to gun for A-Ranks here as French BB Hime still has relatively high Armour, at 256. Support Expeditions are not needed unless going for S ranks. If only a few Points are remaining you can start replacing Transport Equipment for Combat Equipment.
+
+{{clear}}
+
+==Friend Fleets==
+{|class="wikitable mw-collapsible mw-collapsed" style="text-align:center;min-width:700px"
+|-
+!colspan="11"|E-1 J
+|-
+!colspan="11"|E-1 J : Ark Royal FS (Variant 1, 2020-12-18~) '''{{color|red|{{tooltip|Powerful|6 samples}}}}''' {{audio|file=Ship Voice Ark Royal Kai Fall 2020 Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Janus Kai Hinamatsuri 2020 Mini-Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Ark Royal Kai.png|160px|link=Ark Royal]]<br>[[Ark Royal|Ark Royal Kai]]||86||style="text-align:left;white-space:nowrap"|[[File:Equipment Card Swordfish Mk.III (Skilled).png|100px|link=Swordfish Mk.III (Skilled)]][[File:Equipment Card Seafire Mk.III Kai.png|100px|link=Seafire Mk.III Kai]][[File:Equipment Card TBM-3D.png|100px|link=TBM-3D]][[File:Equipment Card Night Operation Aviation Personnel + Skilled Deckhands.png|100px|link=Night Operation Aviation Personnel + Skilled Deckhands]]||71||50||0||82||70
+|-
+|[[File:Ship Banner Janus Kai.png|160px|link=Janus]]<br>[[Janus|Janus Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||31||53||90||72||50
+|-
+|[[File:Ship Banner Jervis Kai.png|160px|link=Jervis]]<br>[[Jervis|Jervis Kai]]||88||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card 533mm Quintuple Torpedo Mount (Late Model).png|100px|link=533mm Quintuple Torpedo Mount (Late Model)]][[File:Equipment Card SG Radar (Initial Model).png|100px|link=SG Radar (Initial Model)]]||31||52||90||70||50
+|-
+!colspan="11"|E-1 J : Grecale FS (Variant 1, 2020-12-19~) '''{{color|red|{{tooltip|Powerful|6 samples}}}}''' {{audio|file=Ship Voice Grecale Kai Summer 2019 Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Scirocco Kai Fall 2020 Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Grecale Kai.png|160px|link=Grecale]]<br>[[Grecale|Grecale Kai]]||82||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 120mm 50 Twin Gun Mount Kai A.mod.1937.png|100px|link=120mm/50 Twin Gun Mount Kai A.mod.1937]][[File:Equipment Card 120mm 50 Twin Gun Mount Kai A.mod.1937.png|100px|link=120mm/50 Twin Gun Mount Kai A.mod.1937]][[File:Equipment Card Searchlight.png|100px|link=Searchlight]]||29||55||68||80||50
+|-
+|[[File:Ship Banner Scirocco Kai.png|160px|link=Scirocco]]<br>[[Scirocco|Scirocco Kai]]||76||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 120mm 50 Twin Gun Mount mod.1936.png|100px|link=120mm/50 Twin Gun Mount mod.1936]][[File:Equipment Card 120mm 50 Twin Gun Mount mod.1936.png|100px|link=120mm/50 Twin Gun Mount mod.1936]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||28||55||72||63||50
+|-
+!colspan="11"|E-1 J, E-2 Q, E-3 Z : Janus FS (Variant 1, 2020-12-18~) '''{{color|green|{{tooltip|Regular|5 samples}}}}''' '''{{color|red|{{tooltip|Powerful|11 samples}}}}''' {{audio|file=Ship Voice Janus Kai Fall 2020 Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Jervis Kai Fall 2020 Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Janus Kai.png|160px|link=Janus]]<br>[[Janus|Janus Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||31||53||90||72||50
+|-
+|[[File:Ship Banner Jervis Kai.png|160px|link=Jervis]]<br>[[Jervis|Jervis Kai]]||88||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card 533mm Quintuple Torpedo Mount (Late Model).png|100px|link=533mm Quintuple Torpedo Mount (Late Model)]][[File:Equipment Card SG Radar (Initial Model).png|100px|link=SG Radar (Initial Model)]]||31||52||90||70||50
+|-
+!colspan="11"|E-1 J : Jervis FS (Variant 1, 2020-12-19~) '''{{color|red|{{tooltip|Powerful|7 samples}}}}''' {{audio|file=Ship Voice Jervis Kai Hinamatsuri 2020 Mini-Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Janus Kai Hinamatsuri 2020 Mini-Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Jervis Kai.png|160px|link=Jervis]]<br>[[Jervis|Jervis Kai]]||88||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||31||52||90||70||50
+|-
+|[[File:Ship Banner Janus Kai.png|160px|link=Janus]]<br>[[Janus|Janus Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card 533mm Quintuple Torpedo Mount (Late Model).png|100px|link=533mm Quintuple Torpedo Mount (Late Model)]][[File:Equipment Card SG Radar (Initial Model).png|100px|link=SG Radar (Initial Model)]]||31||53||88||72||50
+|-
+!colspan="11"|E-1 J : Maestrale FS (Variant 1, 2020-12-19~) '''{{color|red|{{tooltip|Powerful|5 samples}}}}''' {{audio|file=Ship Voice Maestrale Kai Early Fall 2018 Event Friend Fleet 1.mp3}} {{audio|file=Ship Voice Grecale Kai Summer 2019 Event Friend Fleet 2.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Maestrale Kai.png|160px|link=Maestrale]]<br>[[Maestrale|Maestrale Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 120mm 50 Twin Gun Mount mod.1936.png|100px|link=120mm/50 Twin Gun Mount mod.1936]][[File:Equipment Card 120mm 50 Twin Gun Mount mod.1936.png|100px|link=120mm/50 Twin Gun Mount mod.1936]][[File:Equipment Card Searchlight.png|100px|link=Searchlight]]||29||54||72||63||50
+|-
+|[[File:Ship Banner Grecale Kai.png|160px|link=Grecale]]<br>[[Grecale|Grecale Kai]]||82||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 120mm 50 Twin Gun Mount Kai A.mod.1937.png|100px|link=120mm/50 Twin Gun Mount Kai A.mod.1937]][[File:Equipment Card 120mm 50 Twin Gun Mount Kai A.mod.1937.png|100px|link=120mm/50 Twin Gun Mount Kai A.mod.1937]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||29||55||68||80||50
+|-
+!colspan="11"|E-1 J : Warspite FS (Variant 1, 2020-12-18~) '''{{color|red|{{tooltip|Powerful|6 samples}}}}''' {{audio|file=Ship Voice Warspite Kai Early Fall 2018 Event Friend Fleet 3.mp3}} {{audio|file=Ship Voice Jervis Kai Fall 2020 Event Friend Fleet 1.mp3}}
+|-
+!Ship
+!Lv.
+!Equipment
+![[File:Icon HP.png]]
+![[File:Icon Gun.png]]
+![[File:Icon Torpedo.png]]
+![[File:Icon AA.png]]
+![[File:Icon Armor.png]]
+|-
+|[[File:Ship Banner Warspite Kai.png|160px|link=Warspite]]<br>[[Warspite|Warspite Kai]]||90||style="text-align:left;white-space:nowrap"|[[File:Equipment Card 38.1cm Mk.I N Twin Gun Mount Kai.png|100px|link=38.1cm Mk.I/N Twin Gun Mount Kai]][[File:Equipment Card 38.1cm Mk.I N Twin Gun Mount Kai.png|100px|link=38.1cm Mk.I/N Twin Gun Mount Kai]][[File:Equipment Card 38.1cm Mk.I N Twin Gun Mount Kai.png|100px|link=38.1cm Mk.I/N Twin Gun Mount Kai]][[File:Equipment Card Searchlight.png|100px|link=Searchlight]]||82||106||0||98||93
+|-
+|[[File:Ship Banner Janus Kai.png|160px|link=Janus]]<br>[[Janus|Janus Kai]]||84||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card Star Shell.png|100px|link=Star Shell]]||31||53||90||72||50
+|-
+|[[File:Ship Banner Jervis Kai.png|160px|link=Jervis]]<br>[[Jervis|Jervis Kai]]||88||style="text-align:left;white-space:nowrap"|[[File:Equipment Card QF 4.7inch Gun Mk.XII Kai.png|100px|link=QF 4.7inch Gun Mk.XII Kai]][[File:Equipment Card 533mm Quintuple Torpedo Mount (Late Model).png|100px|link=533mm Quintuple Torpedo Mount (Late Model)]][[File:Equipment Card SG Radar (Initial Model).png|100px|link=SG Radar (Initial Model)]]||31||52||90||70||50
+|}
+
+==Enemy Compositions==
+{{:{{BASEPAGENAME}}/E-1/Enemy comps}}
+
+'''Ship Drops:'''<br/>
+{{:{{BASEPAGENAME}}/E-1/Ship drops}}
+
+{| style="width: 100%;" class="mw-collapsible mw-collapsed wikitable
+|-
+! E-1 Clear Message
+|-
+| '''Convoy Transport Operation to Malta, succeeded!'''
+
+Deployed in the Mediterranean Sea, our fleet and our land-based
+corps have defeated the enemy Abyssal Mediterranean fleet, and
+have admirably completed the convoy transport operation to Malta!
+Our fleet will now be advancing towards the United Kingdom!
+|}

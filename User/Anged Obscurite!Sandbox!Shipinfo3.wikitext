@@ -1,0 +1,216 @@
+<noinclude>Courtesy of the Chinese wiki.</noinclude>
+<onlyinclude>{| class="wikitable" style="border: 1px solid #aaaaaa;"
+ | rowspan="14" colspan="2" style="margin-left: auto; margin-right: auto; text-align: center" | [[File:KanMusu{{{Num}}}Banner.jpg]]<br>[[File:{{{Num}}}.jpg]]
+ ! colspan="2" |Album Number
+ | colspan="2" style="text-align: center" |{{{Num}}}
+ |-
+ ! colspan="2" |{{Ruby-ja|{{{Japanese Name}}}|{{{Hiragana|{{{Furigana}}}}}}}}
+ ! colspan="2" |{{{English Name}}}
+ |-
+ | colspan="4" style="text-align: center" |{{{Classification}}}
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_HP.png|HP]] HP
+ | style="text-align: center; vertical-align: middle;" |{{{HP}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Gun.png|Firepower]] Firepower
+ | style="text-align: center; vertical-align: middle;" |{{{Firepower}}}→{{{MaxFirepower}}}
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Armor.png|Armor]] Armor
+ | style="text-align: center; vertical-align: middle;" |{{{Armor}}}→{{{MaxArmor}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Torpedo.png|Torpedo]] Torpedo
+ | style="text-align: center; vertical-align: middle;" |{{{Torpedo}}}{{#if: {{{MaxTorpedo|}}} |→{{{MaxTorpedo}}}}}
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Evasion.png|Evasion]] Evasion
+ | style="text-align: center; vertical-align: middle;" |{{{Evasion}}}→{{{MaxEvasion}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_AA.png|AA]] AA
+ | style="text-align: center; vertical-align: middle;" |{{{AA}}}{{#if: {{{MaxAA|}}} |→{{{MaxAA}}}}}
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Aircraft.png|Aircraft]] Aircraft
+ | style="text-align: center; vertical-align: middle;" |{{{Capacity}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_ASW.png|ASW]] ASW
+ | style="text-align: center; vertical-align: middle;" |{{{ASW}}}{{#if: {{{MaxASW|}}} |→{{{MaxASW}}}}}
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Speed.png|Speed]] Speed
+ | style="text-align: center; vertical-align: middle;" |{{{Speed}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_LOS.png|LOS]] LOS
+ | style="text-align: center; vertical-align: middle;" |{{{LOS}}}→{{{MaxLOS}}}
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Range.png|Range]] Range
+ | style="text-align: center; vertical-align: middle;" |{{{Range}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Luck.png|Luck]] Luck
+ | style="text-align: center; vertical-align: middle;" |{{{Luck}}}→{{{MaxLuck}}}
+ |-
+ {{#if: {{{Capacity1|}}} |!Capacity}}
+ !{{#if: {{{Capacity1|}}} | colspan="3"| colspan="4"}} style="vertical-align: middle;" |Equipment
+ |-
+ {{#if: {{{Capacity1|}}} |{{!}} style="text-align: center" {{!}}{{{Capacity1}}}}}
+ |{{#if: {{{Capacity1|}}} | colspan="3"| colspan="4"}} style="vertical-align: middle;" |{{#if: {{{Equipment1|}}} |{{#ifeq: {{{Equipment1}}}|None|None|[[{{{Equipment1}}}]]}}|''Locked''}}
+ |-
+ {{#if: {{{Capacity1|}}} |{{!}} style="text-align: center" {{!}}{{{Capacity2}}}}}
+ |{{#if: {{{Capacity1|}}} | colspan="3"| colspan="4"}} style="vertical-align: middle;" |{{#if: {{{Equipment2|}}} |{{#ifeq: {{{Equipment2}}}||None|None|[[{{{Equipment2}}}]]}}|''Locked''}}
+ |-
+ {{#if: {{{Capacity1|}}} |{{!}} style="text-align: center" {{!}}{{{Capacity3}}}}}
+ |{{#if: {{{Capacity1|}}} | colspan="3"| colspan="4"}} style="vertical-align: middle;" |{{#if: {{{Equipment3|}}} |{{#ifeq: {{{Equipment3}}}||None|None|[[{{{Equipment3}}}]]}}|''Locked''}}
+ |-
+ {{#if: {{{Capacity1|}}} |{{!}} style="text-align: center" {{!}}{{{Capacity4}}}}}
+ |{{#if: {{{Capacity1|}}} | colspan="3"| colspan="4"}} style="vertical-align: middle;" |{{#if: {{{Equipment4|}}} |{{#ifeq: {{{Equipment4}}}||None|None|[[{{{Equipment4}}}]]}}|''Locked''}}
+ |-
+ ! style="text-align: right" |Constr. Time
+ | style="text-align: center" |{{{Time|N/A}}}
+ ! style="text-align: right" |Max Resupply Cost
+ | colspan="3" style="text-align: center;" |{{Fuel}}:{{{FuelCost}}} {{Ammo}}:{{{AmmoCost}}}
+ |-
+ ! style="text-align: right" |Remodel Cost
+ | style="text-align: center;" |{{#if: {{{RemodelSteelCost|}}}|{{Ammo}}:{{{RemodelAmmoCost}}} {{Steel}}: {{{RemodelSteelCost|0}}}|Not Applicable}}
+ ! style="text-align: right" |Salvage Recover
+ | colspan="3" style="text-align: center;" |{{#if: {{{FuelReturn|}}}|{{Fuel}}: {{{FuelReturn}}}}} {{#if: {{{AmmoReturn|}}}|{{Ammo}}: {{{AmmoReturn}}}}} {{#if: {{{SteelReturn|}}} {{Steel}}: {{{SteelReturn}}}}} {{#if: {{{BauxiteReturn|}}} {{Bauxite}}:{{{BauxiteReturn|0}}}}}
+ |-
+ ! style="text-align: right" |As Material
+ | colspan="5" style="text-align: center" |{{#if: {{{FirepowerMat|}}}|{{Firepower}} + {{{FirepowerMat}}}}} {{#if: {{{TorpedoMat|}}}|{{Torpedo}} + {{{TorpedoMat}}}}} {{#if: {{{AAMat|}}}|{{AA}} + {{{AAMat}}}}} {{#if: {{{ArmorMat|}}}|{{Armor}} + {{{ArmorMat}}}}} {{#if: {{{LuckMat|}}}|{{Luck}} + {{{LuckMat}}}}}
+ |-
+ ! style="text-align: right" |Illustrator
+ | style="text-align: center" |{{#if: {{{Illustrator|}}}|{{lang|ja|{{{Illustrator}}}}}|Unknown}}
+ ! style="text-align: right" |Voiced by
+ | colspan="3" style="text-align: center" |{{#if: {{{Voice Actress|}}}|{{lang|ja|{{{Voice Actress}}}}}|Unknown}}
+ |}</onlyinclude>
+
+<noinclude>
+==Test==
+<tabber>
+U-511={{User:Anged Obscurite/Sandbox/Shipinfo3
+| Num		=431_Card
+| Japanese Name	=U-511
+| Furigana	=ゆー511
+| English Name	=U-511
+| Classification=U型潜水艇IXC型
+| HP		=8
+| Firepower	=2
+| MaxFirepower	=8
+| Armor		=4
+| MaxArmor	=16
+| Torpedo	=22
+| MaxTorpedo	=58
+| Evasion	=18
+| MaxEvasion	=44
+| AA		=0
+| MaxAA		= 
+| Capacity	=0
+| ASW		=0
+| Speed		=Slow
+| LOS		=8
+| MaxLOS	=28
+| Range		=Short
+| Luck		=30
+| MaxLuck	=63
+| Time		=Cannot be constructed
+| Equipment1	=WG42 (Wurfgerät 42)
+| Equipment2	=
+| Equipment3	=
+| Equipment4	=
+| FuelCost	=10
+| AmmoCost	=20
+| FuelReturn	=1
+| AmmoReturn	=2
+| SteelReturn	=2
+| BauxiteReturn	=1
+| FirepowerMat	=
+| ArmorMat	=
+| TorpedoMat	=2
+| AAMat		=
+| Illustrator	=島田フミカネ
+| Voice Actress	=茅野愛衣
+| RemodelAmmoCost=270
+| RemodelSteelCost=170
+}}
+|-|
+U-511改={{Shipinfo3
+| 编号		=231a
+| 日文名字	=U-511改
+| 日文片假	=さつき１ごう<ref>さつき１ごう：五月1号。U-511在从德国引渡到日本时，使用「さつき１ごう」作为临时名称，正式编入日本联合舰队后才改为「吕500」</ref>
+| 中文名字	=U-511改
+| 类别		=U型潜水艇IXC型
+| 耐久		=13
+| 火力		=3
+| 火力最大值	=12
+| 装甲		=6
+| 装甲最大值	=20
+| 雷装		=27
+| 雷装最大值	=64
+| 回避		=33
+| 回避最大值	=59
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=16
+| 索敌最大值	=29
+| 射程		=短
+| 运		=34
+| 运最大值	=67
+| 建造时间	=35级改造
+| 装备1		=无装备
+| 装备2		=无装备
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=?
+| 弹药回收	=?
+| 钢铁回收	=?
+| 铝回收	=?
+| 火力提供	=1
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+| 改造弹药消耗	=270
+| 改造钢铁消耗	=170
+}}
+|-|
+吕500={{Shipinfo3
+| 编号		=236
+| 日文名字	=呂500
+| 日文片假	=ろ500
+| 中文名字	=吕500
+| 类别		=U型潜水艇IXC型
+| 耐久		=13
+| 火力		=4
+| 火力最大值	=13
+| 装甲		=7
+| 装甲最大值	=21
+| 雷装		=30
+| 雷装最大值	=69
+| 回避		=24
+| 回避最大值	=68
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=24
+| 索敌最大值	=34
+| 射程		=短
+| 运		=44
+| 运最大值	=77
+| 建造时间	=55级改造
+| 装备1		=试制FaT仕样九五式酸素鱼雷改
+| 装备2		=无装备
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=?
+| 弹药回收	=?
+| 钢铁回收	=?
+| 铝回收	=?
+| 火力提供	=1
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+}}
+</tabber>
+[[zh:Template:舰娘资料]]
+</noinclude>

@@ -1,0 +1,591 @@
+==Info==
+{{KanmusuInfo|ID=325}}
+{{KanmusuInfo|ID=325a}}
+{{KanmusuInfo|ID=329}}
+{{KanmusuInfo|ID=330}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform opening torpedo attacks when equipped with a [[Type A Ko-hyoteki]].
+** Able to perform opening torpedo attacks by default at level 10.
+* Able to perform special AACI as UIT-25 and I-504. Please see [[Anti-Air Cut-In]] for more details.
+
+===Overview===
+* Low torpedo and HP
+* Decent armour.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+
+===Analysis===
+Priority: '''Low'''
+
+: She doesn't have any use outside of a few limited niches like cheesing 2-1 for quests, subtanking the 3-5 north route or 6-1 routing. Her special AACI has a low fixed shootdown and multiplier. It also has a high API number which overrides most other AACI in the fleet. 
+
+====Not Recommended Roles====
+* Combat
+* Anti-air
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = Ciao！あたしは、Luigi Torelliよ。そうね、Torelli…ん、Luiでいいよ！
+|translation = Hello! I'm Luigi Torelli. That's right, Torelli... Hmmm, just Lui is fine!
+|audio = Luigi_Torelli-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = Buongiorno! あたし、ちょい改装して見た。どうかな？使える？
+|translation = Good morning! I got a small remodel. How is it? Is it useful?
+|audio = Luigi_TorelliKai-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction (UIT-25)
+|kai2 = yes
+|origin = Buongiorno…じゃなかった、Guten Morgen! ん～、なんかね～、名前も変わっちゃて…ん、ういっていいかな？だめ？
+|translation = Good morning... That's not it, good morning! Hmmm, since my name has changed, how does Ui sound? No?<ref>When Benito Mussolini was deposed in a coup, she came into Kriegsmarine service in 1943.</ref>
+|audio = UIT-25-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction (I-504)
+|kai3 = yes
+|origin = Buongiorno…じゃなかった、Guten Morgen…でもなくって、おはよう！名前はね…えっと、もごうちゃんではいいや！
+|translation = Good morning... That's not it, good morning... That's still not it, good morning! My name is... Ummm, argh Go-chan is fine!<ref>When Germany signed the armistice in 1945, she entered IJN service.</ref>
+|audio = I-504-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = Regia Marinaから来たよ。パスタの国で生まれた潜水艦、Luigi Torelli。通商破壊戦で、けっこー頑張った。でも、そんだけじゃない、いろーんな事経験したんだ。潜水艦派遣作戦にも参加してー、さらに色々あってー、所属も何度も変わったよ。
+んー結構色々あった感じ？あたしの物語も覚えておいてね。
+|translation = I'm from the Regia Marina, a submarine from the Country of Pasta, Luigi Torelli.
+I worked pretty hard at commerce raiding. But that's not all, I also experienced plenty of things. I also participated in a submarine transport operation and lots of other things, my allegiances even changed.<ref>She participated in a single transport mission of resources, weapons, equipment and personnel to the Far East.</ref>
+...Hmmm, I guess it feels like I've been through a lot. Remember my story, yeah?
+|audio = Luigi_Torelli-Library.mp3
+}}
+{{ShipquoteKai
+|scenario = Library (UIT-25)
+|kai2 = yes
+|origin = 元々はRegia Marinaの潜水艦、Luigi Torelli…だったんだけど、今は、Uボート、名前はUIT-25。あたし、何気に対空戦経験も凄いんだけど、そんだけじゃない、結構色々経験したんだ。潜水艦派遣作戦にも参加してー、そんでもって所属もさらに変わるという…ん…あたしの物語も覚えておいてね。
+|translation = I used to be the Regia Marina submarine Luigi Torelli. Now I'm the U-boat named UIT-25.
+It was great that I unexpectedly gained experience in anti-air combat but that's not all.<ref>While docked at the port of [https://en.wikipedia.org/wiki/Avil%C3%A9s Avilés], she was attacked by [https://en.wikipedia.org/wiki/Short_Sunderland Short Sunderlands] from the Australian 10th Air Group. She fought them off and even damaged some. She also managed to shoot down a B-25 bomber while in the service of the IJN.</ref> I had lots of different experiences. I participated in a submarine hunting operation and also changed my allegiance a lot.
+''Sigh''. It definitely feels like I've been through a lot. Remember my story, yeah?
+|audio = UIT-25-Library.mp3
+}}
+{{ShipquoteKai
+|scenario = Library (I-504)
+|kai3 = yes
+|origin = Regia Marinaから来たよ。パスタの国で生まれた潜水艦、Luigi Torelli…だったんだけど、最終的に今は第五百四潜水艦。
+最後までけっこー頑張った。いろーんな事経験したんだよー。潜水艦派遣作戦にも参加してー、そんでもって所属も何度も変わってねー、ん…
+頑張ったあたしの物語、覚えておいてね。
+|translation = I'm from the Regia Marina, a submarine from the Country of Pasta, Luigi Torelli... is what I should say. In the end, I'm now the I-type submarine 504. I worked hard to the end.
+I experienced lots of things you know, I participated in a submarine transport operation and changed my allegiance a lot.
+Hmmm, it definitely feels like I've been through a lot. Remember the story of how I worked hard, yeah?
+|audio = I-504-Library.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 何？
+|translation = What?
+|audio = Luigi_Torelli-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = ん？
+|translation = Hmm?
+|audio = Luigi_Torelli-Sec2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai = yes
+|origin = あ、郵送潜水艦だからね、今は。
+|translation = Ah, I'm a transport submarine now.<ref>Sometime in 1943, Luigi had her cannons, torpedo tubes, and some batteries removed in addition to some internal modifications to make her a transport submarine.</ref>
+|audio = Luigi_TorelliKai-Sec2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2 (I-504)
+|kai3 = yes
+|origin = はい！改装型武装輸送潜水艦いいよ！
+|translation = Yes! The remodelled-type armed transport submarines are great!
+|audio = I-504-Sec2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = あれ、今だれかあたしつついた？気のせい？まぁ、いいか！
+|translation = Huh, was someone poking me just now? Was it my imagination? Oh well!
+|audio = Luigi_Torelli-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3 (UIT-25)
+|kai2 = yes
+|origin = あれ、今だれかあたしつついた？気のせい？まぁ、いいか！あ、新しい名前覚えた？ういだよ、覚えいて！
+|translation = Huh, was someone poking me just now? Was it my imagination? Oh well! Ah, did you remember my new name? It's Ui, remember that!
+|audio = UIT-25-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3 (I-504)
+|kai3 = yes
+|origin = あれ、今だれかあたしつついた？また気のせい？まぁ、いいか！あ、あたしのこと・・・そう、ごうちゃんだからね！
+|translation = Huh, was someone poking me just now? Was it my imagination again? Oh well! D-do you remember my... That's right, it's Gou-chan!
+|audio = I-504-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = ああ、あたし？あ、そう、敵に捕まったのことがあるよ。あ、でも逃げた逃げた、だから大丈夫！え、もっとそういうの聞きたいの？ふにゃふにゃ〜まぁ、蹴っこいろいろあったな。でね…
+|translation = Ah, me? Ah, that's right there were incidents when I was caught by the enemy. Ah, but I got away so it's fine! Eh, you want to hear more about that? Funya funya~ Well, a lot happened. So you see...<ref>Luigi Torelli had success with escaping from anti-submarine forces on several occasions.</ref>
+|audio = Luigi_Torelli-SecIdle.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = ああ、あたし？そうだよ、対空戦とかね、意外とやっちゃうわけよ！まぁ、基本潜水艦だからね。もちろん飛行機は嫌いなんだけど、だから落とすってよ。ん、大丈夫、Ammiraglioは以外と好き。
+|translation = Ah, me? That's right, I can do anti-air fighting, surprisingly enough! Well, I'm still just your standard submarine. Of course, I don't like planes, that's why I shoot them down. Hmmm, but I'm fine, because I especially like you, Admiral.
+|audio = Luigi_Torelli-SecMarried.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = ん〜、そうね、何回も名前や種族変わってるし、こういうのもらって、また名前変わんなも・・・まぁ、いいかって。まぁ、それも違うか・・・ありがと？Grazie!
+|translation = Hmmm, that's right, I've had my name and allegiance changed many times; if I accept this, I'll have to change my name again... I just feel like, "Oh well". Well, that's not it. More like thank you? Thank you!
+|audio = Luigi_Torelli-Wedding.mp3
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = あ、見るの？わかった、あい。
+|translation = Ah, you want to have a look? Understood, here.
+|audio = Luigi_Torelli-PlayerScore.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 潜水艦、Luigi Torelli、出るね！
+|translation = Submarine Luigi Torelli, heading out!
+|audio = Luigi_Torelli-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet (UIT-25)
+|kai2 = yes
+|origin = 潜水艦、UIT-25、出るね。
+|translation = Submarine UIT-25, heading out.
+|audio = UIT-25-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet (I-504)
+|kai3 = yes
+|origin = 伊号第５０４潜水艦、出るよ！はい！
+|translation = I-type submarine 504, heading out! yes!
+|audio = I-504-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = Sì！いいんじゃない？
+|translation = Yes! Isn't this fine?
+|audio = Luigi_Torelli-Equip1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = Grazie、ふにゃ、ふにゃ〜
+|translation = Thank you, funya, funya~
+|audio = Luigi_Torelli-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2 (I-504)
+|kai3 = yes
+|origin = 以外っとね？対空戦とかね、ふにゃふにゃ！
+|translation = Surprising right? Anti-air combat is just funya funya~!
+|audio = I-504-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = お、そうなんだ。
+|translation = Oh, is that so.
+|audio = Luigi_Torelli-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = Grazie! ごちそうさま！
+|translation = Thank you! Thanks for the meal!
+|audio = Luigi_Torelli-Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = ごめん、ちょいお風呂。
+|translation = Sorry, I'll take a short bath.
+|audio = Luigi_Torelli-DockMinor.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = あ、お風呂、ちょっと長いよ。
+|translation = Ah, I'll be in the bath for quite a while.
+|audio = Luigi_Torelli-DockMajor.mp3
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = あ、まただれか来たよ。
+|translation = Ah, someone came again.
+|audio = Luigi_Torelli-Construction.mp3
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 戻りましたよ〜ふにゃふにゃ〜
+|translation = I'm baaaack~ Funya funya~
+|audio = Luigi_Torelli-SortieReturn.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 出撃するよ。尽きてきてもいいけど、来る？
+|translation = I'm sortieing. It's fine if you want to follow, you wanna come?
+|audio = Luigi_Torelli-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 敵さん見っけ〜。やっちゃおうか～ね？
+|translation = Enemies spotted~ Shall we do this?
+|audio = Luigi_Torelli-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle (I-504)
+|kai3 = yes
+|origin = 敵さん見っけ〜。さぁ，やっちゃおうか～ね？
+|translation = Enemies spotted~ Now, shall we do this?
+|audio = I-504-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = さぁ,どうかな。
+|translation = Well I wonder.
+|audio = Luigi_Torelli-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack 
+|origin = だめか。あ、いけた？
+|translation = That didn't work huh. Ah, it did?
+|audio = Luigi_Torelli-NightAttack.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = う～ん、しつこくいっとく？　あいー！
+|translation = Hmmm, pressure them more? Alright!
+|audio = Luigi_Torelli-NightBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 嘘、私がって…またまた～。え、マジで？　そうなの？　皆真面目にやってる？　いいけど…にひひ♪
+|translation = Really, it's me... You're kidding... Eh, seriously? Really? Even though everyone was going at it seriously? That's fine. Ehe~
+|audio = Luigi_Torelli-MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = ひゃぁ！いやだいやだいやだよ！
+|translation = Hyah! I really don't like this!
+|audio = Luigi_Torelli-MinorDamage1.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = やめて、だめかも…いやだいやだ！
+|translation = Stop it, this isn't good... I don't like this!
+|audio = Luigi_Torelli-MinorDamage2.mp3
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = あちゃ〜、だめかも。うえ、逃げよう、ね？
+|translation = Oh boy, this isn't good. Whoa, let's run away, yeah?
+|audio = Luigi_Torelli-MajorDamage.mp3
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 嘘だ。私沈まないって…え、水、止まんない…え、嘘…やだよぉ…
+|translation = No way, I'm sinking... Eh, the water won't stop... Eh, no way... I don't want this...
+|audio = Luigi_Torelli-Sunk.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 午前零時。はれぇ、ねむいぃ…はにゃはにゃぁ…。
+|translation = 12am. Oh, I'm sleepy~ Funya funya~
+|audio = Luigi_TorelliKai-0000.mp3
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = 一時だよー。あい。
+|translation = It's 1 o'clock~. Yup
+|audio = Luigi_TorelliKai-0100.mp3
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = 二時だよ、Ammiraglio.
+|translation = It's 2 o'clock, Admiral.
+|audio = Luigi_TorelliKai-0200.mp3
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = 三時ー。ぅぅ、ちょっと眠い。寝てもいい？　ふひゃぁぁぁ…。
+|translation = 3 o'clock. *yawn* I'm a bit sleepy, can I go to sleep? Funya funya~
+|audio = Luigi_TorelliKai-0300.mp3
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = よじだよぉ…Buona Notte…
+|translation = Ngh, it's 4 o'clock~ Good night...
+|audio = Luigi_TorelliKai-0400.mp3
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = ねみゅぃ…五時かな…？…（寝息）
+|translation = I'm shleepeh... Think it's 5 o'clock...*sleeping sounds*
+|audio = Luigi_TorelliKai-0500.mp3
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = （寝息）…ひっ！げっ？！　やば、朝だ、六時だし！　げぇっ！
+|translation = *sleeping sounds* Achoo! Gah, oh no it's morning, it's 6 o'clock, gah!
+|audio = Luigi_TorelliKai-0600.mp3
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = Buon Giorno! ふへはやふぇぁ…起きなきゃ。はにゃはにゃ…
+|translation = Good morning. *yaaaawn~* I need to wake up. Funya funya~
+|audio = Luigi_TorelliKai-0700.mp3
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = 八時よー。Ammiraglio、私のご飯は？　どこー？
+|translation = It's 8 o'clock. Where's my food, Admiral?
+|audio = Luigi_TorelliKai-0800.mp3
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = 九時だよー。はへぇ、まだ眠いけど、少し海に出とく？　あーい。
+|translation = It's 9 o'clock. *yawn* I'm still a bit sleepy so can I go out to sea for a while? Yes.
+|audio = Luigi_TorelliKai-0900.mp3
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = 十時！　あ、CiaoCiao♪　ユーちゃん元気してた？　あ、ローちゃんって言うの？　今？　ふーん。あたしは今ねー…
+|translation = 10 o'clock! Ah, hello hello! Are you doing well Yuu-chan? Ah, you're Ro-chan now? Hmmm, I'm now...
+|audio = Luigi_TorelliKai-1000.mp3
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = 十一時だよ！　う～ん、あーそう、知ってるよ。うん、いい子だよね。
+|translation = It's 11 o'clock. Hmmm, ah yeah, I know her. Yup, she's a good girl yeah.
+|audio = Luigi_TorelliKai-1100.mp3
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = 十二時。おっひるー！　あたしのお昼ご飯は？　なに？
+|translation = 12 o'clock! Lunchtime! What's for my lunch?
+|audio = Luigi_TorelliKai-1200.mp3
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = 一時。オニギーリもいいけど、パスタもいいなぁ。Ammiraglio、今度作ってよ。あたしrossoが好きー。
+|translation = 1 o'clock. Onigiris are nice but pasta is nice too. Make some next time, Admiral. I like it rosso!<ref>Rosso is red with tomato sauce.</ref>
+|audio = Luigi_TorelliKai-1300.mp3
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = 二時だよ…って、リベ、ciao!　おっひさー！　ん、え、他の子たち？　どうだったかなー…気配は、あったような？
+|translation = It's 2 o'clock. Oh... Ah, hello, Libe! Long time no see! Eh, the other girls? I wonder where they are... I can sense their presence.
+|audio = Luigi_TorelliKai-1400.mp3
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = 三時！　あなたの3時！ え、あ、ここの艦隊の戦艦が言ってた。何の呪文？
+|translation = 3 o'clock! It's your 3 o'clock snack! Eh? Ah, I heard the battleships from this fleet saying that. What time is that?<ref>The term for 3 o'clock can also be used to refer to a 3 o'clock snack.</ref>
+|audio = Luigi_TorelliKai-1500.mp3
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = 四時だよー。お腹すいたー。空いてない？　なんか働きすぎたー。
+|translation = It's 4 o'clock. I'm hungry. Aren't you hungry? You're working a bit too hard.
+|audio = Luigi_TorelliKai-1600.mp3
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = 五時だよ。もー、疲れたからさー、港に戻ろー？　お休み大事！　…あい。
+|translation = It's 5 o'clock. I'm... I'm already tired so can we return to port? Rest is important! Yes.
+|audio = Luigi_TorelliKai-1700.mp3
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = ほぇ～、六時～。お腹空いたー、お腹空いたよー！　えー、作れないよそんなの。えー、じゃどうすんのー？！
+|translation = Urgh~ 6 o'clock. I'm hungry, so hungry~! Eh, I can't make that. EEEH! Then what will we do!?
+|audio = Luigi_TorelliKai-1800.mp3
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = Trattoria? あい、それいい！　行く行く！　パスタパスタ～♪　やったぁっ！！
+|translation = A trattoria? Yes, that sounds good! Let's go! Pasta, pasta! Alright!<ref>A [https://en.wikipedia.org/wiki/Trattoria trattoria] is a traditional Italian casual dining establishment.</ref>
+|audio = Luigi_TorelliKai-1900.mp3
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = はむ…はむ…八時だよー。ここ良い♪　ちょっとうちの重巡とかここの潜水艦とかうるさいけど、味は美味しいぃ♪　あいあい♪
+|translation = *nom nom*... It's 8 o'clock. My heavy cruisers and the submarines here are a bit rowdy but... it tastes great! It really is!<ref>It's Pola.</ref>
+|audio = Luigi_TorelliKai-2000.mp3
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = 九時！　Grazieでした。マミーヤいいね、また行きたいでち！　え、ああ、Amicoになって。
+|translation = 9 o'clock. I'm thankful. Mamiya's is great. I want to come again! Eh? Ah, we became friends.
+|audio = Luigi_TorelliKai-2100.mp3
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = 十時。ふぅ、今日はもう疲れたね。寝ていい？　ふひゃぁぁぁ…Buona Notte…。
+|translation = 10 o'clock. Hmmm, I'm already tired today. Can I sleep? *yaaaaaaaaawn* Good night.
+|audio = Luigi_TorelliKai-2200.mp3
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = 十一時。あれ、まだ寝ないの？　え、今日は寝ずの番でお仕事？　えぇ、やだやだぁ！　お休みはちゃーんと取らないとー！　寝ようよ一緒にー！　…んん、Buona Notte.
+|translation = 11 o'clock. Huh, you're not sleeping yet? Eh, we're going to be working all night tonight? Eh~ I don't wanna. We need to get a good rest! Let's go to sleep together! Ngh, good night.
+|audio = Luigi_TorelliKai-2300.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2017|Autumn 2017]]
+|origin = はぁー、夏が終わちゃった。ふにゃにゃー。ちょっと寂しいね。まあ、いいか！
+|translation = *Siiigh* Summer is over. Funyanyaa. It’s kind of lonely. Oh well!
+|audio = Luigi_Torelli_Autumn_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2017|Saury Festival 2017]]
+|origin = ん、サンマ？サンマって？まあいっか、お手伝いは好き。がんばるよー！
+|translation = Hmmm, saury? What’s saury? Oh well, I love to help out. I’ll work hard!
+|audio = Luigi_Torelli_Sec1_Saury_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2017|Late Autumn 2017]]
+|origin = ぶるぶる、ちょっと寒いね。宇和すのこたつどこ？早くはいた見たいよ。どこ？
+|translation = Brrrr, it’s a bit cold. Where is this kotatsu I’ve heard about? I want to get in it quickly. Where is it?
+|audio = Luigi_Torelli_Late_Autumn_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2017|Christmas 2017]]
+|origin = へぇ、ここでもこんなお祝いするんだぁ！いいねぇ、美味しいしぜ！ほら、ユーちゃん…じゃなかった、ローちゃんも食べなよ！美味しいよぉ！
+|translation = Oh, we’re celebrating like this here too! It’s great, it’s delicious! Come on, Yuu… I mean, Ro, try some too! It’s delicious! 
+|audio = LuigiTorelli_Christmas_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2017|End of Year 2017]]
+|origin = ん、何？大·掃·除？えぇ、Roma、何をどうすの？ふんにゅんにゅん。
+|translation = Hmmm, what? “Oosouji”? Eh, what are you doing, Roma? Fuynayna.
+|audio = Luigi_Torelli_Year_End_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2018|New Year 2018]]
+|origin = Ammiraglio、新年おめでとうでち！うあ、ヤバ、移しできた。
+|translation = Admiral, Happy New Year-dechi! Whoa, oh no, I’m saying it too now.
+|audio = Luigi_Torelli_New_Years_2018_Sec_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2018|Setsubun 2018]]
+|origin = これがうわさのセッツブーン！楽しい！目標は...あぁ、あれか？あの大鯨とかいう。あい！攻撃開始！それ！それそれ！
+|translation = So this is that Settsubuun I’ve heard about! It’s so fun! The target is… Ah, her? The one called Taigei. Yep! Begin the attack! Take that! And that, and that!
+|audio = Luigi_Torelli_Setsubun_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2018|Valentine’s Day 2018]]
+|origin = ん、あい、これ上げるよ。ふんやふんや。
+|translation = Mmm, here, this is for you. Funyafunya.
+|audio = Luigi_Torelli_Valentines_2018_Sec_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2018|White Day 2018]]
+|origin = お返しか。Grazie！ん、美味しい。
+|translation = A return gift. Thank you! Mmm, delicious.
+|audio = I-504_White_Day_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2018|Coming of Spring 2018]]
+|origin = はぁ、なるる。これが噂の「お花見」か。何？イヨ、ヒトミ、これを飲むの、その容器で。ん、楽しそう！
+|translation = Huh, I see. So this is that “Ohanami” I’ve heard about. What? Iyo, Hitomi; you want me to drink from this bottle? Hmmm, sounds fun!
+|audio = Luigi_Torelli_Spring_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = Grazie！艦隊は五周年なんだって。すごいね！おめめ、そして、ありがとう！
+|translation = Thank you! It’s the fleet’s 5th Anniversary. Amazing! Congrats and thank you!
+|audio = Luigi_Torelli_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2018|Rainy Season 2018]]
+|origin = ははぁ、これが例の、「ツーユー」ってseason。雨ばっかだけど、この人形作りは楽しいそ！ゴヤ、教えてよ。ん、ん、なるほどでち！
+|translation = Haha, so this is the season called “Tsuyu”. It’s raining so much but making these dolls is fun! Teach me, Goya! I see, I see, I got it-dechi!
+|audio = Luigi_Torelli_Rainy_Season_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2018|Summer 2018]]
+|origin = はぁ、なるる。夏だけの特別艤装って？考えとく。ふにゃにゃ。
+|translation = Hmmm, I see. Is this the special summer rigging? I'll think about it. Funyanya.
+|audio = Luigi_Torelli_Summer_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = あいあい！Grazie！艦隊は七周年なんだって。すごーい！おめめめめ、そして、ありがとうでち！
+|translation = Aye aye! Thank you! It's the fleet's 7th Anniversary. Amaziiing! Congraaaats! And thanks-dechi!
+|audio = Luigi_Torelli_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = ハニャハニャ！Grazie! 艦隊はついに、ついに八周年なんだって！すごい！おめめめめ！そして、ありがとうデ〜チ！
+|translation =	Hanya-hanya! Thanks! I've heard it's finally the fleet's 8th Anniversary! That's amazing! Congraaaaaats! And thanks-dechi!
+|audio = Luigi Torelli_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+KanMusu325CG.png|Luigi Torelli
+KanMusu325CGDmg.png|Luigi Torelli Damaged
+KanMusu325aCG.png|Luigi Torelli Kai
+KanMusu325aCGDmg.png|Luigi Torelli Kai Damaged
+KanMusu329CG.png|UIT-25
+KanMusu329CGDmg.png|UIT-25 Damaged
+KanMusu330CG.png|I-504
+KanMusu330CGDmg.png|I-504 Damaged
+</gallery>
+|}
+
+==Trivia==
+* She is one of two ships that served in all 3 Axis navies. 
+* The loss of her gun on Kai signifies her conversion to a transport.
+
+==See Also==
+* [[{{PAGENAMEE}}/Gallery|View {{PAGENAMEE}}'s CG]]
+* [[List of submarines by upgraded maximum stats|List of Submarines]]
+* [[wikipedia:Italian_submarine_Luigi_Torelli|Wikipedia entry on Luigi Torelli]]
+{{Shiplist}}
+[[Category:Regia Marina Vessels]]
+[[zh:塔斯特指挥官]]

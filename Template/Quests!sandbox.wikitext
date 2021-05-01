@@ -1,0 +1,22 @@
+<noinclude>{{QuestsHeader/sandbox}}</noinclude>
+|- id = "{{{listnum}}}"
+| style="background-color: {{#switch:{{{type}}} 
+| Composition = rgb(50,205,50);
+| Sortie = rgb(232, 57, 41);
+| PVP = rgb(152, 217, 142);
+| Expedition = rgb(160, 216, 239);
+| Supply = rgb(215, 207, 58);
+| Factory = rgb(168, 111, 76);
+| Modernization = rgb(165, 154, 202);
+}}" | {{{listnum}}}
+|{{#if:{{{reqQuest|}}}|{{#if:{{{page|}}}|[[{{{page|}}}#{{{reqQuest|}}}{{!}}{{{reqQuest|}}}]]|[[{{PAGENAME}}#{{{reqQuest}}}{{!}}{{{reqQuest}}}]]}}}} {{#if:{{{reqQuest2|}}}|<br/>{{#if:{{{page2|}}}|[[{{{page2|}}}#{{{reqQuest2|}}}{{!}}{{{reqQuest2|}}}]]|[[{{PAGENAME}}#{{{reqQuest2}}}{{!}}{{{reqQuest2}}}]]}}}} {{#if:{{{reqQuest3|}}}|<br/>{{#if:{{{page3|}}}|[[{{{page3|}}}#{{{reqQuest3|}}}{{!}}{{{reqQuest3|}}}]]|[[{{PAGENAME}}#{{{reqQuest3}}}{{!}}{{{reqQuest3}}}]]}}}}
+|{{#if:{{{forQuest|}}}|{{#if:{{{page|}}}|[[{{{page|}}}#{{{forQuest|}}}{{!}}{{{forQuest|}}}]]|[[{{PAGENAME}}#{{{forQuest}}}{{!}}{{{forQuest}}}]]}}}} {{#if:{{{forQuest2|}}}|<br/>{{#if:{{{page2|}}}|[[{{{page2|}}}#{{{forQuest2|}}}{{!}}{{{forQuest2|}}}]]|[[{{PAGENAME}}#{{{forQuest2}}}{{!}}{{{forQuest2}}}]]}}}} {{#if:{{{forQuest3|}}}|<br/>{{#if:{{{page3|}}}|[[{{{page3|}}}#{{{forQuest3|}}}{{!}}{{{forQuest3|}}}]]|[[{{PAGENAME}}#{{{forQuest3}}}{{!}}{{{forQuest3}}}]]}}}}
+| {{lang|ja|{{{namejp}}} }}<br>''{{{nameen}}}''
+| style="text-align:left;" | {{{req|}}}
+| style="vertical-align: middle; background-color: #f0fff0" | {{{fuel|0}}}
+| style="vertical-align: middle; background-color: #fdf5e6" | {{{ammo|0}}}
+| style="vertical-align: middle; background-color: #fcfcfc" | {{{steel|0}}}
+| style="vertical-align: middle; background-color: #ffe4b5" | {{{bauxite|0}}}
+| style="vertical-align: middle;"  | {{{other|}}}
+|{{#if:{{{notes|}}}|{{{notes}}}|}} {{#if:{{{once|}}}|{{#if:{{{notes|}}}|<br/>}}''One time only.''|}} 
+<noinclude> |} <br/>{{documentation}}</noinclude><includeonly>{{{1|}}}<nowiki /></includeonly> <!--escape for enters-->

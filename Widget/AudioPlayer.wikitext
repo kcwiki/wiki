@@ -1,0 +1,18 @@
+<noinclude>
+Test
+</noinclude>
+
+<includeonly>
+
+<audio id="player" src="https://yksk.kancollewiki.net/w/images/a/a4/Ayanami_Mid_Autumn2015.ogg"></audio>
+<div>
+    <button onclick="document.getElementById('player').play()">Play</button>
+    <button onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute</button>
+</div>
+
+<script>
+    var audioplayer = document.getElementById("player");
+    player.volume = 0.25;
+</script>
+
+</includeonly>

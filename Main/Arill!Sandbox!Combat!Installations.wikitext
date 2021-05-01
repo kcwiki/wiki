@@ -1,0 +1,74 @@
+=Introduction=
+
+Installations, also known as Land Bases, are a special type of enemy generally reserved to ranks such as Princess and, by extent, possess unusually high combat prowess and durability. Installations are meant to represent military facilities and fortifications such as anchorages and airfields, and thus are difficult to deal with through traditional "anti-ship" means and will most likely require special setups to be defeated.
+
+=General Characteristics=
+
+All installations follow the following set of rules:
+
+* Only {{Firepower}} Firepower stat is considered for attacks that target installations. {{Torpedo}}'''Torpedo stat is treated as 0 for all damage calculations that target installations'''.
+** {{Torpedo}}Torpedo-based attacks such as Opening and Closing Torpedo Salvos, and {{BluePlane}}Torpedo Bomber Airstrikes cannot target installations.
+** This makes high-torpedo ship classes such as Destroyers and Light Cruisers much weaker when fighting installations, even at night.
+* Submarines are able to perform surface shelling against installations during the day, if equipped with at least one {{EquipmentLink|Special Type 2 Amphibious Tank}}.
+* Carriers are unable to target installations unless equipped solely with {{BluePlane}}Torpedo Bombers and {{DiveBomb icon}}'''Anti-installation Dive Bombers'''.
+**Anti-installation Dive Bombers are the following:
+*** {{DiveBomb icon}}{{EquipmentLink|Ju 87C Kai}}
+*** {{DiveBomb icon}}{{EquipmentLink|Ju 87C Kai Ni (w/ KMX)}}
+*** {{DiveBomb icon}}{{EquipmentLink|Ju 87C Kai Ni (w/ KMX/Skilled)}}
+*** {{DiveBomb icon}}{{EquipmentLink|Prototype Nanzan}}
+*** {{DiveBomb icon}}{{EquipmentLink|Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)}}
+*** {{DiveBomb icon}}{{EquipmentLink|FM-2}}
+*** {{DiveBomb icon}}{{EquipmentLink|F4U-1D}}
+** Any other Dive Bomber will prevent the Carrier from shelling installations.
+* As {{BluePlane}}Torpedo Bombers are not taken into consideration when calculating installation damage, Carriers cannot perform Aircraft Carrier Cut-in (CVCI) against installations.
+* Damage statuses are different for installations.
+** '''Confused {{Nihongo|(混乱)|''Konran''}}''' for Lightly Damaged.
+** '''Damaged {{Nihongo|(損害)|''Songai''}}''' for Moderalely Damaged.
+** '''Broken {{Nihongo|(損壊)|''Sonkai''}}''' for Heavily Damaged.
+** '''Destroyed {{Nihongo|(破壊)|''Hakai''}}''' when Sunk.
+
+=Classification=
+
+Installations are classified by two categories: Type (BB, BBV, CV) and Toughness (Soft Skin or Hard Skin).
+
+==Type==
+{| class="wikitable"
+!style="width: 200px"|Type
+!Characteristics
+|-
+|'''Battleship (BB)'''
+|Examples are Artillery Imps and Central Princess.
+* Uses the surface shelling formula for calculating damage.
+* Uses the shelling attack animation in day and night battle.
+* Can continue attacking when moderately damaged.
+|-
+|'''Aviation Battleship (BBV)'''
+|Most installations fall under this category.
+* Uses the carrier attack formula for calculating damage.
+* Uses the shelling attack animation in day and night battle.
+* Cannot attack during the day if heavily damaged or if there are no planes left.
+* Forced to attack submarines if they have equipment with {{ASW}}Anti-Submarine stat.
+|-
+|'''Carrier (CV)'''
+|Example is Lycoris Princess.
+* Uses the carrier attack formula for calculating damage.
+* Uses the carrier attack animation in day battle and the shelling animation at night.
+* Cannot attack during the day if moderately damaged or if there are no planes left.
+* Do not enable the 2nd shelling phase if there is no battleship present.
+|}
+
+==Toughness==
+
+{| class="wikitable"
+!style="width: 200px"|Type
+!Characteristics
+|-
+|'''Soft Skin'''
+|Examples are Supply Depot Princess, Harbor Princess, and Northern Princess.
+* Takes a lot of damage from {{GreenAmmo}}{{EquipmentLink|Type 3 Shell}} and less from other Anti-Installation equipment.
+** This weakness allows battleships and heavy cruisers to easily deal with these installation types.
+* Still takes a decent amount of damage from other anti-installation equipment.
+|-
+|'''Hard Skin'''
+|Examples are Isolated Island Demon, Artillery Imp, and Summer Harbor Princess.
+* Takes more damage from Anti-Installation equipment like {{LandingCraft}}Landing Crafts, {{Amphibious_Tank}}Tanks and {{AntiGroundArtillery}}Anti-ground Artillery.

@@ -1,0 +1,76 @@
+{{EquipmentInfo|34}}
+
+==Introduction==
+新開発の高温高圧缶です。<br>
+従来の艦本式ロ号缶から換装するもので、駆逐艦「島風」で採用した高温高圧缶をベースに、実用性と量産性を高めたもの。<br>
+高出力と低燃費を実現し、回避率を大きく向上させます。<br>
+また、改良型タービンとの併用でさらに高い推進力を実現します。
+
+''A newly developed high-temperature and high-pressure steam boiler.''<br>
+''Based off of the superheated high pressure boiler used in [[Shimakaze]], but improved for mass production and usability, it replaces the previous conventional Kampon type boiler.''<br>
+''With higher power and reduced fuel consumption, it greatly improves evasion.''<br>
+''Combine it with an [[Improved Steam Turbine]] for even higher speed.''
+
+==Notes==
+* Enables the engine synergy when equipped together with {{Equipment/Link|Improved Kanhon Type Turbine}}, allowing to upgrade ''Slow'' ships to ''Fast'', ''Fast+'', or ''Fastest'', and ''Fast'' ships to ''Fast+'' or ''Fastest''. See the following tables for details.
+{{:Partials/Speed system|collapsed=true}}
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Buildable'''
+
+'''Stock equipment''' of {{Ship/Link|Amatsukaze}}, {{Ship/Link|Kisaragi Kai Ni}}, {{Ship/Link|Mutsuki Kai Ni}}, {{Ship/Link|Tashkent Kai}}, {{Ship/Link|Tashkent}}
+
+'''From quests: '''[[Quests#B89|B89]] (choice)
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|Enhanced Kanhon Type Boiler}}, {{Equipment/Link|New Model High Temperature High Pressure Boiler}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2013-04-23:''' '''Implemented''' with initial game release
+* '''2017-01-10:''' Became '''improvable''' and '''upgradeable''' to {{Equipment/Link|New Model High Temperature High Pressure Boiler}}, ability to [[Improving Ship Speed|increase ship speed]] added
+</div></div>
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=Turbine
+|Fuel=240
+|Ammo=0
+|Steel=600
+|Baux=80
+|Mats0-5=10/20
+|Mats6-9=14/28
+|Mats10=20/40
+|Screws0-5=5/8
+|Screws6-9=7/9
+|Screws10=8/12
+|EquipConsume0-5=1x{{Turbine|Improved Steam Turbine}}
+|EquipConsume6-9=1x{{Turbine|Enhanced Steam Boiler}}
+|EquipConsume10=2x{{Turbine|Enhanced Steam Boiler}}
+|Sun=A<br>&nbsp;
+|Mon=A<br>&nbsp;
+|Tue=A<br>S
+|Wed=A<br>S
+|Thu=A<br>&nbsp;
+|Fri=A<br>&nbsp;
+|Sat=A<br>&nbsp;
+|2ndShip=[[Amatsukaze]]<br>[[Shimakaze]]
+|Notes=Upgrades to [[New High Pressure-Temperature Steam Boiler]].
+}}
+|}
+
+==Trivia==
+Resembles a Kampon Steam Boiler, a common type on Japanese Warships.
+
+==See Also==
+[[wikipedia:ja:艦本式ボイラー|艦本式ボイラー]]
+{{Equipmentlist}}
+[[Category:Engines]]

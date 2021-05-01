@@ -1,0 +1,43 @@
+=Overview=
+
+Friend Fleet is an Event-only mechanic that was implemented during the [[Winter 2018 Event]]. They are '''NPC fleets''' that appear to attack the boss during [[Night Battle]] before your fleet engages. Because the exact Friend Fleet details vary from event to event, please refer to the '''current event page''' for more information.
+To access the Friend Fleet Menu during the event, you may click on the [[File:Friend Fleet Button Grey.png]] button in the Homeport screen.
+
+[[File:NPC Friend Fleet.png|thumb|right|NPC Friend Fleet mechanic, as seen in map E-7 of the [[Winter 2018 Event#Friend Fleet|Winter 2018 Event]], when the International Fleet makes their entrance into battle.]]
+
+'''In the current implementation:'''
+* They are only available on '''specific nodes''', and may "arrive" at any time from event start up to after several days have passed since the event started.
+** They are typically implemented as the event progresses to give players a higher chance of beating a map.
+* Only NPC fleets are available.
+** The devs have mentioned that player fleets may be available at a future date.
+* They will engage the '''entire enemy fleet'''.
+** This means they will fight both fleets of an enemy combined fleet.
+* The determination of which fleet of an enemy combined fleet your escort fleet will engage in [[Combined_Fleet#Combined_Fleet_Night_Battle|night battle]] is calculated after the Friend Fleet attack.
+* Which Friend Fleet appears is '''random''', but odds can be manipulated. 
+** By having a member of the Friend Fleet in the sortied fleet, all Friend Fleets that she is a member of will not appear. This is referred to as "blocking" a Friendly Fleet.
+*** Some fleets are "unblockable", and may appear even if you sortie a member that is present in it.
+* The stats, level, remodel, luck, equipment and damage state in which the friend fleet ships appear on is completely arbitrary.
+
+=Using Friend Fleets=
+[[File:FF_Toggle.png|400px|right]]
+# Click on the '''Friend Fleet (友軍艦隊)''' button on the [[Home Port]] screen.
+#* The button will be greyed out if Friend Fleets have not been implemented yet for that event.
+# In the menu that pops up, changing the toggle to '''Request "Friend Fleet" (「友軍艦隊」要請)''' will activate Friend Fleets in maps that have them.
+#* Take note that you cannot pick and choose which maps where the Friend Fleet appears. You'll need to deactivate Friend Fleets by toggling it to '''Support Unnecessary (支援不要)'''.
+# The '''Request Strong Friend Fleets (強力友軍支援要請)''' toggle will activate <span style="color:red">'''Strong'''</span> Friend Fleets.
+#* These fleets are tagged as "<span style="color:red">'''Strong'''</span>" in the event pages.
+#* They cost 6 Instant Constructions {{IC}} when they appear.
+#** The {{IC}} will not be consumed if a <span style="color:green">'''Weak'''</span> Friend Fleet appears.
+
+=Friend Fleet List=
+
+* [[Winter_2018_Event#Friend_Fleet|Winter 2018]]
+* [[Early_Fall_2018_Event#Friend_Fleet|Early Fall 2018]]
+* [[Winter_2019_Event#Friend_Fleet|Winter 2019]]
+* [[Spring_2019_Event#Friend_Fleet|Spring 2019]]
+* [[Summer_2019_Event#Friend_Fleet|Summer 2019]]
+* [[Fall_2019_Event#Friend_Fleet|Fall 2019]]
+* [[Hinamatsuri_2020_Mini-Event#Friend_Fleet|Hinamatsuri 2020]]
+
+=See Also=
+{{Mechanics}}

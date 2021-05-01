@@ -1,0 +1,22 @@
+{{documentation subpage}}__NOTOC__
+This [[Help:Category|category]] [[Help:Template|template]] displays a table of [[Wikipedia:Userboxes|user templates]] that will add a [[Wikipedia:User pages|user page]] to the [[Wikipedia:User categories|user category]].  The complete template syntax is:
+ '''<tt><nowiki>{{Cattemp|template1|...|template25}}</nowiki></tt>'''
+where:
+*<tt>template1|...|template25</tt> – up to 25 optional user template names.  (The ''Template:'' prefix is not required)
+
+==Restriction==
+This template may only be used in the [[Wikipedia:Categorization|Category]] [[Wikipedia:Namespace|namespace]] <nowiki>{{ns:14}}</nowiki>.
+
+==Example==
+Placing the follow Wikitext on the [[:Category:Wikipedians interested in nanotechnology]] page:
+ '''<tt><nowiki>{{cattemp|User Nanotechnology}}</nowiki></tt>'''
+produces the following text and table:
+
+{{cattemp|demo=Wikipedians interested in nanotechnology|User Nanotechnology|nocat=true}}
+
+===See also===
+*This template invokes [[Template:Temt]].
+
+<includeonly>
+[[Category:Wikipedia metatemplates]]
+</includeonly>

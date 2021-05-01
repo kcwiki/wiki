@@ -1,0 +1,381 @@
+<noinclude>
+Front Page, but with variable passing. Deployment Version, Revision 81.
+</noinclude>
+
+<includeonly>
+<!-- Kancolle Wiki EN Front Page - By Gensuihime 
+ 2015 Kancolle Wiki (Please don't remove this unless you're a dick) -->
+ 
+<!-- Page Specific Style Sheet -->
+<!-- Placed inline with html because modifying external classes may disrupt usage of said classes globally -->
+<style>
+	body.mediawiki{
+	min-width:820px !important;	/*MW header width override*/
+}
+/* Set to Size to 100% when widgetcontainer is 1335px (1533px on MediaWiki itself) */
+
+@media screen and (min-width:0px) {
+	iframe#twitter-widget-0{
+		min-height:150px !important;
+		height:397.188px !important;
+	}
+	.twidget {
+		width:48%;
+		
+	}
+}
+@media screen and (min-width:1259px) {
+	iframe#twitter-widget-0{
+		min-height:150px !important;
+		height:450px !important;
+	}
+	.twidget {
+		margin-top:14.4px;
+		width:100%;
+		height:250px;
+	}
+}
+@media screen and (min-width:1350px) {
+	.twidget {
+		margin-top:14.4px;
+		width:100%;
+		height:280px;
+	}
+	iframe#twitter-widget-0{
+		min-height:150px !important;
+		height:530px !important;
+	}
+}
+@media screen and (min-width:1660px) {
+	.twidget {
+		width:48%;
+		height:443.188px;
+		margin-top:0px;
+	}
+	iframe#twitter-widget-0{
+		min-height:150px !important;
+		height:443.188px !important;
+	}
+}
+</style>
+<div id="widgetcontainer">
+	<div class="leftcol">
+    	<!-- The left column is meant to be the default, static container - That is, if width falls below a certain number, it will be the column to which everything in column 2 shifts to. -->
+    	
+    	<!-- Replace event banner image with noevbanhov.png when there is no event -->
+        
+        <!-- Event Text -->
+    	<div id="eventinfo">
+        	Event Information
+        </div>
+        <!-- Event Banner -->
+    	<div id="eventwrap">
+	    	<div id="eventbanner">
+	        	<a href="<!--{$eventlink|escape:'html'|default:'https://en.kancollewiki.net/Events'}-->" title="Event">
+                	<img alt="<!--{$eventimgalt|escape:'html'|default:'Past Events'}-->" src="<!--{$eventimg|escape:'html'|default:'https://yksk.kancollewiki.net/w/frontpage_files/noevbanhov.png'}-->" width="710" height="93" class="eventbanner" />
+                </a>
+	        </div>
+        </div>
+        
+        <!-- Icon Triumvirate Container -->
+    	<div id="iconcontainer">
+        	<div style="padding:10px 10px 10px 10px">
+            <!-- 3x2 HTML Table - Don't fuck with this -->
+            	<table style="text-align:center;">
+            		<tr>
+                    	<td style="width:auto">
+                        	<div id="sortie">
+		        				<a href="https://en.kancollewiki.net/Sortie" class="sortie" title="Sortie">
+                                	<img alt="Sortie" src="https://yksk.kancollewiki.net/w/frontpage_files/sortiehov.png" width="217" height="247" class="sortie" />
+                                </a>
+    	                    	<a href="https://en.kancollewiki.net/Sortie"><div class="sortext">Sortie</div></a>
+                            </div>
+                    	</td>
+            	    	<td style="width:auto">
+                        	<div id="pvp">
+	    	       				<a href="https://en.kancollewiki.net/Exercises" class="pvp" title="Exercises">
+                                	<img alt="Exercises" src="https://yksk.kancollewiki.net/w/frontpage_files/pvphov.png" width="217" height="247" class="pvp" />
+                                </a>
+    	                        <a href="https://en.kancollewiki.net/Exercises"><div class="pvptext">Exercises</div></a>
+                            </div>
+                    	</td>
+                        <td style="width:auto">
+                        	<div id="exped">
+	                        	<a href="https://en.kancollewiki.net/Expeditions" class="exped" title="Expeditions">
+                                	<img alt="Expedition" src="https://yksk.kancollewiki.net/w/frontpage_files/expedhov.png" width="217" height="247" class="exped" />
+                                </a>
+    	                        <a href="https://en.kancollewiki.net/Expeditions"><div class="exptext">Expeditions</div></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <!-- End of table -->
+    		</div>
+        </div>
+        <!-- End of iconcontainer -->
+        
+        <!-- Let's try this again - FactoryBox Div -->
+        
+        <div class="factorybox">
+        	<div class="constbox">
+            	<div id="const">
+	        		<a href="https://en.kancollewiki.net/Construction" class="const" title="Construction">
+    	            	<img alt="Construction" src="https://yksk.kancollewiki.net/w/frontpage_files/consthov.png" width="176" height="70" class="const" />
+        	        </a>
+                </div>
+            	<a href="https://en.kancollewiki.net/Construction" style="color:white"><div class="constname">Ship Construction</div></a>
+            </div>
+            <div class="develbox">
+            	<div id="devel">
+	            	<a href="https://en.kancollewiki.net/Development" title="Development">
+    	            	<img alt="Development" src="https://yksk.kancollewiki.net/w/frontpage_files/develhov.png" width="176" height="70" class="devel" />
+        	        </a>
+                </div>
+    	        <a href="https://en.kancollewiki.net/Development" style="font-size:15px;color:white;"><div class="develname">Equipment Development</div></a>
+            </div>
+            <div class="kaisyubox">
+            	<div id="kaisyu">
+	            	<a href="https://en.kancollewiki.net/Modernization" title="Modernization">
+                    	<img alt="Modernization" src="https://yksk.kancollewiki.net/w/frontpage_files/kaisyuhov.png" width="171" height="47" class="kaisyu" />
+                    </a>
+    	   		    <a href="https://en.kancollewiki.net/Modernization" style="color:white;"><div class="kaisyuname">Modernization</div></a>
+                </div>
+            </div>
+            <div class="kaisoubox">
+            	<div id="kaisou">
+	            	<a href="https://en.kancollewiki.net/Remodel" class="kaisou" title="Remodel">
+                    	<img alt="Remodel" src="https://yksk.kancollewiki.net/w/frontpage_files/kaisouhov.png" width="171" height="47" class="kaisou" />
+                    </a>
+    	        	<a href="https://en.kancollewiki.net/Remodel" style="color:white;"><div class="kaisouname">Remodel</div></a>
+                </div>
+            </div>
+            
+            <div class="revampbox">
+            	<div id="revamp">
+	            	<a href="https://en.kancollewiki.net/Akashi%27s_Improvement_Arsenal" class="revamp" title="Akashi's Improvement Arsenal">
+                    	<img alt="Akashi's Improvement Arsenal" src="https://yksk.kancollewiki.net/w/frontpage_files/revamphov.png" width="155" height="95" class="revamp" />
+                    </a>
+    	       		<a href="https://en.kancollewiki.net/Akashi%27s_Improvement_Arsenal" style="color:white;"><div class="revampname">Akashi's Improvement Arsenal</div></a>
+                </div>
+            </div>
+        </div>
+        <div id="infodiv">
+        	<div id="infoicons">
+            	<div class="questicon">
+                	<a href="https://en.kancollewiki.net/Quests">
+        				<img alt="Quests" src="https://yksk.kancollewiki.net/w/frontpage_files/questicon.png" width="100" height="100" /><div class="infotxt">Quests</div>
+			        </a>
+                </div>
+                <div class="infoicon">
+                	<a href="https://en.kancollewiki.net/Ship">
+        				<img alt="Ship List" src="https://yksk.kancollewiki.net/w/frontpage_files/listicon.png" width="100" height="100" /><div class="infotxt">Ships</div>
+			        </a>
+                    <div class="listdrop">
+                    	<a href="https://en.kancollewiki.net/Ship_Class"><div class=selbox>By Class</div></a>
+                        <a href="https://en.kancollewiki.net/Ship_List_(Image)"><div class=selbox>By Image</div></a>
+                        <a href="https://en.kancollewiki.net/Ship_list"><div class=selbox>Starting Stats</div></a>
+                        <a href="https://en.kancollewiki.net/Drop_List"><div class=selbox>Drop List</div></a>
+                        <a href="https://en.kancollewiki.net/Marriage"><div class=selbox>Marriage</div></a>
+                    </div>
+                </div>
+                <div class="infoicon">
+                	<a href="https://en.kancollewiki.net/Equipment">
+        				<img alt="Equipment List" src="https://yksk.kancollewiki.net/w/frontpage_files/equipicon.png" width="100" height="100" /><div class="infotxt">Equipment</div>
+			        </a>
+                    <div class="listdrop">
+                        <a href="https://en.kancollewiki.net/Equipment_List_(Image)"><div class=selbox>By Images</div></a>
+                        
+                        <a href="https://en.kancollewiki.net/Equipment_Ranking"><div class=selbox>By Type or Ranking</div></a>
+                    </div>
+                </div>
+                <div class="infoicon">
+                	<a href="#">
+        				<img alt="External Links" src="https://yksk.kancollewiki.net/w/frontpage_files/extlinks.png" width="92" height="92" style="margin-left:4px;margin-top:4px;padding-bottom:4px;" /><div class="infotxt" style="font-size:14px;">External Links</div>
+			        </a>
+                    <div class="listdrop">
+                        <a href="https://www.kadokawagames.co.jp/KanColle/"><div class=selbox>Official Kancolle Website</div></a>
+                        <a href="https://www.dmm.com/netgame/social/application/-/detail/=/app_id=854854/"><div class=selbox>Direct Link To Game</div></a>
+                        <a href="https://www.kancolle-calc.net/index.html"><div class=selbox>Kancolle Calculator (Japanese)</div></a>
+                        <a href="https://www54.atpages.jp/kancollem/"><div class=selbox>Database (Japanese)</div></a>
+                        <a href="http://www.himeuta.org/"><div class=selbox>Himeuta Forums</div></a>
+                        <a href="https://www.reddit.com/r/kancolle"><div class=selbox>Subreddit</div></a>
+                    </div>
+                </div>
+                <div class="infoicon" style="margin-right:0px;">
+                	<a href="https://en.kancollewiki.net/Kancolle_Wiki:Policy">
+        				<img alt="Administration" src="https://yksk.kancollewiki.net/w/frontpage_files/adminicon.png" width="100" height="100" /><div class="infotxt">Rules & Policy</div>
+			        </a>
+                    <div class="listdrop">
+                        <a href="https://en.kancollewiki.net/Suggestion"><div class=selbox>Suggestions</div></a>
+                        
+                        <a href="https://en.kancollewiki.net/Kancolle_Wiki:Staff"><div class=selbox>Wiki Staff</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- World Icons (7 worlds as of Sep 2018) -->
+        <!-- World Width: 118px x 7 Worlds. ish.-->
+        <div id="worldicons">
+        
+        	<div class="worldside"></div>
+            
+        	<div id="worlds">
+            	<a href="https://en.kancollewiki.net/World_1" class="wor1" title="World 1"></a>
+                <a href="https://en.kancollewiki.net/World_1" class="wortext">World 1</a>
+                <br>
+                <a href="https://en.kancollewiki.net/World_1" class="worname">Naval Base<br>Waters</a>
+            </div>
+            <div id="worlds">
+            	<a href="https://en.kancollewiki.net/World_2" class="wor2" title="World 2"></a>
+                <a href="https://en.kancollewiki.net/World_2" class="wortext">World 2</a>
+                <br>
+                <a href="https://en.kancollewiki.net/World_2" class="worname">Southwestern<br />Waters</a>
+            </div>
+            <div id="worlds">
+            	<a href="https://en.kancollewiki.net/World_3" class="wor3" title="World 3"></a>
+                <a href="https://en.kancollewiki.net/World_3" class="wortext">World 3</a>
+                <br>
+                <a href="https://en.kancollewiki.net/World_3" class="worname">Northern<br>Waters</a>
+            </div>
+            <div id="worlds">
+            	<a href="https://en.kancollewiki.net/World_7" class="wor7" title="World 7"></a>
+                <a href="https://en.kancollewiki.net/World_7" class="wortext">World 7</a>
+                <br>
+                <a href="https://en.kancollewiki.net/World_7" class="worname">Southwestern<br>Waters</a>
+            </div>
+            <div id="worlds">
+            	<a href="https://en.kancollewiki.net/World_4" class="wor4" title="World 4"></a>
+                <a href="https://en.kancollewiki.net/World_4" class="wortext">World 4</a>
+                <br>
+                <a href="https://en.kancollewiki.net/World_4" class="worname">Western<br />Waters</a>
+            </div>
+            <div id="worlds">
+            	<a href="https://en.kancollewiki.net/World_5" class="wor5" title="World 5"></a>
+                <a href="https://en.kancollewiki.net/World_5" class="wortext">World 5</a>
+                <br>
+                <a href="https://en.kancollewiki.net/World_5" class="worname">Southern<br>Waters</a>
+            </div>
+            <div id="worlds">
+            	<a href="https://en.kancollewiki.net/World_6" class="wor6" title="World 6"></a>
+                <a href="https://en.kancollewiki.net/World_6" class="wortext">World 6</a>
+                <br>
+                <a href="https://en.kancollewiki.net/World_6" class="worname">Central<br>Waters</a>
+            </div>
+        </div>
+        <!-- End of World div -->
+        <!-- It's the end of the world as we know it *insert music* -->
+		
+    </div>
+    <!-- End of Left Column -->
+    
+    <!-- Begin Right Column -->
+    <!-- Right column has the ability to be resized. Utilize @media tags to change layouts based on size. -->
+    <div class="rightcol">
+		<!-- welp time to start over -->
+        
+        <div id="wikidesc">
+        	<!-- Description Wrap -->
+            <div id="descbox">
+            	<!-- Crane! -->
+            	<div class="craneicon">
+                	<img src="https://yksk.kancollewiki.net/w/frontpage_files/crane.gif">
+                </div>
+                <!-- Wiki Description -->
+                <div class="desctext">
+                	Kantai Collection (<span id="nihontext">艦隊これくしょん</span>), also known as KanColle (<span id="nihontext">艦これ</span>), is an online browser game in which one assumes the role of an admiral, assembles a fleet of kanmusu ('ship girls' based on World War II-era ships and submarines), and battles against fleets of unknown warships.
+
+This wiki is a place to find English information about the game & tutorials on how to play even without knowledge of Japanese. Additionally, information regarding the expanded franchise may be found, including manga, anime, other games, music, & more.
+                </div>
+            </div>
+        </div>
+        <!-- Updates -->
+        <div class="updatecontainer">
+	        <div class="updatebox">
+    	    	<div id="updateheader">
+        	    	Game Updates
+            	</div>
+                <div id="uptextbox">
+		            <!-- Last Update --> 
+    	        	<a href="<!--{$lastuplink|escape:'html'|default:'https://en.kancollewiki.net/Game_Updates'}-->" class="uptext">Last: <b><!--{$lastuptitle|escape:'html'|default:'Last Update Date'}--></b></a>
+        	        <br /><br />
+            		<!-- Upcoming Update -->
+               		<a href="<!--{$nextuplink|escape:'html'|default:'https://en.kancollewiki.net/Game_Updates'}-->" class="uptext">Next: <b><!--{$nextuptitle|escape:'html'|default:'Next Update Date'}--></b></a>
+                	<br /><br />
+                	<a href="https://en.kancollewiki.net/Game_Updates" class="uptext"><b>Past Game Update Information</b></a>
+                	<br /><br />
+                </div>
+   		    </div>
+            
+            <div id="updateheader">
+            	Seasonal Updates
+            </div>
+            <!-- Seasonal Box -->
+        	<div class="seasonalbox">
+        		<div class="seasoncont">
+                    <a href="https://en.kancollewiki.net/Seasonal" title="Seasonal">
+                            <div class="seasonicon">
+	                	<img alt="Seasonals" src="<!--{$seasonimg|escape:'html'|default:'https://yksk.kancollewiki.net/images/7/7b/Portal_xmas2015.png'}-->" width="110" height="110" />
+                            </div>
+                    </a>
+                    <br />
+                    <a href="<!--{$seasonlink|escape:'html'|default:'https://en.kancollewiki.net/Seasonal'}-->" class="uptext">Recent: <b><!--{$seasontitle|escape:'html'|default:'Season Title'}--></b></a>
+                </div>
+        	</div>
+        </div>
+        <!-- Twitter Widget -->
+        <div class="twidget" id="nihontext">
+        	<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^https:/.test(d.location)?'https':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+            </script>
+			<a class="twitter-timeline" href="https://twitter.com/KanColle_STAFF" data-widget-id="667932762834268160" height="360" data-chrome="nofooter">Tweets by @KanColle_STAFF</a>
+            <meta name="twitter:widgets:theme" content="light">
+        </div>
+       
+    </div>
+    <!-- End of Right Column -->
+    
+<!-- Misc Icons -->
+    <div id="iconcluster">
+    	<div id="clustertitle">
+        	Quick Links
+        </div>
+        <a href="https://en.kancollewiki.net/Combat" class="portalicon">
+        	<img alt="Combat" src="w/images/0/06/Wikihome_combat.png" /> Combat Mechanics
+        </a>
+        <a href="https://en.kancollewiki.net/Morale_and_Fatigue" class="portalicon">
+          	<img alt="Morale, Fatigue" src="w/images/2/2d/Wikihome_fatigue.png" /> Morale and Fatigue
+        </a>
+        <a href="https://en.kancollewiki.net/Docking" class="portalicon">
+           	<img alt="Docking" src="w/images/9/9c/Wikihome_docking.png" /> Docking/Repairs
+        </a>
+        <a href="https://en.kancollewiki.net/Experience_and_Rank" class="portalicon">
+           	<img alt="Experience & Rank" src="w/images/1/1f/Wikihome_exprank.png" /> Experience & Rank
+        </a>
+        <a href="https://en.kancollewiki.net/Enemy_vessel" class="portalicon">
+        	<img alt="Enemy Vessels" src="w/images/f/fe/Wikihome_enemy.png" /> Enemy Vessels
+        </a>
+        <a href="https://en.kancollewiki.net/List_of_equipment_used_by_the_enemy" class="portalicon">
+        	<img alt="Enemy Equipment" src="w/images/c/ca/Wikihome_abyssitems.png" /> Enemy Equipment
+        </a>
+        <a href="https://en.kancollewiki.net/Shop" class="portalicon">
+        	<img alt="Item Shop" src="w/images/2/2d/Wikihome_shop.png" /> Item Shop
+        </a>
+        <a href="https://en.kancollewiki.net/Furniture" class="portalicon">
+        	<img alt="Furniture" src="w/images/c/c8/Wikihome_furniture.png" /> Furniture
+        </a>
+        <a href="https://en.kancollewiki.net/NPC" class="portalicon">
+        	<img alt="NPCs" src="w/images/d/d4/Wikihome_npc.png" /> NPCs
+        </a>
+        <a href="https://en.kancollewiki.net/Servers" class="portalicon">
+        	<img alt="Servers" src="w/images/5/52/Wikihome_servers.png" /> Server List
+        </a>
+        <a href="https://en.kancollewiki.net/Easter_Eggs" class="portalicon">
+        	<img alt="Easter Eggs" src="w/images/b/bc/Wikihome_easter.png" /> Easter Eggs
+        </a>
+        <a href="https://en.kancollewiki.net/Merchandise" class="portalicon">
+        	<img alt="Merchandise" src="w/images/6/6d/Wikihome_print.png" /> Merchandise
+        </a>
+        <span class="stretch"></span>
+    </div>
+</div>
+</includeonly>

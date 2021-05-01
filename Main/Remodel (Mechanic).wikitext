@@ -1,0 +1,832 @@
+=Introduction=
+[[File:RemodelButtonLocation.png|thumb|Location of Remodel Button<br>In this case, it's greyed out because Kongou has not reached the required Level.]]
+'''Remodeling''' is a game mechanic that allows you to upgrade a ship girl to improve her combat effectiveness. Ship girls can gain special abilities and extra equipment slots on remodel. It is generally a good idea to remodel a ship girl when you can.
+
+=Overview=
+
+* A remodeled ship girl will have '''Kai (改)''' suffixed to her name.
+** Some ship girls have a second or third remodel with different suffixes. E.g. '''Ni (二)''', '''Zwei''', '''Drei''', '''Due''', '''Mk. II''', and '''Dva'''.
+** Some ship girls have additional suffixes to denote a speciality. E.g. '''A (甲)''', '''B (乙)''', '''C (丙)''', or'''D (丁)'''. 
+*** "A" can mean several things depending on the ship girl. E.g. Shoukaku and Zuikaku's "A" means "Armoured".
+*** "B" means anti-air speciality.
+*** Currently only Kongou-class ships (Kongou and Hiei as of January 2021) have a "C" remodel and they are night battle focused.
+*** "D" means ASW speciality.
+* It restores a ship girl to full HP and supply.
+* It sets her [[Morale and Fatigue|morale]] to 40.
+* All equipped equipment will be placed in storage.
+* All modernization of firepower {{Firepower}}, torpedo {{Torpedo}}, anti-air {{AA}}, and armour {{Armor}} will be reset.
+** HP {{HP}}, ASW {{ASW}}, and luck {{Luck}} modernization will be carried over.
+
+=Resource Requirements=
+
+All remodels cost varying amounts of ammunition {{Ammo}} and steel {{Steel}}. Some ship girls require additional Development Materials {{DM}}, Instant Constructions {{IC}}, [[New Model Gun Development Material|Gun Materials]] {{GunMat}}, [[Blueprint]]s {{BP}}, or [[Action Report]]s {{AR}}. Please see individual ship girl pages or refer to the [[Remodel/Reference Tables|remodel reference tables]] for the ammo and steel requirements.
+
+===Blueprints===
+''Please see [[Blueprint#How to Obtain|Blueprint]] for details on how to obtain them.''
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Ship Type
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+| style="text-align:center;"|Battleship (F/BB)
+| style="text-align:center;"|[[Kongou|Kongou Kai Ni C]]<ref name="2BP">Requires 2 blueprints.</ref>{{·}}[[Hiei|Hiei Kai Ni C]]<ref name="2BP"/>{{·}}[[Nagato|Nagato Kai Ni]]{{·}}[[Mutsu|Mutsu Kai Ni]]{{·}}[[Musashi|Musashi Kai Ni]]<ref>Requires 3 blueprints.</ref>{{·}}[[Bismarck|Bismarck Zwei]]{{·}}[[Bismarck|Bismarck Drei]]{{·}}[[Italia]]{{·}}[[Roma|Roma Kai]]
+|-
+| style="text-align:center;"|Aviation Battleship (BBV)
+| style="text-align:center;"|[[Fusou|Fusou Kai Ni]]{{·}}[[Yamashiro|Yamashiro Kai Ni]]{{·}}[[Ise|Ise Kai Ni]]<ref name="2BP"/>{{·}}[[Hyuuga|Hyuuga Kai Ni]]<ref name="2BP"/>
+|-
+| style="text-align:center;"|Carrier (CV/B)
+| style="text-align:center;"|[[Akagi|Akagi Kai Ni]]<ref name="2BP"/>{{·}}[[Kaga|Kaga Kai Ni]]<ref name="2BP"/>{{·}}[[Shoukaku|Shoukaku Kai Ni]]{{·}}[[Zuikaku|Zuikaku Kai Ni]]{{·}}[[Unryuu|Unryuu Kai]]{{·}}[[Amagi|Amagi Kai]]{{·}}[[Katsuragi|Katsuragi Kai]]{{·}}[[Saratoga|Saratoga Mk.II]]
+|-
+| style="text-align:center;"|Light Carrier (CVL)
+| style="text-align:center;"|[[Ryuuhou]]{{·}}[[Ryuuhou|Ryuuhou Kai Ni E]]{{·}}[[Taiyou|Taiyou Kai Ni]]{{·}}[[Shinyou|Shinyou Kai Ni]]
+|-
+| style="text-align:center;"|Heavy Cruiser (CA)
+| style="text-align:center;"|[[Choukai|Choukai Kai Ni]]{{·}}[[Zara|Zara Due]]
+|-
+| style="text-align:center;"|Aviation Cruiser (CAV)
+| style="text-align:center;"|[[Mogami|Mogami Kai Ni]]{{·}}[[Suzuya|Suzuya Kai Ni]]{{·}}[[Suzuya|Suzuya Carrier Kai Ni]]{{·}}[[Kumano|Kumano Kai Ni]]{{·}}[[Kumano|Kumano Carrier Kai Ni]]{{·}}[[Tone|Tone Kai Ni]]{{·}}[[Chikuma|Chikuma Kai Ni]]
+|-
+| style="text-align:center;"|Light Cruiser (CL)
+| style="text-align:center;"|[[Kuma|Kuma Kai Ni]]{{·}}[[Tama|Tama Kai Ni]]{{·}}[[Yura|Yura Kai Ni]]{{·}}[[Kinu|Kinu Kai Ni]]{{·}}[[Abukuma|Abukuma Kai Ni]]{{·}}[[Yuubari|Yuubari Kai Ni]]{{·}}[[Noshiro|Noshiro Kai Ni]]{{·}}[[Yahagi|Yahagi Kai Ni]]{{·}}[[Gotland|Gotland Andra]]
+|-
+| style="text-align:center;"|Destroyer (DD)
+| style="text-align:center;"|[[Ooshio|Ooshio Kai Ni]]{{·}}[[Arashio|Arashio Kai Ni]]{{·}}[[Arare|Arare Kai Ni]]{{·}}[[Kagerou|Kagerou Kai Ni]]{{·}}[[Shiranui|Shiranui Kai Ni]]{{·}}[[Kuroshio|Kuroshio Kai Ni]]{{·}}[[Yukikaze|Tan Yang]]{{·}}[[Yukikaze|Yukikaze Kai Ni]]<ref name="2BP"/>{{·}}[[Akigumo|Akigumo Kai Ni]]{{·}}[[Yuugumo|Yuugumo Kai Ni]]{{·}}[[Makigumo|Makigumo Kai Ni]]{{·}}[[Kazagumo|Kazagumo Kai Ni]]{{·}}[[Naganami|Naganami Kai Ni]]{{·}}[[Okinami|Okinami Kai Ni]]{{·}}[[Asashimo|Asashimo Kai Ni]]{{·}}[[Fletcher|Fletcher Kai Mod.2]]
+|-
+|}<references/>
+
+{{Clear}}
+
+===Action Report===
+''Please see [[Action Report#How to Obtain|Action Report]] for details on how to obtain them.''
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Ship Type
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+| style="text-align:center;"|Battleship (F/BB)
+| style="text-align:center;"|[[Kongou|Kongou Kai Ni C]]{{·}}[[Hiei|Hiei Kai Ni C]]{{·}}[[Musashi|Musashi Kai Ni]]
+|-
+| style="text-align:center;"|Aviation Battleship (BBV)
+| style="text-align:center;"|[[Ise|Ise Kai Ni]]{{·}}[[Hyuuga|Hyuuga Kai Ni]]
+|-
+| style="text-align:center;"|Carrier (CV/B)
+| style="text-align:center;"|[[Akagi|Akagi Kai Ni]]{{·}}[[Kaga|Kaga Kai Ni]]
+|-
+| style="text-align:center;"|Aviation Cruiser (CAV)
+| style="text-align:center;"|[[Mogami|Mogami Kai Ni]]
+|-
+| style="text-align:center;"|Light Cruiser (CL)
+| style="text-align:center;"|[[Yuubari|Yuubari Kai Ni]]{{·}}[[Noshiro|Noshiro Kai Ni]]{{·}}[[Yahagi|Yahagi Kai Ni]]
+|-
+| style="text-align:center;"|Destroyer (DD)
+| style="text-align:center;"|[[Shiratsuyu|Shiratsuyu Kai Ni]]{{·}}[[Murasame|Murasame Kai Ni]]{{·}}[[Yukikaze|Yukikaze Kai Ni]]{{·}}[[Umikaze|Umikaze Kai Ni]]{{·}}[[Akigumo|Akigumo Kai Ni]]{{·}}[[Yuugumo|Yuugumo Kai Ni]]{{·}}[[Makigumo|Makigumo Kai Ni]]{{·}}[[Kazagumo|Kazagumo Kai Ni]]{{·}}[[Naganami|Naganami Kai Ni]]{{·}}[[Okinami|Okinami Kai Ni]]{{·}}[[Asashimo|Asashimo Kai Ni]]
+|-
+|}<references/>
+
+{{Clear}}
+
+===Prototype Catapult===
+''Please see [[Prototype Flight Deck Catapult#How to Obtain|Prototype Flight Deck Catapult]] for details on how to obtain them.''
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Ship Type
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+| style="text-align:center;"|Aviation Battleship (BBV)
+| style="text-align:center;"|[[Ise|Ise Kai Ni]]{{·}}[[Hyuuga|Hyuuga Kai Ni]]
+|-
+| style="text-align:center;"|Carrier (CV/B)
+| style="text-align:center;"|[[Akagi|Akagi Kai Ni]]{{·}}[[Kaga|Kaga Kai Ni]]{{·}}[[Shoukaku|Shoukaku Kai Ni]]{{·}}[[Zuikaku|Zuikaku Kai Ni]]{{·}}[[Saratoga|Saratoga Mk.II]]
+|-
+| style="text-align:center;"|Light Carrier (CVL)
+| style="text-align:center;"|[[Ryuuhou|Ryuuhou Kai Ni E]]{{·}}[[Taiyou|Taiyou Kai Ni]]{{·}}[[Shinyou|Shinyou Kai Ni]]
+|-
+| style="text-align:center;"|Light Cruiser (CL)
+| style="text-align:center;"|[[Gotland|Gotland Andra]]
+|-
+|}<references/>
+
+{{Clear}}
+
+===Gun Development Materials===
+''Please see [[New Model Gun Development Material#How to Obtain|New Model Gun Development Material]] for details on how to obtain them.''
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Ship Type
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+| style="text-align:center;"|Battleship (F/BB)
+| style="text-align:center;"|[[Kongou|Kongou Kai Ni C]]<ref name="2GM">Requires 2 Gun Materials.</ref>{{·}}[[Hiei|Hiei Kai Ni C]]<ref name="2GM"/>{{·}}[[Musashi|Musashi Kai Ni]]<ref>Requires 3 Gun Materials.</ref>
+|-
+|}<references/>
+
+{{Clear}}
+
+===Aviation Development Materials===
+''Please see [[New Model Aviation Development Material#How to Obtain|New Model Aviation Development Material]] for details on how to obtain them.''
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Ship Type
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+| style="text-align:center;"|Aviation Battleship (BBV)
+| style="text-align:center;"|[[Hyuuga|Hyuuga Kai Ni]]
+|-
+| style="text-align:center;"|Carrier (CV/B)
+| style="text-align:center;"|[[Akagi|Akagi Kai Ni]]<ref name="2AM">Requires 2 Aviation Materials.</ref>{{·}}[[Kaga|Kaga Kai Ni]]<ref name="2AM"/>
+|-
+| style="text-align:center;"|Aviation Cruiser (CAV)
+| style="text-align:center;"|[[Mogami|Mogami Kai Ni]]<ref name="2AM"/>
+|-
+|}<references/>
+
+{{Clear}}
+
+===Armamament Materials===
+''Please see [[New Model Armament Material#How to Obtain|New Model Armamament Material]] for details on how to obtain them.''
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Ship Type
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+| style="text-align:center;"|Destroyer (DD)
+| style="text-align:center;"|[[Yukikaze|Tan Yang]]<ref>Requires 2 Armament Materials.</ref>
+|-
+|}<references/>
+
+{{Clear}}
+
+===Development Materials & Instant Constructions===
+''Please see [[Help:Resource_Farming#Instant_Construction|the help page]] for details on how to obtain them.''
+
+{| 
+|- style="vertical-align:top;"
+
+|
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" rowspan="2"|Ship Type
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" rowspan="2"|Name
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Resource Cost
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|{{DM}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|{{IC}}
+|-
+| style="text-align:center;"|FBB
+| style="text-align:center;"|[[Kongou|Kongou Kai Ni C]]
+| style="text-align:center;"|300
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|FBB
+| style="text-align:center;"|[[Hiei|Hiei Kai Ni C]]
+| style="text-align:center;"|330
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|BBV
+| style="text-align:center;"|[[Ise|Ise Kai Ni]]
+| style="text-align:center;"|181
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|CV
+| style="text-align:center;"|[[Akagi|Akagi Kai Ni]]
+| style="text-align:center;"|100
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|CV
+| style="text-align:center;"|[[Akagi|Akagi Kai Ni E]]
+| style="text-align:center;"|80
+| style="text-align:center;"|30
+|-
+| style="text-align:center;"|CV
+| style="text-align:center;"|[[Kaga|Kaga Kai Ni]]
+| style="text-align:center;"|120
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|CV
+| style="text-align:center;"|[[Kaga|Kaga Kai Ni E]]
+| style="text-align:center;"|88
+| style="text-align:center;"|30
+|-
+| style="text-align:center;"|CV
+| style="text-align:center;"|[[Kaga|Kaga Kai Ni Go]]
+| style="text-align:center;"|84
+| style="text-align:center;"|84
+|-
+| style="text-align:center;"|CV
+| style="text-align:center;"|[[Shoukaku|Shoukaku Kai Ni]]
+| style="text-align:center;"|15
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|CV
+| style="text-align:center;"|[[Zuikaku|Zuikaku Kai Ni]]
+| style="text-align:center;"|15
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|CV
+| style="text-align:center;"|[[Saratoga|Saratoga MK.II mod.2]]
+| style="text-align:center;"|20
+| style="text-align:center;"|30
+|-
+| style="text-align:center;"|CVL
+| style="text-align:center;"|[[Ryuuhou|Ryuuhou Kai Ni E]]
+| style="text-align:center;"|20
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|CVL
+| style="text-align:center;"|[[Ryuuhou|Ryuuhou Kai Ni]]
+| style="text-align:center;"|-
+| style="text-align:center;"|20
+|-
+| style="text-align:center;"|CVL
+| style="text-align:center;"|[[Zuihou|Zuihou Kai Ni B]]
+| style="text-align:center;"|5
+| style="text-align:center;"|20
+|-
+| style="text-align:center;"|CVL
+| style="text-align:center;"|[[Suzuya|Suzuya Carrier Kai Ni]]
+| style="text-align:center;"|10
+| style="text-align:center;"|20
+|-
+| style="text-align:center;"|CVL
+| style="text-align:center;"|[[Kumano|Kumano Carrier Kai Ni]]
+| style="text-align:center;"|10
+| style="text-align:center;"|20
+|-
+| style="text-align:center;"|CAV
+| style="text-align:center;"|[[Mogami|Mogami Kai Ni]]
+| style="text-align:center;"|60
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|CAV
+| style="text-align:center;"|[[Mogami|Mogami Kai Ni Toku]]
+| style="text-align:center;"|45
+| style="text-align:center;"|60
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Tenryuu|Tenryuu Kai Ni]]
+| style="text-align:center;"|24
+| style="text-align:center;"|8
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Tatsuta|Tatsuta Kai Ni]]
+| style="text-align:center;"|15
+| style="text-align:center;"|5
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Kuma|Kuma Kai Ni]]
+| style="text-align:center;"|55
+| style="text-align:center;"|55
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Kuma|Kuma Kai Ni D]]
+| style="text-align:center;"|30
+| style="text-align:center;"|15
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Yuubari|Yuubari Kai Ni]]
+| style="text-align:center;"|30
+| style="text-align:center;"|30
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Yuubari|Yuubari Kai Ni Toku]]
+| style="text-align:center;"|30
+| style="text-align:center;"|30
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Yuubari|Yuubari Kai Ni D]]
+| style="text-align:center;"|30
+| style="text-align:center;"|30
+|-
+|}
+
+|
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" rowspan="2"|Ship Type
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" rowspan="2"|Name
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Resource Cost
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|{{DM}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|{{IC}}
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Noshiro|Noshiro Kai Ni]]
+| style="text-align:center;"|80
+| style="text-align:center;"|77
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Yahagi|Yahagi Kai Ni]]
+| style="text-align:center;"|88
+| style="text-align:center;"|88
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Yahagi|Yahagi Kai Ni]]
+| style="text-align:center;"|45
+| style="text-align:center;"|30
+|-
+| style="text-align:center;"|CL
+| style="text-align:center;"|[[Gotland|Gotland Andra]]
+| style="text-align:center;"|55
+| style="text-align:center;"|35
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Shikinami|Shikinami Kai Ni]]
+| style="text-align:center;"|20
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Akebono|Akebono Kai Ni]]
+| style="text-align:center;"|30
+| style="text-align:center;"|15
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Kagerou|Kagerou Kai Ni]]
+| style="text-align:center;"|20
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Shiranui|Shiranui Kai Ni]]
+| style="text-align:center;"|20
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Kuroshio|Kuroshio Kai Ni]]
+| style="text-align:center;"|20
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Yukikaze|Tan Yang]]
+| style="text-align:center;"|50
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Yukikaze|Yukikaze Kai Ni]]
+| style="text-align:center;"|60
+| style="text-align:center;"|30
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Akigumo|Akigumo Kai Ni]]
+| style="text-align:center;"|20
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Urakaze|Urakaze D Kai]]
+| style="text-align:center;"|40
+| style="text-align:center;"|10
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Hamakaze|Hamakaze B Kai]]
+| style="text-align:center;"|40
+| style="text-align:center;"|10
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Tanikaze|Tanikaze D Kai]]
+| style="text-align:center;"|50
+| style="text-align:center;"|20
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Isokaze|Isokaze B Kai]]
+| style="text-align:center;"|40
+| style="text-align:center;"|10
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Okinami|Okinami Kai Ni]]
+| style="text-align:center;"|80
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Asashimo|Asashimo Kai Ni]]
+| style="text-align:center;"|30
+| style="text-align:center;"|-
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Janus|Janus Kai]]
+| style="text-align:center;"|90
+| style="text-align:center;"|10
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Fletcher|Fletcher Kai]]
+| style="text-align:center;"|80
+| style="text-align:center;"|10
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Fletcher|Fletcher Kai Mod.2]]
+| style="text-align:center;"|120
+| style="text-align:center;"|30
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Fletcher|Fletcher Mk.II]]
+| style="text-align:center;"|180
+| style="text-align:center;"|30
+|-
+| style="text-align:center;"|DD
+| style="text-align:center;"|[[Johnston|Johnston Kai]]
+| style="text-align:center;"|80
+| style="text-align:center;"|10
+|-
+|}
+
+|-
+|}<references/>
+
+{{Clear}}
+
+=Convertible Remodels=
+
+Several ship girls have the ability to freely convert between remodels. These alternative remodels have different specialities and abilities. You'll want to carefully consider which version you will use most often.
+
+* Converting between remodels will still '''reset all firepower, torpedo, anti-air and armour''' modernization.
+* The remodel will still cost ammo and steel. Some conversions will cost additional instant constructions, development materials or blueprints.
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Remodel 1
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" rowspan="2"|<math>\leftrightarrow</math>
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" rowspan="2"|Level Requirement
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Remodel 2
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="5"|Resource Cost
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;" rowspan="2"|Notes
+|-
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Name
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Ship Type
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Name
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|Ship Type
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|{{Ammo}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|{{Steel}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|{{DM}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|{{IC}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;"|{{BP}}
+|-
+| style="text-align:center;" rowspan="2"|[[Asashio|Asashio Kai Ni]]
+| style="text-align:center;" rowspan="2"|DD
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|85
+| style="text-align:center;" rowspan="2"|[[Asashio|Asashio Kai Ni D]]
+| style="text-align:center;" rowspan="2"|DD
+| style="text-align:center;"|390
+| style="text-align:center;"|360
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|
+* Kai Ni is a combat-focused remodel.
+* Kai Ni D is an ASW focused remodel that can carry landing craft/amphibious tanks.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|360
+| style="text-align:center;"|390
+|-
+| style="text-align:center;" rowspan="2"|[[Kasumi|Kasumi Kai Ni]]
+| style="text-align:center;" rowspan="2"|DD
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|88
+| style="text-align:center;" rowspan="2"|[[Kasumi|Kasumi Kai Ni B]]
+| style="text-align:center;" rowspan="2"|DD
+| style="text-align:center;"|390
+| style="text-align:center;"|300
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|
+* Kai Ni is a combat focused remodel that can equip Fleet Command Facilities.
+* Kai Ni B is an anti-air focused remodel with a special anti-air cut-in.
+* Both remodels can carry landing craft/amphibious tanks.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|300
+| style="text-align:center;"|390
+|-
+| style="text-align:center;" rowspan="2"|[[Fletcher|Fletcher Kai Mod.2]]
+| style="text-align:center;" rowspan="2"|DD
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|90
+| style="text-align:center;" rowspan="2"|[[Fletcher|Fletcher Mk.II]]
+| style="text-align:center;" rowspan="2"|DD
+| style="text-align:center;" rowspan="2"|445
+| style="text-align:center;" rowspan="2"|445
+| style="text-align:center;"|180
+| style="text-align:center;"|30
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|
+* Able to equip [[Fleet Command Facility]]
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|20
+| style="text-align:center;"|20
+|-
+| style="text-align:center;" rowspan="2"|[[Kuma|Kuma Kai Ni]]
+| style="text-align:center;" rowspan="2"|CL
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|88
+| style="text-align:center;" rowspan="2"|[[Kuma|Kuma Kai Ni D]]
+| style="text-align:center;" rowspan="2"|CL
+| style="text-align:center;"|240
+| style="text-align:center;"|360
+| style="text-align:center;"|30
+| style="text-align:center;"|15
+| style="text-align:center;"|-
+| style="text-align:center;" rowspan="2"|
+* Kai Ni is a combat focused remodel that can equip seaplane bombers, seaplane fighters, and autogyros.
+* Kai Ni D can equip midget submarines, landing crafts, and amphibious tanks but cannot carry seaplanes or torpedoes.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|440
+| style="text-align:center;"|160
+| style="text-align:center;"|30
+| style="text-align:center;"|15
+| style="text-align:center;"|-
+|-
+| style="text-align:center;" |[[Yuubari|Yuubari Kai Ni D]]
+| style="text-align:center;"|CL
+| style="text-align:center;" |<math>\rightarrow</math>
+| style="text-align:center;" |-
+| style="text-align:center;" |[[Yuubari|Yuubari Kai Ni]]
+| style="text-align:center;" |CL
+| style="text-align:center;" |390
+| style="text-align:center;" |420
+| style="text-align:center;" |30
+| style="text-align:center;" |30
+| style="text-align:center;" |-
+| style="text-align:center;" |
+* Kai Ni has a special AACI (API16).
+|-
+| style="text-align:center;"|[[Yuubari|Yuubari Kai Ni]]
+| style="text-align:center;"|CL
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;"|86
+| style="text-align:center;"|[[Yuubari|Yuubari Kai Ni Toku]]
+| style="text-align:center;"|CL
+| style="text-align:center;"|180
+| style="text-align:center;"|630
+| style="text-align:center;"|30
+| style="text-align:center;"|30
+| style="text-align:center;"|-
+| style="text-align:center;"|
+* Kai Ni Toku can equip landing crafts, amphibious tanks and midget submarines.
+|-
+| style="text-align:center;" |[[Yuubari|Yuubari Kai Ni Toku]]
+| style="text-align:center;" |CL
+| style="text-align:center;" |<math>\rightarrow</math>
+| style="text-align:center;" |88
+| style="text-align:center;" |[[Yuubari|Yuubari Kai Ni D]]
+| style="text-align:center;" |CL
+| style="text-align:center;" |480
+| style="text-align:center;" |330
+| style="text-align:center;" |30
+| style="text-align:center;" |30
+| style="text-align:center;" |-
+| style="text-align:center;" |
+* Kai Ni D has innate OASW.
+|-
+| style="text-align:center;" rowspan="2"|[[Yahagi|Yahagi Kai Ni]]
+| style="text-align:center;" rowspan="2"|CL
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|90
+| style="text-align:center;" rowspan="2"|[[Yahagi|Yahagi Kai Ni B]]
+| style="text-align:center;" rowspan="2"|CL
+| style="text-align:center;"|480
+| style="text-align:center;"|880
+| style="text-align:center;"|45
+| style="text-align:center;"|30
+| style="text-align:center;"|-
+| style="text-align:center;" rowspan="2"|
+* Kai Ni can carry amphibious tanks.
+* Kai Ni B can carry amphibious tanks, midget submarines, and seaplane fighters but has slightly smaller plane slots.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|480
+| style="text-align:center;"|880
+| style="text-align:center;"|20
+| style="text-align:center;"|15
+| style="text-align:center;"|-
+|-
+| style="text-align:center;" rowspan="2"|[[Mogami|Mogami Kai Ni]]
+| style="text-align:center;" rowspan="2"|CAV
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|90
+| style="text-align:center;" rowspan="2"|[[Mogami|Mogami Kai Ni Toku]]
+| style="text-align:center;" rowspan="2"|CAV
+| style="text-align:center;"|1700
+| style="text-align:center;"|1300
+| style="text-align:center;"|45
+| style="text-align:center;"|60
+| style="text-align:center;"|-
+| style="text-align:center;" rowspan="2"|
+* Kai Ni has large plane slots for an aviation cruiser.
+* Kai Ni Toku has smaller plane slots but can carry landing crafts, amphibious tanks, and large searchlights.
+* Kai Ni Toku can also carry midget submarines to perform an opening torpedo attack.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|1700
+| style="text-align:center;"|1300
+| style="text-align:center;"|15
+| style="text-align:center;"|40
+| style="text-align:center;"|-
+|-
+| style="text-align:center;" rowspan="2"|[[Suzuya|Suzuya Kai Ni]]
+| style="text-align:center;" rowspan="2"|CAV
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|88
+| style="text-align:center;" rowspan="2"|[[Suzuya|Suzuya Carrier Kai Ni]]
+| style="text-align:center;" rowspan="2"|CVL
+| style="text-align:center;"|800
+| style="text-align:center;"|4700
+| style="text-align:center;"|10
+| style="text-align:center;"|20
+| style="text-align:center;"|1
+| style="text-align:center;" rowspan="2"|
+* Kai Ni is an aviation cruiser.
+* Carrier Kai Ni is a light attack carrier that is not forced to target submarines  when there are surface ships present.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|1300
+| style="text-align:center;"|4500
+| style="text-align:center;"|10
+| style="text-align:center;"|20
+| style="text-align:center;"|-
+|-
+| style="text-align:center;" rowspan="2"|[[Kumano|Kumano Kai Ni]]
+| style="text-align:center;" rowspan="2"|CAV
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|88
+| style="text-align:center;" rowspan="2"|[[Kumano|Kumano Carrier Kai Ni]]
+| style="text-align:center;" rowspan="2"|CVL
+| style="text-align:center;"|800
+| style="text-align:center;"|4700
+| style="text-align:center;"|10
+| style="text-align:center;"|20
+| style="text-align:center;"|1
+| style="text-align:center;" rowspan="2"|
+* Kai Ni is an aviation cruiser.
+* Carrier Kai Ni is a light attack carrier that is not forced to target submarines  when there are surface ships present.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|1300
+| style="text-align:center;"|4500
+| style="text-align:center;"|10
+| style="text-align:center;"|20
+| style="text-align:center;"|-
+|-
+| style="text-align:center;" rowspan="2"|[[Akagi|Akagi Kai Ni]]
+| style="text-align:center;" rowspan="2"|CV
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;"|90
+| style="text-align:center;" rowspan="2"|[[Akagi|Akagi Kai Ni E]]
+| style="text-align:center;" rowspan="2"|CVn
+| style="text-align:center;" rowspan="2"|2000
+| style="text-align:center;" rowspan="2" rowspan="2"|2800
+| style="text-align:center;" rowspan="2"|80
+| style="text-align:center;" rowspan="2"|30
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|
+* Kai Ni is a regular carrier.
+* Kai Ni E is a night carrier that can use planes to attack at night without night operations personnel. 
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|92
+|-
+| style="text-align:center;" |[[Kaga|Kaga Kai Ni Go]]
+| style="text-align:center;" |CV
+| style="text-align:center;" |<math>\rightarrow</math>
+| style="text-align:center;" |-
+| style="text-align:center;" |[[Kaga|Kaga Kai Ni]]
+| style="text-align:center;" |CV
+| style="text-align:center;" |2000
+| style="text-align:center;" |2900
+| style="text-align:center;" |60
+| style="text-align:center;" |30
+| style="text-align:center;" |-
+| style="text-align:center;" |-
+|-
+| style="text-align:center;" |[[Kaga|Kaga Kai Ni]]
+| style="text-align:center;"|CV
+| style="text-align:center;" |<math>\rightarrow</math>
+| style="text-align:center;" |82
+| style="text-align:center;" |[[Kaga|Kaga Kai Ni E]]
+| style="text-align:center;" |CV
+| style="text-align:center;" |1900
+| style="text-align:center;" |2900
+| style="text-align:center;" |88
+| style="text-align:center;" |30
+| style="text-align:center;" |-
+| style="text-align:center;" |
+* Night carrier that can use planes to attack at night without without night operations personnel. 
+|-
+| style="text-align:center;"|[[Kaga|Kaga Kai Ni E]]
+| style="text-align:center;"|CV
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;"|84
+| style="text-align:center;"|[[Kaga|Kaga Kai Ni Go]]
+| style="text-align:center;"|CV
+| style="text-align:center;"|1840
+| style="text-align:center;"|5700
+| style="text-align:center;"|84
+| style="text-align:center;"|84
+| style="text-align:center;"|-
+| style="text-align:center;"|
+* Can equip auto-gyros and jets.
+* Can perform OASW.
+* Can perform weak night attacks like Ark Royal or Graf Zeppelin.
+|-
+| style="text-align:center;" rowspan="2"|[[Shoukaku|Shoukaku Kai Ni]]
+| style="text-align:center;" rowspan="2"|CV
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|88
+| style="text-align:center;" rowspan="2"|[[Shoukaku|Shoukaku Kai Ni A]]
+| style="text-align:center;" rowspan="2"|CVB
+| style="text-align:center;"|1700
+| style="text-align:center;"|5700
+| style="text-align:center;"|15
+| style="text-align:center;"|-
+| style="text-align:center;"|-
+| style="text-align:center;" rowspan="2"|
+* Kai Ni is a regular carrier.
+* Kai Ni A is an armoured carrier that can continue attacking when moderately damaged.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|1200
+| style="text-align:center;"|4500
+| style="text-align:center;"|10
+| style="text-align:center;"|-
+| style="text-align:center;"|-
+|-
+| style="text-align:center;" rowspan="2"|[[Zuikaku|Zuikaku Kai Ni]]
+| style="text-align:center;" rowspan="2"|CV
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|90
+| style="text-align:center;" rowspan="2"|[[Zuikaku|Zuikaku Kai Ni A]]
+| style="text-align:center;" rowspan="2"|CVB
+| style="text-align:center;"|1700
+| style="text-align:center;"|5750
+| style="text-align:center;"|15
+| style="text-align:center;"|-
+| style="text-align:center;"|-
+| style="text-align:center;" rowspan="2"|
+* Kai Ni is a regular carrier.
+* Kai Ni A is an armoured carrier that can continue attacking when moderately damaged.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|1200
+| style="text-align:center;"|4550
+| style="text-align:center;"|10
+| style="text-align:center;"|-
+| style="text-align:center;"|-
+|-
+| style="text-align:center;" rowspan="2"|[[Saratoga|Saratoga Mk.II]]
+| style="text-align:center;" rowspan="2"|CVn
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;"|85
+| style="text-align:center;" rowspan="2"|[[Saratoga|Saratoga Mk.II mod.2]]
+| style="text-align:center;" rowspan="2"|CVB
+| style="text-align:center;" rowspan="2"|2500
+| style="text-align:center;" rowspan="2"|5500
+| style="text-align:center;" rowspan="2"|20
+| style="text-align:center;" rowspan="2"|30
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|
+* Mk.II is a night carrier that can attack at night with planes without night operations personnel. 
+* Mk.II mod.2 is an armoured carrier that can continue attacking when moderately damaged.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|90
+|-
+| style="text-align:center;" rowspan="2"|[[Ryuuhou|Ryuuhou Kai Ni E]]
+| style="text-align:center;" rowspan="2"|CVL
+| style="text-align:center;"|<math>\rightarrow</math>
+| style="text-align:center;" rowspan="2"|88
+| style="text-align:center;" rowspan="2"|[[Ryuuhou|Ryuuhou Kai Ni]]
+| style="text-align:center;" rowspan="2"|CVL
+| style="text-align:center;"|980
+| style="text-align:center;"|700
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|20
+| style="text-align:center;" rowspan="2"|-
+| style="text-align:center;" rowspan="2"|
+* Ryuuhou Kai Ni E is a night light carrier that can use planes to attack at night without night operations personnel.
+* Ryuuhou Kai Ni is a standard light carrier with larger plane slots and fast speed.
+|-
+| style="text-align:center;"|<math>\leftarrow</math>
+| style="text-align:center;"|500
+| style="text-align:center;"|770
+|-
+| style="text-align:center;"|[[Zuihou|Zuihou Kai Ni]]
+| style="text-align:center;"|CVL
+| style="text-align:center;"|<math>\leftrightarrow</math>
+| style="text-align:center;"|80
+| style="text-align:center;"|[[Zuihou|Zuihou Kai Ni B]]
+| style="text-align:center;"|CVL
+| style="text-align:center;"|180
+| style="text-align:center;"|80
+| style="text-align:center;"|5
+| style="text-align:center;"|20
+| style="text-align:center;"|-
+| style="text-align:center;"|
+* Kai Ni is a regular light carrier.
+* Kai Ni B is an ASW focused remodel that can perform OASW at a lower threshold.
+|-
+|}
+
+=Stats On Remodeling=
+[[File:Ooi_after.jpg|right|220px]]
+Upon remodeling, you will find that the stats do not match the minimums stated in the individual ship girl pages. This is because the minimums listed are the stats for that remodel at '''level 1'''. Since remodels do not occur at level 1, the actual minimums differ. Please see [[Stats#Stat Growth|the stats page]] for more details.
+
+=See Also=
+[[Remodel/Reference Tables|Remodel Reference Table]]
+{{Mechanics}}

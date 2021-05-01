@@ -1,0 +1,71 @@
+<noinclude>{{Documentation subpage}}</noinclude>
+This template should be used in articles about doujin circles. It handles formatting and categorization.
+
+Furthermore, the staff of this wiki would like to thank [http://en.touhouwiki.net/wiki/Touhou_Wiki TouhouWiki] for letting us use their template for our own purposes.
+
+==Usage==
+Very short description of each parameter. See below for more detailed information. Be sure to check examples first.
+<pre>
+{{Circle
+| arrangement =Y. Remove this if the group does NOT make music CDs
+| game        =Y. Remove this if the group does NOT make fangames
+| name        =Circle's name
+| name_en     =Translated name, if applicable.
+| logo        =A pretty image, in most cases the circle's official logo
+| intro       =Short intro to the circle
+| dates       =Years they've been active
+| url         =A link to their website
+| genre       =Types of music the circle produces
+| members     =Members of the group
+| description =A short description
+| games       =List of games
+| printworks  =List of print works
+| album1      =List of numbered parameters (album1, album2...) with their albums
+| additional_sections = Text to be put after album list.
+}}</pre>
+'''Note:''' The following categories and template works automatic within the template:
+:<nowiki>[[Category:Doujin Circle/Arrangement]]</nowiki>, <nowiki>[[Category:Doujin Circle/Game]]</nowiki>, their own category, their album category (e.g. <tt>Buta-Otome Albums</tt>)
+'''Note:''' Use of the <tt>arrange</tt> parameter is deprecated. Please use <tt>arrangement</tt> instead, and update any articles using this template appropriately.
+
+==Parameters==
+; arrangement
+: If the group makes music CD's then include this parameter. Otherwise remove the whole parameter.
+; game
+: If the group makes fangames then include this parameter. Otherwise remove the whole parameter.
+; name
+: The name of the group.
+; name_en
+: If the name of the group is in Japanese, this is where you supply an English title.
+; logo
+: The name of an image to display as their logo.
+; intro
+: The first text that appears on the page. It should be a short description.
+; dates
+: No need to go into detail. Just write something along the lines of ''2008 - Current''.
+; url
+: Don't make this an actual link, just supply the url to their website.
+; members
+: Add every members with a " : " in front of the name.
+:: e.g.: <nowiki>:ランコ (Ranko) — Vocals</nowiki>
+; description
+: More in-depth information on the group.
+; genre
+: Use the [[Template:Genre|Genre]] template to link to different genres.
+:: Example:
+<pre>
+|genre = {{Genre|Electronic}}, {{Genre|Instrumental}}, {{Genre|Trance}}
+</pre>
+; description
+: A short description of the circle.
+; games
+: List the games the group has made. Only works if the ''game'' parameter is included.
+:: e.g.: <tt><nowiki>*[[Touhou Sky Fight|東方スカイファイト]] (2010)</nowiki></tt>
+; printworks
+: List the print works the group has made. Use same example as 'game'.
+; album1, album2, ...
+: A list of numbered parameters named using format album1, album2 and so forth (numbering must start with '1', no numbers can be skipped) that show which album(s) the circle have released. They should be written using the [[Template:DiscographyItem|DiscographyItem]] template. This parameter will only work if the ''arrangement'' parameter is included.
+:: Example:
+<pre>
+|album1 = {{DiscographyItem|000|ENS-0000.jpg|2008-11-02|Touhou Kouroumu 4|Off-vocal versions of 4 tracks that would later appear on [[Lyrical Crimson]] with vocals.}}
+|album2 = {{DiscographyItem|Lyrical Crimson|ENS-0001.jpg|2008-12-29|Comiket 75}}
+</pre>

@@ -1,0 +1,398 @@
+Oi mate, this is Coburn's Sandbox.
+
+{| style="color: white; background:#DC143C; width:100%; padding:10px; margin:20px; border:1px solid gray; border-radius:10px;"
+| valign="center"|  [[File:Disambiguation.png|left|60px]]  '''Caution: Torpedoes Dead Ahead'''  
+Oh gawd, it looks like big 'ol daddy Tanaka has broken the map system again. Goddamnit, when will they learn?!
+|}
+
+{| style="color: black; background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); width:100%; padding:10px; margin:20px; border:1px solid gray; border-radius:10px;"
+| valign="center"|  [[File:Disambiguation.png|left|60px]]  '''OwO what's this?'''  
+JerFactor
+|}
+
+-----
+Removed CSS: <pre>border:1px solid black</pre>
+{| style="float:right;"
+ | <tabber>
+ Boobies=
+ {{KanmusuInfo|ID=277}}
+|-|
+ Bad Arm Kai=
+ {{KanmusuInfo|ID=028a}}
+|-|
+ Bad Arm=
+ {{KanmusuInfo|ID=028}}
+</tabber>
+|}
+== Scratchpad ==
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform AACI at Kai Ni. Please see [[Aerial_Combat#Anti-Air_Cut-In|Anti-Air Cut-In]] for more details.
+
+===Overview===
+'''Kai'''
+* Average firepower, torpedo, HP and armour.
+* Low ASW.
+
+'''Kai Ni'''
+* Average firepower, torpedo, ASW, HP and armour.
+
+===Fit Bonuses===
+{{GunfitHeader}}
+{{Gunfit
+|EquipmentName= 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)
+|Firepower= -3
+|Anti-Air= -3
+|Evasion=-8
+|Notes= 
+}}
+{{Gunfit
+|EquipmentName= GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)
+|Firepower= -3
+|Anti-Air= -3
+|Evasion=-8
+|Notes= 
+}}
+|}
+
+'''Hidden Fit Bonuses'''
+* She has accuracy and firepower bonuses when equipped with certain medium guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+'''Tenryuu Kai'''
+
+Priority: '''Medium-Low'''
+
+:At first remodel, she has destroyer-tier Torpedo, slightly higher Firepower but cannot equip seaplanes, making her one of the few light cruisers unable to perform [[Artillery Spotting]], thus limiting her efficacy in surface combat.
+:Her low resource consumption makes her very suitable for expeditions, though.
+:Furthermore, a decent ASW stat makes able to perform OASW at high-but-before-marriage levels with proper gear.
+
+
+'''Tenryuu Kai Ni''' 
+
+Priority: '''Low'''
+:Her second remodel comes with only marginal stat increases except for a massive +40 AA boost, allowing her to perform in an anti-air role as well.
+:Please note that, while she gains her own unique [[Anti-Air Cut-In]] attacks, those are inferior to the standard one and there's almost never a reason to use them.
+:Unlike her sister [[Tatsuta]], she cannot be loaded with [[Daihatsu]].
+
+====Recommended Roles====
+* Expeditions
+* ASW
+* Anti-air (Second remodel)
+
+===Important Info===
+* Required for A8, A20, A24, A50, A51, A89, B11, B16, B41, B43, and B120.
+* An option for BQ7.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = オレの名は天龍。フフフ、怖いか？
+|translation = My name is Tenryuu. Fufufu, ya scared?
+|audio = Tenryuu-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 天龍型1番艦、天龍だ。
+駆逐艦を束ねて、殴り込みの水雷戦隊を率いるぜ。
+相棒は、同型艦の龍田だ。あいつ、ちゃんとやってるかな？ま、いいけどな。
+|translation = I'm the 1st ship of the Tenryuu-class, Tenryuu.
+I'll take charge of the destroyers and lead them on an assault in a Torpedo Squadron.<ref>Light cruisers in the IJN were designed as destroyer leaders and were flagships of the torpedo squadrons.</ref>
+My partner is Tatsuta from the same class. I wonder if she's doing her duty properly? Well, I guess that's fine.
+|audio = Tenryuu-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 何だ？…戦闘か？
+|translation = What is it? ...A battle?
+|audio = Tenryuu-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai2 = yes
+|origin = そこなっくちゃな。
+|translation = I gotta get going.
+|audio = TenryuuKaiNi-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 夜戦に行くならオレを外すなよ！
+|translation = Don't leave me behind if you're going on a night battle!<ref>At the [https://en.wikipedia.org/wiki/Battle_of_Savo_Island Battle of Savo Island] she is credited with sinking the heavy cruiser [https://en.wikipedia.org/wiki/USS_Quincy_(CA-39) USS Quincy] during a night battle.</ref>
+|audio = Tenryuu-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = オレの装備が気になるか？世界水準軽く超えてるからなぁ～！…何？古いって！？…バカなっ。
+|translation = Are you interested in my equipment? I mean, they do easily surpass world-class standards! ...What? "They're old"!? ...Not at all.<ref>Her main and secondary batteries consisted of guns introduced in World War 1.</ref>
+|audio = Tenryuu-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = オラオラ！速くオレに作戦をくれよ！体が鈍っちまうぜ。
+|translation = Hey hey! Hurry up and send me on an operation! I'll grow weak.
+|audio = TenryuuKai-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai = yes
+|origin = んあっ？まあ提督って奴はこういうもんだよなぁ。いいぜ！
+|translation = What? Well, I guess you're this sort of person, Admiral. That's fine!
+|audio = TenryuuKai-Secretary Married.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = ふははっ、オレの強さに惚れたか？…あ？強さじゃなくて、オレ自身に！？…ははっ、昼間に夢見んなよな！？
+|translation =Fuhaha~, did you fall madly in love with my strength? ...Ah? Not my strength but me!? ...Haha, are you daydreaming!?
+|audio = Tenryuu-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 手紙だ、ちゃっちゃと読め。
+|translation = It's a letter, hurry up and read it.
+|audio = Tenryuu-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 天龍、水雷戦隊、出撃するぜ！
+|translation = Tenryuu, torpedo squadron, sortieing!
+|audio = Tenryuu-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = オレをこんなに強化しちゃって大丈夫かぁ～？<ref>Shared with Supply before Kai.</ref>
+|translation = Is it alright to reinforce me this much?
+|audio = Tenryuu-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = これこれ！こういうの欲しかったんだよ！早くブッ放してぇなぁ。
+|translation = This is it! I wanted something like this! Give it to me now.
+|audio = Tenryuu-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = よっしゃぁっ！<ref>Shared with Secretary Married before Kai.</ref>
+|translation = Alright~!
+|audio = Tenryuu-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = yes
+|origin = おう！もらっとくぜ！
+|translation = Ou! I accept this!
+|audio = TenryuuKai-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = こら！オレを第一線から下げるなっての！
+|translation = Hey! Don't take me off the front lines!
+|audio = Tenryuu-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = おい！オレを戦線離脱させるな！死ぬまで戦わせろよ！
+|translation = Oi! Don't make me withdraw from the battlefield! Let me fight till I die!
+|audio = Tenryuu-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新参者の登場だってよ。
+|translation = Some newcomers have arrived.
+|audio = Tenryuu-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = やっと作戦完了で艦隊帰投か～。おっせぇなぁ、ちゃっちゃとやれよ～。
+|translation = The operation is finally over and the fleet has returned to port~ So slow~ hurry it up~
+|audio = Tenryuu-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = そう来なくっちゃなぁ、抜錨だっ！
+|translation = Now that's what I'm talking about, set sail!
+|audio = Tenryuu-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 天龍様の攻撃だ！うっしゃぁっ！
+|translation = It's time for the great me to attack! Let's do this!
+|audio = Tenryuu-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 怖くて声も出ねぇかァ？オラオラ！
+|translation = You so scared you can't make a sound? Hey hey!
+|audio = Tenryuu-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|origin = 硝煙の匂いが最高だなぁオイ！
+|translation = The smell of gunpowder is the best oi!
+|audio = Tenryuu-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 夜戦突入だ！ビビってんじゃねぇぞ！
+|translation = We're charging into night battle! Don't be scared!
+|audio = Tenryuu-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|kai2 = yes
+|origin = よし、この天龍様の突撃を見せる時だな!
+|translation = Alright, it's time to show you my grand charge!
+|audio = TenryuuKaiNi-NightBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = たりめーだろ！オレが一番強いんだからよ！
+|translation = Of course! I'm the strongest after all!
+|audio = Tenryuu-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = ぐうっ！
+|translation = Gah!
+|audio = Tenryuu-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = クソがっ！
+|translation = Damnit!
+|audio = Tenryuu-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = このオレがここまで剥かれるとはな…いい腕じゃねぇか、褒めてやるよ。
+|translation = I praise you for being... able to reduce me to such a state. Not bad.
+|audio = Tenryuu-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = チィッ…これじゃあ前にも後にも進めねぇな…龍田…悪ぃ…先に逝くぜ…
+|translation = Tch... I can't advance or retreat... Tatsuta... my bad... I'm going first...
+|audio = Tenryuu-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2015|Rainy Season 2015]]
+|origin = 提督、出掛けるのか？今日は傘持って出た方がいいぜ。と、オレの電探が言ってる。
+|translation =	Are you going out, Admiral? You should bring an umbrella with you today. Is what my radar says.
+|audio = Tenryuu_Rainy_Secretary_1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Mid_Summer_Season_Update|Midsummer 2015]]
+|origin = よっしゃーーー！夏だぜ！全員水着で浜辺に集合だ！ボールを使った特訓をするぜ！ネットの高さは駆逐に合わせてやれ！
+|translation =	Alright~! It’s summer! Everyone gather on the beach in swimsuits! We’ll have special training using a ball! Adjust the height of the net for the destroyers!
+|audio = Tenryuu_Mid_Summer.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = 今年もいよいよ終わりだな。提督、今年は一緒に除夜の鐘にでも突くに行こうぜ！
+|translation =	The year is finally over. Let’s go ring the New Year’s bell together, Admiral!<ref>Joya no kane, or New Years Eve bell, is a temple bell that's rung 108 times on New Years Eve.</ref>
+|audio = Tenryuu_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 提督、あけましておめでとうだなぁ。今年もよろしくな。 まぁ、オレの強さをたっぷりとみせつけてやるからよぉ。ふふん、そうよ！
+|translation =	Happy New Year, Admiral. Take care of me this year. Well, I’ll show you my full strength. Fufun, I will!
+|audio = Tenryuu_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = いて！いてててて！ なんで皆オレに豆投げてんだよ！？こら！「鬼なのです」じゃねえよ！？これは角じぇねえし…おいこら龍田！豆配るのやめろ！
+|translation =	Ow! Owowowow! Why are all of you throwing beans at me!? Hey! The hell do you mean by “Because you’re the Oni”!? There aren’t horns… Oi, Tatsuta! Stop handing out beans!
+|audio = Tenryuu_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = よぉ、提督！待ちかねたぜ。俺の世界水準を軽く超えたチョコやるよ。…手が冷えてるって？そ、そんなに長時間待ってねぇよ！
+|translation =	Yo, Admiral! I’ve been waiting for you. I have some of my beyond-world-class chocolates for you. …My hands are cold? I-I haven’t been waiting here long!
+|audio = Tenryuu_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = おぉ、提督、なんだよ？俺になんかくれるのか？ …あぁ…あぁ…あり…ありがとな。
+|translation =	Oh, what’s up, Admiral? Do you have something for me? …Th… Th… Than… Thank you.
+|audio = Tenryuu_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 提督、三周年おめでとうだぜ！まあ、よく三年も俺の強さに耐えたな。やるな！
+|translation =	Congratulations on the 3rd Anniversary, Commander! Well, you’ve been able to keep up with my strength for 3 years. Not bad!
+|audio = Tenryuu_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2016|Autumn 2016]]
+|origin = 秋の気配っちゅぅか、どっぷり秋だな。詩でも書くか…って、おい龍田、笑いすぎだろ！
+|translation =	The signs tells me that it’s really autumn now. I should write a poem… Oi, you’re laughing too much, Tatsuta!
+|audio = Tenryuu_Autumn_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 提督、四周年おめでとうだぜ。まあ、よく四年もオレの強さと恐怖に耐えたなぁ。フフン、怖いか？
+|translation =	Congratulations on the 4th Anniversary, Admiral. Well, you’ve put up with my strength and fearsomeness for 4 years now. Fufu, ya scared?
+|audio = Tenryuu_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = おぉ、今日は特別なんだってな。ど特別なのかって？俺が知るかよ？仕方ねな、一緒にいてやるよ。仕方ねな。
+|translation =	Oh, today is a special day. How is it special? How should I know? Fine then, I’ll spend it with you. Can’t be helped.
+|audio = Tenryuu_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+|}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+51 3.png|Base
+51 4.png|Base Damaged
+KanMusu277CG.png|Kai Ni
+KanMusu277CGDmg.png|Kai Ni Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+28_Tenryuu_Summer.png|[[Seasonal/Mid_Summer_Season_Update|Midsummer 2015]]
+28_Tenryuu_Summer_Dmg.png|[[Seasonal/Mid_Summer_Season_Update|Midsummer 2015 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Tenryuu}}
+
+==Trivia==
+*She is named after the [https://en.wikipedia.org/wiki/Tenry%C5%AB_River Tenryuu River].
+* See [[Glossary#Tenryuu_Kindergarten|Tenryuu Kindergarten]]
+*Sunk by [http://en.wikipedia.org/wiki/USS_Albacore_(SS-218) USS ''Albacore'' (SS-218)] 18 of December of 1942, off [http://en.wikipedia.org/wiki/Madang Madang],[http://en.wikipedia.org/wiki/New_Guinea New Guinea]
+
+==See Also==
+*[[EliteCL|List of light cruisers]]
+*[[wikipedia:Japanese_cruiser_Tenryū|Wikipedia entry on cruiser Tenryuu]]
+{{Shiplist}}
+[[zh:天龙]]

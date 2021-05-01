@@ -1,0 +1,159 @@
+==Quick List==
+{{Shiplist}}
+{{clear}}
+
+==Ship Type Identification==
+{| class="wikitable"
+|-
+!colspan=2|[[Glossary#Class classification|Class]]
+!colspan=2|Abbreviation
+![[Combat#Common Setups|Combat Notes]]
+|-
+|駆逐艦
+|[[List of destroyers by upgraded maximum stats|Destroyer]]
+|駆逐
+|DD
+|High evasion, low resource consumption, & [[List of Anti-Submarine Equipment by stats|ASW-capable]], but lacks armor & firepower.
+|-
+|海防艦
+|[[List of destroyer escorts by upgraded maximum stats|Destroyer Escort]]
+|駆逐
+|DE
+|Can OASW at 60 ASW.
+|-
+|軽巡洋艦
+|[[List of light cruisers by upgraded maximum stats|Light Cruiser]]
+|軽巡
+|CL
+|Very flexible. Utilizes [[Equipment|medium main guns]], [[List of Anti-Submarine Equipment by stats|ASW]], & [[Combat#Combat Equipment Setups|artillery spotting]].
+|-
+|style=white-space:nowrap|重雷装巡洋艦
+|[[List of light cruisers by upgraded maximum stats|Torpedo Cruiser]]
+|雷巡
+|CLT*
+|Can equip [[Type A Ko-hyoteki]] to enable the [[Combat#Combat Stages|opening torpedo attack]].
+|-
+|重巡洋艦
+|[[List of heavy cruisers by upgraded maximum stats|Heavy Cruiser]]
+|重巡
+|CA
+|Stronger in surface combat than light cruisers at the expense of [[List of Anti-Submarine Equipment by stats|ASW]].
+|-
+|航空巡洋艦
+|[[EliteCAV|Aviation Cruiser]]
+|航巡
+|CAV*
+|A CA that is capable of initiating [[Combat#Fighter Combat|fighter combat]] to enable [[Combat#Combat Equipment Setups|artillery spotting]] & ASW via [[List of Seaplanes by stats|seaplane bombers]].
+|-
+|rowspan=2|戦艦
+|[[List of battleships by upgraded maximum stats|Battleship]]
+|rowspan=2|戦
+|rowspan=2|BB
+|Utilizes [[Equipment|high-caliber main guns]], heavy armor, & the [[Combat#Combat Stages|second shelling phase]]. Lacks ASW & torpedo attacks.
+|-
+|[[List of battleships by upgraded maximum stats|Fast Battleship]]
+|The [[:Category:Kongou Class|Kongou-class]] & [[Bismarck]]. Has faster [[Docking|repair times]].
+|-
+|航空戦艦
+|[[List of Aviation Battleships by upgraded maximum stats|Aviation Battleship]]
+|航戦
+|BBV*
+|Has ASW via [[List of Seaplanes by stats|seaplane bombers]] & can initiate [[Combat#Fighter Combat|fighter combat]] to enable [[Combat#Combat Equipment Setups|artillery spotting]].
+|-
+|正規空母
+|[[List of fleet standard aircraft carriers by upgraded maximum stats|Standard Aircraft Carrier]]
+|空母
+|CV
+|Achieves [[Combat#Fighter Combat|air superiority]] by [[List of Fighters by stats|fighters]]. Cannot attack during night battle. Must equip with [[Glossary#Equipment|bombers]] to enable [[Combat#Day Combat|regular attacks]].
+|-
+|装甲空母
+|[[List of fleet standard aircraft carriers by upgraded maximum stats|Armored Aircraft Carrier]]
+|装母
+|CVB
+|Armored Aircraft Carriers can still attack with [[Combat#Day Combat|moderate hull damage]].
+|-
+|軽空母
+|[[List of light aircraft carriers by upgraded maximum stats|Light Aircraft Carrier]]
+|軽母
+|CVL
+|Weaker than standard carriers, but capable of attacking submarines.
+|-
+|水上機母艦
+|[[List of seaplane tenders by upgraded maximum stats|Seaplane Tender]]
+|水母
+|AV
+|The [[:Category:Chitose Class|Chitose-class]]' basic form and [[Mizuho]]. Can participate in all [[Combat#Combat Stages|day attack stages]] given the correct setup.
+|-
+|潜水艦
+|[[List of submarines by upgraded maximum stats|Submarine]]
+|潜
+|SS
+|Limited to [[Combat#Combat Stages|both torpedo phases &amp; night battle]]. Only ships with [[List of Anti-Submarine Equipment by stats|ASW]] can attack them.
+|-
+|潜水空母
+|[[List of submarines by upgraded maximum stats|Submarine Aircraft Carrier]]
+|潜母
+|SSV*
+|Some submarines can equip [[List of Seaplanes by stats|seaplanes]].
+|-
+|揚陸艦
+|[[Auxiliary Ships|Amphibious Assault Ship]]
+|揚陸
+|LHA*
+|[[Akitsumaru|Akitsu Maru]] comes with a [[Daihatsu-class Landing Craft|Daihatsu]], which increases resource gain from [[expedition]]s.
+|-
+|工作艦
+|[[Auxiliary Ships|Repair Ship]]
+|工
+|AR
+|[[Akashi]] can repair ships while idle. Explained on her page.
+|-
+|潜水母艦
+|[[Auxiliary Ships|Submarine Tender]]
+|潜母艦
+|AS
+|[[Taigei]] is weak, but enables superior pathing in [[World 6|6-1]].
+|-
+|
+|[[Auxiliary Ships|Fleet Oiler]]
+|補給
+|AO
+|[[Hayasui]] can refuel ships mid-sortie and functions as a small AV/CVL.
+|}
+
+;Notes
+* [[Glossary#Class classification|'*' Abbreviations are derived rather than official]]
+* Battleships & Fast Battleships share the hull classification, BB.
+* Light Aircraft Carriers & Standard Aircraft Carriers are termed 正規空母, or Fleet Carriers, to distinguish them from Escort Carriers or other carrier types. This term sometimes refers only to Standard Aircraft Carriers.
+* There are 167 kanmusu (sans remodels & class changes) as of the [[Game_Updates/2015/November_18|November 18th, 2015 update]].
+
+;Exceptions
+* [[:Category:Katori Class|Training Cruisers]] & [[:Category:Torpedo Cruisers|Torpedo Cruisers]] do not count as a [[List of light cruisers by upgraded maximum stats|Light Cruiser]] for [[Expedition|expeditions]] or [[Tutorial: FAQ#Why do I keep getting sent to the wrong place?|branching rules]] requirements.
+* Similarly, [[EliteCAV|Aviation Cruisers]] & [[EliteBBV|Aviation Battleships]] do not count as a [[List of heavy cruisers by upgraded maximum stats|Heavy Cruiser]] & [[List of battleships by upgraded maximum stats|Battleship]], respectively<sup>[[Tutorial: FAQ#Are Kitakami and Ooi first and second remodels considered as CLs for expedition and map requirement purposes?|[0]]]</sup>.
+* The [[:Category:Chitose Class|Chitose-class]]' carrier remodels shifts them from [[List of seaplane tenders by upgraded maximum stats|Seaplane Tenders]] to [[EliteCVL|Light Aircraft Carriers]].
+* [[Taigei]]'s remodel shifts her from a [[Auxiliary Ships|Submarine Tender]] to a [[EliteCVL|Light Aircraft Carrier]].
+
+==Ship Stats==
+*Firepower {{Firepower}}, Torpedo {{Torpedo}}, Anti Air {{AA}}, Armor {{Armor}}, & Luck {{Luck}} can be upgraded by '''[[Modernization]]'''.
+*Firepower {{Firepower}}, Torpedo {{Torpedo}}, Anti Air {{AA}}, Armor {{Armor}}, Anti-Submarine {{ASW}}, Line of Sight {{LOS}}, & Evasion {{Evasion}} will improve from '''leveling up'''.
+*'''[[Marriage|Marrying a ship]]''' will increase her HP {{HP}}, Luck {{Luck}}, & level cap. The increase in level cap allows the ship to have higher Anti-Submarine {{ASW}}, Evasion {{Evasion}}, & Line of Sight {{LOS}}.
+*'''[[Remodel|Ship remodel]]'''
+**'''改''' ('''Kai'''), in Japanese, stands for '''Modified, Revised, Improved, or Altered'''. It's used on all single remodelled ships.
+**'''ニ''' ('''Ni'''), in Japanese, stands for the number '''2''' or ''Second''. It's applied in combination with 改 to ships with a second remodel.
+** '''Zwei''', in German, stands for the number '''2''' or ''Second''. It's applied alone to ships with a second remodel.
+** '''Drei''', in German, stands for the number '''3''' or ''Third''. It's applied alone to ships with a third remodel.
+*** Although German kanmusu have a '''改''', they omit it with '''Zwei''' & '''Drei'''.
+*'''Rarity'''
+**Top-Left: Common
+**Bottom-Right: Ultra-rare
+** Based on [[Merchandise/Supplementary Media#KanColle Ship Girl Catalogue|Kanmusu Catalog]], the ships' rarity classifications are the following: C>SC>R>SR>H>SH
+
+[[File:Rarity colors.jpg|500px]]
+
+Note that other than background color, the metallic symbol on the top left corner may also identify rarity.
+
+==Full List==
+*[[Ship list|Detailed Full List]]
+
+[[Category:Ships]]
+[[Category:Kanmusu]]

@@ -1,0 +1,129 @@
+<div style="background: #ddeeff; border: 2px solid lightblue; width: 100%; min-width: 800px; {{border-radius|16px 8px 16px 8px}};">
+    <table style="border-style: none; width: 100%;">
+        <tr>
+            <td rowspan="2" style="width: 100px; font-size: 20px; font-weight: bold; color: blue; text-align: center; background: seashell; {{border-radius|16px 8px 16px 8px}};">{{{AreaCode|X-Y}}}</td>
+            <td rowspan="2" style="width: 20px"></td>
+            <td lang="ja" xml:lang="ja">'''{{{AreaOrigName|Area}}}'''</td>
+        </tr>
+        <tr>
+            <td>'''{{{AreaTransName|Area}}}'''</td>
+        </tr>
+    </table>
+    <table style="width: 100%;">
+        <tr>
+            <td style="width: 90%"><table>
+                <tr>
+                    <th style="text-align: right; width: 5%"><span class="roundedtitle">&nbsp;Difficulty&nbsp;</span></th>
+                    <td>{{{Difficulty|☆}}}</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" style="text-align: right; white-space: nowrap; vertical-align: baseline;"><span class="roundedtitle">&nbsp;Operation Name&nbsp;</span></th>
+                    <td lang="ja" xml:lang="ja" style="vertical-align: baseline;">{{{OperationOrigName|}}}</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: baseline;">{{{OperationTransName|}}}</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" style="text-align: right; white-space: nowrap; vertical-align: baseline;"><span class="roundedtitle">&nbsp;Operation Content&nbsp;</span></th>
+                    <td lang="ja" xml:lang="ja" style="vertical-align: baseline;">{{{OperationOrigContent|}}}</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: baseline;">{{{OperationTransContent|}}}</td>
+                </tr>
+                <tr>
+                    <th style="text-align: right; white-space: nowrap; vertical-align: baseline;"><span class="roundedtitle">&nbsp;Item(s)&nbsp;</span></th>
+                    <td style="vertical-align: baseline;">{{{Item|None}}}</td>
+                </tr>{{#if: {{{AreaHP|}}}|
+                <tr>
+                    <th style="text-align: right; white-space: nowrap; vertical-align: baseline;"><span class="roundedtitle">&nbsp;Area HP&nbsp;</span></th>
+                    <td style="vertical-align: baseline;">{{{AreaHP}}}</td>
+                </tr>}}{{#if: {{{AreaTP|}}}|
+                <tr>
+                    <th style="text-align: right; white-space: nowrap; vertical-align: baseline;"><span class="roundedtitle">&nbsp;Area TP&nbsp;</span></th>
+                    <td style="vertical-align: baseline;">{{{AreaTP}}}</td>
+                </tr>}}{{#if: {{{AreaClearReward|}}}|
+                <tr>
+                    <th style="text-align: right; white-space: nowrap; vertical-align: baseline;"><span class="roundedtitle">&nbsp;Clear Rewards&nbsp;</span></th>
+                    <td style="vertical-align: baseline;">{{{AreaClearReward}}}</td>
+                </tr>}}{{#if: {{{SortieLimitation|}}}|
+                <tr>
+                    <th style="text-align: right; white-space: nowrap; vertical-align: baseline;"><span class="roundedtitle">&nbsp;Sortie Limitation&nbsp;</span></th>
+                    <td style="vertical-align: baseline;">{{{SortieLimitation}}}</td>
+                </tr>}}{{#if: {{{Remarks|}}}|
+                <tr>
+                    <th style="text-align: right; white-space: nowrap; vertical-align: baseline;"><span class="roundedtitle">&nbsp;Remarks&nbsp;</span></th>
+                    <td style="vertical-align: baseline;">{{{Remarks}}}</td>
+                </tr>}}{{#if: {{{EventCommonRewards|}}}|
+                <tr>
+                    <th style="text-align: right; white-space: nowrap; vertical-align: top;"><span class="roundedtitle">&nbsp;Clear Rewards&nbsp;</span></th>
+                    <td>{{#if: {{{EventOpARewards|}}}|
+                        <table style="background: #ddddff; border-width: 2px; border-style: solid; border-color: lightblue; {{border-radius|8px 8px 8px 8px}};">
+                            <tr>
+                                <th style="text-align: right; white-space: nowrap;" rowspan="3">Common</th>
+                                <td rowspan="3" style="border-right: 2px solid lightblue;">{{{EventCommonRewards}}}</td>
+                                <th style="text-align: right; white-space: nowrap;">Operation A</th>
+                                <td>{{{EventOpARewards}}}</td>
+                            </tr>
+                            <tr>
+                                <th style="text-align: right; white-space: nowrap; border-top: 2px solid lightblue;">Operation B</th>
+                                <td style="border-top: 2px solid lightblue;">{{{EventOpBRewards}}}</td>
+                            </tr>
+                            <tr>
+                                <th style="text-align: right; white-space: nowrap; border-top: 2px solid lightblue;">Operation C</th>
+                                <td style="border-top: 2px solid lightblue;">{{{EventOpCRewards}}}</td>
+                            </tr>
+                        </table>|{{{EventCommonRewards}}}}}</td>
+                </tr>}}
+            </table></td>
+            <td style="vertical-align: top; text-align: right;">[[File:MapBanner{{{MapAreaCode|0-0}}}.png|{{{AreaTransName|}}}]]<br />[[File:Map{{{MapAreaCode|Banner0-0}}}.png|400px|{{{AreaTransName|}}}]]</td>
+        </tr>
+    </table>
+    <div class="mw-collapsible" style="width: 90%; border: 1px solid lightblue; {{border-radius|5px 5px 5px 5px}}; background-color: #ddddff; text-align: center; font-size: 90%; min-width: 800px;">
+        <div class="mw-collapsible-toggle" style="float: none; text-align: center;">'''Branching Rules▼'''</div>
+        <div class="mw-collapsible-content" style="text-align: left;"><table style="width: 100%;">
+            <tr>
+                <th style="width: 100px; white-space: nowrap; border: 1px solid blue; {{border-radius|10px 0 0 5px}} background-color: #ffffff;">Starting Node</th>
+                <th style="width: 100px; white-space: nowrap; border: 1px solid blue; background-color: #ffffff;">Split</th>
+                <th style="white-space: nowrap; border: 1px solid blue; {{border-radius|0 5px 10px 0}} background-color: #ffffff;">Conditions</th>
+            </tr><!--
+-->{{{BranchTable|            <tr><td colspan="3" style="text-align: center">''N/A''</td></tr>}}}<!--
+     --></table></div>
+    </div>
+    <div class="mw-collapsible" style="width: 90%; border: 1px solid lightblue; {{border-radius|5px 5px 5px 5px}}; background-color: #ddddff; text-align: center; font-size: 90%;">
+        <div class="mw-collapsible-toggle" style="float: none; text-align: center;">'''Tips▼'''</div>
+        <div class="mw-collapsible-content" style="text-align: left;">
+{{{Tips|            <div style="text-align: center">''N/A''</div>}}}
+        </div>
+    </div>
+    <div class="mw-collapsible mw-collapsed" style="width: 90%; border: 1px solid lightblue; {{border-radius|5px 5px 5px 5px}}; background-color:  #ddddff; text-align: center; font-size: 90%;">
+        <div class="mw-collapsible-toggle" style="float: none; text-align: center;">'''Enemy Data▼'''</div>
+        <div class="mw-collapsible-content" style="text-align: left;">{{#if: {{{EventOpARewards|}}}|{{#tag:tabber|
+Operation A (Hard)=<table style="width: 100%;">
+            {{{OpAEnemyData|<tr><td colspan="3" style="text-align: center">''N/A''</td></tr>}}}<!--
+   --></table>
+{{!}}-{{!}}
+Operation B (Normal)=<table style="width: 100%;">
+            {{{OpBEnemyData|<tr><td colspan="3" style="text-align: center">''N/A''</td></tr>}}}<!--
+   --></table>
+{{!}}-{{!}}
+Operation C (Easy)=<table style="width: 100%;">
+            {{{OpCEnemyData|<tr><td colspan="3" style="text-align: center">''N/A''</td></tr>}}}<!--
+   --></table>
+}}|<table style="width: 100%;">
+            {{{EnemyData|<tr><td colspan="3" style="text-align: center">''N/A''</td></tr>}}}<!--
+   --></table>}}
+        </div>
+    </div>
+    <div class="mw-collapsible" style="width: 90%; border: 1px solid lightblue; background-color:  #ddddff; text-align: center; font-size: 90%;">
+        <div class="mw-collapsible-toggle" style="float: none; text-align: center;">'''KanMusu Drops▼'''</div>
+        <div class="mw-collapsible-content" style="text-align: left;"><table class="wikitable" style="width: 100%; {{border-radius|16px 8px 16px 8px}};">
+            <tr>
+                <th style="width: 100px; white-space: nowrap;">Node</th>
+                <th>Drops</th>
+            </tr><!--
+-->{{{DropTable|            <tr><td colspan="3" style="text-align: center">''N/A''</td></tr>}}}<!--
+     --></table></div>
+    </div>
+</div><noinclude><!--PLEASE DO NOT ADD DOCUMENTATION/CATEGORIES/INTERWIKIS HERE-->
+{{Documentation}}
+<!--MAKE ADDITIONS TO THE /doc SUBPAGE INSTEAD, THANKS--></noinclude>

@@ -1,0 +1,337 @@
+==Info==
+{{KanmusuInfo|ID=035}}
+{{KanmusuInfo|ID=035a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+N/A
+
+===Overview===
+'''Kai'''
+* Low firepower, torpedo, HP and armour.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Low'''
+
+:At first remodel, she has low firepower and a decent torpedo stat, making her hitting harder in night battle than at day, but not great at either.
+:While not impressive in combat, do keep in mind than many maps require you to bring at least a few destroyers for routing.
+
+:Furthermore, destroyers are cheap to deploy and can equip [[Drum Canister]], making them suited for expeditions.
+:In particular, she and her sister ships consume a little less ammo than your average DD, therefore increasing net resource gain.
+
+:No further remodels have been implemented for her yet (as of January 2020). 
+
+
+
+====Recommended Roles====
+* Expeditions
+
+====Not Recommended Roles====
+* Surface combat
+
+===Important Information===
+* Required for A49, A79, B39 and B104.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 長月だ。駆逐艦と侮るなよ。役に立つはずだ。
+|translation = I'm Nagatsuki. Don't underestimate destroyers. We should all be useful.
+|audio = Nagatsuki-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 睦月型8番艦だ。
+東南アジア方面の攻略作戦後は、船団護衛を任されていた。
+コロンバンガラ島への揚陸作戦では敵艦の襲撃を受けながら奮戦したよ。
+|translation = I'm the 8th ship of the Mutsuki-class.
+After the invasion in South East Asia, I was given convoy escort duties.<ref>Following her participation in the https://en.wikipedia.org/wiki/Philippines_Campaign_(1941%E2%80%9342) Philippines Campaign] and the [https://en.wikipedia.org/wiki/Battle_of_Java_(1942) Battle of Java], she was given Tokyo Express duties around the Solomons.</ref>
+I fought hard while receiving enemy attacks during the landing at Kolombangara.
+|audio = Nagatsuki-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 何だ、司令官？
+|translation = What is it Commander?
+|audio = Nagatsuki-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 重要な話か？
+|translation = Is it something important?
+|audio = Nagatsuki-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = へ、変なところ触るんじゃない！
+|translation = Eh, don't touch me in strange places!
+|audio = Nagatsuki-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = 司令官、その…なんだ、…長月は、ここに控えているからな。
+|translation = Comander, that's... well... I'll be waiting over here.
+|audio = NagatsukiKai-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai = yes
+|origin = うっうぅ、ちょっ、……近くないかっ！？なんでっそんなに見るんだ……う、ぃ……恥ずかしい……精神攻撃か！？ 新しい、訓練かぁ！？
+|translation = Nnghh, wa... aren't you too close!? What are you staring at... Ngh... This is embarassing... Is this pyschological warfare!? A new kind of training!?
+|audio = NagatsukiKai-Secretary Married.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = あんまり、頼りにされても…困る…わけないだろ？　あんたは別だよ、司令官！っふふ。
+|translation = I won't be... bothered... if you rely on me you know? You're an exception Commander. Fufu~
+|audio = Nagatsuki-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 報せが届いている。
+|translation = Some news has arrived.
+|audio = Nagatsuki-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 作戦を頭に叩き込んだな？さぁ行くぞ！
+|translation = Do you have the strategy hammered out? Then let's go!
+|audio = Nagatsuki-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = おお、こいつはいいな。<ref>Shared with Supply before kai.</ref>
+|translation = Ooh, this is nice.
+|audio = Nagatsuki-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = これまで以上に頑張らないとな。
+|translation = I'll have to work harder than ever.
+|audio = Nagatsuki-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = こいつはいいな。<ref>Shared with Secretary Married before kai.</ref>
+|translation =  This is nice.
+|audio = Nagatsuki-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = yes
+|origin = 助かる。
+|translation = This helps.
+|audio = NagatsukiKai-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 休息など必要ないが。。。
+|translation = I don't need a rest but...
+|audio = Nagatsuki-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 命令であれば、休もうか。
+|translation = If it's an order, I'll go rest.
+|audio = Nagatsuki-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい仲間か。楽しみだな。
+|translation = A new comrade huh. I'm looking forward to seeing her.
+|audio = Nagatsuki-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 作戦完了だ。
+|translation = Operation complete.
+|audio = Nagatsuki-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = みな、準備はいいな！？
+|translation = Are you ready everyone!?
+|audio = Nagatsuki-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 長月、突撃する！
+|translation = Nagatsuki, charging in!
+|audio = Nagatsuki-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 右、砲雷撃戦用意！
+|translation = Starboard prepare for combat!
+|audio = Nagatsuki-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|origin = 酸素魚雷の力、思い知れ！
+|translation = Feel the power of oxygen torpedoes!<ref>Nagatsuki helped sink the [https://en.wikipedia.org/wiki/USS_Strong_(DD-467) USS Strong] with her torpedoes.</ref>
+|audio = Nagatsuki-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 久々に本気になったよ！我に続け！
+|translation = It's been a while since I got serious! I'll keep going!
+|audio = Nagatsuki-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = どんなに仲間が増えようと、私を凌駕する艦はいないようだな。
+|translation = No matter how many new comrades I get, no one seems to be able to surpass me.
+|audio = Nagatsuki-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = ああっ！？
+|translation = Aaah!?
+|audio = Nagatsuki-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = くっそぉ…やるな！
+|translation = Damnit... they got me!
+|audio = Nagatsuki-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = 被弾した…!?直撃ではないが…!
+|translation = I'm hit...!? Looks like it wasn't a direct hit...!
+|audio = Nagatsuki-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = すまない…皆…ここまでのようだ…。
+|translation = Sorry... everyone... this is as far as I go...
+|audio = Nagatsuki-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin =司令官、今日は特別の日だな？	
+|translation =	Today is special right, Commander?
+|audio = 035_Nagatsuki_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = クリスマスか…何を燥いでいる。これ受け取ってくれ。じゃ、訓練してくるぞ。
+|translation =	Christmas… What’s all the fuss. Just take this. Now, I’m going training.
+|audio = Nagatsuki_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 司令官、今年も一緒に新年を迎えたことを、嬉しく思う。これからもよろしく頼む。
+|translation =	I’m happy that we got to celebrate the New Year together, Commander. Please keep treating me well. 
+|audio = Nagatsuki_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = 節分か。こういう文化は大切にしないとな。…ぃ痛っ、皐月っ！ふざけるのやめろぉ！
+|translation =	It’s Setsubun. This is an important culture... Ouch. Satsuki! Stop messing around!
+|audio = Nagatsuki_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = バレンタインだと？下らない。…えぇ、司令官、そんなにがっかり…。なんか、すまん。
+|translation =	Valentine’s? What nonsense. …Eh, you’re that disappointed, Commander… Sorry about that.
+|audio = Nagatsuki_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = うぅ…お返しされる理由はないのだが…。すまん、来年は必ず用意する。
+|translation =	Umm… there’s no reason for you to give this to me… Sorry, I’ll give you something next year.
+|audio = Nagatsuki_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_2016|Early Summer 2016]]
+|origin = すまん、司令官…この季節は苦手なんだ…。どうしてって？うぅ……どうしてだろうな…
+|translation =	Sorry, Commander… I can’t handle this season… “Why”? Mmm… I wonder…
+|audio = Nagatsuki_Early_Summer_Sec1_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2016|Midsummer 2016]]
+|origin = よし！かなり元気が出てきたぞ。あぁ、夏真っ盛りは得意だ。任せておいてくれ。
+|translation =	Alright! I feel great now. Ah, I’m strongest at the height of summer. Leave it to me.
+|audio = Nagatsuki_Sec1_Midsummer_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 秋刀魚か……悪くない、手伝おう。かば焼きも良いが、やはり塩焼きだろう。楽しみだ。
+|translation =	Saury… Not bad, let me help. Kabayaki is fine but it’s got to be salt grilled. I can’t wait.
+|audio = Nagatsuki_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = なんと！司令官、長月と艦隊は四周年を迎えたそうだ。驚きだな！はぁ！
+|translation =	Wow! The fleet and I have reached our 4th Anniversary, Commander. That was a surprise! Yeah!
+|audio = Nagatsuki_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = なんっと、なんと！司令官、長月と艦隊はついに五周年だ。ありがたいことだな、あぁ。
+|translation =	Wait, what! It’s finally our 5th Anniversary, commander. That’s something to be appreciated, yeah.
+|audio = Nagatsuki_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+|}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+035_3.png|Base
+035_4.png|Base Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+KanMusu035_Christmas.png|[[Seasonal/Christmas_2017|Christmas 2017]]
+KanMusu035_Christmas_dmg.png|[[Seasonal/Christmas_2017|Christmas 2017 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Nagatsuki}}
+
+==Trivia==
+*Combat loss July 7, 1943 at the [http://en.wikipedia.org/wiki/Battle_of_Kula_Gulf Battle of Kula Gulf] ([http://tools.wmflabs.org/geohack/geohack.php?pagename=Japanese_destroyer_Nagatsuki&params=08_02_S_157_12_E_ 08°02′S 157°12′E])
+*Her name is an archaic word for "September"
+*Her high luck (highest of the Mutsuki class) is most likely due to her not having been sunk: she was heavily damaged, but managed to beach herself to avoid sinking.  However, it proved impossible to repair the damage and she was later destroyed by enemy aircraft.
+*She is required by [[Quests#A49|A49]] and [[Quests#B39|B39]].
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View {{PAGENAME}} CG]]
+*[[EliteDD|List of Destroyers]]
+*[[wikipedia:Japanese_destroyer_Nagatsuki (1926)|Wikipedia entry on destroyer Nagatsuki]]
+ {{shiplist}}
+[[Category:Mutsuki Class]]
+[[Category:Destroyers]]
+[[zh:长月]]

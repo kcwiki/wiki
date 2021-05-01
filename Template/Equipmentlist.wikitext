@@ -1,0 +1,288 @@
+{{Navbox
+|name = Template:Equipmentlist
+| state = mw-collapsible {{#if:{{{expanded|}}}||mw-collapsed}}
+|title = [[Equipment|Equipment List]]
+|basestyle  = background-color:#eebb55;
+|titlestyle = color:black;
+|liststyle = border:0px none;padding-left:5px
+|groupstyle =  color:black
+|style = color:black; background-color:#FFFFFF; border:1px solid #1A5B70; width:100%;
+|above = '''[[Equipment_List_(Image)|Gallery]]{{•}}[[Equipment_Ranking|By Stats]]{{•}}[[Glossary#Equipment|Equipment Type]]{{•}}[[Development]]{{•}}[[Akashi's_Improvement_Arsenal|Akashi's Improvement Arsenal]]'''
+| abovestyle = background-color:#EECC88;
+|below = HA - '''High-Angle'''; DP - '''Dual-Purpose'''; LM - '''Late Model'''; CD - '''Concentrated Deployment''' or '''Carrier Division'''
+|belowstyle = background-color:#EECC88;
+<!--- Main Guns category --->
+|list1 = {{Navbox|child
+ |name       = Main Guns
+ |title      = [[List of Main Guns by stats|Main Guns]]
+ |basestyle  = background-color:#EECC88;
+|group1 = Small
+|list1 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[12cm Single Gun Mount|12cm Single Gun Mount]] <big>(</big>[[12cm Single Gun Mount Kai 2|Kai 2]]<big>)</big>{{•}}[[12.7cm Twin Gun Mount]] <big>(</big>[[12.7cm Twin Mount Type-A|Model A]]{{•}}[[12.7cm Twin Mount Type-A Kai 2|Model A Kai 2]]{{•}}[[12.7cm Twin Mount Type-B Kai 2|Model B Kai 2]]{{•}}[[12.7cm Twin Mount Type-C Kai 2|Model C Kai 2]]{{•}}[[12.7cm Twin Mount Type-D Kai 2|Model D Kai 2]]{{•}}[[12.7cm Twin Gun Mount Model D Kai 3|Model D Kai 3]]<big>)</big>
+  |group2 = Foreign
+  |list2 = [[12.7cm Single Gun Mount]] <small>(Ger)</small>{{•}}[[120mm/50 Twin Gun Mount]] <big>(</big>[[120mm/50 Twin Gun Mount mod.1936|Mod.1936]]{{•}}[[120mm/50 Twin Gun Mount Kai A.mod.1937|Kai A.mod.1937]]<big>)</big> <small>(Ita)</small>{{•}}[[QF 4.7inch Gun Mk.XII Kai]] <small>(UK)</small>{{•}}[[130mm B-13 Twin Gun Mount]] <small>(Sov)</small>
+}}
+<!--- Small HA Guns --->
+|group2 = Small HA
+|list2 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+<!---  |group1 = IJN --->
+  |list1 = [[10cm Twin High-angle Mount|10cm Twin HA Gun Mount]] <big>(</big>[[10cm Twin High-angle Gun Mount + Anti-Aircraft Fire Director|+ AAFD]]<big>)</big>{{•}}[[12.7cm High-angle Gun Mount|12cm Single High-angle Gun Mount]] <big>(</big>[[12cm Single High-angle Gun Mount Model E|Model E]]<big>)</big>{{•}}12.7cm HA Gun Mount <big>(</big>[[12.7cm Single High-angle Gun Mount (Late Model)|Single LM]]{{•}}[[12.7cm Twin High-angle Gun Mount (Late Model)|Twin LM]]{{•}}[[12.7cm Single High-angle Gun Mount Kai 2|Single Kai 2]]{{•}}[[12.7cm Twin High-angle Gun Mount Kai 2|Twin Kai 2]]<big>)</big>{{•}}12.7cm Twin HA Gun Mount <big>(</big>[[12.7cm Twin Mount Type-A Kai 3 (Wartime Modifications) + Anti-Aircraft Fire Director|Model A Kai 3 + AAFD]]{{•}}[[12.7cm Twin Mount Type-B Kai 4 (Wartime Modifications) + Anti-Aircraft Fire Director|Model B Kai 4 + AAFD]]<big>)</big>
+  |group2 = Foreign
+  |list2 = [[5inch Single Gun Mount Mk.30]] <big>(</big>[[5inch Single Gun Mount Mk.30 Kai|Mk.30 Kai]]{{•}}[[5inch Naval Gun Mk.30 Kai + GFCS Mk.37|Mk.30 Kai + GFCS]]<big>)</big> <small>(US)</small>{{•}}[[Locally Modified 12.7cm Twin High-angle Gun Mount|Local Mod. 12.7cm Twin HA Gun Mount]] <small>(CN)</small>{{•}}[[Locally Modified 10cm Twin High-angle Gun Mount|Local Mod. 10cm Twin HA Gun Mount]] <small>(CN)</small>
+}}
+<!--- Medium Guns --->
+|group3 = Medium
+|list3 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |group1 = 14cm
+  |list1 = [[14cm Single Gun Mount]]{{•}}[[14cm Twin Gun Mount]] <big>(</big>[[14cm Twin Gun Mount Kai|Kai]]<big>)</big>
+  |group2 = 15.2cm/6inch
+  |list2 = [[15.2cm Twin Gun Mount]] <big>(</big>[[15.2cm Twin Gun Mount Kai|Kai]]{{•}}[[15.2cm Twin Gun Mount Kai Ni|Kai 2]]<big>)</big>{{•}}[[15.5cm Triple Gun Mount (Main)|15.5cm Triple Gun Mount]] <big>(</big>[[15.5cm Triple Gun Mount Kai (Main)|Kai]]<big>)</big>{{•}}[[152mm/55 Triple Rapid Fire Gun Mount]] <big>(</big>[[152mm/55 Triple Rapid Fire Gun Mount Kai|Kai]]<big>)</big> <small>(Ita)</small>{{•}}[[6inch Triple Rapid Fire Gun Mount Mk.16]] <big>(</big>[[6inch Triple Rapid Fire Gun Mount Mk.16 mod.2|Mk.16 mod.2]]<big>)</big> <small>(US)</small> {{•}}[[6inch Mk.XXIII Triple Gun Mount]] <small>(UK)</small>{{•}}[[Bofors 15.2cm Twin Gun Mount Model 1930]] <small>(Swe)</small>{{•}}[[Bofors 15cm Twin Rapid Fire Gun Mount Mk.9 Model 1938]] <big>(</big>[[Bofors 15cm Twin Rapid Fire Gun Mount Mk.9 Kai + Single Rapid Fire Gun Mount Mk.10 Kai Model 1938|Mk.9 Kai + Single Mk.10 Kai]]<big>)</big> <small>(NL)</small>{{•}}[[6inch Twin Rapid Fire Gun Mount Mk.XXI]] <small>(AU)</small>
+  |group3 = 20.3cm/8inch
+  |list3 = [[20.3cm Twin Gun Mount]] <big>(</big>[[20.3cm(no.2) Twin Gun Mount|No.2]]{{•}}[[20.3cm(no.3) Twin Gun Mount|No.3]]<big>)</big>{{•}}[[SKC34 20.3cm Twin Gun Mount]] <small>(Ger)</small> {{•}}[[203mm / 53 Twin Gun Mount|203mm/53 Twin Gun Mount]] <small>(Ita)</small>{{•}}[[8inch Triple Gun Mount Mk.9]] <big>(</big>[[8inch Triple Gun Mount Mk.9 mod.2|Mk.9 mod.2]]<big>)</big> <small>(US)</small>
+}}
+<!--- Medium HA Guns --->
+|group4 = Medium HA
+|list4 = [[5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)|5inch Twin DP Gun Mount (CD)]] <big>(</big>[[GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)|+ GFCS]]<big>)</big> <small>(US)</small>
+<!--- Large Guns --->
+|group5 = Large
+|list5 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |group1 = 30.5cm
+  |list1 = [[30.5cm Triple Gun Mount]] <big>(</big>[[30.5cm Triple Gun Mount Kai|Kai]]<big>)</big> <small>(Sov)</small>
+  |group2 = 35.6cm
+  |list2 = [[35.6cm Twin Gun Mount]] <big>(</big>[[35.6cm Twin Gun Mount (Dazzle Camouflage)|Dazzle Camo]]{{•}}[[35.6cm Twin Gun Mount Kai|Kai]]{{•}}[[35.6cm Twin Gun Mount Kai Ni|Kai 2]]<big>)</big>{{•}}[[Prototype 35.6cm Triple Gun Mount]]{{•}}[[35.6cm Triple Gun Mount Kai (Dazzle Camouflage​)]]
+  |group3 = 38cm
+  |list3 = [[38cm Twin Gun Mount]] <big>(</big>[[38cm Twin Gun Mount Kai|Kai]]<big>)</big> <small>(Ger)</small>{{•}}[[381mm / 50 Triple Gun Mount]] <big>(</big>[[381mm / 50 Triple Gun Mount Kai|Kai]]<big>)</big> <small>(Ita)</small>{{•}}[[38.1cm Mk.I Twin Gun Mount]] <big>(</big>[[38.1cm Mk.I/N Twin Gun Mount Kai|Mk.I/N Kai]]<big>)</big> <small>(UK)</small>{{•}}[[38cm Quad Gun Mount]] <big>(</big>[[38cm Quad Gun Mount Kai|Kai]]<big>)</big> <small>(Fr)</small>
+  |group4 = 41cm/16inch
+  |list4 = [[41cm Twin Gun Mount]] <big>(</big>[[41cm Twin Gun Mount Kai 2|Kai 2]]<big>)</big>{{•}}41cm Triple Gun Mount <big>(</big>[[Prototype 41cm Triple Gun Mount|Proto]]{{•}}[[41cm Triple Gun Mount Kai|Kai]]{{•}}[[41cm Triple Gun Mount Kai 2|Kai 2]]<big>)</big>{{•}}16inch Twin Gun Mount <big>(</big>[[16inch Mk.I Twin Gun Mount|Mk.I]]{{•}}[[16inch Mk.V Twin Gun Mount|Mk.V]]{{•}}[[16inch Mk.VIII Twin Gun Mount Kai|Mk.VIII Kai]]<big>)</big> <small>(US)</small>{{•}}16inch Triple Gun Mount <big>(</big>[[16inch Triple Gun Mount Mk.6|Mk.6]]{{•}}[[16inch Triple Gun Mount Mk.6 + GFCS|Mk.6 + GFCS]]{{•}}[[16inch Triple Gun Mount Mk.6 mod.2|Mk.6 mod.2]]{{•}}[[16in Triple Gun Mount Mk.7|Mk.7]]{{•}}[[16in Triple Gun Mount Mk.7 + GFCS|Mk.7 + GFCS]]<big>)</big> <small>(US)</small>{{•}}16inch Triple Gun Mount <big>(</big>[[16inch Mk.I Triple Gun Mount|Mk.I]]{{•}}[[16inch Mk.I Triple Gun Mount + AFCT Kai|Mk.I + AFCT Kai]]{{•}}[[16inch Mk.I Triple Gun Mount Kai + FCR Type 284|Mk.I Kai + FCR Type 284]]<big>)</big> <small>(UK)</small>
+  |group5 = 46cm and 51cm <!--- basically, this is "Other" --->
+  |list5 = [[Prototype 46cm Twin Gun Mount]]{{•}}[[46cm Triple Gun Mount]] <big>(</big>[[46cm Triple Gun Mount Kai|Kai]]<big>)</big>{{•}}[[51cm Twin Gun Mount]] <big>(</big>[[Prototype 51cm Twin Gun Mount|Proto]]<big>)</big>
+}}
+}}
+<!--- Secondary Guns category --->
+|list2 = {{Navbox|child
+ |name       = Secondary Guns
+ |title      = [[List_of_Secondary_Guns_by_stats|Secondary Guns]]
+ |basestyle  = background-color:#EECC88;
+<!--- Surface guns --->
+|group1 = Surface
+|list1 = [[15.2cm Single Gun Mount]]{{•}}[[15.5cm Triple Gun Mount (Secondary)|15.5cm Triple Gun Mount]] <big>(</big>[[15.5cm Triple Gun Mount Kai (Secondary)|Kai]]<big>)</big>{{•}}[[15cm Twin Gun Mount]] <small>(Ger)</small>{{•}}[[OTO 152mm Triple Rapid Gun Mount]] <small>(Ita)</small>{{•}}[[15.2cm Triple Gun Mount]] <small>(Fr)</small>
+<!--- Secondary HA Guns --->
+|group2 = High-Angle
+|list2 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+<!---  |group1 = IJN --->
+  |list1 = [[8cm High-angle Mount]] <big>(</big>[[8cm Twin High-angle Mount + Additional Machine Guns|+ Add. Machineguns]]<big>)</big>{{•}}[[10cm Twin High-angle Carriage Mount]] <big>(</big>[[10cm Twin High-angle Gun Mount Kai + Additional Machine Guns|Kai + Add. Machineguns]]<big>)</big>{{•}}[[12.7cm Twin High-angle Mount]] <big>(</big>[[12.7cm Twin High-angle Mount + Anti-Aircraft Fire Director|+ AAFD]]<big>)</big>
+  |group2 = Foreign
+  |list2 = [[10.5cm Twin Gun Mount]] <small>(Ger)</small>{{•}}[[90mm Single High Angled Gun|90mm Single HA Gun Mount]] <small>(Ita)</small>{{•}}[[5inch Single High-angle Gun Mount Battery]] <small>(US)</small>{{•}}[[5inch Twin Gun Mount Mk.28 mod.2]] <small>(US)</small>
+}}
+}}
+<!--- Anti-Air category --->
+<!--- I'm combining AA guns with their AAFDs so that AAFDs aren't too lonely alone, you see --->
+|list3 = {{Navbox|child
+ |name       = Anti-Air
+ |title      = Anti-Air
+ |basestyle  = background-color:#EECC88;
+<!--- AA guns --->
+|group1 = [[List of Anti-Air Guns by stats|Anti-Air Guns]]
+|list1 = [[7.7mm Machine Gun|7.7mm Machinegun]]{{•}}[[12.7mm Machine Gun|12.7mm Machinegun]]{{•}}25mm Autocannon Mount <big>(</big>[[25mm Single Autocannon Mount|Single]]{{•}}[[25mm Twin Autocannon Mount|Twin]]{{•}}[[25mm Triple Autocannon Mount|Triple]]{{•}}[[25mm Triple Autocannon Mount (Concentrated Deployment)|Triple CD]]<big>)</big>{{•}}[[BI-type 40mm Twin Machine Gun]]{{•}}[[12cm 30-tube Rocket Launcher]] <big>(</big>[[12cm 30 Tube Rocket Launcher Kai 2|Kai 2]]<big>)</big>{{•}}[[2cm Flakvierling 38]] <small>(Ger)</small>{{•}}[[3.7cm FlaK M42]] <small>(Ger)</small>{{•}}[[Bofors 40mm Quadruple Autocannon Mount]] <small>(Swe/US)</small>{{•}}[[QF 2-pounder Octuple "Pom Pom" Naval Gun Mount]] <small>(UK)</small>{{•}}[[20 Tube 7 Inch UP Rocket Launcher]] <small>(UK)</small>
+<!--- AAFDs --->
+|group2 = [[List_of_Anti-Aircraft_Fire_Directors_by_stats|Anti-Aircraft Fire Directors]]
+|list2 = [[Type 91 Anti-Aircraft Fire Director|Type 91 AAFD]]{{•}}[[Type 94 Anti-Aircraft Fire Director|Type 94 AAFD]]
+}}
+<!--- Torpedo category --->
+|list4 = {{Navbox|child
+ |name       = Torpedo Weapon
+ |title      = [[List_of_Torpedoes_by_stats|Torpedo Weapon]]
+ |basestyle  = background-color:#EECC88;
+<!--- Surface --->
+|group1 = Surface
+|list1 = [[53cm Twin Torpedo Mount]]{{•}}[[53cm Hull-mount (Oxygen) Torpedoes|53cm Hull-mounted O<small>2</small> Torpedoes]]{{•}}61cm Torpedo Mount <big>(</big>[[61cm Triple Torpedo Mount|Triple]]{{•}}[[61cm Triple (Oxygen) Torpedo Mount|Triple O<small>2</small>]]{{•}}[[61cm Triple (Oxygen) Torpedo Mount Late Model|Triple O<small>2</small> LM]]{{•}}[[61cm Quad Torpedo Mount|Quad]]{{•}}[[61cm Quad (Oxygen) Torpedo Mount|Quad O<small>2</small>]]{{•}}[[61cm Quad (Oxygen) Torpedo Mount Late Model|Quad O<small>2</small> LM]]{{•}}[[61cm Quint (Oxygen) Torpedo Mount|Quint O<small>2</small>]]{{•}}[[Prototype 61cm Sextuple (Oxygen) Torpedo Mount|Proto Sext O<small>2</small>]]<big>)</big>{{•}}533mm Quint Torpedo Mount <big>(</big>[[533mm Quintuple Torpedo Mount (Initial Model)|Initial Model]]{{•}}[[533mm Quintuple Torpedo Mount (Late Model)|Late Model]]<big>)</big> <small>(US)</small>{{•}}[[533mm Triple Torpedo Mount]] <big>(</big>[[533mm Triple Torpedo Mount (Model 53-39)|Model 53-39]]<big>)</big> <small>(Sov)</small>
+<!--- Submarine --->
+|group2 = Submarine
+|list2 = [[Late Model Bow Torpedo Mount (6 Tubes)]] <big>(</big>[[Skilled SONAR Personnel + Late Model Bow Torpedo Mount (6 Tubes)|+ Skilled SONAR Personnel]]<big>)</big>{{•}}[[53cm Submarine Bow Torpedo Mount (8 tubes)]] <big>(</big>[[Late Model 53cm Bow Torpedo Mount (8 tubes)|Late Model]]<big>)</big>{{•}}[[Prototype FaT Type 95 Oxygen Torpedo Kai]] <small>(IJN/Ger)</small>
+<!--- Kouhyouteki goes here since, well, torpedo weapon :) --->
+|group3 = [[:Category:Midget Submarine|Midget Submarines]]
+|list3 = Kouhyouteki <big>(</big>[[Type A Ko-hyoteki|Type A]]{{•}}[[Type C Kouhyouteki|Type C]]{{•}}[[Type D Kouhyouteki Kai (Kouryuu Kai)|Type D Kai]]<big>)</big>
+}}
+<!--- Carrier-based Aircraft --->
+|list5 = {{Navbox|child
+ |name       = Carrier-Based Aircraft
+ |title      = Carrier-Based Aircraft
+ |basestyle  = background-color:#EECC88;
+<!--- Fighters --->
+|group1 = [[List_of_Fighters_by_stats|Fighters]]
+|list1 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |group1 = Type 0
+  |list1 = [[Zero Fighter Type 21|Model 21]] <big>(</big>[[Zero Fighter Type 21 (Skilled)|Skilled]]<big>)</big>{{•}}[[Zero Fighter Type 32|Model 32]] <big>(</big>[[Zero Fighter Type 32 (Skilled)|Skilled]]<big>)</big>{{•}}[[Zero Fighter Type 52|Model 52]] <big>(</big>[[Zero Fighter Type 52 (Skilled)|Skilled]]<big>)</big>{{•}}[[Zero Fighter Type 52 Model C (601 Air Group)|Model 52C (601)]]{{•}}[[Zero Fighter Type 21 (Iwamoto Squadron)|Model 21 (Iwamoto)]]{{•}}[[Zero Fighter Type 52 Model A (Iwamoto Squadron)|Model 52A (Iwamoto)]]{{•}}[[Zero Fighter Type 53 (Iwamoto Squadron)|Model 53 (Iwamoto)]]{{•}}[[Zero Fighter Type 52 Model C (Iwai Squadron)|Model 52C (Iwai)]]
+  |group2 = Other (IJN)
+  |list2 = [[Type 96 Fighter|Type 96]] <big>(</big>[[Type 96 Fighter Kai|Kai]]<big>)</big>{{•}}Shiden <big>(</big>[[Shiden Kai 2|Kai 2]]{{•}}[[Shiden Kai 4|Kai 4]]<big>)</big>{{•}}Reppuu <big>(</big>[[Prototype Reppuu Late Model|Prototype LM]]{{•}}[[Reppuu Model 11|Model 11]]{{•}}[[Reppuu (601 Air Group)|601]]{{•}}[[Reppuu Kai (Prototype Carrier-based Model)|Kai]]{{•}}[[Reppuu Kai Ni|Kai 2]]{{•}}[[Reppuu Kai Ni (CarDiv 1/Skilled)|Kai 2 (CD1/Skilled)]]<big>)</big>{{•}}[[Shinden Kai]]
+  |group3 = Foreign
+  |list3 = [[Bf109 T Kai]] <small>(Ger)</small>{{•}}Fw190 <big>(</big>[[Fw190 T Kai|T Kai]]{{•}}[[Fw 190 A-5 Kai (Skilled)|A-5 Kai (Skilled)]]<big>)</big> <small>(Ger)</small>{{•}}Reggiane <big>(</big>[[Re. 2001 OR Kai|Re.2001 OR Kai]]{{•}}[[Re. 2005 Kai|Re.2005 Kai]]<big>)</big> <small>(Ita)</small>{{•}} Wildcat <big>(</big>[[F4F-3]]{{•}}[[F4F-4]]<big>)</big> <small>(US)</small>{{•}}Hellcat <big>(</big>[[F6F-3]]{{•}}[[F6F-5]]<big>)</big> <small>(US)</small>{{•}}[[XF5U]] <small>(US)</small>{{•}}[[Fulmar]] <small>(UK)</small>{{•}}[[Seafire LF.Mk.III Kai|Seafire Mk.III Kai]] <small>(UK)</small>
+<!--- Yasen Fighters may go here? --->
+ |group4 = Night
+  |list4 = [[Reppuu Kai Ni Model E|Reppuu Kai 2 Model E]] <big>(</big>[[Reppuu Kai Ni Model E (CarDiv 1/Skilled)|CD1/Skilled]]<big>)</big>{{•}}Hellcat <big>(</big>[[F6F-3N]]{{•}}[[F6F-5N]]<big>)</big> <small>(US)</small>
+}}
+<!--- Torpedo Bombers --->
+|group2 = [[List_of_Torpedo_Bombers_by_stats|Torpedo Bombers]]
+|list2 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+<!---   |group1 = IJN--->
+  |list1 = [[Type 97 Torpedo Bomber|Type 97]] <big>(</big>[[Type 97 Torpedo Bomber (Skilled)|Skilled]]{{•}}[[Type 97 Torpedo Bomber (931 Air Group)|931]]{{•}}[[Type 97 Torpedo Bomber (931 Air Group / Skilled)|931/Skilled]]{{•}}[[Type 97 Torpedo Bomber (Tomonaga Squadron)|Tomonaga]]{{•}}[[Type 97 Torpedo Bomber (Murata Squadron)|Murata]]<big>)</big>{{•}}[[Tenzan]] <big>(</big>[[Tenzan (601 Air Group)|601]]{{•}}[[Tenzan (931 Air Group)|931]]{{•}}[[Tenzan Model 12A|Model 12A]]{{•}}[[Tenzan Model 12 (Tomonaga Squadron)|Tomonaga]]{{•}}[[Tenzan Model 12 (Murata Squadron)|Murata]]<big>)</big>{{•}}[[Ryuusei]] <big>(</big>[[Ryuusei Kai|Kai]]{{•}}[[Ryuusei (601 Air Group)|601]]{{•}}[[Ryuusei Kai (CarDiv 1)|CD1]]{{•}}[[Ryuusei Kai (CarDiv 1/Skilled)|CD1/Skilled]]<big>)</big>
+  |group2 = Foreign
+  |list2 = [[Re. 2001 G Kai|Re.2001 G Kai]] <small>(Ita)</small>{{•}}[[TBD]] <small>(US)</small>{{•}}[[TBF]] <small>(US)</small>{{•}}[[Swordfish]] <big>(</big>[[Swordfish Mk. II (Skilled)|Mk.II Skilled]]{{•}}[[Swordfish Mk.III (Skilled)|Mk.III Skilled]]<big>)</big> <small>(UK)</small>
+|group3 = Night
+|list3 = [[Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai)|Type 97 Model E]] <big>(</big>[[Prototype Type 97 Torpedo Bomber Kai (Skilled) No. 3 Model E (w/ Type 6 Airborne Radar Kai)|Skilled]]<big>)</big>{{•}}[[Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)|Tenzan Model 12A Kai]] <big>(</big>[[Tenzan Model 12A Kai (Skilled w/ Type 6 Airborne Radar Kai)|Skilled]]<big>)</big>{{•}}[[TBM-3D]] <small>(US)</small>{{•}}[[TBM-3W+3S]] <small>(JMSDF/US)</small>
+}}
+<!--- Dive Bombers --->
+|group3 = [[List of Dive Bombers by stats|Dive Bombers]]
+|list3 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+<!---  |group1 = IJN--->
+  |list1 = [[Type 99 Dive Bomber|Type 99]] <big>(</big>[[Type 99 Dive Bomber (Skilled)|Skilled]]{{•}}[[Type 99 Dive Bomber Model 22|Model 22]]{{•}}[[Type 99 Dive Bomber Model 22 (Skilled)|Model 22/Skilled]]{{•}}[[Type 99 Dive Bomber (Egusa Squadron)|Egusa]]<big>)</big>{{•}}[[Suisei]] <big>(</big>[[Suisei (601 Air Group)|601]]{{•}}[[Suisei Model 12A|Model 12A]] ([[Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)|w/ Cluster Bombs]]{{•}}[[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)|w/ Photo Fuze Bombs]]){{•}}Model 22 ([[Suisei Model 22 (634 Air Group)|634]]{{•}}[[Suisei Model 22 (634 Air Group/Skilled)|634/Skilled]]){{•}}[[Suisei (Egusa Squadron)|Egusa]]<big>)</big>{{•}}[[Zero Fighter Type 62 (Fighter-bomber)|Type 0 Model 62 FB]] <big>(</big>[[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)|Iwai]]<big>)</big>{{•}}[[Type 0 Fighter Model 63 (Fighter-bomber)|Type 0 Model 63 FB]]{{•}}[[Prototype Nanzan]]
+  |group2 = Foreign
+  |list2 = Ju.87C <big>(</big>[[Ju 87C Kai|Kai]]{{•}}[[Ju 87C Kai Ni (w/ KMX)| Kai 2 KMX]]{{•}}[[Ju 87 C Kai 2 (w/ KMX / Skilled)|Kai 2 KMX / Skilled]]<big>)</big> <small>(Ger)</small>{{•}}[[Re.2001 CB Kai]] <small>(Ita)</small>{{•}}[[SBD]] <small>(US)</small>{{•}}[[FM-2]] <small>(US)</small>{{•}}[[F4U-1D]] <small>(US)</small>{{•}}[[Skua]] <small>(UK)</small>
+}}
+<!--- Recon --->
+|group4 = Recon
+|list4 = [[Saiun]] <big>(</big>[[Saiun (4th Recon)|4th Recon]]{{•}}[[Saiun (East Caroline Air Group)|East Caroline]]<big>)</big>{{•}}[[Type 2 Recon Aircraft|Type 2]]{{•}}[[Prototype Keiun]]
+<!--- To keep amount of large categories to minimum, jets are added here as well. --->
+|group5 = [[List_of_Aircraft_by_stats_%28Jets%29|Jets]]
+|list5 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+<!--- And only one category of these exists for now. --->
+  <!---|group1= '''Fighter'''
+  |list1 = --->
+<!---  |group2 = Fighter-Bomber --->
+  |list2 =[[Jet Keiun Kai]]{{•}}[[Kikka Kai]]
+ <!---|group3= '''Attack Aircraft'''
+  |list3 = --->
+ <!---|group4= '''Recon Aircraft'''
+  |list4 = --->
+}}
+}}
+<!--- LB Planes --->
+|list6 = {{Navbox|child
+ |name       = LB Planes
+ |title      = [[Land-Based Air Squadron|Land-Based Aircraft]]
+ |basestyle  = background-color:#EECC88;
+<!--- Attack Aircraft --->
+|group1 = [[List of Land Based Attack Aircraft|Attack Aircraft]]
+|list1 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[Type 96 Land Attacker|Type 96]]{{•}}[[Type 1 Land Attacker|Type 1]] <big>(</big>[[Type 1 Land Attacker Model 22A|Model 22A]]{{•}}[[Type 1 Land Attacker Model 34|Model 34]]{{•}}[[Type 1 Land Attacker (Nonaka Squadron)|Nonaka]]<big>)</big>{{•}}[[Ginga]] <big>(</big>[[Ginga (Egusa Squadron)|Egusa]]<big>)</big>{{•}}[[Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (65th Squadron)|Type 1 Hayabusa Model III Kai (65)]] <small>(IJA)</small>{{•}}[[Type 4 Heavy Bomber Hiryuu]] <big>(</big>[[Type 4 Heavy Bomber Hiryuu (Skilled)|Skilled]]<big>)</big> <small>(IJA)</small>{{•}}[[Do 17 Z-2]] <small>(Ger)</small>{{•}}Do 217 <big>(</big>[[Do 217 E-5 + Hs293 Initial Model|E-5 + Hs293]]{{•}}[[Do 217 K-2 + Fritz-X|K-2 + Fritz-X]]<big>)</big> <small>(Ger)</small>
+  |group2 = Anti-Submarine
+  |list2 = Toukai <big>(</big>[[Prototype Toukai|Proto]]{{•}}[[Toukai (901 Air Group)|901]]<big>)</big>
+  |group3 = Heavy
+  |list3 = [[Shinzan]] <big>(</big>[[Shinzan Kai|Kai]]<big>)</big>
+}}
+|group2 = Fighters
+|list2 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = Type 1 FIghter Hayabusa <big>(</big>[[Type 1 Fighter Hayabusa Model II|Model II]]{{•}}[[Type 1 Fighter Hayabusa Model II (64th Air Squadron)|Model II (64)]]{{•}}[[Type 1 Fighter Hayabusa Model III A|Model IIIA]]{{•}}[[Type 1 Fighter Hayabusa Model III A (54th Air Squadron)|Model IIIA (54)]]<big>)</big> <small>(IJA)</small>{{•}}[[Type 3 Fighter Hien]] <big>(</big>[[Type 3 Fighter Hien Model 1D|Model 1D]]{{•}}[[Type 3 Fighter Hien (244th Air Combat Group)|244]]<big>)</big> <small>(IJA)</small>{{•}}[[Type 4 Fighter Hayate]] <small>(IJA)</small>{{•}}[[Fw 190 D-9]] <small>(Ger)</small>{{•}}Spitfire <big>(</big>[[Spitfire Mk.I|Mk.I]]{{•}}[[Spitfire Mk.V|Mk.V]]{{•}}[[Spitfire Mk.IX (Skilled)|Mk.IX Skilled]]<big>)</big> <small>(UK)</small>
+  |group2 = Interceptors
+  |list2 = [[Raiden]]{{•}}Shiden <big>(</big>[[Shiden Type 11|Model 11]]{{•}}[[Shiden Type 21 Shiden Kai|Kai]]{{•}}[[Shiden Kai (343 Air Group) Fighter Unit 301|Kai 343]]<big>)</big>{{•}}[[Reppuu Kai]] <big>(</big>[[Reppuu Kai (352 Air Group/Skilled)|352/Skilled]]<big>)</big>
+  |group3 = HA Interceptors
+  |list3 = [[Me 163B]] <small>(Ger)</small>{{•}}[[Shuusui]] <big>(</big>[[Prototype Shuusui|Proto]]<big>)</big>
+}}
+  |group4 = Recon
+  |list4 = [[Type 2 Land Based Reconnaissance Aircraft|Type 2 Recon]] <big>(</big>[[Type 2 Land-based Reconnaissance Aircraft (Skilled)|Skilled]]<big>)</big>
+}}
+<!--- Seaplanes category --->
+|list7 = {{Navbox|child
+ |name       = Seaplanes
+ |title      = [[List of Seaplanes by stats|Seaplanes]]
+ |basestyle  = background-color:#EECC88;
+|group1 = Fighter
+|list1 = [[Type 2 Seaplane Fighter Kai|Type 2 Kai]] <big>(</big>[[Type 2 Seaplane Fighter Kai (Skilled)|Skilled]]<big>)</big>{{•}}[[Kyoufuu Kai]]{{•}}[[Ro.44 Seaplane Fighter]] <big>(</big>[[Ro.44 Seaplane Fighter Bis|Bis]]<big>)</big> <small>(Ita)</small>
+|group2 = Bomber/Multirole
+|list2 = [[Zuiun (Auspicious Clouds)|Zuiun]] <big>(</big>[[Zuiun (631 Air Group)|631]]{{•}}[[Zuiun (634 Air Group)|634]]{{•}}[[Zuiun (634 Air Group/Skilled)|634/Skilled]]{{•}}[[Zuiun Model 12|Model 12]]{{•}}[[Zuiun Model 12 (634 Air Group)|Model 12 (634)]]{{•}}[[Zuiun Kai Ni (634 Air Group)|Kai 2 (634)]]{{•}}[[Zuiun Kai Ni (634 Air Group/Skilled)|Kai 2 (634/Skilled)]]<big>)</big>{{•}}Seiran <big>(</big>[[Prototype Seiran|Prototype]]{{•}}[[Seiran (631 Air Group)|631]]<big>)</big>{{•}}[[Swordfish (Seaplane Model)|Swordfish]] <big>(</big>[[Swordfish Mk.III Kai (Seaplane Model)|Mk.III Kai]]{{•}}[[Swordfish Mk.III Kai (Seaplane Model/Skilled)|Mk.III Kai Skilled]]<big>)</big> <small>(UK)</small>{{•}}[[Laté 298B]] <small>(Fr)</small>
+|group3 = Recon
+|list3 = [[Type 0 Recon Seaplane]] <big>(</big>[[Type 0 Recon SeaPlane Model 11 B|Model 11B]]{{•}}[[Type 0 Reconnaissance Seaplane Model 11B (Skilled)|Model 11B Skilled]]<big>)</big>{{•}}[[Type 0 Observation Seaplane]]{{•}}[[Type 98 Recon Seaplane (Night Scout)|Type 98 Night Recon Seaplane]]{{•}}[[Shiun]]{{•}}[[Ar196 Kai]] <small>(Ger)</small>{{•}}[[Ro.43 Recon Seaplane]] <small>(Ita)</small>{{•}}[[SOC Seagull]] <small>(US)</small>{{•}}[[OS2U]] <small>(US)</small>{{•}}[[Swordfish Mk.II Kai (Reconnaissance Seaplane Model)|Swordfish Mk.II Kai]] <small>(UK)</small>{{•}}[[Fairey Seafox Kai]] <small>(UK/Swe)</small>{{•}}[[S9 Osprey]] <small>(Swe)</small>
+|group4 = Flying Boats
+|list4 = [[Type 2 Flying Boat]]{{•}}[[PBY-5A Catalina]] <small>(US)</small>
+}}
+<!--- Radars category --->
+|list8 = {{Navbox|child
+ |name       = Radars
+ |title      = [[List_of_Radars_by_stats|Radar]]
+ |basestyle  = background-color:#EECC88;
+|group1 = Small Radars
+|list1 = [[Type 13 Air RADAR|Type 13 Air Radar]] <big>(</big>[[Type 13 Air RADAR Kai|Kai]]<big>)</big>{{•}}[[Type 22 Surface RADAR|Type 22 Surface Radar]] <big>(</big>[[Type 22 Surface RADAR Kai 4|Kai 4]]{{•}}[[Type 22 Surface RADAR Kai 4 (Modified Late Model)|Kai 4 Calibrated LM]]<big>)</big>{{•}}[[Type 33 Surface RADAR|Type 33 Surface Radar]]{{•}}[[SG Radar (Initial Model)]] <small>(US)</small>{{•}}[[GFCS Mk.37]] <small>(US)</small>
+|group2 = Large Radars
+|list2 = [[Type 21 Air RADAR|Type 21 Air Radar]] <big>(</big>[[Type 21 Air Radar Kai|Kai]]{{•}}[[Type 21 Air Radar Kai Ni|Kai 2]]<big>)</big>{{•}}[[Type 32 Surface RADAR|Type 32 Surface Radar]] <big>(</big>[[Type 32 Surface RADAR Kai|Kai]]<big>)</big>{{•}}[[Type 42 Air RADAR|Type 42 Air Radar]] <big>(</big>[[Type 42 Air Radar Kai Ni|Kai 2]]<big>)</big>{{•}}[[15m Duplex Rangefinder + Type 21 RADAR Kai 2|15m Duplex Rangefinder + Type 21 Radar Kai 2]]{{•}}[[FuMO25 RADAR|FuMO25 Radar]] <small>(Ger)</small>{{•}}[[SK Radar]] <big>(</big>[[SK + SG Radar|+ SG]]<big>)</big> <small>(US)</small>
+|group3 = Submarine Radars
+|list3 = [[Submarine Radar and Waterproof Periscope]]{{•}}[[Submarine Radar and Radio Direction Finder (E27)]]{{•}}[[Late Model Submarine Radar & Passive Radiolocator]]
+}}
+<!--- ASW Equip, all of it! --->
+|list9 = {{Navbox|child
+ |name       = Radars
+ |title      = [[List_of_Anti-Submarine_Equipment_by_stats|Anti-Submarine Warfare]]
+ |basestyle  = background-color:#EECC88;
+|group1 = Depth Charge Projectors
+|list1 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[Type 94 Depth Charge Launcher]]{{•}}[[Type 3 Depth Charge Projector]] <big>(</big>[[Type 3 Depth Charge Launcher (Concentrated Deployment)|Concentrated Deployment]]<big>)</big>{{•}}[[Type 2 12cm Mortar Kai]] <big>(</big>[[Type 2 12cm Mortar Kai (Concentrated Deployment)|Concentrated Deployment]]<big>)</big>
+  |group2 = Special
+  |list2 = [[Prototype 15cm Nonuple ASW Rocket Launcher]]{{•}}[[RUR-4A Weapon Alpha Kai]] <small>(US)</small>{{•}}[[Lightweight ASW Torpedo (Initial Test Model)]] <small>(US)</small>
+}}
+|group2 = Depth Charges
+|list2 = [[Type 95 Depth Charge]]{{•}}[[Type 2 Depth Charge]]
+|group3 = Sonars
+|list3 = [[Type 93 SONAR]]{{•}}[[Type 3 Active Sonar|Type 3 SONAR]]{{•}}[[Type 0 Passive SONAR]]{{•}}[[Type 4 SONAR]]{{•}} ASDIC <big>(</big>[[Type124 ASDIC|Type 124]]{{•}}[[Type144/147 ASDIC|Type 144/147]]{{•}}[[HF/DF + Type144/147 ASDIC|Type 144/147 + HF/DF]]<big>)</big> <small>(UK)</small>
+|group4 = ASW Planes
+|list4 = [[Type 3 Spotter/Liaison (ASW)|Type 3 Spotter/Liaison]]
+|group5 = Rotorcraft
+|list5 = [[Ka-type Observation Autogyro|Ka Type Observation Autogyro]]{{•}}O Type Observation Autogyro <big>(</big>[[O Type Observation Autogyro Kai|Kai]]{{•}}[[O Type Observation Autogyro Kai Ni|Kai 2]]<big>)</big>{{•}}[[S-51J]] <big>(</big>[[S-51J Kai|Kai]]<big>)</big>
+}}
+<!--- Random stuff --->
+|list10 = {{Navbox|child
+ |name       = Radars
+ |title      = Miscellaneous
+ |basestyle  = background-color:#EECC88;
+|group1 = Anti-Installation
+|list1 = [[WG42 (Wurfgerät 42)]] <small>(Ger)</small>{{•}}[[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher|Type 4 20cm Anti-ground Rocket Launcher]] <big>(</big>[[Type 4 20cm Anti-ground Rocket Launcher (Concentrated Deployment)|Concentrated Deployment]]<big>)</big>
+|group2 = [[List of Shells by stats|Shells]]
+|list2 = [[Type 91 Armor-Piercing (AP) Shell|Type 91 AP Shell]]{{•}}[[Type 1 Armor-Piercing (AP) Shell|Type 1 AP Shell]] <big>(</big>[[Type 1 Armor-Piercing (AP) Shell Kai|Kai]]<big>)</big>{{•}}[[Type 3 Shell]] <big>(</big>[[Type 3 Shell Kai|Kai]]<big>)</big>
+|group3 = [[List of Engine|Engine]]
+|list3 = [[Improved Steam Turbine]]{{•}}[[Enhanced Steam Boiler]]{{•}}[[New High Pressure-Temperature Steam Boiler]]
+|group4 = Landing Craft
+|list4 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[Daihatsu-class Landing Craft|Daihatsu Landing Craft]] <big>(</big>[[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)|+ Type 89 & Landing Force]]{{•}}[[Armed Daihatsu|Armed]]<big>)</big>{{•}}[[Toku Daihatsu-class Landing Craft|Toku Daihatsu Landing Craft]] <big>(</big>[[Toku Daihatsu Landing Craft + 11th Tank Regiment|+ 11th Tank Regiment]]<big>)</big>{{•}}[[Soukoutei (Armored Boat Class)|Soukoutei (AB-Class)]]  <small>(IJA)</small>{{•}}[[M4A1 DD]] <small>(US)</small>
+  |group2 = Tank
+  |list2 = [[Type 2 Ka-Mi Tank]]
+}}
+|group5 = Armor
+|list5 = Anti-Torpedo Bulge <big>(</big>[[Anti-torpedo Bulge (Medium)|Medium]]{{•}}[[Anti-torpedo Bulge (Large)|Large]]<big>)</big>{{•}}New Kanhon Design Anti-Torpedo Bulge <big>(</big>[[New Design Anti-Torpedo Bulge (Medium)|Medium]]{{•}}[[New Design Anti-Torpedo Bulge (Large)|Large]]<big>)</big>{{•}}[[Pugliese-Type Underwater Bulkhead]] <small>(Ita)</small>{{•}}[[Arctic camouflage (+ Arctic equipment)]]
+|group6 = Night Battle Aid
+|list6 = [[Searchlight]]{{•}}[[Type 96 150cm Searchlight]]{{•}}[[Star Shell]]
+|group7 = Facility and Crew
+|list7 = [[Ship Repair Facility]]{{•}}[[Skilled Lookouts]] <big>(</big>[[Torpedo Squadron Skilled Lookouts|Torpedo Squadron]]<big>)</big>{{•}}[[Fleet Command Facility]] <big>(</big>[[Striking Force Fleet Command Facility|Striking Force]]<big>)</big>{{•}}[[Skilled Carrier-based Aircraft Maintenance Personnel]]{{•}}[[Night Operation Aviation Personnel]] <big>(</big>[[Night Operation Aviation Personnel + Skilled Deckhands|+ Skilled Deckhands]]<big>)</big>{{•}}[[Arctic Gear & Deck Personnel]]
+|group8 = Consumables
+|list8 = [[Repair Team]]{{•}}[[Repair Goddess]]{{•}}[[Battle Rations|Combat Ration]] <big>(</big>[[Battle Ration (Special Onigiri)|Special Onigiri]]<big>)</big>{{•}}[[Canned Saury]]{{•}}[[Maritime Resupply|Underway Replenishment]]
+<!--- Kinda no idea where to put these --->
+|group9 = Other
+|list9 = [[Drum Canister]]{{•}}[[Saiun (Disassembled for Transport)]]
+<!--- Need this here for historical reasons! --->
+|group10 = Unreleased
+|list10 = SB2U
+}}
+}}

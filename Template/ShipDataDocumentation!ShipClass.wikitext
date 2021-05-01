@@ -1,0 +1,21 @@
+
+==Ship Class Data Format==
+The table for the class should contain a few key-value pairs that describe the class.
+
+===_name===
+String. The name of the class. Omit any suffixes or prefixes.
+
+===_prefix===
+String. The prefix of the class.
+
+===_suffix===
+String. The suffix of the class.
+
+===_class===
+Boolean. Whether or not the class should be suffixed with "Class". Overridden by _suffix.
+
+===_is_type===
+Boolean. Whether or not the class name is a "type of ship" itself, and therefore any ship type should be display in parentheses.
+
+===_base_type===
+Integer. The original ship type of the ship class.

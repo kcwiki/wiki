@@ -1,0 +1,12 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+==Usage==
+* {{Tlx|PAGESINCATEGORY|Gallery}} gives {{PAGESINCATEGORY|Gallery}}
+* {{Tlx|PAGESINCATEGORY|Gallery|R}} gives {{PAGESINCATEGORY|Gallery|R}}  (no commas)
+
+This behaviour is the same as (and uses) the [[mw:Magic word]] "PAGESINCATEGORY".  The only exception is that if no parameter is used, the current pagename is used as the parameter.
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Magic word templates]]
+}}</includeonly>

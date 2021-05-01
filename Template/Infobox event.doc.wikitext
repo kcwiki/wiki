@@ -1,0 +1,38 @@
+==Description==
+To use this template, copy the following code and fill in the appropriate fields.
+
+==Syntax==
+<pre>
+{{infobox event
+ | title         = 
+ | image         = [e.g. "Example.jpg"]
+ | imagewidth    = [e.g. "150"] [default: 210 pixels]
+ | imagecaption  = 
+ | participants  = 
+ | date          = 
+ | location      = 
+}}
+</pre>
+
+==Samples==
+<pre>
+{{infobox event
+ | title         = Flower du Jour
+ | image         = Example.jpg
+ | participants  = Everyone
+ | date          = All the time
+ | location      = Everywhere
+}}
+</pre>
+
+Results in...
+
+{{infobox event
+ | title         = Flower du Jour
+ | image         = Example.jpg
+ | participants  = Everyone
+ | date          = All the time
+ | location      = Everywhere
+}}
+
+<includeonly>[[Category:Infobox templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

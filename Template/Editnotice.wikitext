@@ -1,0 +1,52 @@
+{{#ifeq:{{FULLROOTPAGENAME}}|Template:Editnotices
+ |{{Editnotice/notice
+  |expiry={{{expiry|¬}}}
+ }}
+}}{{#ifexpr:{{#ifeq:{{FULLROOTPAGENAME}}|Template:Editnotices
+  |1
+  |0
+ }}+{{#switch:{{{expiry|¬}}}
+  |indefinite = 1
+  |
+  |¬          = 1 <!-- Expiry not specified -->
+  |#default   = {{#iferror:{{#time:U|{{{expiry}}}}}
+   |0 <!-- Invalid expiry time -->
+   |{{#ifexpr:{{#time:U|{{{expiry}}}}}-{{#time:U|{{CURRENTTIMESTAMP}}}}>0
+    |1 <!-- Notice current -->
+    |0 <!-- Notice expired -->
+   }}
+  }}
+ }}
+ |{{fmbox
+  |type      = editnotice
+  |id        = {{{id|}}}
+  |textstyle = {{{textstyle|}}}
+  |style     = {{{style|}}}
+  |class     = {{{class|}}}
+  |image     = {{#if:{{{image|}}}
+   |{{{image}}}
+   |none
+  }}
+  |imageright= {{#if:{{{imageright|}}}
+   |{{{imageright}}}
+  }}
+  |text      = {{#if:{{{header|}}}
+   |<dl><dt style="{{{headerstyle|}}}">{{{header}}}</dt></dl>
+  }}
+{{{text|{{{1}}}}}}
+ }}
+}}{{#ifeq:{{FULLROOTPAGENAME}}|Template:Editnotices|{{#switch:{{{expiry|¬}}}
+  |indefinite
+  |
+  |¬          = <!-- Expiry not specified -->
+  |#default   = {{#iferror:{{#time:U|{{{expiry}}}}}
+   | <!-- Invalid expiry time -->
+   |{{#ifexpr:{{#time:U|{{{expiry}}}}}-{{#time:U|{{CURRENTTIMESTAMP}}}}>0
+    | <!-- Notice current -->
+    |[[Category:Expired editnotices]] <!-- Notice expired -->
+   }}
+  }}
+ }}
+}}<noinclude>
+{{documentation}}
+</noinclude>

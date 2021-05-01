@@ -1,0 +1,24 @@
+{{userbox
+| border-c      =#{{#switch:{{{level}}}|0=b7b7b7|0a=b7b7b7|0b=ffb3b3|1=c0c8ff|2=77e0e8
+                                       |3=99b3ff|3a=99b3ff|3b=00ff00|4=cccc00
+                                       |5=cc0000|5a=cc0000|5b=f99c99|#default=6ef7a7}}
+| id            ={{{id}}}{{#if:{{{level|}}}|{{#if:{{{level-br|}}}|<br>|-}}{{#switch:{{{level}}}|0|1|2|3|4|5|N={{{level}}}|0a|0b=0|3a|3b=3|5a|5b=5}}}}
+| id-c          =#{{#switch:{{{level}}}|0=b7b7b7|0a=b7b7b7|0b=ffb3b3|1=c0c8ff|2=77e0e8
+                                       |3=99b3ff|3a=99b3ff|3b=00ff00|4=ffff00
+                                       |5=ff0000|5a=ff0000|5b=f99c99|#default=6ef7a7}}
+| id-s          ={{{id-s|14}}}
+| id-op         =white-space: nowrap;{{{id-op|}}}
+| info          ={{{info}}}
+| info-c        =#{{#switch:{{{level}}}|0=e8e8e8|0a=e8e8e8|0b=ffe0e8|1=f0f8ff|2=d0f8ff
+                                       |3=e0e8ff|3a=e0e8ff|3b=90ff90|4=ffff99
+                                       |5=ff5555|5a=ff5555|5b=f9cbc9|#default=c5fcdc}}
+| info-s        ={{{info-s|8}}}
+| info-lh       ={{{info-lh|1.25}}}
+| info-op       ={{{info-op|}}}
+| usercategory  ={{{usercategory|}}}
+| usercategory2 ={{{usercategory2|}}}
+| usercategory3 ={{{usercategory3|}}}
+| nocat         ={{{nocat|}}}
+}}<noinclude><!--PLEASE DO NOT ADD DOCUMENTATION/CATEGORIES/INTERWIKIS HERE-->
+{{Documentation}}
+<!--MAKE ADDITIONS TO THE /doc SUBPAGE INSTEAD, THANKS--></noinclude>

@@ -1,0 +1,49 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+{{Template shortcut|hl}}
+For adding yellow highlight to specified text. The highlight color can be changed, and the highlight can also be set to expire at a certain date.  Please keep template usage to talk pages only.
+
+=== Usage ===
+
+<code><nowiki>{{hilite | text | color (optional) | expiration (optional) }}</nowiki></code>
+
+;Parameters
+
+*'''text''' (parameter 1): Enter the text to be highlighted.
+
+
+;Optional parameters
+
+These parameters are optional, but unused parameters must be separated by a pipe (see examples below): 
+
+*'''color''' (parameter 2): Colors may be specified by word (e.g., "red", "blue", "lightgreen") or in [[Web colors|hexadecimal]] format (e.g., "#FF0066", "#C0C0C0"). If no value is given for the color, the template defaults to yellow.
+
+*'''expiration''' (parameter 3): Highlights may be set to expire on a certain date, which leaves the text as-is, but removes the highlight color. The expiration value can be specified in any format.
+
+===Examples===
+{| class="wikitable"
+|-
+! code !! output !! notes
+|-
+|-
+| <nowiki>{{hilite | text }}</nowiki> || {{hilite | text }} ||
+|-
+| <nowiki>{{hilite | text | lightblue }}</nowiki> || {{hilite | text | lightblue }} ||
+|-
+| <nowiki>{{hilite | text | pink | 2011-01-01 }}</nowiki> || {{hilite | text | pink | 2011-01-01 }} ||
+|-
+| <nowiki>{{hilite | text || January 1, 2012 }}</nowiki> || {{hilite | text || January 1, 2012 }} || Note the color parameter, left blank, is still represented<br> with a pipe (followed by the expiration parameter pipe)
+|-
+| <nowiki>{{hilite | text | #00FF00 | 1 January 2013 }}</nowiki> || {{hilite | text | #00FF00 | 1 January 2013 }} ||
+|}
+
+=== See also ===
+* {{tl|Highlight}} (redirects to this template)
+* {{tl|tq}} for quoting text on talk pages
+* {{tl|font color}}
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Typing-aid templates]]
+
+</includeonly>

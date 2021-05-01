@@ -1,0 +1,85 @@
+{{EquipmentInfo|69}}
+
+==Introduction==
+陸軍で開発、運用されていたオートジャイロ「カ号観測機」。<br>
+現代の艦載ヘリコプターの先祖ともいえる、回転翼の艦載対潜哨戒機です。<br>
+全通甲板を持つ強襲揚陸艦や軽空母、航空甲板を持つ航空巡洋艦などで運用可能です。
+
+''The "Kayaba Ka-1 observation auto-gyro" was developed and used by the military.''<br>
+''This rotor aircraft was used for anti-submarine patrol similar to modern ship-borne helicopters.''<br>
+''This aircraft can launch from landing crafts and light carriers with full-length decks as well as from aviation cruisers and battleships with flight decks.''
+
+==Notes==
+CVL equipped with this plane will still require a dive bomber (red) or a torpedo bomber (blue) to attack SS, as they are unable to attack anything without a bomber.''
+
+[[Taigei]] and [[Akashi]] can equip this, but the former cannot attack SS, and the latter has carry capacity of 0 so autogyro does not function.
+
+[[Hayasui]] can equip this, but her attack animation will still be a depth charge animation.
+
+Will launch during aerial battle if other planes are launched, but cannot start aerial battle on its own.
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Akitsu Maru Kai}}
+
+'''From quests: '''[[Quests#B153|B153]] (★+3, x3, choice)
+
+''From limited-time quests: ''[[Quests/Seasonal#SB54|SB54]] (x2, choice)
+
+''Ranking reward for:''
+* Dec 2013: 21-100, 海上護衛総隊
+* Jan 2014: 海上護衛総隊
+* Feb 2014: 海上護衛総隊
+* Mar 2014: 海上護衛総隊
+* Apr 2014: 海上護衛総隊
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|Ka Type Observation Autogyro}}, {{Equipment/Link|O Type Observation Autogyro Kai}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2013-12-24:''' '''Implemented'''
+* '''2019-03-27:''' Became '''improvable''' and '''upgradeable''' to {{Equipment/Link|O Type Observation Autogyro Kai}}
+* '''2020-08-27:''' Visible bonuses added
+</div></div>
+
+==Fit Bonuses==
+{{:Ka Type Observation Autogyro/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=Autogyro
+|Fuel=50
+|Ammo=20
+|Steel=30
+|Baux=150
+|Mats0-5=5/6
+|Mats6-9=6/7
+|Mats10=12/20
+|Screws0-5=2/3
+|Screws6-9=3/4
+|Screws10=5/10
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{Seaplane|Type 0 Recon Seaplane}}
+|EquipConsume10=1x{{Autogyro|Ka-type Observation Autogyro}}<br>1x{{AvMat}}
+|Wed=I
+|Thu=I
+|2ndShip=[[Ise#Second Upgrade|Ise Kai Ni]]
+|Notes=Upgrades to [[O Type Observation Autogyro Kai]].
+}}
+|}
+
+==See Also==
+[[wikipedia:Kayaba Ka-1|Kayaba Ka-1]]
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Anti-submarine Weaponry]]
+[[Category:Autogyro]]

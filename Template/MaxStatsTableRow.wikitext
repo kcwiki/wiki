@@ -1,0 +1,77 @@
+<noinclude>{| class="wikitable"
+!No.
+!Name
+!Class
+! style="white-space:nowrap;" |[[File:Remodel_Icon.png|Remodel Level|link=Remodel]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: LightCoral;" |[[file:icon_Gun.png|Firepower]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: LightSkyBlue;" |[[file:icon_Torpedo.png|Torpedo Attack]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: SandyBrown;" |[[file:icon_AA.png|Anti-Air]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Seashell;" |[[file:icon_ASW.png|Anti-Submarine]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Aquamarine;" |[[file:icon_LOS.png|View Range]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: PaleGreen;" |[[file:icon_Luck.png|Luck]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Pink;" |[[file:icon_HP.png|Health]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: yellow;" |[[file:icon_Armor.png|Armor]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Violet;" |[[file:icon_Evasion.png|Evasion]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Aqua;" |[[file:icon_Speed.png|Speed]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Silver;" |[[file:icon_Aircraft.png|Aircraft]]
+!{{Fuel}}
+!{{Ammo}}
+! style="text-align:left;" |Notes
+</noinclude>|-
+| style="text-align:center;" |{{{{{ship}}}|type={{{type}}}|template=ShipId}}<!--
+-->
+| style="text-align:center;" |{{{{{ship}}}|type={{{type}}}|template=ShipPage}} {{{{{ship}}}|type={{{type}}}|template=ShipJapaneseName}}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanclass|1}}}" style="text-align:center;" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipClass}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanremodel|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1remodel|20}}}|threshold2={{{threshold2remodel|20}}}|operator1=<|operator2=<|value={{{{{ship}}}|type={{{type}}}|template=ShipRemodelLevel}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipRemodelLevel}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanfirepower|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1firepower|999}}}|threshold2={{{threshold2firepower|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipFirepowerMax}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipFirepowerMax}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspantorpedo|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1torpedo|999}}}|threshold2={{{threshold2torpedo|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipTorpedoMax}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipTorpedoMax}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanaa|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1aa|999}}}|threshold2={{{threshold2aa|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipAAMax}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipAAMax}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanasw|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1asw|999}}}|threshold2={{{threshold2asw|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipASWMax}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipASWMax}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanlos|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1los|999}}}|threshold2={{{threshold2los|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipLoSMax}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipLoSMax}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanluck|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1luck|999}}}|threshold2={{{threshold2luck|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipLuck}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipLuck}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanhp|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1hp|999}}}|threshold2={{{threshold2hp|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipHP}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipHP}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanarmor|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1armor|999}}}|threshold2={{{threshold2armor|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipArmorMax}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipArmorMax}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanevasion|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1evasion|999}}}|threshold2={{{threshold2evasion|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipEvasionMax}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipEvasionMax}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanspeed|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1speed|999}}}|threshold2={{{threshold2speed|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipSpeed}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipSpeed}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanaircraft|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1aircraft|999}}}|threshold2={{{threshold2aircraft|999}}}|value={{{{{ship}}}|type={{{type}}}|template=ShipAircraft}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipAircraftDetailed}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanfuel|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1fuel|0}}}|threshold2={{{threshold2fuel|0}}}|operator1=<|operator2=<|value={{{{{ship}}}|type={{{type}}}|template=ShipFuelMax}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipFuelMax}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspanammo|1}}}" style="text-align:center; {{CellColorer|color0=transparent|color1=yellow|color2=lime|threshold1={{{threshold1ammo|0}}}|threshold2={{{threshold2ammo|0}}}|operator1=<|operator2=<|value={{{{{ship}}}|type={{{type}}}|template=ShipAmmoMax}} }}" {{!}}{{{{{ship}}}|type={{{type}}}|template=ShipAmmoMax}} }}<!--
+-->
+{{#ifeq:{{{showclass|True}}}|False||{{!}} colspan="1" rowspan="{{{rowspannotes|1}}}" {{!}}{{{notes}}} }}<noinclude>
+|-
+!No.
+!Name
+!Class
+![[File:Remodel_Icon.png|Remodel Level|link=Remodel]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: LightCoral;" |[[file:icon_Gun.png|Firepower]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: LightSkyBlue;" |[[file:icon_Torpedo.png|Torpedo Attack]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: SandyBrown;" |[[file:icon_AA.png|Anti-Air]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Seashell;" |[[file:icon_ASW.png|Anti-Submarine]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Aquamarine;" |[[file:icon_LOS.png|View Range]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: PaleGreen;" |[[file:icon_Luck.png|Luck]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Pink;" |[[file:icon_HP.png|Health]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: yellow;" |[[file:icon_Armor.png|Armor]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Violet;" |[[file:icon_Evasion.png|Evasion]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Aqua;" |[[file:icon_Speed.png|Speed]]
+! style="width: 30px; text-align: center; vertical-align: middle; background-color: Silver;" |[[file:icon_Aircraft.png|Aircraft]]
+!{{Fuel}}
+!{{Ammo}}
+! style="text-align:left;" |Notes
+|}
+Experimental template, do not use.
+</noinclude>

@@ -1,0 +1,28 @@
+{{UpdateBar
+|PrevDate = May 3
+|PrevYear = 2016
+|NextDate = June 1
+|NextYear = 2016
+}}
+'''May 13th, 2016''' ''Spring Mid-Event Maintainance''
+
+#'''Fixing the unexpected results when new kanmusus level-up.'''
+#*When unremodeled [[Kamikaze]] / [[Harukaze]] / [[Oyashio]] / [[Iowa]] would level-up when some of their parameters are maxed out, they may continue to gain stats beyond the maximum. This has been fixed.
+#'''Fixing parameters over maximum'''
+#*To resolve the mentioned above, all parameters beyond maximum on each of the new ships have been individually fixed.
+#'''Fixing HP when married new kanmusus.'''
+#*All new ships (including Pola which wasn't involved with the previous issues) had HP lower than they should have when they are married. In additional, unexpected results would occur when they are placed in the docks. This maintenance will raise the HP of affected ships to their correct values.
+#'''Fixing Luck when married new kanmusus'''
+#*The maximum luck were lower than normal when married; this has been fixed.
+#'''Equipment slot error fix'''
+#*When performing drag-and-drop on equipments for the new kanmusus, sometimes error will occur. This has been fixed.
+#'''Expertise rank issue fixes'''
+#*When performing Air Defense and Mission for the airbase squadrons, the expertise rank system were not working correctly in some cases. This has been fixed.
+#'''Display fixes'''
+#*Namely (1) The result screen when E-5 is completed, (2) Lycoris Princess now uses shelling animation when attacking at night, (3) Fixing dismantle reward displays for bauxite with regards to dismantling Pola Kai
+#'''Pola Kai now able to re-equip/use seaplane fighters.'''
+#'''Oyashio can be encountered at more places and against more enemies'''.
+#*The increase is for all difficulties.
+
+Event has now been extended to May 31st.
+[[Category:Game Updates]]

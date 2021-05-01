@@ -1,0 +1,14 @@
+
+=== Usage ===
+* This template provides the <!--[[WP:Editnotice|-->editnotice<!--]]--> for all Module pages. <!--It can only be edited by [[WP:ADMIN|Administrators]] and [[Wikipedia:User_access_levels#Accountcreator|accountcreators]].-->
+
+=== Hiding the message ===
+This template is marked with the CSS id and CSS class name <tt>".module-namespace-editnotice"</tt>, so that editors can apply their own CSS customisation if they wish, in particular to hide it <!--(see [[WP:CSSHIDE]] for details)-->. To hide the message, add
+
+:<tt><nowiki>#module-namespace-editnotice { display: none !important; } </nowiki></tt>
+
+into [[Special:Mypage/skin.css]],  which redirects to your current skin's CSS file (open in new tab/window to see).
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+
+</includeonly>

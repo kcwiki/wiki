@@ -1,0 +1,444 @@
+==World 5-5:【Extra Operation】サーモン海域北方 Northern Salmon Sea Area==
+{{LabSortieworld
+| map = 5-5 Map.png
+| difficulty = ☆☆☆☆☆☆☆☆☆☆☆
+| item = {{ammo}}
+| exp =  450
+| code = 第二次サーモン海戦 ([[wikipedia:Battle_of_the_Eastern_Solomons|Second Battle of the Solomon Sea]])
+| jptext = 南方海域に敵の有力な機動部隊の接近が確認された。空母機動部隊を以て、これを迎撃せよ！
+| entext = The approach of a powerful enemy task force has been confirmed in southern waters.  Form a carrier task force and intercept it!
+| aircon = 
+{{AirControlSystem
+| Map = 5-5 North
+| Fleet = 2(F)BB(V) 2CV(L) 2XX
+| Route = B-K-P-S
+| AS = 392
+| Notes = 35% chance of offrouting if wildcards are (F)BB(V), CV(L) or SS(V).<br/>BBs and CVs are interchangeable.
+}} 
+{{AirControlSystem
+| Map = 5-5 Middle
+| Fleet = 2(F)BB(V) 2DD CA(V) XX (XX = CA(V) or CLT)
+| Route = B-F-D-H-N-O-S
+| AS = 392
+| Notes = 
+}} 
+{{AirControlSystem
+| Map = 5-5 South
+| Fleet = 2(F)BB(V) 4DD<br/>2(F)BB(V) 2XX 2DD (XX != (F)BB(V) or CV(L))
+| Route = A-C-E-G-I-M-O-S
+| AS = 392
+| Notes = BBs and CVs are interchangeable. If using less than 4 DDs, fleet must have 4 Drum/DLC equipped on 4 ships.
+}} 
+}}
+===Stage Guide===
+{{MapBranchingTable
+|title = 5-5 Branching Rules
+|expand = true
+|id = 5-5
+|0 -> A/empty, B =  
+* Meet '''ANY''' of the following requirements to go to A
+** DD ≥ 4
+** 4 ships carrying 4 [[Drum Canister]]
+** 4 ships carrying 4 [[Daihatsu-class Landing Craft]] (T89 Landing Force and T2 Kami Tank also count)
+* Otherwise, go to B
+
+|B -> F/empty, K =
+*'''FORCE''' node K if meeting one of the following:
+**CV(B) ≥ 3 (CVL doesn't count)
+**(F)BB(V) ≥ 4
+**CLT ≥ 2
+* Go to F if DD ≥ 2
+* Otherwise, go to K
+
+|E/resource -> G/night, H = 
+*Meet '''ANY''' of the following to go to H
+**'''Fast+''' fleet '''and''' DD ≥ 2
+**'''Fastest''' fleet
+* Otherwise, go to G
+
+|H -> L/storm, N, P = 
+*Go to N if the fleet is '''Fastest'''
+* Go to P if (F)BB(V)+CV(L/B) ≥ 4
+* Go to L if DD ≤ 1
+* Otherwise, go to N
+
+|I/empty -> L/storm, M/night = 
+* Go to L if (F)BB(V)+CV(B) = 3 and DD ≥ 2
+* Otherwise, go to M
+
+|L/storm -> N = *Fixed Route
+
+|M/night -> L/storm, O/empty = 
+*'''FORCE''' node O if node L or N was reached in the same sortie
+* Go to L if (F)BB(V)+CV(B) ≥ 4
+* Go to O if DD ≥ 2
+* Otherwise, go to L
+
+|N -> M/night, O/empty = 
+*'''FORCE''' node O if node M was reached in the same sortie
+* Meet '''ANY''' of the following requirements to go to O
+** '''Fast+''' fleet
+** Fleet contains AO
+* Meet '''ANY''' of the following requirements to go to M
+** (F)BB(V)+CVL ≥ 3
+** Fleet contains CV(B)
+* Otherwise, go to O
+
+|O/empty -> R/empty, S = 
+*Random routing if fleet contains SS(V) or fleet LoS is between '''63-67 F33 Cn2'''
+*Meet '''ANY''' of the following to go to S
+**Pass the LoS check ('''≥ 67 F33 Cn2''')
+**'''Fast+''' fleet ('''LoS check is ignored''')
+*Otherwise, go to R
+
+|P -> Q/empty, S = 
+*Meet '''ANY''' of the following to '''FORCE''' node S ('''LoS check is ignored''')
+**'''Fastest''' fleet
+**'''Fast+''' fleet '''and''' (F)BB(V)+CV(L/B) ≤ 5
+*Random between Q and S if fleet contains SS(V) or (F)BB(V)+CV(L/B) ≥ 5 (65% to S if fleet LoS '''≥ 84 F33 Cn2''')
+*Go to S if passing the LoS Check ('''≥ 81 F33 Cn2''')
+*Go to Q if LoS '''≤ 73 F33 Cn2'''
+*Otherwise, random routing
+}}
+
+*You must sink the Boss 5 times to clear the map.
+*Clearing this map rewards 1 medal and 200 points for ranking. The boss HP bar is reset at midnight of the beginning of each month, allowing the reward to be obtained again.
+**'''The enemy composition at the boss node will be locked into either formation 5 or 6 after clearing'''. If you are planning on clearing any quests that require you to clear 5-5 with an A/S-Rank, '''it is recommended that you attempt these quests after clearing 5-5 for the month''', as the post-clear boss compositions are significantly less dangerous than the pre-clear comps. The fleet composition restrictions for most of these quests mean that your fleet will face some difficulty in defeating the pre-clear comps, particularly after the buff to the Southern War Princess in [[Winter 2019 Event]] (who does not appear at all in post-clear comps).
+***This is especially true if said quests require 2DDs, as DDs will face difficulty in dealing any significant damage to the pre-clear boss comps during the daytime battle
+***Please note that [[Submarine Yo-Class]] at the boss node will be in Elite form post-clear, so a dedicated OASW ship must be brought if one wishes to secure a S-rank.
+*As with all World 5 maps, support expeditions 33 and 34 are applicable on this map.
+*Node B is a submarine node.
+*Nodes G and M are night battles.
+
+===Tips===
+*5-5 is one of the few maps that has arguably become more difficult after the Phase 2 update.
+**2 of the pre-clear boss compositions now contain 2 Elite Re-class Abyssals.
+**The [[Southern War Princess]] has also gained additional armour followed by [[Winter 2019 Event]]
+***Her escort has been slightly weakened to compensate for this. The Submarine in her escort has been changed from an Elite variant to a basic variant.
+**The addition of CL Tsu-class to multiple nodes has also made the map potentially more costly in terms of bauxite.
+**Pre-boss Node P still has the chance of containing an Elite Re-class in Line Ahead.
+**Depending on your choice of ships (and also dependent on engagement modifiers & enemy fleet formation), bulges equipped in Reinforcement Expansion slots may improve survivability against opening torpedoes.
+**Support Expedition(s) may help as well.
+*However, routing to the boss is now guaranteed with the correct composition(s) and sufficient LoS. Speed is also no longer a major factor in determining routing.
+*The special attack (Touch mechanic) from [[Nelson|Nelson Kai]], [[Nagato|Nagato Kai Ni]] and [[Mutsu|Mutsu Kai Ni]] are also a good option to consider if you want to clear out enemies at the boss node easier.
+
+<br/>'''Recommended Fleet'''
+*'''North : B-K-P-S or B-F-J-P-S: 4 (F)BB(V)/CV(L/B) + 2 XX'''
+**LoS required: '''≥ 81 F33 Cn2'''
+**Maximum of 4 (F)BB(V)/CV(L/B), otherwise chance of off-routing at pre-boss node P.
+**Routing B->K or B->F will depend on your fleet. Fleet with either 3CV(B) or 4(F)BB(V)s will always go to K, otherwise will go to F as long as you have 2 DDs.
+**F is a choice node. For the above fleet, routing to J is recommended as D is a maelstrom node, and fleet comp will route to P after H anyway.
+**CAVs can help provide additional fighter power, allowing for optimized set-ups on CVs.
+**[[Ise|Ise Kai Ni]] is another option if additional fighter power is needed. However, keep in mind that she is significantly weaker in terms of firepower compared to almost every other battleship.
+**Seaplane Bombers should not be used in smaller slots due to the potential presence of multiple [[Light Cruiser Tsu-Class]] along this route.
+*'''Middle : B-F-D-H-N-O-S: 2 (F)BB(V) + 2 CA(V) + 2 DD'''
+**LoS required: '''≥ 67 F33 Cn2'''
+**Easier preboss, but will struggle against the double Re Elite boss node formations
+**CAV can be replaced with CLT (Maximum 1 CLT)
+**D node is a maelstrom node that wipe out your fuel. Recommended to bring some radars to reduce the loss.
+*'''South : A-C-E-G-I-M-O-S: 2 [(F)BB(V)+CV(B/L)] + 4 DD'''
+**LoS required: '''≥ 67 F33 Cn2'''
+**The first battle is a relatively easy enemy torpedo squadron, but the next two battles are fairly dangerous night battles
+***Pre-boss support shelling expeditions can help stabilize the night battles significantly
+**Fleets that take this route will struggle significantly against the double Re Elite boss node formations
+**Generally lower bauxite consumption when compared to other routes
+
+===Nodes and Enemy Encounters===
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = '''<span style="color:blue">Battle Avoided</span>'''
+|A-1_node_info = "Must be my imagination" (battle avoided)
+|
+|B_label = 深海南方潜水艦隊 哨戒線
+|B-1_node_info = ss_yo-class_flagship ss_ka-class_elite ss_ka-class_elite ss_ka-class ss_ka-class
+|B-1_form = echelon line_abreast
+|B-1_xp =
+|B-1_enemy_air_power =
+|B-2_node_info = ss_yo-class_flagship ss_yo-class_elite ss_ka-class_elite ss_ka-class_elite ss_ka-class ss_ka-class
+|B-2_form = echelon line_abreast
+|B-2_xp =
+|B-2_enemy_air_power =
+|B-3_node_info = ss_yo-class_elite ss_ka-class_elite ss_ka-class_elite ss_ka-class ss_ka-class
+|B-3_form = line_abreast echelon
+|B-3_xp =
+|B-3_enemy_air_power =
+|
+|C_label = 敵哨戒水雷戦隊
+|C-1_node_info = cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|C-1_form = line_ahead double_line
+|C-1_xp =
+|C-1_enemy_air_power =
+|C-2_node_info = dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model dd_i-class dd_i-class
+|C-2_form = line_ahead double_line
+|C-2_xp =
+|C-2_enemy_air_power =
+|C-3_node_info = cl_ho-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model dd_ro-class_late_model
+|C-3_form = line_ahead double_line
+|C-3_xp =
+|C-3_enemy_air_power =
+|
+|D_label = '''<span style="color:purple">Maelstrom Node</span>'''
+|D-1_node_info = fuel - ?
+|
+|E_label = '''<span style="color:green">Resource Node</span>'''
+|E-1_node_info = fuel + ?
+|
+|F_label = 
+|F-1_node_info = Choose your route
+|
+|G_label = 敵哨戒重巡戦隊<br>'''<span style="color:purple">Night Battle Node</span>'''
+|G-1_node_info = ca_ri-class_flagship ca_ri-class_flagship ca_ri-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|G-1_form = echelon line_ahead
+|G-1_xp =
+|G-1_enemy_air_power =
+|G-2_node_info = ca_ri-class_flagship ca_ri-class_elite ca_ri-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|G-2_form = echelon line_ahead
+|G-2_xp =
+|G-2_enemy_air_power =
+|G-3_node_info = ca_ri-class_flagship ca_ri-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model dd_i-class
+|G-3_form = echelon line_ahead
+|G-3_xp =
+|G-3_enemy_air_power =
+|
+|H_label = 敵機動部隊 C群
+|H-1_node_info = cv_wo-class_flagship_kai cv_wo-class_flagship_kai cl_he-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|H-1_form = double_line diamond
+|H-1_xp =
+|H-1_enemy_air_power = 204
+|H-2_node_info = cv_wo-class_flagship_kai cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|H-2_form = diamond double_line
+|H-2_xp =
+|H-2_enemy_air_power = 125
+|H-3_node_info = cvl_nu-class_flagship cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|H-3_form = diamond double_line
+|H-3_xp =
+|H-3_enemy_air_power = 46
+|
+|I_label = '''<span style="color:blue">Battle Avoided</span>'''
+|I-1_node_info = "Must be my imagination" (battle avoided)
+|
+|J_label = 敵機動部隊 B群
+|J-1_node_info = cv_wo-class_flagship_kai cv_wo-class_flagship_kai cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model ss_ka-class_elite
+|J-1_form = double_line diamond
+|J-1_xp =
+|J-1_enemy_air_power = 204
+|J-2_node_info = cv_wo-class_flagship_kai cv_wo-class_flagship_kai cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model ss_ka-class
+|J-2_form = double_line diamond
+|J-2_xp =
+|J-2_enemy_air_power = 204
+|J-3_node_info = cv_wo-class_flagship_kai cvl_nu-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model ss_ka-class
+|J-3_form = diamond double_line
+|J-3_xp =
+|J-3_enemy_air_power = 125
+|
+|K_label = 敵機動部隊 A群
+|K-1_node_info = cv_wo-class_flagship_kai cv_wo-class_flagship_kai cvl_nu-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|K-1_form = diamond double_line
+|K-1_xp =
+|K-1_enemy_air_power = 227
+|K-2_node_info = cv_wo-class_flagship_kai cv_wo-class_flagship_kai ca_ne-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|K-2_form = diamond double_line
+|K-2_xp =
+|K-2_enemy_air_power = 204
+|K-3_node_info = cv_wo-class_flagship_kai cvl_nu-class_flagship ca_ne-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|K-3_form = double_line diamond
+|K-3_xp =
+|K-3_enemy_air_power = 125
+|
+|L_label = '''<span style="color:purple">Maelstrom Node</span>'''
+|L-1_node_info = fuel - ?
+|
+|M_label = 敵新鋭戦艦戦隊<br>'''<span style="color:purple">Night Battle Node</span>'''
+|M-1_node_info = bb_ta-class_flagship bb_ta-class_flagship ca_ne-class cl_tsu-class dd_ha-class_late_model dd_ha-class_late_model
+|M-1_form = line_ahead echelon double_line
+|M-1_xp =
+|M-1_enemy_air_power =
+|M-2_node_info = bb_ta-class_flagship bb_ta-class_flagship cl_tsu-class dd_ha-class_late_model dd_ha-class_late_model dd_ha-class_late_model
+|M-2_form = line_ahead echelon double_line
+|M-2_xp =
+|M-2_enemy_air_power =
+|M-3_node_info = bb_ta-class_flagship bb_ta-class_flagship dd_ha-class_late_model dd_ha-class_late_model dd_ha-class_late_model dd_ha-class_late_model
+|M-3_form = double_line echelon line_ahead
+|M-3_xp =
+|M-3_enemy_air_power =
+|
+|N_label = 深海南方任務部隊 重水雷戦隊
+|N-1_node_info = clt_chi-class_flagship clt_chi-class_flagship clt_chi-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|N-1_form = double_line line_ahead echelon
+|N-1_xp =
+|N-1_enemy_air_power =
+|N-2_node_info = clt_chi-class_flagship clt_chi-class_flagship cl_tsu-class cl_tsu-class dd_ha-class_late_model dd_ha-class_late_model
+|N-2_form = line_ahead echelon double_line
+|N-2_xp =
+|N-2_enemy_air_power =
+|
+|O_label = '''<span style="color:blue">Battle Avoided</span>'''
+|O-1_node_info = "Must be my imagination" (battle avoided)
+|
+|P_label = 深海南方任務部隊 水上打撃群
+|P-1_node_info = bbv_re-class_elite ca_ne-class_elite ca_ne-class_elite cl_tsu-class dd_ha-class_late_model dd_ha-class_late_model
+|P-1_form = double_line line_ahead
+|P-1_xp =
+|P-1_enemy_air_power = 107
+|P-2_node_info = bbv_re-class_elite bb_ru-class_flagship bb_ru-class_flagship cl_ho-class_flagship dd_ha-class_late_model dd_ha-class_late_model
+|P-2_form = line_ahead
+|P-2_xp =
+|P-2_enemy_air_power = 107
+|P-3_node_info = bbv_re-class bb_ru-class_flagship bb_ru-class_flagship cl_tsu-class dd_ha-class_late_model dd_ha-class_late_model
+|P-3_form = line_ahead double_line
+|P-3_xp =
+|P-3_enemy_air_power = 94
+|P-4_node_info = bbv_re-class_elite bb_ru-class_flagship bb_ru-class_flagship cl_tsu-class dd_ha-class_late_model dd_ha-class_late_model
+|P-4_form = double_line
+|P-4_xp =
+|P-4_enemy_air_power = 107
+|
+|Q_label = '''<span style="color:blue">Battle Avoided</span>'''
+|Q-1_node_info = "Must be my imagination" (battle avoided)
+|
+|R_label = '''<span style="color:blue">Battle Avoided</span>'''
+|R-1_node_info = "Must be my imagination" (battle avoided)
+|
+|S_label = 深海南方任務部隊 本隊
+|S-1_node_info = southern_war_princess bbv_re-class_elite bbv_re-class_elite dd_ha-class_late_model dd_ha-class_late_model ss_yo-class
+|S-1_form = line_ahead
+|S-1_xp =
+|S-1_enemy_air_power = 261
+|S-2_node_info = cv_wo-class_flagship_kai cv_wo-class_flagship_kai southern_war_princess dd_ha-class_late_model dd_ha-class_late_model ss_yo-class
+|S-2_form = echelon
+|S-2_xp =
+|S-2_enemy_air_power = 251
+|S-3_node_info = cv_wo-class_flagship_kai southern_war_princess ca_ne-class_elite dd_ha-class_late_model dd_ha-class_late_model ss_yo-class
+|S-3_form = echelon
+|S-3_xp =
+|S-3_enemy_air_power = 149
+|S-4_node_info = southern_war_princess bbv_re-class_elite bbv_re-class_elite cl_tsu-class dd_ha-class_late_model dd_ha-class_late_model
+|S-4_form = double_line
+|S-4_xp =
+|S-4_enemy_air_power = 261
+|S-5_node_info = cv_wo-class_flagship_kai cv_wo-class_flagship bbv_re-class_elite dd_ha-class_late_model dd_ha-class_late_model ss_yo-class_elite
+|S-5_form = echelon
+|S-5_xp =
+|S-5_enemy_air_power = 237
+|S-6_node_info = bbv_re-class_elite bb_ta-class_flagship cv_wo-class_flagship dd_ha-class_late_model dd_ha-class_late_model ss_yo-class_elite
+|S-6_form = double_line
+|S-6_xp =
+|S-6_enemy_air_power = 191
+|
+|final_form = 
+|boss_node = S
+}}
+
+===Drops===
+
+<div class="mw-customtoggle-5-5-drops globalbutton">Show/Hide Drops</div>
+
+
+{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-5-5-drops"
+!Node
+!Destroyer
+!Light Cruiser
+!Heavy Cruiser
+!Seaplane Tender
+!Aircraft Carrier
+!Submarine
+!Battleship
+|-
+| style="text-align:center;" |A
+|[[Shiratsuyu]], [[Mochizuki]], [[Kagerou|Kagero]], [[Mutsuki]], [[Shigure]], [[Suzukaze]]
+|[[Yura]]
+|[[Chikuma]], [[Haguro]], [[Maya]]
+|
+|[[Ryuujou]]
+|
+|[[Hiei]], [[Kirishima]]
+|-
+| style="text-align:center;" |B
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:center;" |C
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:center;" |D
+|[[Ayanami]], [[Shikinami]], [[Shiratsuyu]], [[Kagerou]], [[Mutsuki]], [[Suzukaze]], [[Mochizuki]], [[Shigure]]
+|[[Yura]], [[Jintsuu]]
+|[[Haguro]], [[Tone]], [[Takao]], [[Chikuma]], [[Maya]]
+|[[Chitose]]
+|[[Ryuujou]]
+|
+|[[Hiei]], [[Kirishima]]
+|-
+| style="text-align:center;" |E
+|[[Shigure]], [[Suzukaze]], [[Mochizuki]], [[Shiratsuyu]], [[Mutsuki]], [[Kagerou]], [[Maikaze]], [[Akigumo]], [[Ayanami]]
+|[[Yura]], [[Nagara]]
+|[[Myoukou]], [[Maya]], [[Chikuma]], [[Takao]]
+|[[Chitose]]
+|[[Ryuujou]]
+|
+|[[Hiei]]
+|-
+| style="text-align:center;" |F
+|
+|[[Nagara]]
+|[[Takao]], [[Atago]]
+|[[Chitose]]
+|
+|
+|
+|-
+| style="text-align:center;" |G
+|
+|
+|[[Haguro]]
+|
+|
+|
+|
+|-
+| style="text-align:center;" |H
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:center;" |K
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:center;" |M
+|
+|
+|
+|
+|
+|
+|
+|-
+| style="text-align:center;" |<span style="color:red">N</span>
+|[[Uzuki|'''<span style="color:red">Uzuki</span>''']]
+|[[Yura]], [[Nagara]]
+|[[Atago]]
+|[[Chitose]]
+|[[Shoukaku|'''<span style="color:red">Shoukaku</span>''']]
+|
+|[[Kirishima]], [[Hiei]]
+|}

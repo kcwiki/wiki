@@ -1,0 +1,33 @@
+/* Remove Wikia Ads
+----------------------------------------------------------------------*/
+/*
+#WikiaTopAdsInner { display:none; }
+.home-top-right-ads { display:none; }
+#Liftium_728x90_201  { display:none; }
+#Liftium_728x90_202  { display:none; }
+#Liftium_728x90_203  { display:none; }
+#Liftium_728x90_204  { display:none; }
+
+#Liftium_160x600_201 { display:none; }
+#Liftium_160x600_202 { display:none; }
+#Liftium_160x600_203 { display:none; }
+#Liftium_160x600_204 { display:none; }
+
+#Liftium_300x250_201 { display:none; }
+#Liftium_300x250_202 { display:none; }
+#Liftium_300x250_203 { display:none; }
+#Liftium_300x250_204 { display:none; }
+*/
+
+
+/* Remove Ads at the bottom of pages
+----------------------------------------------------------------------*/
+/* 
+#WikiaArticleBottomAd { display:none; }
+#WikiaFooter { display:none; }
+*/
+
+/*Set new priority to ChatBox
+----------------------------------------------------------------------*/
+.ChatModule {
+    z-index: 0 !important;

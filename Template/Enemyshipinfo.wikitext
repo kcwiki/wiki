@@ -1,0 +1,53 @@
+{|style="border: 1px solid darkgray; width: 345px; color:black"
+|-
+| colspan="4" style="text-align: center; background-color: {{{color|}}};color:black"|<p style="font-size:20px">'''{{{name|Name?}}}'''</p>
+<p style="font-size:15px">'''{{#if:{{{id|}}}|No.{{{id}}}}} {{lang|ja|{{{japanesename|}}}}}'''</p>
+<p>'''{{#if:{{{class|}}}|{{{class}}} Class}} {{{type|}}}'''</p>
+|-
+|align=center colspan="4" |{{{image|}}}
+|-
+| colspan="4" style="text-align: center; background-color: LightSkyBlue;"|'''Statistic'''
+|-
+| style="width: 90px;"|[[file:icon_HP.png]] HP
+|width="80px"|'''{{{hp|no data}}}'''
+| style="width: 86px;"|[[file:icon_Gun.png]] Firepower
+|'''{{{firepower|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Armor.png]] Armor
+|width="80px"|'''{{{armor|no data}}}'''
+| style="width: 86px;"|[[file:icon_Torpedo.png]] Torpedo
+|'''{{{torpedo|no data}}}'''
+|-
+| style="width: 96px;"|[[file:icon_Evasion.png]] Evasion
+|width="80px"|'''{{{evasion|no data}}}'''
+| style="width: 80px;"|[[file:icon_AA.png]] AA
+|'''{{{AA|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Aircraft.png]] Aircraft
+|width="80px"|'''{{{aircraft|no data}}}'''
+| style="width: 86px;"|[[file:icon_ASW.png]] ASW
+|'''{{{ASW|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Speed.png]] Speed
+|width="80px"|'''{{{speed|no data}}}'''
+| style="width: 86px;"|[[file:icon_LOS.png]] LOS
+|'''{{{LOS|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Range.png]] Range
+|width="80px"|'''{{{range|no data}}}'''
+| style="width: 86px;"|[[file:icon_Luck.png]] Luck
+|'''{{{luck|no data}}}'''
+|-
+| colspan="4" style="text-align: center; background-color: LightSkyBlue;"|'''Equipment'''
+|-
+|align=center colspan="4" |{{{slot1|no data}}}
+|-
+|align=center colspan="4" |{{{slot2|no data}}}
+|-
+|align=center colspan="4" |{{{slot3|no data}}}
+|-
+|align=center colspan="4" |{{{slot4|no data}}}
+|}
+<noinclude>
+{{Documentation}}
+</noinclude>

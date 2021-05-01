@@ -1,0 +1,382 @@
+How to use :
+*Air Battle, Night Attack, and Docking (Completed) rows will hide automatically if you leave that line empty
+<pre>
+{{Shipquote
+| IntroClip        = 
+| IntroJp          =
+| IntroEn          =
+| IntroNote        =
+| LibraryClip      = 
+| LibraryJp        =
+| LibraryEn        =
+| LibraryNote      =
+| Sec1Clip         = 
+| Sec1Jp           =
+| Sec1En           =
+| Sec1Note         =
+| Sec2Clip         = 
+| Sec2Jp           =
+| Sec2En           =
+| Sec2Note         =
+| Sec3Clip         = 
+| Sec3Jp           =
+| Sec3En           =
+| Sec3Note         = 
+| SecIdleClip      = 
+| SecIdleJp        =
+| SecIdleEn        =
+| SecIdleNote      =
+| SecMarriedClip   = 
+| SecMarriedJp     = 
+| SecMarriedEn     = 
+| SecMarriedNote   =
+| WeddingClip      = 
+| WeddingJp        = 
+| WeddingEn        = 
+| WeddingNote      = 
+| ScoreClip        = 
+| ScoreJp          =
+| ScoreEn          =
+| ScoreNote        =
+| JoinClip         =
+| JoinJp           =
+| JoinEn           =
+| JoinNote         =
+| Equip1Clip       =
+| Equip1Jp         =
+| Equip1En         =
+| Equip1Note       =
+| Equip2Clip       =
+| Equip2Jp         =
+| Equip2En         =
+| Equip2Note       =
+| Equip3Clip       =
+| Equip3Jp         =
+| Equip3En         =
+| Equip3Note       =
+| SupplyClip       =
+| SupplyJp         =
+| SupplyEn         =
+| SupplyNote       =
+| DockingMinorClip = 
+| DockingMinorJp   = 
+| DockingMinorEn   =
+| DockingMinorNote =
+| DockingMajorClip =
+| DockingMajorJp   =
+| DockingMajorEn   =
+| DockingMajorNote =
+| DockingDoneClip  =
+| DockingDoneJp    =
+| DockingDoneEn    =
+| DockingDoneNote  =
+| ConstructionClip = 
+| ConstructionJp   =
+| ConstructionEn   =
+| ConstructionNote =
+| SortieFinClip    = 
+| SortieFinJp      =
+| SortieFinEn      =
+| SortieFinNote    =
+| SortieStartClip  =
+| SortieStartJp    =
+| SortieStartEn    =
+| SortieStartNote  =
+| BattleStartClip  =
+| BattleStartJp    =
+| BattleStartEn    =
+| BattleStartNote  =
+| AirBattleClip    = 
+| AirBattleJp      = 
+| AirBattleEn      =
+| AirBattleNote    = 
+| AttackClip       =
+| AttackJp         =
+| AttackEn         =
+| AttackNote       =
+| NightBattleClip  =
+| NightBattleJp    =
+| NightBattleEn    =
+| NightBattleNote  =
+| NightAttackClip  =
+| NightAttackJp    =
+| NightAttackEn    =
+| NightAttackNote  =
+| MVPClip          =
+| MVPJp            =
+| MVPEn            =
+| MVPNote          =
+| MinorDamage1Clip =
+| MinorDamage1Jp   = 
+| MinorDamage1En   =
+| MinorDamage1Note =
+| MinorDamage2Clip =
+| MinorDamage2Jp   =
+| MinorDamage2En   =
+| MinorDamage2Note =
+| MajorDamageClip  =
+| MajorDamageJp    =
+| MajorDamageEn    =
+| MajorDamageNote  =
+| SinkClip         =
+| SinkJp           =
+| SinkEn           =
+| SinkNote         =
+}}</pre>
+
+Sample: (see [[Fubuki#Quotes (Basic)]])
+<pre>
+{{Shipquote
+| IntroClip = {{Audio|file=Fubuki-Introduction.ogg}}
+| IntroJp =はじめまして！吹雪です！よろしくお願いいたします
+| IntroEn =Nice to meet you! I'm Fubuki! Thanks for having me!
+| IntroNote =
+| LibraryClip = {{Audio|file=Fubuki-Library.ogg}}
+| LibraryJp =ワシントン条約制限下で設計された、世界中を驚愕させたクラスを超えた特型駆逐艦の1番艦、吹雪です。
+私たちは、後の艦隊型駆逐艦のベースとなりました。
+はいっ、頑張ります！
+| LibraryEn =I'm Fubuki, the first ship of the special type destroyers designed under the Washington Naval Treaty. We were superior to existing ship classifications and shocked the world. Based on our design, many following fleet-type destroyers were built.  Yes sir, I'll do my best!
+| LibraryNote =
+| Sec1Clip = {{Audio|file=Fubuki-Secretary_1.ogg}}
+| Sec1Jp =お疲れ様です！司令官！
+| Sec1En =Thanks for the hard work, Commander!
+| Sec1Note =
+| Sec2Clip = {{Audio|file=Fubuki-Secretary_2.ogg}}
+| Sec2Jp =次は、何をすればよろしいですか？
+| Sec2En =What do you want to do next?
+| Sec2Note =
+| Sec3Clip = {{Audio|file=Fubuki-Secretary_3.ogg}}
+| Sec3Jp =し、司令官…？
+| Sec3En =C-Commander...?
+| Sec3Note = 
+| SecIdleClip = 
+| SecIdleJp=
+| SecIdleEn=
+| SecIdleNote=
+| SecMarriedClip = {{Audio|file=Fubuki-Wedding_Line.ogg}}
+| SecMarriedJp = 
+| SecMarriedEn = 
+| SecMarriedNote =
+| WeddingClip = {{Audio|file=Fubuki-Wedding.ogg}}
+| WeddingJp = あの、あのぉ…私、司令官のこと…大す…い、いえっ信頼しています！はい！
+| WeddingEn = Umm… Hey... Commander... I... really... l-li... no... I have total faith in you! Yes!
+| WeddingNote = 
+| ScoreClip = {{Audio|file=Fubuki-Looking_At_Scores.ogg}}
+| ScoreJp=司令官、連絡が届きました
+| ScoreEn=Commander, a communique has arrived.
+| ScoreNote=
+| JoinClip = {{Audio|file=Fubuki-Joining_A_Sortie.ogg}}
+| JoinJp=私がやっつけちゃうんだから！
+| JoinEn=I'll be the one to finish them off!
+| JoinNote=
+| Equip1Clip = {{Audio|file=Fubuki-Equipment_1.ogg}}
+| Equip1Jp=ありがとうございます！もっと頑張りますね！
+| Equip1En=Thank you! I'll try harder!
+| Equip1Note=
+| Equip2Clip = {{Audio|file=Fubuki-Equipment_2.ogg}}
+| Equip2Jp=司令官の為に、私、頑張ります！
+| Equip2En=I'll try my best for you, Commander!
+| Equip2Note=
+| Equip3Clip = {{Audio|file=Fubuki-Equipment_3.ogg}}
+| Equip3Jp=やりました！
+| Equip3En=I did it!
+| Equip3Note=
+| SupplyClip = {{Audio|file=Fubuki-Supply.ogg}}
+| SupplyJp=ありがとうございます。もっとがんばりますね
+| SupplyEn=Thank you very much. I'll keep working hard!
+| SupplyNote=
+| DockingMinorClip = {{Audio|file=Fubuki-Docking_Minor.ogg}}
+| DockingMinorJp = ちょっとだけ、お休みします。
+| DockingMinorEn=I think I'll take a quick break...
+| DockingMinorNote=
+| DockingMajorClip = {{Audio|file=Fubuki-Docking_Major.ogg}}
+| DockingMajorJp = すみません司令官…おやすみなさい。
+| DockingMajorEn=I'm sorry, Commander. Good night...
+| DockingMajorNote=
+| DockingDoneClip = {{Audio|file=Fubuki-Docking Completed.ogg}}
+| DockingDoneJp = 司令官、艦の修復が完了しました！
+| DockingDoneEn = Commander, I'm done with my repairs!
+| DockingDoneNote = Unused line, likely a line that was being planned as a repair notifier that never got used.
+| ConstructionClip = {{Audio|file=Fubuki-Construction.ogg}}
+| ConstructionJp=あ！新しい仲間が来たみたいですよ？
+| ConstructionEn=Oh! It seems like we have a new friend!
+| ConstructionNote=
+| SortieFinClip = {{Audio|file=Fubuki-Returning_From_Sortie.ogg}}
+| SortieFinJp=作戦が完了したようですね
+| SortieFinEn=It seems like the operation was a success.
+| SortieFinNote=
+| SortieStartClip = {{Audio|file=Fubuki-Starting_A_Sortie.ogg}}
+| SortieStartJp=皆！準備はいい？
+| SortieStartEn=Everyone! Are you ready?
+| SortieStartNote=
+| BattleStartClip = {{Audio|file=Fubuki-Battle_Start.ogg}}
+| BattleStartJp=いっけー！
+| BattleStartEn=Go!
+| BattleStartNote=
+| AirBattleClip = 
+| AirBattleJp = 
+| AirBattleEn =
+| AirBattleNote = 
+| AttackClip = {{Audio|file=Fubuki-Attack.ogg}}
+| AttackJp=当たってぇ！
+| AttackEn=Please hit!
+| AttackNote=
+| NightBattleClip = {{Audio|file=Fubuki-Night_Battle.ogg}}
+| NightBattleJp=酸素魚雷、一斉発射よ！
+| NightBattleEn=Fire all the oxygen torpedoes!
+| NightBattleNote=
+| NightAttackClip = {{Audio|file=Fubuki-Night_Attack.ogg}}
+| NightAttackJp=お願い！当たって下さぁい！
+| NightAttackEn=Please! Please hit!
+| NightAttackNote=
+| MVPClip = {{Audio|file=Fubuki-MVP.ogg}}
+| MVPJp=私、やりました！司令官のお陰です！
+| MVPEn=I did it! It's all thanks to you, Commander!
+| MVPNote=
+| MinorDamage1Clip = {{Audio|file=Fubuki-Minor_Damage_1.ogg}}
+| MinorDamage1Jp = きゃあっ！ 
+| MinorDamage1En= Kyaa!
+| MinorDamage1Note=
+| MinorDamage2Clip = {{Audio|file=Fubuki-Minor_Damage_2.ogg}}
+| MinorDamage2Jp = あうっ！
+| MinorDamage2En=Auu!
+| MinorDamage2Note=
+| MajorDamageClip = {{Audio|file=Fubuki-Major_Damage.ogg}}
+| MajorDamageJp = そんなっ！ダメですぅ！
+| MajorDamageEn=No way! You can't!
+| MajorDamageNote=
+| SinkClip = {{Audio|file=Fubuki-Sunk.ogg}}
+| SinkJp =いやぁ…嫌だよぉ…！
+| SinkEn =No... I hate this...!
+| SinkNote =
+}}
+</pre>
+
+Result:
+{{Shipquote
+| IntroClip = {{Audio|file=Fubuki-Introduction.ogg}}
+| IntroJp =はじめまして！吹雪です！よろしくお願いいたします
+| IntroEn =Nice to meet you! I'm Fubuki! Thanks for having me!
+| IntroNote =
+| LibraryClip = {{Audio|file=Fubuki-Library.ogg}}
+| LibraryJp =ワシントン条約制限下で設計された、世界中を驚愕させたクラスを超えた特型駆逐艦の1番艦、吹雪です。
+私たちは、後の艦隊型駆逐艦のベースとなりました。
+はいっ、頑張ります！
+| LibraryEn =I'm Fubuki, the first ship of the special type destroyers designed under the Washington Naval Treaty. We were superior to existing ship classifications and shocked the world. Based on our design, many following fleet-type destroyers were built.  Yes sir, I'll do my best!
+| LibraryNote =
+| Sec1Clip = {{Audio|file=Fubuki-Secretary_1.ogg}}
+| Sec1Jp =お疲れ様です！司令官！
+| Sec1En =Thanks for the hard work, Commander!
+| Sec1Note =
+| Sec2Clip = {{Audio|file=Fubuki-Secretary_2.ogg}}
+| Sec2Jp =次は、何をすればよろしいですか？
+| Sec2En =What do you want to do next?
+| Sec2Note =
+| Sec3Clip = {{Audio|file=Fubuki-Secretary_3.ogg}}
+| Sec3Jp =し、司令官…？
+| Sec3En =C-Commander...?
+| Sec3Note = 
+| SecIdleClip = 
+| SecIdleJp=
+| SecIdleEn=
+| SecIdleNote=
+| SecMarriedClip = {{Audio|file=Fubuki-Wedding_Line.ogg}}
+| SecMarriedJp = 
+| SecMarriedEn = 
+| SecMarriedNote =
+| WeddingClip = {{Audio|file=Fubuki-Wedding.ogg}}
+| WeddingJp = あの、あのぉ…私、司令官のこと…大す…い、いえっ信頼しています！はい！
+| WeddingEn = Umm… Hey... Commander... I... really... l-li... no... I have total faith in you! Yes!
+| WeddingNote = 
+| ScoreClip = {{Audio|file=Fubuki-Looking_At_Scores.ogg}}
+| ScoreJp=司令官、連絡が届きました
+| ScoreEn=Commander, a communique has arrived.
+| ScoreNote=
+| JoinClip = {{Audio|file=Fubuki-Joining_A_Sortie.ogg}}
+| JoinJp=私がやっつけちゃうんだから！
+| JoinEn=I'll be the one to finish them off!
+| JoinNote=
+| Equip1Clip = {{Audio|file=Fubuki-Equipment_1.ogg}}
+| Equip1Jp=ありがとうございます！もっと頑張りますね！
+| Equip1En=Thank you! I'll try harder!
+| Equip1Note=
+| Equip2Clip = {{Audio|file=Fubuki-Equipment_2.ogg}}
+| Equip2Jp=司令官の為に、私、頑張ります！
+| Equip2En=I'll try my best for you, Commander!
+| Equip2Note=
+| Equip3Clip = {{Audio|file=Fubuki-Equipment_3.ogg}}
+| Equip3Jp=やりました！
+| Equip3En=I did it!
+| Equip3Note=
+| SupplyClip = {{Audio|file=Fubuki-Supply.ogg}}
+| SupplyJp=ありがとうございます。もっとがんばりますね
+| SupplyEn=Thank you very much. I'll keep working hard!
+| SupplyNote=
+| DockingMinorClip = {{Audio|file=Fubuki-Docking_Minor.ogg}}
+| DockingMinorJp = ちょっとだけ、お休みします。
+| DockingMinorEn=I think I'll take a quick break...
+| DockingMinorNote=
+| DockingMajorClip = {{Audio|file=Fubuki-Docking_Major.ogg}}
+| DockingMajorJp = すみません司令官…おやすみなさい。
+| DockingMajorEn=I'm sorry, Commander. Good night...
+| DockingMajorNote=
+| DockingDoneClip = {{Audio|file=Fubuki-Docking Completed.ogg}}
+| DockingDoneJp = 司令官、艦の修復が完了しました！
+| DockingDoneEn = Commander, I'm done with my repairs!
+| DockingDoneNote = Unused line, likely a line that was being planned as a repair notifier that never got used.
+| ConstructionClip = {{Audio|file=Fubuki-Construction.ogg}}
+| ConstructionJp=あ！新しい仲間が来たみたいですよ？
+| ConstructionEn=Oh! It seems like we have a new friend!
+| ConstructionNote=
+| SortieFinClip = {{Audio|file=Fubuki-Returning_From_Sortie.ogg}}
+| SortieFinJp=作戦が完了したようですね
+| SortieFinEn=It seems like the operation was a success.
+| SortieFinNote=
+| SortieStartClip = {{Audio|file=Fubuki-Starting_A_Sortie.ogg}}
+| SortieStartJp=皆！準備はいい？
+| SortieStartEn=Everyone! Are you ready?
+| SortieStartNote=
+| BattleStartClip = {{Audio|file=Fubuki-Battle_Start.ogg}}
+| BattleStartJp=いっけー！
+| BattleStartEn=Go!
+| BattleStartNote=
+| AirBattleClip = 
+| AirBattleJp = 
+| AirBattleEn =
+| AirBattleNote = 
+| AttackClip = {{Audio|file=Fubuki-Attack.ogg}}
+| AttackJp=当たってぇ！
+| AttackEn=Please hit!
+| AttackNote=
+| NightBattleClip = {{Audio|file=Fubuki-Night_Battle.ogg}}
+| NightBattleJp=酸素魚雷、一斉発射よ！
+| NightBattleEn=Fire all the oxygen torpedoes!
+| NightBattleNote=
+| NightAttackClip = {{Audio|file=Fubuki-Night_Attack.ogg}}
+| NightAttackJp=お願い！当たって下さぁい！
+| NightAttackEn=Please! Please hit!
+| NightAttackNote=
+| MVPClip = {{Audio|file=Fubuki-MVP.ogg}}
+| MVPJp=私、やりました！司令官のお陰です！
+| MVPEn=I did it! It's all thanks to you, Commander!
+| MVPNote=
+| MinorDamage1Clip = {{Audio|file=Fubuki-Minor_Damage_1.ogg}}
+| MinorDamage1Jp = きゃあっ！ 
+| MinorDamage1En= Kyaa!
+| MinorDamage1Note=
+| MinorDamage2Clip = {{Audio|file=Fubuki-Minor_Damage_2.ogg}}
+| MinorDamage2Jp = あうっ！
+| MinorDamage2En=Auu!
+| MinorDamage2Note=
+| MajorDamageClip = {{Audio|file=Fubuki-Major_Damage.ogg}}
+| MajorDamageJp = そんなっ！ダメですぅ！
+| MajorDamageEn=No way! You can't!
+| MajorDamageNote=
+| SinkClip = {{Audio|file=Fubuki-Sunk.ogg}}
+| SinkJp =いやぁ…嫌だよぉ…！
+| SinkEn =No... I hate this...!
+| SinkNote =
+}}<includeonly>
+[[Category:Templates]]
+</includeonly>
+<noinclude>[[Category:Template documentation]]</noinclude>

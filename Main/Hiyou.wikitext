@@ -1,0 +1,365 @@
+==Info==
+{{KanmusuInfo|ID=065}}
+{{KanmusuInfo|ID=065a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+N/A
+
+===Overview===
+* Low firepower.
+* Decent HP and armour.
+* Good plane count.
+* Decent slot distribution.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Low'''
+
+: She has low firepower for a light carrier which limits her damage potential. Her evenly distributed slots are not good but workable because they are all on the small side. This means her airstrike power isn't that good but it also means she can easily spread her damage more evenly against more targets. She'll work just fine for airstrikes against soft targets.
+
+====Recommended Roles====
+* Air Support
+* Airstrike Support
+
+====Not Recommended Roles====
+* Combat
+* Shelling Support
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 名前は出雲ま…じゃなかった、飛鷹です。航空母艦よ。よろしくね、提督！
+|translation = My name is Izumo Ma... No wait, it's Hiyou. I'm an aircraft carrier. Nice to meet you, Admiral!
+|audio = Hiyou-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 飛鷹よ。
+北米航路用の新造客船「出雲丸」を建造途中で改装した、商船改造空母なの。
+でも、正規空母並みの活躍を見せたんだから、本当よ。
+|translation = I'm Hiyou.
+I was a newly laid down cruise ship, Izumo Maru, planned to be used to run routes to North America before being converted to an aircraft carrier.<ref>She was laid down in 1939 and her conversion was ordered in 1940 when the upper decks were just being built.</ref>
+But I really did perform as well as a standard carrier.
+|audio = Hiyou-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 何に？忙しいのよ！
+|translation = What is it? I'm busy!
+|audio = Hiyou-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai = yes
+|origin = 何なの、もう。執務中に冗談はやめてって、もう…
+|translation = Jeez, what is it. Please stop messing around on duty already...
+|audio = HiyouKai-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = ちょうど良かったわ、艦載機の整備を手伝って、何気に数が多くって。
+|translation = Great timing, help me with maintenance on my planes, I've got more than I thought.
+|audio = Hiyou-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = そんなに暇ならエレベーターの油圧の具合を見てよ。調子悪いったら…
+|translation = If you've got so much free time, help me check my elevator's hydraulics. They don't feel so good...<ref>During the [https://en.wikipedia.org/wiki/Battle_of_the_Philippine_Sea Battle of the Philippine Sea], she was struck by torpedoes that caused a fuel leak resulting in a detonation that jammed the elevators.</ref>
+|audio = Hiyou-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kai = yes
+|origin = 何、忙しいのに。そんなに暇なら消火ポンプとかよく確認しておいてね。
+|translation = What, I'm busy. If you've got so much free time, go check the fire fighting pumps.
+|audio = HiyouKai-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = サンフランシスコ航路、諦めた訳じゃないの。平和になれば、いつか、きっと…
+|translation = I haven't given up on the San Fransisco route yet. When peace comes, one day I'll surely...<ref>Her original purpose was to run a cruise route between Japan and San Fransisco.</ref>
+|audio = HiyouKai-Idle.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督、少し顔色が悪いわ。あまり根を詰めて仕事してはダメ。少し休んで、きっとその方が全て旨くいくって、本当よ。
+|translation = You don't look too good, Admiral. Don't work yourself too hard. You'll definitely feel better after getting some rest.
+|audio = Hiyou-Wedding_Line.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = ああ、何か艦隊任務って疲れるわぁ…、提督に愚痴って、ごめん…って、えっ、いいの。何で…
+|translation =Aaah, fleet operations are exhausting... Sorry for the complaints, Admiral... Wha, eh, it's fine. Why...
+|audio = Hiyou-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 提督に連絡があるみたい。何かな。
+|translation = You've got a message, Admiral. What does it say?
+|audio = Hiyou-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|kai = yes
+|origin = 提督、情報の確認はとっても大事よ。はい、報告書です♪。
+|translation = It's important to review intelligence, Admiral. Yes, here's the report♪
+|audio = HiyouKai-PlayerScore.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = さぁ、飛鷹型航空母艦の出撃よ。
+|translation = Now, it's time for the Hiyou-class carriers to sortie.
+|audio = Hiyou-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = 何々、パワーアップ？いいわね♪。
+|translation = What's happening, a power up? That's great♪
+|audio = Hiyou-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai = yes
+|origin = ありがとう！いい機材ね、これは♪。
+|translation = Thank you! These are good machines♪
+|audio = HiyouKai-Equip1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = 私は元々民間の客船になるはずだったのに。ま、いっか。
+|translation = I was supposed to be a cruise ship in the first place. Oh well.
+|audio = Hiyou-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai = yes
+|origin = よし、これなら正規空母並みの戦力を発揮できます。やるわ♪。
+|translation = Alright, I can fight like a standard carrier with this. I can do this♪
+|audio = HiyouKai-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = やる♪。
+|translation = This will do♪
+|audio = Hiyou-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|kai = yes
+|origin = あら、いいわね♪。
+|translation = Oh, this is nice♪
+|audio = HiyouKai-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = 補給、大事に使わせていただきます！
+|translation = I'll put these supplies to very good use!
+|audio = Hiyou-Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 入渠してる暇なんか、ないのに…
+|translation = I don't have time to spare to be in the docks...
+|audio = Hiyou-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = ドック入り。もうドックは飽きたな。
+|translation = Going in the docks again. I'm already fed-up with being in the docks.
+|audio = Hiyou-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = ちょっと進水した船があるわよ。
+|translation = Looks like there's a newly launched ship.
+|audio = Hiyou-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 作戦完了ですって。
+|translation = The operation is complete.
+|audio = Hiyou-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 次はどこ。アリューシャン方面？
+|translation = Where to next? To the Aleutians?<ref>She participated in the [https://en.wikipedia.org/wiki/Battle_of_Dutch_Harbor Battle of Dutch Harbor], part of Operation AL by the IJN.</ref>
+|audio = Hiyou-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai = yes
+|origin = さぁ、飛鷹型航空母艦、全力出撃です。航空隊の練度もバッチリよ。
+|translation = Now, the Hiyou-class aircraft carriers will sortie with all our might. My air wing is all trained up too.
+|audio = HiyouKai-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 攻撃隊、発艦開始。
+|translation = Attack corps, begin takeoff.
+|audio = Hiyou-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 全機爆装。さあ、飛び立って。
+|translation = All bombers. Now, fly.
+|audio = Hiyou-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Air Battle
+|origin = 多少防御力が弱くたって。
+|translation = Go soften them up a bit.
+|audio = Hiyou-Air_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = さぁ、ミッドウェーの仇をとるわよ。
+|translation = Now, this is for Midway.
+|audio = Hiyou-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = どう？改装空母だって甘くないでしょう。私達結構やれるんだから。
+|translation = How's that? A converted carrier isn't bad right. We can do pretty well.
+|audio = Hiyou-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = うぁ…あっ！
+|translation = Who...aa!
+|audio = Hiyou-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = 飛行甲板に火。消火ポンプ、急いで。
+|translation = Fire on the flight deck. Hurry up with the water pumps.<ref>She was set alight by bombs at the Battle of the Philippine Sea.</ref>
+|audio = Hiyou-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = 消火ポンプが故障って、どういうことよ。
+|translation = What do you mean by the "water pumps have failed"?<ref>The damage control crew abandoned efforts to save her once the water pumps failed.</ref>
+|audio = Hiyou-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 火災鎮火は…無理か。私も逝くのね。
+|translation = I couldn't... extinguish the fires. I'll be heading off too.
+|audio = Hiyou-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2014|Christmas 2014]]
+|origin =ク、クリスマスかぁ。ドレス、まだ取っておいたかなぁ…着ても、いいかな？
+|translation =	I-is it Christmas? I wonder if my dress here somewhere ...Can I wear it?<ref>A reference to when she was originally a cruise ship.</ref>
+|audio = Hiyou_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin = そうね、今日は特別の日なのね。隼鷹、もう真っ赤だし。どんだけ飲んでるの？
+|translation =	That’s right, today is a special day. Junyou… Your face is already bright red. How much did you drink?
+|audio =065_Hiyou _2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2018|Coming of Spring 2018]]
+|origin = お花見の季節ですね。いいですね。提督、私も手料理頑張ってみますね。えへへぇ、期待してください。
+|translation =	It’s the season for cherry blossom viewing. Great. I’ll try my hand at home cooking too, Admiral. Ehehe, please look forward to it.
+|audio = Hiyou_Spring_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = そうっか、艦隊の五周年なんですね。…うぅ、隼鷹もう真っ赤だし。どんだけ飲んでるの？
+|translation =	I see, it’s the fleet’s 5th Anniversary. …Urgh, your face is already red, Junyou. How much did you drink?
+|audio = Hiyou_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2018|Rainy Season 2018]]
+|origin = 梅雨ね…提督に傘の準備を…準鷹の分って…準鷹！？あぁ、もう、飲みすぎ！やめなさいいって！
+|translation =	It’s the rainy season… I’ll need to get the Admiral’s umbrella ready… “Worry about Junyou”… Junyou! Ah, jeez, you drank too much! I told you to stop it!
+|audio = Hiyou_Rainy_Season_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2018|Summer 2018]]
+|origin = 隼鷹、だめだから！あぁ、こら！本ー当にもう！もう、あなた、禁酒しなさい！禁酒！だめだ、もう！
+|translation =	Stop that, Junyou! Ah, jeez! You really are just! Jeez, you need to stop drinking! Just stop! Stop, jeez!
+|audio = Hiyou_Summer_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2019|Setsubun 2019]]
+|origin = 節分ですね。えぇ、龍鳳さん鬼役を？なれてるって、本当？大丈夫？あぁ、こら隼鷹！あなたね…
+|translation =	It's Setsubun. Eh, you're playing the Oni, Ryuuhou? Are you really used to it already? Are you alright? Ah, hey, Junyou! You're so...
+|audio = Hiyou_Setsubun_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = 	そうなんですね、艦隊は六周年を迎えたですね。うわぁ、隼鷹、あなたもう真っ赤だし。飲みすぎでしょう。
+|translation =	That's right, the fleet's 6th Anniversary is here. Whoa, Junyou, you're already completely red. You've drunk too much.
+|audio = Hiyou_6th_Anniversary_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = そっかぁ、艦隊はついに七周年なんですね。隼鷹、もう真っ赤じゃない。のみずぎ！もう！
+|translation =	I see, it's finally the fleet's 7th Anniversary. Junyou, your face is already red. You drink to much! Jeez!
+|audio = Hiyou_7th_Anniversary_Secretary_2.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = 提督、艦隊はついに八周年を迎えました。これまで、ありがとう。ほら、準用も。って、酔いつべれてる。
+|translation =	Admiral, the fleet is celebrating its 8th Anniversary. Thanks for everything. Come on, Junyou. Ugh, you're already drunk.
+|audio = Hiyou_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+75_3.png|Base
+75_4.png|Base Damaged
+Hiyou_kai.png|Kai
+Hiyou_kai_dmg.png|Kai Damaged
+</gallery>
+|}
+
+== Drop Locations ==
+{{#invoke:ShipDropTable|returnShipDrop|Hiyou}}
+
+==Trivia==
+*Her names means "Flying Hawk"
+*She was originally a cruise liner named Izumo Maru (出雲丸), the navy bought and converted her to a carrier during construction.
+**Her outfit is a reference to this origin.
+*She was sunk by a gasoline vapor explosion caused by an American torpedo hit during the Battle of the Philippine Sea in mid-1944.
+
+==See Also==
+*[[{{PAGENAME}}/Gallery|View {{PAGENAME}} CG]]
+*[[EliteCVL|List of light carriers]]
+*[[wikipedia:Japanese_aircraft_carrier_Hiyō|Wikipedia entry on carrier Hiyō]]
+{{shiplist}}
+[[Category:Hiyou Class]]
+[[Category:Light Carriers]]
+[[zh:飞鹰]]

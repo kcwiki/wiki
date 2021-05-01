@@ -1,0 +1,198 @@
+[[File:Hishimochi-Quest-bannner.png|center]]
+The '''Hishimochi Mini-Event of 2021''' is a variation of the Hishimochi event, where players can complete a series of quests in order to collect Hishimochi, which in turn is used to obtain valuable materials and resources, such as [[Blueprint]]s, [[Prototype Flight Deck Catapult]], and even a selection of DEs. The event started on March 1, 2021.
+
+In order to collect the Hishimochi, you will need to complete quests. Do note that these quests are weeklies and one times, and will only be available for a limited period of time.
+
+Once the event ends, all Hishimochi will expire and be removed, along with the quests.
+
+==Quests==
+
+In this time-limited Quest event, there are a total of 8 currently known quests available. The following should be noted about them:
+
+* 4 Quests are Weeklies (3 Hishimochi Obtaining Quests, 1 Hishimochi Exchange Quest)
+* 4 Quests are One Time (1 Hishimochi Obtaining Quests, 3 Hishimochi Exchange Quest)
+* Existence of more exchange quests is still to be determined.
+
+As you collect the Hishimochi, you can use them to exchange for stuff in later quests. It is recommended to conserve your Mochi first before you spend them on resources, as you will need them to complete the quests.
+
+====Hishimochi Collection Quests====
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2103 B1
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【桃の節句】鎮守府近海、春の安全確保作戦
+| nameen = (Hinamatsuri Operation) Secure the waters near the naval base during spring!
+| req = Hinamatsuri Operation: Organize a fleet that includes 3 Destroyers or Coastal Defense ships. Sortie into the Sea around the Nansei Islands, the Coastal Refinery Zone, the Seas Near the Naval Base, and the Sea Route Near Naval Base. Successfully complete each operation.
+
+*Sortie a fleet that consists of 3 DD/DE and 3 XX and score a A-Rank victory at the boss nodes of 1-2, 1-3, 1-5. Reach the end point of 1-6 once.
+| fuel =  300
+| ammo = 300
+| steel = 300
+| bauxite = 0
+| other = {{QuestRewardItem|Hishimochi}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|25mm Single Autocannon Mount|qty=2}}{{QuestRewardItem|Development Material|qty=5}}{{QuestRewardEquip|Type 2 12cm Mortar Kai}} 
+| notes = ''Weekly Quest'' </br> Time-limited Quest
+| once  = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2103 B2
+| reqQuest = 2103 B1
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【桃の節句】南西諸島海域、春の戦闘哨戒！
+| nameen = (Hinamatsuri Operation) Springtime combat patrols in the Nansei Islands sea!
+| req = Hinamatsuri Operation: Organize a fleet that includes 4 Destroyers or Coastal Defense ships. Sortie into the Nansei Islands Coastal Waters, the Bashi Island Strait, and the Eastern Orel Bay. Capture and destroy the enemy fleet and secure control of each area!
+
+*Sortie a fleet that consists of 4 DD/DE and 2 XX and score a S-Rank victory at the boss nodes of 2-1, 2-2, and 2-3, twice each.
+| fuel = 0
+| ammo = 500
+| steel = 500
+| bauxite = 0
+| other = {{QuestRewardItem|Hishimochi|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=5}}{{QuestRewardItem|Food Supply Ship Mamiya}}{{QuestRewardEquip|Type 3 Depth Charge Projector|qty=2}}
+| notes = ''Weekly Quest'' </br> Time-limited Quest
+| once  = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2103 B3
+| reqQuest = 2103 B2
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【桃の節句】春の決戦！敵機動部隊を叩け！
+| nameen = (Hinamatsuri Operation)  Spring's decisive battle! Smash the enemy task force!
+| req = Hinamatsuri Operation: Organize a powerful fleet that includes at least 1 Aircraft Carrier, 1 Heavy Cruiser or Aviation Cruiser and 1 Light Cruiser, then proceed to the Okinoshima Island, Combat Patrol Off Okinoshima, and the deepest part of Tawi-Tawi Anchorage Sea.
+*Sortie a fleet that consists of 1 CV(B/L), 1 CA(V), 1 CL and 3XX and score a S-Rank victory at the boss nodes of 2-4, 2-5, and 7-2 (Part 2), twice each.
+| fuel = 1000
+| ammo = 1000
+| steel = 0
+| bauxite = 1000
+| other = {{QuestRewardItem|Hishimochi|qty=4}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Development Material|qty=10}}{{QuestRewardItem|Reinforcement Expansion}}{{QuestRewardItem|Medal}}
+| notes =  Time-limited Quest
+| once  =  True
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2103 B4
+| reqQuest = 2103 B2
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【桃の節句：拡張作戦】春の攻勢作戦！
+| nameen = (Hinamatsuri Extra Operation) Spring's proactive battle operation!
+| req = Hinamatsuri Extra Operation: Organize a powerful fleet and sortie into the Northern AL Waters, the Curry Ocean Ri-Lanka Island, and the Central Northern Offshore Sea of Peacock Island. Use the full power of your fleet to destroy the enemy fleet!
+*Sortie any fleet and score a S-Rank victory at the boss nodes of 3-5, 4-5 and 6-4 once.
+| fuel = 880
+| ammo = 880
+| steel = 880
+| bauxite = 880
+| other = {{QuestRewardItem|Hishimochi|qty=4}}<br/>'''Then choose between:'''<br/>{{Ship/Banner|Matsuwa}}</br>{{Ship/Banner|Sado}}</br>{{Ship/Banner|Tsushima}}</br>{{Ship/Banner|Fukae}}</br>{{Ship/Banner|Hirato}}
+| notes = ''Weekly Quest'' </br> Time-limited Quest
+| once  = 
+}}
+|}
+
+====Hishimochi Exchange Quests====
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Modernization
+| listnum = 2103 G1
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【桃の節句】菱餅改修：2021序
+| nameen = (Hinamatsuri Operation) Hishimochi Modernization: 2021 Beginnings
+| req = Hinamatsuri Operation: Prepare 2 Hishimochi. Successfully modernize a DD with 4 Mutsuki-class DDs at the same time.
+* Mutsuki-class DDs are {{ShipLink|Mutsuki}}, {{ShipLink|Kisaragi}}, {{ShipLink|Yayoi}}, {{ShipLink|Uzuki}}, {{ShipLink|Satsuki}}, {{ShipLink|Minazuki}}, {{ShipLink|Fumizuki}}, {{ShipLink|Nagatsuki}}, {{ShipLink|Kikuzuki}}, {{ShipLink|Mikazuki}}, {{ShipLink|Mochizuki}}. 
+| fuel =  0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=6}}{{QuestRewardItem|Improvement Material|qty=3}}{{QuestRewardItem|Food Supply Ship Irako|qty=3}}
+| notes = Time-limited Quest </br> 2 Hishimochi will be consumed upon completion of this quest
+| once  = 
+}}
+{{ProtoQuests
+| type = Modernization
+| listnum = 2103 G2
+| reqQuest = 2103 G1
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【桃の節句】菱餅改修：2021破
+| nameen = (Hinamatsuri Operation) Hishimochi Modernization: 2021 Intermission
+| req = Hinamatsuri Operation: Prepare 5 Hishimochi. Successfully modernize a Ayanami-class DD with 5 Fubuki-class DDs at the same time, twice.
+* Ayanami-class DDs are {{ShipLink|Ayanami}}, {{ShipLink|Shikinami}}, {{ShipLink|Amagiri}}, {{ShipLink|Sagiri}}, {{ShipLink|Oboro}}, {{ShipLink|Akebono}}, {{ShipLink|Sazanami}}, {{ShipLink|Ushio}}.
+* Fubuki-class DDs are {{ShipLink|Fubuki}}, {{ShipLink|Shirayuki}}, {{ShipLink|Hatsuyuki}}, {{ShipLink|Miyuki}}, {{ShipLink|Murakumo}}, {{ShipLink|Usugumo}}, {{ShipLink|Isonami}}, {{ShipLink|Uranami}}
+| fuel =  0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Remodel Blueprint}}{{QuestRewardItem|Action Report|qty=2}}{{QuestRewardItem|New Model Armament Material|qty=3}}
+| notes = Time-limited Quest </br> 5 Hishimochi will be consumed upon completion of this quest
+| once  = 
+}}
+{{ProtoQuests
+| type = Modernization
+| listnum = 2103 G3
+| reqQuest = 2103 G1
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【桃の節句】菱餅改修：2021週
+| nameen = (Hinamatsuri Operation) Hishimochi Modernization: 2021 Weekly
+| req = Hinamatsuri Operation: Prepare 3 Hishimochi, 20 Development Materials, 2400 Ammo and 2400 Steel.  Successfully modernize a CA with 4 CLs at the same time, twice.
+| fuel = 500
+| ammo = 0
+| steel = 0
+| bauxite = 500
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=7}}{{QuestRewardItem|Improvement Material|qty=3}}{{QuestRewardEquip|Anti-torpedo Bulge (Medium)|qty=2}} <br/>'''Then choose between:'''<br/> {{QuestRewardItem|New Model Gun Mount Improvement Material}}  {{QuestRewardItem|New Model Aerial Armament Material}}  {{QuestRewardItem|New Model Rocket Development Material}}  
+| notes = ''Weekly Quest''</br> Time-limited Quest </br> 3 Hishimochi, 20 Development Materials, 2400 Ammo and 2400 Steel will be consumed upon completion of this quest
+| once  = 
+}}
+{{ProtoQuests
+| type = Modernization
+| listnum = 2103 G4
+| reqQuest = 2103 G2
+| reqQuest2 = 2103 B3
+| reqQuest3 =
+| namejp = 【桃の節句】菱餅改修：2021空
+| nameen = (Hinamatsuri Operation) Hishimochi Modernization: 2021 Sky
+| req = Hinamatsuri Operation: Prepare 7 Hishimochi, 90 Development Materials, 9000 fuel and 9000 bauxite. Successfully modernize a CV ship with 5 CVL at the same time, twice.
+* Only CVs can work for the modernization process '''CVB will not work'''
+| fuel =  0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Prototype Flight Deck Catapult}}{{QuestRewardItem|Ne Type Engine|qty=2}}{{QuestRewardItem|New Technology Aircraft Blueprint|qty=4}}
+| notes = Time-limited Quest </br> 7 Hishimochi, 9000 Fuel and bauxite and 90 Development Materials will be consumed upon completion of this quest
+| once  = 
+}}
+|}
+
+== Exchange Rate ==
+
+Hishimochi can be opened through the item screen and exchanged between three different colours:
+
+{| class="wikitable" 
+|- style="font-weight:bold;"
+! colspan="3" style="text-align:center;" | [[File:Mochi_selection_new.png|300px|Selection]]
+|-
+| [[File:Mochi_pink_new.png|250px|Selection]]
+| [[File:Mochi_white_new.png|250px|Selection]]
+| [[File:Mochi_green_new.png|250px|Selection]]
+|- style="text-align:center;"
+| style="text-align:left;" | Pink: ({{Fuel}}✕ 600 and {{Bauxite}}✕ 200)
+| White: ([[Fatigue#Food_Supply_Ship_.22Irako.22|Irako]]✕ 1)
+| Green: ([[File:Instant_repair_2.png|30px]]✕ 2 and [[file:Improvement Materials.png|30px]]✕ 1)
+|}
+
+You should not consider this option until you have completed all relevant quests you want to clear, as those require existing Hishimochi in inventory to be consumed by the quests during the process.
+
+== Notes ==
+<big>'''Avoid spending your Hishimochi on resources until you have completed all relevant quests you want to clear.'''</big>
+
+{{Seasonal}}
+[[Category:Spring]]
+[[Category:Items]]

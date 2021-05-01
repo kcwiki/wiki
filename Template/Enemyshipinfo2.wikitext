@@ -1,0 +1,153 @@
+{|style="border: 1px solid darkgray; width: 345px;color:black"
+|-
+| colspan="4" style="text-align: center; background-color: {{{color|}}};"|<p style="font-size:20px">'''{{{name|Name?}}}'''</p>
+<p style="font-size:15px">'''{{#if:{{{id|}}}|No.{{{id}}}}} {{lang|ja|{{{japanesename|}}}}}'''</p>
+<p>'''{{#if:{{{class|}}}|{{{class}}} Class}} {{{type|}}}'''</p>
+|-
+|align=center colspan="4" |{{{image|}}}
+|-
+| colspan="4" style="text-align: center; background-color: LightSkyBlue;"|'''Statistic'''
+|-
+| style="width: 90px;"|[[file:icon_HP.png]] HP
+|width="80px"|'''{{{hp|no data}}}'''
+| style="width: 86px;"|[[file:icon_Gun.png]] Firepower
+|'''{{{firepower|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Armor.png]] Armor
+|width="80px"|'''{{{armor|no data}}}'''
+| style="width: 86px;"|[[file:icon_Torpedo.png]] Torpedo
+|'''{{{torpedo|no data}}}'''
+|-
+| style="width: 96px;"|[[file:icon_Evasion.png]] Evasion
+|width="80px"|'''{{{evasion|no data}}}'''
+| style="width: 80px;"|[[file:icon_AA.png]] AA
+|'''{{{AA|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Aircraft.png]] Aircraft
+|width="80px"|'''{{{aircraft|no data}}}'''
+| style="width: 86px;"|[[file:icon_ASW.png]] ASW
+|'''{{{ASW|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Speed.png]] Speed
+|width="80px"|'''{{{speed|no data}}}'''
+| style="width: 86px;"|[[file:icon_LOS.png]] LOS
+|'''{{{LOS|no data}}}'''
+|-
+| style="width: 90px;"|[[file:icon_Range.png]] Range
+|width="80px"|'''{{{range|no data}}}'''
+| style="width: 86px;"|[[file:icon_Luck.png]] Luck
+|'''{{{luck|no data}}}'''
+|-
+| colspan="3" style="text-align: center; background-color: LightSkyBlue;"|'''Equipment'''
+|style="text-align: center; background-color: LightSkyBlue;" | '''[[file:icon_Aircraft.png]]Space'''
+|-
+|align=center colspan="3" |{{{slot1|no data}}}
+|align=center | {{{space1|-}}}
+|-
+|align=center colspan="3" |{{{slot2|no data}}}
+|align=center | {{{space2|-}}}
+|-
+|align=center colspan="3" |{{{slot3|no data}}}
+|align=center | {{{space3|-}}}
+|-
+|align=center colspan="3" |{{{slot4|no data}}}
+|align=center | {{{space4|-}}}
+|}
+<noinclude>
+
+*An altered version of the [[Template:Shipinfo2|Shipinfo2]] template for use with enemy vessels; this template does not include ''build time'', which irrelevant to enemy vessels.
+*Input is identical to Shipinfo2 except the "| time=" and "| slot=" parameters, which are unneeded.
+<pre>
+{{enemyshipinfo2
+| name=
+| japanesename=
+| id=
+| image=
+| color=
+| type=
+| class=Abyssal
+| hp=
+| firepower=
+| armor=
+| torpedo=
+| evasion=
+| AA=
+| aircraft=
+| speed=
+| LOS=
+| ASW=
+| range=
+| luck=
+| slot1=
+| slot2=
+| slot3=
+| slot4=
+| space1=
+| space2=
+| space3=
+| space4=-
+}}
+</pre>
+**Additionally, coloring conventions differ between kanmusu and enemy vessels: color=(gray, red, yellow) for normal, elite, and flagship-tier vessels respectively. All boss enemies use color=red.
+*For ships without aircraft capabilities, use [[Template:Enemyshipinfo]].
+<pre>
+{{enemyshipinfo2
+| name=Standard Carrier Wo-Class
+| japanesename=空母ヲ級
+| id=512
+| image=[[File:Wo_n.png|208px]]
+| color=gray
+| type=Aircraft Carrier
+| class=Abyssal
+| hp=85
+| firepower=0
+| armor=40
+| torpedo=0
+| evasion=3
+| AA=30
+| aircraft=81
+| speed=High
+| LOS=40
+| ASW=0
+| range=N/A
+| luck=1
+| slot1=Abyssal Fighter
+| slot2=Abyssal Dive Bomber
+| slot3=Abyssal Torpedo Bomber
+| slot4=-Locked-
+| space1=27
+| space2=27
+| space3=27
+| space4=-
+}}
+</pre>
+
+{{enemyshipinfo2
+| name=Standard Carrier Wo-Class
+| japanesename=空母ヲ級
+| id=512
+| image=[[File:Wo_n.png|208px]]
+| color=gray
+| type=Aircraft Carrier
+| class=Abyssal
+| hp=85
+| firepower=0
+| armor=40
+| torpedo=0
+| evasion=3
+| AA=30
+| aircraft=81
+| speed=High
+| LOS=40
+| ASW=0
+| range=N/A
+| luck=1
+| slot1=Abyssal Fighter
+| slot2=Abyssal Dive Bomber
+| slot3=Abyssal Torpedo Bomber
+| slot4=-Locked-
+| space1=27
+| space2=27
+| space3=27
+| space4=-
+}}

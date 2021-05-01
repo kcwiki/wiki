@@ -1,0 +1,67 @@
+{{EquipmentInfo|102}}
+
+==Introduction==
+水雷戦隊旗艦用に開発された水上夜間偵察機です。<br>長時間の滞空性能を持つ黒く塗装された機体に、夜間索敵能力に優れた搭乗員が乗りこみます(条件が整えば夜戦を支援する「夜間触接」が発生する可能性があります)。
+
+''This night recon seaplane was developed for use of DesRon flagships. The airframe is painted black, has an excellent loiter time and included within the crew is a skilled spotter trained in night operations aboard. (It can also spot for allied ships during night time reconnaissance.)''
+
+==Notes==
+[[File:Recon2.jpg|thumb|115x115px|(Picture credits to DarkSeikan)]]
+Has the ability to trigger [[Night Battle#Night Contact|Night Contact]].
+
+The scouting phase animation will not show up like day battle's; instead, you will see the '''night recon plane's animation in the enemy fleet's radar''' (as seen in this picture,''' top right''') 
+
+Acts as a artillery spotter too in day battle but has smaller activation rates due to its lower {{LOS}} stat.
+
+(Bug) In a [[Combined Fleet]] situation, if a ship in the fleet armed with the night scout is removed from the combined fleet using the [[Fleet Command Facility]], the night scout can still trigger and activate as your fleet proceeds onward and enters a night battle.
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Sendai Kai Ni}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2014-06-20:''' '''Implemented'''
+* '''2016-04-22:''' Became '''improvable'''
+</div></div>
+
+==Fit Bonuses==
+{{:Equipment Bonuses/Reconnaissance Seaplanes}}
+
+== Akashi's Improvement Arsenal ==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+| Name = {{PAGENAME}}
+| ItemType = Seaplane
+| Fuel = 100
+| Ammo = 30
+| Steel = 0
+| Baux = 480
+|Mats0-5 = 4/7
+|Mats6-9 = 5/9
+|Mats10 = -
+|Screws0-5 = 3/4
+|Screws6-9 = 4/8
+|Screws10 = -
+|EquipConsume0-5 = 1x{{Seaplane|Type 0 Recon Seaplane}}
+|EquipConsume6-9 = 2x{{Seaplane|Type 0 Recon Seaplane}}
+|EquipConsume10 = -
+| Sun = ✓
+| Mon = ✓
+| Thu = ✓
+| Fri = ✓
+| Sat = ✓
+| 2ndShip = [[Sendai#Second Remodel|Sendai Kai Ni]]
+| Notes =
+}}
+|}
+
+==See also==
+[http://en.wikipedia.org/wiki/Aichi_E11A Aichi E11A]
+{{Equipmentlist}}
+
+[[Category:Seaplanes]]
+[[Category:Reconnaissance Seaplane]]

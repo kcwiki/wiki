@@ -1,0 +1,7 @@
+<includeonly><span lang="{{{1}}}" xml:lang="{{{1}}}">{{#switch:{{{1|}}}
+ |zh-hans|zh-hant|zh-cn|zh-tw|zh-hk|zh-sg|zh-mo|zh-my|ja|ko|vi ={{{2}}}
+ |#default ={{{2}}}}}</span>{{#switch:{{{1|}}}
+ |ar|fa|he|ur =&#8206;
+ |#default = }}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

@@ -1,0 +1,648 @@
+==Info==
+{{KanmusuInfo|ID=085}}
+{{KanmusuInfo|ID=085a}}
+{{KanmusuInfo|ID=263}}
+{{KanmusuInfo|ID=268}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform OASW at 100 ASW.
+* Able to convert between Kai Ni and Kai Ni D remodels.
+** Modernisation will be reset on conversion.
+* Able to equip Daihatsu and Type 2 Ka-Mi tank at Kai Ni D.
+
+===Overview===
+'''Kai'''
+* Average firepower, torpedo, ASW, HP and armour.  
+
+'''Kai Ni'''
+* Good firepower and torpedo.
+* Average ASW, HP and armour.
+
+'''Kai Ni D'''
+* Average firepower and HP.
+* Good torpedo, ASW and armour.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+'''Asashio Kai'''
+
+Priority: '''Low'''
+
+:At first remodel, she has low firepower and a decent torpedo stat, making her hitting harder in night battle than at day, but not great at either.
+:While not impressive in combat, do keep in mind than many maps require you to bring at least a few destroyers for routing.
+:Furthermore, destroyers are cheap to deploy and can equip [[Drum Canister]], making them suited for expeditions.
+
+
+'''Asashio Kai Ni'''  
+
+Priority: '''Medium-High'''
+:Her second remodel increases her Firepower and Torpedo stat to very high levels for a destroyers, making her a destroyer very well suited for surface combat.  
+:However, she can be remodeled further to fill a different niche in the fleet, which should be preferable for admirals not short of anti-surface destroyers, so giving up this version to obtain the D one is a real possibility.
+:Another option, for those willing to do so, is to raise a second Asashio as she doesn't need a [[Blueprint]] or [[Action Report]] to be remodeled.
+
+
+'''Asashio Kai Ni D'''  
+
+Priority: '''Very High'''
+:A further remodel decreases her anti-surface capabilities by reducing her Firepower and Torpedo stat a bit, trading those off for the best ASW stat of all IJN destroyers currently in game and immediately perform OASW, plus the ability to load [[Daihatsu]] and tanks, allowing her to increase expedition income or be deployed against enemy installations.
+:This versatility is highly valuable, particularly early on.
+
+
+====Recommended Roles====
+* Surface combat (Second remodel)
+* ASW (Second remodel D)
+* Anti-installation (Second remodel D)
+* Expeditions (Second remodel D)
+
+===Important Information===
+* Required for A31, A70, A71, A81, B20, B73, B74, B108 and B109
+* An option for B90, and C25
+----
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 駆逐艦、朝潮です。勝負ならいつでも受けて立つ覚悟です。
+|translation = I'm the destroyer Asashio. I'm always ready to take on a challenge.
+|audio = Asashio-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction (Kai Ni)
+|kai2 = yes
+|origin = 駆逐艦、朝潮です。改装していただきました。今まで以上に艦隊のお役に立てるよう、頑張る覚悟です。よろしくお願いします！
+|translation = I'm the destroyer Asashio. I have been remodelled. I'm ready to work even harder to serve the fleet from now on. Please take good care of me!
+|audio = AsashioKai2-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction (Kai Ni D)
+|kai2 = yes
+|origin = 駆逐艦、朝潮です。改装により生存性と汎用性が向上しました。これまで以上にお役に立つ覚悟です。よろしくお願いします！
+|translation = I'm the destroyer Asashio. The remodel has improved my survivability and flexibility. I'm ready to work even harder to serve the fleet from now on. Please take good care of me!
+|audio = AsashioKai2D-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 朝潮型駆逐艦のネームシップ、朝潮よ。
+バランスのとれた量産型駆逐艦として建造され、戦線を支えたの。
+私の進化改良型が陽炎型になるわね。
+|translation = I'm the name ship of the Asashio-class destroyers, Asashio.
+I'm a well balanced mass-produced destroyer made to support the front lines.
+My improved version became the Kagerou-class.<ref>To improve the turning circle, the first four ships of the class (Asashio, Ooshio, Michishio, Arashio) had modifications made to their hull and rudder shapes. The addition of a 'knuckle' to the hull carried over to the later Kagerou-class.</ref>
+|audio = Asashio-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = はい、いつでも出撃可能です。
+|translation = Yes, I'm always ready to sortie.
+|audio = Asashio-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 司令官、ご命令を。
+|translation = Your orders, Commander.
+|audio = Asashio-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = 司令官、それは新しい暗号でしょうか？
+|translation = Is that a new code, Commander?
+|audio = Asashio-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kai2 = yes
+|origin = 司令官…はい！約束は…司令官との大切な約束も、必ず守り通す覚悟です！
+|translation = Commander... Yes! I promise... I'm prepared to protect that precious promise I made with you too, Commander!
+|audio = AsashioKai2-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = 司令官が待てと言うなら、この朝潮、ここでいつまででも待つ覚悟です！！
+|translation = If you tell me to wait, I'm prepared to wait here forever, Commander!!
+|audio = Asashio-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = あ、あの…、私からこんなこと言うのも差し出がましいけれど、司令官をいつも尊敬しています！
+|translation = U-ummm... This may sound too forward coming from me but; I really respect you, Commander!
+|audio = Asashio-SecMarried.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督、何ですか、こんなところに呼び出して。朝潮と二人っきりで…あっ、これは…作戦会議ですねっ！
+|translation = Why did you call me to a place like this, Admiral? Just the two of us... Ah, thi is... a strategy meeting right!
+|audio = Asashio-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 司令官に電文です。
+|translation = It's a telegram for you, Commander.
+|audio = Asashio-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|kai2 = yes
+|origin = 司令官、情報ですか？はい、この朝潮がお持ちします。
+|translation = Information, Commander? Yes, I'll get it for you.
+|audio = AsashioKai2-PlayerScore.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 朝潮、出ます！
+|translation = Asashio, heading out!
+|audio = Asashio-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai2 = yes
+|origin = 第八駆逐隊、旗艦朝潮。抜錨します！
+|translation = 8th Destroyer Division, flagship, Asashio. Setting sail!
+|audio = AsashioKai2-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = これなら戦えます。<ref>Shared with Supply before Kai.</ref>
+|translation = I can fight with this.
+|audio = Asashio-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = 駆逐艦としては、かなりいい仕上がりです。
+|translation = This is pretty well made for a destroyer.
+|audio = Asashio-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = うん、いいわ。
+|translation = Yup, this is good.
+|audio = Asashio-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = yes
+|origin = 司令官に感謝します！
+|translation = I'm grateful to you, Commander!
+|audio = AsashioKai-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 小さな損傷でも、命取りになることがあります。
+|translation = Even a small injury can be fatal.<ref>She was struck by a single 3" shell at the [https://en.wikipedia.org/wiki/Battle_of_Badung_Strait Battle of Badung Strait] that killed 4 men and wounded 11.</ref>
+|audio = Asashio-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 大丈夫…次の作戦には間に合わせます！
+|translation = I'm fine... I'll make it for the next operation!
+|audio = Asashio-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい艦が建造されました。
+|translation = A new ship has been built.
+|audio = Asashio-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊が帰投しました。
+|translation = The fleet has returned to port.
+|audio = Asashio-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 駆逐艦朝潮、出撃します！
+|translation = Destroyer Asashio, sortieing!
+|audio = Asashio-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 左舷、敵艦発見。
+|translation = Enemy spotted to port.
+|audio = Asashio-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = よし、突撃する。
+|translation = Alright, I'm attacking.
+|audio = Asashio-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|origin = この海域から出ていけ！
+|translation = Leave these waters at once!
+|audio = Asashio-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 一発必中！肉迫するわ。
+|translation = A one hit kill! Press the attack.<ref>What she really says is a phrase meaning "Success on the first try". She sank the [https://en.wikipedia.org/wiki/HNLMS_Piet_Hein_(1927) HNLMS Piet Hein] at Badung Strait with a single torpedo.</ref>
+|audio = Asashio-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|kai2 = yes
+|origin = 第八駆逐隊、突撃！肉迫するわ。みんな続いてください！今こそ必中距離え！
+|translation = 8th Destroyer Division, charge! We'll press the attack. Please follow me, everyone! Now is the time to take them out from range!
+|audio = AsashioKai2-NightBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 作戦を全う出来て良かったです。これが朝潮型駆逐艦の力なんです。
+|translation = It's great that we pulled off the operation perfectly. This is the power of the Asashio-class destroyers.
+|audio = Asashio-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = っ！
+|translation = Wha!
+|audio = Asashio-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1 (Kai Ni)
+|kai2 = yes
+|origin = っ！いったた…荒潮は？大丈夫？
+|translation = Wha! That hurts... How is Arashio? Is she alright? 
+|audio = AsashioKai2-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1 (Kai Ni D)
+|kai2 = yes
+|origin = 嫌だ、被弾？！やらせないっ！対空、対潜見張り、厳としてっ！
+|translation = No, I'm hit?! I'll get you for this! Anti-air and anti-submarine personnel keep a sharp lookout!
+|audio = AsashioKai2D-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = やだっ、痛いじゃない！
+|translation = No, that hurts!
+|audio = Asashio-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|kai2 = yes
+|origin = 痛い…でもまだ、まだ戦闘も、救援も可能です！朝潮…沈むものか！
+|translation = That hurts... But I can still fight and perform rescues! I won't... sink this easily!
+|audio = AsashioKai2-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = これで勝ったつもり！？
+|translation = Do you think you've won with this!?
+|audio = Asashio-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|kai2 = yes
+|origin = まだ…沈まない…あの約束を果たす、までは…
+|translation = I still... can't sink... Not until I fulfil that promise...<ref>Before the [https://en.wikipedia.org/wiki/Battle_of_the_Bismarck_Sea Battle of the Bismarck Sea], her Captain exchanged a promise with the collier/troop transport Nojima Maru that she was escorting. When the Nojima Maru sank, her captain disobeyed an order to retreat with the message "I made a promise with the captain of Nojima. We will rescue her survivors before retreating" (『我野島艦長トノ約束アリ　野島救援ノ後避退ス』).</ref>
+|audio = AsashioKai2-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 救助中に攻撃なんて…卑怯な…
+|translation = Attacking me while I'm performing a rescue... How cowardly...<ref>She was caught in an air raid and sunk while recuing survivors from the collier/troop transport Nojima Maru and her sister Arashio.</ref>
+|audio = Asashio-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = マルマルマルマル。はい、司令官。この朝潮、本日は片時も司令官のそばを離れません。時報も掃除洗濯も、どぞお任せてください！
+|translation = 0000. Yes, Commander. I won't leave your side for a single moment today. Be it telling the time or cleaning up, please leave it all to me!
+|audio = AsashioKai-00.mp3
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = マルヒトマルマル。司令官、御用はないですか？何でも御用めください。はい、任務ですから。
+|translation = 0100. Do you have any orders for me, Commander? Please order me to do anything. Yes, it's my duty.
+|audio = AsashioKai-01.mp3
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = マルフタマルマ…えぇ、声が少し大きですか？申し訳ありません、司令官。
+|translation = 020... Eh, my voice is a bit too loud? My deepest apologies, Commander.
+|audio = AsashioKai-02.mp3
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = マルサ…あぁ、うん。マルサンマルマル。司令官、朝潮はここに。えぇ、もう少し普通で？
+|translation = 03... Ah, yeah. 0300. I'm here, Commander. Eh, I can do it a bit more normally?
+|audio = AsashioKai-03.mp3
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = マルヨンマルマル。…司令官、お茶を…お餅しました！はい、こちらにどぞ。
+|translation = 0400. ...Commander, I've... brought the tea! Here, please enjoy.
+|audio = AsashioKai-04.mp3
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = マルゴマルマル。司令官、朝です。大潮たちを起こしてします。第八駆逐隊、総員お起ーし！
+|translation = 0500. It's morning, Commander. I'll go wake up Ooshio and the others. 8th Destroyer Division, all hands, assemble!
+|audio = AsashioKai-05.mp3
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = 司令官、マルロクマルマルです。艦隊全体に総員起こしをかけてします。はい、お任せください。
+|translation = It's 0600, Commander. I'll go assemble the rest of the fleet. Yes, leave it to me.
+|audio = AsashioKai-06.mp3
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = マルナナマルマル。司令官、さあ、朝潮特性の朝食、こちらにごご用意をできました。麦飯、朝潮特性のお味噌汁、沢庵と…沢庵です！大丈夫です！お味噌汁が具だくさんになっています！どぞ！
+|translation = 0700. Now, Commander, my special breakfast is ready for you. There's barley rice, my special miso soup, pickled radish and... pickled radish! It's fine! The miso soup is very filling! Enjoy!
+|audio = AsashioKai-07.mp3
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = マルハチマルマル。司令官、八時です。第八駆逐隊、全員集合です。はい、もちろん、いつでもどぞ。
+|translation = 0800. It's 8 o'clock, Commander. The 8th Destroyer Division has all assembled. Yes, of course we're ready anytime.
+|audio = AsashioKai-08.mp3
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = マルキュマルマル。了解しました。まず演習からですね。大潮、満潮、荒潮、八駆抜病です。
+|translation = 0900. Roger that. We're having an exercise first. Ooshio, Michishio, Arashio; DesDiv8, weigh anchor.
+|audio = AsashioKai-09.mp3
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマル。荒潮、気をつけてください。満潮もよそ見はだめです。司令官、どうですか？八駆連動抜群、士気も旺盛です。いつでも。
+|translation = 1000. Be careful, Arashio. Don't get distracted too, Michishio. How was that, Commander? Our DesDiv8 teamwork is great and our morale is high too. Anytime. 
+|audio = AsashioKai-10.mp3
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマル。そろそろお昼ですね。あぁ、野島さん、お疲れ様です。お弁当、ですか？ありがとうございます！司令官、いただきました。
+|translation = 1100. It's almost lunchtime. Ah, thanks for your hard work, Noshima. Is this a lunch box? Thank you very much! Let's eat, Commander.
+|audio = AsashioKai-11p2.mp3
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = 司令官、お昼です。頂いたお弁当こちらです。えーっと…うわぁ、美味しそうです、司令官。
+|translation = It's lunchtime, Commander. Here is the lunch box we got. Hmmmmm... Whoa, it looks delicious, Commander.
+|audio = AsashioKai-12.mp3
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = ヒトサンマルマル。はい、この朝潮、いつまでも大切な約束忘れません。いつまでも…
+|translation = 1300. Yes, I'll never ever forget that important promise. I won't...
+|audio = AsashioKai-13.mp3
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = ヒトヨンマルマル。司令官、午後の作戦はどのように展開されますか？あぁ、うんうん。なるほど。さすが司令官です。
+|translation = 1400. What operations are we going to be deployed on this afternoon, Commander? Ah, I see, I see. I get it. As I expected of you, Commander.
+|audio = AsashioKai-14.mp3
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = ヒトゴマル…あぁ、磯波さん、電さん、いつもお疲れ様です。はい、荒潮もちゃんと元気です。
+|translation = 150... Ah, Isonami, Inazuma; thanks for all your hard work. Yes, Arashio is doing fine too.
+|audio = AsashioKai-15.mp3
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = ヒトロクマルマル。大潮、アゲアゲばっかりではだめです。下も…水面下もちゃん警戒です。
+|translation = 1600. Ooshio, don't always be looking up. Pay attention to what's below... what's under the water too.
+|audio = AsashioKai-16.mp3
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = ヒトナナマルマル。司令官、見ててください。夕日が…夕焼けがあんあに…きれいです。
+|translation = 1700. Look at that, Commander. The sunset is... the red sunset is so... beautiful.
+|audio = AsashioKai-17.mp3
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = ヒトハチマルマル。司令官、夕餉の時間です。この朝潮、腕によりおかけたお作りします。ご飯がかけるまで、少しお待ち下さい。
+|translation = 1800. It's time for dinner, Admiral. I'll do my best to make something. Please wait a while for the food to be ready.
+|audio = AsashioKai-18.mp3
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトキュマルマル。司令官、おまたせしました。朝潮特性のお夕食が、準備できました。こちらにいらっしゃてください。大盛り麦飯に、今日は新鮮の魚の甘辛煮付け、お味噌しろと…はい、沢庵です！どぞ召し上がれ。
+|translation = 1900. Thank you for waiting, Commander. My special dinner is all done. I've set it all out over here. There's a large helping of barely rice, today's fresh fish boiled in soy sauce, miso soup and... yes, pickled radish! Please help yourself.
+|audio = AsashioKai-19.mp3
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = フタマルマルマル。司令官、食後のお茶…こちらに置きます。暑いです。お気をつけてください。
+|translation = 2000. Commander, I'll leave your after meal tea... over here. It's hot！Please be careful.
+|audio = AsashioKai-20.mp3
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = フタヒトマルマル。はい、川内さん。三水戦、八駆、喜んで夜戦任務よお供させていただきます。荒潮、気をつけて。いきましょう！
+|translation = 2100. Yes, Sendai. DesRon3, DesDiv8 will gladly accompany you for this night battle mission. Be careful, Arashio. Let's go!
+|audio = AsashioKai-21.mp3
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = フタフタマルマル。三水戦、無事全艦帰途です。川内さん、勉強になりました。ありがとうございます！
+|translation = 2200. All of DesRon3 has returned safely. I've learned a lot, Sendai. Thank you very much!
+|audio = AsashioKai-22.mp3
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = フタサンマルマル。司令官、この朝潮、本日は一緒に任務を全うできて、大変幸せでした。また、どぞよろしくおねがいいたします。朝潮、下がります。
+|translation = 2300. I'm so happy that we were able to complete today's missions together, Commander. I look forward to working with you again. Asashio, standing down.
+|audio = AsashioKai-23.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = クリスマス…司令官、これがクリスマスなのですね！朝潮勉強になりました！
+|translation =	Christmas… So this is Christmas, Commander! I’m learning so much!
+|audio = Asashio_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = 司令官、年末大掃除ですか？了解です！荒潮と一緒に拭き掃除から始めます！いい、荒潮？まず司令官の机から始めましょう！
+|translation =	Time for New Year’s spring cleaning, Commander? Roger that! I’ll get started cleaning with Arashio! Got that, Arashio? Let’s start with the commander’s desk!
+|audio = Asashio_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 司令官、明けましておめでとうございます！…本年もどぞよろしくお願いたします！全朝潮型を代表して,ご挨拶をもしあげ。
+|translation =	Happy New Year, Commander! …Please treat us well this year too! That was a greeting on behalf of all the Asashio-class.
+|audio = Asashio_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = 司令官、節分ですね！お任せください！この朝潮、豆まきも全力でかかります！えーい！えいっ！そーれ！
+|translation =	It’s Setsubun, Commander! Please leave it to me! I’ll throw these beans with all my might! Eiii! EI! There! 
+|audio = Asashio_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = 司令官！こちらのチョコレートを、どうぞお受け取りください！…大丈夫です！味見と毒見は完了済みです！安全安心です！
+|translation =	Commander! Please accept these chocolates! …It’s alright! I made sure to taste test it and make sure it’s safe to eat! It’s completely safe!
+|audio = Asashio_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = こちらを…チョコレートのお返しに頂けると言うのですか？ …あぁ、司令官！朝潮…この感謝の気持ちは、一生忘れることはありませんっ！
+|translation =	Is this… a return gift for my chocolates? …Ah, Commander! I won’t… ever forget this feeling of gratitude!
+|audio = Asashio_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2016|Spring 2016]]
+|origin = 春…この季節は…何かが思い出せるような…。大切な…大切な約束…何でしょうか、司令官？
+|translation =	Spring… This season… somehow makes me remember… An important… an important promise… What could it be, Commander?
+|audio = Asashio_Spring_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 司令官と朝潮、三周年となりました。司令官との大切な約束、朝潮、いつまでも守る覚悟です！
+|translation =	Our 3rd Anniversary has arrived, Commander. I’m always prepared to keep our important promise!
+|audio = Asashio_Third_Anniversery.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = 司令官、雨の日が続きます。第八駆逐隊、てるてる坊主生産任務に入りましょうか！？
+|translation =	The rainy days keep going on, Commander. Shall the 8th Destroyer Division begin the mission to produce teruteru bouzu!?
+|audio = Asashio_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2016|Midsummer 2016]]
+|origin = 司令官、夏です！冷えたラムネでも酒保から持ってまいりましょうか？いつでもお命じ下さい！！
+|translation =	It’s summer, Commander! Want me to get a chilled ramune from the PX? Just give me the order!!
+|audio = Asashio_Sec1_Midsummer_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2016|Autumn 2016]]
+|origin = 司令官、夏が過ぎ、秋がやってきます。大丈夫です。朝潮型駆逐艦秋も全でまいります。ご心配には及びません。
+|translation =	Summer has passed and autumn is here, Commander. It’s fine. The Asashio-class destroyers will do our best in autumn too. Please don’t worry.
+|audio = Asashio_Autumn_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 司令官と朝潮、四周年となりました！司令官との大切な約束、朝潮、いつまでもいつまでもを守る覚悟です！
+|translation =	Our 4th Anniversary is here! I’m always, always ready to keep that important promise I made to you!
+|audio = Asashio_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 司令官、朝潮と艦隊は…ついに五周年となりました。司令官との大切な約束は…この朝潮、いつまでもをお守りとす覚悟です。
+|translation = Our… 5th Anniversary is finally here, Commander. I’m always prepared… to keep that important promise I made with you.
+|audio = Asashio_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2018|Summer 2018]]
+|origin = 霞？あの、その艤装は？…えぇ、それで司令官と、その、任務を？えぇ？えぇー？
+|translation =	Kasumi? Ummm, what's with that rigging? ...Eh, so you can do that mission with the Commander? Eh? Eeeeh?
+|audio = Asashio_Summer_2018_Sec3.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = し、司令官、トリックオアトリート！
+|translation =	Co-commander, Trick or Treat!
+|audio = Asashio_Late_Autumn_2018_Sec1.mp3
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = はい！この朝潮、この艤装でいつでも出撃可能です！
+|translation =	Yes! I can still sortie at any time with this outfit!
+|audio = Asashio_Late_Autumn_2018_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2019|Autumn 2019]]
+|origin = Play	朝潮、佐世保遠征任務、完了いたしました。次の任務ですか？
+|translation =	Asashio, reporting that the Sasebo Expedition Mission has been completed. Is there another mission?
+|audio = Asashio_Autumn_2019_Sec1.mp3
+|notes = Secretary 1. Sasebo Collaboration line.
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2019|Autumn 2019]]
+|origin = 呉鎮守府、ですか？第八駆逐隊、朝潮、任務了解いたしました。
+|translation =	Kure Naval District? 8th Destroyer Division, Asashio, accepting the mission.
+|audio = Asashio_Autumn_2019_Sec2.mp3
+|notes = Secretary 2. Kure 130th Anniversary Collaboration line.
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = 司令官、お聞きください。朝潮と艦隊は、ついに八周年となりました。司令官との大切な約束は、この朝潮、いつも守り通す覚悟でいます。
+|translation =	Commander, listen to this. It's our 8th Anniversary. I'm always ready to fulfil that important promise I made with you anytime you like.
+|audio = Asashio_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+085_3.png|Base
+085_4.png |Base Damaged
+Asahio_Kai_Ni.png|Kai Ni
+Asashio_Kai_Ni_dmg.png|Kai Ni Damaged
+Asashio_Kai_Ni_D.png|Kai Ni D
+Asashio_Kai_Ni_D_dmg.png|Kai Ni D Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+KanMusu85Halloween2018.png|[[Seasonal/Late_Autumn_2018|Halloween 2018]]
+KanMusu85Halloween2018Dmg.png||[[Seasonal/Late_Autumn_2018|Halloween 2018 Damaged]]
+KanMusu263Halloween2018.png|[[Seasonal/Late_Autumn_2018|Kai Ni Halloween 2018]]
+KanMusu263Halloween2018Dmg.png||[[Seasonal/Late_Autumn_2018|Kai Ni Halloween 2018 Damaged]]
+KanMusu268Halloween2018.png|[[Seasonal/Late_Autumn_2018|Kai Ni D Halloween 2018]]
+KanMusu268Halloween2018Dmg.png||[[Seasonal/Late_Autumn_2018|Kai Ni D Halloween 2018 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Asashio}}
+
+==Trivia==
+*Sunk by air attack in [http://en.wikipedia.org/wiki/Battle_of_the_Bismarck_Sea Battle of the Bismarck Sea], 3 March 1943.
+**Prior to the Battle of the Bismarck Sea, Yasuo Sato, the commander of DesDiv8, made a promise with his friend, the captain of fleet collier Nojima. They agreed that if one gets in trouble, the other will rush to his aid. When Nojima was struck, Sato disobeyed the order to cease rescue efforts and retreat. He telegraphed his superior, explaining: "I have a promise with the captain of Nojima, we will rescue her survivors before retreating.". After rescuing survivors of the collier and Arashio, Asashio headed north but was caught by Allied aircraft and sunk. Captain of Nojima survived and was picked up 3 days later. Sato, however, went down with Asashio, saying "I'm too tired. Just let me rest peacefully here. Go, you guys should hurry up and evacuate now.".
+*Her name means "morning tide".
+*Her designation of "D" refers to the "Type D Destroyers" (丁型駆逐艦) of the IJN which were meant to be ASW ships.
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View {{PAGENAME}} CG]]
+*[[EliteDD|List of Destroyers]]
+*[[wikipedia:Japanese_destroyer_Asashio_(1936)|Wikipedia entry on destroyer Asashio]]
+ {{shiplist}}
+[[Category:Asashio Class]]
+[[Category:Destroyers]]

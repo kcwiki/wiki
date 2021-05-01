@@ -1,0 +1,47 @@
+<span style="position:relative;display:{{#if:{{{1|}}}|block|inline}};">{{{item|[[File:Empty equipment card slot.png{{!}}50px{{!}}link={{{link|}}}]]}}}<span style="
+  font-size:{{{font-size|12px}}};
+  font-weight:800;
+  position:absolute;
+  color:#{{{text-color|f61}}};
+  {{#if:{{{1|}}}|{{{position|}}}|{{{text-position|right:4px;bottom:-18px}}}}};
+  text-shadow:
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}},
+    #{{{glow-color|fff}}} 0px 0px {{{glow-size|5px}}}
+">{{{1|{{{text|{{{default-text|}}}}}}}}}</span>{{#if:{{{text2|}}}|<span style="
+  font-size:{{{font-size2|{{{font-size|12px}}}}}};
+  font-weight:800;
+  position:absolute;
+  color:#{{{text-color2|{{{text-color|f61}}}}}};
+  {{#if:{{{2|}}}|{{{position2|}}}|{{{text-position2|right:4px;bottom:18px}}}}};
+  text-shadow:
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}},
+    #{{{glow-color2|{{{glow-color|fff}}}}}} 0px 0px {{{glow-size2|{{{glow-size|5px}}}}}}
+">{{{2|{{{text2|{{{default-text2|}}}}}}}}}</span>}}{{#if:{{{link|}}}|<span style="position:absolute;{{{clickbox-pos|top:-15px;left:1px;}}}opacity:{{{clickbox-opacity|0}}}">[[File:Blank_square.svg|{{{clickbox-size|50}}}px|link={{{link|}}}]]</span>|}}</span><noinclude>
+{{documentation}}
+</noinclude>

@@ -1,0 +1,60 @@
+{{EquipmentInfo}}
+
+==Introduction==
+陳腐化した53cm魚雷の後継として開発された大型の61cm魚雷。<br>その三連装発射管は、駆逐艦の主力兵装として特型駆逐艦「吹雪」型などに搭載されました。その改良型である本兵装は、装填魚雷を「九三式酸素魚雷」に換装しています。 
+
+''The 61cm torpedo was developed as a successor to the obsolete 53cm torpedo.''<br>
+''This 3-tubed torpedo launcher is equipped on Special-type destroyers (i.e. Fubuki). The improved version also exchanged its torpedoes for the Type 93 oxygen torpedo.''
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Akatsuki Kai Ni}}, {{Ship/Link|Amagiri Kai}}, {{Ship/Link|Fubuki Kai Ni}}, {{Ship/Link|Hatsuharu Kai}}, {{Ship/Link|Hatsushimo Kai}}, {{Ship/Link|Kisaragi Kai Ni}}, {{Ship/Link|Murakumo Kai Ni}}, {{Ship/Link|Mutsuki Kai Ni}}, {{Ship/Link|Nenohi Kai}}, {{Ship/Link|Satsuki Kai Ni}}, {{Ship/Link|Wakaba Kai}}
+
+'''Upgradeable''' from {{Equipment/Link|61cm Triple Torpedo Mount}}
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|61cm Triple (Oxygen) Torpedo Mount Late Model}}
+
+'''Used by quests: '''[[Quests#F36|F36]]
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2015-01-09:''' '''Implemented'''
+</div></div>
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=TorpedoWeapon
+|Fuel=60
+|Ammo=90
+|Steel=60
+|Baux=20
+|Mats0-5=1/2
+|Mats6-9=3/5
+|Mats10=4/8
+|Screws0-5=1/1
+|Screws6-9=1/3
+|Screws10=3/6
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{TorpedoWeapon|61cm Triple Torpedo Mount}}
+|EquipConsume10=2x{{TorpedoWeapon|61cm Quad Torpedo Mount}}
+|Thu=F
+|Fri=F
+|Sat=F
+|2ndShip=[[Fubuki#Second Upgrade|Fubuki Kai Ni]]
+|Notes=Can be upgraded to [[61cm Quad (Oxygen) Torpedo Mount]] ★+5.
+}}
+|}
+
+==See also==
+{{Equipmentlist}}
+[[Category:Torpedoes]]

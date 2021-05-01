@@ -1,0 +1,63 @@
+<table class="plainlinks imbox 
+{{#switch:{{{type|}}}
+| speedy     = imbox-speedy
+| delete     = imbox-delete
+| content    = imbox-content
+| style      = imbox-style
+| move       = imbox-move
+| protection = imbox-protection
+| license    = imbox-license
+| featured   = imbox-featured
+| notice          <!-- notice = default -->
+| #default   = imbox-notice
+}} {{{class|}}}" style="{{{style|}}}">
+<tr>
+{{#ifeq:{{{image|}}}|none
+| <!-- No image. Cell with some width or padding necessary for text cell to have 100% width. --><td class="mbox-empty-cell"></td>
+| <td class="mbox-image">
+  {{#if:{{{image|}}}
+  | {{{image}}}
+  | {{#switch:{{{type|}}}
+    | speedy     = [[Image:Imbox speedy deletion.png|40x40px|alt=|link=]] 
+    | delete     = [[Image:Imbox deletion.png|40x40px|alt=|link=]] 
+    | content    = [[Image:Imbox content.png|40x40px|alt=|link=]]
+    | style      = [[Image:Edit-clear.svg|40x40px|link=|alt=]]
+    | move       = [[Image:Imbox move.png|40x40px|alt=|link=]]
+    | protection = [[Image:Imbox protection.png|40x40px|alt=|link=]]
+    | license    = [[Image:Imbox license.png|40x40px|alt=|link=]]
+    | featured   = [[Image:Imbox featured.png|40x40px]]
+    | notice          <!-- notice = default -->
+    | #default   = [[Image:Imbox notice.png|40x40px|alt=|link=]]
+    }}
+  }}</td>
+}}
+<td class="mbox-text" style="{{{textstyle|}}}"> {{{text}}} </td>
+{{#if:{{{imageright|}}}
+| <td class="mbox-imageright"> {{{imageright}}} </td>
+}}
+</tr>
+{{#if:{{{below|}}}
+| <tr><td colspan={{#if:{{{imageright|}}}|3|2}} class="mbox-text" style="{{{textstyle|}}}"> {{{below}}} </td></tr>
+}}
+</table><!-- Detect and report usage with faulty "type" parameter:
+-->{{#switch:{{{type|}}}
+|   <!-- No type fed, is also valid input -->
+| speedy
+| delete
+| content
+| style
+| move
+| protection
+| license
+| featured
+| notice     =    <!-- Do nothing, valid "type" -->
+| #default   = <div style="text-align: center;">This message box is using an invalid "type={{{type|}}}" parameter and needs fixing.</div><!-- Sort on namespace -->
+}}<!--
+
+--><includeonly>{{#ifeq:{{BASEPAGENAME}}|{{SUBPAGENAME}}|{{#ifeq:{{NAMESPACE}}|Template|[[Category:File message boxes]]}}}}</includeonly><!--
+
+--><noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>

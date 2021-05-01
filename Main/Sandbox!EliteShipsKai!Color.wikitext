@@ -1,0 +1,270 @@
+===Test1===
+
+{{#invoke:EliteShipsKaiExperimental|Table
+|Tenryuu/Kai
+|Tatsuta/Kai
+|-
+|Kuma/Kai
+|Tama/Kai
+|Kitakami
+|Ooi
+|Kiso/Kai
+|-
+|Nagara/Kai
+|Isuzu/Kai
+|Natori/Kai
+|Yura/Kai
+|Kinu/Kai
+|Abukuma/Kai
+|Isuzu/Kai Ni
+|-
+|Sendai/Kai
+|Jintsuu/Kai
+|Naka/Kai
+|Sendai/Kai Ni
+|Jintsuu/Kai Ni
+|Naka/Kai Ni
+|-
+|Yuubari/Kai
+|-
+|Agano/Kai
+|Noshiro/Kai
+|Yahagi/Kai
+|Sakawa/Kai
+|-
+|Ooyodo/Kai
+|#
+|Ooi/Kai
+|Kitakami/Kai
+|Ooi/Kai Ni
+|Kitakami/Kai Ni
+|Kiso/Kai Ni
+|Katori/Kai
+|remodel_level_good = 20
+|remodel_level_outstanding = 15
+|remodel_level_operator = <
+|firepower_good = 65
+|firepower_outstanding = 69
+|torpedo_good = 86
+|torpedo_outstanding = 90
+|aa_good = 64
+|aa_outstanding = 80
+|asw_good = 80
+|asw_outstanding = 90
+|los_good = 57
+|los_outstanding = 70
+|hp_good = 44
+|hp_outstanding = 49
+|armor_good = 67
+|armor_outstanding = 69
+|evasion_good = 81
+|evasion_outstanding = 83
+|aircraft_good = 7
+|aircraft_outstanding = 10
+|aircraft_slot_good = 4
+|luck_good = 15
+|luck_outstanding = 20
+|luck_max_good = 70
+|ammo_good = 30
+|ammo_outstanding = 30
+|ammo_operator = <
+|reference_type = 3
+|Isuzu/Kai Ni_notes = Short range
+|firepower_color = #F0C0C0
+|torpedo_color = #C0E4FA
+|aa_color = #F4CAA6
+|asw_color = #D0CAEE
+|los_color = #CCFFEE
+|luck_color = #C9FBC9
+|hp_color = #FFD9DF
+|armor_color = #F2EAB5
+|evasion_color = #EEBEEE
+|speed_color = #B8E6E6
+|aircraft_color = #D9D9D9
+|fuel_color = #AAE0AA
+|ammo_color = palegoldenrod
+|good_color = #FFFF21
+|outstanding_color = #55FF26
+}}
+
+===Test2 (Bg saturation down and uniform)===
+
+All column bg colors down to 10 saturation.
+
+{{#invoke:EliteShipsKaiExperimental|Table
+|Tenryuu/Kai
+|Tatsuta/Kai
+|-
+|Kuma/Kai
+|Tama/Kai
+|Kitakami
+|Ooi
+|Kiso/Kai
+|-
+|Nagara/Kai
+|Isuzu/Kai
+|Natori/Kai
+|Yura/Kai
+|Kinu/Kai
+|Abukuma/Kai
+|Isuzu/Kai Ni
+|-
+|Sendai/Kai
+|Jintsuu/Kai
+|Naka/Kai
+|Sendai/Kai Ni
+|Jintsuu/Kai Ni
+|Naka/Kai Ni
+|-
+|Yuubari/Kai
+|-
+|Agano/Kai
+|Noshiro/Kai
+|Yahagi/Kai
+|Sakawa/Kai
+|-
+|Ooyodo/Kai
+|#
+|Ooi/Kai
+|Kitakami/Kai
+|Ooi/Kai Ni
+|Kitakami/Kai Ni
+|Kiso/Kai Ni
+|Katori/Kai
+|remodel_level_good = 20
+|remodel_level_outstanding = 15
+|remodel_level_operator = <
+|firepower_good = 65
+|firepower_outstanding = 69
+|torpedo_good = 86
+|torpedo_outstanding = 90
+|aa_good = 64
+|aa_outstanding = 80
+|asw_good = 80
+|asw_outstanding = 90
+|los_good = 57
+|los_outstanding = 70
+|hp_good = 44
+|hp_outstanding = 49
+|armor_good = 67
+|armor_outstanding = 69
+|evasion_good = 81
+|evasion_outstanding = 83
+|aircraft_good = 7
+|aircraft_outstanding = 10
+|aircraft_slot_good = 4
+|luck_good = 15
+|luck_outstanding = 20
+|luck_max_good = 70
+|ammo_good = 30
+|ammo_outstanding = 30
+|ammo_operator = <
+|reference_type = 3
+|Isuzu/Kai Ni_notes = Short range
+|firepower_color = #F0D8D8
+|torpedo_color = #E1F1FA
+|aa_color = #F4E7DC
+|asw_color = #DAD6EE
+|los_color = #E6FFF7
+|luck_color = #E2FBE2
+|hp_color = #FFE6EA
+|armor_color = #F2EFDA
+|evasion_color = #EED6EE
+|speed_color = #CFE6E6
+|aircraft_color = #D9D9D9
+|fuel_color = #CAE0CA
+|ammo_color = #EEECD6
+|good_color = #FFFF21
+|outstanding_color = #55FF26
+}}
+
+===Test3 (bg brightness uniform and down)===
+
+All column bg brightness to 90 (all decrease except for aircraft, 85 -> 90, and speed, 90 -> 90).
+
+{{#invoke:EliteShipsKaiExperimental|Table
+|Tenryuu/Kai
+|Tatsuta/Kai
+|-
+|Kuma/Kai
+|Tama/Kai
+|Kitakami
+|Ooi
+|Kiso/Kai
+|-
+|Nagara/Kai
+|Isuzu/Kai
+|Natori/Kai
+|Yura/Kai
+|Kinu/Kai
+|Abukuma/Kai
+|Isuzu/Kai Ni
+|-
+|Sendai/Kai
+|Jintsuu/Kai
+|Naka/Kai
+|Sendai/Kai Ni
+|Jintsuu/Kai Ni
+|Naka/Kai Ni
+|-
+|Yuubari/Kai
+|-
+|Agano/Kai
+|Noshiro/Kai
+|Yahagi/Kai
+|Sakawa/Kai
+|-
+|Ooyodo/Kai
+|#
+|Ooi/Kai
+|Kitakami/Kai
+|Ooi/Kai Ni
+|Kitakami/Kai Ni
+|Kiso/Kai Ni
+|Katori/Kai
+|remodel_level_good = 20
+|remodel_level_outstanding = 15
+|remodel_level_operator = <
+|firepower_good = 65
+|firepower_outstanding = 69
+|torpedo_good = 86
+|torpedo_outstanding = 90
+|aa_good = 64
+|aa_outstanding = 80
+|asw_good = 80
+|asw_outstanding = 90
+|los_good = 57
+|los_outstanding = 70
+|hp_good = 44
+|hp_outstanding = 49
+|armor_good = 67
+|armor_outstanding = 69
+|evasion_good = 81
+|evasion_outstanding = 83
+|aircraft_good = 7
+|aircraft_outstanding = 10
+|aircraft_slot_good = 4
+|luck_good = 15
+|luck_outstanding = 20
+|luck_max_good = 70
+|ammo_good = 30
+|ammo_outstanding = 30
+|ammo_operator = <
+|reference_type = 3
+|Isuzu/Kai Ni_notes = Short range
+|firepower_color = #E6CFCF
+|torpedo_color = #CFDDE6
+|aa_color = #E6D9CF
+|asw_color = #D2CEE6
+|los_color = #CFE6DE
+|luck_color = #CFE6CF
+|hp_color = #E6CFD3
+|armor_color = #E6E3CF
+|evasion_color = #E6CEE6
+|speed_color = #CFE6E6
+|aircraft_color = #E6E6E6
+|fuel_color = #CFE6CF
+|ammo_color = #E6E4CE
+|good_color = #FFFF21
+|outstanding_color = #55FF26
+}}

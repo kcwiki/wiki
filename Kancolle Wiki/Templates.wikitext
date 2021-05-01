@@ -1,0 +1,88 @@
+{{tocright}}
+There are many '''templates''' in use in {{SITENAME}}; these are only a subset, representing some of the most important and commonly used ones. If you feel that a template belongs on this page, do not hesitate to add it.
+* [[:Category:Templates]] should cover all templates in the wiki, categorized into the various subcategories.
+* The Template namespace (found from [[Special:Allpages]]) always has all templates in the wiki, sorted alphanumerically.
+
+== What are templates? ==
+Wiki templates provide a means to insert the same content over and over in different (or the same) pages. This saves editors the hassle of duplicating the same text again and again, and also helps ensure consistency.
+
+Templates are generally shown with the format required to use the template (e.g. <code>{{t|stub}}</code>). Clicking the template name takes you to the template's page, where you can see what it looks like and how it is used. 
+
+'''Detailed instructions on the usage of each template should exist on:
+# '''a subpage using {{t|documentation}}'''; or
+# the template page itself (inside "noinclude" tags); or
+# the template's talk page.
+
+For more information on templates, see [[Help:Templates]].
+
+== [[:Category:Article management templates|Article management templates]] ==
+=== Nominate an article for deletion ===
+{{t|delete}}
+* Add this to an article to nominate it for deletion. It will add the article to [[:Category:Candidates for deletion]].
+{{t|speedydelete|reason}}
+* Add this to an article for pages that qualify for [[{{ns:project}}:Candidates for speedy deletion|speedy deletion]].
+
+=== Disambiguation articles ===
+{{t|disambig}}
+* If you have several articles that have similar or identical names, you may wish to create a "disambiguation" page at the main article name, with the articles taking an extra phrase in brackets afterwards. For example:
+: '''The Prince'''  <--  disambiguation page, with links to:
+:: The Prince (frog)
+:: The Prince (human)
+* Using {{t|disambig}} marks an article as a disambiguation page by adding a banner to the article and categorizing it under [[:Category:Disambiguations]]. Add links to the various articles under the banner.
+* For more information, see [[Help:Disambiguation]].
+
+=== Stubs ===
+{{t|stub}}
+* When a page has little or no useful information, then it is likely a stub. This template will include them in [[:Category:Article stubs]], and is used to list which articles need expanding.
+* For more information, see [[Help:Stubs]].
+
+== [[:Category:Category templates|Category templates]] ==
+=== General category template ===
+{{t|category}}
+* This can be added to categories to add general categorising details. Use in cases where it may be useful to point out to users how to categorise, such as popular categories.
+
+=== Template category template ===
+{{t|templatecategory}}
+* This should be added to any template-related categories, to list template-specific categorising details, which differ from those of normal pages.
+
+== [[:Category:General wiki templates|General wiki templates]] ==
+=== Clear ===
+{{t|clr}}, plus {{t|clrl}} and {{t|clrr}}
+* This template is used to reduce the amount of non-wikicode used on pages, replacing the code <code>&lt;br style="clear:both;" /&gt;</code>. Its use should generally be avoided.
+* You can use {{t|clr}} instead of the HTML tag that clears space below things like images, pictures and tables, so the following stuff doesn't begin until the bottom of the image, picture or table box.
+* You can also use {{t|clrl}} or {{t|clrr}} to clear only left or right floats.
+
+=== For ===
+{{t|for|name|link}}
+* Use at the top of articles as a simple "for x see y" template.
+
+=== Main article ===
+{{t|main|main article}}
+* Use at the start of a section to link to the main article on it.
+
+=== Right-aligned Table of Contents ===
+{{t|tocright}}
+* This template floats the table of contents (toc) on the right. It should only be used when absolutely necessary, to keep consistent design.
+
+=== Sandbox ===
+{{t|sandbox}}
+* A template that should be used to head up all [[Project:Sandbox]] pages.
+
+=== T is for template ===
+{{t|t|template}}
+* This template allows you to show example template code (with a link to the templates) without using the template itself. It is used extensively on this page.
+
+=== Welcome ===
+{{t|welcIP}} ''and'' {{t|welcome}} 
+*The first (with longer version "welcomeIP" for those of you who like typing more) is to welcome new non-vandalistic contributors who are "anonymous", identified only by their IP number; it encourages them to register.
+* The second template is for welcoming new registered users. Should be customized for the wiki, indicating the pages we most want newcomers to visit.
+*The above two templates are very suitable for having "subst:" prefixed, because they can be edited with additions or deletions appropriate to the apparent strengths of the person being welcomed; e.g. if the contributor has already demonstrated good wiki editing skills you could delete references to pages about "how to edit".
+
+=== Wikipedia ===
+{{t|wikipedia}}, {{t|wikipedia-deleted}}
+* Wikipedia-related templates. Use {{t|wikipedia}} for articles taken directly from Wikipedia, and {{t|wikipedia-deleted}} for articles deleted from Wikipedia.
+
+[[Category:Templates| ]]
+
+==Where you may find more templates==
+*Wikipedia; may be copied with the proper acknowledgment, but some need tweaking to work properly on Wikia, so use a Wikia one if possible.

@@ -1,0 +1,25 @@
+<noinclude>{{ProtoQuestsHeader}}</noinclude>
+|- id = "{{{listnum}}}" style="border-top: 3px solid #888;"
+| colspan="2" style="border-right: none; width:  36px; background-color: #{{#switch:{{{type}}} 
+| Composition = 42c165;
+| Sortie = e7696b;
+| PVP = 90cb65;
+| Expedition = 46c6c2;
+| Supply = e6c872;
+| Factory = 897056; color: white
+| Modernization = cbaae5;
+}}" | <div style="vertical-align: middle; width:60px; display: inline-block; float:left">'''{{{listnum}}}'''</div><div style="display: inline-block;">{{lang|ja|{{{namejp}}}}}<br>''{{{nameen}}}''</div>
+| style="background-color: #f0fff0;" | [[File:Fuel.png|24x24px]]<br/>{{{fuel|0}}}
+| style="background-color: #fdf5e6;" | [[File:Ammunition.png|24x24px]]<br/>{{{ammo|0}}}
+| style="background-color: #fcfcfc;" | [[File:Steel.png|24x24px]]<br/>{{{steel|0}}}
+| style="background-color: #ffe4b5;" | [[File:Bauxite.png|24x24px]]<br/>{{{bauxite|0}}}
+|-
+| colspan="2" style="text-align:left;" | {{{req|}}}
+| colspan="4" rowspan="2" style="vertical-align: middle;" | {{{other|}}} 
+|-
+! style="width: 60px; | Notes
+| style="text-align: left;" | {{#if:{{{reqQuest|}}}|Requires: {{#if:{{{page|}}}|[[{{{page|}}}#{{{reqQuest|}}}{{!}}{{{reqQuest|}}}]]|[[{{PAGENAME}}#{{{reqQuest}}}{{!}}{{{reqQuest}}}]]}}}}{{#if:{{{reqQuest2|}}}|, {{#if:{{{page2|}}}|[[{{{page2|}}}#{{{reqQuest2|}}}{{!}}{{{reqQuest2|}}}]]|[[{{PAGENAME}}#{{{reqQuest2}}}{{!}}{{{reqQuest2}}}]]}}}}{{#if:{{{reqQuest3|}}}|, {{#if:{{{page3|}}}|[[{{{page3|}}}#{{{reqQuest3|}}}{{!}}{{{reqQuest3|}}}]]|[[{{PAGENAME}}#{{{reqQuest3}}}{{!}}{{{reqQuest3}}}]]}}}}{{#if:{{{reqQuest|}}}|{{#if:{{{notes|}}}|<br/>|}}|}}{{#if:{{{notes|}}}|{{{notes}}}|}}
+|-
+| colspan="7" style="border:1px solid transparent;" |
+<noinclude> |} <br/>{{documentation}}</noinclude><includeonly>{{{1|}}}<nowiki /></includeonly> <!--escape for
+ enters-->

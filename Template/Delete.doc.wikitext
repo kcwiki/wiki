@@ -1,0 +1,8 @@
+;Description
+:This template is used to mark pages for deletion, categorizing them in [[:Category:Candidates for deletion]].
+;Syntax
+:Type <code>{{t|delete}}</code> on the page to be deleted.'''
+:Use <code>reason</code> parameter to provide a deletion reason.
+:Set <code>doc</code> parameter for documantion pages.
+:Set <code>no_talk</code> parameter to hide talk links.
+<includeonly>[[Category:Article management templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

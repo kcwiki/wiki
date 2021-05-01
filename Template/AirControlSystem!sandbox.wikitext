@@ -1,0 +1,32 @@
+	<div id="aircom">
+{| class="mw-collapsible mw-collapsed wikitable" style="text-align:center; vertical-align: top; min-width: 250px; max-width: 250px; border-collapse: collapse;"
+|-
+| colspan=3; style="background-color: #DAFF79; width: 100%; padding:0px; font-size: 110%; {{#if: {{{Map|}}} | 
+| style="display: none;" }}| '''{{{Map}}}'''
+|-
+| colspan=3; style="background-color: #DAFF79; width: 100%; padding:0px; height: 15px; font-size: 80%; {{#if: {{{Fleet|}}} | 
+| style="display: none;" }}| '''{{{Fleet}}}'''
+|- style="color:#FFFFFF;"
+|style="background-color:#208A2E; padding:0px; border-color: #F6F6F6; width: 33%;" | '''AS+'''
+|style="background-color:#73B344; padding:0px; border-color: #F6F6F6; width: 33%;" | '''AS'''
+|style="background-color:#DBA222; padding:0px; border-color: #F6F6F6; width: 33%;"  | '''AP'''
+|- style="background-color:#F6F6F6;"
+|style="padding:0px; border-color: #F6F6F6; width: 33%;"| '''{{#expr: ceil( {{#expr: trunc {{{AS|0}}} }} * 2 ) }}''' 
+|style="padding:0px; border-color: #F6F6F6; width: 33%;"| '''{{#expr: trunc {{{AS|0}}} }}''' 
+|style="padding:0px; border-color: #F6F6F6; width: 33%;"| '''{{#expr: ceil( {{#expr: trunc {{{AS|0}}} }} * 4 / 9 ) }}'''
+|-	
+| colspan=3; style="color:#000000; background-color: #DAFF79; border-color: #F6F6F6; padding:0px; width: 100%; {{#if: {{{Notes|}}} | | style="display: none;" }}| '''Other Notes'''
+|-
+|colspan=3; style="text-align:center; background-color:#F6F6F6; border-color: #F6F6F6; padding:0px; width: 100%; {{#if: {{{Notes|}}} | 
+| style="display: none;" }}|{{{Notes}}}
+|} </div>
+
+<noinclude>
+{{documentation}}
+{{AirControlSystem/sandbox
+| Map = 3-5 BGK FINAL
+| Fleet = CL + 4DD + (DD/CAV/AV)
+| AS = 35
+| Notes = Enemy has no air power prior to final form
+}}
+</noinclude>

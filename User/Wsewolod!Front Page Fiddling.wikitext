@@ -1,0 +1,95 @@
+__NOTOC__
+<div id="mainpage">
+	<div id="mp-leftcolumn">
+		<div id="mp-leftbox">
+			<div id="coretitle">'''Main Links'''</div>
+			<div id="coresally">
+				{|style="text-align:center;"
+				|style="width:150px;"|[[File:Sortie.png|Sortie|link=Sortie|120px]] '''[[Sortie]]'''
+				|style="width:150px;"|[[File:PvP.png|Practice Battles|link=Exercises|120px]] '''[[Exercises]]'''
+				|style="width:150px;"|[[File:Exped.png|Expeditions|link=Expeditions|120px]] '''[[Expeditions]]'''
+				|-
+	
+				|}
+			</div>
+		</div>
+	</div>
+	<!--================END OF LEFT COLUMN==============-->
+	<div id="mp-rightcolumn">
+		<div id="tophead">
+			<div id="logo">
+			<!--Begin Logo Code Here-->
+				[[File:KanColleLogoLarge.png|140px|link=]]
+			<!--End of Logo Code-->
+			</div>
+		<div id="kcheader">
+			<div style="display: table; min-height:150px; overflow: hidden;">
+				<div style="display: table-cell; vertical-align: middle;">
+					<div class="wikiinfo">
+						Kantai Collection ({{lang|ja|艦隊これくしょん}}), also known as KanColle ({{lang|ja|艦これ}}), is an online browser game by DMM in which the player assumes the role of a naval admiral, assembles a fleet of ship girls called Kanmusu ("Ship Daughters") to fight an unknown enemy fleet.
+
+						This wiki hosts information about the game in English so that the average player can play the game even without solid knowledge of Japanese, such as guides, quest charts, maps, and more.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--
+
+Move the right facing arrow under </div> when timer is not in use. When it IS in use, adjust variables accordingly and use timer. Meant for maintenance and events, but can be used for other things.
+
+<div style="font-size:20px; font-weight:bold;color:#f00; text-align:center; margin:5px 0px 10px 0px;">
+<countdown finishmessage="Update in Progress" time="07/03/2015 03:30 PM UTC+0900">
+'''<D>''' days, '''<H>''' hours, '''<M>''' minutes and '''<S>''' seconds remaining until the [[Game_Updates/2015/July_3rd|3rd July, 2015]] begins.
+</countdown>
+
+</div>
+-->
+{{FrontpageHead2
+|update_text = Latest: '''[[Game_Updates/2015/July_3rd|3rd July, 2015]]'''
+|update_next = Next: '''[[Game_Updates/2015/July_17th|17th July, 2015]]'''
+|update_countdown = <br /><span style="font-size:12px;">(<countdown time="07/17/2015 03:30 PM UTC+0900">ETA '''<D>''' days, '''<H>''' hours, '''<M>''' minutes</countdown> )</span>
+|event_link = Events
+|event_title = '''[[Events]]'''
+|event_text_1 = Latest: '''[[Spring 2015 Event]]'''
+|event_text_2 = Upcoming: '''[[Summer 2015 Event]]'''
+|event_prior =
+|anime_date = Latest: '''March 26th'''
+|anime_text = <span style="color:#f00;">Contain spoilers to the thread below</span><br />Discuss: '''[[Thread:211154|Episode 12]]'''
+|seasonal_text = Latest: '''[[Seasonal/Early_Summer_Season_Update|Early Summer Season Update]]'''
+}}
+
+<!--
+During recent/game updates:
+♦♦ On [[Template:FrontpageHead]], place recent/game updates in the FIRST ROW & events in the SECOND ROW ♦♦
+|event_link = Events
+|event_title = '''[[Events]]'''
+|event_text = Latest: '''[[♦Name of event page♦]]'''
+|event_prior = ♦blank line♦
+
+During events:
+♦♦ On [[Template:FrontpageHead]], place events in the FIRST ROW & recent/game updates in the SECOND ROW ♦♦
+|event_link = ♦Name of event page♦
+|event_title = '''[[♦Name of event page♦]]'''
+|event_text = '''♦Dates event starts & ends♦'''
+|event_prior = [[Events|Prior Events]]
+-->
+
+{{FrontpageData2}}
+
+__NOTOC__
+
+==External Links==
+* [http://www.kadokawagames.co.jp/KanColle/ Official Kancolle Website]
+* [http://www.dmm.com/netgame/social/application/-/detail/=/app_id=854854/ Official Kancolle Game Website (Direct link)]
+* [https://twitter.com/KanColle_STAFF Official Twitter]
+* [http://www56.atwiki.jp/kancolle/ Japanese wiki (atwiki)]
+* [http://wikiwiki.jp/kancolle/ Japanese wiki (wikiwiki)]
+* [http://www.kancolle-calc.net/index.html Japanese online calculator]
+* [http://www54.atpages.jp/kancollem/ Japanese database]
+* [http://www.himeuta.net Community Forum- Himeuta Channel]
+* [http://www.reddit.com/r/kancolle KanColle Subreddit]
+
+[[Category:Main_Page]]

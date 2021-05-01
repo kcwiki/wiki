@@ -1,0 +1,59 @@
+|-
+| rowspan="6" |{{ {{{ItemType}}} }}
+| rowspan="6" style="text-align:center;" |[[{{{Name}}}]]
+| 0
+| {{#if: {{{Fuel:2|}}} | rowspan="3" | rowspan="6" }}|{{{Fuel}}}
+| {{#if: {{{Ammo:2|}}} | rowspan="3" | rowspan="6" }} |{{{Ammo}}}
+| {{#if: {{{Steel:2|}}} | rowspan="3" | rowspan="6" }} |{{{Steel}}}
+| {{#if: {{{Baux:2|}}} | rowspan="3" | rowspan="6" }} |{{{Baux}}}
+| {{{Mats0-5}}}
+| {{{Screws0-5}}}
+| {{{EquipConsume0-5}}}
+| rowspan="3" {{#if: {{{Sun|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Sun|X}}}
+| rowspan="3" {{#if: {{{Mon|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Mon|X}}}
+| rowspan="3" {{#if: {{{Tue|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Tue|X}}}
+| rowspan="3" {{#if: {{{Wed|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Wed|X}}}
+| rowspan="3" {{#if: {{{Thu|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Thu|X}}}
+| rowspan="3" {{#if: {{{Fri|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Fri|X}}}
+| rowspan="3" {{#if: {{{Sat|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Sat|X}}}
+| rowspan="3" |{{#if: {{{2ndShip|}}} | {{{2ndShip}}} | - }}
+| {{#if: {{{Notes:2|}}} | rowspan="3" | rowspan="6" }} |{{{Notes|}}}
+|-
+| 6
+| {{{Mats6-9}}}
+| {{{Screws6-9}}}
+| {{{EquipConsume6-9}}}
+|-
+| 10
+| {{{Mats10}}}
+| {{{Screws10}}}
+| {{{EquipConsume10}}}
+|-
+| 0
+| rowspan="3" {{#if: {{{Fuel:2|}}} | | style="display: none;"}} |{{{Fuel:2}}}
+| rowspan="3" {{#if: {{{Ammo:2|}}} | | style="display: none;"}} |{{{Ammo:2}}}
+| rowspan="3" {{#if: {{{Steel:2|}}} | | style="display: none;"}} |{{{Steel:2}}}
+| rowspan="3" {{#if: {{{Baux:2|}}} | | style="display: none;"}} |{{{Baux:2}}}
+| {{{Mats0-5:2|{{{Mats0-5}}}}}}
+| {{{Screws0-5:2|{{{Screws0-5}}}}}}
+| {{{EquipConsume0-5:2|{{{EquipConsume0-5}}}}}}
+| rowspan="3" {{#if: {{{Sun:2|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Sun:2|X}}}
+| rowspan="3" {{#if: {{{Mon:2|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Mon:2|X}}}
+| rowspan="3" {{#if: {{{Tue:2|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Tue:2|X}}}
+| rowspan="3" {{#if: {{{Wed:2|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Wed:2|X}}}
+| rowspan="3" {{#if: {{{Thu:2|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Thu:2|X}}}
+| rowspan="3" {{#if: {{{Fri:2|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Fri:2|X}}}
+| rowspan="3" {{#if: {{{Sat:2|}}} | style="background-color:rgb(170, 235, 170);" | style="background-color:rgb(255, 153, 153);" }}| {{{Sat:2|X}}}
+| rowspan="3" |{{#if: {{{2ndShip:2|}}} | {{{2ndShip:2}}} | - }}
+| rowspan="3" {{#if: {{{Notes:2|}}} | | style="display: none;"}}|{{{Notes:2|}}}
+|-
+| 6
+| {{{Mats6-9:2|{{{Mats6-9}}}}}}
+| {{{Screws6-9:2|{{{Screws6-9}}}}}}
+| {{{EquipConsume6-9:2|{{{EquipConsume6-9}}}}}}
+|-
+| 10
+| {{{Mats10:2|{{{Mats10}}}}}}
+| {{{Screws10:2|{{{Screws10}}}}}}
+| {{{EquipConsume10:2|{{{EquipConsume10}}}}}}
+<noinclude>{{documentation}} [[category:templates]]</noinclude>

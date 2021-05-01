@@ -1,0 +1,17 @@
+<noinclude><table></noinclude>
+<tr valign="top">
+<td>
+{{LyricAlbum|{{#if: {{{link|}}}|{{{link}}}|{{{1}}}}}|{{{2}}}}}
+</td>
+<td>
+:<b>[[{{#if: {{{link|}}}|{{{link}}}|{{{1}}}}}|{{{1}}}]]</b>{{#if: {{{rom|}}}| (<em>{{{rom}}}</em>)}}
+{{#if: {{{3}}}|
+:''Release date: {{{3}}}'' {{#if: {{{4|}}}| ([[:Category:{{{4}}}|{{{4}}}]])}}
+}}
+{{#if:{{{5|}}}|
+:{{{5}}} }}
+</td>
+</tr><noinclude><table>
+{{documentation}}
+[[Category:Templates]]
+</noinclude>

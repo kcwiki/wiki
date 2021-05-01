@@ -1,0 +1,37 @@
+{{Documentation subpage}}
+This template is to provide tooltip function to the words.
+==Usage==
+To use this template, simply follow the examples:
+<pre>{{Tooltip|text}}</pre>
+{{Tooltip|text}}
+<pre>{{Tooltip|text|tooltip}}</pre>
+{{Tooltip|text|tooltip}}
+<pre>{{Tooltip|text|tooltip|style=color:red}}</pre>
+{{Tooltip|text|tooltip|style=color:red}}
+<pre>{{Tooltip|金剛|Kongō|lang=ja}}</pre>
+{{Tooltip|金剛|Kongō|lang=ja}}
+==Tests==
+===Escaping===
+<pre>{{Tooltip|double quotation mark|"}}</pre>
+{{Tooltip|double quotation mark|"}}
+<pre>{{Tooltip|single quotation mark|'}}</pre>
+{{Tooltip|single quotation mark|'}}
+<pre>{{Tooltip|ampersand|&}}</pre>
+{{Tooltip|ampersand|&}}
+<pre>{{Tooltip|less-than sign|<}}</pre>
+{{Tooltip|less-than sign|<}}
+<pre>{{Tooltip|greater-than sign|>}}</pre>
+{{Tooltip|greater-than sign|>}}
+===Line breaks===
+<pre>{{Tooltip|...|1\n2}}</pre>
+{{Tooltip|...|1\n2}}
+===Tables===
+{|class="wikitable"
+{{Tooltip/Test
+|1
+|2
+|3
+|arg={{Tooltip|1|1}}<br/>{{Tooltip|2|2}}<br/>{{Tooltip|3|3}}
+}}
+|}
+__NOTOC__

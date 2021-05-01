@@ -1,0 +1,1 @@
+<includeonly>{{#if:{{{file|}}}|{{#switch:{{lc:{{#explode:{{{file}}}|.|-1}}}}|ogg|mp3=<sm2>{{{file}}}</sm2>|#default={{#sub:{{file:{{{file}}}|7}}}}}}}}</includeonly><noinclude>[[Category:Templates]] [[Category:Audio]]</noinclude>

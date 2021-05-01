@@ -1,0 +1,164 @@
+=Introduction=
+
+'''Stats''' are the numeric values that represent a ship girl's capabilites. Some stats can be increased through [[Modernization]] or leveling while others can only be increased through leveling. 
+
+The following information covers most of the basic understandings behind how the mechanics work and how they influence certain factors when partaking in Sorties.
+
+=List of Stats=
+[[File:Statinfo.png|thumb|right|The Stats screen which displays the ship girl and all the stats in which that ship girl has.]]
+All ship girl's have stats which are shown through their display which can be viewed in the [[Composition]], [[Remodel (Menu)|Remodel]], or Repair. These stats as the previous mention cover all the factors which influence their overall performance in sorties in general. The follow stats shown are as follows:
+
+===HP===
+HP {{HP}} denotes the maximum health of a ship girl. 
+
+* As she takes damage, damage states will display over her banner. 
+**[[File:Light damage.png|left]] <span style="color:#FFCE00;">'''Lightly Damaged (小破)'''</span>: Displays when a ship girl has lost 25% HP. She will say one of her minor damage lines. Combat ability is unaffected.
+**[[File:moderate damage.png|left]]<span style="color:orange;">'''Moderately Damaged (中破)'''</span>: Displayed when a ship girl has lost 50% HP. She will say her major damage line and her CG will change to the damaged version (if it hasn't changed yet). She takes a minor hit to her combat ability as detailed in [[Damage_Calculations#Damage_State|damage calculations]]. Non-armoured carriers lose the ability to perform carrier attacks and closing torpedoes are disabled. She will gain a bonus to her [[Night Battle#Night_Battle_Special_Attacks|night battle special attack trigger rate]].
+**[[File:Major damage.png|left]]<span style="color:red;">'''Heavily Damaged (大破)'''</span>: Displayed when a ship girl has lost 75% HP. She will say her major damaged line and her CG will change to the damaged version (if it hasn't changed yet). She takes a major hit to her combat ability  as detailed in [[Damage_Calculations#Damage_State|damage calculations]]. All carriers become unable to perform carrier attacks. She will be unable to attack during night battle. All attacks against her will be reduced to chip damage '''in the same battle that she was heavily damaged in'''.<br>'''Be warned that proceeding to the next node while heavily damaged puts a ship girl at risk of sinking'''. It is advised to retreat unless equipped with a [[Repair Team]] or [[Repair Goddess]].
+**[[File:Sunk.png|left]]'''Sunk''': Displayed when a ship girl loses all her HP. She will say her sinking line and be unable to continue to participate in sortie. She will be removed from your ship list and '''all equipment she has on her will be lost'''. You will need to find a new copy to replace her. 
+* It can be increased through [[Modernization]] using [[:Category:Destroyer Escorts|Destroyer Escorts]] and [[Marriage]]
+
+===Firepower===
+Firepower {{Firepower}} determines the ship girl's effectiveness during [[Combat#Shelling|shelling]] and contributes to her effectiveness in [[Combat#Night_Battle|night battle]].
+
+* See [[Damage_Calculations#Damage_Formula|Damage Calculations]] for how firepower plays into damage.
+* It can be increased through [[Modernization]] and leveling.
+** The maximum firepower has a fixed cap depending on ship and remodel.
+* Firepower can be increased further using equipment.
+* It is combined with [[Stats#Torpedo|torpedo]] when calculating night battle power.
+
+===Armor===
+Armour {{Armor}} determines how resilient a ship girl is to attacks.
+
+* See [[Damage_Calculations#Defense_Power|Defense Power]] on how armour plays into reducing damage.
+* It can be increased through [[Modernization]] and leveling.
+** The maximum armour has a fixed cap depending on ship and remodel.
+* Armour can be increased further using equipment.
+* High enough armour can reduce damage taken to [[Damage_Calculations#Chip_Damage|chip damage]].
+
+===Torpedo===
+Torpedo {{Torpedo}} determines the strength of a ship girl's torpedo attacks and contributes to her effectiveness in [[Combat#Night_Battle|night battle]].
+
+* See [[Damage_Calculations#Torpedo_Attacks|Damage Calculations]] on how torpedo plays into damage.
+* It can be increased through [[Modernization]] and leveling.
+** The maximum torpedo has a fixed cap depending on ship and remodel.
+* Torpedo can be increased further using equipment.
+* Torpedo '''is ignored''' when attacking installation-type enemies.
+
+===Evasion===
+Evasion {{Evasion}} determines how likely a ship girl is to evade an attack.
+
+* See [[Accuracy,_Evasion_and_Criticals#Evasion_Formulas|Evasion]] on how evasion is calculated.
+* It can only be increased through leveling.
+** Evasion has no fixed cap, a ship girl will keep gaining evasion as she levels according to her specific evasion growth rate.
+* Evasion can be increased further using equipment.
+* Due to the way evasion is soft-capped, it is mostly ineffective as a defensive stat.
+
+===Anti-Air===
+Anti-Air {{AA}} contributes to how effective a ship girl will be at shooting down planes during the [[Aerial_Combat#Fleet_Air_Defense|air defense phase]]. 
+
+* See [[Anti-Air Fire]] on how AA plays into plane shootdown.
+* It can be increased through [[Modernization]] and leveling.
+** The maximum AA has a fixed cap depending on ship and remodel.
+* AA can be increased further using equipment.
+* Due to the way the formula works, equipment AA and AACI counts for a lot more towards shoot downs.
+
+===Plane Capacity=== 
+
+Plane Capacity {{Aircraft}} is how many planes a ship girl can hold. The importance of this stat varies for each ship girl. By itself, it also doesn't tell you much about the effectiveness of the ship girl in aerial operations. Other factors like slot size and slot layout play a more important role.
+
+* It is most important for carriers because it determines how much damage they can do during airstrikes and how effective they are at contesting air control.
+** See [[Aerial Combat]] for more details on this.
+* It is somewhat important for aviation battleships and aviation cruisers because it plays a role in determining how effective they are at contesting air control.
+** Slot size plays a much larger part because of how small their slots are.
+** For seaplane fighter capable light cruisers and submarine carriers it is just important that they have plane capacity.
+* It is of minor importance to battleships, heavy cruisers and light cruisers because slot size affects the trigger rate of daytime spotting attacks.
+** See [[Combat/Artillery_Spotting#Trigger_Rate|Artillery Spotting]] for more details on this.
+
+===Anti-Sub Warfare (ASW)===
+
+ASW {{ASW}} determines the ship girl's effectiveness versus submarines. 
+
+* See [[Damage_Calculations#Anti-Submarine_Warfare|Damage Calculations]] for how it plays into ASW attack.
+* It can be increased through [[Modernization]] using [[:Category:Destroyer Escorts|Destroyer Escorts]] and leveling.
+** ASW has no fixed cap, a ship girl will keep gaining ASW as she levels according to her specific ASW growth rate.
+* Due to the way ASW attack is weighted towards equipment ASW, the ASW of the ship only matters when it comes to achieving [[Opening Anti-Submarine Warfare]] thresholds.
+
+===Speed===
+
+Speed {{Speed}} just denotes the speed of the ship. It effects routing in maps and eligibility for the escort fleet in [[Combined Fleet]]s.
+
+* It can only be improved through certain equipment combinations. See [[Improving Ship Speed]] for details.
+** Getting ships to '''Fast+''' or '''Fastest''' can affect routing in maps.
+** Increasing speed is supposed to provide bonuses to evasion but said effect is either bugged or unnoticeable.
+
+===Line of Sight===
+
+Line of Sight {{LOS}} (LoS) signifies how well a ship girl can find enemies. It plays a role in [[Combat#Detection|Detection]], [[Combat/Artillery_Spotting#Trigger_Rate|Artillery Spotting trigger rate]], and [[Line_of_Sight|routing requirements]].
+
+
+* It can only be increased through leveling.
+** LoS has no fixed cap, a ship girl will keep gaining LoS as she levels according to her specific LoS growth rate.
+* LoS can be increased further using equipment.
+* Due to how equipment LoS is weighted for spotting trigger rate and routing, equipment LoS is much more important than ship girl LoS.
+
+===Range===
+
+Range {{Range}} determines a ship girl's attack order during the [[Combat#1st_Shelling_Phase|first shelling phase]] and [[Combat#Opening_Anti-Submarine_.28OASW.29|opening ASW]].
+
+* Range is fixed depening on ship girl and remodel.
+* It can only be increased using certain equipment.
+* See [[Range]] for more information.
+
+===Luck===
+
+Luck {{Luck}} plays a role in many things. The most important role of luck is determining the trigger rate of [[Night Battle#Trigger_Rate|night battle special attacks]] and [[Aerial_Combat#Rocket_Barrage|anti-air barrages]]. It plays a minor role in evasion and accuracy.
+
+* Luck is fixed based on ship and remodel.
+* It can be increased through [[Modernization]] using [[:Category:Destroyer Escorts|Destroyer Escorts]] and [[Maruyu]]; and [[Marriage]].
+
+===Accuracy===
+
+Accuracy {{Hit}} is not displayed on the ship girl information menu but it is a stat that is displayed on some equipment. It determines how likely a ship girl is to land her attacks.
+
+* See [[Accuracy,_Evasion_and_Criticals#Accuracy_Formulas|Accuracy Formulas]] for all the formulas used to calculate accuracy.
+* Accuracy plays a part in determining the critical hit rate.
+** The higher the accuracy, the higher the critical rate '''up to a certain point'''. Once a ship girl can cap accuracy against an enemy, additional accuracy is worthless.
+
+=Stat Growth=
+===Linear Growth===
+Evasion, ASW, and LoS follow a linear growth formula based off the minimum and maximum stats of the remodel. The minimum and maximum values can be found on individual ship girl pages.
+
+<math>\text{Stat} = \text{minimum} + \text{level} \times \frac{\text{maximum} - \text{minimum}}{99}</math>
+
+* <math>\text{minimum}</math> is the minimum value of the stat in question.
+* <math>\text{maximum} </math>is the maximum value of the stat in question.
+* <math>\text{level}</math> is the current level of the ship girl.
+
+'''Important Notes'''
+* You can use this formula to calculate the base stats of a remodel.
+* Stats will follow the same linear growth past level 99. This means the displayed maximum value isn't the actual maximum.
+
+===Random Growth===
+Firepower, torpedo, anti-air and armour do not appear to follow any growth formula. Gains are random on leveling up. This does not matter much because it is much faster to increase these stats through modernisation.
+
+===Fixed Stats===
+HP and luck are fixed based on remodel. These stats can only be increased through modernisation.
+
+=Status Conditions=
+Aside from the status conditions described under [[Stats#HP|HP]], ship girl banners will display other status indications to help you monitor their situation.  
+
+===Morale Indicators===
+*[[File:Fatigue.png|left]] '''[[Morale and Fatigue|Fatigued]]''' - This is displayed when a ship girl is between 20-29 morale. She will suffer a reduction in accuracy and evasion during sorties. If an expedition returns with ship girls in this state, it will fail. It can be remedied by waiting for morale to recover (about 15 minutes), repairing them (resets morale to 40) or using [[Morale_and_Fatigue#Gifting|Mamiya]] (resets morale to 40). It is recommended you only use girls which are not fatigued.
+
+*[[File:Heavy Fatigue.png|left]] '''[[Morale and Fatigue|Heavily Fatigued]]''' - This is displayed when a ship girl is between 0-19 morale. She will suffer a severe reduction in accuracy and evasion during sorties.  If an expedition returns with ship girls in this state, it will fail. It can be remedied by waiting for morale to recover (about 30 minutes), repairing them (resets morale to 40) or using [[Morale_and_Fatigue#Gifting|Mamiya]] (resets morale to 40). It is highly recommended you let ship girls recover from heavy fatigue before using them.
+
+===Misc Statuses===
+*[[File:Evacuated.png|left]] '''Evacuated'''- This is displayed when a ship girl has been evacuated from a [[Combined_Fleet#Fleet_Command_Facility|Combined Fleet]] or [[Striking_Force_Fleet#Striking_Force_Fleet_Command_Facility|Striking Force]]. She will be unable to participate for the remainder of the sortie. See the linked pages for more details.
+
+*[[File:Expedition notifier.png|left]] '''[[Expeditions|On Expedition]]''' - This is displayed when a ship girl has been sent on an expedition. Ship girls on expeditions cannot be moved from the fleet or have their equipment adjusted until they return. 
+
+*[[File:Repair notification.png|left]] '''[[Docking|Repair]]''' - This is displayed when a ship girl is in the docks for repairs. Ship girls cannot be sortied while being repaired. They can be assigned to fleets but equipment cannot be removed from the equipment menu. Equipment '''can be removed''' by using the feature to transfer equipment to another ship girl.
+
+=See Also=
+{{Mechanics}}

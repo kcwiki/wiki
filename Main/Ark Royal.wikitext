@@ -1,0 +1,592 @@
+==Info==
+{{KanmusuInfo|ID=315}}
+{{KanmusuInfo|ID=315a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to attack at night when equipped with Swordfish variants.
+
+===Overview===
+* Decent firepower.
+* Low HP and armour.
+* Decent slot count
+* Decent slot distribution.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Low'''
+
+: She has decent firepower which is complemented by her slot distribution. This allows her to perform adequately as a shelling carrier. The size of her two large slots also means she has adequate airstrike power. She is a balanced carrier, but her performance doesn't reflect her rarity. Her innate night attack is weak and not worth consideration.
+
+====Recommended Roles====
+* Combat
+* Air Support
+
+====Not Recommended Roles====
+* Shelling Support
+* Airstrike Support
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 私はHer Majesty's ship, Ark Royal. Admiral、あなたが？よろしく。
+|translation = I'm Her Majesty's ship, Ark Royal. Are you the Admiral? Take care of me.
+|audio = ArkRoyal-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = Her Majesty'sそして、your ship, Ark Royal. 出撃準備をとど載っている。Admiral、今日も、よろしく。
+|translation = I'm Her Majesty's and your ship, Ark Royal. Sortie preparations are done. Take care of me today too, Admiral.
+|audio = ArkRoyalKai-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = Her Majesty's ship, Ark Royal. 本格的な艦隊型航空母艦として就役。
+大西洋や地中海まで、数々の作戦は参加した。あの戦艦Bismarck追撃戦では、この必殺のSwordfishははなったな。
+U-boatか？あれは危険だ。水面下の敵は気をつける。
+|translation = Her Majesty's ship, Ark Royal. I was commissioned as a full fleet carrier.
+I participated in many operations in the Atlantic and Mediterranean. It was these deadly Swordfish that ended the pursuit of that battleship Bismarck.<ref>It was Swordfish bombers from the Ark Royal that took out the Bismarck's rudder during the [https://en.wikipedia.org/wiki/Last_battle_of_the_battleship_Bismarck pursuit] that allowed the rest of the Royal Navy to catch up and corner the Bismarck.</ref>
+U-boats? They're dangerous. You need to be careful of underwater enemies.<ref>She was sunk by [https://en.wikipedia.org/wiki/German_submarine_U-81_(1941) U-81] while returning to Gibraltar in 1941.</ref>
+|audio = ArkRoyal-Library.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = Her Majesty's ship, Ark Royal. ここに。
+|translation = Her Majesty's ship, Ark Royal, is here.
+|audio = ArkRoyal-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = Are you alright?
+|translation = Are you alright?
+|audio = ArkRoyal-Sec2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = Not so bad.でも、Admiral、少し躾がいるみたいね。そこに座って。そう。Swordfish、発艦始め！
+|translation = That's not so bad. But you need a little discipline, Admiral. Go sit over there. Right there. Swordfish, begin takeoff!
+|audio = ArkRoyal-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = ああ、そうだ！旧式かどうか問題ではない。敵の戦闘機さいいなければ、我がSwordfishは十分な働きお示すだろう。性能ではないのだ、戦場と戦い方だ。Admiral?・・・あ、聞いてないか？
+|translation = Ah, that's right! It's not a problem if they're outdated. If there are no enemy fighters, my Swordfish are good enough for the job. It's not performance that matters, but the results on the battlefield. Admiral? ...Ah, he's not listening huh?<ref>The [https://en.wikipedia.org/wiki/Fairey_Swordfish Fairey Swordfish] she carried were slow and outdated by World War 2 standards. But were still fairly effective if they didn't encounter enemy air cover.</ref>
+|audio = ArkRoyal-SecIdle.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = Admiral、疲れているのか？私は紅茶を入れよ。待っていて。薫り高いEarl Greyにしよう。ほら、休んでいって。持っていくから、待っていて。
+|translation = Are you tired, Admiral? I'll go get some black tea. Wait a moment. I'll get some very fragrant Earl Grey. Go on, get some rest. I'll bring it over so please wait.
+|audio = ArkRoyal-SecMarried.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = Admiral、どうした？頬が少し上気しているようだ。体温も高い。風邪か？休むといい。・・・あ、これを、私に？わかった、後で開けよ。まずはしっかり体を休めることだ。さぁ。
+|translation = What's wrong, Admiral? Your cheeks are a bit flushed. You're running a temperature too. Do you have a cold? You best get some rest. ...Ah, this is for me? Understood, I'll open it later. First, you need to get lots of rest. Go on.
+|audio = ArkRoyal-Wedding.mp3
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = Information? I see. これね？
+|translation = Information? I see. You mean this?
+|audio = ArkRoyal-PlayerScore.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = Her Majesty's ship, Ark Royal、抜錨！
+|translation = Her Majesty's ship, Ark Royal, setting sail!
+|audio = ArkRoyal-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = Your kindness is much appreciated.
+|translation = Your kindness is much appreciated.
+|audio = ArkRoyal-Equip1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = Japanese navy airplane? ほぉ、なるほど。
+|translation = Japanese navy airplane? Hmmm, I see.
+|audio = ArkRoyal-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = There is no one here.
+|translation = There is no one here.
+|audio = ArkRoyal-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = Thank you very much indeed. よし。
+|translation = Thank you very much indeed. Alright.
+|audio = ArkRoyal-Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = I will have a shower, sorry.
+|translation = I will have a shower, sorry.
+|audio = ArkRoyal-DockMinor.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = Sorry, Admiral。少し時間はかかる。Shambles today.
+|translation = Sorry, Admiral. This will take some time. I'm in shambles today.
+|audio = ArkRoyal-DockMajor.mp3
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい船・・・か。どれ。
+|translation = A new ship... huh. Let me have a look.
+|audio = ArkRoyal-Construction.mp3
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = Operation has been completed.
+|translation = Operation has been completed.
+|audio = ArkRoyal-SortieReturn.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 私は出る。Force H, Ark Royal、出撃！
+|translation = I'm heading out. Force H, Ark Royal, sortie!<ref>[https://en.wikipedia.org/wiki/Force_H Force H] was the Royal Navy formation tasked with maintaining naval power in the Mediterrenean.</ref>
+|audio = ArkRoyal-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai = yes
+|origin = 私が出る。Force H、機動部隊機関、Ark Royal. 出撃する！
+|translation = I'm heading out. Force H and carrier task force flagship, Ark Royal. Sortieing!<ref>"Kidou Butai" literally means 'mobile force' but the IJN used the term to refer to their carrier task forces.</ref>
+|audio = ArkRoyalKai-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = Ark Royal攻撃隊、発艦始めなさい！
+|translation = Ark Royal attack corps, begin takeoff!
+|audio = ArkRoyal-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|kai = yes
+|origin = 見つけたぞ！に画賛！Ark Royal攻撃隊、発艦始め！
+|translation = We've found them! They won't get away! Ark Royal attack corps, begin takeoff!
+|audio = ArkRoyalKai-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = さぁ、行きなさい！
+|translation = Now, go!
+|audio = ArkRoyal-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Air Battle
+|origin = Swordfish, shoot!
+|translation = Swordfish, shoot!
+|audio = ArkRoyal-AirBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 夜・・・やってみるか。
+|translation = Night... I'll give it a shot.
+|audio = ArkRoyal-NightBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 私が？・・・そう、頂いておこう。この栄誉我が女王陛下に。
+|translation = Me? ...I see, I accept. In honour of Her Majesty the Queen.
+|audio = ArkRoyal-MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = はぅ！
+|translation = Hah!
+|audio = ArkRoyal-MinorDamage1.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = はぅぐ！この！
+|translation = Hurgh! You!
+|audio = ArkRoyal-MinorDamage2.mp3
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = What? Torpedo? ...U-boat? 私はもう、沈まない！
+|translation = What? A torpedo? ...A U-boat? I won't sink again!
+|audio = ArkRoyal-MajorDamage.mp3
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = そう・・・また、沈むというの・・・それも・・・仕方ないか・・・Admiral... Bye...
+|translation = I see... I'm sinking again... I guess... that's just how it goes... Admiral... Bye...
+|audio = ArkRoyal-Sunk.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = Admiral. そうだ、今日は私が担当しよう。ん、なんだ？まさか、不服なのか？
+|translation = Admiral. That's right, I'll be in charge today. Hmm, what is it? It can't be that you're not happy with that?
+|audio = ArkRoyalKai-0000.mp3
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = It’s 1. なに？
+|translation = It’s 1. What? 
+|audio = ArkRoyalKai-0100.mp3
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = It’s 2. What?まさか、なにか不服あるのか？
+|translation = It's 2. What? You couldn't be unhappy about something?
+|audio = ArkRoyalKai-0200.mp3
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = It’s 3. そうか、ならいいんだ。Sorry。疑って悪かった、Admiral。そうか・・・
+|translation = It's 3. I see, that's fine then. Sorry. I'm sorry I doubted you, Admiral. So that was it...
+|audio = ArkRoyalKai-0300.mp3
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = It's 4. もうすぐ朝か。紅茶を入れよう。Darjeelingでいいか？よし。
+|translation = It's 4. Almost morning huh. I'll get some black tea. Are you fine with Darjeeling? Alright.
+|audio = ArkRoyalKai-0400.mp3
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = おはよう、Admiral. It's 5. 朝は好きではないが、ここの朝、いいな！
+|translation = Good morning, Admiral. It's 5. I don't really like mornings but, the mornings here are nice!
+|audio = ArkRoyalKai-0500.mp3
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = It's 6. Good morning. ・・・艦隊、ソウインオコシ！よし、覚えたぞ。
+|translation = It's 6. Good morning. ...Fleet, all hands assemble! Alright, I remember now.
+|audio = ArkRoyalKai-0600.mp3
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = It's 7. Breakfastはtoastにmushrooom, tomatoとbaked beans, hashed brownにblack puddingと・・・卵はどうしたい？
+|translation = It's 7. Breakfast is toast with mushrooms, tomato and baked beans, hashed brown with black pudding and... How would you like your eggs?
+|audio = ArkRoyalKai-0700.mp3
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = It's 8. よし、そろそろ艦隊出撃の準備だな？ん・・・お、まて、あれは・・・
+|translation = It's 8. Alright, it's almost time to begin prepartions for the fleet to sortie right? Hmmm... Oh, wait... That's....
+|audio = ArkRoyalKai-0800.mp3
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = It's 9. Admiral、大変だ！あれはU-boatではないか？！危険だ！艦隊、対潜戦闘よい！我艦は直ちに退避運動開始！
+|translation = It's 9. There's big trouble, Admiral! Isn't that a U-boat!? It's dangerous! Fleet, prepare for anti-sub combat! My planes, begin evacuation procedures!
+|audio = ArkRoyalKai-0900.mp3
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = It's 10. 何？違う？伊号？友軍の、伊号潜水艦脱というのか？な、なるほど。言われてみれば、違うよだ。そ、そうか・・・
+|translation = It's 10. What? I'm wrong? I-type? It's a friendly I-type submarine you say? I-I see. Now that you tell me, I can see the difference. S-so that's it...
+|audio = ArkRoyalKai-1000.mp3
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = It's 11. ちょっとまって、あれはどうなんだ？あれこそ、U・・・何？我が艦隊の呂号潜水艦だっと？なんだと？
+|translation = It's 11. Wait a minute, what about her? Isn't she a U... What? She's a Ro-type from our fleet you say? What? 
+|audio = ArkRoyalKai-1100.mp3
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = It is noon. 所々驚きすぎて、お腹がへ減ってしまったな。いや、大丈夫。こんなときのために、sandwichを持ってきたんだ。Warspiteが作ってくれた。ほら、let's eat!
+|translation = It is noon. I got hungry after being surprised around every corner. No, it's fine. I brought some sandwiches along just for this occasion. Warspite made them. Come on, let's eat!
+|audio = ArkRoyalKai-1200.mp3
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = It's 1. Sandwich、美味しかったな?Warspiteのやつ腕を上げたよだ。そうか？よし、また頼んでみる。
+|translation = It's 1. Were the sandwiches delicious? That Warspite is pretty skilled with her hands. Is that so? Alright, I'll ask her to do it next time.
+|audio = ArkRoyalKai-1300.mp3
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = It's 2. あれは・・・あれは、Bismarckじゃないか？彼女もここに我々の洋に参加したいたか？友軍だな！おい、お〜い！あ、なぜ逃げる？！まて！
+|translation = It's 2. Isn't that... Isn't that Bismarck? Did she join us here on this sea too? She's an ally! Oi, Oiii~! Ah, why's she running away!? Wait!
+|audio = ArkRoyalKai-1400.mp3
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = It's 3. おいBismarck、なぜ逃げる？仕方ない、Swordfish隊、発艦！やつの足は止めろ！行きなさい！
+|translation = It's 3. Oi Bismarck, why are you running away? I got no choice, Swordfish squadron, take off! Stop her in her tracks! Go!
+|audio = ArkRoyalKai-1500.mp3
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = It's four.今度は逃げられた。奴め、随伴艦に直掩機を頼むとは...味な真似を！まぁ、いい。
+|translation = It's 4. She got away this time. That kraut, she had her escorts cover her escape, clever girl... Well, that's fine then.
+|audio = ArkRoyalKai-1600.mp3
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = It's 5. 夕日か？ここの夕日もいいな。地中海の夕日もそれをきれいなものだが・・・しかし、ここも、きれいだ。
+|translation = It's 5. Sunset huh? The sunset here is beautiful. Sunsets in the Mediterrenean were beautiful too but... Here is beautiful too.
+|audio = ArkRoyalKai-1700.mp3
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = It's 6. 実は今晩は飛龍、蒼龍にdinnerを誘われている。一生に行こう。Pubのようだ。たしか「マミヤ」っと。
+|translation = It's 6. Actually, Hiryuu and Souryuu invited me for dinner tonight. Let's go together. It seems to be some sort of pub. If I recall, it's called "Mamiya".
+|audio = ArkRoyalKai-1800.mp3
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = It's 7. 美味しい！Sorry、これは何という料理が？Chiken?うわ、七面鳥。うわ・・・こちは？Curry?あ、インド料理の？
+|translation = It's 7. This is delicious! Sorry, what dish is this? Is it chicken? Oooh, it's turkey. Oooh... and this is? Curry? Ah, Indian food?
+|audio = ArkRoyalKai-1900.mp3
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = It's 8. 飛龍、美味しいからって食べ過ぎじゃないのか？お、運動するからこのくらいは問題ない？そうなのか？So great!
+|translation = It's 8. Even if it's delicious, aren't you eating a bit too much, Hiryuu? Oh, you'll be getting some exercise after this so this much is fine? Is that so? That's great!
+|audio = ArkRoyalKai-2000.mp3
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = It's 9. 美味しい買ったけど、少し食べ過ぎた。飛龍、あいつ、すごいな。見習いたくはないが。ああ、あそこ、Italia娘が騒いでるな。少し黙れせておくか？そうか？
+|translation = It's 9. That was delicious, but I ate a bit too much. Hiryuu was amazing. But I'm not going to follow her example. Ah, the Italian girls are making a fuss over there. Shall I go tell them to keep it down? No?
+|audio = ArkRoyalKai-2100.mp3
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = It's 10. この艦隊は夜は水雷戦隊の動きが活発となるだな。Hunter-killerか。何？違う？でわ、何よやっているんだ？彼女たちは。
+|translation = It's 10. The Torpedo Squadrons in this fleet are really active at night. They're being hunter-killers huh. What? I'm wrong? Then what are those girls doing?
+|audio = ArkRoyalKai-2200.mp3
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = It's 11. Admiral、今日は一日お疲れだった。少し休んでくれ。Good night. Sleep Well.
+|translation = It's 11.You work hard every day, Admiral. Please get some rest. Good night. Sleep well.
+|audio = ArkRoyalKai-2300.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2017|Autumn 2017]]
+|origin = ほぉ、この艦隊のautumnはいいな。まさに収穫祭のようだ。チンジュフアキマツゥリ、悪くない。どれ、私も参加しよう！
+|translation =	Oh, this fleet’s autumn is great. It exactly like a harvest festival. This Naval Base Autumn Festival is not bad at all. Well now, I’ll join in too!
+|audio = Ark_Royal_Autumn_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2017|Saury Festival 2017]]
+|origin = サンマ…だと…っ？！どういうことだ…「Hunterkiller」ということか？ある意味そうだと？しかし、その艤装では…えぇ、それがベストなのか？解らんな。
+|translation =	Saury… you… say?! What do you mean by… “hunter-killer”? Do you mean that? But I must say this equipment is… Eh, it’s the best? I don’t know about that.
+|audio = Ark_Royal_Sec1_Saury_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2017|Late Autumn 2017]]
+|origin = この季節は気をつけないと、特に潜水艦には要注意だ。まあ、取り越し苦労なら良いだが…ん？右舷に潜望鏡！回避！…ん…ん？波の見間違いか？ふぇー。
+|translation =	We need to be careful during this season, be especially wary of submarines. Well, being paranoid is good but… Hmm? Periscope to starboard! Evasive manoeuvres! …Hmm… Hmmm? That was just a wave? *sigh*
+|audio = Ark_Royal_Late_Autumn_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2017|Christmas 2017]]
+|origin = Admiral, Christmasか。この艦隊でも祝うわのだな。まずは乾杯だ。おぉ、Cheers！やるな！
+|translation =	It’s Christmas, Admiral. So this fleet celebrates it too. Let’s have a toast to start. Oh, Cheers! Not bad!
+|audio = Ark_Royal_Christmas_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2017|End of Year 2017]]
+|origin = 大掃除か、それは大切だ。よし、私も参加する。Bismarck、やり方を教えてく…あれ？いない？逃げた？あいつ、どうして毎回毎回逃げるんだ？！ほい、待って！
+|translation =	Spring cleaning is important. Alright, I’ll help too. Teach me what I need to do, Bismarck… Huh? She’s gone? Did she run away? Why does she keep running away every time!? Oi, wait!
+|audio = Ark_Royal_Year_End_2017_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2018|New Year 2018]]
+|origin = New year、か。Admiral、今年も、よろしく頼む。あぁ、もちろんだ。I'll do my best.
+|translation =	It’s the New Year. Please look after me this year too, Admiral. Ah, of course. I’ll do my best.
+|audio = Ark_Royal_New_Years_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2018|Setsubun 2018]]
+|origin = ふふ、知っているぞ。セツブーンだろう？すでにあいつらから情報を入手済みだ。なに？Intonationが違うだと？ばかな！
+|translation =	Fufu, I know about this. It’s Setsubuun right? I’ve already gathered information about it from the others. What? My intonation is wrong? It can’t be!
+|audio = Ark_Royal_Setsubun_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2018|Valentine’s Day 2018]]
+|origin = Admiral、その…なんだ…いや、なんでもない。なくない…あのだな、accept my chocolate…please.
+|translation =	Admiral, umm… You know… No, nevermind. Actually… Umm, please accept… my chocolate.
+|audio = Ark_Royal_Valentines_2018_Sec_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2018|White Day 2018]]
+|origin = ほぉ、お返しか？ここのcultureは悪くない。いただこう。I'm glad.
+|translation =	Hmm, a return gift? The culture here isn’t bad. I accept. I’m glad.
+|audio = Ark_Royal_White_Day_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2018|Coming of Spring 2018]]
+|origin = いい季節だな。あれが「Sakura」か。不思議なものだ。…見ていると、少し鑑賞的な気持ちになる。花の色の成果？不思議だ。
+|translation =	This is a nice season. So those are “Sakura”.  Fascinating. …When I look at them, I’m overcome with a feeling of appreciation. Is it because of the colour of the flowers? How strange.
+|audio = Ark_Royal_Spring_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = Congratulations, 5th Anniversary。まずは乾杯だな。Cheers!
+|translation =	Congratulations on the 5th Anniversary. Let’s start with a toast. Cheers!
+|audio = Ark_Royal_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2018|Rainy Season 2018]]
+|origin = ほぉ、これがあの重巡が言ってた「ツーユー」か。確かに、面白いほど、雨ばっかりだ。航空艤装が痛む頂けないが…まあ、たまには休息もいい。
+|translation =	I see, so this is the “Tsuyu” that CA told me about. All this rain certainly is pleasant. Though my aviation equipment will get damaged… Well, it’s fine to take a break once in a while.
+|audio = Ark_Royal_Rainy_Season_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2018|Summer 2018]]
+|origin = ここの夏は暑くなりそうだ。防水余計装備か？考えてみよう。しかし防御力が…ん。
+|translation =	Summer here gets quite hot. Supplementary waterproof equipment? I'll think about it. But the defensive capabilities are... Ngh.
+|audio = Ark_Royal_Summer_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2018|Saury 2018]]
+|origin = ほぉ、鎮守府秋刀魚Festival、か…ところで、Swordfish Festivalはどなった?
+|translation =	Hmmm, so it's the Naval Base Saury Festival... By the way, what about a Swordfish Festival?
+|audio = Ark_Royal_Sec2_Saury_2018.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2018|Saury 2018]]
+|origin = おぉ、Warspite, お前も食べてみろ。あぁ、この串をな…こうやって持って、こうやって食べる。はむ。んー、美味い！
+|translation =	Oooh, you have to try this too, Warspite. Yeah, hold this skewer like this... then eat it like this. *Nom* Mmmm, it's delicious!
+|audio = Ark_Royal_Sec3_Saury_2018.mp3
+|notes = Secretary 3
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2018|Christmas 2018]]
+|origin = ふん、今度はjazzか。いいものだな。悪くない。大人の楽しみ、だな？
+|translation =	Humph, so it's jazz this time. That's nice. Not a bad idea. Just some adult fun, right?
+|audio = Ark_Royal_Christmas_2018_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2019|Autumn 2019]]
+|origin = 今回の戦いは疲れたが、面白かったな。…おぉ？どうした？Warspite、旅支度か？
+|translation =	This battle was tiring but it was fun. ...Oh? What are you doing? Warspite, are you preparing for a journey?
+|audio = Ark_Royal_Autumn_2019_Sec1.mp3
+|notes = Secretary 1. Europe Thank You line.
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2019|Autumn 2019]]
+|origin = Kure Naval Districtだっと？ほぉ、面白い。私も行ってみたい。いいだろう？
+|translation =	The Kure Naval District? Hmmm, interesting. I'd like to go too. That's fine right?
+|audio = Ark_Royal_Autumn_2019_Sec2.mp3
+|notes = Secretary 2. Kure 130th Anniversary Collaboration line.
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2019|Autumn 2019]]
+|origin = 今年はサンマが不漁のようだな。何、案ずることはない。我がSwordfish隊にかかれば、多少の不漁なんぞ。えぇ、何？そういう問題ではない？
+|translation =	The saury catch this year is bad. Well, don't you worry. We can improve that catch with my Swordfish squadrons. Eh, what? That's not the problem?
+|audio = Ark_Royal_Autumn_2019_Sec3.mp3
+|notes = Secretary 3. Saury 2019 line.
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = Congratulations, 7th Anniversary! すごいものだ。よし、乾杯だ！行くぞ、cheers！
+|translation =	Congratulations on the 7th Anniversary! That's amazing. Now let's have a toast! Here I go, cheers!
+|audio = Ark_Royal_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = Congratulations! 今年でついに8th Anniversary. よし！全力で乾杯だ！Cheers!
+|translation =	Congratulations! It's the 8th Anniversary this year. Alright! Let's have a grand toast! Cheers!
+|audio = Ark Royal_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Early_Fall_2018_Event|Early Fall 2018 Event]]
+|origin = 本國艦隊到著だ！さあ、見せてやろう！行くぞ！Nelson、付いて來い！
+|translation =The Home Fleet has arrived! Come, I'll show you! Let's go! Follow me, Nelson!	
+|audio = Ark_RoyalKai-Friend_Fleet_1.mp3
+|notes = Friend Fleet 1
+}}
+{{SeasonalQuote
+|scenario = [[Early_Fall_2018_Event|Early Fall 2018 Event]]
+|origin = 了解だ！Swordfish squadron発艦初め！
+|translation =	Roger! Swordfish squadrons, begin takeoff!
+|audio = Ark_RoyalKai-Friend_Fleet_1.mp3
+|notes = Friend Fleet 1
+}}
+{{SeasonalQuote
+|scenario = [[Summer_2019_Event|Summer Event 2019]]
+|origin = We need to find Janus, and bring her back to our Home Fleet.
+|translation =	We need to find Janus, and bring her back to our Home Fleet.
+|audio = Ark_Royal_Summer_Event_2019_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Fall 2020 Event]]
+|origin = 艦隊旗艦、Ark Royal、戦場海域に到達した。いい頃合いだ。艦載機、出撃準備。Swordfish隊、そうだ、行くぞ！
+|translation =	Fleet flagship, Ark Royal, has arrived on the battlefield. Just in time. Aircraft, prepare for sortie. Swordfish squadrons, that's right, go!
+|audio = Ship_Voice_Ark_Royal_Kai_Fall_2020_Event_Friend_Fleet_1.mp3
+|notes = Friend Fleet 1
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+KanMusu315CG.png|Base
+KanMusu315CGDmg.png|Base Damaged
+</gallery>
+|}
+
+==Drop Locations==
+Currently limited to event-only.
+
+==Trivia==
+*She is named after the [https://en.wikipedia.org/wiki/English_ship_Ark_Royal_(1587) HMS Ark Royal].
+**She is the 3rd ship to bear the name.
+
+==See Also==
+* [[{{PAGENAMEE}}/Gallery|View {{PAGENAMEE}}'s CG]]
+* [[List_of_fleet_standard_aircraft_carriers_by_upgraded_maximum_stats|List of Aircraft Carriers]]
+* [[wikipedia:HMS_Ark_Royal_(91)|Wikipedia entry on Ark Royal]]
+{{Shiplist}}
+[[Category: Aircraft Carriers]]
+[[zh:塔斯特指挥官]]

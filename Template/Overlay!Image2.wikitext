@@ -1,0 +1,10 @@
+<onlyinclude><includeonly>{{#switch:{{{overlayform}}}<!--
+	-->|color<!--
+	-->|colour = <span style="background-color:{{{overlaycolour}}};">&nbsp;&nbsp;</span>|text = <span style="color:{{{overlaycolour}}};">'''50'''</span><!--
+	-->|popuppage = {{Popup|id={{{popupPrefix|}}}legendpopup{{{number|}}}|hovertext=[[File:{{{overlaypopupimage}}}|link= |{{{defaultLegendIconSize|50}}}px]]|popup={{Popup/Wikipage|page={{{overlaytip|}}}}}|nott=1|click=1|title=(Click To View)}}<!--
+	-->|popupajax = {{Popup|click=1|id={{{overlaytip|}}}|hovertext=[[File:{{{overlaypopupimage|}}}|link= |{{{defaultLegendIconSize|50}}}px|(click me)]]|title={{{overlay|}}} [br](Click To View)|popup={{{overlaytip|}}}|ajax=1|nott=1}}<!--
+	-->|popup = {{Popup|id={{{popupPrefix|}}}legendpopup{{{number|}}}|hovertext=[[File:{{{overlaypopupimage|}}}|link={{{overlaylink|}}}|{{{defaultLegendIconSize|50}}}px]]|popup={{{overlaytip|}}}|link={{{overlaylink|}}}|nott=1}}<!--
+	-->| [[Image:{{{number|}}} white, {{{overlaycolour}}} rounded rectangle.svg|50x12px]]<!--
+-->}}</includeonly></onlyinclude><noinclude>
+[[Category:Map Templates]]
+</noinclude>

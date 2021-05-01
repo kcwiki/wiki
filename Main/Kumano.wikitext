@@ -1,0 +1,637 @@
+==Info==
+{{KanmusuInfo|ID=125}}
+{{KanmusuInfo|ID=130}}
+{{KanmusuInfo|ID=304}}
+{{KanmusuInfo|ID=309}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to equip seaplane bombers and fighters on Kai.
+* Able to convert between a CAV and CVL on Kai Ni.
+''' <span style="color:red">'''A blueprint is required whenever you remodel her to a CVL.'''</span>
+* Unlike other CVLs, she will prioritise surface ships over submarines.
+
+===Overview===
+'''Kai'''
+* Decent firepower and torpedo.
+* Low HP and armour.
+
+'''Kai Ni'''
+* Decent firepower and armour.
+* Good torpedo and HP.
+
+'''Kai Ni Kou'''
+* Great firepower, HP and armour.
+* Low plane count.
+* Decent slot distribution.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+'''Hidden Fit Bonuses'''
+* She gains bonus evasion and accuracy at night when equipped with 20.3cm variants. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+'''Kumano Kai'''
+
+Priority: '''High'''
+
+:This heavy cruiser can be remodeled into an aviation cruiser (CAV), which allows her to carry seaplane bombers and, much more importantly, fighters.
+:Thus, while she isn't anything worth writing home about when it comes to surface combat, she can play an extremely important role when it comes to gaining air superiority.
+
+:Do note that, while aviation cruisers can attack enemy submarines with proper equipment, they are generally a very poor choice for this role.
+
+
+'''Kumano Kai Ni'''  
+
+Priority: '''Medium-High'''
+:Her second remodel increases her Torpedo, AA, LOS, HP and Evasion stat, increasing her suitability and night battle potential.
+:The ability to equip some guns in her Reinforcement Expansion slot further emphasize her usefulness during night battles.
+:However, her base Luck stat is low so she's not a reliable choice for cut-in attacks unless very significant investments are made in order to increase it. 
+:Keep in mind that this remodel requires a [[Blueprint]].
+
+'''Kumano Kou Kai Ni'''  
+
+Priority: '''Medium-Low'''
+:This remodel turns her into a "fast attack" type of light carrier (CVL), and while this is theoretically a convertible remodel keep in mind that going from CAV to CVL requires a further [[Blueprint]] every time, making it a ''de facto'' permanent one.
+:As carriers, she and her sister have a small air wing, but fast speed, great survivability for their ship category and the highest firepower available to a light carrier.
+:This makes them hit very hard during daytime shelling, while sacrificing some bombing efficiency.
+:Unlike other CVLs, she will target surface ships over submarines when both are present.
+
+====Recommended Roles====
+* Surface combat
+* Night battle (second remodel only)
+* Air superiority (second remodel and beyond)
+* Shelling support (carrier version only)
+
+====Not Recommended Roles====
+* ASW
+
+===Important Info===
+* Required for A76 and B101.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = ご機嫌よう。私が重巡熊野ですわ。
+|translation = How do you do? I'm the heavy cruiser Kumano.
+|audio = Kumano-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction (Kai Ni)
+|kai2 = yes
+|origin = 航空巡洋艦、熊野。推参いたします。
+|translation = Aviation Cruiser Kumano. Reporting for duty.<ref>She literally says she's "paying an unannounced visit".</ref>
+|audio = KumanoKaiNi-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction (Kai Ni Kou) 
+|kai2 = yes
+|origin = 承りましてよ。航空母艦、熊野。参りますわ！<ref>Shared with Joining the Fleet.</ref>
+|translation = Understood. Aircraft carrier, Kumano. Has arrived!
+|audio = KumanoKouKaiNi-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 神戸生まれのお洒落な重巡といえば、私、熊野ですね。
+マレー、ミッドウェー、ソロモン、マリアナと主要な名所、いえ激戦地に参上いたしましたのよ。
+最期は日本に帰りたかったけれど……。
+|translation = I'm the stylish heavy cruiser from Kobe, Kumano.
+I was present at many famous bloody battles like Malaya, Midway, Solomon and Marinara.
+I did want to return to Japan at the end though...<ref>Kumano was heavily damaged in every battle she was in, and was finally sunk at Santa Cruz by US bombers.</ref>
+|audio = Kumano-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = あら提督、熊野になにか御用？
+|translation = Oh my, do you have some business with me, Admiral?
+|audio = Kumano-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 今頃ご出勤？のろまなのねえ…
+|translation = Isn't it time for work? Aren't you being lazy...
+|audio = Kumano-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = この熊野に気安く触るなんて、提督もなにか勘違いされているのではなくって？
+|translation = Touching me so causally, are you misunderstanding something, Admiral?
+|audio = Kumano-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = ん…んぅぅ……ふぁぁ…私、ちょっと眠くなってきましたわ。
+|translation = Ngh... Nggghhh... *yawn* I'm feeling a little sleepy. 
+|audio = Kumano-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督。ま、まぁ…よ、よくやってるじゃない。褒めてあげてもいいのよ。
+|translation = Admiral. We... well... Aren't you doing well now? I just might start praising you.
+|audio = Kumano-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督のお部屋って、とてもいい趣味をしていらっしゃるのね。私、嫌いではなくってよ？　まぁ、そんなに頼むのなら、ずーっといてもいいのよ？　えぇ、あなたがそれほど望むのならば…
+|translation = Your room has such a pleasant feel to it Admiral. I don't dislike it you know? Well, if you make such a request, it will be fine for me to stay forever right? Eh, if that is what you really wish for...
+|audio = Kumano-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 提督に、軍令部よりお叱りのご連絡ですわ。
+|translation = You've got a reprimand from Headquarters, Admiral.
+|audio = Kumano-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 承りましてよ。
+|translation = Understood.<ref>Literal meaning is 'acknowledging orders'.</ref>
+|audio = Kumano-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet (Kai Ni)
+|kai2 = yes
+|origin = 承りましてよ。改鈴谷型航空巡洋艦、熊野。抜錨しますわ！
+|translation =Understood. Improved Suzuya-class aviation cruiser, Kumano. Setting sail!
+|audio = KumanoKaiNi-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = 貰ってあげてもいいけど…
+|translation = I'll gladly accept this but...
+|audio = Kumano-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = あまり下品な兵装は嫌よ？
+|translation = I don't want low-quality weapons alright?
+|audio = Kumano-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = よろしくてよ。
+|translation = Thank you.
+|audio = Kumano-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|kai2 = yes
+|origin =あら、よろしくてよ。
+|translation = Oh my, thank you.
+|audio = KumanoKaiNi-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = なんかもう、いっぱいですわ
+|translation = Somehow, I'm already satisfied.
+|audio = Kumano-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = まぁ、お風呂は嫌いではないけれど…
+|translation = Well, I don't really mind taking a bath...
+|audio = Kumano-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 全身エステ、フルコースでお願いするわ。
+|translation = I'd like a full-body beautification course please.<ref>Referring to a spa course.</ref>
+|audio = Kumano-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|kai2 = yes
+|origin = 全身エステ、最上級コースでお願いいたします。
+|translation = I'd like a top-level full-body beautification course please.
+|audio = KumanoKaiNi-DockMajor.mp3
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = あら、また新しい子を雇ったの？良いけれど…
+|translation = Oh my, you've employed another new girl? That's fine I suppose...
+|audio = Kumano-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊が帰投いたしましたわ。
+|translation = The fleet has returned to port.
+|audio = Kumano-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 重巡熊野、推参いたします！
+|translation = Heavy cruiser Kumano, reporting for duty!
+|audio = Kumano-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 一捻りで黙らせてやりますわ。
+|translation = Let's silence these pushovers.
+|audio = Kumano-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle (Kai Ni Kou)
+|kai2 = yes
+|origin = 熊野攻撃隊、発艦、を始めなさい!
+|translation = Kumano attack corps, begin takeoff!
+|audio = KumanoKouKaiNi-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = ひゃぁあっ！
+|translation = Hyaaah!
+|audio = Kumano-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack (Kai Ni Kou)
+|kai2 = yes
+|origin = 見つけましたは。熊野航空隊、全機、突撃ですわ！とぉぉ↑おう↓！！
+|translation = We've found them. Kumano air corps, all planes, begin attack! Wooooo↑ooooah↓!
+|audio = KumanoKouKaiNi-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Daytime Spotting/ Night Battle Attack 
+|origin = とぉぉ↑おう↓！！
+|translation = Wooooo↑ooooah↓!
+|audio = Kumano-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 夜戦…どこかのバカが好きでしたわね。
+|translation = Night battle... There is an idiot who loves them.<ref>Referring to [[Sendai]].</ref>
+|audio = Kumano-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = MVP、それは今どきのレディの嗜みの一つでもありますわ。ありがたく頂戴いたします。
+|translation = MVP, this is but one of the things ladies nowadays can accomplish. I humbly accept your thanks.
+|audio = Kumano-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|kai2 = yes
+|origin =MVP、それは改装された新のレディの嗜みでもありますは。ありがたくいだたきますわ。
+|translation = MVP, this is the accomplishment of a newly remodeled lady. I'll accept your thanks.
+|audio = KumanoKaiNi-MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = きゃぁっ！な、何をするんですの！？
+|translation = Kyaaah! Wh... what are you doing!?
+|audio = Kumano-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = 服が汚れたじゃなぁい！
+|translation = You got my clothes dirty!
+|audio = Kumano-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2 (Kai Ni)
+|kai2 = yes
+|origin = きゃぁっ！うん、せっかくの服が汚れたじゃない！
+|translation = Kyah! Humph, my precious clothes are all dirty!
+|audio = KumanoKaiNi-MinorDamage2.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2 (Kou Kai Ni)
+|kai2 = yes
+|origin =とぉぉ↑おう↓ひゃああ！せっかくの服が汚れたじゃない！
+|translation = Wooooo↑ooooah↓Hyaah! My precious clothes are getting all dirty!
+|audio = KumanoKouKaiNi-MinorDamage2.mp3
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = 私にこのような格好をさせるとは…あ、ありえませんわぁ！
+|translation = I can't... I can't believe that I am in such a state!
+|audio = Kumano-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage (Kai Ni)
+|kai2 = yes
+|origin =この航空甲板汚さないでいだたきたいですわ。
+|translation = I'd like if you avoided getting this seaplane deck dirty.
+|audio = KumanoKaiNi-MajorDamage.mp3
+}}
+{{ShipquoteKai
+|scenario = Major Damage (Kou Kai Ni)
+|kai2 = yes
+|origin =この飛行甲板汚さないでいだたきたいですわ。
+|translation = I'd like if you avoided getting this flight deck dirty.
+|audio = KumanoKouKaiNi-MajorDamage.mp3
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = こんな所で沈むなんて…故郷の神戸で、可愛い服を着て、神戸牛を食べたかった…ですわ…
+|translation = To sink in such a place... I wanted to to wear cute clothes and eat Kobe beef... in my birthplace of Kobe...
+|audio = Kumano-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 深夜0時ですわ
+|translation = It's 12am.
+|audio = Kumano-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = 1時よ。お肌に悪いわ……熊野の美貌に対する挑戦なの？
+|translation = It's 1 o'clock. It's bad for my skin... Are you trying to ruin my beauty?
+|audio = Kumano-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = 提督？いつまで起きていらっしゃるの？2時よ。
+|translation = Admiral? How much longer are you going to be awake? It's 2 o'clock.
+|audio = Kumano-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = 深夜3時ですって？ありえませんわ！
+|translation = It's already 3am? I don't believe it!<ref>深夜 actually means 'late at night'.</ref>
+|audio = Kumano-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin =  深夜4時よ…付き合ってられませんわ。
+|translation = It's 4am... I'm not keeping you company anymore.
+|audio = Kumano-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = も～！深夜っていうか、朝5時ですわ！
+|translation = Jeez~! "Late at night", it's more like 5am in the morning!
+|audio = Kumano-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = 6時よ、ちゃんと目をお開けなさいな。
+|translation = It's 6 o'clock, it's time to open your eyes.
+|audio = Kumano-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = 7時になりましてよ。提督のおかげで寝不足でしてよ？
+|translation = It's now 7 o'clock. Did you know I'm lacking sleep because of you, Admiral?
+|audio = Kumano-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = 8時ですわ。私の髪、梳すくってくださる？
+|translation = It's 8 o'clock. Can you please help comb my hair?
+|audio = Kumano-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = もう9時よ、遅刻でなくって？
+|translation = It's already 9 o'clock, aren't you running late?
+|audio = Kumano-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = あら？今日は何もありませんの？10時ですのに…
+|translation = Oh my? Are we not doing anything today? It's already 10 o'clock...
+|audio = Kumano-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = 11時…仕方ないので、付き合ってあげますわ
+|translation = 11 o'clock... It can't be helped, I'll accompany you.
+|audio = Kumano-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = 12時。私、ランチにはサンドイッチを所望しますわ。
+|translation = 12 o'clock. I desire sandwiches for lunch.
+|audio = Kumano-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = 提督？私コンビニとやらのサンドイッチ、初めていただきましたわ。意外にいけるんですのね…ああ、13時ですわ。
+|translation = Admiral? This is the first time I'm eating "convenience store" sandwiches. They're pretty good... Ah, it's 1 o'clock now.
+|audio = Kumano-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = 14時よ。食事の後は仮眠をとりますの。では、ごきげんよう、提督
+|translation = It's 2 o'clock. I'll take an after meal nap now. I bid you good day, Admiral.
+|audio = Kumano-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = 15時ね。仮眠の後はすっきりするので、勉強も仕事も、艦これも、効率が良いと言われているわ。
+|translation = It's 3 o'clock. I'm so refreshed after my nap that I can perform admirably in study, work or Kancolle.
+|audio = Kumano-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = 提督、16時ですわ。熱心に何を見てらっしゃいますの？
+|translation = It's 4 o'clock, Admiral. What are you staring at so intently?
+|audio = Kumano-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = 17時。熊野はエステの予約がありますの。そろそろ失礼させてもらっていいかしら？
+|translation = 5 o'clock. I have a beauty treatment appointment. May I please be excused soon?
+|audio = Kumano-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = 18時。私、エステ中でしてよ、提督。遠慮してくださるかしら。
+|translation = 6 o'clock. I'm in the middle of a beauty treatment now, Admiral. Could you please show some tact? 
+|audio = Kumano-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = 19時ね。……はぁ、気持ちよかった。あぁ。提督、いらしたの？
+|translation = 7 o'clock huh... *sigh* That felt good. Ah, you were here, Admiral?
+|audio = Kumano-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = 提督、20時よ。ローズヒップティーでも、ご一緒にいかが？
+|translation = It's 8 o'clock, Admiral. Would you like to have some rose hip tea together?
+|audio = Kumano-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = 21時になりましたわ。遅めのディナーも、よろしいんじゃなくて？
+|translation = It's now 9 o'clock. Wouldn't it be fine to have a late dinner?
+|audio = Kumano-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = 22時。私、美容のため仮眠いただきますわ。
+|translation = 10 o'clock. I'm going to get some sleep for the sake of my beauty.
+|audio = Kumano-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = 23時です、提督。夜はこれから、どうされるのかしら。
+|translation = It's 11 o'clock, Admiral. I wonder what we should do tonight.
+|audio = Kumano-23.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2015|White Day 2015]]
+|origin = 何ですの？提督。この包みは。いい匂いが致しますは！ええっ？これをわたくしに？
+|translation =	What is this? Admiral. What’s in this package? I smell something good! Eeh? Is this for me?
+|audio =Kumano _WhiteDay.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin = 提督？今日は素晴らしい記念日ではなくて？シャンパンでお祝いされるのかしら。
+|translation =	Admiral? Is today not a wonderful anniversary? I wonder if we’ll celebrate with champagne.
+|audio = 125_Kumano_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_Season_Update|Early Summer 2015]]
+|origin = 夏の足音を感じますわ。鈴谷、わたくし、最新の水着を買いに行きたいですわ！
+|translation =	I feel summer approaching. I want to go buy the latest swimsuits, Suzuya!
+|audio = Kumano_Early_Summer_HQ.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Mid_Summer_Season_Update|Midsummer 2015]]
+|origin = 夏ですわ～！！ 今年もリゾートに行きたいですわ～ ん…トラック島？ それは、リゾートですの？
+|translation =	It’s summer!! I want to go to a resort this year… Truk Island? Is that a resort?<ref> Kumano was based in the Truk islands for a considerable amount of time.</ref>
+|audio = Kumano_Mid_Summer.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Autumn_2015_Seasonal_Update|Early Autumn 2015]]
+|origin = 季節は、秋ですのね。秋が深まってくると、何か、もの悲しい気持ちになりますわ。
+|translation =	The season is now autumn. Somehow I feel sadder as autumn goes on.
+|audio = Kumano_Early_Autumn2015.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = …なんですのこの七面鳥のグリルとやらは…なかなかいけます！
+|translation =	…What’s with this grilled turkey… It’s delicious!
+|audio = Kumano_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 提督、新年もこの熊野を、よろしくお願いしてよ？初詣には、いつ出発なさるの？
+|translation =	Please take care of me this year too alright, Admiral? When are we going to visit the shrine?
+|audio = Kumano_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = はむっ、ふっふっ、ふっふん。いいこと鈴谷？この恵方巻きは……ん、ん……一気呵成に食することで…はむっ…一年の無病息災などを……はむっふっふっふっんぐっーん、んっ！
+|translation =	*nom* *chewing sounds* Are you listening, Suzuya? If you can eat this ehomaki… Mmmm… all in one go… *nom*… you’ll have good health for the rest of the year… *nom* *chewing sounds* Mmm!
+|audio = Kumano_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = トー～！提督この熊野のチョコレート受けとてもいいの？
+|translation =	Toooah! Will you accept my chocolate, Admiral?
+|audio = Kumano_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = 雨…梅雨の季節ですの。こんな日には、サンドイッチが食べたくなりますわ。
+|translation =	It’s raining… It’s the rainy season. I’d like to eat some sandwiches on days like these.
+|audio = Kumano_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 秋刀魚？なんですの、それは？サンドイッチの具にも会いますの？えぇ、やり方によってはいける？そう…なら、全力でいくしかないですわ！鈴谷、出かけますわよ！
+|translation =	Saury? What’s that? Are they an ingredient you put in a sandwich? Eh, you can use them that way? I see… Then I’ll have to put my all into this! Let’s head out, Suzuya!
+|audio = Kumano_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 四周年ですのねぇ。大変なことではなくって？この熊野、素直に感動いたしましたわ、ええ。
+|translation =	It’s the 4th Anniversary. Isn’t this a major event? I am very impressed, yes.
+|audio = Kumano_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2017|Saury Festival 2017]]
+|origin = お任せ下さいませ！この熊野、実は秋刀魚漁を楽しみにしていたのですわ。とぉぉ↑おう↓！！
+|translation =	Please leave it to me! Actually, I’ve been looking forward to saury fishing. Whoo↑aaaaaah↓!!
+|audio = Kumano_Sec1_Saury_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 五周年？ついにここまで来てしまえましたのね。提督、享年の記念サンマサンドウィッチはいかがでしたか？この熊野、今年を新作をご用いしてますの。あ、あれ？て、提督？
+|translation =	The 5th Anniversary? So we’ve already come this far. How were last year’s commemorative saury sandwiches, Admiral? I’ve made something new this year. H-huh? Ad-Admiral?
+|audio = Kumano_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+125_3.png|Base
+125_4.png|Base Damaged
+130_3.png|Kai
+130_4.png|KaiDamaged
+Kanmusu_304.png|Kai Ni
+Kanmusu_304_dmg.png|Kai Ni Damaged
+Kanmusu_309.png|Kai Ni Kou
+Kanmusu_309_dmg.png|Kai Ni Kou Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Kanmusu_125_Christmas_2016.png|[[Seasonal/Christmas_2016|Christmas 2016]]
+Kanmusu_125_Christmas_2016_dmg.png|[[Seasonal/Christmas_2016|Christmas 2016 Damaged]]
+KanMusu504_SurigaoStrait.png|[[Seasonal/Final_Battle|Kai Ni Final Battle 2018]]
+KanMusu504_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Kai Ni Final Battle 2018 Damaged]]
+KanMusu509_SurigaoStrait.png|[[Seasonal/Final_Battle|Kou Kai Ni Final Battle 2018]]
+KanMusu509_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Kou Kai Ni Final Battle 2018 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Kumano}}
+
+==Trivia==
+*She is named after the [https://en.wikipedia.org/wiki/Kumano_River Kumano River].
+*2013 August event E2-4 boss drop
+*She was added earlier than planned because the [[I-19]] voice records were missing, thus couldn't be introduced in time.
+*Buildable as of 16 October 2013
+*Sunk, 25 November 1944 off the coast of [[wikipedia:Santa_Cruz,_Zambales|Santa Cruz, Zambales, Philippines.]] Currently resting upside-down in 108 ft. of water
+
+==See Also==
+*[[{{PAGENAME}}/Gallery|View Kumano CG]]
+*[[EliteCA|List of Heavy Cruisers]]
+*[[wikipedia:Japanese_cruiser_Kumano|Wikipedia entry on cruiser Kumano]]
+{{shiplist}}
+[[Category:Mogami Class]]
+[[Category:Heavy Cruisers]]
+[[Category:Aviation Cruisers]]

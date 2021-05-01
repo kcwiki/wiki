@@ -1,0 +1,22 @@
+{{Navbox
+| name       =Languages
+| navbar     =plain
+| title      ={{{1}}}{{{langvoid| language}}}
+| list1style =text-align: center
+| list1      =Babel: [[Template:User {{{2}}}-0|0]] &bull; [[Template:User {{{2}}}-1|1]] &bull; [[Template:User {{{2}}}-2|2]] &bull; [[Template:User {{{2}}}-3|3]] &bull; [[Template:User {{{2}}}-4|4]] &bull; [[Template:User {{{2}}}|N]] &bull; [[Template:User {{{2}}}-5|5]]
+}}<includeonly>
+{{{catvoid|[[Category:User templates {{{catalt|{{{2}}}}}}|{{{sections|}}}{{#switch:{{PAGENAME}}
+ | User {{{2}}}-0 ={{{#|0}}}
+ | User {{{2}}}-1 ={{{#|1}}}
+ | User {{{2}}}-2 ={{{#|2}}}
+ | User {{{2}}}-3 ={{{#|3}}}
+ | User {{{2}}}-4 ={{{#|4}}}
+ | User {{{2}}}   ={{{#|N}}}
+ | User {{{2}}}-N ={{{#|N}}}
+ | User {{{2}}}-5 ={{{#|5}}}
+ | #default       ={{{#| }}}
+}}]]
+}}}</includeonly><noinclude>
+<!--PLEASE DO NOT ADD DOCUMENTATION/CATEGORIES/INTERWIKIS HERE-->
+{{Documentation}}
+<!--MAKE ADDITIONS TO THE /doc SUBPAGE INSTEAD, THANKS--></noinclude>

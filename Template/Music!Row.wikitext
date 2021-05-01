@@ -1,0 +1,9 @@
+<includeonly>{{#vardefine:id1|{{#explode:{{{id}}}|,|0}}}}{{#vardefine:id2|{{#explode:{{{id}}}|,|1}}}}{{#vardefine:id3|{{#explode:{{{id}}}|,|2}}}}{{#vardefine:id4|{{#explode:{{{id}}}|,|3}}}}{{#vardefine:id5|{{#explode:{{{id}}}|,|4}}}}|-
+|{{#if:{{#var:id1}}|id="{{#var:id1}}" }}style=text-align:center;|{{#if:{{#var:id2}}|{{anchor|{{#var:id2}}}}}}{{#if:{{#var:id3}}|{{anchor|{{#var:id3}}}}}}{{#if:{{#var:id4}}|{{anchor|{{#var:id4}}}}}}{{#if:{{#var:id5}}|{{anchor|{{#var:id5}}}}}}{{#if:{{#var:id1}}|{{Audio|file={{#var:id1}}.mp3}}}}{{#if:{{#var:id2}}|{{Audio|file={{#var:id2}}.mp3}}}}{{#if:{{#var:id3}}|{{Audio|file={{#var:id3}}.mp3}}}}{{#if:{{#var:id4}}|{{Audio|file={{#var:id4}}.mp3}}}}{{#if:{{#var:id5}}|{{Audio|file={{#var:id5}}.mp3}}}}
+{{#if:{{{source|}}}|{{!}}style=text-align:center;{{!}}{{{source}}}}}
+|style=text-align:center;|{{lang|ja|{{{ja|-}}}}}
+|style=text-align:center;|{{#if:{{{ro|}}}|''{{{ro}}}''}}
+|style=text-align:center;|{{{en|-}}}
+|style=text-align:center;|{{{ost|-}}}
+|style=text-align:center;|{{{notes|}}}</includeonly><noinclude>
+{{Documentation}}</noinclude>

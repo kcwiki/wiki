@@ -1,0 +1,393 @@
+==Info==
+{{KanmusuInfo|ID=415-615}}
+{{KanmusuInfo|ID=420-620}}
+
+==Gameplay Notes==
+===Special Mechanics===
+N/A
+
+===Overview===
+* High firepower, HP and armour.
+* Low torpedo and ASW.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''High'''
+
+:A four slot light cruiser from the USA, similar to [[Ooyodo]], who brings lots of flexibility to the fleet.
+:This turns her into an hard-hitting attacker against enemy installations when fitted with two [[WG42 (Wurfgerät 42)]].
+:She has also a solid Firepower stat, making her a reliable daytime combatant with [[Artillery Spotting]].
+:Unfortunately, her Torpedo stat is lower than a destroyer's, greatly reducing her usefulness at night.
+
+
+====Recommended Roles====
+* Surface combat
+* Anti-installation
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin =My name is Helena. St. Louis-class軽巡洋艦二番艦USS CL-50 Helena. よろしくね！
+|translation =My name is Helena. I'm the 2nd of the St. Louis-class<ref>Sub-class of the Brooklyn-class light cruisers.</ref> light cruisers, USS Cl-50 Helena. Pleasure to work with you!
+}}
+{{ShipquoteKai|kai = true|scenario = Introduction
+|origin =St. Louis-class軽巡洋艦二番艦USS CL-50 Helena, standby! 提督、今日もHelenaと、頑張って行きましょうね？
+|translation =2nd of the St. Louis-class light cruisers, USS CL-50 Helena, on standby! Admiral, let's work hard together again today, okay?
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin =USS CL-50 Helenaです。St. Louis-class軽巡二番艦として建造されました。真珠湾空襲を経験、エスペランス岬沖海戦、第三次ソロモン海戦、そしてクラ湾の夜戦で日本海軍の精鋭と激しく戦いました。
+|translation =I'm USS CL-50 Helena. I was built as the 2nd of the St. Louis-class light cruisers. I experienced the air attack on Pearl Harbor, and fought fiercely with the best the Japanese Navy had to offer at the Battle of Cape Esperance, the Naval Battle of Guadalcanal, and the Battle of Kula Gulf. 
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin =What can I do for you?
+|translation =What can I do for you?
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin =いいじゃない？Helenaと行きましょう？
+|translation =Sure, why not? Shall we get going?
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin =真珠湾でも、Waspの時もソロモンでも、本当好き勝手やってくれたわよね、あなたたち！まあ、夜の戦いは気を付けるようにするわ。今は味方同士、仲良くやりましょう！
+|translation =Whether it be Pearl Harbor, that time with Wasp<ref>USS ''Wasp'' was sunk by ''I-19'''s infamous torpedo salvo while covering a landing convoy at Guadalcanal - ''Helena'' was with her and rescued the survivors.</ref>, or the Solomons, you all really did as you pleased, you know! Well, I'll be sure to play it safe during night battles<ref>All of Helena's major battles were chaotic night battles during the Guadalcanal campaign.</ref>. We're comrades-in-arms now, so let's get along!
+}}
+{{ShipquoteKai
+|scenario = Idle
+|origin =そうね。艦隊戦では、電子兵装が大事。何より、radarは大事よ。戦いの終わってから、気づいても遅いの！
+|translation =That's right. In a fleet battle electronic equipment is crucial. Above all, radar is a must. Realizing that after the fighting is over is way too late<ref>''Helena'' was equipped with advanced SG Radar after repairing her damage at Pearl Harbor, but at Esperance and Guadalcanal/Third Battle of the Solomon Sea, the American commanders were inexperienced in their tactical usage, leading to chaos. These experiences led to the American invention of the CIC (Combat Information Center).</ref>!
+}}
+{{ShipquoteKai
+|scenario = Secretary Married
+|origin =一息入れたら？押してダメなら、引いてみろ、よ！はい、coffee! 無理は、ダメよ。
+|translation =How about you take a break? If pushing doesn't work, try pulling! Here, coffee! Don't push yourself too hard.
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin =提督？Helenaにご用ですか？えっ？これは？Really? へっ。よろこんで。ありがとう、提督。
+|translation =Admiral? Did you need something from me? Eh? This is...? Really? Heh. With pleasure. Thanks, Admiral.
+}}
+{{ShipquoteKai
+|scenario = Looking At Scores
+|origin =情報は大事！不意打ちはごめんだもの！
+|translation =Information is important! Don't want any surprises!
+}}
+{{ShipquoteKai
+|scenario = Joining A Fleet
+|origin =St. Louis-class USS Helena, 抜錨する！さぁ、出港よ！
+|translation =St. Louis-class USS Helena, setting sail! Come, time to leave port!
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin =Ok!
+|translation =Ok!
+}}
+{{ShipquoteKai|kai = true|scenario = Equipment 1
+|origin =あら、いいじゃない？Helenaはokよ。
+|translation =My, isn't that nice? I'm OK with this.
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin =Good!
+|translation =Good!
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin =That's good!
+|translation =That's good!
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin =I appreciate your kindness.
+|translation =I appreciate your kindness.
+}}
+{{ShipquoteKai
+|scenario = Docking Minor
+|origin =んっ、もう、 また修理、嫌んなっちゃう。
+|translation =Nghhh, jeez, I don't want to go in for repairs again.
+}}
+{{ShipquoteKai
+|scenario = Docking Major
+|origin =結構重傷よ。今度あったら、ただじゃ置かないから！
+|translation =That's a pretty serious wound. I won't let this slide if there's a next time!
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin =Complete!
+|translation =Complete!
+}}
+{{ShipquoteKai
+|scenario = Returning From Sortie
+|origin =無事のご帰還よ。I want to be next!
+|translation =The fleet has safely returned to port. I want to be next!
+}}
+{{ShipquoteKai
+|scenario = Starting A Sortie
+|origin =USS CL-50 Helena, 出撃よ。見てなさい。
+|translation =USS CL-50 Helena, sortieing. Watch me!
+}}
+{{ShipquoteKai
+|scenario = Battle Start
+|origin =あれは…？警報！Enemy in sight! 戦闘配置、急いで！
+|translation =Is that...? Sound the alert! Enemy in sight! To your battle stations, hurry!
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin =近づけるな！Fire!
+|translation =Stay away from me! Fire!
+}}
+{{ShipquoteKai
+|scenario = Air Battle/Daytime Spotting/Night Battle Attack
+|origin =ちっ。すばしっこい。
+|translation =Damn, they're quick.
+}}
+{{ShipquoteKai|kai = true|scenario = Air Battle/Daytime Spotting/Night Battle Attack
+|origin =すばしっこいけど、逃がさないから！
+|translation =They might be quick, but they can't run from me!
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin =夜…嫌な感じだけど、行く？
+|translation =Night... I have a bad feeling about this, but shall we?
+}}
+{{ShipquoteKai|kai = true|scenario = Night Battle
+|origin =夜…最大限気を付けて、行くしかないか！
+|translation =Night... no choice but to proceed on high alert!
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin =Helenaが殊勲賞を？I really appreciate it! ありがたく、いただきますね。
+|translation =I'm getting a Distinguished Service Medal? I really appreciate it! I'll gladly accept it.
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin =にやぁぁ！何すんの！？
+|translation =Ngaaah! What're you doing!?
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin =Oh my god... 嫌だ、もう！
+|translation =Oh my god... jeez!
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin =にやぁぁ！何ってこと、もう！
+|translation =Ngaaaah! How could they, jeez!
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin =Helena, ここまでですか？水が、冷たい。提督、また会いましょう。また、ね？
+|translation =So this is the end of the line for me? The water's... cold. Admiral, let's meet again. Again, alright?
+}}
+|}
+<references/>
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader|type = hourly}}
+{{ShipquoteKai|kai = true
+|scenario = 00:00
+|origin =提督、今日の秘書艦はこのHelenaが担当します。さっ、いろいろと片付けていきますよ。
+|translation =Admiral, I, Helena, will be serving as your secretary ship. Now then, I'll be getting all this organized.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 01:00
+|origin =It's 1 o'clock now. この申請書は不備が多いわ。誰の？あっ、Atlanta. 却下！提督、いいですね？
+|translation =It's 1 o'clock now. This application is full of errors. Whose is this? Ah, Atlanta's. Rejected! That's fine, right Admiral?
+}}
+{{ShipquoteKai|kai = true
+|scenario = 02:00
+|origin =It's 2 o'clock now. これはまた…South Dakotaか？んっ、彼女はもう！これも却…えっ？提督、いいんですか？そう？
+|translation =It's 2 o'clock now. Not another one... South Dakota? Ugh, that girl! That's another rej- eh? Are you sure, Admiral? Fine!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 03:00
+|origin =It's 3 o'clock now. この書類は…Mother Fletcher!? ま、まあ、いいことにしましょうか！A-Accept...
+|translation =It's 3 o'clock now. This document's from... Mother Fletcher<ref>The only other American ship to come out of the Naval Battle of Guadalcanal relatively unscathed</ref>!? A-Alright, we'll treat this one as good! A-Accept...
+}}
+{{ShipquoteKai|kai = true
+|scenario = 04:00
+|origin =It's 4 o'clock now. 書類仕事してたら、もうこんな時間。提督、もうすぐ朝ですね。Coffeeで一息入れましょう。飲むでしょう？
+|translation =It's 4 o'clock now. It got this late just dealing with documents. It's almost morning, Admiral. How about we take a coffee break? You do drink coffee, right?
+}}
+{{ShipquoteKai|kai = true
+|scenario = 05:00
+|origin =It's 5 o'clock now. Coffeeお代わり要る？了解、どうぞ。おっ！提督、見て。日が昇るわ。
+|translation =It's 5 o'clock now. Do you need more coffee? Roger, here you go. Oh! Look, Admiral, the sun's rising!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 06:00
+|origin =It's 6 o'clock now. All fleet, good morning! さぁ、朝よ！皆、今日も頑張っていきましょう！
+|translation =It's 6 o'clock now. All fleet, good morning! The morning's here! Another hard day's work, everyone!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 07:00
+|origin =It's 7 o'clock now. Helenaのmorning plateをどうぞ。卵料理はscrambled baconでいいわね？ Ketchupはそこよ。
+|translation =It's 7 o'clock now. Please enjoy my Helena morning plate. Do you mind scrambled eggs with bacon? The ketchup is over there.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 08:00
+|origin =It's 8 o'cl- あら、Wasp! Wasp, good morning! 元気そうね。ん、いいけど、海の下には気をつるのよ。聞いてる？
+|translation =It's 8 o'cl- oh, it's Wasp! Wasp, good morning! You seem well. Uh, okay, but we need to watch below the surface. Are you listening to me?
+}}
+{{ShipquoteKai|kai = true
+|scenario = 09:00
+|origin =It's 9 o'clock now. 抜錨よ！Weigh anchor! 提督、さっ、海に出ましょう！
+|translation =It's 9 o'clock now. Set sail! Weigh anchor! Come, Admiral, let's head out to sea!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 10:00
+|origin =It's 10 o'clock now. 目指すは… おっ、Solomon? Helenaは、Solomon諸島の海には本当に縁があるわ。
+嫌になるぐらいよ、本当にね。
+|translation =It's 10 o'clock now. Our destination is... oh, the Solomons? My fate is really tied up with the Solomon Sea. To an uncomfortable degree, seriously.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 11:00
+|origin =It's 11 o'clock now. Radarの調子は…うん、いいみたいね、感度良好。これを使いこなして、生き延びないと、本当にね。
+|translation =It's 11 o'clock now. The status of the RADAR is... Hmm, all green, receiving loud and clear. I really need to master it to survive.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 12:00
+|origin =It is noon. さぁ、lunchにしましょう。Lunch plate持ってくるわね。はっ？食欲ないの？ダメよ、ちゃんと食べないと。
+|translation =It is noon. Alright, let's do lunch. I'll go get the lunch plate. Huh? You're not hungry? Doesn't matter, you have to eat properly.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 13:00
+|origin =It's 1 o'clock now. はい、熱いcoffee。Milkとsugarもたっぷり入れておいたわ. これで元気出しって。
+|translation =It's 1 o'clock now. Here, hot coffee. I've added plenty of milk and sugar. This will pick you right up.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 14:00
+|origin =It's 2 o'cl- はっ、うん、Wasp, また会ったはね。本当、潜水艦には気を付けてよ。ってほら、ソナーに感！Be careful!
+|translation =It's 2 o'cl- hah, yeah. We'll meet again later, Wasp. Seriously, you need to watch out for submarines. Ah, a sonar signature! Be careful!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 15:00
+|origin =It's 3 o'clock now. はぁ、よかった。伊号submarineよ！そう、今は友軍よ。大丈夫。はっ。伊号one nine, すごい船よね。
+|translation =It's 3 o'clock now. Whew, that was close. It's an "I-gou" submarine! Yeah, they're friendlies now. It's fine. Hahh... "I-gou One Nine" is quite a boat.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 16:00
+|origin =It's 4 o'clock now. あら、衣笠、久しぶりね。あの時が酷かったわね？あなたはクールだったわ。流石ね。今はfriend fleet, 光栄だわ。一緒に頑張りましょう！
+|translation =It's 4 o'clock now. Oh my, Kinugasa, it's been a long time. You were really cool back then.<ref>''Kinugasa'' and ''Helena'' were at Cape Esperance; both did serious damage without hurting the other.</ref> I expect nothing less. I'm honored to be part of your fleet now. Let's do our best together!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 17:00
+|origin =It's 5 o'clock now. はぁ、提督、みて！Sunset! 奇麗ね、ここでも。ふん。見とれちゃった。さっ、母港に戻りましょう！
+|translation =It's 5 o'clock now. Hahh, look, Admiral! The sunset! It's beautiful, even here. Heh, got caught up in it. Right, let's head back to base!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 18:00
+|origin =It's 6 o'clock now. Dinnerはどうしようか？Helena特製の、steak plateでいい？焼き方は…medium? Ok!
+|translation =It's 6 o'clock now. What should we do for dinner? What about my special steak dish? You want it done... medium? Ok!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 19:00
+|origin =It's 7 o'clock now. さっ、Helena特製のbeef steak plate召し上がれ！飲み物はbeer? うん。Ok!
+|translation =It's 7 o'clock now. Now, please enjoy my special beef steak dish! What would you like to drink, beer? Yeah, ok!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 20:00
+|origin =It's 8 o'clock now. 提督、volumeは足りた？Dessertは、たっぷりのvanilla ice! Chocolateかける？おっ、coffeeを? はっ、アボカド風か？やる！ふん。私もそうしよう！
+|translation =It's 8 o'clock now. Admiral, was that enough for dinner? The dessert will be heaps of vanilla ice cream! Do you want chocolate on yours? Oh, coffee...? Hah, affogato style? Alright! Heh, I'll do that too.<ref>[https://en.wikipedia.org/wiki/Affogato Affogato] is Italian for "drowned". It's a desert where you mix coffee with vanilla ice cream. Sometimes, liquueur is added.</ref>
+}}
+{{ShipquoteKai|kai = true
+|scenario = 21:00
+|origin =It's 9- ん？誰？あなた、SoDak!? 霧島？ここにはいないわ。探してるの？
+|translation =It's 9- hm? Who is it? Is that, SoDak!? Kirishima? She's not here. Are you looking for her?
+}}
+{{ShipquoteKai|kai = true
+|scenario = 22:00
+|origin =It's 10 o'clock now. はぁ！やっと静かにな…で、もう、今度は誰！うぇ、Japanese destroyers! あぁ、もう！部屋、違うでしょう！
+|translation =It's 10 o'clock now. Whew! Finally some peace and qu- okay, jeez, who is it this time! Ugh, Japanese destroyers<ref>Probably looking for Atlanta, although ''Helena'' had her fair share of run-ins with Japanese destroyers.</ref>! Arghhhhh, jeez! You've got. The wrong. Room!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 23:00
+|origin =It's 11 o'clock now. やっと、静かになった！ふん。提督、今日はお疲れさま。少しだけ眠りましょう、明日に備えて。Good night.
+|translation =It's 11 o'clock now. It's finally quiet! Whew. Good work today, Admiral. Let's get some sleep for tomorrow. Good night.
+}}
+|}
+<references/>
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2020|Christmas 2020]]
+|origin = Merry Christmas! 提督、楽しみましょう。今日は、飲んじゃいましょう？
+|translation =	Merry Christmas! Admiral, let's have some fun. Shall we drink today?
+|audio = Helena_Christmas_2020_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2021|Setsubun 2021]]
+|origin = セツブンな…そして、来ると思ったわJapanese destroyers。さあ、返り討ちよ！
+|translation =	It's setsubun... and you came just like I expected, you Japanese destroyers. Now, it's payback time!
+|audio = Helena_Setsubun_2021_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine's_Day_2021|Valentine's Day 2021]]
+|origin = Chocolate? Why? だれに？うふふふぅ、うそよ。はい、良いしてあるわ。ここのcultureなんでしょう？
+|translation = Chocolate? Why? For who? Ufufufu, just kidding. Here, I got some for you. That's the tradition here, right?
+|audio = Helena_Valentines_2021_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2021|White Day2021]]
+|origin =お返し？あぁ、チョコレートの？ここの不思議なcultureね。でも、嫌いじゃないわ。…Thanks。 
+|translation =	A return gift? Ah, for the chocolates? Yet another odd custom here. But, I don't dislike it... Thanks. 
+|audio = Helena_White_Day_2021_Secretary_1.mp3
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2021|Coming of Spring 2021]]
+|origin =USS fleetで、日本式「オハナミ」を試してみるの？あはぁ、いいんじゃない。HelenaはOKよ。 
+|translation =	You want to try having a Japanese "cherry blossom viewing" outing with the US fleet? Aha, that sounds nice. I'm fine with that. 
+|audio = Helena_Spring_2021_Secretary_1.mp3
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = Congratulations, fleet 8th Anniversary.提督、おめでとう。Helenaもお祝いします。
+|translation =	Congratulations on the fleet's 8th Anniversary. Admiral, Congratulations. I'll celebrate too.
+|audio = Helena_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+KanMusu415-615Full.png|Base
+KanMusu415-615FullDmg.png|Base Damaged
+KanMusu420-620Full.png|Kai
+KanMusu420-620FullDmg.png|Kai Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Helena_Full_Spring_2021.png|[[Seasonal/Coming_of_Spring_2021|Coming of Spring 2021]]
+Helena_Full_Spring_2021_Damaged.png|[[Seasonal/Coming_of_Spring_2021|Coming of Spring 2021 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+
+==Trivia==
+
+{{Shiplist}}

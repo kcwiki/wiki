@@ -1,0 +1,122 @@
+<includeonly>
+{| style="width: 670px;"
+|-
+| class="rarity{{{rarity|?}}}" colspan="2" |
+{| style="width: 100%;" cellspacing=5
+|-
+| style="height:36px; text-align: center; width: 30px; width: 50px;" |'''Số.{{{id|?}}}'''
+| style="text-align: center; font-size:25px; width: 500px;"|'''{{{name}}}'''
+| style="text-align: center; font-size:25px; width: 120px;"|{{{japanesename|?}}}
+|}
+|-
+| style="text-align: center; width:450px;" |
+{| style="width: 100%;"
+|-
+| colspan="4" style="text-align: center;" |'''{{#switch:{{{type}}} | DD=Khu trục hạm | CL=Tuần dương hạm hạng nhẹ | CLT=Tuần dương hạm hạng nhẹ | CA=Tuần dương hạm hạng nặng | CAV=Tuần dương hạm hạng nặng | BB=Thiết giáp hạm | BBV=Thiết giáp hạm | CV=Hàng không mẫu hạm | CVL=Hàng không mẫu hạm | CVB=Hàng không mẫu hạm | SS=Tàu ngầm | SSV=Tàu ngầm | LSD=Tàu hỗ trợ | AR=Tàu hỗ trợ | AS=Tàu hỗ trợ | TrainingCruiser=Tàu hỗ trợ }} lớp {{{class|?}}}
+|-
+| colspan="4" style="text-align: center; background-color: #{{#switch:{{{rarity}}} | 1=95b3d5 | 2=6caed1 |3=87ceeb | 4=c0c0c0 | 5=ffd700 | 6=fcaffc| 7=fdbdfd| 8=fdbdfd}}; radial-gradient:(circle farthest-corner at center, rgba(255, 0, 80, 0)0%, rgba(255, 60, 0, 0) 60%, rgba(255, 60, 0, 0.3) 100%);" |'''Chỉ số'''
+|-
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_HP.png|link=]] HP
+| style="background-color: rgb(245,245,245);"|'''{{{hp|?}}}'''
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_Gun.png|link=]] Hỏa lực
+| style="background-color: rgb(245,245,245);"|'''{{{firepower|?}}}'''
+|-
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_Armor.png|link=]] Giáp
+| style="background-color: rgb(245,245,245);"|'''{{{armor|?}}}'''
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_Torpedo.png|link=]] Ngư lôi
+| style="background-color: rgb(245,245,245);"|'''{{{torpedo|?}}}'''
+|-
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_Evasion.png|link=]] Né tránh
+| style="background-color: rgb(245,245,245);"|'''{{{evasion|?}}}'''
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_AA.png|link=]] Đối không
+| style="background-color: rgb(245,245,245);"|'''{{{AA|?}}}'''
+|-
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_Aircraft.png|link=]] Máy bay
+| style="background-color: rgb(245,245,245);"|'''{{{aircraft|?}}}'''
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_ASW.png|link=]] Đối ngầm 
+| style="background-color: rgb(245,245,245);"|'''{{{ASW|?}}}'''
+|-
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_Speed.png|link=]] Tốc độ
+| style="background-color: rgb(245,245,245);"|'''{{{speed|?}}}'''
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_LOS.png|link=]] Tầm nhìn
+| style="background-color: rgb(245,245,245);"|'''{{{LOS|?}}}'''
+|-
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_Range.png|link=]] Tầm bắn
+| style="background-color: rgb(245,245,245);"|'''{{{range|?}}}'''
+| style="width: 100px; background-color: rgb(230,230,230);"|[[file:icon_Luck.png|link=]] May mắn
+| style="background-color: rgb(245,245,245);"|'''{{{luck|?}}}'''
+|-
+| colspan="4" style="text-align: center; background-color: #{{#switch:{{{rarity}}} | 1=95b3d5 | 2=6caed1 |3=87ceeb | 4=c0c0c0 | 5=ffd700 | 6=fcaffc| 7=fdbdfd| 8=fdbdfd}};"|'''{{{build|Chế tạo}}}'''
+|-
+| colspan="4" style="text-align: center;"|{{{time|?}}}
+|-
+| colspan="4" style="text-align: center; background-color: #{{#switch:{{{rarity}}} | 1=95b3d5 | 2=6caed1 |3=87ceeb | 4=c0c0c0 | 5=ffd700 | 6=fcaffc| 7=fdbdfd| 8=fdbdfd}};" |'''Tiêu tốn tối đa'''
+|-
+| style="text-align: center; background-color: rgb(230,230,230);" |{{Fuel}}
+| style="background-color: rgb(245,245,245); text-align: center;" |'''{{{fuel|?}}}'''
+| style="text-align: center; background-color: rgb(230,230,230);" |{{Ammo}}
+| style="background-color: rgb(245,245,245); text-align: center;" |'''{{{ammo|?}}}'''
+|-
+| colspan="4" style="text-align: center; background-color: #{{#switch:{{{rarity}}} | 1=95b3d5 | 2=6caed1 |3=87ceeb | 4=c0c0c0 | 5=ffd700 | 6=fcaffc| 7=fdbdfd| 8=fdbdfd}};" |'''Trang bị'''
+|-
+| colspan="4" style="text-align: center;" |
+{| style="text-align: center; width: 100%;" 
+|-
+| style="height: 38px; width:38px; background-color: rgb(230,230,230);" |{{{slot1icon|}}}
+| style="text-align: left; text-align: center; background-color: rgb(245,245,245);" |{{{slot1|?}}}
+|-
+| style="height: 38px; width:38px; background-color: rgb(230,230,230);" |{{{slot2icon|}}}
+| style="text-align: left; text-align: center; background-color: rgb(245,245,245);" |{{{slot2|?}}}
+|-
+| style="height: 38px; width:38px; background-color: rgb(230,230,230);" |{{{slot3icon|}}}
+| style="text-align: left; text-align: center; background-color: rgb(245,245,245);" |{{{slot3|?}}}
+|-
+| style="height: 38px; width:38px; background-color: rgb(230,230,230);" |{{{slot4icon|}}}
+| style="text-align: left; text-align: center; background-color: rgb(245,245,245);" |{{{slot4|?}}}
+|}
+|}
+| style="text-align: center;" |
+{|
+|-
+|[[File:{{{image}}}|link=]]
+|-
+|[[File:{{{statimg|?}}}|link=]]
+|}
+|} {{#switch:{{{type}}} | DD=[[Category:Khu trục hạm]] | CL=[[Category:Tuần dương hạm hạng nhẹ]] | CLT=[[Category:Tuần dương hạm hạng nhẹ]] | CA=[[Category:Tuần dương hạm hạng nặng]] | CAV=[[Category:Tuần dương hạm hạng nặng]] | BB=[[Category:Thiết giáp hạm]] | BBV=[[Category:Thiết giáp hạm]] | CV=[[Category:Hàng không mẫu hạm]] | CVL=[[Category:Hàng không mẫu hạm]] | CVB=[[Category:Hàng không mẫu hạm]] | SS=[[Category:Tàu ngầm]] | SSV=[[Category:Tàu ngầm]] | LSD=[[Category:Tàu hỗ trợ]] | AR=[[Category:Tàu hỗ trợ]] | AS=[[Category:Tàu hỗ trợ]] | TrainingCruiser=[[Category:Tàu hỗ trợ]] }}[[Category:Lớp {{{class}}}]]</includeonly>
+
+<noinclude>
+{{shipInfoBeta
+| name=Inazuma
+| japanesename=電
+| id=74
+| image=074.jpg
+| rarity=1
+| type=Khu trục hạm
+| class=Akatsuki
+| firepower=10 (29)
+| torpedo=27 (69)
+| AA=12 (39)
+| ASW=20 (49)
+| LOS=5 (19)
+| luck=10
+| hp=15
+| armor=6 (19)
+| evasion=42 (79)
+| aircraft=0
+| speed=Nhanh
+| range=Ngắn
+| slot=2
+| time=20:00
+| fuel=15
+| ammo=20
+| statimg=AkatsukiKaiNi.png
+| slot1=[[Searchlight]]
+| slot2=- Trống -
+| slot3=- Khoá -
+| slot4=- Khoá -
+| slot1icon={{RedGunLight}}
+| slot2icon=
+| slot3icon=
+| slot4icon=
+}}
+</noinclude>

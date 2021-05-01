@@ -1,0 +1,8 @@
+==KanMusu Module==
+Is there any method to include the <code><nowiki><slideshow></nowiki></code> code into the LUA function as I experimented that specific code, it just print out the whole sentence instead of running the extension. - [[User:KyoriAsh|KyoriAsh]] ([[User talk:KyoriAsh|talk]]) 13:11, 19 September 2016 (UTC)
+
+None that I know of. [[User:IbarakiIbuki|Ibaraki Ibuki]] ([[User talk:IbarakiIbuki|talk]]) 22:27, 19 September 2016 (UTC)
+:I think that <code><nowiki><slideshow></nowiki></code> had to be done in Template in order to bring it into module as I can see several template is able to use it by implementing in module - [[User:KyoriAsh|KyoriAsh]] ([[User talk:KyoriAsh|talk]]) 08:37, 22 September 2016 (UTC)
+
+==KanMusu Database structure design==
+I just modified to be "less" using wording but more towards of array style, you can view it [[:zh:模块:舰娘数据|here]] (In neighbor zh) - [[User:KyoriAsh|KyoriAsh]] ([[User talk:KyoriAsh|talk]]) 08:37, 22 September 2016 (UTC)

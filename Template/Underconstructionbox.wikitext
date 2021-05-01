@@ -1,0 +1,11 @@
+{| style=" background:#eeffff; width:100%; padding:10px; margin:20px; border:1px solid gray; border-radius:10px;" 
+|- 
+|style="text-align:left;" |[[File:Construction_Crew.png|left]]
+|style="text-align:left;"| This {{#if: {{{Scope|}}} |{{{Scope}}}|article}} is {{#if: {{{Desc|}}} |{{{Desc}}}|missing some information.}}{{#if: {{{Page Adopted|}}} |<br/>'''''<font color="#ff0000">The {{#if: {{{Scope|}}} |{{{Scope}}}|article}} is already being adopted and currently under renovation.</font>'''''|<br/>You can help by adopting it {{#if: {{{Help|}}} |{{{Help}}}|and adding the missing information.}} }}
+<br>{{#if: {{{Missing Information|}}} | {{!}} '''Missing Information''': ''{{{Missing Information}}}''}}{{#if: {{{Notes|}}} | {{!}} '''Additional Notes''': ''{{{Notes}}}''}}
+<br>{{#if: {{{Page Adopted|}}} | {{!}} '''Page Adopted By''': {{#if: {{{Page Adopted 2|}}} | [[User:{{{Page Adopted}}}|''{{{Page Adopted}}}'']], [[User:{{{Page Adopted 2}}}|''{{{Page Adopted 2}}}'']] | [[User:{{{Page Adopted}}}|''{{{Page Adopted}}}'']] }}{{#if: {{{Page Adopted 3|}}} |, [[User:{{{Page Adopted 3}}}|''{{{Page Adopted 3}}}'']] | }}<br><span style=font-size:8.0pt>''Please contact {{#if: {{{Page Adopted 2|}}} |these people|{{#if: {{{Page Adopted 3|}}} |these people|this person}}}} before making any major (non-grammar, typo correction, redesigning etc.) edits on this {{#if: {{{Scope|}}} |{{{Scope}}}|article}}.''| '''''This {{#if: {{{Scope|}}} |{{{Scope}}}|article}} is open for adoption.'''''}}
+|}<includeonly>[[Category:Under Construction Articles]]</includeonly>
+<noinclude>
+[[Category:Templates]]
+{{documentation}}
+</noinclude>

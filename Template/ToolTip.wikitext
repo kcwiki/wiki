@@ -1,0 +1,33 @@
+<includeonly><span class="tooltip" {{ #ifeq: {{{line|true}}} | false | style="border-bottom: 0;" }}>{{{1}}}<span class="tooltiptext" style="{{#if:{{{text-align|}}}|text-align:{{{text-align|default}}};}}">{{{2}}}</span></span></includeonly><noinclude>
+''From https://gbf.wiki/Template:Tt''
+
+== What this is ==
+A template to write tooltips!
+<br>For quick tooltips with assets, see [[Template:Link]] and its offshoots.
+
+== Usage & Examples ==
+<pre><nowiki>{{ToolTip|[[Kasumi]]|[[File:Ship Banner Kasumi.png]]}}
+{{ToolTip|[[Kasumi Kai Ni]]|[[File:Ship Banner Kasumi Kai Ni.png]]}}
+{{ToolTip|[[Kasumi]]|[[File:Ship Banner Kasumi.png]][[File:Ship Banner Kasumi Kai.png]]<br />[[File:Ship Banner Kasumi Kai Ni.png]]}}</nowiki></pre>
+{{ToolTip|[[Kasumi]]|[[File:Ship Banner Kasumi.png]]}}
+{{ToolTip|[[Kasumi Kai Ni]]|[[File:Ship Banner Kasumi Kai Ni.png]]}}
+{{ToolTip|[[Kasumi]]|[[File:Ship Banner Kasumi.png]][[File:Ship Banner Kasumi Kai.png]]<br />[[File:Ship Banner Kasumi Kai Ni.png]]|text-align=left}}
+
+<pre><nowiki>{{ToolTip|Normal text|Tooltip text}}</nowiki></pre>
+{{ToolTip|Normal text|Tooltip text}}
+<br>
+<pre><nowiki>{{ToolTip|Lorem Ipsum|Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br /> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br /> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.}}</nowiki></pre>
+{{ToolTip|Lorem Ipsum|Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.}}
+<br>
+<pre><nowiki>{{ToolTip|Normal text without underline|Tooltip text|line=false}}</nowiki></pre>
+{{ToolTip|Normal text without underline|Tooltip text|line=false}}
+<br>
+<pre><nowiki>{{ToolTip|Tooltip text with horizontal rule|Tooltip<hr>Text}}</nowiki></pre>
+{{ToolTip|Tooltip text with horizontal rule|Tooltip<hr />Text}}
+<br>
+<pre><nowiki>{{ToolTip|{{ToolTip|Nested tooltip|Bottom text}}|Top text}}</nowiki></pre>
+{{ToolTip|{{ToolTip|Nested tooltip|Bottom text}}|Top text}}
+<br>
+<pre><nowiki>{{ToolTip|left-aligned text|Tooltip text|text-align=left}}</nowiki></pre>
+{{ToolTip|left-aligned text|Tooltip text|text-align=left}}
+</noinclude>

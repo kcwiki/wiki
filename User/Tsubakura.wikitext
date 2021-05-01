@@ -1,0 +1,76 @@
+Hello, welcome to my page.<br />
+I mainly use my own profile page for testing things out here, so there's not much to read about me. :P<br />
+If you really are curious though, you can check [http://kancolle.wikia.com/wiki/User:Tsubakura this] out.
+[[File:TsunShip.png|thumb|center]]
+
+{{MapBranchingTable
+|width = default
+|0 -> 1 = Some text...
+|0 -> 2 = Some text...
+|1 -> A = Some text...
+|1 -> B/resource = [[DD]], [[CL]]
+|1 -> C/storm =
+* A
+* list
+|C/storm -> D/empty = ...
+}}
+
+{{MapBranchingTable
+|order = F, C
+|0 -> 1, 2 = Some text...
+|0 -> Z = ...
+|1 -> A = Some text...
+|1 -> B/resource = [[DD]], [[CL]]
+|1 -> C/storm =
+* A
+* list
+|C/storm -> D/empty = ...
+|F/storm -> G/battle, H/resource, I/empty = random
+}}
+
+
+Modules:
+*[[Module:MapBranchingTable]]
+*[[Module:GetArgs]]
+*[[Module:StringOperations]]
+*[[Module:Utils]]
+*[[Module:BaseData]]
+
+Templates:
+*[[Template:MapBranchingTable]]
+*[[Template:ToolTip]]
+*[[Template:ShipLink]]
+*[[Template:ShipLinkKai]]
+*[[Template:EnemyLink]]
+*[[Template:ShipBattleCardHD]]
+*[[Template:ShipBanner]]
+*[[Template:ShipBannerHD]]
+*[[Template:EnemyBanner]]
+*[[Template:EventInfoBox]]
+*[[Template:QuestRewardItem]]
+*[[Template:QuestRewardEquip]]
+*[[Template:Map/Image]]
+*[[Template:Map/ImageNode]]
+*[[Template:MapRoute]]
+
+Asset Templates:
+*[[Template:Asset]]
+**[[Template:Banner]]
+***[[Template:Ship/Banner]]
+***[[Template:Enemy/Banner]]
+**[[Template:Card]]
+***[[Template:Ship/Card]]
+***[[Template:Item/Card]]
+***[[Template:Equipment/Card]]
+**[[Template:Link]]
+***[[Template:Ship/Link]]
+***[[Template:Enemy/Link]]
+***[[Template:Equipment/Link]]
+
+Module reference:
+*[[Module:MapBranching]]
+
+Sandbox:
+*[[Sandbox/Summer_2016_Event]]
+
+{{Map/Image|page=Fall 2020 Event/E-1}}

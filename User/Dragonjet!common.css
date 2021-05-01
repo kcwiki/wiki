@@ -1,0 +1,75 @@
+/* Comment Warnings
+----------------------------------------------------------------------*/
+.kcCommentWarning { display:none; }
+
+
+/* Page-specific comments disable
+----------------------------------------------------------------------*/
+/*.page-Expedition #article-comments-minieditor-newpost { display:none; }
+.page-Expedition .article-comm-reply { display:none; }*/
+
+
+/* BlockQuotes
+----------------------------------------------------------------------*/
+/*blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}*/
+
+
+/* Slightly transparent page background
+----------------------------------------------------------------------*/
+/*#WikiaPageBackground { opacity:0.9; }*/
+
+
+/* Remove Wikia Comments
+----------------------------------------------------------------------*/
+/*
+#WikiaArticleComments { height:1px; overflow:hidden; position:fixed; top:100%; }
+*/
+
+
+/* Remove Wikia Ads
+----------------------------------------------------------------------*/
+/*
+#WikiaTopAdsInner { display:none; }
+.home-top-right-ads { display:none; }
+#Liftium_728x90_201  { display:none; }
+#Liftium_728x90_202  { display:none; }
+#Liftium_728x90_203  { display:none; }
+#Liftium_728x90_204  { display:none; }
+
+#Liftium_160x600_201 { display:none; }
+#Liftium_160x600_202 { display:none; }
+#Liftium_160x600_203 { display:none; }
+#Liftium_160x600_204 { display:none; }
+
+#Liftium_300x250_201 { display:none; }
+#Liftium_300x250_202 { display:none; }
+#Liftium_300x250_203 { display:none; }
+#Liftium_300x250_204 { display:none; }
+*/
+
+
+/* Remove Right Sidebar and Ads at the bottom of pages
+----------------------------------------------------------------------*/
+/* 
+#WikiaRail { display:none; }
+#WikiaMainContentContainer { margin-right:0px; }
+#WikiaArticleBottomAd { display:none; }
+#WikiaFooter { display:none; }
+*/

@@ -1,0 +1,46 @@
+<div style="position:fixed; bottom:250px; right:5px;">
+<div style="background:#FFCCCC;border:solid 4px #660000;width:auto;border-radius:10px;padding:5px 10px 5px 10px; z-index:3; text-align:center">
+----
+Admin Control Panel <br />
+----
+'''Article Count: {{NUMBEROFPAGES}}'''
+<br />
+[[Special:RecentChanges|Recent Changes]]
+<br />
+[[Special:UploadWizard|Mass Upload]]
+<br />
+'''[[Special:NukeDPL|Mass Delete]]'''
+<br />
+'''[[MediaWiki:Common.css|CSS Stylesheet]]'''
+<br />
+[[MediaWiki:Common.js|Master Javascript]]
+<br />
+'''[[Special:UserRights|User Rights Management]]'''
+<br />
+'''[[Special:ConfirmAccounts|Confirm Account Requests]]'''
+<br />
+'''[[Special:Block|Block User]]'''
+<br />
+'''[[Special:Unblock|Unblock User]]'''
+<br />
+[[Special:ListGroupRights|Group Rights List]]
+</div>
+</div>
+<div style="position:fixed; bottom:50px; right:35px;">
+<div style="background:#C2DFFF;border:solid 4px #3385FF;width:auto;border-radius:10px;padding:5px 10px 5px 10px; z-index:3; text-align:center">
+----
+Cleanup Tools
+----
+'''[[Special:ListFiles|File List]]'''
+<br />
+''[[Special:ListDuplicatedFiles|Duplicate Files]]''
+<br />
+''[[Special:UnusedFiles|Unused Files]]''
+<br />
+''[[Special:UnusedCategories|Unused Categories]]''
+</div>
+</div>
+
+<noinclude>
+A handy admin control panel for the wiki. Will have a fixed position on your bottom right part of the screen, which is hopefully unobstructive enough.
+</noinclude>

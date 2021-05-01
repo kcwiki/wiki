@@ -1,0 +1,317 @@
+	.tt {
+		background-color:#790700;
+		color:white;
+		text-decoration:none;
+		cursor:pointer;
+		border-bottom: 1px dotted;
+	}
+ 
+	/*Hover Link Colors - Plan to change later*/
+	.tt a:link {color:inherit;}
+	.tt a:visited {color:inherit;}
+	.tt a:hover {color:inherit; text-decoration: none;}
+	.tt a:active {color:inherit;}
+ 
+	.hiddenBalloon {
+		display:none;
+	}
+ 
+.messagebox {
+    background-color: #F9F9F9;
+    border: 1px solid #AAAAAA;
+    margin: 0 auto 1em;
+    padding: 0.2em;
+    width: 80%;
+}
+.messagebox.merge {
+    background-color: #F0E5FF;
+    border: 1px solid #C0B8CC;
+    text-align: center;
+}
+.messagebox.cleanup {
+    background-color: #EFEFFF;
+    border: 1px solid #9F9FFF;
+    text-align: center;
+}
+.messagebox.standard-talk {
+    background-color: #F8EABA;
+    border: 1px solid #C0C090;
+    margin: 4px auto;
+}
+.mbox-inside .standard-talk, .messagebox.nested-talk {
+    background-color: #F8EABA;
+    border: 1px solid #C0C090;
+    margin: 2px 0;
+    padding: 2px;
+    width: 100%;
+}
+.messagebox.small {
+    clear: both;
+    float: right;
+    font-size: 85%;
+    line-height: 1.25em;
+    margin: 0 0 1em 1em;
+    width: 238px;
+}
+.messagebox.small-talk {
+    background: none repeat scroll 0 0 #F8EABA;
+    clear: both;
+    float: right;
+    font-size: 85%;
+    line-height: 1.25em;
+    margin: 0 0 1em 1em;
+    width: 238px;
+}
+th.mbox-text, td.mbox-text {
+    border: medium none;
+    padding: 0.25em 0.9em;
+    width: 100%;
+}
+td.mbox-image {
+    border: medium none;
+    padding: 2px 0 2px 0.9em;
+    text-align: center;
+}
+td.mbox-imageright {
+    border: medium none;
+    padding: 2px 0.9em 2px 0;
+    text-align: center;
+}
+td.mbox-empty-cell {
+    border: medium none;
+    padding: 0;
+    width: 1px;
+}
+table.ambox {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FBFBFB;
+    border-color: #AAAAAA #AAAAAA #AAAAAA #1E90FF;
+    border-style: solid;
+    border-width: 1px 1px 1px 10px;
+    margin: 0 10%;
+}
+table.ambox + table.ambox {
+    margin-top: -1px;
+}
+.ambox th.mbox-text, .ambox td.mbox-text {
+    padding: 0.25em 0.5em;
+}
+.ambox td.mbox-image {
+    padding: 2px 0 2px 0.5em;
+}
+.ambox td.mbox-imageright {
+    padding: 2px 0.5em 2px 0;
+}
+table.ambox-notice {
+    border-left: 10px solid #1E90FF;
+}
+table.ambox-speedy {
+    background: none repeat scroll 0 0 #FFEEEE;
+    border-left: 10px solid #B22222;
+}
+table.ambox-delete {
+    border-left: 10px solid #B22222;
+}
+table.ambox-content {
+    border-left: 10px solid #F28500;
+}
+table.ambox-style {
+    border-left: 10px solid #F4C430;
+}
+table.ambox-move {
+    border-left: 10px solid #9932CC;
+}
+table.ambox-protection {
+    border-left: 10px solid #BBBBAA;
+}
+table.imbox {
+    background: none repeat scroll 0 0 #FBFBFB;
+    border: 3px solid #1E90FF;
+    border-collapse: collapse;
+    margin: 4px 10%;
+}
+.imbox .mbox-text .imbox {
+    display: block;
+    margin: 0 -0.5em;
+}
+.mbox-inside .imbox {
+    margin: 4px;
+}
+table.imbox-notice {
+    border: 3px solid #1E90FF;
+}
+table.imbox-speedy {
+    background: none repeat scroll 0 0 #FFEEEE;
+    border: 3px solid #B22222;
+}
+table.imbox-delete {
+    border: 3px solid #B22222;
+}
+table.imbox-content {
+    border: 3px solid #F28500;
+}
+table.imbox-style {
+    border: 3px solid #F4C430;
+}
+table.imbox-move {
+    border: 3px solid #9932CC;
+}
+table.imbox-protection {
+    border: 3px solid #BBBBAA;
+}
+table.imbox-license {
+    background: none repeat scroll 0 0 #F7F8FF;
+    border: 3px solid #8888AA;
+}
+table.imbox-featured {
+    border: 3px solid #CBA135;
+}
+table.cmbox {
+    background: none repeat scroll 0 0 #DFE8FF;
+    border: 1px solid #AAAAAA;
+    border-collapse: collapse;
+    margin: 3px 10%;
+}
+table.cmbox-notice {
+    background: none repeat scroll 0 0 #D8E8FF;
+}
+table.cmbox-speedy {
+    background: none repeat scroll 0 0 #FFDBDB;
+    border: 4px solid #B22222;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+table.cmbox-delete {
+    background: none repeat scroll 0 0 #FFDBDB;
+}
+table.cmbox-content {
+    background: none repeat scroll 0 0 #FFE7CE;
+}
+table.cmbox-style {
+    background: none repeat scroll 0 0 #FFF9DB;
+}
+table.cmbox-move {
+    background: none repeat scroll 0 0 #E4D8FF;
+}
+table.cmbox-protection {
+    background: none repeat scroll 0 0 #EFEFE1;
+}
+table.ombox {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #AAAAAA;
+    border-collapse: collapse;
+    margin: 4px 10%;
+}
+table.ombox-notice {
+    border: 1px solid #AAAAAA;
+}
+table.ombox-speedy {
+    background: none repeat scroll 0 0 #FFEEEE;
+    border: 2px solid #B22222;
+}
+table.ombox-delete {
+    border: 2px solid #B22222;
+}
+table.ombox-content {
+    border: 1px solid #F28500;
+}
+table.ombox-style {
+    border: 1px solid #F4C430;
+}
+table.ombox-move {
+    border: 1px solid #9932CC;
+}
+table.ombox-protection {
+    border: 2px solid #BBBBAA;
+}
+table.tmbox {
+    background: none repeat scroll 0 0 #F8EABA;
+    border: 1px solid #C0C090;
+    border-collapse: collapse;
+    margin: 4px 10%;
+}
+.mediawiki .mbox-inside .tmbox {
+    margin: 2px 0;
+    width: 100%;
+}
+.mbox-inside .tmbox.mbox-small {
+    font-size: 100%;
+    line-height: 1.5em;
+}
+table.tmbox-speedy {
+    background: none repeat scroll 0 0 #FFEEEE;
+    border: 2px solid #B22222;
+}
+table.tmbox-delete {
+    border: 2px solid #B22222;
+}
+table.tmbox-content {
+    border: 2px solid #F28500;
+}
+table.tmbox-style {
+    border: 2px solid #F4C430;
+}
+table.tmbox-move {
+    border: 2px solid #9932CC;
+}
+table.tmbox-protection, table.tmbox-notice {
+    border: 1px solid #C0C090;
+}
+table.dmbox {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    clear: both;
+    margin: 0.9em 1em;
+}
+table.fmbox {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #AAAAAA;
+    clear: both;
+    margin: 0.2em 0;
+    width: 100%;
+}
+table.fmbox-system {
+    background: none repeat scroll 0 0 #F9F9F9;
+}
+table.fmbox-warning {
+    background: none repeat scroll 0 0 #FFDBDB;
+    border: 1px solid #BB7070;
+}
+table.fmbox-editnotice {
+    background: none repeat scroll 0 0 transparent;
+}
+div.mw-warning-with-logexcerpt, div.mw-lag-warn-high, div.mw-cascadeprotectedwarning, div#mw-protect-cascadeon {
+    background: none repeat scroll 0 0 #FFDBDB;
+    border: 1px solid #BB7070;
+    clear: both;
+    margin: 0.2em 0;
+    padding: 0.25em 0.9em;
+    color: #000000;
+}
+div.mw-lag-warn-normal, div.fmbox-system {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #AAAAAA;
+    clear: both;
+    margin: 0.2em 0;
+    padding: 0.25em 0.9em;
+}
+body.mediawiki table.mbox-small {
+    clear: right;
+    float: right;
+    font-size: 88%;
+    line-height: 1.25em;
+    margin: 4px 0 4px 1em;
+    width: 238px;
+}
+body.mediawiki table.mbox-small-left {
+    border-collapse: collapse;
+    font-size: 88%;
+    line-height: 1.25em;
+    margin: 4px 1em 4px 0;
+    width: 238px;
+}

@@ -1,0 +1,31 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Banner|{{{1|}}}|type=Enemy|suffix1={{#if: {{{debuffed|}}} | Debuffed }}|text={{{text|}}}|caption={{{caption|}}}|small={{{small|}}}}}</includeonly><noinclude>
+Inherited from [[Template:Banner]]. Simplified version of [[Template:ShipBattleCardKai]]. Doesn't use Lua, so it's possible to have (practically) unlimited number of invokes on a page.
+
+==Examples==
+<pre>{{Enemy/Banner|New Battleship Princess}}</pre>
+{{Enemy/Banner|New Battleship Princess}}
+
+<pre>{{Enemy/Banner|New Battleship Princess/}}</pre>
+{{Enemy/Banner|New Battleship Princess/}}
+
+<pre>{{Enemy/Banner|New Battleship Princess Damaged}}</pre>
+{{Enemy/Banner|New Battleship Princess Damaged}}
+
+<pre>{{Enemy/Banner|New Battleship Princess/Damaged}}</pre>
+{{Enemy/Banner|New Battleship Princess/Damaged}}
+
+<pre>{{Enemy/Banner|Gotou Islands Seabed Princess Damaged}}</pre>
+{{Enemy/Banner|Gotou Islands Seabed Princess Damaged}}
+
+<pre>{{Enemy/Banner|Gotou Islands Seabed Princess Damaged Debuffed}}</pre>
+{{Enemy/Banner|Gotou Islands Seabed Princess Damaged Debuffed}}
+
+<pre>{{Enemy/Banner|Gotou Islands Seabed Princess/Damaged|debuffed=true}}</pre>
+{{Enemy/Banner|Gotou Islands Seabed Princess/Damaged|debuffed=true}}
+
+<pre>{{Enemy/Banner|Gotou Islands Seabed Princess/Damaged|debuffed=true|caption=...}}</pre>
+{{Enemy/Banner|Gotou Islands Seabed Princess/Damaged|debuffed=true|caption=...|}}
+
+<pre>{{Enemy/Banner|Gotou Islands Seabed Princess/Damaged|debuffed=true|small=true|text=...}}</pre>
+{{Enemy/Banner|Gotou Islands Seabed Princess/Damaged|debuffed=true|small=true|text=...}}
+</noinclude>

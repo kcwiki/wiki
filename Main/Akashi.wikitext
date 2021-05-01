@@ -1,0 +1,566 @@
+==Info==
+{{KanmusuInfo|ID=182}}
+{{KanmusuInfo|ID=187}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* She has the ability to repair other ships in the fleet. This is known as '''[[Repairs#Anchorage Repairs|Anchorage Repairs]]'''.
+** She must be the flagship.
+*** She does not have to be in fleet 1
+** Akashi or the ships being repaired  must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>. 
+** Akashi or the ships being repaired must not be in the docks.
+** The ability works as follows:
+*** Once '''20 minutes''' have elapsed, returning to the home screen after that time will reset the timer and repair all eligible ships.
+**** Changing out ships or shifting them around will '''reset the 20 minute timer''' without repairing.
+**** If the amount of HP recovery would be less than 1 after 20 minutes, it will be rounded up. This means ships that take more than 20 minutes to recover 1hp can be repaired faster by Akashi if you keep checking in every 20 minutes.
+**** Amount of HP recovered is calculated individually for each target.
+*** By default, she can only repair herself and the ship in the 2nd slot. Every [[Ship Repair Facility]] equipped will increase the amount of repairable ships by 1.
+*** Please see [[Docking]] for more details about repair time and cost.
+**** Unlike the listed repair time formula, Akashi's repair just has the seconds rounded up instead of having 30 seconds added.
+*** The repair cost is automatically deducted based on how much HP has been repaired on update.
+*** Repair works even if she isn't in the 1st fleet.
+*** If you do not have sufficient resources, the repair will not work.
+* She has the ability to repair fleets mid-sortie. This is known as '''[[Repairs#Emergency Anchorage Repairs|Emergency Anchorage Repairs]]'''.
+** Requires [[Emergency Repair Materials]] equipped to perform. These can go in a [[Reinforcement Expansion]].
+*** Only one is consumed no matter how many ships are repaired.
+** She must not be <span style="color:orange;">'''moderately damaged (中破)'''</span> or worse.
+** The amount of ships in a [[Combined Fleet]] that are repaired depends on the number of [[Ship Repair Facilities]] equipped.
+*** 1: Slots 1-3 of the main fleet.
+*** 2: Slots 1-6 of the main fleet.
+*** 3: Slots 1-6 of the main fleet and 1-3 of the escort fleet.
+*** 4. All ships in the combined fleet.
+** Increases the morale of repaired ships by <span style="color:green;">'''+7'''</span>.
+** Repairs 30% of '''Max HP''' rounded up.
+** Does not work on <span style="color:red;">'''heavily damaged (大破)'''</span> ships.
+* She has the ability to upgrade equipment. Please see [[Improvement]] for more details.
+
+===Overview===
+Her stats are irrelevant to her main role.
+
+===Analysis===
+Priority: '''Very High'''
+
+: She is the most important girl in your fleet because of her ability to upgrade equipment. It is the only way to access most event and ranking only equipment. Equipment upgrades are important to boost the effectiveness of your other girls. Her repair ability is a nice bonus that allows you to get more girls repaired while away for an extended period of time. It is imperative that you get her to Kai as soon as possible for the boost in success rates.
+
+===Important Info===
+* Required for quest A45.
+* Required for all equipment upgrade quests.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 工作艦、明石です。少々の損傷だったら、私が泊地でばっちり直してあげますね。お任せください！
+|translation = I'm the repair ship, Akashi. If you have any minor damages, I can fix you up in the base. Please leave it to me!
+|audio = Akashi-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = 工作艦、明石です。泊地での応急修理ならお任せください！第一線での艦娘をサポートしますね！
+|translation = I'm the repair ship, Akashi. Please leave the on base emergency repairs to me! I'll support the ship girls on the front lines!
+|audio = Akashi-Introduction_Kai.ogg
+}}
+{{ShipquoteKai
+|scenario = Library 
+|origin = 連合艦隊唯一の工作艦、明石です。トラック泊地に進出し、前線で損傷した艦艇の修理を担当したわ。トラック泊地が壊滅するその日まで、前線の艦隊を陰で支えたのよ。
+よろしくね。
+|translation = I'm Akashi, the only repair ship in the Combined Fleet. I was in charge of repairing ships damaged in the front lines when I was stationed in the Truk Anchorage.<ref>During the war Akashi operated out of the Japanese base in the Truk atoll where she repaired various types of battle-damaged Japanese warships, including the Shōkaku in October 1942 and the Yamato in December 1943.</ref> I supported the fleet from behind right up until the destruction of the Anchorage.<ref>In February 1944 the Americans made a raid on Truk (Operation Hailstone), sinking and damaging many ships. Akashi was damaged in these attacks and escaped to the Japanese atoll of Palau. On 30 March 1944, while anchored off Urukthapel in the Palau islands, Akashi was hit numerous times by bombs and rockets from American aircraft from Task Group 58, during Operation Desecrate One. She was sunk in shallow water with her bridge and cranes still remaining above the water.</ref> Pleased to meet you. 
+|audio = Akashi-Library_Intro.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 明石の出番ですね。
+|translation = So it's my turn.
+|audio = Akashi-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai = yes
+|origin = どうぞ、よろしくお願い致します！
+|translation = Very pleased to meet you!
+|audio = Akashi-Secretary_1_Kai.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 提督の修理ですか？どこが壊れてます？
+|translation = Do you need repairs, Admiral? Where is the damage?
+|audio = Akashi-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai = yes
+|origin = 提督も・・・少し修理したほうがいいみたいですね。
+|translation = Admiral... I really think you need repairs.
+|audio = Akashi-Secretary_2_Kai.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = クレーンにあまり触ったら危ないですよ！・・・あんっ！そこはもっと危ないです！
+|translation = It's dangerous to keep touching my cranes! ...Ahhn! That place is even more dangerous!
+|audio = Akashi-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = うーんと・・・大丈夫！修理とか工作機械の手入れとか色々やることあるから！大丈夫です！・・・・だいじょうぶ・・・
+|translation = Ayep... I'm fine! I've got lots of things to do like repairs and maintenance on  my tools! I'm fine!... Just fine...
+|audio = Akashi-Secretary_(Idle).ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = ・・・提督　提督自身も時々修理しないとダメですよ？私がメンテ・・・しておきますね。
+|translation = Admiral... you've gotta make sure you fix yourself up sometimes you know? ...Just let me do the maintenance.
+|audio = Akashi-Secretary_(Married).ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督、何ですかその指輪？私の艦内工場で少し加工します？もう…誰に上げるんですかぁ？えっ、私！？嘘ぉ…！？　はぁあ…大事にします！ありがとう！
+|translation = What's with that ring, Admiral? You want me to run it through my shipboard factory a little? Jeez... Who is it for? Eh, me!? Seriously...!? I'll treasure it! Thanks!
+|audio = Akashi-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 提督、艦隊の運営状況を確認されますか？
+|translation = Do you want to review the fleet's operational status, Admiral?
+|audio = Akashi-Show_Players_Score.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 工作艦、明石、参ります！
+|translation = 	Repair ship Akashi, setting off!
+|audio = Akashi-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = これは・・・捗りますぅ！
+|translation = Now...this is what I call progress!
+|audio = Akashi-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = もっともっと修理できそう！ありがとうございます！
+|translation = Now I can repair more things! Thank you so much!
+|audio = Akashi-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = 修理、しときます？
+|translation = Should I repair this?
+|audio = Akashi-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = ありがとうございます！助かります！
+|translation = Thank you! This really helps!
+|audio = Akashi-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 私自身も・・・時々メンテがいりますね・・・
+|translation = I guess... even I need maintenance once in a while...
+|audio = Akashi-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = ふぅ・・・人に背中流してもらうのも本当幸せですねぇ・・・　助かるなぁ～
+|translation = Whew... I'm so happy to have someone washing my back... It helps~
+|audio = Akashi-Docking_Moderate.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新造艦が完成したみたいです。楽しみですねぇ。
+|translation = It seems like a new ship has been completed. I'm looking forward to it.
+|audio = Akashi-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊が無事帰投しました。疲れたぁ～
+|translation = The fleet has returned safely. That was tiring~
+|audio = Akashi-Return_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 聯合艦隊所属、明石、抜錨します！
+|translation = Akashi of the Combined Fleet, setting sail!
+|audio = Akashi-Start_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 私・・・戦いは・・・うぅ・・・今は・・・やるしかないか・・・
+|translation = Fighting... isn't my... Urgh... I guess I just have to do it!
+|audio = Akashi-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|kai = yes
+|origin = 降り懸かる火の粉は・・・払わないといけませんね！
+|translation = We really must... be ready for all possible dangers!<ref>"降り懸かる火の粉は払わねばならぬ" is an idiom meaning "You must protect yourself against any possible dangers."</ref>
+|audio = Akashi-Battle_Start_Kai.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = あたって！
+|translation = Hit!
+|audio = Akashi-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|kai = yes
+|origin = 私の兵装で敵艦を撃つ日がこようとは！
+|translation = I never thought that the day I would fire on enemy ships would come!
+|audio =  Akashi-Attack_Kai.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack
+|origin = あまり得意じゃないんだけど・・・！
+|translation = 	I'm not too good at this but...!
+|audio = Akashi-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 追撃戦って・・・ど、どうなのかなぁそれってばぁ！
+|translation = A pursuit... W-what am I supposed to do about that!
+|audio = Akashi-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = え・・・ええっ！？わ、私！？どういうのそれって・・・嬉しいけどぉ・・・
+|translation = Eh...EEEEEH!? M-me!? How did that happen... I'm happy though...
+|audio = Akashi-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|kai = yes
+|origin = いつもお世話になっているので・・・これぐらいはお返ししないと！でも、本業は修理です！
+|translation = I've been under your debt, so take this as a token of my appreciation! My real job is repairs though!
+|audio = Akashi-MVP_Kai.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = ぐぅっ・・・いったたた・・・艦内工場は無事！？
+|translation = Geh... Owowow... Is the shipboard factory fine!?
+|audio = Akashi-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = やられた！工作機械への延焼を防いで！
+|translation = I'm hit! Don't let the fire spread to the tools!
+|audio = Akashi-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = わっ、わたし、狙われてる！？こんな状態じゃ、満足に修理できない！
+|translation = I...I was targetted!? I can't do a good repair job like this!
+|audio = Akashi-Moderate_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 海の底に沈むのか・・・またゆっくり寝るわね。おやすみなさい。
+|translation = Seems like I'm heading towards the sea floor... guess I can have another long sleep. Good night.
+|audio = Akashi-Sunk.ogg
+}}
+|} <references/>
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00
+|origin = 深夜0時・・・そろそろお休みされます？
+|translation = 12am... Isn't it almost time for you to rest?
+|audio = Akashi-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00
+|origin = マルヒトマルマルです。さすがに眠くありません？　え？私？私は大丈夫です！
+|translation = 0100. Aren't you sleepy at all? Eh? Me? I'm fine!
+|audio = Akashi-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00
+|origin = マルフタマルマルです。なんかトラックを思い出しますねぇ。頑張ったなぁ
+|translation = 0200. I've suddenly remembered my time at Truk... I sure worked hard.
+|audio = Akashi-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00
+|origin = マルサンマルマルです。パラオは・・・なんでだろう？あまり覚えてないんです。
+|translation = 0300. About Palau… I wonder why? I don't really remember much of it.<ref>After escaping Truk, she was stationed at Palau for a mere five weeks prior to her sinking.</ref>
+|audio = Akashi-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00
+|origin = マルヨンマルマルですね。そろそろ朝ですよ？提督？今晩は寝なくていいの？
+|translation = 0400. It'll be morning soon you know? Admiral? You sure you're fine with not sleeping tonight?
+|audio = Akashi-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00
+|origin = マルゴーマルマルです。空が次第に明るくなってきましたね！新しい一日です！
+|translation = 0500. It's slowly getting brighter! It's a brand new day!
+|audio = Akashi-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00
+|origin = マルロクマルマルです。提督？朝食は何にします？間宮さんほどじゃないですけど意外と私のも美味しいですよ？
+|translation = 0600. Admiral? What do you want for breakfast? It's not anywhere near Mamiya's level, but I can cook surprisngly well you know?
+|audio = Akashi-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00
+|origin = マルナナマルマルです。朝ですねぇ　ねぼすけさん達を起こしてきましょうか？
+|translation = 0700. It's morning, huh. Should we go and wake the sleepy heads up?
+|audio = Akashi-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00
+|origin = マルハチマルマルですねぇ。さぁ！修理修理っとぉ！
+|translation = 0800, huh. Now! Time to get repairing!
+|audio = Akashi-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00
+|origin = マルキュウマルマルです。どの艦から修理します？　・・・えっ！？まさか・・・出撃ぃ！？
+|translation = 0900. Which ship would you like me to repair? …Eh!? It can't be… a sortie!?
+|audio = Akashi-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00
+|origin = ヒトマルマルマルです　・・・提督？私・・・戦闘はちょっと・・・あ・・いえ・・兵装を積んでも・・・
+|translation = 1000. …Admiral? Battles are... kind of... ah... no... Even if you give me all these weapons...
+|audio = Akashi-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00
+|origin = ヒトヒトマルマルです。提督も無茶されますねぇ。工作機械が壊れたら大変です！
+|translation = 1100. You're too reckless, Admiral. It'll be hell if my tools broke!
+|audio = Akashi-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00
+|origin = ヒトフタマルマルですね。お昼です！お昼は明石カレー！いっちゃいますか！？
+|translation = 1200. It's lunch! We're having Akashi Curry for lunch! What do you say?!
+|audio = Akashi-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00
+|origin = ヒトサンマルマルです。艦内工場の点検をしておきますね！結構あるんですよ～
+|translation = 1300. I'll be doing the inspection of shipboard factory! There's a lot to check~
+|audio = Akashi-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00
+|origin = ヒトヨンマルマルです。そろそろ午後の修理に本格的に取り組みますね！
+|translation = 1400. It's almost time for me to really get started on afternoon repairs!
+|audio = Akashi-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00
+|origin = ヒトゴーマルマルです。提督？ちょっと小腹が空きませんか？ねぇ？
+|translation = 1500. Admiral? Don't you feel a little hungry now? Hmm?
+|audio = Akashi-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00
+|origin = ヒトロクマルマルです。間宮最中美味しいですねぇ！私も艦内で作りたいなぁ・・・
+|translation = 1600. Mamiya's monaka is really tasty! I would like to make some on board too...<ref>Monaka = a Japanese sweet made of azuki bean jam filling sandwiched between two thin crisp wafers made from mochi.</ref>
+|audio = Akashi-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00
+|origin = ヒトナナマルマルです。そろそろ日が暮れてきました。ふぅっ・・・疲れましたねぇ。
+|translation = 1700. It's almost sunset. Whew... I'm tired.
+|audio = Akashi-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00
+|origin = ヒトハチマルマルです。夕食は外食にします？大和ホテルとかぁ・・・って冗談ですって
+|translation = 1800. Do you want to eat out for dinner? Like at the Hotel Yamato... I'm just joking.
+|audio = Akashi-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00
+|origin = ヒトキュウマルマルです。簡単なものですみません。ご夕食ご用意しました！
+|translation = 1900. I'm sorry it's only something simple. Dinner is ready!
+|audio = Akashi-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00
+|origin = フタマルマルマルです。食べたら少し眠くなりますよねぇ・・・ふわぁああ・・・・あっ・・・いけない！
+|translation = 2000. You just get sleepy after eating your fill... *Yawn*... Ah... I can't!
+|audio = Akashi-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00
+|origin = フタヒトマルマルですね。後3時間で今日もおしまいです　お疲れ様です。
+|translation = 2100 huh. The day will be ending in three more hours. Thanks for the good work.
+|audio = Akashi-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00
+|origin = フタフタマルマル。泊地の夜は静かですよねぇ・・・いつもこうだといいのですが・・・　
+|translation = 2200. The anchorage at night is quiet... It'll be nice if it stays like this...
+|audio = Akashi-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00
+|origin = フタサンマルマルです。提督？本日も一日大変お疲れ様でした！
+|translation = 2300. Admiral? Thank you for your hard work everyday!
+|audio = Akashi-23.ogg
+}}
+|} <references/>
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2015|White Day 2015]]
+|origin = 提督？チョコのお返しはー？そろそろ？大淀と楽しみに待ってるね！ねー！
+|translation =	Admiral? Where’s my return gift for the chocolates? Almost done? Ooyodo and I are looking forward to that! Right!?
+|audio = Akashi.ogg.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin =二周年ですって！おめでとうございます、提督！よく二年間戦い抜きました。えらいっ！
+|translation =	It’s the 2nd anniversary! Congratulations, Admiral! You fought well these two years. You’re great!
+|audio = 182_Akashi_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2015|Rainy Season 2015]]
+|origin = 梅雨の季節ですね。工廠施設が傷んじゃうなあ…よく整備して、油差しておかない。
+|translation =	It’s the rainy season. My factory equipment will be damaged… I need to keep it maintained and oiled. 
+|audio = Akashi_Rainy_Secretary_1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_Season_Update|Early Summer 2015]]
+|origin = 夏ですねえ……。私もおしゃれな水着欲しいなあ。……提督、買ってくれてもいいのよ？キラキラ（ひひ）
+|translation =	It’s summer… I want a fashionable swimsuit too. …Can you buy one for me, Admiral? *Sparkle* Hehe
+|audio = Akashi_Early_Summer_HQ.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Autumn_2015_Seasonal_Update|Early Autumn 2015]]
+|origin = 秋になりましたね。ちょっと小腹とか空いちゃう季節ですよね。間宮さん恋しい。
+|translation =	Autumn is here. It’s the kind of season that makes you feel hungry. I miss Mamiya’s.
+|audio = Akashi_Early_Autumn2015.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = メリークリスマス、提督！クレーンにイルミネーション飾っちゃいましょうか！
+|translation =	Merry Christmas, Admiral! I should string some lights up on my crane!
+|audio = Akashi_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = 節分ですね、良いですねぇ！大淀、鬼やってよ、鬼！…えぇ、私！？なんで！？
+|translation =	It’s Setsubun, this is great! You go on and be the Oni, Ooyodo! …Eh, me!? Why!?
+|audio = Akashi_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = 提督、はい、チョコレート！お返しは…うーん、と豪華なスイーツと、資材でいいですよ！
+|translation =	Here, Admiral; chocolates! In return I’d like… yeah, fancy sweets and raw materials!
+|audio = Akashi_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 提督、今日は記念日じゃないですか？いいですねえ～。記念に何か、作っちゃいます？
+|translation =	Isn’t today an Anniversary, Admiral? Great~. Should I get anything ready for it?
+|audio = Akashi_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = 提督、今日は記念日じゃないですか？いいですね？記念に何か、つくちゃいます？
+|translation =	Admiral, isn't today an anniversary? Isn't it great? Want me to make something to remember it by?
+|audio = Akashi_7th_Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+KanMusu182CG.png|Base
+KanMusu182Dmg.png|Base Damaged
+KanMusu187.png|Kai
+KanMusu187Dmg.png|Kai Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+182_2015.png|[[Seasonal/New_Year_2015|New Year 2015]]
+182_X_2015.png|[[Seasonal/New_Year_2015|New Year 2015 Damaged]]
+187_2015.png|[[Seasonal/New_Year_2015|Kai New Year 2015]]
+187_X_2015.png|[[Seasonal/New_Year_2015|Kai New Year 2015 Damaged]]
+Akashi_NPC_Summer.png|[[Seasonal/Mid_Summer_Season_Update|NPC Midsummer 2015]]
+Akashi_NPC_Summer_thanks.png|[[Seasonal/Mid_Summer_Season_Update|NPC Midsummer 2015 Thank You Pose]]
+187_Akashi_kai_Summer.png|[[Seasonal/Mid_Summer_Season_Update|Midsummer 2015]]
+187_Akashi_Kai_Summer_Dmg.png|[[Seasonal/Mid_Summer_Season_Update|Midsummer 2015 Damaged]]
+Akashi_NPC_Spring.png|[[Seasonal/Spring_Peach_Festival_2016|NPC Sukiya Collaboration 2016 Pose 1]]
+Akashi_NPC_Spring2.png|[[Seasonal/Spring_Peach_Festival_2016|NPC Sukiya Collaboration 2016 Pose 2]]
+Akashi_Sukiya_dmg.png|[[Seasonal/White_Day_2016|Sukiya Collaboration 2016 Damaged]]
+Kanmusu182_Christmas_2016.png|[[Seasonal/Christmas_2016|Christmas 2016]]
+Kanmusu182_Christmas_2016_dmg.png|[[Seasonal/Christmas_2016|Christmas 2016 Damaged]]
+Kanmusu187_Christmas_2016.png|[[Seasonal/Christmas_2016|Kai Christmas 2016]]
+Kanmusu187_Christmas_2016_dmg.png|[[Seasonal/Christmas_2016|Kai Christmas 2016 Damaged]]
+Akashi_NPC_Christmas_2016_1.png|[[Seasonal/Christmas_2016|NPC Christmas 2016 Pose 1]]
+Akashi_NPC_Christmas_2016_2.png |[[Seasonal/Christmas_2016|NPC Christmas 2016 Pose 2]]
+Akashi_Setsubun_2017.png|[[Seasonal/Setsubun_2017|Setsubun 2017]]
+Akashi_Setsubun_2017_dmg.png|[[Seasonal/Setsubun_2017|Setsubun 2017 Damaged]]
+AkashiKai_Setsubun_2017.png|[[Seasonal/Setsubun_2017|Kai Setsubun 2017]]
+AkashiKai_Setsubun_2017_dmg.png|[[Seasonal/Setsubun_2017|Kai Setsubun 2017 Damaged]]
+Kanmusu_182_Zuiun_Festival.png|[[Promotional_Collaboration_CG#June.2FJuly_2017_-_Zuiun_Festival|Zuiun Festival 2017]]
+Kanmusu_182_Zuiun_Festival_Dmg.png|[[Promotional_Collaboration_CG#June.2FJuly_2017_-_Zuiun_Festival|Zuiun Festival 2017 Damaged]]
+Kanmusu_187_Zuiun_Festival.png|[[Promotional_Collaboration_CG#June.2FJuly_2017_-_Zuiun_Festival|Zuiun Festival 2017]]
+Kanmusu_187_Zuiun_Festival_Dmg.png|[[Promotional_Collaboration_CG#June.2FJuly_2017_-_Zuiun_Festival|Zuiun Festival 2017 Damaged]]
+182_Ship_Full_Akashi_Spring_2020.png|[[Seasonal/Coming_of_Spring_2020|Spring 2020]]
+182_Ship_Full_Akashi_Spring_2020_Damaged.png|[[Seasonal/Coming_of_Spring_2020|Spring 2020 Damaged]]
+Akashi Full Autumn 2020.png|[[Seasonal/Autumn_2020|Autumn 2020]]
+Akashi Full Autumn 2020 Damaged.png|[[Seasonal/Autumn_2020|Autumn 2020 Damaged]]
+Akashi Full Valentines 2021.png|[[Seasonal/Valentine's_Day_2021|Valentine's Day 2021]]
+Akashi Full Valentines 2021 Damaged.png|[[Seasonal/Valentine's_Day_2021|Valentine's Day 2021 Damaged]]
+</gallery>
+|}
+
+== Drop Locations ==
+{{#invoke:ShipDropTable|returnShipDrop|Akashi}}
+Akashi will drop with a small chance in 2-5 only for Admirals who have never gotten her before. 
+
+==Trivia==
+* She was first in game as the Item Shop NPC [[NPC|Premium shop and LSC ship]].
+* She is named after [https://en.wikipedia.org/wiki/Akashi,_Hy%C5%8Dgo Akashi City]. 
+**She is the 2nd ship to bear the name.
+*The only specialized repair ship operated by the IJN (the other two were cancelled).
+*Escaped [[wikipedia:Operation_Hailstone|Operation Hailstone]] on Truk in February 20, 1944, fleeing to Palau.
+*Sunk while anchored in Palau on March 30, 1944 during [[wikipedia:Operation_Desecrate_One|Operation Desecrate One]].
+*Salvaged and scrapped in 1954.
+*Akashi had 17 different factories within her body. Factories included furnace and anvils amongst other things - a mobile manufacturing complex.
+*Out of the 779 crew in her, 443 were mechanics, which was not limited to military personnel.
+*Had 2 chimneys. The front chimney was used to exhale smoke from the factories - the one you see around her right arm.
+*Had power generation capabilities that rivalled the [[Yamato]] (4800kw) in order to power her machines.
+*Had German machinery loaded, allowing her to have unparalleled reparation abilities compared to standard onshore factories. Her ability to repair ships efficiently was what made her a priority target by the Americans.
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View  crew in her CG]]
+* [[Auxiliary Ships|List of auxiliary ships]]
+*[http://en.wikipedia.org/wiki/Japanese_repair_ship_Akashi Wikipedia entry on repair ship Akashi]
+
+{{Shiplist}}
+[[zh:明石]]
+[[Category:Auxiliary Ship]]

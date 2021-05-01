@@ -1,0 +1,67 @@
+{{Documentation subpage}}
+<!--
+    PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE
+    YOU CAN EDIT THE TEMPLATE DOCUMENTATION BELOW THIS COMMENT
+-->
+==Usage==
+===General===
+This template is to be placed on template site of user languages. It is written as (example for English):
+
+<nowiki>{{languages|English|en}}</nowiki>
+
+You write only ''English'' (not ''language'': the template writes that by itself).
+
+=== Language void ===
+For most languages, saying "language" after it is necessary to direct it straight to the language's mainspace page, but sometimes saying "language" directs it to a red link. To stop this problem put:
+
+<nowiki>{{languages|English|en|langvoid=}}</nowiki>
+
+=== Different category ===
+This template automatically puts the template in its User template category, to redirect to a different User templates category do this, using the Scottish language as an example:
+
+<nowiki>{{languages|Scottish English|en-sco|catalt=en}}</nowiki> 
+
+=== Category sections ===
+By default the template categories templates like:
+
+1<br>
+[[Template:User en-1]]
+
+2<br>
+[[Template:User en-2]]
+
+And so on, but if you wanted to replace these with different abbreviations such as:
+
+c<br>
+[[Template:User en-ca-1]]<br>
+[[Template:User en-ca-2]]<br>
+
+e<br>
+[[Template:User en-1]]<br>
+[[Template:User en-2]]<br>
+
+Add <nowiki>|sections=</nowiki> with the abbreviated code, such as "ca" or "en", etc. Do '''not''' place the "-", at the end of "sections" as was done previously, this will screw up the chronological order.
+<!--
+=== # ===
+This template automatically categorizes templates by number by default, but for some reason the parser functions do not work exactly right when using the "sections" option, as such the number override has to be used.
+
+<nowiki>{{languages|English|en|level=6|sections=en-|#=N}}</nowiki>
+-->
+
+=== Category void ===
+Some templates such as the [[Template:User blank|blank]] series and other fictional languages do not deserve to have their own category, to void the category all together do this:
+
+<nowiki>{{languages|Spoken|blank|catvoid=}}</nowiki>
+
+=== Format ===
+If all of these functions were used on one template they would look like this:
+
+<nowiki>{{languages|English|en|langvoid=|catvoid=|catalt=en|sections=us|#=N}}</nowiki>
+
+Please note catalt, sections and # cannot exist if catvoid exists.<includeonly>
+
+<!--PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS.-->
+
+<!--PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS.-->
+[[Category:Language user templates| ]]
+</includeonly>

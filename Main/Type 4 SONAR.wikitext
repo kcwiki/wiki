@@ -1,0 +1,84 @@
+{{EquipmentInfo|149}}
+
+==Introduction==
+小型艦艇にも装備可能な、新型パッシブソナー兵装です。<br>
+九三式水中聴音機に比べて、その対潜発見能力は格段に向上しました。<br>
+数は少ないですが、大戦末期に建造された後期型の駆逐艦などの対潜兵装として装備されました。
+
+''This SONAR can be equipped on smaller ships, and is a new type of armament: the "passive SONAR." Compared to the type 93 SONARs, this has increased ASW. There are few of these because it was made in the later part of the war, and was equipped by some of the newer destroyers.''
+
+==Notes==
+Ships receive a 15% ASW synergy bonus when this is used together with a [[:Category:Depth Charge Projectors|depth charge projector]] or [[:Category:Depth Charges|depth charge]]; and a 43% bonus when all three types are used (must be on the same ship). The 43% bonus does not apply when used together with a [[:Category:Special Depth Charge Projectors|special DCP]].
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Upgradeable''' from {{Equipment/Link|Type 93 Passive Sonar}}
+
+'''From quests: '''[[Quests#B74|B74]]
+
+''From limited-time quests: ''[[Quests/Seasonal#SB05|SB05]]
+
+''Event reward for:''
+* [[Fall 2015 Event]] E-3: Hard
+
+''Ranking reward for:''
+* Aug 2015: 1-5 (x2), 6-20 (x2), 21-100 (x2), 101-500
+* Apr 2016: 1-5, 6-20, 21-100, 101-500
+* Dec 2016: 1-5, 6-20, 21-100, 101-500
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|Type 4 Passive Sonar}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2015-09-22:''' '''Implemented''' as ranking reward
+* '''2015-09-25:''' Became '''improvable'''
+* '''2017-09-29:''' '''Stats increased:'''  '''{{Armor}}+0 → {{Armor}}+1 '''
+* '''2020-01-14:''' Visible bonuses added
+* '''2021-03-01:''' Visible bonuses added for {{Ship/Link|Katori|Kashima|text=Katori-class}}
+</div></div>
+
+==Fit Bonuses==
+{{:Type 4 Passive Sonar/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=Sonar
+|Fuel=10
+|Ammo=0
+|Steel=50
+|Baux=60
+|Mats0-5=5/7
+|Mats6-9=6/10
+|Mats10=-
+|Screws0-5=3/5
+|Screws6-9=4/6
+|Screws10=-
+|EquipConsume0-5=2x{{Sonar|Type 93 Passive SONAR}}
+|EquipConsume6-9=1x{{Sonar|Type 4 SONAR}}
+|EquipConsume10=-
+|Sun=&nbsp;<br>&nbsp;<br>&nbsp;<br>A<br>&nbsp;
+|Mon=&nbsp;<br>Y<br>K<br>&nbsp;<br>&nbsp;
+|Tue=&nbsp;<br>&nbsp;<br>K<br>&nbsp;<br>&nbsp;
+|Wed=&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>T
+|Thu=I<br>Y<br>&nbsp;<br>&nbsp;<br>&nbsp;
+|Fri=I<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+|Sat=I<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+|2ndShip=[[Isuzu#Second Upgrade|Isuzu Kai Ni]]<br>[[Yuubari#Second Upgrade|Yuubari Kai Ni]]<br>[[Katori#First Upgrade|Katori Kai]]<br>[[Akizuki]]<br>[[Teruzuki]]
+|Notes=
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Anti-submarine Weaponry]]
+[[Category:SONAR]]

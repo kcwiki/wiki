@@ -1,0 +1,14 @@
+<div style="float:{{{float|left}}}; border:{{{border-width|{{{border-s|1}}}}}}px solid {{{border-color|{{{1|{{{border-c|{{{id-c|#999}}}}}}}}}}}}; margin: 1px; width: 240px; {{css3|box-sizing: border-box}}" class="wikipediauserbox {{{bodyclass|}}}">
+{| cellspacing="0" style="width: 100%; margin-bottom: 0; background: {{{info-background|{{{2|{{{info-c|#eee}}}}}}}}}"
+{{#if:{{{logo|{{{3|{{{id|id}}}}}}}}}|
+! style="width: {{{logo-width|{{{id-w|45}}}}}}px; height: {{{logo-height|{{{id-h|45}}}}}}px; background: {{{logo-background|{{{1|{{{id-c|#ddd}}}}}}}}}; text-align: {{{id-a|center}}}; font-size: {{{logo-size|{{{5|{{{id-s|14}}}}}}}}}pt; color: {{{logo-color|{{{id-fc|black}}}}}}; padding: {{{logo-padding|{{{id-p|0 1px 0 0}}}}}}; line-height: {{{logo-line-height|{{{id-lh|1.25em}}}}}}; vertical-align: middle; {{{logo-other-param|{{{id-op|}}}}}}" {{#if:{{{id-class|}}}|class="{{{id-class}}}"}} {{!}}{{{logo|{{{3|{{{id|id}}}}}}}}}
+}}
+| style="text-align: {{{info-a|left}}}; font-size: {{{info-size|{{{info-s|8}}}}}}pt; padding: {{{info-padding|{{{info-p|0 4px 0 4px}}}}}}; height: {{{logo-height|{{{id-h|45}}}}}}px; line-height: {{{info-line-height|{{{info-lh|1.25em}}}}}}; color: {{{info-color|{{{info-fc|black}}}}}}; vertical-align: middle; {{{info-other-param|{{{info-op|}}}}}}" {{#if:{{{info-class|}}}|class="{{{info-class}}}"}} |{{{info|{{{4|''info''}}}}}}
+|}</div>{{#if:{{{usercategory|}}}{{{usercategory2|}}}{{{usercategory3|}}}|{{category handler
+ |nocat    ={{{nocat|}}}
+ |subpage  ={{#if:{{{nocatsubpages|}}}|no}}
+ |user     ={{#if:{{{usercategory|}}}|[[Category:{{{usercategory}}}]]}}{{#if:{{{usercategory2|}}}|[[Category:{{{usercategory2}}}]]}}{{#if:{{{usercategory3|}}}|[[Category:{{{usercategory3}}}]]}}
+ |template ={{#if:{{{usercategory|}}}|[[Category:{{{usercategory}}}| {{BASEPAGENAME}}]]}}{{#if:{{{usercategory2|}}}|[[Category:{{{usercategory2}}}| {{BASEPAGENAME}}]]}}{{#if:{{{usercategory3|}}}|[[Category:{{{usercategory3}}}| {{BASEPAGENAME}}]]}}
+}}}}<noinclude>
+{{documentation}}
+</noinclude>

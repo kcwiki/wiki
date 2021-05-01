@@ -1,0 +1,62 @@
+{{EquipmentInfo}}
+==Introduction==
+やや旧式ながら実績のある単装高角砲、その後期艦載型です。<br>量産に向いた構造で経済性が高く、後期の量産海防艦に搭載され、雲霞のような敵艦載機に立ち向かいます。<br>御蔵型、日振型、そして鵜来型、さらに小型簡略化された丙型及び丁型海防艦でも装備運用されました。
+
+''This is a version of the rather old but proven single high-angle gun that was mounted on ships during the late-war period.''<br>
+''It was cheap and easy to mass produce and was mounted on the mass-produced coastal defense ships late in the war where it faced swarms of enemy planes.''<br>
+''It was used by the Mikura, Hiburi and Ukuru-classes as well as the simplified C and D-class coastal defense ships.''
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Daitou Kai}}, {{Ship/Link|Daitou}}, {{Ship/Link|Etorofu Kai}}, {{Ship/Link|Fukae Kai}}, {{Ship/Link|Hachijou Kai}}, {{Ship/Link|Hiburi Kai}}, {{Ship/Link|Hiburi}}, {{Ship/Link|Hirato Kai}}, {{Ship/Link|Ishigaki Kai}}, {{Ship/Link|Kaiboukan No.4 Kai}}, {{Ship/Link|Kunashiri Kai}}, {{Ship/Link|Matsuwa Kai}}, {{Ship/Link|Mikura Kai}}, {{Ship/Link|Mikura}}, {{Ship/Link|Sado Kai}}, {{Ship/Link|Tsushima Kai}}, {{Ship/Link|Yashiro Kai}}, {{Ship/Link|Yashiro}}
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|12cm Single High-angle Gun Mount Model E}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2020-06-19:''' '''Implemented'''
+</div></div>
+
+==Fit Bonuses==
+{{:12cm Single High-angle Gun Mount Model E/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name=12cm Single High-angle Gun Mount Model E
+|ItemType=GreenGunDP
+|Fuel=10
+|Ammo=20
+|Steel=40
+|Baux=10
+|Mats0-5=3/3
+|Mats6-9=3/4
+|Mats10=-
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=-
+|EquipConsume0-5=1x{{RedGunLight|12cm Naval Gun}}
+|EquipConsume6-9=1x{{GreenGunDP|12cm Single High-angle Gun Mount Model E}}
+|EquipConsume10=-
+|Sun=H
+|Mon=D
+|Tue=D
+|Wed=D
+|Thu=M
+|Fri=H<br>M
+|Sat=H<br>M
+|2ndShip=[[Hiburi]]<br>[[Daitou]]<br>[[Mikura]]
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]

@@ -1,0 +1,72 @@
+{{Equipmentinfo
+|name = F4F-3
+|id = 197
+|japanesename = F4F-3
+|icon = {{GreenPlane}}
+|type = Carrier-Based Fighter
+|effect = {{Firepower}}+1, {{AA}}+4, {{Evasion}}+2
+|radius = 4
+|scrap = {{Fuel}} 1, {{Ammo}} 2, {{Bauxite}} 2
+|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
+Equipment197-1.png
+Equipment197-2.png
+Equipment197-3.png
+Equipment197-4.png
+</gallery>
+| CVL=lime
+| CV=lime
+| CVB=lime
+| LC=lime
+}}
+==Introduction==
+大戦初期の太平洋上で零戦としのぎを削った名艦上戦闘機、その初期部隊配備型です。<br>
+ワイルドキャットとよばれたF4Fシリーズは、格闘戦闘で劣る零戦隊を相手に果敢に戦いました。<br>
+''The F4F is a famous shipboard fighter that competed with the Zero in the Pacific during the early stage of the Great War.''<br>
+''Known as the Wildcat, the F4F series fought valiantly against the Zero squadrons despite being inferior.''
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Hornet}}, {{Ship/Link|Saratoga}}
+
+'''From quests: '''[[Quests#B148|B148]] (★+3, x2, choice)
+
+''Event reward for:''
+* [[Fall 2016 Event]] E-5: Medium
+
+</div></div>
+
+== Akashi's Improvement Arsenal ==
+
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+| Name = {{PAGENAME}}
+| ItemType = GreenPlane
+| Fuel = 90
+| Ammo = 90
+| Steel = 0
+| Baux = 270
+|Mats0-5 = 2/5
+|Mats6-9 = 3/6
+|Mats10 = 4/8
+|Screws0-5 = 2/3
+|Screws6-9 = 2/4
+|Screws10 = 3/5
+|EquipConsume0-5 = -
+|EquipConsume6-9 = 1x{{GreenPlane|Type 96 Fighter}}
+|EquipConsume10 = 2x{{GreenGunMG|12.7mm Machine Gun}}
+| Sun = S<br>&nbsp;<br>&nbsp;
+| Tue = &nbsp;<br>&nbsp;<br>S2
+| Wed = S<br>&nbsp;<br>S2
+| Thu = S<br>&nbsp;<br>&nbsp;
+| Fri = S<br>Sk<br>&nbsp;
+| Sat = S<br>Sk<br>&nbsp;
+| 2ndShip = [[Saratoga]]<br/>[[Saratoga#First Upgrade|Saratoga Kai]]<br>[[Saratoga#Second Upgrade|Saratoga Mk.II]]
+| Notes =  Upgrades to [[F4F-4]].
+}}
+|}
+
+==See Also==
+[[wikipedia:Grumman F4F Wildcat#F4F-3|Grumman F4F Wildcat]]
+{{Equipmentlist}}
+[[Category:Fighters]]

@@ -1,0 +1,230 @@
+=Introduction=
+
+The air combat phase is divided into four.
+
+# Air Control - In this phase, the air control state is determined. This is important for determining if you can perform daytime special attacks and trigger night contact in normal day combat nodes. It also partly determines how many planes you lose.
+# Contact - In this phase, eligible planes will attempt to trigger contact. If triggered, it will increase the damage of your airstrike.
+# Fleet Air Defense - In this phase, both fleets will shoot at the approaching bombers. Any planes shot down in this phase do not change the air control state that is already determined. Anti-Air Cut-Ins are triggered in this phase.
+# Airstrike - In this phase, any surviving bombers attack the enemy surface fleet. It is not affected by morale, engagement or formation.
+
+=Air Control=
+
+Any ship equipped with a plane that has an {{AA}} stat will take part in this phase. The fighter power (FP) of your fleet is compared against the enemy's (EFP) to determine the air control state.
+
+<math>\text{Fighter Power} = \sum_{\text{All Slots}} \text{AA}_\text{plane} \times \sqrt{\text{No.}_\text{planes}} + \text{Mod}_\text{proficiency}</math>
+
+* <math>\text{AA}_\text{plane}</math> is the anti-air stat of the plane.
+* <math>\text{No.}_\text{planes}</math> is the number of remaining planes in the slot.
+* <math>\text{Mod}_\text{proficiency}</math> is the plane proficiency bonus.
+** The value is <math>25</math> for <span style="color:orange">'''>>''' </span> ranked fighters and <math>9</math> for bombers.
+
+After fighter power is calculated, it is compared according to the following table.
+
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|Control State
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Required Fighter Power
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|% Allied Planes Shot Down
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|% Enemy Planes Shot Down
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Air Contact
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Daytime Special Attacks
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Night Contact
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:green;"| '''Air Supremacy (AS+)'''<br>制空権確保!
+|style="text-align: center; border-style: solid; border-width: 1px;"| <math>\text{FP} \ge 3\text{EFP}</math>
+|style="text-align: center; border-style: solid; border-width: 1px;"| 2.5 - 5.83
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0 - 100
+|style="text-align: center; border-style: solid; border-width: 1px;"| Allied Only
+|style="text-align: center; border-style: solid; border-width: 1px;"| Allied Only
+|style="text-align: center; border-style: solid; border-width: 1px;"| Allied Only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:green;"| '''Air Superiority (AS)'''<br>航空優勢!
+|style="text-align: center; border-style: solid; border-width: 1px;"| <math>3\text{EFP} \ge \text{FP} \ge 1.5\text{EFP}</math>
+|style="text-align: center; border-style: solid; border-width: 1px;"| 7.5 - 17.5
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0 - 70
+|style="text-align: center; border-style: solid; border-width: 1px;"| Allied and Enemy
+|style="text-align: center; border-style: solid; border-width: 1px;"| Allied Only
+|style="text-align: center; border-style: solid; border-width: 1px;"| Allied and Enemy
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| '''Air Parity (AP)'''<br>''No text''
+|style="text-align: center; border-style: solid; border-width: 1px;"| <math>1.5\text{EFP} \ge \text{FP} \ge 0.67\text{EFP}</math>
+|style="text-align: center; border-style: solid; border-width: 1px;"| 12.5 - 29.1
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0 - 50
+|style="text-align: center; border-style: solid; border-width: 1px;"| Neither
+|style="text-align: center; border-style: solid; border-width: 1px;"| Neither
+|style="text-align: center; border-style: solid; border-width: 1px;"| Neither (Sorties)<br>
+Allied and Enemy (Exercises)
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| '''Air Denial (AD)'''<br>''No text''
+|style="text-align: center; border-style: solid; border-width: 1px;"| <math>0.67\text{EFP} \ge \text{FP} \ge 0.33\text{EFP}</math>
+|style="text-align: center; border-style: solid; border-width: 1px;"| 17.5 - 40.8
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0 - 30
+|style="text-align: center; border-style: solid; border-width: 1px;"| Allied and Enemy
+|style="text-align: center; border-style: solid; border-width: 1px;"| Enemy Only
+|style="text-align: center; border-style: solid; border-width: 1px;"| Allied and Enemy
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; color:red;"| '''Air Incapability (AI)'''<br>制空権喪失! 
+|style="text-align: center; border-style: solid; border-width: 1px;"| <math>0.33\text{EFP} \ge \text{FP}</math>
+|style="text-align: center; border-style: solid; border-width: 1px;"| 25 - 58.3
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0 - 10
+|style="text-align: center; border-style: solid; border-width: 1px;"| Enemy Only
+|style="text-align: center; border-style: solid; border-width: 1px;"| Enemy Only
+|style="text-align: center; border-style: solid; border-width: 1px;"| Enemy Only 
+|-
+|}
+
+'''Important Notes'''
+[[file:Air_Superiority_Aquired.png|thumb|right|The text at the bottom during the opening air Phase indicates that Air Supremacy has been aquired]]
+
+* If the enemy fighter power is 0, it will be automatic AS+. This happens even if you fail the detection phase and no air combat occurs.
+* Because the results of formulas are rounded down, planes mounted in certain slot sizes will not be shot down during the air control phase.
+** AS+: ≤17
+** AS: ≤5
+** AP: ≤3
+** AI: ≤2
+** AD: 1
+* It is not recommended to attempt to give bombers shootdown protection from small slots because it hampers their damage and they will still get shot down during the anti-air fire phase.
+* Carriers will participate in the air control phase regardless of damage state.
+** Sunk carriers are ignored.
+* A Recent Test<ref>https://bbs.nga.cn/read.php?tid=15861779&page=50&rand=454</ref> has shown a 0.6x multiplier towards own losses for Jet Aircraft. This result still needs to be confirmed as of now.
+
+=Contact=
+[[file:Contact.png|thumb|right|The Tenzan (Murata Squadron) over the enemy Fleet Formation field shows that the plane successfully aquired contact]]
+To trigger contact, your fleet needs to fulfill two requirements.
+
+1. There must be at least one reconnaissance seaplane, carrier-based reconnaissance, large flying boat or torpedo bomber in the fleet.
+
+2. Your fleet must obtain AD, AS or AS+.
+
+When both conditions are fulfilled, the game will first check whether contact is triggered then select the plane that will perform contact.
+
+====Step 1: Contact Trigger====
+
+To determine if contact is triggered, the adjusted {{LOS}} of all contact-capable planes in the fleet is summed as follows:
+
+<math>\text{Contact %} = \sum_{\text{All Slots}} \left[ \sqrt{\text{N}_\text{planes}} \times \text{LOS}_\text{equip} \times \text{Mod}_\text{type} \times \text{Mod}_\text{air control} \right]</math>
+
+* <math>\text{N}_\text{planes}</math> is the number of planes remaining in the slot.
+* <math>\text{LOS}_\text{equip}</math> is the base LoS stat of the plane.
+* <math>\text{Mod}_\text{type}</math> is the plane type modifier. It is <math>0.04</math> for reconnaissance planes and unknown for torpedo bombers.
+* <math>\text{Mod}_\text{air control}</math> is the air control state modifier.
+** AS+: <math>1.0</math>
+** AS: <math>0.6</math>
+** Modifier for AD is unknown but it is significantly lower.
+
+'''Important Notes'''
+* Reconnaissance planes contribute the most to trigger chance. High LOS reconnaissance planes are ideal. 
+** This does not mean you should stack reconnaissance planes to the detriment of combat effectiveness.
+
+====Step 2: Plane Selection====
+
+Once the trigger rate is determined, the game will roll to see if contact is triggered. If it is, it will proceed to the plane selection step. In this step, the game will check all contact-capable planes in order until one succeeds in triggering contact or all checks are exhausted.
+
+The priority for plane selection is:
+* Highest accuracy
+* Ship position in fleet
+* Equipment slot equipped
+
+<math>\text{Selection %} =  \text{LOS}_\text{equip} \times \text{Mod}_\text{air control}</math>
+
+* The air control state modifier for plane selection is:
+** AS+: <math>0.07</math>
+** AS: <math>0.06</math>
+** AD: <math>0.055</math>
+
+'''Important Info'''
+* If all planes fail to be selected, '''contact will fail to trigger'''. This means there are two points where your fleet can fail contact.
+* If multiple planes share the same accuracy stat, the one equipped on the ship with the higher position in the fleet is checked first.
+* If a ship has multiple planes with the same accuracy stat, the one equipped in the higher equipment slot will be checked first.
+
+====Contact Bonus====
+
+The contact bonus depends on the {{Hit}} of the plane triggering the contact. Numbers in brackets are calculated selection rates assuming AS+.
+
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Accuracy Value
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Contact Bonus
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Night Contact
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| 112%
+|style="border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber]]/[[Tenzan]]/[[Ryuusei]] (7%); [[Ryuusei Kai]]/[[Type 97 Torpedo Bomber (931 Air Group)]]/[[Tenzan (931 Air Group)]] (14%); [[TBD]]/[[TBF]] (14%)
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px;"| 112%
+|style="border-style: solid; border-width: 1px;"| [[Tenzan (601 Air Group)]] (14%); [[Ryuusei (601 Air Group)]] (21%); [[Swordfish]] (7%); [[Ryuusei Kai (CarDiv 1)]] (28%); [[Prototype T97E Kai]] (28%); [[Type 0 Recon Seaplane]] (35%); [[Type 98 Recon Seaplane (Night Scout)]] (21%); [[Shiun]] (56%); [[Type 2 Flying Boat]] (84%)
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px;"| 117%
+|style="border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber (Skilled)]] (14%); [[Type 97 Torpedo Bomber (Murata Squadron)]], [[Tenzan Model 12 (Murata Squadron)]] (28%); [[Type 97 Torpedo Bomber (931 Air Group / Skilled)]] (21%); [[Ryuusei Kai (CarDiv 1/Skilled)]] (42%); [[TBM-3D]] (14%); [[Prototype T97E Kai Skilled]] (35%); [[Saiun]] (63%); [[Prototype Keiun]] (77%); [[Saiun (East Caroline Air Group)]]/[[Saiun (4th Recon)]] (70%); [[Type 0 Observation Seaplane]]/[[OS2U]]/[[Type 0 Recon SeaPlane Model 11 B]] (42%); [[Ar196 Kai]] (35%); [[Ro.43 Recon Seaplane]]/[[S9 Osprey]] (28%); [[PBY-5A Catalina]] (63%)
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 3+
+|style="text-align: center; border-style: solid; border-width: 1px;"| 120%
+|style="border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber (Tomonaga Squadron)]]/[[Tenzan Model 12 (Tomonaga Squadron)]] (21%); [[Swordfish Mk. II (Skilled)]] (14%); [[Swordfish Mk.III (Skilled)]] (35%); [[Type 2 Recon Aircraft]] (49%); [[Type 0 Reconnaissance Seaplane Model 11B (Skilled)]] (56%)
+|-
+|}
+
+'''Important Notes'''
+* The Type 0 11B Skilled is the best plane for triggering contact. Having the best multiplier and a decent chance of being selected. Try to place them on ships at the top of the fleet.
+
+=Fleet Air Defense=
+
+Following contact, the bombers will face anti-air fire from opposing sides. For more details on the formulas involved and anti-air cut-ins, please see [[Anti-Air Fire]]. 
+
+* To start, each bomber slot is randomly assigned to an opposing ship that will perform the defense.
+** The same ship can be selected multiple times.
+* Each defending ship has a chance to trigger on, both or neither shoot down actions.
+** 50% for proportional shotdown to trigger.
+** 50% for fixed shotdown to trigger.
+*** This means 25% chance for both to trigger and 25% for neither to trigger.
+* One bomber from every enemy squadron will be guaranteed to be shot down.
+** This only applies for active player fleet.
+** If an anti-air cut-in is triggered, it's fixed shoot down will be added to the one guaranteed shoot down.
+* Abyssals have their own anti-air formulas that are weaker than the ship girl ones. Please see [[Anti-Air_Fire#Abyssal_Anti-Air|Abyssal Anti-Air]] for details.
+
+=Airstrike=
+
+Finally, the remaining bombers will perform an attack on the enemy fleet. For details on how the attack power is calculated, please see [[Damage_Calculations#Airstrike|Damage Calculations]]. Remember that the final attack power is modified by critical hits, contact, enemy armour and the remaining ammo modifier. All of those are '''post-cap'''.
+
+'''Important Notes'''
+* Each bomber is randomly assinged one ship to attack.
+* Damage is unaffected by engagement, formation, damage state, or morale.
+* The accuracy of the airstrike is fixed at around 95%.
+
+====Rocket Barrage====
+[[File:Anti-Air Rocket Barrage.png|thumb|right|Ise successfully triggers the AARB during opening Air Phase, Choukai is equipped with a T3 Shell and triggers the AA animation of it]]
+Certain classes of ships have the ability to completely negate airstrike damage when certain conditions are fulfilled.
+
+* The ship must be a [[:Category:Seaplane Tenders|AV]], [[:Category:Aviation Battleships|BBV]], [[:Category:Aviation Cruisers|CAV]], [[:Category:Light Carriers|CVL]] or [[:Category:Standard Carriers|CV]].
+** It '''only''' applies to ships within those categories.
+* The ship must be equipped with a [[12cm 30 Tube Rocket Launcher Kai 2]].
+
+The trigger chance is:
+
+<math>\text{Barrage %} = \frac{\text{AA}_{adjusted} \times \text{Luck}}{281} + \left( \text{N}_\text{rocket} - 1 \right) \times 15 + \text{Mod}_\text{Ise-class}</math>
+
+* <math>\text{AA}_{adjusted}</math> is the adjusted AA of the ship. For information on how it is calculated, please see [[Anti-Air Fire#Adjusted Anti-Air|Anti-Air Fire]].
+* <math>\text{Luck}</math> is the ship's {{Luck}} stat.
+* <math>\\text{N}_\text{rocket}</math> is the number of 12cm rocket k2 equipped.
+* <math>\text{Mod}_\text{Ise-class}</math> is the [[:Category:Ise Class|Ise-class]] bonus of <math>25</math>.
+
+When triggered, the ship will slide forward and "噴進弾幕成功" (Rocket Barrage Success) will be displayed over her banner. A flak burst animation will also appear in front of her.
+
+'''Important Notes'''
+* It is possible to achieve more than 100% activation rate.
+* There are other anti-air barrages for [[Type 3 Shell]]s and a combination of Type 3 Shells and the 12cm rocket k2. Effects and trigger chance are currently unknown.
+
+====Jet Assault====
+Only [[Jets|jet-powered planes]] will be able to participate in this phase.
+
+* Damage is calculated like a normal airstrike.
+* Contact '''does not''' apply to jet assault.
+* Ships sunk by jet assaults do not participate in the rest of air combat.
+** However they '''will still contribute''' to Fleet Anti-Air.
+* It will not take place if aerial combat would not occur. Eg if detection fails.
+* Jets assigned to a land base will perform their jet assault during the [[LBAS]] phase.
+
+=See Also=
+
+{{Mechanics}}

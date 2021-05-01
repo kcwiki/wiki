@@ -1,0 +1,103 @@
+{{EquipmentInfo}}
+
+==Introduction==
+巡洋艦等の主砲として開発された中距離砲の連装型です。<br>練習巡洋艦「香取」や軽巡洋艦「夕張」などに搭載されました。対艦対地用の兵装です。
+
+''This is the twin-mounted version of the medium-calibre guns developed for cruisers.''<br>
+''It was equipped on the training cruiser "Katori" and the light cruiser "Yuubari". It is a weapon capable of anti-ship and anti-ground shelling.''
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Jingei Kai}}, {{Ship/Link|Jingei}}, {{Ship/Link|Kashima Kai}}, {{Ship/Link|Kashima}}, {{Ship/Link|Katori Kai}}, {{Ship/Link|Katori}}, {{Ship/Link|Nisshin Kai}} (x2), {{Ship/Link|Nisshin}}, {{Ship/Link|Yuubari Kai}}
+
+'''Upgradeable''' from {{Equipment/Link|14cm Single Gun Mount}}
+
+'''From quests: '''[[Quests#C53|C53]] (x2, choice)
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|14cm Twin Gun Mount}}, {{Equipment/Link|14cm Twin Gun Mount Kai}}
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2014-10-24:''' '''Implemented'''
+* '''2015-05-18:''' [[Gun Fit Bonuses|Invisible fit bonuses]] added
+* '''2017-10-25:''' '''Stats increased:'''  '''{{Firepower}}+3 → {{Firepower}}+4 '''
+* '''2017-12-11:''' [[Gun Fit Bonuses|Invisible fit bonuses]] increased
+* '''2018-11-29:''' Visible bonuses added
+* '''2020-01-14:''' Became '''upgradeable''' to {{Equipment/Link|14cm Twin Gun Mount Kai}}
+</div></div>
+
+==Fit Bonuses==
+{{:14cm Twin Gun Mount/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine2
+|Name={{PAGENAME}}
+|ItemType=RedGunMedium
+|Fuel=10
+|Ammo=60
+|Steel=100
+|Baux=0
+|Mats0-5=2/2
+|Mats6-9=2/4
+|Mats10=-
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=-
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{RedGunMedium|14cm Twin Gun Mount}}
+|EquipConsume10=-
+|Mon=✓
+|Thu=✓
+|2ndShip=[[Yuubari]]
+|Mats10:2=14/48
+|Screws10:2=8/14
+|EquipConsume10:2=1x{{RedGunMedium|15.2cm Twin Gun Mount}}<br>2x{{GunMat}}
+|Sun:2=&nbsp;<br>D<br>&nbsp;
+|Mon:2=2<br>&nbsp;<br>&nbsp;
+|Tue:2=2<br>D<br>T
+|Wed:2=2<br>D<br>T
+|Thu:2=2<br>D<br>T
+|Fri:2=&nbsp;<br>D<br>T
+|2ndShip:2=[[Yuubari#Second Upgrade|Yuubari Kai Ni]]<br>[[Yuubari#Third Upgrade|Yuubari Kai Ni D]]<br>[[Yuubari#Fourth Upgrade|Yuubari Kai Ni Toku]]
+|Notes:2=Uses 1x [[15.2cm Twin Gun Mount]] to upgrade to [[14cm Twin Gun Mount Kai]].
+}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=RedGunMedium
+|Fuel=10
+|Ammo=60
+|Steel=100
+|Baux=0
+|Mats0-5=2/2
+|Mats6-9=2/4
+|Mats10=14/48
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=8/14
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{RedGunMedium|14cm Twin Gun Mount}}
+|EquipConsume10=1x{{RedGunMedium|15.2cm Twin Gun Mount Kai}}<br>2x{{GunMat}}
+|Mon=✓
+|Tue=✓
+|Wed=✓
+|Thu=✓
+|2ndShip=[[Kashima]]
+|Notes=Uses 1x [[15.2cm Twin Gun Mount Kai]] to upgrade to [[14cm Twin Gun Mount Kai]].
+}}
+|}
+
+==Trivia==
+This gun was historically mounted on the ''[[Yuubari]]'' as well as the [[:Category:Katori Class|''Katori''-class]] Light Cruiser. 
+
+==See also==
+{{Equipmentlist}}
+[[Category:Equipment]]

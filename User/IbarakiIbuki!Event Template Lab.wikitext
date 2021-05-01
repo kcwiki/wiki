@@ -1,0 +1,713 @@
+==[[Spring 2017 Event#E-4|Spring 2017, E-4]]==
+;E-4 Data Submission Forms <!-- by [[User:Tsubakura|Tsubakura]] -->
+[https://goo.gl/forms/ks0DBug5hCxlzmRp2 Submit a report]<br>
+[https://docs.google.com/spreadsheets/d/1F1dp7824akFfapnp1CE5ac_MgVvxgo_ALvmcZ8pY8kw View all submitted reports]<br>
+
+{| style="background:#def; border:1px solid lightblue; width:100%; {{border-radius|16px 8px 16px 8px}};"
+|-
+|
+===Summary===
+<!-- Icon and Map -->
+{| style="float:right; margin: 10px;"
+|- 
+| style="padding-bottom: 10px;" | [[File:Spring2017E-4Banner.png|500px]]
+|- 
+| style="padding-top: 10px;" | [[File:Spring2017E-4Map.png|500px]]
+|}
+<!-- Event name, tag & difficulty -->
+{| style="width: 50%; margin: 10px;"
+!rowspan="2" style="text-align: center; width: 70%; background-color:#f33; color:white; border:1px solid lightgray; {{border-radius|16px 0px 0px 16px}}"|'''<span style="font-size:20px">Interception! Protect the 11th Tank Battalion!</span>'''
+'''逆上陸！士魂の反撃'''
+!style="width: 18%; background-color:seashell; border:1px solid lightgray;"|'''Event Tag''' 
+|style="text-align: center; background-color:white; border:1px solid lightgray; {{border-radius|0px 16px 0px 0px}}"|[[File:OrangeTag.png]] 
+|-
+!style="background-color:seashell; border:1px solid lightgray;"|'''Difficulty''' 
+|style="text-align: center; background-color:white; border:1px solid lightgray; {{border-radius|0px 0px 16px 0px}}"|<span style="font-size:24px">☆</span><span style="font-size:18px">☆☆</span>
+|}
+<!-- Boss Info -->
+{| style="width: 50%; margin: 10px;"
+!rowspan="3" style="text-align: center; width: 70%; background-color:coral; border:1px solid lightgray; {{border-radius|16px 0px 0px 16px}}"|'''Boss Phase<br>[[Northernmost Landing Princess]]
+!style="width: 18%; background-color:SeaGreen; color:white; border:1px solid lightgray;"|'''Hard (甲)''' 
+|style="text-align: center; background-color:white; border:1px solid lightgray; {{border-radius|0px 8px 0px 0px}}"| '''3450'''
+|-
+!style="background-color:MediumSeaGreen; border:1px solid lightgray;"|'''Medium (乙)''' 
+|style="text-align: center; background-color:white; border:1px solid lightgray;"| '''3150'''
+|-
+!style="background-color:LightSeaGreen; border:1px solid lightgray;"|'''Easy (丙)''' 
+|style="text-align: center; background-color:white; border:1px solid lightgray; {{border-radius|0px 0px 8px 0px}}"| '''2900'''
+|}
+<!-- Rewards Table -->
+{| class=wikitable style="width: 50%; margin: 0px 10px;"
+!colspan="3" style="text-align: center; background-color:Aquamarine;"|Rewards
+|- 
+! style="text-align: center; background-color:MediumAquamarine;"|'''Common'''
+|colspan="2" style="vertical-align:top;"| 
+*1x Prototype Flight Deck Catapult
+*1x Medal
+|- style="text-align: center;"
+! style="width: 34%; background-color:SeaGreen; color:white;"|'''Hard (甲)''' 
+! style="width: 33%; background-color:MediumSeaGreen;"| '''Medium (乙)''' 
+! style="width: 33%; background-color:LightSeaGreen;"| '''Easy (丙)'''
+|- style="vertical-align:top;"
+|
+*[[Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (55th Squadron)]]
+*1x Reinforcement Expansion
+*1x Skilled Pilot
+|
+*1x Reinforcement Expansion 
+*1x Skilled Pilot
+| style="text-align:center;"| N/A
+|}
+
+===Branching Table===
+Branching compositions were reported  over the course of the event.
+{{MapBranchingTable
+|title = E-4 Branching Rules
+
+|0 -> A = 
+* If the fleet contains SS(V):
+** Fleet will always go to A, anything else is irrelevant.
+* If the fleet does not contain SS(V):
+** Meet '''all''' of the following requirements:
+*** No CV(L/B) allowed
+*** Fast Fleet
+*** Amount of CL ≧ 1
+*** Amount of DD ≧ 3
+|0 -> D = * Does not meet the requirements to go to A.
+
+|A -> B = * Fixed Route
+
+|C -> F/empty = * Fail the LoS check
+|C -> E = * Pass the LoS check
+
+|D -> A = * ???
+|D -> G = * ???
+
+|J/empty -> L, N = * Active Branching
+
+|L -> K = * ???
+|L -> O = * ???
+
+|N -> O = * ???
+|N -> Q = * ???
+
+|O -> P = * Fixed route?
+
+|K -> I = * Pass the LoS check
+|K -> M/empty = * Fail the LoS check
+}}
+
+===Enemy Fleets===
+<tabber>Hard=
+{{#invoke:EnemyEncounters|encounterTemplate
+|A_label = 
+|A1_node_info = ca_ri-class_flagship ca_ri-class_flagship cl_he-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class
+|A1_form = line_ahead double_line echelon
+|A1_xp = 
+|A1_enemy_air_power = 
+|
+|B_label = '''<span style="color:green">Air Battle Node</span>'''
+|B1_node_info = cvl_nu-class_elite cl_he-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|B1_form = diamond
+|B1_xp = 
+|B1_enemy_air_power = 97
+|B2_node_info = cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|B2_form = diamond
+|B2_xp = 
+|B2_enemy_air_power = 111
+|
+|C_label = 
+|C1_node_info = cvl_nu-class_elite cl_he-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|C1_form = diamond
+|C1_xp = 
+|C1_enemy_air_power = 97
+|C2_node_info = cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class dd_ro-class
+|C2_form = diamond
+|C2_xp = 
+|C2_enemy_air_power = 111
+|
+|D_label = 
+|D1_node_info = cl_he-class_flagship clt_chi-class_flagship clt_chi-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class
+|D1_form = line_ahead double_line echelon
+|D1_xp = 
+|D1_enemy_air_power = 
+|
+|E_label = '''<span style="color:green">Air Battle Node</span>'''
+|E1_node_info = airfield_princess airfield_princess
+|E1_form = line_ahead
+|E1_xp = 
+|E1_enemy_air_power = 82
+|E2_node_info = airfield_princess airfield_princess
+|E2_form = diamond
+|E2_xp = 
+|E2_enemy_air_power = 96
+|E3_node_info = airfield_princess airfield_princess
+|E3_form = double_line
+|E3_xp = 
+|E3_enemy_air_power = 116
+|E4_node_info = airfield_princess airfield_princess
+|E4_form = diamond
+|E4_xp = 
+|E4_enemy_air_power = 136
+|
+|F_label = 
+|F1_node_info = "Must be my imagination" (battle avoided)
+|
+|G_label = 
+|G1_node_info = ss_so-class_flagship ss_so-class_elite
+|G1_form = echelon
+|G1_xp = 
+|G1_enemy_air_power = 
+|G2_node_info = ss_so-class_flagship ss_so-class_flagship
+|G2_form = line_abreast echelon
+|G2_xp = 
+|G2_enemy_air_power = 
+|
+|H_label = 
+|H1_node_info = bb_ta-class dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class dd_ro-class
+|H1_form = line_ahead
+|H1_xp = 
+|H1_enemy_air_power = 
+|H2_node_info = bb_ta-class dd_ha-class_late_model dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|H2_form = line_ahead
+|H2_xp = 
+|H2_enemy_air_power = 
+|H3_node_info = bb_ta-class bb_ta-class dd_ha-class_late_model dd_ha-class_late_model dd_ro-class dd_ro-class
+|H3_form = line_ahead
+|H3_xp = 
+|H3_enemy_air_power = 
+|
+|I_label = '''<span style="color:red">Enemy Combined Fleet</span>'''
+|I1_node_info = <center> '''Main Fleet''' </center> northernmost_landing_princess transport_wa-class transport_wa-class transport_wa-class dd_ha-class_late_model dd_ha-class_late_model <center> '''Escort Fleet''' </center> cl_he-class_flagship dd_ha-class_late_model dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|I1_form = cruising_form_3
+|I1_xp = 
+|I1_enemy_air_power = ?
+|I2_node_info = <center> '''Main Fleet''' </center> northernmost_landing_princess bb_ru-class_flagship transport_wa-class_flagship transport_wa-class_flagship dd_ha-class_late_model dd_ha-class_late_model <center> '''Escort Fleet''' </center> cl_he-class_flagship dd_ha-class_late_model dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|I2_form = cruising_form_3
+|I2_xp = 
+|I2_enemy_air_power = ?
+|
+|J_label = 
+|J1_node_info = Choose your route
+|
+|K_label = 
+|K1_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model dd_ro-class
+|K1_form = diamond
+|K1_xp = 
+|K1_enemy_air_power = 135
+|K2_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model dd_ro-class
+|K2_form = diamond
+|K2_xp = 
+|K2_enemy_air_power = 135
+|
+|L_label = 
+|L1_node_info = bb_ru-class_flagship bb_ru-class_flagship bb_ru-class_flagship cvl_nu-class_flagship dd_ro-class_late_model dd_ro-class_late_model
+|L1_form = line_ahead double_line diamond
+|L1_xp = 
+|L1_enemy_air_power = 111
+|
+|M_label = 
+|M1_node_info = "Must be my imagination" (battle avoided)
+|
+|N_label = '''<span style="color:green">Air Battle Node</span>'''
+|N1_node_info = cvl_nu-class_elite cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|N1_form = diamond
+|N1_xp = 
+|N1_enemy_air_power = 120
+|N2_node_info = cvl_nu-class_elite cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|N2_form = diamond
+|N2_xp = 
+|N2_enemy_air_power = 120
+|N3_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_he-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|N3_form = diamond
+|N3_xp = 
+|N3_enemy_air_power = 121
+|
+|O_label = 
+|O1_node_info = ss_so-class_flagship ss_yo-class_elite ss_yo-class_elite
+|O1_form = echelon
+|O1_xp = 
+|O1_enemy_air_power = 
+|O2_node_info = ss_so-class_flagship ss_so-class_elite ss_so-class_elite
+|O2_form = line_abreast echelon
+|O2_xp = 
+|O2_enemy_air_power = 
+|
+|P_label = '''<span style="color:green">Air Battle Node</span>'''
+|P1_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model dd_ro-class
+|P1_form = diamond
+|P1_xp = 
+|P1_enemy_air_power = 135
+|P2_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model dd_ro-class
+|P2_form = diamond
+|P2_xp = 
+|P2_enemy_air_power = 135
+|
+|Q_label = 
+|Q1_node_info = cvl_nu-class_elite cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|Q1_form = diamond
+|Q1_xp = 
+|Q1_enemy_air_power = 120
+|Q2_node_info = cvl_nu-class_elite cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|Q2_form = diamond
+|Q2_xp = 
+|Q2_enemy_air_power = 120
+|Q3_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_he-class_flagship cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|Q3_form = diamond
+|Q3_xp = 
+|Q3_enemy_air_power = 121
+|
+|
+|final_form = I2
+|boss_node = I
+}}
+|-|Medium=
+{{#invoke:EnemyEncounters|encounterTemplate
+|A_label = 
+|A1_node_info = ca_ri-class_flagship ca_ri-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class
+|A1_form = line_ahead double_line echelon
+|A1_xp = 
+|A1_enemy_air_power = 
+|
+|B_label = '''<span style="color:green">Air Battle Node</span>'''
+|B1_node_info = cvl_nu-class_elite cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|B1_form = diamond
+|B1_xp = 
+|B1_enemy_air_power = 24
+|B2_node_info = cvl_nu-class_flagship cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|B2_form = diamond
+|B2_xp = 
+|B2_enemy_air_power = 23
+|B3_node_info = cvl_nu-class_elite cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|B3_form = diamond
+|B3_xp = 
+|B3_enemy_air_power = 97
+|
+|C_label = 
+|C1_node_info = cvl_nu-class_elite cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|C1_form = diamond
+|C1_xp = 
+|C1_enemy_air_power = 24
+|C2_node_info = cvl_nu-class_flagship cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|C2_form = diamond
+|C2_xp = 
+|C2_enemy_air_power = 23
+|C3_node_info = cvl_nu-class_elite cl_ho-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|C3_form = diamond
+|C3_xp = 
+|C3_enemy_air_power = 97
+|
+|D_label = 
+|D1_node_info = cl_ho-class_flagship clt_chi-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|D1_form = line_ahead double_line echelon
+|D1_xp = 
+|D1_enemy_air_power = 
+|
+|E_label = '''<span style="color:green">Air Battle Node</span>'''
+|E1_node_info = airfield_princess
+|E1_form = diamond
+|E1_xp = 
+|E1_enemy_air_power = 48
+|E2_node_info = airfield_princess
+|E2_form = double_line
+|E2_xp = 
+|E2_enemy_air_power = 68
+|E3_node_info = airfield_princess airfield_princess
+|E3_form = line_ahead
+|E3_xp = 
+|E3_enemy_air_power = 82
+|E4_node_info = airfield_princess airfield_princess
+|E4_form = diamond
+|E4_xp = 
+|E4_enemy_air_power = 96
+|
+|F_label = 
+|F1_node_info = "Must be my imagination" (battle avoided)
+|
+|G_label = 
+|G1_node_info = ss_so-class_elite ss_so-class_elite
+|G1_form = line_abreast echelon
+|G1_xp = 
+|G1_enemy_air_power = 
+|G2_node_info = ss_so-class_flagship ss_so-class
+|G2_form = line_abreast echelon
+|G2_xp = 
+|G2_enemy_air_power = 
+|G3_node_info = ss_so-class_flagship ss_so-class_elite
+|G3_form = echelon
+|G3_xp = 
+|G3_enemy_air_power = 
+|
+|H_label = 
+|H1_node_info = bb_ta-class dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class dd_ro-class
+|H1_form = line_ahead echelon
+|H1_xp = 
+|H1_enemy_air_power = 
+|H2_node_info = bb_ta-class dd_ha-class_late_model dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|H2_form = diamond
+|H2_xp = 
+|H2_enemy_air_power = 
+|
+|I_label = '''<span style="color:red">Enemy Combined Fleet</span>'''
+|I1_node_info = <center> '''Main Fleet''' </center> northernmost_landing_princess transport_wa-class transport_wa-class dd_ha-class_late_model dd_ro-class dd_ro-class <center> '''Escort Fleet''' </center> cl_he-class_flagship dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class dd_ro-class
+|I1_form = cruising_form_3
+|I1_xp = 
+|I1_enemy_air_power = ?
+|I2_node_info = <center> '''Main Fleet''' </center> northernmost_landing_princess bb_ru-class_elite transport_wa-class_elite transport_wa-class_elite dd_ha-class_late_model dd_ha-class_late_model <center> '''Escort Fleet''' </center> cl_he-class_flagship dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class dd_ro-class
+|I2_form = cruising_form_3
+|I2_xp = 
+|I2_enemy_air_power = ?
+|
+|J_label = 
+|J1_node_info = Choose your route
+|
+|K_label = 
+|K1_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|K1_form = diamond
+|K1_xp = 
+|K1_enemy_air_power = 121
+|K2_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|K2_form = diamond
+|K2_xp = 
+|K2_enemy_air_power = 135
+|K3_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model dd_ro-class
+|K3_form = diamond
+|K3_xp = 
+|K3_enemy_air_power = 135
+|
+|L_label = 
+|L1_node_info = bb_ru-class_flagship bb_ru-class_flagship bb_ru-class_flagship cvl_nu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|L1_form = line_ahead double_line diamond
+|L1_xp = 
+|L1_enemy_air_power = 97
+|
+|M_label = 
+|M1_node_info = "Must be my imagination" (battle avoided)
+|
+|N_label = '''<span style="color:green">Air Battle Node</span>'''
+|N1_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_he-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|N1_form = diamond
+|N1_xp = 
+|N1_enemy_air_power = 121
+|N2_node_info = cvl_nu-class_elite cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|N2_form = diamond
+|N2_xp = 
+|N2_enemy_air_power = 120
+|
+|O_label = 
+|O1_node_info = ss_so-class_flagship ss_ka-class_elite ss_ka-class_elite
+|O1_form = line_abreast echelon
+|O1_xp = 
+|O1_enemy_air_power = 
+|O2_node_info = ss_so-class_flagship ss_yo-class_elite ss_yo-class_elite
+|O2_form = echelon
+|O2_xp = 
+|O2_enemy_air_power = 
+|
+|P_label = '''<span style="color:green">Air Battle Node</span>'''
+|P1_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|P1_form = diamond
+|P1_xp = 
+|P1_enemy_air_power = 121
+|P2_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|P2_form = diamond
+|P2_xp = 
+|P2_enemy_air_power = 135
+|P3_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model dd_ro-class
+|P3_form = diamond
+|P3_xp = 
+|P3_enemy_air_power = 135
+|
+|Q_label = 
+|Q1_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_he-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|Q1_form = diamond
+|Q1_xp = 
+|Q1_enemy_air_power = 47
+|Q2_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_he-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|Q2_form = diamond
+|Q2_xp = 
+|Q2_enemy_air_power = 121
+|Q3_node_info = cvl_nu-class_elite cvl_nu-class_flagship cl_he-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class_late_model
+|Q3_form = diamond
+|Q3_xp = 
+|Q3_enemy_air_power = 120
+|
+|
+|final_form = I2
+|boss_node = I
+}}
+|-|Easy=
+{{#invoke:EnemyEncounters|encounterTemplate
+|A_label = 
+|A1_node_info = ca_ri-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|A1_form = line_ahead double_line echelon
+|A1_xp = 
+|A1_enemy_air_power = 
+|
+|B_label = '''<span style="color:green">Air Battle Node</span>'''
+|B1_node_info = cvl_nu-class_elite cl_ho-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|B1_form = diamond
+|B1_xp = 
+|B1_enemy_air_power = 24
+|B2_node_info = cvl_nu-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|B2_form = diamond
+|B2_xp = 
+|B2_enemy_air_power = 23
+|B3_node_info = cvl_nu-class_elite cl_ho-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|B3_form = diamond
+|B3_xp = 
+|B3_enemy_air_power = 97
+|
+|C_label = 
+|C1_node_info = cvl_nu-class_elite cl_ho-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|C1_form = diamond
+|C1_xp = 
+|C1_enemy_air_power = 24
+|C2_node_info = cvl_nu-class_flagship cl_ho-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|C2_form = diamond
+|C2_xp = 
+|C2_enemy_air_power = 23
+|C3_node_info = cvl_nu-class_elite cl_ho-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|C3_form = diamond
+|C3_xp = 
+|C3_enemy_air_power = 97
+|
+|D_label = 
+|D1_node_info = cl_ho-class_flagship dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class dd_ro-class
+|D1_form = line_ahead double_line echelon
+|D1_xp = 
+|D1_enemy_air_power = 
+|
+|E_label = '''<span style="color:green">Air Battle Node</span>'''
+|E1_node_info = airfield_princess
+|E1_form = diamond
+|E1_xp = 
+|E1_enemy_air_power = 48
+|E2_node_info = airfield_princess
+|E2_form = double_line
+|E2_xp = 
+|E2_enemy_air_power = 68
+|E3_node_info = airfield_princess airfield_princess
+|E3_form = line_ahead
+|E3_xp = 
+|E3_enemy_air_power = 82
+|
+|F_label = 
+|F1_node_info = "Must be my imagination" (battle avoided)
+|
+|G_label = 
+|G1_node_info = ss_so-class_elite ss_so-class
+|G1_form = echelon
+|G1_xp = 
+|G1_enemy_air_power = 
+|G2_node_info = ss_so-class_elite ss_so-class_elite
+|G2_form = line_abreast echelon
+|G2_xp = 
+|G2_enemy_air_power = 
+|G3_node_info = ss_so-class_flagship ss_so-class
+|G3_form = line_abreast echelon
+|G3_xp = 
+|G3_enemy_air_power = 
+|
+|H_label = 
+|H1_node_info = ca_ri-class_elite dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|H1_form = line_ahead echelon
+|H1_xp = 
+|H1_enemy_air_power = 
+|H2_node_info = ca_ri-class_elite dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class dd_ro-class
+|H2_form = line_ahead
+|H2_xp = 
+|H2_enemy_air_power = 
+|
+|I_label = '''<span style="color:red">Enemy Combined Fleet</span>'''
+|I1_node_info = <center> '''Main Fleet''' </center> northernmost_landing_princess transport_wa-class transport_wa-class dd_ha-class_late_model dd_ro-class dd_ro-class <center> '''Escort Fleet''' </center> dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class dd_ro-class dd_ro-class
+|I1_form = cruising_form_3
+|I1_xp = 
+|I1_enemy_air_power = ?
+|I2_node_info = <center> '''Main Fleet''' </center> northernmost_landing_princess transport_wa-class_elite transport_wa-class_elite dd_ha-class_late_model dd_ro-class dd_ro-class <center> '''Escort Fleet''' </center> dd_ha-class_late_model dd_ro-class dd_ro-class dd_ro-class dd_ro-class dd_ro-class
+|I2_form = cruising_form_3
+|I2_xp = 
+|I2_enemy_air_power = ?
+|
+|J_label = 
+|J1_node_info = Choose your route
+|
+|K_label = 
+|K1_node_info = cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|K1_form = diamond
+|K1_xp = 
+|K1_enemy_air_power = 24
+|K2_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class dd_ro-class dd_ro-class dd_ro-class
+|K2_form = diamond
+|K2_xp = 
+|K2_enemy_air_power = 121
+|K3_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|K3_form = diamond
+|K3_xp = 
+|K3_enemy_air_power = 121
+|
+|L_label = 
+|L1_node_info = bb_ru-class_flagship bb_ru-class_elite bb_ru-class_elite cvl_nu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|L1_form = line_ahead double_line diamond
+|L1_xp = 
+|L1_enemy_air_power = 97
+|
+|M_label = 
+|M1_node_info = "Must be my imagination" (battle avoided)
+|
+|N_label = '''<span style="color:green">Air Battle Node</span>'''
+|N1_node_info = cvl_nu-class_elite cl_he-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|N1_form = diamond
+|N1_xp = 
+|N1_enemy_air_power = 24
+|N2_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_he-class_flagship cl_tsu-class dd_ro-class dd_ro-class
+|N2_form = diamond
+|N2_xp = 
+|N2_enemy_air_power = 47
+|N3_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_he-class_flagship cl_tsu-class dd_ro-class dd_ro-class
+|N3_form = diamond
+|N3_xp = 
+|N3_enemy_air_power = 121
+|
+|O_label = 
+|O1_node_info = ss_so-class_elite ss_ka-class_elite ss_ka-class_elite
+|O1_form = line_abreast echelon
+|O1_xp = 
+|O1_enemy_air_power = 
+|O2_node_info = ss_so-class_elite ss_yo-class_elite ss_yo-class_elite
+|O2_form = echelon
+|O2_xp = 
+|O2_enemy_air_power = 
+|
+|P_label = '''<span style="color:green">Air Battle Node</span>'''
+|P1_node_info = cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class dd_ro-class
+|P1_form = diamond
+|P1_xp = 
+|P1_enemy_air_power = 24
+|P2_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class dd_ro-class dd_ro-class dd_ro-class
+|P2_form = diamond
+|P2_xp = 
+|P2_enemy_air_power = 121
+|P3_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|P3_form = diamond
+|P3_xp = 
+|P3_enemy_air_power = 121
+|
+|Q_label = 
+|Q1_node_info = cvl_nu-class_elite cl_he-class_flagship cl_tsu-class dd_ro-class_late_model dd_ro-class dd_ro-class
+|Q1_form = diamond
+|Q1_xp = 
+|Q1_enemy_air_power = 24
+|Q2_node_info = cvl_nu-class_flagship cvl_nu-class_elite cl_he-class_flagship cl_tsu-class dd_ro-class dd_ro-class
+|Q2_form = diamond
+|Q2_xp = 
+|Q2_enemy_air_power = 47
+|Q3_node_info = cvl_nu-class_elite cvl_nu-class_elite cl_he-class_flagship cl_tsu-class dd_ro-class dd_ro-class
+|Q3_form = diamond
+|Q3_xp = 
+|Q3_enemy_air_power = 121
+|
+|final_form = I2
+|boss_node = I
+}}
+</tabber>
+
+===Drops===
+<!---To all the new players who are wanting to contribute data we are providing you with a simple reference to use to review kanmusus that will likely to drop, please refer the common list of ships which can be added once they appear as your drop:
+Common DD: [[Fubuki]], [[Shirayuki]], [[Hatsuyuki]], [[Murakumo]], [[Ayanami]], [[Isonami]], [[Shikinami]], [[Oboro]], [[Sazanami]], [[Akebono]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Inazuma]], [[Ikazuchi]], [[Mutsuki]], [[Kisaragi]], [[Satsuki]] [[Fumizuki]] [[Nagatsuki]] [[Kikuzuki]] [[Mikazuki]] [[Mochizuki]] [[Shiratsuyu]], [[Shigure]], [[Yuudachi]], [[Murasame]], [[Samidare]], [[Suzukaze]], [[Akigumo]]
+Common CL: [[Tenryuu]] [[Tatsuta]] [[Nagara]] [[Natori]] [[Isuzu]] [[Yura]] [[Sendai]] [[Jintsuu]] [[Naka]] [[Kuma]] [[Tama]] [[Kiso]] [[Kitakami]] [[Ooi]] 
+Common CA: [[Furutaka]] [[Kako]] [[Aoba]] [[Kinugasa]] [[Takao]] [[Atago]] [[Maya]] [[Choukai]] [[Chikuma]] [[Tone]] [[Mogami]] [[Suzuya]] [[Kumano]] 
+Common AV: [[Chitose]] [[Chiyoda]]
+Common CV/CVL: [[Akagi]] [[Kaga]] [[Souryuu]] [[Hiryuu]] [[Shoukaku]] [[Zuikaku]] [[Shouhou]] [[Ryuujou]] [[Hiyou]] [[Junyou]] [[Houshou]]
+Common SS: [[I-168]] [[I-58]] [[I-19]] [[I-8]]
+Common Auxiliary: [[Katori]]
+For more rare ships, use the [[Ship name|'''<span style="color:red">ship name</span>''']]--->
+{{#invoke:DropTable|createDropTable
+| A_DD = [[Akebono]] [[Arare]] [[Arashio]] [[Asashio]] [[Hatsuharu]] [[Hatsushimo]] [[Kasumi]] [[Michishio]] [[Ooshio]] [[Shiranui]] [[Ushio]] [[Wakaba]]
+| A_CL = [[Kiso]] [[Tama]]
+| A_CA = [[Ashigara]] [[Nachi]]
+| C_DD = [[Akebono]] [[Arare]] [[Arashio]] [[Asashio]] [[Hatsuharu]] [[Hatsushimo]] [[Kasumi]] [[Michishio]] [[Ooshio]] [[Shiranui]] [[Ushio]] [[Wakaba]]
+| C_CL = [[Isuzu]] [[Jintsuu]] [[Kiso]] [[Naka]] [[Natori]] [[Sendai]] [[Tama]] [[Yura]]
+| C_CA = [[Ashigara]] [[Atago]] [[Chikuma]] [[Choukai]] [[Maya]] [[Mogami]] [[Nachi]] [[Tone]]
+| D_DD = [[Akebono]] [[Arare]] [[Arashio]] [[Asashio]] [[Hatsuharu]] [[Hatsushimo]] [[Kasumi]] [[Michishio]] [[Ooshio]] [[Shiranui]] [[Ushio]] [[Wakaba]]
+| D_CL = [[Kiso]] [[Tama]]
+| D_CA = [[Ashigara]] [[Nachi]]
+| H_DD = [[Akebono]] [[Akizuki|'''<span style="color:red">Akizuki</span>''']] [[Arare]] [[Arashio]] [[Asagumo|'''<span style="color:red">Asagumo</span>''']] [[Asashio]] [[Hatsuharu]] [[Hatsukaze|'''<span style="color:red">Hatsukaze</span>''']] [[Hatsushimo]] [[Kasumi]] [[Michishio]] [[Ooshio]] [[Shiranui]] [[Ushio]] [[Wakaba]] [[Yamagumo|'''<span style="color:red">Yamagumo</span>''']]
+| H_CL = [[Isuzu]] [[Jintsuu]] [[Kiso]] [[Kuma]] [[Nagara]] [[Naka]] [[Natori]] [[Sendai]] [[Tama]] [[Yura]] [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+| H_CA = [[Ashigara]] [[Atago]] [[Chikuma]] [[Choukai]] [[Haguro]] [[Maya]] [[Mogami]] [[Myoukou]] [[Nachi]] [[Takao]] [[Tone]]
+| H_SS = [[Maruyu|'''<span style="color:red">Maruyu</span>''']]
+| I_DE = [[Etorofu|'''<span style="color:red">Etorofu</span>''']] [[Shimushu|'''<span style="color:red">Shimushu</span>''']]
+| I_DD = [[Akebono]] [[Akigumo|'''<span style="color:red">Akigumo</span>''']] [[Asagumo|'''<span style="color:red">Asagumo</span>''']] [[Hamakaze|'''<span style="color:red">Hamakaze</span>''']] [[Hatsuharu]] [[Hatsushimo]] [[Hibiki]] [[Ikazuchi]] [[Inazuma]] [[Kagerou]] [[Kasumi]] [[Kuroshio]] [[Murasame]] [[Naganami|'''<span style="color:red">Naganami</span>''']] [[Samidare]] [[Shimakaze|'''<span style="color:red">Shimakaze</span>''']] [[Shiranui]] [[Shiratsuyu]] [[Suzukaze]] [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']] [[Urakaze|'''<span style="color:red">Urakaze</span>''']] [[Ushio]] [[Wakaba]] [[Yamagumo|'''<span style="color:red">Yamagumo</span>''']] [[Yuudachi]] [[Yuugumo|'''<span style="color:red">Yuugumo</span>''']]
+| I_CL = [[Abukuma|'''<span style="color:red">Abukuma</span>''']] [[Jintsuu]] [[Kinu|'''<span style="color:red">Kinu</span>''']] [[Kiso]] [[Kitakami]] [[Kuma]] [[Nagara]] [[Ooi|'''<span style="color:red">Ooi</span>''']] [[Sendai]] [[Tama]] [[Tatsuta]] [[Tenryuu]] [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+| I_CA = [[Aoba]] [[Atago]] [[Chikuma]] [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']] [[Mogami]] [[Myoukou]] [[Nachi]] [[Takao]] [[Tone]]
+| I_BB = [[Haruna]] [[Hiei]] [[Kirishima]] [[Kongou]] [[Fusou]] [[Hyuuga]] [[Ise]] [[Mutsu|'''<span style="color:red">Mutsu</span>''']] [[Yamashiro]]
+| I_CV = [[Akagi|'''<span style="color:red">Akagi</span>''']] [[Kaga]]
+| I_SS = [[I-19|'''<span style="color:red">I-19</span>''']]
+| I_AUX = [[Akashi|'''<span style="color:red">Akashi</span>''']] [[Akitsumaru|'''<span style="color:red">Akitsumaru</span>''']]
+| K_DD = [[Akebono]] [[Arare]] [[Arashio]] [[Asagumo|'''<span style="color:red">Asagumo</span>''']] [[Asashio]] [[Hatsuharu]] [[Hatsukaze|'''<span style="color:red">Hatsukaze</span>''']] [[Kasumi]] [[Michishio]] [[Ooshio]] [[Shiranui]] [[Wakaba]] [[Yamagumo|'''<span style="color:red">Yamagumo</span>''']]
+| K_CL = [[Isuzu]] [[Jintsuu]] [[Kiso]] [[Kuma]] [[Nagara]] [[Naka]] [[Natori]] [[Sendai]] [[Tama]] [[Yura]] [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+| K_CA = [[Ashigara]] [[Atago]] [[Chikuma]] [[Choukai]] [[Haguro]] [[Maya]] [[Mogami]] [[Myoukou]] [[Nachi]] [[Takao]] [[Tone]]
+| L_DD = [[Akebono]] [[Arare]] [[Arashio]] [[Asashio]] [[Hatsuharu]] [[Hatsushimo]] [[Kasumi]] [[Michishio]] [[Shiranui]] [[Ushio]] [[Wakaba]]
+| L_CL = [[Isuzu]] [[Jintsuu]] [[Kiso]] [[Naka]] [[Natori]] [[Sendai]] [[Tama]] [[Yura]]
+| L_CA = [[Ashigara]] [[Atago]] [[Chikuma]] [[Choukai]] [[Maya]] [[Myoukou]] [[Nachi]] [[Takao]] [[Tone]]
+| Q_DD = [[Akebono]] [[Akizuki|'''<span style="color:red">Akizuki</span>''']] [[Arare]] [[Arashio]] [[Asagumo|'''<span style="color:red">Asagumo</span>''']] [[Asashio]] [[Hatsuharu]] [[Hatsukaze|'''<span style="color:red">Hatsukaze</span>''']] [[Hatsushimo]] [[Kasumi]] [[Michishio]] [[Ooshio]] [[Shiranui]] [[Ushio]] [[Wakaba]] [[Yamagumo|'''<span style="color:red">Yamagumo</span>''']]
+| Q_CL = [[Isuzu]] [[Jintsuu]] [[Kiso]] [[Kuma]] [[Nagara]] [[Naka]] [[Natori]] [[Sendai]] [[Tama]] [[Yura]] [[Yuubari|'''<span style="color:red">Yuubari</span>''']]
+| Q_CA = [[Ashigara]] [[Atago]] [[Chikuma]] [[Choukai]] [[Haguro]] [[Maya]] [[Mogami]] [[Nachi]] [[Tone]]
+| Q_SS = [[Maruyu|'''<span style="color:red">Maruyu</span>''']]
+}}
+
+===Notes===
+{|
+ |- style="vertical-align: top;"
+ |{{AirControlSystem
+    | Map   = E-4
+    | AS    = 204
+    | Notes = 333 air power is required for AS+ on C node and 408 for AS+ on E node.
+  }}
+ |{{AirControlSystem
+    | Map   = E-4 [[Land-Based Air Squadron|LBAS]]
+    | AS    = 108
+    | Notes = Range to the boss node is 1
+  }}
+|}
+
+'''Boss Notes:'''
+* '''Anti-Installation''' equipment is required to kill [[Northernmost Landing Princess]]
+** [[WG42]], [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]], [[Type 3 Shell]], [[Daihatsu-class Landing Craft]], [[Type 2 Ka-Mi Tank]], [[Toku Daihatsu Landing Craft + 11th Tank Regiment]]
+* [[ Northernmost Landing Princess]] has a weakness to [[Type 97 Torpedo Bomber]] and [[Type 97 Torpedo Bomber (Tomonaga Squadron)]].
+
+'''Land-Based Air Squadron:'''
+* This map features 3 land-bases where a maximum of 2 can be sortied.
+* Hard and Normal features land-base raids where the Abyssal will target land bases resulting in lost planes and resources.
+* The range to the boss node is 1 with a fighter power require of 48/108/216 for AP,AS,AS+ respectively.
+
+===Tips===
+====Recommended Compositions====
+{| class=wikitable style="width: 95%; margin: auto;"
+|-
+! style="text-align:center; width: 25%;" | Fleet !! style="text-align:center; width: 75%" | Notes
+|-
+| style="text-align:center; font-weight:bold;" | 1 CL 3 DD 2 CAV
+|
+* Path: A-B-C-E-H-I
+* This composition starts on the West side.
+|-
+| style="text-align:center; font-weight:bold;" | '''3-4 CV(B) 1-2 CAV 1 SS(V)'''
+|
+* Path: A-B-C-E-H-I
+* This composition starts on the West side and focuses on opening strikes and strong shelling.
+* It uses an SS(V) to enable west routing and can also draw the shelling of [[Northernmost Landing Princess]].
+** This route can force a lot of early retreats due to sub getting taiha in node C.
+|}
+
+'''Equipment Setups'''
+* CAVs need to be armed with Anti-Installation gear.
+* SS(V) should use turbines and possibly a damecon if necessary. 
+*CVs should use a Torpedo bombers / Fighter set up and also possibly carry a [[Saiun]]. Also bring [[Type 97 Torpedo Bomber]] type planes as they are a weakness to the boss node.
+
+'''Land-Based Air Squadron:'''
+*It is recommended to set your third base to defense mode with 3 or 4 of you best Interceptor or Fighter planes along with a [[Saiun]].
+* If you have Jet Planes, feel free to use them to target the boss node since with an additional air strike you can actually take our possibly more ships making the run more easily.
+
+<!-- End of Table -->
+|}

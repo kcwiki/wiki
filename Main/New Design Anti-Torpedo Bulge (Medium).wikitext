@@ -1,0 +1,48 @@
+{{EquipmentInfo|203}}
+
+==Introduction==
+新設計された艦艇の防御力を強化する増加装甲の一種です。重巡洋艦以上の中型艦艇の船体側面への増設により防御力を高めることが可能です。<br>
+(重巡洋艦級・軽空母級・水上機母艦及び特定艦艇に適用可能です。）
+
+Newly designed armour for increasing ships' defences.<br>
+It can be used to increase the defences of medium-sized ships that are heavy cruisers or larger when mounted on the sides of the hull.<br>
+(Possible to equip on heavy cruisers, light carriers, seaplane tenders and other specific ships.)
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Upgradeable''' from {{Equipment/Link|Anti-torpedo Bulge (Medium)}}
+
+'''From quests: '''[[Quests#B92|B92]], [[Quests#B95|B95]] (choice)
+
+</div></div>
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=ArmorEquipment
+|Fuel=170
+|Ammo=0
+|Steel=870
+|Baux=70
+|Mats0-5=16/24
+|Mats6-9=28/35
+|Mats10=-
+|Screws0-5=6/9
+|Screws6-9=8/12
+|Screws10=-
+|EquipConsume0-5=2x{{ArmorEquipment|Anti-torpedo Bulge (Medium)}}
+|EquipConsume6-9=3x{{ArmorEquipment|Anti-torpedo Bulge (Medium)}}
+|EquipConsume10=-
+|Tue=Z
+|Wed=Z
+|Thu=Z
+|2ndShip=[[Zara#Second Upgrade|Zara due]]
+|Notes=
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Armor]]

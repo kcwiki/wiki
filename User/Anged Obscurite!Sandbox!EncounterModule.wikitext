@@ -1,0 +1,37 @@
+===Nodes and Enemy Encounters===
+
+{{#invoke:EnemyEncounters/Sandbox|encounterTemplate
+|boss = C
+|A_label= <span style="color:blue">Active Branching</span>
+|A1_node_info = (no combat)
+|
+|B_label= <span style="color:blue">Active Branching</span>
+|B1_node_info = (no combat)
+|
+|C_label = 東洋方面反攻先遣隊
+|C1_xp = 210
+|C1_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_flagship cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|C1_form = line_ahead
+|C1_enemy_air_power = 33
+|C2_xp = 210
+|C2_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|C2_form = double_line
+|C2_enemy_air_power = 0
+|C3_xp = 200
+|C3_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_elite cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|C3_form = line_ahead double_line
+|
+|D1_xp = 210
+|D1_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|D1_form = double_line
+|D1_enemy_air_power = 0
+|D2_xp = 210
+|D2_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_elite cl_tsu-class_elite dd_ha-class_late_model dd_ha-class_late_model
+|D2_form = double_line
+|D3_xp = 200
+|D3_node_info = bb_ta-class_flagship ca_ri-class_flagship ca_ri-class_elite cl_tsu-class_elite dd_ro-class_late_model dd_ro-class_late_model
+|D3_form = line_ahead double_line
+|
+|final_form = D2
+|post_final_form = D3
+}}

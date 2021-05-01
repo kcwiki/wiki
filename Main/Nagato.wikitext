@@ -1,0 +1,723 @@
+==Info==
+{{KanmusuInfo|ID=001}}
+{{KanmusuInfo|ID=001a}}
+{{KanmusuInfo|ID=341}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* She can carry seaplane fighters on Kai.
+* She gains the ability to equip small-caliber guns, daihaitsu and tank on Kai Ni.
+* She gains a special attack on Kai Ni called "'''Full broadside... Sounds exciting!'''" (一斉射かッ…胸 が熱いな！) that targets 3 enemies at random. 
+** Activation requirements are as follows:  
+*** Nagato Kai Ni must be the flagship.
+*** Another battleship must be in the 2nd position.
+*** She must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>.
+*** The rest of the fleet must not contain a submarine.
+*** '''Echelon formation''' needs to be selected in a single fleet OR '''Cruising Formation 2''' for a combined fleet.
+** If triggered, Nagato will do two attacks with a 1.4x post-cap modifier and the other battleship will do a 3rd attack with a 1.2x post-cap modifier.
+*** If [[Mutsu]] is the 2nd ship, Nagato gains a 1.61x post-cap modifier while Mutsu gains a 1.62x post-cap modifier.
+*** If [[Mutsu|Mutsu Kai Ni]] is the 2nd ship, both Nagato and Mutsu will gain a 1.68x post-cap modifier.
+*** If [[Nelson]] is the 2nd ship, Nagato will gain a 1.54x post-cap modifier while Nelson gains a 1.5x post-cap modifier.
+*** An AP shell will provide an extra 1.35x multiplicative bonus.
+*** A radar with 5 or more LoS stat will provide an extra 1.15x multiplicative bonus.
+*** See below for calculated bonus:
+{| class="mw-collapsible" style="width: 100%;"
+!rowspan="2" style="width: 20%; text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Equipment'''
+!colspan="2" style="width: 20%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''With Mutsu'''
+!colspan="2" style="width: 20%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''With Mutsu Kai Ni'''
+!colspan="2" style="width: 20%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''With Nelson'''
+!colspan="2" style="width: 20%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''With Other BB'''
+|-
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 1 and 2'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 3'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 1 and 2'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 3'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 1 and 2'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 3'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 1 and 2'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 3'''
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; |'''AP + Radar'''
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.49
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.51
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.60
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.60
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.39
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.32
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.17
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.86
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; |'''AP Only'''
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.17
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.18
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.26
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.26
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.07
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.02
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.89
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.62
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; |'''Radar Only'''
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.85
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.86
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.93
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.93
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.77
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.72
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.61
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.38
+|-
+|style="width: 20%; text-align: center; border-radius: 0 0 0 6px; border-style: solid; border-width: 1px; |'''No Bonus Equipment'''
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.61
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.62
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.68
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.68
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.54
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.50
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.40
+|style="width: 10%; text-align: center; border-radius: 0 0 6px 0; border-style: solid; border-width: 1px; | 1.20
+|-
+|}
+
+** It can be triggered even if you fail to activate artillery spotting.
+** It can only be activated '''once per sortie'''.
+** It has a chance to trigger every time Nagato takes a turn at shelling. If it fails to trigger in day, there is a chance to trigger it in the followup night battle.
+** The attack will consume extra ammo from both participating battleships when triggered. The total ammo consumption will be x1.5 of the original ammo consumption of when the attack is triggered ([https://twitter.com/syoukuretin/status/1063895644790677504 Source]), hence:
+
+**If it is triggered in day battle, it costs 10% extra ammo.
+**If it is triggered in a night battle node, it costs 5% extra ammo.
+**If it is triggered in a night battle in a normal node, it costs 15% extra ammo.
+
+===Overview===
+'''Kai'''
+* Good firepower, HP and armour.
+
+'''Kai Ni'''
+* Great firepower and armour.
+* Good HP.
+* Requires blueprint.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+'''Hidden Fit Bonuses'''
+* She has accuracy bonuses and penalties when equipped with certain large guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+Priority: 
+
+* Kai: '''High'''
+: Being obtainable from normal construction and having a low remodel level makes her a valuable part of the fleet. Her high firepower, armour and HP will make her a mainstay until you obtain the LSC or event-only battleships. Although she can carry seaplane fighters, she needs to compromise her combat ability to do so.
+* Kai Ni: '''Medium-High'''
+: Your first Kai Ni between [[Nagato]] and [[Mutsu]] should be a priority because of their powerful skill. Ideally Nagato herself due to quest prequisites. Aside from that, she gains a significant boost to her firepower and armour. Her ability to equip daihatsu also gives her potential in the anti-installation role. Though her performace against surface targets will suffer. Her blueprint requirement and high remodel level makes her take a back seat to other battleships if you already have Mutsu at Kai Ni.
+
+====Recommended Roles====
+* Combat
+* Anti-Installation - Kai Ni
+* Support Expeditions
+
+====Not Recommended Roles====
+* Air Support
+
+===Important Info===
+* Required for quests A42, A74, B31, and B99. 
+* An option for A43 and Bm4.
+==Voice Lines==
+===Quote===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 私が戦艦長門だ、よろしく頼むぞ。敵戦艦との殴り合いなら任せておけ。
+|translation = I am Battleship Nagato, pleased to meet you. Leave fighting the enemy battleships to me.
+|audio = Nagato-Intro.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = Yes
+|origin = この長門、まだまだ新入りには負けないさ。
+|translation = I won't lose to newcomers just yet.
+|audio = NagatoKai-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai2 = Yes
+|origin = 改装されたこの長門、まだまだ新入りには負けないさ。行くぞっ！
+|translation = The remodelled me still won't lose to any newcomers. Let's do this!
+|audio = NagatoKaiNi-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 八八艦隊計画の第一号艦として生まれた、長門型戦艦のネームシップ、長門だ。
+大和型が就役するまで、連合艦隊旗艦も務めていたさ。
+世界のビッグ７と云われてもいたな。
+|translation = Born as the premier ship of the Eight-Eight Fleet Program, and name ship of the Nagato-class battleships, I'm Nagato.<ref>Referring to the [https://en.wikipedia.org/wiki/Eight-eight_fleet Eight-Eight Fleet Program] that called for 8 battleships and 8 battlecruisers to be built to allow Japan to face the growing threat of the US in the Pacific.</ref>
+I served as the flagship of the combined fleet until the Yamato-class entered service.
+I was also called one of the world's Big 7.<ref>The "Big 7" were the 7 battleships in the world that were allowed to mount 16 inch guns according to the negotiations of Washington Naval Conference. They were the IJN Nagato and Mutsu; the HMS Nelson and Rodney; and the USN Colorado, Maryland and West Virginia.</ref>
+|audio = Nagato-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = なんだ？
+|translation = What is it?
+|audio = Nagato-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 私の顔に、何か付いているのか？
+|translation = Is there something on my face?
+|audio = Nagato-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = あまり艤装には触らないでもらいたいものだな…
+|translation = I'd like it if you didn't touch my equipment so much...
+|audio = Nagato-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kai = Yes
+|origin = んっ、なっ……!? い……いや……き、嫌いでは……ない……
+|translation = Hmm, wha...!? N... no... I... I don't dislike... this...
+|audio = NagatoKai-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = Yes
+|origin = ん？何…別に時間を持て余しているわけではないぞ。あぁそうだ、忙しいな…
+|translation = Hm? What... It's not like I have loads of free time. Yes, that's right, I'm busy...
+|audio = Nagato-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 大丈夫……私はあなたと共にある。
+|translation = It's alright.... I'm here with you.
+|audio = Nagato-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = なんだろう？記憶の彼方にある、あの光景は？敵味方の艦たち、そしてあの巨大な光…。疲れているのか…な、提督。
+|translation = What could that be? What is this scene that lies deep in my memories? Friendly and enemy ships; and then an enormous light... I think I might be working too hard... Right, Admiral... <ref>Referring to [https://en.wikipedia.org/wiki/Operation_Crossroads Operation Crossroads] where she was sunk as a target ship along with other US, IJN and KM ships.</ref>
+|audio = Nagato-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 司令部から連絡だ。
+|translation = It's a message from Headquarters.
+|audio = Nagato-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|kai2 = Yes
+|origin = 情報だな？了解だ。
+|translation = Information? Roger that.
+|audio = NagatoKaiNi-PlayerScore.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 戦艦長門、出撃する！
+|translation = Battleship Nagato, sortieing!
+|audio = Nagato-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai2 = Yes
+|origin = 第一戦隊！旗艦長門！出る！
+|translation = 1st Fleet! Flagship, Nagato! Setting off!
+|audio = NagatoKaiNi-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = ありがたい。これなら奴とも戦えるな
+|translation = My thanks. Now I can fight them.
+|audio = Nagato-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = 近代化改修か。私には必要ないのだが…
+|translation = Modernization? I don't require something like that...
+|audio = Nagato-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai2 = Yes
+|origin = この兵装は...うむ、更に強くなるな。
+|translation = This equipment... Yup, it makes me stronger.
+|audio = NagatoKaiNi-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = いいだろう。
+|translation = Good.
+|audio = Nagato-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|kai2 = Yes
+|origin = ふっ、この長門を、侮るな。
+|translation = Humph, don't underestimate me.
+|audio = NagatoKaiNi-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = Yes
+|origin = そうだ。食える時に食っておかねばな。
+|translation = That's right. I need to eat when there's time to eat.
+|audio = NagatoKai-Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor)
+|origin = 少し整備が必要だな。
+|translation = Some maintenance is essential.
+|audio = Nagato-Docking(Minor).ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major)
+|origin = 艦隊決戦は万全の状態で戦いたいからな。
+|translation = One should be in perfect condition for the decisive battle.<ref>Referring to the IJN doctrine of [[Wikipedia:Kantai_Kessen|Kantai Kessen]] which formed the basis of their WW2 strategy.</ref>
+|audio = Nagato-Docking(Major).ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新たな仲間が進水したようだ。楽しみだな
+|translation = It seems our new comrade has been launched. I'm looking forward to seeing her.　
+|audio = Nagato-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Return From Sortie
+|origin = 作戦終了だ。艦隊が帰投したぞ。
+|translation = Operation complete. The fleet has returned to port.
+|audio = Nagato-Return_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Return From Sortie
+|kai2 = Yes
+|origin = 艦隊、帰投だ。よしっ！
+|translation = The fleet has returned. Good!
+|audio = NagatoKaiNi-SortieReturn.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 第一戦隊、出撃するぞ！
+|translation = 1st Squadron, sortie!
+|audio = Nagato-Start_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai2 = Yes
+|origin = 戦艦長門！出撃するぞ！続け！
+|translation = Battleship Nagato! Sortieing! Follow me!
+|audio = NagatoKaiNi-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = ビッグセブンの力、侮るなよ。
+|translation = Don't underestimate the power of the Big 7.
+|audio = Nagato-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|kai2 = Yes
+|origin = 改装されたビッグセブンの力、侮るなよ！
+|translation = Don't underestimate the power of a remodelled Big Seven!
+|audio = NagatoKaiNi-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 待ちに待った艦隊決戦か。胸が熱いな。
+|translation = The long-awaited decisive battle huh. I'm getting fired up.
+|audio = Nagato-Attack_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Daytime Spotting/ Night Battle Attack
+|origin = 全主砲、斉射。…てーい！
+|translation = All main cannons, volley. Fiiiiire!
+|audio = Nagato-Attack_3(NB).ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = よし!艦隊、この長門に続け!
+|translation = Alright! Fleet, follow me!
+|audio = Nagato-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 連合艦隊旗艦を務めた栄光に比べれば微々たるものだが、もらっておこう…か…
+|translation = This is insignificant compared to the glory of serving as the flagship of the combined fleet but, I accept... this...
+|audio = Nagato-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = フッ、効かぬわ。
+|translation = Hah! That did nothing!
+|audio = Nagato-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = 長門型の装甲は伊達ではないよ！
+|translation = The Nagato-class' armour is not just for show!
+|audio = Nagato_Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = っ…敵艦隊もなかなかやるな…
+|translation = Damn...The enemy fleet is also pretty good...
+|audio = Nagato-Moderately_Damaged.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 戦いの中で沈むのだ…あの光ではなく…本望だな…
+|translation = All I really wanted... was to sink in battle... not in that light...<ref>Nagato was sunk after two nuclear tests that were conducted at Bikini Atoll.</ref>
+|audio = Nagato-Sunk.ogg
+}}
+|}<references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+| scenario    =00:00
+| origin      =よし！今日はこの長門が秘書艦を務めよう。何、大舟に乗ったつもりで、私に任せておけ。
+| translation =Alright! I'll be serving as the secretary ship today. What? Just board this great ship and leave it to me.
+| audio       = NagatoKai-0000.mp3
+}}
+{{ShipquoteKai
+| scenario    =01:00
+| origin      =マルヒトマルマルだ。ふっ、異常なし...だな。
+| translation =It’s 0100. Hmm, looks like... nothing is amiss.
+| audio       = NagatoKai-0100.mp3
+}}
+{{ShipquoteKai
+| scenario    =02:00
+| origin      =マルフタマルマルだ。どうした、提督。少し疲れたか？私か？私は問題なしだ。
+| translation =It’s 0200.  What is it, Admiral? Are you a bit tired? Me? I’m perfectly okay.
+| audio       = NagatoKai-0200.mp3
+}}
+{{ShipquoteKai
+| scenario    =03:00
+| origin      =マルサンマルマルだ。夜はまだ長いな。何、お茶？悪いな、提督。ありがたい。頂こう。
+| translation =It’s 0300. There's still a long night ahead. What, tea? Sorry for making you do this, Admiral. I'm grateful. I accept.
+| audio       =NagatoKai-0300.mp3
+}}
+{{ShipquoteKai
+| scenario    =04:00
+| origin      =マルヨンマルマル。次のお茶はこの長門が淹れよう。大丈夫、任せておけ。お茶くらい...ふっ、ええと...お茶っ葉は...
+| translation =It’s 0400. I'll make the next batch of tea.  It’ll be fine, leave it to me. It's just tea... Ummm, uhh... The tea leaves are...
+| audio       =NagatoKai-0400.mp3
+}}
+{{ShipquoteKai
+| scenario    =05:00
+| origin      =マルゴウマルマルだ。もうすぐ夜が明けるな。ン、フンンン...夜明けは気持ちのいいものだ。
+| translation =It’s 0500. It's almost time for the night to lift. Ngh, hnnngh... Dawn feels great.
+| audio       =NagatoKai-0500.mp3
+}}
+{{ShipquoteKai
+| scenario    =06:00
+| origin      =マルロクマルマル。艦隊、総員起し！朝だ！起きろ！さ、顔を洗って、しゃきっとな！
+| translation =0600. Fleet, all hands assemble! It's morning! Wake up! Now, hurry up and wash your faces!
+| audio       =NagatoKai-0600.mp3
+}}
+{{ShipquoteKai
+| scenario    =07:00
+| origin      =マルナナマルマルだ。さ、朝飯を掻っ込んで、配置に就こう。打っ掛け飯でいいな、頂きます！
+| translation =It's 0700. Come on, gulp down breakfast and get to your stations. Bukkake dishes are great, thanks for the meal!<ref>A "bukkake dish" is a dish where the boiling broth is poured over the dish before eating.</ref>
+| audio       =NagatoKai-0700.mp3
+}}
+{{ShipquoteKai
+| scenario    =08:00
+| origin      =マルハチマルマル。よし、腹ごなしは朝の演習だな。第一戦隊！集結せよ！砲戦演習を開始する！
+| translation =0800. We'll do some morning exercises to help with digestion. 1st Squadron! Gather round! We're beginning artillery exercises!
+| audio       =NagatoKai-0800.mp3
+}}
+{{ShipquoteKai
+| scenario    =09:00
+| origin      =マルキュウマルマルだ。うむ、朝は体を動かすのが気持ちがいいな。はははは！提督もどうだ？お？
+| translation =It's 0900. Yup, it feels good to move your body around in the morning. Hahahaha! How are you doing, Admiral? Oh?
+| audio       =NagatoKai-0900.mp3
+}}
+{{ShipquoteKai
+| scenario    =10:00
+| origin      =ヒトマルマルマ...おお、陸奥。何？問題なし...だ。これは？あ、昼飯用か。ん、ありがたい。
+| translation =100... Oh, Mutsu. What is it? Everything is... fine. What's this? Oh, for lunch huh. Mmm, my thanks.
+| audio       =NagatoKai-1000.mp3
+}}
+{{ShipquoteKai
+| scenario    =11:00
+| origin      =ヒトヒトマルマルだ。もうすぐ昼飯の時間か。陸奥の作ってくれた握り飯を食おう。うん！
+| translation =It's 1100. It's nearly time for lunch. Let's have those rice balls that Mutsu made for us. Yup!
+| audio       =NagatoKai-1100.mp3
+}}
+{{ShipquoteKai
+| scenario    =12:00
+| origin      =ヒトフタマルマル。昼だな。ん、昼飯だ。海で食う握り飯は、うまいな。格別だ！お茶もあるぞ！
+| translation =1200. It's noon. Hmmm, time for lunch. Rice balls are tasty when eaten at sea.  Amazing! Let's have some tea too!
+| audio       =NagatoKai-1200.mp3
+}}
+{{ShipquoteKai
+| scenario    =13:00
+| origin      =ヒトサンマルマルだ。よし、午後も頑張って行こう！大和たちとガッチリ演習をやるか。な！
+| translation =It's 1300. Alright, let's do our best this afternoon too! Let's join up with Yamato and the others for proper exercises. Right?
+| audio       =NagatoKai-1300.mp3
+}}
+{{ShipquoteKai
+| scenario    =14:00
+| origin      =ヒトヨンマルマル。大和、武蔵、行くぞ！艦隊演習だ。全力で行こう。手加減なしだ！
+| translation =1400. Yamato, Musashi, let's go! It's time for fleet exercises! Let's go all out. Don't hold back!
+| audio       =NagatoKai-1400.mp3
+}}
+{{ShipquoteKai
+| scenario    =15:00
+| origin      =ヒトゴウマルマル。何、八八艦隊？あ、そうだ。その為に建造されたんだ。まあ、昔の話さ。ふふふ...
+| translation =1500. What, the Eight-Eight Fleet Program? Ah, of course. I was built because of that. Well, it's an old story. Fufufu. 
+| audio       =NagatoKai-1500.mp3
+}}
+{{ShipquoteKai
+| scenario    =16:00
+| origin      =ヒトロクマルマルだ。ん、そうだな。食料確保も大事なことだ。何、クジラは？ほお...ふん...なるほどな。
+| translation =It's 1600. Hmmm, that's right. Securing food supplies is also important. What, whales? Hmmm... Humph.... I see.<ref>During and following WW2, [https://en.wikipedia.org/wiki/Whaling_in_Japan#World_War_II whaling] was seen as a source of cheap meat.</ref>
+| audio       =NagatoKai-1600.mp3
+}}
+{{ShipquoteKai
+| scenario    =17:00
+| origin      =ヒトナナマルマル。夕陽が落ちる...な。何だろうな、提督。美しいが、少し...悲しいな...
+| translation =1700. The sun is setting.... Hey. Why do you think it is, Admiral; that I find it so beautiful... but a bit sad as well...
+| audio       =NagatoKai-1700.mp3
+}}
+{{ShipquoteKai
+| scenario    =18:00
+| origin      =ヒトハチマルマルだ。夕飯の時間だな。任せてお...何、提督が？ほ...そうか。よし、待っていよう。
+| translation =It's 1800. It's time for dinner right. Leave it to... What, you'll do it, Admiral? Oh...Is that so? Okay, I'll be waiting.
+| audio       =NagatoKai-1800.mp3
+}}
+{{ShipquoteKai
+| scenario    =19:00
+| origin      =ヒトキュウマルマル。んっんん、いい匂いだな。本格的だな。いいのか。ん、よし！頂こう！
+| translation =1900. Mmmm, that smells great. It's seriously great. Can I have some?  Hmm, Ok! I'll help myself! 
+| audio       =NagatoKai-1900.mp3
+}}
+{{ShipquoteKai
+| scenario    =20:00
+| origin      =フタマルマルマルだ。うん、美味い！提督の作る飯は大和とも張り合えるではないか。大した物だ。
+| translation =2000. Yes, it's delicious! Your cooking is as good as Yamato's, Admiral. You did great.
+| audio       =NagatoKai-2000.mp3
+}}
+{{ShipquoteKai
+| scenario    =21:00
+| origin      =フタヒトマルマ...騒がしいな。三水戦か？ふん、元気なのはいいが、奴には私から少し言っておこう。
+| translation =210... It's nosiy. Is it DesRon3? Humph, it's good that they're enthusiastic but I'm going to have a word with them.
+| audio       =NagatoKai-2100.mp3
+}}
+{{ShipquoteKai
+| scenario    =22:00
+| origin      =フタフタ...おお、ウォースパイト。どうした？おお、ケーキの差し入れか。ありがたい。受け取ろう。
+| translation =22... Oh, Warspite. What's up? Oh, you brought us some cake? Thank you. I happily accept.
+| audio       =NagatoKai-2200.mp3
+}}
+{{ShipquoteKai
+| scenario    =23:00
+| origin      =フタサンマルマルだ。提督、今日はお疲れだった。しばし体を休めて、明日の戦いに臨んでくれ。お疲れ。
+| translation =It's 2300. Today was tiring, Admiral. Let's rest our bodies a while, for we must fight when tomorrow comes. Good work.
+| audio       =NagatoKai-2300.mp3
+}}
+|}<references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2013|Christmas 2013]]
+|origin = これが、クリスマスか。ふうん……そうか。
+|translation = Is this Christmas? Hmm... I see.
+|audio = Nagato_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2015|New Year 2015]]
+|origin = 謹賀新年が、胸が熱いな。
+|translation =	A Happy New Year...  I’m feeling pumped.
+|audio = Nagato_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2015|Rainy Season 2015]]
+|origin = 陸奥。…なんだ、傘か？…ああ、有り難い。梅雨の雨か…ま、たまにはこんな落ち着いた日も、悪くはないな。
+|translation =	Mutsu… An umbrella? …Ah, my thanks. Rain during the rainy season… Well, having a quiet day once in a while isn’t too bad.
+|audio = Nagato_Rainy_Secretary_1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_Season_Update|Early Summer 2015]]
+|origin = よし、夏だなッ！艦隊、水着で浜辺に集合だッ！演習……“びーちばれー”というのをやるぞッ！チーム分けはこの長門が考えておいたッ！
+|translation =	Alright, it’s summer! Fleet, assemble on the beach in swimsuits! We’ll be doing something called “Beach Volleyball”… for our exercise! I’ll decide the teams!
+|audio = Nagato_Early_Summer_HQ.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = もう師走か。一年はあっという間だな。ん？なんだ、陸奥？えぇ、大掃除？私もやるのか？あぁ、仕方ないな。どれ、雑巾がけだ！
+|translation =	It’s already the end of the year. The year sure flew by. Hmm? What is it, Mutsu? Eh, spring cleaning? You want me to do it too? Ah, can’t help it then. Now, time to wipte the floor! 
+|audio = Nagato_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 謹賀新年が、胸が熱いな。
+|translation =	Happy New Year, I’m pumped up.
+|audio = Nagato_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = 節分か…。鬼役を買って出てもいいが。いや、これは角ではないぞ？ あぁ、こら…もう投げてる駆逐艦が。仕方ないな…がおー！
+|translation =	It’s Setsubun… I should volunteer to be the Oni. No, these aren’t horns you know? Ah, hey… The destroyers are already throwing beans at me. I got no choice then… RAWR!
+|audio = Nagato_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = あ、あのだな…一応用意しておいたんだ。いや、陸奥のやつがだな、こういうのは大切だと。あぁ、これなんだ…どうだろうか…
+|translation =	Uh-ummm… I made these in case you wanted some. No, Mutsu told me that this was something important. Ah, so what… do you think…
+|audio = Nagato_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = これは…これが、陸奥に聞いた、例のお返しというものか？ありがたい。これは、胸が熱くなるものだな。いただこう。嬉しいぞ！
+|translation =	Is this… is this the customary return gift that Mutsu told me about? Thanks. It makes my heart swell. I accept. I’m happy!
+|audio = Nagato_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 我々も三周年か。胸が熱いな。よし、今日は酒保を盛大に開けよう！ …そうか。三周年か。早いものだな。
+|translation =	It’s our 3rd Anniversary. I’m fired up. Alright, let’s live it up in the PX today! …I mean. The 3rd Anniversary. Time flies.
+|audio = Nagato_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2017|Saury Festival 2017]]
+|origin = ふぅ、秋刀魚漁か。任せておけ。なぜか漁業支援には身体が動くんだ。うん、この長門の力、見せてやるぞ！
+|translation =	Humph, saury fishing. Leave it to me. My body wants to support the fisheries for some reason. Yup, I’ll show you my power!
+|audio = Nagato_Sec1_Saury_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = なんだと！？もう艦隊は五周年だというのか。そうか。胸は、暑いな。ありがとう。
+|translation =	What was that!? It’s already the fleet’s 5th Anniversary. I see. That really fires me up. Thank you.
+|audio = Nagato_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = 我々もついに六周年か。胸が熱いな。よし、今日は主砲盛大に開放しよう。そうか、六周年か。いや、早いものだ。
+|translation =	It's finally our 6th Anniversary. I'm feeling excited. Alright, let's give a grand welcome to today with my main guns. Really, the 6th Anniversary. Well, it sure came quickly.
+|audio = Nagato_6th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = 	ほぉ、そうか。艦隊は七周年を迎えたと言うのだな。うん、提督、陸奥よ、胸が、熱いな。ありがとう。
+|translation =	Hmm, I see. So you say it's the fleet's 7th Anniversary. Yes, Admiral, Mutsu, my heart swells with pride. Thank you.
+|audio = Nagato_7th_Anniversary_Secretary_1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = 提督、陸奥よ、我々もついに八周年か。本当に胸が暑いな。よし！今日は盛大に祝うとしよ！……八周年か…そうか。
+|translation =	Admiral, Mutsu, it's our 8th Anniversary. It makes me burn with pride. Alright! Let's have a grand celebration today! ...The 8th Anniversary... I see.
+|audio = Nagato_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = よーし！全主砲、行くぞ！一斉射、ってー！
+|translation =	Alright! All guns ready! Full broadside, FIRE!
+|audio = Nagato_FriendFleet.mp3
+|notes = Friend Fleet line
+}}
+{{SeasonalQuote
+|scenario = Nagato Special Attack
+|origin = 行くぞ！主砲、一斉射！うってぇ！！！！！！
+|translation =	Let's do this! Main guns, full broadside! FIRE!!!!!!!
+|audio = NagatoKai2-Special1.mp3
+|notes = Special Attack Line
+}}
+{{SeasonalQuote
+|scenario = Nagato Special Attack
+|origin = 陸奥よ、この長門に任せておけ！うってぇ！
+|translation =	Mutsu, leave it all to me! FIRE!
+|audio = NagatoKai2-Special2.mp3
+|notes = Special Attack Line with Mutsu
+}}
+{{SeasonalQuote
+|scenario = Nagato Special Attack
+|origin = 陸奥よ、この長門に続け！第一戦隊、突撃！主砲、一斉射！うってぇ！
+|translation =	Mutsu, follow me! First fleet, attack! Main guns, full broadside! FIRE!
+|audio = NagatoKai2-Special3.mp3
+|notes = Special Attack Line with Mutsu
+}}
+{{SeasonalQuote
+|scenario = Nagato Special Attack
+|origin = Nelsonか？面白い。行くぞ。うってぇ！
+|translation =	Nelson? Interesting. Let's do this! FIRE!
+|audio = NagatoKai2-Special4.mp3
+|notes = Special Attack Line with Nelson
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+1_3.png|Base
+1_4.png|Base Damaged
+KanMusu341CG.png|Kai Ni
+KanMusu341CGDmg.png|Kai Ni Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+KanMusu080_SurigaoStrait.png|[[Seasonal/Final_Battle|Final Battle 2018]]
+KanMusu080_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Final Battle 2018 Damaged]]
+KanMusu541_SurigaoStrait.png|[[Seasonal/Final_Battle|Kai Ni Final Battle 2018]]
+KanMusu541_SurigaoStraitDmg.png|[[Seasonal/Final_Battle|Kai Ni Final Battle 2018 Damaged]]
+</gallery>
+|}
+
+== Drop Locations ==
+{{#invoke:ShipDropTable|returnShipDrop|Nagato}}
+
+==Trivia==
+*She is named after [https://en.wikipedia.org/wiki/Nagato_Province Nagato Provice], modern day [https://en.wikipedia.org/wiki/Yamaguchi_Prefecture Yamaguchi Prefecture].
+* Nagato was part of the orginal game's launch when the game was released in April 23rd, 2013.
+*''Nagato'' was the only surviving Japanese Capital ship after World War II.
+*The "Giant Flash" she speaks of in her sunk and wedding lines is probably a reference to the Able Nuclear Test during Operation Crossroads, where a 23-kiloton air deployed nuclear weapon was detonated over Nagato and 94 other target ships.  Nagato had been deliberately placed near the epicenter of both the Able and Baker detonations because the Pearl Harbor attack had been commanded from her bridge.
+*Nagato managed to survive the Able Test unscathed, however she sprung a leak after the underwater detonation during the Baker Test, repair crews were unable to repair the leak due to high radiation levels and she capsized and sank during the night of 29/30 July 1946.
+* The real-life Nagato made a cameo in the animated movie, "The Wind Rises", shown with the serpentine funnel that came with her refitting between 1923-1925.
+*Sunk as a target during [http://en.wikipedia.org/wiki/Operation_Crossroads Operation Crossroads], 25 July 1946. Currently resting in 110 ft. of water, and upside-down, she is listed as one of the top 10 diving sites in the world.
+
+==See Also==
+*[[Nagato/Gallery|View Nagato CG]]
+*[[EliteBB|List of battleships]]
+*[[wikipedia:Japanese_battleship_Nagato|Wikipedia entry on battleship Nagato]]
+
+==References==
+<references/>
+{{shiplist}}
+[[zh:长门]]
+[[Category:World War II Survivors]]

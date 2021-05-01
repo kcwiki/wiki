@@ -1,0 +1,86 @@
+*An altered version of the [[Template:Shipinfo|Shipinfo]] template for use with enemy vessels; this template does not include ''build time'', which irrelevant to enemy vessels, and excludes the plane slot parameters for ships like destroyers without aerial capability.
+<pre>
+{{enemyshipinfo
+| name=
+| japanesename=
+| id=
+| image=
+| color=
+| type=
+| class=
+| hp=
+| firepower=
+| armor=
+| torpedo=
+| evasion=
+| AA=
+| aircraft=
+| speed=
+| LOS=
+| ASW=
+| range=
+| luck=
+| slot1=
+| slot2=
+| slot3=
+| slot4=
+}}
+</pre>
+*Input is identical to Shipinfo except the "| time=" and "| slot=" parameters, which are unneeded.
+**Additionally, coloring conventions differ between kanmusu and enemy vessels: color=(gray, red, yellow) for normal, elite, and flagship-tier vessels respectively. All boss enemies use color=red.
+<pre>
+{{enemyshipinfo
+| name=Destroyer I-Class
+| japanesename=駆逐イ級
+| id=501
+| image=[[File:I-n.png|218px]]
+| color=gray
+| type=Destroyer
+| class=Abyssal
+| hp=20
+| firepower=5
+| armor=5
+| torpedo=15
+| evasion=14
+| AA=6
+| aircraft=0
+| speed=Fast
+| LOS=3
+| ASW=25
+| range=Short
+| luck=1
+| slot1=5inch Single Cannon
+| slot2=-Unequipped-
+| slot3=-Locked-
+| slot4=-Locked-
+}}
+</pre>
+
+{{enemyshipinfo
+| name=Destroyer I-Class
+| japanesename=駆逐イ級
+| id=501
+| image=[[File:I-n.png|218px]]
+| color=gray
+| type=Destroyer
+| class=Abyssal
+| hp=20
+| firepower=5
+| armor=5
+| torpedo=15
+| evasion=14
+| AA=6
+| aircraft=0
+| speed=Fast
+| LOS=3
+| ASW=25
+| range=Short
+| luck=1
+| slot1=5inch Single Cannon
+| slot2=-Unequipped-
+| slot3=-Locked-
+| slot4=-Locked-
+}}
+
+<includeonly>[[Category:Templates]]</includeonly>
+<noinclude>[[Category:Template documentation]]</noinclude>

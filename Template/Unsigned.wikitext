@@ -1,0 +1,8 @@
+<small>—Preceding unsigned comment added by [[User:{{{1}}}|{{{1}}}]] ([[User talk:{{{1}}}|talk]] • [[Special:Contributions/{{{1}}}|contribs]]) {{{2|}}}</small><noinclude>
+
+*This template should be used for talk page comments that were not signed by their authors.
+*Syntax: {{t|Unsigned|username|time, date (UTC)}}, where the username is that of the user who did not sign their comment, and the time and date are when the comment was made.
+*Example: <nowiki>{{Unsigned|John Doe|20:00, 1 January 2000 (UTC)}}</nowiki> produces<br />{{Unsigned|John Doe|20:00, 1 January 2000 (UTC)}}
+*If you have set a UTC offset in your preferences, then account for it accordingly when checking the time and date.
+
+[[Category:Templates]]</noinclude>

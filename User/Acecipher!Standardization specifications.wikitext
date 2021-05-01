@@ -1,0 +1,73 @@
+This is an attempt to compile a list of what needs to be created, uploaded and updated when a new game object is introduced as well as a standard 
+
+
+Ships:
+# Create new ship page: {{Shipname}}
+#* Get ship stats put into shipinfo/shipinfo2
+#* Get ship lines Translated
+#* Get ship equipment when people recieve the ship
+#* When available, get LOS and Evasion, and later maxes.
+#* Create gallery page w/ ship CGs:
+# Upload images
+#* Card: {{Ship ID No.}}.png
+#* Gallery CGs:
+::::{{Shipname}}.png
+::::{{Shipname}}_dmg.png
+::::{{shipname}}_kai.png
+::::{{Shipname}}_kai_dmg.png
+::::{{Shipname}}_{{Seasonal Name}}.png
+::::{{Shipname}}_{{Seasonal Name}}_dmg.png
+# Update following pages:
+## Any event pages
+## Ship list template
+## Ship list
+## Ship list by images (Use card)
+## ship stats by class
+## List of ships by VA and Illustrator on the [[Glossary]]
+## Any [[Historical Formations]]
+
+Enemy Ships:
+#Create a page
+# Create new ship page: {{Shipname}}
+#* Get ship stats put into shipinfo/shipinfo2
+#* Get any ship lines Translated
+#* Get ship equipment 
+# Upload Card
+#Update:
+#* Any event pages
+#* List of Enemies
+
+Equipment:
+# Make an equipment page
+#* Put in stats and info into the template
+#* If a new Icon is needed, make it
+#* Translate description
+#* Add in any notes about standard equipment, ranking or quest rewards, or ship equipment
+# Upload:
+#* Card: Equipment{{IDno}}-1
+#* w/o card (Fairy + equip): Equipment{{IDno}}-2
+#* Fairy: Equipment{{IDno}}-3
+#* Equipment alone: Equipment{{IDno}}-2
+::: Example: [[:File:Equipment101-1]] 
+#Update Pages:
+#* [[Equipment]]
+#* Equipment template
+#* [[Equipment List (Image)]]
+#* [[Equipment Ranking]]
+
+Maps:
+# Make an anchor in the relevant world
+# Update the map template
+# Upload with format ((PUT FORMAT HERE))
+# Get node data put into maps (VERY IMPORTANT IN EVENTS)
+# Add in drops when available
+# Add in map description, title TL, etc.
+# Put in some strategies to help beat the map
+
+
+[[Quests]]:
+# TL Name and description
+# Add in rewards
+# Get requirements
+# Update Quests by ship list.
+# Update ship and equipment page.

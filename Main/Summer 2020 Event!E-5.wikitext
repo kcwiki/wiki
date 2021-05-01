@@ -1,0 +1,437 @@
+===E-5===
+{{center|[[File:OoyodoE-5SummerSeason2020.png|600px]]}}
+{{EventMap1
+|banner = [[File:SummerSeason2020E-5Banner.png|500px]]
+|map_image =[[File:SummerSeason2020E-5Map.png|500px]]
+|map_name = 
+|map_japanese = 南方戦線 島嶼海上輸送作戦
+|information = 
+*'''Event Tag''': [[File:RainySeason2020EventPurpleTag.png]]
+
+'''(Phase 1 - Boss Phase): 
+* Hard ({{lang|ja|甲}}): 2280 HP
+* Medium ({{lang|ja|乙}}): 2040 HP
+* Easy ({{lang|ja|丙}}): 1740 HP
+* Casual ({{lang|ja|丁}}): 1740 HP
+
+'''(Phase 2 - Transport Phase): 
+* Hard ({{lang|ja|甲}}): 960 TP
+* Medium ({{lang|ja|乙}}): 720 TP
+* Easy ({{lang|ja|丙}}): 480 TP
+* Casual ({{lang|ja|丁}}): 480 TP
+
+'''Key Rewards:'''
+* Clearing on Hard ({{lang|ja|甲}}): [[Emergency Repair Materials]] x5, [[Maritime Resupply]] x3, [[Action Report]] x1, Medal x1, [[Type 2 Land-based Reconnaissance Aircraft (Skilled)]] ★+2 x1, [[6inch Triple Rapid Fire Gun Mount Mk.16]] ★+7 x1
+* Clearing on Medium ({{lang|ja|乙}}): [[Emergency Repair Materials]] x4, [[Maritime Resupply]] x3, [[Action Report]] x1, [[Type 2 Land-based Reconnaissance Aircraft (Skilled)]] x1, [[6inch Triple Rapid Fire Gun Mount Mk.16]] ★+2 x1
+* Clearing on Easy ({{lang|ja|丙}}): [[Emergency Repair Materials]] x3, [[Maritime Resupply]] x2, [[Action Report]] x1, [[Type 2 Land Based Reconnaissance Aircraft]] x1
+* Clearing on Casual ({{lang|ja|丁}}): [[Emergency Repair Materials]] x1, [[Maritime Resupply]] x1, [[Type 2 Land Based Reconnaissance Aircraft]] x1
+
+{{MapBranchingTable
+|title = E-5 Branching Rules Part 1
+|expand = true
+|id = 48-5A
+|order = 0,C,E,G,F,H,J,P,T,I,L,M,Q
+
+|0 -> C/empty = 
+* Meet '''ALL''' of the following requirements:
+** Single Fleet
+** Fleet contains CAV/AV '''OR''' fleet contains only DD+DE
+** Amount of CL ≤ 2
+** No CLT, CA or CVL
+* Alternatively, use a fleet containing 1-2 SS(V) and nothing else. (Only 1 SS(V) allowed on Hard)
+|0 -> D/empty = * Do not meet any of the requirements to go to C.
+
+|C/empty -> A/empty = * Fail the LoS check.
+|C/empty -> B = * Pass the LoS check.
+
+|E/empty -> G/empty, H = * Active branching
+
+|G/empty -> F, I = * Active branching
+
+|F -> I = 
+* Meet '''ANY''' of the following requirements:
+** Surface/Carrier Task Force
+** Do not have the required LoS to go to either X1 or Y1.
+|F -> X1 = 
+* Meet '''ALL''' of the following requirements:
+** Pass the LoS check
+** Surface/Carrier Task Force not allowed.
+|F -> X3/empty = * Fail all LoS checks.
+|F -> Y1 = 
+* Meet '''ALL''' of the following requirements:
+** Pass the LoS check.
+** Fast+ Fleet
+
+|H -> J = 
+* Meet '''ALL''' of the following requirements:
+** Surface/Carrier Task Force
+** Amount of CVL ≤ 2
+|H -> I, K = 
+* From top to bottom:
+** If Combined Fleet and you do not meet the requirements to go to J, go to I.
+** If fleet contains CA or CLT, go to I.
+** If amount of ships = 6 '''AND''' amount of CL ≥ 2, go to K.
+** If fleet contains CVL '''AND''' Slow fleet, go to K.
+** If amount of ships ≤ 5 '''AND''' Slow Fleet, go to K.
+** Go to I if you do not meet any of the above requirements.
+
+|J -> N/empty = * Do not meet the requirements to go to P.
+|J -> P = 
+* Meet '''ALL''' of the following requirements:
+** Pass the LoS check.
+** Amount of CVL ≤ 2
+
+|P -> R, T = 
+* From top to bottom:
+** If amount of DD ≥ 4, go to T.
+*** 5 or more can cause random offroutes to R.
+** If Slow Fleet and fleet contains either 2SS(V) or AO, go to R.
+** If Fast Fleet and amount of CA(V)+CL+CT ≥ 6, go to R.
+*** 7 or more can cause random offroutes to T.
+** If Slow Fleet, go to T if you do not meet any of the above.
+** Else, go to R.
+|P -> S = * ???
+
+|T -> S = * Surface Task Force
+|T -> W = * Carrier Task Force
+
+|I -> K = * Do not meet the requirements to go to either L or M.
+|I -> L =
+* Meet '''ALL''' of the following requirements:
+** Fast Fleet
+** Amount of CL ≥ 1
+** Amount of DD ≥ 4
+** Single Fleet '''OR''' Transport Combined Fleet
+** Do not meet the requirements to go to M.
+|I -> M = 
+* Use a Fast Fleet and meet '''ANY''' of the following requirements:
+** Fleet is 1CL 4DD.
+** Fleet is 1CL 5DD and came from node H.
+
+|L -> M = * Do not meet the requirements to go to O.
+|L -> O = * Fast+ Fleet
+
+|M -> O = * Do not meet the requirements to go to Q.
+|M -> Q = 
+* Meet '''ALL''' of the following requirements:
+** Single Fleet
+** Fast Fleet
+** Amount of CL ≥ 1
+** Amount of DD ≥ 4
+
+|Q -> U/empty = * Do not meet the requirements to go to either Y or Y2.
+|Q -> Y = 
+* Meet '''ALL''' of the following requirements:
+** Do not meet the requirements to go to Y2.
+** Carrier Task Force not allowed.
+** Pass the LoS check.
+|Q -> Y2/empty = 
+* Meet '''ALL''' of the following requirements:
+** Pass the LoS check.
+** Fleet contains [[Akitsushima Kai]] or [[Akashi Kai]]
+}}
+
+{{MapBranchingTable
+|title = E-5 Branching Rules Part 2
+|expand = true
+|id = 48-5B
+|order = 0,C,B,Z4
+
+|0 -> C/empty = 
+* Meet '''ALL''' of the following requirements:
+** Single Fleet
+** Fleet contains CAV/AV '''OR''' fleet contains only DD+DE
+** Amount of CL ≤ 2
+** No CLT, CA or CVL
+* Alternatively, use a fleet containing 1-2 SS(V) and nothing else. (Only 1 SS(V) allowed on Hard)
+|0 -> D/empty = * Do not meet any of the requirements to go to C.
+
+|C/empty -> A/empty = * Fail the LoS check.
+|C/empty -> B = * Pass the LoS check, but fail to meet the requirements to go to either Z7 or Z8.
+|C/empty -> Z7 = 
+* Meet '''ALL''' of the following requirements:
+** Pass the LoS check.
+** Fast Fleet
+** Amount of ships ≤ 4
+** Amount of DD ≥ 3
+** No CAV
+|C/empty -> Z8 = 
+* Meet '''ALL''' of the following requirements:
+** Pass the LoS check.
+** Amount of ships ≤ 5
+** If amount of ships = 5, fleet may only contain DD.
+** Amount of DD ≥ 2
+** No CAV
+
+|B -> Z1 = * Do not meet the requirements to go to Z6.
+|B -> Z6 = 
+* Meet '''ANY''' of the following requirements:
+** Fast Fleet '''AND''' amount of DD ≥ 4
+** Amount of ships ≤ 5
+
+|Z4/resource -> Z = * Pass the LoS check.
+|Z4/resource -> Z2/empty = * Fail the LoS check.
+}}
+
+Branching compositions were reported over the course of the event.
+
+|tips =
+
+===Preparation===
+
+This map is not a particularly difficult map, but it is fairly long and tedious. In total, you need at least 2 CVL, 1CL (ideally [[Jintsuu]]), 5DD (ideally bonus DDs, see below), 0-2 SS(V), and 1 CAV/AV (preferably Fast or with RE).
+
+In addition to this the main question you need to ask yourself is:
+
+# Do you have a decent group of interceptors (along with rocket Interceptors)
+# Do you have a good line of ASW equipment along with ASW planes to help you in your land base?
+
+If you said yes to both of this, you're more or less ready to do Hard. Otherwise all other difficulties can be handled as long as you have the appropriate ships.
+
+'''As noted in Ooyodo's notes; All BB types and CV(B)s are not allowed on this map.'''
+
+Also note that there are several LoS checks on this map: Nodes C, F, J, Q, T (possibly), and Z4. Generally, 12+ LoS Cn1 should suffice for all nodes, although the requirement may be lower for fleets with <6 ships.
+
+Also because this map will only use 2 of 3 land bases, it's recommended that your 3rd Land base take up full defensive measures by being equipped with all interceptors and rocket interceptors (preferably 2 or more)
+
+===Introduction===
+
+This map will have you doing a total of 4 phases which are simple but terdious. Below is the following missions you must do:
+
+#Unlocking the path to Kolombangara
+#Chip and Sink the [[Light Cruiser Demon]]
+#Unlock the Transport path to Tuluvu
+#Depleting the TP Bar in the Transport Operation
+
+{{:Summer_2020_Event/E-5/historical_ships}}
+
+Out of all the historical ships listed, the safest ships to consider for this map are [[Jintsuu]], [[Satsuki]], [[Mochizuki]], [[Minazuki]], [[Mikazuki]], [[Minegumo]], [[Tanikaze]] and [[Hamakaze]].
+
+Others which can be considered for here but debatable are [[Kawakaze]] and [[Murasame]].
+
+Avoid using all others as most will be vital for E-6 and E-7.
+
+===Phase 1: Unlocking the path to Kolombangara===
+
+In this phase you will be organizing both a single and combined fleet to undertake tasks across the map. Depending on the difficulty, you will need to complete certain steps depending on the task. A summary of the requirements are listed below:
+
+{{:Summer_2020_Event/E-5/Unlocking_Guide_1}}
+
+Below from here, the following steps should be taken to clear each node.
+
+<tabber>
+|-| Node F=
+
+* '''Recommended Fleet: 1 CL, 5 DD'''
+* '''LBAS: LBAS 1 and 2 on Rest or Standby'''
+* '''Path: D-E-G-F'''
+
+Have all ships in your fleet armed with ASW equipment and they should do fine wiping out subs from this section.
+<br>
+Once the condition is met, a ding sound should occur once you return to homeport.
+|-| Node Q=
+
+* '''Recommended Fleet: 1 CL, 4-5 DD'''
+* '''LBAS Recommendation: LBAS 1 and 2 All 4 Bomber''' (LBAS 1 on M, LBAS 2 on Q)
+* '''Path 1: D-E-G-I-M-Q''' (If Fleet is 1CL, 4DD)
+* '''Path 2: D-E-G-I-L-M-Q''' (If Fleet is 1CL, 5DD)
+
+* Ships in your fleet should be mainly armed for surface battle.
+* At least one ship should be armed to OASW against the subs on Node I
+* Vanguard to improve your survival chances again the torpedo squadron on Node M
+* If you go towards Node L, consider arming your fleet with high angle guns and someone that can AACI to minimize the potential damage the air attack could do.
+* Node Q is another torpedo squadron, line ahead for this segment to eliminate all the ships.
+
+
+Once the condition is met, a ding sound should occur once you return to homeport.
+
+|-| Node W=
+* '''Recommended Fleet: (Carrier Task Force) 2 CVL, 1 CA, (2SS(V) <Optional> ) + 1 CL,1 CA 4 DD'''
+* '''LBAS Recommendation: '''
+** LBAS 1: 4 Bomber''' (Target Node J and P) (Distance of 4 and 5 needed)
+** LBAS 2: 1 Fighter 2-3 Bomber 0-1 Range Extender''' (Target Node W) (Distance of 7)
+* '''Path: D-E-H-J-P-T-W'''
+
+* CVL should be armed with 2 Torpedo Bombers, 1 Dive Bombers, 1 Fighter to ensure higher chance at taking out ships and surviving the nodes.
+* Node H is Submarines, Bring 1 ASW ship might be recommended
+* Node J and P are a surface fleet full of CLs, CAs, and DDs. Prepare for possible damage for your escort fleet.
+* Node T is an air attack, consider an AACI DD
+* Node W is a single fleet with some CVLs, and other lightweight ships, line ahead and eliminate the entire fleet to complete the requirement.
+<br>
+Once the condition is met, a ding sound should occur once you return to homeport.
+|-| Node V=
+* '''Recommended Fleet (Option 1): (Carrier Task Force) 2 CVL, 1 CA, + 1 CL,1 CA 3 DD''' ('''All Fast Fleet''')
+* '''Recommended Fleet (Option 2): (Carrier Task Force) 2 CVL, 1 CA, 2SS(V)or 1 AO + 1 CL,1 CA 3 DD''' 
+* '''LBAS Recommendation: '''
+** LBAS 1: 4 Bomber''' (Target Node J and P) (Distance of 4 and 5 needed)
+** LBAS 2: 1 Fighter 2-3 Bomber 0-1 Range Extender''' (Target Node V) (Distance of 7)
+* '''Path: D-E-H-J-P-R-V'''
+* If you bring 2 SS(V) or an AO, you can ignore speed moding your ships
+* If you choose not to bring the above mentioned, speed mod your slow CVLs to make them fast to meed the requirement.
+* You must only have 3 DD or less
+* CVL should be armed with 2 Torpedo Bombers, 1 Dive Bombers, 1 Fighter to ensure higher chance at taking out ships and surviving the nodes.
+* Speed modded CVLs should consider using 1 Torpedo Bomber and 1 Fighter ( or some variation depending on if your CVL has an expansion or not.
+* Node H is Submarines, Bring 1 ASW ship might be recommended
+* Node J and P are a surface fleet full of CLs, CAs, and DDs. Prepare for possible damage for your escort fleet.
+* Node R is an air attack, consider an AACI DD
+* Node V is a single fleet with some CVLs, and other lightweight ships, line ahead and eliminate the entire fleet to complete the requirement.
+<br>
+Once the condition is met, a ding sound should occur once you return to homeport.
+|-| Node P=
+*'''Recommended Fleet: See Node W and V'''
+*'''LBAS: Same as Node W and V requirements except concentrate on Node P
+*'''Casual mode Only'''
+
+Because this is only for casual mode, the guide on node W and V should do the trick, just focus your land base attack on P and line ahead on said node. The fleet should be cleared easily.
+<br>
+Once the condition is met, a ding sound should occur once you return to homeport.
+|-| AS Defense =
+
+*'''Recommended Fleet: N/A'''
+*'''LBAS: LBAS #3 - '''2 Interceptors / 2 Rocket Interceptors''' (If condition cannot be reached add more LB with addition interceptors if necessary)
+
+This can be done passively while doing other sections of the map. One Land Base should be enough if you have good enough interceptors and rocket interceptors, but is necessary, add more if needed.
+<br>
+Once the condition is met, a ding sound should occur once you return to homeport.
+|-|
+</tabber>
+
+Once all conditions are met the path to Kolombangara (Node Y) will be open and you can now proceed to the next phase.
+
+===Phase 2: Defeat Abyssal Jintsuu ( [[Light Cruiser Princess]] )===
+
+In this phase your fleet will have to go through the same path they took earlier to reach Node Y where they will need to fight off against the [[Light Cruiser Princess]]. [[Jintsuu]] is highly recommended for this section as she can in most occasions take out the princess in a single attack in night battle. The rest of your DDs will be there to mostly pick off the pack to allow [[Jintsuu]] to finish her off. Below is the recommended fleet for this segment:
+
+* '''Fleet: [[Jintsuu]] Kai Ni (or other CL) + 4-5DD'''
+* '''LBAS Recommendation: LBAS 1 and 2 All 4 Bomber''' (LBAS 1 on M/Q,  LBAS 2 on Y)
+* '''Path 1: D-E-G-I-M-Q-Y''' (If Fleet is 1CL, 4DD)
+* '''Path 2: D-E-G-I-L-M-Q-Y''' (If Fleet is 1CL, 5DD)
+* '''Path 4: D-E-H-K-M-Q-Y''' (If Fleet is 1CL, 5DD)
+
+* Ships in your fleet should be mainly armed for surface battle.
+* At least one ship should be armed to OASW against the subs on Node H and I
+* Use Line Abrests on Nodes H and Vanguard on Noded M and Q and put your tankiest DD or Jintsuu in slot 4.
+* If you go towards Node L, consider arming your fleet with high angle guns and someone that can AACI to minimize the potential damage the air attack could do.
+* You calso avoid the Airstrike if you don't choose H at the start
+* LoS > 34 cn2 may be required to guarantee boss routing.
+* In-Route Supports can be used, but are not necessary
+* Boss Supports may be recommended for final kill
+<br>
+The [[Light Cruiser Princess]] will have a fleet of mainly CLs and DD with a Na-class possibly popping up among her fleet in hard mode armed with an opening Torpedo strike. If you use a land base, you should eliminate most of the threats with little trouble. And then ride on [[Jintsuu]] or another historical DD to pull the win. However, at Last Dance she will come with 2 Na-classes and 2 Tsu-class in two making her difficult to defeat. If necessary, assemble a support fleet to wipe out the other ships and leave the Princess to be eliminated in night battle.
+<br>
+Once the Princess has been defeated you can then proceed into the next segment  to unlock the transport operation.
+
+===Phase 3: Unlock the Transport path to Tuluvu===
+
+In this phase, you will need to do a few simple step to unlock the path, most of it will involved ASW and taking out a small surface fleet.
+Below is a chart with the conditions that must be met depending on the difficulty:
+
+{{:Summer_2020_Event/E-5/Unlocking_Guide_2}}
+
+''Note: If you are on Casual Difficulty, you can skip this step entirely and move to Phase 4.
+
+Below are the requirements for each segment you need to complete:
+
+<tabber>
+|-|Node X2=
+* '''Recommended Fleet: 1 CL, 5 DD'''
+* '''LBAS:'''
+** '''LBAS 1: 4 ASW/Toukai Planes''' (Send to X2)
+** '''LBAS 2: Standby or Rest'''
+* '''Path: D-E-G-F-X1-X2-X'''
+
+* Fleet should be equipped with ample OASW as it is all submarine Nodes.
+* LoS required is >30 cn2
+* X2 will have a [[New Submarine Summer Princess]] along with a team of other subs. Bring ASW bombers and OASW ships to eliminate them.
+<br>
+Once the condition is met, a ding sound should occur once you return to homeport.
+<br> Note: You may hear the sound once per successful run, so if you play hard mode, you may hear this ding sound up to twice.
+|-|Node B=
+* '''Recommended Fleet: 5-6 DD'''
+* '''LBAS:'''
+** '''LBAS 1: 4 Land Base Bombers''' (Send to B)
+** '''LBAS 2: Standby or Rest'''
+* '''Path: C-B'''
+
+* Fleet should be armed for surface combat
+* LoS is unknown but is suspected to be around 27-30 cn2
+* Node B is a light torpedo squadron of CLs and DDs. Line ahead to eliminate them to complete the requirement.
+
+<br>
+Once the condition is met, a ding sound should occur once you return to homeport.
+|-|
+</tabber>
+
+Once all conditions are met, the path to the transport operation to Tuvulu (Node Z) will be open.
+
+===Phase 4: Complete the transport Operation===
+
+For the Transport operation, you will need to assemble a lightweight fleet to go through a series of Torpedo Squadrons and air attacks before reaching the transport point and fighting the boss fleet. Do note that depending on the difficulty, this will be a long and tedious trek that will take time.
+
+Depending on how much time and your approach, you may consider pacing yourself through this section to complete it with minimum bucket consumption.
+
+Below are two possible composition which are suitable for different needs:
+
+<tabber>
+|-|CAV/AV Fast fleet Method=
+* '''Recommended Fleet: 1 CL ([[Jintsuu]] Recommended), 1 CAV/AV 4 DD'''
+* '''LBAS:'''
+* Options 1:
+** '''LBAS 1: 4 Land Base Bombers''' (Send to B)
+** '''LBAS 2: 4 Land Base Bombers''' (Send to Z)
+* Options 2:
+** '''LBAS 1 and 2: 4 Land Base Bombers''' (Send to Z)
+* '''Path: C-B-Z6-Z5-Z4-Z'''
+
+* Fleet should be organized to be a mixture of combat, AA, Transport along with good LoS.
+* Node B is a 6 ship torpedo squadron, while Z6 is a 4 ship torpedo Squadron, Use vanguard to improve your survival chances.
+* Node Z5 is an Air Node, have some AACI ships at the ready to minimize possible damage.
+* CAV should be carrying one Seaplane Fighter
+* [[Jintsuu]] a standard Combat Loadout
+* Remaining DDs Drum Canisters and/or Daihatsu-Class Landing craft or combat equipment.
+* Comp is good for strong LoS while carrying decent Transport items to deplete TP gauge faster and is overall stronger against the boss.
+|-|All DD Method=
+* '''Fleet: 6DD'''
+* '''LBAS:'''
+** '''LBAS 1: 4 Fighters''' (Send to Z5)
+** '''LBAS 2: 4 Land Base Bombers''' (Send to Z)
+* '''Path: C-B-Z6-Z5-Z4-Z'''
+
+* Fleet should be organized to be a mixture of combat, AA, Transport along with good LoS.
+* Node B is a 6 ship torpedo squadron, while Z6 is a 4 ship torpedo Squadron, Use vanguard to improve your survival chances.
+* Node Z5 is an Air Node, have some AACI ships at the ready to minimize possible damage.
+* Since DDs will not be likely to wipe out the majority of airpower an air sweep on Z5 is recommended
+* 2 DD should be Drum / Daihatsu carriers
+* 1 DD should be a Radar Mule
+* 3 DD should be standard combat with Radar
+* It's recommended to have some good high LoS Radars like [[SG Radar (Initial Model)]] and/or [[GFCS Mk.37]] to reach the LoS requirements (May need up to 5-6 to meet LoS requirements)
+* Comp will not drain the TP gauge as fast but can be good if your intent is to pace yourself to regain resource and wait for your DD to heal before returning to another round.
+* Due to the nature of this comp, '''this is only recommended if you have time to spare, and do not plan to rush through E-5 quickly, do not use this comp if you are wanting to rush through this map or trying to conserve CAV/ AVs for E-6 and E-7'''
+|-|
+</tabber>
+
+The boss node consists of a 5 ship fleet with the new [[Heavy Cruiser Ne-class Kai (Summer Mode)]] along with a Tsu-class and 3 DD which may have a Na-class among the group. Because of her tanky nature, it'll be difficult to defeat her, but if you manage to you'll drain the TP gauge faster, otherwise, you should easily gain A ranks and slowly work through the TP gauge until you successfully complete the task.
+
+
+Once the TP gauge is cleared, the map is considered complete.
+
+The event guides are to be constructed through the respective [[Sandbox/Summer 2020 E-5|Event map page guide]] and reviewed by editor staff / collaboration committee before being approved here. '''Do not under any circumstance update the guides through this page or attempt to fix them through this page.''' Please only update guides through their respective sandbox pages.
+{{clear}}
+
+|comps =
+
+{{Section|collapsed=true|left=true}}
+{{:{{BASEPAGENAME}}/E-5/Enemy comps}}
+{{SectionEnd}}
+
+|drops = {{:{{BASEPAGENAME}}/E-5/Ship drops}}
+
+}}
+
+{| style="width: 100%;" class="mw-collapsible mw-collapsed wikitable
+|-
+! E-5 Clear Message
+|-
+|
+
+|}

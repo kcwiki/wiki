@@ -1,0 +1,17 @@
+<includeonly><div class="quest-ri"><div class="quest-rii"><div>[[{{#if:{{{image|}}}|{{{image}}}|File:Equipment Card {{#replace:{{{1|}}}|/|&#32;}}.png}}|64x64px|link={{#if:{{{link|}}}|{{{link}}}|{{#if:{{{image|}}}|{{{image}}}|{{{1|}}}}}}}]]</div><div class="quest-rit">{{#if:{{{1|}}}|{{{1}}}|{{{link|}}}}}</div>{{#if:{{{qty|}}}|<div class="quest-riq"><b>{{{qty}}}x</b></div>}}{{#if:{{{stars|}}}|<div class="quest-ris"><b>★{{{stars}}}</b></div>}}</div></div></includeonly><noinclude>
+A template for displaying Equipment cards in quest/event rewards.
+Shares properties with [[Template:QuestRewardItem]].
+
+<pre>{{QuestRewardEquip|Suisei}}</pre>
+{{QuestRewardEquip|Suisei}}
+<pre>{{QuestRewardEquip|120mm/50 Twin Gun Mount Kai A.mod.1937}}</pre>
+{{QuestRewardEquip|120mm/50 Twin Gun Mount Kai A.mod.1937}}
+<pre>{{QuestRewardEquip|Suisei|link=Ryuusei}}</pre>
+{{QuestRewardEquip|Suisei|link=Ryuusei}}
+<pre>{{QuestRewardEquip|Suisei|qty=5}}</pre>
+{{QuestRewardEquip|Suisei|qty=5}}
+<pre>{{QuestRewardEquip|Suisei|stars=9}}</pre>
+{{QuestRewardEquip|Suisei|stars=9}}
+<pre>{{QuestRewardEquip|Suisei|image=File:Equipment Card Ryuusei.png|link=Ryuusei}}</pre>
+{{QuestRewardEquip|Suisei|image=File:Equipment Card Ryuusei.png|link=Ryuusei}}
+</noinclude>

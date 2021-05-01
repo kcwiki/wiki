@@ -1,0 +1,435 @@
+=Akashi=
+==Gameplay Notes==
+===Special Mechanics===
+* She has the ability to repair other ships in the fleet.
+** She must be the flagship.
+*** She does not have to be in fleet 1
+** Akashi or the ships being repaired  must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>. 
+** Akashi or the ships being repaired must not be in the docks.
+** The ability works as follows:
+*** Once '''20 minutes''' have elapsed, returning to the home screen after that time will reset the timer and repair all eligible ships.
+**** Changing out ships or shifting them around will '''reset the 20 minute timer''' without repairing.
+**** If the amount of HP recovery would be less than 1 after 20 minutes, it will be rounded up. This means ships that take more than 20 minutes to recover 1hp can be repaired faster by Akashi if you keep checking in every 20 minutes.
+**** Amount of HP recovered is calculated individually for each target.
+*** By default, she can only repair herself and the ship in the 2nd slot. Every [[Ship Repair Facility]] equipped will increase the amount of repairable ships by 1.
+*** Please see [[Docking]] for more details about repair time and cost.
+**** Unlike the listed repair time formula, Akashi's repair just has the seconds rounded up instead of having 30 seconds added.
+*** The repair cost is automatically deducted based on how much HP has been repaired on update.
+*** Repair works even if she isn't in the 1st fleet.
+*** If you do not have sufficient resources, the repair will not work.
+* She has the ability to upgrade equipment. Please see [[Akashi's Improvement Arsenal]] for more details.
+
+===Overview===
+Her stats are irrelevant to her main role.
+
+===Analysis===
+Priority: '''Very High'''
+
+: She is the most important girl in your fleet because of her ability to upgrade equipment. It is the only way to access most event and ranking only equipment. Equipment upgrades are important to boost the effectiveness of your other girls. Her repair ability is a nice bonus that allows you to get more girls repaired while away for an extended period of time. It is imperative that you get her to Kai as soon as possible for the boost in success rates.
+
+===Important Info===
+* Required for quest A45.
+* Required for all equipment upgrade quests.
+----
+=Katori=
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She has the ability to increase exp earned from exercises.
+** The bonus depends on her position in the fleet.
+** The bonus depends on her level.
+** Having [[Kashima]] in the fleet will increase the bonus.
+** See below for bonus values:
+{| class="mw-collapsible" style="width: 100%;"
+!style="width: 20%; text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Position'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 1-9'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 10-29'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 30-59'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 60-99'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 100+'''
+!style="width: 20%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Notes'''
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 5%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 8%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 12%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 20%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | 
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 3%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 5%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 7%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 10%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | 
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Katori/Kashima Flagship + Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 10%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 13%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 16%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 20%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 25%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Bonus determined by the level of the flagship
+|-
+|style="width: 20%; text-align: center; border-radius: 0 0 0 6px; border-style: solid; border-width: 1px; | Katori + Kashima Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 4%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 6%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 8%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 12%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 17.5%
+|style="width: 20%; text-align: center; border-radius: 0 0 6px 0; border-style: solid; border-width: 1px; | Bonus determined by the highest leveled training cruiser
+|-
+|}
+
+===Overview===
+Her stats are irrelevant to her main role.
+
+===Fit Bonuses===
+{{GunfitHeader}}
+{{Gunfit
+|EquipmentName= 14cm Twin Gun Mount
+|Firepower= +1
+}}
+{{Gunfit
+|EquipmentName= 14cm Twin Gun Mount Kai
+|Firepower= +2
+|Evasion= +1
+}}
+|}
+
+===Analysis===
+Priority:'''Low'''
+
+: Her main role is to provide an experience boost in PvP. When paired with her sister [[Kashima]], they can give a significant boost. Her low combat and defensive stats makes her unsuited for surface combat. She does have an edge when it comes to ASW because she possesses 4 slots which allows her to get maximum synergy bonuses. However, her low base ASW becomes an issue when trying to achieve OASW. She well require a lot of levels to be effective.
+
+====Recommendend Roles====
+* PvP training
+* Anti-Submarine
+
+====Not Recommended Roles====
+* Combat
+
+===Important Info===
+* Required for expedition 32.
+----
+=Kashima=
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She has the ability to increase exp earned from exercises.
+** The bonus depends on her position in the fleet.
+** The bonus depends on her level.
+** Having [[Katori]] in the fleet will increase the bonus.
+** See below for bonus values:
+{| class="mw-collapsible" style="width: 100%;"
+!style="width: 20%; text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Position'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 1-9'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 10-29'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 30-59'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 60-99'''
+!style="width: 12%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Level 100+'''
+!style="width: 20%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Notes'''
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 5%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 8%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 12%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 20%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | 
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 3%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 5%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 7%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 10%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | 
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Katori/Kashima Flagship + Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 10%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 13%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 16%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 20%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 25%
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; | Bonus determined by the level of the flagship
+|-
+|style="width: 20%; text-align: center; border-radius: 0 0 0 6px; border-style: solid; border-width: 1px; | Katori + Kashima Non-flagship
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 4%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 6%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 8%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 12%
+|style="width: 12%; text-align: center; border-style: solid; border-width: 1px; | 17.5%
+|style="width: 20%; text-align: center; border-radius: 0 0 6px 0; border-style: solid; border-width: 1px; | Bonus determined by the highest leveled training cruiser
+|-
+|}
+
+===Overview===
+Her stats are irrelevant to her main role.
+
+===Fit Bonuses===
+{{GunfitHeader}}
+{{Gunfit
+|EquipmentName= 14cm Twin Gun Mount
+|Firepower= +1
+}}
+{{Gunfit
+|EquipmentName= 14cm Twin Gun Mount Kai
+|Firepower= +2
+|Evasion= +1
+}}
+{{Gunfit
+|EquipmentName= Type 13 AIR RADAR Kai
+|Anti-air= +1
+|Armour= +1
+|Evasion= +3
+}}
+|}
+
+===Analysis===
+Priority:'''Low'''
+
+: Her main role is to provide an experience boost in PvP. When paired with her sister [[Kashima]], they can give a significant boost. Her low combat and defensive stats makes her unsuited for surface combat. She does have an edge when it comes to ASW because she possesses 4 slots which allows her to get maximum synergy bonuses. However, her low base ASW becomes an issue when trying to achieve OASW. She well require a lot of levels to be effective.
+
+====Recommendend Roles====
+* PvP training
+* Anti-Submarine
+
+====Not Recommended Roles====
+* Combat
+
+===Important Info===
+* Required for expedition 32.
+----
+=Akitsu Maru=
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She can equip carrier fighters on Kai.
+
+===Overview===
+Her stats are irrelevant to her main role.
+
+===Analysis===
+Priority:'''Low'''
+
+: She has a limited role in providing air support where carriers or other aviation ships cannot be used. Although she can perform ASW, she is subpar in this role because she cannot take advantage of synergy bonuses or achieve OASW.
+
+====Recommendend Roles====
+* Air Support
+
+====Not Recommended Roles====
+* Combat
+* Anti-Submarine
+
+===Important Information===
+* She is a source of [[Daihatsu-class Landing Craft]], [[Type 3 Spotter/Liaison (ASW)]] and [[Ka-type Observation Autogyro]].
+----
+=Hayasui=
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She can carry torpedo bombers on Kai. 
+** When carrying torpedo bombers, she uses the carrier shelling formula. Please see [[Combat#Damage_Calculations|Combat]] for more details.
+** Like carriers, she won't attack when <span style="color:orange;">'''moderately damaged (中破)'''</span> or lower.
+* She can carry [[Maritime Resupply|Maritime Resupplies]] that will restore fuel and ammo mid-sortie when consumed.
+** The cost of the resupply will be deducted from your stockpile.
+** The resupply cannot be activated if you have insufficient fuel/ammo.
+** The amount of fuel/ammo resupplied depends on if she is in a single or combined fleet and how many Resupplies she is carrying.
+** See below for amount resupplied:
+{| class="mw-collapsible" style="width: 45%;"
+!style="width: 15%; text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Number Used'''
+!style="width: 15%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Single Fleet'''
+!style="width: 15%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Combined Fleet'''
+|-
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 1
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 25%
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|-
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 2
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 36%
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 27.5%
+|-
+|style="width: 15%; text-align: center; border-radius: 0 0 0 6px; border-style: solid; border-width: 1px; | 3
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 47%
+|style="width: 15%; text-align: center; border-radius: 0 0 6px 0; border-style: solid; border-width: 1px; | 40%
+|-
+|}
+
+===Overview===
+Her stats are irrelevant to her main role.
+
+===Analysis===
+Priority:'''Medium'''
+
+: Her main role is to carry Maritime Resupplies to mitigate ammo penalties in long maps. Do note that the resupplies are consumed upon activation. When equipped with torpedo bombers, she becomes a very effective combatant because she uses the carrier shelling formula and gains plane proficiency bonus. Her drawback is that she is at risk of getting her slots emptied when encountering heavy anti-air.
+
+====Recommendend Roles====
+* Combat Resupply
+* Combat
+
+===Important Info===
+* She is a source of Maritime Resupplies.
+----
+=Kamoi=
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks at Kai and Kai Bo. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She can carry seaplane fighters and bombers at Kai and Kai Bo.
+* She can carry [[Maritime Resupply|Maritime Resupplies]] at base and at Kai Bo that will restore fuel and ammo mid-sortie when consumed. '''She cannot equip Resupplies at Kai'''.
+** The cost of the resupply will be deducted from your stockpile.
+** The resupply cannot be activated if you have insufficient fuel/ammo.
+** The amount of fuel/ammo resupplied depends on if she is in a single or combined fleet and how many Resupplies she is carrying.
+** See below for amount resupplied:
+{| class="mw-collapsible" style="width: 45%;"
+!style="width: 15%; text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Number Used'''
+!style="width: 15%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Single Fleet'''
+!style="width: 15%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Combined Fleet'''
+|-
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 1
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 25%
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 15%
+|-
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 2
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 36%
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 27.5%
+|-
+|style="width: 15%; text-align: center; border-radius: 0 0 0 6px; border-style: solid; border-width: 1px; | 3
+|style="width: 15%; text-align: center; border-style: solid; border-width: 1px; | 47%
+|style="width: 15%; text-align: center; border-radius: 0 0 6px 0; border-style: solid; border-width: 1px; | 40%
+|-
+|}
+
+===Overview===
+Her stats are irrelevant to her effectiveness.
+
+===Analysis===
+Priority:'''Medium'''
+
+: Her main role is to carry Maritime Resupplies to mitigate ammo penalties in long maps. Do note that the resupplies are consumed upon activation. Her better defensive stats gives her better survivability than [[Hayasui]]. She can also contribute to air power with seaplane fighters.
+
+====Recommendend Roles====
+* Combat Resupply
+* Air Support
+
+====Not Recommended Roles====
+* Combat
+----
+=Mizuho=
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks at Kai. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She can perform opening torpedo attacks when equipped with a midget submarine.
+
+===Overview===
+* Good firepower and torpedo.
+* Decent HP and armour.
+* Good plane count.
+* Good slot distribution.
+
+===Analysis===
+Priority: '''Medium'''
+
+: She has a good torpedo stat that allows her to take out lighter ships with her opening torpedo. She also has respectable firepower for a seaplane tender that makes her a decent surface combatant. Her slots are also large enough that she can use seaplane bombers to deal with light targets. Being able to carry seaplane fighters means she can provide air supports in maps where carriers are restricted. However, she is slow which means she will be affected by speed restrictions.
+
+====Recommendend Roles====
+* Combat
+* Air Support
+
+----
+
+=Nisshin=
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform daytime special attacks at Kai and A/Kou. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+* She can perform opening torpedo attacks when equipped with a midget submarine.
+* Capable of Equipping small SONARs starting at Kai
+
+===Overview===
+'''Kai'''
+* Good firepower, torpedo and HP.
+* Decent armour.
+* Decent plane count.
+* Bad slot distribution.
+
+'''A'''
+* Good firepower, torpedo, HP and armour.
+* Good plane count.
+* Bad slot distribution.
+
+===Fit Bonuses===
+{{GunfitHeader}}
+{{Gunfit
+|EquipmentName= 14cm Twin Gun Mount
+|Firepower= +2
+|Torpedo= +1
+}}
+{{Gunfit
+|EquipmentName= 14cm Twin Gun Mount Kai
+|Firepower= +3
+|Torpedo= +2
+|Anti-Air= +1
+|Evasion= +1
+}}
+|}
+
+===Analysis===
+Priority:'''High'''
+
+* Kai
+: She has a good torpedo stat that allows her to take out lighter ships with her opening torpedo. She also has good firepower for a seaplane tender that makes her a decent surface combatant. While she has a large slot, her slot distribution isn't ideal to utilise seaplane bombers because she needs to place one in a small slot to take advantage of proficiency bonuses. In additiion, her ability to equip [[WG42]] and the [[Type 2 Ka-Mi Tank]] makes her a powerful anti installation ship.
+
+* A
+: She gains a significant upgrade to her torpedo and firepower that makes her an even better combat ship. Her biggest upgrade is gaining a 4th slot. This means she is the only ship capable of running an artillery spotting setup with opening torpedoes. The 4th slot also increases her anti-installation ability significantly.
+
+====Recommendend Roles====
+* Combat
+* Air Support
+* Anti-Installation
+----
+
+=Akitsushima=
+==Gameplay Notes==
+===Special Mechanics===
+* Unlike other seaplane tenders, she can equip small sonars at Kai.
+
+===Overview===
+* Low firepower.
+* Bad HP and armour.
+* Low plane count.
+
+===Analysis===
+Priority: **High**
+
+: Her main role is to allow slow fleets in 6-4 to take the shorter route. She can provide air support with seaplane fighters but her low defensive stats and slow speed means you should avoid using her where possible. The reason she is a high priority is the Type 2 Flying Boat she provides. It is a key piece of equipment for extending the range of your LBAS.
+
+====Recommendend Roles====
+* 6-4 Routing
+
+====Not Recommended Roles====
+* Air Support
+
+===Important Info===
+* She is a source of the [[Type 2 Flying Boat]].
+----
+=Commandant Teste=
+===Special Mechanics===
+* Able to perform daytime special attacks. Please see [[Combat/Artillery_Spotting|Artillery Spotting]] for more details.
+
+===Overview===
+* Good firepower and armour.
+* Decent HP.
+* Good plane count.
+* Good slot distribution.
+
+===Analysis===
+Priority: '''Medium'''
+
+: Her firepower and ability to artillery spot is enough to make her a decent daytime combatant. But she falls off in effectiveness at night because she lacks a torpedo stat. Her 4 slots and high plane count allows her to take full advantage of plane proficiency bonuses for airstrikes with seaplane bombers. Being able to equip [[WG42]] and the [[Type 2 Ka-Mi Tank]] also makes her a powerful anti-installation ship.
+
+====Recommendend Roles====
+* Combat
+* Anti-Installation
+* Air Support

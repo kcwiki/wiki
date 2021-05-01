@@ -1,0 +1,87 @@
+<noinclude>
+==Documentation==
+===Introduction===
+* To be used on Theme Songs, Anime singles, Albums, CDs.
+
+
+===Code===
+<pre>
+{{InfoboxSong
+|title = Color of the Sea
+|kanji = 海色（みいろ）
+|romaji = Kaishoku (Miiro)
+|description = OP Theme Single
+|artist = AKINO from bless4
+|image = Jacket_op_miiro.jpg
+|lyrics = (1) minatoku, (2) SugarLover
+|composer = (1) WEST GROUND<br />(2) Saito Yuuya
+|arrangement = (1) WEST GROUND<br />(2) Saito Yuuya & Itou Mitsuya<sup>[?]</sup><br />(伊藤ミツヤ)
+|publisher = Victor Entertainment
+|release = Expected: February 18, 2015
+}}
+</pre>
+
+
+===Sample Output===
+{{InfoboxSong
+|title = Color of the Sea
+|kanji = 海色（みいろ）
+|romaji = Kaishoku (Miiro)
+|description = OP Theme Single
+|artist = AKINO from bless4
+|image = Jacket_op_miiro.jpg
+|lyrics = (1) minatoku, (2) SugarLover
+|composer = (1) WEST GROUND<br />(2) Saito Yuuya
+|arrangement = (1) WEST GROUND<br />(2) Saito Yuuya & Itou Mitsuya<sup>[?]</sup><br />(伊藤ミツヤ)
+|publisher = Victor Entertainment
+|release = Expected: February 18, 2015
+}}
+{{clr}}
+
+
+==Implementation==
+'''<span style="color:#f00;">Do not edit this section</span>'''
+</noinclude>
+{| style="width:300px; border:1px solid #ccc; float:right; margin:0px 0px 0px 10px"
+|-
+| colspan="2" style="background:#def; padding:12px 0px 7px 0px; text-align:center;" |
+
+<p style="margin:0px 10px 5px 10px; font-weight:bold; line-height:22px; font-size:16px;">{{{title|Color of the Sea}}}</p>
+<p style="margin:0px; font-size:12px;">{{{kanji|}}}</p>
+|-
+| colspan="2" |[[File:{{{image|}}}|300px|center|link=]]
+|-
+| colspan="2" style="background:#def; font-weight:bold; text-align:center;" |Title
+|-
+| style="background:#def; font-size:12px; font-weight:bold;" |English
+|{{{title|}}}
+
+{{InfoboxSong/OptionalRow
+|Japanese
+|{{{kanji|}}} }}
+
+{{InfoboxSong/OptionalRow
+|Romaji
+|{{{romaji|}}} }}
+
+|-
+| style="background:#def; font-size:12px; font-weight:bold;" |Artist(s)
+|{{{artist|}}}
+|-
+| colspan="2" style="background:#def; font-weight:bold; text-align:center;" |Details
+|-
+| style="background:#def; font-size:12px; font-weight:bold;" |Lyrics
+|{{{lyrics|}}}
+|-
+| style="background:#def; font-size:12px; font-weight:bold;" |Composer
+|{{{composer|}}}
+|-
+| style="background:#def; font-size:12px; font-weight:bold;" |Arrangement
+|{{{arrangement|}}}
+|-
+| style="background:#def; font-size:12px; font-weight:bold;" |Publisher 
+|'''{{{publisher|}}}'''
+|-
+| style="background:#def; font-size:12px; font-weight:bold;" |Release Date
+|{{{release|}}}
+|}

@@ -1,0 +1,28 @@
+{| class="wikitable" style="width:500px; text-align:center;"
+|-
+! colspan="3" |Before
+! colspan="3" |After
+|-
+| style="width:250px; padding:10px 0px;" colspan="3" |<div style="width:250px; overflow:hidden;">{{#if:{{{before|}}}|[[File:{{{before|}}}|center|link=]]|-}}</div>
+| style="width:250px; padding:5px 0px;" colspan="3" |<div style="width:250px; overflow:hidden;">{{#if:{{{after|}}}|[[File:{{{after|}}}|center|link=]]|-}}</div>
+|}
+
+{| class="wikitable" style="width:500px;"
+! colspan="6" |Resources Used
+|-
+| style="100px;" |{{Fuel}} {{{fuel|0}}}
+| style="100px;" |{{Ammo}} {{{ammo|0}}}
+| style="100px;" |{{Steel}} {{{steel|0}}}
+| style="100px;" |{{Bauxite}} {{{bauxite|0}}}
+| style="100px;" |[[File:Irepair.png|18px]] {{{buckets|0}}}
+|}
+
+{| class="wikitable" style="width:500px; {{#ifeq: {{{e5|None}}}|Hard|background:#ff0;|}}"
+! colspan="6" style="font-size:16px; padding:5px 0px 3px;" |Medals
+|-
+| style="100px; height:100px;" |[[File:EventMedal-{{{e1|None}}}.png|80px|center|link=]]
+| style="100px; height:100px;" |[[File:EventMedal-{{{e2|None}}}.png|80px|center|link=]]
+| style="100px; height:100px;" |[[File:EventMedal-{{{e3|None}}}.png|80px|center|link=]]
+| style="100px; height:100px;" |[[File:EventMedal-{{{e4|None}}}.png|80px|center|link=]]
+| style="100px; height:100px;" |[[File:EventMedal-{{{e5|None}}}.png|80px|center|link=]]
+|}

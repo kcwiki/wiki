@@ -1,0 +1,185 @@
+===E-1===
+{{EventInfoBox
+|title_en=Requiem, for Convoy Ki-504
+|title_jp=鎮魂、キ504船団
+|tag=[[File:RainySeason2020EventWhiteTag.png]]
+|tag_text=Kurile Islands Area Unit
+|header_thumb=[[File:Abyssal_Kuriles_Princess_HeaderThumb.png]]
+|map_1=[[File:RainySeason2020E-1Map.png|450px]]
+|map_1_text=Map
+|map_2=
+|map_2_text=Phase 1
+|map_3=
+|map_3_text=Phase 2
+|boss_hard=750 TP + 2900~3000 HP
+|boss_medium=600 TP + ~2400 HP
+|boss_easy=400 TP + ~1800 HP
+|boss_casual=400 TP + 1700~1800 HP
+|phase_1_boss=
+|phase_2_boss=[[Abyssal Kulin Island Princess]]
+|phase_3_boss=
+|phase_4_boss=
+|phase_5_boss=
+|reward_all={{Ship/Banner|Usugumo}}
+|reward_1={{QuestRewardEquip|Underway Replenishment}}
+|reward_1_casual=
+|reward_1_easy=1
+|reward_1_medium=2
+|reward_1_hard=3
+|reward_2={{QuestRewardEquip|Emergency Repair Goddess}}
+|reward_2_casual=
+|reward_2_easy=1
+|reward_2_medium=1
+|reward_2_hard=2
+|reward_3={{QuestRewardEquip|Type 3 Depth Charge Projector (Concentrated Deployment)}}
+|reward_3_casual=
+|reward_3_easy=
+|reward_3_medium=1
+|reward_3_hard=
+|reward_4={{QuestRewardEquip|Prototype 15cm 9-tube ASW Rocket Launcher}}
+|reward_4_casual=
+|reward_4_easy=
+|reward_4_medium=
+|reward_4_hard=1
+}}
+
+<div style="min-width:440px;">
+{{center|[[File:OoyodoE-1RainySeason2020.png|440px]]}}
+
+{{MapBranchingTable
+|title = E-1 Branching Rules
+|expand = true
+|id = 48-1
+|order = C,G,H,F,N,R
+
+|C/empty -> D, E/empty = * Active branching
+
+|G -> H = * Do not meet the requirements to go to J.
+|G -> J = 
+* Meet '''ALL''' of the following requirements:
+** Amount of ships ≤ 5 (Hard)
+** Amount of CL ≤ 1
+** Amount of DD ≥ 3 '''OR''' DD+DE ≥ 4
+** No CA(V)
+
+|H -> I = * Do not meet the requirements to go to K.
+|H -> K/empty = 
+* Meet '''ALL''' of the following requirements:
+** No CL
+** No CA(V)
+** Amount of DD ≥ 4
+** Fleet contains DE
+* Alternatively, use a Fast+ Fleet
+
+|F -> N = 
+* Meet '''ALL''' of the following requirements:
+** No CA(V) (Medium+)
+** Amount of CA(V) ≤ 2
+** Amount of CL ≤ 1 (Hard)
+** Amount of DD+DE ≥ 3
+** If amount of ships = 6, amount of DE ≥ 2 (Hard)
+|F -> O/empty = * Do not meet the requirements to go to N.
+
+|N -> P/empty = * Fail the LoS check.
+|N -> T = * Pass the LoS check.
+
+|R -> S/empty = * Fail the LoS check.
+|R -> Q = * Pass the LoS check.
+}}
+
+Branching compositions were reported over the course of the event.
+</div>
+</div>
+'''Disclaimer: The following guide is a prelimary release for this event map, it contains information from early tests, do note that some things are subject to change as more information is gathered over the event and thus the guide is subject to change.'''
+
+==General Guidelines==
+
+For this operation, you will be depending on a light fleet to complete a transport operation and ultimately take out a boss of this map. There are several ships that do have bonuses, associated with Ki-504 and the 5th Fleet from the North Pacific:
+
+==Ship Bonuses==
+
+{{:Summer_2020_Event/E-1/historical_ships}}
+
+'''Ships marked with * have bonuses in other maps'''. [[Akebono]] is probably a safe choice to lock here, possibly [[Ushio]] as well.
+
+==Map Phases Breakdown==
+
+==Phase 1: Transport Phase==
+
+During this phase of the operation, you will be depleting a TP gauge (~750 TP on Hard). It is not very difficult, merely tedious (also depending on equipment and/or ships used).
+
+* '''Composition:''' '''1CL/DE,4-5 DD'''
+* '''Route: A-B-C-D-G-(H+I/J)-K-L '''
+* D and G being Submarine Nodes, H/J light surface engagements and L the transport boss with a Submarine Flagship.
+** I is an additional submarine node which you may be routed to depending on fleet composition (see routing rules).
+** But it is not a particularly dangerous node and is probably worth taking to reduce the TP gauge more quickly with more ships overall.
+* [[Daihatsu]]s and [[Drum Canister]]s help accelerate emptying the TP gauge. Keep in mind that this may take a while depending on the difficulty and you may wish to preserve Daihatsu carrying ships to later event maps.
+* One or two OASW Ships are useful for the sub nodes and Boss.
+
+Boss at node L is a Submarine along with a team of destroyers, if you bring the recommended gear, you should be able to pass the node successfully under double line. Repeat until TP gauge is clear.
+
+==Phase 2: Defeating the [[Abyssal Kurile Island Princess]]==
+
+===Unlocking (Hard Only)===
+
+As part of the requirements to unlock the path to the boss you will need to clear Node F and with an S rank. This can be done Phase 1.
+
+* Composition: N/A
+
+* Route: A-B-C-E-F, F is a submarine Node
+
+You will also need an S rank from Node M, this condition will likely be met with the completion of phase 1. 
+
+Once the conditions from phase 1 and 2 are met the path to the boss node is open.
+
+===Boss===
+
+In this phase the enemy fleets are not much different so much of how you handled phase 1 can be done here, but without the transport equipment. However depending on the difficulty, you may need to bring different comps if you wish to take different paths. List below are a few comps that are notablly effective:
+
+<tabber>
+|-|1-2 CL ,0-1 DE, 4-5 DD Comp=
+* Route: ''' A-B-C-E-F-N-T (Casual - Normal) or A-B-C-E-F-O-R-Q-T (Hard) '''
+* Node F and R being a submarine Node, and Q and N being light surface engagements, use Line abreast and vanguard respectively.
+* Los needed to reach node the boss node for Hard is 29 (Cn2)
+* TCI and/or historical bonus ships (like Ushio and Akebono) may be needed to defeat the boss at higher difficulties.
+
+|-|1CA, 1CL 4DD Comp=
+* Route: ''' A-B-C-E-F-N-T (Casual - Normal) or A-B-C-E-F-O-R-Q-T (Hard) '''
+* Node F and R being a submarine Node, and Q and N being light surface engagements, use Line abreast and vanguard respectively.
+* Los needed to reach node the boss node on Hard is 29 (Cn2)
+* Allow for a stronger fleet output, but otherwise TCI and/or historical bonus ships (like Ushio and Akebono) may be needed to defeat the boss at higher difficulties.
+|-|
+1CL 4DD Comp=
+* Route: ''' A-B-C-E-F-N-T (Hard)
+* One of the few comps that can take an quick shortcut on hard difficulty
+* Los needed to reach node the boss node for Hard is 29 (Cn2)
+* TCI and/or historical bonus ships (like Ushio and Akebono) may be needed to defeat the boss due to having only 5 ships.
+|-|
+1CL 3DD 2DE Comp=
+* Route: ''' A-B-C-E-F-N-T (Hard)
+* Currently the only comp to allow 6 ships to travel the short cut to the boss node.
+* Los needed to reach node the boss node for Hard is 29 (Cn2)
+* Depending on the level of your DEs and their ASW level, it may be possible to kill the boss's submarine on line ahead in most confrontations allowing for better damage.
+* TCI and/or historical bonus ships (like Ushio and Akebono) may be needed to defeat the boss
+|-|
+</tabber>
+
+Defeating [[Abyssal Kurile Island Princess]] should be simple in most casse if you remember to bring historical ships and a good TCI unit. At 590 HP and 200 Armour on hard mode she is quite tanky and is being escorted by one submarine, but the rest of her escort is not threatening as they mainly consist of only destroyers. Having an OASW ship or two can wipe out the sub easily before the battle begins as you will need to focus on wiping out her escort fleet before night battle while using the double line formation. In addition, with her tanky armor, she will need a strong attack to take her down. So if you have historical ships like [[Ushio]] and [[Akebono]] present it should make it more likely to finish her off.
+
+While it is not necessary, if for some reason she provides difficulty in clearing, you can resort to supporting shelling to make it more easy to win.
+{{clear}}
+==Nodes and Enemy Compositions==
+
+<div style="max-height: 700px; overflow: scroll;">
+{{:Summer_2020_Event/E-1/Enemy comps}}
+</div>
+{{:Summer_2020_Event/E-1/Ship drops}}
+
+{| style="width: 100%;" class="mw-collapsible mw-collapsed wikitable
+|-
+! E-1 Clear Message
+|-
+|'''Convoy Ki-504, Objective Complete!'''
+
+The Elite Destroyer Group of the 5th Fleet, deployed in the northern part of the Kuril Islands as the core escort force "Convoy Ki-504" has safely completed the logistics transport operation between Otaru and Paramushir!
+|}

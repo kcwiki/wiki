@@ -1,0 +1,504 @@
+The following information being provided is from the recent discovery made from unearthing data from Kancolle Kai which as it turns out, some elements from the game do apply to the browser game as well. Due to this information is being gathered to be re-evaluated to see what can be placed within the browser version as well as plans to construct Kancolle Kai's page on a later date.
+
+The current context is a direct dump from the 4chan thread and requires adjustment.
+
+https://boards.4chan.org/jp/thread/15885178#p15885178<br>
+http://bbs.ngacn.cc/read.php?tid=10007970&page=2#pid196219478Anchor
+
+==Gun Fitting info==
+Here's the fit gun system if you can make sense of it. From what I gather:<br>
+1. The system only applies to BBs with less than 92 HP.<br>
+2. Marriage reduces both the overweight penalties and the fit bonuses.<br>
+3. The actual fit bonuses/penalties follow a pattern of: class-based multiplier*gun weight coefficient*sqrt(number of guns of that weight class)
+
+
+Slow battleships with more than 92 HP (Yamato-class) are not affected by fit gun mechanics. (Note: Married Nagato-Class aren't affected)<br>
+As expected, 51cm guns aren't included in the fit mechanics. However, there isn't any info on 16in guns for some reason.<br>
+Post-marriage, 381mm guns will always be affected by the fit (marriage) modifier, regardless of whether the modifier is positive or negative. All other guns will only be affected by the modifier if they give a penalty.
+
+On a side note, the chinks use T as a prefix for proto guns (eg. T41, T46) for some reason. Trial, maybe?
+
+Fit (marriage) modifier = 1 for unamrried ships, 0.6 for married ships
+
+Category 1 (C1) guns: 46cm<br>
+Category 2 (C2) guns: proto 46cm<br>
+Category 3 (C3) guns: 41cm, proto 41cm<br>
+Category 4 (C4) guns: 35.6cm, proto 35.6cm, 38cm, 38cm Kai<br>
+Category 5 (C5) guns: 381mm<br>
+Category 6 (C6) guns: 14cm single<br>
+Category 7 (C7) guns: 14cm twin, 15.2cm twin, 15.2cm twin Kai<br>
+
+
+Ship type = 8 Battlecruiser lol
+
+Accuracy modifiers for Kongou-class: <br>
+- 10 * Fit modifier * √<no. of C1 guns><br>
+- 7 * Fit modifier * √<no. of C2 guns><br>
+- 5 * Fit modifier * √<no. of C3 guns><br>
+- 2 * Fit modifier * √<no. of C5 guns><br>
++ 4 * √<no. of C4 guns>
+
+Accuracy modifiers for Bismarck, Littorio/Italia and Roma:<br>
+- 10 * Fit modifier * √<no. of C1 guns><br>
+- 7 * Fit modifier * √<no. of C2 guns><br>
+- 5 * Fit modifier * √<no. of C3 guns><br>
++ 3 * Fit modifier * √<no. of C5 guns><br>
++ 4 * Fit modifier * √<no. of C4 guns>
+
+
+Ship type = 10 Aviation Battleship
+
+Accuracy modifiers:<br>
+- 7 * Fit modifier * √<no. of C1 guns><br>
+- 3 * Fit modifier * √<no. of C2 guns><br>
++ 2 * √<no. of C3 guns><br>
++ 2 * Fit modifier * √<no. of C5 guns><br>
++ 4 * √<no. of C4 guns>
+
+
+Ship type = 9 (Slow) Battleship
+
+Accuracy modifiers:<br>
+- 7 * Fit modifier * √<no. of C1 guns><br>
+- 3 * Fit modifier * √<no. of C2 guns><br>
++ 2 * √<no. of C3 guns><br>
++ 2 * Fit modifier * √<no. of C5 guns><br>
++ 2 * √<no. of C4 guns>
+
+
+Ship type = 3 4 21 Light Cruiser, Torpedo Cruiser, Training Cruiser
+
+Accuracy modifiers:<br>
++ 4 * Fit modifier * √<no. of C6 guns><br>
++ 3 * Fit modifier * √<no. of C7 guns><br>
+- 2
+
+==Page 1 Info==
+Upgrade success rates for +0 to +1, +1 to +2, …, +9 to max, max to new equipment
+
+Akashi upgrade success rates (%): 100, 100, 100, 100, 95, 90, 80, 77, 72, 60, 50
+Akashi Kai upgrade success rates (%): 100, 100, 100, 100, 100, 95, 90, 82, 77, 67, 62
+
+Levels don't matter wwwwwwwwww
+
+Conditions of ships on returning will affect the result of an expedition fleet.
+
+Expedition failure conditions:
+
+Flagship with orange or red morale
+Flagship level insufficient
+Flagship is of the wrong ship type
+Any ship in the fleet with red morale
+Failure to fulfill ship type requirements
+Failure to fulfill total ship count requirement. Non-flagships with orange morale do not count towards the total ship count requirement
+Total fleet level insufficient
+Drum count insufficient OR number of ships carrying drums insufficient
+(% count of fuel ships have) + rand(0,20) < 100 (so expeditions will always fail if fuel is less than 80%. If fuel ≥ 80% it depends on the random value)
+
+Expedition normal success conditions:
+Any non-flagship has orange morale
+Sparkled ship count < total ship count AND one of the following: failure to fulfill drum requirements for great success OR flagship's ship type requirement for great success OR this.Flagship_level_check_type == 2 [I have no idea what the last 2 requirements mean]
+Flagship fails to fulfill other great success requirements? Not sure on this part
+
+Requirements for great success:
+drumKeisu = 0 if expedition does not need drums for great success
+drumKeisu = -15 if expedition needs drums for great success but insufficient drums are brought
+drumKeisu = 20 if expedition needs drums for great success and sufficient drums are brought
+
+If Flagship_level_check_type == 2
+Sparkle value = 20 + 15*<no. of sparkled ships> + drumKeisu - 5 + [√<Flagship level> + 0.1*<Flagship level>]
+
+Otherwise
+Sparkle value = 20 + 15*<no. of sparkled ships> + drumKeisu
+
+If Sparkle value ≥ rand(0,100), great success occurs. Otherwise, normal success occurs.
+However for some reason, normal success can seldom occur even when great success requirements are fulfilled.
+
+Thus, Tokyo Express requires 4 sparkled ships for near 100% success. 4 ship expedition fleets give 80% chance, 5 ship fleets give 95%.
+
+==Page 2 Info==
+
+Support expedition appearance chance
+
+Route support base chance: 50%
+Boss support base chance: 85%
+
+Sparkled flagship adds 15%. Sparkled escort flagship adds 5%. Orange or red morale do not affect the proc chance.
+
+Thus, route support chance is 90% at most.
+
+
+
+Shelling support accuracy term = Morale modifier * (90 + 1.5*√Luck + 2*√Level + Equipment accuracy)
+
+Morale modifier:
+x1.2 for sparkled
+x1.0 for normal
+x0.8 for orange
+x0.5 for red
+
+Evasion term:
+[I'll use the evasion operator, E(x), which isn't in the posts.]
+
+If x ≥ 65:
+E(x) = 55 + 2√(x - 65)
+If 65 > x ≥ 40:
+E(x) = 40 + 3√(x - 40)
+Otherwise:
+E(x) = x
+
+Formation modifier:
+x1.0 for line ahead and double line
+x1.1 for ring
+x1.2 for echelon
+x1.3 for line abreast
+
+If ship fuel proportion < 75%, fuel penalty = 75% - ship fuel proportion
+
+Evasion term = E(Formation modifier*[Ship evasion + 2*√Luck]) - Fuel penalty
+
+Hit rate (%) = Target ship's morale modifier * (Accuracy term - Evasion term)
+
+Target ship's morale modifier:
+x0.7 for sparkled
+x1.0 for normal
+x1.2 for orange
+x1.4 for red
+
+I made a mistake in >>15894280. Fit mechanics affect the hit rate, not the accuracy term.
+
+Hit rate is capped at 96%.
+(Accuracy term - Evasion term) will never go below 10%.
+
+
+
+Compare to the July 2016 formula chart for daytime shelling:
+
+Accuracy calculations
+
+This only applies to daytime shelling.
+ASW attacks, torpedo attacks, aerial battle and night battle do not follow this formula.
+
+Accuracy term = 0.03 + (0.9 + 0.02*√(Level - 1) + 0.01*Equipment accuracy + 0.015*Luck) * Formation modifier * Morale modifier
+
+Evasion term = E((Evasion stat + Equipment evasion + 0.15*Luck) * (7/6)/100 * Formation modifier * Morale modifier * Fuel modifier)
+
+If x > 0.5,
+E(x) = x/(x + 0.5)
+Otherwise,
+E(x) = x
+
+Proposed hit rate = Accuracy term - Evasion term
+Proposed crit rate = 0.125 * Hit rate + 0.01
+
+Formation modifiers:
+x1.0 in line ahead and ring
+x1.2 in double line, echelon and line abreast
+
+Morale modifier:
+x1.2 for sparkled
+x1.0 for normal
+x0.75~0.8 for orange
+x0.5 for red
+
+Suijou main fleet suffers a -40% accuracy penalty. Suijou escort fleet suffers -15%.
+Hit rate can never go below 10%.
+
+==Page 4-5 Info==
+Apparently double attack is treated as a cut-in in KanColle Kai.
+
+Night recon proc
+
+First, list all equipped night recon planes in decreasing order of accuracy
+Have them attempt to proc in order. For each night recon, proc chance = √Plane LoS * √Equipping ship's level * 0.04
+The first plane that procs will be the contact plane.
+
+If accuracy ≤ 1:
+Night attack +5
+Accuracy * 1.1
+Critical hits do 157% damage
+
+If accuracy = 2:
+Night attack +7
+Accuracy * 1.15
+Critical hits do 164% damage
+
+If accuracy = 3:
+Night attack +9
+Accuracy * 1.2
+Critical hits do 170% damage
+
+Night attack damage bonus is affected by ship status (chuuha/taiha), special attack type (eg. torp CI), and is pre-cap.
+Accuracy modifiers affect the this.valance2 part of the accuracy calculations for night battle, which is taken from accuracy calculations for daytime shelling. Default for night battles is 69 (instead of 90 for daytime shelling)
+Critical hits do 150% damage by default
+
+Questions:
+No info on plane proficiency or upgraded equipment. KanColle Kai doesn't have either mechanic?
+Why are there differing accuracies for night recon proc? (Wild guesses: reserved for future night recon planes, reserved for upgrades, accuracy carried over from daytime contact)
+
+
+
+Night attacks
+
+First select target, then select cut-in type (3 red gun CI > 2 red 1 yellow gun CI > torp CI > mixed CI > double attack)
+If target is a submarine, then exit calculations
+If luck < 50, proc rate = 15 + Luck + 0.75*√Level
+If luck ≥ 50, proc rate = 65 + √(Luck - 50) + 0.8*√Level
+Next calculate various additions:
+Skilled lookout: +5 [the chinks call it men's toilet]
+Own fleet searchlight activation: +7
+Own fleet flare activation: +4
+Enemy fleet searchlight activation: -5
+Enemy fleet flare activation: -10
+Own ship chuuha: +18
+Flagship bonus: +15
+
+Note: Enemy searchlights/flares are only available in PvP [guy left out CL Hime]
+Different CIs have different proc rates
+Divide the obtained result by a value depending on the cut-in type, to obtain the final proc rate.
+
+3 red gun CI: 140
+2 red 1 yellow gun CI: 130
+Torp CI: 122
+Mixed CI: 115
+Double attack: 110
+
+Question: What is double attack doing here? Its proc rate is too high…
+Answer: Double attack proc rate has been reduced in KC Kai, while torp CI has been nerfed to single attack.
+
+In KC Kai, if a CI fails to proc, the game rolls for the next available CI in order (3 red gun CI > 2 red 1 yellow gun CI > torp CI > mixed CI > double attack). This is not the case in the browser game.
+
+==Page 6==
+Fit guns for CLs:
+Bonus firepower = √(No. of C6 guns) + 2√(No. of C7 guns)
+
+
+Upgrade bonuses are the same as in the wiki.
+
+Upgrade modifiers
+
+Firepower:<br>
+Guns with >12 firepower: x1.5<br>
+Depth charges, sonars, large sonars (T0): x0.75<br>
+Torpedoes, midget subs, small radars, large radars, bulges, 机关部强化 [I don't know what this is but it's not AA guns]: x0<br>
+Others: x1
+
+Shelling accuracy:
+Torpedoes and midget subs: x0<br>
+Radars with 面板 > 2 [what the fuck is this]: x1.7<br>
+AA guns, sonars, large sonars, bulges, depth charges: x1
+
+Apparently red guns don't increase accuracy, at least in Kai.
+
+Alright, mistake here. The 381mm modifier for Bisko and pastas is -2 followed by +3, so it's actually +1 total, not +3
+
+==Page 9 Info==
+20.3(3) gives 15% accuracy bonus to CAs at night. 20.3 gives 10%. No other gun gives accuracy bonus to CAs at night.
+
+
+So far compared to the browser game, there are a lot of similarities, but there are differences.
+
+Support proc rate: same
+Summary: Proc bonus sparkled flagship gives is higher<br>
+Shelling support accuracy (shelling accuracy): very close<br>
+Summary: sparkles add 20% to accuracy/evasion terms, max crit rate is 12%
+
+Luck cap: same<br>
+Summary: 50-51
+
+Upgrades:<br>
+Firepower: same<br>
+Accuracy: guns do not give accuracy<br>
+Upgrade success rate: same
+
+Gun bonuses:<br>
+Night battle:<br>
+CL: same<br>
+CA: same, but using 20.3 and 20.3(3) together results in getting the bonus for 20.3 (20.3(3) gives a higher bonus)
+
+Fit mechanics:<br>
+BB: Other than 3 special cases, the other cases are the same as in the fan graph<br>
+PSVita's Nagato-class Kai are unaffected by fit mecanics<br>
+Mk7's fitness on Iowa is same as pre-fix (So more or less, disregard this as this should be ignored for browser game mechanics)
+381mm Kai is markedly different from in the browser game
+
+Yasen's 3 aspects: New conclusions were brought up
+
+CI proc rate: different mechanic from browser game, but close to how artillery spotting works in the browser game, similar proc rate
+
+Aircraft proficiency: different from browser game
+
+Formations: same as browser game, showed new formation properties! (+ accuracy)<br>
+Summary: echelon is similar to line abreast, line ahead for damage, double line for accuracy
+
+On a lighter note:<br>
+Code for Arpeggio collab appeared: attack with lasers<br>
+Torpedo support is still bugged; it ignores equipped torpedoes
+
+
+>> fighters have only +8 bonus instead of +22
+
+Mechanic discovered: expertise growth rate
+
+Scouting phase:<br>
+Δe = Growth rate * (0.5 + random(0, x-1) * 0.044)<br>
+where
+x = 12 if e < 20<br>
+x = 8 if 20 ≤ e ≤ 100<br>
+x = 6 if e > 100
+
+Δel = x * 0.5 + random(0, x-1) * 0.05<br>
+where<br>
+x = 6 if scouting fails<br>
+x = 12 if scouting succeeds<br>
+
+
+Aerial battle (S1)<br>
+Δe = Same formula as Δe above.
+
+Δel = a*b*0.5 + c*0.05<br>
+where
+a = Plane loss rate * 0.3 if proportion ≤ 0.5<br>
+a = Plane loss rate * 0.5 if proportion > 0.5<br>
+b = 0.3 if a ≤ 0.5<br>
+b = 0.4 if a > 0.5<br>
+c = 0 if ab ≤ 1<br>
+rand(0, ab) if ab > 1
+
+AA battle (S2)<br>
+Δel = Same formula as Δel in S1.
+
+So overall expertise change = ∑Δe - ∑Δel
+
+If all planes are lost, Δel = e which meaans the expertise is all lost.
+
+
+The following do not contribute to yasen attack power:<br>
+Small radars, large radars, AA guns, sonars, large sonars, bulges, bulges (medium), bulges (large), turbines/boilers, depth charges
+
+The following do not contribute to yasen accuracy:<br>
+AA guns, sonars, large sonars, bulges, bulges (medium), bulges (large), turbines/boilers, depth charges
+
+>>15894749<br>
+>机关部强化<br>
+I got it. It's turbines/boilers.
+
+Also 面板 means base so upgraded radars with base accuracy > 2 will receive the bonus.
+
+==Page 11 Info==
+Accuracy term = ((1.5*√Luck + 2*√Level + Equipment base accuracy + Base accuracy + Equipment upgrade accuracy bonus) * Morale modifier * Formation modifier + Fit modifier) * Daytime special attack modifier * AP shell modifier<br>
+Base accuracy is 90 for shelling support, and 69 otherwise.
+
+Daytime special attack modifiers:<br>
+Red/red/recon (double attack): x1.1<br>
+Red/yellow/recon: x1.3<br>
+Red/yellow/recon/radar: x1.5<br>
+Red/yellow/AP shell/recon: x1.3<br>
+Red/red/AP shell/recon: x1.2
+
+AP shell modifiers:<br>
+Affects CA(V)s, BB(V)s, CVs (including all installations)
+
+Red/yellow/radar/AP: x1.3<br>
+Red/radar/AP: x1.25<br>
+Red/yellow/AP: x1.2<br>
+Red/AP: x1.1
+
+Evasion term = E((Base evasion + 2*√Luck) * Formation modifier) - Fuel penalty<br>
+Other factors like flagship protection have not been taken into account.
+
+Attack process is as follows:<br>
+First calculate hit rate.<br>
+Then calculate crit rate.<br>
+Then calculate if the attack crits.<br>
+If it does not crit, calculate if the attack connects.
+
+==Page 12 Info==
+
+Air battle stage 1:
+Calculate fighter power
+Air supremacy: merits = 1<br>
+Air superiority: merits = 3<br>
+Air parity: merits = 5<br>
+Air incapability: merits = 7<br>
+Air denial: merits = 10<br>
+
+Own loss random value:randScale( merits / 3 ) + merits / 4, where randScale( merits / 3 ) gives 0 to 100 * merits/3, in steps of 10<br>
+Enemy loss random value: rand(11 - merits + 1) * 0.35 + rand(11 - merits + 1) * 0.65) (use your own merits value rather than the enemy's)<br>
+
+num2 = ⌊Plane slot count * Loss randomvalue/10⌋<br>
+If num2 ≥ Plane slot count, the slot has been wiped.<br>
+
+100/3 + 1/4<br>
+0-2,0-11<br>
+
+Look at the last row of pic related. AACI has a 50% chance of shooting down extra planes. Extra planes shot down = Multiplier * (ship AA + fleet AA) * other modifiers
+
+Vita only has 13 types of AACI in it.
+
+Note: Mertis are like a value
+
+Aerial phase has 3 stages.
+stg1 consists of planes from both sides shooting each other down.
+stg2 consists of ship AA shooting enemy planes down.
+stg3 consists of the remaining bombers attacking and dealing damage.
+
+stg3 has a base accuracy of 95. Contact has its own modifier unrelated to the ships.
+
+Evasion term is the same for any and all attacks targeting the ship.
+
+==Page 14-16 Info==
+
+Page 14-16 dump. This guy kept sticking to an old LoS formula so he included all of them. Just take the first one.
+
+Each ship's LoS is √(base LoS - 2) + equipment LoS - difficulty value*2
+Add all individual ship LoS to get total fleet LoS
+
+Each equipment's effective LoS is calculated as follows
+
+(√(upgrade level)*B + equipment's LoS stat)*A
+
+(C or D/E/E2 or K1 or K2) (6 LoS formulas total)
+
+Carrier-based bomber A = 0.8/3.2/2.4000000000000004
+Carrier-based recon A = 1.0/4.0/3.0
+Recon seaplane A = 1.2/4.8/3.5999999999999996
+Seaplane bomber A = 1.1/4.4/3.3000000000000003
+Other A = 0.6/2.4/1.7999999999999998
+
+Carrier-based recon B = 1.2
+Recon seaplane B = 1.2
+Seaplane bomber B = 1.15
+Small radar B = 1.25
+Large radar B = 1.4
+ASW patrol aircraft B = 1.0
+Searchlight B = 1.2
+Other B = 0
+
+Only Kai 2 ships have a difficulty value, which is exclusive to the Vita game. D/C/B/A/- have values of 1,3,6,12,18 respectively.
+
+
+
+There are a few functions exclusive to the Vita game.
+There are 9 commands.
+Shelling, Approach, Evade, Withdraw, Assault, Concentrated Fire, Aerial, ASW, Torpedo
+
+Evade increases evasion of all ships
+Approach increases hit rate but decreases evasion
+Assault is Shelling + Approach
+Concentrated Fire is increase hit rate + shelling
+If Withdraw is successful, you can avoid day battle
+For combined fleet, you can Withdraw once the first fleet finishes shelling
+
+If you don't pick Aerial first, you won't have opening aerial phase
+If you pick Shelling, Assault or Concentrated Fire second, only 3 ships will fire
+
+
+
+Yasen flagship protection: chance of proc is 45% in line ahead, 75% in ring, and 60% otherwise. Any of the other ships that can be targeted will be randomly selected to protect the flagship.
+
+
+
+If both sides are either line ahead or double line and the engagement is doukousen
+1st ship can only target enemy ships 1 or 2, 2nd ship can only target ships 1, 2 or 3, and so on
+Other engagement forms also have restrictions, but the restrictions are more complicated

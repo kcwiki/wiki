@@ -1,0 +1,416 @@
+==Info==
+{{KanmusuInfo|ID=205}}
+{{KanmusuInfo|ID=205a}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform OASW at 100 ASW.
+
+===Overview===
+'''Kai'''
+* Average firepower, torpedo, ASW, HP and armour.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Low'''
+
+:At first remodel, she has low firepower and a decent torpedo stat, making her hitting harder in night battle than at day, but not great at either.
+:While not impressive in combat, do keep in mind than many maps require you to bring at least a few destroyers for routing.
+:Furthermore, destroyers are cheap to deploy and can equip [[Drum Canister]], making them suited for expeditions.
+
+:No further remodels have been implemented for her yet (as of January 2020).
+
+===Important Information===
+* Required for A67, A78, A84, B61, B103, and B112.
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 白露型駆逐艦五番艦の春雨です、はい。輸送作戦はお任せください……です。
+|translation = I'm the 5th ship of the Shiratsuyu-class destroyers, Harusame. Yes, please leave the transport operations up... to me.
+|audio = Harusame-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 白露型駆逐艦五番艦の春雨です。
+おいしそう…ってその春雨とは違います！村雨や夕立姉さんたちと共に第二駆逐隊として海を駆け巡りました！
+輸送や護衛任務は、少し得意なんです。はい！
+|translation = I'm the 5th ship of the Shiratsuyu-class destroyers, Harusame.
+"That's delicious"... Hey, I'm not that kind of harusame!<ref>[https://en.wikipedia.org/wiki/Cellophane_noodles Cellophane noodles] are called harusame in Japan.</ref> I journeyed across the seas with Murasame and Yuudachi nee-san as part of the 2nd Destroyer Division!
+Transport or escort missions are kind of my speciality. Yes!
+|audio = Harusame-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 春雨に…ご用なのですか？
+|translation = Did you... need me?
+|audio = Harusame-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = ひゃうっ！…し、司令官！？あの…補給物資は大丈夫、無事ですから…
+|translation = Hyaah! ...Co, commander!? Umm... the supplies are fine; they're fine so...
+|audio = Harusame-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = 司令官、あの…私、次の輸送作戦があるので･･･すみません。
+|translation = Ummm Commander... I have another transport operation coming up so... Excuse me.
+|audio = Harusame-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 司令官？……あの、司令官？……忙しいのかしら。……うん、私も頑張ろう！
+|translation = Commander? ...Ummm, Commander? ...I guess he's busy... Yup, I'll work hard too!
+|audio = Harusame-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = あの、上手く言えないんですけど……いつも感謝しています。ほんとです
+|translation = Ummm, I can't express it properly but... I'm always thankful. I really am.
+|audio = Harusame-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 司令官……あ、あの、なんでしょうか？　新しい輸送任務でしょうか？　え、違うの？　じゃあ夜戦任務？　それも違う？　え……これを私に……ふふ、大事にします。
+|translation = Commander... Uh, ummm, what is it? Is it a new transport mission? Eh, it isn't? Then a night battle mission? Wrong again? Eh... for me... Fufu, I'll treasure it.
+|audio = Harusame-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 業務連絡が…あの…見てください。
+|translation = A communique has... umm... please read it.
+|audio = Harusame-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = はい、白露型五番艦春雨…出撃です！
+|translation = Yes, 5th ship of the Shiratsuyu-class, Harusame... Sortieing!
+|audio = Harusame-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = これで…輸送任務がはかどります。
+|translation = With this... the transport missions will go smoothly.
+|audio = Harusame-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = これなら、護衛もしっかりできそう…
+|translation = This will let me do escorts properly...
+|audio = Harusame-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = ありがとうございます！助かります！
+|translation = Thank you! This helps!
+|audio = Harusame-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = はい、どうぞ。
+|translation = Yes, please.
+|audio = Harusame-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = はい、お風呂いただきます
+|translation = Yes, I'll go take a bath.
+|audio = Harusame-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 少し、疲れてしましました…はい
+|translation = I'm... a bit tired... yes.
+|audio = Harusame-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい艦が、はい、できました
+|translation = Yes, a new ship has been completed.
+|audio = Harusame-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 作戦完了。艦隊帰投です、はい。
+|translation = Operation complete. The fleet has returned, yes.
+|audio = Harusame-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 第二駆逐隊、春雨、出撃ですね！
+|translation = 2nd Destroyer Division, Harusame. Sortieing!
+|audio = Harusame-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 砲戦、始めます
+|translation = Beginning combat.
+|audio = Harusame-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = しっかり護衛しないと
+|translation = I have to escort properly.
+|audio = Harusame-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle Attack 
+|origin = 守り切ります！
+|translation = I'll protect everyone!
+|audio = Harusame-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 夜戦、突入させていただきます。
+|translation = Let's charge into night battle.
+|audio = Harusame-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 春雨が一番活躍って…本当？本当なの？…はい、少し、嬉しいです。
+|translation = I really had the highest... performance? Are you serious? ...Yay, I'm a bit, happy.
+|audio = Harusame-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = きゃぁっ！
+|translation = Kyaa!
+|audio = Harusame-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = や、やめて～！
+|translation = S-Stop it~!
+|audio = Harusame-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = や、やられました・・・護衛任務はまだ続行出来ます。
+|translation = T-they got me... I can still continue the escort mission.
+|audio = Harusame-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = もうダメ…です…ね…村雨姉さん…今度は、先にいきます、ね…
+|translation = I can't... go on... Murasame nee-san... This time, I'll go on ahead...<ref>Murasame was sunk 1 year and 3 months earlier.</ref>
+|audio = Harusame-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 午前0時です。あの、日付が変わりましたね
+|translation = It's 12am. Umm, the date has changed.
+|audio = Harusame-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = マルヒトマルマル。司令官、真夜中です。はい
+|translation = 0100. It's the dead of night Commander. Yes.
+|audio = Harusame-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = マルフタマルマル。丑三つ時ですね。少し…いえ！怖くなんかないです
+|translation = 0200. It's the dead of night huh. It's a bit... No! I'm not scared at all.<ref>丑三つ時 literally means 'Hour of the Ox' and refers to time between 0200 ~ 0230.</ref>
+|audio = Harusame-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = マルサンマルマル。ふああ…ううっ、ごめんなさい。気を付けます
+|translation = 0300. *yawn*... Uuu, sorry. I'll be more motivated.
+|audio = Harusame-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = マルヨンマルマル。ねっ、眠く… だっ、大丈夫！眠くなんかないです、はい！
+|translation = 0400. Hey, I'm a bit... I, I'm fine! I'm not sleepy at all, yes!
+|audio = Harusame-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = マルゴーマルマル。司令官、朝になってしまいました。おはようございます
+|translation = 0500. It's morning Admiral. Good morning.
+|audio = Harusame-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = マルロクマルマル。朝ごはん、春雨が作ってもいいでしょうか？はい！作ります
+|translation = 0600. Shall I make breakfast? Yes! I'll go make it.
+|audio = Harusame-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = マルナナマルマル。朝ごはんは麻婆はる…　嘘です。和定食にしてみました。どうぞ
+|translation = 0700. Today's breakfast is mapo haru... Just kidding. I made a Japanese set meal. Help yourself.<ref>She was joking about making [https://cookpad.com/recipe/1224127 Mapo harusame].</ref>
+|audio = Harusame-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = マルハチマルマル。今日も輸送作戦、頑張りましょう。輸送や護衛は大切です
+|translation = 0800. I'll do my best with the transport operations today. Transportation and escorting is important.
+|audio = Harusame-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = マルキューマルマル。村雨姉さんは元気でやってるかな。ふう…
+|translation = 0900. I wonder if Murasame nee-san is doing well. Fuu~...
+|audio = Harusame-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマル。お昼は…あっ、まだお昼には早いですね。すみません
+|translation = 1000. For lunch... Ah, it's still too early for lunch. Sorry.
+|audio = Harusame-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマル。司令官、お昼は何にしますか？たまには外食も。あ、あの…
+|translation = 1100. What do you want for lunch Commander? It'd be nice to eat out once in a while. Uh, ummm...
+|audio = Harusame-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = ヒトフタマルマル。えっ、司令官とお昼、外でご一緒でいいんですか？嬉しいです
+|translation = 1200. Eh, it's fine for you to go out with me for lunch Commander? I'm happy.
+|audio = Harusame-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = ヒトサンマルマル。洋食屋さん、本当に楽しかったです。嬉しいです、はい
+|translation = 1300. The western restaurant was really fun. I'm happy, yes.
+|audio = Harusame-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = ヒトヨンマルマル。あれ？あんなところに夕立姉さんが。危なくないですか？
+|translation = 1400. Oh? What's Yuudachi nee-san doing in a place like that. Isn't it dangerous?<ref>Yuudachi and Amatsukaze charged the rear of the USN formation at [https://en.wikipedia.org/wiki/Naval_Battle_of_Guadalcanal Guadalcanal]. This resulted in them being crippled.</ref>
+|audio = Harusame-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = ヒトゴーマルマル。司令官。あ、あの…お八つお持ちいたしましょうか？
+|translation = 1500. Commander. Uh, umm... Shall I bring some snacks?
+|audio = Harusame-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = ヒトロクマルマル。少し日が陰ってきましたね。そろそろ夕方です、はい
+|translation = 1600. The day is starting to end. It's almost evening, yes.
+|audio = Harusame-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = ヒトナナマルマル。司令官、夕焼けが綺麗ですね。ずっと見ていたいです
+|translation = 1700. Commander, the sunset is beautiful right. I could watch it forever.
+|audio = Harusame-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = ヒトハチマルマル。お夕飯を用意しますね。司令官、何がいいですか？
+|translation = 1800. I'll go prepare dinner alright? What would you like Commander?
+|audio = Harusame-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトキューマルマル。やっちゃいました。春雨特製 麻婆春雨。たっ、食べて！
+|translation = 1900. It's done. My special mapo harusame. T-Try it!
+|audio = Harusame-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = フタマルマルマル。ご夕食いかがでしたか？胡麻油と五香粉が秘伝なんです
+|translation = 2000. How was dinner? The secret ingredients were sesame oil and five-spice powder.<ref>[https://en.wikipedia.org/wiki/Five-spice_powder Five-spice powder] is a mix of star anise, cloves, chinese cinnamon, sichuan pepper and fennel seeds.</ref>
+|audio = Harusame-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = フタヒトマルマル。司令官、先に洗い物片づけてしまいますね。すみません
+|translation = 2100. I'll go do the dishes Commander. Excuse me.
+|audio = Harusame-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = フタフタマルマル。司令官、そろそろ明日の輸送作戦の打ち合わせを。あの…
+|translation = 2200. It's almost time to plan out tomorrow's transport operations Commander. Ummm...
+|audio = Harusame-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = フタサンマルマル。あっ、あの。司令官、今日も本当にお疲れ様でした
+|translation = 2300. Ah, ummm. Thank you so much for your hard work today Commander.
+|audio = Harusame-23.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Mid_Autumn_2015_Seasonal_Update|Midautumn 2015]]
+|origin = いつまでも、司令官と一緒に、第二駆逐隊で、頑張りたいです。はい。
+|translation =	Destroyer Division 2 will always be working hard by your side, Commander. Yes.
+|audio = Harusame_Mid_Autumn2015.ogg
+|notes =
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+405.png|Base
+405_X.png|Base Damaged
+405v2.png|Kai
+405v2_x.png|Kai Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Harusame_Autumn2015.png|[[Seasonal/Mid_Autumn_2015_Seasonal_Update|Midautumn 2015]]
+Harusame_Autumn2015_dmg.png|[[Seasonal/Mid_Autumn_2015_Seasonal_Update|Midautumn 2015 Damaged]]
+Harusame_Valentines_2016.png|[[Seasonal/Valentine%27s_Day_2016|Valentine's Day 2016]]
+Harusame_Valentines_2016_dmg.png|[[Seasonal/Valentine%27s_Day_2016|Valentine's Day 2016 Damaged]]
+Harusame_Third_Anniversery.png|[[Seasonal/Third_Anniversary|3rd Anniversary]]
+Harusame_Third_Anniversery_dmg.png|[[Seasonal/Third_Anniversary|3rd Anniversary Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Harusame}}
+
+==Trivia==
+*2014/8/8 Added as a drop for clearing E1 during the [[Summer 2014 Event]]
+*2014/11/14 Added as an event drop for E1 boss, E2 boss, E3 boss, G and H during [[Fall 2014 Event]]
+*2015/2/6 Added as an event drop for E3 boss and H nodes on difficulties of medium or higher during [[Winter 2015 Event]]
+*Harusame is the first ship to bring [[Drum Canister]] as an equipment
+*Prio to 2014/12/1 update, Harusame's kai art was same as her non-kai picture. 
+*After you kai Harusame, she gets a hairpin similar to [[Yuudachi]] in her right bang. This is thought to be illustrated because they were both present during [[Yuudachi]]'s rampage in the Solomons.
+*[[Destroyer Princess]] looks like the abyssal form of Harusame.
+*Her name literally means "Spring Rain".
+*Sunk by USAAF B-25 bombers at [http://tools.wmflabs.org/geohack/geohack.php?pagename=Japanese_destroyer_Harusame_%281937%29&params=00_05_S_132_45_E_ 00°05′S 132°45′E] on June 8, 1944.
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View Harusame CG]]
+*[[EliteDD|List of Destroyers]]
+*[[wikipedia:Japanese destroyer Harusame (1935)| Wikipedia entry on destroyer Harusame]]
+{{Shiplist}}
+[[Category:Shiratsuyu Class]]
+[[Category:Destroyers]]

@@ -1,0 +1,730 @@
+==Info==
+{{KanmusuInfo|ID=002}}
+{{KanmusuInfo|ID=002a}}
+{{KanmusuInfo|ID=373}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* She can carry seaplane fighters on kai.
+* She gains the ability to equip WG42 and tanks on Kai Ni.
+* She gains a special attack on Kai Ni called "'''Nagato, Ready? Let's do this! Main guns, full broadside!'''" (長門、いい？ いくわよ！ 主砲一斉射ッ！) that targets 3 enemies at random.
+** Activation requirements are as follows:  
+*** Mutsu Kai Ni must be the flagship.
+*** Another battleship must be in the 2nd position.
+*** She must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>.
+*** The rest of the fleet must not contain a submarine.
+*** '''Echelon formation''' needs to be selected in a single fleet OR '''Cruising Formation 2''' for a combined fleet.
+** If triggered, Mutsu will do two attacks with a 1.4x post-cap modifier and the other battleship will do a 3rd attack with a 1.2x post-cap modifier.
+*** If [[Nagato|Nagato Kai]] is the 2nd ship, Mutsu gains a 1.61x post-cap modifier while Nagato gains a 1.62x post-cap modifier.
+*** If [[Nagato|Nagato Kai Ni]] is the 2nd ship, both Mutsu and Nagato will gain a 1.68x post-cap modifier.
+*** If [[Nelson]] is the 2nd ship, Mutsu will gain a 1.54x post-cap modifier while Nelson gains a 1.5x post-cap modifier.
+*** An AP shell will provide an extra 1.35x multiplicative bonus.
+*** A radar with 5 or more LoS stat will provide an extra 1.15x multiplicative bonus.
+*** See below for calculated bonus:
+{| class="mw-collapsible" style="width: 100%;"
+!rowspan="2" style="width: 20%; text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Equipment'''
+!colspan="2" style="width: 20%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''With Nagato Kai'''
+!colspan="2" style="width: 20%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''With Nagato Kai Ni'''
+!colspan="2" style="width: 20%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''With Nelson'''
+!colspan="2" style="width: 20%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''With Other BB'''
+|-
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 1 and 2'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 3'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 1 and 2'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 3'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 1 and 2'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 3'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 1 and 2'''
+!style="width: 10%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" | '''Attack 3'''
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; |'''AP + Radar'''
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.49
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.51
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.60
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.60
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.39
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.32
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.17
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.86
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; |'''AP Only'''
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.17
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.51
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.26
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.26
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.07
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |2.02
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.89
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.62
+|-
+|style="width: 20%; text-align: center; border-style: solid; border-width: 1px; |'''Radar Only'''
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.85
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.86
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.93
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.93
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.77
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.72
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.61
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.38
+|-
+|style="width: 20%; text-align: center; border-radius: 0 0 0 6px; border-style: solid; border-width: 1px; |'''No Bonus Equipment'''
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.61
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.62
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.68
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.68
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.54
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.50
+|style="width: 10%; text-align: center; border-style: solid; border-width: 1px; |1.4
+|style="width: 10%; text-align: center; border-radius: 0 0 6px 0; border-style: solid; border-width: 1px; | 1.2
+|-
+|}
+
+** It can be triggered even if you fail to activate artillery spotting.
+** It can only be activated '''once per sortie'''.
+** It has a chance to trigger every time she takes a turn at shelling. If it fails to trigger in day, there is a chance to trigger it in the followup night battle.
+** The attack will consume extra ammo from both participating battleships when triggered. The total ammo consumption will be x1.5 of the original ammo consumption of when the attack is triggered ([https://twitter.com/syoukuretin/status/1063895644790677504 Source]), hence:
+
+**If it is triggered in day battle, it costs 10% extra ammo.
+**If it is triggered in an night battle node, it costs 5% extra ammo.
+**If it is triggered in a night battle in a normal node, it costs 15% extra ammo.
+
+===Overview===
+'''Kai'''
+* Good firepower, HP and armour.
+
+'''Kai Ni'''
+* Great firepower and armour.
+* Good HP.
+* Requires blueprint.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+'''Hidden Fit Bonuses'''
+* She has accuracy bonuses and penalties when equipped with certain large guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+Priority: 
+
+* Kai: '''High'''
+: Being obtainable from normal construction and having a low remodel level makes her a valuable part of the fleet. Her high firepower, armour and HP will make her a mainstay until you obtain the LSC or event-only battleships. Although she can carry seaplane fighters, she needs to compromise her combat ability to do so.
+* Kai Ni: '''Medium-High'''
+: Your first Kai Ni between [[Mutsu]] and [[Nagato]] should be a priority because of their powerful skill. Aside from that, she gains a significant boost to her firepower and armour. Her ability to equip WG42 and tanks also gives her potential in the anti-installation role. Though her performace against surface targets will suffer. Her blueprint requirement and high remodel level makes her take a back seat to other battleships if you already have Nagato at Kai Ni.
+
+====Recommended Roles====
+* Combat
+* Anti-Installation - Kai Ni
+* Support Expeditions
+
+====Not Recommended Roles====
+* Air Support
+
+===Important Info===
+* Required for quests A42, A75, A92, B22, B24, B31, B99, B129, and B130. 
+* An option for A43 and Bm4.
+* Excellent source of [[41cm Twin Gun Mount]].
+
+==Voice Lines==
+===Quote===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 長門型戦艦二番艦の陸奥よ。よろしくね。あまり火遊びはしないでね。お願いよ？
+|translation = I'm the 2nd ship of the Nagato-class battleships, Mutsu. Pleased to meet you. Please don't play with fire alright. Please?<ref>She sank when her magazines exploded after a fire in her third turret.</ref>
+|audio = Mutsu-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = 長門型戦艦二番艦の陸奥よ。提督、今日もよろしくね。あまり火遊びはしないでね。お願いよ？
+|translation = I'm the 2nd ship of the Nagato-class battleships, Mutsu. Admiral, I look forward to working with you today too. Please don't play with fire alright. Please?
+|audio = MutsuKai-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai2 = yes
+|origin = 改長門型戦艦二番艦の陸奥よ。提督、今日もよろしくね。あまり火遊びは…ん？本当に？うふふぅ。じゃあ、安心ね。
+|translation = I'm the 2nd ship of the Improved Nagato-class battleships, Mutsu. Admiral, I look forward to working with you today too. Please don't play with fire... Hmmm? Really? Ufufu. Well that makes me feel better.
+|audio = MutsuKai2-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 長門型戦艦の２番艦として生まれた陸奥よ。
+もちろん、世界のビッグ７の一艦になるわね。
+え？主砲火薬庫爆発事故？まあ、隠してもしょうがないわね。今度は大丈夫よ！
+|translation = I'm Mutsu who was born as the 2nd ship of the Nagato-class battleships.
+Naturally, that makes me one of the world's Big 7.<ref>The "Big 7" were the 7 battleships in the world that were allowed to mount 16 inch guns according to the negotiations of Washington Naval Conference. They were the IJN Nagato and Mutsu; the HMS Nelson and Rodney; and the USN Colorado, Maryland and West Virginia.</ref>
+Eh? My Main Magazine Explosion Incident? Well, can't cover it up anymore right? It'll be fine this time!<ref>The Japanese covered the explosion of her 3rd turret up to prevent loss of morale.</ref>
+|audio = Mutsu-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = 何？
+|translation = What is it?
+|audio = Mutsu-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai = yes
+|origin = あらあら、私に何かようなの？
+|translation = Oh my, did you need me for something?
+|audio = MutsuKai-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai2 = yes
+|origin = いいわよ。お姉さんがやってあげる。
+|translation = That's fine. Big sis will do it.
+|audio = MutsuKai2-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = 何か用なの？
+|translation = Do you need something?	
+|audio = Mutsu-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai2 = yes
+|origin = でも、あまり火遊びはやめてって。うん。よろしい。
+|translation = But, I told you not to play with fire. Yes. That's better.
+|audio = MutsuKai2-Sec2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3<ref>Becomes Secretary 2 on Kai.</ref>
+|origin = だから、私の中で火遊びはやめてって言ったでしょ？ねえ聞いてる？
+|translation = Like I said, I told you to stop playing with fire around me! Hey, are you listening?
+|audio = Mutsu-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3 
+|kai = yes
+|origin = だから火遊びはしないでっていったでしょ？　……え、本気なの？　ふ～ん。お姉さん、知らないぞ？
+|translation =  Didn't I tell you not to play with fire? ...Eh, are you serious? Hummmm, big sis won't be responsible for what happens next alright?
+|audio = Mutsu-Secretary_3_Kai.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kai2 = yes
+|origin = そう？火遊びじゃなくて、本気なんだ。じゃあ、仕方ないわね。いいの？お姉さんも本気になっちゃうぞ〜。
+|translation = Really? You aren't just playing around and were serious. Then, I won't hold back. It's fine. Big sis will get serious now too.
+|audio = MutsuKai2-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = あら、あらあら。この陸奥を一人にさせるなんて……。あらあらあら！
+|translation = Oh, oh my oh my. Leaving me all alone over here... Oh my, oh my, oh my!
+|audio = Mutsu-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = あなたのために、今日もがんばっちゃおうかな？
+|translation = Should I do my best for you today too?
+|audio = Mutsu-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|kai2 = yes
+|origin = 長門…あっ、ううん…提督、あなたのために、今日はお姉さん、頑張っちゃうかな？…うーそ。うふふぅ。
+|translation = Nagato... Ah, no... Admiral, should I put on my best big sister act for you today? ...Juuuuust kidding. Ufufu.
+|audio = MutsuKai2-SecMarried.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督、なんでそんなに第三砲塔付近を見つめているの？見るならこっちを見てよ。
+|translation = Why are you examining my 3rd turret so closely, Admiral? If you want to look, look at me.
+|audio = Mutsu-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 提督にお伝言よ。
+|translation = It's a message for you, Admiral.
+|audio = Mutsu-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|kai = yes
+|origin = 情報？待てて。お姉さんが撮ってきてあげる。
+|translation = Information? Wait a minute. Big sis will get it for you.
+|audio = MutsuKai-PlayerScore.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 戦艦陸奥、出撃よ！
+|translation = Battleship Mutsu, sortieing!
+|audio = Mutsu-Joining_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai2 = yes
+|origin = 戦艦陸奥、抜錨！出撃します！
+|translation = Battleship Mutsu, weighing anchor! Sortieing!
+|audio = MutsuKai2-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = あら、いいのに。別に何も出ないわよ。
+|translation = Oh my, it's fine. It's not like I'm going to encounter anything.<ref>She never encountered actual combat besides training exercises, supporting fire, and rescue escort operations.</ref>
+|audio = Mutsu-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = ふーん。悪くはないわね。ありがと。<ref>Shared with supply before Kai.</ref>
+|translation = Humph? Not bad. Thank you.
+|audio = Mutsu-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = あら、あらあら。
+|translation = Oh my, oh my, oh my.
+|audio = Mutsu-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = yes
+|origin = あら、ありがとうー。
+|translation = Oh my, thank you~.
+|audio = MutsuKai-Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor)
+|origin = ちょっとお化粧直してくるわね。
+|translation = I'll need to take a bit of time to fix my makeup.
+|audio = Mutsu-DockingMinor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major)
+|origin = 服が傷んでしまったわ。丁寧にお願いね？
+|translation = My clothes have been ripped. Please be discreet alright?<ref>She's telling you not to stare.</ref>
+|audio = Mutsu-DockingMajor.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい艦ができたみたいね。
+|translation = It seems like a new ship has been finished.
+|audio = Mutsu-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Return From Sortie
+|origin = 艦隊が帰ってきたわね。
+|translation = The fleet has returned.
+|audio = Mutsu-Return_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 私の出番ね。いいわ、やってあげる！
+|translation = It's my turn huh. Okay then, I'll let them have it!
+|audio = Mutsu-Start_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai2 = yes
+|origin = 長門、いい？私達の出番よ。艦隊出撃！前！
+|translation = Nagato, ready? It's our turn to shine. Fleet, sortie! Forwards!
+|audio = MutsuKai2-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 敵艦発見！全砲門、開け！
+|translation = Enemy ships spotted! All guns fire!
+|audio = Mutsu-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 選り取り見取りね、撃て！
+|translation = Eeny, meeny, miney, moe... FIRE!
+|audio = Mutsu-Attack_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Daytime Spotting/ Night Battle Attack
+|origin = 第三砲塔…何してるの？
+|translation = No. 3 turret... what are you doing?
+|audio = Mutsu-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Daytime Spotting/ Night Battle Attack
+|kai2 = yes
+|origin = 第三砲塔を敵に指向。逃さないわ。撃て！
+|translation = Face the 3rd turret to the enemy. They won't get away. Fire!
+|audio = MutsuKai2-NightAtk.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = さーて、とどめを刺すわよ
+|translation = Now then, let's finish this!
+|audio = Mutsu-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = あら、私？ふーん、そんなこともあるわよね。悪い気はしないわ。
+|translation = Oh my, me? Humph, so those things happen too huh. It doesn't feel bad!
+|audio = Mutsu-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = やだ。当てたのね。
+|translation = Oh no, I'm hit.
+|audio = Mutsu-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = ふうん･･･少しはやるじゃない。
+|translation = Humph... They aren't that bad.
+|audio = Mutsu-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = ば、爆発なんてしないんだから…もう。
+|translation = I-I'm not going to detonate! ...Jeez.
+|audio = Mutsu-Moderately_Damaged.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 戦いで沈む…なんでだろう…あまり悔しくはないわ…
+|translation = Sinking in a fight... I wonder why... I'm not that frustrated...
+|audio = Mutsu-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 日付が変わったわ。あらあら、今日は私が秘書官担当ね。いいわ。お姉さんに任せておいて。夜は長いわ。
+|translation = The date has changed. Oh my, so I'm the secretary today. That's fine. Just leave it all to big sis. The night is long.
+|audio = MutsuKai-00.mp3
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = マルヒトマルマルよ。静かね。あんなに昼間は騒がしいのに。不思議ね。
+|translation = It's 0100. It's so quiet now. Even though it's so busy during the day. It just amazes me.
+|audio = MutsuKai-01.mp3
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = マルフタマルマルよ。お茶でも入れる？コーヒーのほうがいい？そう？
+|translation = It's 0200. Should I make some tea? You prefer coffee? Is that so?
+|audio = MutsuKai-02.mp3
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = マルサンマルマルよ。コーヒーおかわりはいる？うん、待てて。少し濃いほうがいいかしら。
+|translation = It's 0300. Would you like more coffee? Ok, wait a minute. I wonder if I should make it a bit stronger.
+|audio = MutsuKai-03.mp3
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = んーんーぐぅー…マルヨンマルマルよ。もうすぐ朝ね。あなた、少しだけでいいから、休んで。大丈夫、私が見ておくわ。
+|translation = Ngggggh *stretching*... It's 0400. It's almost morning. Dear, it's fine for you to take a short rest. It's fine, I'll keep an eye on things.
+|audio = MutsuKai-04.mp3
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = マルゴマルマルよ。んー、いい朝。あなたもコーヒーでいい？入れてくるわ。うん、待てて。
+|translation = It's 0500. Mmmm,  it's a lovely morning. Would you like more coffee? I'll go make some. Yes, wait a minute.
+|audio = MutsuKai-05.mp3
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = マルロクマルマルよ。総員起しをかけるわね？いいの、あなたは休んでいて…ね？長門たちを起こしてくるわね？
+|translation = It's 0600. I'll go wake every one up alright? It's fine, you just get some rest... alright? I'll go wake Nagato and the others up alright?
+|audio = MutsuKai-06.mp3
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = マルナナマルマルよ。提督、長門、おはよう。朝食はこちらに用意したわ。Mutsu Morning!召し上がれ。
+|translation = It's 0700. Admiral, Nagato, good morning. Breakfast is set out over here. Mutsu Morning! Please enjoy.
+|audio = MutsuKai-07.mp3
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = マルハチマルマルよ。お昼用におにぎりを作っておくわね？長門は鮭とおかかっと…提督は何がいい？ん？
+|translation = It's 0800. I'll make some rice balls for lunch alright? Nagato wants salmon and okaka... What would you like, Admiral? Well?<ref>Okaka refers to finely chopped [https://en.wikipedia.org/wiki/Katsuobushi katsuobushi].</ref>
+|audio = MutsuKai-08.mp3
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = マルキュマルマルよ。あらあら、長門、あなた張り切りすぎよ。ペースを上げすぎないで。ねぇ、提督？
+|translation = It's 0900. Oh my, Nagato, you're being too enthusiastic. Don't get too far ahead. Right, Admiral?
+|audio = MutsuKai-09.mp3
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = ヒトマルマルマルよ。長門、これを持っていって。お昼のおにぎりよ。いっぱい握っておいたから。提督の分も。ねぇ？
+|translation = It's 1000. Nagato, take this. It's rice balls for lunch. I made lots. Here's your share too, Admiral. Alright?
+|audio = MutsuKai-10.mp3
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = ヒトヒトマルマルよ。やっぱり海は気持ちいいわね？ん？提督、どうしたの？私の顔に何かついてる？
+|translation = It's 1100. The sea definitely feels great right? Hmm? Admiral, what's wrong? Is there something on my face?
+|audio = MutsuKai-11.mp3
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = ヒトフタマルマルよ。お昼にしましょう。はい、これが提督の分。いっぱい握りすぎちゃった。ん、無理はしないで。
+|translation = It's 1200. Let's have lunch. Here, this is your share, Admiral. I made too much. Mmm, don't force yourself to finish it.
+|audio = MutsuKai-12.mp3
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = ヒトサンマルマルよ。提督、食後のお茶のおかわりはいい？そう？了解よ。午後も頑張りましょうね。
+|translation = It's 1300. Admiral, would you like another cup of tea? Really? Roger. Let's work hard this afternoon too.
+|audio = MutsuKai-13.mp3
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = ヒトヨンマルマ…あら、加賀さん！お化粧変えた？えぇ、私？私はいつもどりよ。あぁ、そう？あらあら。
+|translation = 140... Oh, Kaga! Eh, have I changed my makeup? It's still the same as usual. Ah, is that so? My, oh my.
+|audio = MutsuKai-14.mp3
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = ヒトゴマルマルよ。さうだ！美味しい京都のカステラがあるの。提督、どうかしら？うん、了解。お茶も入れるわね？
+|translation = It's 1500. That's right! We have some delicious castella from Kyoto. Admiral, would you like some? Ok, roger that. I'll make some tea too alright?<ref>A castella is a type of Japanese sponge cake.</ref>
+|audio = MutsuKai-15.mp3
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = ヒトロクマ…あら、七駆の子たち。どうしたの？あらあら、それは…違うわ。大丈夫。それに私は…ほら、元気よ。
+|translation = 16... Oh, it's the girls from DesDiv7. What's wrong? My my, that's... not quite right. I'm alright. I mean look... I'm feeling fine.<ref>A communications officer of DesDiv7 put forward a theory that her turret explosion was caused by an unexploded depth charge that was dropped off Ushio during a training exercise that went unreported to Command.</ref>
+|audio = MutsuKai-16.mp3
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = ヒトナナマルマルよ。提督、見て、夕日。きれいね。…えぇ、私？あぁ、もう、何も出ないはよ。…でも、嬉しい。
+|translation = It's 1700. Admiral, look at the sunset. It's beautiful... Eh, me? Ah, jeez, flattery won't get you anywhere... But, I'm happy.
+|audio = MutsuKai-17.mp3
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = ヒトハチマルマルよ。夕食は提督が？うーん、私がやるわ。任せておいて。なにか食べたいものがある？
+|translation = It's 1800. You're going to make dinner, Admiral? No, let me do it. Just leave it to me. Is there anything you'd like to have?
+|audio = MutsuKai-18.mp3
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = ヒトキュマルマル。お待ちどおさま。今日は陸奥特製の洋食ディナーコースを用意したわ。お酒は…赤ワインでいい？
+|translation = 1900. Thanks for waiting. Today I made my special Western Dinner Course. For the drink... is red wine fine with you?
+|audio = MutsuKai-19.mp3
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = フタマルマルマルよ。どう、私の腕前は？えぇ、大和にも負けないですって？もう、本当に何も出ないわよ！
+|translation = It's 2000. So how did I do? Eh, it wouldn't lose to Yamato? Jeez, flattery really won't get you anywhere!
+|audio = MutsuKai-20.mp3
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = フタヒトマルマルよ。あら、Nelson！どう？なれた？…あらあら、なにか困ったことがあったら、言ってね？
+|translation = It's 2100. Oh, Nelson! How are you? Are you settling in? ...Oh my, tell me if you have anything troubling you alright?
+|audio = MutsuKai-21.mp3
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = フタフタ…あら、赤城さん。えぇ、差し入れ？ありがとう。ねぇ、よかったらこれで一杯どう？たまには。うん！
+|translation = 22... Oh, Akagi. Eh, refreshments? Thank you. Hey, how about you have a drink with us if you don't mind? Just once in a while. Yup!
+|audio = MutsuKai-22.mp3
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = フタサンマルマルよ。ねぇ、提督、世の中には本当の事がわからないってこともあるのよね。不思議ね。うふぅ、今日はお疲れ様。提督も少し休んで。おやすみなさい。
+|translation = It's 2300. Hey Admiral, there's a saying that goes "no one knows the truth of this world". Such a mysterious saying. You should get a bit of rest, Admiral. Goodnight.
+|audio = MutsuKai-23.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2015|Rainy Season 2015]]
+|origin = あっ長門、出掛けるの？この傘を持っていって。今日は降り続けるわよ。
+|translation =	Ah, are you going out, Nagato? Take this umbrella. It’s going to pour today.
+|audio = Mutsu_Rainy_Secretary_1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_Season_Update|Early Summer 2015]]
+|origin = なぁに長門ったら……ビーチバレー？いいけど、貴女ルール知ってるの？……（苦笑）あらあら、仕方ないわね……任せて。
+|translation =	Oh Nagato… beach volleyball? It’s fine, but do you know the rules? … Hah, oh dear, well then… leave it to me.
+|audio = Mutsu_Early_Summer_HQ.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = さぁ、年末は何かと忙しいわね。大掃除は早めにすませてしまいましょう。長門、この辺りはあなたにお願いしてもいいかしら？
+|translation =	Well, the end of the year is busy. Let’s finish up the spring cleaning quickly. Can I leave this area to you, Nagato?
+|audio = Mutsu_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 提督、あけましておめでとう！今年もよろしくね？あぁ、そう。長門も大事にしてあげでね？彼女、意外と不器用でしょう？
+|translation =	Happy New Year, Admiral! Take care of me this year too alright? Ah, that’s right. Take care of Nagato too alright? She can be surprisingly awkward you know?
+|audio = Mutsu_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2016|Valentine’s Day 2016]]
+|origin = はーぁい、提督。少し大人のチョコレート、あげるわ。大事に食べるのよ、いーい？うふふっ♪
+|translation =	Heeeree, Admiral. I have some chocolates that are just a touch adult-like for you. Make sure you savour them alright? Ufufu~♪
+|audio = Mutsu_Valentine_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2016|White Day 2016]]
+|origin = あら？チョコのお返し？嬉しいわ♪
+|translation =	Oh? A return gift for the chocolates? I’m happy♪
+|audio = Mutsu_White_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = あら…あらあら…三周年なの？すごいはね。続くものね.少し驚きだは。どう、そのいみじゃないなの。いいね？ね？
+|translation =	Oh my… oh my… It’s the 3rd Anniversary? Amazing. It comes again and again. I’m a bit surprised. I didn’t mean it like that. It’s good right? Right?
+|audio = Mutsu_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2016|Autumn 2016]]
+|origin = 今度の戦いは少し大きそうね？私達も全力出撃かしら。準備しなきゃね。お化粧も少しだけ気合なきゃ。待ってて。
+|translation =	Looks like it will be a big fight this time. I wonder if we’re sortieing in full force. I need to get ready. I’ll put some effort into my makeup. Wait a moment.
+|audio = Mutsu_Saury_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2017|Setsubun 2017]]
+|origin = えぇ、私も鬼役なの？いいけど… そう、これは鬼の角じゃないの？えぇ、長門が全開でのりのりなの？仕方ないわね。
+|translation =	Eh, I’m playing the Oni too? That’s fine but… Yes, these aren’t Oni horns you know? Eh, Nagato is all pumped up for this? I guess we have to do this then.
+|audio = Mutsu_Setsubun_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Early_Summer_2017|Early Summer 2017]]
+|origin = 長門、この浴衣どう？おかしくない？そう？良かった。提督、おまたせ。うふふぅ、ありがとう。
+|translation =	How’s this yukata, Nagato? Does it look weird? Really? Great. Thanks for waiting, Admiral. Ufufu, thank you.
+|audio = Mutsu_Sec1_Summer_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2017|Saury Festival 2017]]
+|origin = 秋刀魚漁支援任務、了解よ。あらあら、長門、あなた張り切ってるわね。漁、やりたかったの？そう。
+|translation =	A saury fishing support mission. Roger. Oh my, you’re excited about this, Nagato. Do you want to fish that badly? I see.
+|audio = Mutsu_Sec1_Saury_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2018|Summer 2018]]
+|origin = 何長門ったら？ビーチバレー？いいけど、あなたあルールしてるの？…あぁ、あらあら。しかたないわね。任せて。
+|translation =	What is it Nagato? Beach volleyball? That's fine but do you know the rules? ...Ah, oh my. That can't be helped then. Leave it to me.
+|audio = Mutsu_Summer_2018_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2019|Coming of Spring 2019]]
+|origin = 長門、第一戦隊でお花見はどう？大和や武蔵も呼んで。ねぇ？楽しそうでしょう？私、提督に相談してくるわね。
+|translation =	Nagato, what do you think of having a cherry blossom viewing with the 1st Fleet? We can invite Yamato and Musashi too. Right? It sounds fun doesn't it? I'll go talk with the Admiral.
+|audio = Mutsu_Spring_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = あら、あらあら。六周年なの？すごいわね。続くものね。長門、提督、これからもよろしくおねがいね。
+|translation =	Oh my, my, my. It's the 6th Anniversary? Amazing. They just keep coming. Nagato, Admiral; please keep looking after me.
+|audio = Mutsu_6th_Anniversary_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = Play	あら！あらあら。ついに七周年なの？これは少し驚きね。長門、提督、いつもありがとう。これからもよろしくね？
+|translation =	Oh my! Oh my, oh dear. It's finally the 7th Anniversary? I'm a bit shocked. Nagato, Admiral, thank you for everything. Please keep taking care of me alright?
+|audio = Mutsu_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = あら！あらあらあら！まさかの八周年なの？やるわね。長門、提督、ありがとう。これからもずっと、よろしくね。
+|translation =	Oh my! Oh my goodness! Is it really the 8th Anniversary? Nagato, Admiral, thank you. I'm going to keep counting on you two.
+|audio = Mutsu_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = Mutsu Special Attack 1
+|origin = 戦艦陸奥、突撃するわ。一斉射、うてぇ！
+|translation =	Battleship Mutsu, beginning the attack! Full broadside, FIRE!
+|audio = MutsuKai2-Special1.mp3
+|notes = Special Attack Line
+}}
+{{SeasonalQuote
+|scenario = Mutsu Special Attack 2
+|origin = 長門、任せて！うてぇ！
+|translation =	Nagato, leave it to me! FIRE!
+|audio = MutsuKai2-Special2.mp3
+|notes = Special Attack Line with Nagato
+}}
+{{SeasonalQuote
+|scenario = Mutsu Special Attack 3
+|origin = 長門、いい？いくはよ！第一戦隊、一斉射、うてぇ！
+|translation =	Nagato, ready? Here we go! First Fleet, full broadside, FIRE!
+|audio = MutsuKai2-Special3.mp3
+|notes = Special Attack Line with Nagato
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+2_3.png|Base
+2_4.png|Base Damaged
+KanMusu373CG.png|Kai Ni
+KanMusu373CGDmg.png|Kai Ni Damaged
+KanMusu373Special.png|Kai Ni Special Attack
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Mutsu_Fall2016.png|[[Seasonal/Autumn_2016|Autumn 2016]]
+Mutsu_Fall2016_dmg.png|[[Seasonal/Autumn_2016|Autumn 2016 Damaged]]
+</gallery>
+|}
+
+== Drop Locations ==
+{{#invoke:ShipDropTable|returnShipDrop|Mutsu}}
+
+==Trivia==
+*She is named after [https://en.wikipedia.org/wiki/Mutsu_Province Mustu Province], made out of modern day [https://en.wikipedia.org/wiki/Fukushima_Prefecture Fukushima], [https://en.wikipedia.org/wiki/Miyagi_Prefecture Miyagi], [https://en.wikipedia.org/wiki/Iwate_Prefecture Iwate], and [https://en.wikipedia.org/wiki/Aomori_Prefecture Aomori] Prefectures.
+*Her lines about playing with fire are all double entendres about flirting with her.
+*She formerly had the lowest luck among all ships (before Taihou was added) as she sank without experiencing real battles, due to an explosion of her 3rd turret in the summer of 1943.
+*She is compared to a snail and slug due to her horn-like headgear. Nagato's headgear is similar but more back-swept, probably sparing her from similar nicknames.
+*She sunk due to an internal explosion on 8 June 1943. Most of the wreckage was later salvaged between the mid-50's to 1970's.
+
+==See Also==
+*[[Mutsu/Gallery|View Mutsu CG]]
+*[[EliteBB|List of battleships]]
+*[[wikipedia:Japanese_battleship_Mutsu|Wikipedia entry on battleship Mutsu]]
+
+{{shiplist}}
+[[zh:陆奥]]
+[[Category:Nagato Class]]
+[[Category:Battleships]]
+[[Category:Ayane Sakura]]
+[[Category:Shizuma Yoshinori]]

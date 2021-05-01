@@ -1,0 +1,27 @@
+{|class="infobox; vcard; outcell" style="text-align :left; width: 300px;"
+!class="vcard; incell_top" style="background-color: #dde6ff" colspan="2"|{{#if: {{{nameJp|}}} |'''{{lang|ja|{{{nameJp}}}}}'''<br />}}'''{{{nameEn}}}'''
+|-
+|style="text-align:center"|{{{image|No image}}}<div style="padding-top:0.3em; line-height:1.2em;">{{{caption|}}}</div>
+|-
+|style="background: transparent" |Title
+|{{{title|}}}
+|-
+|style="background: transparent" |Started
+|{{{started|}}}
+|-
+|style="background: transparent" |Location
+|{{{location|}}}
+|-
+|style="background: transparent" |Event Held
+|{{{event_held|}}}
+|-
+|style="background: transparent" |Main Participant(s)
+|{{{Main_Participant|}}}
+|-
+|style="background: transparent" |Purpose
+|{{{purpose|}}}
+|-
+|style="background: transparent" |Websites
+|{{{website|}}}
+|}<noinclude>
+{{Documentation}}</noinclude>

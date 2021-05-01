@@ -1,0 +1,5 @@
+<onlyinclude><includeonly><!--
+-->{{#ifeq:{{{overlayform|}}}|popupajax|{{#if:{{{overlaytip|}}}{{{overlaylink|}}}|[[{{#if:{{{overlaylink|}}}|{{{overlaylink}}}|{{{overlaytip}}}}}|{{#ifeq:{{{highlight|}}}|{{{number|}}}|<span style="color:white; font-weight:600;">{{{overlay}}}</span>|{{{overlay}}}}}]]|{{{overlay}}}}}|{{#if:{{{overlaylink|}}}|[[{{{overlaylink}}}|{{#ifeq:{{{highlight|}}}|{{{number|}}}|<span style="color:white; font-weight:600;">{{{overlay}}}</span>|{{{overlay}}}}}]]|{{{overlay}}}}}}}<!--
+--></includeonly></onlyinclude><noinclude>
+[[Category:Map Templates]]
+</noinclude>

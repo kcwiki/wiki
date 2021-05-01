@@ -1,0 +1,31 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Banner|{{{1|}}}|type=Ship|suffix1={{#if: {{{damaged|}}} | Damaged }}|text={{{text|}}}|caption={{{caption|}}}|small={{{small|}}}}}</includeonly><noinclude>
+Inherited from [[Template:Banner]]. Simplified version of [[Template:ShipBattleCardKai]]. Doesn't use Lua, so it's possible to have (practically) unlimited number of invokes on a page.
+
+==Interface==
+*Supported parameters: ''[1]'', ''type'' (<code>Ship</code> or <code>Enemy</code>) ''link'', ''caption'', ''ring'', ''ring_glow'', ''damaged'', ''small'' (downscale HD card to Phase 1 size), ''debuffed'' (for enemies).
+*The following parameters can be added: ''name'', ''model'', ''grayscale'', ''mode''.
+*Other layers also can be supported (''flagship'', etc.).
+*Automatic enemy aircraft layers are not supported.
+
+==Examples==
+<pre>{{Ship/Banner|Kasumi}}</pre>
+{{Ship/Banner|Kasumi}}
+
+<pre>{{Ship/Banner|Kasumi/}}</pre>
+{{Ship/Banner|Kasumi/}}
+
+<pre>{{Ship/Banner|Jervis Kai}}</pre>
+{{Ship/Banner|Jervis Kai}}
+
+<pre>{{Ship/Banner|Jervis/Kai}}</pre>
+{{Ship/Banner|Jervis/Kai}}
+
+<pre>{{Ship/Banner|Jervis/Kai|damaged=true}}</pre>
+{{Ship/Banner|Jervis/Kai|damaged=true}}
+
+<pre>{{Ship/Banner|Kasumi/Kai Ni|text=Kachumi|ring=true|ring_glow=true}}</pre>
+{{Ship/Banner|Kasumi/Kai Ni|text=Kachumi|ring=true|ring_glow=true}}
+
+<pre>{{Ship/Banner|Kasumi/Kai Ni|caption=Kachumi|ring=true|ring_glow=true|damaged=true|small=true}}</pre>
+{{Ship/Banner|Kasumi/Kai Ni|caption=Kachumi|ring=true|ring_glow=true|damaged=true|small=true}}
+</noinclude>

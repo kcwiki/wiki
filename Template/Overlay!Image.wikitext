@@ -1,0 +1,64 @@
+<includeonly>{{#if:{{{2|}}}
+|{{#switch:{{{3}}}
+|popup  = {{Popup<!--
+			-->|id={{{6}}}popup{{{1}}}<!--
+			-->|hovertext=[[File:{{{7}}}|link={{{2}}}|{{{8|50}}}{{#if:{{{9|}}}|x{{{9}}}}}px]]<!--
+			-->|popup={{{5|}}}<!--
+			-->|nott=1<!--
+		  -->}}
+|popupajax = {{Popup<!--
+			-->|id={{{5|}}}<!--
+			-->|hovertext=[[File:{{{7}}}|link= |{{{8|50}}}{{#if:{{{9|}}}|x{{{9}}}}}px|(click me)]]<!--
+			-->|popup={{{5|}}}<!--
+			-->|ajax=1<!--
+			-->|click=1<!--
+			-->|nott=1<!--
+			-->|title={{{10|}}}[br](Click To View)<!--
+		  -->}}
+|popuppage = {{Popup<!--
+			-->|id={{{5|}}}popup{{{1}}}<!--
+			-->|hovertext=[[File:{{{7}}}|link= |{{{8|50}}}{{#if:{{{9|}}}|x{{{9}}}}}px|(click me)]]<!--
+			-->|popup={{Popup/Wikipage|page={{{5|}}}}}<!--
+			-->|nott=1<!--
+			-->|click=1<!--
+			-->|title=(Click To View)<!--
+		  -->}}
+|color
+|colour = [[{{{2}}}|<span title="{{{5}}}" style="background-color:{{{4}}};">&nbsp;&nbsp;</span>]]
+|text   = [[{{{2}}}|<span title="{{{5}}}" style="font-size:85%; color:{{{4}}};">'''{{{1}}}'''</span>]]
+|{{#tag:imagemap|Image:{{{1}}} white, {{{4}}} rounded rectangle.svg{{!}}50x{{#ifexpr: {{{1}}} < 10 |13|12}}px
+default [[{{{2}}}{{!}}{{{5}}}]]
+desc none}}
+}}
+|{{#switch:{{{3}}}
+|popup  = {{Popup<!--
+			-->|id={{{6}}}popup{{{1}}}<!--
+			-->|hovertext=[[File:{{{7}}}|link= |{{{8|50}}}{{#if:{{{9|}}}|x{{{9}}}}}px]]<!--
+			-->|popup={{{5|}}}<!--
+			-->|nott=1<!--
+		  -->}}
+|popupajax = {{Popup<!--
+			-->|id={{{5|}}}<!--
+			-->|hovertext=[[File:{{{7}}}|link= |{{{8|50}}}{{#if:{{{9|}}}|x{{{9}}}}}px|(click me)]]<!--
+			-->|popup={{{5|}}}<!--
+			-->|ajax=1<!--
+			-->|click=1<!--
+			-->|nott=1<!--
+			-->|title={{{10|}}}[br](Click To View)<!--
+		  -->}}
+|popuppage = {{Popup<!--
+			-->|id={{{5|}}}popup{{{1}}}<!--
+			-->|hovertext=[[File:{{{7}}}|link= |{{{8|50}}}{{#if:{{{9|}}}|x{{{9}}}}}px]]<!--
+			-->|popup={{Popup/Wikipage|page={{{5|}}}}}<!--
+			-->|nott=1<!--
+			-->|click=1<!--
+			-->|title=(Click To View)<!--
+		  -->}}
+|color
+|colour = <span title="{{{5}}}" style="background-color:{{{4}}};">&nbsp;&nbsp;</span>
+|text   = <span title="{{{5}}}" style="font-size:85%; color:{{{4}}};">'''{{{1}}}'''</span>
+|[[Image:{{{1}}} white, {{{4}}} rounded rectangle.svg|50x{{#ifexpr: {{{1}}} < 10 |13|12}}px|{{{5}}}]]
+}}
+}}</includeonly><noinclude>
+[[Category:Map Templates]]
+</noinclude>

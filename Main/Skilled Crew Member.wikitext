@@ -1,0 +1,270 @@
+[[File:Skilled_Crew_Member.png|right]]
+=Overview=
+
+Skilled Pilots are items that are required for plane upgrade quests or [[Improvement|equipment upgrades]]. 
+
+=How to Obtain=
+===Quests===
+
+One Time: [[Quests#A59|A59]], 
+[[Quests#A62|A62]], 
+[[Quests#A77|A77]], 
+[[Quests#B69|B69]], 
+[[Quests#B94|B94]], 
+[[Quests#B102|B102]], 
+[[Quests#B103|B103]], 
+[[Quests#B105|B105]], 
+[[Quests#B106|B106]], 
+[[Quests#B118|B118]], 
+[[Quests#B126|B126]], 
+[[Quests#B137|B137]], 
+[[Quests#B149|B149]], 
+[[Quests#B166|B166]], 
+[[Quests#C34|C34]], 
+[[Quests#C46|C46]], 
+[[Quests#F35|F35]]
+ 
+Repeatable: [[Quests#Bq8|Bq8]], 
+[[Quests#Bq9|Bq9]], [[Quests#F95|F95]]
+
+===Events===
+
+Some [[Events]] will reward Skilled Pilots. Due to uncertainty in whether an event will award Skilled Pilots, please check the current event page for more up to date details.
+
+=Uses=
+===Quests===
+<div class="mw-collapsible mw-collapsed"><h4>One-Time Quests</h4>
+<div class="mw-collapsible-content">
+{{QuestsHeader}}
+{{Quests
+| type = Factory
+| listnum = F22
+| reqQuest = Bm6
+| namejp = 精鋭「艦戦」隊の新編成
+| nameen = Organization of the new elite fighter force
+| req = ''Skilled Pilot Required: Scrap two [[Zero Fighter Type 21]] and one [[Type 96 Fighter]] while your secretary ship is Houshou equipped with max-expertise [[Zero Fighter Type 21]]!''
+*Completion Condition: Have a Skilled Pilot in the inventory, and:
+*# Set [[Houshou]] equipped with a max-expertise [[Zero Fighter Type 21]] as the secretary ship, and then
+*# Scrap two [[Zero Fighter Type 21]] and one [[Type 96 Fighter]]. 
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 50
+| other = [[Zero Fighter Type 21 (Skilled)]]
+| notes = Required for [[#F24|F24]] and [[#F28|F28]] 
+''Monthly Quest''
+| once = 
+}}
+{{Quests
+| type = Factory
+| listnum = F51
+| reqQuest = 
+| reqQuest2 = 
+| namejp = 精鋭「水戦」隊の新編成
+| nameen = Organize the New Elite Seaplane Group
+| req = Organize a new Elite Squadron: Have a Secretary ship equipped with a [[Type 2 Seaplane Fighter Kai]] with Max Expertise and max modifications '''in the first slot'''and then scrap 2 [[Type 21 Zero Fighter]]s and 2 [[Zuiun]]. *Skilled Pilots is required to complete the process.
+*Have a secretary ship equipped with a Maxed Expertise and Max Star '''in the first slot''' [[Type 2 Seaplane Fighter Kai]] and then Scrap 2 [[Type 21 Zero Fighter]] and 2 [[Zuiun]] in your inventory while the quest is activated.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 50
+| other = x1 [[Type 2 Seaplane Fighter Kai (Skilled)]]
+| notes = Skilled Pilot is required for quest completion, Skilled Pilot will be consumed upon completion of quest.
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F52
+| reqQuest = F51
+| reqQuest2 = 
+| namejp = 精精鋭「水戦」隊の増勢
+| nameen = Expand the New Elite Seaplane Group
+| req =  Organize a new Elite Squadron: Have a Secretary ship equipped with a [[Type 2 Seaplane Fighter Kai]] with Max Expertise and max modifications '''in the first slot''' and then scrap 2 [[Type 21 Zero Fighter]]s and 2 [[Zuiun]]. *Skilled Pilots is required to complete the process.
+*Have a secretary ship equipped with a Maxed Expertise and Max Star [[Type 2 Seaplane Fighter Kai]] '''in the first slot''' and then Scrap 2 [[Type 21 Zero Fighter]] and 2 [[Zuiun]] in your inventory while the quest is activated.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 50
+| other = x1 [[Type 2 Seaplane Fighter Kai (Skilled)]]
+| notes = Skilled Pilot is required for quest completion, Skilled Pilot will be consumed upon completion of quest.
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F58
+| reqQuest = B102
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 精鋭「瑞雲」隊の編成.
+| nameen = Organize the Elite "Zuiun" Group
+| req = Have Hyuuga Kai as secretary, put a ★max "Zuiun (634 Air Group)" into her 4th slot, then scrap two Drum Canisters. Furthermore, have two "Type 99 Dive Bombers" and two "Zuiun" in your inventory. 
+*This quest requires a "Skilled Pilot".
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 100
+| other = [[Zuiun (634 Air Group/Skilled)]]
+| notes = [[Zuiun (634 Air Group)]] will become a [[Zuiun (634 Air Group/Skilled)]] and One Skilled Pilot, two [[Type 99 Dive Bomber]]s and two [[Zuiun]] will be consumed upon completion of quest. 
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F62
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 夜間作戦型艦上攻撃機の開発
+| nameen = Development of carrier-based night bombers
+| req = Equip a [[TBF]] in the first slot of your secretary ship, scrap x2 [[Type 13 Air RADAR]]s, x2 [[Type 22 Surface RADAR]]s and prepare 40 Development Materials, 10 Improvement Materials, 5000 ammo, 8000 bauxite,  1 Skilled Pilot and 1  New Aviation Armament Materials.
+| fuel = 100
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = [[TBM-3D]]
+| notes = All above mentioned items that are prepared will be consumed upon the completion of this quest and the [[TBF]] will be turned into a [[TBM-3D]].
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F75
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 =
+| namejp =  精鋭「航空戦艦」彗星隊の編成
+| nameen = Organize the Elite "Battle Carrier" Suisei Air Group
+| req = * Put [[Ise|Ise kai ni]] as the flagship, equip a [[Suisei Model 22 (634 Air Group)]] in the third slot. Scrap 3 [[Type 99 Dive Bomber]]s and 3 [[Suisei]], Prepare 3000 bauxite, a skilled crew member, 30 devmats and a New Model Aerial Armament Material. The resources and items will be consumed. 
+| fuel = 0
+| ammo = 634
+| steel = 0
+| bauxite = 0
+| other = [[Suisei Model 22 (634 Air Group/Skilled)]]
+| notes = All prepared items will disappear upon completion of quest and the [[Suisei Model 22 (634 Air Group)]] will become a [[Suisei Model 22 (634 Air Group/Skilled)]]
+| once  = True
+}}
+{{Quests
+| type = Factory
+| listnum = F79
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 航空戦力の強化
+| nameen = Air Force Expansion
+| req = Air Force Expansion Mission: Scrap 3 fighters, 3 dive bombers, 3 torpedo bombers, 3 recon seaplanes, then prepare 1 Skilled Pilot as well as 1800 bauxite (The Skilled Pilot and bauxite will be consumed upon completion of this mission)
+| fuel = 100
+| ammo = 100
+| steel = 0
+| bauxite = 0
+| other = '''Choose between the following rewards:'''<br> [[Zero Fighter Type 32 (Skilled)]] x1 <br>'''or'''<br> [[Type 1 Fighter Hayabusa Model II]] x1 <br> '''or''' <br> [[Zuiun (631st Air Group)]]
+| notes = Skilled Pilot and 1800 Bauxite will be consumed upon the completion of this quest. <br>''Quarterly Quest''
+| once  = 
+}}
+{{Quests
+| type = Factory
+| listnum = F80
+| reqQuest = 
+| reqQuest2 = 
+| namejp =  戦闘機隊戦力の拡充 
+| nameen = Expansion of Land Base Air Squadron
+| req = Scrap four carrier fighters, four seaplanes and two carrier recons. Prepare one Skilled Crew Pilot, one set of New Aircraft Armament Materials and prepare 3000 Bauxite. 
+* Completing this quest will consume 3000 bauxite and all the aforementioned materials.
+
+| fuel = 0
+| ammo = 100
+| steel = 0
+| bauxite = 0
+| other = <br> '''Choose between the following rewards:'''<br> [[Reppuu Model 11]] x1 <br>'''or'''<br> [[Type 3 Fighter Hien]] x2 <br>'''or'''<br> [[Spitfire Mk.I]] x2
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F81
+| reqQuest =
+| reqQuest2 = 
+| namejp = 基地航空隊戦力の拡充
+| nameen = Expansion of Aircraft Carrier Forces
+| req = Scrap 4 carrier fighters, 4 dive bombers, 4 torpedo bombers and prepare one Skilled Crew member, two sets of New Aircraft Armament Materials, and prepare 4,800 Bauxite.
+* Completing this quest will consume 4800 bauxite and the aforementioned materials.
+
+| fuel = 0
+| ammo = 200
+| steel = 0
+| bauxite = 0
+| other = '''Choose between the following rewards:'''<br> [[Raiden]] x1 <br>'''or'''<br> [[Prototype Toukai]] x1 <br>'''or'''<br> [[Shiden Type 11]] x2
+| notes =
+| once  = True
+}}
+{{Quests
+| type = Factory
+| listnum = F87
+| reqQuest = B132
+| reqQuest2 = F86
+| reqQuest3 =
+| namejp =「最精鋭「瑞雲」隊の編成
+| nameen = Organize the most elite Zuiun Unit
+| req = Have Ise Kai Ni or Hyuuga Kai Ni as your flagship and equip a [[Zuiun Kai Ni (634 Air Group)]] that is max modified on first slot, scrap 6 [[Zuiun]], 3 [[Suisei]], 1 [[Prototype Reppuu Late Model]], then prepare 2000 ammo, 8000 bauxite, 1 New Type Aviation Armament Material, 2 Skilled Crew Member
+* All mentioned resources and materials will be consumed upon completion
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = [[Zuiun Kai Ni (634 Air Group/Skilled)]]
+| notes = * 2,000 ammo, 8,000 bauxite, 1 New Type Aviation Armament Material, 2 Skilled Crew Member will be consumed upon completion of quest<br> * [[Zuiun Kai Ni (634 Air Group)]] will transform into [[Zuiun Kai Ni (634 Air Group/Skilled)]]
+| once  = True
+}}
+{{Quests
+| type = Factory
+| listnum = F88
+| reqQuest = B137
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 一航戦精鋭「流星改」隊の編成
+| nameen = Formation of the CarDiv 1's peerless "Ryuusei Kai" squadron
+| req = With [[Akagi|Akagi Kai Ni/E]] as your flagship, equip the [[Ryuusei Kai (CarDiv 1)]] in the first slot with max expertise, then proceed to scrap x4 [[Ryuusei Kai]]s, x1 [[Saiun]], x2 [[Type 97 Torpedo Bomber]]s, and prepare 2800 ammo, 9000 bauxite, and 2 [[Skilled Pilots]].
+* All mentioned resources and materials will be consumed upon completion
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = [[Ryuusei Kai (CarDiv 1/Skilled)]] x1
+| notes = * 2,800 ammo, 9,000 bauxite,,2 Skilled Crew Member will be consumed upon completion of quest<br> * [[Ryuusei Kai (CarDiv 1)]] will transform into [[Ryuusei Kai (CarDiv 1/Skilled)]]
+| once  = True
+}}
+{{Quests
+| type = Factory
+| listnum = F91
+| reqQuest =
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 	新鋭対潜哨戒航空戦力の導入
+| nameen = Introduction of Cutting-Edge ASW Patrol Aircraft
+| req = Have [[Kaga|Kaga Kai Ni Go]] as your secretary and equip the [[TBM-3D]] in her first slot, then proceed to scrap [[TBF]] x2, [[Ryuusei]] x1, and [[Ryuusei Kai]] x1, have 1,840 Ammo, 6,200 Bauxite, [[New Model Aviation Development Material]] x2, and [[Skilled Pilot|Skilled Crew Member]] x1 in your inventory.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other =  [[TBM-3W+3S]]
+| notes = '''Scrapping progress is only counted with Kaga Kai Ni Go'''<br>[[TBM-3D]] will become [[TBM-3W+3S]] upon completion. <br> All resources and items will be consumed upon completion of quest.
+| once  = True
+}}
+|}
+</div></div>
+
+===Equipment Upgrades===
+
+''Some of these upgrades may require more than just Skilled Pilots. All of them also require additional fodder equipment. Please refer to [https://akashi-list.me/ Akashi-List] for the exact requirements.''
+
+* [[Zuiun (634 Air Group)]]
+
+* [[Tenzan Model 12 (Tomonaga Squadron)]]
+
+* [[Swordfish Mk.II Kai (Reconnaissance Seaplane Model)]]
+
+* [[Swordfish Mk.III Kai (Seaplane Model)]]
+
+{{Clear}}
+
+=See Also=
+[[Improvement]]<br>
+[[Help:Resource Farming]]
+{{Mechanics}}

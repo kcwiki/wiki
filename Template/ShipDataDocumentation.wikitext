@@ -1,0 +1,13 @@
+This page is a [[w:c:c:Help:Lua|Lua]] ''data module'' for {{#ifeq:{{{ship|false}}}|true|the ship [[{{BASEPAGENAME}}]]{{#ifeq:{{{class|false}}}|true|, <nowiki></nowiki>|<nowiki></nowiki> and <nowiki></nowiki>}}it's forms}}{{#ifeq:{{{class|false}}}|true|{{#ifeq:{{{ship|false}}}|true|, and the ship class of the same name|the ship class [[{{BASEPAGENAME}}]]}} }}.{{#ifeq:{{{ship|false}}}|true|<nowiki></nowiki>
+
+The name, stats, equipment, and other data for the ship [[{{BASEPAGENAME}}]] are recorded here.}}{{#ifeq:{{{class|false}}}|true|<nowiki></nowiki>
+
+The name, base ship type, and other data for the ship class [[{{BASEPAGENAME}}]] are {{#ifeq:{{{ship|false}}}|true|also <nowiki></nowiki>}}recorded here.}}
+
+{{ShipDataDocumentation/ShipData}}
+
+{{#ifeq:{{{ship|false}}}|true|{{ShipDataDocumentation/ShipForm}} }}
+
+{{#ifeq:{{{class|false}}}|true|{{ShipDataDocumentation/ShipClass}} }}<noinclude>
+
+{{documentation}}</noinclude>

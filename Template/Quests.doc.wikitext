@@ -1,0 +1,90 @@
+<noinclude>{{Documentation subpage}}</noinclude>__NOTOC__
+This is a generic table for Quests, mostly for use with the main [[Quests]] page. 
+
+==Parameters==
+There are a significant list of parameters for each Quest. A quick copy for making new quests and with short descriptions is available below.
+
+<pre>{{Quests
+| type = the kind of Quest, e.g., "Composition" quest
+| reqQuest = the prerequisite quest needed (also add in reqQuest2, etc., if needed)
+| page = page name of prerequisite quest; should only be used if prerequisite quest isn't listed on the page
+| listnum = the listing of the Quest
+| namejp = the original Japanese name
+| nameen = the translated name (English)
+| req = requirements, etc., that are needed for completion; may include the in-game description in ''italics''.
+| fuel = 
+| ammo = 
+| steel = 
+| bauxite = the four materials given after completion (numerical)
+| other = stuff given by the quest, if any; separate multiple with <br/> (breaks)
+| notes = anything else that needs to be mentioned (optional, but ''recommended'')
+| once = if the quest is only given only once, include this parameter and set to "True" (optional); use for specific types
+}}</pre>
+
+==="type" Parameter===
+This is subdivided into the available kinds of quests. Respectively, they are:
+* Composition
+* Sortie
+* PVP (for Practice)
+* Expedition
+* Supply 
+* Factory
+* Modernization
+
+[[Marriage]] quests use the above parameters, and are sorted by their type as seen in-game.
+
+==Usage==
+The Quests templates come in two parts, the Header and the main ''Quests'' row. Only the latter should be used extensively.
+
+===Requirements and Format===
+A minimum of three parts are needed for assembling the table:
+
+<code><nowiki>{{QuestsHeader}} (this includes all of the sorting information)</nowiki> <br/>
+<nowiki>{{Quests</nowiki> <br/>
+(the parameters as explained above) <br/>
+<nowiki>}}</nowiki><br/>
+|} (table closing brace)<br/></code>
+
+When adding in new quests, make sure to do so '''above''' <code>|}</code>.
+
+===Example===
+<pre>{{QuestsHeader}}
+{{Quests
+| type = Factory
+| listnum = F16
+| reqQuest = F4
+| namejp = 「伊良湖」の準備
+| nameen = Preparation for "Irako"
+| req =  ''Scrap a number of equipments you don't need at the factory and prepare to summon the new model food supply ship!''
+*Completion Condition: Scrap equipment 10 times.
+| fuel = 100
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other =  Food supply ship {{lang|ja|「伊良湖」}} "Irako" x4
+| notes = 
+| once = True
+}}
+|}</pre>
+
+{{QuestsHeader}}
+{{Quests
+| type = Factory
+| listnum = F16
+| page = Quests
+| reqQuest = F4
+| namejp = 「伊良湖」の準備
+| nameen = Preparation for "Irako"
+| req =  ''Scrap a number of equipments you don't need at the factory and prepare to summon the new model food supply ship!''
+*Completion Condition: Scrap equipment 10 times.
+| fuel = 100
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other =  Food supply ship {{lang|ja|「伊良湖」}} "Irako" x4
+| notes = 
+| once = True
+}}
+|}
+
+<includeonly>[[Category:Templates]]</includeonly>

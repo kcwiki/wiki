@@ -1,0 +1,558 @@
+<noinclude>Courtesy of the Chinese wiki.</noinclude>
+<onlyinclude>{| class="wikitable" style="border: 1px solid #aaaaaa;"
+ | rowspan="14" colspan="2" |{{#tag:tabber|Normal={{{!}} style="margin-left: auto; margin-right: auto;"
+    {{!}} style="text-align: center" {{!}}[[File:KanMusu{{{编号}}}Banner.jpg]]
+    {{!}}-
+    {{!}} style="text-align: center" {{!}}[[File:{{{编号}}}.jpg]]
+    {{!}}}
+    {{!}}-{{!}}Damaged={{{!}} style="margin-left: auto; margin-right: auto;"
+    {{!}} style="text-align: center" {{!}}[[File:KanMusu{{{编号}}}DmgBanner.jpg]]
+    {{!}}-
+    {{!}} style="text-align: center" {{!}}[[File:KanMusu{{{编号}}}Dmg.jpg]]
+    {{!}}} }}
+ ! colspan="2" |Library No.
+ | colspan="2" style="text-align: center" |{{{编号}}}
+ |-
+ ! colspan="2" |{{Ruby-ja|{{{日文名字}}}|{{{日文平假|{{{日文片假}}}}}}}}
+ ! colspan="2" |{{{中文名字}}}
+ |-
+ | colspan="4" style="text-align: center" |{{{类别}}}
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_HP.png|HP]] HP
+ | style="text-align: center; vertical-align: middle;" |{{{耐久}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Gun.png|Firepower]] Firepower
+ | style="text-align: center; vertical-align: middle;" |{{{火力}}} ({{{火力最大值}}})
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Armor.png|Armor]] Armor
+ | style="text-align: center; vertical-align: middle;" |{{{装甲}}} ({{{装甲最大值}}})
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Torpedo.png|Torpedo]] Torpedo
+ | style="text-align: center; vertical-align: middle;" |{{{雷装}}}{{#if: {{{雷装最大值|}}} | ({{{雷装最大值}}}}})
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Evasion.png|Evasion]] Evasion
+ | style="text-align: center; vertical-align: middle;" |{{{回避}}} ({{{回避最大值}}})
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_AA.png|AA]] AA
+ | style="text-align: center; vertical-align: middle;" |{{{对空}}}{{#if: {{{对空最大值|}}} | ({{{对空最大值}}}}})
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Aircraft.png|Aircraft]] Aircraft
+ | style="text-align: center; vertical-align: middle;" |{{{搭载}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_ASW.png|ASW]] ASW
+ | style="text-align: center; vertical-align: middle;" |{{{对潜}}}{{#if: {{{对潜最大值|}}} | ({{{对潜最大值}}}}})
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Speed.png|Speed]] Speed
+ | style="text-align: center; vertical-align: middle;" |{{{速力}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_LOS.png|LOS]] LOS
+ | style="text-align: center; vertical-align: middle;" |{{{索敌}}} ({{{索敌最大值}}})
+ |-
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Range.png|Range]] Range
+ | style="text-align: center; vertical-align: middle;" |{{{射程}}}
+ ! style="text-align: center; vertical-align: middle;" |[[File:Icon_Luck.png|Luck]] Luck
+ | style="text-align: center; vertical-align: middle;" |{{{运}}} ({{{运最大值}}})
+ |-
+ {{#if: {{{搭载1|}}} |!搭载}}
+ !{{#if: {{{搭载1|}}} | colspan="3"| colspan="4"}} style="vertical-align: middle;" |装备
+ |-
+ {{#if: {{{搭载1|}}} |{{!}} style="text-align: center" {{!}}{{{搭载1}}}}}
+ |{{#if: {{{搭载1|}}} | colspan="3"| colspan="4"}} style="vertical-align: middle;" |{{#if: {{{装备1|}}} |{{#ifeq: {{{装备1}}}|No Equipment|No Equipment|[[{{{装备1}}}]]}}|不能装备}}
+ |-
+ {{#if: {{{搭载1|}}} |{{!}} style="text-align: center" {{!}}{{{搭载2}}}}}
+ |{{#if: {{{搭载1|}}} | colspan="3"| colspan="4"}} style="vertical-align: middle;" |{{#if: {{{装备2|}}} |{{#ifeq: {{{装备2}}}|No Equipment|No Equipment|[[{{{装备2}}}]]}}|不能装备}}
+ |-
+ {{#if: {{{搭载1|}}} |{{!}} style="text-align: center" {{!}}{{{搭载3}}}}}
+ |{{#if: {{{搭载1|}}} | colspan="3"| colspan="4"}} style="vertical-align: middle;" |{{#if: {{{装备3|}}} |{{#ifeq: {{{装备3}}}|No Equipment|No Equipment|[[{{{装备3}}}]]}}|不能装备}}
+ |-
+ {{#if: {{{搭载1|}}} |{{!}} style="text-align: center" {{!}}{{{搭载4}}}}}
+ |{{#if: {{{搭载1|}}} | colspan="3" | colspan="4" }} style="vertical-align: middle;" |{{#if: {{{装备4|}}} |{{#ifeq: {{{装备4}}}|No Equipment|No Equipment|[[{{{装备4}}}]]}}|不能装备}}
+ |-
+ ! style="text-align: right" |Build Time
+ | style="text-align: center" |{{{建造时间}}}
+ ! style="text-align: right" |Max Consumption
+ | colspan="3" style="text-align: center;" |[[File:Fuel.png|20px|燃料]]：{{{燃料消耗}}} [[File:Ammunition.png|20px|弹药]]：{{{弹药消耗}}}
+ |-
+ ! style="text-align: right" |[[Remodel]] Consumption
+ | style="text-align: center;" |{{#if: {{{改造钢铁消耗|}}}|[[File:Ammunition.png|20px|弹药]]：{{{改造弹药消耗|0}}} [[File:Steel.png|20px|钢铁]]：{{{改造钢铁消耗|0}}}|不适用}}
+ ! style="text-align: right" |Dismantle Gain
+ | colspan="3" style="text-align: center;" |[[File:Fuel.png|20px|燃料]]：{{{燃料回收|0}}} [[File:Ammunition.png|20px|弹药]]：{{{弹药回收|0}}} [[File:Steel.png|20px|钢铁]]：{{{钢铁回收|0}}} [[File:Bauxite.png|20px|铝]]：{{{铝回收|0}}}
+ |-
+ ! style="text-align: right" |[[Modernization]] Input
+ | colspan="5" style="text-align: center" |[[File:Icon_Gun.png|20px|Firepower]] + {{{火力提供|0}}} [[File:Icon_Armor.png|20px|Armor]] + {{{装甲提供|0}}} [[File:Icon_Torpedo.png|20px|Torpedo]] + {{{雷装提供|0}}} [[File:Icon_AA.png|20px|Anti-Air]] + {{{对空提供|0}}}{{#if: {{{运提供|}}} | Luck + {{{运提供}}}}}
+ |-
+ ! style="text-align: right" |Artist
+ | style="text-align: center" |{{lang|ja|{{{画师|不明}}}}}
+ ! style="text-align: right" |Seiyuu
+ | colspan="3" style="text-align: center" |{{lang|ja|{{{声优|不明}}}}}
+ |}</onlyinclude>
+
+<noinclude>
+
+==Info==
+{|
+| valign="top" |
+<tabber>
+U-511={{Shipinfo3
+| 编号		=431_Card
+| 日文名字	=U-511
+| 日文片假	=ゆー511
+| 中文名字	=U-511
+| 类别		=U型潜水艇IXC型
+| 耐久		=8
+| 火力		=2
+| 火力最大值	=8
+| 装甲		=4
+| 装甲最大值	=16
+| 雷装		=22
+| 雷装最大值	=58
+| 回避		=18
+| 回避最大值	=44
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=8
+| 索敌最大值	=28
+| 射程		=短
+| 运		=30
+| 运最大值	=63
+| 建造时间	=建造不能
+| 装备1		=WG42(Wurfgerät 42)
+| 装备2		=
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=1
+| 弹药回收	=2
+| 钢铁回收	=2
+| 铝回收	=1
+| 火力提供	=0
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+| 改造弹药消耗	=270
+| 改造钢铁消耗	=170
+}}
+|-|
+U-511改={{Shipinfo3
+| 编号		=231a
+| 日文名字	=U-511改
+| 日文片假	=さつき１ごう<ref>さつき１ごう：五月1号。U-511在从德国引渡到日本时，使用「さつき１ごう」作为临时名称，正式编入日本联合舰队后才改为「吕500」</ref>
+| 中文名字	=U-511改
+| 类别		=U型潜水艇IXC型
+| 耐久		=13
+| 火力		=3
+| 火力最大值	=12
+| 装甲		=6
+| 装甲最大值	=20
+| 雷装		=27
+| 雷装最大值	=64
+| 回避		=33
+| 回避最大值	=59
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=16
+| 索敌最大值	=29
+| 射程		=短
+| 运		=34
+| 运最大值	=67
+| 建造时间	=35级改造
+| 装备1		=无装备
+| 装备2		=无装备
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=?
+| 弹药回收	=?
+| 钢铁回收	=?
+| 铝回收	=?
+| 火力提供	=1
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+| 改造弹药消耗	=270
+| 改造钢铁消耗	=170
+}}
+|-|
+吕500={{Shipinfo3
+| 编号		=236
+| 日文名字	=呂500
+| 日文片假	=ろ500
+| 中文名字	=吕500
+| 类别		=U型潜水艇IXC型
+| 耐久		=13
+| 火力		=4
+| 火力最大值	=13
+| 装甲		=7
+| 装甲最大值	=21
+| 雷装		=30
+| 雷装最大值	=69
+| 回避		=24
+| 回避最大值	=68
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=24
+| 索敌最大值	=34
+| 射程		=短
+| 运		=44
+| 运最大值	=77
+| 建造时间	=55级改造
+| 装备1		=试制FaT仕样九五式酸素鱼雷改
+| 装备2		=无装备
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=?
+| 弹药回收	=?
+| 钢铁回收	=?
+| 铝回收	=?
+| 火力提供	=1
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+}}
+</tabber>
+| style="width: 50px;" |
+|
+
+{{shipinfo
+| name=Mutsuki
+| japanesename=睦月
+| id=31
+| image=[[File:031.jpg]]
+| color=Cyan
+| type=Destroyer
+| class=Mutsuki
+| fuel=15
+| ammo=15
+| firepower=6 (29)
+| torpedo=18 (59)
+| AA=7 (29)
+| ASW=16 (39)
+| LOS=4 (17)
+| luck=12 (49)
+| hp=13
+| armor=5 (18)
+| evasion=37 (69)
+| aircraft=0
+| speed=Fast
+| range=Short
+| slot=2
+| time=18:00
+| slot1=[[12cm Naval Gun]]
+| slot2=[[7.7mm Machine Gun]]
+| slot3=-Locked-
+| slot4=-Locked-}}
+| style="width: 50px;" |
+|
+|}
+
+==Info==
+{|
+| valign="top" |
+===Basic===
+{{Shipinfo3
+| 编号		=431_Card
+| 日文名字	=U-511
+| 日文片假	=ゆー511
+| 中文名字	=U-511
+| 类别		=U型潜水艇IXC型
+| 耐久		=8
+| 火力		=2
+| 火力最大值	=8
+| 装甲		=4
+| 装甲最大值	=16
+| 雷装		=22
+| 雷装最大值	=58
+| 回避		=18
+| 回避最大值	=44
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=8
+| 索敌最大值	=28
+| 射程		=短
+| 运		=30
+| 运最大值	=63
+| 建造时间	=建造不能
+| 装备1		=WG42(Wurfgerät 42)
+| 装备2		=
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=1
+| 弹药回收	=2
+| 钢铁回收	=2
+| 铝回收	=1
+| 火力提供	=0
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+| 改造弹药消耗	=270
+| 改造钢铁消耗	=170
+}}
+| style="width: 10px;" |
+|
+
+===Kai===
+{{Shipinfo3
+| 编号		=431_Card
+| 日文名字	=U-511改
+| 日文片假	=さつき１ごう<ref>さつき１ごう：五月1号。U-511在从德国引渡到日本时，使用「さつき１ごう」作为临时名称，正式编入日本联合舰队后才改为「吕500」</ref>
+| 中文名字	=U-511改
+| 类别		=U型潜水艇IXC型
+| 耐久		=13
+| 火力		=3
+| 火力最大值	=12
+| 装甲		=6
+| 装甲最大值	=20
+| 雷装		=27
+| 雷装最大值	=64
+| 回避		=33
+| 回避最大值	=59
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=16
+| 索敌最大值	=29
+| 射程		=短
+| 运		=34
+| 运最大值	=67
+| 建造时间	=35级改造
+| 装备1		=无装备
+| 装备2		=无装备
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=?
+| 弹药回收	=?
+| 钢铁回收	=?
+| 铝回收	=?
+| 火力提供	=1
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+| 改造弹药消耗	=270
+| 改造钢铁消耗	=170
+}}
+| style="width: 10px;" |
+|
+
+===Kai Ni===
+{{Shipinfo3
+| 编号		=431_Card
+| 日文名字	=呂500
+| 日文片假	=ろ500
+| 中文名字	=吕500
+| 类别		=U型潜水艇IXC型
+| 耐久		=13
+| 火力		=4
+| 火力最大值	=13
+| 装甲		=7
+| 装甲最大值	=21
+| 雷装		=30
+| 雷装最大值	=69
+| 回避		=24
+| 回避最大值	=68
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=24
+| 索敌最大值	=34
+| 射程		=短
+| 运		=44
+| 运最大值	=77
+| 建造时间	=55级改造
+| 装备1		=试制FaT仕样九五式酸素鱼雷改
+| 装备2		=无装备
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=?
+| 弹药回收	=?
+| 钢铁回收	=?
+| 铝回收	=?
+| 火力提供	=1
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+}}
+|}
+
+==Different Info==
+{|
+|-
+|
+===Basic===
+{{Shipinfo3
+| 编号		=431_Card
+| 日文名字	=U-511
+| 日文片假	=ゆー511
+| 中文名字	=U-511
+| 类别		=U型潜水艇IXC型
+| 耐久		=8
+| 火力		=2
+| 火力最大值	=8
+| 装甲		=4
+| 装甲最大值	=16
+| 雷装		=22
+| 雷装最大值	=58
+| 回避		=18
+| 回避最大值	=44
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=8
+| 索敌最大值	=28
+| 射程		=短
+| 运		=30
+| 运最大值	=63
+| 建造时间	=建造不能
+| 装备1		=WG42(Wurfgerät 42)
+| 装备2		=
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=1
+| 弹药回收	=2
+| 钢铁回收	=2
+| 铝回收	=1
+| 火力提供	=0
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+| 改造弹药消耗	=270
+| 改造钢铁消耗	=170
+}}
+| style="width: 50px;" |
+|
+
+===Kai===
+{{Shipinfo3
+| 编号		=431_Card
+| 日文名字	=U-511改
+| 日文片假	=さつき１ごう<ref>さつき１ごう：五月1号。U-511在从德国引渡到日本时，使用「さつき１ごう」作为临时名称，正式编入日本联合舰队后才改为「吕500」</ref>
+| 中文名字	=U-511改
+| 类别		=U型潜水艇IXC型
+| 耐久		=13
+| 火力		=3
+| 火力最大值	=12
+| 装甲		=6
+| 装甲最大值	=20
+| 雷装		=27
+| 雷装最大值	=64
+| 回避		=33
+| 回避最大值	=59
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=16
+| 索敌最大值	=29
+| 射程		=短
+| 运		=34
+| 运最大值	=67
+| 建造时间	=35级改造
+| 装备1		=无装备
+| 装备2		=无装备
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=?
+| 弹药回收	=?
+| 钢铁回收	=?
+| 铝回收	=?
+| 火力提供	=1
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+| 改造弹药消耗	=270
+| 改造钢铁消耗	=170
+}}
+|}
+{|
+|-
+|
+===Kai Ni===
+{{Shipinfo3
+| 编号		=431_Card
+| 日文名字	=呂500
+| 日文片假	=ろ500
+| 中文名字	=吕500
+| 类别		=U型潜水艇IXC型
+| 耐久		=13
+| 火力		=4
+| 火力最大值	=13
+| 装甲		=7
+| 装甲最大值	=21
+| 雷装		=30
+| 雷装最大值	=69
+| 回避		=24
+| 回避最大值	=68
+| 对空		=0
+| 对空最大值	= 
+| 搭载		=0
+| 对潜		=0
+| 速力		=低速
+| 索敌		=24
+| 索敌最大值	=34
+| 射程		=短
+| 运		=44
+| 运最大值	=77
+| 建造时间	=55级改造
+| 装备1		=试制FaT仕样九五式酸素鱼雷改
+| 装备2		=无装备
+| 装备3		=
+| 装备4		=
+| 燃料消耗	=10
+| 弹药消耗	=20
+| 燃料回收	=?
+| 弹药回收	=?
+| 钢铁回收	=?
+| 铝回收	=?
+| 火力提供	=1
+| 装甲提供	=0
+| 雷装提供	=2
+| 对空提供	=0
+| 画师	=島田フミカネ
+| 声优	=茅野愛衣
+}}
+|}
+[[zh:Template:舰娘资料]]
+</noinclude>

@@ -1,0 +1,28 @@
+{{Navbox
+| name   = Template:HelpBox
+| state = mw-collapsible 
+| title = <span style="color:black;">'''Game Mechanics'''</span>
+| basestyle  = background-color:#99CCFF;
+| titlestyle = 
+| liststyle = border:0px none; padding-left:4px; padding:5px; 
+| groupstyle =  padding:5px; 
+| style      = background-color:#FFFFFF; border:1px solid #1A5B70; width:100%;
+|group1 = <center>'''Basics'''</center>
+|list1 = <center>''[[Tutorial:_How_to_Register|Registering]]{{·}}[[Tutorial:_How_to_Play|Gameplay Basics]]{{·}}[[:Category:UI|UI Navigation]]{{·}}[[Tutorial:_FAQ|FAQ]]''</center>
+
+|group2 = <center>'''Base Management'''</center>
+|list2 = <center>''[[Tutorial: Leveling|Leveling Girls]]{{·}}[[Help:Resource Farming|Resource Farming]]{{·}}[[Help:Ship Priority|Ship Priority]]''</center>
+
+|group3 = <center>'''Combat'''</center>
+|list3 = <center>''[[Help:Equipment Setup|Equipment Setup]]{{·}}[[Help:Fleet Formation|Fleet Formation]]{{·}}[[Help:Support Expeditions|Support Expeditions]]{{·}}[[Help:LBAS|LBAS]]''</center>
+
+
+|group4 = <center>'''Advanced Topics'''</center>
+|list4 = <center>''[[Help:Akashi Upgrades|Akashi Upgrades]]{{·}}[[Help:Anti-Installation|Anti-Installation]]{{·}}[[Help:Event Preparation|Event Preparation]]{{·}}[[Help:Modernization|Modernization Priority]]{{·}}[[Help:Reinforcement Expansion|Reinforcement Expansion]]''</center>
+
+
+|group5 = <center>'''Miscellaneous'''</center>
+|list5 = <center>''[[Help:Sparkling|Sparkling]]{{·}}[[Help:Plane Ranking|Plane Ranking]]{{·}}[[Help:Purchasing|Purchasing]]''</center>
+}}
+<includeonly>[[Category:Help]]</includeonly>
+<noinclude>{{documentation}}[[Category:Navbox Templates]]</noinclude>

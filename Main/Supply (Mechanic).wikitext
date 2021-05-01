@@ -1,0 +1,56 @@
+=Introduction=
+
+Resupplying is mainly done through the [[Supply_(Menu)|Supply]] menu. It is important to keep your girls fully supplied as low supplies can severely hamper their combat effectiveness. Low ammo {{Ammo}} [[Damage_Calculations#Ammunition_Modifier|reduces damage]], low fuel {{Fuel}} [[Accuracy,_Evasion_and_Criticals#Evasion_Formulas|reduces evasion]], and low plane stocks will reduce both [[Damage_Calculations#Airstrike|damage]] and [[Aerial_Combat#Air Control|air control power]].
+
+Other methods of resupplying ship girls are detailed below.
+
+=Overview=
+
+* The fleet will be unable to sortie if fuel or ammunition is empty.
+* Ship girls will start to incur damage penalties at <50% ammo and evasion penalties at <75% fuel.
+* Low supply levels will cause [[Expeditions]] to fail.
+* Bauxite {{Bauxite}} is only consumed when there are depleted plane slots in the fleet.
+* For resupply costs, please refer to the individual ship girl pages. Keep in mind that costs can change for each remodel.
+
+=Resupplying=
+
+The cost of resupplying is simply:
+
+<math>\text{Cost} = \lfloor \text{Consumption} \times \text{%Loss} \times \text{Mod}_\text{Married}\rfloor</math>
+
+* <math>\text{Consumption}</math> is the fuel or ammo consumption of the ship girl.
+* <math>\text{%Loss}</math> is the amount of fuel or ammo that needs to be resupplied, expressed as a percentage.
+* <math>\text{Mod}_\text{Married}</math> is the married Ship multiplier. It is <math>0.85</math> for married ships, otherwise <math>1</math>
+
+===Supply Menu===
+[[File:Supply menu.png|right|thumb|Supply menu screen and all its features]]
+====Ship Girls====
+
+'''Resupply Fleet'''
+
+To resupply the entire fleet, simply click one of the two "resupply all" buttons as described above. They will automatically resupply fuel, ammo and replenish any lost planes.
+
+'''Resupply Individual'''
+
+For more control over resupply, such as when completing quest [[Quests#E4|E4]], you may want to resupply individual ship girls. 
+
+# Click on the check box to the left of the ship girl banner to select her.
+# Choose whether to resupply fuel ({{Fuel}}), ammo ({{Ammo}}) or both (まとめて補給).
+
+====Planes====
+
+Planes are usually automatically replenished when a ship girl is resupplied. However, there are some cases where a ship girl has full supplies while her planes are depleted. To replenish only planes, click the '''Replenish Planes (艦載機補充)''' button.
+
+Resupplying Planes costs <math>5 \times \text{N}_\text{Planes Lost}</math> Bauxite
+
+===Expedition Menu===
+
+You can resupply your fleets immediately before sending them on expeditions from the expedition menu. Simply click on the small resupply button beside the "Dispatch" button. Note that the resupply animation on the expedition menu is significantly longer than the one on the supply menu.
+
+===Maritime Resupply===
+
+This is a '''temporary''' resupply mid-sortie that allows your fleet to minimise or negate supply penalties on long sorties. Any supplies granted by this item are removed upon the end of the sortie. Please see [[Maritime Resupply]] for more details on how this works.
+
+=See Also=
+[[Supply_(Menu)]]<br>
+{{Mechanics}}

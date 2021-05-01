@@ -1,0 +1,145 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consist and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct thier own version of thier guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editor's work without the full consent of the editor and his approval to do so. 
+
+Several version will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Fall 2019 Event]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 version of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version the guide, the said guide will be updated to the main page and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+==Minhfongboy==
+{{MapBranchingTable
+|0 -> A/battle=
+*Single Fleet
+|0 -> B/empty=
+*Do not meet the requirements to go to A or C
+|0 -> C/battle=
+*Combined Fleet that contains one of the following:
+**CV(L/B) ≥ 4  
+**CV(B) ≥ 3
+**(F)BB(V)+CV(L/B) ≥ 6
+**(F)BB(V)+CV(B) ≥ 5
+*Transport Combined Fleet that contains BBV '''and slow''' fleet
+
+|A/battle -> D/battle, E/battle=
+*Meet '''ANY''' of the following to go to D
+**Combined Fleet
+**Fleet contains (F)BB(V) or CV(B/L)
+**DD+DE ≤ 3
+**Fleet contains both CA and CL (CAV doesn't count)
+*Otherwise, E
+
+|B/empty -> A/battle=
+*Surface Task Force
+*Transport Combined Fleet
+*Fleet contains slow ship
+*CV(L/B) ≥ 3
+|B/empty -> D/battle=
+*Do not meet the requirements to go to A
+
+|D/battle -> E/battle=
+*Single Fleet that contains (F)BB(V) or CV(B/L)
+*Any other fleets that do not meet any of the conditions here
+|D/battle -> F/empty=
+*Transport Combined Fleet
+*Single Fleet that contains AV or SS(V) ≥ 2
+|D/battle -> G/battle=
+*Single fleet, fleet contains no (F)BB(V) or CV(B/L), '''and''' DD ≥ 4
+|D/battle -> K/empty=
+*Surface Task Force
+*Carrier Task Force
+
+|E/battle -> G/battle, J/battle=
+*Meet '''ANY''' of the following to go to G
+**Fleet contains (F)BB(V) or CV(L/B)
+**Shortcut E - J is not opened yet
+*Go to J if DD ≥ 4
+*Otherwise, G
+
+|F/empty -> K/empty, H/resource=
+*Active Branching
+
+|L/battle -> M/empty, N/battle=
+*Go to M if fleet contains Akitsushima Kai or Akashi Kai
+*Otherwise, N
+
+|Q/battle -> R/battle=
+*Fail the LoS check
+*Shortcut Q - T is not opened yet
+|Q/battle -> T/battle=
+*Pass the LoS check
+
+|R/battle -> S/empty =
+*Fail the LoS check
+|R/battle -> T/battle =
+*Pass the LoS check
+}}
+This map contains 1 TP bar and 2 HP bars that must be depleted in order to complete the map.
+*Phase 1: Deplete the TP bar by securing multiple A or S ranks at Node I
+*Phase 2: Deplete the first HP bar by damaging (then sinking) the [[Supply Depot Princess B]] at Node J
+*Phase 3: Open the shortcut Q-T 
+*Phase 4: Deplete the last HP bar by damaging (then sinking) the [[Aircraft Carrier Princess]] at Node T.
+2 LBAS is available for you to sortie (Airbase defence can also occur)
+===Phase 1: Transport Operation===
+Transport Combined Fleet '''1CAV 1CL 4DD + 1CL 2CA(V) 3DD'''<br/>
+Transport Combined Fleet '''1CVE 1AV 4DD + 2CL 4DD'''
+*Routes BADFHI
+*As this is a Transport Operation, you are recommended to bring as many Drum Canisters and Daihatsu Landing Craft as possible
+*LBAS: 1 Base of ASW bombers to Node D , another base of all bombers to Boss Node
+'''E -> J''' route will be revealed once this phase is over
+====Phase 1 Boss post-clear farming====
+On Hard mode, once this phase is over, you can always go back to this boss node to farm a lot of rare ships such as [[Okinami]], [[Sado]], [[Tsushima]] and [[Maruyu]]. A '''single fleet such as 1CVL 2CLT 1CL 1CL/(F)BB(V) 1AV''' should be strong enough to S rank the boss node reliably (Routes ADFHI)
+===Phase 2: Defeating Supply Depot Princess B===
+On this phase will will be facing off against a [[Supply Depot Princess]] along with some anti-installations and some PT imps in the mix to deal with fighting installations please review the [[Combat/Anti-Installation|Anti-Installtion]] page.
+
+Single Fleet '''1CAV 1CL/CLT 4DD'''
+*Routes AEJ
+*Node E is a battle against CA Ne-Class Kai who is very dangerous
+*There are PT Imp Groups at the boss node, a certain equipment such as [[Skilled Lookouts]] may be required to counter them
+*LBAS: Both bases full of LBAA sent to boss, or split one base for node E
+Single Fleet '''1CA 1CL 4DD'''
+*Routes ADGJ
+*Avoiding the E node that contains Ne Kai, but will have to go through [[New Submarine Princess]] node, followed by an air raid node.
+*LBAS: 1 Base of ASW bombers to Node D , another base of all bombers to Boss Node
+
+===Phase 3: Opening the shortcut===
+*Single fleet
+**S rank node J: Same comp as Phase 2
+**AS node G: 1BB 2CAV 3CV(B)
+*Carrier Task Force 
+**AS node C: 1FBB 2CAV 3CV(B) + 1CL 2CA 3DD
+**AS node O: 1FBB 2CAV 2CV Akitsushima Kai + 1CL 2CA 3DD ('''All Fast''')
+*Transport Combined Fleet, S rank node D and I: Same comp as Phase 1
+*Surface Task Force / Carrier Task Force, S rank node R: 1FBB 2CVL 2CAV Akitsushima Kai + 1CL 2CA(V) 3DD ('''All Fast''')
+*Score AS airbase defence
+
+===Phase 4: Defeating Aircraft Carrier Princess===
+Carrier Task Force '''2FBB 2CV(B) 1CAV Akitsushima Kai / Akashi Kai + 1CL 1CLT 2CA(V) 2DD (All Fast)'''
+*Routes BDKLMOPQT
+*On Hard mode, boss node has very high air power. You may need 700 air or more to be able to score AS there
+*M node is the anchorage repair node
+*L node contains a lot of PT Imp Pack, a certain equipment such as Skilled Lookouts may be required to counter them
+*LBAS: 1 Base of ASW bombers to Node D , another base of all bombers or 1 [[Type 2 Land-based Reconnaissance Aircraft]] + 3 bombers to Boss Node
+**On the Final Kill, it may be preferable to send both bases full of LBAA to the boss node instead (Adding [[Type 2 Land-based Reconnaissance Aircraft]] is also an option)

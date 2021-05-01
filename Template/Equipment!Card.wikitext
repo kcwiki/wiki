@@ -1,0 +1,18 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Card|{{{1|}}}|type=Equipment|text={{{text|}}}|caption={{{caption|}}}|size={{#if: {{{size|}}} | {{{size}}} | {{#if: {{{small|}}} | 80x80px }}}}}}</includeonly><noinclude>
+Inherited from [[Template:Card]]. Used to display equipment cards.
+
+<pre>{{Equipment/Card|Zuiun|size=50x50px}}</pre>
+{{Equipment/Card|Zuiun|size=50x50px}}
+
+<pre>{{Equipment/Card|Zuiun|small=true}}</pre>
+{{Equipment/Card|Zuiun|small=true}}
+
+<pre>{{Equipment/Card|Zuiun|small=true|text=Zuiun going brrrr}}</pre>
+{{Equipment/Card|Zuiun|small=true|text=Zuiun going brrrr}}
+
+<pre>{{Equipment/Card|Zuiun|small=true|caption=Zuiun going brrrr}}</pre>
+{{Equipment/Card|Zuiun|small=true|caption=Zuiun going brrrr}}
+
+<pre>{{Equipment/Card|Zuiun}}</pre>
+{{Equipment/Card|Zuiun}}
+</noinclude>

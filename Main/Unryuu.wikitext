@@ -1,0 +1,501 @@
+==Info==
+{{KanmusuInfo|ID=201}}
+{{KanmusuInfo|ID=206}}
+
+==Gameplay Notes==
+===Special Mechanics===
+N/A
+
+===Overview===
+* Decent firepower and armour.
+* Low HP.
+* Low slot count.
+* Bad slot distribution.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+===Analysis===
+Priority: '''Low'''
+: She is a workable carrier with decent firepower but is let down by her slot count and distribution. Her top slot being small will limit her ability to maintain the plane proficiency bonus against heavy enemy anti-air. Furthermore, her two large slots aren't really that large. Her remodel is also very expensive for the limited benefits she brings since it requires a blueprint. Her redeeming feature is that she is very cheap to run. 
+
+====Recommended Roles====
+* Combat
+* Air Support
+
+====Not Recommended Roles====
+* Shelling Support
+* Airstrike Support
+
+===Important Info===
+* Required for quests A41 and B28 <Unryuu Only>
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction 
+|origin = 雲龍型航空母艦、雲龍、推参しました。提督、よろしくお願いしますね。
+|translation = The Unryuu-class aircraft carrier, Unryuu, has arrived. Pleased to meet you, Admiral.
+|audio = Unryuu-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = 雲龍型航空母艦、雲龍参ります。提督、新生機動部隊はお任せ下さい。
+|translation = The Unryuu-class aircraft carrier, Unryuu, reporting in.　Let me handle the reformed Task Force, Admiral.<ref>She and her sister Amagi were assigned to CarDiv1 after the disaster at the [https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf Battle of Leyte Gulf].</ref>
+|audio = UnryuuKai-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = マル急計画によって戦時建造された雲龍型航空母艦の長女、雲龍よ。傑作中型空母の飛龍を改良した量産型正規空母なの。新生機動部隊の主力としての潜在実力は十分なのだけど…今度は見ててよね。
+|translation = I'm the eldest of the Unryuu-class aircraft carriers who were built during the war under the Maru Kyuu Plan, Unryuu.<ref>Referring to the [https://en.wikipedia.org/wiki/Rapid_Naval_Armaments_Supplement_Programme Rapid Naval Amanents Supplement Programme].</ref> My class was an improved version of the excellent mid-sized carrier Hiryuu and meant for mass production.<ref>Originally 16 Unryuu-class were planned but only 3 were built.</ref> I was supposed to have the potential to be the main force of the reformed Task Force but... Watch me this time.<ref>She was sunk on her first operation.</ref>
+|audio = Unryuu-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = いける？そう…
+|translation = Ready? I see...
+|audio = Unryuu-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = やだ、飛行甲板はそんな広くはないから、触らないでね。
+|translation = Hey, my flight deck isn't that large so please don't touch.
+|audio = Unryuu-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|kai = yes
+|origin = だから、飛行甲板を触らないでって。そんなに興味があるの？仕方ないわね。
+|translation = I said; don't touch my flight deck. Are you really that interested? Alright then.
+|audio = UnryuuKai-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = ふーん……優秀な艦載機をくれるというの？だったら少し、お話しましょうか。
+|translation = Hmm... You want to give me some excellent carrier planes? Let's have a little talk about it then.
+|audio = Unryuu-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kai = yes
+|origin = ふーん…もっと優秀な艦載機を乗せてくれるの？なら、色々してあげようかな。
+|translation = Hmmm... You want to give me even more excellent carrier planes? I'll do all sorts of things if you do.
+|audio = UnryuuKai-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = 提督？……ていとく？聞こえてないかしら？連絡機を出したほうがいい？それとも艦爆？
+|translation = Admiral? ...Admiral? Can't you hear me? Should I send an liaison plane? Or maybe a dive bomber?
+|audio = Unryuu-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 提督。決戦時は仕方ないですが、肩の力を抜いて、少し気楽に行きましょうよ。私、ずっと隣に居ますから……大丈夫です。
+|translation = Admiral. I know you can't help it during decisive battles, but you'll feel better if you relax your shoulders. I'll be by your side always so... everything will be fine.
+|audio = Unryuu-Wedding Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 提督、何ですか改まって？えっ、これを私に？そんな…あの…なぜ私なのでしょうか？他にもっと…いえ、大事にします。大切にします。
+|translation = What are you being so formal for, Admiral? Eh, is this for me? It's...um...why me? The others are even more... No, I'll treasure it. It's precious.
+|audio = Unryuu-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 情報ね、戦局はどうなっているの？
+|translation = 	Intelligence huh, what is the state of the war now?
+|audio = Unryuu-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|kai = yes
+|origin = 情報？見せてみて。ふーん、なるほど。
+|translation = 	Intelligence? Let me have a look. Hmmm, I see.
+|audio = UnryuuKai-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 航空母艦雲龍、出撃する。
+|translation = Aircraft carrier Unryuu, sortieing.
+|audio = Unryuu-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|kai = yes
+|origin = 機動部隊旗艦 航空母艦雲龍、出撃する。
+|translation = Task force flagship, aircraft carrier Unryuu, sortieing.
+|audio = UnryuuKai-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = 	改装...うれしいわ。
+|translation = 	A remodel... I'm happy.
+|audio = Unryuu-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|kai = yes
+|origin = 	新しい機体は、やっぱり昂るわね。
+|translation = 	It's really exciting getting new planes.
+|audio = UnryuuKai-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = 新型機? 満載したいわね。
+|translation = A new plane model? Please load me up.
+|audio =Unryuu-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai = yes
+|origin = 流星改か…あっ、ううん、なんでもないわ。
+|translation = Ryuusei Kai huh... Ah, ummm, it's nothing.
+|audio = UnryuuKai-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3 
+|origin = そう……いいじゃない……。
+|translation = Yup...not bad...
+|audio = Unryuu-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = 補給か……。艦載機もしっかりお願いね。
+|translation = Supplies huh... Don't forget my planes too.
+|audio = Unryuu-Supply.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = 服が汚れてしまいました。少し嫌……。
+|translation = My clothes got dirty. Quite unpleasant....
+|audio = Unryuu-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 戦闘後のお風呂……悪くないわね……悪くない。
+|translation = Taking bath after a fight... is not bad...not bad at all.
+|audio = Unryuu-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 戦時急造艦が完成したみたいね。
+|translation = The rushed ship construction has completed.<ref>"戦時急造艦" refers to rushed construction to get ships out the docks during war</ref>
+|audio = Unryuu-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|kai = yes
+|origin = 戦時急造艦が完成したみたい。天城かな？
+|translation = The rushed ship construction has completed. Is it Amagi?
+|audio = UnryuuKai-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊、無事戻りました。
+|translation = The fleet has returned safely.
+|audio = Unryuu-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = 輸送任務ではないわ、航空撃滅戦よ。腕が鳴るわね。
+|translation = This isn't a transport mission, it's a air raid. I can't wait to test my skill.<ref>[[#Trivia|Unryuu's only sortie was a transport mission]]</ref>
+|audio = Unryuu-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai = yes
+|origin = 雲龍型輸送艦ですって？冗談。雲龍の本当の力、見せてあげるわ。
+|translation = An Unryuu-class transport ship? You're joking. I'll show you my true power.
+|audio = UnryuuKai-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = よし、第一次攻撃隊、発艦始め。
+|translation = Okay, 1st Attack Squadron, begin takeoff.
+|audio = Unryuu-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 行ける？よし、稼働全機、発艦始め。
+|translation = 	Ready? Okay, all aircraft, begin takeoff.
+|audio = Unryuu-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Air battle
+|origin = 潜水艦への警戒は怠らないで。
+|translation = Stay alert for the submarines.<ref>She was sunk by the [https://en.wikipedia.org/wiki/USS_Redfish_(SS-395) USS Redfish].</ref>
+|audio = Unryuu-Air_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 逃がさないわ。雲龍、突撃します。
+|translation = You're not getting away. Unryuu, charging in.
+|audio = Unryuu-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = この雲龍が殊勲艦だというの？　そうか……。ううん、うれしいわ、いい気持ち……。
+|translation = I'm the most distinguished ship? I see... Yup, I'm happy, it feels good....
+|audio = Unryuu-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = くぅ……や、やるじゃない……。
+|translation = 	Kuh...not, not bad......
+|audio = Unryuu-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = 直撃！？機械室！予備電源を！
+|translation = Direct hit!? Engine room! Backup power!<ref>The first torpedo knocked out her engines.</ref>
+|audio = Unryuu-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = やられた……傾斜回復を……もう沈みは……しない……！
+|translation = I've been hit... Correct the list... I won't sink... again...!
+|audio = Unryuu-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 格納庫の誘爆…ダメか… いや…いい… 今度は思い通りに働けた… ありがとう…
+|translation = An explosion in the hangars... not good huh... no... n... this time I was able to perform as I wanted to... thank you...
+|audio = Unryuu-Sunk.ogg
+}}
+|} <references/>
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00
+|origin = 提督、深夜零時となりました。
+|translation = It's now 12am, Admiral.
+|audio = UnryuuKai-Hourly_0000.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00
+|origin = 提督、マルヒトマルマルです。深夜の静けさ、嫌いじゃないです。
+|translation = It's 0100, Admiral. I don't dislike the stillness of the night.
+|audio = UnryuuKai-Hourly_0100.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00
+|origin = マルフタマルマルです、提督。そろそろお休みになったほうがいいのでは？
+|translation = It's 0200, Admiral. Wouldn't it be good for you to sleep soon?
+|audio = UnryuuKai-Hourly_0200.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00
+|origin = マルサンマルマル。提督。私、天城にもいつか会えるような気がしています。
+|translation = 0300. I... have a feeling that I'll meet Amagi someday, Admiral.
+|audio = UnryuuKai-Hourly_0300.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00
+|origin = マルヨンマルマルです。提督、そろそろ夜が明けますね。また一日が始まります。
+|translation = It's 0400. Dawn will be here soon, Admiral. Another day begins.
+|audio = UnryuuKai-Hourly_0400.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00
+|origin = マルゴマルマルです。提督、朝になりました。さぁ、活動開始です。
+|translation = It's 0500. Morning is here, Admiral. Now, let's begin operations.
+|audio = UnryuuKai-Hourly_0500.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00
+|origin = マルロクマルマル。提督、朝食は何がいいですか？私のと一緒でよろしいですか？
+|translation = 0600. What would you like for breakfast, Admiral? Would you like to have it together with me?
+|audio = UnryuuKai-Hourly_0600.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00
+|origin = マルナナマルマル。一汁一菜の朝食ですみません。少し量が足りなかったですか？
+|translation = 0700. I'm sorry for the simple meal. Was the meal not enough?
+|audio = UnryuuKai-Hourly_0700.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00
+|origin = マルハチマルマルです。さあ、提督。艦載機を積んで艦隊を発進させましょう。
+|translation = It's 0800. Come on, let's load up the carrier planes and launch the fleet, Admiral.
+|audio = UnryuuKai-Hourly_0800.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00
+|origin = マルキューマルマル。艦載機は何がいいかしら。天山…？流星…？烈風もいいですね。
+|translation = 0900. What carrier planes would be good. Tenzan... ? Ryuusei...? Reppuus are fine too.
+|audio = UnryuuKai-Hourly_0900.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00
+|origin = ヒトマルマルマルです。提督、今搭載している機体もなかなかですが…あの、あの…
+|translation = It's 1000. Admiral, the planes I have loaded now are... Uhhh, umm...
+|audio = UnryuuKai-Hourly_1000.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00
+|origin = ヒトヒトマルマルです。提督、お昼は何がいいでしょうか？ご用意しますね。
+|translation = It's 1100. What would you like for lunch, Admiral? I shall prepare it.
+|audio = UnryuuKai-Hourly_1100.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00
+|origin = ヒトフタマルマル。お昼は戦闘配食でおにぎりにしてみました。どうでしょう？
+|translation = 1200. I made some onigiri combat rations for lunch. How are they?
+|audio = UnryuuKai-Hourly_1200.ogg
+}}
+{{ShipquoteKai
+|scenario = 13:00
+|origin = ヒトサンマルマルです、提督。お昼、少しシンプルすぎましたか？すみません…
+|translation = It's 1300. Was the lunch a bit too simple, Admrial? I'm sorry...
+|audio = UnryuuKai-Hourly_1300.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00
+|origin = ヒトヨンマルマル。提督、輸送任務ももちろん構いませんが。積み荷は…あの…
+|translation = 1400. Of course I don't mind the transport missions, Admiral. But the cargo is ... err....<ref>Unryuu transported suicide rocket planes</ref>
+|audio = UnryuuKai-Hourly_1400.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00
+|origin = ヒトゴーマルマルです。そうですね。爆発するような積み荷はどうかと…はい…
+|translation = It's 1500. I see. But carrying such highly volatile cargo is somewhat... yes...
+|audio = UnryuuKai-Hourly_1500.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00
+|origin = ヒトロクマルマルです。提督、この時間は少しナーバスになりますね。やはり潜水艦への警戒は厳としたいところです。
+|translation = It's 1600. I'm get nervous around this time, Admiral. As I thought, one should be more alert to the presence of submarines.<ref>She was torpedoed by one at 1635..</ref>
+|audio = UnryuuKai-Hourly_1600.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00
+|origin = ヒトナナマルマル。ふぅ…この時間を切り抜けたら一安心です。少し緊張します。
+|translation = 1700. Phew... it's a relief once we get past this hour. I was a little bit uneasy.
+|audio = UnryuuKai-Hourly_1700.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00
+|origin = ヒトハチマルマルです。提督、夕食の時間ですね。何になさいますか？えーと…
+|translation = It's 1800. It's time for dinner, Admiral. What would you like? Ummm...
+|audio = UnryuuKai-Hourly_1800.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00
+|origin = ヒトキュウマルマル。時雨、どうしたの？え、差し入れ？ありがとう、助かります。
+|translation = 1900. What's the matter, Shigure? Eh, provisions? Thank you, you saved me.<ref>[[Shigure]] recovered survivors from Unryuu.</ref>
+|audio = UnryuuKai-Hourly_1900.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00
+|origin = フタマルマルマル。提督、時雨がおにぎりと沢庵の差し入れを持ってきてくれました。
+|translation = 2000. Shigure has brought us provisions of onigiri and pickled daikon, Admiral.
+|audio = UnryuuKai-Hourly_2000.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00
+|origin = フタヒトマルマルです。提督、お昼と被っちゃいましたけど。時雨のお握り美味しかったですね。うふふ。
+|translation = It's 2100. Even though we had some for lunch, Admiral; Shigure's onigiri were delicious. Ufufu~
+|audio = UnryuuKai-Hourly_2100.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00
+|origin = 提督、フタフタマルマルです。もうすっかり夜ですね。静かになってきました。
+|translation = It's 2200, Admiral. It's totally night now. It's gotten quiet.
+|audio = UnryuuKai-Hourly_2200.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00
+|origin = 提督、雲龍がフタサンマルマルをお知らせします。本日の大変お疲れ様でした。
+|translation = Just letting you know that it's 2300, Admiral. Thanks for your hard work today.
+|audio = UnryuuKai-Hourly_2300.ogg
+}}
+|} <references/>
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 提督、嬉しいわ。艦隊は三周年ですって。私達、ずっと一緒に居られるのかしら…そうね、そうなると…いいわね。
+|translation =	I’m happy, Admiral. It’s the fleet’s 3rd Anniversary. I wonder if we’ll be together forever… Yeah, that would be… nice.
+|audio = Unryuu_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2016|Rainy Season 2016]]
+|origin = そう、今日も雨なのね。いいじゃない、お休みしましょうね。
+|translation =	I see, it’s raining today as well. That’s fine, let’s just rest.
+|audio = Unryuu_Rainy_Season_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = やだ、秋刀魚って、こんなにおいしいのね。旬の食べ物って、本当に素敵ね。そうだ、今度、時雨にも食べさせよ。うふふぅ
+|translation =	Oh my, saury is really delicious. Seasonal food is really lovely. I know, I’ll let Shigure have some now. Ufufu~
+|audio = Unryuu_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2016|Christmas 2016]]
+|origin = 提督、あーん。ほら、甘くて美味しいでしょ？クリスマスは、このケーキというのが、何とも魅力的ですね。この炭酸のお酒も、いい感じ。
+|translation =	Say “aah”, Admiral. See, isn’t it sweet and delicious? This thing called cake during Christmas is quite charming. This carbonated alcohol feels good too.
+|audio = Unryuu_Christmas_2016_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 提督、嬉しいはね。私達四周年ですて。私達これからも一緒にいられるのかしら…ん…そう？私もそういもってる。
+|translation =	I’m happy, Admiral. It’s our 4th Anniversary. I wonder if we’ll continue to stay together… Hmm… Really? I think so too.
+|audio = Unryuu_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = 提督、今日は素敵な大切な日。私、提督のおそばで過ごせて、少し幸せです。うふふ、いい日です。
+|translation =	Admiral, today is a wonderful and important day. I'm a bit happy that I can spend today by your side. Ufufu, today is a good day.
+|audio = Unryuu_7th_Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+404.png|Base
+404_X.png|Base Damaged
+406.png|Kai
+406_X.png|Kai Damaged
+</gallery>
+|}
+
+==Drop Locations==
+Currently limited to event-only.
+
+==Trivia==
+*Her name means "Cloud Dragon" after a creature in Japanese mythology.
+*''Unryuu'''s design is a modification on that of ''[[Souryuu]]'' and ''[[Hiryuu]]''.
+**This is a factor in why ''Unryuu'' shares the -''ryuu'' naming scheme rather than the [[:Category:Sh%C5%8Dkaku_Class|''Shoukaku''-class]]' -''kaku'' naming scheme.
+* [[Summer 2014 Event]], E-5 clear reward
+*Although commissioned, she never possessed an air wing due to losses during the war, and as such, she never traveled far from a port.
+**The exception was her first and only sortie involving [[wikipedia:Yokosuka_MXY7_Ohka|Yokosuka MXY7 ''Ōhka'']] kamikaze rocket planes destined for [[wikipedia:Manila|Manila, Philippines]].
+*Sunk by [[wikipedia:USS_Redfish_(SS-395)|USS ''Redfish'' (SS-395)]] on December 19th, 1944 in the [[wikipedia:East_China_Sea|East China Sea]] ([http://tools.wmflabs.org/geohack/geohack.php?pagename=Japanese_aircraft_carrier_Unry%C5%AB&params=29_59_N_124_03_E_ 29°59′N 124°03′E]).
+**A torpedo wrecked ''Unryuu'''s hangar, which detonated the ''Ōhka''s within and the highly volatile aviation fuel underneath.
+*She is the last carrier sunk at sea during the Pacific War (WWII).
+
+==See Also==
+* [[{{PAGENAMEE}}/Gallery|View {{PAGENAME}}'s CG]]
+* [[EliteCV|List of Standard Carriers]]
+* [http://www.combinedfleet.com/unryut.htm Tabular Record of Movement on {{PAGENAME}}]
+* [[wikipedia:Japanese_aircraft_carrier_Unryū|Wikipedia entry on {{PAGENAME}}]]
+{{Shiplist}}
+[[Category:Unryuu Class]]
+[[Category:Standard Carriers]]

@@ -1,0 +1,27 @@
+<includeonly><span class="noprint plainlinks navbar" style="{{{style|}}}"><!--
+
+-->{{#if:{{{mini|}}}{{{plain|}}}|<!--nothing-->|<!--else:
+--><span style="{{{fontstyle|}}}">{{{text|This box:}}} </span>}}<!--
+
+-->{{#if:{{{brackets|}}}|<span style="{{{fontstyle|}}}">&#91;</span>}}<!--
+
+--><span style="white-space:nowrap;word-spacing:-.12em;"><!--
+-->[[{{transclude|{{{1}}}}}|<span style="{{{fontstyle|}}}" title="View this template"><!--
+-->{{#if:{{{mini|}}}|v|view}}</span>]]<!--
+
+--><span style="{{{fontstyle|}}}">&#32;<b>&middot;</b>&#32;</span><!--
+-->[[{{TALKPAGENAME:{{transclude|{{{1}}}}}}}|<span style="{{{fontstyle|}}}" title="Discuss this template"><!--
+-->{{#if:{{{mini|}}}|d|talk}}</span>]]<!--
+
+-->{{#if:{{{noedit|}}}|<!--nothing-->|<!--else:
+--><span style="{{{fontstyle|}}}">&#32;<b>&middot;</b>&#32;</span><!--
+-->[{{fullurl:{{transclude|{{{1}}}}}|action=edit}} <span style="{{{fontstyle|}}}" title="Edit this template"><!--
+-->{{#if:{{{mini|}}}|e|edit}}</span>]}}<!--
+--></span><!--
+
+-->{{#if:{{{brackets|}}}|<span style="{{{fontstyle|}}}">&#93;</span>}}<!--
+
+--></span></includeonly><noinclude>
+
+{{documentation}}
+</noinclude>

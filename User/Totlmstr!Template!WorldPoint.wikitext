@@ -1,0 +1,7 @@
+| overlay{{{count}}} = {{{point}}}
+| overlay{{{count}}}top = {{MapRatio|{{{yloc}}}|{{{ratio|1}}}}}
+| overlay{{{count}}}left = {{MapRatio|{{{xloc}}}|{{{ratio|1}}}}}
+<!--| overlay{{{count}}}form = popupajax-->
+| overlay{{{count}}}tip = {{#if:{{{special|}}}|{{{special}}}| <!--World{{{1}}}-{{{point}}}--> }}
+| overlay{{{count}}}popupimage = Blank_square.svg
+| overlay{{{count}}}popupimagewidth = 20

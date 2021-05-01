@@ -1,0 +1,35 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Asset|{{{1|}}}|type={{{type|}}}|asset=Banner|caption={{#if: {{{text|}}} | {{{text}}} | {{{caption|}}} }}|size={{#if: {{{small|}}} | 160x40px }}|suffix1={{{suffix1|}}}}}</includeonly><noinclude>
+Inherited from [[Template:Asset]]. Used to display ship/enemy banners.
+<pre>{{Banner|Kasumi|type=Ship}}</pre>
+{{Banner|Kasumi|type=Ship}}
+
+<pre>{{Banner|Kasumi|type=Ship|small=true}}</pre>
+{{Banner|Kasumi|type=Ship|small=true}}
+
+<pre>{{Banner|Kasumi|type=Ship|suffix1=Damaged}}</pre>
+{{Banner|Kasumi|type=Ship|suffix1=Damaged}}
+
+<pre>{{Banner|Kasumi|type=Ship|text=Kachumi}}</pre>
+{{Banner|Kasumi|type=Ship|text=Kachumi}}
+
+<pre>{{Banner|Kasumi|type=Ship|caption=TsunShip}}</pre>
+{{Banner|Kasumi|type=Ship|caption=TsunShip}}
+
+<pre>{{Banner|Kasumi|type=Ship|caption=TsunShip|text=Kachumi}}</pre>
+{{Banner|Kasumi|type=Ship|caption=TsunShip|text=Kachumi}}
+
+<pre>{{Banner|New Submarine Princess Flagship|type=Enemy}}</pre>
+{{Banner|New Submarine Princess Flagship|type=Enemy}}
+
+<pre>{{Banner|New Submarine Princess Flagship|type=Enemy|small=true}}</pre>
+{{Banner|New Submarine Princess Flagship|type=Enemy|small=true}}
+
+<pre>{{Banner|New Submarine Princess Flagship|type=Enemy|text=Sub Loli Hime}}</pre>
+{{Banner|New Submarine Princess Flagship|type=Enemy|text=Sub Loli Hime}}
+
+<pre>{{Banner|New Submarine Princess Flagship|type=Enemy|caption=Sub Loli}}</pre>
+{{Banner|New Submarine Princess Flagship|type=Enemy|caption=Sub Loli}}
+
+<pre>{{Banner|New Submarine Princess Flagship|type=Enemy|text=Sub Loli Hime|caption=Sub Loli}}</pre>
+{{Banner|New Submarine Princess Flagship|type=Enemy|text=Sub Loli Hime|caption=Sub Loli}}
+</noinclude>

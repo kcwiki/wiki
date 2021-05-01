@@ -1,0 +1,75 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly><!--{{{{{subst|safesubst:}}}#invoke:EquipmentLink|format}}-->{{Link|type=Equipment|asset=Card|size={{{size|160x160px}}}|text={{{text|}}}|link={{{link|}}}|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}}}</includeonly><noinclude>
+Links with equipment card tooltips.
+
+==Parameters==
+===[1], [2], ...===
+Equipment to show in tooltips. <s>If <code>-</code>, inserts <code><nowiki><br /></nowiki></code> in tooltip.</s>
+===text===
+Link text, default to <code>[1]</code>.
+===link===
+Link target, default to <code>[1]</code>.
+===image===
+<s>Set to show equipment card image (using <code>[1]</code>) instead of text link, e.g., <code>image=true</code> to show a 50px equipment card image or <code>image=60px</code> for a 60px image (other parameters are still applicable).</s>
+===icon===
+<s>Set to show equipment icon before text or image link.</s>
+===size===
+Size of equipment card images in tooltip, defaults to full size.
+
+==Examples==
+<pre>{{EquipmentLink|Prototype 51cm Twin Gun Mount}}</pre>
+{{EquipmentLink|Prototype 51cm Twin Gun Mount}}
+<pre>{{EquipmentLink|Type 4 Passive Sonar|link=Sonar}}</pre>
+{{EquipmentLink|Type 4 Passive Sonar|link=Sonar}}
+<pre>{{EquipmentLink|Prototype 51cm Twin Gun Mount|text=P51cm}}</pre>
+{{EquipmentLink|Prototype 51cm Twin Gun Mount|text=P51cm}}
+<pre>{{EquipmentLink|Prototype 51cm Twin Gun Mount|image=true}}</pre>
+{{EquipmentLink|Prototype 51cm Twin Gun Mount|image=true}}
+<pre>{{EquipmentLink|Prototype 51cm Twin Gun Mount|image=60px}}</pre>
+{{EquipmentLink|Prototype 51cm Twin Gun Mount|image=60px}}
+<pre>{{EquipmentLink|Prototype 51cm Twin Gun Mount|icon=x}}</pre>
+{{EquipmentLink|Prototype 51cm Twin Gun Mount|icon=x}}
+<pre>{{EquipmentLink|Prototype 51cm Twin Gun Mount|image=50px|icon=x}}</pre>
+{{EquipmentLink|Prototype 51cm Twin Gun Mount|image=50px|icon=x}}
+<pre>{{EquipmentLink|Prototype 51cm Twin Gun Mount|text=true|image=50px}}</pre>
+{{EquipmentLink|Prototype 51cm Twin Gun Mount|text=true|image=50px}}
+<pre>{{EquipmentLink|Prototype 51cm Twin Gun Mount|text=P51|image=50px|icon=x}}</pre>
+{{EquipmentLink|Prototype 51cm Twin Gun Mount|text=P51|image=50px|icon=x}}
+<pre>{{EquipmentLink|Type 4 Passive Sonar|link=Sonar|text=T4|icon=true}}</pre>
+{{EquipmentLink|Type 4 Passive Sonar|link=Sonar|text=T4|icon=x}}
+<pre>{{EquipmentLink|text=Sonars|link=sonar|icon=x|Type 93 Passive Sonar|Type 3 Active Sonar|Type 0 Passive Sonar|Type 4 Passive Sonar}}</pre>
+{{EquipmentLink|text=Sonars|link=sonar|icon=x|Type 93 Passive Sonar|Type 3 Active Sonar|Type 0 Passive Sonar|Type 4 Passive Sonar}}
+<pre>
+{{EquipmentLink
+|text=Sonars
+|link=sonar
+|icon=x
+|size=100px
+|Type 93 Passive Sonar
+|Type 3 Active Sonar
+|-
+|Type 0 Passive Sonar
+|Type 4 Passive Sonar
+}}
+</pre>
+{{EquipmentLink
+|text = Sonars
+|link = Sonar
+|icon = x
+|size = 100px
+|Type 93 Passive Sonar
+|Type 3 Active Sonar
+|-
+|Type 0 Passive Sonar
+|Type 4 Passive Sonar
+}}
+<pre>{{EquipmentLink|Abyssal Cat Fighter Kai}}</pre>
+{{EquipmentLink|Abyssal Cat Fighter Kai}}
+
+==Tests==
+<pre>{{EquipmentLink|?}}</pre>
+{{EquipmentLink|?}}
+<pre>{{EquipmentLink}}</pre>
+{{EquipmentLink}}
+<pre>{{EquipmentLink|icon=x}}</pre>
+{{EquipmentLink|icon=x}}
+</noinclude>

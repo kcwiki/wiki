@@ -1,0 +1,490 @@
+
+[[File:bn_140808_on.jpg]]
+
+The Summer 2014 event lasted from August 8<sup>th</sup> to August 29<sup>th</sup>.
+
+==Map Details==
+[[File:AL_badge.jpg|thumb|Ships with AL badge]]
+[[File:MI_sticker.jpg|thumb|Ships with MI badge]]
+===Introduction===
+* AL is designed to be completable by newer players.
+** Level scaling makes it so that lower level admirals engage easier enemy fleet comps. The number of times required to sink boss remains the same.
+* This event is "two-front war". Ships that were sent on AL-operation area (E-1 and E-2), cannot join sorties on MI-operation area (E-3 to E-5).
+** Ships who have participated in AL cannot participate in MI, and vice versa.
+*** Ships who have participated in AL or MI cannot participate in E-6.
+** Ships who have participated in AL or MI cannot participate in support expeditions.
+** SHIPS THAT PARTICIPATE IN AL SUPPORT EXPEDITION CAN GO TO MI, THEY ARE NOT LOCKED.
+** Equipment can be shared across ships.
+* In order to send fleets to the event, you must have '''5 free ship spaces''' and '''20 free equipment spaces'''.
+* All maps have bosses that are HP-based. When you damage a boss, even when not killing it, the gauge will decrease accordingly.
+** The boss ship must be sunk in the end of the gauge to clear the map. Damaging it to zero gauge but not sinking the boss (top ship of enemy fleet) will not clear it yet.
+* There is no boss gauge health regeneration.
+
+=== Line of Sight ===
+* Effective LoS = Recon LoS×2 ＋ Radar LoS ＋ √(Fleet total LoS - Recon LoS - Radar LoS). This is the formula used since Spring 2014, 2-5 boss node and any node with the seaplane-searching animation.
+* ONLY Recon planes' ({{YellowPlane}} & {{Seaplane}}) LOS values are doubled. LOS from attack planes ({{RedPlane}} & {{BluePlane}}) are not doubled, but in fact square rooted. Do not double your attack planes' LOS value when making LOS calculation.
+* ''You know you fulfilled the LoS requirement if you see a short animation with a seaplane flying to the node and back to your ship icon, plus the flagship's image appearing on-screen. Otherwise, you will be diverted off-course without the animation playing.'' 
+** 5:06-5:11 of [http://www.youtube.com/watch?v=J-x1tNuCeSE this video] shows what the animation looks like. 
+* <u>You can have a high''' total '''LoS and still '''FAIL''' the LoS requirement. Do not use the total LoS as a guide.</u>
+* If you have trouble reaching LoS requirements, take a look at other players' reports (link is underneath every event map as <Report your results Here> heading on this page) and adjust your equipment accordingly.
+* There are many player reports where players of similar HQ levels have differing effective LoS requirements. This hints to a '''<u>''possibility''</u>''' that effective LoS '''<u>scales to level.</u> Do not be surprised if you level up or reach the next HQ bracket (e.g. HQ lvl 60-99) and fail to reach boss node when you just reached boss node the previous sortie.'''
+
+===Combined Fleet Mechanics===
+* In Midway, you need to sortie two fleets at the same time.
+** The first (main) fleet is your typical fleet with the number 1. You need to put in a minimum of 2 CV(up to a maximum of 4) and is allowed to put in a maximum of 2 Heavy Ships. The last 2 slots can be either Light Ships or CVs only.
+** The second (escort) fleet is your fleet number 2 and needs 1 CL. You can add up to 2 CA/CAVs and from 3 to 5 DD. You cannot use more than 1 CL, but it may be substituted with 1 CLT.
+[[File:Ss_(2014-08-10_at_09.58.59).jpg|thumb|Fleet combine mechanic.]]
+* For combined fleet battles (those nodes with a blue and red arrow), there is NO shelling phase. Instead, air combat occurs. <s>If BB is present, 2 air combat phases occur.</s>
+* In boss battles, air combat occurs as normal, then 2nd Fleet does a single shelling phase (regardless of enemy BB), then torpedo phase. After that, 1st fleet does two shelling phases (if BB present on your side), then torpedo phase. If you choose night battle, the 2nd fleet enters night battle, but the 1st fleet will not.
+* To combine fleets, go to fleet management window, then go to 2nd fleet and drag the flag over the 1st fleet's flag.
+[[File:Ss_(2014-08-09_at_04.56.13).jpg|thumb|MI formations]]
+* Special formations quick explanation:
+** (Anti-Submarine Formation) Top left is an ASW formation. Use this formation in submarine nodes.
+** (Front Alert Formation) Top right (Alert) appears to increase evasion and shelling power of the second fleet.
+** (Wheel Formation) Bottom left (Diamond) increases Anti-Air defense. Use this formation in standard air battle nodes.
+** (Battle Formation) Bottom right greatly increases the evasion and torpedo accuracy of your second fleet while preserving the shelling accuracy of the first fleet. Recommended for bosses.
+* In night battle node, you will select from normal formations because 1st fleet will not enter night battle.
+* '''Warning:''' You are allowed to continue the sortie '''even if the first ship of the second fleet was heavily damaged in the previous battle.''' Whether this intentional or not, it is strongly advisable to end the sortie if such an event occurs.
+
+
+
+{{clear}}
+
+==Patch Notes==
+# [[Summer 2014 Event]]
+#*Based on AL/MI (Aleutian Islands Campaign and Battle of Midway)
+# '''[[Ship Class|New Ships]]'''
+#* [[Unryuu]] (雲龍), Unryuu-class Standard Carrier (Kai at '''Level 50''', {{Ammo}}1000 {{Steel}}750, <span style="color:#00f">'''Needs blueprint'''</span>) 
+#* [[Ooyodo]] (大淀), Ooyodo-class Light Cruiser (Kai at '''Level 35''', {{Ammo}}320 {{Steel}}400) 
+#* [[Harusame]] (春雨), Shiratsuyu-class Destroyer (Kai at '''Level 30''', {{Ammo}}120 {{Steel}}110) 
+#* [[Tokitsukaze]] (時津風), Kagerou-class Destroyer (Kai at '''Level 30''', {{Ammo}}110 {{Steel}}120) 
+#* [[Hayashimo]] (早霜), Yuugumo-class Destroyer (Kai at '''Level 30''', {{Ammo}}140 {{Steel}}110) 
+#* [[Kiyoshimo]] (清霜), Yuugumo-class Destroyer (Kai at '''Level 30''', {{Ammo}}140 {{Steel}}110)
+#* [[Isokaze]] (磯風), Kagerou-class Destroyer (Kai at '''Level 45''', {{Ammo}}160 {{Steel}}140) 
+# '''[[Equipment|New Equipment]]'''
+#* [[Prototype 41cm Triple Cannon]]
+#* [[Type 13 AIR RADAR Kai]]
+#* [[Fleet Command Facility]]
+#* [[Skilled Carrier-based Aircraft Maintenance Personnel]]
+#* [[Zero Fighter Type 52 Type C (601 Air Group)]] - [http://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero#A6M5_Type_0_Model_52 see also]
+#* [[Reppuu (601 Air Group)]]
+#* [[Suisei (601 Air Group)]]
+#* [[Tenzan (601 Air Group)]]
+#* [[Ryuusei (601 Air Group)]] 
+# '''[[Enemy Vessel|New Enemy Vessels]]'''
+#* [[Aircraft Carrier Princess]] (空母棲姫)
+#* [[Submarine So-Class|Submarine So-Class '''Flagship''']] (潜水ソ級)
+#* [[Destroyer I-Class|Destroyer I-Class '''Late Model''']] (駆逐イ級後期型)
+#* [[Destroyer Ro-Class|Destroyer Ro-Class '''Late Model''']] (駆逐ロ級後期型)
+#* [[Destroyer Ha-Class|Destroyer Ha-Class '''Late Model''']] (駆逐ハ級後期型)
+#* [[Destroyer Ni-Class|Destroyer Ni-Class '''Late Model''']] (駆逐ニ級後期型)
+#* [[Standard Carrier Wo-Class|Standard Carrier Wo-Class '''Flagship II''']] (空母ヲ級)
+#* [[Northern Princess]] (北方棲姫) - two types
+#* [[Midway Princess]] (中間棲姫) - two types
+#* [[Aircraft Carrier Demon]] (空母棲鬼)
+# '''[[List_of_equipment_used_by_the_enemy|Enemy Equipment]]'''
+#* [http://jetri.co/decodes/2014-08-08_22-18/slotitem-547 Abyssal Hellcat Fighter] (深海猫艦戦)
+#**{{AA}}+10 {{Hit}}+1
+#* [http://jetri.co/decodes/2014-08-08_22-18/slotitem-548 Abyssal Hell Diver] (深海地獄艦爆)
+#** {{Dive}}+11 {{ASW}}+4 {{Hit}}+3 {{LOS}}+3
+#* [http://jetri.co/decodes/2014-08-08_22-18/slotitem-549 Abyssal Avenger Torpedo bomber] (深海復讐艦攻)
+#** {{Torpedo}}+13 {{AA}}+4 {{ASW}}+5 {{Hit}}+2 {{LOS}}+5
+# '''Other Updates'''
+#* [[Quests|New Quest [A41]]]: Have [[Unryuu]] in your fleet as flagship
+#* [[Tone|Tone Kai2]] and [[Chikuma|Chikuma Kai2]] get additional voice clips
+#* [[Akagi]] and [[Kaga]] gets event-limited voice clips
+
+==Event World==
+
+===E-1===
+{{EventMap1
+|map_name = [http://en.wikipedia.org/wiki/Battle_of_the_Komandorski_Islands Advance to the northern AL area!]
+|map_japanese = 北方AL海域へ進出せよ！
+|banner = [[File:Banner_AL1.png|317px]]
+|map_image = [[File:Summer2014E1_001.png|317px]]
+|report_link = [[Thread:94409|< Report your results here >]]
+|information = 
+* Boss: (Node '''K''') [[Heavy Cruiser Ri-Class|Heavy Cruiser Ri-Class Kai]]
+* Nodes '''B''' and '''H''' are night battles
+* Killing the boss '''6''' times will empty its HP gauge.
+'''Rewards'''
+* [[Harusame]] (春雨)
+* [[Shop#Consumables|Cash-only furniture token]]
+|branching = 
+All posted branching rules, as of posting, are VERY tentative. Use at your own risk. ( 2 CVL required(not true, many people have gotten to boss even with one or no CVLs), northern route requires CV(?), no more than 2 Fast BB)
+* Having more than two CVL/CV in total or more than three SS/SSV in total will take you to A-C-F.
+* Having at least one SS will take you to northern route.
+* Having at least 4 DD will take you through the middle route (from A to B). '''The optimal route as you only need to go through 2 nodes before the boss.'''
+* 1x Fast BB, 2 CA, CL, 2 CVL takes southern route to boss
+* 1x Fast BB, 3 CA, 2 CVL takes southern route to boss
+* 2x Fast BB, CA, DD, 2 CVL takes southern route to boss
+* 1x Fast BB, 3 CA, CV, DD takes southern route to boss 
+* 2x CA, DD, Fast BB, 2 CVL takes southern route to boss
+* CA, DD, CL, BBV, 2 CVL takes southern route to boss
+* 2x CA, 2x BBV, 2x CVL takes southern route to boss
+* 4x CA, 2x CVL takes southern route to boss
+* 2x CA, 2x DD, 2x CVL takes northern route to boss
+* 2x CA, Fast BB, BBV, 2x CVL takes southern route to boss
+* 2x CAV, CL, DD, 2x CVL takes southern route to boss
+* CL, BBV, DD, CVL, CV, DD takes southern route to boss
+* CL, CVL, CAV, CA, 2x BBV takes southern route to boss
+* BBV, Fast BB, CA, DD, CV, CVL takes southern route to boss
+
+
+* AV(unremodelled), Fast BB, DD, BBV, 2x CVL takes southern route to boss. Total LOS must be more than 250 (this compositon's LOS is 257 & reach to the boss node). *Note that this is for HQ level bellow 40 (HQ lv.1-39).
+
+* CL, CAV, CA, BBV, 2x CVL takes southern route to boss. Take Yuubari as your flag and set her up for double attack/ASW using 2x 15.5cm triple yellows, 1 sonar, and 1 depth charge. This is important as it takes out the sub in Node A easily while maintaining firepower for night battles.
+
+
+* There is an as-of-yet unknown LoS requirement for reaching the boss node, consider equipping more than you think is necessary to avoid unpleasant surprises. Recon planes work better than radars.
+
+|tips =
+* H node is a night battle with two possible fleet formations and only one ship is equipped for cut-in attacks, making night battle equipment (Other than the Type 98 Recon Seaplane (Night Scout)) ineffective.
+
+*Do not bother with Type 3 shells, 10cm guns and other anti-air equipment unless you fulfill LoS requirements, as they do not appear to reduce chances of being hit and damage by enemy carriers significantly.
+
+*All the enemies, including the enemy DDs, have the ability to deal heavy damage to your ships REGARDLESS OF LEVEL OR EQUIPMENT (Boilers/Turbines). Keep this in mind before you decide to commit your higher-leveled ships just to complete E-1.
+
+* A node has a submarine (changes to 'Elite' after HQ lvl 59, which is accurate due to enemy formation)
+
+* An alternative to using Yuubari for ASW is to use a CLT with 1 sonar, 1 depth charge, 1 midget sub.  CLT are much more durable and have preemptive torpedo attack in exchange for lack of night double attack.
+
+* If you decide for northern route, have at least 150 FP for air superiority and stock some night battle equipment for the B node.
+* Recommended formations for pre-boss nodes on Southern Route (in order) - line abreast, echelon, double line.
+
+*[Double Line] formation works well for I node to increase accuracy for first aerial phase and shelling phase(s). [Diamond] is NOT recommended because the enemy light carriers HAS A CHANCE to hit hard regardless of formation, and your damage, accuracy will drop.
+
+* A way through the middle route is 4 DD 2 BBV where you stack the BBVs full of Zuiun (for LoS requirements) as well as adequate night battle equipment and radars on the DDs to help them through the night node B. Use line abreast at node A if you use this configuration.
+
+|dropsA =
+* '''DD''': [[Mutsuki]], [[Satsuki]], [[Fumizuki]], [[Nagatsuki]], [[Mikazuki]], [[Mochizuki]], [[Kikuzuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]]
+* '''CL''': [[Tenryuu]], [[Tatsuta]], [[Natori]], [[Isuzu]], [[Tama]], [[Kiso]], [[Kuma]], [[Kitakami|'''<span style="color:red">Kitakami</span>''']], [[Sendai]], [[Naka]], [[Jintsuu]], [[Yura]]
+* '''CA''': [[Furutaka]], [[Kako]], [[Aoba]], [[Maya]], [[Choukai]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Chikuma]]
+
+* '''AV''': [[Chitose]], [[Chiyoda]]
+* '''CVL''': [[Ryuujou]], [[Jun'you]], [[Hiyou]], [[Souryuu]]
+|dropsC =
+* '''DD''': [[Mutsuki]], [[Shimakaze|'''<span style="color:red">Shimakaze</span>''']] 
+* '''CL''': [[Sendai]], [[Jintsuu]], [[Kitakami]], [[Isuzu]]
+* '''CA''': [[Nachi]], [[Atago]], [[Furutaka]]
+|dropsD =
+* '''DD''': [[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']]
+* '''CL''': [[Sendai]]
+* '''CA''': [[Furutaka]]
+* '''AV''': [[Chiyoda]]
+* '''CVL''': [[Shouhou]], [[Ryuujou]], [[Hiyou]]
+|dropsH =
+* '''DD''': [[Akebono]],[[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Mikazuki]],  [[Sazanami]], [[Ushio]], [[Shimakaze|'''<span style="color:red">Shimakaze</span>''']]
+* '''CL''': [[Tenryuu]], [[Tatsuta]], [[Tama]], [[Kitakami]], [[Yura]], [[Sendai]], [[Jintsuu]]
+* '''CA''': [[Furutaka]], [[Kako]], [[Ashigara]], [[Aoba]]
+* '''AV''': [[Chitose]], [[Chiyoda]]
+* '''CVL''': [[Shouhou]], [[Ryuujou]], [[Souryuu]]
+|dropsI =
+* '''DD''': [[Mutsuki]], [[Kisaragi]], [[Satsuki]], [[Fumizuki]], [[Mikazuki]], [[Akebono]], 
+[[Sazanami]], [[Ushio]], [[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']], [[Akigumo|'''<span style="color:red">Akigumo</span>''']]
+* '''CL''': [[Abukuma|'''<span style="color:red">Abukuma</span>''']], [[Kitakami]], [[Sendai]], [[Naka]], [[Isuzu]]
+* '''CA''': [[Aoba]], [[Ashigara]], [[Takao]], [[Atago]]
+* '''CVL''': [[Junyou]]
+* '''SS''': [[I-8|'''<span style="color:red">I-8</span>''']]
+|dropsK =
+* '''DD''': [[Fubuki]], [[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']], [[Akigumo|'''<span style="color:red">Akigumo</span>''']], [[Naganami|'''<span style="color:red">Naganami</span>''']]
+* '''CL''': [[Nagara]], [[Kitakami]], [[Ooi]], [[Sendai]], [[Kuma]], [[Agano|'''<span style="color:red">Agano</span>''']], [[Abukuma|'''<span style="color:red">Abukuma</span>''']], [[Tatsuta]]
+* '''CA''':[[Myoukou]], [[Mogami]], [[Tone]], [[Chikuma]], [[Takao]], [[Atago]]
+* '''SS''': [[I-8|'''<span style="color:red">I-8</span>''']]
+* '''BB''': [[Yamashiro]], [[Fusou]], [[Ise]], [[Hyuuga]]
+* '''CVL''': [[Houshou]], [[Shouhou]], [[Ryuujou]], [[Junyou]], [[Souryuu]], [[Kaga]]
+}}
+
+===E-2===
+{{EventMap1
+|map_name = [http://en.wikipedia.org/wiki/Aleutian_Islands_Campaign#Attack_on_Dutch_Harbor Diversionary tactics! Wreck the northern harbour!]
+|map_japanese = 陽動作戦！北方港湾を叩け！
+|banner = [[File:Banner_AL2.png|317px]]
+|map_image = [[File:Almi-map2_0.jpg|317px]]
+|report_link = [[Thread:94424|< Report your results here >]]
+|information = * Boss: [[Northern Princess]] (北方棲姫)
+* Node D is a night battle node.
+* Node E is sometimes a sub node.
+* Killing the boss '''7''' times will empty its HP gauge.
+* At least for Northern Princess(lolihime), once HP gauge goes into the 7th portion, she will change to her last form. 
+'''Reward'''
+* [[Ooyodo]] (大淀)
+* [[Repair Team]]
+* Medal x1
+|branching = * Having any BB or SS leads to north route (node A)
+* 2 DD, 2 CA, 1 CV, 1 CVL  leads to Node A.
+* 2x CVL, 2x CA, 1x DD, 1x BBV leads to node A.
+* 2x CVL, 2x CA, 1x CL, 1x BBV leads to node A.
+* 2x CA/CAV, 2x DD, 2x CVL will go to C, then G. With enough LOS it should always go G to E after that and then E to K. (LOS req from G to E is lower than E to K)
+* 2x BBV, CA, CAV, CVL, CL will go to A,B,D,E,K. Equipment LOS was 60, total LOS was 287, HQ lvl 66.
+* 2x FBB, 1x CA, 1x CLT, 2x CVL/CV leads to node A, E to K need 350+ LOS, HQ lvl 100
+* 1 DD, CA, CVL, CA, BBV,  FBB leads to node A, E to K need 293+ LOS, HQ lvl 52
+* Fast BB, BBV, CLT, 2x CA, CV will go to A,B,D,E,K. Total LOS was 350+
+* Fast BB, BBV, CA, CLT, CV, CVL will go to A,B,D,E,K. Total LOS was 313
+|tips =* The [[Northern Princess]] is an installation-type and is vulnerable to [[Type 3 Shell]]s.
+* The [[Northern Princess]] evolves into a tougher form for the final battle.
+* The [[Northern Princess]] is immune to torpedoes.
+* During shelling phase, dive bombers can't attack [[Northern Princess]] but torpedo bombers can. Don't confuse with aerial phase that torpedo bombers can't attack her.
+* Using both support fleet is '''HIGHLY recommended''' for clearing this map if you are going C-G-E-K. You will spend some resources, but you will save on buckets (and time) in the long run. Refer to the [[Expedition]] page for details on running support fleet.
+* E node has two completely different fleets, one has surface ships while the other is composed of submarines.
+* At least in northern route, line abreast works fine in all pre-boss nodes.
+* Certain LoS required to reach node E from G and E to K. '''A total of 2-3 yellow planes''' (Saiun, Type 2 Recon) on CVLs appear to be optimal, depending on your HQ level bracket. If you have trouble reaching LoS, consider stacking small radar(s) on your DDs or stacking one CA/V with recon planes.
+* If having trouble clearing the boss, equip CA(V) With sanshiki instead of Radar + Seaplane or Radar + Radar. Using this setup, (assuming 2DD 2CA(V) 2 CVL) stack radars on one of the DD's instead to compensate for lost LOS. This will make that one DD useless, but your CA(V)'s will wreck the boss at night battle.
+|dropsC =* '''DD''': [[Hibiki]]
+* '''CL''': [[Kiso]], [[Tama]]
+* '''CA''': [[Maya]]
+|dropsE =* '''DD''': [[Makigumo]], [[Ushio]]
+* '''CA''': [[Nachi]]
+* '''CVL''': [[Jun'you]]
+* '''SS''': [[I-19]]
+|dropsK =* '''DD''': [[Makigumo]], [[Hatsukaze]], [[Yayoi]], [[Amatsukaze]], [[Uzuki]], [[Urakaze]], [[Kiyoshimo]], [[Naganami]], [[Ikazuchi]]
+* '''CL''': [[Yuubari]], [[Abukuma]], [[Tama]], [[Noshiro]], [[Kinu]]
+* '''CA''': [[Suzuya]], [[Kinugasa]], [[Takao]], [[Kumano]], [[Maya]]
+* '''BB''': [[Haruna]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Kirishima]], [[Ise]], [[Yamashiro]]
+* '''CVL''': [[Ryuujou]], [[Junyou]], [[Zuihou]]
+* '''SS''': [[I-19]]
+|dropsG = * '''DD''': [[Ushio]], [[Inazuma]]
+* '''CL''': [[Kiso]], [[Abukuma]]
+* '''CA''': [[Nachi]]
+* '''CVL''': [[Ryuujou]]
+|dropsB = * '''DD''': [[Hatsuyuki]], [[Hatsuharu]], [[Ikazuchi]], [[Inazuma]], [[Wakaba]]
+* '''CL''': [[Kiso]]
+* '''CA''': [[Takao]]
+* '''CVL''': [[Junyou]], [[Ryuujou]]
+|dropsD = * '''DD''': [[Nenohi]], [[Inazuma]], [[Hatsuharu]], [[Hatsushimo]], [[Ikazuchi]]
+* '''CA''': [[Maya]], [[Nachi]]}}
+
+===E-3===
+{{EventMap1
+|map_name = The Decisive Battle! Starting Operation MI
+|map_japanese = 決戦！MI作戦発動
+|banner = [[File:Banner_MI1.png|317px]]
+|map_image = [[File:Map_E201408_03.jpg|317px]]
+|report_link = [[Thread:94508|< Report your results here >]]
+|information = * Boss: [[Aircraft Carrier Demon]] (空母棲鬼)
+* [[Midway Princess]] appears at node H.
+* Killing the boss '''8''' times will empty its HP gauge.
+'''Reward'''
+* [[Prototype 41cm Triple Cannon]]
+* [[Type 13 AIR RADAR Kai]]
+* [[Skilled Carrier-based Aircraft Maintenance Personnel]]
+|branching = * Having 2 BBV, 2 CVL, and 2 CV in the first fleet will cause you to always take the north route.
+*Having a Slow ship in the first fleet will cause you to take the north route, Fast fleet have a random chance for B C D
+*Having no BB will avoid north route.
+*You need at least 65 of LoS from equipment to reach node H from the south route. for normal difficulty (HQ lv 40-59)
+*2CA/V, 1 Fast BB, 3 CV in first fleet goes south route (A-D-F-H-J).
+*Having 3CV and no Slow ship always goes south route.
+|tips =* The recommended composition for the first fleet is 2 BB, 4 CV.
+* The recommended composition for the second fleet is 1 CL, 2 CA/CAV, 3 DD.
+* Excluding the boss node, the fights consist of two air combat phases with no shelling/torpedo salvo.
+* The enemy fleets have large amounts of planes, plan accordingly.
+* Consider aborting your sortie if you get directed to node B, fighting four battles may deplete your planes too much to get air superiority at the boss node.
+|dropsH=* '''DD''': [[Hatsuharu]]
+* '''CL''': [[Nagara]]
+* '''AV''': [[Chiyoda]]
+* '''BB''': [[Fusou]]
+|dropsJ =* '''DD''': [[Makigumo|'''<span style="color:red">Makigumo</span>''']], [[Kiyoshimo|'''<span style="color:red">Kiyoshimo</span>''']], [[Hamakaze]], [[Tanikaze]], [[Shigure]], [[Shikinami]], [[Shiratsuyu]]
+* '''CL''': [[Yahagi|'''<span style="color:red">Yahagi</span>''']], [[Nagara]], [[Ooi]]. [[Sendai]], [[Kitakami]]
+* '''CA''': [[Tone]], [[Chikuma]]
+* '''AV''':
+* '''CV(L)''': [[Akagi]], [[Kaga]], [[Souryuu]], [[Hiryuu]], [[Houshou]]
+* '''SS(V)''': [[I-168]]
+* '''BB''': [[Nagato|'''<span style="color:red">Nagato</span>''']], [[Haruna]], [[Mutsu]], [[Kirishima]], [[Yamashiro]], [[Fusou]], [[Ise]]
+* '''Others''': [[Taigei|'''<span style="color:red">Taigei</span>''']]}}
+
+===E-4===
+{{EventMap1
+|map_name = Invasion of Midway Island
+|map_japanese = MI島攻略作戦
+|banner = [[File:Banner_MI2.png|317px]]
+|map_image = [[File:Summer2014_e4.jpg|317px]]
+|report_link = [[Thread:94509|< Report your results here >]]
+|information = * Boss: [[Midway Princess]] (中間棲姫)
+* Node C is a sub node.
+* Node H is day battle with one yellow BB / one yellow CA
+* Killing the boss '''10''' times will empty its HP gauge.
+'''Reward'''
+* [[Tokitsukaze]] (時津風)
+* [[Repair Goddess]] (応急修理女神)
+|branching = * Having 4 CV has a high chance of taking you from C to E.
+* Having 4 DD or Akitsumaru in 1st fleet goes to B.
+|tips =* The [[Midway Princess]] is an installation-type and is vulnerable to [[Type 3 Shell]]s.
+* The [[Midway Princess]] evolves into a tougher form for the final battle.
+* The [[Midway Princess]] is immune to torpedoes. If CVs are equipped with dive bombers (red), they cannot attack her. Torpedo bombers (blue) work for the shelling phase.
+* Using 4 CV and 2 BB still works for this map but has a high chance of going A-C-E.
+* Using 3 CV, 2 BB and a CAV (CA?) and 1 CL, 2 CA (CAV?) 3 DD has a very high chance of going A-C-F-J-K.
+*Using 4 CV, 1 FBB, 1 CA and 1 CAV, 1 CLT, 2 DD(ASW EQ + 2 Main Gun), 1 FBB(W/out type 3 Shell) 1 CL will give you route B-D-H-K (Tried 7 times out of 10 run, and always get that route, HQ level 78)
+* Using Akitsu Maru or 4 DD goes to B. Akitsumaru can be even better than a BB in the boss, and B is a bit easier than A.
+* <strike>Equip your DD and CL with ASW, as they won't do too much damage with guns. 1 or 2 CA with Type 3 Shells is enough to kill the boss at night if it's necessary.</strike> <strike>High level DDs and CLs are still able to do moderate damage with the right setup.</strike> Still, this is a valid point : a CA or two with type 3 will beat the feces out of the boss, and the damage done by DDs or CLs is negligible in comparison.
+* Node H is a combined fleet battle with shelling phase, recommend Combined fleet line ahead formation (Bottom right)
+* If your BB's are equipped with type 91 shells, always north route (?) (Confirmed, HQ level 78)
+|dropsA =* '''DD''': [[Asashio]]
+* '''CL''':
+* '''CA''':
+* '''AV''':
+* '''CV(L)''':
+* '''SS(V)''':
+* '''BB''':
+|dropsD =* '''DD''': [[Hayashimo|'''<span style="color:red">Hayashimo</span>''']]
+* '''CL''':
+* '''CA''': [[Mogami]]
+* '''AV''':
+* '''CV(L)''':
+* '''SS(V)''':
+* '''BB''':
+|dropsH =* '''DD''': [[Yuugumo]], [[Maikaze]], [[Hatsukaze|'''<span style="color:red">Hatsukaze</span>''']], [[Hamakaze]]
+* '''CL''':
+* '''CA''': [[Choukai]]
+* '''AV''':
+* '''CV(L)''': [[Chitose]], [[Zuihou]]
+* '''SS(V)''':
+* '''BB''': [[Kongou]]
+|dropsK =* '''DD''': [[Hayashimo|'''<span style="color:red">Hayashimo</span>''']], [[Yuugumo]], [[Akigumo]], [[Maikaze|'''<span style="color:red">Maikaze</span>''']], [[Hatsukaze|'''<span style="color:red">Hatsukaze</span>''']], [[Hamakaze|'''<span style="color:red">Hamakaze</span>''']], [[Amatsukaze|'''<span style="color:red">Amatsukaze</span>''']], [[Mikazuki]]
+* '''CL''':
+* '''CA''': [[Kumano]], [[Mikuma|'''<span style="color:red">Mikuma</span>''']], [[Suzuya]], [[Choukai]], [[Myoukou]], [[Mogami]], [[Atago]]
+* '''AV''':
+* '''CV(L)''': [[Kaga]], [[Akagi]], [[Hiryuu]], [[Souryuu]], [[Zuihou|'''<span style="color:red">Zuihou</span>''']]
+* '''SS(V)''':
+* '''BB''': [[Hiei]], [[Kongou]], [[Kirishima]]
+* '''Others''': [[Akitsu Maru|'''<span style="color:red">Akitsu Maru</span>''']]|dropsC = * '''DD''': 
+* '''CL''':
+* '''CA''': [[Atago]]
+* '''AV''':
+* '''CV(L)''':
+* '''SS(V)''':
+* '''BB''':}}
+
+===E-5===
+{{EventMap1
+|map_name = Securing the MI Islands
+|map_japanese = MI島確保作戦
+|banner = [[File:Banner_MI3.png|317px]]
+|map_image = [[File:E5mapfix.jpg|317px]]
+|report_link = [[Thread:94510|< Report your results here >]]
+|information = * Boss: [[Aircraft Carrier Princess]] (空母棲姫)
+* Nodes A and B are submarine nodes
+* Nodes D and G are night battle nodes
+* Killing the boss '''9''' times will empty its HP gauge.
+'''Rewards'''
+* [[Unryuu]]
+* Medal x1
+|branching = * As of yet, no branching rules have been found, your fleet can and will end up all over the place.
+* <strike>LoS appears to be less important than previous maps, certain routes do not check it at all (No seaplane).</strike> Branching seems random, but G->L & I->L does have a seaplane animation.
+*<strike>Unconfirmed Large Scale - Oddly enough if you start the map with 2 ships of your 1st fleet (the fleet with the CVs) in yellow and the rest of your ships in your first and second fleets in green you will go to B node every single time. (Health based branching may be being used on MI1-3)</strike>
+*Having 4DD in second fleet will go A to C.
+|tips =* The boss node formation changes for the final battle, the two [[Light Carrier Nu-Class|Light Carrier Nu-Class Flagship]] will be replaced by two [[Standard Carrier Wo-Class|Standard Carrier Wo-Class Flagship II]] if your level is ≥105, those who are ≤104 will only have one replaced.
+* The recommended composition for the first fleet is 2 BB, 4 CV.
+* The recommended composition for the second fleet is 1 CL, 2 CA/CAV, 3 DD.
+* Consider deploying a boss support expedition for the final battle.
+* This map can be used for leveling 12 ships at the same time at first node (A and B). Equip your DD and CL in second fleet with ASW set up and main fleet with at least two CV/L and another 4 ships. If no ship in the main fleet can attack subs, the main fleet's flagship will always get MVP (1080 Exp at S rank), good for new ships or ships that are useless in combat like Akitsu Maru, Akashi and Taigei. The best thing is you don't need to spend ammo for leveling on this map. You can also enter night battle for no extra cost and with good ASW you still can sink them at night (though beware of their CI attack). Keep in mind that if you are leveling your girls here, you can't send them back to AL or Final Operation.
+*  Being directed to node A guarantees a night battle that results in a higher chance of your ships being critically damaged to heavy damage. Being directed to node B guarantees no night battle. End the sortie at node A if you don't feel confident in taking on the night battle nodes. Keep in mind that refreshing in the middle of a sortie can lead you to a ban, especially if you do it often.
+|dropsA =* '''DD''':
+* '''CL''':
+* '''CA''':
+* '''AV''':
+* '''CV(L)''':
+* '''SS(V)''':
+* '''BB''':
+|dropsG =* '''DD''':
+* '''CL''': [[Ooi]]
+* '''CA''':
+* '''AV''':
+* '''CV(L)''': [[Akagi]]
+* '''SS(V)''':
+* '''BB''': [[Fusou]]
+|dropsL =* '''DD''': [[Hayashimo|'''<span style="color:red">Hayashimo</span>''']], [[Amatsukaze|'''<span style="color:red">Amatsukaze</span>''']], [[Yukikaze]],[[Maikaze]],[[Hatsukaze]], [[Tanikaze]], [[Urakaze]], [[Makigumo]], [[Shiratsuyu]], [[Yuugumo]], [[Akigumo]]
+* '''CL''': [[Nagara]], [[Kitakami]], [[Sendai]]
+* '''CA''': [[Mogami]],  [[Mikuma|'''<span style="color:red">Mikuma</span>''']], [[Suzuya]], [[Kumano]], [[Tone]]
+* '''AV''':
+* '''CV(L)''':[[Kaga]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']],[[Souryuu]], [[Akagi]]
+* '''SS(V)''':
+* '''BB''': [[Nagato]], [[Mutsu]], [[Haruna]], [[Kirishima]], [[Ise]], [[Yamashiro]], [[Fusou]], [[Hiei]], [[Kongou]]
+* '''AR''': [[Akashi|'''<span style="color:red">Akashi</span>''']] (Akashi seems to appear only to admirals with a HQ level of 105 or more)}}
+
+===E-6===
+{{EventMap1
+|map_name = Counter Attack to AL/MI Operation
+|map_japanese = 敵別働隊を迎撃、本土近海防衛！
+|banner = [[File:Banner_MI4.png|317px]]
+|map_image = [[File:Summer2014_e5_initial2.png|thumb|400px]]
+|report_link = [[Thread:100058|< Report your results here >]]
+|information = * Boss: [[Battleship Princess]]
+* Killing the boss <b>10</b> times will empty its HP gauge.
+* A: Fleet consisting of 1 BB (Ta), 1 CL (He),  1/2 CVL (Nu), and 2/3 DDs. 
+* C: Fleet consisting of all subs
+* D & F: Night Battle nodes
+**D node contains two Ri-class flagships, two flagship CL, and 2 DD in Line Ahead or Echelon formations
+**F node contains a Ta-class flagship, a Ri-class elite, a CL, and 3 DDs in Line Ahead formation
+* E: Empty
+* H: [[Aircraft Carrier Princess]], CV (Wo), CA (Ri), 3 DDs 
+'''Rewards'''
+* [[Isokaze]]
+* [[Prototype 41cm Triple Cannon]]
+* Medal x1
+|branching = * 2+ SS/SSV guarantees the dead end at B
+* 2 CA/CAV or 2 CVL or 3 carriers guarantees node C
+* 2 CVL guarantees node E
+* Suggested Effective LOS is 110 although there appears to be an aspect of randomness.  (Unclear whether more LOS will help)
+|tips = * Compositions should include 2 CA/V or 2 CVL or 3CV/L for branching through the Node C (submarine nodes do not consume ammo so you will not face damage penalty at boss).  
+* 2CVL will always go the northern route towards AC Princess and the other previously mentioned will be 50/50 towards night battle node instead.
+* Consider sparkling to increase evasion and accuracy. If you are low on resources, DO sparkling.
+* Node H only has one round of shelling if you do not bring a battleship, but it can lack firepower at boss node.  Using Boss support expedition can help in this situation.
+*If you have strong BB, double line is the recommended formation for node A. Line ahead is generally better if you are using 2 CLT (highest torpedo hit rate and damage).
+
+* North route example compositions:
+**3BB 1CLT 2CVL 
+**2BB 2CLT 2CVL
+* Middle/north route example compositions:
+**2BB 1SSV 2CV 1CVL
+**2BB 1CA 1CAV 2CV
+**2CA 2CLT 1SSV 1CV
+* Repairs tools can be used to great effect. Notably used on CV/CVLs for their low HP and armor.
+*At HQ Level 100+, during the final kill to clear the gauge there will be two [[Battleship Princess]] at the boss node
+**Yamato-class battleships, Kitakami and Ooi are strongly recommended for high damage output.
+***Nagato-class or Kongou-class (kai 2) can be substituted but their armour and damage output against the boss is significantly lower.
+**Night cut-in attacks can be effective on high luck ships (Kitakami, Nagato, Haruna Kai 2). Night double attacks can be equally effective if not better on CLTs.
+**Example compositions:
+***Kitakami, 2 BB, Ooi, 2 CVL
+***Kitakami, 3 BB, 2 CVL
+***Kitakami, 2 BB, 3 CV
+***Kitakami, 2CA(V), 2 BB, CV
+***Kitakami, 2 CA, Ooi, 2 CVL
+|dropsA =* '''DD''':
+* '''CL''': [[Natori]]
+* '''CA''':
+* '''AV''':
+* '''CV(L)''':
+* '''SS(V)''':
+* '''BB''':
+|dropsH =* '''DD''': [[Murasame]]
+* '''CL''': [[Sendai]]
+* '''CA''':
+* '''AV''':
+* '''CV(L)''':
+* '''SS(V)''': [[Maruyu|'''<span style="color:red">Maruyu</span>''']]
+* '''BB''':
+|dropsJ =* '''DD''': [[Hamakaze]], [[Hayashimo|'''<span style="color:red">Hayashimo</span>''']], [[Kiyoshimo|'''<span style="color:red">Kiyoshimo</span>''']], [[Shimakaze]], [[Yukikaze]], [[Amatsukaze|'''<span style="color:red">Amatsukaze</span>''']], [[Urakaze]], [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']]
+* '''CL''': [[Yuubari]]
+* '''CA''': [[Kinugasa]] 
+* '''AV''':
+* '''CV(L)''': [[Shoukaku]], [[Zuikaku]]
+* '''SS(V)''': [[Maruyu]]
+* '''BB''': [[Nagato]], [[Mutsu]]
+* '''AS''': [[Taigei]]
+* '''AR''':}}
+
+==See also==
+* [http://wikiwiki.jp/kancolle/?AL%BA%EE%C0%EF%A1%BFMI%BA%EE%C0%EF JP wiki article for the Summer 2014 Event]
+* [http://en.wikipedia.org/wiki/Aleutian_Islands_Campaign Wikipedia entry for Operations at Aleutian Islands]
+* [http://en.wikipedia.org/wiki/Battle_of_Midway Wikipedia entry for Operations at  Midway]
+
+==Gallery==
+<gallery orientation="square" widths="100">
+hell_plane_1.png|Possibly Hellcat Fighter aka Takoyaki Fighter
+hell_plane_2.png|Possible Hell Diver aka Takoyaki Diver
+hell_plane_3.png|Possibly Avenger Torpedo Bomber aka Takoyaki Bomber
+</gallery>
+{{EventsPortal}}
+[[Category:Events]]
+[[Category:Sortie]]
+[[Category:World Map]]

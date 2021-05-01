@@ -1,0 +1,650 @@
+==Info==
+{{KanmusuInfo|ID=022}}
+{{KanmusuInfo|ID=022a}}
+{{KanmusuInfo|ID=150}}
+{{KanmusuInfo|ID=392}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform special AACI on Kai Ni. Please see [[Anti-Air Cut-In]] for more details.
+* Able to equip torpedoes and perform closing torpedo at Kai Ni C.
+* Able to equip seaplane fighters at Kai Ni C.
+* She gains a '''night battle''' special attack on Kai Ni C that targets 2 enemies at random: 
+** Activation requirements are as follows:  
+*** Hiei Kai Ni C must be Flagship.
+*** Kongou Kai Ni C or Kirishima Kai Ni are the second ship.
+*** She must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>.
+*** The escorting BB must not be <span style="color:red;">'''heavily damaged (大破)'''</span>.
+*** '''Line Ahead''' needs to be selected in a single fleet OR '''Cruising Formation 4''' for a combined fleet.
+** It can only be activated '''once per sortie''' and only if '''no other special attack was triggered in the same sortie'''
+** The attack will consume extra ammo from both participating battleships when triggered. The total ammo consumption will be x1.3 of the original ammo consumption of when the attack is triggered, hence:
+***If it is triggered in day battle, it costs 6% extra ammo.
+***If it is triggered in an night battle node, it costs 2% extra ammo.
+***If it is triggered in a night battle in a normal node, it costs 9% extra ammo.
+** Multipliers and activation chance increase are tbd at this point
+
+===Overview===
+'''Kai'''
+* Average firepower.
+* Low HP and armour.
+
+'''Kai Ni'''
+* Average firepower, HP and armour.
+* Low HP
+
+'''Kai Ni C'''
+* Average firepower, HP and armour.
+* High torpedo stat for a battleship.
+* Gains Access to the Kongou Class Night Battle Special Attack
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+'''Hidden Fit Bonuses'''
+* She has accuracy bonuses and penalties when equipped with certain large guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+'''Hiei Kai'''
+
+Priority: '''High''', unless many more fast battleships are available.
+
+:A Japanese fast battleship that's easy to come across for her class.
+:Her stats are decent but nothing to write home about.
+
+
+
+'''Hiei Kai Ni'''
+
+Priority: '''Low'''
+
+:This second remodel improves her stats a bit and that's it.
+:There's no reason not to take it but no reason to rush it either, generally.
+
+
+
+'''Hiei Kai Ni C'''  
+
+Priority: '''Low'''
+:This further remodel comes with a torpedo fitting, allowing her to equip torpedoes and perform closing salvos like cruisers or destroyers, and also increasing her night battle potential. 
+:She also unlock a special night battle combined attack, which further underscores her new niche.
+:Keep in mind that this remodel requires 2 [[Blueprint]].
+
+
+====Recommended Roles====
+* Surface combat
+* Night battle (Second remodel C)
+
+===Important Info===
+* Required for unlocking the 4th fleet slot.
+* Required for quests A16, A40, A52, B44, and B128
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 金剛お姉さまの妹分、比叡です。 経験を積んで、姉さまに少しでも近づきたいです。
+|translation = I'm Kongou's little sister, Hiei. I want to gain more experience to become a little bit more like my older sister.
+|audio = Hiei-Introduction.ogg
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kaic = true
+|origin = 金剛お姉さまの妹分、高速戦艦比叡です。 経験と、この改装で、姉さまに少しでも近づきたいです。はい！
+|translation = I'm Kongou's little sister, the fast battleship, Hiei. With more experience, and this remodel, I want to become more like my older sister. Yes I do!
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 井上提督も愛した巡洋戦艦、比叡です。
+ぴかぴかに肌を磨いて、御召艦としても活躍したの。大和型のテスト艦にもなったのよ、知ってた？え？
+ソロモン海戦？そうよ、奮闘したわ！
+|translation = I'm a battlecruiser loved by Admiral Inoue, Hiei.<ref>While [https://en.wikipedia.org/wiki/Shigeyoshi_Inoue Admiral Inoue] captained the Hiei while she was a training ship, he had her decorated with oil paintings and generally enjoyed life.</ref>
+I was even polished to a shine and served as the Imperial Ship.<ref>She had her interior refurbished and [https://upload.wikimedia.org/wikipedia/commons/5/5c/Imperial_chamber_of_Battleship_Hiei.jpg decorated nicely] when she was the personal ship of [https://en.wikipedia.org/wiki/Hirohito Emperor Hirohito].</ref> Did you know I was also the test ship for the Yamato-class?<ref>During  her 1936 remodel, she was used as a test bed for several designs and technologies that would go on to be used in the construction of the Yamato-class.</ref>
+Eh? The battles in the Solomons? Yes, I fought hard there!<ref>She participated in [https://en.wikipedia.org/wiki/Battle_of_Savo_Island all three] [https://en.wikipedia.org/wiki/Battle_of_the_Eastern_Solomons battles of] [https://en.wikipedia.org/wiki/Naval_Battle_of_Guadalcanal the Solomon Sea].</ref>
+|audio = Hiei-Library.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = あっはい、お呼びになりましたでしょうか？
+|translation = Ah yes, did you call me?
+|audio = Hiei-Secretary_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kaic = true
+|origin = はい、比叡にお任せあれ！
+|translation = Yes, just leave it all to me!
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = いつでも準備、出来ています！
+|translation = I'm always ready to head out!
+|audio = Hiei-Secretary_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = んぅ…はっ！何ですか！？寝てません！寝てませんてばぁーっ！
+|translation = Hmmm... Wha! What is it!? I'm not sleeping! I said I wasn't asleep~!
+|audio = Hiei-Secretary_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|kaic = true
+|origin = んー…ごはぁ！なんですか？もちろん、寝てません！はい！寝てるわけ無いです！寝てませんってばぁ！
+|translation = Ngh... Gah! What is it? I definitely wasn't sleeping! Yes! Not asleep at all! I said I wasn't asleeeep!
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|kai = yes
+|origin = 気合！入れて！…いるんだけどなぁ～？あれ～？あれぇ～？
+|translation = I'm getting! Fired up!...Or so I should be huh? Huh? Huuuh?
+|audio = Hiei-Idle.ogg
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = 比叡もまだまだ戦えます。司令、一緒に頑張りましょう！
+|translation = I can still fight. Commander, let's keep doing our best together!
+|audio = Hiei-Wedding_Line.ogg
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = 司令のご好意はありがたいです。で、でも…私の心は、お姉さまに…えっ！？そういう話じゃないのっ？あ、あぁ…そう？は、恥ずかしいぃー…
+|translation = I appreciate your good will, Commander. B-but... my heart belongs to... my older sister... Eh!? You're not talking about that? A-ah... is that so? Whoa, this is embarrassing...
+|audio = Hiei-Wedding.ogg
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 司令にお知らせみたいです。
+|translation = Looks like there's a notice for you, Commander.
+|audio = Hiei-Looking_At_Scores.ogg
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = 気合！入れて！行きます！
+|translation = I'm getting! Fired up! Here I go!
+|audio = Hiei-Joining_A_Fleet.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = はい！力が湧いてくるようです！<ref>Shared with Supply before Kai.</ref>
+|translation = Yes! I can feel the power surging!
+|audio = Hiei-Equipment_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = 少しはお姉様に近づけたかなあ…
+|translation = I wonder if I got a bit closer to Kongou...
+|audio = Hiei-Equipment_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = さっすがですねぇ！
+|translation = As expected!
+|audio = Hiei-Equipment_3.ogg
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|kai2 = yes
+|origin = まっかせてー！
+|translation = Leave it to me~!
+|audio = HieiKaiNi-Equipment_3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|kai = yes
+|origin = よし！これで…いけます！
+|translation = Alright! I can do it... with this!
+|audio = HieiKai-Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = こんなの、かすり傷程度なんだけど…
+|translation = But this is just a scratch...
+|audio = Hiei-Docking_Minor.ogg
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = お姉様の夢を見て、お休みしますっ。
+|translation = I'm going to sleep and dream of my older sister~
+|audio = Hiei-Docking_Major.ogg
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい妹、もしくはお姉さまが、いらっしゃるみたいですよ。
+|translation = Looks like a new little sister, or older one, has come.
+|audio = Hiei-Construction.ogg
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 作戦が完了！艦隊、帰投しました！
+|translation = The operation is complete! The fleet has returned to port!
+|audio = Hiei-Returning_From_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting A Sortie
+|origin = 司令には、恋も！戦いも！負けません！
+|translation = In love! Or in battle! I won't lose to you, Commander!
+|audio = Hiei-Starting_A_Sortie.ogg
+}}
+{{ShipquoteKai
+|scenario = Starting A Sortie
+|kaic = true
+|origin = 改金剛型戦艦、比叡、抜錨！
+|translation = Improved Kongou-class battleship, Hiei, weighing anchor!
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = 撃ちます！当たってぇ！
+|translation = Engaging! Just hit!<ref>She's willing the shot to hit.</ref>
+|audio = Hiei-Battle_Start.ogg
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 主砲、斉射、始め！
+|translation = Main guns, begin firing!
+|audio = Hiei-Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Special 1
+|kaic = true
+|origin = 戦艦比叡、気合、入れて、撃ちます！
+|translation = Battleship Hiei, ready, set, fire!
+}}
+{{ShipquoteKai
+|scenario = Daytime Spotting/ Night Battle Attack
+|origin = 私、頑張るから、見捨てないてぇー！
+|translation = I'll do my best so don't abandon me!<ref>She was abandoned and scuttled at the Naval Battle of Guadalcanal after her steering and engine compartments were flooded and disabled.</ref>
+|audio = Hiei-Night_Attack.ogg
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = お姉さまの邪魔するひとは、許さない！
+|translation = I won't forgive anyone that stands in Kongou's way!
+|audio = Hiei-Night_Battle.ogg
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = 私の活躍、見ていてくれました？　そう、なら、頑張った甲斐がありました！
+|translation = Did you see how well I did? I see, then it was worth giving it my best!
+|audio = Hiei-MVP.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = きゃあっ！
+|translation = Kyaah!
+|audio = Hiei-Minor_Damage_1.ogg
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = ひえー！
+|translation = Hiiiee!<ref>She's making a pun on her name.</ref>
+|audio = Hiei-Minor_Damage_2.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = お姉さま譲りの装備をこんなに…くっ、許さないんだからぁー！
+|translation = The equipment I got from Kongou has become like this... Guh, I won't forgive you~!
+|audio = Hiei-Major_Damage.ogg
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|kaic = true
+|origin = お姉さま譲りの、この第三改装艤装をこんなにして…くぅ！絶対に、許せない！
+|translation = The 3rd remodel rigging that I got from Kongou has been... Guh! I definitely won't forgive you!
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = 金剛お姉さまは…無事か…な？…だったら…いい…かな…
+|translation = Is Kongou... safe...? ...That's...good...then...
+|audio = Hiei-Sunk.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = 午前0時です。ひえ～…、おやすみなさ～い。
+|translation = It's 12am. Hiee~... Good night~
+|audio = Hiei-00.ogg
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = 午前…1時です…。比叡は…睡眠中です…。
+|translation = It's... 1am... I'm... sleeping now...
+|audio = Hiei-01.ogg
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = 午前2時…。司令は眠くないんですか？
+|translation = 2am... Aren't you sleepy, Commander?
+|audio = Hiei-02.ogg
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = 午前3時。なんだか私まで目が冴えちゃいましたよ。
+|translation = 3am. Somehow I'm wide awake now.
+|audio = Hiei-03.ogg
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = 午前4時。寝れない…何故か寝れない…！どう責任取ってくれるんですかぁー！
+|translation = 4am. I can't sleep... Why can't I sleep...!? How will you take responsibility for this~!?
+|audio = Hiei-04.ogg
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin = 午前5時。ひえー！ほぼ完徹じゃないですかー！
+|translation = 5am. Hiee~! Did we just pull an all nighter!?
+|audio = Hiei-05.ogg
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = 午前6時。むくんでる…お姉さまにこんな顔見せられな～い…。
+|translation = 6am. My face is all puffy... I can't show this to Kongou...
+|audio = Hiei-06.ogg
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = 午前7時…。ん～…ちょっと寝不足ですねー。…気合！入れて！行きます！
+|translation = 7am... Hmmm... I'm kind of lacking sleep... I'm getting! Fired up! Here I go!
+|audio = Hiei-07.ogg
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = 午前8時。戦艦としては、色々と朝の装備の手入れが大変なんですってばぁ！
+|translation = 8am. Battleships have go through the trouble of doing lots of maintenance on our equipment in the morning!
+|audio = Hiei-08.ogg
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = 午前9時。うん！これでいつでも、準備万端ね！
+|translation = 9am. Yup! With this, I'm all ready now!
+|audio = Hiei-09.ogg
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = 午前10時です。テレビでも見て待機してまーす。ほほぅ…ほぅほぅ…。
+|translation = It's 10am. I'll go on standby and watch TV~ Hoho~... Hoho~...<ref>Japanese TV usually broadcasts local soap operas during late mornings to afternoon where the target audience are mostly housewives.</ref>
+|audio = Hiei-10.ogg
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = 午前11時です。司令？嫁姑問題って、何ですか？
+|translation = It's 11am. Commander? What is a "Wife-and-Mother-in-Law Problem"?<ref>A typical occurrence in soap operas where the mother in law will be overbearing and controlling to the wife and cause friction between the couple.</ref>
+|audio = Hiei-11.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin = 12時。お昼のこの番組、何気に好きなんですよぉ～。えっ？今度収録連れてってくれるの？ウキウキだなぁ～。
+|translation = 12 o'clock. Honestly, I kinda like this noon program~. <ref>Likely referring to [https://en.wikipedia.org/wiki/Waratte_Iitomo! Waratte Iitomo!].</ref>Eh? You'll take me to the recording next time? I'm excited now~
+|audio = Hiei-12.ogg
+}}
+{{ShipquoteKai
+|scenario = 12:00|kaic = true
+|origin = 12時。お昼のあの番組何気に好きだったのに。クラブの方も好きだけど…あぁ、それはまだやってます。
+|translation = 12 o'clock. I did kinda like that noon program. But I like the Club too.... Ah, I still watch that.<ref>Likely referring to the [https://en.wikipedia.org/wiki/Tamori_Club Tamori Club].</ref>
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = 13時です。ふぁ～。お昼休み、楽しかったー！
+|translation = It's 1 o'clock. *whew* Lunch break was fun~!
+|audio = Hiei-13.ogg
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = 14時になりました。…って、あれ？お昼食べるの忘れてました！ど、どうします？
+|translation = It's now 2 o'clock... Oh, huh? I forgot to have lunch! Wh-what should I do?
+|audio = Hiei-14.ogg
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin = 15時。あっ司令！あそこのお店、まだランチやってるって！
+|translation = 3 o'clock. Ah, Commander! That shop is still serving lunch!
+|audio = Hiei-15.ogg
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin = 16時。ん～。今日は司令と外出も堪能しちゃったなぁ～。えっ、ダメなの？
+|translation = 4 o'clock. Hmmm~ I enjoyed going out with you today, Commander. Eh, that's bad?
+|audio = Hiei-16.ogg
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = 日が陰ってきたぁ～。17時です。司令、今日は鎮守府も穏やかでよかった～。
+|translation = It's getting dark~ It's 5 o'clock. Commander, I'm glad today was a quiet day for the naval base.
+|audio = Hiei-17.ogg
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = 18時。さぁ～て比叡、夕食準備するよー！
+|translation = 6 o'clock. Now, I'll go prepare dinner~!
+|audio = Hiei-18.ogg
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = 19時。できたー！自慢のレシピ、比叡カレーだよ！さあ、食べて！
+|translation = 7 o'clock. It's done~! It's the recipe for Hiei Curry that I'm proud of! Now, eat up!
+|audio = Hiei-19.ogg
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = 20時。どうでしたぁ？比叡カレーの感想は…？感想…感想聞かせてよー！
+|translation = 8 o'clock. How is it? What did you think of my Hiei Curry...? Let me... let me know what you think!
+|audio = Hiei-20.ogg
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = 21時ですっ…。司令が逃げ回って1時間…。なぜ比叡から逃げるのですかぁ！？
+|translation = It's 9 o'clock... The Commander has been on the run for an hour... Why is he running from me!?
+|audio = Hiei-21.ogg
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = 22時になりました…。(´・ω・`)ｼｮﾎﾞｰﾝ…。司令は逃げ切ったようです…。
+|translation = It's now 10 o'clock... *gloom*... The Commander got away...<ref>"(´・ω・`)ｼｮﾎﾞｰﾝ" is an emote denoting sadness.</ref>
+|audio = Hiei-22.ogg
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = 23時…。仕方ない…お姉さまの所行こう…。おね…し、司令！？なんでここに！？
+|translation = 11 o'clock... It can't be helped then... I'll go to Kongou's place... One... C-commander!? Why are you here!?
+|audio = Hiei-23.ogg
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2015|Valentine’s Day 2015]]
+|origin = 手作りチョコ、よし。気合十分、よし。この季節は、恋も戦いも、負けませんっ！
+|translation = Handmade chocolates; check. All fired up; check. I won’t lose in love or war during this time of year!
+|audio = Hiei_Valentine_Sec1.ogg
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2015|Valentine’s Day 2015]]
+|origin = ひえ～！　徹甲弾とチョコ、間違えて装填しそうに……っ！　ひえっ、ひえ～！
+|translation = Hie! I mixed up the chocolates for AP shells and loaded them…! Hie, hieee!
+|audio = Hiei_Valentine_Atk.ogg
+|notes = Attack
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2015|White Day 2015]]
+|origin =司令、お姉さま見ませんでした？…せっかくクッキー焼いたのに…あの、味見します？
+|translation = Have you seen Onee-sama, Commander? …I went through the trouble of baking all these cookies… Umm, do you want to try some?
+|audio = Hiei_WhiteDay.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Second_Anniversary|2nd Anniversary]]
+|origin = 比叡、恋も、二週年も、気合、入れて、行きます！ハァイイ！
+|translation = Be it love or the 2nd anniversary, I’m going into it with all my might! Yeeeaaah!
+|audio = 022_Hiei_2ndAnniv.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2015|Christmas 2015]]
+|origin = はい。司令、艦隊クリスマスを迎える用意官僚です！クリスマスケーキも今年この比叡が気合…入れて…作りました！楽しみしててくださいね！はい！
+|translation = Yes. The fleet is ready to welcome Christmas, Commander! I’ve put my all… into making a Christmas cake this year! Please look forward to it! Yes!
+|audio = Hiei_Christmas_2015_Sec1.ogg
+|notes =
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/End_of_Year_2015|End of Year 2015]]
+|origin = はい、司令。大掃除ですね。お任せください！比叡、雑巾がけも気合、入れて、行きます！とりゃ！！それ、反転。とりゃ！！！よし。綺麗。
+|translation = Yes, Commander. Time for spring cleaning. Leave it to me! I’ll put my all into dusting! Raaaah!! Flip this. Raaah!!! Right. All done.
+|audio = Hiei_Year_End_2015_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2016|New Year 2016]]
+|origin = 司令、あけまして、おめでとうございますっ！ 今年もこの比叡、気合、いっれってぇ…！ 参りますっ！ …あ、司令、髪の毛に糸くずが…うわ、うわわ、うわーっ！ 司令、大丈夫ですか！？
+|translation = Happy New Year, Admiral! I’ll give it my all…! This year too! …Ah, there’s some lint in your hair, Commander… Whoa, whoa, whoaaaa! Are you alright, Commander!?
+|audio = Hiei_New_Years_Day_2016.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2016|Setsubun 2016]]
+|origin = はい、金剛お姉様！比叡、節分も、 全力で気合！ 入れて！ いきまーす！今年の鬼役は…妙高と、川内♪ ふむ…さぁ、いきまーす！
+|translation = Yes, Kongou-oneesama! I’ll put my absolute best efforts into Setsubun too! This year’s Oni are… Myoukou and Sendai♪ Good… Now, let’s do this! 
+|audio = Hiei_Setsubun_2016_Sec1.ogg
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Third_Anniversary|3rd Anniversary]]
+|origin = 比叡、恋も、三周年も…気合！入れて！行きます！はーい！うふ…うふ…
+|translation = I’ll give it my all… in love or for the 3rd Anniversary! Yeeeessss! *gasp*… *gasp*…
+|audio = Hiei_3rd_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2016|Saury Festival 2016]]
+|origin = 金剛お姉さま、秋刀魚漁です！秋刀魚です！旬の秋刀魚は脂がのっていて美味しいですよねぇ。…そうだ、今度カレーに入れてみるのはどうでしょう？…よーし、試してみよっ♪
+|translation = It’s time for saury fishing, Kongou-oneesama! For saury! The saury during this season are fatty and delicious… I know, shall I try making some curry with them? …Alright, let me give it a shot♪
+|audio = Hiei_Sec1_Saury_2016.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fourth_Anniversary|4th Anniversary]]
+|origin = 比叡！恋も！四周年もぉ！気合ぃぃ！入れてぇ！いきまぁすー！！ハァァァーイッ！！！…だはぁ、はぁーっ…
+|translation = I’ll give it my all! For love! Or for the 4th Anniversary! YEEEAAAAAAAAAH!!!! …*gasp* *gasp*…
+|audio = Hiei_4th_Anniversary_Sec1_2017.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Fifth_Anniversary|5th Anniversary]]
+|origin = 比叡、恋も、五周年も、気合、入れて、行きます！はい！司令、五周年カーレも完成です。
+|translation = Be it love or the 5th Anniversary, I’ll give it by all! Yes! My 5th Anniversary Curry is done too, Commander.
+|audio = Hiei_5th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = 比叡、恋も、六周年も、気合、入れて、行きます！はーい！今年も六周年カレー、自信作できました！
+|translation = I'll give it my absolute all for love or for the 6th Anniversary! Yes! The 6th Anniversary Curry that I'm proud of is ready!
+|audio = Hiei_6th_Anniversary_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = 比叡、恋も、七周年も、本気の気合、入れて、行きます！はい！今年も七周年カレー…あ、あぁ！司令、逃げないで！
+|translation = Whether for love or for the 7th Anniversary, I'll give it my absolute best! I will! This year, my 7th Anniversary curry... A-ah! Commander, don't run!
+|audio = Hiei_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Eve of the Final Battle 2018]]
+|origin = 霧島、お姉さまと榛名が…あぁ、行くんだね、決戦に。
+|translation = Kirishima, onee-sama and Haruna are… Ah, they’re heading out for the final battle.
+|audio = Hiei_Kantai_Kessen_2018_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Final_Battle|Final Battle 2018]]
+|origin = お姉様、みんな、無事に帰って来て！
+|translation = Onee-sama, everyone; come back safely!
+|audio = Hiei_Kantai_Kessen_2018_Sec2b.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = 第十一戦隊、旗艦比叡！戦場海域に到達する。これより、友軍を援護する。霧島、行くよ！
+|translation = BatDiv11 flagship, Hiei! We’ve reached the battlefield. We’ll now support the allied fleet. Let’s go, Kirishima!
+|audio = Hiei-FriendFleet.mp3
+|notes = Friend Fleet line
+}}
+{{SeasonalQuote
+|scenario = [[Winter_2018_Event|Final Battle 2018]]
+|origin = お姉さま、比叡助けに来ました！気合、入れて、撃ちます！
+|translation = I’ve come to help, onee-sama! Opening fire with all my might!
+|audio = Hiei-FriendFleet2.mp3
+|notes = Friend Fleet line
+}}
+{{SeasonalQuote
+|scenario = [[Spring 2019 Event]]
+|origin = 第十一戦隊、旗艦比叡、戦場海域に到達する。これより友軍を援護する。霧島、行くよ！
+|translation = 11th Squadron, flagship Hiei, we've reached the operational area. We'll now support the allied forces. Kirishima, let's go!
+|audio = HieiKai2-Friend_Fleet_1.mp3
+|notes = Friend Fleet Line
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+22_3.png|Base
+22_4.png|Base Damaged
+150_3.png|Kai Ni
+150_4.png|Kai Ni Damaged
+KanMusu392CG.png|Kai Ni C
+KanMusu392CGDmg.png|Kai Ni C Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+150_Ship_Hiei_Kai_Ni_New_Year_2020.png|[[Seasonal/New_Year_2020|Kai Ni New Year 2020]]
+150_Ship_Hiei_Kai_Ni_New_Year_2020_Damaged.png|[[Seasonal/New_Year_2020|Kai Ni New Year 2020 Damaged]]
+Ship Full Hiei Kai Ni C New Years 2021.png|[[Seasonal/New_Year_2021|Kai Ni C New Years 2021]]
+Ship Full Hiei Kai Ni C New Years 2021 Damaged.png|[[Seasonal/New_Year_2021|Kai Ni C New Years 2021 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Hiei}}
+
+==Trivia==
+*She is named after [[wikipedia:Mount Hiei|Mount Hiei]].
+*She was disarmed and turned into a training ship in 1929 before serving as Emperor Hirohito's transport from 1930 to 1937 when she was rearmed.
+*Hiei is the only one of the Kongou sisters having to have her superstructure mast reconstructed into a prototype similar to that used on the ''Yamato''-class.  Her slightly higher armor and health compared to her sisters can likely be attributed to this.
+*She received her Kai Ni on 20/11/2013.
+*Sunk following the [[wikipedia:Naval Battle of Guadalcanal|Battle of Guadalcanal]] on November 14, 1942; she was the first IJN battleship ever to be lost in WWII.
+* Wreck possibly found by Dr. Robert Ballard in 1993. There is discussion as to whether the wreck is her or [[Kirishima]].
+* She appeared in the first Kancolle Drama CD, also dubbed One Nao show, along with other characters in a mini skit. Link to show: https://soundcloud.com/masapusan/one-nao-show (TL is included in comments). She also appeared in the anime with Kongou, Haruna and Kirishima.
+
+==See Also==
+*[[Hiei/Gallery|View Hiei CG]]
+*[[EliteBB|List of battleships]]
+*[[wikipedia:Japanese_battleship_Hiei‎|Wikipedia entry on battleship Hiei]]
+{{shiplist}}
+[[zh:比睿]]
+[[Category:Kongou Class]]
+[[Category:Battleships]]

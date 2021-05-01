@@ -1,0 +1,57 @@
+Equipment Bonuses refer to specific ship + equipment combos that trigger special effects, modifying specific stats with values referred to as "Fit Bonuses". These are displayed in the game by a '''↑+''' symbol in front of each applicable stat.
+
+These bonuses should not be confused with the hidden Accuracy or Firepower Fit Bonuses, generally exclusive to gun mounts. To differentiae with hidden Fit Bonuses, they are also referred as "Visible Fit Bonuses".
+
+==Fit Bonus Specifics==
+Although displayed in the game, some Fit Bonuses have an erroneous effect or outright don't work.
+
+As of 9 February 2021, the following Fit Bonuses present issues:
+
+===Completely functional===
+These Fit Bonuses present no issues in any regard:
+* {{Range}} '''Range'''.
+* {{Evasion}} '''Evasion'''.
+* {{Armor}} '''Armor'''.
+
+===Partially functional===
+These Fit Bonuses have at least one situation in which they don't work as intended:
+* {{Firepower}} '''Firepower''': Does not apply for '''Night Carrier Attacks (CVNCI)'''<ref>https://twitter.com/shiro_sh39/status/1255895548898361346</ref> (it still applies to shelling attacks performed by carriers, however)<ref>https://twitter.com/Xe_UCH/status/1256144907439235075</ref>.
+** Does not apply for [[Swordfish]] series on Ark Royal, regardless of the night attack<ref>https://twitter.com/myteaGuard/status/1358025976374939649</ref>.
+** Bonus visible Firepower from recon planes does not work on Carriers.
+* {{Torpedo}} '''Torpedo''': Does not apply for '''Night Carrier Attacks (CVNCI)'''<ref>https://twitter.com/shiro_sh39/status/1255895548898361346</ref>, Carrier Day-time Shelling attacks<ref>https://twitter.com/shiro_sh39/status/1256132958575947776</ref> and Opening Airstrike<ref>https://twitter.com/panmodoki10/status/1255855504535851008</ref>
+* {{ASW}} '''Anti-Submarine''': Does not increase ASW shelling damage<ref>https://twitter.com/ayanamist_m2/status/1035100000391290880</ref><ref>https://twitter.com/syoukuretin/status/1111033510779740160</ref>, as well as '''Night Carrier Attacks (CVNCI)''' <ref>https://twitter.com/SZRandomness/status/1144649656091021312</ref>
+** However, still contributes to reaching the OASW threshold<ref>https://twitter.com/ayanamist_m2/status/1087670868401053696</ref>, specifically for ships that require 100 ASW (ships that require 65 ASW to OASW do not get any advantage from Fit Bonuses<ref>https://twitter.com/99_999999999/status/1273936394927276033</ref>).
+* {{LOS}} '''LoS''': Bonuses count as ship base LoS and not equipment, for routing purposes. No effect for artillery spotting.<ref>https://twitter.com/Matsu_class_DD/status/1245457218956226560</ref>.
+** SG Radar (Initial Model) does not contribute for any calculation<ref>https://twitter.com/CC_jabberwock/status/1089154587628466177</ref>
+
+===Completely broken===
+These fits have no effect in any circumstances:
+* {{AA}} '''Anti-Air''': Works under no circumstances<ref>https://twitter.com/ayanamist_m2/status/1087678973331484673</ref><ref>https://twitter.com/mizucchi41/status/1246676483025686529</ref><ref>https://twitter.com/mizucchi41/status/1028610701571411968</ref>. Bonus granted to aircraft does not contribute to Air Power<ref>https://twitter.com/DarkQuetzal/status/1241651932361412610</ref>
+* {{Acc}} '''Accuracy''': Does not work under any circumstances, as Accuracy is a derived stat.<ref>https://twitter.com/chang1124414276/status/1242332458936197120</ref>
+
+===Explanation===
+
+Fit Bonuses are not considered a part of an equipment's stat, and are instead added to the ship's actual stat directly. This is what leads to inconsistencies in the formulas.
+
+The displayed value in a given stat is given by:
+
+<math>\text{Final Value} = \text{Base Stat} + \text{Equipment Stat} + \text{Fit Bonus}</math>
+
+'''Where:'''
+* Final Value is the the displayed Value in the ship card.
+* Base Stat is the stat without '''any equipment'''.
+* Equipment Stat is the equipments '''displayed stat'''.
+* Fit Bonus is the added value to the stat by '''fits'''.
+
+Some formulas, such as {{Firepower}} Surface Shelling, {{Torpedo}}Opening/Closing Torpedo Salvos and {{Firepower}} Carrier Shelling use the Final Value. In those cases, the fit bonuses work as intended.
+
+However, other formulas break down the stats for various reasons (mainly for applying different weighting to equipment, as in {{ASW}}ASW and {{AA}}Anti-Air formulas, or using other parameters like the {{Acc}}Accuracy formula), and instead use '''Base Stat''' and the sum of '''Equipment Stats''' instead. In those cases, '''Fit Bonus''' is not used anywhere in the formula, and therefore does not work.
+
+==References==
+<references />
+
+==See Also==
+*[https://docs.google.com/spreadsheets/d/1bInH11S_xKdaKP754bB7SYh-di9gGzcXkiQPvGuzCpg "Equipment visible bonus" spreadsheet]
+*[[Combat/Overweight Penalty and Fit Gun Bonus]]
+
+{{Equipmentlist}}

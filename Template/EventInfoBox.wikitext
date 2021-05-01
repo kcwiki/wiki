@@ -1,0 +1,307 @@
+<includeonly><div id="top-info-container" style="height: auto; min-width: 900px;">
+<div id="info-box" style="position: sticky; top: -110px; float:right; width: 450px; border: 1px #555 solid; margin-left: 5px; margin-bottom: 5px; background-color: white; border-radius: 10px 10px 0px 0px; overflow: hidden;">
+   <div id="banner" style="position: relative;overflow: hidden;height: 92px; align-items : center;justify-content: center;display: inline-flex;width: 100%;">
+      <div id="overlay" style="position: relative; width: 64.5%; height: auto; vertical-align: bottom; display: inline-flex; align-items: center; background-color: #3baef55c;">
+          <div style="text-align: center; width:  100%;font-size: larger;"><b><i>{{#if: {{{title_en|}}} | {{{title_en}}}}}</i><br>{{#if: {{{title_jp|}}} | {{{title_jp}}}}}</b></div>
+      </div><div id="banner_tag" style="position: relative; object-fit: cover; width: 10.5%; height: 100%; float: right; margin-left: -15px; transform:skewX(-18deg); background-color: #3baef5; overflow: hidden;">
+         <div style="height: 0px; width: 0px; margin-left: -13px; margin-top: 14px; transform:skewX(18deg);">
+{{#if: {{{tag|}}} | {{{tag}}}}}
+         </div>
+      </div><div id="banner_img" style="position: relative; object-fit: cover; width: 33%; margin-right: -15px; height: 100%; float: right; margin-left: -1px; transform:skewX(-18deg); background-color: #296d96; overflow: hidden;">
+         <div style="height: 0px; width: 0px; margin-left: -35px; margin-top: -7px; transform:skewX(18deg);">
+{{#if: {{{header_thumb|}}} | {{{header_thumb}}}}}
+         </div>
+      </div>
+   </div>
+<div id="map" style="position: relative; overflow: hidden;height: auto; align-items: center;justify-content: center;display: inline-flex; width: 100%;">
+{{#if: {{{map_2|}}} | {{#tag:tabber|{{{map_1_text|}}}={{{map_1|}}}
+{{!}}-{{!}}{{{map_2_text|2}}}={{{map_2|}}}
+{{#if: {{{map_3|}}} | {{!}}-{{!}}{{{map_3_text|}}}={{{map_3|}}}}}
+{{#if: {{{map_4|}}} | {{!}}-{{!}}{{{map_4_text|}}}={{{map_4|}}}}}
+{{#if: {{{map_5|}}} | {{!}}-{{!}}{{{map_5_text|}}}={{{map_5|}}}}}
+{{#if: {{{map_6|}}} | {{!}}-{{!}}{{{map_6_text|}}}={{{map_6|}}}}}
+{{#if: {{{map_7|}}} | {{!}}-{{!}}{{{map_7_text|}}}={{{map_7|}}}}}
+{{#if: {{{map_8|}}} | {{!}}-{{!}}{{{map_8_text|}}}={{{map_8|}}}}}
+{{#if: {{{map_9|}}} | {{!}}-{{!}}{{{map_9_text|}}}={{{map_9|}}}}}
+{{#if: {{{map_10|}}} | {{!}}-{{!}}{{{map_10_text|}}}={{{map_10|}}}}}}} | {{{map_1|}}}}}
+</div>
+   <div id="information" style="position: relative; height: auto; align-items: center; justify-content: center; display: inline-flex; width: 100%;">
+{| style="width:100%;"
+!colspan="5" style="background-color: #3baef5; color: white;"|<b>Information</b>
+|-
+!colspan="1" style="background-color: #3baef5; color: white; width: 25%;"|Event Tag
+|colspan="4"|{{#if: {{{tag_text|}}} | {{{tag_text}}}}}
+|-
+!rowspan="4" colspan="1" style="background-color: #3baef5; color: white;"|Boss Gauges
+|colspan="4"|Hard ({{lang|ja|甲}}): {{#if: {{{boss_hard|}}} | {{{boss_hard}}} | ?}}
+|-
+|colspan="4"|Medium ({{lang|ja|乙}}): {{#if: {{{boss_medium|}}} | {{{boss_medium}}} | ?}}
+|-
+|colspan="4"|Easy ({{lang|ja|丙}}): {{#if: {{{boss_easy|}}} | {{{boss_easy}}} | ?}}
+|-
+|colspan="4"|Casual ({{lang|ja|丁}}): {{#if: {{{boss_casual|}}} | {{{boss_casual}}} | ?}}
+|-
+!rowspan="5" style="background-color: #3baef5; color: white;"|Map Bosses
+|colspan="4" {{#if: {{{phase_1_boss|}}} | | style="display: none;" }}|{{{phase_1_boss|}}}
+|-
+|colspan="4" {{#if: {{{phase_2_boss|}}} | | style="display: none;" }}|{{{phase_2_boss|}}}
+|-
+|colspan="4" {{#if: {{{phase_3_boss|}}} | | style="display: none;" }}|{{{phase_3_boss|}}}
+|-
+|colspan="4" {{#if: {{{phase_4_boss|}}} | | style="display: none;" }}|{{{phase_4_boss|}}}
+|-
+|colspan="4" {{#if: {{{phase_5_boss|}}} | | style="display: none;" }}|{{{phase_5_boss|}}}
+|-
+!colspan="5" style="background-color: #3baef5; color: white;"|Rewards
+|- {{#if: {{{reward_all|}}} | | style="display: none;" }}
+!colspan="5" style="background-color: #FFFFFF;"|All
+|- {{#if: {{{reward_all|}}} | | style="display: none;" }}
+|colspan="5" style="text-align:center;"|{{{reward_all|}}}
+|-
+!colspan="1" style="background-color: #3baef5; color: white;"|Equipment/Item
+!colspan="1" style="background-color: #3baef5; color: white; width: 15%;"|{{lang|ja|丁}}<br />Casual
+!colspan="1" style="background-color: #3baef5; color: white; width: 15%;"|{{lang|ja|丙}}<br />Easy
+!colspan="1" style="background-color: #3baef5; color: white; width: 15%;"|{{lang|ja|乙}}<br />Medium
+!colspan="1" style="background-color: #3baef5; color: white; width: 15%;"|{{lang|ja|甲}}<br />Hard
+|- {{#if: {{{reward_1|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_1|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_1_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_1_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_1_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_1_hard|}}}
+|- {{#if: {{{reward_2|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_2|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_2_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_2_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_2_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_2_hard|}}}
+|- {{#if: {{{reward_3|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_3|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_3_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_3_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_3_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_3_hard|}}}
+|- {{#if: {{{reward_4|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_4|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_4_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_4_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_4_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_4_hard|}}}
+|- {{#if: {{{reward_5|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_5|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_5_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_5_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_5_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_5_hard|}}}
+|- {{#if: {{{reward_6|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_6|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_6_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_6_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_6_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_6_hard|}}}
+|- {{#if: {{{reward_7|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_7|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_7_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_7_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_7_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_7_hard|}}}
+|- {{#if: {{{reward_8|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_8|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_8_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_8_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_8_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_8_hard|}}}
+|- {{#if: {{{reward_9|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_9|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_9_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_9_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_9_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_9_hard|}}}
+|- {{#if: {{{reward_10|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_10|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_10_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_10_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_10_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_10_hard|}}}
+|}
+
+   </div>
+</div>
+</div></includeonly><noinclude>
+<pre>
+{{EventInfoBox
+|title_en=Requiem, for Convoy Ki-504
+|title_jp=鎮魂、キ504船団
+|tag=[[File:RainySeason2020EventWhiteTag.png]]
+|tag_text=Kurile Islands Area Unit
+|header_thumb=[[File:Abyssal_Kuriles_Princess_HeaderThumb.png]]
+|map_1=[[File:RainySeason2020E-1Map.png|450px]]
+|map_1_text=E-1
+|map_2=[[File:RainySeason2020E-2Map.png|450px]]
+|map_2_text=E-2
+|map_3=[[File:RainySeason2020E-3Map.png|450px]]
+|map_3_text=
+|map_4=[[File:RainySeason2020E-4Map.png|450px]]
+|map_4_text=4Head
+|map_5=
+|map_5_text=
+|map_6=
+|map_6_text=
+|map_7=
+|map_7_text=
+|map_8=
+|map_8_text=
+|map_9=
+|map_9_text=
+|map_10=
+|map_10_text=
+|boss_hard=750 TP + 2900~3000 HP
+|boss_medium=600 TP + ~2400 HP
+|boss_easy=400 TP + ~1800 HP
+|boss_casual=400 TP + 1700~1800 HP
+|phase_1_boss=[[Abyssal Kulin Island Princess]]
+|phase_2_boss=
+|phase_3_boss=[[Abyssal Kulin Island Princess]]
+|phase_4_boss=
+|phase_5_boss=[[Abyssal Kulin Island Princess]]
+|reward_all={{Ship/Banner|Usugumo}}
+|reward_1={{QuestRewardEquip|Underway Replenishment}}
+|reward_1_casual=
+|reward_1_easy=1
+|reward_1_medium=2
+|reward_1_hard=3
+|reward_2={{QuestRewardEquip|Emergency Repair Goddess}}
+|reward_2_casual=
+|reward_2_easy=1
+|reward_2_medium=1
+|reward_2_hard=2
+|reward_3={{QuestRewardEquip|Type 3 Depth Charge Projector (Concentrated Deployment)}}
+|reward_3_casual=
+|reward_3_easy=
+|reward_3_medium=1
+|reward_3_hard=
+|reward_4={{QuestRewardEquip|Prototype 15cm 9-tube ASW Rocket Launcher}}
+|reward_4_casual=
+|reward_4_easy=
+|reward_4_medium=
+|reward_4_hard=1
+|reward_5={{QuestRewardItem|First Class Medal}}
+|reward_5_casual=
+|reward_5_easy=
+|reward_5_medium=
+|reward_5_hard=
+|reward_6=
+|reward_6_casual=
+|reward_6_easy=
+|reward_6_medium=
+|reward_6_hard=
+|reward_7=
+|reward_7_casual=
+|reward_7_easy=
+|reward_7_medium=
+|reward_7_hard=
+|reward_8=
+|reward_8_casual=
+|reward_8_easy=
+|reward_8_medium=
+|reward_8_hard=
+|reward_9=
+|reward_9_casual=
+|reward_9_easy=
+|reward_9_medium=
+|reward_9_hard=
+|reward_10=
+|reward_10_casual=
+|reward_10_easy=
+|reward_10_medium=
+|reward_10_hard=
+}}
+</pre>
+{{EventInfoBox
+|title_en=Requiem, for Convoy Ki-504
+|title_jp=鎮魂、キ504船団
+|tag=[[File:RainySeason2020EventWhiteTag.png]]
+|tag_text=Kurile Islands Area Unit
+|header_thumb=[[File:Abyssal_Kuriles_Princess_HeaderThumb.png]]
+|map_1=[[File:RainySeason2020E-1Map.png|450px]]
+|map_1_text=E-1
+|map_2=[[File:RainySeason2020E-2Map.png|450px]]
+|map_2_text=E-2
+|map_3=[[File:RainySeason2020E-3Map.png|450px]]
+|map_3_text=
+|map_4=[[File:RainySeason2020E-4Map.png|450px]]
+|map_4_text=4Head
+|map_5=
+|map_5_text=
+|map_6=
+|map_6_text=
+|map_7=
+|map_7_text=
+|map_8=
+|map_8_text=
+|map_9=
+|map_9_text=
+|map_10=
+|map_10_text=
+|boss_hard=750 TP + 2900~3000 HP
+|boss_medium=600 TP + ~2400 HP
+|boss_easy=400 TP + ~1800 HP
+|boss_casual=400 TP + 1700~1800 HP
+|phase_1_boss=[[Abyssal Kulin Island Princess]]
+|phase_2_boss=
+|phase_3_boss=[[Abyssal Kulin Island Princess]]
+|phase_4_boss=
+|phase_5_boss=[[Abyssal Kulin Island Princess]]
+|reward_all={{Ship/Banner|Usugumo}}
+|reward_1={{QuestRewardEquip|Underway Replenishment}}
+|reward_1_casual=
+|reward_1_easy=1
+|reward_1_medium=2
+|reward_1_hard=3
+|reward_2={{QuestRewardEquip|Emergency Repair Goddess}}
+|reward_2_casual=
+|reward_2_easy=1
+|reward_2_medium=1
+|reward_2_hard=2
+|reward_3={{QuestRewardEquip|Type 3 Depth Charge Projector (Concentrated Deployment)}}
+|reward_3_casual=
+|reward_3_easy=
+|reward_3_medium=1
+|reward_3_hard=
+|reward_4={{QuestRewardEquip|Prototype 15cm 9-tube ASW Rocket Launcher}}
+|reward_4_casual=
+|reward_4_easy=
+|reward_4_medium=
+|reward_4_hard=1
+|reward_5={{QuestRewardItem|First Class Medal}}
+|reward_5_casual=
+|reward_5_easy=
+|reward_5_medium=
+|reward_5_hard=
+|reward_6=
+|reward_6_casual=
+|reward_6_easy=
+|reward_6_medium=
+|reward_6_hard=
+|reward_7=
+|reward_7_casual=
+|reward_7_easy=
+|reward_7_medium=
+|reward_7_hard=
+|reward_8=
+|reward_8_casual=
+|reward_8_easy=
+|reward_8_medium=
+|reward_8_hard=
+|reward_9=
+|reward_9_casual=
+|reward_9_easy=
+|reward_9_medium=
+|reward_9_hard=
+|reward_10=
+|reward_10_casual=
+|reward_10_easy=
+|reward_10_medium=
+|reward_10_hard=
+}}
+</noinclude>

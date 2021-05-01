@@ -1,0 +1,43 @@
+{{Documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+Template to aid switching the font-size used for a text string.<br/>
+
+==Syntax==
+<code><nowiki>{{resize</nowiki>|''N''|''text''}}</code>&nbsp; or &nbsp;<code><nowiki>{{resize</nowiki>|''text''}}</code><br>
+''N'' specifies a size, such as "90%", "1.2em", etc. For the default case (the second above), ''N'' is set to "90%".<br>
+If the <code>text</code> happens to contain an equality sign "=", specify <code><nowiki>{{resize</nowiki>|''N''|'''2='''''text''}}</code> or <code><nowiki>{{resize</nowiki>|'''1='''''text''}}</code>. 
+
+==Examples==
+{| style="background:transparent;"
+| <code><nowiki>{{resize|1.2em|This text is 0.2em larger than normal}}</nowiki></code>&nbsp;&nbsp;&nbsp;
+| {{resize|1.2em|This text is 0.2em larger than normal}}
+|-
+| <code><nowiki>{{resize|80%|This text is 80% normal size}}</nowiki></code>
+| {{resize|80%|This text is 80% normal size}}
+|-
+| <code><nowiki>{{resize|This text defaults to 90% normal size}}</nowiki></code>
+| {{resize|This text defaults to 90% normal size}}
+|}
+
+==Redirects==
+* {{tlx|smaller|...}} instead of <code><nowiki>{{resize|90%|...}}</nowiki></code>.
+* {{tlx|small|...}} instead of <code><nowiki>{{resize|85%|...}}</nowiki></code>. An alternative to <code><nowiki><small>...</small></nowiki></code>.
+* {{tlx|larger|...}} or {{tlx|bigger|...}} instead of <code><nowiki>{{resize|110%|...}}</nowiki></code>.
+* {{tlx|big|...}} instead of <code><nowiki>{{resize|115%|...}}</nowiki></code>. An alternative to <code><nowiki><big>...</big></nowiki></code>.
+* {{tlx|large|...}}, equivalent to <code><nowiki><span style="font-size:large;">...</span></nowiki></code>.
+
+==TemplateData for variants==
+
+The templateData for each variant of the template can be found at
+*[[Template:Resize/TemplateData]]
+*[[Template:Larger/TemplateData]]
+*[[Template:Smaller/TemplateData]]
+*[[Template:Large/TemplateData]]
+*[[Template:Small/doc]]
+*[[Template:Big/doc]]
+*Bigger is a redirects
+
+==See also==
+* {{tl|huge}}, for diacritic marks only; similar to {{tl|big}} but considerably larger and also compensates for vertical alignment.
+* {{tl|color}}, to add a span of text with a given foreground color.
+* {{tl|background color}} or {{tl|bkg}} or {{tl|bg}}, to add a span of text with a given background color.

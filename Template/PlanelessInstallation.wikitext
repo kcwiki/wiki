@@ -1,0 +1,29 @@
+*{{#if:{{{1|}}}|{{{1}}}|'''{{PAGENAME}}'''}} is an installation-type enemy that doesn't use planes. This changes some of {{#if:{{{1|}}}|{{{2}}}|{{PAGENAME}}'s}} behaviors:
+:* {{#ifeq:{{{2|}}}|her|Her|{{PAGENAME}}'s}} damage indicator text is different from others:
+::* Slightly damaged(小破) →　Confused(混乱) 
+::* Moderately damaged(中破) →　Damaged(損害)
+::* Heavily damaged(大破) → Broken(損壊)
+::* Sunken(撃沈) →　Destroyed(破壊)
+:* With regards to attacking, {{#ifeq:{{{2|}}}|her|she|{{PAGENAME}}}}:
+::* Enables 2nd round of daytime shelling;
+::* '''Still attacks during daytime shelling if not destroyed;'''
+::* '''Uses regular formula for shelling damage.'''
+:* With regards to defending, {{#ifeq:{{{2|}}}|her|she|{{PAGENAME}}}}:
+::* Cannot be the target of torpedo attacks, with the exception of torpedo bombers;
+::* Treats torpedo value as 0 for all other incoming attacks for damage calculation (again, excluding torpedo bombers during aerial combat);
+::* Is not subject to cut-in attacks involving torpedoes (Mixed cut-in and Torpedo cut-in fail to function);
+::* Cannot be the target of shelling phase attacks from carriers carrying at least 1 dive bomber, but can be chosen as shelling target if all dive bombers equipped on that carrier were shot down or if only torpedo bombers were equipped on that carrier in the first place.
+::*{{#switch: {{PAGENAME}}
+ | Artillery Imp = Takes increased damage from ships equipped with [[WG42 (Wurfgerät 42)]], [[Daihatsu-class Landing Craft]] (and the version [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)|with tanks & marines]]), and [[Type 2 Ka-Mi Tank]].
+ | #default = Takes increased damage from ships equipped with [[Type 3 Shell]]s and [[WG42 (Wurfgerät 42)]].
+}}
+::* Takes increased damage and has lower evasion rate during daytime shelling from battleships equipped with both large caliber guns {{RedGunHeavy}}and AP shells{{RedAmmo}}.
+::* Not subject to covering from escort ships.
+
+{{#switch: {{PAGENAME}}
+ | Artillery Imp = [[Category:Abyssal Coastal Defenses]]
+ | #default = [[Category:Abyssal Land Bases]]
+}}
+<noinclude>{{Documentation}}
+[[Category:Abyssal Coastal Defenses]]
+[[Category:Abyssal Land Bases]]</noinclude>

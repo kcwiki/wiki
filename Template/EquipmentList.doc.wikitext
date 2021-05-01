@@ -1,0 +1,21 @@
+This template is used to generate an equipment list depending on the provided arguments.
+
+==Usage==
+This template takes in one to two arguments.<br>
+The first argument determines if the list will display kanmusu, abyssal, or all equipment in the table.
+To designate the display data, use the following code to invoke the function:<br>
+<code><nowiki>{{EquipmentList|<kanmusu/abyssal/all>}}</nowiki></code>.<br>
+If no argument is passed to the template, Kanmusu is used by default.<br>
+
+The second argument that the template takes filers the table list.<br>
+The equipment list can be filtered by:
+*<code>craftable</code> - Only list equipment that can be constructed
+*<code>improvable</code> - Only list equipment that can be improved
+*<code><specific weapon type></code> - Only list equipment of a specific weapon type.<br>
+To designate the table filter, use the following code to invoke the function:<br>
+<code><nowiki>{{EquipmentList|<kanmusu/abyssal/all>|<craftable/improvable/weapon type>}}</nowiki></code>.<br>
+If the first argument is not provided, but second is, the template will default to <code>Kanmusu</code>.
+If no argument is passed to the template, no filter is applied.
+
+==See also==
+*[[Module:EquipmentModule]] - The module this template invokes from.

@@ -1,0 +1,25 @@
+;Description
+:To welcome a new contributor who has a user name, add this to the user's talk page.
+:''For an "anonymous" contributor, you may wish to use {{t|welcomeIP}} instead.''
+;Syntax
+:Type <code><nowiki>{{subst:welcome|</nowiki>''Your user name''|''<nowiki>~~~~</nowiki>''}}</code> or <code><nowiki>{{subst:welcome|</nowiki>''Your user name''}}</code> on a user's talk page.
+:Use the second version if you want to add a personal message after the template, but before your [[Help:Signature|signature]] (or if you have a complex signature).
+:As soon as you Save, the entry will lose its link to the template and become ordinary text, which you can edit to personalise it.
+
+==Further advice==
+===Use of "subst:" prefix===
+Using the prefix before any template name copies the template then cuts the connection. If you omit the "subst:" the result copies just the same but will not be editable and will always show the current version of the template - probably not a good idea for a one-off welcoming message, although it is useful for many other templates.
+
+===Edit it to make it more specific to this wiki===
+For example, it could say "Welcome to the '''<font color=blue>XYZWV Wiki</font>'''".    You could add a link to a page you particularly want new users to look at.   You could use the "upload file" link to add a new picture that is meaningful (or funny!) to your visitors, and change the code <nowiki>[[Image:Example.jpg]]</nowiki> to the name of your new picture.
+
+===Make another one just for you to use===
+On your user page you could create a link to something like <nowiki>[[Template:welcJG]]</nowiki> then make the resulting page a copy of [[Template:Welcome]] and modify it any way you like. Then you can type or paste <nowiki>{{subst:welcJG}}</nowiki> on a newcomer's page and not need further personalising.
+
+===Auto sign===
+You can get the template to automatically include the user's signature, but it will only work when it's substituted. If it's transcluded the four tildes will show. I guess you have to weigh up the advantages and disadvantages; you can easily include the subst: code in [[MediaWiki:Newarticletext]], but you run the risk of experienced users just transcluding it.
+
+===PAGENAME===
+A good idea is to include the <code><nowiki>{{PAGENAME}}</nowiki></code> magic word, that way the user feels like it's more of a personal welcome. This can be either directly transcluded, or substituted. There are problems with both options. For direct transclusion, the welcome will show the full pagename (e.g. User talk:Name/Archive2), if it's ever archived. For substitution, the whole template needs to be substituted for it to work. Otherwise, the pagename magic word will show. The same problem is faced as with auto signing; more experienced users are likely to just transclude it.
+
+<includeonly>[[Category:General wiki templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

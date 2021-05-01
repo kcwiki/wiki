@@ -1,0 +1,558 @@
+==Info==
+{{KanmusuInfo|ID=371}}
+{{KanmusuInfo|ID=376}}
+
+==Gameplay Notes==
+===Special Mechanics===
+* Able to perform special AACI. Please see [[Anti-Air Cut-In]] for more details.
+* She has a special attack called the '''Nelson Touch''' that targets 3 enemies at random.
+** The activation requirements are:
+*** Nelson as the flagship of the 1st fleet.
+*** Nelson must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>.
+*** There must be 6 ships in the fleet.
+*** There must be no submarines in the fleet.
+*** The 3rd and 5th ships must not be a carrier.
+*** '''Double line formation''' needs to be selected in a single fleet OR '''Cruising Formation 2''' for a combined fleet.
+** If triggered, Nelson, the 3rd ship, and the 5th ship will perform one attack each with a 2x post-cap modifier.
+*** If the engagement is <span style="color:red;">Red T</span>, then the post-cap modifier becomes 2.5x.
+** It can be triggered even if you fail to activate artillery spotting.
+** It can only be activated '''once per sortie'''.
+** It has a chance to trigger every time Nelson takes a turn at shelling. If it fails to trigger in day, there is a chance to trigger it in the followup night battle.
+** It does not cost any extra resources if triggered.
+** Trigger rate is believed to be related to:
+*** The total level of all girls involved in the attack
+*** Nelson's luck {{Luck}} stat.<ref>https://twitter.com/dewydrops/status/1181520911444271105?s=19</ref>
+
+<references/>
+{{clear}}
+
+===Overview===
+* Good firepower and armour.
+* Decent HP.
+
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+'''Hidden Fit Bonuses'''
+* She has accuracy bonuses and penalties when equipped with certain large guns. Please see [[Gun Fit Bonuses]] for mode details.
+
+===Analysis===
+Priority: '''High'''
+
+: She has great firepower for a battleship but what really makes her stand out is her powerful special ability. Unlike [[Nagato]] and [[Mutsu]], her ability does not take extra ammo when it triggers; but it has a slightly weaker multiplier and requires 3 good ships instead of just 2 to make full use of it. Although she is event-only and hard to get, she'll serve you very well when you do get her. Her AACI has a low fixed shootdown and multiplier which makes it inadvisable to run.
+
+====Recommended Roles====
+* Combat
+* Support Expeditions
+
+====Not Recommended Roles====
+* Anti-Air
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 余がNelsonだ。貴様がようのAdmiralというわけか？ふん、なるほどな。いいだろう。見せてもらう、貴様の采配を、な。楽しみだ。
+|translation = My name is Nelson. So you're my Admiral? Humph, I see. Good. Show me how you command. I have high expectations.
+|audio = Nelson-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Introduction
+|kai = yes
+|origin = Nelsonだ。貴様、今日も元気そうだな。何よりだ。ふん、今日も見せて貰おう、貴様の采配を。よろしく頼むぞ、my Admiral。
+|translation = I'm Nelson. You're looking well today. That's the best. Heh, show me how you command today as well. I'm counting on you, my Admiral.
+|audio = NelsonKai-Intro.mp3
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin = 余がNelson級戦艦一番艦、Nelsonだ。そうだ、三連装主砲三基九門すべて艦前方に集中配置した特装的なdesign。Big 7のいったくとして、そして我本国艦隊の旗艦として、存在感を放ったものだ。何？この主砲配置には課題があるだと？British jokeも休み休み言え。今回だけは許してやろう。
+|translation = I'm the 1st ship of the Nelson-class battleships, Nelson. That's right, I have a special design where all of my triple gun turrets are arranged at the front of the ship. As someone who was one of the Big 7 and flagship of my Home Fleet, I have an impressive presence. What? The arrangement of my main guns is problematic? Think before you tell British jokes. I'll forgive you just this once.
+|audio = Nelson-Library.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin = このNelsonになにかようか？ん？そうか？
+|translation = What did you want from me? Hmm? Is that so?
+|audio = Nelson-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|kai = yes
+|origin = このNelsonの主砲配置そんなに気になるか？ん…そうか！それならいいんだ。さすがはmy Admiralだ。見る目があるな！
+|translation = Are you that interested in the arrangement of my main guns? Hmm... I see! That's great. As expected of my Admiral. You've got good eyes!
+|audio = NelsonKai-Sec1.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin = そうだ。各々がその責を尽くせば…勝てる！
+|translation = That's right. If we all do our part... we can win!
+|audio = Nelson-Sec2.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin = ん、なんだ？…ふん。甘いな、そんな踏み込みでわ。良かろう、余が直々にNelson Touchを教えてやる。いいか、その壁に立て。行くぞ！
+|translation = Hmm, what is it? ...Heh. That attempt was so weak. Alright then, I'll teach you how to do the Nelson Touch personally. Listen well, stand up against that wall. Here we go! 
+|audio = Nelson-Sec3.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary Idle
+|origin = My Admiral、ズイウン、アシカ…何の事だ？あぁ、アシカ作戦か？大丈夫、対策は万全だ、このnelsonにまかせておけ。えぇ、違うのか？
+|translation = My Admiral, Zuiun, Ashika... what are you talking about? Ah, about Operation Sea Lion? Don't worry, I have it all planned out. Leave it to me. Eh, that's not it?<ref>[ https://en.wikipedia.org/wiki/Operation_Sea_Lion Operation Sea Lion] is known as [https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B7%E3%82%AB%E4%BD%9C%E6%88%A6 "Ashika Sakusen"] in Japanese sources.</ref>
+|audio = Nelson-Idle.mp3
+}}
+{{ShipquoteKai
+|scenario = Secretary (Married)
+|origin = どうした、my Admiral？浮かない顔だな。ん、よし、tea timeにしよう。そんな時には、熱い紅茶が一番だ。どれ、余が入れてやろう。少し待って。
+|translation = What's wrong, my Admiral? You've got a long face. Mmm, I know, let's have tea time. Hot black tea is the best thing for times like this. Come on, I'll go make some. Just wait a while.
+|audio = Nelson-SecMarried.mp3
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin = Admiralよ、何だ改まて？ん、この小箱を、余にくれるとか？どうした？らしくないな。せっかくだ、開けるぞ……ほぉ、どうだ？余に似合うか？あはぁ！そうか！あへん、I adore you too。
+|translation = What are you being so formal for, Admiral? Are you giving that small box to me? What's going on? This isn't like you. Since you've gone through the trouble, I'm opening it...... Whoa, how is it? Does it suit me? Aha! Ahem, I adore you too.
+|audio = Nelson-Wedding.mp3
+}}
+{{ShipquoteKai
+|scenario = Player's Score
+|origin = 情報か…よろし。状況の確認は大切だ。何？余にもってこいと？何よ？なぜだ？
+|translation = Information... Good. It's important to check the situation. What? You want me to get it? What? Why?
+|audio = Nelson-PlayerScore.mp3
+}}
+{{ShipquoteKai
+|scenario = Joining the Fleet
+|origin = うん、余が出よう。なーに、これもBig 7の努め。気にするな。
+|translation = Yes, I'm heading out. No, this is what a Big 7 does. Don't worry.
+|audio = Nelson-JoinFleet.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin = Brilliant!気に入った！
+|translation = Brilliant! I like this!
+|audio = Nelson-Equip1.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin = ん、それも、あり…か。感謝しよう。
+|translation = Hmmm, I guess... this works too. Thank you.
+|audio = Nelson-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|kai = yes
+|origin = ん、なるほどな。良い判断かもしれん。感謝しよう。
+|translation = Hmm, this might be a good pick. Thank you.
+|audio = NelsonKai-Equip2.mp3
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin = よし、ラム酒をだそう！
+|translation = Alright, let's bring out the rum!
+|audio = Nelson-Equip3.mp3
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin = よし、万全だ。行けるぞ。
+|translation = Alright, it's all done. I can do this.
+|audio = Nelson-Supply.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Minor Damage)
+|origin = この程度の傷は、傷のうちには入らんが…まあ、いい。
+|translation = This scratch doesn't even count as damage... But if you insist.
+|audio = Nelson-DockMinor.mp3
+}}
+{{ShipquoteKai
+|scenario = Docking (Major Damage)
+|origin = 参ったな…すまない。少し後ろに下がる。
+|translation = They got me good... Sorry. I'll be heading to the rear for a while.
+|audio = Nelson-DockMajor.mp3
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin = 新しい仲間か？祝福しよう。
+|translation = Is it a new comrade? Let's give them our blessing.
+|audio = Nelson-Construction.mp3
+}}
+{{ShipquoteKai
+|scenario = Returning from Sortie
+|origin = 艦隊、戻ったぞ。うん、母港というのは、いつでもいいものだ。
+|translation = The fleet has returned. Yes, home port is always a great place.
+|audio = Nelson-SortieReturn.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|origin = Nelson級戦艦一番艦、Nelson、出撃するぞ！各艦、遅れるな！
+|translation = 1st ship of the Nelson-class battleships, Nelson, sortieing! All ships, don't fall behind!
+|audio = Nelson-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Sortie
+|kai = yes
+|origin = Nelson級戦艦一番艦、艦隊旗艦Nelson、出撃するぞ！各艦、遅れるな！付いてこい！
+|translation = 1st ship of the Nelson-class battleships, fleet flagship Nelson, sortieing! All ships, don't fall behind! Follow me!
+|audio = NelsonKai-Sortie.mp3
+}}
+{{ShipquoteKai
+|scenario = Starting a Battle
+|origin = Enemy is in sight。各々方、さあ始めるぞ！
+|translation = Enemy is in sight. Let's get started now, you lot!
+|audio = Nelson-BattleStart.mp3
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin = 逃さんぞ！Shoot!
+|translation = Don't miss! Shoot!
+|audio = Nelson-Attack.mp3
+}}
+{{ShipquoteKai
+|scenario = Air Battle/ Daytime Spotting/ Night Battle Attack 
+|origin = 余は各艦がその責務をまっとをするを期待する。続け！
+|translation = I expect that each ship will do their duty. Forwards!<ref>This is a reference to Admiral Nelson's [https://en.wikipedia.org/wiki/England_expects_that_every_man_will_do_his_duty famous signal] from the Battle of Trafalgar.</ref>
+|audio = Nelson-NightAttack.mp3
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin = 各艦、複縦陣で敵の中央に突撃する！聞こえなったか？複縦陣だ！行くぞ！
+|translation = All ships, charge into the heart of the enemy in double line! Didn't you hear me? Double line! Let's go!
+|audio = Nelson-NightBattle.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin = ほぅ？Battle honourか？かなり、いさしぶりな気もするな。だが、悪くは…ない。Thank you very much indeed。
+|translation = Oh? A battle honour? It's been a while since I felt like this. But, it's... not bad. Thank you very much indeed.
+|audio = Nelson-MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = MVP
+|kai = yes
+|origin = うむ、Battle honourか？My Admiral、貴様の指揮におかげだ。だが、悪くは…ない。Thank you very much indeed。
+|translation = Hmm, a battle honour? It's all thanks to your command, my Admiral. But, it's... not bad. Thank you very much indeed.
+|audio = NelsonKai-MVP.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin = んぐ、かすり傷だ！まったく問題ない！
+|translation = Ngh, it's just a scratch! There's no problem at all.
+|audio = Nelson-MinorDmg1.mp3
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin = うわぁ！っち、なかなかにやるな。面白い！
+|translation = Whoa! Tch, that was pretty good. Interesting!
+|audio = Nelson-MinorDmg2.mp3
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin = こ、このぉ…Big 7と言われた余が…この程度で…まだ沈まんぞ、見ておれ。
+|translation = Y-you... to reduce someone called the "Big 7" like me to this state... I won't sink yet, just watch.
+|audio = Nelson-MajorDmg.mp3
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin = ほぅ…これが…「沈む」っと言うこと…これが…戦いでの死か…暗く…暗くなって…そう…か…
+|translation = I see... So this is... what they mean by "sinking"... So this is... falling in battle... Dark... so dark... I... see...
+|audio = Nelson-Sunk.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader | type = hourly}}
+{{ShipquoteKai
+|scenario = 00:00 
+|origin = よろし、本日は余がAdmiralのそばを居てやろう。はぁ、そうか？そうだろう！よし、時刻は丁度０時を回ったところだ。
+|translation = Very well, I'll be by your side today, Admiral. Ah, really? Of course! Alright, the time just turned exactly 12am.
+|audio = NelsonKai-00.mp3
+}}
+{{ShipquoteKai
+|scenario = 01:00 
+|origin = 1 o'clock。うん、夜勤にはこれだ。嗜むだろう？そうか、よし、乾杯だ！うん、貴様もやるな。
+|translation = 1 o'clock. Yes, you need this for the night shift. Do you want some? I see, alright, let's have a toast! Yes, you can sure drink.
+|audio = NelsonKai-01.mp3
+}}
+{{ShipquoteKai
+|scenario = 02:00 
+|origin = 2 o'clock。まあ、飲み過ぎはいかん。程々にしよう。ん、誰だこんな時間に…？ん？Arkか！どうした？
+|translation = 2 o'clock. Well, we shouldn't drink too much. Let's slow down. Hmm, who is it at this time...? Hmm? It's Ark! What's the matter?
+|audio = NelsonKai-02.mp3
+}}
+{{ShipquoteKai
+|scenario = 03:00 
+|origin = 3 o'clock。そうか、眠れないのか。仕方ない、ラム酒でやるか、my Admiral？えへぇ、すまない。いいか？あぁ、そうか？話せるな。さすがだ！
+|translation = 3 o'clock. I see, you can't sleep. Well, shall we just drink some rum then, my Admiral? Ehe, excuse me. We can? Ah, really? You're so understanding. Outstanding!
+|audio = NelsonKai-03.mp3
+}}
+{{ShipquoteKai
+|scenario = 04:00 
+|origin = 4 o'clock。あぁ、いや、Swordfishの話はもうわかったよ、Ark。飲み過ぎじゃ…水を…あぁ、my Admiral、すまんない、助かる。
+|translation = 4 o'clock. Ah, no, I've heard enough about Swordfish, Ark. You've drunk too much... How about some water... Ah, sorry, my Admiral; thanks.
+|audio = NelsonKai-04.mp3
+}}
+{{ShipquoteKai
+|scenario = 05:00 
+|origin =  5 o'clock。やっとArkも寝たか。My Admiral、すまんなかった。いや、thanks a lot。あははぁ、もう朝だな。
+|translation = 5 o'clock. Ark is finally asleep. My apologies, my Admiral. No, thanks a lot. Ahahaha, it's already morning.
+|audio = NelsonKai-05.mp3
+}}
+{{ShipquoteKai
+|scenario = 06:00 
+|origin = 6 o'clock。I see、こうだろう？総員起こし！ん、あぁー。いい朝だ。よし、暑い紅茶を入れようか。飲むだろう？
+|translation = 6 o'clock. I see, like this? All hands, assemble! Ngh, aaaah. What a lovely morning. Alright, I'll go make some hot black tea. You'll have some right?
+|audio = NelsonKai-06.mp3
+}}
+{{ShipquoteKai
+|scenario = 07:00 
+|origin = 7 o'clock。朝食は大事だ。もちろん、full breakfastだな？ん、余の分はどこだ、Admiral?
+|translation = 7 o'clock. Breakfast is important. Of course we're having a full breakfast right? Hmm, where's my share, Admiral?
+|audio = NelsonKai-07.mp3
+}}
+{{ShipquoteKai
+|scenario = 08:00 
+|origin = 8 o'clock。まさか余に作らせるつもりだったとは…Good English jokeだ。My Admiral、のfull breakfastなかなかに美味だったぞ。料理、うまいな。さすがだ！
+|translation = 8 o'clock. You couldn't have really expected me to make breakfast... That was a good English joke. Your full breakfast tasted good, my Admiral. Your cooking is delicious. Outstanding!
+|audio = NelsonKai-08.mp3
+}}
+{{ShipquoteKai
+|scenario = 09:00 
+|origin = 9 o'clock。さあ、海に出るか？…おぉ、Ladyか。今日もきれいだな。さすがだ。そうだな、腹ごなしに演習でもするか？お手合わせ願おか？
+|translation = 9 o'clock. Now, shall we put to sea? ...Oh, Lady. You're looking wonderful today too. I expect nothing less. That's right, shall we have some exercises to help digest the meal? Will you do me the honour?
+|audio = NelsonKai-09.mp3
+}}
+{{ShipquoteKai
+|scenario = 10:00 
+|origin = 10 o'clock。あぁ、この主砲配置か？いいだろう？側面方向に最大火力三基九門を指向できるぞ。背面だっと？しらん！まあ、問題はない！
+|translation = 10 o'clock. Ah, this turret arrangement? Isn't it great? I can bring maximum firepower to bear on either flank. My rear? No comment! Well, it's not a problem!
+|audio = NelsonKai-10.mp3
+}}
+{{ShipquoteKai
+|scenario = 11:00 
+|origin = 11 o'clock。そろそろ昼か。そういえば、少し腹が減ったような気がするな。My Admiral、貴様はどうだ？んー。
+|translation = 11 o'clock. It's almost noon. Now that you mention it, I am feeling a little hungry. What about you, my Admiral? Hmmm.
+|audio = NelsonKai-11.mp3
+}}
+{{ShipquoteKai
+|scenario = 12:00 
+|origin =  Middayか。おぉ、あの駆逐艦は？Hey, Lucky Jervis！なに？このsandwichは？わぁ、ありがたい。まさにlucky。
+|translation = It's midday. Oh, who's that destroyer? Hey, Lucky Jervis! What? What are these sandwiches? Whoa, thank you. You really are lucky.
+|audio = NelsonKai-12.mp3
+}}
+{{ShipquoteKai
+|scenario = 13:00 
+|origin = 1 o'clo…あぁ、うわぁ、出たな…貴様は、長門、日本のBig 7か！どうだ？余と演習でも…あぁ、そうか。よし、では手加減はしない！こい、長門！
+|translation = 1 o'clo... Ah, whoa, you've come... You're Nagato, Japan's Big 7! How about it? Have an exercise with me... Ah, I see. Alright, then I won't hold back! Come, Nagato!
+|audio = NelsonKai-13.mp3
+}}
+{{ShipquoteKai
+|scenario = 14:00 
+|origin = 2 o'clock。ふん、なかなかにやるな、長門。そう来なくては。もう一戦行くか？
+|translation = 2 o'clock. Humph, you're pretty good, Nagato. That's how it needs to be. Shall we go another round?
+|audio = NelsonKai-14.mp3
+}}
+{{ShipquoteKai
+|scenario = 15:00 
+|origin =  3 o'clock。あぁ、いい汗を掻いた。おぉ？Ice tea、ありがたい！ぐぅ、ぐぅ…あはぁ！陸奥、thanks。長門、貴様も出来た妹がいるな。ぐぅ、ぐぅ…ぷはぁ！うん、うまい！
+|translation = 3 o'clock. Aaaah, I worked up a good sweat. Oh? Thanks for the iced tea! *gulp* *gulp*... Ahaaaa! Thanks, Mutsu. You've got a capable little sister too, Nagato. *gulp* *gulp*... Aaaaah! Yes, it's delicious!
+|audio = NelsonKai-15.mp3
+}}
+{{ShipquoteKai
+|scenario = 16:00 
+|origin =  4 o'clock。走行しているうちにもう夕方か。おぉ、あの艦影は…？そうか、あれがYamato-typeか？あれは…えへぇ、そうか、美しいな。
+|translation = 4 o'clock. So it's become evening while we were travelling. Oh, that silhouette is... I see, it's the Yamato-type. She's... Ehe, yes, she's beautiful.
+|audio = NelsonKai-16.mp3
+}}
+{{ShipquoteKai
+|scenario = 17:00 
+|origin = 5 o'clock。さあ、そろそろ夕食の時間だな。My Admiral、今夜のmenuはなんだ？貴様は料理うまい。楽しみだな。
+|translation = 5 o'clock. Now, it's almost time for dinner. What's on tonight's menu, my Admiral? Your cooking is delicious. I can't wait.
+|audio = NelsonKai-17.mp3
+}}
+{{ShipquoteKai
+|scenario = 18:00 
+|origin = 6 o'clock。ほぉ、ふうかてんっとな。Scotch eggに見てるな。どれ。はむ、はむ、ん！うまい！貴様、戦いが終わったら、店を開くのはどうだ？余がオーナーにやってもいいぞ。
+|translation = 6 o'clock. Ooh, so these are fuukaten. They look like scotch eggs. Let's see. *nom* *nom* Mmmm! It's delicious! How about opening a shop after the war is over? I can even be the owner.
+|audio = NelsonKai-18.mp3
+}}
+{{ShipquoteKai
+|scenario = 19:00 
+|origin = 7 o'clock。うん、貴様の料理は、ラム酒にはもちろん、スコッチにも合うな。よろし、今日はも飲んでしまおう。いいだろう？なぁ？
+|translation = 7 o'clock. Yes, your cooking goes well with not only rum, but scotch too. Alright, let's drink today. It's fine right? Right?
+|audio = NelsonKai-19.mp3
+}}
+{{ShipquoteKai
+|scenario = 20:00 
+|origin = んぐ、んぐ、あぁー。８ o'clockかな？ん、今日の酒はうまい。貴様も行けるな。結構なことだ。何やら水雷がうるさいが…まあ、いい。ほっとけ。それより、もう一杯。
+|translation = *gulp* *gulp* Aaaaaah. I think it's 8 o'clock? You're doing well too. That's great. The torpedo squadrons are being noisy for some reason... Oh, well. Let's leave them be. Anyway, give me another glass.
+|audio = NelsonKai-20.mp3
+}}
+{{ShipquoteKai
+|scenario = 21:00 
+|origin = 9 o'clock。何だ、イタリアの小娘か？何、こっちに来てやりたいのか？よろし、来なさい。さあ、いっぱい。おぉ、貴様やるな。うん！
+|translation = 9 o'clock. Oh, it's the little Italian girl? What, you want to join us? Alright, come here. Now, have a glass. Oooh, not bad. Yes!
+|audio = NelsonKai-21.mp3
+}}
+{{ShipquoteKai
+|scenario = 22:00 
+|origin = 10 o'clock。おぉ、Sheffield！どうした？何？三水戦と夜戦に巻き込まれた？あはははぁ！まあ、いい！いっぱいどうだ？
+|translation = 10 o'clock. Oh, Sheffield! What's wrong? What? You got caught up with DesRon3 in a night battle? Ahahahaha! Oh well! How about a glass?
+|audio = NelsonKai-22.mp3
+}}
+{{ShipquoteKai
+|scenario = 23:00 
+|origin = 11 o'clock。貴様と過ごす一日は、とっても楽しいものだ。明日もまた、よろしく頼むぞ。おやすみ、my Admiral。いい夜。
+|translation = 11 o'clock. Spending the day with you was so much fun. I'm counting on you tomorrrow too. Good night, my Admiral. Have a good night.
+|audio = NelsonKai-23.mp3
+}}
+|} <references/>
+
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Saury_2018|Saury 2018]]
+|origin = 何だっと！？この騒ぎはなんだ！？おい、Ark、何事だ？なに？秋刀魚？秋刀魚っとは、あの魚の？その装備はいったい…？
+|translation = What!? What's all this racket!? Oi, what's going on, Ark? What? Saury? By "Saury" you mean that fish? What's with that equipment...?
+|audio = Nelson_Sec1_Saury_2018.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Late_Autumn_2018|Late Autumn 2018]]
+|origin = 寒くなってきたな。Rodneyもこの季節は苦手のはず…いや、そうでもなったかな。まあ、いい。今日の夕食はなんだ？ほぉー、鍋か？いいな。あれは温まる。
+|translation = It's getting colder. If I recall correctly, Rodney doesn't like this season... No, I'm mistaken. Oh well. What's for dinner tonight? I see, a hotpot? That's good. It'll warm me up.
+|audio = Nelson_Late_Autumn_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Christmas_2018|Christmas 2018]]
+|origin = Happy Christmas, my Admiral. よろし、今夜は飲もう！乾杯！
+|translation = Happy Christmas, my Admiral. Alright, let's drink tonight! Cheers!
+|audio = Nelson_Christmas_2018_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/New_Year_2019|New Years 2019]]
+|origin = 新年か。My Admiral,今年もよろしく頼む。よし、まずは一杯やろう。ラム酒でいいか？乾杯！
+|translation = It's the new year. My Admiral, I'm counting on you this year too. Alright, now let's have a toast. Is rum fine? Cheers!
+|audio = Nelson_New_Year_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2019|Setsubun 2019]]
+|origin = ほぉ、これが噂に名高いセッツブウン。いいな。異文化を楽しむのが好きだ。これを長門にぶつけるだな？よろし、任せておけ。行くぞ！
+|translation = Oooh, so this is the much rumoured Settsubuun. Nice. I like having fun experiencing foreign cultures. So I throw this at Nagato? Alright, leave it to me. Here I go!	
+|audio = Nelson_Setsubun_2019_Sec1.mp3
+|notes = Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Setsubun_2019|Setsubun 2019]]
+|origin = おのれ長門、初弾は回避したか…諸元修正。第二斉射行く…うわぁ！だ、だれだ！？Ark!きさま！
+|translation = How dare you Nagato, you avoided the first salvo... Recalculate the firing solution. Here goes the 2nd salvo... Whoa! Wh-who did that!? Ark! Damn you!
+|audio = Nelson_Setsubun_2019_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Valentine%27s_Day_2019|Valentine's Day 2019]]
+|origin = き、貴様！甘いものは…そ、そのすきか？…そ、そうか！？なら、これをやろう。余からの餞別…違う、気持ちだ！
+|translation = Y-you! Do you like... sw-sweet things? ...Re-really!? Then, this is for you. This is a parting gift... No, it's my feelings!
+|audio = Nelson_Valentines_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/White_Day_2019|White Day 2019]]
+|origin = これは…貴様から？…そ、そうか！ありがたいな。だ、大事に余がもらってやろ。何、礼はいらないぞ。
+|translation = This is... from you? ...I-I see! Thank you. I-I gladly accept. You don't need to thank me.
+|audio = Nelson_White_Day_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Coming_of_Spring_2019|Coming of Spring 2019]]
+|origin = 桜…この地では、この花をそう呼ぶんのだな。なぜだ…きれいだが、悲しい気持ちにもなる。不思議な花だな。
+|translation = Sakura... That's what they call this flower here. I wonder why... it gives off such a sad feeling even though it's beautiful. What a strange flower.
+|audio = Nelson_Spring_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Sixth_Anniversary|6th Anniversary]]
+|origin = 6th Anniversary?すごいじゃないか？ Congratulations。祝福しよう
+|translation = The 6th Anniversary? Isn't that amazing? Congratulations. Accept my blessings.
+|audio = Nelson_6th_Anniversary_Sec2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Rainy_Season_2019|Rainy Season 2019]]
+|origin = Ahaam, これは噂に聞くこの地のtsooyuか？まぁ、いいじゃないか？雨音を聞きながら飲む酒も…悪くはないな？
+|translation = Ahaam, so this is the fabled tsooyu of this region? Well... it's fine, isn't it? Listening to the rain while drinking... nothing bad about that.
+|audio = Nelson_Rainy_Season_2019_Sec1.mp3
+|notes = 
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Seventh_Anniversary|7th Anniversary 2020]]
+|origin = ほうぅ、7th Anniversaryだと？すごいじゃないか。Congratulations! 貴様とも長くなったな。ふふ、あぁ、いや。悪くはない！
+|translation = Hmmm, it's the 7th Anniversary? That's great. Congratulations! I've known you for quite a while now. Haha, ah, no. It's not bad!
+|audio = Nelson_7th_Anniversary_Secretary_2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Eighth_Anniversary|8th Anniversary]]
+|origin = 8th Anniversary? なにげにすごく、congratulations! そうだ、余が祝福をくれてやろ。顔をこちらに…ちがう！頬だ、頬！
+|translation =	It's the 8th Anniversary? A massive congratulations! I know, let me give you a blessing. Come closer... No! It's just going to be on your cheek!
+|audio = Nelson_8th Anniversary_Secretary_1.mp3
+|notes = 
+}}
+|}<references/>
+
+{{clear}}
+
+===Misc Lines===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Early_Fall_2018_Event|Early Fall 2018 Event]]
+|origin = 戦艦Nelson、瞭解だ。見せてやろう。我が複縦陣による突撃を！敵の中央を分斷する。行くぞ！
+|translation = Battleship Nelson, roger. I'll show you what I can do. We'll attack in double line! Split the enemy down the middle. Let's go!
+|audio = NelsonKai-Friend_Fleet_1.mp3
+|notes = Friend Fleet Line
+}}
+{{SeasonalQuote
+|scenario = [[Early_Fall_2018_Event|Early Fall 2018 Event]]
+|origin = 待たせだな。本國艦隊旗艦、Nelson、見參！行くぞ！各々そのその責務を果たせ！突撃！
+|translation = I've kept you waiting. Home Fleet flagship, Nelson, has arrived! Let's go! Each should do their duty! Charge!
+|audio = NelsonKai-Friend_Fleet_1.mp3
+|notes = Friend Fleet Line
+}}
+{{SeasonalQuote
+|scenario = [[Early_Fall_2018_Event|Early Fall 2018 Event]]
+|origin = Nelson Touch。主砲、一番、二番、もう一撃だ！
+|translation = Nelson Touch. Main guns 1 and 2, one more shot!
+|audio = Nelson-Touch.mp3
+|notes = Nelson Touch Line
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+|Base
+|Base Damaged
+</gallery>
+|}
+
+==Drop Locations==
+Currently limited to Event Only. Late Fall 2018 Event Reward.
+
+==Trivia==
+* She is named after [https://en.wikipedia.org/wiki/Horatio_Nelson,_1st_Viscount_Nelson Admiral Horatio Nelson].
+* Her obsession with the double line formation is a reference to Admiral Nelson's famous maneouver at the [https://en.wikipedia.org/wiki/Battle_of_Trafalgar Battle of Trafalgar].
+
+==See Also==
+*[[{{PAGENAMEE}}/Gallery|View {{PAGENAME}} CG]]
+*[[Elitebb|List of Battleships]]
+*[[wikipedia:HMS_Nelson_(28)|Wikipedia entry on battleship Nelson]]
+ {{shiplist}}
+[[Category:Royal Navy Vessels]]

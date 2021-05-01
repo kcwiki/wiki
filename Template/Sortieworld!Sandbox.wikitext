@@ -1,0 +1,41 @@
+{{{map|[[File:1-1_Map.jpg|400px]]}}}
+{|class="wikitable"
+|style="width: 60px; background-color: LightSkyBlue;"|Difficulty
+|'''{{{difficulty|☆}}}'''
+|style="width: 60px; background-color: LightSkyBlue;"|Item
+|'''{{{item|None}}}'''
+|-
+|style="background-color: LightSkyBlue;"|Exp
+|'''{{{exp|100}}}'''
+|style="background-color: LightSkyBlue;"|Code
+|'''{{{code|?}}}'''
+|-
+|style="background-color: LightSkyBlue;"|Text
+|colspan=3|{{{text|?}}}
+|-
+|style="background-color: LightSkyBlue;"|Translation
+|colspan=3|{{{text|?}}}
+|}<noinclude>
+*<nowiki>In the map section (map = ??), interactive map template {{World1-2}} can be replace with image file, e.g. [[File:1-2_Map.jpg|400px]] if the template is not ready yet. All maps are organized by [world]-[level]_map.jpg.</nowiki>
+*Test your code in [[Template:Sortieworld/Sandbox]]
+<pre>
+{{Sortieworld
+| map = {{World1-2}}
+| difficulty = ☆
+| item = None
+| exp = 50
+| code = 南西諸島沖警備 ([[wikipedia:Nansei_Islands|Nansei Islands]] Naval Preparation)
+| text = 南西諸島沖に接近する敵前衛艦隊を捕捉、迎撃せよ！ 
+| translation = Intercept and capture the enemy's forward fleet before they take the Nansei Island naval base!
+}}
+</pre>
+{{Sortieworld
+| map = {{World1-2}}
+| difficulty = ☆
+| item = None
+| exp = 50
+| code = 南西諸島沖警備 (Nansei Islands Naval Preparation)
+| text = 南西諸島沖に接近する敵前衛艦隊を捕捉、迎撃せよ！ 
+| translation = Intercept and capture the enemy's forward fleet before they take the Nansei Island naval base!
+}}
+</noinclude>

@@ -1,0 +1,9 @@
+<!--when adding, use rgb(r,g,b);-->
+{{#switch:{{{1}}}
+| case 1 = rgb(211, 211, 211); <!--#d3d3d3; lightgrey-->
+| case 2 = rgb(204, 204, 153); <!--#cccc99;-->
+| case 3 = rgb(153, 204, 204); <!--#99cccc;-->
+| case 4 = rgb(102, 204, 153); <!--#66cc99;-->
+| case 5 = rgb(153, 153, 204); <!--#9999cc;-->
+| case 6 = rgb(77, 148, 255);
+}}

@@ -1,0 +1,73 @@
+<noinclude>{{Documentation subpage}}</noinclude>__NOTOC__
+
+==Usage==
+A neat(?) way to assemble ship lines.
+==Parameters==
+
+<pre>{{Voiced Lines Translations
+| Type = what type of line is it, if it's a special case (such as seasonal)
+| Situation = Under what situation this line is spoken (ignore if Type is set)
+| Filename = Name of the audio file, without the extension (.ogg)
+| Name = Name of ship (only include if Type is set)
+| Original Japanese Line = original line in Japanese
+| English Translation = translated line
+| Notes = any particular notes
+}}</pre>
+
+===Requirements and Format===
+A minimum of three parts are needed for assembling the table:
+
+<code><nowiki>{{Voiced Lines Translations/Header}} (table header; pass appropriate Type= where necessary)</nowiki> <br/>
+<nowiki>{{Voiced Lines Translations</nowiki> <br/>
+(the parameters as explained above) <br/>
+<nowiki>}}</nowiki><br/>
+|} (table closing brace)<br/></code>
+
+When adding in new quotes, make sure to do so '''above''' <code>|}</code>.
+
+{{tl|VLT}} is an alias for this template, while {{tl|VLTH}} is an alias for the header. Thus alternatively, you can also use 
+
+<code><nowiki>{{VLTH}}</nowiki> <br/>
+<nowiki>{{VLT</nowiki> <br/>
+(the parameters as explained above) <br/>
+<nowiki>}}</nowiki><br/>
+|}<br/></code>
+
+to accomplish the same thing.
+
+===Example===
+<pre>{{Voiced Lines Translations/Header}}
+{{Voiced Lines Translations
+ |Situation = Repair
+ |Name = Yukikaze
+ |Original Japanese Line = しれぇ……最近雨の日がおおいです。制服や洗濯物が乾きにくくて困りますね。しれぇ♪
+ |English Translation = Commander... There are many rainy days lately. Laundries aren't being dried, what a bother, Commander♪
+}}
+|}</pre>
+{{Voiced Lines Translations/Header}}
+{{Voiced Lines Translations
+ |Situation = Repair
+ |Name = Yukikaze
+ |Original Japanese Line = しれぇ……最近雨の日がおおいです。制服や洗濯物が乾きにくくて困りますね。しれぇ♪
+ |English Translation = Commander... There are many rainy days lately. Laundries aren't being dried, what a bother, Commander♪
+}}
+|}
+
+<pre>{{Voiced Lines Translations/Header|Type=seasonal}}
+{{Voiced Lines Translations
+ |Type = seasonal
+ |Filename = Yukikaze_Rainy_Secretary_1
+ |Name = Yukikaze
+ |Original Japanese Line = しれぇ……最近雨の日がおおいです。制服や洗濯物が乾きにくくて困りますね。しれぇ♪
+ |English Translation = Commander... There are many rainy days lately. Laundries aren't being dried, what a bother, Commander♪
+}}
+|}</pre>
+{{Voiced Lines Translations/Header|Type=seasonal}}
+{{Voiced Lines Translations
+ |Type = seasonal
+ |Filename = Yukikaze_Rainy_Secretary_1
+ |Name = Yukikaze
+ |Original Japanese Line = しれぇ……最近雨の日がおおいです。制服や洗濯物が乾きにくくて困りますね。しれぇ♪
+ |English Translation = Commander... There are many rainy days lately. Laundries aren't being dried, what a bother, Commander♪
+}}
+|}

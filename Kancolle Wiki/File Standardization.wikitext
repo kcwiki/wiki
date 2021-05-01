@@ -1,0 +1,92 @@
+For those who wanted to upload KanColle-related images, please read carefully for the following format:
+
+==KanMusu images==
+Please follow the guideline below before you upload any KanMusu's related images.
+{| class="wikitable"
+ !Category
+ !File Naming
+ !Image Resolution
+ !Image Content
+ |-
+ |KanMusu Images
+ |'''File:KanMusu<ID>.jpg'''
+ |Refer to Images' original resolution
+ |<code><nowiki><KanMusu Name> (ie: Nagato Kai)<br />[[Category:KanMusu Images]]</nowiki></code>
+ |-
+ |KanMusu Damaged Images
+ |'''File:KanMusu<ID>Dmg.jpg'''
+ |Refer to Images' original resolution
+ |<code><nowiki><KanMusu Name> Damaged (ie: Nagato Kai Damaged)<br />[[Category:KanMusu Damaged Images]]</nowiki></code>
+ |-
+ |KanMusu Banners
+ |'''File:KanMusu<ID>Banner.jpg'''
+ |160 × 40 Pixels
+ |<code><nowiki><KanMusu Name> Banner (ie: Nagato Kai Banner)<br />[[Category:KanMusu Banners]]</nowiki></code>
+ |-
+ |KanMusu Damaged Banners
+ |'''File:KanMusu<ID>BannerDmg.jpg'''
+ |160 × 40 Pixels
+ |<code><nowiki><KanMusu Name> Damaged Banner (ie: Nagato Kai Banner)<br />[[Category:KanMusu Damaged Banners]]</nowiki></code>
+ |-
+ |KanMusu Cards
+ |'''File:KanMusu<ID>Card.png'''
+ |218 × 300 Pixels
+ |<code><nowiki><KanMusu Name> Card (ie: Nagato Kai Card)<br />[[Category:KanMusu Cards]]</nowiki></code>
+ |-
+ |KanMusu Damaged Cards
+ |'''File:KanMusu<ID>CardDmg.png'''
+ |218 × 300 Pixels
+ |<code><nowiki><KanMusu Name> Damaged Card (ie: Nagato Kai Damaged Card)<br />[[Category:KanMusu Damaged Cards]]</nowiki></code>
+ |-
+ |KanMusu Seasonal
+ |'''File:KanMusu<ID><Seasonal><Year>.png'''<br />'''File:KanMusu<ID><Seasonal><Year>Dmg.png'''<br />'''File:KanMusu<ID>Card<Seasonal><Year>.png'''<br />'''File:KanMusu<ID>Card<Seasonal><Year>Dmg.png'''
+ |For full portrait, refer to images' original resolution, for Cards, it should be 218 x 300
+ |<code><nowiki><KanMusu Name> <Seasonal> (ie: Nagato Kai Spring Season)<br /><nowiki>[[Category:KanMusu Seasonal Images]]</nowiki>
+ |}
+*'''Example for KanMusu images'''
+:'''Nagato Kai Damaged''' 's File Name should be:
+::<code>File:KanMusu001aDmg.jpg</code>
+:File article content should write as below:
+::<code><nowiki>Nagato Kai Damaged<br />[[Category:KanMusu Damaged Images]]</nowiki></code>
+
+*'''Example for KanMusu Seasonal images'''
+:'''Nagato Kai Spring Season''' 's File Name should be:
+:<code>File:KanMusu001aHaru.png</code>
+:File article content should write as below:
+::<code><nowiki>Nagato Kai Spring Season<br />[[Category:KanMusu Seasonal Images]]</nowiki></code>
+:For Seasonal in Romaji/English naming (Due to some naming unable to use Romaji)
+::{{lang|ja|年末}} (Year End): Nenmatsu
+::{{lang|ja|年始}} (New Year): Nenshi
+::{{lang|ja|節分}}: Setsubun
+::Valentine's Day: Valentine
+::{{lang|ja|初春}} (Early Spring): Haru (Unifying Spring related seasonal)
+::{{lang|ja|雛祭り}} (Daughter's Day): Hinamatsuri
+::{{lang|ja|周年記念}} (Year Anniversary): XXXAnniv (1st, 2nd, 3rd, 4th... etc)
+::{{lang|ja|梅雨}} (Rainy Season): Tsuyu
+::{{lang|ja|初夏}} (Early Summer): Natsu (Unifying Summer related seasonal)
+::{{lang|ja|盛夏}} (Mid Summer): Natsu (Unifying Summer related seasonal)
+::{{lang|ja|初秋}} (Early Autumn): Aki (Unifying Autumn related seasonal)
+::Saury Fishing: Sanma
+::Christmas: Xmas
+
+==Equipment Images==
+
+==New Equipment Naming ID==
+
+The API name for equipment is Soubi, making the following items as such:
+
+{|
+|Full Card
+|SoubiXXX.png
+|-
+|Item & card
+|SoubiXXXCard.png
+|-
+|Fairy
+|SoubiXXXFairy.png
+|-
+|Item
+|SoubiXXXItem.png
+|}
+
+[[Category:Guidelines]]

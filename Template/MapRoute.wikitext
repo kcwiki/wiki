@@ -1,0 +1,8 @@
+<includeonly><span style="margin-left:2px">{{#if:{{{1|}}}|<span class="map-route-node" style="color:{{{2|}}}">'''{{{1|}}}'''</span>|}}{{#if:{{{3|}}}|&#32;<span class="map-route-node" style="color:{{{4|}}}">'''{{{3|}}}'''</span>|}}{{#if:{{{5|}}}|&#32;<span class="map-route-node" style="color:{{{6|}}}">'''{{{5|}}}'''</span>|}}{{#if:{{{7|}}}|&#32;<span class="map-route-node" style="color:{{{8|}}}">'''{{{7|}}}'''</span>|}}{{#if:{{{9|}}}|&#32;<span class="map-route-node" style="color:{{{10|}}}">'''{{{9|}}}'''</span>|}}{{#if:{{{11|}}}|&#32;<span class="map-route-node" style="color:{{{12|}}}">'''{{{11|}}}'''</span>|}}{{#if:{{{13|}}}|&#32;<span class="map-route-node" style="color:{{{14|}}}">'''{{{13|}}}'''</span>|}}{{#if:{{{15|}}}|&#32;<span class="map-route-node" style="color:{{{16|}}}">'''{{{15|}}}'''</span>|}}{{#if:{{{17|}}}|&#32;<span class="map-route-node" style="color:{{{18|}}}">'''{{{17|}}}'''</span>|}}{{#if:{{{19|}}}|&#32;<span class="map-route-node" style="color:{{{20|}}}">'''{{{19|}}}'''</span>|}}{{#if:{{{21|}}}|&#32;<span class="map-route-node" style="color:{{{22|}}}">'''{{{21|}}}'''</span>|}}{{#if:{{{23|}}}|&#32;<span class="map-route-node" style="color:{{{24|}}}">'''{{{23|}}}'''</span>|}}{{#if:{{{25|}}}|&#32;<span class="map-route-node" style="color:{{{26|}}}">'''{{{25|}}}'''</span>|}}{{#if:{{{27|}}}|&#32;<span class="map-route-node" style="color:{{{28|}}}">'''{{{27|}}}'''</span>|}}{{#if:{{{29|}}}|&#32;<span class="map-route-node" style="color:{{{30|}}}">'''{{{29|}}}'''</span>|}}</span></includeonly><noinclude>
+Usage:
+<pre>
+{{MapRoute|2||A|orange|C|red|F|red|I|red|J|blue|K|magenta|L|orange|M|orange|Q|red}}
+</pre>
+Result:
+{{MapRoute|2||A|orange|C|red|F|red|I|red|J|blue|K|magenta|L|orange|M|orange|Q|red}}
+</noinclude>

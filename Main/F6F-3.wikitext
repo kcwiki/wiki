@@ -1,0 +1,80 @@
+{{Equipmentinfo
+|name = F6F-3
+|id = 205
+|japanesename = F6F-3
+|icon = {{GreenPlane}}
+|type = Carrier-Based Fighter
+|effect = {{Firepower}}+1, {{AA}}+8, {{Hit}}+1, {{Evasion}}+2, {{LOS}}+1
+|radius = 5
+|scrap = {{Fuel}} 1, {{Ammo}} 2, {{Bauxite}} 3
+|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
+Equipment205-1.png
+Equipment205-2.png
+Equipment205-3.png
+Equipment205-4.png
+</gallery>
+| CVL=lime
+| CV=lime
+| CVB=lime
+| LC=lime
+}}
+==Introduction==
+大戦初期の太平洋上で零戦としのぎを削った米海軍艦上戦闘機F4Fシリーズの後継機、F6Fシリーズの初期量産型です。<br>
+大出力エンジンを装備した強力な主力艦上戦闘機として、零戦を徐々に圧倒していきました。
+
+''The initial mass production model of the F6F series. It is the successor to the F4F series of US Navy carrier-based fighters that cut short the rampage of the Zero fighters after the early days of the Pacific War.''<br>
+''As a powerful carrier-based fighter equipped with a high-powered engine, it gradually overwhelmed the Zero in battle.''
+
+==Notes==
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Intrepid}}
+
+'''Upgradeable''' from {{Equipment/Link|F4F-4}}
+
+'''From quests: '''[[Quests#A80|A80]] (choice), [[Quests#B105|B105]] (choice)
+
+''Ranking reward for:''
+* Nov 2016: 1-5 (x2), 6-20, 21-100, 101-500
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used to improve''' {{Equipment/Link|FM-2}}
+
+'''Used by quests: '''[[Quests#F61|F61]]
+
+</div></div>
+
+== Akashi's Improvement Arsenal ==
+
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+| Name = {{PAGENAME}}
+| ItemType = GreenPlane
+| Fuel = 160
+| Ammo = 180
+| Steel = 0
+| Baux = 380
+|Mats0-5 = 6/7
+|Mats6-9 = 8/10
+|Mats10 = 12/18
+|Screws0-5 = 4/6
+|Screws6-9 = 6/8
+|Screws10 = 8/16
+|EquipConsume0-5 = 2x{{GreenPlane|Zero Fighter Type 52}}
+|EquipConsume6-9 = 1x{{GreenPlane|Shiden Kai 2}}
+|EquipConsume10 = 2x{{GreenPlane|Shiden Kai 2}}
+| Tue = S
+| Wed = S
+| Thu = S
+| 2ndShip = [[Saratoga#First Upgrade|Saratoga Kai/Mk.II/Mk.II Mod 2]]
+| Notes =  Upgrades to [[F6F-5]].
+}}
+|}
+
+==See Also==
+[[wikipedia:Grumman F6F Hellcat#F6F-3|Grumman F6F Hellcat]]
+{{Equipmentlist}}
+[[Category:Fighters]]

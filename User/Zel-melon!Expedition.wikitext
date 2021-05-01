@@ -1,0 +1,3376 @@
+''A trail on trying to revise the expedition tables. Since it's not going to be that active it'll be in this page until I think it's good enough to shove around somewhere else'' (hope this ain't breaking any rules?)
+
+==Unlocking Expeditions==
+You must complete [[Quests#Composition_quests_.28.E7.B7.A8.E6.88.90.29|Quest A4]] (Have 1 light cruiser as your flagship, 6 ships total in your fleet) to unlock expedition mode. Usually, completing an expedition will unlock the next one in numerical order, but there are some expeditions which will also unlock others.
+*Clearing Expedition 5 unlocks Expedition 9.
+*Clearing Expedition 18 unlocks Expeditions 22, 25 and 33.
+*Clearing Expedition 20 unlocks Expedition 27.
+*Clearing Expedition 26 unlocks Expeditions 34 and 35.
+'''Unlocking Expedition 30 and 31 for [[Quests]] D5 to D8''': Clear 1-5, 9-20, 27-29
+
+<p style="margin-top:0.4em;margin-bottom:0.5em;">'''Unlocking Expeditions 37 to 39 for Quests D9, 11, 13, 14''': Clear 1-5, 9-18, 25-26, 35-36</p>
+
+<p style="margin-top:0.4em;margin-bottom:0.5em;">'''Unlocking Expedition 23 for Quests D10 and D12:''' Clear 1-5, 9-18, 22</p>
+
+==Notes==
+* You must meet the minimum flagship level, fleet size and combination requirement as specified in the [[Expedition#Conditions|conditions section]] in order to complete the expedition.
+* After meeting the fleet composition requirements, you may add ships as you please. This can be useful to meet flagship level or combined fleet level requirements.
+* '''Always resupply before embarking on an expedition otherwise you will likely fail.'''
+*  '''You will not be able to use your main fleet for any expeditions. '''Only Fleets 2-4 can be used for expeditions.
+* If any ships have 50 or higher morale (i.e. they are sparkling), then it is possible to achieve ''great success'', which grants 50% more resources, double the experience, and great success item reward if applicable. [[File:Greatsuccess.jpg|thumb|400px|Great Success]]
+** Chance of great success increases approximately 16% per sparkled ship, or 8% per sparkled ship when doing expeditions that require [[Drum Canister]]s.
+** Expeditions that require ships with [[Drum Canister]] equipped have a chance of ''great success'' without sparkling (50% chance with 0 sparkling ships).  This can be combined with sparkling a few ships to increase chances of ''great success''.
+** Sufficiently high morale can persist for multiple expeditions; see the [[Morale/Fatigue]] for tips on how to sparkle effectively.
+** It can be useful to assign or prepare ships for expedition duties.  You can consider low consumption ships as mentioned below and/or ships you sparkle ahead of time to be ready for expedition duties.
+* For expeditions that give one type of item (Devkit/Bucket/etc), you have a 50% chance of getting it.
+** For ones that give two types of items, the item listed on the left of the game screen will have 50% chance. The item on the right will always be rewarded if you achieve great success, and low reward chance with normal success.
+* Equipping ships with a [[Daihatsu-class Landing Craft]] (comes with [[Akitsu Maru]] after large ship construction) adds a 5% resource gather bonus, which stacks as more boats are equipped (e.g. 2 equipped boats result in a 10% bonus) up to a maximum of 20% (4 utility boats).
+** This is calculated multiplicatively with the great success 50% bonus, so each utility boat gives a 7.5% increase when great success is achieved. 
+* Remodeled DDs (other than [[Hibiki|Hibiki/Верный]]) have the same fuel/ammo consumption as before remodel. Remodeling and modernizing your DDs makes getting high morale for them much easier.
+* [[:Category:Mutsuki Class|Mutsuki class]] and [[:Category:Tenryū Class|Tenryuu class]] (unremodeled) have the lowest consumption for DD/CL.  They can save a lot of resources when used in highly draining expedtions that deplete most of your ammo.  Maruyu (unremodeled) is the lowest consumption ship in the game.  SS have the lowest fuel consumption and can be great for expeditions as well.
+* Expeditions will automatically complete if you enter the main screen with less than a minute remaining on the timer.
+* While the amount of Admiral EXP gained is significantly reduced to 30% upon failing an expedition, the amount of Ship EXP gained '''remains unaffected.'''
+
+==Reward Chart==
+An adaptation of this chart can be found on the [http://goo.gl/7wPFVz Kancolle Collection Online Spreadsheet] .
+
+{| class="article-table" style="width:1080px;" border="0" cellpadding="1" cellspacing="1"
+! rowspan="2" scope="col" style="text-align:center; width:50px;" |ID
+! rowspan="2" scope="col" style="text-align:center; width:205px;" |Name
+! rowspan="2" scope="col" style="text-align:center; width:50px;" |Time (h:mm)
+! rowspan="2" scope="col" style="text-align:center; width:50px;" |
+Admiral
+
+EXP
+! rowspan="2" scope="col" style="text-align:center; width:50px;" |
+Ship
+
+EXP
+! colspan="8" scope="col" style="text-align:center; width:475px;" |Reward
+! colspan="2" scope="col" style="text-align:center; width:100px;" |Consumption
+|-
+! scope="col" style="text-align:center; width:50px;" |{{Fuel}}
+! scope="col" style="text-align:center; width:50px;" |{{Ammo}}
+! scope="col" style="text-align:center; width:50px;" |{{Steel}}
+! scope="col" style="text-align:center; width:50px;" |{{Buax}}
+! scope="col" style="text-align:center; width:50px;" |{{IR}}
+! scope="col" style="text-align:center; width:50px;" |{{IC}}
+! scope="col" style="text-align:center; width:50px;" |{{DM}}
+! scope="col" style="text-align:center; width:125px;" |{{FB}}
+! scope="col" style="text-align:center; width:50px;" |{{Fuel}}
+! scope="col" style="text-align:center; width:50px;" |{{Ammo}}
+|-
+| colspan="15" style="text-align:center;background-color:rgb(64,224,208);" |'''Page 1: 鎮守府海域'''
+|-
+| style="text-align: center;" |1
+| style="text-align: left;" |練習航海
+| style="text-align: center;" |0:15
+| style="text-align: center;" |10
+| style="text-align: center;" |10
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |30
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |3
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |2
+| style="text-align: left;" |長距離練習航海
+| style="text-align: center;" |0:30
+| style="text-align: center;" |20
+| style="text-align: center;" |15
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |100
+| style="text-align: center; background-color: rgb(220, 221, 221);" |30
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |3
+| style="text-align: left;" |警備任務
+| style="text-align: center;" |0:20
+| style="text-align: center;" |30
+| style="text-align: center;" |30
+| style="text-align: center; background-color: rgb(104, 190, 141);" |30
+| style="text-align: center; background-color: rgb(255, 234, 0);" |30
+| style="text-align: center; background-color: rgb(220, 221, 221);" |40
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |3
+| style="text-align: center;" |2
+|-
+| style="text-align: center;" |4
+| style="text-align: left;" |対潜警戒任務
+| style="text-align: center;" |0:50
+| style="text-align: center;" |30
+| style="text-align: center;" |40
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |60
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |5
+| style="text-align: left;" |海上護衛任務
+| style="text-align: center;" |1:30
+| style="text-align: center;" |40
+| style="text-align: center;" |40
+| style="text-align: center; background-color: rgb(104, 190, 141);" |200
+| style="text-align: center; background-color: rgb(255, 234, 0);" |200
+| style="text-align: center; background-color: rgb(220, 221, 221);" |20
+| style="text-align: center; background-color: rgb(222, 176, 104);" |20
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |6
+| style="text-align: left;" |防空射撃演習
+| style="text-align: center;" |0:40
+| style="text-align: center;" |30
+| style="text-align: center;" |50
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |80
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |3
+| style="text-align: center;" |2
+|-
+| style="text-align: center;" |7
+| style="text-align: left;" |観艦式予行
+| style="text-align: center;" |1:00
+| style="text-align: center;" |60
+| style="text-align: center;" |120
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |50
+| style="text-align: center; background-color: rgb(222, 176, 104);" |30
+| style="text-align: center;" |
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |8
+| style="text-align: left;" |観艦式
+| style="text-align: center;" |3:00
+| style="text-align: center;" |120
+| style="text-align: center;" |140
+| style="text-align: center; background-color: rgb(104, 190, 141);" |50
+| style="text-align: center; background-color: rgb(255, 234, 0);" |100
+| style="text-align: center; background-color: rgb(220, 221, 221);" |50
+| style="text-align: center; background-color: rgb(222, 176, 104);" |50
+| style="text-align: center;" |
+| style="text-align: center;" |0-2
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" |2
+|-
+| colspan="15" style="text-align:center;background-color:rgb(154,205,50);" |'''Page 2: 南西諸島海域'''
+|-
+| style="text-align: center;" |9
+| style="text-align: left;" |タンカー護衛任務
+| style="text-align: center;" |4:00
+| style="text-align: center;" |60
+| style="text-align: center;" |60
+| style="text-align: center; background-color: rgb(104, 190, 141);" |350
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0-2
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |10
+| style="text-align: left;" |強行偵察任務
+| style="text-align: center;" |1:30
+| style="text-align: center;" |40
+| style="text-align: center;" |50
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |50
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |30
+| style="text-align: center;" |0-1
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |3
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |11
+| style="text-align: left;" |ボーキサイト輸送任務
+| style="text-align: center;" |5:00
+| style="text-align: center;" |40
+| style="text-align: center;" |40
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |250
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |12
+| style="text-align: left;" |資源輸送任務
+| style="text-align: center;" |8:00
+| style="text-align: center;" |60
+| style="text-align: center;" |50
+| style="text-align: center; background-color: rgb(104, 190, 141);" |50
+| style="text-align: center; background-color: rgb(255, 234, 0);" |250
+| style="text-align: center; background-color: rgb(220, 221, 221);" |200
+| style="text-align: center; background-color: rgb(222, 176, 104);" |50
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |0-1
+| style="text-align: center;" |Medium 0-1
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |13
+| style="text-align: left;" |鼠輸送作戦
+| style="text-align: center;" |4:00
+| style="text-align: center;" |70
+| style="text-align: center;" |60
+| style="text-align: center; background-color: rgb(104, 190, 141);" |240
+| style="text-align: center; background-color: rgb(255, 234, 0);" |300
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0-2
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align:center;" |Small 0-1
+| style="text-align: center;" |5
+| style="text-align: center;" |4
+|-
+| style="text-align: center;" |14
+| style="text-align: left;" |包囲陸戦隊撤収作戦
+| style="text-align: center;" |6:00
+| style="text-align: center;" |90
+| style="text-align: center;" |100
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |240
+| style="text-align: center; background-color: rgb(220, 221, 221);" |200
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |15
+| style="text-align: left;" |囮機動部隊支援作戦
+| style="text-align: center;" |12:00
+| style="text-align: center;" |100
+| style="text-align: center;" |160
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |300
+| style="text-align: center; background-color: rgb(222, 176, 104);" |400
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |0-1
+| style="text-align: center;" |Large 0-1
+| style="text-align: center;" |5
+| style="text-align: center;" |4
+|-
+| style="text-align: center;" |16
+| style="text-align: left;" |艦隊決戦援護作戦
+| style="text-align: center;" |15:00
+| style="text-align: center;" |120
+| style="text-align: center;" |200
+| style="text-align: center; background-color: rgb(104, 190, 141);" |500
+| style="text-align: center; background-color: rgb(255, 234, 0);" |500
+| style="text-align: center; background-color: rgb(220, 221, 221);" |200
+| style="text-align: center; background-color: rgb(222, 176, 104);" |200
+| style="text-align: center;" |
+| style="text-align: center;" |0-2
+| style="text-align: center;" |0-2
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" |4
+|-
+| colspan="15" style="text-align:center;background-color:rgb(176,196,222);" |'''Page 3: 北方海域'''
+|-
+| style="text-align: center;" |17
+| style="text-align: left;" |敵地偵察作戦
+| style="text-align: center;" |0:45
+| style="text-align: center;" |30
+| style="text-align: center;" |40
+| style="text-align: center; background-color: rgb(104, 190, 141);" |70
+| style="text-align: center; background-color: rgb(255, 234, 0);" |70
+| style="text-align: center; background-color: rgb(220, 221, 221);" |50
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |3
+| style="text-align: center;" |4
+|-
+| style="text-align: center;" |18
+| style="text-align: left;" |航空機輸送作戦
+| style="text-align: center;" |5:00
+| style="text-align: center;" |60
+| style="text-align: center;" |60
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |300
+| style="text-align: center; background-color: rgb(222, 176, 104);" |100
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" |2
+|-
+| style="text-align: center;" |19
+| style="text-align: left;" |[http://en.wikipedia.org/wiki/Operation_Kita 北号作戦]
+| style="text-align: center;" |6:00
+| style="text-align: center;" |60
+| style="text-align: center;" |70
+| style="text-align: center; background-color: rgb(104, 190, 141);" |400
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |50
+| style="text-align: center; background-color: rgb(222, 176, 104);" |30
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |0-1
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |5
+| style="text-align: center;" |4
+|-
+| style="text-align: center;" |20
+| style="text-align: left;" |潜水艦哨戒任務
+| style="text-align: center;" |2:00
+| style="text-align: center;" |40
+| style="text-align: center;" |50
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |150
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |0-1
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |5
+| style="text-align: center;" |4
+|-
+| style="text-align: center;" |21
+| style="text-align: left;" |北方鼠輸送作戦
+| style="text-align: center;" |2:20
+| style="text-align: center;" |45
+| style="text-align: center;" |55
+| style="text-align: center; background-color: rgb(104, 190, 141);" | 320
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 270
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |8
+| style="text-align: center;" |7
+|-
+| style="text-align: center;" |22
+| style="text-align: left;" |艦隊演習
+| style="text-align: center;" |3:00
+| style="text-align: center;" |45
+| style="text-align: center;" |400
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 10
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |8
+| style="text-align: center;" |7
+|-
+| style="text-align: center;" |23
+| style="text-align: left;" |航空戦艦運用演習
+| style="text-align: center;" |4:00
+| style="text-align: center;" |70
+| style="text-align: center;" |420
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 20
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | 100
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |8
+| style="text-align: center;" |8
+|-
+| colspan="15" style="text-align:center;background-color:rgb(192,192,0);" |'''Page 4: 西方海域'''
+|-
+| style="text-align: center;" |25
+| style="text-align: left;" |通商破壊作戦
+| style="text-align: center;" |40:00
+| style="text-align: center;" |80
+| style="text-align: center;" |180
+| style="text-align: center; background-color: rgb(104, 190, 141);" |900
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |500
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" |8
+|-
+| style="text-align: center;" |26
+| style="text-align: left;" |敵母港空襲作戦
+| style="text-align: center;" |80:00
+| style="text-align: center;" |150
+| style="text-align: center;" |200
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |900
+| style="text-align: center;" |0-3
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |8
+| style="text-align: center;" |8
+|-
+| style="text-align: center;" |27
+| style="text-align: left;" |潜水艦通商破壊作戦
+| style="text-align: center;" |20:00
+| style="text-align: center;" |80
+| style="text-align: center;" |60
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |800
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |0-1
+| style="text-align: center;" |Small 0-2
+| style="text-align: center;" |8
+| style="text-align: center;" |8
+|-
+| style="text-align: center;" |28
+| style="text-align: left;" |西方海域封鎖作戦
+| style="text-align: center;" |25:00
+| style="text-align: center;" |100
+| style="text-align: center;" |140
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |900
+| style="text-align: center; background-color: rgb(222, 176, 104);" | 350
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |0-2
+| style="text-align: center;" |Medium 0-2
+| style="text-align: center;" |8
+| style="text-align: center;" |8
+|-
+| style="text-align: center;" |29
+| style="text-align: left;" |潜水艦派遣演習
+| style="text-align: center;" |24:00
+| style="text-align: center;" |100
+| style="text-align: center;" |100
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | 100
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |0-1
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |9
+| style="text-align: center;" |4
+|-
+| style="text-align: center;" |30
+| style="text-align: left;" |潜水艦派遣作戦
+| style="text-align: center;" |48:00
+| style="text-align: center;" |100
+| style="text-align: center;" |150
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | 100
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |1-3
+| style="text-align: center;" |
+| style="text-align: center;" |9
+| style="text-align: center;" |7
+|-
+| style="text-align: center;" |31
+| style="text-align: left;" |海外艦との接触
+| style="text-align: center;" |2:00
+| style="text-align: center;" |50
+| style="text-align: center;" |50
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 30
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| colspan="15" style="text-align:center;background-color:rgb(255,127,80);" |'''Page 5: 南方海域'''
+|-
+| style="text-align: center;" |33
+| style="text-align: left;" |[[Expedition#Support_Expeditions|前衛支援任務]]
+| style="text-align: center;" |0:15
+| style="text-align: center;" |
+| style="text-align: center;" |
+| colspan="4" style="text-align:center;background-color:rgb(255,100,50);" | Sortie Support Expedition
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" |4 or 8
+|-
+| style="text-align: center;" |34
+| style="text-align: left;" |[[Expedition#Support_Expeditions|艦隊決戦支援任務]]
+| style="text-align: center;" |0:30
+| style="text-align: center;" |
+| style="text-align: center;" |
+| colspan="4" style="text-align:center;background-color:rgb(255,100,50);" | Sortie Support Expedition
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |5
+| style="text-align: center;" |4 or 8
+|-
+| style="text-align: center;" |35
+| style="text-align: left;" |[http://en.wikipedia.org/wiki/Operation_MO ＭＯ作戦]
+| style="text-align: center;" |7:00
+| style="text-align: center;" |100
+| style="text-align: center;" |100
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |240
+| style="text-align: center; background-color: rgb(222, 176, 104);" | 280
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |0-1
+| style="text-align: center;" |Small 0-2
+| style="text-align: center;" |8
+| style="text-align: center;" |8
+|-
+| style="text-align: center;" |36
+| style="text-align: left;" |水上機基地建設
+| style="text-align: center;" |9:00
+| style="text-align: center;" |100
+| style="text-align: center;" |100
+| style="text-align: center; background-color: rgb(104, 190, 141);" | 480
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |200
+| style="text-align: center; background-color: rgb(222, 176, 104);" | 200
+| style="text-align: center;" |0-1
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Medium 0-2
+| style="text-align: center;" |8
+| style="text-align: center;" |8
+|-
+| style="text-align: center;" |37
+| style="text-align: left;" |[http://en.wikipedia.org/wiki/Tokyo_Express 東京急行]
+| style="text-align: center;" |2:45
+| style="text-align: center;" |50
+| style="text-align: center;" |65
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 380
+| style="text-align: center; background-color: rgb(220, 221, 221);" | 270
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |8
+| style="text-align: center;" |8
+|-
+| style="text-align: center;" |38
+| style="text-align: left;" |東京急行(弐)
+| style="text-align: center;" |2:55
+| style="text-align: center;" |100
+| style="text-align: center;" |70
+| style="text-align: center; background-color: rgb(104, 190, 141);" | 420
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | 200
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Small 0-1
+| style="text-align: center;" |8
+| style="text-align: center;" |8
+|-
+| style="text-align: center;" |39
+| style="text-align: left;" |遠洋潜水艦作戦
+| style="text-align: center;" |30:00
+| style="text-align: center;" |130
+| style="text-align: center;" |320
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | 300
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0-2
+| style="text-align: center;" |
+| style="text-align: center;" |
+| style="text-align: center;" |Medium 0-1
+| style="text-align: center;" |9
+| style="text-align: center;" |9
+|}
+
+==Hourly Rate==
+{| class="article-table" style="width:750px;" border="0" cellpadding="1" cellspacing="1"
+|-
+! rowspan="2" scope="col" style="text-align: center; width:50px;" |ID
+! rowspan="2" scope="col" style="text-align: center; width:150px;" |Name
+! rowspan="2" scope="col" style="text-align: center; width:50px;" |Time (h:mm)
+! rowspan="2" scope="col" style="text-align: center; width:50px;" |
+Admiral
+
+EXP
+! rowspan="2" scope="col" style="text-align: center; width:50px;" |Ship EXP
+! colspan="4" scope="col" style="text-align: center; width:200px;" |Reward
+! colspan="2" scope="col" style="text-align: center; width:100px;" |Consumption
+|-
+! scope="col" style="text-align: center; width:50px;" |{{Fuel}}
+! scope="col" style="text-align: center; width:50px;" |{{Ammo}}
+! scope="col" style="text-align: center; width:50px;" |{{Steel}}
+! scope="col" style="text-align: center; width:50px;" |{{Buax}}
+! scope="col" style="text-align: center; width:50px;" |{{Fuel}}
+! scope="col" style="text-align: center; width:50px;" |{{Ammo}}
+|-
+| colspan="14" style="text-align:center;background-color:rgb(64,224,208);" |'''Page 1: 鎮守府海域'''
+|-
+| style="text-align: center;" |1
+| style="text-align: left;" |練習航海
+| style="text-align: center;" |0:15
+| style="text-align: center;" |40
+| style="text-align: center;" |40
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |120
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |12
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |2
+| style="text-align: left;" |長距離練習航海
+| style="text-align: center;" |0:30
+| style="text-align: center;" |40
+| style="text-align: center;" |30
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |'''200'''
+| style="text-align: center; background-color: rgb(220, 221, 221);" |60
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |10
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |3
+| style="text-align: left;" |警備任務
+| style="text-align: center;" |0:20
+| style="text-align: center;" |90
+| style="text-align: center;" |90
+| style="text-align: center; background-color: rgb(104, 190, 141);" |90
+| style="text-align: center; background-color: rgb(255, 234, 0);" |90
+| style="text-align: center; background-color: rgb(220, 221, 221);" |'''120'''
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |9
+| style="text-align: center;" |6
+|-
+| style="text-align: center;" |4
+| style="text-align: left;" |対潜警戒任務
+| style="text-align: center;" |0:50
+| style="text-align: center;" |36
+| style="text-align: center;" |48
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |72
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |6
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |5
+| style="text-align: left;" |海上護衛任務
+| style="text-align: center;" |1:30
+| style="text-align: center;" |26
+| style="text-align: center;" |26
+| style="text-align: center; background-color: rgb(104, 190, 141);" |133
+| style="text-align: center; background-color: rgb(255, 234, 0);" |133
+| style="text-align: center; background-color: rgb(220, 221, 221);" |13
+| style="text-align: center; background-color: rgb(222, 176, 104);" |13
+| style="text-align: center;" |3.33
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |6
+| style="text-align: left;" |防空射撃演習
+| style="text-align: center;" |0:40
+| style="text-align: center;" |45
+| style="text-align: center;" |75
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |'''120'''
+| style="text-align: center;" |4.5
+| style="text-align: center;" |3
+|-
+| style="text-align: center;" |7
+| style="text-align: left;" |観艦式予行
+| style="text-align: center;" |1:00
+| style="text-align: center;" |60
+| style="text-align: center;" |120
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |50
+| style="text-align: center; background-color: rgb(222, 176, 104);" |30
+| style="text-align: center;" |5
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |8
+| style="text-align: left;" |観艦式
+| style="text-align: center;" |3:00
+| style="text-align: center;" |40
+| style="text-align: center;" |46
+| style="text-align: center; background-color: rgb(104, 190, 141);" |16
+| style="text-align: center; background-color: rgb(255, 234, 0);" |33
+| style="text-align: center; background-color: rgb(220, 221, 221);" |16
+| style="text-align: center; background-color: rgb(222, 176, 104);" |16
+| style="text-align: center;" |1.66
+| style="text-align: center;" |0.66
+|-
+| colspan="14" style="text-align:center;background-color:rgb(154,205,50);" |'''Page 2: 南西諸島海域'''
+|-
+| style="text-align: center;" |9
+| style="text-align: left;" |タンカー護衛任務
+| style="text-align: center;" |4:00
+| style="text-align: center;" |15
+| style="text-align: center;" |15
+| style="text-align: center; background-color: rgb(104, 190, 141);" |87
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |1.25
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |10
+| style="text-align: left;" |強行偵察任務
+| style="text-align: center;" |<span class="notranslate" style="">1:30</span>
+| style="text-align: center;" |26
+| style="text-align: center;" |33
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |33
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |19
+| style="text-align: center;" |2
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |11
+| style="text-align: left;" |ボーキサイト輸送任務
+| style="text-align: center;" |5:00
+| style="text-align: center;" |8
+| style="text-align: center;" |8
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |50
+| style="text-align: center;" |1
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |12
+| style="text-align: left;" |資源輸送任務
+| style="text-align: center;" |8:00
+| style="text-align: center;" |7
+| style="text-align: center;" |6
+| style="text-align: center; background-color: rgb(104, 190, 141);" |6
+| style="text-align: center; background-color: rgb(255, 234, 0);" |31
+| style="text-align: center; background-color: rgb(220, 221, 221);" |25
+| style="text-align: center; background-color: rgb(222, 176, 104);" |6
+| style="text-align: center;" |0.62
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |13
+| style="text-align: left;" |鼠輸送作戦
+| style="text-align: center;" |4:00
+| style="text-align: center;" |17
+| style="text-align: center;" |15
+| style="text-align: center; background-color: rgb(104, 190, 141);" |60
+| style="text-align: center; background-color: rgb(255, 234, 0);" |75
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |1.25
+| style="text-align: center;" |1
+|-
+| style="text-align: center;" |14
+| style="text-align: left;" |包囲陸戦隊撤収作戦
+| style="text-align: center;" |6:00
+| style="text-align: center;" |15
+| style="text-align: center;" |16
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" |40
+| style="text-align: center; background-color: rgb(220, 221, 221);" |33
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0.83
+| style="text-align: center;" | -
+|-
+| style="text-align: center;" |15
+| style="text-align: left;" |囮機動部隊支援作戦
+| style="text-align: center;" |12:00
+| style="text-align: center;" |8
+| style="text-align: center;" |13
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |25
+| style="text-align: center; background-color: rgb(222, 176, 104);" |33
+| style="text-align: center;" |0.41
+| style="text-align: center;" |0.33
+|-
+| style="text-align: center;" |16
+| style="text-align: left;" |艦隊決戦援護作戦
+| style="text-align: center;" |15:00
+| style="text-align: center;" |8
+| style="text-align: center;" |13
+| style="text-align: center; background-color: rgb(104, 190, 141);" |33
+| style="text-align: center; background-color: rgb(255, 234, 0);" |33
+| style="text-align: center; background-color: rgb(220, 221, 221);" |13
+| style="text-align: center; background-color: rgb(222, 176, 104);" |13
+| style="text-align: center;" |0.33
+| style="text-align: center;" |0.26
+|-
+| colspan="14" style="text-align:center;background-color:rgb(176,196,222);" |'''Page 3: 北方海域'''
+|-
+| style="text-align: center;" |17
+| style="text-align: left;" |敵地偵察作戦
+| style="text-align: center;" |0:45
+| style="text-align: center;" |40
+| style="text-align: center;" |53
+| style="text-align: center; background-color: rgb(104, 190, 141);" |93
+| style="text-align: center; background-color: rgb(255, 234, 0);" |93
+| style="text-align: center; background-color: rgb(220, 221, 221);" |67
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |4
+| style="text-align: center;" |5.33
+|-
+| style="text-align: center;" |18
+| style="text-align: left;" |航空機輸送作戦
+| style="text-align: center;" |5:00
+| style="text-align: center;" |12
+| style="text-align: center;" |12
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |60
+| style="text-align: center; background-color: rgb(222, 176, 104);" |20
+| style="text-align: center;" |1
+| style="text-align: center;" |0.4
+|-
+| style="text-align: center;" |19
+| style="text-align: left;" |北号作戦
+| style="text-align: center;" |6:00
+| style="text-align: center;" |10
+| style="text-align: center;" |11
+| style="text-align: center; background-color: rgb(104, 190, 141);" |67
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |8
+| style="text-align: center; background-color: rgb(222, 176, 104);" |5
+| style="text-align: center;" |0.83
+| style="text-align: center;" |0.66
+|-
+| style="text-align: center;" |20
+| style="text-align: left;" |潜水艦哨戒任務
+| style="text-align: center;" |2:00
+| style="text-align: center;" |20
+| style="text-align: center;" |25
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |75
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |2.5
+| style="text-align: center;" |2
+|-
+| style="text-align: center;" |21
+| style="text-align: left;" |北方鼠輸送作戦
+| style="text-align: center;" |2:20
+| style="text-align: center;" |19
+| style="text-align: center;" |23
+| style="text-align: center; background-color: rgb(104, 190, 141);" | 137
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 116
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |3.43
+| style="text-align: center;" |3
+|-
+| style="text-align: center;" |22
+| style="text-align: left;" |艦隊演習
+| style="text-align: center;" |3:00
+| style="text-align: center;" |15
+| style="text-align: center;" |'''133'''
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 3
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |2.66
+| style="text-align: center;" |2.33
+|-
+| style="text-align: center;" |23
+| style="text-align: left;" |航空戦艦運用演習
+| style="text-align: center;" |4:00
+| style="text-align: center;" |17
+| style="text-align: center;" |105
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 5
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | 25
+| style="text-align: center;" |2
+| style="text-align: center;" |2
+|-
+| colspan="14" style="text-align:center;background-color:rgb(192,192,0);" |'''Page 4: 西方海域'''
+|-
+| style="text-align: center;" |25
+| style="text-align: left;" |通商破壊作戦
+| style="text-align: center;" |40:00
+| style="text-align: center;" |2
+| style="text-align: center;" |4
+| style="text-align: center; background-color: rgb(104, 190, 141);" |23
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |13
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0.12
+| style="text-align: center;" |0.2
+|-
+| style="text-align: center;" |26
+| style="text-align: left;" |敵母港空襲作戦
+| style="text-align: center;" |80:00
+| style="text-align: center;" |2
+| style="text-align: center;" |2
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |11
+| style="text-align: center;" |0.1
+| style="text-align: center;" |0.1
+|-
+| style="text-align: center;" |27
+| style="text-align: left;" |潜水艦通商破壊作戦
+| style="text-align: center;" |20:00
+| style="text-align: center;" |4
+| style="text-align: center;" |3
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |40
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0.4
+| style="text-align: center;" |0.4
+|-
+| style="text-align: center;" |28
+| style="text-align: left;" |西方海域封鎖作戦
+| style="text-align: center;" |25:00
+| style="text-align: center;" |4
+| style="text-align: center;" |5
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |36
+| style="text-align: center; background-color: rgb(222, 176, 104);" |14
+| style="text-align: center;" |0.32
+| style="text-align: center;" |0.32
+|-
+| style="text-align: center;" |29
+| style="text-align: left;" |潜水艦派遣演習
+| style="text-align: center;" |24:00
+| style="text-align: center;" |4
+| style="text-align: center;" |4
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |4
+| style="text-align: center;" |0.38
+| style="text-align: center;" |0.17
+|-
+| style="text-align: center;" |30
+| style="text-align: left;" |潜水艦派遣作戦
+| style="text-align: center;" |48:00
+| style="text-align: center;" |2
+| style="text-align: center;" |3
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" |2
+| style="text-align: center;" |0.19
+| style="text-align: center;" |0.15
+|-
+| style="text-align: center;" |31
+| style="text-align: left;" |海外艦との接触
+| style="text-align: center;" |2:00
+| style="text-align: center;" |25
+| style="text-align: center;" |25
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 15
+| style="text-align: center; background-color: rgb(220, 221, 221);" | -
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |2.5
+| style="text-align: center;" | -
+|-
+| colspan="14" style="text-align:center;background-color:rgb(255,127,80);" |'''Page 5: 南方海域'''
+|-
+| style="text-align: center;" |35
+| style="text-align: left;" |ＭＯ作戦
+| style="text-align: center;" |7:00
+| style="text-align: center;" |14
+| style="text-align: center;" |14
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |34
+| style="text-align: center; background-color: rgb(222, 176, 104);" | 40
+| style="text-align: center;" |1.14
+| style="text-align: center;" |1.14
+|-
+| style="text-align: center;" |36
+| style="text-align: left;" |水上機基地建設
+| style="text-align: center;" |9:00
+| style="text-align: center;" |11
+| style="text-align: center;" |11
+| style="text-align: center; background-color: rgb(104, 190, 141);" | 53
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |22
+| style="text-align: center; background-color: rgb(222, 176, 104);" | 22
+| style="text-align: center;" |0.89
+| style="text-align: center;" |0.89
+|-
+| style="text-align: center;" |37
+| style="text-align: left;" |東京急行
+| style="text-align: center;" |2:45
+| style="text-align: center;" |18
+| style="text-align: center;" |23
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | 138
+| style="text-align: center; background-color: rgb(220, 221, 221);" |98
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |2.91
+| style="text-align: center;" |2.91
+|-
+| style="text-align: center;" |38
+| style="text-align: left;" |<span style="color:rgb(0,0,0);">東京急行(弐)</span>
+| style="text-align: center;" |<span style="color:rgb(0,0,0);">2:55</span>
+| style="text-align: center;" |34
+| style="text-align: center;" |24
+| style="text-align: center; background-color: rgb(104, 190, 141);" | '''144'''
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" |69
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |2.7
+| style="text-align: center;" |2.7
+|-
+| style="text-align: center;" |39
+| style="text-align: left;" |遠洋潜水艦作戦
+| style="text-align: center;" |30:00
+| style="text-align: center;" |4
+| style="text-align: center;" |11
+| style="text-align: center; background-color: rgb(104, 190, 141);" | -
+| style="text-align: center; background-color: rgb(255, 234, 0);" | -
+| style="text-align: center; background-color: rgb(220, 221, 221);" | 10
+| style="text-align: center; background-color: rgb(222, 176, 104);" | -
+| style="text-align: center;" |0,3
+| style="text-align: center;" |0,3
+|}
+
+==Conditions==
+* '''You can use light carrier (CVL), seaplane tender (AV) instead of standard carrier (CV) for carrier expeditions.''' However, if the requirement stated that it's needed specific type of carrier, such as CVL or AV, the other type won't count.
+* You can use Aviation SS (SSV) for submarine (SS) expeditions, unless stated otherwise below.
+* Aviation CA (remodeled Mogami-class and Tone-class) will '''NOT''' be counted as CA for requirement.
+* Torpedo CL (remodeled Ooi, Kitakami and Kiso) will '''NOT''' be counted as CL for requirement.
+* Aviation BB (remodeled Ise-class and Fusou-class) will '''NOT''' be counted as BB for requirement. Likewise, normal BB class (Kongou-class, Nagato-class, Bismarck-class and Yamato-class) cannot finish an expedition that requires BBV (Aviation BB).
+* To obtain [[Drum Canister]] you've to clear quest F11 and F12 or craft equipment.
+* Please see the [[Glossary]] for additional information on letter abbreviations.
+
+{| class="article-table article-table-selected" style="width:1000px;" border="0" cellpadding="1" cellspacing="1"
+|-
+! rowspan="2" scope="col" style="text-align: center; width:50px;" |ID
+! rowspan="2" scope="col" style="text-align: center; width:50px;" |Time (h:mm)
+! colspan="2" scope="col" style="text-align: center; width:200px;" |Difficulty
+! rowspan="1" scope="col" style="text-align: center; width:700px;" |Minimum Requirements
+|-
+! colspan="2" scope="col" style="text-align: center; width:200px;" |Flagship Level
+! rowspan="1" scope="col" style="text-align: center; width:700px;" |Possible Compositions
+|-
+| colspan="6" style="text-align:center;background-color:rgb(64,224,208);" |'''Page 1: 鎮守府海域'''
+|-
+| style="text-align: center;" |1
+| style="text-align: center;" |0:15
+| colspan="2" style="text-align: center;" |E<br />'''Lv 1'''
+|'''At least 2 ships'''<br />「CLx1 DDx1」「DDx2」「CLx2」 「DDx1 SSx1」
+|-
+| style="text-align: center;" |2
+| style="text-align: center;" |0:30
+| colspan="2" style="text-align: center;" |E<br />'''Lv 2'''
+|'''At least 4 ships'''<br />「CLx1 DDx3」 「CLx2 DDx2」 「CLx3 DDx1」 「CLx4」「DDx4」「DDx2 SSx2」
+「DDx1 SSx3」「SSx4」
+|-
+| style="text-align: center;" |3
+| style="text-align: center;" |0:20
+| colspan="2" style="text-align: center;" |D<br />'''Lv 3'''
+|'''At least 3 ships'''<br />「CLx1 DDx2」「CLx2 DDx1」「DDx3」「DDx2 SSx1」「DDx1 SSx2」「SSx3」
+|-
+| style="text-align: center;" |4
+| style="text-align: center;" |0:50
+| colspan="2" style="text-align: center;" |D<br />'''Lv 3'''
+|'''At least 3 ships including 1 CL and 2 DD'''<br />「CLx1 DDx2」
+|-
+| style="text-align: center;" |5
+| style="text-align: center;" |1:30
+| colspan="2" style="text-align: center;" |C<br />'''Lv 3'''
+|'''At least 4 ships including 1 CL and 2 DD'''<br />「CLx1 DDx3」「CLx2 DDx2」「CAx1 CLx1 DDx2」「SSx1 CLx1 DDx2」
+|-
+| style="text-align: center;" |6
+| style="text-align: center;" |0:40
+| colspan="2" style="text-align: center;" |C<br />'''Lv 4'''
+|'''At least 4 ships'''<br />「CLx1 DDx3」「CLx2 DDx2」「DDx4」「CAx1 CLx1 DDx2」「DDx1 SSx3」
+|-
+| style="text-align: center;" |7
+| style="text-align: center;" |1:00
+| colspan="2" style="text-align: center;" |C<br />'''Lv 5'''
+|'''All 6 ships'''<br />「CLx1 DDx5」「CLx2 DDx4」「CLx3 DDx3」「CLx4 DDx2」「DDx6」
+|-
+| style="text-align: center;" |8
+| style="text-align: center;" |3:00
+| colspan="2" style="text-align: center;" |B<br />'''Lv 6'''
+|'''All 6 ships'''<br />「CLx1 DDx5」「CLx3 DDx3」「CLx2 DDx4」「CAx1 CLx5」「DDx6」
+|-
+| colspan="6" style="text-align:center;background-color:rgb(154,205,50);" |'''Page 2: 南西諸島海域'''
+|-
+| style="text-align: center;" |9
+| style="text-align: center;" |4:00
+| colspan="2" style="text-align: center;" |C<br />'''Lv 3'''
+|'''At least 4 ships including 1 CL and 2 DD'''<br />「CLx1 DDx3」「CLx2 DDx2」「CAx1 CLx1 DDx2」
+|-
+| style="text-align: center;" |10
+| style="text-align: center;" |1:30
+| colspan="2" style="text-align: center;" |C<br />'''Lv 3'''
+|'''At least 3 ships including 2 CL'''<br />「CLx2 DDx1」
+|-
+| style="text-align: center;" |11
+| style="text-align: center;" |5:00
+| colspan="2" style="text-align: center;" |B<br />'''Lv 6'''
+|'''At least 4 ships including 2 DD'''<br />「CLx1 DDx3」「CLx2 DDx2」「DDx4」
+|-
+| style="text-align: center;" |12
+| style="text-align: center;" |8:00
+| colspan="2" style="text-align: center;" |B<br />'''Lv 4'''
+|'''At least 4 ships including 2 DD'''<br />「CLx1 DDx3」「CLx2 DDx2」「SSx1 DDx3」「SSx2 DDx2」「DDx4」
+|-
+| style="text-align: center;" |13
+| style="text-align: center;" |4:00
+| colspan="2" style="text-align: center;" |A<br />'''Lv 5'''
+|'''All 6 ships including 1 CL and 4 DD'''<br />「CLx1 DDx5」「CLx2 DDx4」「CLx1 DDx4 SSx1」
+|-
+| style="text-align: center;" |14
+| style="text-align: center;" |6:00
+| colspan="2" style="text-align: center;" |A<br />'''Lv 6'''
+|'''All 6 ships including 1 CL and 3 DD'''<br />「CLx1 DDx5」「CLx2 DDx4」「CLx3 DDx3」「CL(T)x2 CLx1 DDx3」「CLx1 DDx3 SSx2」
+|-
+| style="text-align: center;" |15
+| style="text-align: center;" |12:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 8'''
+|'''All 6 ships including 2 CVL and 2 DD'''<br />「CVLx2 DDx4」「CVLx2 CLx2 DDx2」「CVLx2 CLx1 CAx1 DDx2」
+|-
+| style="text-align: center;" |16
+| style="text-align: center;" |15:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 10'''
+|'''All 6 ships including 1 CL and 2 DD'''<br />「CLx1 DDx5」「CLx2 DDx4」「CAx1 CLx3 DDx2」「CAx2 CLx2 DDx2」「CLx2 DDx2 CVLx2」
+|-
+| colspan="6" style="text-align:center;background-color:rgb(176,196,222);" |'''Page 3: 北方海域'''
+|-
+| style="text-align: center;" |17
+| style="text-align: center;" |0:45
+| colspan="2" style="text-align: center;" |A<br />'''Lv 20'''
+|'''All 6 ships including 1 CL and 3 DD'''<br />「CLx1 DDx5」「CLx2 DDx4」「CAx1 CLx1 DDx4」「CLx1 DDx3 SSx2」
+|-
+| style="text-align: center;" |18
+| style="text-align: center;" |5:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 15'''
+|'''All 6 ships including 3 CV and 2 DD'''<br />「CVLx2 CVx1 CLx1 DDx2」「AVx2 CVLx1 CAx1 DDx2」「CVLx3 DDx3」
+|-
+| style="text-align: center;" |19
+| style="text-align: center;" |6:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 20'''
+|'''All 6 ships needed including 2 BBV and 2 DD'''<br />「BBVx2 CLx1 DDx3」「BBVx2 CLx2 DDx2」「BBVx4 DDx2」「BBVx2 DDx4」
+|-
+| style="text-align: center;" |20
+| style="text-align: center;" |2:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 1'''
+|'''At least 2 ships including 1 SS and 1 CL'''<br />「CLx1 SSx1」「CLx1 SSVx1」
+|-
+| style="text-align: center;" |21
+| style="text-align: center;" |2:20
+| colspan="2" style="text-align: center;" |S<br />'''Lv 15'''
+|'''At least 5 ships including 1 CL and 4 DD with at least 3 ships equipped with a Drum Canister'''<br />「CLx1 DDx4」「CLx1 DDx5」「CLx1 SSx1 DDx4」「CLx1 SSVx1 DDx4」「CLx1 AVx1 DDx4」<br /><span style="color:red;">'''Ships minimum combined level must be 30 or higher.'''</span>
+|-
+| style="text-align: center;" |22
+| style="text-align: center;" |3:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 30'''
+|'''All 6 ships including 1 CA, 1 CL and 2 DD'''<br />「CAx1 CLx1 DDx4」「CAx1 CLx1 DDx2 SSx2」「CAx1 CLx1 DDx2 AVx1 SSx1」<br /><span style="color:red;">'''Ships minimum combined level must be 45 or higher.'''</span>
+|-
+| style="text-align: center;" |23
+| style="text-align: center;" |4:00
+| colspan="2" style="text-align: center;" |
+S
+
+'''Lv 50'''
+|
+'''All 6 ships including 2 BBV and 2 DD'''<br />「BBVx2 DDx4]<br /><span style="color:red;">'''Ships minimum combined level must be 200 or higher.'''</span>
+|-
+| colspan="6" style="text-align:center;background-color:rgb(192,192,0);" |'''Page 4: 西方海域'''
+|-
+| style="text-align: center;" |25
+| style="text-align: center;" |40:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 25'''
+|'''At least 4 ships including 2 CA and 2 DD'''<br />「CAx2 CLx1 CVLx1 DDx2」「CAx2 DDx2」
+|-
+| style="text-align: center;" |26
+| style="text-align: center;" |80:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 30'''
+|'''At least 4 ships including 1 CV, 1 CL and 2 DD'''<br />「CVx1 CLx1 DDx2」「CVx2 CLx2 DDx2」「CVx1 CLx1 DDx3」「CVx1 CVLx1 CLx2 DDx2」
+|-
+| style="text-align: center;" |27
+| style="text-align: center;" |20:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 1'''
+|'''At least 2 SS'''<br />「SSx2」「SSx1 SSVx1」
+|-
+| style="text-align: center;" |28
+| style="text-align: center;" |25:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 30'''
+|
+'''At least 3 SS'''<br />「SSx3」「SSx2 SSVx1」
+|-
+| style="text-align: center;" |29
+| style="text-align: center;" |24:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 50'''
+|'''At least 3 SS'''<br />「SSx3」「SSx2 SSVx1」「SSx1 SSVx2」
+|-
+| style="text-align: center;" |30
+| style="text-align: center;" |48:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 55'''
+|'''At least 4 SS'''<br />「SSx4」「SSx3 SSVx1」「SSx2 SSVx2」「SSx1 SSVx3」
+|-
+| style="text-align: center;" |31
+| style="text-align: center;" |2:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 60'''
+|'''At least 4 SS'''<br />「SSx4」「SSx3 SSVx1」「SSx2 SSVx2」「SSx1 SSVx3」<br /><span style="color:red;">'''Ships minimum combined level must be 200 or higher.'''</span>
+|-
+| colspan="6" style="text-align:center;background-color:rgb(255,127,80);" |'''Page 5: 南方海域'''
+|-
+| style="text-align: center;" |35
+| style="text-align: center;" |7:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 40'''
+|'''All 6 ships including 2 CV, 1 CA and 1 DD'''<br />「CVLx2 CAx1 DDx3」「CVx2 CAx1 DDx3」
+|-
+| style="text-align: center;" |36
+| style="text-align: center;" |9:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 30'''
+|'''All 6 ships including 2 AV, 1 CL and 1 DD'''<br />「AVx2 CLx1 DDx3」「AVx2 CLx1 DDx2 SSx1」
+|-
+| style="text-align: center;" |37
+| style="text-align: center;" |2:45
+| colspan="2" style="text-align: center;" |S<br />'''Lv 50'''
+|'''All 6 ships including 1 CL, 5 DD''' '''with at least 4 ships equipped with Drum Canister'''<br />At least 4 drum canisters in total is required.<br /><span style="color:red;">'''Ships minimum combined level must be 200 or higher.'''</span>
+|-
+| style="text-align: center;" |38
+| style="text-align: center;" |2:55
+| colspan="2" style="text-align: center;" |S<br />'''Lv 65'''
+|'''All 6 ships including 5 DD''' '''with at least 4 ships equipped with Drum Canister'''<br />At least 8 drum canisters in total is required. (Around 2 per ship is recommended)<br /><span style="color:red;">'''Ships minimum combined level must be 240 or higher.'''</span>
+|-
+| style="text-align: center;" |39
+| style="text-align: center;" |30:00
+| colspan="2" style="text-align: center;" |S<br />'''Lv 3'''
+|
+'''At least 5 ships including 1 AS and 4 SS'''<br /><span style="color:red;">'''Ships minimum combined level must be 180 or higher.'''</span>
+|}
+
+== Theoretical Hourly Net Earnings ==
+Best possible income using ships with the lowest resource consumption possible.
+{| class="article-table" style="margin: 0px auto; width: 500px;" border="0" cellpadding="1" cellspacing="1"
+|-
+! scope="col" style="text-align:center;" |<span style="color:Red">Outstanding </span>
+! scope="col" |<span style="color:Blue">Above Average</span>
+! scope="col" |Average
+! scope="col" |<span style="color:Gray">Terrible</span>
+|}
+
+{| class="article-table article-table-selected" style="width:1225px;" border="0" cellpadding="1" cellspacing="1"
+! rowspan="2" style="text-align:center; width:50px;" | ID
+! rowspan="2" style="text-align:center; width:150px;" | Expedition
+! rowspan="2" style="text-align:center; width:50px;" | Time
+! colspan="3" style="text-align:center; width:325px;" | Required Ships
+! colspan="5" style="text-align:center; width:250px;" | Rewards
+! colspan="4" style="text-align:center; width:225px;" | Item Drops
+|-
+! style="text-align:center; width:125px;" | Flagship Lv.
+! style="text-align:center; width:50px;" | #Ships
+! style="text-align:center; width:150px;" | Composition
+! style="text-align:center; width:50px;" | ADMIRAL EXP
+! style="text-align:center; background-color:#CCEECC; width:50px;" | {{Fuel}}
+! style="text-align:center; background-color:#FFFFBB; width:50px;" | {{Ammo}}
+! style="text-align:center; background-color:#EEEEEE; width:50px;" | {{Steel}}
+! style="text-align:center; background-color:#FFDDAA; width:50px;" | {{Buax}}
+! style="text-align:center; width:50px;" | {{IR}}
+! style="text-align:center; width:50px;" | {{IC}}
+! style="text-align:center; width:50px;" | {{DM}}
+! style="text-align:center; width:125px;" | {{FB}}
+|-
+| colspan="15" style="text-align:center; background-color:#40E0D0;" | Page 1: 鎮守府海域
+|-
+| style="text-align:center;" | 1
+| style="text-align: left;" |練習航海
+| style="text-align:center;" | 0:15
+| style="text-align:center;" | 1
+| style="text-align:center;" | 2
+| style="text-align:center;" | Any
+| style="text-align:center;" | 40
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-32</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Blue">120</span>
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 2
+| style="text-align: left;" |長距離練習航海
+| style="text-align:center;" | 0:30
+| style="text-align:center;" | 2
+| style="text-align:center;" | 4
+| style="text-align:center;" | Any
+| style="text-align:center;" | 40
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-56</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Red">200</span>
+| style="text-align:center; background-color:#EEEEEE;" | 60
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 3
+| style="text-align: left;" |警備任務
+| style="text-align:center;" | 0:20
+| style="text-align:center;" | 3
+| style="text-align:center;" | 3
+| style="text-align:center;" | Any
+| style="text-align:center;" | <span style="color:Red">90</span>
+| style="text-align:center; background-color:#CCEECC;" | 54
+| style="text-align:center; background-color:#FFFFBB;" | 63
+| style="text-align:center; background-color:#EEEEEE;" | <span style="color:Red">120</span>
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 4
+| style="text-align: left;" |対潜警戒任務
+| style="text-align:center;" | 0:50
+| style="text-align:center;" | 3
+| style="text-align:center;" | 3
+| style="text-align:center;" | 1CL 2DD
+| style="text-align:center;" | 36
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-31.2</span>
+| style="text-align:center; background-color:#FFFFBB;" | 72
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | Small 0-1
+|-
+| style="text-align:center;" | 5
+| style="text-align: left;" |海上護衛任務
+| style="text-align:center;" | 1:30
+| style="text-align:center;" | 3
+| style="text-align:center;" | 4
+| style="text-align:center;" | 1CL 2DD
+| style="text-align:center;" | 27
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Blue">111</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Blue">133</span>
+| style="text-align:center; background-color:#EEEEEE;" | 13
+| style="text-align:center; background-color:#FFDDAA;" | 13
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 6
+| style="text-align: left;" |防空射撃演習
+| style="text-align:center;" | 0:40
+| style="text-align:center;" | 4
+| style="text-align:center;" | 4
+| style="text-align:center;" | Any
+| style="text-align:center;" | <span style="color:Blue">45</span>
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-24</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-18</span>
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" | <span style="color:Red">120</span>
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | Small 0-1
+|-
+| style="text-align:center;" | 7
+| style="text-align: left;" |観艦式予行
+| style="text-align:center;" | 1:00
+| style="text-align:center;" | 5
+| style="text-align:center;" | 6
+| style="text-align:center;" | Any
+| style="text-align:center;" | <span style="color:Blue">60</span>
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-42</span>
+| style="text-align:center; background-color:#FFFFBB;" |
+| style="text-align:center; background-color:#EEEEEE;" | 50
+| style="text-align:center; background-color:#FFDDAA;" | 30
+| style="text-align:center;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 8
+| style="text-align: left;" |観艦式
+| style="text-align:center;" | 3:00
+| style="text-align:center;" | 6
+| style="text-align:center;" | 6
+| style="text-align:center;" | Any
+| style="text-align:center;" | 40
+| style="text-align:center; background-color:#CCEECC;" | 2.67
+| style="text-align:center; background-color:#FFFFBB;" | 27.33
+| style="text-align:center; background-color:#EEEEEE;" | 17
+| style="text-align:center; background-color:#FFDDAA;" | 17
+| style="text-align:center;" |
+| style="text-align:center;" | 0-2
+| style="text-align:center;" | 0-1
+| style="text-align:center;" |
+|-
+| colspan="15" style="text-align:center; background-color:#9ACD32;" | Page 2: 南西諸島海域
+|-
+| style="text-align:center;" | 9
+| style="text-align: left;" |タンカー護衛任務
+| style="text-align:center;" | 4:00
+| style="text-align:center;" | 3
+| style="text-align:center;" | 4
+| style="text-align:center;" | 1CL 2DD
+| style="text-align:center;" | 15
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Blue">79</span>
+| style="text-align:center; background-color:#FFFFBB;" |
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" | 0-2
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | Small 0-1
+|-
+| style="text-align:center;" | 10
+| style="text-align: left;" |強行偵察任務
+| style="text-align:center;" | 1:30
+| style="text-align:center;" | 3
+| style="text-align:center;" | 3
+| style="text-align:center;" | 2CL
+| style="text-align:center;" | 27
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-12</span>
+| style="text-align:center; background-color:#FFFFBB;" | 33
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" | 20
+| style="text-align:center;" | 0-1
+| style="text-align:center;" | 0-1
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 11
+| style="text-align: left;" |ボーキサイト輸送任務
+| style="text-align:center;" | 5:00
+| style="text-align:center;" | 6
+| style="text-align:center;" | 4
+| style="text-align:center;" | 2DD
+| style="text-align:center;" | 8
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-6</span>
+| style="text-align:center; background-color:#FFFFBB;" |
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" | <span style="color:Blue">50</span>
+| style="text-align:center;" | 0-1
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | Small 0-1
+|-
+| style="text-align:center;" | 12
+| style="text-align: left;" |資源輸送任務
+| style="text-align:center;" | 8:00
+| style="text-align:center;" | 4
+| style="text-align:center;" | 4
+| style="text-align:center;" | 2DD
+| style="text-align:center;" | 7.5
+| style="text-align:center; background-color:#CCEECC;" | 2.75
+| style="text-align:center; background-color:#FFFFBB;" | 31
+| style="text-align:center; background-color:#EEEEEE;" | 25
+| style="text-align:center; background-color:#FFDDAA;" | 6.25
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" | Medium 0-1
+|-
+| style="text-align:center;" | 13
+| style="text-align: left;" |鼠輸送作戦
+| style="text-align:center;" | 4:00
+| style="text-align:center;" | 5
+| style="text-align:center;" | 6
+| style="text-align:center;" | 1CL 4DD
+| style="text-align:center;" | 18
+| style="text-align:center; background-color:#CCEECC;" | 48.25
+| style="text-align:center; background-color:#FFFFBB;" | 65.5
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" | 0-2
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | Small 0-1
+|-
+| style="text-align:center;" | 14
+| style="text-align: left;" |包囲陸戦隊撤収作戦
+| style="text-align:center;" | 6:00
+| style="text-align:center;" | 6
+| style="text-align:center;" | 6
+| style="text-align:center;" | 1CL 3DD
+| style="text-align:center;" | 15
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-7.83</span>
+| style="text-align:center; background-color:#FFFFBB;" | 40
+| style="text-align:center; background-color:#EEEEEE;" | 33
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 15
+| style="text-align: left;" |囮機動部隊支援作戦
+| style="text-align:center;" | 12:00
+| style="text-align:center;" | 8
+| style="text-align:center;" | 6
+| style="text-align:center;" | 2CV 2DD
+| style="text-align:center;" | 8.3
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-5.17</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-4</span>
+| style="text-align:center; background-color:#EEEEEE;" | 25
+| style="text-align:center; background-color:#FFDDAA;" | 33
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" | Large 0-1
+|-
+| style="text-align:center;" | 16
+| style="text-align: left;" |艦隊決戦援護作戦
+| style="text-align:center;" | 15:00
+| style="text-align:center;" | 10
+| style="text-align:center;" | 6
+| style="text-align:center;" | 1CL 2DD
+| style="text-align:center;" | 8
+| style="text-align:center; background-color:#CCEECC;" | 30.2
+| style="text-align:center; background-color:#FFFFBB;" | 30.8
+| style="text-align:center; background-color:#EEEEEE;" | 13
+| style="text-align:center; background-color:#FFDDAA;" | 13
+| style="text-align:center;" |
+| style="text-align:center;" | 0-2
+| style="text-align:center;" | 0-2
+| style="text-align:center;" |
+|-
+| colspan="15" style="text-align:center; background-color:#b0c4de;" | Page 3: 北方海域
+|-
+| style="text-align:center;" | 17
+| style="text-align: left;" |敵地偵察作戦
+| style="text-align:center;" | 0:45
+| style="text-align:center;" | 20
+| style="text-align:center;" | 6
+| style="text-align:center;" | 1CL 3DD
+| style="text-align:center;" | 40
+| style="text-align:center; background-color:#CCEECC;" | 57.33
+| style="text-align:center; background-color:#FFFFBB;" | 42.67
+| style="text-align:center; background-color:#EEEEEE;" | 67
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 18
+| style="text-align: left;" |航空機輸送作戦
+| style="text-align:center;" | 5:00
+| style="text-align:center;" | 15
+| style="text-align:center;" | 6
+| style="text-align:center;" | 3CV 2DD
+| style="text-align:center;" | 12
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-14</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-6.6</span>
+| style="text-align:center; background-color:#EEEEEE;" | 60
+| style="text-align:center; background-color:#FFDDAA;" | 20
+| style="text-align:center;" | 0-1
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 19
+| style="text-align: left;" |北号作戦
+| style="text-align:center;" | 6:00
+| style="text-align:center;" | 20
+| style="text-align:center;" | 6
+| style="text-align:center;" | 2BBV 2DD
+| style="text-align:center;" | 10
+| style="text-align:center; background-color:#CCEECC;" | 46
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-19</span>
+| style="text-align:center; background-color:#EEEEEE;" | 8.33
+| style="text-align:center; background-color:#FFDDAA;" | 5
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" | Small 0-1
+|-
+| style="text-align:center;" | 20
+| style="text-align: left;" |潜水艦哨戒任務
+| style="text-align:center;" | 2:00
+| style="text-align:center;" | 1
+| style="text-align:center;" | 2
+| style="text-align:center;" | 1SS(V) 1CL
+| style="text-align:center;" | 20
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-8.5</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-9</span>
+| style="text-align:center; background-color:#EEEEEE;" | <span style="color:Blue">75</span>
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" | Small 0-1
+|-
+| style="text-align:center;" | 21
+| style="text-align: left;" |北方鼠輸送作戦
+| style="text-align:center;" |2:20
+| style="text-align:center;" |15<br />'''<font color="#ff0000">(</font><font color="#ff0000"><font color="#ff0000">≥</font>30 sum)</font>'''
+| style="text-align:center;" |5
+| style="text-align:center;" |1CL 4DD<br />'''<font color="#ff0000">3 Drums min.</font>'''
+| style="text-align:center;" |19.29
+| style="text-align:center; background-color:#CCEECC;" |<span style="color:Blue">108</span>
+| style="text-align:center; background-color:#FFFFBB;" |92.57
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |Small 0-1
+|-
+| style="text-align:center;" | 22
+| style="text-align: left;" |艦隊演習
+| style="text-align:center;" |3:00
+| style="text-align:center;" |30<br />'''<font color="#ff0000">(</font><font color="#ff0000"><font color="#ff0000">≥</font>45 sum)</font>'''
+| style="text-align:center;" |6
+| style="text-align:center;" |1CA 1CL 2DD
+| style="text-align:center;" |15
+| style="text-align:center; background-color:#CCEECC;" |
+| style="text-align:center; background-color:#FFFFBB;" |3.33
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 23
+| style="text-align: left;" |航空戦艦運用演習
+| style="text-align:center;" |4:00
+| style="text-align:center;" |50<br />'''<font color="#ff0000">(</font><font color="#ff0000"><font color="#ff0000">≥</font>200 sum)</font>'''
+| style="text-align:center;" |6
+| style="text-align:center;" |2BBV 2DD
+| style="text-align:center;" |17.5
+| style="text-align:center; background-color:#CCEECC;" |
+| style="text-align:center; background-color:#FFFFBB;" |5
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" |25
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| colspan="15" style="text-align:center; background-color:#C0C000;" | Page 4: 西方海域
+|-
+| style="text-align:center;" | 25
+| style="text-align: left;" |通商破壊作戦
+| style="text-align:center;" | 40:00
+| style="text-align:center;" | 25
+| style="text-align:center;" | 4
+| style="text-align:center;" | 2CA 2DD
+| style="text-align:center;" | 2
+| style="text-align:center; background-color:#CCEECC;" | 16.15
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-3.4</span>
+| style="text-align:center; background-color:#EEEEEE;" | 7.5
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 26
+| style="text-align: left;" |敵母港空襲作戦
+| style="text-align:center;" | 80:00
+| style="text-align:center;" | 30
+| style="text-align:center;" | 4
+| style="text-align:center;" | 1CV 1CL 2DD
+| style="text-align:center;" | 1.9
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-0.9</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-1</span>
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" | 11
+| style="text-align:center;" | 0-3
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|-
+| style="text-align:center;" | 27
+| style="text-align: left;" |潜水艦通商破壊作戦
+| style="text-align:center;" | 20:00
+| style="text-align:center;" | 1
+| style="text-align:center;" | 2
+| style="text-align:center;" | 2SS(V)
+| style="text-align:center;" | 4
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-0.8</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-1.6</span>
+| style="text-align:center; background-color:#EEEEEE;" | 40
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" | 0-1
+| style="text-align:center;" | Small 0-2
+|-
+| style="text-align:center;" | 28
+| style="text-align: left;" |西方海域封鎖作戦
+| style="text-align:center;" | 25:00
+| style="text-align:center;" | 30
+| style="text-align:center;" | 3
+| style="text-align:center;" | 3SS(V)
+| style="text-align:center;" |4
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-0.96</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-1.92</span>
+| style="text-align:center; background-color:#EEEEEE;" |36
+| style="text-align:center; background-color:#FFDDAA;" |14
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |0-2
+| style="text-align:center;" |Medium 0-2
+|-
+| style="text-align:center;" | 29
+| style="text-align: left;" |潜水艦派遣演習
+| style="text-align:center;" | 24:00
+| style="text-align:center;" | 50
+| style="text-align:center;" | 3
+| style="text-align:center;" | 3SS(V)
+| style="text-align:center;" |4.16
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-1.50</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-1.33</span>
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" |4.16
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |0-1
+| style="text-align:center;" |Small 0-1
+|-
+| style="text-align:center;" | 30
+| style="text-align: left;" |潜水艦派遣作戦
+| style="text-align:center;" | 48:00
+| style="text-align:center;" | 55
+| style="text-align:center;" | 4
+| style="text-align:center;" | 4SS(V)
+| style="text-align:center;" |2.08
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-0.75</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-1.17</span>
+| style="text-align:center; background-color:#EEEEEE;" |
+| style="text-align:center; background-color:#FFDDAA;" |2.08
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |0-3
+| style="text-align:center;" |
+|-
+| colspan="15" style="text-align:center; background-color:#ff7f50;" | Page 5: 南方海域
+|-
+| style="text-align:center;" | 35
+| style="text-align: left;" |ＭＯ作戦
+| style="text-align:center;" | 7:00
+| style="text-align:center;" |40
+| style="text-align:center;" |6
+| style="text-align:center;" |2CV(L) 1CA 1DD<br />2AV 1CA 1DD
+| style="text-align:center;" | 14.2
+| style="text-align:center; background-color:#CCEECC;" | <span style="color:Gray">-18</span>
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-22</span>
+| style="text-align:center; background-color:#EEEEEE;" |34
+| style="text-align:center; background-color:#FFDDAA;" |<span style="color:Blue">40</span>
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |0-1
+| style="text-align:center;" |Small 0-2
+|-
+| style="text-align:center;" | 36
+| style="text-align: left;" |水上機基地建設
+| style="text-align:center;" | 9:00
+| style="text-align:center;" |30
+| style="text-align:center;" |6
+| style="text-align:center;" |2AV 1CL 1DD
+| style="text-align:center;" | 11.11
+| style="text-align:center; background-color:#CCEECC;" |40.4
+| style="text-align:center; background-color:#FFFFBB;" | <span style="color:Gray">-14</span>
+| style="text-align:center; background-color:#EEEEEE;" |22
+| style="text-align:center; background-color:#FFDDAA;" |22
+| style="text-align:center;" |0-1
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |Medium 0-2
+|-
+| style="text-align:center;" | 37
+| style="text-align: left;" |東京急行
+| style="text-align:center;" | 2:45
+| style="text-align:center;" |50<br /><font color="#ff0000">(</font>'''<font color="#ff0000">≥200 sum)</font>'''
+| style="text-align:center;" |6
+| style="text-align:center;" |1CL 5DD<br />'''<font color="#ff0000">4 Drums min.</font>'''
+| style="text-align:center;" | 18.18
+| style="text-align:center; background-color:#CCEECC;" |<span style="color:Gray">-29</span>
+| style="text-align:center; background-color:#FFFFBB;" |<span style="color:Blue">111</span>
+| style="text-align:center; background-color:#EEEEEE;" |<span style="color:Blue">98.18</span>
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |Small 0-1
+|-
+| style="text-align:center;" | 38
+| style="text-align: left;" |東京急行(弐)
+| style="text-align:center;" | 2:55
+| style="text-align:center;" |65<br /><font color="#ff0000">(</font>'''<font color="#ff0000">≥240 sum)</font>'''
+| style="text-align:center;" |6
+| style="text-align:center;" |5DD<br />'''<font color="#ff0000">8 Drums min.</font>'''
+| style="text-align:center;" | 34.28
+| style="text-align:center; background-color:#CCEECC;" |<span style="color:Red">119.31</span>
+| style="text-align:center; background-color:#FFFFBB;" |<span style="color:Gray">-24.69</span>
+| style="text-align:center; background-color:#EEEEEE;" |68.57
+| style="text-align:center; background-color:#FFDDAA;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |Small 0-1
+|-
+| style="text-align:center;" | 39
+| style="text-align: left;" |遠洋潜水艦作戦
+| style="text-align:center;" | 30:00
+| style="text-align:center;" |3<br /><font color="#ff0000">(</font>'''<font color="#ff0000">≥180 sum)</font>'''
+| style="text-align:center;" |5
+| style="text-align:center;" |1AS 4SS
+| style="text-align:center;" |10,66
+| style="text-align:center; background-color:#CCEECC;" |<span style="color:rgb(128,128,128);">-2.25</span>
+| style="text-align:center; background-color:#FFFFBB;" |<span style="color:rgb(128,128,128);">-2.70</span>
+| style="text-align:center; background-color:#EEEEEE;" |10
+| style="text-align:center; background-color:#FFDDAA;" | -
+| style="text-align:center;" |0-2
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |Medium 0-1
+|}
+
+==Support Expeditions==
+Support expeditions involve sending a fleet into an expedition, which will then provide additional bombardment during the first phase. For the November 2013 event and Spring 2014, there were two support expeditions (109/117 and 110/118), and for more veteran admirals, expeditions 33 and 34. You will need to successfully finish expedition 18 to unlock expedition 33, and expedition 26 to unlock expedition 34. Currently, expeditions 33 and 34 work only in world 5.
+
+'''Note that support expeditions do not work for night battle nodes!'''
+
+There are two major differences between 109/33/117/125 and 110/34/118/126:
+*109/33/117/125 is for support at the standard nodes with roughly 50% chance to trigger, it can trigger on every node you go through (except the boss) even if it already triggered once. Sparkling slightly raises the chances of it triggering (~5% per ship?)
+*110/34/118/126 is for support at the boss node with ~80% chance to trigger, appears to be 100% if the flagship is sparkled.
+
+To start a support expedition, you will need to bring a minimum of two DDs (Destroyers) with the other 4 slots comprised of whatever you like, however the composition will affect what type of firepower support is provided.
+
+;1. Aerial Support
+: Sends a number of planes to carry out bombardment and torpedo attacks.
+*Condition: 3 or more CV, CVL or seaplane tenders.
+*Resources: Bauxite and 4 units of Ammunition
+: Advantages:
+*Damage is spread out, and likely to hit the flagship (good for events)
+*Low cost since the only bauxite needed is for planes which were shot down by enemy AA.
+: Disadvantages:
+*Spread out damage is unlikely to sink any particular ship.
+*Planes sent are affected by enemy AA, so will be less effective against high AA enemy fleets.
+
+;2. Long distance Torpedo Attack
+: High miss chance and low damage. Currently, no practical use (stated in wikiwiki). Damage is lower than even normal torpedo attacks.
+*Condition: At least 4CL, CLT or DD. And has total Torpedo stats above 250.
+*Resources: 4 units of Ammunition
+
+;3. Support Shelling
+: If none of the aforementioned conditions are met, support fleet will use their main guns to shell the enemies. Damage depends on Artillery stats. CVs and CVL are counted slightly differently, and use the following formula to calculate their firepower. ([http://wikiwiki.jp/kancolle/?%C0%EF%C6%AE%A4%CB%A4%C4%A4%A4%A4%C6#od036af3 Referenced from wikiwiki])
+::: 55 + (1.5 × artillery) + (1.5 × torpedo) x slots + (2.0 × divebomb) x slots
+: e.g. Kaga Kai with 4 slots of Suisei 12A Divebombers:
+::: 55 + (1.5 x 49) + (1.5 x 0) x 4 + (2.0 x 10) x 4 = 208, i.e. Kaga will effectively have 208 firepower.
+: Hence it is advisable to go 2DD 2CV 2BB for the strongest firepower (any more CVs/CVLs will change it to aerial support). CVLs have great cost-performance ratio here (no. of planes don't count, only slots).
+*Condition: Not meeting any of the two conditions above.
+*Resources: 8 units of Ammunition
+: Advantages:
+*High damage if hit, and likely to sink an enemy ship or badly damage it.
+: Disadvantages:
+*High cost, even if the support wasn't activated during sortie.
+
+
+Support expeditions will end if either of these two conditions are fulfilled:
+#You finish a sortie.
+#The timer runs out.
+Please make sure you run the sortie you wish to do the moment you start the expedition!
+
+Additional information can be found here: [http://wikiwiki.jp/kancolle/?%BB%D9%B1%E7%B4%CF%C2%E2 Wikiwiki Link for support fleet]
+
+==About:Project==
+This page is an ongoing project to renovate [[Expedition]] page
+
+Even though the current Expedition page is among the most opened page in this wiki, it has been long plagued with a number of issues. First of all, it is not optimized for minimum screen width. Secondly, it has considerable load time. Most importantly, ''it is excessive, repetitive and poorly presented''.
+
+As much as we would like to keep everything from the current page, we are not here to please everyone, we are here to make sure things work efficiently for the majority. Hence, mentioned above are the fundamental issues the new page must address and they are the constraints everyone involved in this project must adhere to.
+
+Task list:
+#Trim down excess information from the old page
+#Verify coherency and newbie friendliness of the new layout and tables
+#Import data to the new table
+#Write a new introductory guide to expedition
+#<del>Improve navigation and load time</del>
+
+
+Decisions to make:
+# '''Absolute yield, Hourly rate and Theoretical hourly, which to keep and which to eliminate?'''
+# Which should be the default, first tab table? Which items should be on the default table?
+# Cross-referencing between "expedition yields and requirements" or between "expedition requirements/yield in overall", which should be prioritize? (reflect in the tabbing scheme: Default: expedition yields and requirements)
+
+==Legends==
+Requirements
+*'''Sum''': Minimum total level of fleet
+*'''Flag''': Minimum level of flagship
+
+Total yield
+*'''HQ''': Admiral exp gain from expedition
+*'''Ship''': Ship exp gain from expedition
+
+==Page 1==
+<tabber>Requirements=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |Sum
+! style="cellpadding:10px;" |Flag
+! style="cellpadding:10px;width:30%;" |Fleet
+! style="cellpadding:10px;" |Drum
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+|-
+| style="background:gray;" colspan="11" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |1
+| align="center" height="35px" |2XXX
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |
+| align="center" height="35px" |2
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |3XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD 1XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |
+| align="center" height="35px" |4
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |
+| align="center" height="35px" |5
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |
+| align="center" height="35px" |6
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|}</div>
+
+|-|Total yield=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |HQ
+! style="cellpadding:10px;" |Ship
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Steel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Bauxite.png|30px|link=]]
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:20%;" colspan="2" |Rewards
+|-
+| style="background:gray;" colspan="14" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |10
+| align="center" height="35px" |10
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightgreen;" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |20
+| align="center" height="35px" |15
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x100
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |30
+| align="center" height="35px" |30
+| align="center" height="35px" |x30
+| align="center" height="35px" |x30
+| align="center" height="35px" style="background:lightblue;" |x40
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |30
+| align="center" height="35px" |40
+| align="center" height="35px" |
+| align="center" height="35px" |x60
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |40
+| align="center" height="35px" |40
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" |x20
+| align="center" height="35px" |x20
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |30
+| align="center" height="35px" |50
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x80
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |60
+| align="center" height="35px" |120
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |x50
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |120
+| align="center" height="35px" |140
+| align="center" height="35px" |x50
+| align="center" height="35px" |x100
+| align="center" height="35px" |x50
+| align="center" height="35px" |x50
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|}</div>
+</tabber>
+
+==Load test 1.4==
+<tabber>Requirements=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |Sum
+! style="cellpadding:10px;" |Flag
+! style="cellpadding:10px;width:30%;" |Fleet
+! style="cellpadding:10px;" |Drum
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+|-
+| style="background:gray;" colspan="11" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |1
+| align="center" height="35px" |2XXX
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |
+| align="center" height="35px" |2
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |3XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD 1XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |
+| align="center" height="35px" |4
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |
+| align="center" height="35px" |5
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |
+| align="center" height="35px" |6
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|}</div>
+
+|-|Total yield=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |HQ
+! style="cellpadding:10px;" |Ship
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Steel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Bauxite.png|30px|link=]]
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:20%;" colspan="2" |Rewards
+|-
+| style="background:gray;" colspan="14" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |10
+| align="center" height="35px" |10
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightgreen;" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |20
+| align="center" height="35px" |15
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x100
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |30
+| align="center" height="35px" |30
+| align="center" height="35px" |x30
+| align="center" height="35px" |x30
+| align="center" height="35px" style="background:lightblue;" |x40
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |30
+| align="center" height="35px" |40
+| align="center" height="35px" |
+| align="center" height="35px" |x60
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |40
+| align="center" height="35px" |40
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" |x20
+| align="center" height="35px" |x20
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |30
+| align="center" height="35px" |50
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x80
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |60
+| align="center" height="35px" |120
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |x50
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |120
+| align="center" height="35px" |140
+| align="center" height="35px" |x50
+| align="center" height="35px" |x100
+| align="center" height="35px" |x50
+| align="center" height="35px" |x50
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|}</div>
+</tabber>
+
+==Load test 1.4==
+<tabber>Requirements=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |Sum
+! style="cellpadding:10px;" |Flag
+! style="cellpadding:10px;width:30%;" |Fleet
+! style="cellpadding:10px;" |Drum
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+|-
+| style="background:gray;" colspan="11" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |1
+| align="center" height="35px" |2XXX
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |
+| align="center" height="35px" |2
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |3XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD 1XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |
+| align="center" height="35px" |4
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |
+| align="center" height="35px" |5
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |
+| align="center" height="35px" |6
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|}</div>
+
+|-|Total yield=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |HQ
+! style="cellpadding:10px;" |Ship
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Steel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Bauxite.png|30px|link=]]
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:20%;" colspan="2" |Rewards
+|-
+| style="background:gray;" colspan="14" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |10
+| align="center" height="35px" |10
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightgreen;" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |20
+| align="center" height="35px" |15
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x100
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |30
+| align="center" height="35px" |30
+| align="center" height="35px" |x30
+| align="center" height="35px" |x30
+| align="center" height="35px" style="background:lightblue;" |x40
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |30
+| align="center" height="35px" |40
+| align="center" height="35px" |
+| align="center" height="35px" |x60
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |40
+| align="center" height="35px" |40
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" |x20
+| align="center" height="35px" |x20
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |30
+| align="center" height="35px" |50
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x80
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |60
+| align="center" height="35px" |120
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |x50
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |120
+| align="center" height="35px" |140
+| align="center" height="35px" |x50
+| align="center" height="35px" |x100
+| align="center" height="35px" |x50
+| align="center" height="35px" |x50
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|}</div>
+</tabber>
+
+==Load test 1.4==
+<tabber>Requirements=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |Sum
+! style="cellpadding:10px;" |Flag
+! style="cellpadding:10px;width:30%;" |Fleet
+! style="cellpadding:10px;" |Drum
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+|-
+| style="background:gray;" colspan="11" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |1
+| align="center" height="35px" |2XXX
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |
+| align="center" height="35px" |2
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |3XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD 1XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |
+| align="center" height="35px" |4
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |
+| align="center" height="35px" |5
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |
+| align="center" height="35px" |6
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|}</div>
+
+|-|Total yield=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |HQ
+! style="cellpadding:10px;" |Ship
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Steel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Bauxite.png|30px|link=]]
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:20%;" colspan="2" |Rewards
+|-
+| style="background:gray;" colspan="14" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |10
+| align="center" height="35px" |10
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightgreen;" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |20
+| align="center" height="35px" |15
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x100
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |30
+| align="center" height="35px" |30
+| align="center" height="35px" |x30
+| align="center" height="35px" |x30
+| align="center" height="35px" style="background:lightblue;" |x40
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |30
+| align="center" height="35px" |40
+| align="center" height="35px" |
+| align="center" height="35px" |x60
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |40
+| align="center" height="35px" |40
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" |x20
+| align="center" height="35px" |x20
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |30
+| align="center" height="35px" |50
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x80
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |60
+| align="center" height="35px" |120
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |x50
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |120
+| align="center" height="35px" |140
+| align="center" height="35px" |x50
+| align="center" height="35px" |x100
+| align="center" height="35px" |x50
+| align="center" height="35px" |x50
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|}</div>
+</tabber>
+
+==Load test 1.4==
+<tabber>Requirements=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |Sum
+! style="cellpadding:10px;" |Flag
+! style="cellpadding:10px;width:30%;" |Fleet
+! style="cellpadding:10px;" |Drum
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+|-
+| style="background:gray;" colspan="11" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |1
+| align="center" height="35px" |2XXX
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |
+| align="center" height="35px" |2
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |3XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD 1XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |
+| align="center" height="35px" |4
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |-3
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |
+| align="center" height="35px" |5
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |
+| align="center" height="35px" |6
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|}</div>
+
+|-|Total yield=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |HQ
+! style="cellpadding:10px;" |Ship
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Steel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Bauxite.png|30px|link=]]
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:20%;" colspan="2" |Rewards
+|-
+| style="background:gray;" colspan="14" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |10
+| align="center" height="35px" |10
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightgreen;" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |20
+| align="center" height="35px" |15
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x100
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |30
+| align="center" height="35px" |30
+| align="center" height="35px" |x30
+| align="center" height="35px" |x30
+| align="center" height="35px" style="background:lightblue;" |x40
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |30
+| align="center" height="35px" |40
+| align="center" height="35px" |
+| align="center" height="35px" |x60
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |40
+| align="center" height="35px" |40
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" style="background:lightgreen;" |x200
+| align="center" height="35px" |x20
+| align="center" height="35px" |x20
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |30
+| align="center" height="35px" |50
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightblue;" |x80
+| align="center" height="35px" |
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |60
+| align="center" height="35px" |120
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |x50
+| align="center" height="35px" |x30
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |120
+| align="center" height="35px" |140
+| align="center" height="35px" |x50
+| align="center" height="35px" |x100
+| align="center" height="35px" |x50
+| align="center" height="35px" |x50
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+|}</div>
+</tabber>
+
+==Rei fail table==
+<tabber>Tab 1 Stuff=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |Sum
+! style="cellpadding:10px;" |Flag
+! style="cellpadding:10px;width:30%;" |Fleet
+! style="cellpadding:10px;" |Drum
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Steel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Bauxite.png|30px|link=]]
+|-
+| style="background:gray;" colspan="11" |
+|-
+| align="center" height="35px" |1
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |1
+| align="center" height="35px" |2XXX
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" style="background:lightgreen;" |100
+| align="center" height="35px" style="background:lightgreen;" |1200
+| align="center" height="35px" |120
+| align="center" height="35px" |420
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |00:30
+| align="center" height="35px" |
+| align="center" height="35px" |2
+| align="center" height="35px" |4XX
+| align="center" height="35px" |1x4
+| align="center" height="35px" style="background:lightgreen;" |200
+| align="center" height="35px" style="background:lightgreen;" |200
+| align="center" height="35px" |20
+| align="center" height="35px" |20
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |00:20
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |3XX
+| align="center" height="35px" |2x4
+| align="center" height="35px" |50
+| align="center" height="35px" |100
+| align="center" height="35px" |50
+| align="center" height="35px" |50
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |00:50
+| align="center" height="35px" |
+| align="center" height="35px" |3
+| align="center" height="35px" |1CL 2DD
+| align="center" height="35px" |
+| align="center" height="35px" style="background:lightgreen;" |200
+| align="center" height="35px" style="background:lightgreen;" |200
+| align="center" height="35px" |20
+| align="center" height="35px" |20
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |01:30
+| align="center" height="35px" |200
+| align="center" height="35px" |3
+| align="center" height="35px" |2AV 1CA 1CL 2XX
+| align="center" height="35px" |1x3
+| align="center" height="35px" |50
+| align="center" height="35px" |100
+| align="center" height="35px" |50
+| align="center" height="35px" |50
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |00:40
+| align="center" height="35px" |
+| align="center" height="35px" |4
+| align="center" height="35px" |4XX
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |50
+| align="center" height="35px" |30
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |01:00
+| align="center" height="35px" |200
+| align="center" height="35px" |5
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |1050
+| align="center" height="35px" |1230
+| align="center" height="35px" |
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |03:00
+| align="center" height="35px" |240
+| align="center" height="35px" |6
+| align="center" height="35px" |6XX
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |50
+| align="center" height="35px" |30
+| align="center" height="35px" |
+|}</div>
+
+|-|Tab 2 Stuff=
+<div style="width:90%;margin-left:20px;">
+{| width=100%
+| style="width:50px;"| [[File:World1icon.png|link=]]
+| <div style="width:100%;background:lightgray;padding-left:10px;border-top-right-radius:10px;">'''鎮守府海域'''</div>
+|}
+</div>
+<div style="position:relative;color:navyblue;background:white;border:solid 1px lightgray;width:90%;border-radius:10px;padding:20px;margin:20px;margin-top:0px;">
+{| style="radius:10px;cellpadding:10px;width:100%;" align="center" height="35px"
+! style="cellpadding:10px;" |#
+! style="cellpadding:10px;" |Name
+! style="cellpadding:10px;" |Time
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;" |HQ
+! style="cellpadding:10px;" |Ship
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:1px;" |
+! style="cellpadding:10px;width:20%;" colspan="2" |Rewards
+! style="cellpadding:10px;" |[[File:Fuel.png|30px|link=]]
+! style="cellpadding:10px;" |[[File:Ammunition.png|30px|link=]]
+|-
+| style="background:gray;" colspan="14" |
+|-
+| align="center" height="35px" |1
+| align="center" height="35px" |練習航海
+| align="center" height="35px" |00:15
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |10
+| align="center" height="35px" |10
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |
+| align="center" height="35px" |
+| style="background:lightgray;" rowspan="8" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |2
+| align="center" height="35px" |長距離練習航海
+| align="center" height="35px" |00:30
+| align="center" height="35px" |20
+| align="center" height="35px" |15
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |3
+| align="center" height="35px" |警備任務
+| align="center" height="35px" |00:20
+| align="center" height="35px" |30
+| align="center" height="35px" |30
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |4
+| align="center" height="35px" |対潜警戒任務
+| align="center" height="35px" |00:50
+| align="center" height="35px" |30
+| align="center" height="35px" |40
+| align="center" height="35px" |[[File:Instant_repair.jpg|35px|link=]]x0
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |5
+| align="center" height="35px" |海上護衛任務
+| align="center" height="35px" |01:30
+| align="center" height="35px" |40
+| align="center" height="35px" |40
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |6
+| align="center" height="35px" |防空射撃演習
+| align="center" height="35px" |00:40
+| align="center" height="35px" |30
+| align="center" height="35px" |50
+| align="center" height="35px" |
+| align="center" height="35px" |
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |7
+| align="center" height="35px" |観艦式予行
+| align="center" height="35px" |01:00
+| align="center" height="35px" |60
+| align="center" height="35px" |120
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|-
+| align="center" height="35px" |8
+| align="center" height="35px" |観艦式
+| align="center" height="35px" |03:00
+| align="center" height="35px" |120
+| align="center" height="35px" |140
+| align="center" height="35px" |
+| align="center" height="35px" |[[File:Instant_construction.jpg|35px|link=]]x0
+| align="center" height="35px" |-5
+| align="center" height="35px" |-2
+|}</div>
+</tabber>

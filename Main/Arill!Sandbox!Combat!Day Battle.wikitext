@@ -1,0 +1,106 @@
+=Day Battle Breakdown=
+
+The Day Battle is the phase where the majority of combat takes place. This article will go more in-depth on the stages that take place in Day Battle.
+
+Although it will be mentioned when the other related battle phases take place, keep in mind that this page will not go more in-depth about it due to the complexity of the mechanics behind them. Instead, check each's own article page.
+
+The Day Battle has the following structure:
+* Detection
+* Engagement
+* First Shelling Phase
+* Second Shelling Phase
+* Closing Torpedo Salvo
+
+Other phases that may happen during '''Detection''' and '''Engagement''':
+* [[Arill/Sandbox/Combat/Aerial Combat|Aerial Combat]]
+* [[Arill/Sandbox/Combat/Land-based Aerial Support|Land-based Aerial Support]]
+* [[Arill/Sandbox/Combat/Support Expedition|Support Expedition]]
+* [[Arill/Sandbox/Combat/Battle Opening|Battle Opening]]
+
+In case neither fleets meet the requirements, the sub-phase will be skipped.
+
+=Detection=
+[[File:Successfull_Detection.png|thumb|right|Successful Detection]]
+During Detection, your fleet attempts to detect the enemy fleet. The success rate of Detection is influenced by many factors such as number and quality of Recon planes, RADARs, fleet Line of Sight, and such. It is not required to have any equipment to have successful Detection.
+
+In case your fleet fails to detect the enemy fleet, your fleet will not participate in the [[Arill/Sandbox/Combat/Aerial Combat|Aerial Combat Phase]]. Failing Detection will also allow your recon seaplanes to get shot down.
+
+Although the displayed message indicates that Accuracy and Evasion has changed, testing has shown that it has no noticeable effect.
+
+=Engagement=
+[[File:Engagement_Example.png|thumb|right|Red T Engagement is declared]]
+Before the battle proper begins, the game will roll one of 4 possible engagements:
+
+{| class="wikitable" style="margin: auto;"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:200px;" |Form
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:100px;" |Damage Modifier
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:100px;" |Chance
+|-
+|style="border-style: solid; border-width: 1px;"| Crossing the T ('''<span style="color:green">Advantage</span>''')<br />{{Nihongo|T字戦有利|''T Ji-sen Yuuri''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 15%
+|-
+|style="border-style: solid; border-width: 1px;"| Parallel Engagement<br />{{Nihongo|同航戦|''Doukousen''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 45%
+|-
+|style="border-style: solid; border-width: 1px;"| Head-on Engagement<br />{{Nihongo|反航戦|''Hankousen''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 80%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 30%
+
+|-
+|style="border-style: solid; border-width: 1px;"| Crossing the T ('''<span style="color:red">Disadvantage</span>''')<br />{{Nihongo|T字戦不利|''T Ji-sen Furi''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 60%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10%
+|}
+
+* Engagement modifier affects all aspects of Shelling Phases, as well as the Battle Opening and Closing Torpedo Salvos. 
+* All engagement forms affect both sides equally, including crossing the T (Advantage or Disadvantage).
+* Equipping a {{Template:YellowPlane}}[[Saiun]] will override Crossing the T (Disadvantage) engagements and turn them into Head-on engagements instead.
+
+=Shelling Phase=
+Following engagement, each side will begin the Shelling phase. A ship's single attack, carrier plane sweep, or ASW attack, as well as Artillery Spotting and Special Attacks are shelling attacks.
+
+Some rules are applied for shelling attacks:
+* Standard and Light Aircraft Carriers (CV and CVL) are unable to shell if they are moderately or heavily damaged. This includes Installations that are of the Aircraft Carrier (CV) and Aviation Battleship (BBV) types.
+** Armored Aircraft Carriers (CVB) are only unable to shell when heavily damaged instead.
+* Aircraft Carriers will not attack if they have no bombers or the equipped bombers' slots are reduced to 0 during the sortie.
+* Ships that are able to attack submarines are forced to attack submarines as long there's at least one submarine alive.
+** Exceptions being [[Suzuya|Suzuya Kai Ni Kou]] and [[Kumano|Kumano Kai Ni Kou]].
+* Ships may perform special attacks denominated '''Artillery Spotting''' and '''Touch Attacks''', if applicable.
+
+The firing order is defined when each of the Shelling Phase subphases starts, and will skip over sunk and retreated ships, or ships that have no means of attacking under any circumstances, such as a carrier with no bombers ''equipped'', a submarine, or a Wa-Class Transport Ship, for example.
+
+If a ship would normally be able to attack but currently is unable to, such as a carrier that is moderately damaged or lost all its equipped bombers, their turn will still be accounted for in the turn order. Ships that are unable to attack during their turn or sink before their turn will still take actionless turns.
+
+==First Shelling Phase==
+In this phase, both fleets will take turns shelling the opposing fleet, with the turn order defined by each ship's '''range''' attribute. It's possible to increase a ship's range with proper equipment.
+
+The shelling order is '''Longest''' → '''Very Long''' → '''Long''' → '''Medium''' → '''Short''' → '''None'''.
+
+If two or more ships tie for range, the order between them is random.
+
+* Longest range is, as of 26/01/2021, only attainable on [[Ise|Ise Kai Ni]] and [[Hyuuga|Hyuuga Kai Ni]].
+* "None" range is mostly reserved to Abyssal Aircraft Carriers and Transport Ships.
+
+==Second Shelling Phase==
+This phase will only occur if either side of the battle has any kind of Battleship present. The Battleship doesn't have to be alive for this phase to trigger.
+
+In this phase, both fleets will take turns shelling the opposing fleet, with the turn order defined by the '''fleet order'''.
+
+=Closing Torpedo Salvo=
+
+After the Shelling Phase, any ship with a torpedo stat higher than 0 that is not moderately or heavily damaged will fire a Closing Torpedo. Each torpedo will target a surface ship at random and all torpedoes will strike both sides at the same time. After the Closing Torpedo Salvo, the Day Battle is over.
+
+=Aftermath=
+
+If any of the enemy ships are still alive after Day Battle ends, a prompt asking if the player desires to pursue the enemy fleet into Night Battle will appear. Accepting this prompt will move the battle to Night Battle, starting with the conditions on which the Day Battle ended.
+
+If the Day Battle was preceded by a Night Battle in the same node, such prompt will not appear, and the battle will automatically end instead.
+
+
+
+{{GameMechanics2}}
+[[zh:战斗]]
+[[Category:Game Mechanics]]
