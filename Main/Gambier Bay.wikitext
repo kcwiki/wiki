@@ -1,6 +1,7 @@
 ==Info==
 {{KanmusuInfo|ID=344}}
 {{KanmusuInfo|ID=344a}}
+{{KanmusuInfo|ID=458}}
 
 ==Gameplay Notes==
 ===Special Mechanics===
@@ -35,7 +36,7 @@ Priority: '''Low'''
 {{ShipquoteHeader}}
 {{ShipquoteKai
 | scenario    =Introduction
-| origin      = It's a pleasure to meet you. My name is Gambier Bay... ふわぁ！う、撃たないで！ふっ・・・よ、よかった・・・
+| origin      = It's a pleasure to meet you. My name is Gambier Bay... ふわぁ！う、撃たないで！ふっ…よ、よかった…
 | translation = It's a pleasure to meet you. My name is Gambier Bay... fuwaa! D-Don't shoot! Whew... thank goodness...
 | audio       = GambierBay-Intro.mp3
 }}
@@ -43,8 +44,12 @@ Priority: '''Low'''
 | scenario    =Introduction
 | kai         =yes
 | origin      = Good morning! Admiral, Gambier Bay元気です！はい！今日も頑張ります、きっと！
-| translation = Good morning! Admiral, Gambier Bay is doing well! Yes! I'll do my best today as well, for sure!
+| translation = Good morning! Admiral, I'm doing well! Yes! I'll do my best today as well, for sure!
 | audio       = GambierBayKai-Intro.mp3
+}}
+{{ShipquoteKai|scenario = Introduction|form2 = Mk.II
+|origin = Good morning! Admiral, new Gambier Bay出撃可能です。はい！今日もバッチリです！Maybe.
+|translation = Good morning! Admiral, the new me is ready to sortie. Yes! I'm feeling great today too! Maybe.
 }}
 {{ShipquoteKai
 | scenario    =Library
@@ -60,11 +65,19 @@ In the Battle of Leyte Gulf, I ended up encountering the main strength of Japan'
 | translation = H-Hello?
 | audio       = GambierBay-Sec1.mp3
 }}
+{{ShipquoteKai|scenario = Secretary 1|form2 = Mk.II
+|origin = Fine!
+|translation = Fine!
+}}
 {{ShipquoteKai
 | scenario    =Secretary 2
 | origin      =へ、何ですか？Catwalk?違いますってぇ！
-| translation =Huh, what is it? Catwalk? That's not it!
+| translation =Huh, what is it? Catwalk? No it isn't!
 | audio       = GambierBay-Sec2.mp3
+}}
+{{ShipquoteKai|scenario = Secretary 2|form2 = Mk.II
+|origin = Admiral, 何でしょう？はぁ、もちろん、了解です！I'm doing well, thanks.
+|translation = Admiral, what is it? Oh, of course, understood! I'm doing well, thanks.
 }}
 {{ShipquoteKai
 | scenario    =Secretary 3
@@ -72,21 +85,25 @@ In the Battle of Leyte Gulf, I ended up encountering the main strength of Japan'
 | translation =Admiral, what is it? Ah, ah yes! Understood. I'm doing well, thanks.
 | audio       = GambierBay-Sec3.mp3
 }}
+{{ShipquoteKai|scenario = Secretary 3|form2 = Mk.II
+|origin = Admiral... あぁ！John, Sam! そうね、大丈夫。I'm doing well, thanks.
+|translation = Admiral... Ah! John, Sam! Yes, I'm fine. I'm doing well, thanks.
+}}
 {{ShipquoteKai
 | scenario    =Secretary Idle
-| origin      =The Kurita Fleet is terrible. 無理だから。あんなのマジ無理だし。すごい怖いし、危ないし、絶対無理・・・
+| origin      =The Kurita Fleet is terrible. 無理だから。あんなのマジ無理だし。すごい怖いし、危ないし、絶対無理…
 | translation =The Kurita Fleet is terrible. No way. No way I can handle that, seriously. So scary, and dangerous. There's absolutely no way...
 | audio       = GambierBay-Idle.mp3
 }}
 {{ShipquoteKai
 | scenario    =Secretary (Married)
 | origin      =Admiral - あ、えっと、テイ、トクさん？Shall I bring some tea?
-| translation =Admiral- ah, uhm, I mean, Admiral-san? Shall I bring some tea?
+| translation =Admiral- ah, uhm, I mean, Admiral, sir? Shall I bring some tea?
 | audio       = GambierBay-SecMarried.mp3
 }}
 {{ShipquoteKai
 | scenario    =Wedding
-| origin      =Admiral, お、お呼びでしょうか？艦種変更？もしかして、じょ、除籍？あ、あの・・・what? えっ、これを、私に？Really? あ、あの、あのぉ、私・・・
+| origin      =Admiral, お、お呼びでしょうか？艦種変更？もしかして、じょ、除籍？あ、あの…what? えっ、これを、私に？Really? あ、あの、あのぉ、私…
 | translation =Admiral, did, did you call me? Am I being reclassified<ref>The United States Navy originally classified escort carriers as auxiliary aircraft escort vessels (AVG), then auxiliary aircraft carriers (ACV), before settling on escort aircraft carrier (CVE), highlighting a new combatant role.</ref>? Don't tell me, I'm being struck from the registry? Uh, uhm... what? Eh, this, is for me? Really? Uh, uhm, uhmmm, I...
 | audio       = GambierBay-Wedding.mp3
 }}
@@ -97,10 +114,14 @@ In the Battle of Leyte Gulf, I ended up encountering the main strength of Japan'
 | audio       = GambierBay-PlayerScore.mp3
 }}
 {{ShipquoteKai
-| scenario    =Joining the Fleet
+| scenario    =Joining A Fleet
 | origin      =CVE-73, Gambier Bay, しゅ、出撃します！怖すぎ！
-| translation =CVE-73, Gambier Bay, s-sortieing! So scary!
+| translation =CVE-73, Gambier Bay, s-sortieing! I'm scared!
 | audio       = GambierBay-JoinFleet.mp3
+}}
+{{ShipquoteKai|scenario = Joining A Fleet|form2 = Mk.II
+|origin = CVE-73, new Gambier Bay, 出撃します！もう、怖くなんか…ない！
+|translation = CVE-73, new Gambier Bay, sortieing! I'm not... scared anymore!
 }}
 {{ShipquoteKai
 | scenario    =Equipment 1
@@ -121,6 +142,10 @@ In the Battle of Leyte Gulf, I ended up encountering the main strength of Japan'
 | translation =This one? I see! This is nice! Good!
 | audio       = GambierBayKai-Equip2.mp3
 }}
+{{ShipquoteKai|scenario = Equipment 2|form2 = Mk.II
+|origin = Good! いいですね。
+|translation = Good! This is nice.
+}}
 {{ShipquoteKai
 | scenario    =Equipment 3
 | origin      =I'm... not good...
@@ -134,16 +159,20 @@ In the Battle of Leyte Gulf, I ended up encountering the main strength of Japan'
 | audio       = GambierBay-Supply.mp3
 }}
 {{ShipquoteKai
-| scenario    =Docking (Minor)
-| origin      =I'm sorry. I will go back. はわわ・・・
+| scenario    =Docking Minor
+| origin      =I'm sorry. I will go back. はわわ…
 | translation =I'm sorry. I will go back. Hawawa...
 | audio       = GambierBay-DockMinor.mp3
 }}
 {{ShipquoteKai
-| scenario    =Docking (Major)
-| origin      =あ～もう！無理だもん、こんなの。Admiral, can I go to the hospital for a while?
-| translation =Ahhhh, jeez, I knew I couldn't do this! Admiral, can I go to the hospital for a while?
+| scenario    =Docking Major
+| origin      =あぁ～、もう！無理だもん、こんなの。Admiral, can I go to the hospital for a while?
+| translation =Ahhhh, jeez, I can't do anything like this! Admiral, can I go to the hospital for a while?
 | audio       = GambierBay-DockMajor.mp3
+}}
+{{ShipquoteKai|scenario = Docking Major|form2 = Mk.II
+|origin = あぁ～、もう！流石に無理だもん、こんなの。もう！Admiral, can I stay in the room?
+|translation = Ah, jeez! I really can't do anything like this. Jeez! Admiral, can I stay in the room?
 }}
 {{ShipquoteKai
 | scenario    =Construction
@@ -153,7 +182,7 @@ In the Battle of Leyte Gulf, I ended up encountering the main strength of Japan'
 }}
 {{ShipquoteKai
 | scenario    =Return from Sortie
-| origin      =The mission is completed! ふぅ・・・
+| origin      =The mission is completed! ふぅ…
 | translation =The mission is completed! Whew...
 | audio       = GambierBay-SortieReturn.mp3
 }}
@@ -194,6 +223,10 @@ In the Battle of Leyte Gulf, I ended up encountering the main strength of Japan'
 | translation =Night battle? Maybe I can do it now? No, no, there's definitely no way! I still can't handle the night after all!
 | audio       = GambierBayKai-NightBattle.mp3
 }}
+{{ShipquoteKai|scenario = Night Battle|form2 = Mk.II
+|origin = Night battle? 無理無理無理！うえぇ、じゃなくって…やってみましょうか！
+|translation = Night battle? No way, there's definitely no way! Uhmm, I mean... I'll give it a shot!
+}}
 {{ShipquoteKai
 | scenario    =MVP
 | origin      =Did I help you!? Really? それならよかったです！ふぅ。大変！
@@ -215,12 +248,16 @@ In the Battle of Leyte Gulf, I ended up encountering the main strength of Japan'
 {{ShipquoteKai
 | scenario    =Major Damage
 | origin      =こんなの、絶対無理！I am not good...
-| translation =There's definitely no way to do this! I am not good...
+| translation =There's definitely no way I can keep going! I am not good...
 | audio       = GambierBay-MajorDmg.mp3
+}}
+{{ShipquoteKai|scenario = Major Damage|form2 = Mk.II
+|origin = こんなの、流石に絶対無理！I am not good...
+|translation = I really, really can't keep going now! I am not good...
 }}
 {{ShipquoteKai
 | scenario    =Sunk
-| origin      =だかり無理だって言ったのに！こんあの・・・無理だもん・・・Cold... sadness...
+| origin      =だかり無理だって言ったのに！こんあの…無理だもん…Cold... sadness...
 | translation =I told you there was no way! I told you... this is impossible... cold... sadness...
 | audio       = GambierBay-Sunk.mp3
 }}
@@ -422,6 +459,8 @@ In the Battle of Leyte Gulf, I ended up encountering the main strength of Japan'
 |<gallery>
 KanMusu344CG.png|Base
 KanMusu344CGDmg.png|Base Damaged
+Ship Full Gambier Bay Mk.II.png|Mk.II
+Ship Full Gambier Bay Mk.II Damaged.png|Mk.II Damaged
 </gallery>
 |}
 

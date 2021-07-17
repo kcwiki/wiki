@@ -10,7 +10,7 @@
 | aircon = {{AirControlSystem
 | Map = 3-2
 | Fleet = CL 5DD
-| Route = Random<br/>C-G-H-F-L (Fast fleet)<br/>C-G-F-L (Fast or Fast+ fleet)<br/>C-E-F-L (Fast+ fleet)
+| Route = Random<br/>C-G-H-F-L (Fast fleet)<br/>C-G-F-L (Fast '''or''' Fast+ fleet with 1 ship carrying radar)<br/>C-E-F-L (Fast+ fleet with 1 ship carrying radar '''or''' 100% if Fastest fleet and 4 ships carrying radars)
 | AS = 0
 | Notes = 
 }}
@@ -24,44 +24,46 @@
 |0 -> C = 
 * Meet '''ANY''' of the following requirements:
 ** Fleet contains (F)BB(V) or CV(L/B)
-** Amount of CL = 1 '''AND''' amount of DD ≥ 4
+** Amount of CL = 1 (''exactly 1, no more'') '''AND''' amount of DD ≥ 4
 ** Amount of DD = 6
 
 |C -> A, E/empty, G/storm = 
 * Meeting '''ANY''' of the following '''FORCES''' you to A:
 ** Amount of DD ≤ 3
 ** Amount of (F)BB(V)+CV(B) ≥ 2
-*Go to G if fleet contains slow ship
+*Meet '''ANY''' of the following to go to G 
+**Fleet contains slow ship
+**CL+DD+AO is not 6
+**Fleet has no radars
 *Meet '''ALL''' of the following to go to E
 **Fleet contains 6 ships
 **'''Fastest''' Fleet
 **Fleet contains CL and DD only
 **4 ships carrying radars
-*The following affects your chances of going to E if you don't meet any of the above conditions
-** Fleet contains AO '''AND''' Fast Fleet, ~40% E, 60% G.
-** Fast+ Fleet, ~10% E, ~90% G.
-** Fastest Fleet, ~50% E, 50% G.
-* Otherwise, go to G.
+*Otherwise if fleet contains AO or the speed is '''Fast+''': 40% E, 60% G.
+*Finally, go to G if the fleet doesn't meet any of the above conditions
 
 |E/empty -> D/empty, F/empty =
-* If fleet contains AO, ~25% D, ~75% F.
-* Otherwise, go to F.
+*Go to F if '''Fast+''' fleet
+*Otherwise, random (80% F)
 
 |G/storm -> F/empty, H, J = 
 * Meeting '''ANY''' of the following '''FORCES''' you to J:
 ** Fleet contains CV(B) or SS(V)
 ** Amount of (F)BB(V)+CV(L/B) ≥ 2
-* If Slow Fleet, go to H.
+*Meet '''ANY''' of the following to go to H
+**Slow fleet
+**CL+DD+AO is not 6
+**Fleet has no radars
 *Meet '''ALL''' of the following to go to F
 **Fleet contains 6 ships
 **'''Fast+''' Fleet
 **Fleet contains CL and DD only
 **Fleet carries at least 1 radar
-* The following affects your chances of going to F if not meeting any of the above conditions
-** 6 DD, ~50% F, ~50% H.
-** 1CL + 5DD, ~30% F, ~70% H.
-** Fleet contains AO '''AND''' Fast Fleet, ~40% F, 60% H.
-* Otherwise, go to H.
+*Otherwise, the following affects your chances of going to F if not meeting any of the above conditions
+**Fleet contains AO: 55%
+**Fleet doesn't contain AO: 35%
+
 
 |H -> F/empty = * Amount of CL+DD+AO = 6
 |H -> I/resource = * Do not meet the requirements to go to F.
@@ -77,9 +79,9 @@
 <br/>'''Speed Enhanced Compositions'''
 *By using equipment such as turbines and boilers, you can also avoid '''Node G and H''' (See [[Improving Ship Speed]] for additional details on how to improve your ships speed performance when considering the below options)
 ** '''Fast+''' fleet that consists of '''1CL 5DD''' and is equipped with 1 Radar '''will always bypass node H'''
-** Using a Fleet of ships that can go '''Fastest''' will give them a 50% chance of avoiding going to '''Node G''' and instead take '''Node E'''
+** Using a Fleet that consists of '''1CL 5DD Fastest''' with 4 ships carrying radars '''will always go to node E'''
 *** Ships such as [[Shimakaze]] and [[Tashkent]] can easily reach fastest without lots of boilers, however all other DD will need 2 of New High Pressure, High Speed Boilers to achieve Fastest which can only be achieved through [[Amatsukaze]] or expensive engine improvements.
-**A Fast Fleet consisting of '''1 AO, 1 XX, 4 DD''' has a '''40% chance''' of avoiding '''node H''' and 40% chance of going to '''Node E'''
+**A fast fleet consisting of '''1 AO, 1 XX, 4 DD''' has a '''45% chance''' of avoiding '''node H''' and 40% chance of going to '''Node E'''
 
 <br/>'''Ammo Farming : 1 XX (as long as ship is not a (F)BB(V) or CV(L)(B)'''
 *This map makes it possible to farm ammo which you can earn anywhere between '''50-155 ammo'''. The process to gaining ammo is simple and it is recommended to use a '''throwaway ship''' to save on spending resources while completing the take.
