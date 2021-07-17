@@ -1,0 +1,70 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "8cm High-angle Gun Kai + Additional Machine Guns",
+    _page = false,
+    _id = 220,
+    _japanese_name = "8cm高角砲改+増設機銃",
+    _reading = "8cmれんそうこうかくほう+ぞうせつきじゅう",
+    _type = 4,
+    _icon = 16,
+    _rarity = 4,
+    _firepower = 1,
+    _bombing = false,
+    _torpedo = false,
+    _aa = 7,
+    _armor = false,
+    _asw = false,
+    _shelling_accuracy = 2,
+    _torpedo_accuracy = false,
+    _evasion = 1,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = 1,
+    _flight_cost = false,
+    _flight_range = false,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = 2,
+    _scrap_steel = 3,
+    _scrap_bauxite = 2,
+    _info = "新開発の長8cm高角砲の改良型です。<br/>秋月型に装備された長10cm高角砲の小型軽量化を図った対空用副砲バージョンです。微妙な出来という評価もありますが、新型艦艇装備の防空兵装として期待されていました。本装備は小型軽量に特徴のある超8cm砲を熟成した改良型と単装機銃集中配備の組み合わせによる対空兵装パッケージです。",
+    _wikipedia = "8 cm/60 Type 98 naval gun",
+    _buildable = false,
+    _improvements = {
+        _fuel = 130,
+        _ammo = 80,
+        _steel = false,
+        _bauxite = 300,
+        _products = {
+            [false] = {
+                _ships = {
+                    ["Yahagi/"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+                    ["Yahagi/Kai"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+                    ["Sakawa/"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+                    ["Sakawa/Kai"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+                    ["Suzuya/Kai Ni"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+                    ["Suzuya/Carrier Kai Ni"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+                    ["Kumano/Kai Ni"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = false, Friday = false, Saturday = false},
+                    ["Kumano/Carrier Kai Ni"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = false, Friday = false, Saturday = false},
+                },
+                [0] = {
+                    _development_material = 6,
+                    _development_material_x = 8,
+                    _improvement_material = 4,
+                    _improvement_material_x = 5,
+                    _equipment = {["10cm Twin High-angle Gun Mount"] = 2}
+                },
+                [6] = {
+                    _development_material = 8,
+                    _development_material_x = 15,
+                    _improvement_material = 6,
+                    _improvement_material_x = 8,
+                    _equipment = {["25mm Single Autocannon Mount"] = 2}
+                },
+            },
+        },
+    },
+}

@@ -1,0 +1,300 @@
+<includeonly>{{#if:{{{Title|}}}{{{TitleIcons|}}}|{{{!}} class="wikitable"
+{{!}}-
+! colspan="7" align="center" {{!}}{{{TitleIcons|}}}{{{Title}}} - Suggested Recipes
+{{!}}-
+! colspan="4" align="center" {{!}}Resource Input
+! rowspan="2" align="center" style="width:100px" {{!}}Secretary Ship Type
+! rowspan="2" align="center" style="width:300px" {{!}}Equipment
+! rowspan="2" align="center" style="width:300px" {{!}}Note
+{{!}}-
+! align="center" scope="col" style="width:32px" {{!}}{{Template:Fuel}}
+! align="center" scope="col" style="width:32px" {{!}}{{Template:Ammo}}
+! align="center" scope="col" style="width:32px" {{!}}{{Template:Steel}}
+! align="center" scope="col" style="width:32px" {{!}}{{Template:Bauxite}} |}}
+{{!}}-
+! colspan="7" align="center"  {{!}} {{{Category}}}
+{{!}}-
+{{!}} align="center" rowspan="{{#ifeq:{{{R1Fuel|}}}|{{{R2Fuel}}}|{{#ifeq:{{{R2Fuel|}}}|{{{R3Fuel|}}}|{{#ifeq:{{{R3Fuel|}}}|{{{R4Fuel|}}}|{{#ifeq:{{{R4Fuel|}}}|{{{R5Fuel|}}}|5|4}}|3}}|2}}|1}}" {{!}} {{{R1Fuel}}}
+{{!}} align="center" rowspan="{{#ifeq:{{{R1Ammo|}}}|{{{R2Ammo}}}|{{#ifeq:{{{R2Ammo|}}}|{{{R3Ammo|}}}|{{#ifeq:{{{R3Ammo|}}}|{{{R4Ammo|}}}|{{#ifeq:{{{R4Ammo|}}}|{{{R5Ammo|}}}|5|4}}|3}}|2}}|1}}" {{!}} {{{R1Ammo}}}
+{{!}} align="center" rowspan="{{#ifeq:{{{R1Steel|}}}|{{{R2Steel}}}|{{#ifeq:{{{R2Steel|}}}|{{{R3Steel|}}}|{{#ifeq:{{{R3Steel|}}}|{{{R4Steel|}}}|{{#ifeq:{{{R4Steel|}}}|{{{R5Steel|}}}|5|4}}|3}}|2}}|1}}" {{!}} {{{R1Steel}}}
+{{!}} align="center" rowspan="{{#ifeq:{{{R1Bauxite|}}}|{{{R2Bauxite}}}|{{#ifeq:{{{R2Bauxite|}}}|{{{R3Bauxite|}}}|{{#ifeq:{{{R3Bauxite|}}}|{{{R4Bauxite|}}}|{{#ifeq:{{{R4Bauxite|}}}|{{{R5Bauxite|}}}|5|4}}|3}}|2}}|1}}" {{!}} {{{R1Bauxite}}}
+! align="center" rowspan="{{#ifeq:{{{R1Secretary|}}}|{{{R2Secretary}}}|{{#ifeq:{{{R2Secretary|}}}|{{{R3Secretary|}}}|{{#ifeq:{{{R3Secretary|}}}|{{{R4Secretary|}}}|{{#ifeq:{{{R4Secretary|}}}|{{{R5Secretary|}}}|5|4}}|3}}|2}}|1}}" style="background-{{#switch:{{{R1Secretary|}}} 
+|Torpedo = color:#EEF5FF;" {{!}} {{ToolTip|text-align=default;background-color:#EEF5FF|{{ToolTip|Torpedo|{{colour|red|Does '''NOT''' include '''SSV'''}}}}|'''Secretary: Category Torpedo'''<hr>'''Ship Types included:'''<br>DE, DD, CL, CLT, SS, AP, CT or AO}}
+|Heavy = color:#FFEEEE;" {{!}} {{ToolTip|text-align=default;background-color:#FFEEEE|{{ToolTip|Heavy|{{colour|red|Does '''NOT''' include '''CAV/BBV'''}}}}|'''Secretary: Category Heavy'''<hr>'''Ship Types included:'''<br>CA, FBB, BB, XBB or AR}}
+|Aviation = color:#EEFFCC;" {{!}} {{ToolTip|text-align=default;background-color:#EEFFCC|Aviation|'''Secretary: Category Aviation'''<hr>'''Ship Types included:'''<br>CAV, CVL, BBV, CV, SSV, AV, LHA, CVB or AS}}
+|color:{{{R1SecretaryColour}}};" {{!}} {{ToolTip|text-align=default;background-color:{{{R1SecretaryColour}}}|{{{R1Secretary}}}|'''Secretary: {{{R1Secretary}}}'''<hr>{{{R1SecretaryDescription}}}}}}}
+{{!}} rowspan="{{#ifeq:{{{R1Results|}}}|{{{R2Results}}}|{{#ifeq:{{{R2Results|}}}|{{{R3Results|}}}|{{#ifeq:{{{R3Results|}}}|{{{R4Results|}}}|{{#ifeq:{{{R4Results|}}}|{{{R5Results|}}}|5|4}}|3}}|2}}|1}}" {{!}} {{{R1Results}}}
+{{!}} rowspan="{{#ifeq:{{{R1Notes|}}}|{{{R2Notes}}}|{{#ifeq:{{{R2Notes|}}}|{{{R3Notes|}}}|{{#ifeq:{{{R3Notes|}}}|{{{R4Notes|}}}|{{#ifeq:{{{R4Notes|}}}|{{{R5Notes|}}}|5|4}}|3}}|2}}|1}}" {{!}} {{{R1Notes|}}}
+{{!}}-
+{{#if:{{{R2Fuel|}}}{{{R2Ammo|}}}{{{R2Steel|}}}{{{R2Bauxite|}}}| {{#ifeq:{{{R1Fuel|}}}|{{{R2Fuel}}}||{{!}} align="center" rowspan="{{#ifeq:{{{R2Fuel|}}}|{{{R3Fuel|}}}|{{#ifeq:{{{R3Fuel|}}}|{{{R4Fuel|}}}|{{#ifeq:{{{R4Fuel|}}}|{{{R5Fuel|}}}|4|3}}|2}}|1}}" {{!}} {{{R2Fuel}}} }}{{#ifeq:{{{R1Ammo|}}}|{{{R2Ammo|}}}||<br>
+{{!}} align="center" rowspan="{{#ifeq:{{{R2Ammo|}}}|{{{R3Ammo}}}|{{#ifeq:{{{R3Ammo|}}}|{{{R4Ammo|}}}|{{#ifeq:{{{R4Ammo|}}}|{{{R5Ammo|}}}|4|3}}|2}}|1}}" {{!}} {{{R2Ammo}}} }}{{#ifeq:{{{R1Steel|}}}|{{{R2Steel|}}}||<br>
+{{!}} align="center" rowspan="{{#ifeq:{{{R2Steel|}}}|{{{R3Steel}}}|{{#ifeq:{{{R3Steel|}}}|{{{R4Steel|}}}|{{#ifeq:{{{R4Steel|}}}|{{{R5Steel|}}}|4|3}}|2}}|1}}" {{!}} {{{R2Steel}}} }}{{#ifeq:{{{R1Bauxite|}}}|{{{R2Bauxite|}}}||<br>
+{{!}} align="center" rowspan="{{#ifeq:{{{R2Bauxite|}}}|{{{R3Bauxite}}}|{{#ifeq:{{{R3Bauxite|}}}|{{{R4Bauxite|}}}|{{#ifeq:{{{R4Bauxite|}}}|{{{R5Bauxite|}}}|4|3}}|2}}|1}}" {{!}} {{{R2Bauxite}}} }}{{#ifeq:{{{R1Secretary|}}}|{{{R2Secretary|}}}||<br>
+! align="center" rowspan="{{#ifeq:{{{R2Secretary|}}}|{{{R3Secretary}}}|{{#ifeq:{{{R3Secretary|}}}|{{{R4Secretary|}}}|{{#ifeq:{{{R4Secretary|}}}|{{{R5Secretary|}}}|4|3}}|2}}|1}}" style="background-{{#switch:{{{R2Secretary|}}} 
+|Torpedo = color:#EEF5FF;" {{!}} {{ToolTip|text-align=default;background-color:#EEF5FF|{{ToolTip|Torpedo|{{colour|red|Does '''NOT''' include '''SSV'''}}}}|'''Secretary: Category Torpedo'''<hr>'''Ship Types included:'''<br>DE, DD, CL, CLT, SS, AP, CT or AO}}
+|Heavy = color:#FFEEEE;" {{!}} {{ToolTip|text-align=default;background-color:#FFEEEE|{{ToolTip|Heavy|{{colour|red|Does '''NOT''' include '''CAV/BBV'''}}}}|'''Secretary: Category Heavy'''<hr>'''Ship Types included:'''<br>CA, FBB, BB, XBB or AR}}
+|Aviation = color:#EEFFCC;" {{!}} {{ToolTip|text-align=default;background-color:#EEFFCC|Aviation|'''Secretary: Category Aviation'''<hr>'''Ship Types included:'''<br>CAV, CVL, BBV, CV, SSV, AV, LHA, CVB or AS}}
+|color:{{{R2SecretaryColour}}};" {{!}} {{ToolTip|text-align=default;background-color:{{{R2SecretaryColour}}}|{{{R2Secretary}}}|'''Secretary: {{{R2Secretary}}}'''<hr>{{{R2SecretaryDescription}}}}}}} }}{{#ifeq:{{{R1Results|}}}|{{{R2Results|}}}||<br>
+{{!}} rowspan="{{#ifeq:{{{R2Results|}}}|{{{R3Results}}}|{{#ifeq:{{{R3Results|}}}|{{{R4Results|}}}|{{#ifeq:{{{R4Results|}}}|{{{R5Results|}}}|4|3}}|2}}|1}}" {{!}} {{{R2Results}}} }}{{#ifeq:{{{R1Notes|}}}|{{{R2Notes|}}}||<br>
+{{!}} rowspan="{{#ifeq:{{{R2Notes|}}}|{{{R3Notes}}}|{{#ifeq:{{{R3Notes|}}}|{{{R4Notes|}}}|{{#ifeq:{{{R4Notes|}}}|{{{R5Notes|}}}|4|3}}|2}}|1}}" {{!}} {{{R2Notes|}}} }}
+{{!}}-
+{{#if:{{{R3Fuel|}}}{{{R3Ammo|}}}{{{R3Steel|}}}{{{R3Bauxite|}}}| {{#ifeq:{{{R2Fuel|}}}|{{{R3Fuel}}}||{{!}} align="center" rowspan="{{#ifeq:{{{R3Fuel|}}}|{{{R4Fuel|}}}|{{#ifeq:{{{R4Fuel|}}}|{{{R5Fuel|}}}|3|2}}|1}}" {{!}} {{{R3Fuel}}} }}{{#ifeq:{{{R2Ammo|}}}|{{{R3Ammo|}}}||<br>
+{{!}} align="center" rowspan="{{#ifeq:{{{R3Ammo|}}}|{{{R4Ammo}}}|{{#ifeq:{{{R4Ammo|}}}|{{{R5Ammo|}}}|3|2}}|1}}" {{!}} {{{R3Ammo}}} }}{{#ifeq:{{{R2Steel|}}}|{{{R3Steel|}}}||<br>
+{{!}} align="center" rowspan="{{#ifeq:{{{R3Steel|}}}|{{{R4Steel}}}|{{#ifeq:{{{R4Steel|}}}|{{{R5Steel|}}}|3|2}}|1}}" {{!}} {{{R3Steel}}} }}{{#ifeq:{{{R2Bauxite|}}}|{{{R3Bauxite|}}}||<br>
+{{!}} align="center" rowspan="{{#ifeq:{{{R3Bauxite|}}}|{{{R4Bauxite}}}|{{#ifeq:{{{R4Bauxite|}}}|{{{R5Bauxite|}}}|3|2}}|1}}" {{!}} {{{R3Bauxite}}} }}{{#ifeq:{{{R2Secretary|}}}|{{{R3Secretary|}}}||<br>
+! align="center" style="background-color:#EEFFCC;" rowspan="{{#ifeq:{{{R3Secretary|}}}|{{{R4Secretary}}}|{{#ifeq:{{{R4Secretary|}}}|{{{R5Secretary|}}}|3|2}}|1}}" {{!}} {{{R3Secretary}}} }}{{#ifeq:{{{R2Results|}}}|{{{R3Results|}}}||<br>
+{{!}} rowspan="{{#ifeq:{{{R3Results|}}}|{{{R4Results}}}|{{#ifeq:{{{R4Results|}}}|{{{R5Results|}}}|3|2}}|1}}" {{!}} {{{R3Results}}} }}{{#ifeq:{{{R2Notes|}}}|{{{R3Notes|}}}||<br>
+{{!}} rowspan="{{#ifeq:{{{R3Notes|}}}|{{{R4Notes}}}|{{#ifeq:{{{R4Notes|}}}|{{{R5Notes|}}}|3|2}}|1}}" {{!}} {{{R3Notes|}}} }}
+{{!}}-
+{{#if:{{{R4Fuel|}}}{{{R4Ammo|}}}{{{R4Steel|}}}{{{R4Bauxite|}}}| {{#ifeq:{{{R3Fuel|}}}|{{{R4Fuel}}}||{{!}} align="center" rowspan="{{#ifeq:{{{R4Fuel|}}}|{{{R5Fuel|}}}|2|1}}" {{!}} {{{R4Fuel}}} }}{{#ifeq:{{{R3Ammo|}}}|{{{R4Ammo|}}}||<br>
+{{!}} align="center" rowspan="{{#ifeq:{{{R4Ammo|}}}|{{{R5Ammo}}}|2|1}}" {{!}} {{{R4Ammo}}} }}{{#ifeq:{{{R3Steel|}}}|{{{R4Steel|}}}||<br>
+{{!}} align="center" rowspan="{{#ifeq:{{{R4Steel|}}}|{{{R5Steel}}}|2|1}}" {{!}} {{{R4Steel}}} }}{{#ifeq:{{{R3Bauxite|}}}|{{{R4Bauxite|}}}||<br>
+{{!}} align="center" rowspan="{{#ifeq:{{{R4Bauxite|}}}|{{{R5Bauxite}}}|2|1}}" {{!}} {{{R4Bauxite}}} }}{{#ifeq:{{{R3Secretary|}}}|{{{R4Secretary|}}}||<br>
+! align="center" style="background-color:#EEFFCC;" rowspan="{{#ifeq:{{{R4Secretary|}}}|{{{R5Secretary}}}|2|1}}" {{!}} {{{R4Secretary}}} }}{{#ifeq:{{{R3Results|}}}|{{{R4Results|}}}||<br>
+{{!}} rowspan="{{#ifeq:{{{R4Results}}}|{{{R5Results}}}|2|1}}" {{!}} {{{R4Results}}} }}{{#ifeq:{{{R3Notes|}}}|{{{R4Notes|}}}||<br>
+{{!}} rowspan="{{#ifeq:{{{R4Notes}}}|{{{R5Notes}}}|2|1}}" {{!}} {{{R4Notes|}}} }}
+{{!}}-
+{{#if:{{{R5Fuel|}}}{{{R5Ammo|}}}{{{R5Steel|}}}{{{R5Bauxite|}}}| {{#ifeq:{{{R4Fuel|}}}|{{{R5Fuel|}}}||{{!}} align="center" {{!}} {{{R5Fuel}}} }}{{#ifeq:{{{R4Ammo|}}}|{{{R5Ammo|}}}||<br>
+{{!}} align="center" {{!}} {{{R5Ammo}}} }}{{#ifeq:{{{R4Steel|}}}|{{{R5Steel|}}}||<br>
+{{!}} align="center" {{!}} {{{R5Steel}}} }}{{#ifeq:{{{R4Bauxite|}}}|{{{R5Bauxite|}}}||<br>
+{{!}} align="center" {{!}} {{{R5Bauxite}}} }}{{#ifeq:{{{R4Secretary|}}}|{{{R5Secretary|}}}||<br>
+! align="center" style="background-color:#EEFFCC;" {{!}} {{{R5Secretary}}} }}{{#ifeq:{{{R4Results|}}}|{{{R5Results|}}}||<br>
+{{!}} {{{R5Results}}} }}{{#ifeq:{{{R4Notes|}}}|{{{R5Notes|}}}||<br>
+{{!}} {{{R5Notes|}}} }}
+{{!}}-
+}} }} }} }}</includeonly><noinclude>
+
+==Testing table==
+
+{{DevelopmentRecipes
+|TitleIcons={{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+|Title=Aircraft Development
+|Category= Naval Aircraft
+
+|R1Fuel= 10
+|R1Ammo= 20
+|R1Steel= '''30'''
+|R1Bauxite= 40
+|R1Secretary= A
+|R1SecretaryColour= 
+|R1Results= 16% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}<br>4% {{Equipment/Link|Ryuusei}}<br>2% {{Equipment/Link|Ryuusei Kai}}
+|R1Notes= '''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}'''
+
+|R2Fuel= 10
+|R2Ammo= 20
+|R2Steel= 30
+|R2Bauxite= 50
+|R2Secretary= Italian DD/CA/BB
+|R2SecretaryColour= Khaki
+|R2SecretaryDescription= '''[[:Category:Maestrale Class|''Maestrale''-class]]'''<br>{{Ship/Banner|Maestrale|small=true}}{{Ship/Banner|Grecale|small=true}}{{Ship/Banner|Libeccio|small=true}}{{Ship/Banner|Scirocco|small=true}}<hr> '''[[:Category:Zara Class|''Zara''-class]]'''<br>{{Ship/Banner|Zara|small=true}}{{Ship/Banner|Pola|small=true}}<hr> '''[[:Category:Vittorio Veneto Class|''Vittorio Veneto''-class]]'''<br>{{Ship/Banner|Littorio|small=true}}{{Ship/Banner|Roma|small=true}}
+|R2Results= +<br>4% {{Equipment/Link|Saiun}}
+|R2Notes= '''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}} & {{Template:YellowPlane}}'''{{Equipment/Link|Saiun}}
+
+|R3Fuel= 10
+|R3Ammo= 30
+|R3Steel= 30
+|R3Bauxite= '''130'''
+|R3Secretary= Avi
+|R3Results= +<br>2% {{Equipment/Link|Type 2 Reconnaissance Aircraft}}
+|R3Notes= All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+
+|R4Fuel= 10
+|R4Ammo= 55
+|R4Steel= 60
+|R4Bauxite= '''170'''
+|R4Secretary= Avia
+|R4Results= +<br>2% {{Equipment/Link|Type 2 Reconnaissance Aircraft}}
+|R4Notes= All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+
+|R5Fuel= 10
+|R5Ammo= 30
+|R5Steel= 30
+|R5Bauxite= '''170'''
+|R5Secretary= Aviat
+|R5Results= +<br>2% {{Equipment/Link|Type 2 Reconnaissance Aircraft}}
+|R5Notes= All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+}}
+{{DevelopmentRecipes
+|TitleIcons=
+|Title=
+|Category= 
+
+|R1Fuel= 20
+|R1Ammo= 20
+|R1Steel= '''30'''
+|R1Bauxite= 40
+|R1Secretary= Torpedo
+|R1Results= 16% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}<br>4% {{Equipment/Link|Ryuusei}}<br>2% {{Equipment/Link|Ryuusei Kai}}
+|R1Notes= '''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}'''
+
+|R2Fuel= 10
+|R2Ammo= 20
+|R2Steel= '''30'''
+|R2Bauxite= 50
+|R2Secretary= Heavy
+|R2Results= +<br>4% {{Equipment/Link|Saiun}}
+|R2Notes= '''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}} & {{Template:YellowPlane}}'''{{Equipment/Link|Saiun}}
+
+|R3Fuel= 30
+|R3Ammo= 30
+|R3Steel= 30
+|R3Bauxite= '''130'''
+|R3Secretary= Aviation
+|R3Results= +<br>2% {{Equipment/Link|Type 2 Reconnaissance Aircraft}}
+|R3Notes= All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+}}
+<!--                                                                     AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                                                                       -->
+{{DevelopmentRecipes
+|TitleIcons=
+|Title=
+|Category= 
+
+|R1Fuel= 20
+|R1Ammo= 20
+|R1Steel= '''30'''
+|R1Bauxite= 40
+|R1Secretary= British BB
+|R1SecretaryColour= #AAFFCC
+|R1SecretaryDescription= {{Ship/Banner|Warspite}}<br>{{Ship/Banner|Nelson}}
+|R1Results= 4% {{Equipment/Link|Spitfire Mk.I}}
+|R1Notes= 
+}}
+{{DevelopmentRecipes
+|TitleIcons=
+|Title=
+|Category= 
+
+|R1Fuel= 10
+|R1Ammo= 10
+|R1Steel= 10
+|R1Bauxite= '''20'''
+|R1Secretary= Italian CA/BB
+|R1SecretaryColour= #AAFFCC
+|R1SecretaryDescription= '''[[:Category:Zara Class|''Zara''-class]]'''<br>{{Ship/Banner|Zara}}{{Ship/Banner|Pola}}<hr> '''[[:Category:Vittorio Veneto Class|''Vittorio Veneto''-class]]'''<br>{{Ship/Banner|Littorio}}{{Ship/Banner|Roma}}
+|R1Results= 72% Penguin<br>'''4% {{Equipment/Link|Ro.43 Reconnaissance Seaplane}}'''
+|R1Notes= 
+
+|R2Fuel= 10
+|R2Ammo= 30
+|R2Steel= 10
+|R2Bauxite= '''31'''
+|R2Secretary= Italian DD
+|R2SecretaryColour= #AAFFCC
+|R2SecretaryDescription= '''[[:Category:Maestrale Class|''Maestrale''-class]]'''<br>{{Ship/Banner|Maestrale}}<br>{{Ship/Banner|Grecale}}<br>{{Ship/Banner|Libeccio}}<br>{{Ship/Banner|Scirocco}}
+|R2Results= 34% Penguin<br>'''2% {{Equipment/Link|Ro.43 Reconnaissance Seaplane}}'''<br>2% {{Equipment/Link|Type 3 Active Sonar}}<!--<br>8% {{Equipment/Link|Type 93 Passive Sonar}}--><br>2% {{Equipment/Link|Type 3 Depth Charge Projector}}<!--<br>8% {{Equipment/Link|Type 94 Depth Charge Projector}}<br>4% {{Equipment/Link|Type 95 Depth Charge}}-->
+|R2Notes= Lower chance for Ro.43<br>All {{Sonar}}{{DepthCharge}}.
+}}
+|}
+
+
+
+
+==[[Development/Common Recipes]]==
+{{DevelopmentRecipes
+|TitleIcons={{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+|Title=Aircraft Development
+|Category= Naval Aircraft
+
+|R1Fuel= 20
+|R1Ammo= 60
+|R1Steel= 10
+|R1Bauxite= '''100'''
+|R1Secretary= Aviation
+|R1Results= 16% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}<br>4% {{Equipment/Link|Ryuusei}}<br>2% {{Equipment/Link|Ryuusei Kai}}
+|R1Notes= '''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}'''
+
+|R2Fuel= 20
+|R2Ammo= 60
+|R2Steel= 10
+|R2Bauxite= '''110'''
+|R2Secretary= Aviation
+|R2Results= +<br>4% {{Equipment/Link|Saiun}}
+|R2Notes= '''All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}} & {{Template:YellowPlane}}'''{{Equipment/Link|Saiun}}
+
+|R3Fuel= 30
+|R3Ammo= 60
+|R3Steel= 10
+|R3Bauxite= '''130'''
+|R3Secretary= Aviation
+|R3Results= +<br>2% {{Equipment/Link|Type 2 Reconnaissance Aircraft}}
+|R3Notes= All {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}}
+}}
+{{DevelopmentRecipes
+|Category= 
+|R1Fuel= 20
+|R1Ammo= 90
+|R1Steel= 60
+|R1Bauxite= '''100'''
+|R1Secretary= Aviation
+|R1Results= 10% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}<br>4% {{Equipment/Link|Ryuusei}}<br>2% {{Equipment/Link|Ryuusei Kai}}<br>'''6% {{Equipment/Link|Type 3 Shell}}'''
+|R1Notes= Chance for {{Template:GreenAmmo}}{{Equipment/Link|Type 3 Shell}}
+}}
+{{DevelopmentRecipes
+|Category= 
+|R1Fuel= 20
+|R1Ammo= 30
+|R1Steel= 10
+|R1Bauxite= '''90'''
+|R1Secretary= Aviation
+|R1Results= 32% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}
+|R1Notes= Focus on {{Template:RedPlane}}&{{Template:GreenPlane}}
+}}
+{{DevelopmentRecipes
+|Category= 
+|R1Fuel= 20
+|R1Ammo= 30
+|R1Steel= 10
+|R1Bauxite= '''40'''
+|R1Secretary= Aviation
+|R1Results= 42% Penguin<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}
+|R1Notes= Focus on {{Template:RedPlane}}
+}}
+{{DevelopmentRecipes
+|Category= 
+|R1Fuel= 20
+|R1Ammo= 20
+|R1Steel= 10
+|R1Bauxite= '''90'''
+|R1Secretary= Aviation
+|R1Results= 48% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}
+|R1Notes= Focus on {{Template:GreenPlane}}
+}}
+{{DevelopmentRecipes
+|Category= 
+
+|R1Fuel= 10
+|R1Ammo= 10
+|R1Steel= '''20'''
+|R1Bauxite= 20
+|R1Secretary= Aviation
+|R1Results= 58/60% Penguin<br>2% {{Equipment/Link|Type 0 Observation Seaplane}}
+|R1Notes= (Fuel/Steel wins in max resource ties,<br> therefore not needing 21 of either)
+
+|R2Fuel= '''20'''
+|R2Ammo= 10
+|R2Steel= 10
+|R2Bauxite= 20
+|R2Secretary= Aviation
+|R2Results= 58/60% Penguin<br>2% {{Equipment/Link|Type 0 Observation Seaplane}}
+|R2Notes= (Fuel/Steel wins in max resource ties,<br> therefore not needing 21 of either)
+}}
+{{DevelopmentRecipes
+|Category= <br>{{Template:Land-based Attack Aircraft}}Land-based Attack Aircraft<br><br>
+
+|R1Fuel= 240
+|R1Ammo= 260
+|R1Steel= 10
+|R1Bauxite= '''261'''
+|R1Secretary= Aviation
+|R1Results= 10% Penguin<br>2% {{Equipment/Link|Prototype Reppuu Late Model}}<br>2% {{Equipment/Link|Shiden Kai 2}}<br>2% {{Equipment/Link|Suisei Model 12A}}<br>2% {{Equipment/Link|Type 0 Fighter Model 62 (Fighter-bomber)}}<br>4% {{Equipment/Link|Ryuusei}}<br>2% {{Equipment/Link|Ryuusei Kai}}<br>'''8% {{Equipment/Link|Type 96 Land-based Attack Aircraft}}'''
+|R1Notes= Recipe for all {{Template:GreenPlane}}{{Template:RedPlane}}{{Template:BluePlane}}{{Template:YellowPlane}} & <br>'''{{Template:Land-based Attack Aircraft}} {{Equipment/Link|Type 96 Land-based Attack Aircraft}}'''
+
+|R2Fuel= 240
+|R2Ammo= 260
+|R2Steel= 60
+|R2Bauxite= '''261'''
+|R2Secretary= Aviation
+|R2Results= +<br>6% {{Equipment/Link|Type 3 Shell}}
+|R2Notes= +<br>Chance for {{Template:GreenAmmo}}{{Equipment/Link|Type 3 Shell}}
+}}
+|}

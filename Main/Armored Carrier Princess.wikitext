@@ -1,38 +1,11 @@
 ==Info==
-{|
-|
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo2
-| name=Armored Carrier Princess
-| japanesename=装甲空母姫
-| id=545
-| image=[[File:545_Armored_Carrier_Princess.png|280px]]
-| color=red
-| type=Aviation Battleship
-| class=Abyssal
-| hp=270
-| firepower=90
-| armor=90
-| torpedo=90
-| evasion=20
-| AA=70
-| aircraft=192
-| speed=Fast
-| LOS=80
-| ASW=0
-| range=Medium
-| luck=20
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|Abyssal Fighter Mk.II]]
-| slot2=[[List_of_equipment_used_by_the_enemy|Abyssal Torpedo Bomber Mk.II]]
-| slot3=[[List_of_equipment_used_by_the_enemy|16inch Twin Cannon]]
-| slot4=-Locked-
-| space1=96
-| space2=96
-| space3=0
-| space4=-}}
-|}
+{{EnemyShipInfoKai|Armored Carrier Princess/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Armored Carrier Princess/}}
+
 ==Quotes==
 
 {{Abyssquote
@@ -73,10 +46,15 @@ Gh!
 | EN3=I will...I will...come back once more...and be resurrected...
 | Note3=}}
 
+== Character ==
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''':
+
 ==Trivia==
 *Boss for Map 4-4 when Boss HP is under 25% and for 5-2.
 *Also appears in 5-4. 
-*Shares voice lines with [[Southern War Princess]]
+*Shares voice lines with [[Southern War Princess]].
+*[[Spring 2015 Event]] E-2 Boss.
+*Please note that she is a BBV not carrier.
 {{Enemyshiplist}}
 [[Category:Bosses]]
 [[Category:Enemy Vessel]]

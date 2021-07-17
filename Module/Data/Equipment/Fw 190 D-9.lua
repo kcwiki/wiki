@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Fw 190 D-9",
+  _id = 354,
+  _japanese_name = "Fw190 D-9",
+  _reading = nil,
+  _type = 48, -- 22,39,48,38,37
+  _icon = 38,
+  _rarity = 5,
+  _firepower = 2,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 12,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = 3,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 8,
+  _flight_range = 3,
+  _special = false,
+  _scrap_fuel = 3,
+  _scrap_ammo = 4,
+  _scrap_steel = false,
+  _scrap_bauxite = 9,
+  _buildable = false,
+  _info = "かの国で開発/量産された強力で信頼性の高い戦闘機Fw190シ<br>リーズ。タンク博士の設計により誕生し、フォッケウルフの名<br>で親しまれた名機です。徐々に連合軍の新鋭機と物量に圧され<br>た同機の性能向上型です。崩壊しつつある自国防空、そしてラ<br>インの護り作戦などに投入されました。さらにFw190は、後<br>継改良型のTa152へと発展していきます。",
+}

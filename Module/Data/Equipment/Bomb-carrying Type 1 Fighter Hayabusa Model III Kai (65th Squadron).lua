@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (65th Squadron)",
+  _id = 224,
+  _japanese_name = "爆装一式戦 隼III型改(65戦隊)",
+  _reading = "ばくそういっしきせん はやぶさIIIがたかい(65せんたい)",
+  _type = 47, -- 22,39,47,44,27
+  _icon = 44,
+  _rarity = 4,
+  _firepower = 3,
+  _bombing = 8,
+  _torpedo = false,
+  _aa = 6,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = 1,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 4,
+  _flight_range = 5,
+  _special = false,
+  _scrap_fuel = 1,
+  _scrap_ammo = 3,
+  _scrap_steel = false,
+  _scrap_bauxite = 5,
+  _buildable = false,
+  _info = "陸軍主力戦闘機、一式戦「隼」、その爆装機を装備する飛行戦隊です。<br>電波欺瞞紙、現代でいうチャフを装備した爆装一式戦などを駆使して、苦しい戦局の中、通常戦闘で奮戦しました。",
+}

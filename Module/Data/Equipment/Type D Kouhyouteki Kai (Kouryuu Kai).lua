@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Type D Kouhyouteki Kai (Kouryuu Kai)",
+  _id = 364,
+  _japanese_name = "甲標的 丁型改(蛟龍改)",
+  _reading = "こうひょうてき ていがたかい(こうりゅうかい)",
+  _type = 22, -- 2,4,22,5,0
+  _icon = 5,
+  _rarity = 4,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = 17,
+  _aa = false,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 2,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = 2,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = 4,
+  _scrap_ammo = 9,
+  _scrap_steel = 12,
+  _scrap_bauxite = 4,
+  _buildable = false,
+  _info = "独自開発された「特殊潜航艇」、その後期改良型のさらなる発展型です。従来の甲標的を大型化、航続距離や通信能力を強化、搭乗員も5名に拡張、艇首に45cm魚雷発射管2基を備えるミニ潜水艦に近づいた強化発展型甲標的です。本来はその戦局から艦上での運用を前提の設計でしたが、改良型の本艇は同運用に対応した水上艦での積極運用が可能です。",
+}

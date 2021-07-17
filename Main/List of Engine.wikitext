@@ -1,53 +1,18 @@
 *Green : Outstanding
-
 *Yellow : Above average
-{| class="wikitable" style="text-align: center;"
-|-
-!#
-!Rank
-!Name
-!Subtype
-![[file:icon_Gun.png|Firepower]]
-![[file:icon_Torpedo.png|Torpedo Attack]]
-![[file:icon_Dive.png|Dive Bomber Attack]]
-![[file:icon_AA.png|Anti-Air]]
-![[file:icon_ASW.png|Anti-Submarine]]
-![[file:icon_LOS.png|View Range]]
-![[file:icon_Hit.png|Accuracy]]
-![[file:icon_Evasion.png|Evasion]]
-!Classes
-!Craftable
-!Notes
-|-
-| 033
-| ☆
-| style="white-space:nowrap;text-align:left;" |[[Improved Steam Turbine]]<br />{{Template:Turbine}}改良型艦本式タービン
-| rowspan="3" |None
-| rowspan="3" |0
-| rowspan="3" |0
-| rowspan="3" |0
-| rowspan="3" |0
-| rowspan="3" |0
-| rowspan="3" |0
-| rowspan="3" |0
-| 6
-| rowspan="3" |All
-| rowspan="2" |Yes
-|
-|-
-| 034
-| ☆☆
-| style="white-space:nowrap;text-align:left;" |[[Enhanced Steam Boiler]]<br />{{Template:Turbine}}強化型艦本式缶
-| style="background-color: gold;" |10
-| style="white-space:nowrap;text-align:left;" |[[Amatsukaze]] stock equipment.<br />[[Mutsuki]] Kai Ni and [[Kisaragi]] Kai Ni stock equipment.
-|-
-| 087
-| ☆<br />☆☆
-| style="white-space:nowrap;text-align:left;" |[[New High Pressure-Temperature Steam Boiler|New High Pressure-Temperature<br />Steam Boiler]]<br />{{Template:Turbine}}新型高温高圧缶
-| style="background-color: lime;" |13
-| No
-| style="white-space:nowrap;text-align:left;" |Spring 2014 event reward.<br />[[Amatsukaze]] Kai stock equipment.
-|}
+{{EquipmentComparisonKai
+|iterator = equipmentByType|type = 17
+|evasion_outstanding = 12
+|evasion_good = 9
+}}
+
+==Notes==
+Ship girl speed can be further increased to ''Fast'', ''Fast+'', or ''Fastest'' by using a combination of {{Equipment/Link|Improved Kanhon Type Turbine}}, {{Equipment/Link|Enhanced Kanhon Type Boiler}} or {{Equipment/Link|New Model High Temperature High Pressure Boiler}}. See the following tables for details.
+
+'''''All synergies listed below already include 1 {{Equipment/Link|Improved Kanhon Type Turbine}} because it is an absolute requirement for speed ups.'''''
+{{:Partials/Speed system|collapsed=true}}
+
 ==See Also==
+[[Improving Ship Speed]]
 {{Equipmentlist}}
 [[Category:Engines]]

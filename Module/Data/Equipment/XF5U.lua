@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "XF5U",
+  _id = 375,
+  _japanese_name = "XF5U",
+  _reading = "エックス,エフ,ファイブ,ユー",
+  _type = 6, -- 3,5,6,6,38
+  _icon = 6,
+  _rarity = 6,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 12,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = 1,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 12,
+  _flight_range = 4,
+  _special = false,
+  _scrap_fuel = 3,
+  _scrap_ammo = 4,
+  _scrap_steel = 1,
+  _scrap_bauxite = 14,
+  _buildable = false,
+  _info = "米海軍が名機「F4U」を生み出した航空機メーカーに発注した円盤翼を持つ独特な機体の試作新型艦上戦闘機です。「Flying Pancake」とも呼ばれた革新的な機体は、STOL性と高い運動性能、そして頑丈な機体強度を持っています。ぜひ米空母に搭載して、幻の戦闘配備を！",
+}

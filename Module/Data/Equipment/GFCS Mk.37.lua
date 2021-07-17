@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "GFCS Mk.37",
+  _id = 307,
+  _japanese_name = "GFCS Mk.37",
+  _reading = nil,
+  _type = 12, -- 5,8,12,11,0
+  _icon = 11,
+  _rarity = 4,
+  _firepower = 2,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 7,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = 9,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = 6,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = false,
+  _scrap_steel = 20,
+  _scrap_bauxite = 24,
+  _buildable = false,
+  _info = "米国で開発・実戦配備された射撃管制システムです。<br>機械式コンピュータを採用し、射撃指揮レーダー連動の発展性を有する本射撃指揮システムは、駆逐艦などの小型艦艇だけでなく、戦艦や巡洋艦などの大型艦にも幅広く採用されました。レトロフューチャーな独特の外観も魅力です。",
+}

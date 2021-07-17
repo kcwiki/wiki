@@ -1,22 +1,4 @@
-{{Template:Equipmentinfo
-|name = Bf109 T Kai
-|id = 158
-|japanesename =Bf109 T 改
-|icon = {{GreenPlane}}
-|type = Carrier-Based Fighter
-|effect = {{Firepower}}+1, {{AA}}+8, {{Evasion}}+4
-|radius = 2
-|scrap = {{Fuel}}1, {{Ammo}}2, {{Bauxite}}6
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment158-1.png
-Equipment158-2.png
-Equipment158-3.png
-Equipment158-4.png
-</gallery>
-|LC = lime
-|CVL = lime
-|CV = lime
-|CVB = lime}}
+{{EquipmentInfo|158}}
 
 ==Introduction==
 かの国で開発/量産された主力戦闘機Bf109シリーズ。<br>
@@ -39,7 +21,13 @@ Equipment158-4.png
 
 </div></div>
 
-== Historical Information ==
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2015-11-18:''' '''Implemented'''
+</div></div>
+
+==Trivia==
 The lengthy development of the ''Graf Zeppelin'' meant that several versions of the Bf 109 were tested with carrier-landing equipment.  The Bf 109 T-1, based on the Bf 109 E, was eventually produced in small numbers before work on the ship was halted in 1940.  The Bf 109 T-2 was effectively the same aircraft minus the landing equipment, and they were used in Norway (where their short takeoff roll was useful) until the end of 1941.
 
 ==See Also==

@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Type C Kouhyouteki",
+  _id = 309,
+  _japanese_name = "甲標的 丙型",
+  _reading = "こうひょうてきへいがた",
+  _type = 22, -- 2,4,22,5,0
+  _icon = 5,
+  _rarity = 3,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = 14,
+  _aa = false,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 1,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = 2,
+  _scrap_ammo = 8,
+  _scrap_steel = 8,
+  _scrap_bauxite = 3,
+  _buildable = false,
+  _info = "独自開発された「特殊潜航艇」、その後期改良型です。<br>甲型を拡張、発電用ディーゼルエンジンを搭載した乙型をさらに改良熟成しました。甲標的母艦や新型の水上機母艦、そして潜水艦などで運用可能です。元来は艦隊決戦を補助する攻撃型兵器でしたが、後期の戦域では防御用兵器としても運用され、反復出撃を実現、奮戦健闘した部隊も存在します。",
+}

@@ -1,0 +1,62 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "35.6cm Twin Gun Mount (Dazzle Camouflage)",
+	_page = false,
+	_id = 104,
+	_japanese_name = "35.6cm連装砲(ダズル迷彩)",
+	_reading = "35.6せんちれんそうほう(だずるめいさい)",
+	_type = 3,
+	_icon = 3,
+	_rarity = 3,
+	_firepower = 15,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 5,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = false,
+	_evasion = 1,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = 3,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = 10,
+	_scrap_steel = 15,
+	_scrap_bauxite = false,
+	_info = "金剛型高速戦艦「榛名」の前部主砲の最終形態です。<br>あまり効果がなかったといわれていますが、縦縞ゼブラ模様のダズル迷彩を施しています。三式弾を装填して敵機が跳梁する空を睨み、母港呉と動けない残存艦隊の防戦に努めました。",
+	_wikipedia = "Vickers 14 inch/45 naval gun",
+	_buildable = false,
+	_gun_fit_group = nil,
+	_improvements = {
+		_fuel = 30,
+		_ammo = 250,
+		_steel = 300,
+		_bauxite = 30,
+		_products = {
+			[false] = {
+				_ships = {
+					["Haruna/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = false, Friday = false, Saturday = true},
+				},
+				[0] = {
+					_development_material = 3,
+					_development_material_x = 4,
+					_improvement_material = 2,
+					_improvement_material_x = 3,
+					_equipment = {["35.6cm Twin Gun Mount"] = 1},
+				},
+				[6] = {
+					_development_material = 4,
+					_development_material_x = 5,
+					_improvement_material = 3,
+					_improvement_material_x = 5,
+					_equipment = {["35.6cm Twin Gun Mount"] = 2},
+				},
+			},
+		},
+	},
+}

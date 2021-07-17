@@ -116,7 +116,7 @@ The "New Type" Cut-ins are the Cut-ins introduced with the implementation of [[S
 Do note that Carrier Cut-ins require Night Operation capabilities either passively (granted by a specific remodel) or granted by equipping a {{EquipmentLink|Night Operation Aviation Personnel}}. Carriers that can perform Surface Shelling attacks at night '''will not''' perform Carrier Cut-ins without said Night Operation capabilities.
 
 If not applicable, ships will skip rolling for "New Type" Cut-ins altogether and only roll for Original Types instead.
-
+{{clear}}
 {| class="wikitable" style="margin: auto;"
 |-
 !Attack Type
@@ -125,43 +125,43 @@ If not applicable, ships will skip rolling for "New Type" Cut-ins altogether and
 ![[Damage_Calculation|Pre-cap]]<br/>Damage<br/>Modifier
 !Hits
 |-
-!style="background-color:gold" rowspan="2"|Submarine Cut-ins
-|nowrap|{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}
-|rowspan="2"|With [[Partials/New Submarine Torpedo Cut-in|New Submarine Torpedoes]]
-|1.6
-|2
-|-
-|nowrap|{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}{{SubmarineRadar}}
-|1.75
-|2
-|-
-!style="background-color:#ff7f50" rowspan="6"|Destroyer Cut-ins
+!style="background-color:#ff7f50" rowspan="8"|Destroyer Cut-ins
 |rowspan="3" nowrap|{{RedGunLight}}{{TorpedoWeapon}}{{Radar}}
 |
 |1.3
-|1
+|2/1
 |-
 |With {{EquipmentLink|12.7cm Twin Gun Mount Model D Kai 2|text=12.7cm Model D Kai 2}}
 |{{tooltip|1.625|1.3 * 1.25}}
-|1
+|2/1
 |-
 |With {{EquipmentLink|12.7cm Twin Gun Mount Model D Kai 2|text=12.7cm Model D Kai 3}}
 |{{tooltip|1.706|1.3 * 1.25 * 1.05}}
-|1
+|2/1
 |-
 |rowspan="3" nowrap|{{TorpedoWeapon}}{{SurfaceShipPersonnel}}{{Radar}}
 |Synergy with evasion bonus
 |1.2
-|1
+|2/1
 |-
 |With {{EquipmentLink|12.7cm Twin Gun Mount Model D Kai 2|text=12.7cm Model D Kai 2}}
 |{{tooltip|1.5|1.2 * 1.25}}
-|1
+|2/1
 
 |-
 |With {{EquipmentLink|12.7cm Twin Gun Mount Model D Kai 2|text=12.7cm Model D Kai 3}}
 |{{tooltip|1.575|1.2 * 1.25 * 1.05}}
-|1
+|2/1
+|-
+|nowrap|{{TorpedoWeapon}}{{Drum}}{{SurfaceShipPersonnel}}
+|Requires {{EquipmentLink|Torpedo Squadron Skilled Lookouts|text=Torpedo Lookout}}
+|1.3
+|2/1
+|-
+|nowrap|{{TorpedoWeapon}}{{TorpedoWeapon}}{{SurfaceShipPersonnel}}
+|Requires {{EquipmentLink|Torpedo Squadron Skilled Lookouts|text=Torpedo Lookout}}
+|1.5
+|2/1
 |-
 !style="background-color:#81c784" rowspan="13"|{{color|white|Carrier Cut-ins}}
 |nowrap|{{NightFighterEn}}{{AnyBomber}}{{AnyBomber}}
@@ -279,6 +279,16 @@ In contrast with the "New Type" Cut-ins, Original Cut-ins are only rolled once, 
 |nowrap|{{TorpedoWeapon}}{{TorpedoWeapon}}
 | + Any on the remaining slots
 |1.5
+|2
+|-
+!style="background-color:gold" rowspan="2"|Submarine Cut-ins
+|nowrap|{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}
+|rowspan="2"|With '''Late Model Torpedo Bows ONLY'''
+|1.6
+|2
+|-
+|nowrap|{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}{{SubmarineRadar}}
+|1.75
 |2
 |}
 

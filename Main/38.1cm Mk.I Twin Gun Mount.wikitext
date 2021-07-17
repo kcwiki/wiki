@@ -1,42 +1,34 @@
-{{Template:Equipmentinfo
-|name = 38.1cm Mk.I Twin Gun Mount
-|id = 190
-|japanesename = 38.1cm Mk.I連装砲
-|icon = {{Template:RedGunHeavy}}
-|type = Main Cannon, Heavy
-|effect =  {{Firepower}}+18, {{AA}}+1, {{Hit}}+1, {{Range}} Long
-|scrap =  {{Ammo}}11, {{Steel}}18
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment190-1.png
-190-2.png
-190-3.png
-190-4.png
-</gallery>
-|BB = lime
-|FASTBB = lime
-|BBV = lime}}
+{{Template:EquipmentInfo|190}}
 
 ==Introduction==
 紅茶の国の戦艦主兵装用に開発された連装大口径主砲です。
 同国ならではの堅実な作りの主砲ですが、後期にはレーダーシステムの連動した射撃管制装置も開発されました。
 
-A large calibre main battery developed for the country of tea's main battleships.
-A reliable main gun made in that country, it was later linked with a radar and fire control system.
+''A large caliber main battery developed for the country of tea's main battleships.''<br>
+''A reliable main gun made in that country, it was later linked with a radar and fire control system.''<br>
 
-==Note==
+==Notes==
 <div class="mw-collapsible"><h3>How To Obtain</h3>
 <div class="mw-collapsible-content">
-'''Stock equipment''' of {{Ship/Link|Warspite Kai}}, {{Ship/Link|Warspite}}
+'''Stock equipment''' of {{Ship/Link|Warspite}}, {{Ship/Link|Warspite Kai}}
 
 ''Ranking reward for:''
 * Aug 2016: 101-500
 
 </div></div>
 
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2016-08-12:''' '''Implemented'''
+* '''2016-09-16:''' Became '''improvable'''
+* '''2016-10-05:''' Became '''upgradeable''' to {{Equipment/Link|38.1cm Mk.I/N Twin Gun Mount Kai}}
+</div></div>
+
 ==Akashi's Improvement Arsenal==
 {{AkashiWorkshop}}
 {{AkashiWorkshopLine
-|Name=38.1cm Mk.I Twin Gun Mount
+|Name={{PAGENAME}}
 |ItemType=RedGunHeavy
 |Fuel=24
 |Ammo=280

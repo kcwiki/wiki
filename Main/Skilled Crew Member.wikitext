@@ -21,11 +21,13 @@ One Time: [[Quests#A59|A59]],
 [[Quests#B149|B149]], 
 [[Quests#B166|B166]], 
 [[Quests#C34|C34]], 
-[[Quests#C46|C46]], 
-[[Quests#F35|F35]]
+[[Quests#C46|C46]]
  
 Repeatable: [[Quests#Bq8|Bq8]], 
-[[Quests#Bq9|Bq9]], [[Quests#F95|F95]]
+[[Quests#Bq9|Bq9]], 
+[[Quests#By10|By10]], 
+[[Quests#F35|F35]], 
+[[Quests#F95|F95]]
 
 ===Events===
 
@@ -254,13 +256,31 @@ Some [[Events]] will reward Skilled Pilots. Due to uncertainty in whether an eve
 
 ''Some of these upgrades may require more than just Skilled Pilots. All of them also require additional fodder equipment. Please refer to [https://akashi-list.me/ Akashi-List] for the exact requirements.''
 
-* [[Zuiun (634 Air Group)]]
-
-* [[Tenzan Model 12 (Tomonaga Squadron)]]
-
-* [[Swordfish Mk.II Kai (Reconnaissance Seaplane Model)]]
-
-* [[Swordfish Mk.III Kai (Seaplane Model)]]
+{| class="wikitable" style="width:100%;"
+!style="text-align: center;  border-radius: 6px 0 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Equipment Type
+!style="text-align: center;  border-radius: 0 6px 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+|style="text-align: center;" rowspan="3"| Carrier-based Planes
+|style="text-align: center;" | Fighter
+|[[Re.2005 Kai]]
+|-
+|style="text-align: center;" | Torpedo Bomber
+|[[Tenzan Model 12 (Tomonaga Squadron)]]<ref name="2SCM">Requires 2 Skilled Crew Members.</ref>{{·}}[[Prototype Type 97 Torpedo Bomber Kai (Skilled) No. 3 Model E (w/ Type 6 Airborne Radar Kai)]]{{·}}[[Swordfish Mk.II (Skilled)]]
+|-
+|style="text-align: center;" | Dive Bomber
+|[[Type 99 Dive Bomber Model 22 (Skilled)]]{{·}}[[Suisei (Egusa Squadron)]]<ref name="2SCM"/>{{·}}[[Re.2001 CB Kai]]{{·}}[[F4U-1D]]
+|-
+|style="text-align: center;" colspan="2"| Land-Based Attack Aircraft
+|[[Type 4 Heavy Bomber Hiryuu (Skilled)]]<ref name="3SCM">Requires 3 Skilled Crew Members.</ref>
+|-
+|style="text-align: center;" rowspan="2"| Seaplane
+|style="text-align: center;"| Reconnaissance
+|[[Swordfish Mk.II Kai (Reconnaissance Seaplane Model)]]
+|-
+|style="text-align: center;"| Bomber
+|[[Zuiun (634 Air Group)]]{{·}}[[Zuiun Model 12 (634 Air Group)]]<ref>Requires 1 Skilled Crew Member upgrading from Zuiun (634 Air Group). Requires 2 Skilled Crew Members upgrading from Zuiun Model 12.</ref>{{·}}[[Zuiun (634 Air Group/Skilled)]]<ref name="2SCM"/>{{·}}[[Swordfish Mk.III Kai (Seaplane Model)]]
+|-
+|}<references/>
 
 {{Clear}}
 

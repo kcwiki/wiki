@@ -1,0 +1,230 @@
+===E-1===
+{{EventInfoBox
+|title_en= 31st Squadron, Deploy!
+|title_jp= 第三十一戦隊、展開せよ！
+|tag=[[File:Spring2021EventTag1.png]]
+|tag_text= 31st Squadron
+|header_thumb=[[File:Spring2021_E1BossThumb.png]]
+|map_1=[[File:Spring2021E-1Map.png|450px]]
+|map_1_text=Map
+|map_2=[[File:Spring2021E-1MapP1.png|450px]]
+|map_2_text=Phase 1
+|map_3=[[File:Spring2021E-1MapP2.png|450px]]
+|map_3_text=Phase 2
+|map_4=[[File:Spring2021E-1MapP3.png|450px]]
+|map_4_text=Phase 3
+|map_5=[[File:Spring2021E-1LBASMap.png|450px]]
+|map_5_text=LBAS
+|boss_hard= 520 HP, 3960 HP, 1950 HP
+|boss_medium= 392 HP, 2640 HP, 950 HP
+|boss_easy= 360 HP, 1800 HP, 545 HP
+|boss_casual= 360 HP, 1800 HP, 395 HP
+|reward_all={{Ship/Banner|Momo}}
+|phase_1_boss=
+|phase_2_boss=
+|phase_3_boss=
+|phase_4_boss=
+|phase_5_boss=
+|reward_1={{QuestRewardItem|Food Supply Ship Mamiya}}
+|reward_1_casual=
+|reward_1_easy=1
+|reward_1_medium=1
+|reward_1_hard=2
+|reward_2={{QuestRewardItem|Food Supply Ship Irako}}
+|reward_2_casual=
+|reward_2_easy=1
+|reward_2_medium=2
+|reward_2_hard=2
+|reward_3={{QuestRewardItem|Furniture Fairy}}
+|reward_3_casual=
+|reward_3_easy=
+|reward_3_medium=
+|reward_3_hard=1
+|reward_4={{QuestRewardEquip|Torpedo Squadron Skilled Lookouts}}
+|reward_4_casual=
+|reward_4_easy=
+|reward_4_medium=1
+|reward_4_hard=1 (★4) 
+|reward_5={{QuestRewardItem|Submarine Supply Material}}
+|reward_5_casual=2
+|reward_5_easy=4
+|reward_5_medium=5
+|reward_5_hard=8
+|reward_6=
+|reward_6_casual=
+|reward_6_easy=
+|reward_6_medium=
+|reward_6_hard= 
+}}
+<div style="min-width:440px;">
+{{center|[[File:OoyodoE-1Spring2021.png|440px]]}}
+
+{{MapBranchingTable
+|title = E-1 Branching Rules
+|expand = true
+|id = 50-1
+|order = 0,1,C,E,A,D,G,H,I,M,S,U
+
+|0 -> 1 = *Start point 2 is not unlocked
+*Meet '''ANY''' of the following requirements:
+**Fleet includes ship types other than DD, DE, CL, AV, AO and LHA
+**CL + AV + AO + LHA ≥ 2
+**Fleet size = 1
+|0 -> 2 = Does not meet the requirements for start point 1
+
+|1 -> C = *Meet '''ANY''' of the following requirements:
+**Fleet contains (F)BB(V) or CVL.
+**Fleet contains SS(V)
+**CA(V) ≥ 2
+**CL + CT = 0
+**If node R is '''not''' unlocked:
+***CL + CT + CVL ≥ 3 
+***DD + DE ≤ 2
+|1 -> E/empty = *Does not meet the requirements to go to C or R
+*If node R is unlocked:
+**Number of historical ships ≥ 3/2/1/0 (Hard/Medium/Easy/Casual)
+***([[Kitakami]], [[Isuzu]], [[Satsuki]], [[Uzuki]], [[Hibiki]], [[Ushio]], [[Suzutsuki]], [[Matsu]], [[Take]], [[Yukikaze]], [[Hatsushimo]])
+|1 -> R = *Node R is unlocked
+*Meet '''ANY''' of the following requirements:
+**Difficulty is '''not''' Casual
+**'''Slow''' Fleet
+**Fleet contains AV
+**CL + CT ≥ 2
+
+|A -> B = *Does not meet the requirements to go to D
+|A -> D = *Meet '''ALL''' of the following requirements:
+**(F)BB(V) + CVL + AV < 3
+**CL + CT + CLT ≤ 2
+**Fleet contains CL
+**DD + DE ≥ 2
+**If difficulty is '''not''' Casual:
+***'''Fast''' fleet
+***Number of historical ships ≥ 2
+
+|C -> A = *Does not meet the requirements to go to D
+*Meet '''ANY''' of the following requirements:
+**(F)BB(V) + CVL ≥ 2 (except [[Ise]] + [[Hyuuga]])
+**CL + CT + CLT ≥ 3
+**DD + DE < 2
+**Fleet does not contain CL
+**Fleet contains SS(V)
+|C -> D = *Meet '''ANY''' of the following requirements: (higher in the list equals higher priority)
+**'''Fast''' fleet
+**Number of historical ships ≥ 3/2/1/0 (Hard/Medium/Easy/Casual)
+
+|D -> F = *Meet '''ANY''' of the following requirements:
+**(F)BB(V) + CVL ≥ 2
+**Fleet contains SS(V)
+|D -> G/empty = *Does not meet the requirements to go to F
+*'''Fast''' fleet
+
+|E/empty -> D, H = *Active branching
+
+|G/empty -> F, I = *Active branching
+
+|H -> D = *Meet '''ANY''' of the following requirements:
+**Fleet contains CA(V)
+**CL + CT + CLT ≥ 3 (2 if fleet is '''Slow''')
+|H -> I = *Does not meet the requirements to go to D
+
+|I -> K/empty = *Meet '''ANY''' of the following requirements:
+**Number of historical ships ≤ 1 (Hard only)
+**(F)BB(V) + CVL ≥ 2
+**DD + DE ≤ 2
+**Fleet does not contain CL (Hard and Medium only)
+|I -> S = *Does not meet the requirements to go to K
+*Force S if difficulty is Casual
+
+|M -> N = *Does not meet the requirements to go to O
+|M -> O = *Force O if difficulty is Easy or Casual
+*Meet '''ALL''' of the following requirements:
+**'''Fast''' fleet
+**Fleet size ≤ 5, '''only''' if difficulty is Hard
+
+|S -> U = *Does not meet the requirements to go to V
+*Fail the LoS check
+|S -> V = *Meet '''ALL''' of the following requirements:
+**'''Fast''' fleet
+**Fleet does not contain (F)BB(V) or CVL
+**CA(V) + CLT + AV ≤ 1
+**CA(V) + CL ≤ 2
+**Number of historical ships ≥ 3/2/0/0 (Hard/Medium/Easy/Casual)
+**Pass the LoS check
+***Cn = 3; 48+/38+/29+/29+ (Hard/Medium/Easy/Casual) LoS
+
+|U -> T/empty = *Fail the LoS check
+|U -> V = *Pass the LoS check
+**Cn = 3; 41+/33+/27+/23+ (Hard/Medium/Easy/Casual) LoS
+}}
+
+Branching compositions were reported over the course of the event. ([https://bbs.nga.cn/read.php?pid=514129578 NGA] and [https://kc.piro.moe/nav/#/ Piro])
+</div>
+
+The event guides are to be constructed through the respective [[Sandbox/Spring 2021 E-1|Event map page guide]] and reviewed by editor staff / collaboration committee before being approved here. '''Do not under any circumstance update the guides through this page or attempt to fix them through this page.''' Please only update guides through their respective sandbox pages.
+
+{{clear}}
+
+==Ship Bonuses (Tentative)==
+
+{{:{{BASEPAGENAME}}/E-1/Historical_Ships}}
+
+==General Guidelines==
+
+E-1 is a 3.5 Phase Map with the 31st Squadron Lock Tag (Green) consisting of three HP Phases and a minimal Unlock. One base of Land Based Aerial Support (LBAS) is available to sortie on this Map. Due to the span of different combat types on this map (Surface, ASW, Anti-Installation) it is recommended to take ships that are good at multiple of these categories to avoid locking too many ships to this map.
+
+==Phase 1: Defeat the Ru-Class Patrol at Node J==
+
+The goal of this phase is to deplete the HP Bar and defeat the Ru Class Battleship at {{MapRoute|J|Red}}. There is a submarine node and light surface squadron on the way, while the boss itself consists of only surface ships.
+
+* Recommended Fleet: 1CL 0-1AV 4-5DD ('''Fast Fleet''')
+* Route: {{MapRoute|E|Blue|D|Red|G|Blue|F|Red|J|Red}}
+* LBAS: Range 7, no Airpower
+* Additional Notes: Vanguard Formation can be utilized to help with preboss sub node. Support Expeditions are not needed
+
+==Phase 1.5: Unlocking the Path to the Second Boss==
+
+To unlock the path to the second Boss, you simply have to reach {{MapRoute|K|Blue}} once.
+
+* Recommended Fleet: 1CL 0-1AV 4-5DD ('''Fast Fleet''')
+* Route: {{MapRoute|E|Blue|D|Red|G|Blue|I|Red|K|Blue}}
+* LBAS: Range 7, no Airpower
+* Additional Notes: There is no surface combat on route, only ASW and Anti-Air Combat. If you get critically damaged at {{MapRoute|I|Red}} you can still proceed the sortie as the Route to the non-combat node {{MapRoute|K|Blue}} is fixed.
+
+==Phase 2: The Benchmarkening (Defeat Supply Depot Hime)==
+
+To complete this Phase, you need to deplete the HP Bar of the Second Boss {{MapRoute|Q|Red}}, consisting of a mix of Installations and PT Boats. Set up your Ships with the according equipment to deal with them as outlined [[Anti-Installation#Equipment_Setups|here]]. PT Imps are weak to AA Guns + Skilled Lookouts on your DDs. There are PT Imps and two pretty powerful airstrike on the way.
+
+{{Landing Craft/Amphibious Tank Capable Ships}}
+{{Anti-PT Imp Setups}}
+
+* Recommended Fleet: 1AV/CL 4-5DD ('''Fast Fleet''') (On Hard, only a 5 ship fleet takes the shortest route)
+* Route: {{MapRoute|L|Blue|M|Red|O|Red|P|Red|Q|Red}}
+* LBAS: Range 5, (29/69/79/121) Airpower for AP at Last Dance (C/E/M/H)
+* Additional Notes: Support fleets can be taken due to the presence of PT Imps.
+
+==Phase 3: Defeat the Enemy Submarine Force!==
+
+The goal of this phase is to sink the New Old Submarine Princess found at {{MapRoute|V|Red}} to deplete the HP Bar and clear the map. There is a surface engagement {{MapRoute|S|Red}}, a Submarine Node {{MapRoute|H|Red}} and high airpower air raid {{MapRoute|I|Red}} on route, but the Boss itself is an Anti-Submarine operation. AACI is highly recommended for this route, the surface Nodes can be passed using Vanguard formation as to not sacrifice too many equipment slots that should be occupied with ASW equipment.
+
+* Recommended Fleet: 0-1 AV 0-1CLT 1-2CL 4DD ('''Fast Fleet''')
+* Route: {{MapRoute|E|Blue|H|Red|I|Red|S|Red|V|Red}}
+* LBAS: Range 2, no Airpower present at the Boss. {{MapRoute|I|Red}} has (138/144/149/229) AP for (C/E/M/H)
+* Additional Notes:
+* 1 Regular CL is required within the fleet composition
+**LBAS can be Toukai sent to the Boss, Bombers to the Preboss Surface Nodes or a fighter sweep to Node I, depending on your surface fleet setup.
+**The required LoS to reach the boss is '''Cn3 48+/38+/29+/29+''' on '''Hard/Medium/Easy/Casual'''
+**'''3/2/1/1''' historical ships are required on '''Hard/Medium/Easy/Casual'''
+***([[Kitakami]], [[Isuzu]], [[Satsuki]], [[Uzuki]], [[Hibiki]], [[Ushio]], [[Suzutsuki]], [[Matsu]], [[Take]], [[Yukikaze]], [[Hatsushimo]])
+
+==Enemy Compositions==
+{{:{{BASEPAGENAME}}/E-1/Enemy comps}}
+
+'''Ship Drops:'''<br/>
+{{:{{BASEPAGENAME}}/E-1/Ship drops}}
+
+{| style="width: 100%;" class="mw-collapsible mw-collapsed wikitable
+|-
+! E-1 Clear Message
+|-
+|
+|}

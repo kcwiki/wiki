@@ -1,0 +1,36 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "Type 4 Fighter Hayate",
+    _localized_name = "Type 4 Fighter Hurricane",
+    _id = 218,
+    _japanese_name = "四式戦 疾風",
+    _reading = "よんしきせんはやて",
+    _type = 48, -- 22,39,48,44,27
+    _icon = 44,
+    _rarity = 3,
+    _firepower = false,
+    _bombing = false,
+    _torpedo = false,
+    _aa = 10,
+    _armor = false,
+    _asw = false,
+    _shelling_accuracy = 1,
+    _torpedo_accuracy = false,
+    _evasion = 1,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = 7,
+    _flight_range = 5,
+    _special = false,
+    _scrap_fuel = 3,
+    _scrap_ammo = 2,
+    _scrap_steel = false,
+    _scrap_bauxite = 9,
+    _buildable = false,
+    _info = "陸軍の決戦機として開発・量産された傑作戦闘機キ84、四式戦「疾風」。陸軍戦闘機部隊の主力戦闘機として配備され、捷一号作戦などで戦いました。フィリピン戦線に投入された四式戦を装備した戦隊は、悪化した戦局の中、一時的ではあるもののレイテ上空の制空権確保に尽力しました。",
+    _wikipedia = "Nakajima Ki-84",
+}

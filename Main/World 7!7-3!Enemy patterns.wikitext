@@ -1,0 +1,231 @@
+==Enemy patterns==
+{{Section}}
+{{Event/Map|
+{{Event/MapNode|1|x=625|y=284}}
+{{Event/MapNode|A|x=524|y=275}}
+{{Event/MapNode|B|x=475|y=278}}
+{{Event/MapNode|C|x=449|y=257}}
+{{Event/MapNode|D|x=424|y=212}}
+{{Event/MapNode|E|x=384|y=231}}
+{{Event/MapNode|F|x=349|y=201}}
+{{Event/MapNode|G|x=334|y=177}}
+{{Event/MapNode|H|x=299|y=123}}
+{{Event/MapNode|I|x=289|y=247}}
+{{Event/MapNode|J|x=270|y=186}}
+{{Event/MapNode|K|x=232|y=99}}
+{{Event/MapNode|L|x=205|y=242}}
+{{Event/MapNode|M|x=172|y=201}}
+{{Event/MapNode|N|x=120|y=248}}
+{{Event/MapNode|O|x=90|y=167}}
+{{Event/MapNode|P|x=151|y=116}}
+}}
+<div class="scrollable map-nodes" id="map-nodes">
+{{Map/Nodes|A|Empty|kind=0}}
+{{Map/Nodes|name=深海東方部隊 魚雷艇戦隊
+|B
+|Normal
+|{{TooltipSimple|Echelon|19% (181/942)}}<br>{{TooltipSimple|Line Abreast|10% (97/942)}}
+|Destroyer I-Class/Late Model
+|PT Imp Pack/II
+|PT Imp Pack/II
+|-
+|B
+|Normal
+|{{TooltipSimple|Echelon|17% (164/942)}}<br>{{TooltipSimple|Line Abreast|16% (153/942)}}
+|Destroyer I-Class/Late Model
+|PT Imp Pack/II
+|PT Imp Pack/II
+|PT Imp Pack/II
+|-
+|B
+|Normal
+|{{TooltipSimple|Echelon|22% (205/942)}}<br>{{TooltipSimple|Line Abreast|15% (142/942)}}
+|Destroyer I-Class/Late Model
+|PT Imp Pack/III
+|PT Imp Pack/II
+|PT Imp Pack/II
+}}
+{{Map/Nodes|name=深海東方部隊 前衛駆逐艦
+|C
+|Normal
+|{{TooltipSimple|Line Ahead|18% (3858/21732)}}<br>{{TooltipSimple|Echelon|9% (1886/21732)}}
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|C
+|Normal
+|{{TooltipSimple|Line Ahead|17% (3770/21732)}}<br>{{TooltipSimple|Echelon|14% (2936/21732)}}
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class
+|-
+|C
+|Normal
+|{{TooltipSimple|Line Ahead|27% (5810/21732)}}<br>{{TooltipSimple|Echelon|16% (3472/21732)}}
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=深海5,500t級軽巡洋艦
+|D
+|Normal
+|{{TooltipSimple|Line Ahead|18% (2217/12076)}}<br>{{TooltipSimple|Echelon|9% (1049/12076)}}
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|D
+|Normal
+|{{TooltipSimple|Line Ahead|19% (2302/12076)}}<br>{{TooltipSimple|Echelon|13% (1605/12076)}}
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class
+|-
+|D
+|Normal
+|{{TooltipSimple|Line Ahead|25% (2962/12076)}}<br>{{TooltipSimple|Echelon|16% (1941/12076)}}
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=深海東方部隊 精鋭駆逐隊
+|E
+|Boss
+|{{TooltipSimple|Line Ahead|20% (1756/8592)}}<br>{{TooltipSimple|Echelon|11% (911/8592)}}
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|E
+|Boss
+|{{TooltipSimple|Line Ahead|27% (2359/8592)}}<br>{{TooltipSimple|Echelon|13% (1111/8592)}}
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|E
+|Boss/Final
+|{{TooltipSimple|Line Ahead|20% (1750/8592)}}<br>{{TooltipSimple|Echelon|8% (705/8592)}}
+|Destroyer Ro-Class/Late Model Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|F|Empty|kind=1}}
+{{Map/Nodes|G|Empty|kind=0}}
+{{Map/Nodes|H|Resource}}
+{{Map/Nodes|I|Empty|kind=0}}
+{{Map/Nodes|name=深海潜水艦隊 海峡警戒線
+|J
+|Normal
+|{{TooltipSimple|Echelon|14% (302/2114)}}<br>{{TooltipSimple|Line Abreast|15% (327/2114)}}
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|J
+|Normal
+|{{TooltipSimple|Echelon|17% (363/2114)}}<br>{{TooltipSimple|Line Abreast|19% (398/2114)}}
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|J
+|Normal
+|{{TooltipSimple|Echelon|17% (367/2114)}}<br>{{TooltipSimple|Line Abreast|17% (357/2114)}}
+|Submarine Yo-Class/Flagship
+|Submarine Ka-Class
+|Submarine Ka-Class
+}}
+{{Map/Nodes|K|Storm}}
+{{Map/Nodes|L|Storm}}
+{{Map/Nodes|name=深海東方部隊 巡洋艦戦隊
+|M
+|Normal
+|{{TooltipSimple|Line Ahead|18% (325/1776)}}<br>{{TooltipSimple|Double Line|9% (159/1776)}}
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Torpedo Cruiser Chi-Class
+|Torpedo Cruiser Chi-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|M
+|Normal
+|{{TooltipSimple|Line Ahead|17% (297/1776)}}<br>{{TooltipSimple|Double Line|13% (224/1776)}}
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|M
+|Normal
+|{{TooltipSimple|Line Ahead|27% (478/1776)}}<br>{{TooltipSimple|Double Line|16% (293/1776)}}
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=深海東方部隊 空母機動部隊
+|N
+|Normal
+|{{TooltipSimple|Diamond|33% (3/9)}}
+|Light Carrier Nu-Class/Kai Elite II
+|Light Carrier Nu-Class/Kai Elite II
+|Battleship Ta-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|N
+|Normal
+|{{TooltipSimple|Double Line|44% (4/9)}}<br>{{TooltipSimple|Diamond|22% (2/9)}}
+|Light Carrier Nu-Class/Kai Flagship II
+|Light Carrier Nu-Class/Kai Elite II
+|Battleship Ta-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|O|Resource}}
+{{Map/Nodes|name=深海東方部隊 海峡封鎖部隊旗艦
+|P
+|Boss
+|{{TooltipSimple|Line Ahead|23% (2647/11503)}}<br>{{TooltipSimple|Echelon|14% (1635/11503)}}
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|P
+|Boss
+|{{TooltipSimple|Line Ahead|37% (4313/11503)}}<br>{{TooltipSimple|Echelon|18% (2102/11503)}}
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|P
+|Boss/Final
+|{{TooltipSimple|Line Ahead|5% (605/11503)}}<br>{{TooltipSimple|Echelon|2% (201/11503)}}
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

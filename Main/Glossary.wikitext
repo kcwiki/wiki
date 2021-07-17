@@ -17,6 +17,12 @@ All ship class codes on the list are based on [[wikipedia:American Hull classifi
 | style="text-align:center;" |''Kuchikukan''
 | style="text-align:center;" |Destroyer
 |-
+| style="text-align:center;" |DE
+| style="text-align:center;" |海防
+| style="text-align:center;" |海防艦
+| style="text-align:center;" |''Kaiboukan''
+| style="text-align:center;" |Destroyer escort/coastal defence ship*
+|-
 | style="text-align:center;" |[[Auxiliary Ships|AS]]
 | style="text-align:center;" |潜母艦
 | style="text-align:center;" |潜水母艦
@@ -139,6 +145,7 @@ All ship class codes on the list are based on [[wikipedia:American Hull classifi
 |}
 
 ;Note:
+* In Kancolle, "coastal defense ships" are labeled as "DE" and "destroyers escort" as DD and not DE.
 * The term {{nihongo|''Kūbo''|空母}} is a shorthand for {{nihongo|''Kōkū bokan''|航空母艦}}, which means "Aircraft Carrier".
 * In-game, the cards & encyclopedia have the ship class English Name, but some are rendered differently from above.
 :* "Aircraft Carrying Submarine" instead of "Submarine Aircraft Carrier"
@@ -224,13 +231,23 @@ This occurs when a ship fires any equipped machine guns to defend itself, reduci
 
 ==[[Equipment]] Icons==
 ===Color-coded Aircraft===
-*{{Template:RedPlane}} Red Plane: Carrier-based [[List of Dive Bombers by stats|Dive Bomber]] Have a strong shelling-phase attack, and prevent Installations from being attacked.
-*{{Template:BluePlane}} Blue Plane: Carrier-based [[List of Torpedo Bombers by stats|Torpedo Bomber]] Have a strong preliminary attack, and can attack Installations.
+*{{Template:RedPlane}} Red Plane: Carrier-based [[List of Dive Bombers by stats|Dive Bomber]]. Have a strong shelling-phase attack, and prevent Installations from being attacked.
+*{{Template:BluePlane}} Blue Plane: Carrier-based [[List of Torpedo Bombers by stats|Torpedo Bomber]]. Have a strong preliminary attack, and can attack Installations.
 *{{Template:GreenPlane}} Green Plane: Carrier-based [[List_of_Fighters_by_stats|Fighter]]s provide air superiority, and shoot down opposing aircraft.
 *{{Template:YellowPlane}} Yellow Plane: Carrier-based [[List_of_Aircraft_by_stats_(other)|Recon Aircraft]] boost accuracy and LOS greatly.
-*{{Template:Seaplane}} Light Green Plane: [[List of Seaplanes by stats|Seaplane]] Bomber and Reconnaissance Seaplane are equippable by a wide variety of ships for both Artillery spotting and participation in [[Aerial Combat#Fighter Combat|Air Superiority]] and Bombing.
+*{{Template:JetFighterBomber2}}{{Template:JetFighterBomber1}} Yellow Jets planes : Carrier-based [[Jets]]. They provide air superiority, have a shelling-phase attack and also carry an initial "Jet Assault"
+*{{Template:Seaplane}} Light Green Plane: [[List of Seaplanes by stats|Seaplane]] Bomber and Reconnaissance Seaplane are equipable by a wide variety of ships for both Artillery spotting and participation in [[Aerial Combat#Fighter Combat|Air Superiority]] and Bombing.
 **{{LargeFlyingBoat}} Flying Boats only participate in bombing if other planes are present, and are only able to be equipped by [[Akitsushima]].
-*{{Template:Autogyro}}{{Template:ASWPlane}}Autogyros and ASW Planes are only useful against Submarines.
+*{{Template:SeaplaneFighter}} Light Green Fighter Plane: are equipable by many seaplanes capable ships and act as regular Fighters.
+*{{Template:Autogyro}}{{Template:ASWPlane}} Autogyros, Helicopters, and ASW Planes are only useful against Submarines.
+*LBAS planes : 
+**{{LargeFlyingBoat}} Flying Boats mostly act as range extenders. [[PBY-5A Catalina]] have an additional crew recovery mechanic.
+**{{Template:YellowPlane}} Yellow Plane: Boost accuracy and LOS greatly and act as range extenders.
+**{{Template:Land Based Attack Aircraft Blue}} Bluish Plane: ASW specialized plane
+**{{Template:Interceptor Fighter}} Green Plane: Interceptor Fighter plane
+**{{Template:Interceptor Fighter2}} Light Green Plane: Interceptor Fighter plane
+**{{Template:Land Based Attack Aircraft}} large Green Plane: Landbased Bomber
+**{{Template:Large Land-based Aircraft}} very large Green Plane: Landbased Large Bomber
 
 ===Color-coded Naval Guns===
 It is based on their '''roles''', not ability.
@@ -246,7 +263,7 @@ It is based on their '''roles''', not ability.
 ===Torpedoes===
 *{{Template:TorpedoWeapon}} Torpedoes are able to be equipped on Destroyers, Cruisers, and Submarines.
 ====Midget Submarine====
-Also known by its design code name [[Type A Ko-hyoteki]] ({{Template:TorpedoWeapon}}甲標的甲型) which literally means Target Type A, it's a submarine equipable on [[:Category:Torpedo_Cruisers|Torpedo Cruisers]], [[:Category:Submarines|Submarines]], and [[:Category:Seaplane_Tenders|Seaplane Tenders]]. Frequently used because of their ability to attack before the [[Combat#Combat_Stages|shelling phase]].
+Also known by their design code name [[Type A/C/D Ko-hyoteki]] ({{Template:TorpedoWeapon}}甲標的甲型) which literally means Target Type A/C/D, they are a submarine equipable on [[:Category:Torpedo_Cruisers|Torpedo Cruisers]], [[:Category:Submarines|Submarines]], and [[:Category:Seaplane_Tenders|Seaplane Tenders]]. Frequently used because of their ability to attack before the [[Combat#Combat_Stages|shelling phase]] by triggering a torpedo opening.
 
 ===Other===
 *Anti-Submarine Warfare:
@@ -254,33 +271,33 @@ Also known by its design code name [[Type A Ko-hyoteki]] ({{Template:TorpedoWeap
 **{{Template:DepthCharge}} Depth Charges Launchers (which share an icon) provide a bonus to ASW.
 **{{Template:Sonar}} SONAR provides both an accuracy bonus and a bonus to ASW.
 **When two or all different types of the above ASW equipment are combined, [[Combat#ASW_Synergy|ASW power is boosted]].
+**{{Template:DepthCharge}} Depth Charges provide a bonus to ASW.
+**{{Template:DepthCharge}} The new [[Type 2 12cm Mortar Kai]]s, [[Type 3 Depth Charge Launcher (Concentrated Deployment)]], [[Prototype 15cm Nonuple ASW Rocket Launcher]], [[RUR-4A Weapon Alpha Kai]] and [[Lightweight ASW Torpedo (Initial Test Model)]] don't count for the ASW synergy bonus.
 
 *{{Template:Radar}} RADARs provide increased accuracy, and also help against aircraft
+*{{Template:SubmarineRadar}} Submarine Radars are exclusive to submarines and have a similar effect as regular radars.
 
 *Night Battle Equipment:
-**{{Template:Searchlight}} Searchlights provide an accuracy boost, but result in the ship carrying them being targeted.
-**{{StarShell}} [[Star Shell]]s reduce enemy cut-in chance and increase allied cut-in rates.
-**{{SurfaceShipPersonnel}} [[Skilled Lookouts]] oncrease the cut-in chance of the ship they're equipped to.
-*{{LandingCraft}} Landing Craft boost expedition return, are utilized in transport operations, and are also useful against some installation-type enemies.
+**{{Template:Searchlight}} Searchlights provide an accuracy boost but result in the ship carrying them being targeted.
+**{{StarShell}} [[Star Shell]]s reduce the enemy cut-in chance and increase allied cut-in rates.
+*{{SurfaceShipPersonnel}} [[Skilled Lookouts]] increase the cut-in chance and accuracy against light enemies, [[Torpedo Squadron Skilled Lookouts]] also unlock new cut-ins. 
+*{{LandingCraft}} Landing Crafts boost expedition returns, are utilized in transport operations, and are also useful against some installation-type enemies.
 **{{Template:Amphibious Tank}} Tanks are useful against installations.
 *{{Template:Drum}} [[Drum Canister]]s are needed for some expeditions and Transport Operations.
-
 *{{AntiAircraftFireDirector}} Anti-Aircraft Fire Directors allow the use of [[Aerial Combat#Anti-Air Cut in|Anti-Air Cut In]]s in combination with High-Angle guns.
-
-*{{CommandFacility}} The [[Fleet Command Facility]] and [[Striking Force Fleet Command Facility]] allow for ships in a combined fleet or strike force respectively to retreat when critically damaged.
-
+*{{CommandFacility}} The [[Fleet Command Facility]], [[Striking Force Fleet Command Facility]] and [[Elite Torpedo Squadron Command Facility]] allow for ships in a combined fleet, strike force, or DD fleets respectively to retreat when critically damaged.
 *{{Template:Turbine}} Turbines and boilers can be equipped on any ship. They increase evasion, and when combined, also provide a boost to ship speed/
-
-*{{Template:GreenAmmo}} [[Type 3 Shell]]s confer a small AA bonus, but are primarily utilized against soft Installations.
+*{{Template:GreenAmmo}} [[Type 3 Shell]]s and [[Type 3 Shell Kai]]s confer a small AA bonus, but are primarily utilized against soft Installations.
 *{{Template:RedAmmo}} AP Shells increase firepower, allow for AP Cut-Ins and confer an additional post-cap firepower bonus against most hard targets.
-*{{AntiGroundArtillery}} The [[WG42]] confers a flat firepower bonus against installation targets, subsequent WG42s on the same ship will encounter diminishing returns
-*{{Template:EmergencyRepair}} Damage control items are single-use, and prevent ships from sinking.
+*{{AntiGroundArtillery}} The [[WG42]], and [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]]s confers a flat firepower bonus against installation targets.
+*{{Template:EmergencyRepair}} Damage control items are single-use and prevent ships from sinking.
 *{{Template:ArmorEquipment}} Torpedo Bulges increase armor at a small evasion cost
 *[[File:Facility.png]] The [[Ship Repair Facility]] allows [[Akashi]] to repair a ship when set as secretary.
 *{{AviationPersonnel}} [[Skilled Carrier-based Aircraft Maintenance Personnel]] (SCAMP) extends the range of carriers, allowing them to attack earlier in the shelling phase
 *{{AviationPersonnel}} [[Night Operation Aviation Personnel]] along with its [[Night_Operation_Aviation_Personnel_%2B_Skilled_Deckhands|superior version]] allow carriers to shell at night when equipped with a night-operations capable plane
+*{{AviationPersonnel}} [[Arctic Gear & Deck Personnel]] is needed for CV/CVB/CVL to sortie in "Arctic Maps"
 *{{Rations}} Rations restore morale during sorties.
-*{{Supplies}} [[Maritime Resupply]] allows for [[Hayasui]] to restore fuel and ammo to ships during a sortie.
+*{{Supplies}} [[Maritime Resupply]] allows for [[AO]] to restore fuel and ammo to ships during a sortie.
 
 ==IJN ship-naming conventions==
 *'''Destroyers '''are named after natural phenomena, often snow (<span style="text-align:center;">雪, </span>"-yuki"), waves (<span style="text-align:center;">波, </span>"-nami"), rain (<span style="text-align:center;">雨, </span>"-ame", "-are"), wind (<span style="text-align:center;">風, </span>"-kaze"), clouds (<span style="text-align:center;">雲, </span>"-kumo" or "-gumo"), the moon (<span style="text-align:center;">月</span>, "-tsuki" or "-zuki") or tides (<span style="text-align:center;">潮, </span>"-shio").
@@ -310,7 +327,7 @@ One of [[Inazuma]]'s lines written "backwards", in traditional Japanese format. 
 ===2-4-11===
 [[Naka]]. 2-4-11 refers to the fuel/ammo/steel combination received from her scrap (if scrapping with her default equipment).
 
-===Beaver===
+===Beaver or YKKZ===
 A nickname for [[Yukikaze]] based on her appearance. Japanese fans call her 'Hamster' instead.
 
 ===Big Seven===
@@ -349,6 +366,9 @@ Light Carrier [[Ryujo|Ryūjō]].
 
 ===Tenryuu Kindergarten===
 A common theme where [[Tenryuu]] and her destroyers escort was regularly used in expeditions due to Tenryuu's lower ammo cost (compared to other light cruisers). The official 4-koma also shows Tenryuu as being good at taking care of children (destroyers), hence the name.
+
+===Whale===
+Refer to [[Taigei]] and [[Jingei]], both having the kanji "鯨" meaning whale in their name.
 
 ===Zekamashi (ぜかまし)===
 [[Shimakaze]]'s name read backward (in traditional Japanese, characters are read right-to-left). Found on one of the Rensouhou-chan's life buoys.
@@ -883,29 +903,50 @@ Ever see an [[wikipedia:Acronym|acronym]] in the wiki you didn't know the meanin
 * AA - Anti-Air
 * [[AACI]] - Anti-Air Cut-in
 * ACH - [[Aircraft Carrier Princess|Aircraft Carrier Hime]]
+* AD - Air Denial
 * AFP - Air Fighter Power
+* AI - Air Incapability
 * ASW - Anti-Submarine Warfare
-* AS - Air Superiority
+* AS - Air Superiority (also Submarine Tender)
 * AS+ - Air Supremacy
+* AR - Action Report
 * BP - Blueprint
 * CI - Cut-In
+* CT - Closing Torpedo
+* CTF - Carrier Task Force
 * CV - Character Voice (=VA, but CV also can mean Aircraft Carrier)
+* CVCI - Aircraft Carrier Cut In
+* CVE - ASW specialized Light Aircraft Carrier
 * DA - Double Attack
-* EO - Extra Operation (maps 1-5, 1-6, 2-5, 3-5, 5-5, and some event maps)
+* EO - Extra Operation (maps 1-5, 1-6, 2-5, 3-5, 5-5, 6-5, and some event maps)
 * FBB - Fast Battleship
 * FCF - [[Fleet Command Facility]]
+* FF - Friendly Fleets
 * FP - Firepower
 * FS - Flagship
 * GS - Great Success
+* HQ - Headquarter LV (Admiral personal LV)
+* JA - Jet Assault
 * KC - Kantai Collection
 * LBAS - [[Land-Based Air Squadron]]
-* LSC - [[Large Ship Construction]]
+* LD - Last Dance
 * LoS/LOS - [[Line of Sight]]
+* LSC - [[Large Ship Construction]]
+* OASW - Opening ASW
+* RE - Reinforcement Expansion (extra slot)
+* RL/RLK2 - Rocket Launcher / Rocket Launcher kai 2
 * RSC - Resources
 * RNG - Random Number Generator
 * SCAMP - [[Skilled Carrier-based Aircraft Maintenance Personnel]]
-* TP - Torpedo
+* SE - Support Expedition
+* SLO - Skilled Lookout
+* SPF - Sea Plane Fighter
+* STF - Surface Task Force
+* TCI - Torpedo Cut In
+* TCF/TE - Transport Combined Fleet / Transport Escort
+* TP - Torpedo or "Transport Points"
 * VA - Voice Actress, same as CV
+* WG/WG42 - Wurfgerat 42
 
 [[Category:Tutorial]]
 [[Category:Help]]

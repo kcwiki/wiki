@@ -1,19 +1,4 @@
-{{Template:Equipmentinfo
-|name = Maritime Resupply
-|id = 146
-|japanesename = 洋上補給
-|icon = {{Supplies}}
-|type = Supplies
-|effect = {{Armor}}-2
-|scrap = {{Fuel}}30, {{Ammo}}30
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment146-1.png
-Equipment146-2.png
-Equipment146-3.png
-Equipment146-4.png
-</gallery>
-|AO = Yellow
-}}
+{{EquipmentInfo|146}}
 
 ==Introduction==
 戦闘航海中の海上で燃料弾薬を補給することが可能です。
@@ -27,8 +12,9 @@ Equipment146-4.png
 ''(Will disappear when activated.)''
 
 ==Notes==
-*When certain conditions are met, the resupply will activate, restoring '''25%''' of Max Ammo and fuel to each ship in single fleets. 
+*When entering a boss node, a prompt will appear giving a choice to activate the {{PAGENAME}}, restoring '''25%''' of maximum ammo and fuel to each ship in single fleets.
 *It can also restore '''15%''' in combined fleets, which applies to both fleets in a [[Combined Fleet]] situation.
+*The fuel and ammo cost will be deducted from the player's stockpile.  If insufficient fuel or ammo is available, the {{PAGENAME}} will not activate.
 *Will activate regardless of where [[Hayasui]] (and [[Hayasui|Hayasui Kai]]) or [[Kamoi|Kamoi Kai Bo]] is in the fleet.
 
 <div class="mw-collapsible"><h3>How To Obtain</h3>
@@ -57,6 +43,13 @@ Equipment146-4.png
 * [[Fall 2019 Event]] E-2: Hard (x2), Medium (x2), Easy (x2), Casual (x2)
 * [[Summer 2020 Event]] E-5: Hard (x3), Medium (x3), Easy (x2), Casual
 
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2015-08-10:''' '''Implemented'''
+* '''2016-04-01:''' Mechanics changed: used when fleet's total fuel+ammo is 25% or less -> can be chosen to be used before boss battles
 </div></div>
 
 ==See Also==

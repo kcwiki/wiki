@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "533mm Quintuple Torpedo Mount (Late Model)",
+  _id = 376,
+  _japanese_name = "533mm五連装魚雷(後期型)",
+  _reading = nil,
+  _type = 5, -- 2,3,5,5,0
+  _icon = 5,
+  _rarity = 3,
+  _firepower = 1,
+  _bombing = false,
+  _torpedo = 11,
+  _aa = false,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 1,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = 2,
+  _scrap_ammo = 4,
+  _scrap_steel = 2,
+  _scrap_bauxite = 3,
+  _buildable = false,
+  _info = "米国で開発され、広く実戦配備された標準的な対水上艦用魚雷兵装、その改良後期型です。初期型では動作不良も多く安定性を欠いていましたが、改良更新されたこの後期型には不具合も解消され、対水上艦戦闘時において大きな力を発揮することが可能となりました。",
+}

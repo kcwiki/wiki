@@ -1,95 +1,58 @@
 ==Info==
-{|
-|-
-| valign="top" |
-{{enemyshipinfo 
-|color = red
-|name = New Submarine Princess Flagship (A)
-|japanesename = 潜水新棲姫flagship
-|image = [[File:Seikan1736CG.png|350px]]
-|id = 1736
-|class = Abyssal
-|type = Submarine
-|hp = 177
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = ?
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|speed = Slow
-|range = Short
-|slot = 
-|slot1= High-speed Abyssal Torpedo mod.2
-|slot2= High-speed Abyssal Torpedo mod.2
-|slot3= High-speed Abyssal Torpedo mod.2
-|slot4= -}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo 
-|color = red
-|name = New Submarine Princess Flagship (B)
-|japanesename = 潜水新棲姫flagship
-|image = [[File:Seikan1737CG.png|350px]]
-|id = 1737
-|class = Abyssal
-|type = Submarine
-|hp = 277
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = ?
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|speed = Slow
-|range = Short
-|slot = 
-|slot1= High-speed Abyssal Torpedo mod.2
-|slot2= High-speed Abyssal Torpedo mod.2
-|slot3= High-speed Abyssal Torpedo mod.2
-|slot4= -}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo 
-|color = red
-|name = New Submarine Princess Flagship (C)
-|japanesename = 潜水新棲姫flagship
-|image = [[File:Seikan1738CG.png|350px]]
-|id = 1738
-|class = Abyssal
-|type = Submarine
-|hp = 377
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = ?
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|speed = Slow
-|range = Short
-|slot = 
-|slot1= High-speed Abyssal Torpedo mod.2
-|slot2= High-speed Abyssal Torpedo mod.2
-|slot3= High-speed Abyssal Torpedo mod.2
-|slot4= -}}
-|}
-
+<div style="display: inline-block;">
+===Flagship===
+{{EnemyShipInfoKai|{{PAGENAME}}/Flagship}}
+</div>
+<div style="display: inline-block;">
+===Flagship II===
+{{EnemyShipInfoKai|{{PAGENAME}}/Flagship II}}
+</div>
+<div style="display: inline-block;">
+===Flagship III===
+{{EnemyShipInfoKai|{{PAGENAME}}/Flagship III}}
+</div>
+<div style="display: inline-block;">
+===Flagship IV===
+{{EnemyShipInfoKai|{{PAGENAME}}/Flagship IV}}
+</div>
+{{EnemyShipCategoriesKai|{{PAGENAME}}/}}
 ==Quotes==
+{{Abyssquote|開幕前 = アナタタチ…ハ……。<br>トオ…サナイ……カラ……。
+トオ…サナイ……ッテ……。<br>イッタヨォッ…!(Final Form)
+|砲撃 = コノギョライヲ…タベロッ！ 
 
+<br/>イッパイタベナヨォ！ (Final Form)
+|被弾 = イタイッ！…ヤメテヨォッ！
+|昼戦終了時 = マタクルヨ。　イヒヒヒヒヒヒヒャハ……（Normal Sunk line)
+<br/>
+マタ…ベツノアタシガ　ベツノトコロデ…クルカラネ…。イヒヒヒヒヒ…(Final Sunk Line)
+|Clip1 = {{Audio|file=New Submarine Princess Intro.ogg}}
+<br>
+{{Audio|file=New Submarine Princess Final Intro.ogg}}
+|Clip0 = {{Audio|file=New Submarine Princess Attack.ogg}}
+<br>
+{{Audio|file=New Submarine Princess Final Form Attack.ogg}}
+|Clip2 = {{Audio|file=New Submarine Princess Damaged.ogg}}
+|Clip3 = {{Audio|file=New Submarine Princess Prefinal Sunk.ogg}}
+<br>
+{{Audio|file=New Submarine Princess Sunk.ogg}}|EN1 = I will...not allow you... to pass...
+<br>
+I said... I wouldn't allow you... to pass...! (Final Form)
+|EN0 = Eat these torpedos...! 
+<br>
+Eat your fill...! (Final Form)|EN2 = It hurts..!  Stop it!|EN3 = I'll be back again... Hehehehehehehe...（Normal Sunk line)
+<br>
+Another time, the others exactly like me... will come to get you from another place... Hehehehehe... (Final Sunk Line)|Note3 = After New Submarine Princess was sunk completely in E-1, the other them have appeared in E-7.}}
+
+==Character==
+*'''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://myanimelist.net/people/184/Hitomi_Nabatame Nabatame Hitomi] (生天目仁美)
 
 ==Trivia==
-
-
-==See Also==
-{{enemyshiplist}}
+*[[Summer 2017 Event]] E-1 boss.
+*Variant IV was introduced for the first time during the [[Winter 2018 Event]].
+*Also appears in [[Summer_2017_Event/E-7|Summer 2017 Event E-7]] node H, J and K.
+*Interestingly, her attacking line says "タベル" instead of "クラエ". Although both can mean "eat" in Japanese, the second one also means "take this" when you are fighting someone, so she is really asking you (or your kanmusu) to "eat" her torpedoes.
+{{Enemyshiplist}}
 [[Category:Bosses]]
 [[Category:Abyssal Submarines]]
+[[Category:Enemy Vessel]]

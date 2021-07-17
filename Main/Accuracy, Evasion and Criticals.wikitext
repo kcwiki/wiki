@@ -136,7 +136,7 @@ RADAR
 
 This formula only applies to opening and closing torpedo attacks in day.
 
-<math>\text{Accuracy}_\text{torpedo} = \left( 85 + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} + \frac{\text{Attack}_\text{torp}}{5} + \text{Mod}_\text{ship} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale}</math>
+<math>\text{Accuracy}_\text{torpedo} = \left( 85 + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} + \left \lfloor{\frac{\text{Attack}_\text{torp}}{5}} \right \rfloor + \text{Mod}_\text{ship} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale}</math>
 
 * <math>\text{Mod}_\text{formation}</math> for '''torpedo attacks''' is as follows:
 ** Line Ahead/Vanguard (Top & Bottom): <math>1.0</math>
@@ -149,7 +149,6 @@ This formula only applies to opening and closing torpedo attacks in day.
 ** The figure incorporates any pre- and post-cap modifiers and takes into account the attack cap.
 ** This means that engagement and damage state play a role in torpedo accuracy.
 * <math>\text{Mod}_\text{ship}</math> is the innate torpedo accuracy of the ship. Currently only Abyssal ships have values above <math>0</math>.
-
 
 ===Aerial Combat===
 
@@ -298,96 +297,8 @@ Capped evasion is then modified by post-cap modifiers:
 
 =Special Cases=
 ==PT Imps==
-[[PT Imp Group|PT Imps]] were introduced during the [[Summer 2017 Event]]. They have a very high evasion rate and are next to impossible to hit with normal shelling and torpedo attacks. This even includes special attacks. In order to sink them, your ships will require specific equipment setups.
+[[PT Imp Group|PT Imps]] were introduced during the [[Summer 2017 Event]].
 
-
-{| class="wikitable"
-|-
-!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;" rowspan="2"|Equipment Setup
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:96px;" colspan="3"|Bonus
-!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;" rowspan="2"|Notes
-|-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|DD
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|CL
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|CA/BB
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{SurfaceShipPersonnel}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| 50%
-|style="text-align: center; border-style: solid; border-width: 1px;"| 25%
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| Adding more main guns does not increase the hit rate. Adding more lookouts '''halves''' the rate.
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"|{{SurfaceShipPersonnel}} {{GreenGunMG}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| 50%
-|style="text-align: center; border-style: solid; border-width: 1px;"| 25%
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"|
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"|{{SurfaceShipPersonnel}} {{GreenGunMG}} {{GreenGunMG}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| 100%?
-|style="text-align: center; border-style: solid; border-width: 1px;"| 50%
-|style="text-align: center; border-style: solid; border-width: 1px;"| 30%
-|style="text-align: center; border-style: solid; border-width: 1px;"| 
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{SurfaceShipPersonnel}} {{GreenGunMG}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| 100%?
-|style="text-align: center; border-style: solid; border-width: 1px;"| ??
-|style="text-align: center; border-style: solid; border-width: 1px;"| ??
-|style="text-align: center; border-style: solid; border-width: 1px;"| 
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowGun}} {{SurfaceShipPersonnel}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| 35%
-|style="text-align: center; border-style: solid; border-width: 1px;"| 15%
-|style="text-align: center; border-style: solid; border-width: 1px;"| 
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{Radar}} {{SurfaceShipPersonnel}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| 10%
-|style="text-align: center; border-style: solid; border-width: 1px;"| ??
-|style="text-align: center; border-style: solid; border-width: 1px;"| ??
-|style="text-align: center; border-style: solid; border-width: 1px;"| Only applies to RADARs with LOS stats greater than 5.
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowGun}} {{GreenGunMG}} {{Seaplane}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| ??
-|style="text-align: center; border-style: solid; border-width: 1px;"| 45%
-|style="text-align: center; border-style: solid; border-width: 1px;"| Only applies to [[:Category:Zuiun|Zuiuns]].
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowGun}} {{Seaplane}} {{SurfaceShipPersonnel}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| ??
-|style="text-align: center; border-style: solid; border-width: 1px;"| 75%
-|style="text-align: center; border-style: solid; border-width: 1px;"|
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{GreenGunMG}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| 10%
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| Destroyer only.
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{RedGunLight}} {{GreenGunMG}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| 30%
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| Destroyer only.
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{RedGunLight}} {{GreenGunMG}} {{GreenGunMG}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| 50%
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| N/A
-|style="text-align: center; border-style: solid; border-width: 1px;"| Destroyer only.
-|-
-|}<references/>
-{{clear}}
-
-
-'''Important Notes'''
-* Small Caliber Guns + Lookout + Machine Gun is the best anti-imp setup.
-* It is inadvisable to run anti-imp setups on any ship but destroyers because it compromises their combat effectiveness.
-* Having a reinforcement expansion is important because it allows the ship to not waste a slot on a machine gun.
-* The values presented above are theorised to be '''fixed hit rates'''.
-** This means they are unaffected by any outside factors.
-* Certain {{GreenGunDP}} that count as small caliber main guns can substitute for {{RedGunLight}}.
-* Certain {{GreenGunDP}} that count as secondary guns can substitute for {{YellowGun}}.
+{{Anti-PT Imp Setups|uncollapsed=true}}
 
 {{Mechanics}}

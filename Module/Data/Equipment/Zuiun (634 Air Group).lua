@@ -1,0 +1,76 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Zuiun (634 Air Group)",
+	_localized_name = "Auspicious Clouds (634 Air Group)",
+	_page = false,
+	_id = 79,
+	_japanese_name = "瑞雲(六三四空)",
+	_reading = "ずいうん(ろくさんよんくう)",
+	_type = 11,
+	_icon = 10,
+	_rarity = 2,
+	_firepower = false,
+	_bombing = 6,
+	_torpedo = false,
+	_aa = 2,
+	_armor = false,
+	_asw = 5,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = 6,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_flight_cost = 6,
+	_flight_range = 5,
+	_special = false,
+	_scrap_fuel = 2,
+	_scrap_ammo = 3,
+	_scrap_steel = false,
+	_scrap_bauxite = 5,
+	_info = "急降下も可能な多用途水上偵察機「瑞雲」。<br/>伊勢型航空戦艦等での艦隊運用を前提に編成・錬成した、六三四航空部隊所属の瑞雲飛行隊です。",
+	_wikipedia = "634th Naval Air Group",
+	_buildable = false,
+	_improvements = {
+		_fuel = 180,
+		_ammo = 180,
+		_steel = false,
+		_bauxite = 480,
+		_products = {
+			["Zuiun Model 12 (634 Air Group)"] = {
+				_ships = {
+					["Ise/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Hyuuga/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 6,
+					_development_material_x = 8,
+					_improvement_material = 5,
+					_improvement_material_x = 6,
+					_equipment = {["Zuiun"] = 1},
+				},
+				[6] = {
+					_development_material = 7,
+					_development_material_x = 10,
+					_improvement_material = 6,
+					_improvement_material_x = 8,
+					_equipment = {["Zuiun"] = 2},
+				},
+				[10] = {
+					_development_material = 12,
+					_development_material_x = 18,
+					_improvement_material = 7,
+					_improvement_material_x = 10,
+					_equipment = {
+					    ["Zuiun Model 12"] = 2,
+					    ["New Model Aerial Armament Material"] = 1,
+					    ["Skilled Crew Member"] = 1
+					},
+				},
+			},
+		},
+	},
+}

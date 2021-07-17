@@ -1,0 +1,62 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "Submarine Radar & Waterproof Telescope",
+    _page = false,
+    _id = 210,
+    _japanese_name = "潜水艦搭載電探&水防式望遠鏡",
+    _reading = "せんすいかんとうさいでんたん&すいぼうしきぼうえんきょう",
+    _type = 51,
+    _icon = 42,
+    _rarity = 2,
+    _firepower = 1,
+    _bombing = false,
+    _torpedo = false,
+    _aa = 1,
+    _armor = false,
+    _asw = false,
+    _shelling_accuracy = 2,
+    _torpedo_accuracy = false,
+    _evasion = 8,
+    _los = 4,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = 10,
+    _flight_range = 4,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = false,
+    _scrap_steel = 12,
+    _scrap_bauxite = 13,
+    _info = "潜水艦に搭載する、索敵及び水上偵察用装備です。<br/>艦橋上部に集中装備する多数の優れた水防式望遠鏡と水上電探及び対空電探群によって、脅威の早期発見に努めます。",
+    _buildable = false,
+	_improvements = {
+		_fuel = 80,
+		_ammo = 90,
+		_steel = 100,
+		_bauxite = 70,
+		_products = {
+			[false] = {
+				_ships = {
+					["I-401/Kai"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 20,
+					_development_material_x = 24,
+					_improvement_material = 7,
+					_improvement_material_x = 9,
+					_equipment = {["Type 22 Surface Radar"] = 2},
+				},
+				[6] = {
+					_development_material = 30,
+					_development_material_x = 40,
+					_improvement_material = 8,
+					_improvement_material_x = 10,
+					_equipment = {["Skilled Lookouts"] = 1},
+				},
+			},
+		},
+	},
+}

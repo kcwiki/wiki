@@ -1,0 +1,35 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "TBM-3D",
+    _id = 257,
+    _japanese_name = "TBM-3D",
+    _reading = nil,
+    _type = 8, -- 3,5,8,46,21
+    _icon = 46,
+    _rarity = 4,
+    _firepower = 2,
+    _bombing = false,
+    _torpedo = 9,
+    _aa = 1,
+    _armor = false,
+    _asw = 8,
+    _shelling_accuracy = 2,
+    _torpedo_accuracy = false,
+    _evasion = false,
+    _los = 4,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = 11,
+    _flight_range = 6,
+    _special = false,
+    _scrap_fuel = 3,
+    _scrap_ammo = 7,
+    _scrap_steel = false,
+    _scrap_bauxite = 12,
+    _buildable = false,
+    _info = "重い発動機と頑丈なボディを備えた、太平洋の戦い、その後半の大空を駆けた主力雷撃機「TBF」。復讐者の名を持つこの新鋭雷撃機に機上レーダーを搭載し、夜間作戦能力を付与したのが本機「TBM-3D」。夜戦型艦戦を組み合わせた夜戦空母での集中運用もお試しあれ！",
+    _upgradable = false,
+}

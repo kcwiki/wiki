@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Ginga (Egusa Squadron)",
+  _id = 388,
+  _japanese_name = "銀河(江草隊)",
+  _reading = nil,
+  _type = 47, -- 21,38,47,37,4
+  _icon = 37,
+  _rarity = 5,
+  _firepower = false,
+  _bombing = 15,
+  _torpedo = 15,
+  _aa = 3,
+  _armor = false,
+  _asw = 4,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = 4,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 13,
+  _flight_range = 7,
+  _special = false,
+  _scrap_fuel = 9,
+  _scrap_ammo = 7,
+  _scrap_steel = false,
+  _scrap_bauxite = 17,
+  _buildable = false,
+  _info = "海軍の主力陸上攻撃機「一式陸攻」の後継機として開発された陸上発進の攻撃機です。優れた機体設計により、高い性能を秘めていました。戦力化された時期が遅かったことや複雑な構造に問題もあった新鋭機「銀河」。本部隊は、同機で編成され、鵬部隊とも呼ばれた精鋭江草隊長率いる飛行隊です。",
+}

@@ -1,0 +1,35 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "Swordfish Mk.II (Skilled)",
+    _id = 243,
+    _japanese_name = "Swordfish Mk.II(熟練)",
+    _reading = "Swordfish Mk.II (じゅくれん)",
+    _type = 8, -- 3,5,8,8,28
+    _icon = 8,
+    _rarity = 3,
+    _firepower = 3,
+    _bombing = false,
+    _torpedo = 5,
+    _aa = false,
+    _armor = false,
+    _asw = 6,
+    _shelling_accuracy = 3,
+    _torpedo_accuracy = false,
+    _evasion = false,
+    _los = 2,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = 3,
+    _flight_range = 3,
+    _special = false,
+    _scrap_fuel = 1,
+    _scrap_ammo = 2,
+    _scrap_steel = false,
+    _scrap_bauxite = 1,
+    _info = "複葉非全金属仕様の旧世代低速機でありながら、高い信頼性と運用性、優れた運動性を誇る、メカジキの名を持つ紅茶の国の艦上攻撃機。<br>「Ark Royal」搭載機が戦艦「Bismarck」と英艦隊との激闘で大殊勲となる一撃を放つなど、旧式ながら赫々たる戦果をおさめた傑作機、その改良機を駆る精鋭複葉艦攻隊です。",
+    _wikipedia = "Fairey Swordfish",
+    _buildable = false,
+}

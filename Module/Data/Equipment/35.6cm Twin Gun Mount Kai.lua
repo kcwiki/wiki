@@ -1,0 +1,61 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "35.6cm Twin Gun Mount Kai",
+  _id = 328,
+  _japanese_name = "35.6cm連装砲改",
+  _reading = "35.6センチれんそうほうかい",
+  _type = 3, -- 1,1,3,3,0
+  _icon = 3,
+  _rarity = 3,
+  _firepower = 16,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 4,
+  _armor = 2,
+  _asw = false,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 3,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 11,
+  _scrap_steel = 16,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "「金剛」型建造時期に英国に発注され、後に国産化、「伊勢」型までの標準的な戦艦主砲兵装として運用された大口径主砲、そのif改良型です。射撃速度と精度の向上を図りつつ、砲自体の軽量化及び被弾時の抗耐性の向上を図っています。<br>改「金剛」型高速戦艦による運用で、その威力を発揮します！",
+	_improvements = {
+		_fuel = 36,
+		_ammo = 360,
+		_steel = 500,
+		_bauxite = 40,
+		_products = {
+			["35.6cm Twin Gun Mount Kai"] = {
+				_ships = {
+					["Hiei/Kai Ni C"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+					["Kongou/Kai Ni C"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = false, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 8,
+					_development_material_x = 9,
+					_improvement_material = 6,
+					_improvement_material_x = 7,
+					_equipment = {["35.6cm Twin Gun Mount"] = 2},
+				},
+				[6] = {
+					_development_material = 12,
+					_development_material_x = 20,
+					_improvement_material = 7,
+					_improvement_material_x = 9,
+					_equipment = {["35.6cm Twin Gun Mount"] = 4},
+				},
+			},
+		},
+	},
+}

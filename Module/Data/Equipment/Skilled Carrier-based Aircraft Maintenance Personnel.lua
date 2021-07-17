@@ -1,0 +1,33 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Skilled Carrier-based Aircraft Maintenance Personnel",
+	_page = false,
+	_id = 108,
+	_japanese_name = "熟練艦載機整備員",
+	_reading = "じゅくれんかんさいきせいびいん",
+	_type = 35,
+	_icon = 29,
+	_rarity = 3,
+	_firepower = 10,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 1,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = 1,
+	_speed = false,
+	_luck = false,
+	_range = 3,
+	_special = false,
+	_scrap_fuel = 1,
+	_scrap_ammo = 10,
+	_scrap_steel = 1,
+	_scrap_bauxite = 10,
+	_info = "艦載機の整備の卓越した能力を発揮できる整備要員です。<br/>艦載機を装備した航空母艦に導入することで、同空母から発進する攻撃隊の能力を高めることが可能です。第一次攻撃隊のパンチ力不足を感じたら、お試しください！",
+	_buildable = false,
+}

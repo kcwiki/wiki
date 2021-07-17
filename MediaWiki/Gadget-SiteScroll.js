@@ -5,7 +5,7 @@
  */
 
 window.AutoScroll = function(objNotice) {
-    $(objNotice).find("ul:first").animate(
+    $(objNotice).find("ul:first").stop(true, true).animate(
     	{
     		marginTop:"-25px"
     	},
@@ -13,14 +13,14 @@ window.AutoScroll = function(objNotice) {
     	function(){
     	    $(this).css({marginTop: "0px"}).find("li:first").appendTo(this);
     	}
-    )
-}
+    );
+};
 
 $(function() {
-    setInterval('AutoScroll("#scrollDiv")',10000);
-    //image loading effect
+    setInterval(function() { window.AutoScroll('#scrollDiv') }, 10000);
+    // image loading effect
     $('img').on('load', function(e){
          var target = $(this);
          target.css('opacity', 0).animate({opacity: 1}, 1000);
-   })
-})
+   });
+});

@@ -1,0 +1,72 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Shipborne Model Type 4 20cm Anti-ground Rocket Launcher",
+  _id = 348,
+  _japanese_name = "艦載型 四式20cm対地噴進砲",
+  _reading = nil,
+  _type = 37, -- 15,26,37,31,0
+  _icon = 31,
+  _rarity = 4,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = false,
+  _aa = false,
+  _armor = -2,
+  _asw = false,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = 1,
+  _scrap_ammo = 3,
+  _scrap_steel = 1,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "地対地ロケット兵装として、日本陸軍によって開発された試製四式噴進砲。圧倒的な火力を集中的に投射して、敵の地上戦力や陣地を破壊制圧する目的で整備され、防御戦にも実際に投入されました。本兵装は、同地対地噴進砲を艦載し、集中運用することで、敵地上兵力を叩く艦艇用対地if装備です。※本兵装は集中運用することで、さらに能力を発揮します。",
+  _improvements = {
+		_fuel = 20,
+		_ammo = 120,
+		_steel = 30,
+		_bauxite = 10,
+		_products = {
+			["Type 4 20cm Anti-ground Rocket Launcher (Concentrated Deployment)"] = {
+				_ships = {
+					["Akitsushima/Kai"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Arashio/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+					["Ooshio/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 5,
+					_development_material_x = 4,
+					_improvement_material = 3,
+					_improvement_material_x = 3,
+					_equipment = {["Drum Canister (Transport Use)"] = 1},
+				},
+				[6] = {
+					_development_material = 5,
+					_development_material_x = 8,
+					_improvement_material = 4,
+					_improvement_material_x = 6,
+					_equipment = {["12cm 30-tube Rocket Launcher"] = 1},
+				},
+				[10] = {
+					_development_material = 20,
+					_development_material_x = 36,
+					_improvement_material = 7,
+					_improvement_material_x = 13,
+					_equipment = {
+					    [true] = 1,
+					    ["New Model Rocket Development Material"] = 2,
+					},
+				},
+			},
+		},
+	},
+}

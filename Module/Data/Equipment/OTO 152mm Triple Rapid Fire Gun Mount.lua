@@ -1,0 +1,63 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "OTO 152mm Triple Rapid Fire Gun Mount",
+	_page = false,
+	_id = 134,
+	_japanese_name = "OTO 152mm三連装速射砲",
+	_reading = "OTO 152ミリさんれんそうれんしゃほう",
+	_type = 4,
+	_icon = 4,
+	_rarity = 3,
+	_firepower = 8,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 2,
+	_armor = 1,
+	_asw = false,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = 2,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = 2,
+	_scrap_steel = 5,
+	_scrap_bauxite = false,
+	_info = "パスタの国が生んだ、伝統と信頼の高性能中口径の三連装速射砲です。<br>砲の旋回や俯仰、砲弾の揚弾及び装填は主に電力で稼働する最新型です。新型高速戦艦の副砲にも採用されました。",
+	_buildable = false,
+	_improvements = {
+		_fuel = 10,
+		_ammo = 90,
+		_steel = 120,
+		_bauxite = false,
+		_products = {
+			[false] = {
+				_ships = {
+					["Littorio/"] = {Sunday = true, Monday = false, Tuesday = true, Wednesday = true, Thursday = false, Friday = false, Saturday = true},
+					["Italia/"] = {Sunday = true, Monday = false, Tuesday = true, Wednesday = true, Thursday = false, Friday = false, Saturday = true},
+					["Roma/"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = false},
+					["Roma/Kai"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = false},
+				},
+				[0] = {
+					_development_material = 2,
+					_development_material_x = 3,
+					_improvement_material = 2,
+					_improvement_material_x = 3,
+					_equipment = false,
+				},
+				[6] = {
+					_development_material = 3,
+					_development_material_x = 4,
+					_improvement_material = 3,
+					_improvement_material_x = 5,
+					_equipment = {["15.5cm Triple Gun Mount"] = 1},
+				},
+			},
+		},
+	},
+}

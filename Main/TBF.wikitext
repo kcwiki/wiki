@@ -1,19 +1,4 @@
-{{Template:Equipmentinfo
-|name = TBF
-|id = 256
-|japanesename = TBF
-|icon = {{BluePlane}}
-|type = Carrier-Based Torpedo Bomber
-|effect = {{Firepower}}+2 {{Torpedo}}+9 {{AA}}+1 {{ASW}}+6 {{LOS}}+2
-|radius = 6
-|scrap = {{Fuel}}3 {{Ammo}}6 {{Bauxite}}11
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment256-1.png
-Equipment256-2.png
-Equipment256-3.png
-Equipment256-4.png
-</gallery>
-}}
+{{EquipmentInfo|256}}
 
 ==Introduction==
 重い発動機と頑丈なボディを備えた、太平洋の戦い、その後半の大空を駆けた主力雷撃機「TBF」。<br>
@@ -39,6 +24,12 @@ Equipment256-4.png
 <div class="mw-collapsible-content">
 '''Used by quests: '''[[Quests#F62|F62]], [[Quests#F91|F91]]
 
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2017-09-12:''' '''Implemented'''
 </div></div>
 
 ==See also==

@@ -1,0 +1,464 @@
+==Enemy patterns==
+{{Section}}
+
+{{Map/Image|
+{{Map/ImageNode|Start|x=267|y=254}}
+{{Map/ImageNode|A|x=306|y=126}}
+{{Map/ImageNode|B|x=366|y=263}}
+{{Map/ImageNode|C|x=405|y=186}}
+{{Map/ImageNode|D|x=447|y=100}}
+{{Map/ImageNode|E|x=482|y=196}}
+{{Map/ImageNode|F|x=531|y=144}}
+{{Map/ImageNode|G|x=561|y=211}}
+{{Map/ImageNode|H|x=592|y=284}}
+{{Map/ImageNode|I|x=622|y=192}}
+{{Map/ImageNode|J|x=466|y=292}}
+}}
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+{{Map/Nodes|name=敵偵察潜水艦
+|A
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|30
+|Submarine Ka-Class
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|40
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|60
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|40
+|Submarine Ka-Class/Elite
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|50
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|75
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+}}
+{{NodeInfo
+|B
+|Empty
+}}
+{{Map/Nodes|name=敵通商破壊高速水上艦群A群
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|100
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|110
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|120
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|140
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|160
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|170
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=敵潜水艦隊B群
+|D
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|40
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|60
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|70
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|80
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|80
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class/Elite
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|90
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class
+|Submarine Yo-Class
+}}
+{{Map/Nodes|name=敵潜水艦隊C群
+|E
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|60
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|70
+|Submarine Yo-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|70
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|80
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|90
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|100
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+}}
+{{Map/Nodes|name=敵潜水艦隊A群
+|F
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|70
+|Submarine Yo-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|80
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|100
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|110
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|120
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|130
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+}}
+{{NodeInfo
+|G
+|Empty
+}}
+{{Map/Nodes|name=敵通商破壊高速水上艦群B群
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|100
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|110
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|120
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|140
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|160
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|170
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=敵侵攻機動部隊
+|I
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|100
+|Light Carrier Nu-Class/Elite
+|Light Cruiser He-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|I
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|120
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|I
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|150
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|I
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|130
+|Standard Carrier Wo-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|I
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|160
+|Standard Carrier Wo-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|I
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|170
+|Standard Carrier Wo-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=敵通商破壊主力潜水艦隊
+|J
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|160
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|165
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|170
+|Submarine Yo-Class/Flagship
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|175
+|Submarine Yo-Class/Flagship
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|180
+|Submarine Yo-Class/Flagship
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|185
+|Submarine So-Class/Flagship
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|190
+|Submarine So-Class/Flagship
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

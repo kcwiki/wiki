@@ -212,7 +212,7 @@ Fighter Bombers
 * In night battle versus Abyssal installations, '''the torpedo stat is ignored'''.
 ** This also means any upgrade bonuses to torpedo power is ignored.
 
-===Carrier Night Cut-In===
+===Carrier Night Air Attacks===
 
 <math>\text{Night Battle Power}_\text{carrier} = \text{FP}_\text{ship} + \sum_\text{All Night Planes} \text{FP}_\text{night plane} + \text{TP}_\text{night plane} + \text{DB}_\text{night plane} + \text{Night Plane Bonus}</math>
 
@@ -236,7 +236,7 @@ Where:
 ** The hidden upgrade bonus to stats is not taken into account.
 ** This means any other stats and upgrade bonuses from equipment like guns and non-night capable planes are ignored.
 ** This also means that visible Torpedo Stat Fit Bonus from Planes is also ignored
-* Certain carriers like [[Graf Zeppelin]], [[Taiyou|Taiyou Kai Ni]], [[Shinyou|Shinyou Kai Ni]], [[Saratoga|base Saratoga]] and [[Ark Royal]] are capable of performing night attacks but they '''are not''' carrier night cut-ins and are just normal carrier attacks. Please see [[Night Battle#Carrier_Night_Attacks|Carrier Night Attacks]] for more details.
+* Certain carriers like [[Graf Zeppelin]], [[Taiyou|Taiyou Kai Ni]], [[Shinyou|Shinyou Kai Ni]] and [[Saratoga|base Saratoga]] are capable of performing night attacks but they '''are not''' carrier night air attacks and are just normal shelling attacks. Please see [[Night Battle#Carrier_Night_Attacks|Carrier Night Attacks]] for more details.
 
 ===Anti-Installation Attacks===
 
@@ -607,190 +607,185 @@ For more details on formation, please see [[Combat#Formation_Selection|Formation
 ** It will affect carrier attacks in the shelling phase.
 
 ====Night Battle Special Attacks====
-For more details please see [[Night Battle#Night Battle Special Attacks|Night Battle Special Attacks]].
-
-{| class="wikitable sortable" style="width: 100%;"
-|-
-!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" rowspan="2" colspan="2"| '''Attack Type'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;" colspan="6"| '''Number of Equipment'''
-!style="width: 5%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Multiplier'''
-!style="width: 5%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''No. of Attacks'''
-!style="width: 15%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Notes'''
-|- 
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Main Gun'''<br>{{RedGunHeavy}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Secondary Gun'''<br>{{YellowGun}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Torpedo'''<br>{{TorpedoWeapon}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''RADAR'''<br>{{Radar}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Skilled Lookout'''<br>{{SurfaceShipPersonnel}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Submarine Radar'''<ref>[[Submarine Radar and Waterproof Periscope]] and [[Submarine Radar and Radio Direction Finder (E27)]]</ref><br>{{SubmarineRadar}}
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;" rowspan="10"| Cut-In
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Lookout/RADAR<br>Destroyer Lookout
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 120%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only.
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/RADAR
-<br>Destroyer Mixed
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/Radar<br>Special Destroyer Mixed
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1<ref>Special cut in for the [[12.7cm Twin Mount Type-D Kai 2]].</ref>
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 162.5%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/Radar<br>Special Destroyer Mixed
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1<ref>Special cut in for the [[12.7cm Twin Gun Mount Model D Kai 3]].</ref>
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 170.6%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Torpedo/Torpedo<br>Submarine Torpedo
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2<ref>Only applies to the [[Late Model Bow Torpedo Mount (6 Tubes)]] and [[Skilled SONAR Personnel + Late Model Bow Torpedo Mount (6 Tubes)]].</ref>
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 160%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Submarines only
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Torpedo/Sub RADAR<br>Submarine Radar
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1<ref>As above.</ref>
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 175%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Submarines only
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Torpedo/Torpedo<br>Torpedo
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 150%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Main/Main<br>Gun
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 3
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 200%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Main/Secondary<br>Mixed Gun
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 175%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/Torpedo<br>Mixed Torpedo
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
-|-
-|style="text-align: center; border-style: solid; border-width: 1px; width:20%;" colspan="2"| Double Attack
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;" colspan="2"| 2
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 120%
-|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
-|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
-|-
-|}<references/>
-{{clear}}
-
-====Carrier Night Attacks====
-For more details please see [[Night Battle#Carrier Night Attacks|Carrier Night Attacks]].
+For more details please see [[Night Battle#Night Special Attacks|Night Special Attacks]].
 
 {| class="wikitable"
-!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;" colspan="2"|Type
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Modifier
-!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Notes
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="6"|Cut-In
-|style="text-align: center; border-style: solid; border-width: 1px;"| 2x Night Fighter<br>
-1x Night Bomber
-|style="text-align: center; border-style: solid; border-width: 1px;"| 1.25
-|
+!Attack Type
+!Prerequisites
+!Notes
+![[Damage_Calculations#Night_Battle_Special_Attacks|Pre-cap]]<br/>Damage<br/>Modifier
+!Hits
+
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| 1x Night Fighter<br>
-1x Night Bomber
-|style="text-align: center; border-style: solid; border-width: 1px;"| 1.2
-|
+!style="background-color:#ff7f50"|Gun Cut-in
+|nowrap|{{RedGunHeavy}}{{RedGunHeavy}}{{RedGunHeavy}}
+| + Any on the remaining slots
+|2
+|1
+
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| 3x Night Fighter
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="4"|  1.18
-|
+!style="background-color:#ff7f50"|Mixed Gun Cut-in
+|nowrap|{{RedGunHeavy}}{{RedGunHeavy}}{{YellowGun}}
+|nowrap|No additional {{RedGunHeavy}}
+|1.75
+|1
+
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| 2x Night Fighter<br>
-Other
-|
+!style="background-color:gold" rowspan="2"|Submarine Cut-ins
+|nowrap|{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}{{SubmarineRadar}}
+|rowspan="2"|With '''[[:Category:Late_Model_Submarine_Torpedoes|Late Model Bow Torpedoes]] ONLY'''
+|1.75
+|2
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| Night Fighter<br>
-Night Bomber<br>
-Other
-| 
+|nowrap|{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}
+|1.6
+|2
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| Night Fighter<br>
-2x Other
+!style="background-color:gold"|Torpedo Cut-in
+|nowrap|{{TorpedoWeapon}}{{TorpedoWeapon}}
+| + Any on the remaining slots
+|1.5
+|2
+
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;" colspan="2"|Normal Attack
-|style="text-align: center; border-style: solid; border-width: 1px;"| 1.0
-| 
+!style="background-color:gold"|Mixed Torpedo Cut-in
+|nowrap|{{TorpedoWeapon}}{{RedGunHeavy}}
+|nowrap|Additional {{RedGunHeavy}}{{YellowGun}} allowed
+|1.3
+|2
+
 |-
+!style="background-color:#59f" rowspan="3"|{{color|white|Double Attack}}
+|nowrap|{{RedGunHeavy}}{{RedGunHeavy}}
+|nowrap|No additional {{TorpedoWeapon}}{{RedGunHeavy}}{{YellowGun}}
+|rowspan="3"|1.2
+|rowspan="3"|2
+|-
+|nowrap|{{RedGunHeavy}}{{YellowGun}}
+|nowrap|Additional {{YellowGun}} allowed
+|-
+|nowrap|{{YellowGun}}{{YellowGun}}
+|nowrap|Additional {{YellowGun}}{{TorpedoWeapon}} allowed
 |}
 
-* "Other" referrs to [[:Category:Swordfish|Swordfish]], [[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)]] and [[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)]].
+{| class="wikitable"
+|-
+!Attack Type
+!Prerequisites
+!Notes
+![[Damage_Calculations#Night_Battle_Special_Attacks|Pre-cap]]<br/>Damage<br/>Modifier
+!Hits
+
+|-
+!style="background-color:#ff7f50" rowspan="8"|Destroyer Cut-ins
+|rowspan="3" nowrap|{{RedGunLight}}{{TorpedoWeapon}}{{Radar}}
+|
+|1.3
+|2/1
+|-
+|With {{EquipmentLink|12.7cm Twin Gun Mount Model D Kai 2|text=12.7cm Model D Kai 2}}
+|{{tooltip|1.625|1.3 * 1.25}}
+|2/1
+|-
+|With {{EquipmentLink|12.7cm Twin Gun Mount Model D Kai 3|text=12.7cm Model D Kai 3}}
+|{{tooltip|1.706|1.3 * 1.25 * 1.05}}
+|2/1
+
+|-
+|rowspan="3" nowrap|{{TorpedoWeapon}}{{SurfaceShipPersonnel}}{{Radar}}
+|Synergy with evasion bonus
+|1.2
+|2/1
+|-
+|With {{EquipmentLink|12.7cm Twin Gun Mount Model D Kai 2|text=12.7cm Model D Kai 2}}
+|{{tooltip|1.5|1.2 * 1.25}}
+|2/1
+|-
+|With {{EquipmentLink|12.7cm Twin Gun Mount Model D Kai 3|text=12.7cm Model D Kai 3}}
+|{{tooltip|1.575|1.2 * 1.25 * 1.05}}
+|2/1
+
+|-
+|nowrap|{{TorpedoWeapon}}{{SurfaceShipPersonnel}}{{TorpedoWeapon}}
+|Requires {{EquipmentLink|Torpedo Squadron Skilled Lookouts|text=TS Lookout}}
+|1.5
+|2/1
+
+|-
+|nowrap|{{TorpedoWeapon}}{{SurfaceShipPersonnel}}{{Drum}}
+|Requires {{EquipmentLink|Torpedo Squadron Skilled Lookouts|text=TS Lookout}}
+|1.3
+|2/1
+
+|-
+!style="background-color:#81c784" rowspan="13"|{{color|white|Carrier Cut-ins}}
+|nowrap|{{NightFighterEn}}{{NightFighterEn}}{{NightBomberEn}}
+|
+|1.25
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightBomberEn}}
+|
+|1.2
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightDivebomberEn}}
+|
+|1.2
+|1
+|-
+|nowrap|{{NightBomberEn}}{{NightDivebomberEn}}
+|
+|1.2
+|1
+|-
+|nowrap|{{NightFighterEn}}{{AnyBomber}}{{AnyBomber}}
+|
+|1.18
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightFighterEn}}{{AnyBomber}}
+|
+|1.18
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightBomberEn}}{{AnyBomber}}
+|
+|1.18
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightDivebomberEn}}{{AnyBomber}}
+|
+|1.18
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightFighterEn}}{{NightFighterEn}}
+|
+|1.18
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightBomberEn}}{{NightBomberEn}}
+|
+|1.18
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightFighterEn}}{{NightDivebomberEn}}
+|
+|1.18
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightBomberEn}}{{NightDivebomberEn}}
+|
+|1.18
+|1
+|-
+|nowrap|{{NightFighterEn}}{{NightDivebomberEn}}{{NightDivebomberEn}}
+|
+|1.18?
+|1
+|}
+* By using a second {{EquipmentLink|12.7cm Twin Gun Mount Model D Kai 2|text=12.7cm Model D Kai 2}} when performing a Destroyer Cut-in, an additional bonus of '''1.125x''' is applied multiplicatively to the attack. 
 
 ====Gun Fit Bonuses====
 
@@ -1131,5 +1126,4 @@ Therefore, the maximum damage from overkill protection is <math>\text{HP}_\text{
 
 =Other Information=
 {{Mechanics}}
-[[zh:战斗]]
 [[Category:Game Mechanics]]

@@ -18,7 +18,7 @@ local table_header = [=[{|style="width:100%;text-align:center" cellspacing="0"
 |style="width:0.5%"|
 |style="width:20%"|Rewards
 |style="width:0.5%"|
-|style="width:30%"|Note<span style="float:right;margin-top:-2em">[[https://en.kancollewiki.net/Module:Data/Quest/${category}?action=edit Edit]]</span>
+|style="width:30%"|Note<span style="float:right;margin-top:-2em">[[${host}/Module:Data/Quest/${category}?action=edit Edit]]</span>
 |-]=]
 
 local table_footer = '|}'

@@ -1,0 +1,62 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Type 98 Reconnaissance Seaplane (Night Recon)",
+	_page = false,
+	_id = 102,
+	_japanese_name = "九八式水上偵察機(夜偵)",
+	_reading = "きゅうはちしきすいじょうていさつき(やてい)",
+	_type = 10,
+	_icon = 10,
+	_rarity = 3,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = false,
+	_aa = false,
+	_armor = false,
+	_asw = 1,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = 3,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_flight_cost = 8,
+	_flight_range = 6,
+	_special = "Has a chance to provide bonuses in night battle",
+	_scrap_fuel = 2,
+	_scrap_ammo = 1,
+	_scrap_steel = false,
+	_scrap_bauxite = 4,
+	_buildable = false,
+	_info = "水雷戦隊旗艦用に開発された水上夜間偵察機です。<br/>長時間の滞空性能を持つ黒く塗装された機体に、夜間索敵能力に優れた搭乗員が乗りこみます(条件が整えば夜戦を支援する「夜間触接」が発生する可能性があります)。",
+	_improvements = {
+		_fuel = 100,
+		_ammo = 30,
+		_steel = false,
+		_bauxite = 480,
+		_products = {
+			[false] = {
+				_ships = {
+					["Sendai/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 4,
+					_development_material_x = 7,
+					_improvement_material = 3,
+					_improvement_material_x = 4,
+					_equipment = {["Type 0 Reconnaissance Seaplane"] = 1},
+				},
+				[6] = {
+					_development_material = 5,
+					_development_material_x = 9,
+					_improvement_material = 4,
+					_improvement_material_x = 8,
+					_equipment = {["Type 0 Reconnaissance Seaplane"] = 2},
+				},
+			},
+		},
+	},
+}

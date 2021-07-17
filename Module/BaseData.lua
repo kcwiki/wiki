@@ -1,5 +1,5 @@
 local BaseData = {}
- 
+
 function BaseData:create(data)
 	data = data or {}
 	setmetatable(data, data)
@@ -7,11 +7,11 @@ function BaseData:create(data)
 	data.__call = self.__call
 	return data
 end
- 
+
 BaseData.__call = function (table, ...)
 	return table:create(...)
 end
- 
+
 setmetatable(BaseData, BaseData)
- 
+
 return BaseData

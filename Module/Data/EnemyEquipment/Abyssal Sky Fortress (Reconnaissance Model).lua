@@ -1,0 +1,33 @@
+-- [[Category:Enemy equipment modules]]
+
+return {
+  _name = "Abyssal Sky Fortress (Reconnaissance Model)",
+  _id = 594,
+  _japanese_name = "深海空要塞(偵察型)",
+  _reading = "しんかいそらようさい(ていさつがた)",
+  _type = 7, -- 3,5,7,7,0
+  _icon = 7,
+  _rarity = 3,
+  _firepower = 17,
+  _bombing = 3,
+  _torpedo = false,
+  _aa = 9,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = 7,
+  _speed = false,
+  _luck = false,
+  _range = 4,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = false,
+  _scrap_steel = false,
+  _scrap_bauxite = false,
+  _buildable = false,
+  _info = "",
+}

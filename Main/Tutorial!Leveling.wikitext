@@ -631,7 +631,7 @@ Range determines which ships attack first, which can help influence MVP. It is n
 |-
 ! Equipment !! Usecases
 |-
-| [[GFCS Mk.37]], [[SG Radar (Initial Model)]] || Medium Range on DD, CL
+| [[GFCS Mk.37]], [[SG Radar (Initial Model)]], [[Torpedo Squadron Skilled Lookouts]] || Medium Range on DD, CL
 |-
 | [[203mm / 53 Twin Gun Mount]] || Long Range on CL, CA
 |-
@@ -647,7 +647,40 @@ Range determines which ships attack first, which can help influence MVP. It is n
 |}
 
 =Event=
-This section will be updated for time-limited events.
+<!--This section will be updated for time-limited events.-->
+
+<tabber>
+|-|E5=
+The objective is to hit the sub nodes at K and L before retreating. If you're feeling adventurous, you can proceed to B or M for some extra exp. Be warned that the air raids will cost you more resources and repairs. As an added bonus, the sub nodes are only range 2 and 1 respectively. This makes it a good spot to re-rank your LBAS too. Fast CTF/STF will skip K and go straight to L.
+
+'''Recommended Fleets'''
+* Slow STF/CTF
+* TCF
+
+'''Equipment Setups'''
+<br>
+
+''Reaching OASW for DD, DE and CL overrides all equipment setup suggestions listed below.''
+{| class="wikitable" style="width: 100%;"
+|-
+!style="text-align: center; background-color:#99CCFF; width:50px;"| '''Ship Type'''
+!style="text-align: center; background-color:#99CCFF; width:170px;"| '''Equipment'''
+!style="text-align: center; background-color:#99CCFF;"| '''Notes'''
+|- 
+| style="text-align: center;" | DD
+| {{Sonar}}{{Sonar}}{{DepthCharge}}'''/'''{{Sonar}}
+| This balances accuracy and damage for DDs. The SONARS add accuracy and the [[Type 94 Depth Charge]] or [[Type 3 Depth Charge]] provides them with ASW synergy damage. An extra SONAR can be added for [[Tashkent]].
+|-
+| style="text-align: center;" | DE
+| {{Sonar}}{{DepthCharge}}{{DepthCharge}}
+| Similar to the DD setup with one SONAR swapped out for a [[Type 95 Depth Charge]] or [[Type 2 Depth Charge]]. These DCs have extra armour penetration when equipped on DEs. The extra ASW synergy damage also helps overcome their low base ASW.
+|-
+| style="text-align: center;" | CL
+| {{Sonar}}{{Sonar}}{{DepthCharge}}'''/'''{{Sonar}}
+| Similar to the DD setup, it aims to balance accuracy and damage.
+|-
+|}
+</tabber>
 
 =See Also=
 * (Japanese) http://kankoreshuukai.blog.jp/archives/1410107.html

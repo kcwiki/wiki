@@ -1,195 +1,52 @@
 ==Info==
-{|
-|
-{{enemyshipinfo2
-|color = red
-|name = Isolated Island Princess (A)
-|japanesename = 離島棲姫
-|image = [[File:Isolated_Island_Hime.png|218px]]
-|id = 668
-|class = Abyssal
-|type = Installation
-|hp = 480
-|firepower = 180
-|armor = 190
-|torpedo = 0
-|evasion = 0
-|AA = 120
-|aircraft = ?
-|ASW = 0
-|LOS = ?
-|luck = ?
-|time = unbuildable
-|speed = N/A
-|range = Medium
-|slot = 4
-|slot1=?
-|slot2=?
-|slot3=?
-|slot4=?
-|space1=?
-|space2=?
-|space3=?
-|space4=?}}
-| style="width:20px;" |
-|
 
-{{enemyshipinfo2
-|color = red
-|name = Isolated Island Princess (B)
-|japanesename = 離島棲姫
-|image = [[File:Isolated_Island_Hime.png|218px]]
-|id = 669
-|class = Abyssal
-|type = Installation
-|hp = 480
-|firepower = 180
-|armor = 190
-|torpedo = 0
-|evasion = 0
-|AA = 120
-|aircraft = ?
-|ASW = 0
-|LOS = ?
-|luck = ?
-|time = unbuildable
-|speed = N/A
-|range = Medium
-|slot = 4
-|slot1=?
-|slot2=?
-|slot3=?
-|slot4=?
-|space1=?
-|space2=?
-|space3=?
-|space4=?}}
-|}
-{|
-|
-{{enemyshipinfo2
-|color = red
-|name = Isolated Island Princess (C)
-|japanesename = 離島棲姫
-|image = [[File:Isolated_Island_Hime.png|218px]]
-|id = 670
-|class = Abyssal
-|type = Installation
-|hp = 480
-|firepower = 180
-|armor = 190
-|torpedo = 0
-|evasion = 0
-|AA = 120
-|aircraft = ?
-|ASW = 0
-|LOS = ?
-|luck = ?
-|time = unbuildable
-|speed = N/A
-|range = Medium
-|slot = 4
-|slot1=?
-|slot2=?
-|slot3=?
-|slot4=?
-|space1=?
-|space2=?
-|space3=?
-|space4=?}}
-| style="width:20px;" |
-|
+<div style="display: inline-block;">
+===Basic===
+{{EnemyShipInfoKai|Isolated Island Princess/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
-{{enemyshipinfo2
-|color = red
-|name = Isolated Island Princess (D)
-|japanesename = 離島棲姫
-|image = [[File:Isolated_Island_Hime.png|218px]]
-|id = 671
-|class = Abyssal
-|type = Installation
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = 0
-|evasion = 0
-|AA = ?
-|aircraft = ?
-|ASW = 0
-|LOS = ?
-|luck = ?
-|time = unbuildable
-|speed = N/A
-|range = Medium
-|slot = 4
-|slot1=?
-|slot2=?
-|slot3=?
-|slot4=?
-|space1=?
-|space2=?
-|space3=?
-|space4=?}}
-|}
-{|
-|
-{{enemyshipinfo2
-|color = red
-|name = Isolated Island Princess (E)
-|japanesename = 離島棲姫
-|image = [[File:Isolated_Island_Hime.png|218px]]
-|id = 672
-|class = Abyssal
-|type = Installation
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = 0
-|evasion = 0
-|AA = ?
-|aircraft = ?
-|ASW = 0
-|LOS = ?
-|luck = ?
-|time = unbuildable
-|speed = N/A
-|range = Medium
-|slot = 4
-|slot1=?
-|slot2=?
-|slot3=?
-|slot4=?
-|space1=?
-|space2=?
-|space3=?
-|space4=?}}
-|}
+<div style="display: inline-block;">
+===Basic II===
+{{EnemyShipInfoKai|Isolated Island Princess/II|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic III===
+{{EnemyShipInfoKai|Isolated Island Princess/III|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic IV===
+{{EnemyShipInfoKai|Isolated Island Princess/IV|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic V===
+{{EnemyShipInfoKai|Isolated Island Princess/V|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Isolated Island Princess/}}
 
 ==Quotes==
 
-
 {{Abyssquote
-| 開幕前= ココマデ……クルトワ…ネ
-| EN1= So.... you made it...this far.
-| Note1=
-| 砲撃=
-| EN0=
-| Note0=
-| 被弾=
-| EN2=
-| Note2=
-| 昼戦終
-| EN3=
-| Note3=
-|Clip1 = 
-|Clip0 = 
-|Clip3 = 
-}}
+|開幕前 = ココマデ……。 クルトワ……ネ…………。
+|EN1 = So... you've come... this far......
+|砲撃 = コリナイコタチ…
+|EN0 = Obstinate girls...
+|被弾 = イイデショウ…
+|EN2 = Very well...
+| 昼戦終了時=None
+|Clip1 = {{Audio|file=Isolated Island Princess Intro.ogg}}
+|Clip0 = {{Audio|file=Isolated Island Princess Attack.ogg}}
+|Clip2 = {{Audio|file=Isolated Island Princess Damaged.ogg}}}}
 
+== Character ==
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://myanimelist.net/people/10981/Yui_Ogura Ogura Yui] (小倉唯)
 ==Trivia==
-* Made her Debut in [[World 6#6-4|Wolrd 6-4]]
-*Is unique that she behaves differently depending on her gear:
-{{HybridInstallation}}
+*Boss of [[World 6: 中部海域#6-4|6-4]]. Seemingly a powered-up version of the [[Isolated Island Demon]], but she is a unique [[Combat/Installation Type#Isolated Island Princess|landbase]] herself, taking less damage from [[Type 3 Shell]]s (x1.75 pre-cap damage multiplier instead of the usual x2.5 of other soft-skinned installations), but is more vulnerable to other anti-installation equipments ([[WG42 (Wurfgerät 42)|Wurfgerät 42]], landing crafts and amphibious tanks).
+
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]
 [[Category:Bosses]]
+[[Category:Abyssal Land Bases]]

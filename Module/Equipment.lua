@@ -1,55 +1,57 @@
 local U = require('Module:Core')
 local EquipmentData = require('Module:EquipmentData')
-local EquipmentCollection = require('Module:Collection/Equipment')
+
+local EquipmentCollection = mw.loadData('Module:Collection/Equipment')
 
 local Equipment = {}
 
 local equipments = {}
 
-function Equipment:create(name)
-	if not name then
-		return EquipmentData()
-	end
-	if equipments[name] then
-		return equipments[name]
-	end
-	local success, equipment_table = U.requireModule(name)
-	if not success then
-		local eq = U.find(EquipmentCollection, name, '_name')
-		local success2, equipment_table2
-		if eq and (eq._module or eq._dev) then
-			success2, equipment_table2 = U.requireModule(eq._module or eq._dev and name .. '/Dev')
-		end
-		equipment_table = success2 and equipment_table2 or eq or { _name = name }
-		if eq and eq._module then
-			equipment_table._module = eq._module
-		end
-		if eq and eq._dev then
-			equipment_table._dev = eq._dev
-		end
-	end
-	local equipment = EquipmentData(equipment_table)
-	equipments[name] = equipment
-	return equipment
+local function requireEquipmentModule(name, is_enemy)
+  local success, data
+  if not is_enemy then
+	success, data = U.requireModule('Data/Equipment/' .. name)
+    if not success then
+      success, data = U.requireModule('Data/Item/' .. name)
+    end
+    if not success then
+      success, data = U.requireModule('Data/PseudoItem/' .. name)
+    end
+    if not success then
+      data = U.find(EquipmentCollection, name, '_name') or {_name = name}
+      success = true
+    end
+  end
+  if not success then
+    success, data = U.requireModule('Data/EnemyEquipment/' .. name)
+  end
+  return data
+end
+
+function Equipment:create(name, is_enemy)
+  if not name then
+    return EquipmentData()
+  end
+  if not equipments[name] then
+    equipments[name] = EquipmentData(requireEquipmentModule(name, is_enemy))
+  end
+  return equipments[name]
 end
 
 function Equipment:get(stat, name)
-	return self:create(name)[stat]()
+  return self:create(name)[stat]()
 end
 
-function Equipment:get_module(name)
-	return name and mw.ustring.format(
-	    'Module:%s',
-	    equipments[name] and (equipments[name]._module or equipments[name]._dev and name .. '/Dev') or name
-    ) or nil
+function Equipment:get_module(name, typeName)
+  return name and string.format('Module:Data/%s/%s', typeName or 'Equipment', name) or nil
 end
 
 function Equipment:extend(data)
-	data = data or {}
-	setmetatable(data, data)
-	data.__index = self
-	data.__call = self.__call
-	return data
+  data = data or {}
+  setmetatable(data, data)
+  data.__index = self
+  data.__call = self.__call
+  return data
 end
 
 Equipment.__call = Equipment.create

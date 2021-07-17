@@ -1,5 +1,5 @@
 local U = require("Module:Core")
-local format = U.format
+local format = require("Module:Core").format
 local Formatting = require("Module:Formatting")
 local Equipment = require("Module:Equipment")
 local Iterator = require("Module:Iterator")
@@ -7,7 +7,7 @@ local ShipIterator = require("Module:ShipIterator")
 local ShipCapabilities = require("Module:ShipCapabilities")
 local ShipCardKai = require("Module:ShipCardKai")
 local ShipBattleCardKai = require("Module:ShipBattleCardKai")
-local Combat2 = require("Module:Combat2")
+local Combat = require("Module:CalcCombat")
 local EquipmentCardKai = require("Module:EquipmentCardKai")
 local EquipmentGraphicKai = require("Module:EquipmentGraphicKai")
 local EquipmentCollection = require("Module:Collection/Equipment")
@@ -23,6 +23,7 @@ local ship = nil
 local target = nil
 local shipCapabilities = {}
 local equipment = nil
+local filterArg = nil
 
 -- $('.calc-debug').show().appendTo('#mw-content-text')
 local debug = {}
@@ -95,7 +96,16 @@ local enumerating_functions = {
 local formatting_functions = {
 
     air_power = function(ship)
-        return ship:air_power() or -1
+        return ship.air_power and ship:air_power() or -1
+    end,
+    
+    equipment_range = function(ship)
+        return U.imax(U.imap(ship._equipment or {}, function (e) return Equipment(e.equipment):range() or 0 end), 0)
+    end,
+    
+    equipment_range_diff = function(ship)
+        local equipment_range = U.imax(U.imap(ship._equipment or {}, function (e) return Equipment(e.equipment):range() or 0 end), 0)
+        return (ship:range() or 0) - equipment_range
     end,
 
     night_battle_power = function(ship)
@@ -206,10 +216,16 @@ local formatting_functions = {
     end,
 
     banner = function(obj)
+    	if not obj or not obj.lua_name then
+    		return ' '
+    	end
         return ShipBattleCardKai:Asset({ obj:lua_name(), hd = true, size = "160px" })
     end,
 
     card = function(obj)
+    	if not obj or not obj.lua_name then
+    		return ' '
+    	end
         if obj.hp then
             return ShipCardKai:Asset({ obj:lua_name(), hd = true, size = "160px" })
         else
@@ -240,7 +256,7 @@ local formatting_functions = {
     end,
 
     hit_rate = function(ship, target)
-        local r = Combat2.hit_rate(ship, target)
+        local r = Combat.hit_rate(ship, target)
         if r then
             ship.hit_rate = r
             return r .. "%"
@@ -250,7 +266,7 @@ local formatting_functions = {
     end,
 
     critical_hit_rate = function(ship, target)
-        local r = Combat2.critical_hit_rate(ship, target)
+        local r = Combat.critical_hit_rate(ship, target)
         if r then
             ship.critical_hit_rate = r
             return r .. "%"
@@ -302,12 +318,8 @@ function addFormattingFunctions(name, table)
     end
 end
 
-local Plugins = require("Module:Calc/Plugins")
-
-for _, name in ipairs(Plugins) do
-    local data = require("Module:Calc/Plugins/" .. name)
-    addFormattingFunctions(name, data)
-end
+addFormattingFunctions("FitData", require("Module:CalcFit"))
+addFormattingFunctions("Assets", require("Module:CalcAsset"))
 
 function format_value(key, ship, target)
     local formatting_function = formatting_functions[key]
@@ -387,6 +399,8 @@ function interpret_arg(arg, args)
         return false
     elseif arg == "-" then
         return format_arg("")
+    elseif prefix == "~" then
+    	filterArg = string.sub(arg, 2)
     elseif prefix == "@" then
         local enumerator = string.sub(arg, 2)
         local enumerating_function = enumerating_functions[enumerator]
@@ -427,8 +441,7 @@ function interpret_arg(arg, args)
                 if i == 1 then
                     key = part
                     ship = Ship(key)
-                    if ship._dummy then
-                    elseif ship:id() then
+                    if ship:hp() then
                         shipCapabilities = ShipCapabilities{ ship = ship }
                     else
                         ship = Equipment(key)
@@ -449,7 +462,16 @@ function interpret_arg(arg, args)
         elseif prefix2 == "?#" then
             return frame:preprocess(format{string.sub(arg, 3), this = env[this] or ""})
         else
-            return format_arg(format_value(string.sub(arg, 2), ship, target))
+        	if filterArg then
+        		local kv = mw.text.split(filterArg, "%s*~%s*")
+        		if tostring(ship[kv[1]](ship)) == kv[2] then
+        			return format_arg(format_value(string.sub(arg, 2), ship, target))
+        		else
+        			return nil
+        		end
+        	else
+            	return format_arg(format_value(string.sub(arg, 2), ship, target))
+            end
         end
     else
         return format_arg(arg)
@@ -482,7 +504,7 @@ function interpret_args()
         end
     until not sequence or sequence_position > #sequence
     debugLog("#values", #values)
-    return table.concat(values, args.concat or "") .. debugString()
+    return table.concat(values, args.concat or ", ") .. debugString()
 end
 
 local Calc = {}
@@ -540,14 +562,14 @@ end
 function Calc.test2()
     mw.log(
         Calc.format(nil, {
-            type = "1",
-            "@equipmentByType",
+            "@all_names",
+            "~hp_mod_married ~ 1",
             "!@",
             "?link",
         })
     )
 end
 
--- print(p.test())
+-- print(p.test2())
 
 return Calc

@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Bofors 15cm Twin Rapid Fire Gun Mount Mk.9 Model 1938",
+  _id = 360,
+  _japanese_name = "Bofors 15cm連装速射砲 Mk.9 Model 1938",
+  _reading = nil,
+  _type = 2, -- 1,1,2,2,0
+  _icon = 2,
+  _rarity = 3,
+  _firepower = 6,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 5,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 2,
+  _scrap_steel = 3,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "北欧スウェーデンの名門が開発した新型の軽巡用中口径連装主砲兵装です。新型の砲は対空戦用に大きな仰角が可能で、砲の角度に関らず次弾装填ができる機構を搭載、限定的ながら対空戦闘にも対応可能です。オランダの軽巡にも搭載されました。",
+}

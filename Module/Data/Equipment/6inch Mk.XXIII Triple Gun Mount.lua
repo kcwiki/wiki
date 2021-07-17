@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "6inch Mk.XXIII Triple Gun Mount",
+  _id = 399,
+  _japanese_name = "6inch Mk.XXIII三連装砲",
+  _reading = nil,
+  _type = 2, -- 1,1,2,2,0
+  _icon = 2,
+  _rarity = 2,
+  _firepower = 7,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 2,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = 1,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 2,
+  _scrap_steel = 4,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "紅茶の国で開発された、ロンドン海軍軍縮条約下で建造された、大型軽巡洋艦用主砲です。軍縮条約下で総排水量制限を回避するために、重巡クラスの大型軽巡用に6inchの三連装主砲として構成された主砲兵装です。多くの軽巡を配備した紅茶の国、そのTown級軽巡などに装備運用されました。",
+}

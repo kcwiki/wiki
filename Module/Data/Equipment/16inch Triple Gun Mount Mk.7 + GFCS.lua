@@ -1,0 +1,63 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "16inch Triple Gun Mount Mk.7 + GFCS",
+	_page = false,
+	_id = 183,
+	_japanese_name = "16inch三連装砲 Mk.7+GFCS",
+	_reading = "16インチさんれんそうほう マークセブン + GFCS",
+	_type = 3,
+	_icon = 3,
+	_rarity = 6,
+	_firepower = 24,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 3,
+	_armor = 1,
+	_asw = false,
+	_shelling_accuracy = 7,
+	_torpedo_accuracy = false,
+	_evasion = 1,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = 3,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = 20,
+	_scrap_steel = 22,
+	_scrap_bauxite = 18,
+	_info = "Iowa級戦艦の主兵装として米国で開発された強力な新型三連装主砲と、その改良された射撃管制システムです。現在のFCSの先祖ともいえる射撃レーダーと砲射撃指揮装置によるシステムを有しており、その高火力と共に高い射撃精度が期待できます。",
+	_wikipedia = '16"/50 caliber Mark 7 gun',
+	_buildable = false,
+	_gun_fit_group = nil,
+	_improvements = {
+		_fuel = 45,
+		_ammo = 500,
+		_steel = 770,
+		_bauxite = 500,
+		_products = {
+			[false] = {
+				_ships = {
+					["Iowa/"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+					["Iowa/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 16,
+					_development_material_x = 24,
+					_improvement_material = 8,
+					_improvement_material_x = 12,
+					_equipment = {["Type 22 Surface Radar"] = 2},
+				},
+				[6] = {
+					_development_material = 16,
+					_development_material_x = 24,
+					_improvement_material = 8,
+					_improvement_material_x = 16,
+					_equipment = {["Type 32 Surface Radar"] = 2},
+				},
+			},
+		},
+	},
+}

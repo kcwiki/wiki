@@ -1,138 +1,39 @@
-__TOC__
 ==Info==
-{|
-|valign="top" |
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo
-| name=Destroyer Ni-Class
-| japanesename=駆逐ニ級
-| id=504
-| image=[[File:Ni_n.png|190px]]
-| color=gray
-| type=Destroyer
-| class=Abyssal
-| hp=28
-| firepower=8
-| armor=9
-| torpedo=24
-| evasion=18
-| AA=8
-| aircraft=0
-| speed=Fast
-| LOS=4
-| ASW=35
-| range=Short
-| luck=5
-| slot=2
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|21inch Torpedo]]
-| slot3=-Locked-
-| slot4=-Locked-
-}}
-| style="width: 50px;"|
-|valign="top" |
+{{EnemyShipInfoKai|{{PAGENAME}}/}}
+</div>
+<div style="display: inline-block;">
 ===Elite===
-{{enemyshipinfo
-| name=Destroyer Ni-Class Elite
-| japanesename=駆逐ニ級 elite
-| id=517
-| image=[[File:Ni_e.png|227px]]
-| color=red
-| type=Destroyer
-| class=Abyssal
-| hp=45
-| firepower=20
-| armor=18
-| torpedo=40
-| evasion=40
-| AA=18
-| aircraft=0
-| speed=Fast
-| LOS=7
-| ASW=45
-| range=Short
-| luck=10
-| slot=2
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot3=-Locked-
-| slot4=-Locked-
-}}
-|-
-|valign="top" |
-
+{{EnemyShipInfoKai|{{PAGENAME}}/Elite}}
+</div>
+<div style="display: inline-block;">
 ===Late Model===
-{{enemyshipinfo
-|color = gray
-|name = Destroyer Ni-Class Late Model
-|japanesename = 駆逐ニ級後期型 
-|image = [[File:578.png|250px]]
-|id = 578 
-|class = Abyssal
-|type = Destroyer 
-|hp = 40 
-|firepower = 48
-|armor = 33
-|torpedo = 84
-|evasion = 66
-|AA = 38
-|aircraft = 0 
-|ASW = 88
-|LOS = 28
-|luck = 48
-|time = Unbuildable
-|speed = Fast 
-|range = Short 
-|slot = 3 
-|slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-|slot2=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-|slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Depth Charge]]
-|slot4= - Locked -  
-|space1=0 
-|space2=0 
-|space3=0 
-|space4=0 
-}}
-| style="width: 50px;"|
-|valign="top" |
-
+{{EnemyShipInfoKai|{{PAGENAME}}/Late Model}}
+</div>
+<div style="display: inline-block;">
 ===Late Model Elite===
-{{enemyshipinfo
-|color = red
-|name = Destroyer Ni-Class Late Model Elite
-|japanesename = 駆逐ニ級後期型elite
-|image = [[File:DD_Destroyer_Ni-Class_Late_Model_Elite_Full.png|280px]]
-|id = 624 
-|class = Abyssal
-|type = Destroyer 
-|hp = 49 
-|firepower = 64
-|armor = 48
-|torpedo = 98
-|evasion = ??
-|AA = 48
-|aircraft = 0 
-|ASW = ??
-|LOS = ??
-|luck = ??
-|time = Unbuildable
-|speed = Fast 
-|range = Short 
-|slot = 3 
-|slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-|slot2=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-|slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Depth Charge]]
-|slot4= - Locked -  
-|space1=0 
-|space2=0 
-|space3=0 
-|space4=0 
-}}
-|}
-
+{{EnemyShipInfoKai|{{PAGENAME}}/Late Model Elite}}
+</div>
+<div style="display: inline-block;">
+===Kai===
+{{EnemyShipInfoKai|{{PAGENAME}}/Kai}}
+</div>
+<div style="display: inline-block;">
+===Kai Late Model===
+{{EnemyShipInfoKai|{{PAGENAME}}/Kai Late Model}}
+</div>
+<div style="display: inline-block;">
+===Kai Late Model Elite===
+{{EnemyShipInfoKai|{{PAGENAME}}/Kai Late Model Elite}}
+</div>
+<div style="display: inline-block;">
+===Kai Late Model Flagship===
+{{EnemyShipInfoKai|{{PAGENAME}}/Kai Late Model Flagship}}
+</div>
+{{EnemyShipCategoriesKai|{{PAGENAME}}/}}
+==Trivia==
+* Late Model Elite can do [[Partials/Opening ASW|opening anti submarine attack]].
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]
 [[Category:Abyssal Destroyers]]
-[[zh:驱逐舰NI级]]

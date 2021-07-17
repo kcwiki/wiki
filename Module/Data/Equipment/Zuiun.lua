@@ -1,0 +1,77 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Zuiun",
+	_page = false,
+	_id = 26,
+	_japanese_name = "瑞雲",
+	_reading = "ずいうん",
+	_localized_name = "Auspicious Clouds",
+	_type = 11,
+	_icon = 10,
+	_rarity = 1,
+	_back = 2,
+	_firepower = false,
+	_bombing = 4,
+	_torpedo = false,
+	_aa = 2,
+	_armor = false,
+	_asw = 4,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = 13,
+	_evasion = false,
+	_los = 6,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_flight_cost = 6,
+	_flight_range = 5,
+	_special = false,
+	_scrap_fuel = 2,
+	_scrap_ammo = 3,
+	_scrap_steel = false,
+	_scrap_bauxite = 5,
+	_info = "水上偵察機を発展させ、急降下爆撃可能な水偵として開発された「瑞雲」。<br/>空戦フラップまで装備した高性能な多用途機で、水上機母艦や、航空巡洋艦などからの運用も可能です。<br/>「伊勢」型を改装した「航空戦艦」で集中運用、水上打撃機動部隊を編制するのも楽しいですよ！",
+	_wikipedia = "Aichi E16A",
+	_buildable = true,
+	_improvements = {
+		_fuel = 160,
+		_ammo = 160,
+		_steel = false,
+		_bauxite = 360,
+		_products = {
+			["Zuiun (634 Air Group)"] = {
+				_ships = {
+					["Mogami/Kai"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Ise/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Hyuuga/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 5,
+					_development_material_x = 7,
+					_improvement_material = 3,
+					_improvement_material_x = 4,
+					_equipment = {[true] = 1},
+				},
+				[6] = {
+					_development_material = 6,
+					_development_material_x = 9,
+					_improvement_material = 5,
+					_improvement_material_x = 7,
+					_equipment = {[true] = 1},
+				},
+				[10] = {
+					_development_material = 16,
+					_development_material_x = 24,
+					_improvement_material = 7,
+					_improvement_material_x = 10,
+					_equipment = {
+					    [true] = 2,
+					    ["Skilled Crew Member"] = 1
+					},
+				},
+			},
+		},
+	},
+}

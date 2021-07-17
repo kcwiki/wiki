@@ -1,0 +1,38 @@
+-- [[Category:Equipment modules]]
+-- [[Category:Item modules]]
+
+return {
+    _name = "Combat Ration (Special Onigiri)",
+    _id = 241,
+    _item_id = 76,
+    _japanese_name = "戦闘糧食(特別なおにぎり)",
+    _reading = "せんとうりょうしょく(とくべつなおにぎり)",
+    _type = 43, -- 18,34,43,34,0
+    _icon = 34,
+    _rarity = 3,
+    _firepower = false,
+    _bombing = false,
+    _torpedo = false,
+    _aa = false,
+    _armor = false,
+    _asw = false,
+    _shelling_accuracy = false,
+    _torpedo_accuracy = false,
+    _evasion = false,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _special = "???",
+    _flight_cost = false,
+    _flight_range = false,
+    _special = false,
+    _scrap_fuel = 1,
+    _scrap_ammo = false,
+    _scrap_steel = false,
+    _scrap_bauxite = 1,
+    _info = "腹が減ってはなんとやら……戦闘前にしっかりと腹ごしらえをしておきましょう。<br/>提督が艦娘のために頑張って調理した炒飯おにぎり。海の上で食べる美味しさはさらに格別です！<br/>(発動消費すると消滅します)",
+    _wikipedia = "Onigiri",
+    _buildable = false,
+    _improvements = false,
+}

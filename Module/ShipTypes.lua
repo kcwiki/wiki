@@ -1,0 +1,26 @@
+-- [[Category:Misc data modules]]
+
+return {
+  [1] = "Coastal Defense Ship",
+  [2] = "Destroyer",
+  [3] = "Light Cruiser",
+  [4] = "Torpedo Cruiser",
+  [5] = "Heavy Cruiser",
+  [6] = "Aviation Cruiser",
+  [7] = "Light Carrier",
+  [8] = "Fast Battleship",
+  [9] = "Battleship",
+  [10] = "Aviation Battleship",
+  [11] = "Standard Aircraft Carrier",
+  [12] = "Super Dreadnought",
+  [13] = "Submarine",
+  [14] = "Aircraft Carrying Submarine",
+  [15] = "Transport Ship",
+  [16] = "Seaplane Tender",
+  [17] = "Amphibious Assault Ship",
+  [18] = "Armored Carrier",
+  [19] = "Repair Ship",
+  [20] = "Submarine Tender",
+  [21] = "Training Cruiser",
+  [22] = "Fleet Oiler",
+}

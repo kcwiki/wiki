@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "12.7cm Twin Gun Mount Model D Kai 3",
+  _id = 366,
+  _japanese_name = "12.7cm連装砲D型改三",
+  _reading = nil,
+  _type = 1, -- 1,1,1,1,0
+  _icon = 1,
+  _rarity = 4,
+  _firepower = 3,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 4,
+  _armor = 1,
+  _asw = 2,
+  _shelling_accuracy = 2,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 1,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 2,
+  _scrap_steel = 3,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "夕雲型駆逐艦などに搭載された駆逐艦主砲のif改修型です。対空戦闘用に最大仰角を大きくとることに加え、装填システムを改良、仰角時の装填と発射速度の向上に成功したif改良D型主砲です。数々の実戦の戦訓を取り入れた改修により、甲型及び改甲型駆逐艦での運用において、優れた戦闘力を発揮します。",
+}

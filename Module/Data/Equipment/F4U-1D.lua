@@ -1,0 +1,35 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "F4U-1D",
+    _id = 233,
+    _japanese_name = "F4U-1D",
+    _reading = nil,
+    _type = 7, -- 3,5,7,7,21
+    _icon = 7,
+    _rarity = 5,
+    _firepower = 1,
+    _bombing = 7,
+    _torpedo = false,
+    _aa = 7,
+    _armor = false,
+    _asw = 1,
+    _shelling_accuracy = false,
+    _torpedo_accuracy = false,
+    _evasion = 1,
+    _los = 1,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = 9,
+    _flight_range = 6,
+    _special = false,
+    _scrap_fuel = 2,
+    _scrap_ammo = 6,
+    _scrap_steel = false,
+    _scrap_bauxite = 7,
+    _buildable = false,
+    _info = "高性能艦上戦闘機として開発が進められたF4U、航空母艦での運用が難しいと思われた初期型は陸上から運用されました。<br/>その改良戦闘爆撃機型である本機及び同後期シリーズは、機動部隊で運用され、マルチロールな活躍ぶりを発揮、戦闘爆撃機として長い間現役を務めます。",
+    _can_attack_installations = true,
+}

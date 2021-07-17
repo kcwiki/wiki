@@ -1,39 +1,13 @@
-{{Template:Equipmentinfo
-|name = 12.7cm Twin High-angle Mount + Anti-Aircraft Fire Director
-|id = 130 
-|japanesename = 12.7cm連装高角砲+高射装置 
-|icon = {{GreenGunDP}}
-|type = Secondary Cannon, AA gun
-|effect = {{Firepower}}+1 {{AA}}+8 {{Hit}}+1 {{Evasion}}+1 {{Range}} Short 
-|scrap = {{Ammo}}2 {{Steel}}3 {{Bauxite}}2 
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment130-1.png
-Equipment130-2.png
-Equipment130-3.png
-Equipment130-4.png
-</gallery>
-|LC = lime
-|CL = lime
-|CLT = lime
-|CA = lime
-|CAV = lime
-|BB = lime
-|BBV = lime
-|FASTBB = lime
-|AV = lime
-|CVL = lime
-|CV = lime
-|CVB= lime
-|AS = lime
-|AR = lime
-}}
+{{Template:EquipmentInfo|130}}
 
 ==Introduction==
 巡洋艦以上の大型艦の標準的な対空兵装として搭載された12.7cm連装高角砲と「94式高射装置」の組み合わせによる、艦隊防空システムです。発射速度や砲の旋回速度にやや難がありますが、高角砲と高射装置の組み合わせは艦隊の傘として重要な兵装です。 
 
-''The 12.7cm high angle gun with Type 94 AA director combination is the fleet's standard AA defense system used aboard cruisers or other larger warships. While it's fire rate and traverse rate is a bit sluggish, this high angle gun with a director serves as the umbrella of the fleet against air attacks.'' 
+''The 12.7cm high angle gun with Type 94 AA director combination is the fleet's standard AA defense system used aboard cruisers or other larger warships. While its fire rate and traverse rate is a bit sluggish, this high angle gun with a director serves as the umbrella of the fleet against air attacks.'' 
 
 ==Notes==
+Enables [[Combat#Anti-Air Cut-in|Anti-Air Cut-in]] when equipped. Cut-in rate increases when an [[:Category:RADAR|Air Radar]] is also equipped.
+
 <div class="mw-collapsible"><h3>How To Obtain</h3>
 <div class="mw-collapsible-content">
 '''Upgradeable''' from {{Equipment/Link|Type 94 Anti-Aircraft Fire Director}}
@@ -41,7 +15,10 @@ Equipment130-4.png
 </div></div>
 
 
-Enables [[Combat#Anti-Air Cut-in|Anti-Air Cut-in]] when equipped. Cut-in rate increases when an Air Radar is also equipped.
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2015-03-13:''' '''Implemented'''
+</div></div>
 
 ==See also==
 {{Equipmentlist}}
@@ -50,4 +27,3 @@ Enables [[Combat#Anti-Air Cut-in|Anti-Air Cut-in]] when equipped. Cut-in rate in
 [[Category:High-Angle Gun]]
 [[Category:Secondary High-Angle Gun]]
 [[Category:High-Angle + AA Fire Director]]
-[[zh:12.7cm连装高角炮+高射装置]]

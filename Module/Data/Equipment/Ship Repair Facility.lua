@@ -1,0 +1,33 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Ship Repair Facility",
+	_page = false,
+	_id = 86,
+	_japanese_name = "艦艇修理施設",
+	_reading = "かんていしゅうりしせつ",
+	_type = 31,
+	_icon = 26,
+	_rarity = 3,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = false,
+	_aa = false,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = false,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_special = "Enables repair on 1 additional ship",
+	_scrap_fuel = 10,
+	_scrap_ammo = 5,
+	_scrap_steel = 20,
+	_scrap_bauxite = 10,
+	_info = "工作艦に搭載される修理装備一式です。「明石」等の工作艦に搭載することで、入渠なしに艦艇の応急修理が可能です。<br/>(小破程度の損害の艦を、この装備一式につき、+1隻の同時修理が可能です)",
+	_buildable = false,
+}

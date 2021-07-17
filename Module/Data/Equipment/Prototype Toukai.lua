@@ -1,0 +1,36 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "Prototype Toukai",
+    _id = 269,
+    _japanese_name = "試製東海",
+    _reading = "しせいとうかい",
+    _type = 47, -- 21,38,47,47,30
+    _icon = 47,
+    _rarity = 3,
+    _firepower = false,
+    _bombing = 2,
+    _torpedo = false,
+    _aa = false,
+    _armor = false,
+    _asw = 10,
+    _shelling_accuracy = false,
+    _torpedo_accuracy = false,
+    _evasion = false,
+    _los = 5,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = 9,
+    _flight_range = 8,
+    _special = false,
+    _scrap_fuel = 3,
+    _scrap_ammo = 3,
+    _scrap_steel = false,
+    _scrap_bauxite = 12,
+    _buildable = false,
+    _info = "十七試哨戒機として開発された本格的な陸上発進の対潜哨戒機です。低速ではありますが対潜哨戒に特化された機体性能に新開発の艦磁気探知機「KMX」も装備、基地航空隊の対潜戦力として活躍が期待されていました。",
+    _wikipedia = "Kyushu Q1W",
+    _upgradable = false,
+}

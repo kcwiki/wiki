@@ -1,0 +1,61 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "New Model High Temperature High Pressure Boiler",
+	_page = false,
+	_id = 87,
+	_japanese_name = "新型高温高圧缶",
+	_reading = "しんがたこうおんこうあつかん",
+	_type = 17,
+	_icon = 19,
+	_rarity = 3,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = false,
+	_aa = false,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = false,
+	_torpedo_accuracy = false,
+	_evasion = 13,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_special = false,
+	_scrap_fuel = 20,
+	_scrap_ammo = false,
+	_scrap_steel = 25,
+	_scrap_bauxite = false,
+	_info = "次世代駆逐艦などに搭載するための高温高圧缶です。<br/>従来の艦本式ロ号缶と比べて、その性能は大きく向上しています。<br/>艦の回避率を大きく向上させると共に、将来的には新型タービンとの併用でさらに高い性能を発揮することが期待されます。",
+	_buildable = false,
+	_improvements = {
+		_fuel = 300,
+		_ammo = false,
+		_steel = 750,
+		_bauxite = 100,
+		_products = {
+			[false] = {
+				_ships = {
+					["Amatsukaze/Kai"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Shimakaze/Kai"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = false, Thursday = false, Friday = true, Saturday = false},
+				},
+				[0] = {
+					_development_material = 15,
+					_development_material_x = 30,
+					_improvement_material = 8,
+					_improvement_material_x = 10,
+					_equipment = {["Improved Kanhon Type Turbine"] = 2},
+				},
+				[6] = {
+					_development_material = 16,
+					_development_material_x = 32,
+					_improvement_material = 9,
+					_improvement_material_x = 12,
+					_equipment = {["Enhanced Kanhon Type Boiler"] = 2},
+				},
+			},
+		},
+	},
+}

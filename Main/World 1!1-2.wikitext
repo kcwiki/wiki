@@ -37,7 +37,7 @@
 
 ===Nodes and Enemy Encounters===
 {{#invoke:EnemyEncounters2|encounterTemplate
-|A_label = 敵前衛艦隊
+|A_label = 敵前衛艦隊<br>'''Enemy Vanguard Fleet'''
 |A-1_node_info = cl_ho-class dd_i-class dd_i-class
 |A-1_form = line_ahead
 |A-1_xp =
@@ -62,7 +62,7 @@
 |B_label = '''<span style="color:green">Resource Node</span>'''
 |B1_node_info = {{Template:Ammo}} + 10 15 20 40
 |
-|C_label = 敵前衛艦隊
+|C_label = 敵前衛艦隊 <br> '''Enemy Vanguard Fleet'''
 |C-1_node_info = cl_ho-class dd_i-class dd_i-class
 |C-1_form = line_ahead
 |C-1_xp =
@@ -84,7 +84,7 @@
 |C-5_xp =
 |C-5_enemy_air_power =
 |
-|D_label = 敵水雷戦隊
+|D_label = 敵水雷戦隊<br> '''Enemy Torpedo Squadron'''
 |D-1_node_info = cl_ho-class dd_ro-class dd_ro-class dd_ro-class
 |D-1_form = line_ahead
 |D-1_xp =
@@ -110,7 +110,7 @@
 |D-6_xp =
 |D-6_enemy_air_power =
 |
-|E_label = 敵主力艦隊
+|E_label = 敵主力艦隊 <br> '''Main Enemy Fleet'''
 |E-1_node_info = cl_he-class dd_i-class dd_i-class dd_i-class dd_i-class
 |E-1_form = line_ahead
 |E-1_xp =
@@ -136,26 +136,4 @@
 |boss_node = E
 }}
 
-===Drops===
-<div class="mw-customtoggle-1-2-drop globalbutton">Show/Hide Drops</div>
-{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-1-2-drop"
-!Node
-!Destroyers
-!Light Cruisers
-!Heavy Cruisers
-|-
-| style="text-align:center;" |A
-| style="text-align:center;" |[[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Ayanami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Fumizuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Sazanami]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Kasumi]], [[Kuroshio]]
-| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Natori]], [[Isuzu]], [[Yura]], [[Tama]], [[Kiso]], [[Tenryuu]]
-|
-|-
-| style="text-align:center;" |'''<span class="wikicolor" style="color:Red">B</span>'''
-| style="text-align:center;" |[[Shirayuki]], [[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Ayanami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Nagatsuki]], [[Kikuzuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Arare]], [[Kasumi]], [[Kagerou]], [[Shiranui]], [[Kuroshio]],
-| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Isuzu]], [[Yuubari]], [[Nagara]], [[Natori]], [[Yura]], [[Kuma]], [[Tama]], [[Kitakami]], [[Kiso]], [[Tenryuu]], [[Tatsuta]]
-| style="text-align:center;" | [[Choukai]]
-|-
-| style="text-align:center;" |D
-| style="text-align:center;" |[[Hatsuyuki]], [[Miyuki]], [[Isonami]], [[Shikinami]], [[Mutsuki]], [[Kisaragi]], [[Fumizuki]], [[Kikuzuki]], [[Mikazuki]], [[Mochizuki]], [[Oboro]], [[Akebono]], [[Sazanami]], [[Ushio]], [[Akatsuki]], [[Hibiki]], [[Ikazuchi]], [[Inazuma]], [[Hatsuharu]], [[Nenohi]], [[Wakaba]], [[Hatsushimo]], [[Shiratsuyu]], [[Shigure]], [[Murasame]], [[Yuudachi]], [[Samidare]], [[Suzukaze]], [[Ooshio]], [[Arashio]], [[Kasumi]], [[Kuroshio]]
-| style="text-align:center;" |[[Sendai]], [[Jintsuu]], [[Naka]], [[Isuzu]], [[Natori]], [[Yura]], [[Tama]], [[Kiso]], [[Tenryuu]], [[Tatsuta]]
-|
-|}
+{{:{{BASEPAGENAME}}/1-2/Drop list}}

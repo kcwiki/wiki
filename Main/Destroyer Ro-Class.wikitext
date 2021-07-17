@@ -1,168 +1,34 @@
 ==Info==
-{|
-|valign="top" |
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo
-| name=Destroyer Ro-Class
-| japanesename=駆逐ロ級
-| id=502
-| image=[[File:Ro_n.png|308px]]
-| color=gray
-| type=Destroyer
-| class=Abyssal
-| hp=22
-| firepower=7
-| armor=6
-| torpedo=16
-| evasion=15
-| AA=7
-| aircraft=0
-| speed=Fast
-| LOS=3
-| ASW=25
-| range=Short
-| luck=1
-| slot=2
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-| slot2=-Unequipped-
-| slot3=-Locked-
-| slot4=-Locked-
-}}
-| style="width: 25px;"|
-|valign="top" |
-===Elite===
-{{enemyshipinfo
-| name=Destroyer Ro-Class Elite
-| japanesename=駆逐ロ級 elite
-| id=515
-| image=[[File:Ro_e.png|218px]]
-| color=red
-| type=Destroyer
-| class=Abyssal
-| hp=35
-| firepower=20
-| armor=12
-| torpedo=32
-| evasion=30
-| AA=12
-| aircraft=0
-| speed=Fast
-| LOS=6
-| ASW=35
-| range=Short
-| luck=10
-| slot=2
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|21inch Torpedo Mk.II]]
-| slot3=-Locked-
-| slot4=-Locked-
-}}
-| style="width: 25px;"|
-|valign="top" |
-===Flagship===
-{{enemyshipinfo
-| name=Destroyer Ro-Class Flagship
-| japanesename=駆逐ロ級 flagship
-| id=552
-| image=[[File:Ro_f.png|218px]]
-| color=yellow
-| type=Destroyer
-| class=Abyssal
-| hp=43
-| firepower=33
-| armor=24
-| torpedo=60
-| evasion=52
-| AA=20
-| aircraft=0
-| speed=Fast
-| LOS=10
-| ASW=55
-| range=Short
-| luck=20
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Depth Charge]]
-| slot4=-Locked-
-}}
-|-
-|valign="top" |
-===Late Model===
-{{enemyshipinfo
-|color = gray
-|name = Destroyer Ro-Class Late Model
-|japanesename = 駆逐ロ級後期型 
-|image = [[File:576.png|310px]]
-|id = 576 
-|class = Abyssal
-|type = Destroyer 
-|hp = 37 
-|firepower = 38
-|armor = 26
-|torpedo = 66
-|evasion = 52
-|AA = 32
-|aircraft = 0 
-|ASW = 80
-|LOS = 20
-|luck = 36
-|time = Unbuildable
-|speed = Fast 
-|range = Short 
-|slot = 3 
-|slot1=[[List_of_equipment_used_by_the_enemy|5inch Dual Cannon]]
-|slot2=[[List_of_equipment_used_by_the_enemy|Abyssal Sonar Mk.II]]
-|slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Depth Charge]]
-|slot4= - Locked -  
-|space1=0 
-|space2=0 
-|space3=0 
-|space4=0 
-}}
-| style="width: 25px;"|
-|valign="top" |
+{{EnemyShipInfoKai|Destroyer Ro-Class/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
-===Elite Late Model===
-{{enemyshipinfo
-|color = Red
-|name = Destroyer Ro-Class Elite Late Model
-|japanesename = 駆逐ロ級後期型elite
-|image = [[File:DD_Destroyer_Ro-Class_Late_Model_Elite_Full.png|200px]] 
-|id = 622
-|class = Abyssal
-|type = Destroyer 
-|hp = 43 
-|firepower = 58
-|armor = 36
-|torpedo = 88
-|evasion = ??
-|AA = 44
-|aircraft = 0 
-|ASW = ??
-|LOS = ??
-|luck = ??
-|time = Unbuildable
-|speed = Fast 
-|range = Short
-|slot = ?? 
-|slot1=[[List_of_equipment_used_by_the_enemy|5inch Dual Cannon]]
-|slot2=[[List_of_equipment_used_by_the_enemy|5inch Dual Cannon]]
-|slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Sonar Mk.II]]
-|slot4= -- Locked -- 
-|space1=0 
-|space2=0 
-|space3=0 
-|space4=0 
-}}
-|}
+<div style="display: inline-block;">
+===Elite===
+{{EnemyShipInfoKai|Destroyer Ro-Class/Elite|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Flagship===
+{{EnemyShipInfoKai|Destroyer Ro-Class/Flagship|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Late Model===
+{{EnemyShipInfoKai|Destroyer Ro-Class/Late Model|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Late Model Elite===
+{{EnemyShipInfoKai|Destroyer Ro-Class/Late Model Elite|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Destroyer Ro-Class/}}
 
 ==Trivia==
+*Informally referred to as "small fry".
 
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]
 [[Category:Abyssal Destroyers]]
-[[zh:驱逐舰RO级]]

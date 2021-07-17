@@ -1,0 +1,63 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Type 13 Air Radar Kai",
+	_page = false,
+	_id = 106,
+	_japanese_name = "13号対空電探改",
+	_reading = "13ごうたいくうでんたんかい",
+	_type = 12,
+	_icon = 11,
+	_rarity = 3,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 4,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = 2,
+	_torpedo_accuracy = false,
+	_evasion = 1,
+	_los = 4,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = false,
+	_scrap_steel = 10,
+	_scrap_bauxite = 11,
+	_info = "艦載用対空電探の改良調整版です。<br/>比較的信頼性も高く、小型軽量で駆逐艦等への装備も可能だった「13号対空電探」に、技術者達がさらに改良を加えた対空電探です。水雷戦隊の眼として活躍します。",
+	_buildable = false,
+	_improvements = {
+		_fuel = 10,
+		_ammo = false,
+		_steel = 30,
+		_bauxite = 40,
+		_products = {
+			[false] = {
+				_ships = {
+					["Hatsushimo/Kai Ni"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Isokaze/Kai"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+					["Yukikaze/"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = false, Friday = false, Saturday = false},
+					["Yukikaze/Kai"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = false, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 5,
+					_development_material_x = 7,
+					_improvement_material = 3,
+					_improvement_material_x = 4,
+					_equipment = {["Type 13 Air Radar"] = 1},
+				},
+				[6] = {
+					_development_material = 7,
+					_development_material_x = 9,
+					_improvement_material = 4,
+					_improvement_material_x = 8,
+					_equipment = {["Type 13 Air Radar"] = 2},
+				},
+			},
+		},
+	},
+}

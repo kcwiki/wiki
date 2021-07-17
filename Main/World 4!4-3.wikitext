@@ -14,11 +14,11 @@
 | AS = 155
 }}
 {{AirControlSystem
-| Map = 4-3 Heavy Fleet
-| Fleet = (F)BB(V) 2CV CA(V) 2DD
-| Route = Random.
+| Map = 4-3 "Backdoor" Heavy Fleet
+| Fleet = 2CV 3CA(V) DD
+| Route = Random.<br/>C-D-H-N<br/>C-F-H-N<br/>C-F-K-L-N
 | AS = 155
-| Notes = Always starts at C.
+| Notes = Node L has 100% routing to boss, while H has 90%.
 }}
 }}
 ===Stage Guide===
@@ -286,114 +286,4 @@
 |boss_node = N
 }}
 
-===Drops===
-
-<div class="mw-customtoggle-4-3-drop globalbutton">Show/Hide Drops</div>
-
-
-{| class="mw-collapsible mw-collapsed wikitable" id="mw-customcollapsible-4-3-drop"
-!Node
-!Destroyer
-!Light Cruiser
-!Heavy Cruiser
-!Seaplane Tender
-!Submarine Tender
-!Aircraft Carrier
-!Submarine
-!Battleship
-|-
-| A
-|[[Akatsuki]]
-|[[Naka]], [[Kitakami]], [[Tatsuta]]
-|[[Furutaka]], [[Myoukou]], [[Aoba]]
-|
-|
-|[[Junyou]], [[Shouhou]], [[Hiyou]], [[Souryuu]]
-|
-|[[Hiei]], [[Hyuuga]], [[Kirishima]]
-|-
-| D
-|[[Inazuma]], [[Ayanami]], [[Hibiki]], [[Shiranui]], [[Shiratsuyu]]
-|[[Natori]], [[Kitakami]], [[Tama]], [[Naka]], [[Jintsuu]], [[Sendai]], [[Yura]], [[Kiso]]
-|
-[[Ashigara]], [[Choukai]], [[Furutaka]], [[Chikuma]], [[Kako]], [[Nachi]], [[Takao]], [[Myoko|Myouko]], [[Mogami]]
-|[[Chitose]]
-|
-|[[Houshou]], [[Ryuujou]], [[Souryuu]]
-|
-|
-[[Haruna]], [[Hyuuga]], [[Ise]], [[Kirishima]]
-|-
-| F
-|
-[[Akatsuki]], [[Hibiki]], [[Inazuma]], [[Murasame]], [[Yuudachi]], [[Shiratsuyu]], [[Shirayuki]], [[Kagerou]], [[Shiranui]]
-|
-[[Tama]], [[Naka]], [[Kitakami]], [[Kiso]], [[Isuzu]], [[Natori]], [[Jintsuu]], [[Sendai]], [[Tenryuu]], [[Tatsuta]], [[Yura]]
-|
-[[Haguro]], [[Furutaka]], [[Kako]], [[Myoko]], [[Maya]], [[Aoba]]<span style="font-size:14px;">, [[Takao]] </span>
-|[[Chitose]], [[Chiyoda]]
-|
-|[[Houshou]], [[Shouhou]], [[Ryuujou]], [[Junyou]], [[Souryuu]]
-|
-|[[Fusou]],<br />[[Yamashiro]],<br />[[Hyuuga]],<br />[[Kongo]],<br />[[Kirishima]],<br />[[Haruna]]
-|-
-| G
-|[[Arare]], [[Akatsuki]], [[Inazuma]], [[Shigure]]
-|[[Naka]], [[Natori]]
-|[[Haguro]], [[Maya]]
-|
-|
-|[[Houshou]], [[Ryuujou]]
-|
-|
-|-
-| H
-|[[Shikinami]], [[Shiranui]], [[Ayanami]]
-|[[Kitakami]], [[Jintsuu]]
-|[[Haguro]], [[Aoba]], [[Nachi]] 
-|
-|
-|
-|
-|[[Ise]], [[Hyuuga]]
-|-
-| '''<span style="color:red">I</span>'''
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']]
-|[[Ooi]], [[Kitakami]], [[Isuzu]], [[Kinu|'''<span style="color:red">Kinu</span>''']]
-|[[Mogami]], [[Chikuma]], [[Myoukou]], [[Nachi]], [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']], [[Mikuma|'''<span style="color:red">Mikuma</span>''']]
-|
-|
-|[[Hiyou]], [[Shouhou]], [[Junyou]], [[Kaga]], [[Souryuu]]
-|
-|[[Kongou]], [[Hiei]], [[Yamashiro]], [[Kirishima]], [[Haruna]], [[Mutsu|'''<span style="color:red">Mutsu</span>''']]
-|-
-| J
-|[[Ayanami]], [[Shigure]],[[Yuudachi]]
-|[[Tenryuu]], [[Kiso]], [[Natori]], [[Tama]], [[Tatsuta]], [[Sendai]], [[Jintsuu]]
-|[[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Furutaka]], [[Maya]], [[Atago]], [[Aoba]]
-|[[Chiyoda]]
-|
-|[[Houshou]], [[Shouhou]], [[Junyou]], [[Ryuujou]] [[Souryuu]]
-|
-|[[Fusou]],<br />[[Yamashiro]], [[Ise]],<br />[[Hyuuga]],<br />[[Kirishima]],<br />[[Haruna]]
-|-
-| K
-|[[Hibiki]], [[Yuudachi]], [[Shikinami]], [[Shiratsuyu]]
-|[[Kitakami]], [[Tama]], [[Natori]], [[Isuzu]]
-|[[Aoba]], [[Kako]], [[Tone]], [[Choukai]], [[Atago]], [[Mogami]], [[Haguro]], [[Ashigara]], [[Nachi]], [[Chikuma]]
-|[[Chitose]], [[Chiyoda]]
-|
-|[[Hiyou]], [[Junyou]], [[Houshou]], [[Ryuujou]]
-|
-|[[Hyuuga]], [[Kongo]], [[Haruna]], [[Fusou]], [[Yamashiro]]
-|-
-| M
-|[[Shikinami]], [[Kagerou]]
-|[[Yura]], [[Tama]]
-|[[Mogami]], [[Takao]], [[Atago]], [[Chikuma]], Kako
-|[[Chitose]]
-|
-|[[Ryuujou]], [[Shouhou]], [[Souryuu]]
-|
-|[[Fusou]], [[Yamashiro]], [[Kirishima]],<br />[[Hyuuga]]
-|}
+{{:{{BASEPAGENAME}}/4-3/Drop list}}

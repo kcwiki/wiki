@@ -1,0 +1,35 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+  _name = "Type 97 Torpedo Bomber (931 Air Group/Skilled)",
+  _asset_name = "Type 97 Torpedo Bomber (931 Air Group Skilled)",
+  _id = 302,
+  _japanese_name = "九七式艦攻(九三一空/熟練)",
+  _reading = nil,
+  _type = 8, -- 3,5,8,8,1
+  _icon = 8,
+  _rarity = 3,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = 8,
+  _aa = false,
+  _armor = false,
+  _asw = 9,
+  _shelling_accuracy = 2,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = 3,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 5,
+  _flight_range = 4,
+  _special = false,
+  _scrap_fuel = 2,
+  _scrap_ammo = 3,
+  _scrap_steel = false,
+  _scrap_bauxite = 4,
+  _buildable = false,
+  _info = "初期の機動部隊を支えた主力攻撃機「九七艦攻」。<br>旧式化した同機を対潜哨戒機バージョンとして運用する九三一航空隊所属の「九七艦攻」装備飛行隊、その熟練搭乗員ペアによる艦上対潜哨戒機です。海上護衛部隊の翼として、水面下の脅威から艦隊や船団を護ります。",
+}

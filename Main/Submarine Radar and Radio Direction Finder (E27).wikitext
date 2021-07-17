@@ -1,28 +1,15 @@
-{{Template:Equipmentinfo
-|name = Submarine Radar and Radio Direction Finder (E27)
-|id = 211
-|japanesename = 潜水艦搭載電探&逆探(E27)
-|icon = {{SubmarineRadar}}
-|type = Submarine Radar
-|effect = {{Firepower}}+1, {{AA}}+1, {{Hit}}+3, {{Evasion}}+11, {{LOS}}+5
-|scrap = {{Steel}}13, {{Bauxite}}15
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment211-1.png
-Equipment211-2.png
-Equipment211-3.png
-Equipment211-4.png
-</gallery>
-|SS = lime
-|SSV = lime}}
+{{EquipmentInfo|211}}
 
 ==Introduction==
 潜水艦に搭載する、索敵及び水上偵察用装備です。<br>
 艦橋上部に集中装備する多数の優れた水防式望遠鏡と水上電探及び対空電探群、さらに有用性の高い電探(E27)によって、脅威や目標の早期発見に努めます。
 
-Equipment that is mounted on submarines and used to search for enemies as well as to conduct surface reconnaissance.<br>
-Several excellent water-resistant telescopes that are primarily mounted on top of the bridge, surface radars and anti-air radars, not to mention the very useful E27 radar, are used for attempts at early detection of threats or targets.
+''Equipment that is mounted on submarines and used to search for enemies as well as to conduct surface reconnaissance.''<br>
+''Several excellent water-resistant telescopes that are primarily mounted on top of the bridge, surface radars and anti-air radars, not to mention the very useful E27 radar, are used for attempts at early detection of threats or targets.''
 
 ==Notes==
+Eligible equipment for a special submarine night cut-in. Read the [[Night_Battle#Night_Battle_Special_Attacks|Night Battle Page]] for more information about it.
+
 <div class="mw-collapsible"><h3>How To Obtain</h3>
 <div class="mw-collapsible-content">
 '''Stock equipment''' of {{Ship/Link|I-13 Kai}}
@@ -33,5 +20,13 @@ Several excellent water-resistant telescopes that are primarily mounted on top o
 
 </div></div>
 
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2017-02-12:''' '''Implemented'''
+* '''2020-06-26:''' Became possible to equip in expansion slots
+</div></div>
+
 ==See Also==
 {{Equipmentlist}}
+[[Category:Equipment]]

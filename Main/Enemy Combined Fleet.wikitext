@@ -22,20 +22,33 @@ Currently, '''LBAS phase''', '''Air Strike phase''', and the '''Preemptive Torpe
 |}
 
 ==Night Battle with Enemy Combined Fleets==
-If the enemy combined fleet has not been defeated in the day, you may choose to pursue them and enter night battle. The key difference is that depending on whether a few conditions have been fulfilled, the enemy escort fleet may participate in night battle '''in place of the main enemy fleet''', thus preventing any further damage from being done to the main fleet.
+When choosing to engage in night battle against an enemy combined fleet, which fleet remains to begin the night combat phase is determined through a '''point-based system''', described below. Depending on the state of the escort fleet ('''not''' the main fleet) upon the end of the daytime phase, points are accumulated according to the conditions defined by the following table:
 
-The simplest way of explaining the requirements that determine which enemy fleet you face during the Night Battle is via a points-based system:
+{|class="wikitable" style="width:60%; text-align: center; vertical-align: middle;"
+!Damage Status
+!Points
+|-
+!Healthy/Lightly Damaged (小破)
+|1
+|-
+!rowspan="2"|Moderately Damaged (中破)
+|0.7
+|-
+|0.5 '''(If [[PT Imp Pack]])'''
+|-
+!Heavily Damaged (大破)
+|0
+|-
+!Sunk (轟沈)
+|0
+|-
+! colspan="2"| Modifiers
+|-
+!If Escort Flagship >0HP
+| +1
+|}
 
-*Start with '''0''' points in the counter.
-*If the '''Escort Fleet Flagship''' is still alive ('''regardless of damage state'''), add '''+1''' point to the counter.
-*If '''any''' remaining ships in the Escort Fleet are still alive and have '''more than 50% HP''', add '''+1''' point to the counter for '''each''' ship.
-**This includes the Escort Fleet Flagship, and is counted separately from the first point.
-**In other words, if the Escort Fleet Flagship is still alive and has more than 50% HP, it adds +2 points total to the counter: 1 point for being alive, and 1 point for having more than 50% HP.
-*If the entire '''Main Fleet''' has been sunk, add '''+3''' points to the counter.
-*If the total number of points is '''3 or more''', you face the '''Escort Fleet''' during the Night Battle.
-*If the total number of points is '''less than 3''', you face the '''Main Fleet''' during the Night Battle.
-
-'''More information may be added / amended as new developments occur.'''
+If the total amount of points is equal to '''3 or higher''', the '''enemy escort fleet''' will be faced at night. Otherwise, the '''enemy main fleet''' will be fought. This table is not final, and may be updated as new information is found.
 
 ==Tips==
 *When dealing with an enemy combined fleet, it is highly recommended to take out '''Enemy Escort Fleet''' as soon as possible to allow for more opportunities for your fleet to target the main fleet.

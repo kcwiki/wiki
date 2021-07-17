@@ -1,0 +1,308 @@
+==Enemy patterns==
+{{Section}}
+{{Map/Image|
+{{Map/ImageNode|Start|x=104|y=110}}
+{{Map/ImageNode|A|x=167|y=240}}
+{{Map/ImageNode|B|x=224|y=192}}
+{{Map/ImageNode|C|x=267|y=122}}
+{{Map/ImageNode|D|x=292|y=286}}
+{{Map/ImageNode|E|x=362|y=286}}
+{{Map/ImageNode|F|x=428|y=192}}
+{{Map/ImageNode|G|x=452|y=255}}
+{{Map/ImageNode|H|x=478|y=190}}
+{{Map/ImageNode|I|x=488|y=300}}
+{{Map/ImageNode|J|x=548|y=265}}
+}}
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+{{Map/Nodes|name=
+|A
+|Storm
+|Fuel
+|30% (20% with Radar)
+}}
+{{Map/Nodes|name=敵南方前衛哨戒艦隊
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|170
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|190
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|200
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=
+|C
+|Resource
+|Steel
+|25~50
+}}
+{{Map/Nodes|name=敵南方空母機動部隊
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|100
+|Standard Carrier Wo-Class/Flagship
+|Standard Carrier Wo-Class/Elite
+|Light Carrier Nu-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|110
+|Standard Carrier Wo-Class/Flagship
+|Standard Carrier Wo-Class/Flagship
+|Light Carrier Nu-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|120
+|Standard Carrier Wo-Class/Flagship
+|Standard Carrier Wo-Class/Flagship
+|Light Carrier Nu-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|130
+|Standard Carrier Wo-Class/Flagship
+|Standard Carrier Wo-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|140
+|Standard Carrier Wo-Class/Flagship II
+|Standard Carrier Wo-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|160
+|Standard Carrier Wo-Class/Flagship II
+|Standard Carrier Wo-Class/Flagship II
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=敵潜水艦南方哨戒線
+|E
+|Normal/BaseXP
+|{{Formation|Double Line}}{{Formation|Echelon}}
+|180
+|Submarine Ka-Class/Flagship
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Echelon}}{{Formation|Line Abreast}}
+|200
+|Submarine Ka-Class/Flagship
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Echelon}}{{Formation|Line Abreast}}
+|230
+|Submarine Ka-Class/Flagship
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+}}
+{{Map/Nodes|name=敵南方任務部隊 B群
+|F
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|200
+|Light Carrier Nu-Class/Elite
+|Heavy Cruiser Ne-Class
+|Heavy Cruiser Ne-Class
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|210
+|Light Carrier Nu-Class/Elite
+|Heavy Cruiser Ne-Class/Elite
+|Heavy Cruiser Ne-Class
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|220
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|250
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=敵南方任務部隊 A群
+|G
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|300
+|Battleship Ta-Class/Flagship
+|Battleship Ta-Class/Elite
+|Light Carrier Nu-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|G
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|340
+|Battleship Ta-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|G
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|360
+|Battleship Ta-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=
+|H
+|Resource
+|Ammo
+|45~70
+}}
+{{Map/Nodes|name=
+|I
+|Empty
+}}
+{{Map/Nodes|name=敵南方前線司令艦隊
+|J
+|Boss/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|400
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Double Line}}
+|420
+|Battleship Ta-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Diamond}}
+|430
+|Transport Ship Wa-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Diamond}}
+|440
+|Standard Carrier Wo-Class/Flagship II
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|J
+|Boss/BaseXP
+|{{Formation|Diamond}}
+|450
+|Standard Carrier Wo-Class/Flagship II
+|Standard Carrier Wo-Class/Flagship II
+|Battleship Ta-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

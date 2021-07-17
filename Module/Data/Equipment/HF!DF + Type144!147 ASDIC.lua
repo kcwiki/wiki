@@ -1,0 +1,35 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "HF/DF + Type144/147 ASDIC",
+    _asset_name = "HF DF + Type144 147 ASDIC",
+    _id = 262,
+    _japanese_name = "HF/DF + Type144/147 ASDIC",
+    _reading = false,
+    _type = 14, -- 7,10,14,18,0
+    _icon = 18,
+    _rarity = 5,
+    _firepower = false,
+    _bombing = false,
+    _torpedo = false,
+    _aa = false,
+    _armor = false,
+    _asw = 15,
+    _shelling_accuracy = 3,
+    _torpedo_accuracy = false,
+    _evasion = 2,
+    _los = 2,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = false,
+    _flight_range = false,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = false,
+    _scrap_steel = 1,
+    _scrap_bauxite = 6,
+    _info = "紅茶の国で開発された対潜探知システム「ASDIC」。その改良発展型です。対潜探知技術の蓄積と144型と147型の複合装備により、敵潜探知精度をさらに向上させています。敵潜の発する無線波を捉える「短波方向探知機」と組み合わせて運用することで、総合的な対潜作戦能力は大きく向上しました。",
+    _buildable = false,
+}

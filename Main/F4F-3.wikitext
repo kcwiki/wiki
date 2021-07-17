@@ -1,23 +1,5 @@
-{{Equipmentinfo
-|name = F4F-3
-|id = 197
-|japanesename = F4F-3
-|icon = {{GreenPlane}}
-|type = Carrier-Based Fighter
-|effect = {{Firepower}}+1, {{AA}}+4, {{Evasion}}+2
-|radius = 4
-|scrap = {{Fuel}} 1, {{Ammo}} 2, {{Bauxite}} 2
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment197-1.png
-Equipment197-2.png
-Equipment197-3.png
-Equipment197-4.png
-</gallery>
-| CVL=lime
-| CV=lime
-| CVB=lime
-| LC=lime
-}}
+{{EquipmentInfo|197}}
+
 ==Introduction==
 大戦初期の太平洋上で零戦としのぎを削った名艦上戦闘機、その初期部隊配備型です。<br>
 ワイルドキャットとよばれたF4Fシリーズは、格闘戦闘で劣る零戦隊を相手に果敢に戦いました。<br>
@@ -29,11 +11,19 @@ Equipment197-4.png
 <div class="mw-collapsible-content">
 '''Stock equipment''' of {{Ship/Link|Hornet}}, {{Ship/Link|Saratoga}}
 
-'''From quests: '''[[Quests#B148|B148]] (★+3, x2, choice)
+'''From quests: '''[[Quests#By8|By8]] (x2, choice), [[Quests#B148|B148]] (★+3, x2, choice)
 
 ''Event reward for:''
 * [[Fall 2016 Event]] E-5: Medium
 
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2016-11-18:''' '''Implemented'''
+* '''2016-12-09:''' Became '''improvable''' and '''upgradeable''' to {{Equipment/Link|F4F-4}}
+* '''2021-06-22:''' Became '''buildable'''
 </div></div>
 
 == Akashi's Improvement Arsenal ==

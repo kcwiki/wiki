@@ -1,0 +1,36 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "Type 3 Depth Charge Projector (Concentrated Deployment)",
+    _id = 287,
+    _japanese_name = "三式爆雷投射機 集中配備",
+    _reading = "さんしきばくらいとうしゃき しゅうちゅうはいび",
+    _type = 15,
+    _types = {7, 32, 15, 17, 0},
+    _icon = 17,
+    _rarity = 3,
+    _firepower = false,
+    _bombing = false,
+    _torpedo = false,
+    _aa = false,
+    _armor = false,
+    _asw = 12,
+    _shelling_accuracy = false,
+    _torpedo_accuracy = false,
+    _evasion = false,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = false,
+    _flight_range = false,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = 6,
+    _scrap_steel = 2,
+    _scrap_bauxite = 2,
+    _info = "増大する敵潜水艦による脅威に対抗するため、三式爆雷投射機を集中配備。舷側方向に対して、片舷6～8基、両舷12～16基の爆雷投射能力を誇る、対潜艦艇用の対潜制圧兵装です。<br>日振型の次級である、鵜来型以降に装備され、海上護衛や対潜哨戒に威力を発揮しました。",
+    _buildable = false,
+    
+}

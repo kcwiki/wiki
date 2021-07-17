@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "14cm Twin Gun Mount Kai",
+  _id = 310,
+  _japanese_name = "14cm連装砲改",
+  _reading = "14センチれんそうほうかい",
+  _type = 2, -- 1,1,2,2,0
+  _icon = 2,
+  _rarity = 2,
+  _firepower = 5,
+  _bombing = false,
+  _torpedo = false,
+  _aa = false,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 3,
+  _scrap_steel = 2,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "軽巡洋艦や練習巡洋艦の主砲として搭載された中口径連装砲、その改良強化型です。<br>香取型練習巡洋艦「香取」「鹿島」や軽巡洋艦「夕張」、水上機母艦「日進」に搭載された主砲兵装の改良型です。対空戦闘には向きませんが、対艦対地戦闘には有効です。",
+}

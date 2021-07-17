@@ -1,0 +1,63 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Type 3 Shell Kai",
+  _id = 317,
+  _japanese_name = "三式弾改",
+  _reading = "さんしきだんかい",
+  _type = 18, -- 4,28,18,12,0
+  _icon = 12,
+  _rarity = 4,
+  _firepower = 3,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 6,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 1,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 10,
+  _scrap_steel = 6,
+  _scrap_bauxite = 4,
+  _buildable = false,
+  _info = "戦艦などの大型艦の主砲から放たれる対空用特殊砲弾。<br>榴散弾の一種で、大量の子弾が爆散、敵を編隊ごと一網打尽に殲滅することを狙って開発された三式焼霰弾の改良型です。<br>対地ソフトスキン攻撃にも効果的です。戦訓を採り入れ、運用性を高めると同時に暴発対策も施したif改良弾頭です。",
+	_improvements = {
+		_fuel = 80,
+		_ammo = 200,
+		_steel = 220,
+		_bauxite = 240,
+		_products = {
+			[false] = {
+				_ships = {
+					["Kongou/Kai Ni"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = true, Thursday = false, Friday = false, Saturday = true},
+					["Kongou/Kai Ni C"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = true, Thursday = false, Friday = false, Saturday = true},
+					["Hiei/Kai Ni C"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = false, Friday = false, Saturday = false},
+					["Mutsu/Kai Ni"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 8,
+					_development_material_x = 9,
+					_improvement_material = 6,
+					_improvement_material_x = 6,
+					_equipment = {["Type 3 Shell"] = 1},
+				},
+				[6] = {
+					_development_material = 10,
+					_development_material_x = 14,
+					_improvement_material = 7,
+					_improvement_material_x = 8,
+					_equipment = {["Type 3 Shell"] = 2},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,229 @@
+==Enemy patterns==
+{{Section}}
+{{Map/Image|
+{{Map/ImageNode|Start|x=120|y=199}}
+{{Map/ImageNode|A|x=213|y=150}}
+{{Map/ImageNode|B|x=222|y=282}}
+{{Map/ImageNode|C|x=268|y=205}}
+{{Map/ImageNode|D|x=309|y=95}}
+{{Map/ImageNode|F|x=347|y=163}}
+{{Map/ImageNode|G|x=389|y=233}}
+{{Map/ImageNode|I|x=445|y=111}}
+{{Map/ImageNode|H|x=431|y=300}}
+{{Map/ImageNode|E|x=319|y=273}}
+{{Map/ImageNode|J|x=575|y=302}}
+{{Map/ImageNode|K|x=584|y=213}}
+}}
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+{{NodeInfo
+|A
+|Empty
+}}
+{{NodeInfo
+|B
+|Empty
+}}
+{{Map/Nodes|name=中部海域　敵遊撃部隊
+|C
+|Normal
+|{{Formation|Double Line}}
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|C
+|Normal
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|C
+|Normal
+|{{Formation|Line Ahead}}
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ni-Class/Late Model
+|Destroyer Ni-Class/Late Model
+}}
+{{Map/Nodes|name=中部海域哨戒戦 A地点
+|D
+|Normal
+|{{Formation|Line Ahead}}<br>{{Formation|Diamond}}<br>{{Formation|Echelon}}
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ha-Class/Elite
+|Destroyer Ha-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{NodeInfo
+|E
+|Empty
+}}
+{{Map/Nodes|name=中部海域哨戒戦 B地点
+|F
+|Normal
+|{{Formation|Double Line}}
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Elite
+|Destroyer Ha-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|F
+|Normal
+|{{Formation|Double Line}}
+|Light Cruiser He-Class/Flagship
+|Destroyer Ni-Class/Elite
+|Destroyer Ni-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|F
+|Normal
+|{{Formation|Diamond}}
+|Light Cruiser He-Class/Flagship
+|Transport Ship Wa-Class/Elite
+|Transport Ship Wa-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|F
+|Normal
+|{{Formation|Double Line}}
+|Light Cruiser He-Class/Flagship
+|Light Cruiser To-Class/Elite
+|Destroyer Ni-Class/Elite
+|Destroyer Ni-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{NodeInfo
+|G
+|Empty
+}}
+
+{{Map/Nodes|name=中部海域哨戒戦 D地点
+|H
+|Normal
+|{{Formation|Echelon}}
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Elite
+|Destroyer Ha-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|H
+|Normal
+|{{Formation|Diamond}}
+|Heavy Cruiser Ri-Class/Flagship
+|Destroyer Ha-Class/Elite
+|Destroyer Ha-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|H
+|Normal
+|{{Formation|Double Line}}
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=敵機動部隊
+|I
+|Normal
+|{{Formation|Diamond}}
+|Aircraft Carrier Demon
+|Standard Carrier Wo-Class/Flagship II
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|I
+|Normal
+|{{Formation|Diamond}}
+|Aircraft Carrier Demon
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|I
+|Normal
+|{{Formation|Diamond}}
+|Standard Carrier Wo-Class/Flagship II
+|Standard Carrier Wo-Class/Flagship II
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=中部海域 敵輸送船団
+|J
+|Normal
+|{{Formation|Line Ahead}}
+|Transport Ship Wa-Class/Flagship
+|Transport Ship Wa-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|J
+|Normal
+|{{Formation|Line Ahead}}
+|Transport Ship Wa-Class/Flagship
+|Transport Ship Wa-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+}}
+{{Map/Nodes|name=敵回航中空母
+|K
+|Boss
+|{{Formation|Diamond}}<br>{{Formation|Double Line}}
+|Standard Carrier Wo-Class/Flagship II
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Tsu-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ni-Class/Late Model
+|Destroyer Ni-Class/Late Model
+|-
+|K
+|Boss
+|{{Formation|Diamond}}
+|Standard Carrier Wo-Class/Flagship II
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|K
+|Boss
+|{{Formation|Diamond}}
+|Standard Carrier Wo-Class/Flagship II
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

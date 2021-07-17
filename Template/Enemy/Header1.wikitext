@@ -1,0 +1,1 @@
+<div style="display:inline-block"><h3>{{#ifeq:{{{1|}}}|IV|Basic IV|{{#ifeq:{{{1|}}}|III|Basic III|{{#ifeq:{{{1|}}}|II|Basic II|{{{1|Basic}}}}}}}}}</h3>{{EnemyShipInfoKai|{{PAGENAME}}/{{{1|}}}}}</div>

@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "TBM-3W+3S",
+  _id = 389,
+  _japanese_name = "TBM-3W+3S",
+  _reading = nil,
+  _type = 8, -- 3,5,8,46,39
+  _icon = 46,
+  _rarity = 6,
+  _firepower = 3,
+  _bombing = 7,
+  _torpedo = 10,
+  _aa = false,
+  _armor = false,
+  _asw = 13,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = 10,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 12,
+  _flight_range = 5,
+  _special = false,
+  _scrap_fuel = 4,
+  _scrap_ammo = 6,
+  _scrap_steel = false,
+  _scrap_bauxite = 16,
+  _buildable = false,
+  _info = "重い発動機と頑丈なボディを備えた、太平洋の戦い、その後半の大空を駆けた主力雷撃機「TBF」。同機に哨戒用レーダーを搭載したW型、さらに同機とペアを組む対潜攻撃に特化したS型。戦後海上自衛隊でも運用された、対潜哨戒攻撃機ペアをさらに汎用性を高めたif改装機による攻撃哨戒機隊です。",
+}

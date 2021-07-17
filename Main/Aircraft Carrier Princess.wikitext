@@ -1,73 +1,13 @@
 ==Info==
-{|
-|-
-| valign="top" |
-{{enemyshipinfo2
-|color = red
-|name = Aircraft Carrier Princess (A)
-|japanesename = 空母棲姫 
-|image = [[File:586.png|208px]]
-|id = 586 
-|class = Abyssal
-|type = Standard Carrier 
-|hp = 350 
-|firepower = 180
-|armor = 150
-|torpedo = 0
-|evasion = 53
-|AA = 130
-|aircraft = 168 
-|ASW = 0
-|LOS = 130
-|luck = 70
-|time = Unbuildable
-|speed = Fast 
-|range = Long 
-|slot = 4 
-|slot1=[[List_of_equipment_used_by_the_enemy|Abyssal Hellcat Fighter]]
-|slot2=[[List_of_equipment_used_by_the_enemy|Abyssal Hell Diver]]
-|slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Avenger Torpedo Bomber]]
-|slot4=[[List_of_equipment_used_by_the_enemy|Abyssal Air Radar]]
-|space1=60 
-|space2=52 
-|space3=56 
-|space4=0 
-}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo2
-|color = red
-|name = Aircraft Carrier Princess (B)
-|japanesename = 空母棲姫 
-|image = [[File:586.png|208px]]
-|id = 620 
-|class = Abyssal
-|type = Standard Carrier 
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = ?
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|time = Unbuildable
-|speed = Fast 
-|range = Long 
-|slot = 4 
-|slot1=?
-|slot2=?
-|slot3=?
-|slot4=?
-|space1=? 
-|space2=? 
-|space3=? 
-|space4=?
-}}
-|}
-{{clear}}
+
+<div style="display: inline-block;"><h3>Basic</h3>{{EnemyShipInfoKai|{{PAGENAME}}/}}</div>
+<div style="display: inline-block;"><h3>Basic II</h3>{{EnemyShipInfoKai|{{PAGENAME}}/II}}</div>
+<div style="display: inline-block;"><h3>Basic III</h3>{{EnemyShipInfoKai|{{PAGENAME}}/III}}</div>
+<div style="display: inline-block;"><h3>Basic IV</h3>{{EnemyShipInfoKai|{{PAGENAME}}/IV}}</div>
+<div style="display: inline-block;"><h3>Kai</h3>{{EnemyShipInfoKai|{{PAGENAME}}/Kai}}</div>
+<div style="display: inline-block;"><h3>Kai II</h3>{{EnemyShipInfoKai|{{PAGENAME}}/Kai II}}</div>
+<div style="display: inline-block;"><h3>Kai III</h3>{{EnemyShipInfoKai|{{PAGENAME}}/Kai III}}</div>
+{{EnemyShipCategoriesKai|{{PAGENAME}}/}}
 
 ==Quotes==
 {{Abyssquote
@@ -75,14 +15,15 @@
 
 or
 
-ナンドデモ…ナンドデモ……シズンデイケ……！
-|EN1 = Be wrapped in flames...and sink instantly……!
+ナンドデモ…ナンドデモ……シズンデイケ……！ (Summer 2014 Event E-6)
+|EN1 = Be wrapped in flames...and sunk instantly……!
 
 or
 
-I will sink you...over ……and over again……!
-|Note1 = 
+I will sink you...over ……and over again……! (Summer 2014 Event E-6)
+|Note1 = While this uses the most common translation of "ヒ", it really could be anything, since this is in Katakana only. It could mean "flames". All have been used in different contexts with other Abyssals.
 
+Also, "シズンデシマエ" was equated to the English expression "Be sunk instantly".
 |砲撃 =シズメ！
 
 or
@@ -93,7 +34,7 @@ or
 or
 
 Go down!
-|Note0 =
+|Note0 ="落ちろ": Fall, Go down, or drop; not quite "Sink", but very close in this context.
 |被弾 =サクテキヲオロソカニスルカラダ…
 
 or
@@ -102,39 +43,65 @@ or
 
 
 オチロ！ (Winter 2015)
-|EN2 =You're to blame …for neglecting to scout.
+|EN2 =You're to blame …for your neglect to scout.
 or
 
-Did you think... you had won? That's cute!
+Did you think... you have won? That's cute!
 
 
 Go down! (Winter 2015)
-|Note2 =
+|Note2 =In the game rips, she sounds as if she's remarking on the player's ships saying "索敵！" during battle, so this was given 「quotes」 to differentiate here.
 
 |昼戦終了時 =シズカナ…キモチニ…そうか、だから…わたしは…
 
 ナンドデモ…クリカエス…カワラナイ…限り…(Winter 2015)
-|EN3 =This peacefulness...feels nice...''Oh, right, since I am...''
+|EN3 =This peacefulness...feels nice...''Oh, right...I am...''
 
 
-This repeats…anytime…providing…you don't…change…. (Winter 2015)
-|Note3 =
-|Clip1 = {{Audio|file=CV_Hime_Intro.ogg}}<br/>{{Audio|file=CV_Oni_Intro.ogg}}|Clip0 = {{Audio|file=CV_Hime_Attack_1.ogg}}<br>{{Audio|file=CV_Hime_Attack_2.ogg}}|Clip2 = {{Audio|file=CV_Hime_Damaged.ogg}}<br/>{{Audio|file=CV_Oni_Sunk.ogg}}<br/>
+This will repeat…again and again…as long as…you don't…change…. (Winter 2015)
+|Note3 =Somewhat hard to translate this to English due to the changing of Katakana to Hiragana .|Clip1 = {{Audio|file=CV_Hime_Intro.ogg}}<br/>{{Audio|file=CV_Oni_Intro.ogg}}|Clip0 = {{Audio|file=CV_Hime_Attack_1.ogg}}<br>{{Audio|file=CV_Hime_Attack_2.ogg}}|Clip2 = {{Audio|file=CV_Hime_Damaged.ogg}}<br/>{{Audio|file=CV_Oni_Sunk.ogg}}<br/>
 <br/>
 {{Audio|file=CV_Hime_Attack_2.ogg}}|Clip3 = {{Audio|file=CV_Hime_Sunk.ogg}}<br/>
 {{Audio|file=CV_Oni_Damaged.ogg}}}}
+'''On and After Winter 2016 Event & Kai Form'''
 
-==Notes==
-* [[Summer 2014 Event]] E-5 boss, E-6 pre-boss
-* [[Fall 2014 Event]] E-4 pre-boss, E-5 fleet member after five complete kills
-* [[Winter 2015 Event]] E-4 boss
-* [[Spring 2015 Event]] E-6 preboss node. Also appears in E-6's final kill as an escort.
-* As with [[Midway Princess]], she essentially has real-life armament.
-** Her planes are literal translations of the names of US Navy aircraft: the Abyssal Hell Diver is either the [[wikipedia:Curtiss_SBC_Helldiver|SBC Helldiver]] or the [[wikipedia:Curtiss_SB2C_Helldiver|SB2C Helldiver]], the Abyssal Hellcat Fighter is the [[wikipedia:Grumman_F6F_Hellcat|F6F Hellcat]] and the Abyssal Avenger Torpedo bomber is the [[wikipedia:Grumman_TBF_Avenger|TBF Avenger]]. Notably, the former 2 are named after aircraft not in service with the US Navy during the Battle of Midway, or were simply not present at the time. The original Helldiver did not see action in the Pacific theatre (it was relegated to the European theatre, and was most notably used by the French), and while its successor's first flight was in December of 1940, it was not put in service until the end of 1942. Meanwhile, the Hellcat hadn't even flown its first flight until late June of 1942 (weeks after the battle) and was not in service until the next year. Furthermore, the Hellcat was designed based on performance data gathered from the Zero recovered at the Aleutian Islands.
-* Voiced by [http://myanimelist.net/people/504 Fujita Saki].
+{{Enemy/Quotes
+|開幕前 =ヒノ…カタマリトナッテ…シズンデシマエ……！
+|EN1=Be wrapped in flames...and sunk instantly……!
+|Note1 =
+|砲撃 =シズメ！
+|EN0=Sink!
+|Note0 =
+|被弾 =オチロ！ 
+|EN2=Go down!
+|Note2 =
+|昼戦終了時 =ナンドデモ…クリカエス…カワラナイ…限り…
+|EN3=This will repeat…again and again…as long as…you don't…change….
+|Note3 =
+|Clip1 = {{Audio|file=CV_Hime_Intro.ogg}}
+|Clip0 = {{Audio|file=CV_Hime_Attack_1.ogg}}
+|Clip2 = {{Audio|file=CV_Hime_Attack_2.ogg}}
+|Clip3 = {{Audio|file=CV_Oni_Damaged.ogg}}}}
 {{clear}}
 
+== Character ==
+* [[Glossary#List of Vessels by Japanese Voice Actresses|'''Seiyuu''']]: [http://myanimelist.net/people/504 Fujita Saki] (藤田咲)
 
+==Notes==
+* Appears in 6-4 pre-boss' east route node on Final and  as the boss of [[6-5]]. 
+* Variant III and variant IV appear for the first time during the [[Winter 2018 Event]].
+* [[Summer 2014 Event]] E-5 boss, E-6 pre-boss.
+* [[Fall 2014 Event]] E-4 pre-boss.
+* [[Winter 2015 Event]] E-4 boss.
+* [[Spring 2015 Event]] E-6 pre-boss and as escort ship of the boss (medium, hard).
+* [[Summer 2015 Event]] E-6 boss with [[Battleship Princess]].
+* [[Winter 2016 Event]] E-3 Hard boss escort with 2 [[Battleship Princess]].
+* [[Fall 2016 Event]] E-4 Boss.
+* [[Winter 2017 Event]] E-2 Boss.
+* As with [[Midway Princess]], she essentially has real-life armament.
+** Her planes are parodies of the names of US Navy aircraft: the [[Abyssal Hell Dive Bomber]] is either the [[wikipedia:Curtiss_SBC_Helldiver|SBC Helldiver]] or the [[wikipedia:Curtiss_SB2C_Helldiver|SB2C Helldiver]], the [[Abyssal Cat Fighter]] is the [[wikipedia:Grumman_F6F_Hellcat|F6F Hellcat]] and the [[Abyssal Revenge Torpedo Bomber]] is the [[wikipedia:Grumman_TBF_Avenger|TBF Avenger]]. Notably, the former 2 are named after aircraft not in service with the US Navy during the Battle of Midway, or were simply not present at the time. The original Helldiver did not see action in the Pacific theatre (it was relegated to the European theatre, and was most notably used by the French), and while its successor's first flight was in December of 1940, it was not put in service until the end of 1942. Meanwhile, the Hellcat hadn't even flown its first flight until late June of 1942 (weeks after the battle) and was not in service until the next year.
+
+{{clear}}
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]
 [[Category:Bosses]]

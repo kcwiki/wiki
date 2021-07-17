@@ -1,46 +1,20 @@
 ==Info==
-{|
-|
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo2
-| name=Southern War Princess
-| japanesename=南方棲戦姫
-| id=548
-| image=[[File:548_Southern_War_Princess.png|280px]]
-| color=red
-| type=Aviation Battleship
-| class=Abyssal
-| hp=380
-| firepower=160
-| armor=188
-| torpedo=100
-| evasion=30
-| AA=80
-| aircraft=90
-| speed=Slow
-| LOS=90
-| ASW=0
-| range=Long
-| luck=50
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|16inch Triple Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|16inch Triple Cannon]]
-| slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Fighter Mk.II]]
-| slot4=[[List_of_equipment_used_by_the_enemy|Abyssal Surface Radar]]
-| space1=0
-| space2=0
-| space3=90
-| space4=0}}
-|}
-{{clear}}
+{{EnemyShipInfoKai|Southern War Princess/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Southern War Princess/}}
 
 ==Quotes==
 {{Abyssquote
-| 開幕前=ナンドデモ　ミナソコニ　オチテイクガイイ……
-| EN1=You had better fall to the bottom...as many times... as you like...
-| Note1=
-| 砲撃=ココハトオシマセン…
+|Clip1 = {{Audio|file=Southern_War_Hime_Intro.ogg}}
+|開幕前 = ナンドデモ　ミナゾコニ　オチテイクガイイ……
+|EN1 = You had better fall to the bottom...as many times... as you like...
+|Note1 = In this sentence, she says "ミナソコ" (minasoko), but she says "ミナゾコ or 水底" (minazoko) aloud. "ミナゾコ" should mean the bottom of the sea here.
+( In Winter 2019 Event, This sentence was rewritten ミナゾコ）
+|Clip0 = {{Audio|file=Southern_Attack_1.ogg}}<br/>{{Audio|file=Southern_Attack_2.ogg}}<br/>{{Audio|file=Southern_War_Hime_Attack.ogg}}
+|砲撃 = ココハトオシマセン…
 
 or
 
@@ -49,8 +23,7 @@ or
 or
 
 オロカナ…
-| EN0=
-You will not pass here...
+|EN0 = You will not pass here...
 
 or
 
@@ -59,32 +32,36 @@ Fall!
 or
 
 Foolish...
-| Note0=
-| 被弾=ワタシハ…モウ…ヤラレハシナイ…
+|Note0 = In this sentence, "fall" means to sink to the bottom of the sea.
+|Clip2 = {{Audio|file=Southern_Damaged_1.ogg}}<br/>{{Audio|file=Southern_Damaged_2.ogg}}
+|被弾 = ワタシハ…モウ…ヤラレハシナイ…
 
 or
 
 チッ…
-| EN2=I won't... be defeated... again...
+|EN2 = I won't... be defeated... again...
 
 or
 
 
 Tch...
-| Note2=
-| 昼戦終了時=ワタシモ…ワタシモ…モウイチド…ヨミガエルノカ…
-| EN3=Will I... Will I... be resurrected again... someday...
-| Note3=
-|Clip1 = {{Audio|file=Southern_War_Hime_Intro.ogg}}|Clip0 = {{Audio|file=Southern_Attack_1.ogg}}<br/>{{Audio|file=Southern_Attack_2.ogg}}<br/>{{Audio|file=Southern_War_Hime_Attack.ogg}}|Clip2 = {{Audio|file=Southern_Damaged_1.ogg}}<br/>{{Audio|file=Southern_Damaged_2.ogg}}|Clip3 = {{Audio|file=Southern_War_Hime_Sunk.ogg}}}}
+|Clip3 = {{Audio|file=Southern_War_Hime_Sunk.ogg}}
+|昼戦終了時 = ワタシモ…ワタシモ…モウイチド…ヨミガエルノカ…
+|EN3 = Will I... Will I... be resurrected again... someday...
+}}
 {{clear}}
+
+== Character ==
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': Taketatsu Ayana (竹達彩奈)
 
 ==Notes==
 * [[Summer 2013 Event]] E-4 boss.
 * [[Fall 2013 Event]] E-5 pre-boss, E-5 boss under certain conditions.
-* Found in the 5-3 & 5-5 boss nodes.
+* Map 5-3 & 5-5 boss node.
 * Shares voice lines with [[Armored Carrier Princess]].
-{{clear}}
+* The HP was 350 and the armor was 120 before [[Winter 2019 Event]].
 
+{{clear}}
 {{Enemyshiplist}}
 [[Category:Bosses]]
 [[Category:Enemy Vessel]]

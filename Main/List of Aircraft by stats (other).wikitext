@@ -1,104 +1,19 @@
 *Green : Outstanding
-
 *Yellow : Above average
-
-==Recon Aircraft==
-{| class="wikitable" style="text-align: center;"
-|-
-!#
-!Rank
-!Name
-!Subtype
-![[file:icon_Gun.png|Firepower]]
-![[file:icon_Torpedo.png|Torpedo Attack]]
-![[file:icon_Dive.png|Dive Bomber Attack]]
-![[file:icon_AA.png|Anti-Air]]
-![[file:icon_ASW.png|Anti-Submarine]]
-![[file:icon_LOS.png|View Range]]
-![[file:icon_Hit.png|Accuracy]]
-![[file:icon_Range.png|Range]]
-!Classes
-!Craftable
-!Notes
-|-
-| 054
-| ☆<br />☆☆
-| style="white-space:nowrap;text-align:left;" |[[Saiun|Saiun (Iridescent Cloud)]]<br />{{Template:YellowPlane}}彩雲
-| rowspan="3" |None
-| 0
-| rowspan="3" |0
-| rowspan="3" |0
-| rowspan="3" |0
-| rowspan="3" |0
-| style="background-color: lime;" |9
-| 2
-| rowspan="3" |0
-| rowspan="3" |CV(L)
-| rowspan="2" |Yes
-|
-|-
-| 061
-| ☆<br />☆
-| style="white-space:nowrap;text-align:left;" |[[Type 2 Recon Aircraft]]<br />{{Template:YellowPlane}}二式艦上偵察機
-| style="background-color: lime;" |1
-| 7
-| style="background-color: lime;" |3
-| style="white-space:nowrap;text-align:left;" |[[Ryuujou]] Kai Ni and [[Souryuu]] Kai Ni stock equipment.<br />August 2013 ranking reward.
-|-
-| 151
-| ☆<br />☆☆<br />☆☆
-| style="white-space:nowrap;text-align:left;" |[[Prototype Keiun]]<br />{{Template:YellowPlane}}試製景雲(艦偵型)
-| style="background-color: lime;" |2
-| style="background-color: lime;" |11
-| 2
-| No
-| style="white-space:nowrap;text-align:left;" |September 2015 ranking reward.
-|}
-
-==Other Aircraft==
-{| class="wikitable" style="text-align: center;"
-|-
-!#
-!Rank
-!Name
-!Subtype
-![[file:icon_Gun.png|Firepower]]
-![[file:icon_Torpedo.png|Torpedo Attack]]
-![[file:icon_Dive.png|Dive Bomber Attack]]
-![[file:icon_AA.png|Anti-Air]]
-![[file:icon_ASW.png|Anti-Submarine]]
-![[file:icon_LOS.png|View Range]]
-![[file:icon_Hit.png|Accuracy]]
-![[file:icon_Range.png|Range]]
-!Classes
-!Craftable
-!Notes
-|-
-| 069
-| ☆<br />☆☆
-| style="white-space:nowrap;text-align:left;" |[[Ka-type Observation Autogyro]]<br />{{Template:Autogyro}}カ号観測機
-| Autogyro
-| rowspan="2" |0
-| rowspan="2" |0
-| rowspan="2" |0
-| rowspan="2" |0
-| style="background-color: Lime;" |9
-| 0
-| 1
-| rowspan="2" |0
-| CVL, LC, AV, CAV, BBV
-| rowspan="2" |No
-| rowspan="2" style="text-align:left;" |[[Akitsu Maru]] Kai stock equipment.
-|-
-| 070
-| ☆<br />☆
-| style="white-space:nowrap;text-align:left;" |[[Type 3 Spotter/Liaison (ASW)]]<br />{{Template:ASWPlane}}三式指揮連絡機(対潜)
-| Anti-Submarine Aircraft
-| 7
-| style="background-color: lime;" |1
-| style="background-color: lime;" |2
-| LC, CVL
-|}
+{{EquipmentComparisonKai
+|iterator = equipmentBy|pred = is_carrier_based_reconnaissance_aircraft
+|firepower_good = 0
+|aa_good = 0
+|los_good = 8
+|los_outstanding=10
+|shelling_accuracy_good = 2
+|Saiun_notes = Prevents T-cross disadvantage.
+|Saiun_notes_highlight = outstanding
+|Saiun (Eastern Caroline Air Group)_notes = Prevents T-cross disadvantage.
+|Saiun (Eastern Caroline Air Group)_notes_highlight = outstanding
+|Saiun (4th Recon Squad)_notes = Prevents T-cross disadvantage.
+|Saiun (Eastern Caroline Air Group)_notes_highlight = outstanding
+}}
 
 ==See Also==
 {{Equipmentlist}}

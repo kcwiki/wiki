@@ -15,7 +15,7 @@ As planes earn experience, they will progress through the ranks as follows:
 !style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;" rowspan="2"| '''Notes'''
 |-
 !style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:96px;"| {{GreenPlane}} {{PurpleFighter}} {{SeaplaneFighter}} {{Interceptor Fighter}} {{Interceptor Fighter2}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"| {{RedPlane}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"| {{Seaplane}}
 |- 
 |style="text-align: center; border-style: solid; border-width: 1px;"| 0
 |style="text-align: center; border-style: solid; border-width: 1px;"| (blank)
@@ -283,9 +283,21 @@ Land-based planes can only be ranked through [[LBAS]]. This makes ranking them q
 * Rank is only calculated once the fleet returns to port.
 ** It is possible to save ranks by quitting the sortie before the results screen is shown. This can be useful during events to save preparation time for boss kills.
 * Planes will not gain or lose ranks in [[Support Expedition]]s or [[Exercises]].
-* Planes '''must''' parcitipate in aerial combat to gain/lose ranks. This means planes in 0 slots will not gain or lose ranks.
+* Planes '''must''' parcitipate in aerial combat or detection to gain/lose ranks. This means planes in 0 slots will not gain or lose ranks. This also means if planes are not launched due to failing Detection, they will not gain or lose ranks.
 
 ===Leveling Speed===
+
+Planes gain a certain number of internal proficiency points with some random variance every time they participate in Aerial Combat or Detection. The amount gained depends on the exp-rate group of the plane.<ref>https://docs.google.com/spreadsheets/d/1tGEtDid5q7ngve1m07TK5JO2MF2BCTd6OiyObPRpkqU/edit#gid=347908809</ref>
+
+'''Detection:''' {{Seaplane}}Seaplane Recons, {{Seaplane}}Seaplane Bombers, {{YellowPlane}}Carrier Recons, {{Flying Boat}}Flying Boats
+
+'''Aerial Combat:''' {{GreenPlane}}{{PurpleFighter}}Fighters, {{RedPlane}}Dive Bombers, {{BluePlane}}{{PurpleBomber}}Torpedo Bombers, {{Seaplane}}Seaplane Bombers, {{SeaplaneFighter}}Seaplane Fighters, {{JetFighterBomber1}}Jets, {{Land Based Attack Aircraft}}{{Land Based Attack Aircraft Blue}}Land-based Bombers, {{Interceptor Fighter}}{{Interceptor Fighter2}}Interceptors, [[File:Equipment_Icon_Heavy_Bomber.png|36px]]Land-based Heavy Bombers
+
+'''LBAS Attack''', '''LBAS Defence''', '''Jet Assault''', and '''LBAS Jet Assault''' also count as '''Aerial Combat'''.
+
+* Each LBAS Attack wave counts as one round of Aerial Combat, so planes attacking the same node twice gain experience twice. There is no Detection for LBAS, so recons (including Land-based Recons) do not gain experience.
+* Because Seaplane Bombers participate in both Aerial Combat and Detection, they effectively level twice as fast as other planes of their group in most cases.
+* Jets receive experience from both Jet Assault and the following Aerial Combat, effectively leveling twice as fast as other planes of their group in most cases. However, Jet Assault does not occur against all-submarine fleets, so they gain experience only once in this case.
 
 Leveling speed is measured in the estimated number of battles it will take to get a plane from no rank to <span style="color:#FFCE00; text-shadow: 0 0 5px #FFCE00;">>></span>.
 
@@ -294,174 +306,182 @@ Leveling speed is measured in the estimated number of battles it will take to ge
 !style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"| '''No. of Battles'''
 !style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"| '''Plane Type'''
 !style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"| '''Plane Name'''
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="3"| ~18
+|- style="background-color:#D0FFE0"
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="3"| '''~18'''
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 96 Fighter]]{{·}}[[Type 96 Fighter Kai]]{{·}}[[Zero Fighter Type 21]]{{·}}[[Fw190 T Kai]]
-|-
+|- style="background-color:#D0FFE0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Swordfish]]{{·}}[[Swordfish Mk. II (Skilled)]]{{·}}[[Swordfish Mk.III (Skilled)]]
-|-
+|- style="background-color:#D0FFE0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Recon Seaplane]]{{·}}[[Ar196 Kai]]{{·}}[[OS2U]]
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="10"| ~20
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Recon Seaplane]]{{·}}[[Ar196 Kai]]{{·}}[[OS2U]]{{·}}[[SOC Seagull]]
+|- style="background-color:#D0FFD0"
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="10"| '''~20'''
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52]]{{·}}[[Bf109 T Kai]]{{·}}[[Re. 2001 OR Kai]]{{·}}[[Fulmar]]
-|-
+|- style="background-color:#D0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 99 Dive Bomber]]{{·}}[[Skua]]{{·}}[[Re.2001 CB Kai]]
-|-
+|- style="background-color:#D0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber]]{{·}}[[Tenzan (931 Air Group)]]{{·}}[[Re. 2001 G Kai]]
-|-
+|- style="background-color:#D0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Observation Seaplane]]{{·}}[[Type 98 Recon Seaplane (Night Scout)]]
-|-
+|- style="background-color:#D0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun]]{{·}}[[Swordfish (Seaplane Model)]]
-|-
+|- style="background-color:#D0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{LargeFlyingBoat}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Flying Boat]]{{·}}[[PBY-5A Catalina]]
-|-
+|- style="background-color:#D0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{SeaplaneFighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Ro.44 Seaplane Fighter]]
-|-
+|- style="background-color:#D0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 96 Land Attacker]]{{·}}[[Type 1 Land Attacker]]{{·}}[[Type 1 Land Attacker (Nonaka Squadron)]]{{·}}[[Type 1 Land Attacker Model 22A]]{{·}}[[Type 1 Land Attacker Model 34]]{{·}}[[Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (55th Squadron)]] 
-|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 96 Land Attacker]]{{·}}[[Type 1 Land Attacker]]{{·}}[[Type 1 Land Attacker (Nonaka Squadron)]]{{·}}[[Type 1 Land Attacker Model 22A]]{{·}}[[Type 1 Land Attacker Model 34]]{{·}}[[Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (65th Squadron)]] 
+|- style="background-color:#D0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft Blue}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Toukai]]
-|-
+|- style="background-color:#D0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 1 Fighter Hayabusa Model II]]
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="10"| ~24
+|- style="background-color:#E0FFD0"
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="11"| '''~24'''
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Reppuu Late Model]]{{·}}[[Shiden Kai 2]]{{·}}[[Zero Fighter Type 21 (Skilled)]]{{·}}[[Reppuu (601 Air Group)]]{{·}}[[Zero Fighter Type 52 (Skilled)]]{{·}}[[Zero Fighter Type 32]]{{·}}[[Zero Fighter Type 32 (Skilled)]]{{·}}[[Seafire LF.Mk.III Kai]]{{·}}[[Shiden Kai 4]]
-|-
+|- style="background-color:#E0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Suisei]]{{·}}[[Zero Fighter Type 62 (Fighter-bomber)]]{{·}}[[Ju 87C Kai]]{{·}}[[Type 99 Dive Bomber (Skilled)]]{{·}}[[Suisei (601 Air Group)]]{{·}}[[Type 0 Fighter Model 63 (Fighter-bomber)]]{{·}}[[FM-2]]{{·}}[[Suisei Model 22 (634 Air Group)]]
-|-
+|- style="background-color:#E0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Tenzan]]{{·}}[[Ryuusei]]{{·}}[[Type 97 Torpedo Bomber (931 Air Group)]]{{·}}[[Type 97 Torpedo Bomber (Skilled)]]{{·}}[[Ryuusei (601 Air Group)]]{{·}}[[Type 97 Torpedo Bomber (931 Air Group / Skilled)]]
-|-
+|- style="background-color:#E0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Saiun]]
-|-
+|- style="background-color:#E0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shiun]]{{·}}[[Ro.43 Recon Seaplane]]{{·}}[[Type 0 Recon SeaPlane Model 11 B]]{{·}}[[Type 0 Reconnaissance Seaplane Model 11B (Skilled)]]{{·}}[[S9 Osprey]]{{·}}[[Swordfish Mk.II Kai (Reconnaissance Seaplane Model)]]{{·}}[[Fairey Seafox Kai]]
-|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shiun]]{{·}}[[Ro.43 Recon Seaplane]]{{·}}[[Type 0 Recon SeaPlane Model 11 B]]{{·}}[[Type 0 Reconnaissance Seaplane Model 11B (Skilled)]]{{·}}[[S9 Osprey]]{{·}}[[Swordfish Mk.II Kai (Reconnaissance Seaplane Model)]]{{·}}[[Fairey Seafox Kai]]{{·}}[[SO3C Seamew Kai]]
+|- style="background-color:#E0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun Model 12]]{{·}}[[Swordfish Mk.III Kai (Seaplane Model)]]{{·}}[[Swordfish Mk.III Kai (Seaplane Model/Skilled)]]
-|-
+|- style="background-color:#E0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{SeaplaneFighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Ro.44 Seaplane Fighter Bis]]
-|-
+|- style="background-color:#E0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Ginga]]{{·}}[[Type 4 Heavy Bomber Hiryuu]]{{·}}[[Do 17 Z-2]]
-|-
+|- style="background-color:#E0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft Blue}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Toukai (901 Air Group)]]
-|-
+|- style="background-color:#E0FFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Shiden Type 21 Shiden Kai]]{{·}}[[Type 1 Fighter Hayabusa Model III A]]{{·}}[[Type 1 Fighter Hayabusa Model III A (54th Air Squadron)]]{{·}}[[Spitfire Mk.I]]{{·}}[[Spitfire Mk.V]]{{·}}[[Spitfire Mk.IX (Skilled)]]
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="8"| ~28
+|- style="background-color:#E0FFD0"
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[File:Equipment_Icon_Heavy_Bomber.png|Large Land-based Aircraft|36px]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shinzan Kai]]
+|- style="background-color:#EAFFD0"
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="10"| '''~28'''
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu Model 11]]{{·}}[[Zero Fighter Type 52 Model C (601 Air Group)]]{{·}}[[Zero Fighter Type 52 Model C (Iwai Squadron)]]{{·}}[[Zero Fighter Type 21 (Iwamoto Squadron)]]{{·}}[[Zero Fighter Type 52 Model A (Iwamoto Squadron)]]{{·}}[[Re. 2005 Kai]]{{·}}[[F4F-3]]{{·}}[[F4F-4]]{{·}}[[F6F-3]]{{·}}[[F6F-5]]{{·}}[[Fw 190 A-5 Kai (Skilled)]]
-|-
+|- style="background-color:#EAFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Suisei Model 12A]]{{·}}[[Type 99 Dive Bomber (Egusa Squadron)]]{{·}}[[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)]]{{·}}[[SBD]]{{·}}[[Suisei Model 22 (634 Air Group/Skilled)]]{{·}}[[Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)]]{{·}}[[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)]]
-|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Suisei Model 12A]]{{·}}[[Type 99 Dive Bomber (Egusa Squadron)]]{{·}}[[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)]]{{·}}[[SBD]]{{·}}[[Suisei Model 22 (634 Air Group/Skilled)]]{{·}}[[Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)]]{{·}}[[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)]]{{·}}[[SBD-5]]{{·}}[[SB2C-3]]{{·}}[[SB2C-5]]
+|- style="background-color:#EAFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber]]{{·}}[[Tenzan Model 12 (Tomonaga Squadron)]]{{·}}[[Tenzan (601 Air Group)]]{{·}}[[Type 97 Torpedo Bomber (Murata Squadron)]]{{·}}[[TBD]]{{·}}[[TBF]]
-|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber]]{{·}}[[Tenzan Model 12 (Tomonaga Squadron)]]{{·}}[[Tenzan (601 Air Group)]]{{·}}[[Type 97 Torpedo Bomber (Murata Squadron)]]{{·}}[[TBD]]{{·}}[[TBF]]{{·}}[[Tenzan Model 12A]]
+|- style="background-color:#EAFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{YellowPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Recon Aircraft]]{{·}}[[Prototype Keiun]]{{·}}[[Saiun (East Caroline Air Group)]]{{·}}[[Saiun (4th Recon)]]
-|-
+|- style="background-color:#EAFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Seiran]]{{·}}[[Zuiun (634 Air Group)]]{{·}}[[Zuiun Model 12 (634 Air Group)]]{{·}}[[Seiran (631 Air Group)]]
-|-
+|- style="background-color:#EAFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{SeaplaneFighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Seaplane Fighter Kai]]
-|-
+|- style="background-color:#EAFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Ginga (Egusa Squadron)]]{{·}}[[Type 4 Heavy Bomber Hiryuu (Skilled)]]
-|-
+|- style="background-color:#EAFFD0"
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Fighter Model 21 (Tainan Air Group)]]{{·}}[[Type 0 Fighter Model 32 (Tainan Air Group)]]{{·}}[[Type 0 Fighter Model 22 (251 Air Group)]]
+|- style="background-color:#EAFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 3 Fighter Hien (244th Air Combat Group)]]{{·}}[[Type 1 Fighter Hayabusa Model II (64th Air Squadron)]]
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="10"| ~35
+|- style="background-color:#EAFFD0"
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[File:Equipment_Icon_Heavy_Bomber.png|Large Land-based Aircraft|36px]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shinzan]]
+|- style="background-color:#FFFFD0"
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="10"| '''~35'''
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Shinden Kai]]{{·}}[[Zero Fighter Type 53 (Iwamoto Squadron)]] 
-|-
+|- style="background-color:#FFFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleFighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[F6F-3N]]{{·}}[[F6F-5N]]
-|-
+|- style="background-color:#FFFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Suisei (Egusa Squadron)]]{{·}}[[Prototype Nanzan]]{{·}}[[F4U-1D]]{{·}}[[Ju 87C Kai Ni (w/ KMX)]]
-|-
+|- style="background-color:#FFFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Ryuusei Kai]]{{·}}[[Tenzan Model 12 (Murata Squadron)]]
-|-
+|- style="background-color:#FFFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleBomber}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[TBM-3D]]{{·}}[[Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai)]]{{·}}[[Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)]]
-|-
+|- style="background-color:#FFFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Seaplane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Laté 298B]]{{·}}[[Zuiun (631 Air Group)]]{{·}}[[Zuiun (634 Air Group/Skilled)]]{{·}}[[Zuiun Kai Ni (634 Air Group)]]{{·}}[[Zuiun Kai Ni (634 Air Group/Skilled)]]
-|-
+|- style="background-color:#FFFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{SeaplaneFighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Seaplane Fighter Kai (Skilled)]]{{·}}[[Kyoufuu Kai]]
-|-
+|- style="background-color:#FFFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Land Based Attack Aircraft}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Do 217 E-5 + Hs293 Initial Model]]{{·}}[[Do 217 K-2 + Fritz-X]]
-|-
+|- style="background-color:#FFFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Raiden]]{{·}}[[Shiden Kai (343 Air Group) Fighter Unit 301]]{{·}}[[Reppuu Kai]]{{·}}[[Reppuu Kai (352 Air Group/Skilled)]]{{·}}[[Fw 190 D-9]]
-|-
+|- style="background-color:#FFFFD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 3 Fighter Hien]]{{·}}[[Type 3 Fighter Hien Model 1D]]{{·}}[[Type 4 Fighter Hayate]]
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="6"| ~44
+|- style="background-color:#FFEAD0"
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="6"| '''~44'''
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu Kai (Prototype Carrier-based Model)]]{{·}}[[Reppuu Kai Ni]]
-|-
+|- style="background-color:#FFEAD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{RedPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Ju 87 C Kai 2 (w/ KMX / Skilled)]]
-|-
+|- style="background-color:#FFEAD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Ryuusei Kai (CarDiv 1)]]
-|-
+|- style="background-color:#FFEAD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleBomber}}
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Type 97 Torpedo Bomber Kai (Skilled) No. 3 Model E (w/ Type 6 Airborne Radar Kai)]]{{·}}[[TBM-3W+3S]]
-|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Type 97 Torpedo Bomber Kai (Skilled) No. 3 Model E (w/ Type 6 Airborne Radar Kai)]]{{·}}[[Tenzan Model 12A Kai (Skilled w/ Type 6 Airborne Radar Kai)]]{{·}}[[TBM-3W+3S]]
+|- style="background-color:#FFEAD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Template:JetFighterBomber1}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Jet Keiun Kai]]{{·}}[[Kikka Kai]]
-|-
+|- style="background-color:#FFEAD0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter2}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Shiden Type 11]]
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="4"| ~65
+|- style="background-color:#FFE0D0"
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="4"| '''~65'''
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{GreenPlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[XF5U]]
-|-
+|- style="background-color:#FFE0D0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleFighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu Kai Ni Model E]]
-|-
+|- style="background-color:#FFE0D0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{BluePlane}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Ryuusei Kai (CarDiv 1/Skilled)]]
-|-
+|- style="background-color:#FFE0D0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Me 163B]]{{·}}[[Prototype Shuusui]]
-|-
-|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"| 100
+|- style="background-color:#FFD0D0"
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="2"| '''100'''
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{PurpleFighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu Kai Ni Model E (CarDiv 1/Skilled)]]
-|-
+|- style="background-color:#FFD0D0"
 |style="text-align: center; border-style: solid; border-width: 1px;"| {{Interceptor Fighter}}
 |style="text-align: center; border-style: solid; border-width: 1px;"| [[Shuusui]]
-|-
 |}
 
 =See Also=

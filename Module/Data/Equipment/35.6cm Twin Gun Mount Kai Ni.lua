@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "35.6cm Twin Gun Mount Kai Ni",
+  _id = 329,
+  _japanese_name = "35.6cm連装砲改二",
+  _reading = "35.6センチれんそうほうかいに",
+  _type = 3, -- 1,1,3,3,0
+  _icon = 3,
+  _rarity = 4,
+  _firepower = 17,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 5,
+  _armor = 2,
+  _asw = false,
+  _shelling_accuracy = 5,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 3,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 11,
+  _scrap_steel = 18,
+  _scrap_bauxite = 5,
+  _buildable = false,
+  _info = "「金剛」型建造時期に英国に発注され、「伊勢」型までの標準的な戦艦主砲兵装として運用された大口径主砲、そのさらなる改良砲if後期型です。射撃速度向上に高精度の測距儀、さらに対空防備も充実。各種戦訓を採り入れ、運用性は大きく向上、改「金剛」型高速戦艦による運用で、その真価を発揮します！",
+}

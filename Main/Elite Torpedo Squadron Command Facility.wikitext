@@ -1,0 +1,50 @@
+__NOTOC__
+{{EquipmentInfo|413}}
+
+==Introduction==
+洋上最前線において水雷戦隊を指揮する戦隊司令部です。司令部施設を開設できる艦に設営可能です。戦闘能力が高まると共に、同司令部を旗艦に設営した水雷戦隊は、水雷戦隊編成で行動している際に、戦闘で大きな損害を受けた僚艦を単艦で戦場から離脱させる水雷戦隊「単艦退避」も実施可能です。
+
+A command facility used for directing torpedo squadrons on the front lines.<br>
+It can be set up on any ship capable of equipping command facilities.<br>
+In addition to the increase in combat ability, you can use the "Single-Ship Evacuation" ability on heavily damaged escort ships when this is equipped on the flagship of a torpedo squadron.
+
+==Notes==
+When the flagship of the fleet is equipped with a [[Elite Torpedo Squadron Command Facility]] (FCF), you are able to evacuate <span style="color:red;">'''Heavily Damaged (大破)'''</span> ships mid-sortie. This can help increase your pass rate to the boss node. The option to evacuate "退避" or not evacuate "退避せず" will appear after the results screen but before the continue/abandon sortie option. You will be shown the damaged ship to be evacuated. '''You are not able to pick which damaged ship gets evacuated.''' The selection is based off '''fleet order''' and the ships higher in the fleet order are selected.
+
+Requirements for using FCF are:
+* FCF equipped on the flagship.
+* At least one heavily damaged ship.
+** The damaged ship must not be the flagship of the fleet.
+
+'''Important Notes'''
+* The Elite Torpedo Squadron Command Facility has unique composition requirements enabling its use:
+** '''CL''' flagship, 1-6 '''DD''', 0-3 '''CLT''', ''no other ship types''
+** '''DD''' flagship, 0-6 '''DD''', 0-3 '''CLT''', ''no '''CL''' '', ''no other ship types''
+
+* It is important to remember that '''only one''' ship can be evacuated per battle. If you have more than one heavily damaged ship, you should retreat.
+* Evacuated ships will '''lose a large amount of morale and lose all their remaining fuel and ammo'''.
+* Missing ships will not count towards ships lost for determining victory conditions.
+* It is possible to fail LoS checks or routing requirements if you evacuate too many key ships.
+
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+''Event reward for:''
+* [[Spring 2021 Event]] E-2: Hard (★+4), Medium (★+2), Easy, Casual
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2021-05-08:''' '''Implemented'''
+* '''2021-06-22:''' Became usable in non-event maps
+</div></div>
+
+==Fit Bonuses==
+{{:Elite Torpedo Squadron Command Facility/Bonuses}}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+<!--- [[Category:Fleet Command Facilities]] --->

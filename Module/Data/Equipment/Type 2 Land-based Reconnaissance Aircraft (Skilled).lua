@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Type 2 Land-based Reconnaissance Aircraft (Skilled)",
+  _id = 312,
+  _japanese_name = "二式陸上偵察機(熟練)",
+  _reading = "にしきりくじょうていさつき(じゅくれん)",
+  _type = 49, -- 25,7,49,9,31
+  _icon = 9,
+  _rarity = 3,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 3,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = 9,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 7,
+  _flight_range = 9,
+  _special = false,
+  _scrap_fuel = 5,
+  _scrap_ammo = 2,
+  _scrap_steel = false,
+  _scrap_bauxite = 13,
+  _buildable = false,
+  _info = "十三試陸戦として開発された双発陸上戦闘機。双発遠距離戦闘機開発としては成功しなかった本機を、偵察機として正式採用した「二式陸偵」、同機を装備した熟練搭乗員ペアによる偵察隊です。ラバウルに展開した本機は現地改修され、20mm斜銃を装備し、後に本土防空戦で大型戦略爆撃機相手に奮戦した、あの夜間戦闘機「月光」隊が誕生します。",
+}

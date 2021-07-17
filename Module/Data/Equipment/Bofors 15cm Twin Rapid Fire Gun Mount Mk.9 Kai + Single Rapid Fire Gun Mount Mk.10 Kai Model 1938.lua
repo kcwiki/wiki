@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Bofors 15cm Twin Rapid Fire Gun Mount Mk.9 Kai + Single Rapid Fire Gun Mount Mk.10 Kai Model 1938",
+  _id = 361,
+  _japanese_name = "Bofors 15cm連装速射砲 Mk.9改+単装速射砲 Mk.10改 Model 1938",
+  _reading = nil,
+  _type = 2, -- 1,1,2,2,0
+  _icon = 2,
+  _rarity = 4,
+  _firepower = 7,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 6,
+  _armor = -1,
+  _asw = false,
+  _shelling_accuracy = 3,
+  _torpedo_accuracy = false,
+  _evasion = 3,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 3,
+  _scrap_steel = 4,
+  _scrap_bauxite = 2,
+  _buildable = false,
+  _info = "北欧スウェーデンの名門が開発した新型の軽巡用中口径連装主砲と同単装砲をさらに熟成した軽巡用if改良兵装です。同兵装のオリジナルは対空戦用に大きな仰角も可能、砲の自由な角度で次弾装填ができる機構を搭載、限定的ながら対空戦闘にも対応可能です。オランダの軽巡などで運用されました。",
+}

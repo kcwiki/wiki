@@ -1,92 +1,41 @@
 ==Info==
-{|
-| valign="top" |
-{{enemyshipinfo2
-|color = red
-|name = Aircraft Carrier Demon (A)
-|japanesename = 空母棲鬼 
-|image = [[File:585.png|208px]]
-|id = 585 
-|class = Abyssal
-|type = Standard Carrier 
-|hp = 250 
-|firepower = 120
-|armor = 138
-|torpedo = 0
-|evasion = 46
-|AA = 100
-|aircraft = 144 
-|ASW = 0
-|LOS = 100
-|luck = 50
-|time = Unbuildable
-|speed = Fast 
-|range = Long 
-|slot = 4 
-|slot1=[[List_of_equipment_used_by_the_enemy|Abyssal Hellcat Fighter]]
-|slot2=[[List_of_equipment_used_by_the_enemy|Abyssal Hell Diver]]
-|slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Avenger Torpedo bomber]]
-|slot4=[[List_of_equipment_used_by_the_enemy|Abyssal Air Radar]]
-|space1=48 
-|space2=48 
-|space3=48 
-|space4=0 
-}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo2
-|color = red
-|name = Aircraft Carrier Demon (B)
-|japanesename = 空母棲鬼 
-|image = [[File:585.png|208px]]
-|id = 619
-|class = Abyssal
-|type = Standard Carrier 
-|hp = 250 
-|firepower = 120
-|armor = 138
-|torpedo = 0
-|evasion = 46
-|AA = 100
-|aircraft = 144 
-|ASW = 0
-|LOS = 100
-|luck = 50
-|time = Unbuildable
-|speed = Fast 
-|range = Long 
-|slot = 4 
-|slot1=?
-|slot2=?
-|slot3=?
-|slot4=?
-|space1=? 
-|space2=? 
-|space3=? 
-|space4=?
-}}
-|}
+<div style="display: inline-block;">
+===Basic===
+{{EnemyShipInfoKai|Aircraft Carrier Demon/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic II===
+{{EnemyShipInfoKai|Aircraft Carrier Demon/II|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Aircraft Carrier Demon/}}
 
 ==Quotes==
 {{Abyssquote
 |開幕前 =ナンドデモ…ナンドデモ……シズンデイケ……！
-|EN1 =I will sink you...over…… and over again……! 
+|EN1 =Sink...over…… and over again……! 
 |Note1 = 
 |砲撃 =テッキチョクジョウ…キュウコウカ！ 
 |EN0 =Enemies are above yourself.…Diving now! 
 |Note0 =敵機直上、急降下 
 |被弾 =ナンドデモ…クリカエス…カワラナイ…限り…<br><br>カッタト…オモッテイルノカ？カワイイナァ！<br> (on and after appeared 6-1) 
-|EN2 =This repeats…anytime…providing…you don't…change….<br><br>Did you think... you have won? That's cute! <br>(on and after appeared 6-1) 
+|EN2 =This will repeat…many times…providing…you don't…change….<br><br>Did you think... you have won? That's cute! <br>(on and after appeared 6-1) 
 |Note2 = 
 |昼戦終了時 =カッタト…オモッテイルノカ？カワイイナァ！<br>（on  Summer 2014 Event） 
 |EN3 =Did you think... you have won? That's cute!<br>（on  Summer 2014 Event） 
 |Note3 = 
 |Clip1 = {{Audio|file=CV_Oni_Intro.ogg}}|Clip0 = {{Audio|file=CV_Oni_Attack.ogg}}|Clip2 = {{Audio|file=CV_Oni_Damaged.ogg}}<br>{{Audio|file=CV_Oni_Sunk.ogg}}|Clip3 = {{Audio|file=CV_Oni_Sunk.ogg}}}}
 
+== Character ==
+* [[Glossary#List of Vessels by Japanese Voice Actresses|'''Seiyuu''']]: [http://myanimelist.net/people/504 Fujita Saki] (藤田咲)
+
 ==Trivia==
-* [[Summer 2014 Event]], [[Summer 2015 Event]]
-*Appears at node H of [[World 6#6-1|6-1]].
-* Voiced by [http://myanimelist.net/people/504 Fujita Saki]
+* [[Summer 2014 Event]] E-3 bosses.
+* [[Winter 2015 Event ]]E-5 pre-boss.
+* Now appears in two of the three possible enemy compositions on node I of [[World 6#/6-1|6-1]].
+* [[Summer 2015 Event]] : 2 copies of her appeared as escort ships in Final Form of E3 Medium and E3 Hard
+* After the Phase 2 update she now has a chance to appear as the boss node flagship of [[World 5#/5-2|5-2]].
 
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]

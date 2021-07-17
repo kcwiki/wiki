@@ -1,0 +1,76 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+local Type_91_Anti_Aircraft_Fire_Director = {
+	_name = "Type 91 Anti-Aircraft Fire Director",
+	_page = false,
+	_id = 120,
+	_japanese_name = "91式高射装置",
+	_reading = "91しきこうしゃそうち",
+	_type = 36,
+	_icon = 30,
+	_rarity = 1,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 2,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = false,
+	_torpedo_accuracy = false,
+	_evasion = 1,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = 1,
+	_scrap_steel = false,
+	_scrap_bauxite = 1,
+	_info = "高角砲の対空射撃用の高射装置です。<br>高射機と高射射撃盤を組み合わせ、高角砲の有効な対空射撃をサポートします。やや、旧式ではありますが、主力の戦艦や巡洋艦などに搭載されました。",
+	_buildable = true,
+	_improvements = {
+		_fuel = false,
+		_ammo = false,
+		_steel = 60,
+		_bauxite = 40,
+		_products = {
+			["Type 94 Anti-Aircraft Fire Director"] = {
+				_ships = {
+					["Akizuki/"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Akizuki/Kai"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Maya/"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Maya/Kai"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Maya/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Teruzuki/"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+					["Teruzuki/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 3,
+					_development_material_x = 4,
+					_improvement_material = 1,
+					_improvement_material_x = 2,
+					_equipment = false,
+				},
+				[6] = {
+					_development_material = 3,
+					_development_material_x = 5,
+					_improvement_material = 2,
+					_improvement_material_x = 4,
+					_equipment = {["12.7cm Twin High-angle Gun Mount"] = 1},
+				},
+				[10] = {
+					_development_material = 4,
+					_development_material_x = 9,
+					_improvement_material = 4,
+					_improvement_material_x = 7,
+					_equipment = {["10cm Twin High-angle Gun Mount"] = 2},
+				},
+				_stars = false,
+			},
+		},
+	},
+}
+
+return Type_91_Anti_Aircraft_Fire_Director

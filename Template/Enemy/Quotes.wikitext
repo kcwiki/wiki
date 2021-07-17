@@ -1,0 +1,48 @@
+<includeonly>{| class="wikitable typography-xl-optout"
+!Event
+!Japanese
+!English
+!Note
+|-
+|Introduction<br />{{{Clip1|}}}
+|lang="ja"|{{{開幕前|}}}
+|{{{EN1|}}}
+|{{{Note1|}}}
+|-
+|Attacking<br />{{{Clip0|}}}
+|lang="ja"|{{{砲撃|}}}
+|{{{EN0|}}}
+|{{{Note0|}}}
+|-
+|Under attack<br />{{{Clip2|}}}
+|lang="ja"|{{{被弾|}}}
+|{{{EN2|}}}
+|{{{Note2|}}}
+|-
+|Sunk<br />{{{Clip3|}}}
+|lang="ja"|{{{昼戦終了時|}}}
+|{{{EN3|}}}
+|{{{Note3|}}}
+|}</includeonly><noinclude>
+How to use :
+<pre>
+{{Abyssquote
+| 開幕前=
+| EN1=
+| Note1=
+| Clip1 =
+| 砲撃=
+| EN0=
+| Note0=
+| Clip0 =
+| 被弾=
+| EN2=
+| Note2=
+| Clip2 =
+| 昼戦終了時=
+| EN3=
+| Note3=
+| Clip3 =
+}}
+</pre>
+</noinclude>

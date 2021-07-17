@@ -1,71 +1,16 @@
 ==Info==
-{|
-|
-{{enemyshipinfo
-|color = red
-|name = Destroyer Princess (A)
-|japanesename = 駆逐棲姫 
-|image = [[File:597.png|250px]]
-|id = 597 
-|class = Abyssal
-|type = Destroyer 
-|hp = 150 
-|firepower = 59 (59)
-|armor = 100 (100)
-|torpedo = 90 (90)
-|evasion =  ()
-|AA = 60 (60)
-|aircraft =  0
-|ASW =  ()
-|LOS =  ()
-|luck = 70 (70)
-|time = Unbuildable
-|speed = Fast 
-|range = Short 
-|slot = 3 
-|slot1= [[List_of_equipment_used_by_the_enemy|5inch Dual Cannon]]
-|slot2= [[List_of_equipment_used_by_the_enemy|5inch Dual Cannon]]
-|slot3= [[List_of_equipment_used_by_the_enemy|22inch Torpedo Mk.II]]
-|slot4= - Locked -  
-|space1=0 
-|space2=0 
-|space3=0 
-|space4=0 
-}}
-| style="width:50px;" |
-|
-{{enemyshipinfo
-|color = red
-|name = Destroyer Princess (B)
-|japanesename = 駆逐棲姫 
-|image = [[File:597.png|250px]]
-|id = 598 
-|class = Abyssal
-|type = Destroyer 
-|hp = 190 
-|firepower = 69 (69)
-|armor = 115 (115)
-|torpedo = 90 (90)
-|evasion =  ()
-|AA = 60 (60)
-|aircraft =  0
-|ASW =  ()
-|LOS =  ()
-|luck = 80 (80)
-|time = Unbuildable
-|speed = Fast 
-|range = Short 
-|slot = 3 
-|slot1= [[List_of_equipment_used_by_the_enemy|5inch Dual Cannon]]
-|slot2= [[List_of_equipment_used_by_the_enemy|5inch Dual Cannon]]
-|slot3= [[List_of_equipment_used_by_the_enemy|22inch Torpedo Mk.II]]
-|slot4= - Locked -  
-|space1=0 
-|space2=0 
-|space3=0 
-|space4=0 
-}}
-|}
+
+<div style="display: inline-block;">
+===Basic===
+{{EnemyShipInfoKai|Destroyer Princess/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic II===
+{{EnemyShipInfoKai|Destroyer Princess/II|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Destroyer Princess/}}
 
 ==Quotes==
 {{Abyssquote
@@ -82,13 +27,16 @@
 |EN3 =The moon.. it is.. beautiful. 
 |Note3 =In this context,"ツキ"means moon. 
 |Clip1 = {{Audio|file=DD_Hime_Intro.ogg}}|Clip0 = {{Audio|file=DD_Hime_Attack.ogg}}|Clip2 = {{Audio|file=DD_Hime_Damaged.ogg}}|Clip3 = {{Audio|file=DD_Hime_Sunk.ogg}}}}
-
+== Character ==
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://myanimelist.net/people/27395/Ari_Ozawa Ozawa Ari] (小澤亜李)
 ==Trivia==
-* [[Fall 2014 Event]]
-* Based on [[Harusame]].
-
+* [[Fall 2014 Event]] E-2 Boss.
+* [[Summer 2015 Event]] E-1 Boss.
+* [[Spring 2017 Event]] E-2 1st Boss.
+* Luck stat of 70 gave her almost 100% cut in, players must equip their ships with [[Searchlight]], [[Star Shell]] or [[Type 98 Recon Seaplane (Night Scout)]] in order to battle with her.
+* Appears in 6-3 Boss Node.
+* Because she is very similar to [[Harusame]], she is called "Warusame-chan" (means "Evil Harusame" or "Dark Harusame") by japanese fans. Simularities include facial appearance and the fact that her lower body is gone, exactly how Harusame was sunk.
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]
 [[Category:Bosses]]
 [[Category:Abyssal Destroyers]]
-[[zh:驱逐栖姬]]

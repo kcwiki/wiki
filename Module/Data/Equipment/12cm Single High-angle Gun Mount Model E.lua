@@ -1,0 +1,63 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "12cm Single High-angle Gun Mount Model E",
+  _id = 382,
+  _japanese_name = "12cm単装高角砲E型",
+  _reading = nil,
+  _type = 1, -- 1,1,1,16,0
+  _icon = 16,
+  _rarity = 2,
+  _firepower = 1,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 3,
+  _armor = false,
+  _asw = 1,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 1,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 1,
+  _scrap_steel = 1,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "やや旧式ながら実績のある単装高角砲、その後期艦載型です。量産に向いた構造で経済性が高く、後期の量産海防艦に搭載され、雲霞のような敵艦載機に立ち向かいます。御蔵型、日振型、そして鵜来型、さらに小型簡略化された丙型及び丁型海防艦でも装備運用されました。",
+	_improvements = {	
+		_fuel = 10,
+		_ammo = 20,
+		_steel = 40,
+		_bauxite = 20,
+		_products = {
+			[false] = {
+				_ships = {
+					["Mikura/Kai"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+					["Hiburi/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Daitou/Kai"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = false, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 3,
+					_development_material_x = 3,
+					_improvement_material = 1,
+					_improvement_material_x = 2,
+					_equipment = {["12cm Single Gun Mount"] = 1},
+				},
+				[6] = {
+					_development_material = 3,
+					_development_material_x = 4,
+					_improvement_material = 2,
+					_improvement_material_x = 3,
+					_equipment = {[true] = 1},
+				},
+				_stars = false,
+			},
+		},
+	},
+}

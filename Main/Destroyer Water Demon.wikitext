@@ -1,201 +1,76 @@
 ==Info==
-{|
-|-
-| valign="top" |
-{{enemyshipinfo
-|color = red
-|name = Destroyer Water Demon (A)
-|japanesename = 駆逐水鬼
-|image = [[File:Destoyer_Water_Demon.png|300px]]
-|id = 647
-|class = Abyssal
-|type = Destroyer
-|hp = 255
-|firepower = 100
-|armor = 150
-|torpedo = 110
-|evasion = ??
-|aircraft = 0
-|AA = 70
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = Fast
-|range = Short
-|slot = 4
-|slot1=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot2=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot3=  [[List_of_equipment_used_by_the_enemy|22 Inch Torpedo Mk.II]]
-|slot4=  [[List_of_equipment_used_by_the_enemy|Surface Radar?]]}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo
-|color = red
-|name = Destroyer Water Demon (B)
-|japanesename = 駆逐水鬼
-|image = [[File:Destoyer_Water_Demon.png|300px]]
-|id = 648
-|class = Abyssal
-|type = Destroyer
-|hp = 255
-|firepower = 120
-|armor = 170
-|torpedo = 120
-|evasion = ??
-|aircraft = 0
-|AA = 80
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = Fast
-|range = Short
-|slot = 4
-|slot1=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot2=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot3=  [[List_of_equipment_used_by_the_enemy|22 Inch Torpedo Mk.II]]
-|slot4=  [[List_of_equipment_used_by_the_enemy|Surface Radar?]]}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo
-|color = red
-|name = Destroyer Water Demon (C)
-|japanesename = 駆逐水鬼
-|image = [[File:Destoyer_Water_Demon.png|300px]]
-|id = 449
-|class = Abyssal
-|type = Destroyer
-|hp = 255
-|firepower = 140
-|armor = 180
-|torpedo = 130
-|evasion = ??
-|aircraft = 0
-|AA = 90
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = Fast
-|range = Short
-|slot = 4 
-|slot1=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot2=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot3=  [[List_of_equipment_used_by_the_enemy|Abyssal Cuttlefish Torpedo]]
-|slot4=  [[List_of_equipment_used_by_the_enemy|Surface Radar?]]}}
-|}
-{|
-| valign="top" |
-{{enemyshipinfo
-|color = red
-|name = Destroyer Water Demon (D)
-|japanesename = 駆逐水鬼
-|image = [[File:Destoyer_Water_Demon_Debuff.png|300px]]
-|id = 676
-|class = Abyssal
-|type = Destroyer
-|hp = ??
-|firepower = ??
-|armor = ??
-|torpedo = ??
-|evasion = ??
-|aircraft = 0
-|AA = ??
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = Fast
-|range = Short
-|slot = 4 
-|slot1=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot2=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot3=  [[List_of_equipment_used_by_the_enemy|Abyssal Cuttlefish Torpedo]]
-|slot4=  [[List_of_equipment_used_by_the_enemy|Surface Radar?]]}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo
-|color = red
-|name = Destroyer Water Demon (E)
-|japanesename = 駆逐水鬼
-|image = [[File:Destoyer_Water_Demon_Debuff.png|300px]]
-|id = 677
-|class = Abyssal
-|type = Destroyer
-|hp = ??
-|firepower = ??
-|armor = ??
-|torpedo = ??
-|evasion = ??
-|aircraft = 0
-|AA = ??
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = Fast
-|range = Short
-|slot = 4 
-|slot1=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot2=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot3=  [[List_of_equipment_used_by_the_enemy|Abyssal Cuttlefish Torpedo]]
-|slot4=  [[List_of_equipment_used_by_the_enemy|Surface Radar?]]}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo
-|color = red
-|name = Destroyer Water Demon (F)
-|japanesename = 駆逐水鬼
-|image = [[File:Destoyer_Water_Demon_Debuff.png|300px]]
-|id = 678
-|class = Abyssal
-|type = Destroyer
-|hp = ??
-|firepower = ??
-|armor = ??
-|torpedo = ??
-|evasion = ??
-|aircraft = 0
-|AA = ??
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = Fast
-|range = Short
-|slot = 4 
-|slot1=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot2=  [[List_of_equipment_used_by_the_enemy|5 Inch Twin Gun]]
-|slot3=  [[List_of_equipment_used_by_the_enemy|Abyssal Cuttlefish Torpedo]]
-|slot4=  [[List_of_equipment_used_by_the_enemy|Surface Radar?]]}}
-|}
+<div style="display: inline-block;">
+===Basic===
+{{EnemyShipInfoKai|Destroyer Water Demon/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+
+===Basic II===
+{{EnemyShipInfoKai|Destroyer Water Demon/II|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic III===
+{{EnemyShipInfoKai|Destroyer Water Demon/III|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic IV===
+{{EnemyShipInfoKai|Destroyer Water Demon/IV|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+
+===Basic V===
+{{EnemyShipInfoKai|Destroyer Water Demon/V|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic VI===
+{{EnemyShipInfoKai|Destroyer Water Demon/VI|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Destroyer Water Demon/}}
 
 ==Quotes==
 {{Abyssquote
-|開幕前 =ホントウハ…ヨルハネェ……？ トォッ…テモ……コワイノヨ…？
-ヨルノ…ヨルノヤミハ……。 コワクテ…コワクテ……フフフ…！(装甲破砕時)
-|EN1 = The night is... really you know....? Rea~ly... scary right...?
-I'm... scared... really scared... of the dark night... fufufu...! (When debuffed)
-|Note1 = 
-|砲撃 = ハッハハハハハ…！ヤミノナカデ……シズメェッ！
-ナニモ……ナニモ、ミエナイママ…シズンデイケ！(装甲破砕時)
-|EN0 = Hahahahahaha...! Sink into... the darkness!
-Sink... sink without being... able to see anything!(When debuffed)
-|Note0 = 
-|被弾 =ドコカラ……ッ、ドコカラ ウッテクルノヨ…！
-キャアァーッ！オノレ……ッ、オノレェェーッ！(装甲破砕時)
-|EN2 = Where... where did that shot come from...!
-Kyaaa! How... how dare youuuu! (When debuffed)
-|Note2 = 
-|昼戦終了時 =クラクテ、ツメタクテ、サミシクテ、クルシクテ…ミナミノウミニ、シズンデイタノニ……。 ワタシ…見える、あなたが……
-|EN3 =It's dark, it's cold, it's lonely, it's painful... sinking in this southern sea... I came... to see you...
-|Note3 = 
+| 開幕前 =ホントウハ…ヨルハネェ…… ?　　トォッ……テモ…コワイノヨ… ?<br/><br/>
+ヨルハネ…?　ヨルノヤミハ……コワクテコワクテ…。　ウッフフフ…アハハハハ…。（装甲破砕後） 
+| EN1 =The night...is actually...re...ally....scary...isn't it...? <br/><br/>
+It's night eh...? The darkness of the night is... scary, scary... ufufufu... AHAHAHAHA! (After armor break)
+| Note1 =The Battle of Vella Gulf occured at night. 
+| 砲撃 =ハッハハハハッ…!　ヤミノナカデ……シズメェッ…!<br/><br/>
+ナニモ…ナニモミエナイママ…シズンデイケェ!（装甲破砕後） 
+| EN0 = HA-HAHAHAHA! In the darkness... SINK!<br/><br/>
+Sink...while not seeing anything! (After armor break)
+| Note0 = The Japanese DDs were taken by surprise during the Battle of Vella Gulf.
+| 被弾 =ドコカラ…?　ハッハ…　ドコカラウッテクルノヨォ…?<br/><br/>
+アァーッ!　オノレ…オノレェーッ…!（装甲破砕後） 
+| EN2 = Where...? Haha... where are you shooting from...?<br/><br/>
+Aaaaaah! Damn you...DAMN YOU...! (After armor break)
+| Note2 = 
+| 昼戦終了時 = クラクテ…ツメタクテ…サミシクテ…クルシクテ…ミナミノウミニ…シズンデイタノニ…。　ワタシ、見える…あなたが…。
+| EN3 = Despite... sinking in the dark... cold... lonely... painful... southern sea... I... can see... you're... 
+| Note3 = 
+|Clip1 ={{Audio|file=Destroyer_Water_Demon_Intro.ogg}}<br/>{{Audio|file=Destroyer_Water_Demon_Intro-ArmorBroken.ogg}}
+|Clip0 ={{Audio|file=Destroyer_Water_Demon_Attack.ogg}} <br/>{{Audio|file=Destroyer_Water_Demon_Attack-ArmorBroken.ogg}}
+|Clip2 ={{Audio|file=Destroyer_Water_Demon_Damaged.ogg}}<br/>{{Audio|file=Destroyer_Water_Demon_Damaged-ArmorBroken.ogg}}
+|Clip3 ={{Audio|file=Destroyer_Water_Demon_Sunk.ogg}}
 }}
-==Trivia==
+{{clear}}
 
-*'''Voiced by''': ??? (No offical Source)
-*'''Illustrated by''': Konishi 
-[[File:Destoyer_Water_Demon_Debuff.png|right|thumb|200px|When fully debuffed, the Destoyer Water Demon's helmet is removed.]]The Destroyer Water Demon first appears in Fall Event of E-5 Night Battle of the Vella Gulf and is the third abyssal boss to utilize the [[Armor Reduction]] mechanic. For her armor to be reduced, 15 [[PT Imp Group]]s need to be sunk.
+== Character ==
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://myanimelist.net/people/869/Saori_Hayami Hayami Saori] (早見沙織)
 
-*Her lines change after being debuffed.
-*She also loose her helmet in the process in the debuff phase.
-*She is the abyssal counterpart of [[Hagikaze]].
-*[[Hagikaze]] sunk at Vella Gulf.
-{{enemyshiplist}}
-[[Category:Bosses]]
+== Trivia ==
+* [[Fall 2015 Event]] E-5 Boss
+* When debuffed, she loses the hat on her CG.
+* In her final form (when a total kill is needed to clear the map), she gained an ability to do preemptive torpedo in the opening battle just like Torpedo Cruisers (CLT)
+* She holds a violet ribbon between her hands. This ribbon belongs to Kaga, and is a reference to how Hagikaze was the one who scuttled her at Midway.
+* She appeared as a debuff boss in E-7,R node in the Summer 2017 Event
+{{clr}}
+{{Enemyshiplist}}
 [[Category:Abyssal Destroyers]]
+[[Category:Bosses]]
+[[Category:Enemy Vessel]]

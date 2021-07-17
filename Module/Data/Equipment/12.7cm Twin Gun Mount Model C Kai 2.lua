@@ -1,0 +1,77 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "12.7cm Twin Gun Mount Model C Kai 2",
+    _id = 266,
+    _japanese_name = "12.7cm連装砲C型改二",
+    _reading = "12.7センチれんそうほうCがたかいに",
+    _type = 1, -- 1,1,1,1,0
+    _icon = 1,
+    _rarity = 2,
+    _firepower = 3,
+    _bombing = false,
+    _torpedo = false,
+    _aa = 2,
+    _armor = 1,
+    _asw = false,
+    _shelling_accuracy = 1,
+    _torpedo_accuracy = false,
+    _evasion = false,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = 1,
+    _flight_cost = false,
+    _flight_range = false,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = 1,
+    _scrap_steel = 2,
+    _scrap_bauxite = false,
+    _buildable = false,
+    _info = "中期以降の艦隊型駆逐艦に搭載された主砲のif改修型です。<br>防盾の全周遮蔽による弾片荒天対策、動力操法採用はそのまま、数々の戦訓を取り入れた改修を実施した、小型艦艇用の 熟成された小口径主砲です。",
+    _wikipedia = "12.7 cm/50 Type 3 naval gun",
+	_improvements = {
+		_fuel = 10,
+		_ammo = 50,
+		_steel = 80,
+		_bauxite = false,
+		_products = {
+			["12.7cm Twin Gun Mount Model D Kai 2"] = {
+				_ships = {
+					["Arashio/Kai Ni"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+					["Michishio/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+					["Murasame/Kai Ni"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+					["Yukikaze/Kai"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 2,
+					_development_material_x = 3,
+					_improvement_material = 2,
+					_improvement_material_x = 3,
+					_equipment = {["12.7cm Twin Gun Mount"] = 1},
+				},
+				[6] = {
+					_development_material = 3,
+					_development_material_x = 4,
+					_improvement_material = 3,
+					_improvement_material_x = 4,
+					_equipment = {["12.7cm Twin Gun Mount Model B Kai 2"] = 1},
+				},
+				[10] = {
+					_development_material = 6,
+					_development_material_x = 10,
+					_improvement_material = 4,
+					_improvement_material_x = 8,
+					_equipment = {
+					    ["Type 22 Surface Radar"] = 2,
+					    ["New Model Gun Mount Improvement Material"] = 1,
+					    ["Action Report"] = 1,
+					},
+				},
+				_stars = false,
+			},
+		},
+	},
+}

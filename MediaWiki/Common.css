@@ -330,7 +330,7 @@ a:hover {
 	border:0px solid #a7d7f9;
 	border-bottom-left-radius:8px;
 	border-bottom-right-radius:8px;
-	background:url(/w/images/0/00/Hishimochi-Quest-bannner.png) no-repeat center center;
+	background:url(/w/images/f/fc/Spring2021EventBanner.png) no-repeat center center;
 	overflow:hidden;
 	width:710px;
 	height:93px;
@@ -1731,6 +1731,35 @@ Origin from Wikia
 .eventBanner29 {
     background: url(images/1/19/Fall2020EventBannerEO.png) no-repeat center center;
 }
+.eventBanner30 {
+    background: url(images/f/fc/Spring2021EventBanner.png) no-repeat center center;
+}
+
+/* Some generic classes. */
+
+.explain {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+.article-table {
+  background: #fafafa;
+  border-collapse: collapse;
+  margin: 1em 1em 1em 0;
+}
+
+.article-table th {
+  background: #f2f2f2;
+}
+
+.article-table td, .article-table th {
+  border-bottom: 1px solid #c3c6c6;
+  padding: 6px 12px;
+}
+
+.article-table caption {
+  font-weight: 700;
+}
 
 /* 
     From https://gbf.wiki/MediaWiki:Common.css 
@@ -1967,4 +1996,29 @@ Added by: Tsubakura
 	text-shadow: -1px -1px 4px #fff, 1px 1px 4px #fff, -1px 1px 4px #fff, 1px -1px 4px #fff;
 	pointer-events: none;
 	font-size: 18px;
+}
+
+/**
+ * Stacked images with transitions on mouseover. Used on ship pages.
+ */
+.double-image {
+  position: relative;
+}
+
+.double-image > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.double-image > .bottom-image {
+  opacity: 0;
+}
+
+.double-image > .bottom-image:hover {
+  opacity: 1;
 }

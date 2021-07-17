@@ -1,0 +1,385 @@
+==Enemy patterns==
+{{Section}}
+{{Map/Image|
+{{Map/ImageNode|Start|x=155|y=296}}
+{{Map/ImageNode|B|x=207|y=152}}
+{{Map/ImageNode|A|x=113|y=163}}
+{{Map/ImageNode|C|x=291|y=257}}
+{{Map/ImageNode|D|x=338|y=100}}
+{{Map/ImageNode|E|x=366|y=198}}
+{{Map/ImageNode|F|x=391|y=289}}
+{{Map/ImageNode|G|x=473|y=225}}
+{{Map/ImageNode|H|x=487|y=121}}
+{{Map/ImageNode|J|x=557|y=74}}
+{{Map/ImageNode|I|x=555|y=240}}
+{{Map/ImageNode|K|x=577|y=151}}
+}}
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+{{NodeInfo
+|A
+|Empty
+}}
+{{Map/Nodes|name=北方前衛警戒部隊
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>HQ Lvl<br>100 - 120
+|300
+|Light Cruiser Ho-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Battleship Ta-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>HQ Lvl<br>1 - 99
+|300
+|Light Cruiser Ho-Class/Flagship
+|Battleship Ta-Class/Elite
+|Heavy Cruiser Ri-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}<br>HQ Lvl<br>1-120
+|300
+|Light Cruiser Ho-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Battleship Ta-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{NodeInfo
+|C
+|Empty
+}}
+{{Map/Nodes|name=北方派遣任務部隊
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>90 - 120
+|430
+|Standard Carrier Wo-Class/Flagship II
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>90 - 120
+|450
+|Standard Carrier Wo-Class/Kai Flagship
+|Standard Carrier Wo-Class/Flagship II
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>1 - 89
+|400
+|Standard Carrier Wo-Class/Flagship II
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Light Cruiser Ho-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>1 - 89
+|430
+|Standard Carrier Wo-Class/Kai Flagship
+|Standard Carrier Wo-Class/Flagship II
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>1 - 120
+|410
+|Standard Carrier Wo-Class/Flagship II
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=北方遊撃部隊
+|E
+|Normal/BaseXP
+|{{Formation|Double Line}}<br>HQ Lvl<br>85 - 120
+|400
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|Submarine Ka-Class/Flagship
+|Submarine Ka-Class/Elite
+|-
+|E
+|Normal/Final/BaseXP
+|{{Formation|Double Line}}<br>HQ Lvl<br>85 - 120
+|400
+|Light Carrier Nu-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|Submarine Ka-Class/Flagship
+|-
+|E
+|Normal/Final/BaseXP
+|{{Formation|Double Line}}<br>HQ Lvl<br>1 - 84
+|400
+|Light Carrier Nu-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Submarine Ka-Class/Flagship
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Double Line}}<br>HQ Lvl<br>1 - 120
+|400
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Submarine Ka-Class/Flagship
+}}
+{{Map/Nodes|name=北方増援部隊前衛A
+|F
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>HQ Lvl<br>85 - 120
+|340
+|Light Cruiser He-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|F
+|Normal/Final/BaseXP
+|{{Formation|Line Ahead}}<br>HQ Lvl<br>85 - 120
+|360
+|Light Cruiser He-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>HQ Lvl<br>1 - 84
+|310
+|Light Cruiser Ho-Class/Flagship
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>HQ Lvl<br>1 - 120
+|320
+|Light Cruiser He-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=北方増援部隊前衛B
+|G
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}<br>HQ Lvl<br>1 - 120
+|400
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Heavy Cruiser Ri-Class/Elite
+|Light Cruiser To-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|G
+|Normal/Final/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>100 - 120
+|420
+|Light Carrier Nu-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Destroyer Ha-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|G
+|Normal/BaseXP
+|{{Formation|Double Line}}<br>HQ Lvl<br>1 - 99
+|390
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Light Cruiser To-Class/Elite
+|Light Cruiser Ho-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|G
+|Normal/Final/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>1 - 99
+|410
+|Light Carrier Nu-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=北方AL泊地
+|H
+|Normal/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>85 - 120
+|600
+|Northern Princess/III
+|Escort Fortress
+|Escort Fortress/II
+|Heavy Cruiser Ri-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>85 - 120
+|600
+|Northern Princess/III
+|Escort Fortress
+|Escort Fortress/II
+|Escort Fortress/III
+|Escort Fortress/II
+|Escort Fortress/III
+|-
+|H
+|Normal/Final/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>85 - 120
+|600
+|Northern Princess/IV
+|Escort Fortress
+|Escort Fortress/II
+|Escort Fortress/III
+|Escort Fortress/II
+|Escort Fortress/III
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>1 - 84
+|600
+|Northern Princess/V
+|Escort Fortress
+|Escort Fortress/II
+|Heavy Cruiser Ri-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>1 - 84
+|600
+|Northern Princess/V
+|Escort Fortress
+|Escort Fortress/II
+|Escort Fortress/III
+|Escort Fortress/II
+|Escort Fortress/III
+|-
+|H
+|Normal/Final/BaseXP
+|{{Formation|Diamond}}<br>HQ Lvl<br>1 - 84
+|600
+|Northern Princess/VI
+|Escort Fortress
+|Escort Fortress/II
+|Escort Fortress/III
+|Escort Fortress/II
+|Escort Fortress/III
+}}
+{{NodeInfo
+|I
+|Empty
+}}
+{{NodeInfo
+|J
+|Resource
+|Ammo
+|50 + (number of drum canisters * 10?) (Maximum still need to test)
+}}
+{{Map/Nodes|name=北方増援部隊主力
+|K
+|Boss/BaseXP
+|{{Formation|Double Line}}<br>HQ Lvl<br>90 - 120
+|500
+|Light Cruiser Tsu-Class
+|Transport Ship Wa-Class/Elite
+|Transport Ship Wa-Class/Elite
+|Battleship Ru-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|K
+|Boss/Final/BaseXP
+|{{Formation|Line Ahead}}<br>HQ Lvl<br>90 - 120
+|550
+|Light Cruiser Tsu-Class
+|Transport Ship Wa-Class/Flagship
+|Transport Ship Wa-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Destroyer Ni-Class/Late Model
+|Destroyer Ni-Class/Late Model
+|-
+|K
+|Boss/BaseXP
+|{{Formation|Double Line}}<br>HQ Lvl<br>1 - 89
+|500
+|Light Cruiser Tsu-Class
+|Transport Ship Wa-Class/Elite
+|Transport Ship Wa-Class/Elite
+|Battleship Ru-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|K
+|Boss/Final/BaseXP
+|{{Formation|Line Ahead}}<br>HQ Lvl<br>1 - 89
+|?
+|Light Cruiser Tsu-Class
+|Transport Ship Wa-Class/Flagship
+|Transport Ship Wa-Class/Flagship
+|Battleship Ta-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|K
+|Boss/BaseXP
+|{{Formation|Line Ahead}}<br>HQ Lvl<br>1 - 120
+|520
+|Light Cruiser Tsu-Class
+|Transport Ship Wa-Class/Elite
+|Transport Ship Wa-Class/Elite
+|Battleship Ta-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

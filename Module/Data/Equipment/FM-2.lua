@@ -1,0 +1,35 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "FM-2",
+    _id = 277,
+    _japanese_name = "FM-2",
+    _reading = nil,
+    _type = 7, -- 3,5,7,7,21
+    _icon = 7,
+    _rarity = 4,
+    _firepower = 2,
+    _bombing = 2,
+    _torpedo = false,
+    _aa = 6,
+    _armor = false,
+    _asw = 1,
+    _shelling_accuracy = 2,
+    _torpedo_accuracy = false,
+    _evasion = 2,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = 6,
+    _flight_range = 4,
+    _special = false,
+    _scrap_fuel = 1,
+    _scrap_ammo = 3,
+    _scrap_steel = false,
+    _scrap_bauxite = 3,
+    _buildable = false,
+    _info = "大戦初期の太平洋上で零戦としのぎを削った艦上戦闘機、ワイルドキャット「F4F」シリーズ。本機「FM-2」は、F4Fの改良後期量産型で、その高空性能を削り低空での運動性と取り回しやすさを向上させた傑作汎用支援艦戦です。週間単位で量産された護衛空母などで運用されました。今回は、対艦・対地の汎用支援戦闘機として登場です。",
+    _can_attack_installations = true,
+}

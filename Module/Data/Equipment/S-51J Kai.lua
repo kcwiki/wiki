@@ -1,0 +1,61 @@
+-- [[Category:Equipment modules]]
+
+return {
+	_name = "S-51J Kai",
+	_id = 327,
+	_japanese_name = "S-51J改",
+	_reading = nil,
+	_type = 25,
+	_types = {3, 44, 25, 21, 0},
+	_icon = 21,
+	_rarity = 7,
+	_firepower = 2,
+	_bombing = false,
+	_torpedo = false,
+	_aa = false,
+	_armor = false,
+	_asw = 13,
+	_shelling_accuracy = 3,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = 4,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_flight_cost = false,
+	_flight_range = false,
+	_special = false,
+	_scrap_fuel = 2,
+	_scrap_ammo = 3,
+	_scrap_steel = false,
+	_scrap_bauxite = 6,
+	_buildable = false,
+	_info = "時代はオートジャイロから、ヘリコプターへ。あの時代に原型機が既に初飛行を実現、哨戒や連絡などを中心に実用化が始まっていた回転翼機、初期のヘリコプターです。戦後、海上自衛隊にも導入された同機のif対潜哨戒型の艦載ヘリ、その強化改修型です。",
+	_improvements = {
+		_fuel = 240,
+		_ammo = 100,
+		_steel = 120,
+		_bauxite = 390,
+		_products = {
+			["S-51J Kai"] = {
+				_ships = {
+					["Hyuuga/Kai Ni"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = false, Saturday = true},
+				},
+				[0] = {
+					_development_material = 9,
+					_development_material_x = 10,
+					_improvement_material = 8,
+					_improvement_material_x = 8,
+					_equipment = { ["Zuiun"] = 2 },
+				},
+				[6] = {
+					_development_material = 12,
+					_development_material_x = 20,
+					_improvement_material = 8,
+					_improvement_material_x = 10,
+					_equipment = { ["Type 3 Depth Charge Projector"] = 2 }
+				},
+			},
+		},
+	},
+}

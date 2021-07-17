@@ -1,31 +1,15 @@
-{{Template:Equipmentinfo
-|name = 16in Triple Gun Mount Mk.7
-|id = 161
-|japanesename = 16 in三連装砲Mk.7
-|icon = {{Template:RedGunHeavy}}
-|type = Main Cannon, Heavy
-|effect = {{Firepower}}+24, {{AA}}+3, {{Hit}}+4, {{Armor}}+1 {{Range}} Long
-|scrap = {{Ammo}}20, {{Steel}}22, {{Bauxite}}2
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment161-1.png
-Equipment161-2.png
-Equipment161-3.png
-Equipment161-4.png
-</gallery>
-|BB = lime
-|FASTBB = lime
-|BBV = lime}}
+{{Template:EquipmentInfo|161}}
 
 ==Introduction==
 Iowa級戦艦の主兵装として米国で開発された新型三連装主砲です。
 前級に搭載された主砲の改良型で、長砲身化などの改良によって威力がより向上しています。
 発展途上ではありましたが、レーダー連動の砲射撃指揮装置によるレーダー射撃も可能です。
 
-This is a new model triple mount main cannon developed by the United State used as the main weapon for Iowa class battleships.
-As an improvement main cannon to the one used by a previous class, the power is upgraded due to modifications such as the lengthening of the gun barrel.
-It is still in development but, radar assisted shelling can be made possible by shelling command device/apparatus for radar shelling coordination.
+''This is a new model triple mount main cannon developed by the United States used as the main weapon for Iowa class battleships.''
+''As an improved main cannon to the one used by a previous class, the power is upgraded due to modifications such as the lengthening of the gun barrel.''
+''It is still in development but, it could also be fired by radar using a radar-linked gun fire control system.''
 
-==Note==
+==Notes==
 <div class="mw-collapsible"><h3>How To Obtain</h3>
 <div class="mw-collapsible-content">
 '''Stock equipment''' of {{Ship/Link|Iowa Kai}}, {{Ship/Link|Iowa}}
@@ -41,7 +25,11 @@ It is still in development but, radar assisted shelling can be made possible by 
 </div></div>
 
 
-*The First US Navy Gun Introduced into the game.
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2016-01-22:''' '''Implemented''' as ranking reward
+* '''2016-06-30:''' Became '''improvable''' and '''upgradeable''' to {{Equipment/Link|16inch Triple Gun Mount Mk.7 + GFCS}}
+</div></div>
 
 ==Akashi's Improvement Arsenal==
 {{AkashiWorkshop}}
@@ -72,6 +60,9 @@ It is still in development but, radar assisted shelling can be made possible by 
 |Notes=Upgrades to [[16in Triple Gun Mount Mk.7 + GFCS]].
 }}
 |}
+
+==Trivia==
+*The first US Navy Gun introduced into the game.
 
 ==See Also==
 [[wikipedia:16"/50 caliber Mark 7 gun|16"/50 caliber Mark 7 gun]]

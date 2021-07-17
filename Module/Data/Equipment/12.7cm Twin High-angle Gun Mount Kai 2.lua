@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "12.7cm Twin High-angle Gun Mount Kai 2",
+  _id = 380,
+  _japanese_name = "12.7cm連装高角砲改二",
+  _reading = nil,
+  _type = 1, -- 1,1,1,16,0
+  _icon = 16,
+  _rarity = 3,
+  _firepower = 2,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 6,
+  _armor = false,
+  _asw = 2,
+  _shelling_accuracy = 1,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 1,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 2,
+  _scrap_steel = 2,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "日本海軍最後の量産型駆逐艦である丁型駆逐艦などに搭載された運用実績の豊富な八九式12.7cm連装高角砲、その強化改良型です。戦訓により従来型に対して発射速度等の向上を図った本改良型は、松型駆逐艦を始め一部の艦艇で運用することで、より効果的な戦闘力を発揮することが可能です。",
+}

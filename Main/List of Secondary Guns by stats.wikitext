@@ -1,132 +1,17 @@
 *Green : Outstanding
-
 *Yellow : Above average
-{| class="wikitable" style="text-align: center;"
-|-
-!#
-!Rank
-!Name
-!Subtype
-![[file:icon_Gun.png|Firepower]]
-![[file:icon_Torpedo.png|Torpedo Attack]]
-![[file:icon_Dive.png|Dive Bomber Attack]]
-![[file:icon_AA.png|Anti-Air]]
-![[File:Icon Armor.png|Armor]]
-![[file:icon_ASW.png|Anti-Submarine]]
-![[file:icon_LOS.png|View Range]]
-![[file:icon_Hit.png|Accuracy]]
-![[file:Icon Evasion.png|Evasion]]
-![[file:icon_Range.png|Range]]
-!Classes
-!Craftable
-!Notes
-|-
-|010
-| style="text-align: center;" |☆
-| style="white-space:nowrap;text-align: left;" |[[12.7cm Twin High-angle Mount]]<br />{{Template:GreenGunDP}}12.7cm連装高角砲
-| rowspan="7" |Anti-Air
-| 2
-| rowspan="7" |0
-| rowspan="7" |0
-| 4
-| rowspan="7" |0
-| rowspan="7" |0
-| rowspan="7" |0
-| 1
-| rowspan="3" |0
-| rowspan="7" |Short
-| rowspan="7" |All but DD and SS(V)
-| Yes
-|
-|-
-| 066
-| ☆<br />☆☆
-| style="white-space:nowrap;text-align: left;" |[[8cm Twin High-angle Mount]]<br />{{Template:GreenGunDP}}8cm高角砲
-| rowspan="4" |1
-| style="background-color: gold;" |6
-| style="background-color: lime;" |2
-| rowspan="6" |No
-| style="white-space:nowrap;text-align:left" |[[:Category:Agano Class|Agano-class]] stock equipment.
-|-
-| 071
-| ☆<br />☆☆
-| style="white-space:nowrap;text-align: left;" |[[10cm Twin High-angle Carriage Mount]]<br />{{Template:GreenGunDP}}10cm連装高角砲(砲架)
-| style="background-color: lime;" |7
-| rowspan="3" |1
-| style="text-align: left;" |[[Taihou]] Kai and [[Ooyodo]] stock equipment.<br />January 2014 ranking reward.
-|-
-| 130
-| ☆<br />☆☆
-| style="white-space:nowrap;text-align: left;" |[[12.7cm Twin High-angle Mount + Anti-Aircraft Fire Director|12.7cm Twin High-angle Mount +<br />Anti-Aircraft Fire Director]]<br />{{Template:GreenGunDP}}12.7cm高角砲+高射装置
-| style="background-color: lime;" rowspan="2" |8
-| style="background-color: lime;" |1
-| style="white-space:nowrap;text-align:left" |[[Akashi's Improvement Arsenal|Upgrade]] from Type 94 Anti-Aircraft<br />Fire Director using [[Maya]] Kai Ni.
-|-
-| 135
-| ☆<br />☆☆
-| style="white-space:nowrap;text-align: left;" |[[90mm Single High Angled Gun]]<br />{{Template:GreenGunDP}}90mm単装高角砲
-| rowspan="2" |0
-| style="white-space:nowrap;text-align:left" | [[:Category:Littorio Class|Littorio Class]] kai stock equipment.<br />Spring 2015 E-4 Hard or Medium clear reward.
-|-
-| 172
-| ☆☆<br />☆☆
-| style="white-space:nowrap;text-align: left;" |[[5inch Twin Gun Mount Mk.28 mod.2]]<br />{{Template:GreenGunDP}}5inch連装砲 Mk.28 mod.2
-| style="background-color: gold;"|4
-| style="background-color: lime;"|9
-|1
-| style="white-space:nowrap;text-align:left" | Stock equipment of [[Iowa]] and [[Iowa|Iowa Kai]].
-|-
-| 220
-| ☆☆<br />☆☆
-| style="white-space:nowrap;text-align: left;" |[[8cm Twin High-angle Mount + Additional Machine Guns]]<br />{{Template:GreenGunDP}}8cm高角砲改+増設機銃
-| 1
-| style="background-color: lime;"|7
-|2
-| style="background-color: lime;"|1
-| style="white-space:nowrap;text-align:left" | Can be obtained via [[Quests#B97|B97 quest]].
-|-
-| 011
-| ☆
-| style="white-space:nowrap;text-align: left;" |[[15.2cm Naval Gun]]<br />{{Template:YellowGun}}15.2cm単装砲
-| rowspan="4" |None
-| 2
-| rowspan="4" |0
-| rowspan="4" |0
-| 0
-| rowspan="3" |0
-| rowspan="4" |0
-| rowspan="4" |0
-| 1
-| rowspan="4" |0
-| rowspan="4" |Medium
-| rowspan="4" |All but DD and SS(V)
-| rowspan="2" |Yes
-|
-|-
-| 012
-| ☆<br />☆
-| style="white-space:nowrap;text-align: left;" |[[15.5cm Triple Gun Mount (Secondary)]]<br />{{Template:YellowGun}}15.5cm三連装砲(副砲)
-| style="background-color: lime;" |7
-| 3
-| rowspan="2" style="background-color: lime;" |2
-| style="text-align: left;" |[[:Category:Kongou Class|Kongou-class]] Kai and [[:Category:Yamato Class|Yamato-class]] stock equipment.
-|-
-| 077
-| ☆
-| style="white-space:nowrap;text-align: left;" |[[15cm Twin Gun Mount]]<br />{{Template:YellowGun}}15cm連装副砲
-| style="background-color: gold;" |4
-| rowspan="2" |2
-| rowspan="2" |No
-| style="text-align: left;" |[[Bismarck]] stock equipment.
-|-
-| 134
-| ☆<br />☆☆
-| style="white-space:nowrap;text-align: left;" |[[OTO 152mm triple extended machine gun]]<br />{{Template:YellowGun}}OTO 152mm三連装速射砲
-| style="background-color: lime;" |8
-| style="background-color: lime;" |1
-| 1
-| style="text-align: left;" |[[:Category:Littorio Class|Littorio-class]] stock equipment.<br />[[Spring 2015 Event#E-3|Spring 2015 Event]] E-3 Medium and Hard Clear reward.
-|-
-|}
+
+{{EquipmentComparisonKai
+|iterator = equipmentByType|type = 4|sort = _icon
+|firepower_outstanding = 7
+|firepower_good = 6
+|aa_outstanding = 8
+|aa_good = 6
+|armor_outstanding = 0
+|shelling_accuracy_outstanding = 3
+|shelling_accuracy_good = 2
+|evasion_outstanding = 0
+}}
+
 ==See Also==
 {{Equipmentlist}}

@@ -61,9 +61,9 @@ function EquipmentLink.format(frame, args)
         end
     end
 
-    local tooltip_content = F:class_span("tooltip-contents", nil, #cards > 0 and table.concat(cards, "") or "??")
+    local tooltip_content = F:class_span("tooltiptext", nil, #cards > 0 and table.concat(cards, "") or "??")
 
-    return F:class_span("advanced-tooltip", nil, formatted_icon .. formatted_image .. formatted_text .. tooltip_content)
+    return F:class_span("tooltip", nil, formatted_icon .. formatted_image .. formatted_text .. tooltip_content)
 
 end
 

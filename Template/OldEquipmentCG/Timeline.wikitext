@@ -1,0 +1,66 @@
+<includeonly>{{!}}-
+{{!}} {{Equipment/Link|{{{Equipment}}}}}
+{{!}} {{#if: {{{Card|}}} | {{Asset|type=Old Equipment|asset=Card|{{{Equipment}}}|suffix1= - {{{Version|1}}}|size=x260px}} | - }}
+{{!}} {{#if: {{{Character|}}} | {{Asset|type=Old Equipment|asset=Character|{{{Equipment}}}|suffix1= - {{{Version|1}}}|size=x260px}} | - }}
+{{!}} {{#if: {{{Item|}}} | {{Asset|type=Old Equipment|asset=Item|{{{Equipment}}}|suffix1= - {{{Version|1}}}|size=x260px}} | - }}
+{{!}} {{#if: {{{Full|}}} | {{Asset|type=Old Equipment|asset=Full|{{{Equipment}}}|suffix1= - {{{Version|1}}}|size=x260px}} | - }}
+{{!}} {{#ifeq: {{{Version}}}|1|| '''Old CG #{{{Version}}}<br><br>'''}}{{{Note}}}</includeonly><noinclude>
+
+==[[User:Chocolatecravinghobo/Sandbox/7|Equipment CG update timeline]]==
+Template for table on [[User:Chocolatecravinghobo/Sandbox/7]]
+
+{| class="wikitable" style="text-align: center; border-width:0.2px;"
+! colspan=6 style="background-color:;" | <big><big><big>Equipment CG update timeline</big></big></big>
+|-
+!style="width:200px;"|Equip Name
+!style="width:260px;"|Card
+!style="width:260px;"|Fairy
+!style="width:260px;"|Equipment
+!style="width:260px;"|Combination
+!style="width:500px;"|Note
+|-
+! colspan=6 style="background-color:;" | [[Game Updates/2015/November 18]] - [https://kancolle.fandom.com/wiki/Partials/Updates/Fall_2015_Event_18th_November WikiaLink]
+|-
+{{OldEquipmentCG/Timeline
+|Equipment= Type 0 Fighter Model 21
+|  Version= 1
+|Card= Y ||Character= Y ||Item= Y ||Full= Y
+|Note= Notable example text
+}}
+{{OldEquipmentCG/Timeline
+|Equipment= Type 0 Fighter Model 52
+|  Version= 1
+|Card= Y ||Character= Y ||Item= Y ||Full= Y
+|Note= 
+}}
+{{OldEquipmentCG/Timeline
+|Equipment= Daihatsu Landing Craft
+|  Version= 1
+|Card= Y ||Character=   ||Item= Y ||Full= Y
+|Note= 
+}}
+|- 
+! colspan=6 style="background-color:;" | [[Game Updates/2016/August 31]] - [https://kancolle.fandom.com/wiki/Partials/Updates/2016_August_31st WikiaLink]
+{{OldEquipmentCG/Timeline
+|Equipment= Zuiun
+|  Version= 1
+|Card= Y ||Character=   ||Item= Y ||Full= Y
+|Note= 
+}}
+|-
+! colspan=6 style="background-color:;" | [[Game Updates/2017/February 28]] - [https://kancolle.fandom.com/wiki/Partials/Updates/2017_February_28th WikiaLink]
+{{OldEquipmentCG/Timeline
+|Equipment= Type 0 Fighter Model 21
+|  Version= 2
+|Card= Y ||Character=   ||Item= Y ||Full= Y
+|Note= 
+}}
+{{OldEquipmentCG/Timeline
+|Equipment= Type 0 Fighter Model 21 (Skilled)
+|  Version= 2
+|Card= Y ||Character=   ||Item= Y ||Full= Y
+|Note= 
+}}
+|}
+
+</noinclude>

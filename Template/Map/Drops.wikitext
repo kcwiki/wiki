@@ -1,0 +1,2 @@
+<includeonly>{{#if:{{{filter_button|}}}|<div class="toggle" data-target="droplist-non-rare-ship" data-default="hide" style="display: none;"><span class="toggle-show" style="cursor: pointer; color: #006cb0;">☑ All drops (enabled)</span><span class="toggle-hide" style="cursor: pointer; color: #006cb0;">☒ All drops (disabled, only rare drops)</span></div>
+|}}<!--div style="max-height: {{{height|429}}}px; overflow: auto;"-->{{ {{{subst|safesubst:}}}#invoke:DropList|show}}<!--/div--></includeonly><noinclude>{{Documentation}}</noinclude>

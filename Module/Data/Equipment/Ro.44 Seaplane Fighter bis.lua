@@ -1,0 +1,63 @@
+--Categories:
+--[[Category:Equipment modules]]
+ 
+return {
+	_name = "Ro.44 Seaplane Fighter bis",
+	_page = false,
+	_id = 215,
+	_japanese_name = "Ro.44水上戦闘機bis",
+	_reading = "Ro.44すいじょうせんとうき ___",
+	_type = 45,
+	_icon = 43,
+	_rarity = 4,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 3,
+	_armor = false,
+	_asw = 1,
+	_shelling_accuracy = 2,
+	_torpedo_accuracy = false,
+	_evasion = 2,
+	_los = 3,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_flight_cost = 4,
+	_flight_range = 3,
+	_special = false,
+	_scrap_fuel = 1,
+	_scrap_ammo = 1,
+	_scrap_steel = false,
+	_scrap_bauxite = 2,
+	_info = "パスタの国で運用された信頼性と運動性に優れた複葉複座の水偵Ro.43を単座に改修した水上戦闘機です。<br>低速なため戦闘機としては限界がありますが、貴重な洋上防空戦力として期待されました。<br>本機は戦訓をフィードバックした同改修機です。",
+	_wikipedia = "IMAM Ro.44",
+	_buildable = false,
+	_improvements = {
+		_fuel = 80,
+		_ammo = 60,
+		_steel = false,
+		_bauxite = 280,
+		_products = {
+			[false] = {
+				_ships = {
+					["Zara/Due"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 8,
+					_development_material_x = 14,
+					_improvement_material = 4,
+					_improvement_material_x = 5,
+					_equipment = {["Zuiun"] = 2},
+				},
+				[6] = {
+					_development_material = 14,
+					_development_material_x = 18,
+					_improvement_material = 6,
+					_improvement_material_x = 7,
+					_equipment = {["Ro.44 Seaplane Fighter"] = 1},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,63 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "533mm Quintuple Torpedo Mount (Initial Model)",
+  _id = 314,
+  _japanese_name = "533mm五連装魚雷(初期型)",
+  _reading = "533ミリごれんそうぎょらい(しょきがた)",
+  _type = 5, -- 2,3,5,5,0
+  _icon = 5,
+  _rarity = 2,
+  _firepower = 1,
+  _bombing = false,
+  _torpedo = 8,
+  _aa = false,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 1,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = 1,
+  _scrap_ammo = 3,
+  _scrap_steel = 2,
+  _scrap_bauxite = 2,
+  _buildable = false,
+  _info = "米国で開発され、広く実戦配備された標準的な対水上艦用魚雷兵装です。<br>初期においては、動作不良も多く、安定性を欠いていた本兵装ですが、後期には不具合も解消され、対水上艦戦闘時において大きな戦果を挙げることになります。",
+	_improvements = {
+		_fuel = 150,
+		_ammo = 150,
+		_steel = 100,
+		_bauxite = 100,
+		_products = {
+			[false] = {
+				_ships = {
+					["Johnston/"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Johnston/Kai"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Samuel B. Roberts/"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Samuel B. Roberts/Kai"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 4,
+					_development_material_x = 5,
+					_improvement_material = 3,
+					_improvement_material_x = 4,
+					_equipment = {["61cm Quadruple Torpedo Mount"] = 2},
+				},
+				[6] = {
+					_development_material = 5,
+					_development_material_x = 10,
+					_improvement_material = 4,
+					_improvement_material_x = 5,
+					_equipment = {["61cm Quadruple (Oxygen) Torpedo Mount"] = 2},
+				},
+			},
+		},
+	},
+}

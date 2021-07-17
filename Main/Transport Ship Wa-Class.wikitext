@@ -1,100 +1,27 @@
 ==Info==
-{|
-|
+
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo
-| name=Transport Ship Wa-Class
-| japanesename=輸送ワ級
-| id=513
-| image=[[File:Wa_n.png|x286px]]
-| color=gray
-| type=Transport ship
-| class=Abyssal
-| hp=70
-| firepower=0
-| armor=10
-| torpedo=0
-| evasion=1
-| AA=0
-| aircraft=0
-| speed=Slow
-| LOS=0
-| ASW=0
-| range=N/A
-| luck=1
-| slot=0
-| time=''unbuildable''
-| slot1=-Locked-
-| slot2=-Locked-
-| slot3=-Locked-
-| slot4=-Locked-}}
-| style="width: 50px;"|
-|
+{{EnemyShipInfoKai|Transport Ship Wa-Class/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+<div style="display: inline-block;">
 ===Elite===
-{{enemyshipinfo
-| name=Transport Ship Wa-Class Elite
-| japanesename=輸送ワ級 elite
-| id=526
-| image=[[File:Wa_e.png|x286px]]
-| color=red
-| type=Transport ship
-| class=Abyssal
-| hp=80
-| firepower=15
-| armor=35
-| torpedo=0
-| evasion=6
-| AA=0
-| aircraft=0
-| speed=Slow
-| LOS=0
-| ASW=0
-| range=Short
-| luck=10
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|5inch Single Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|3inch Single AA Cannon]]
-| slot3=[[List_of_equipment_used_by_the_enemy|3inch Single AA Cannon]]
-| slot4=-Locked-}}
-| style="width: 50px;"|
-|
+{{EnemyShipInfoKai|Transport Ship Wa-Class/Elite|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+<div style="display: inline-block;">
 ===Flagship===
-{{enemyshipinfo
-| name=Transport Ship Wa-Class Flagship
-| japanesename=輸送ワ級 flagship
-| id=558
-| image=[[File:Wa_flagship.png|x286px]]
-| color=yellow
-| type=Transport ship
-| class=Abyssal
-| hp=130
-| firepower=55
-| armor=65
-| torpedo=0
-| evasion=10
-| AA=40
-| aircraft=0
-| speed=Slow
-| LOS=10
-| ASW=0
-| range=Short
-| luck=20
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|6inch Twin Rapid-fire Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|5inch Single Cannon]]
-| slot3=[[List_of_equipment_used_by_the_enemy|5inch Single Cannon]]
-| slot4=-Locked-}}
-|}
+{{EnemyShipInfoKai|Transport Ship Wa-Class/Flagship|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Transport Ship Wa-Class/}}
 
 ==Trivia==
-*The basic type cannot attack.
-*Transports can be found in worlds [[World 2#2-3|2-2]], [[World 2#2-3|2-3]], [[World 3#3-1|3-1]], [[World 3#3-2|3-2]], [[World 4#4-2|4-2]], [[World 4#4-3|4-3]], [[World 4#4-4|4-4]], [[World 5#5-1|5-1]], [[World 5#5-2|5-2]], [[World 5#5-3|5-3]], [[World 5#5-4|5-4]], [[World 6#6-1|6-1]] and [[World 6#6-2|6-2]].
-**Worlds 2-2 and 2-3 are recommended for completing the daily and weekly transport quests.
+*Basic type does '''NOT''' attack.
+*Boss of 5-3,5-4 and 6-2.
+*Transports can be found in Worlds 2-2, 2-3, 3-1, 3-2, 4-2, 4-3, 4-4,4-5, 5-1, 5-2, 5-3, 5-4, 6-1 and 6-2.
+**Worlds 2-2 and 2-3 are recommended for completing transport ship daily/weekly quests.
 
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]
-[[Category:Abyssal Tranport Ships]]

@@ -1,103 +1,38 @@
-{|
-|-
-| valign="top" |
-{{enemyshipinfo2 
-|color = silver
-|name = Artillery Imp
-|japanesename = 砲台小鬼
-|image = [[File:Battery_Imp.png|280px]]
-|id = 666
-|class = Abyssal
-|type = Land-Based Unit
-|hp = 130
-|firepower = 100
-|armor = 100
-|torpedo = 0
-|evasion = 0
-|AA = 85
-|aircraft = 0
-|ASW = 0
-|LOS = ??
-|luck = ??
-|speed = ??
-|range = ??
-|slot = 4
-|slot1= 5 in. Coastal Placement Cannon
-|slot2= 4in. Dual-Purpose Gun + CIC
-|slot3= Autocannon ??
-|slot4= Radar???
-|space1= 0
-|space2= 0
-|space3= 0
-|space4= 0 
-}}
-| style="width:20px;" |
-| valign="top" |
-{{enemyshipinfo2 
-|color = silver
-|name = Artillery Imp
-|japanesename = 砲台小鬼
-|image = [[File:Battery_Imp.png|280px]]
-|id = 666
-|class = Abyssal
-|type = Land-Based Unit
-|hp = 130
-|firepower = 100
-|armor = 105
-|torpedo = 0
-|evasion = 0
-|AA = 75
-|aircraft = 0
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = ??
-|range = ??
-|slot = 4
-|slot1= 5 in. Coastal Placement Cannon
-|slot2= Autocannon???
-|slot3= AutoCannon???
-|slot4= Radar???
-|space1= 0
-|space2= 0
-|space3= 0
-|space4= 0 
-}}
-| style="width:20px;" |
-| valign="top" |
-{{enemyshipinfo2 
-|color = silver
-|name = Artillery Imp
-|japanesename = 砲台小鬼
-|image = [[File:Battery_Imp.png|280px]]
-|id = 667
-|class = Abyssal
-|type = Land-Based Unit
-|hp = 130
-|firepower = 100
-|armor = 110
-|torpedo = 0
-|evasion = 0
-|AA = 65
-|aircraft = 0
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = ??
-|range = ??
-|slot = 4
-|slot1= 5 in. Coastal Placement Cannon
-|slot2= 5 in. Coastal Placement Cannon
-|slot3= AutoCannon???
-|slot4= Radar???
-|space1= 0
-|space2= 0
-|space3= 0
-|space4= 0 
-}}
-|}
+==Info==
+
+<div style="display: inline-block;">
+===Basic===
+{{EnemyShipInfoKai|Artillery Imp/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic II===
+{{EnemyShipInfoKai|Artillery Imp/II|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic III===
+{{EnemyShipInfoKai|Artillery Imp/III|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Artillery Imp/}}
+
+==Quotes==
+
+{{Abyssquote|開幕前 = None|Clip0 = {{Audio|file=Artillery Imp Attack.ogg}}|砲撃 = シャァーッ！|EN0 = Shaaaarr!|Clip2 = {{Audio|file=Artillery Imp Damaged.ogg}}|被弾 = キィッ…|EN2 = Kii...|昼戦終了時 = None}}
+== Character ==
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''':
 ==Trivia==
-Made their first appearance in [[World 6#6-4|6-4]] on [[Game Updates/2016/March 11|March 11th, 2016]].
-*First non-boss land based Abyssal 
-{{PlanelessInstallation}}
-{{enemyshiplist}}
+*Takes increased damage from any of the following equipment:
+**[[WG42 (Wurfgerät 42)|Wurfgerät 42]]
+**[[Daihatsu Landing Craft]]
+**Armor-piercing shells such as [[Type 91 Armor Piercing Shell]] (This is a separate bonus from the usual.)
+**[[List of Seaplanes by stats|Seaplane fighters and seaplane bombers]]
+*The developers claim that the Imps are '''not''' vulnerable to the [[Type 3 Shell]].
+*Takes defeatable damage from [http://kancolle.wikia.com/wiki/List_of_Land-based_Attack_Aircraft_by_stats '''Land-Based Attack Aircraft'''] [[File:Land-based Attack Aircraft Icon.png]] with LBAS
+
+==See also==
+[https://www.flickr.com/photos/russell_w_b/318483890/in/album-72157603795684131/ German WWII Coastal Artillery]{{Enemyshiplist}}
+[[Category:Enemy Vessel]]
+[[Category:Abyssal Land Bases]]
+[[Category:Bosses]]

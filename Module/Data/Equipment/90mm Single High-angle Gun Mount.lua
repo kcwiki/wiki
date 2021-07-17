@@ -1,0 +1,63 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "90mm Single High-angle Gun Mount",
+	_page = false,
+	_id = 135,
+	_japanese_name = "90mm単装高角砲",
+	_reading = "90ミリたんそうこうかくほう",
+	_type = 4,
+	_icon = 16,
+	_rarity = 3,
+	_firepower = 1,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 8,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = 1,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = 1,
+	_scrap_steel = 3,
+	_scrap_bauxite = false,
+	_info = "パスタの国が生んだ、新型高速戦艦向けに開発された最新鋭の高角砲です。<br>単砲身ではありますが、発射速度も速く、バランスのよい優れた中距離対空火器です。",
+	_buildable = false,
+	_improvements = {
+		_fuel = 10,
+		_ammo = 20,
+		_steel = 70,
+		_bauxite = 10,
+		_products = {
+			[false] = {
+				_ships = {
+					["Littorio/"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Italia/"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Roma/"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+					["Roma/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 1,
+					_development_material_x = 2,
+					_improvement_material = 1,
+					_improvement_material_x = 2,
+					_equipment = {["10cm Twin High-angle Gun Mount"] = 1},
+				},
+				[6] = {
+					_development_material = 2,
+					_development_material_x = 3,
+					_improvement_material = 1,
+					_improvement_material_x = 2,
+					_equipment = {["10cm Twin High-angle Gun Mount"] = 2},
+				},
+			},
+		},
+	},
+}

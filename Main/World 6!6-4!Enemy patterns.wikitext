@@ -1,0 +1,560 @@
+==Enemy patterns==
+{{Section}}
+{{Map/Image|
+{{Map/ImageNode|Start|x=69|y=200}}
+{{Map/ImageNode|A|x=145|y=125}}
+{{Map/ImageNode|B|x=153|y=235}}
+{{Map/ImageNode|C|x=226|y=284}}
+{{Map/ImageNode|D|x=255|y=178}}
+{{Map/ImageNode|E|x=277|y=100}}
+{{Map/ImageNode|F|x=312|y=296}}
+{{Map/ImageNode|G|x=351|y=159}}
+{{Map/ImageNode|H|x=411|y=308}}
+{{Map/ImageNode|I|x=450|y=134}}
+{{Map/ImageNode|J|x=461|y=227}}
+{{Map/ImageNode|K|x=520|y=296}}
+{{Map/ImageNode|L|x=524|y=163}}
+{{Map/ImageNode|M|x=571|y=230}}
+{{Map/ImageNode|N|x=362|y=227}}
+}}
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+{{Map/Nodes|name=中部海域哨戒水雷戦隊 A群
+|A
+|Normal/BaseXP
+|{{Formation|Double Line}}
+|160
+|Light Cruiser Ho-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|170
+|Light Cruiser Ho-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|190
+|Light Cruiser Ho-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|A
+|Normal/Final/BaseXP
+|{{Formation|Line Ahead}}
+|200
+|Light Cruiser Ho-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=中部海域哨戒水雷戦隊 B群
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>{{Formation|Double Line}}
+|150
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|160
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|170
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|B
+|Normal/Final/BaseXP
+|{{Formation|Line Ahead}}
+|190
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|B
+|Normal/Final/BaseXP
+|{{Formation|Line Ahead}}
+|200
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+}}
+{{Map/Nodes|name=離島防衛低速戦艦部隊
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>{{Formation|Double Line}}
+|220
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Light Carrier Nu-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|240
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Light Carrier Nu-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|250
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Light Carrier Nu-Class/Elite
+|-
+|C
+|Normal/Final/BaseXP
+|{{Formation|Line Ahead}}
+|260
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|Light Carrier Nu-Class/Elite
+|-
+|C
+|Normal/Final/BaseXP
+|{{Formation|Line Ahead}}
+|280
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ni-Class/Late Model
+|Destroyer Ni-Class/Late Model
+|Light Carrier Nu-Class/Elite
+}}
+{{Map/Nodes|name=離島陸上航空隊
+|D
+|Defense/BaseXP
+|{{Formation|Line Ahead}}
+|120
+|Isolated Island Princess
+|-
+|D
+|Defense/BaseXP
+|{{Formation|Line Ahead}}
+|120
+|Isolated Island Princess/II
+}}
+{{Map/Nodes|name=中部海域哨戒遊撃部隊
+|E
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|140
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|150
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|-
+|E
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|160
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+}}
+{{Map/Nodes|name=離島陸上航空隊
+|F
+|Defense/BaseXP
+|{{Formation|Line Ahead}}
+|130
+|Isolated Island Princess
+|-
+|F
+|Defense/BaseXP
+|{{Formation|Line Ahead}}
+|140
+|Isolated Island Princess/IV
+|-
+|F
+|Defense/BaseXP
+|{{Formation|Line Ahead}}
+|150
+|Isolated Island Princess/II
+}}
+{{Map/Nodes|name=離島陸上航空隊
+|G
+|Defense/BaseXP
+|{{Formation|Line Ahead}}
+|100
+|Isolated Island Princess
+|-
+|G
+|Defense/BaseXP
+|{{Formation|Line Ahead}}
+|100
+|Isolated Island Princess/II
+}}
+{{Map/Nodes|name=離島防衛低速戦艦部隊
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|180
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Light Carrier Nu-Class/Elite
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|200
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Light Carrier Nu-Class/Elite
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|210
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Light Carrier Nu-Class/Flagship
+|-
+|H
+|Normal/Final/BaseXP
+|{{Formation|Line Ahead}}
+|230
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|Light Carrier Nu-Class/Flagship
+|-
+|H
+|Normal/Final/BaseXP
+|{{Formation|Line Ahead}}
+|260
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ni-Class/Late Model
+|Destroyer Ni-Class/Late Model
+|Light Carrier Nu-Class/Flagship
+}}
+{{Map/Nodes|name=離島混成航空隊
+|I
+|Defense/BaseXP
+|{{Formation|Diamond}}
+|160
+|Isolated Island Princess/IV
+|Light Carrier Nu-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|I
+|Defense/BaseXP
+|{{Formation|Diamond}}
+|170
+|Isolated Island Princess/II
+|Light Carrier Nu-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=任務部隊 I群
+|J
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|?
+|Standard Carrier Wo-Class/Kai Flagship II
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|J
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|270
+|Standard Carrier Wo-Class/Kai Flagship II
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|J
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|280
+|Standard Carrier Wo-Class/Kai Flagship III
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|J
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|290
+|Standard Carrier Wo-Class/Kai Flagship IV
+|Battleship Ru-Class/Kai Flagship
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|J
+|Normal/Final/BaseXP
+|{{Formation|Diamond}}
+|330
+|Aircraft Carrier Princess/II
+|Battleship Ru-Class/Kai Flagship
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|J
+|Normal/Final/BaseXP
+|{{Formation|Diamond}}
+|350
+|Aircraft Carrier Princess/II
+|Battleship Ru-Class/Kai Flagship
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+}}
+{{Map/Nodes|name=任務部隊 II群
+|K
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|200
+|Standard Carrier Wo-Class/Flagship III
+|Battleship Ta-Class/Elite
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|K
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|220
+|Standard Carrier Wo-Class/Flagship IV
+|Battleship Ta-Class/Elite
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|K
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|240
+|Standard Carrier Wo-Class/Kai Flagship II
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|K
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|250
+|Standard Carrier Wo-Class/Kai Flagship III
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=増援護衛空母部隊
+|L
+|Normal/BaseXP
+|{{Formation|Double Line}}<br>{{Formation|Diamond}}
+|140
+|Light Carrier Nu-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|L
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|160
+|Light Carrier Nu-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=中部海域潜水哨戒線
+|M
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|120
+|Submarine So-Class/Flagship
+|Submarine So-Class/Elite
+|Submarine So-Class
+|Submarine So-Class
+|-
+|M
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|140
+|Submarine So-Class/Flagship
+|Submarine So-Class/Elite
+|Submarine So-Class
+|Submarine So-Class
+|Submarine So-Class
+|-
+|M
+|Normal/BaseXP
+|{{Formation|Echelon}}<br>{{Formation|Line Abreast}}
+|160
+|Submarine So-Class/Flagship
+|Submarine So-Class/Elite
+|Submarine So-Class/Elite
+|Submarine So-Class
+|Submarine So-Class
+}}
+{{Map/Nodes|name=離島守備隊
+|N
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|640
+|Isolated Island Princess/IV
+|Artillery Imp/II
+|Artillery Imp
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|N
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|680
+|Isolated Island Princess/V
+|Artillery Imp/II
+|Artillery Imp
+|Supply Depot Princess
+|Light Cruiser Ho-Class/Flagship
+|-
+|N
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|700
+|Isolated Island Princess/IV
+|Artillery Imp/III
+|Artillery Imp/II
+|Artillery Imp
+|Supply Depot Princess
+|Transport Ship Wa-Class/Flagship
+|-
+|N
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|720
+|Isolated Island Princess/V
+|Artillery Imp/III
+|Artillery Imp/II
+|Artillery Imp
+|Supply Depot Princess/Damaged
+|Light Cruiser Ho-Class/Flagship
+|-
+|N
+|Boss/Final/BaseXP
+|{{Formation|Line Ahead}}
+|740
+|Isolated Island Princess/V
+|Artillery Imp/III
+|Artillery Imp/II
+|Artillery Imp
+|Supply Depot Princess/Damaged
+|Light Cruiser He-Class/Flagship
+|-
+|N
+|Boss/Final/BaseXP
+|{{Formation|Line Ahead}}
+|740
+|Isolated Island Princess/V
+|Artillery Imp/III
+|Artillery Imp/II
+|Artillery Imp
+|Supply Depot Princess/Damaged
+|Transport Ship Wa-Class/Flagship
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

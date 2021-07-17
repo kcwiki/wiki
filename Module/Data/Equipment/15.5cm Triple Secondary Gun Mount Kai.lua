@@ -1,0 +1,70 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "15.5cm Triple Secondary Gun Mount Kai",
+    _id = 234,
+    _japanese_name = "15.5cm三連装副砲改",
+    _reading = "15.5センチさんれんそうふくほうかい",
+    _type = 4, -- 1,2,4,4,0
+    _icon = 4,
+    _rarity = 3,
+    _firepower = 7,
+    _bombing = false,
+    _torpedo = false,
+    _aa = 5,
+    _armor = false,
+    _asw = false,
+    _shelling_accuracy = 4,
+    _torpedo_accuracy = false,
+    _evasion = 1,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = 2,
+    _flight_cost = false,
+    _flight_range = false,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = 3,
+    _scrap_steel = 6,
+    _scrap_bauxite = 1,
+    _info = "巡洋艦主砲だったものを大型戦艦の副砲として転用しました。「大和」型戦艦に搭載され、対空戦も可能な、性能・運用性ともに優秀な戦艦副砲となりました。防御面においては、諸説ありますが「大和」型の唯一の弱点という指摘もありました。本副砲は、同砲を「大和」型副砲として運用、改修と最適化を施した改良型装備です。",
+    _buildable = false,
+	_improvements = {
+		_fuel = 15,
+		_ammo = 120,
+		_steel = 150,
+		_bauxite = 30,
+		_products = {
+			["15.5cm Triple Gun Mount Kai"] = {
+				_ships = {
+					["Yamato/Kai"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Musashi/Kai"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = false, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 6,
+					_development_material_x = 7,
+					_improvement_material = 4,
+					_improvement_material_x = 5,
+					_equipment = {["15.5cm Triple Secondary Gun Mount"] = 2},
+				},
+				[6] = {
+					_development_material = 8,
+					_development_material_x = 9,
+					_improvement_material = 5,
+					_improvement_material_x = 7,
+					_equipment = {["15.5cm Triple Gun Mount"] = 2},
+				},
+				[10] = {
+					_development_material = 9,
+					_development_material_x = 10,
+					_improvement_material = 2,
+					_improvement_material_x = 3,
+					_equipment = {["15.5cm Triple Gun Mount"] = 1},
+				},
+				_stars = 7,
+			},
+		},
+	},
+}

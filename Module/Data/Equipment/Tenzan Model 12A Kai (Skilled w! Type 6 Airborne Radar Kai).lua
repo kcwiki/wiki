@@ -1,0 +1,35 @@
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Tenzan Model 12A Kai (Skilled w/ Type 6 Airborne Radar Kai)",
+	_asset_name = "Tenzan Model 12A Kai (Skilled w Type 6 Airborne Radar Kai)",
+	_id = 374,
+	_japanese_name = "天山一二型甲改(熟練/空六号電探改装備機)",
+	_reading = "てんざんいちにがたこうかい　(じゅくれん/くうろくごうでんたんかい そうびき)",
+	_type = 8, -- 3,5,8,46,1
+	_icon = 46,
+	_rarity = 5,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = 13,
+	_aa = 1,
+	_armor = false,
+	_asw = 7,
+	_shelling_accuracy = 2,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = 6,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_flight_cost = 8,
+	_flight_range = 6,
+	_special = false,
+	_scrap_fuel = 3,
+	_scrap_ammo = 6,
+	_scrap_steel = false,
+	_scrap_bauxite = 6,
+	_info = "「九七艦攻」の後継機として開発された艦上攻撃機「天山」その改良後期型に、機上電探空六号の改良調整型と電波高度計などの夜間作戦機材を装備した、夜間雷撃可能な新型夜間作戦艦上攻撃機。同機で編成され、熟練搭乗員を集中配備した夜間作戦の要となる精鋭艦攻隊です。";
+	_buildable = false,
+	_improvements = false,
+}

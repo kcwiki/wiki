@@ -140,17 +140,17 @@ Expeditions will always yield primary resources ({{Fuel}}{{Ammo}}{{Steel}}{{Baux
 
 See below for a summary:
 
-{| class="wikitable"
+{| class="wikitable" style="text-align: center; width:700px;"
 |-
-!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black" rowspan="2" | Rating
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black" rowspan="2" | Resources
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black" colspan="2" | Experiences
-!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black " colspan="2" | Rewards
+! rowspan="2" |Result
+! rowspan="2" |Resources
+! colspan="2" |Experience
+! colspan="2" |Rewards
 |-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black" | HQ XP
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black" | Ship XP<br>(Flagship gets 1.5x the shown multiplier)
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black" | Left
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black" | Right
+!HQ XP
+!Ship XP
+! Left
+!Right
 |-
 | align="center" | Recall
 | align="center" rowspan="2" | None
@@ -174,41 +174,105 @@ See below for a summary:
 | align="center" | x2
 | align="center" | x2 or x4 (50% chance)
 | align="center" | 50%
-| align="center" | 50% for only 1 (if reward shown is x2)<br>Otherwise guaranteed
+| align="center" | Guaranteed
 |}
+'''Notes'''
+* Flagships get 1.5x exp modifier as per usual
+* If the right reward can give more than 1 item, it will be a random quantity between 1 and its maximum possible. (Eg. If right reward is 3 buckets, it can be 1-3 buckets randomly)
+* As of Phase 2 rewards are not ordered in Left/Right format, and the terminology is kept only for reference to expedition tables within the wiki.
 
 ===Landing Crafts===
 
-Equipping certain landing crafts will boost the primary resource gain of the expedition. Aside from the Toku Daihatsu, all other landing craft bonuses stack with each other. All landing craft bonuses are '''multiplicative''' with the great success bonus. This means you can gain 1.8x the resources on great success with four daihatsu in your fleet.
+Equipping certain landing crafts will boost the primary resource gain of the expedition. All landing craft bonuses are '''multiplicative''' with the great success bonus.
 
-{| class="wikitable"
+{| class="wikitable" style="text-align: center; width:700px"
 |-
-!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black" | Equipment Name
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black"| Resource Bonus
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black"| Maximum Bonus
-!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF;color:black " | Notes
+! style="width:40%;"| Bonus Category
+! style="width:20%;"|Cap
+! Notes
 |-
-|[[Daihatsu-class Landing Craft]]
-|5%
-|20%
-|Obtainable from: [[Akitsumaru]]{{·}}[[Arare|Arare Kai Ni]]{{·}}[[Ooshio|Ooshio Kai Ni]]{{·}}[[Abukuma|Abukuma Kai Ni]]{{·}}[[Kinu|Kinu Kai Ni]].<br>
-Also obtainable from certain [[Quests|quests]].
+! Base Daihatsu Bonus
+| Up to 20%
+| Refer to section.
 |-
-|[[Toku Daihatsu-class Landing Craft]]
-| +2% to daihatsu bonus.
-| +5.4% to daihatsu bonus.
-|Obtainable from quests or upgrading basic Daihatsu. For details on how the maximum bonus is calculated, please see the equipment page.
+! Special Daihatsu Bonus
+| Up to 6%
+| Refer to section.
 |-
-|[[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]]
-|2%
-|20% with daihatsu bonus.
-|Obtainable from quests or upgrading basic Daihatsu.
+! Improvement Bonus
+| Up to 2%
+| The '''average''' improvement level of all landing crafts equipped in the fleet, multiplied by the number of landing crafts (+ Kinu), multiplied by 0.05%.
 |-
-|[[Type 2 Ka-Mi Tank]]
-|1%
-|20% with daihatsu bonus.
-|Obtainable from quests or upgrading basic Daihatsu.
+! Total Possible Cap
+| 28%
+|
+|}
+
+'''Base Daihatsu Bonus'''
+{| class="wikitable" style="text-align: center; width:700px"
 |-
+! style="width:40%;"|Equipment Name
+! Bonus
+|-
+! {{EquipmentLink|Daihatsu Landing Craft}}
+| '''5%'''
+|-
+! {{EquipmentLink|Toku Daihatsu Landing Craft}}
+| '''5%'''
+|-
+! {{ShipLink|Kinu/Kai Ni}} (Ship)
+| '''5%'''
+|-
+! {{EquipmentLink|Armed Daihatsu}}
+| 3%
+|-
+! {{EquipmentLink|Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)}}
+| 2%
+|-
+! {{EquipmentLink|Soukoutei (Armored Boat Class)|text=Soukoutei (AB)}}
+| 2%
+|-
+! {{EquipmentLink|Special Type 2 Amphibious Tank}}
+| 1%
+|-
+! {{EquipmentLink|Toku Daihatsu Landing Craft + 11th Tank Regiment}}
+| 0%
+|-
+! {{EquipmentLink|M4A1 DD}}
+| 0%
+|-
+|}
+
+'''Special Daihatsu Bonus'''<br/>
+This bonus is added based on the number of {{EquipmentLink|Toku Daihatsu Landing Craft}} and {{EquipmentLink|Daihatsu Landing Craft}} in the fleet, as per follows:
+{| class="wikitable" style="text-align: center; width:700px"
+|-
+! style="width:20%;"|
+! 0 Daihatsu
+! 1 Daihatsu
+! 2 Daihatsu
+! 3 Daihatsu
+! 4+ Daihatsu
+|-
+! 1 Toku
+| colspan="5"| 2%
+|-
+! 2 Toku
+| colspan="5"| 4%
+|-
+! 3 Toku
+| 5%
+| 5%
+| 5.2%
+| 5.4%
+| 5.4%
+|-
+! 4+ Toku
+| 5.4%
+| 5.6%
+| 5.8%
+| 5.9%
+| 6%
 |}
 
 =Expedition Subtypes=

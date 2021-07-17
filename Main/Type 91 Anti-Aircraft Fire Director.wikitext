@@ -1,35 +1,4 @@
-{{Template:Equipmentinfo
-|name = Type 91 Anti-Aircraft Fire Director
-|id = 120 
-|japanesename = 91式高射装置 
-|icon = {{AntiAircraftFireDirector}}
-|type = Anti-Aircraft Fire Director
-|effect = {{AA}}+2 {{Evasion}}+1 
-|scrap = {{Ammo}}1 {{Bauxite}}1 
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment120-1.png
-Equipment120-2.png
-Equipment120-3.png
-Equipment120-4.png
-</gallery>
-| DD= lime
-| LC= lime
-| CL= lime
-| CLT= lime
-| CA= lime
-| CAV= lime
-| BB=lime
-| BBV=lime
-| FASTBB=lime
-| AV= lime
-| CVL= lime
-| CV= lime
-|CVB = lime
-| SS=
-| SSV=
-| AS= lime
-| AR= lime
-}}
+{{EquipmentInfo|120}}
 
 ==Introduction==
 高角砲の対空射撃用の高射装置です。<br>
@@ -40,11 +9,9 @@ Equipment120-4.png
 ''The director and its firing dish together locate a target and find its best-fit firing angle.''<br>
 ''...somewhat. This one is obsolete, and its primary function is already built-in on battleships, cruisers, etc.''
 
-Note: while not directly referenced by name, the formal definition of the [[wikipedia:Director_(military)|director]] is an [[wikipedia:Fire-control_system|fire-control system (FCS)]] (火器管制装置). Slightly different from radar in that the FCS/director finds a possible point in which the bullet will arrive ''at''. [http://wikiwiki.jp/kancolle/?91%BC%B0%B9%E2%BC%CD%C1%F5%C3%D6 As demonstrated on wikiwiki]:<br>
-> ''Radar: "The enemy is over here!~ Here is contact!~"''<br>
-> ''FCS: "Um, the enemy has exposed themselves, so I think this shot angle is good!~"''
-
 ==Notes==
+Enables [[Aerial Combat#Anti-Air Cut-In|Anti-Air Cut-in]] when equipped along with a high-angle mount (main or secondary) (e.g [[12.7cm Twin High-angle Mount]]) or [[Type 3 Shell]]. Cut-in rate increases when an Air Radar is also equipped.
+
 <div class="mw-collapsible"><h3>How To Obtain</h3>
 <div class="mw-collapsible-content">
 '''Buildable'''
@@ -62,7 +29,11 @@ Note: while not directly referenced by name, the formal definition of the [[wiki
 </div></div>
 
 
-Enables [[Aerial Combat#Anti-Air Cut-In|Anti-Air Cut-in]] when equipped along with a high-angle mount (main or secondary) (e.g [[12.7cm Twin High-angle Mount]]) or [[Type 3 Shell]]. Cut-in rate increases when an Air Radar is also equipped.
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2014-11-14:''' '''Implemented'''
+* '''2020-03-27:''' Became '''buildable''', became possible to equip in expansion slots
+</div></div>
 
 ==Akashi's Improvement Arsenal==
 {{AkashiWorkshop}}
@@ -91,6 +62,11 @@ Enables [[Aerial Combat#Anti-Air Cut-In|Anti-Air Cut-in]] when equipped along wi
 |Notes=Upgrades to [[Type 94 Anti-Aircraft Fire Director]].
 }}
 |}
+
+==Trivia==
+Note: while not directly referenced by name, the formal definition of the [[wikipedia:Director_(military)|director]] is an [[wikipedia:Fire-control_system|fire-control system (FCS)]] (火器管制装置). Slightly different from radar in that the FCS/director finds a possible point in which the bullet will arrive ''at''. [http://wikiwiki.jp/kancolle/?91%BC%B0%B9%E2%BC%CD%C1%F5%C3%D6 As demonstrated on wikiwiki]:<br>
+> ''Radar: "The enemy is over here!~ Here is contact!~"''<br>
+> ''FCS: "Um, the enemy has exposed themselves, so I think this shot angle is good!~"''
 
 ==See also==
 {{Equipmentlist}}

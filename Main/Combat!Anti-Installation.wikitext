@@ -92,319 +92,317 @@ Installations are classified by two categories, Ship Type (BB, BBV, CV) and skin
 
 Please see [[Damage_Calculations#Anti-Installation_Attacks|Damage Calculations]] for more details on how anti-installation damage is calculated.
 
-* During day, damage is capped at 180 so any ship with a proper anti-installation setup will be able to hit the cap.
+* During day, damage is capped at 220 so any ship with a proper anti-installation setup will be able to hit the cap.
 ** When facing hard-skinned installations, it is better for battleships to have AP shells instead of Type 3 because they will hit the day cap anyway.
-* Anti-installation is very important during night battle when the cap is raised to 300. This is due to the torpedo stat being ignored.
+* Anti-installation is very important during night battle when the cap is raised to 360.
+* Torpedo stat is always counted as 0 when attacking installations. This applies to both airstrikes and night battles.
 * [[Supply Depot Princess]] is the only known installation that takes post-cap damage from anti-installation equipment.
 ** This makes her vulnerable to getting one shot by nuke setups. See [[#Equipment Setups|below]] for details.
-* Upgrades make landing craft and amphibious tanks a lot more effective for anti-installation use.
 * Pairing rockets or mortars give better multipliers than using them individually. Eg. WG/WG instead of WG/T4.
-* While dive bombers have a post-cap bonus during the air-strike, the low base damage means it is of limited effectiveness against high armour installations. 
+* While dive bombers have a post-cap bonus during the air-strike, the low base damage means it is of limited effectiveness against high armor installations. 
 
-===Pre-Cap Bonuses===
-{| border="1" style="text-align:center; border:0.2px solid #A9A9A9; cellspacing=0px; border-collapse:collapse;"
-|+'''Multiplicative Bonuses'''
-!style="background-color:#99CCFF; width:128px;" rowspan="2"|Equipment Name
-!style="background-color:#99CCFF; width:64px;" colspan="2"|Artillery Imp
-!style="background-color:#99CCFF; width:64px;" colspan="2"|Isolated Island Princess
-!style="background-color:#99CCFF; width:64px;" colspan="2"|Soft-Skinned<ref>[[Supply Depot Princess]], [[Harbor Princess]] and [[Northern Princess]].</ref>
-!style="background-color:#99CCFF; width:64px;" colspan="2"|Harbour Summer Princess
+===Bonuses===
+{|class="wikitable" style="width:950px; font-weight:bold; text-align: center; vertical-align: middle;"
 |-
-!style="background-color:#99CCFF; width:32px;"| Single
-!style="background-color:#99CCFF; width:32px;"| Multiple
-!style="background-color:#99CCFF; width:32px;"| Single
-!style="background-color:#99CCFF; width:32px;"| Multiple
-!style="background-color:#99CCFF; width:32px;"| Single
-!style="background-color:#99CCFF; width:32px;"| Multiple
-!style="background-color:#99CCFF; width:32px;"| Single
-!style="background-color:#99CCFF; width:32px;"| Multiple
+! Installation Type
+! style="width: 15%;" colspan="2" | Soft-Skinned
+! style="width: 15%;" colspan="2" | Isolated Island Princess
+! style="width: 15%;" colspan="2" | Artillery Imp
+! style="width: 15%;" colspan="2" | Harbor Summer Princess
+! style="width: 15%;" colspan="2" | Supply Depot Princess<br />(Post Cap)
 |-
-|style="text-align:left; background-color:#C3FFB2;"| [[:Category:Anti-Aircraft Shells|Anti-Aircraft Shells]]
-|style="background-color:#C3FFB2;" colspan="2"| -
-|style="background-color:#C3FFB2;" colspan="2"| 1.75
-|style="background-color:#C3FFB2;" colspan="2"| 2.5
-|style="background-color:#C3FFB2;" colspan="2"| 1.75
+! Number Equipped
+!Single
+!Multiple
+!Single
+!Multiple
+!Single
+!Multiple
+!Single
+!Multiple
+!Single
+!Multiple
 |-
-|style="text-align:left; background-color:#FFB7B7;"| [[:Category:Armour-Piercing Shells|Armour-Piercing Shells]]
-|style="background-color:#FFB7B7;" colspan="2"| 1.85
-|style="background-color:#FFB7B7;" colspan="2"| -
-|style="background-color:#FFB7B7;" colspan="2"| -
-|style="background-color:#FFB7B7;" colspan="2"| 1.3
+|style="background-color:#D0EAD8"|{{GreenAmmo}}{{EquipmentLink|Type 3 Shell|Type 3 Shell Kai|text=Anti-Aircraft Shell}}
+|colspan="2" |2.5
+|colspan="2" |1.75
+!colspan="2" |
+|colspan="2" |1.75
+!colspan="2" |
 |-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+|style="background-color:#FFD1D1"|{{RedAmmo}}{{EquipmentLink|Type 91 Armor Piercing Shell|Type 1 Armor Piercing Shell|text=Armor Piercing Shell}}
+!colspan="2" |
+!colspan="2" |
+|colspan="2" |1.85
+|colspan="2" |1.3
+!colspan="2" |
 |-
-|style="text-align:left; background-color:#FFB7B7;"| [[WG42 (Wurfgerät 42)]]
-|style="background-color:#FFB7B7;" | 1.6
-|style="background-color:#FFB7B7;" | 2.72
-|style="background-color:#FFB7B7;" | 1.4
-|style="background-color:#FFB7B7;" | 2.1
-|style="background-color:#FFB7B7;" | 1.3
-|style="background-color:#FFB7B7;" | 1.82
-|style="background-color:#FFB7B7;" | 1.4
-|style="background-color:#FFB7B7;" | 1.68
+|style="background-color:#FFAFAF"|{{AntiGroundArtillery}}{{EquipmentLink|WG42 (Wurfgerät 42)}}
+|1.3
+|1.82
+|1.4
+|2.1
+|1.6
+|2.72
+|1.4
+|1.68
+|1.25
+|1.625
 |-
-|style="text-align:left; background-color:#FFB7B7;"| [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]]
-|style="background-color:#FFB7B7;" | 1.5
-|style="background-color:#FFB7B7;" | 2.7
-|style="background-color:#FFB7B7;" | 1.3
-|style="background-color:#FFB7B7;" | 2.145
-|style="background-color:#FFB7B7;" | 1.25
-|style="background-color:#FFB7B7;" | 1.875
-|style="background-color:#FFB7B7;" | 1.25
-|style="background-color:#FFB7B7;" | 1.75
+|style="background-color:#FFAFAF"|{{AntiGroundArtillery}}{{EquipmentLink|Shipborne Model Type 4 20cm Anti-ground Rocket Launcher|Type 4 20cm Anti-ground Rocket Launcher (Concentrated Deployment)|text=Anti-Ground Rocket Launcher}}
+|1.25
+|1.875
+|1.3
+|2.145
+|1.5
+|2.7
+|1.25
+|1.75
+|1.2
+|1.68
 |-
-|style="text-align:left; background-color:#AFCDFF;"| [[:Category:Mortars|Mortars]]
-|style="background-color:#AFCDFF;"| 1.3
-|style="background-color:#AFCDFF;"| 1.95
-|style="background-color:#AFCDFF;"| 1.2
-|style="background-color:#AFCDFF;"| 1.68
-|style="background-color:#AFCDFF;"| 1.2
-|style="background-color:#AFCDFF;"| 1.56
-|style="background-color:#AFCDFF;"| 1.1
-|style="background-color:#AFCDFF;"| 1.265
+|style="background-color:#CFDFFF"|{{DepthCharge}}{{EquipmentLink|Type 2 12cm Mortar Kai|Type 2 12cm Mortar Kai (Concentrated Deployment)|text=ASW Mortar}}
+|1.2
+|1.56
+|1.2
+|1.68
+|1.3
+|1.95
+|1.1
+|1.265
+|1.15
+|1.38
 |-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|Daihatsu Landing Craft|
+Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)|Toku Daihatsu Landing Craft|Toku Daihatsu Landing Craft + 11th Tank Regiment|M4A1 DD|text=Landing Craft}} Type Multiplier
+|colspan="2" |1.4
+|colspan="2" |1.8
+|colspan="2" |1.8
+|colspan="2" |1.7
+|colspan="2" |1.7
 |-
-|style="text-align:left; background-color:#FAFFB4;"| [[:Category:Landing Craft|Landing Crafts]]
-|style="background-color:#FAFFB4;" colspan="2"| 1.8
-|style="background-color:#FAFFB4;" colspan="2"| 1.8
-|style="background-color:#FAFFB4;" colspan="2"| 1.4
-|style="background-color:#FAFFB4;" colspan="2"| 1.7
+|style="background-color:#FDF0BC"|{{IM2}} Landing Craft Improvement Multiplier
+|colspan="10"|1 + (Average ★ /50) [Max 1.2x]
 |-
-|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu-class Landing Craft]]
-|style="background-color:#FAFFB4;" colspan="2"| 1.15
-|style="background-color:#FAFFB4;" colspan="2"| 1.15
-|style="background-color:#FAFFB4;" colspan="2"| 1.15
-|style="background-color:#FAFFB4;" colspan="2"| 1.2
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|Toku Daihatsu Landing Craft}}
+|colspan="2" |1.15
+|colspan="2" |1.15
+|colspan="2" |1.15
+|colspan="2" |1.2
+|colspan="2" |1.2
 |-
-|style="text-align:left; background-color:#FAFFB4;"| [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]]
-|style="background-color:#FAFFB4;"| 1.5
-|style="background-color:#FAFFB4;"| 2.1
-|style="background-color:#FAFFB4;"| 1.2
-|style="background-color:#FAFFB4;"| 1.68
-|style="background-color:#FAFFB4;"| 1.5
-|style="background-color:#FAFFB4;"| 1.95
-|style="background-color:#FAFFB4;"| 1.6
-|style="background-color:#FAFFB4;"| 2.4
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)}}
+|1.5
+|1.95
+|1.2
+|1.68
+|1.5
+|2.1
+|1.6
+|2.4
+|1.3
+|2.08
 |-
-|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu Landing Craft + 11th Tank Regiment]]
-|style="background-color:#FAFFB4;" colspan="2"| 1.8
-|style="background-color:#FAFFB4;" colspan="2"| 1.8
-|style="background-color:#FAFFB4;" colspan="2"| 1.8
-|style="background-color:#FAFFB4;" colspan="2"| 1.8
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|Toku Daihatsu Landing Craft + 11th Tank Regiment}}
+|colspan="2" |1.8
+|colspan="2" |1.8
+|colspan="2" |1.8
+|colspan="2" |1.8
+!colspan="2" |
 |-
-|style="text-align:left; background-color:#FAFFB4;"| [[M4A1 DD]]<ref>Specific bonus.</ref>
-|style="background-color:#FAFFB4;" colspan="2"| 2.0
-|style="background-color:#FAFFB4;" colspan="2"| 1.8
-|style="background-color:#FAFFB4;" colspan="2"| 1.1
-|style="background-color:#FAFFB4;" colspan="2"| 2.0
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|M4A1 DD}}
+|colspan="2" |1.1
+|colspan="2" |1.8
+|colspan="2" |2.0
+|colspan="2" |2.0
+|colspan="2" |1.2
 |-
-|style="text-align:left; background-color:#FAFFB4;"| [[M4A1 DD]]<ref>General bonus.</ref>
-|style="background-color:#FAFFB4;" colspan="8"| 1.4
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|Armed Daihatsu|Soukoutei (Armored Boat Class)|text=Armed Daihatsu + Soukoutei (AB)}}
+| 1.1
+| 1.21
+| 1.3
+| 1.43
+| 1.3
+| 1.43
+|colspan="2" | ?
+| 1.5
+| 1.65
 |-
-|style="text-align:left; background-color:#FAFFB4;"| '''Landing Craft Upgrade Bonus'''
-|style="background-color:#FAFFB4;" colspan="8"| <math>1 + \dfrac{\left( \text{Average Landing Craft}\ \bigstar \right)}{50}</math>
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|Armed Daihatsu|Soukoutei (Armored Boat Class)|text=Armed Daihatsu + Soukoutei (AB)}} <br /> LHA Bonus
+|colspan="2" |1.4
+|colspan="2" |1.8
+|colspan="2" |1.8
+|colspan="2" | ?
+|colspan="2" |1.7
 |-
-|style="text-align:left; background-color:#FAFFB4;"| [[Type 2 Ka-Mi Tank]]
-|style="background-color:#FAFFB4;"| 2.4
-|style="background-color:#FAFFB4;"| 3.24
-|style="background-color:#FAFFB4;"| 2.4
-|style="background-color:#FAFFB4;"| 3.24
-|style="background-color:#FAFFB4;"| 1.5
-|style="background-color:#FAFFB4;"| 1.8
-|style="background-color:#FAFFB4;"| 2.8
-|style="background-color:#FAFFB4;"| 4.2
+|style="background-color:#D2C99A"|{{Amphibious Tank}} {{EquipmentLink|Special Type 2 Amphibious Tank}}
+|1.5
+|1.8
+|2.4
+|3.24
+|2.4
+|3.24
+|2.8
+|4.2
+|1.7
+|2.55
 |-
-|style="text-align:left; background-color:#FAFFB4;"| '''Tank Upgrade Bonus'''
-|style="background-color:#FAFFB4;" colspan="8"| <math>1 + \dfrac{\left( \text{Average Landing Craft}\ \bigstar \right)}{30}</math>
+|style="background-color:#D2C99A"|{{IM2}} Amphibious Tank Improvement Multiplier
+|colspan="8"|1 + (Average ★ /30) [Max 1.33x]
+|colspan="2"|1 + (Average ★ /30) [Max 1.33x]
 |-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+|style="background-color:#FFC1B1"|{{RedPlane}} Carrier-based Dive Bomber
+!colspan="2" |
+|colspan="2" |1.4
+|colspan="2" |1.5
+|colspan="2" |1.3
+!colspan="2" |
 |-
-|style="text-align:left; background-color:#FFB7B7;"| [[:Category:Dive Bombers|Dive Bombers]]<ref>Only certain dive bombers are able to attack installations in shelling.</ref>
-|style="background-color:#FFB7B7;"| 1.5
-|style="background-color:#FFB7B7;"| ??
-|style="background-color:#FFB7B7;"| 1.4
-|style="background-color:#FFB7B7;"| ??
-|style="background-color:#FFB7B7;" colspan="2"| -
-|style="background-color:#FFB7B7;"| 1.3
-|style="background-color:#FFB7B7;"| ??
+|style="background-color:#D5EAC0"|{{Seaplane}} {{SeaplaneFighter}}<br />Seaplane Bomber/Fighter
+|colspan="2" |1.2
+!colspan="2" |
+|colspan="2" |1.5
+|colspan="2" |1.3
+!colspan="2" |
 |-
-|style="text-align:left; background-color:#C3FFB2;"| [[:Category:Seaplane Bombers|Seaplane Bombers]]<br>
-[[:Category:Seaplane Fighters|Seaplane Fighters]]
-|style="background-color:#C3FFB2;" colspan="2"| 1.5
-|style="background-color:#C3FFB2;" colspan="2"| -
-|style="background-color:#C3FFB2;" colspan="2"| 1.2
-|style="background-color:#C3FFB2;" colspan="2"| 1.3
+|Destroyer / Light Cruiser (DD/CL)
+!colspan="2" |
+!colspan="2" |
+|colspan="2" |1.4
+!colspan="2" |
+!colspan="2" |
 |-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+!colspan="11"| Airstrike-Only Multipliers
 |-
-|style="text-align:left; background-color:#BFFDFF;"| [[:Category:Destroyers|Destroyers]]<br>
-[[:Category:Light Cruisers|Light Cruisers]]
-|style="background-color:#BFFDFF;" colspan="2"| 1.4
-|style="background-color:#BFFDFF;" colspan="2"| -
-|style="background-color:#BFFDFF;" colspan="2"| -
-|style="background-color:#BFFDFF;" colspan="2"| -
+|style="background-color:#B5CAA0"|{{Land-based Attack Aircraft}} Land Based Attack Aircraft
+!colspan="2" |
+|colspan="2" |1.18
+|colspan="2" |1.6
+!colspan="2" |
+|colspan="2" |2.1
 |-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+|style="background-color:#FFC1B1"|{{Land-based Attack Aircraft}} {{Seaplane}} {{RedPlane}} Bombers (Post cap)
+!colspan="2" |
+|colspan="2" |1.7
+|colspan="2" |1.55
+!colspan="2" |
+!colspan="2" |
+|}
+'''Notes'''
+* With the exception of Post-cap and the LHA Bonus, the Armed Daihatsu + Soukoutei (AB) bonus only applies in '''Daytime''' combat. (Landing Craft type bonus still functions at night)
+
+The following multipliers are '''pre-cap''', but are applied after Flat Damage Bonuses from {{EquipmentLink|Toku Daihatsu Landing Craft}} and {{EquipmentLink|M4A1 DD}} are added:
+{|class="wikitable" style="width:950px; font-weight:bold; text-align: center; vertical-align: middle;"
 |-
-|style="text-align:left; background-color:#B4F0C6;"| [[Land-Based Air Squadron]]
-|style="background-color:#B4F0C6;" colspan="2"| 1.6
-|style="background-color:#B4F0C6;" colspan="2"| 1.18
-|style="background-color:#B4F0C6;" colspan="2"| -
-|style="background-color:#B4F0C6;" colspan="2"| -
+!colspan="3"|If {{LandingCraft}} {{EquipmentLink|M4A1 DD}} is Equipped
 |-
-|}<references/>
+!style="width:56%; background-color:#FDF0BC"|Pre-Cap Bonus
+|style="width:44%" colspan="2"|1.4
+|-
+|-
+!colspan="3"|If {{LandingCraft}} {{EquipmentLink|Armed Daihatsu|Soukoutei (Armored Boat Class)|text=Armed Daihatsu + Soukoutei (AB)}} are both Equipped
+|-
+!style="width:56%"|Equipment
+!style="width:22%"|Single
+!style="width:22%"|Multiple
+|-
+!style="background-color:#FDF0BC"|IJN Landing Craft
+|colspan="2"| 1.2
+|-
+!style="background-color:#FDF0BC"|{{EquipmentLink|Daihatsu Landing Craft|Toku Daihatsu Landing Craft|Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)|text=Group A}}
+| 1.1
+| 1.32
+|-
+!style="background-color:#FDF0BC"|{{EquipmentLink|Toku Daihatsu Landing Craft + 11th Tank Regiment|Type 2 Special Amphibious Assault Tank|text=Group B}}
+| 1.2
+| 1.32
+|-
+!colspan="3"|
+|-
+! Maximum Group Bonus
+| colspan="2"| 1.32
+|}
 {{clear}}
 
-{| border="1" style="text-align:center; border:0.2px solid #A9A9A9; cellspacing=0px; border-collapse:collapse;"
-|+'''Additive Bonuses'''
-!style="background-color:#99CCFF; width:128px;" rowspan="2"|Equipment Name
-!style="background-color:#99CCFF; width:128px;" colspan="4"|Number Equipped
+===Flat Damage Bonuses===
+{|class="wikitable" style="width:950px; font-weight:bold; text-align: center; vertical-align: middle;"
 |-
-!style="background-color:#99CCFF; width:32px;"| 1
-!style="background-color:#99CCFF; width:32px;"| 2
-!style="background-color:#99CCFF; width:32px;"| 3
-!style="background-color:#99CCFF; width:32px;"| 4
+! Amount Equipped
+! style="width: 15%;" | 1
+! style="width: 15%;" | 2
+! style="width: 15%;" | 3
+! style="width: 15%;" | 4
 |-
-|style="text-align:left; background-color:#FFB7B7;"| [[WG42 (Wurfgerät 42)]]
-|style="background-color:#FFB7B7;" | 75
-|style="background-color:#FFB7B7;" | 110
-|style="background-color:#FFB7B7;" | 140
-|style="background-color:#FFB7B7;" | 160
+|style="background-color:#FFAFAF"|{{AntiGroundArtillery}}{{EquipmentLink|WG42 (Wurfgerät 42)}}
+|75
+|110
+|140
+|160
 |-
-|style="text-align:left; background-color:#FFB7B7;"| [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]]
-|style="background-color:#FFB7B7;" | 55
-|style="background-color:#FFB7B7;" | 115
-|style="background-color:#FFB7B7;" | 160
-|style="background-color:#FFB7B7;" | 190
+|style="background-color:#FFAFAF"|{{AntiGroundArtillery}}{{EquipmentLink|Shipborne Model Type 4 20cm Anti-ground Rocket Launcher}}
+|55
+|115
+|160
+|190
 |-
-|style="text-align:left; background-color:#FFB7B7;"| [[Type 4 20cm Anti-ground Rocket Launcher (Concentrated Deployment)]]
-|style="background-color:#FFB7B7;" | 80
-|style="background-color:#FFB7B7;" | 170
-|style="background-color:#FFB7B7;" | ??
-|style="background-color:#FFB7B7;" | ??
+|style="background-color:#FFAFAF"|{{AntiGroundArtillery}}{{EquipmentLink|Type 4 20cm Anti-ground Rocket Launcher (Concentrated Deployment)}}
+|80
+|170
+|?
+|?
 |-
-|style="text-align:left; background-color:#AFCDFF;"| [[Type 2 12cm Mortar Kai]]
-|style="background-color:#AFCDFF;"| 30
-|style="background-color:#AFCDFF;"| 55
-|style="background-color:#AFCDFF;"| 75
-|style="background-color:#AFCDFF;"| 90
+|style="background-color:#CFDFFF"|{{DepthCharge}}{{EquipmentLink|Type 2 12cm Mortar Kai}}
+|30
+|55
+|75
+|90
 |-
-|style="text-align:left; background-color:#AFCDFF;"| [[Type 2 12cm Mortar Kai (Concentrated Deployment)]]
-|style="background-color:#AFCDFF;"| 60
-|style="background-color:#AFCDFF;"| 110
-|style="background-color:#AFCDFF;"| 150
-|style="background-color:#AFCDFF;"| ??
+|style="background-color:#CFDFFF"|{{DepthCharge}}{{EquipmentLink|Type 2 12cm Mortar Kai (Concentrated Deployment)}}
+|60
+|110
+|150
+|180
 |-
-|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu Landing Craft + 11th Tank Regiment]]
-|style="background-color:#FAFFB4;" colspan="4"| 25
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|Toku Daihatsu Landing Craft + 11th Tank Regiment}}
+|25
+!
+!
+!
 |-
-|style="text-align:left; background-color:#FAFFB4;"| [[M4A1 DD]]
-|style="background-color:#FAFFB4;" colspan="4"| 25
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|M4A1 DD}}
+|25
+!
+!
+!
 |-
-|style="text-align:left; background-color:#BFFDFF;"| [[:Category:Submarines|Submarines]]
-|style="background-color:#BFFDFF;" colspan="4"| 30
+|style="background-color:#FDF0BC"|{{LandingCraft}} {{EquipmentLink|Armed Daihatsu|Soukoutei (Armored Boat Class)|text=Armed Daihatsu + Soukoutei (AB)}}<br /> (Both Equipped)
+|10
+!
+!
+!
 |-
-|} <references/>
-
-{{clear}}
-
-===Post-Cap Bonuses===
-{| border="1" style="text-align:center; border:0.2px solid #A9A9A9; cellspacing=0px; border-collapse:collapse;"
-|+'''Multiplicative Bonuses'''
-!style="background-color:#99CCFF; width:128px;" rowspan="2"|Equipment Name
-!style="background-color:#99CCFF; width:64px;" colspan="2"|Supply Depot Princess
+! colspan="5"| Ship Type Bonus
 |-
-!style="background-color:#99CCFF; width:32px;"| Single
-!style="background-color:#99CCFF; width:32px;"| Multiple
+| Submarine (SS/SSV)
+| colspan="4"| 30
 |-
-|style="text-align:left; background-color:#C3FFB2;"| [[:Category:Anti-Aircraft Shells|Anti-Aircraft Shells]]
-|style="background-color:#C3FFB2;" colspan="2"| -
+! colspan="5"| Airstrike-only Bonus
 |-
-|style="text-align:left; background-color:#FFB7B7;"| [[:Category:Armour-Piercing Shells|Armour-Piercing Shells]]
-|style="background-color:#FFB7B7;" colspan="2"| -
-|-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
-|-
-|style="text-align:left; background-color:#FFB7B7;"| [[WG42 (Wurfgerät 42)]]
-|style="background-color:#FFB7B7;" | 1.25
-|style="background-color:#FFB7B7;" | 1.625
-|-
-|style="text-align:left; background-color:#FFB7B7;"| [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]]
-|style="background-color:#FFB7B7;" | 1.2
-|style="background-color:#FFB7B7;" | 1.68
-|-
-|style="text-align:left; background-color:#AFCDFF;"| [[:Category:Mortars|Mortars]]
-|style="background-color:#AFCDFF;" | 1.15
-|style="background-color:#AFCDFF;" | 1.38
-|-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
-|-
-|style="text-align:left; background-color:#FAFFB4"| [[:Category:Landing Craft|Landing Crafts]]
-|style="background-color:#FAFFB4;" colspan="2"| 1.7
-|-
-|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu-class Landing Craft]]
-|style="background-color:#FAFFB4;" colspan="2"| 1.2
-|-
-|style="text-align:left; background-color:#FAFFB4;"| [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]]
-|style="background-color:#FAFFB4;" | 1.3
-|style="background-color:#FAFFB4;" | 2.08
-|-
-|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu Landing Craft + 11th Tank Regiment]]
-|style="background-color:#FAFFB4;" colspan="2"| -
-|-
-|style="text-align:left; background-color:#FAFFB4;"| [[M4A1 DD]]
-|style="background-color:#FAFFB4;" colspan="2"| 1.2
-|-
-|style="text-align:left; background-color:#FAFFB4;"| '''Landing Craft Upgrade Bonus'''<ref>The Daihatsu+T89 landing craft gets double the improvement bonus. Multiply the anti-installation damage bonus contributed by the T89 again with it's specific upgrade bonus.</ref>
-|style="background-color:#FAFFB4;" colspan="2"| <math>1 + \dfrac{\left( \text{Average Landing Craft}\ \bigstar \right)}{50}</math>
-|-
-|style="text-align:left; background-color:#FAFFB4;"| [[Type 2 Ka-Mi Tank]]
-|style="background-color:#FAFFB4;" | 1.7
-|style="background-color:#FAFFB4;" | 2.55
-|-
-|style="text-align:left; background-color:#FAFFB4;"| '''Tank Upgrade Bonus'''
-|style="background-color:#FAFFB4;" colspan="2"| <math>1 + \dfrac{\left( \text{Average Landing Craft}\ \bigstar \right)}{30}</math>
-|-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
-|-
-|style="text-align:left; background-color:#FFB7B7;"| [[:Category:Dive Bombers|Dive Bombers]]<ref>Only certain dive bombers are able to attack installations in shelling.</ref>
-|style="background-color:#FFB7B7;" colspan="2"| -
-|-
-|style="text-align:left; background-color:#C3FFB2;"| [[:Category:Seaplane Bombers|Seaplane Bombers]]<br>
-[[:Category:Seaplane Fighters|Seaplane Fighters]]
-|style="background-color:#C3FFB2;" colspan="2"| -
-|-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
-|-
-|style="text-align:left; background-color:#BFFDFF;"| [[:Category:Destroyers|Destroyers]]<br>
-[[:Category:Light Cruisers|Light Cruisers]]
-|style="background-color:#BFFDFF;" colspan="2"| -
-|-
-| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
-|-
-|style="text-align:left; background-color:#B4F0C6;"| [[Land-Based Air Squadron]]
-|style="background-color:#B4F0C6;" colspan="2"| 2.1
-|-
-|} <references/>
-
-{{clear}}
-
-'''Important Notes'''
-* Carrier-based dive bombers, seaplane bombers and land-based attack aircraft have further multiplicative and additive post-cap bonuses versus certain installations '''during airstrikes'''.
-** Artillery Imp - 1.55x
-** Isolated Island Demon - 1.7x
-** Supply Depot Princess - +100
+|style="background-color:#FFC1B1"|{{Land-based Attack Aircraft}} {{Seaplane}} {{RedPlane}} Bombers<br />(Supply Depot Princess Only)
+|colspan="4"| 100 (Post-cap)
+|}
+Notes:
+*With the exception of the bomber bonus, Flat damage bonuses are '''pre-cap'''
 
 =Equipment Setups=
 Below are recommended equipment setups for anti-installation. If a setup is not listed, it means that it is subpar and not worth considering. The order of the equipment is for illustrative purposes only. It '''does not''' matter what order the equipment are in. 
 
-{| class="wikitable" style="width: 100%;"
+{| class="wikitable" style="text-align: center; width: 960px;"
 |-
-!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="2"| Battleships
+!colspan="2"| Battleships
 |-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+!style="width:40%;"| '''Equipment Setup'''
+!style="width:60%;"| '''Notes'''
 |- 
 |{{RedGunHeavy}}{{RedGunHeavy}}{{Seaplane}}{{RedAmmo}}
 |This setup is the basic setup for battleships. Because battleships can hit the damage cap easily, they do not benefit much from anti-installation equipment. The standard artillery spotting setup will allow them to be effective against all other targets including the installation. 
@@ -418,10 +416,10 @@ Below are recommended equipment setups for anti-installation. If a setup is not 
 |{{RedGunHeavy}}{{RedGunHeavy}}{{Seaplane}}{{GreenAmmo}}{{RedAmmo}}
 |This is a unique setup available to [[Musashi|Musashi Kai Ni]] that allows her to have the best of both worlds.
 |-
-!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="2"| Heavy Cruisers
+!colspan="2"| Heavy Cruisers
 |-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+!style="width:40%;"| '''Equipment Setup'''
+!style="width:60%;"| '''Notes'''
 |- 
 |{{RedGunMedium}}{{RedGunMedium}}{{Seaplane}}{{GreenAmmo}}
 |This is the standard anti-installation setup for all heavy cruisers. It allows them to artillery spot and deals decent damage against installations.
@@ -429,10 +427,10 @@ Below are recommended equipment setups for anti-installation. If a setup is not 
 |{{RedGunMedium}}{{RedGunMedium}}{{AntiGroundArtillery}}{{GreenAmmo}}
 |This is an alternative setup only for '''aviation cruisers'''. It removes the ability to artillery spot for much more powerful anti-installation damage at night. 
 |-
-!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="2"| Light Cruisers
+!colspan="2"| Light Cruisers
 |-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+!style="width:40%;"| '''Equipment Setup'''
+!style="width:60%;"| '''Notes'''
 |- 
 |{{LandingCraft}}{{Amphibious Tank}}{{AntiGroundArtillery}}
 |This is the standard "nuke" setup. It has powerful anti-installation power against all installations but is hampered by the daytime damage cap. It performs best at night or when up against [[Supply Depot Princess]].
@@ -440,10 +438,10 @@ Below are recommended equipment setups for anti-installation. If a setup is not 
 |{{RedGunMedium}}{{RedGunMedium}}{{AntiGroundArtillery}}{{AntiGroundArtillery}}
 |An alternative setup for 4-slot light cruisers. This preserves their ability to double attack at night while giving them significant anti-installation power.
 |-
-!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="2"| Destroyers<ref>High-angle main guns can stand in for the small-caliber main guns.</ref>
+!colspan="2"| Destroyers<ref>High-angle main guns can stand in for the small-caliber main guns.</ref>
 |-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+!style="width:40%;"| '''Equipment Setup'''
+!style="width:60%;"| '''Notes'''
 |- 
 |{{LandingCraft}}{{Amphibious Tank}}{{AntiGroundArtillery}}
 |Same as the "nuke" setup used by light cruisers. It has powerful anti-installation power against all installations but is hampered by the daytime damage cap. It performs best at night or when up against [[Supply Depot Princess]].
@@ -457,10 +455,10 @@ Below are recommended equipment setups for anti-installation. If a setup is not 
 |{{RedGunLight}}{{RedGunLight}}{{AntiGroundArtillery}}{{AntiGroundArtillery}}
 |This setup is currently unique to [[Tashkent]]. It functions much like the light cruiser setup with a powerful night battle double attack.
 |-
-!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="2"| Carriers/Light Carriers
+!colspan="2"| Carriers/Light Carriers
 |-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+!style="width:40%;"| '''Equipment Setup'''
+!style="width:60%;"| '''Notes'''
 |- 
 |{{RedPlane}}{{BluePlane}}{{GreenPlane}}{{GreenPlane}}
 |This is only to be used if you have one of the [[:Category:Anti-Installation Dive Bomber|anti-installation dive bombers]]. It will allow the carrier to still perform CVCI against other targets.
@@ -468,10 +466,10 @@ Below are recommended equipment setups for anti-installation. If a setup is not 
 |{{BluePlane}}{{BluePlane}}{{GreenPlane}}{{GreenPlane}}
 |The numbers of torpedo bombers and fighters in this setup can be varied depending on the amount of fighter power required. This is the standard carrier anti-installation setup. While it does sacrifice CVCI, the carrier shelling formula and proficiency bonuses still ensures that carriers will do significant damage to installations and other targets.
 |-
-!style="text-align: center; border-radius: 6px 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" colspan="2"| Seaplane Tenders
+!colspan="2"| Seaplane Tenders
 |-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;"| '''Equipment Setup'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;"| '''Notes'''
+!style="width:40%;"| '''Equipment Setup'''
+!style="width:60%;"| '''Notes'''
 |- 
 |{{LandingCraft}}{{Amphibious Tank}}{{AntiGroundArtillery}}{{WildCard}}
 |Same "nuke" setup used by light cruisers. For 4-slot AVs, they can either take a 2nd anti-ground rocket or a seaplane fighter as the wild card. It has powerful anti-installation power against all installations but is hampered by the daytime damage cap. It performs best at night or when up against [[Supply Depot Princess]].
@@ -482,178 +480,221 @@ Below are recommended equipment setups for anti-installation. If a setup is not 
 
 =Additional Information=
 ===Landing Craft/Amphibious Tank Capable Ships===
-{| class="wikitable"
-!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|'''Ship Name'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|'''Landing Craft'''<br>{{LandingCraft}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|'''Amphibious Tank'''<br>{{LandingCraft}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|'''Ship Name'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|'''Landing Craft'''<br>{{LandingCraft}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|'''Amphibious Tank'''<br>{{LandingCraft}}
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|'''Ship Name'''
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|'''Landing Craft'''<br>{{LandingCraft}}
-!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|'''Amphibious Tank'''<br>{{LandingCraft}}
+{| class="wikitable" style="text-align: center; width:960px;"
+!style="width:22%;"|'''Ship Name'''
+!style="width:6%"|'''Landing Craft'''<br>{{LandingCraft}}
+!style="width:6%;"|'''Amphibious Tank'''<br>{{Amphibious Tank}}
+!style="width:21%;"|'''Ship Name'''
+!style="width:6%;"|'''Landing Craft'''<br>{{LandingCraft}}
+!style="width:6%;"|'''Amphibious Tank'''<br>{{Amphibious Tank}}
+!style="width:21%;"|'''Ship Name'''
+!style="width:6%;"|'''Landing Craft'''<br>{{LandingCraft}}
+!style="width:6%;"|'''Amphibious Tank'''<br>{{Amphibious Tank}}
 |-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="9"| Destroyers
+!colspan="9"| Destroyers
 |-
-|style="border-style: solid; border-width: 1px;"| [[Mutsuki|Mutsuki Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
+|{{ShipBanner|Satsuki/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Fumizuki/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Verniy|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|-
+|{{ShipBanner|Umikaze/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Asashio/Kai Ni D|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Ooshio/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|-
+|{{ShipBanner|Michishio/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Arashio/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Kasumi/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|-
+|{{ShipBanner|Arare/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Mutsuki/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:red;"|No
+|{{ShipBanner|Kisaragi/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:red;"|No
+|-
+|{{ShipBanner|Mikazuki/Kai|small=true}}
+|style="color:green;"|Yes
+|style="color:red;"|No
+|{{ShipBanner|Makigumo/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:red;"|No
+|{{ShipBanner|Ariake/Kai|small=true}}
+|style="color:green;"|Yes
+|style="color:red;"|No
+|-
+|{{ShipBanner|Murasame/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:red;"|No
+|{{ShipBanner|Kawakaze/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:red;"|No
+|{{ShipBanner|Kuroshio/Kai Ni|small=true}}
+|style="color:red;"|No
+|style="color:green;"|Yes
+|-
+|{{ShipBanner|Kazagumo/Kai Ni|small=true}}
+|style="color:red;"|No
+|style="color:green;"|Yes
+|{{ShipBanner|Okinami/Kai Ni|small=true}}
+|style="color:red;"|No
+|style="color:green;"|Yes
+|{{ShipBanner|Asashimo/Kai Ni|small=true}}
+|style="color:red;"|No
+|style="color:green;"|Yes
+|-
+|{{ShipBanner|Yukikaze/Kai Ni|small=true}}
+|style="color:red;"|No
+|style="color:green;"|Yes
+
+|{{ShipBanner|Shiratsuyu/Kai Ni|small=true}}
+|style="color:red;"|No
+|style="color:green;"|Yes
+|
+|
+|
+|-
+!colspan="9"| Light Cruisers
+|-
+|{{ShipBanner|Tatsuta/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Tama/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Yura/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|-
+|{{ShipBanner|Kinu/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Abukuma/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Yuubari/Kai Ni Toku|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|-
+|{{ShipBanner|Kuma/Kai Ni D|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Gotland/Andra|small=true}}
+|style="color:green;"|Yes
+|style="color:red;"|No
+|{{ShipBanner|Noshiro/Kai Ni|small=true}}
+|style="color:red;"|No
+|style="color:green;"|Yes
+|-
+|{{ShipBanner|Yahagi/Kai Ni|small=true}}
+|style="color:red;"|No
+|style="color:green;"|Yes
+|
+|
+|
+|
+|
+|
+|-
+!colspan="9"| Heavy Cruisers
+|-
+|{{ShipBanner|Mogami/Kai Ni Toku|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|
+|
+|
+|
+|
+|
+|-
+!colspan="9"| Battleships
+|-
+|{{ShipBanner|Nagato/Kai Ni|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Mutsu/Kai Ni|small=true}}
+|style="color:red;"|No
+|style="color:green;"|Yes
+|
+|
+|
+|-
+!colspan="9"| Seaplane Tenders
+|-
+|{{ShipBanner|Chitose|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Chiyoda|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Mizuho|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|-
+|{{ShipBanner|Nisshin|small=true}}
+|style="color:green;"|Yes
 |style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="border-style: solid; border-width: 1px;"| [[Kisaragi|Kisaragi Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="border-style: solid; border-width: 1px;"| [[Satsuki|Satsuki Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
+|{{ShipBanner|Nisshin/Kai|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Akitsushima|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
 |-
-|style="border-style: solid; border-width: 1px;"| [[Fumizuki|Fumizuki Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Mikazuki|Mikazuki Kai]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="border-style: solid; border-width: 1px;"| [[Hibiki|Verniy]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
+|{{ShipBanner|Kamoi/Kai|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Commandant Teste/Kai|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|
+|
+|
 |-
-|style="border-style: solid; border-width: 1px;"| [[Shiratsuyu|Shiratsuyu Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Murasame|Murasame Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="border-style: solid; border-width: 1px;"| [[Umikaze|Umikaze Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
+!colspan="9"| Fleet Oilers
 |-
-|style="border-style: solid; border-width: 1px;"| [[Kawakaze|Kawakaze Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="border-style: solid; border-width: 1px;"| [[Asashio|Asashio Kai Ni D]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Ooshio|Ooshio Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
+|{{ShipBanner|Hayasui|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Kamoi/Kai Bo|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|
+|
+|
 |-
-|style="border-style: solid; border-width: 1px;"| [[Michishio|Michishio Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Arashio|Arashio Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Kasumi|Kasumi Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
+!colspan="9"| Amphibious Landing Ship
 |-
-|style="border-style: solid; border-width: 1px;"| [[Arare|Arare Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Kuroshio|Kuroshio Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Makigumo|Makigumo Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|-
-|style="border-style: solid; border-width: 1px;"| [[Kazagumo|Kazagumo Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Okinami|Okinami Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Asashimo|Asashimo Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="9"| Light Cruisers
-|-
-|style="border-style: solid; border-width: 1px;"| [[Tatsuta|Tatsuta Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Tama|Tama Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Yura|Yura Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|-
-|style="border-style: solid; border-width: 1px;"| [[Kinu|Kinu Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Abukuma|Abukuma Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Yuubari|Yuubari Kai Ni Toku]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="9"| Battleships
-|-
-|style="border-style: solid; border-width: 1px;"| [[Nagato|Nagato Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Mutsu|Mutsu Kai Ni]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
-|-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="9"| Seaplane Tenders
-|-
-|style="border-style: solid; border-width: 1px;"| [[Chitose]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Chiyoda]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Mizuho]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|-
-|style="border-style: solid; border-width: 1px;"| [[Nisshin]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:red;"|No
-|style="border-style: solid; border-width: 1px;"| [[Nisshin|Nisshin Kai]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Akitsushima]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|-
-|style="border-style: solid; border-width: 1px;"| [[Kamoi|Kamoi Kai]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Commandant Teste|Commandant Teste Kai]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
-|-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="9"| Fleet Oilers
-|-
-|style="border-style: solid; border-width: 1px;"| [[Hayasui]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"| [[Kamoi|Kamoi Kai Bo]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
-|-
-!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="9"| Amphibious Landing Ship
-|-
-|style="border-style: solid; border-width: 1px;"| [[Akitsumaru]]
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|Yes
-|style="border-style: solid; border-width: 1px;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
-|style="border-style: solid; border-width: 1px;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
-|style="text-align: center; border-style: solid; border-width: 1px; color:green;"|
+|{{ShipBanner|Akitsu Maru|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|{{ShipBanner|Shinshuu Maru|small=true}}
+|style="color:green;"|Yes
+|style="color:green;"|Yes
+|
+|
+|
 |-
 |}
 

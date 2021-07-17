@@ -1,0 +1,206 @@
+==Enemy patterns==
+{{Section}}
+{{Map/Image|
+{{Map/ImageNode|Start|x=105|y=144}}
+{{Map/ImageNode|A|x=286|y=100}}
+{{Map/ImageNode|B|x=295|y=191}}
+{{Map/ImageNode|C|x=414|y=292}}
+{{Map/ImageNode|D|x=472|y=100}}
+{{Map/ImageNode|E|x=565|y=211}}
+}}
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+
+{{Map/Nodes|name=敵前衛艦隊
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|30
+|Destroyer Ro-Class
+|Destroyer I-Class
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|40
+|Destroyer Ro-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|45
+|Light Cruiser Ho-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|55
+|Light Cruiser He-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|65
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+}}
+{{NodeInfo
+|B
+|Resource
+|Ammo
+|10~40
+}}
+{{Map/Nodes|name=敵前衛艦隊
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|30
+|Destroyer Ro-Class
+|Destroyer I-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|40
+|Destroyer Ro-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|45
+|Light Cruiser Ho-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|55
+|Light Cruiser He-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|65
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+}}
+{{Map/Nodes|name=敵水雷戦隊
+|D
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|60
+|Light Cruiser Ho-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|65
+|Light Cruiser Ho-Class
+|Destroyer Ro-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|70
+|Light Cruiser Ho-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|Destroyer I-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|75
+|Light Cruiser Ho-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|80
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|85
+|Light Cruiser He-Class
+|Destroyer Ha-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+}}
+{{Map/Nodes|name=敵主力艦隊
+|E
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|60
+|Light Cruiser Ho-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|E
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|70
+|Light Cruiser He-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|E
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|100
+|Light Cruiser He-Class
+|Light Cruiser Ho-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|E
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|110
+|Light Cruiser He-Class
+|Light Cruiser Ho-Class
+|Torpedo Cruiser Chi-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|E
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|120
+|Light Cruiser He-Class
+|Torpedo Cruiser Chi-Class
+|Torpedo Cruiser Chi-Class
+|Destroyer Ha-Class
+|Destroyer Ha-Class
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

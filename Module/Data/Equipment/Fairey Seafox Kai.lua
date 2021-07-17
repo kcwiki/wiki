@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Fairey Seafox Kai",
+  _id = 371,
+  _japanese_name = "Fairey Seafox改",
+  _reading = nil,
+  _type = 10, -- 5,7,10,10,28
+  _icon = 10,
+  _rarity = 4,
+  _firepower = 2,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 1,
+  _armor = false,
+  _asw = 3,
+  _shelling_accuracy = 2,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = 6,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 6,
+  _flight_range = 3,
+  _special = false,
+  _scrap_fuel = 1,
+  _scrap_ammo = 2,
+  _scrap_steel = false,
+  _scrap_bauxite = 4,
+  _buildable = false,
+  _info = "紅茶の国で開発/運用されたOspreyの後継たる艦艇運用を前提とした水上偵察機です。複葉でありながら剛性の高い機体で、大戦中期まで巡洋艦以上の艦艇に搭載され、航空索敵や弾着観測などで活躍しました。本機は、そのif改良輸出型です。",
+}

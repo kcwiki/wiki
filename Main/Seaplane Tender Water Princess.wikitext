@@ -1,95 +1,51 @@
 ==Info==
-{|
-| valign="top" |
-{{enemyshipinfo2
-| name=Seaplane Tender Water Princess (A)
-| japanesename=水母水姫
-| id=708
-| image=[[File:Seikan708.png|x200px]]
-| color=red
-| type=Seaplane Tender
-| class=Abyssal
-| hp=?
-| firepower=?
-| armor=?
-| torpedo=?
-| evasion=?
-| AA=?
-| aircraft=?
-| speed=?
-| LOS=?
-| ASW=?
-| range=?
-| luck=?
-| slot=?
-| slot1=?
-| slot2=?
-| slot3=?
-| slot4=?
-| space1=?
-| space2=?
-| space3=?
-| space4=?}}
-| style="width: 50px;" |
-| valign="top" |
-{{enemyshipinfo2
-| name=Seaplane Tender Water Princess (B)
-| japanesename=水母水姫
-| id=709
-| image=[[File:Seikan708.png|x200px]]
-| color=red
-| type=Seaplane Tender
-| class=Abyssal
-| hp=?
-| firepower=?
-| armor=?
-| torpedo=?
-| evasion=?
-| AA=?
-| aircraft=?
-| speed=?
-| LOS=?
-| ASW=?
-| range=?
-| luck=?
-| slot=?
-| slot1=?
-| slot2=?
-| slot3=?
-| slot4=?
-| space1=?
-| space2=?
-| space3=?
-| space4=?}}
-| style="width: 50px;" |
-| valign="top" |
-{{enemyshipinfo2
-| name=Seaplane Tender Water Princess (C)
-| japanesename=水母水姫
-| id=710
-| image=[[File:Seikan708.png|x200px]]
-| color=red
-| type=Seaplane Tender
-| class=Abyssal
-| hp=?
-| firepower=?
-| armor=?
-| torpedo=?
-| evasion=?
-| AA=?
-| aircraft=?
-| speed=?
-| LOS=?
-| ASW=?
-| range=?
-| luck=?
-| slot=?
-| slot1=?
-| slot2=?
-| slot3=?
-| slot4=?
-| space1=?
-| space2=?
-| space3=?
-| space4=?}}
-|}
+<div style="display: inline-block;">
+===Basic===
+{{EnemyShipInfoKai|Seaplane Tender Water Princess/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+<div style="display: inline-block;">
+===Basic II===
+{{EnemyShipInfoKai|Seaplane Tender Water Princess/II|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+<div style="display: inline-block;">
+===Basic III===
+{{EnemyShipInfoKai|Seaplane Tender Water Princess/III|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+{{EnemyShipCategoriesKai|Seaplane Tender Water Princess/}}
+
+==Quotes==
+{{Abyssquote
+|開幕前 = ヨクミツケマシタネエ……ゴホウビデス……。
+アイテヲ…シテ…サシアゲマスワ！　シズメェッ！<br/>
+<br>イイデショウ……。ワタクシガ…オアイテ…イタシマス。<br/>カカッテ…キナサアイッ！(Armor Broken)
+|砲撃 = シズメ…シズミナサァイ！
+|被弾 = イタイワ…イタイジャナイッ！
+|昼戦終了時 = ツメタイ…。モウツメタイオモイハ…クライオモイハイヤ…。デモ…シズムノネ…。アデュー…　エッ？　ソンナ…ソウナノ？　ワタクシハ…ソノテヲ取っても。(Normal and Final sunk line)<br>ツメタイ…ツメタイワ。クライトコロニイクノハイヤ…。　エッ？　ワタクシハ　ソウカ　ワたくしは…。(Armor Broken)
+
+|EN1 = You did well to find me... This is your reward......<br>
+I will... be... your opponent! Sink!<br/> <br/>Isn't this great...... I... will be... your opponent.<br>Come...at me! (Armor Broken)
+|EN0 = Sink...Sink now!
+|EN2 = It hurts... I said it hurts!
+|EN3 = It's cold... Cold thoughts... and dark thoughts, I don't want them... But... sinking is... Adieu... Eh? That's... Is that it? I... even though I accepted that hand. (Normal and Final sunk line)<br>It's cold... It's cold. I don't want to go to dark places... Eh? I... Is that so... I... (Armor broken)
+
+|Clip1 = {{Audio|file=Seaplane Tender Water Princess Intro.ogg}}<br>{{Audio|file=Seaplane Tender Water Princess Broken Form Intro.ogg}}|Clip0 = {{Audio|file=Seaplane Tender Water Princess Attack.ogg}}
+|Clip2 = {{Audio|file=Seaplane Tender Water Princess Damaged.ogg}}
+|Clip3 ={{Audio|file=Seaplane Tender Water Princess Sunk Final.ogg}}<br>{{Audio|file=Seaplane Tender Water Princess Sunk.ogg}}
+}}
+
+==Character==
+* [[Glossary#List of Vessels by Japanese Voice Actresses|'''Seiyuu''']]: [https://myanimelist.net/people/35951 Tanibe Yumi] (谷邊由美)
+
+===Battle Card===
+{{ShipBattleCardKai|Seaplane Tender Water Princess}}
+===Damaged===
+[[File:Seaplane Tender Water Princess Damaged.jpg|700px]]
+
+==Trivia==
+* Boss of E-3 in [[Fall 2016 Event]].
+** If sunk during regular chipping runs, she would recite her sinking line despite not being within the range of a final kill. This may be a reference to [[Commandant Teste]] 's record of being sunk and refloated multiple times in her life. Or it could just be a bug that is ignored by the devs.
+* Can do [[Partials/Opening ASW|opening ASW]].<!-- II and III are not confirmed -->
+
+{{Enemyshiplist}}
+[[Category:Enemy Vessel]]
+[[Category:Bosses]]

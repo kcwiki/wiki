@@ -23,8 +23,8 @@
 }}
 {{AirControlSystem
 | Map = 3-5 North
-| Fleet = 3CV 3XX (XX = CA(V), SS(V), CLT, CL or DD)
-| Route = Random based on # of DDs.<br/>F-G-K<br/>B-C-F-G-K
+| Fleet = 3CV 3XX (XX = CA(V), SS(V), CLT)
+| Route = B-D-H-K
 | AS = 381
 | Notes = CVs and BBs are interchangeable.
 }}
@@ -111,8 +111,8 @@
 * Middle route (B-E-H-K or F-E-H-K) is not recommended, not only does this require an awkward fleet composition (either a CL 2 DD in a heavy fleet or a BB/CV in a light one), E node presents two Ru-Flags that can potentially damage any of your ships.
 <br/>'''Recommended Fleet'''
 *'''North Route (B-D-H-K)'''
-**'''3 [(F)BB(V)+CV(B/L)], 3 XX (XX being any CA(V), SS(V), CLT, CL or DD)'''
-***Ships that are specialized in AACI such as [[Maya|Maya Kai Ni]] or [[Akizuki|Akizuki-class]] DDs can be used to protect your fleet on the way to the boss node
+**'''3 [(F)BB(V)+CV(B/L)], 3 XX (XX being any CA(V), SS(V), CLT)'''
+***Ships that are specialized in AACI such as [[Maya|Maya Kai Ni]] can be used to protect your fleet on the way to the boss node
 *'''South Route (F-G-K)'''
 **''' 1 CL + 5 DD / 1 AV + 5 DD'''
 *** Regarded as the 'standard' composition, this is the strongest possible composition that is guaranteed to reach the boss via '''F-G-K''', assuming LoS requirements are met. It is recommended to try the south route with this composition first.
@@ -279,91 +279,4 @@
 |boss_node = H K
 }}
 
-===Drops===
-
-<div class="mw-customtoggle-3-5-drop globalbutton">Show/Hide Drops</div>
-
-{| id="mw-customcollapsible-3-5-drop" class="mw-collapsible mw-collapsed wikitable"
-!Node
-!Destroyers
-!Light Cruisers
-!Heavy Cruisers
-!Seaplane Tender
-!Aircraft Carrier
-!Battleship
-!Submarine
-!Others
-|-
-|A
-|[[Sazanami]], [[Akatsuki]], [[Ikazuchi]], [[Hatsushimo]], [[Ushio]], [[Wakaba]]
-|
-|[[Takao]], [[Nachi]]
-|
-|[[Jun'you]], [[Ryuujou]]
-|
-|
-|
-|-
-|B
-|[[Akebono]], [[Ushio]], [[Nenohi]], [[Hibiki]], [[Sazanami]]
-|[[Kinu|'''<span style="color:red">Kinu</span>''']]
-|[[Nachi]], [[Takao]], [[Maya]]
-|
-|[[Ryuujou]]
-|
-|
-|
-|-
-|C
-|[[Hatsuharu]], [[Hatsushimo]]
-|[[Abukuma]], [[Kinu|'''<span style="color:red">Kinu</span>''']]
-|[[Maya]], [[Takao]], [[Nachi]]
-|
-|
-|
-|[[I-58|'''<span style="color:red">I-58</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']]''', [[I-19|'''<span style="color:red">I-19</span>''']]'''
-|
-|-
-|E
-|
-|
-|
-|
-|
-|
-|
-|
-|-
-|F
-|
-[[Inazuma]], [[Ushio]], [[Hibiki]], [[Nenohi]], [[Akebono]], [[Sazanami]], [[Akatsuki]], [[Hatsuharu]], [[Ikazuchi]], [[Wakaba]], [[Tanikaze|'''<span style="color:red">Tanikaze</span>''']]
-|[[Tama]], [[Kinu|'''<span style="color:red">Kinu</span>''']], [[Abukuma]], [[Kiso]]
-|[[Maya]], [[Takao]], [[Nachi]]
-|
-|[[Ryuujou]], [[Jun'you]]
-|
-|[[I-168|'''<span style="color:red">I-168</span>''']], [[I-19|'''<span style="color:red">I-19</span>''']], [[I-8|'''<span style="color:red">I-8</span>''']], [[Maruyu|'''<span style="color:red">Maruyu</span>''']]
-|[[Akashi|'''<span style="color:red">Akashi</span>''']]
-|-
-|G
-|[[Nenohi]], [[Ikazuchi]], [[Hibiki]]
-|[[Kiso]], [[Tama]]
-|[[Takao]]
-|
-|[[Ryuujou]]
-|
-|[[I-19|'''<span style="color:red">I-19</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']]
-|
-|-
-| style="color:red" |'''K'''
-|
-[[Fubuki]], [[Mochizuki]], [[Akatsuki]], [[Shimakaze]], [[Akigumo|'''<span style="color:red">Akigumo</span>''']], [[Naganami|'''<span style="color:red">Naganami</span>''']], [[Hamakaze|'''<span style="color:red">Hamakaze</span>''']],<br />[[Tanikaze|'''<span style="color:red">Tanikaze</span>''']],<br />[[Amatsukaze|'''<span style="color:red">Amatsukaze</span>''']], [[Yamagumo|'''<span style="color:red">Yamagumo</span>''']], [[Kazagumo|'''<span style="color:red">Kazagumo</span>''']]
-|[[Abukuma|'''<span style="color:red">Abukuma</span>''']],<br />[[Kuma]], [[Nagara]], [[Tenryuu]],[[Sendai]], [[Kitakami]], [[Ooi]], [[Kinu|'''<span style="color:red">Kinu</span>''']]
-|[[Atago]], [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']], [[Tone]], [[Chikuma]], [[Myoukou]], [[Takao]], [[Mogami]]
-|
-|[[Shouhou]], [[Jun'you]], [[Hiyou]], [[Houshou]], [[Ryuujou]]
-|[[Fusou]], [[Yamashiro]], [[Ise]], [[Haruna]], [[Kirishima]], [[Hiei]]
-|[[I-19|'''<span style="color:red">I-19</span>''']], [[I-8|'''<span style="color:red">I-8</span>''']],
-[[I-58|'''<span style="color:red">I-58</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']]
-|[[Akashi|'''<span style="color:red">Akashi</span>''']]
-|}
+{{:{{BASEPAGENAME}}/3-5/Drop list}}

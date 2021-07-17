@@ -1,94 +1,43 @@
 ==Info==
-{|
-|-
-|
-{{enemyshipinfo2 
-|color = red
-|name = Light Cruiser Demon (A)
-|japanesename = 軽巡棲鬼 
-|image = [[File:601.png|200px]]
-|id = 601 
-|class = Abyssal
-|type = Light Cruiser 
-|hp = 210 
-|firepower = 59 (59)
-|armor = 135 (135)
-|torpedo = 88 (88)
-|evasion = ? 
-|AA = 60 (60)
-|aircraft = 3
-|ASW = ?
-|LOS = ?
-|luck = 70 (70)
-|time = Unbuildable
-|speed = Fast 
-|range = Medium 
-|slot = 4 
-|slot1= [[List_of_equipment_used_by_the_enemy|6inch Twin Rapid-fire Cannon]]
-|slot2= [[List_of_equipment_used_by_the_enemy|6inch Twin Rapid-fire Cannon]]
-|slot3= [[List_of_equipment_used_by_the_enemy|Surface Radar Mk.II]]
-|slot4= [[List_of_equipment_used_by_the_enemy|Abyssal Recon Plane]]
-|space1=0 
-|space2=0 
-|space3=0 
-|space4=3 }}
-| style="width:50px;" |
-|
-{{enemyshipinfo2 
-|color = red
-|name = Light Cruiser Demon (B)
-|japanesename = 軽巡棲鬼 
-|image = [[File:602.png|206px]]
-|id = 602 
-|class = Abyssal
-|type = Light Cruiser 
-|hp = 270 
-|firepower = 69 (69)
-|armor = 170 (170)
-|torpedo = 98 (98)
-|evasion = ? 
-|AA = 60 (60)
-|aircraft = 3
-|ASW = ?
-|LOS = ?
-|luck = 90 (90)
-|time = Unbuildable
-|speed = Fast 
-|range = Medium 
-|slot = 4 
-|slot1= [[List_of_equipment_used_by_the_enemy|6inch Twin Rapid-fire Cannon]]
-|slot2= [[List_of_equipment_used_by_the_enemy|6inch Twin Rapid-fire Cannon]]
-|slot3= [[List_of_equipment_used_by_the_enemy|Surface Radar Mk.II]]
-|slot4= [[List_of_equipment_used_by_the_enemy|Abyssal Recon Plane]]
-|space1=0
-|space2=0
-|space3=0
-|space4=3
-}}
-|}
+
+<div style="display: inline-block;">
+===Basic===
+{{EnemyShipInfoKai|Light Cruiser Demon/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic II===
+{{EnemyShipInfoKai|Light Cruiser Demon/II|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Light Cruiser Demon/}}
 
 ==Quotes==
 {{Abyssquote
 |開幕前 =ニドトフジョウデキナイ…シンカイヘ……シズメッ!
-|EN1 =You won't ever surface again... Sink into the depths of the ocean! 
-|Note1 = 
-|砲撃 =サセヌ…サセヌワッ！ 
-|EN0 =I won't let you... I won't let you!
+|EN1 =Sink into the depth... which you can't surface again! 
+|Note1 =As everyone should exist on the sea, 'the depths' means that of the ocean.  This quote is also translated to be based on spoken one. 
+|砲撃 =サセヌゥ…サセヌワッ！ 
+|EN0 =I won't let you... Won't do you!
 |Note0 = 
 |被弾 =ソノテイドカ… 
-|EN2 =If that's the best you can do...
+|EN2 =That's all you got?
 |Note2 = 
 |昼戦終了時 =ススムガ…イイサ…ソノ先には… 
-|EN3 =Go... ahead... beyond here is...
+|EN3 =Go ahead...and do... your worst...  beyond here is...
 |Note3 =
 |Clip1 = {{Audio|file=CL_Oni_Intro.ogg}}|Clip0 = {{Audio|file=CL_Oni_Attack.ogg}}|Clip2 = {{Audio|file=CL_Oni_Damaged.ogg}}|Clip3 = {{Audio|file=CL_Oni_Sunk.ogg}}}}
 
-==Trivia==
-* First appeared during [[Winter 2015 Event]] as the E-3 boss flagship. Also appeared at E-5-A.
-* Next appeared in the [[Spring 2015 Event]] as an escort ship in E-1's boss final form on hard as well as E-3-E.
-* Now constantly appears at [[World 4#4-5|World 4-5]], node H. (Both the stronger and weaker forms can appear.)
-* Her weaker form is based on [[Naka]] while her stronger form is based on [[Agano]], as hinted by their artwork and a branching rule in E-4 of the [[Winter 2015 Event]].
+== Character ==
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://myanimelist.net/people/10765/ Kayano Ai] (茅野愛衣)
 
+==Trivia==
+* A new abyssal ship introduced during [[Winter 2015 Event]]. She was the boss of E-3, but can also be seen at node A of E-5.
+* Escort ship on the final kill in E-1 of Spring 2015 Event Hard mode.
+* Also appears as Flagship of Node D in E-3 of Spring 2015 Event. She showed up in Final Form on Medium and Hard Mode, in Easy Mode she is in her normal form.
+* Second Form of her now appears at 4-5 Node H.
+* Boss of E-2 in the [[Summer 2015 Event]].
+* 1st form resembles [[Naka]], 2nd form resembles [[Agano]]. 
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]
 [[Category:Bosses]]

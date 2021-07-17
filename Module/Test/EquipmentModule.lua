@@ -234,26 +234,69 @@ function equipment.EquipmentInfo(frame)
 end
 
 function equipment.EquipmentList(frame)
-    local equipmentDisplay = frame.args[1]
-    local equipmentType = tonumber(frame.args[2])
+    --local equipmentDisplay = frame.args[1]
+    local equipmentType = tonumber(frame.args[1])
+    local accuracyLabel = 'Accuracy'
+    local evasionLabel = '[[File:icon_Evasion.png|Evasion|link=]]'
+
+	if equipmentType == 48 then
+		accuracyLabel = 'Anti-Bomber'
+		evasionLabel = '[[File:Icon_Interception.png|Interception|link=]]'
+	end
+
+	local planeTypes = {
+		[6] = true,
+		[7] = true,
+		[8] = true,
+		[9] = true,
+		[10] = true,
+		[11] = true,
+		[41] = true,
+		[45] = true,
+		[47] = true,
+		[48] = true,
+		[49] = true,
+		[57] = true,
+		[94] = true
+	}
+
+	local bomberTypes = {
+		[7] = true,
+		[8] = true,
+		[9] = true,
+		[11] = true,
+		[47] = true,
+		[57] = true
+	}
 
     local equipmentListTable = '<table class="wikitable sortable style="width: 100%; min-width: 900px;"><tr>'
     equipmentListTable = equipmentListTable .. '<th style="text-align: center">ID</th>'
     equipmentListTable = equipmentListTable .. '<th style="text-align: center">Name</th>'
-    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(240,128,128);">[[File:icon_Gun.png|Firepower]]</th>'
-    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(135,206,250);">[[File:icon_Torpedo.png|Torpedo]]</th>'
-    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:yellow;">[[File:icon_Armor.png|Armor]]</th>'
-    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(238,130,238);">[[File:icon_Evasion.png|Evasion]]</th>'
-    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(244,164,96);">[[File:icon_AA.png|Anti-Air]]</th>'
-    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(244,164,96);">[[File:Icon Hit.png|Accuracy]]</th>'
-    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(255,245,238);">[[File:icon_ASW.png|Anti-Submarine Warfare]]</th>'
-    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(127,255,212);">[[File:icon_LOS.png|Line of Sight]]</th>'
-    equipmentListTable = equipmentListTable .. '<th style="text-align: center; background-color:rgb(39,235,255);">[[File:IcoRange.png|Range|link=]]</th>'
+    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(240,128,128);">[[File:icon_Gun.png|Firepower|link=]]</th>'
+    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(135,206,250);">[[File:icon_Torpedo.png|Torpedo|link=]]</th>'
+    if bomberTypes[equipmentType] then
+    	equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color: firebrick;">[[File:icon Dive.png|Bombing|link=]]</th>'
+    end
+    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(244,164,96);">[[File:icon_AA.png|Anti-Air|link=]]</th>'
+    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:yellow;">[[File:icon_Armor.png|Armor|link=]]</th>'
+    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(255,245,238);">[[File:icon_ASW.png|Anti-Submarine Warfare|link=]]</th>'
+    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(127,255,212);">[[File:icon_LOS.png|Line of Sight|link=]]</th>'
+    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(244,164,96);">[[File:Icon Hit.png|'.. accuracyLabel ..'|link=]]</th>'
+    equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color:rgb(238,130,238);">'.. evasionLabel ..'</th>'
+    equipmentListTable = equipmentListTable .. '<th style="text-align: center; background-color: lightseagreen;">[[File:Icon_Range.png|Range|link=]]</th>'
+    if planeTypes[equipmentType] then
+    	equipmentListTable = equipmentListTable .. '<th style="text-align: center; vertical-align: middle; background-color: lightseagreen;">[[File:icon_Range.png|Combat Radius|link=]]</th>'
+    end
     equipmentListTable = equipmentListTable .. '<th style="text-align: center;">Craftable</th>'
     equipmentListTable = equipmentListTable .. '<th style="text-align: center;>Improvable</th></tr>'
 
 	local IDList = getSortedIDList()
     for num, id in pairs(IDList) do
+    	if equipmentType == equipment.data[id]["typeID"] then
+            equipmentListTable = equipmentListTable .. equipment.EquipmentListEntry(id)
+        end	
+    	
+    	--[[
         if equipmentDisplay == "kanmusu" then
             if tonumber(id) < 500 then
                 if equipmentType ~= nil and equipmentType ~= "" then
@@ -272,7 +315,7 @@ function equipment.EquipmentList(frame)
                     end
                 else
                     equipmentListTable = equipmentListTable .. equipment.EquipmentListEntry(id)
-                end        
+                end 
             end
         elseif equipmentDisplay == "abyssal" then
             if tonumber(id) > 500 then
@@ -293,6 +336,7 @@ function equipment.EquipmentList(frame)
                 equipmentListTable = equipmentListTable .. equipment.EquipmentListEntry(id)
             end
         end
+        ]]--
     end
     equipmentListTable = equipmentListTable .. '</table>'
     return equipmentListTable
@@ -301,20 +345,48 @@ end
 function equipment.EquipmentListEntry(id)
     local strings = '<tr>'
 
-    local equipmentname = equipment.data[id]["name"][2]
-    local pagename = equipmentname
+	local planeTypes = {
+		[6] = true,
+		[7] = true,
+		[8] = true,
+		[9] = true,
+		[10] = true,
+		[11] = true,
+		[41] = true,
+		[45] = true,
+		[47] = true,
+		[48] = true,
+		[49] = true,
+		[57] = true,
+		[94] = true
+	}
+
+	local bomberTypes = {
+		[7] = true,
+		[8] = true,
+		[9] = true,
+		[11] = true,
+		[47] = true,
+		[57] = true
+	}
 
     strings = strings .. '<td style="text-align: center;">' .. tonumber(id) .. '</td>'
-    strings = strings .. '<td style="text-align: center;">[[' .. pagename .. '|' .. equipmentname ..']]</td>'
+    strings = strings .. '<td style="text-align: center;">[[' .. equipment.data[id]["name"][2] .. '|' .. equipment.data[id]["name"][2] ..']]</br>'.. equipment.data[id]["name"][1]  ..'</td>'
     strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["fp"] .. '</td>'
     strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["torpedo"] .. '</td>'
-    strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["armor"] .. '</td>'
-    strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["evasion"] .. '</td>'
+    if bomberTypes[equipment.data[id]["typeID"]] then
+    	strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["bombing"] .. '</td>'
+    end
     strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["aa"] .. '</td>'
-    strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["accuracy"] .. '</td>'
+    strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["armor"] .. '</td>'
     strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["asw"] .. '</td>'
     strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["los"] .. '</td>'
+    strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["accuracy"] .. '</td>'
+	strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["evasion"] .. '</td>'
     strings = strings .. '<td style="text-align: center;">' .. (equipment.data[id]["range"] or '') .. '</td>'
+    if planeTypes[equipment.data[id]["typeID"]] then
+    	strings = strings .. '<td style="text-align: center;">' .. equipment.data[id]["radius"] .. '</td>'
+    end
     if equipment.data[id]["craftable"] then
         strings = strings .. '<td style="text-align: center;">' .. 'Yes' .. '</td>'
     else

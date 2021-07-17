@@ -1,0 +1,213 @@
+<includeonly><span style="
+	position:absolute;
+	left:{{#expr:{{{x|0}}}-50/2 round 0}}px;
+	top:{{#expr:{{{y|0}}}-50/2 round 0}}px;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	{{#if: {{{tooltip|}}}|cursor:help;" title="{{{tooltip|}}}"|"}}>[[File:{{#if:{{{1|}}}|{{#ifeq:{{{type|}}}|P|Shop|Item}}_Icon_{{{1}}}.png|Empty Equipment Card.png}}|{{#if: {{{type|}}}|50px{{!}} |50px{{!}} }}link={{{link|Shop/Sandbox#{{#if:{{{type|}}}|{{{type}}}_}}{{{1}}}}}}]]
+</span></includeonly><noinclude>
+==Purpose==
+:Item template to be used in a position:relative divider frame.
+:Intended for interactive maps and especially on [[Shop]] page.
+:''This template is loosely based off [[Template:Node]].''
+==Positioning arguments==
+:<code><nowiki>x</nowiki></code>, <code><nowiki>y</nowiki></code>
+:*Top-left most pixel is the origin
+:*Measured in pixel, input without px unit
+:*'''Images are scaled down to 700px width-wise to fit the screen. If you're using the full size image to make those coordinate, you're off by miles.'''
+==Node type argument==
+:<code><nowiki>type</nowiki></code>
+:*Purchased items use: <code><nowiki>type=P</nowiki></code>
+
+==Embedded link & tooltip arguments==
+:<code><nowiki>tooltip</nowiki></code>
+:*Add a mouse-over tooltip with <code><nowiki>cursor:help</nowiki></code> CSS style.
+:<code><nowiki>link</nowiki></code>
+:*Override <code><nowiki>tooltip</nowiki></code> and embed internal wiki link.
+==Sample/result==
+<tabber>保有アイテム=
+<pre>
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map3" style="position:relative;">[[File:Itempanel.png|link=]]
+{{ItemMap|x=47|y=39|Marriage Ring and Documents}}{{clear}}
+{{ItemMap|x=103|y=39|Medal}}{{clear}}
+{{ItemMap|x=159|y=39|Improvement Material}}{{clear}}
+{{ItemMap|x=215|y=39|Food Supply Ship Irako}}{{clear}}
+{{ItemMap|x=271|y=39|Present Box}}{{clear}}
+{{ItemMap|x=327|y=39|Special Chocolate}}{{clear}}
+{{ItemMap|x=382|y=39|First Class Medal}}{{clear}}
+{{ItemMap|x=439|y=39|New Technology Aircraft Blueprint}}{{clear}}
+{{ItemMap|x=47|y=108|Furniture Box (Small)}}{{clear}}
+{{ItemMap|x=103|y=108|Furniture Box (Medium)}}{{clear}}
+{{ItemMap|x=159|y=108|Furniture Box (Large)}}{{clear}}
+{{ItemMap|x=215|y=108|Food Supply Ship Mamiya}}{{clear}}
+{{ItemMap|x=271|y=108|Remodel Blueprint}}{{clear}}
+{{ItemMap|x=327|y=108|Furniture Fairy}}{{clear}}
+{{ItemMap|x=383|y=108|Headquarters Personnel}}{{clear}}
+{{ItemMap|x=439|y=108|Reinforcement Expansion}}{{clear}}
+{{ItemMap|x=47|y=177|Instant Repair Material}}{{clear}}
+{{ItemMap|x=103|y=177|Instant Construction Material}}{{clear}}
+{{ItemMap|x=159|y=177|Development Material}}{{clear}}
+{{ItemMap|x=215|y=177|Dock Opening Key}}{{clear}}
+{{ItemMap|x=271|y=177|Emergency Repair Personnel}}{{clear}}
+{{ItemMap|x=327|y=177|Emergency Repair Goddess}}{{clear}}
+{{ItemMap|x=383|y=177|Hishimochi}}{{clear}}
+{{ItemMap|x=439|y=177|Saury|link=Shop#Seasonal}}{{clear}}
+{{ItemMap|x=47|y=246|Skilled Crew Member}}{{clear}}
+{{ItemMap|x=103|y=246|Prototype Flight Deck Catapult}}{{clear}}
+{{ItemMap|x=159|y=246|Ne Type Engine}}{{clear}}
+{{ItemMap|x=215|y=246|Canned Saury}}{{clear}}
+{{ItemMap|x=271|y=246|Combat Ration}}{{clear}}
+{{ItemMap|x=327|y=246|Underway Replenishment}}{{clear}}
+{{ItemMap|x=383|y=246|Construction Corps}}{{clear}}
+{{ItemMap|x=439|y=246|Submarine Supply Material}}{{clear}}
+</div>
+{{clear}}
+</pre>
+
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map3" style="position:relative;">[[File:Itempanel.png|link=]]
+{{ItemMap|x=47|y=39|Marriage Ring and Documents}}{{clear}}
+{{ItemMap|x=103|y=39|Medal}}{{clear}}
+{{ItemMap|x=159|y=39|Improvement Material}}{{clear}}
+{{ItemMap|x=215|y=39|Food Supply Ship Irako}}{{clear}}
+{{ItemMap|x=271|y=39|Present Box}}{{clear}}
+{{ItemMap|x=327|y=39|Special Chocolate}}{{clear}}
+{{ItemMap|x=382|y=39|First Class Medal}}{{clear}}
+{{ItemMap|x=439|y=39|New Technology Aircraft Blueprint}}{{clear}}
+{{ItemMap|x=47|y=108|Furniture Box (Small)}}{{clear}}
+{{ItemMap|x=103|y=108|Furniture Box (Medium)}}{{clear}}
+{{ItemMap|x=159|y=108|Furniture Box (Large)}}{{clear}}
+{{ItemMap|x=215|y=108|Food Supply Ship Mamiya}}{{clear}}
+{{ItemMap|x=271|y=108|Remodel Blueprint}}{{clear}}
+{{ItemMap|x=327|y=108|Furniture Fairy}}{{clear}}
+{{ItemMap|x=383|y=108|Headquarters Personnel}}{{clear}}
+{{ItemMap|x=439|y=108|Reinforcement Expansion}}{{clear}}
+{{ItemMap|x=47|y=177|Instant Repair Material}}{{clear}}
+{{ItemMap|x=103|y=177|Instant Construction Material}}{{clear}}
+{{ItemMap|x=159|y=177|Development Material}}{{clear}}
+{{ItemMap|x=215|y=177|Dock Opening Key}}{{clear}}
+{{ItemMap|x=271|y=177|Emergency Repair Personnel}}{{clear}}
+{{ItemMap|x=327|y=177|Emergency Repair Goddess}}{{clear}}
+{{ItemMap|x=383|y=177|Hishimochi}}{{clear}}
+{{ItemMap|x=439|y=177|Saury|link=Shop#Seasonal}}{{clear}}
+{{ItemMap|x=47|y=246|Skilled Crew Member}}{{clear}}
+{{ItemMap|x=103|y=246|Prototype Flight Deck Catapult}}{{clear}}
+{{ItemMap|x=159|y=246|Ne Type Engine}}{{clear}}
+{{ItemMap|x=215|y=246|Canned Saury}}{{clear}}
+{{ItemMap|x=271|y=246|Combat Ration}}{{clear}}
+{{ItemMap|x=327|y=246|Underway Replenishment}}{{clear}}
+{{ItemMap|x=383|y=246|Construction Corps}}{{clear}}
+{{ItemMap|x=439|y=246|Submarine Supply Material}}{{clear}}
+</div>
+{{clear}}
+
+|-|拡張アイテム=
+<pre>
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map5" style="position:relative;">[[File:ExtendedItempanel.png|link=]]
+<!--{{ItemMap|x=39|y=39|placeholder10}}{{clear}}-->
+<!--{{ItemMap|x=95|y=39|placeholder11}}{{clear}}-->
+{{ItemMap|x=151|y=39|Action Report}}{{clear}}
+{{ItemMap|x=39|y=108|New Model Gun Mount Improvement Material}}{{clear}}
+{{ItemMap|x=95|y=108|New Model Aerial Armament Material}}{{clear}}
+{{ItemMap|x=151|y=108|New Model Rocket Development Material}}{{clear}}
+{{ItemMap|x=39|y=177|Combat Ration (Special Onigiri)}}{{clear}}
+{{ItemMap|x=95|y=177|Emergency Repair Material}}{{clear}}
+{{ItemMap|x=151|y=177|New Model Armament Material}}{{clear}}
+{{ItemMap|x=39|y=246|Xmas Select Gift Box}}{{clear}}
+<!--{{ItemMap|x=95|y=246|placeholder15}}{{clear}}-->
+<!--{{ItemMap|x=151|y=246|placeholder16}}{{clear}}-->
+</div>
+{{clear}}
+</pre>
+
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map5" style="position:relative;">[[File:ExtendedItempanel.png|link=]]
+<!--{{ItemMap|x=39|y=39|placeholder10}}{{clear}}-->
+<!--{{ItemMap|x=95|y=39|placeholder11}}{{clear}}-->
+{{ItemMap|x=151|y=39|Action Report}}{{clear}}
+{{ItemMap|x=39|y=108|New Model Gun Mount Improvement Material}}{{clear}}
+{{ItemMap|x=95|y=108|New Model Aerial Armament Material}}{{clear}}
+{{ItemMap|x=151|y=108|New Model Rocket Development Material}}{{clear}}
+{{ItemMap|x=39|y=177|Combat Ration (Special Onigiri)}}{{clear}}
+{{ItemMap|x=95|y=177|Emergency Repair Material}}{{clear}}
+{{ItemMap|x=151|y=177|New Model Armament Material}}{{clear}}
+{{ItemMap|x=39|y=246|Xmas Select Gift Box}}{{clear}}
+<!--{{ItemMap|x=95|y=246|placeholder15}}{{clear}}-->
+<!--{{ItemMap|x=151|y=246|placeholder16}}{{clear}}-->
+</div>
+{{clear}}
+
+|-|購入済みアイテム=
+<pre>
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map4" style="position:relative;">[[File:購入済みアイテム_249.png|link=]]
+{{ItemMap|x=50|y=68|type=P|Fuel}}{{clear}}
+{{ItemMap|x=106|y=68|type=P|Ammo}}{{clear}}
+{{ItemMap|x=162|y=68|type=P|Steel}}{{clear}}
+{{ItemMap|x=252|y=68|type=P|Bauxite}}{{clear}}
+{{ItemMap|x=308|y=68|type=P|Emergency Repair Personnel}}{{clear}}
+{{ItemMap|x=365|y=68|type=P|Emergency Repair Goddess}}{{clear}}
+{{ItemMap|x=422|y=68|type=P|Combat Ration}}{{clear}}
+{{ItemMap|x=50|y=144|type=P|Development Material}}{{clear}}
+{{ItemMap|x=106|y=144|type=P|Instant Construction Material}}{{clear}}
+{{ItemMap|x=162|y=144|type=P|Instant Repair Material}}{{clear}}
+{{ItemMap|x=252|y=144|type=P|Discounted Arsenal Set}}{{clear}}
+{{ItemMap|x=308|y=144|type=P|Discounted Sortie Set}}{{clear}}
+{{ItemMap|x=365|y=144|type=P|Dock Expansion Set}}{{clear}}
+{{ItemMap|x=422|y=144|type=P|Underway Replenishment}}{{clear}}
+{{ItemMap|x=50|y=218|type=P|88 Resource Set}}{{clear}}
+{{ItemMap|x=106|y=219|type=P|Furniture Fairy}}{{clear}}
+{{ItemMap|x=162|y=219|type=P|Tanker Expropriation}}{{clear}}
+{{ItemMap|x=252|y=219|type=P|Homeport Expansion}}{{clear}}
+{{ItemMap|x=308|y=219|type=P|Food Supply Ship Mamiya}}{{clear}}
+{{ItemMap|x=365|y=219|type=P|Aluminium Mass Production}}{{clear}}
+{{ItemMap|x=422|y=219|type=P|Reinforcement Expansion}}{{clear}}
+{{ItemMap|x=50|y=292|type=P|Marriage Ring and Documents}}{{clear}}
+{{ItemMap|x=106|y=294|type=P|White Day Cookies}}{{clear}}
+{{ItemMap|x=162|y=294|type=P|Food Supply Ship Irako}}{{clear}}
+{{ItemMap|x=252|y=294|type=P|Improvement Material}}{{clear}}
+{{ItemMap|x=308|y=294|type=P|Construction Corps}}{{clear}}
+{{ItemMap|x=365|y=294|type=P|Emergency Repair Material}}{{clear}}
+{{ItemMap|x=422|y=294|type=P|Submarine Supply Material}}{{clear}}
+</div>
+{{clear}}
+</pre>
+
+<div style="text-align:center;color:red">Interactive map. Click on the icons to see more detail.</div>
+<div id="map4" style="position:relative;">[[File:購入済みアイテム_249.png|link=]]
+{{ItemMap|x=50|y=68|type=P|Fuel}}{{clear}}
+{{ItemMap|x=106|y=68|type=P|Ammo}}{{clear}}
+{{ItemMap|x=162|y=68|type=P|Steel}}{{clear}}
+{{ItemMap|x=252|y=68|type=P|Bauxite}}{{clear}}
+{{ItemMap|x=308|y=68|type=P|Emergency Repair Personnel}}{{clear}}
+{{ItemMap|x=365|y=68|type=P|Emergency Repair Goddess}}{{clear}}
+{{ItemMap|x=422|y=68|type=P|Combat Ration}}{{clear}}
+{{ItemMap|x=50|y=144|type=P|Development Material}}{{clear}}
+{{ItemMap|x=106|y=144|type=P|Instant Construction Material}}{{clear}}
+{{ItemMap|x=162|y=144|type=P|Instant Repair Material}}{{clear}}
+{{ItemMap|x=252|y=144|type=P|Discounted Arsenal Set}}{{clear}}
+{{ItemMap|x=308|y=144|type=P|Discounted Sortie Set}}{{clear}}
+{{ItemMap|x=365|y=144|type=P|Dock Expansion Set}}{{clear}}
+{{ItemMap|x=422|y=144|type=P|Underway Replenishment}}{{clear}}
+{{ItemMap|x=50|y=218|type=P|88 Resource Set}}{{clear}}
+{{ItemMap|x=106|y=219|type=P|Furniture Fairy}}{{clear}}
+{{ItemMap|x=162|y=219|type=P|Tanker Expropriation}}{{clear}}
+{{ItemMap|x=252|y=219|type=P|Homeport Expansion}}{{clear}}
+{{ItemMap|x=308|y=219|type=P|Food Supply Ship Mamiya}}{{clear}}
+{{ItemMap|x=365|y=219|type=P|Aluminium Mass Production}}{{clear}}
+{{ItemMap|x=422|y=219|type=P|Reinforcement Expansion}}{{clear}}
+{{ItemMap|x=50|y=292|type=P|Marriage Ring and Documents}}{{clear}}
+{{ItemMap|x=106|y=294|type=P|White Day Cookies}}{{clear}}
+{{ItemMap|x=162|y=294|type=P|Food Supply Ship Irako}}{{clear}}
+{{ItemMap|x=252|y=294|type=P|Improvement Material}}{{clear}}
+{{ItemMap|x=308|y=294|type=P|Construction Corps}}{{clear}}
+{{ItemMap|x=365|y=294|type=P|Emergency Repair Material}}{{clear}}
+{{ItemMap|x=422|y=294|type=P|Submarine Supply Material}}{{clear}}
+</div>
+{{clear}}
+</tabber>
+
+</noinclude>

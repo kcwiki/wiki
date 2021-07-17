@@ -1,0 +1,35 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "Swordfish Mk.III (Skilled)",
+    _id = 244,
+    _japanese_name = "Swordfish Mk.III(熟練)",
+    _reading = nil,
+    _type = 8, -- 3,5,8,8,28
+    _icon = 8,
+    _rarity = 4,
+    _firepower = 4,
+    _bombing = false,
+    _torpedo = 8,
+    _aa = false,
+    _armor = false,
+    _asw = 10,
+    _shelling_accuracy = 4,
+    _torpedo_accuracy = false,
+    _evasion = false,
+    _los = 5,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = 4,
+    _flight_range = 3,
+    _special = false,
+    _scrap_fuel = 1,
+    _scrap_ammo = 3,
+    _scrap_steel = false,
+    _scrap_bauxite = 2,
+    _buildable = false,
+    _info = "複葉非全金属製の旧世代低速機でありながら、高い信頼性と運用性、優れた運動性を誇る、メカジキの名を持つ紅茶の国の傑作機。戦艦「Bismarck」と英艦隊との激闘で大殊勲となる一撃を放つなど、旧式ながら赫々たる戦果をおさめた名機、その哨戒や対潜性能を高めた後期改良型を駆る精鋭飛行隊です。",
+    _upgradable = false,
+}

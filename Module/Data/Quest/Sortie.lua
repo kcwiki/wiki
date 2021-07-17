@@ -273,7 +273,7 @@ return {
     reward_steel = 300,
     reward_bauxite = 900,
     reward_other = [=[[[File:Furniture box large.jpg|30px|link=Furniture]] x1<br>[[File:Instant repair 2.png|30px|link=Tutorial:_FAQ#What_are_buckets.3F]] x3]=],
-    note = [=[Requires: [[Quests#D10|D10]]<br />Unlocks: [[Quests#B114|B114]], [[Quests#Bq12|Bq12]](?), [[Quests#B114|C22]](?)]=],
+    note = [=[Requires: [[Quests#D10|D10]]<br />Unlocks: [[Quests#B114|B114]], [[Quests#Bq12|Bq12]](?), [[Quests#C22|C22]](?)]=],
   },
   {
     label = 'B24',
@@ -1263,7 +1263,7 @@ return {
     label = 'B106',
     title = '夜間作戦空母、前線に出撃せよ！',
     title_en = [=[Night Carrier, to the Front Lines!]=],
-    detail_en = [=[Sortie a fleet with {{ShipLink|Saratoga Mk.II}} as flagship and up to 5 additonal ships to World [[6-5]]. Obtain a S-rank at the boss node.<br />]=],
+    detail_en = [=[Sortie a fleet with {{ShipLink|Saratoga Mk.II}} as flagship and up to 5 additonal ships to World [[6-5]]. Obtain a S-rank at the boss node.<br>'''{{color|red|※ {{ShipLink|Saratoga/Mk.II Mod.2}} does not count as {{ShipLink|Saratoga/Mk.II}} for this quest.  Do this before remodeling.}}''']]=],
     reward_fuel = 0,
     reward_ammo = 0,
     reward_steel = 0,

@@ -1,0 +1,360 @@
+==Enemy patterns==
+{{Section}}
+{{Map/Image|
+{{Map/ImageNode|Start|x=82|y=221}}
+{{Map/ImageNode|A|x=152|y=142}}
+{{Map/ImageNode|B|x=218|y=204}}
+{{Map/ImageNode|C|x=235|y=120}}
+{{Map/ImageNode|D|x=239|y=291}}
+{{Map/ImageNode|E|x=312|y=186}}
+{{Map/ImageNode|F|x=336|y=93}}
+{{Map/ImageNode|G|x=345|y=246}}
+{{Map/ImageNode|H|x=379|y=309}}
+{{Map/ImageNode|I|x=424|y=134}}
+{{Map/ImageNode|J|x=453|y=204}}
+{{Map/ImageNode|K|x=457|y=168}}
+{{Map/ImageNode|L|x=488|y=288}}
+{{Map/ImageNode|M|x=512|y=106}}
+{{Map/ImageNode|N|x=561|y=246}}
+{{Map/ImageNode|O|x=608|y=299}}
+{{Map/ImageNode|P|x=617|y=211}}
+}}
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+{{Map/Nodes|name=敵北方艦隊 哨戒部隊
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Echelon}}
+|160
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser To-Class/Elite
+|Light Cruiser Ho-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Echelon}}
+|180
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser To-Class/Elite
+|Light Cruiser Ho-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|A
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Echelon}}
+|190
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Light Cruiser To-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=敵北方艦隊　哨戒部隊
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Echelon}}
+|160
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser To-Class/Elite
+|Light Cruiser Ho-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Echelon}}
+|180
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser To-Class/Elite
+|Light Cruiser Ho-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Echelon}}
+|190
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Light Cruiser To-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=敵北方艦隊　前衛部隊
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|180
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Elite
+|Light Carrier Nu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|200
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Elite
+|Light Carrier Nu-Class/Elite
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|220
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=
+|D
+|Storm
+|Fuel
+|?%
+}}
+{{Map/Nodes|name=
+|E
+|Resource
+|Bauxite
+|30~150
+}}
+{{Map/Nodes|name=
+|F
+|Storm
+|Fuel
+|?%
+}}
+{{Map/Nodes|name=敵北方艦隊　機動部隊
+|G
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}{{Formation|Diamond}}
+|300
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Elite
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|G
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}{{Formation|Diamond}}
+|320
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+}}
+{{Map/Nodes|name=敵北方艦隊 重水雷戦隊
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|200
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}
+|210
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Elite
+|Torpedo Cruiser Chi-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|220
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|230
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=
+|I
+|Empty
+}}
+{{Map/Nodes|name=
+|J
+|Empty
+}}
+{{Map/Nodes|name=
+|K
+|Resource
+|Coinbox3
+|1
+}}
+{{Map/Nodes|name=
+|L
+|Empty
+}}
+{{Map/Nodes|name=敵北方艦隊 泊地防衛部隊
+|M
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|250
+|Heavy Cruiser Ri-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|M
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|270
+|Heavy Cruiser Ri-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|M
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|280
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+}}
+{{Map/Nodes|name=敵北方艦隊 泊地防衛部隊
+|N
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|250
+|Heavy Cruiser Ri-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|N
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|270
+|Heavy Cruiser Ri-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|N
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|280
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+}}
+{{Map/Nodes|name=
+|O
+|Resource
+|Coinbox2
+|1
+}}
+{{Map/Nodes|name=深海棲艦 北方艦隊中枢
+|P
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|420
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|P
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|420
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|-
+|P
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|400
+|Standard Carrier Wo-Class/Flagship
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|-
+|P
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|410
+|Standard Carrier Wo-Class/Flagship
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|Torpedo Cruiser Chi-Class/Flagship
+|-
+|P
+|Boss/BaseXP
+|{{Formation|Line Ahead}}
+|420
+|Standard Carrier Wo-Class/Flagship
+|Standard Carrier Wo-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Tenzan Model 12A",
+  _id = 372,
+  _japanese_name = "天山一二型甲",
+  _reading = "てんざんいちにがたこう",
+  _type = 8, -- 3,5,8,8,1
+  _icon = 8,
+  _rarity = 3,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = 9,
+  _aa = 1,
+  _armor = false,
+  _asw = 4,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = 2,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 7,
+  _flight_range = 5,
+  _special = false,
+  _scrap_fuel = 2,
+  _scrap_ammo = 5,
+  _scrap_steel = false,
+  _scrap_bauxite = 5,
+  _buildable = false,
+  _info = "「九七艦攻」の後継機として開発された艦上攻撃機「天山」。発動機を換装し、武装を強化。さらに細部を改修した「天山」の改良後期型です。「翔鶴」「瑞鶴」、そして「大鳳」などの航空母艦で運用して、戦果を挙げたいですね。",
+}

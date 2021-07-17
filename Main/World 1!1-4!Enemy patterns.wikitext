@@ -1,0 +1,265 @@
+==Enemy patterns==
+{{Section}}
+{{Map/Image|
+{{Map/ImageNode|Start|x=87|y=168}}
+{{Map/ImageNode|A|x=180|y=222}}
+{{Map/ImageNode|B|x=184|y=127}}
+{{Map/ImageNode|C|x=277|y=137}}
+{{Map/ImageNode|D|x=279|y=279}}
+{{Map/ImageNode|E|x=368|y=217}}
+{{Map/ImageNode|F|x=394|y=114}}
+{{Map/ImageNode|G|x=410|y=281}}
+{{Map/ImageNode|H|x=474|y=208}}
+{{Map/ImageNode|I|x=522|y=91}}
+{{Map/ImageNode|J|x=535|y=261}}
+{{Map/ImageNode|K|x=612|y=300}}
+{{Map/ImageNode|L|x=609|y=195}}
+}}
+
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+{{NodeInfo
+|A
+|Empty
+}}
+{{Map/Nodes|name=敵偵察艦隊
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|90
+|Light Cruiser He-Class
+|Light Cruiser He-Class
+|Destroyer Ha-Class
+|Destroyer Ha-Class
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|90
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|90
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+}}
+{{NodeInfo
+|C
+|Resource
+|Steel
+|10~20
+}}
+{{Map/Nodes|name=敵偵察艦隊
+|D
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|90
+|Light Cruiser He-Class
+|Light Cruiser He-Class
+|Destroyer Ha-Class
+|Destroyer Ha-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|90
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|90
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|Destroyer I-Class
+}}
+{{NodeInfo
+|E
+|Resource
+|Ammo
+|10~20
+}}
+{{NodeInfo
+|F
+|Empty
+}}
+{{NodeInfo
+|G
+|Resource
+|Bauxite
+|10~20
+}}
+{{Map/Nodes|name=敵前衛任務部隊I軍
+|H
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|100
+|Light Carrier Nu-Class
+|Light Carrier Nu-Class
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|120
+|Light Carrier Nu-Class
+|Light Carrier Nu-Class
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+}}
+{{Map/Nodes|name=敵前衛任務部隊II群
+|I
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|90
+|Light Carrier Nu-Class
+|Heavy Cruiser Ri-Class
+|Light Cruiser Ho-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|I
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|100
+|Light Carrier Nu-Class
+|Light Carrier Nu-Class
+|Light Cruiser Ho-Class
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|I
+|Normal/BaseXP
+|{{Formation|Diamond}}
+|110
+|Light Carrier Nu-Class
+|Light Carrier Nu-Class
+|Heavy Cruiser Ri-Class
+|Light Cruiser Ho-Class
+|Destroyer I-Class
+|Destroyer I-Class
+}}
+{{Map/Nodes|name=敵支援打撃任務群
+|J
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|110
+|Battleship Ru-Class
+|Torpedo Cruiser Chi-Class
+|Torpedo Cruiser Chi-Class
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|J
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|120
+|Battleship Ru-Class
+|Light Carrier Nu-Class
+|Light Cruiser He-Class
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|J
+|Normal/BaseXP
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|130
+|Battleship Ru-Class
+|Light Carrier Nu-Class
+|Light Carrier Nu-Class
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+}}
+{{NodeInfo
+|K
+|Empty
+}}
+{{Map/Nodes|name=敵機動部隊
+|L
+|Boss/BaseXP
+|{{Formation|Diamond}}
+|120
+|Standard Carrier Wo-Class
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|L
+|Boss/BaseXP
+|{{Formation|Diamond}}
+|125
+|Standard Carrier Wo-Class
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer Ha-Class
+|Destroyer Ha-Class
+|Destroyer Ha-Class
+|-
+|L
+|Boss/BaseXP
+|{{Formation|Diamond}}
+|130
+|Standard Carrier Wo-Class
+|Light Carrier Nu-Class
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer Ro-Class
+|Destroyer Ro-Class
+|-
+|L
+|Boss/BaseXP
+|{{Formation|Diamond}}
+|135
+|Standard Carrier Wo-Class
+|Light Carrier Nu-Class
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer Ha-Class
+|Destroyer Ha-Class
+|-
+|L
+|Boss/BaseXP
+|{{Formation|Diamond}}
+|140
+|Standard Carrier Wo-Class
+|Standard Carrier Wo-Class
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer Ha-Class
+|Destroyer Ha-Class
+|-
+|L
+|Boss/BaseXP
+|{{Formation|Diamond}}
+|150
+|Standard Carrier Wo-Class
+|Standard Carrier Wo-Class
+|Heavy Cruiser Ri-Class
+|Light Cruiser He-Class
+|Destroyer Ni-Class
+|Destroyer Ni-Class
+}}
+
+</div> <!-- overflow -->
+{{SectionEnd}}

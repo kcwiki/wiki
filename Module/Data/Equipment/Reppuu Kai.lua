@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Reppuu Kai",
+  _id = 333,
+  _japanese_name = "烈風改",
+  _reading = nil,
+  _type = 48, -- 22,39,48,38,34
+  _icon = 38,
+  _rarity = 4,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 10,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = 6,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 9,
+  _flight_range = 4,
+  _special = false,
+  _scrap_fuel = 2,
+  _scrap_ammo = 4,
+  _scrap_steel = false,
+  _scrap_bauxite = 9,
+  _buildable = false,
+  _info = "名機「零戦」の後継機として開発された、最新鋭艦上戦闘機「烈風」。同機をベースに高高度で重爆を邀撃するために排気タービン過給器、そして30mm機銃を斜め銃含めて計6挺を装備した、圧倒的火力を持つ重武装局地戦闘機として開発が進められていたのが、本機「烈風改」です。<br>幻の翼を、提督の航空隊に！",
+}

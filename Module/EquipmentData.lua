@@ -424,10 +424,22 @@ function EquipmentData:is_lbas_ha_bomber()
     return self:id() >= 501 and self:type() == 7 and self:range() == 4
 end
 
+function EquipmentData:is_lbas_attack_aircraft()
+    return self:type() == 47 or self:type() == 53
+end
+
 function EquipmentData:is_large_caliber_main_gun()
 	local eq_type = self:type()
 	return eq_type == 3 -- Large Caliber Main Gun
 		or eq_type == 38 -- Large Caliber Main Gun (II)
+end
+
+function EquipmentData:is_aafd()
+	return self:aa() and self:aa() >= 8
+end
+
+function EquipmentData:is_not_aafd()
+	return not (self:is_aafd())
 end
 
 function EquipmentData:is_carrier_based_reconnaissance_aircraft()

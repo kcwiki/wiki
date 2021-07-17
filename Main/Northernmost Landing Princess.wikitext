@@ -1,97 +1,29 @@
 ==Info==
-{|
-|-
-| valign="top" |
-{{enemyshipinfo
-|color = red
-|name = Northernmost Landing Princess (A)
-|japanesename = 北端上陸姫
-|image = [[File:Seikan1725.png|300px]]
-|id = 1725
-|class = Abyssal
-|type = Aviation Battleship 
-|hp = 650
-|firepower = 150
-|armor = 136
-|torpedo = 0
-|evasion = ??
-|aircraft = ??
-|AA = 88
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = None
-|range = ??
-|slot = 4
-|slot1= ??
-|slot2= ??
-|slot3= ??
-|slot4= ??
-}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo
-|color = red
-|name = Northernmost Landing Princess (B)
-|japanesename = 北端上陸姫
-|image = [[File:Seikan1725.png|300px]]
-|id = 1726
-|class = Abyssal
-|type = Aviation Battleship 
-|hp = 670
-|firepower = 170
-|armor = 166
-|torpedo = 0
-|evasion = ??
-|aircraft = ??
-|AA = 98
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = None
-|range = ??
-|slot = 4
-|slot1= ??
-|slot2= ??
-|slot3= ??
-|slot4= ??
-}}
-| style="width:50px;" |
-| valign="top" |
-{{enemyshipinfo
-|color = red
-|name = Northernmost Landing Princess (C)
-|japanesename = 北端上陸姫
-|image = [[File:Seikan1725.png|300px]]
-|id = 1727
-|class = Abyssal
-|type = Aviation Battleship 
-|hp = 690
-|firepower = 190
-|armor = 186
-|torpedo = 0
-|evasion = ??
-|aircraft = ??
-|AA = 108
-|ASW = ??
-|LOS = ??
-|luck = ??
-|speed = None
-|range = ??
-|slot = 4
-|slot1= ??
-|slot2= ??
-|slot3= ??
-|slot4= ??
-}}
-|}
+<div style="display: inline-block;">
+===Basic===
+{{EnemyShipInfoKai|{{PAGENAME}}/}}
+</div>
+<div style="display: inline-block;">
+===Basic II===
+{{EnemyShipInfoKai|{{PAGENAME}}/II}}
+</div>
+<div style="display: inline-block;">
+===Basic III===
+{{EnemyShipInfoKai|{{PAGENAME}}/III}}
+</div>
+{{EnemyShipCategoriesKai|{{PAGENAME}}/}}
 
 ==Quotes==
 
+{{Abyssquote|開幕前 = コリナイ……。コタチ…………。|Clip1 = {{Audio|file=Northernmost Landing Princess Intro.ogg}}|EN1 = Obstinate girls...|Clip0 = {{Audio|file=Northernmost Landing Princess Attack.ogg}}|砲撃 = コリナイ……。コタチ…………。|EN0 = Obstinate girls...|Clip2 = {{Audio|file=Northernmost Landing Princess Damaged.ogg}}|被弾 = イイデショウ…。|EN2 = Very well...|Clip3 = {{Audio|file=Northernmost Landing Princess Destroyed.ogg}}|昼戦終了時 = シズカナ…シズカナジダイデ…キット…|EN3 = I'll definitely... in peaceful... peaceful times...}}
+== Character ==
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://myanimelist.net/people/10981/Yui_Ogura Ogura Yui] (小倉唯)
 
 ==Trivia==
+* [[Spring 2017 Event]] E-4 boss.
+*She is currently the only installation that is '''not''' immune to {{Torpedo}} stat. This means that during a night battle, the ships with torpedo capabilities will deal full damage against her. Note that she is still immune to torpedo based attacks, which does not include the airstrikes.
 
-
-{{enemyshiplist}}
-[[Category:Bosses]]
+{{Enemyshiplist}}
+[[Category:Enemy Vessel]]
 [[Category:Abyssal Land Bases]]
+[[Category:Bosses]]

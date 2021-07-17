@@ -1,0 +1,60 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "16inch Mk.VIII Twin Gun Mount Kai",
+  _id = 332,
+  _japanese_name = "16inch Mk.VIII連装砲改",
+  _reading = "16インチ マークエイトれんそうほうかい",
+  _type = 3, -- 1,1,3,3,0
+  _icon = 3,
+  _rarity = 4,
+  _firepower = 21,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 6,
+  _armor = 2,
+  _asw = false,
+  _shelling_accuracy = 4,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 3,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 15,
+  _scrap_steel = 22,
+  _scrap_bauxite = 6,
+  _buildable = false,
+  _info = "米国で建造されたビッグセブン、「Colorado」級。その初期の主砲兵装として採用された標準的な16inch連装主砲、その改良型のさらなる強化版兵装です。<br>16inch連装主砲に改良を加え、さらに近接対空兵装も充実させました。改装後の「Colorado」級戦艦で装備運用することで、特に高い砲戦能力を発揮します。",
+  _improvements = {
+		_fuel = 40,
+		_ammo = 380,
+		_steel = 560,
+		_bauxite = 160,
+		_products = {
+			[false] = {
+				_ships = {
+					["Colorado/Kai"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 8,
+					_development_material_x = 10,
+					_improvement_material = 5,
+					_improvement_material_x = 6,
+					_equipment = {["41cm Twin Gun Mount"] = 3},
+				},
+				[6] = {
+					_development_material = 16,
+					_development_material_x = 18,
+					_improvement_material = 7,
+					_improvement_material_x = 8,
+					_equipment = {["41cm Twin Gun Mount"] = 4},
+				},
+			},
+		},
+	},
+}

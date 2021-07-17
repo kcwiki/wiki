@@ -30,7 +30,7 @@ Additionally, every time the Jet Assault Phase is triggered, {{Steel}} is ''auto
 
 <math>\text{Jet Phase Cost} = \sum^{\text{All Jets}} \lceil \text{Slot Size} \times \text{Steel Cost} \rceil</math>
 
-Steel Cost is 2.6 for {{EquipmentLink|Kikka Kai}} and 2.8 for {{EquipmentLink|Jet Keiun Kai}}.
+Steel Cost is 2.6 for {{Equipment/Link|Kikka Kai}} and 2.8 for {{Equipment/Link|Jet Keiun Kai}}.
 
 =Stage 1 - Battle for Air Superiority=
 
@@ -322,123 +322,149 @@ This property is arbitrary to each aircraft, but loosely fit in the following ca
 * '''Average resistance:''' Aircraft that presents a resistance of 0.6/0.7
 * '''Low resistance:''' Aircraft that presents a resistance of 0.6/1.0
 
-{| class="wikitable mw-collapsible mw-collapsed" style="text-align: center; border-width:0.2px; margin: auto; width: 500px;"
+{| class="wikitable mw-collapsible" style="text-align: center; border-width:0.2px; margin: auto;"
 |-
-! colspan="3" | AA Resist Planes
+! colspan="4" style="width:680px; | AA Resist Planes
 |-
-!style=" width:128px;"|Plane
+!style="width:448px;"|Plane
+!style="width:64px;"|Air State Modifier
 !style="width:64px;"|Ship AA Modifier
 !style="width:64px;"|Fleet AA Modifier
 |-
-! colspan="3" | {{BluePlane}} Torpedo Bombers
+! colspan=4 style="background-color:#AFCDFF;" | {{BluePlane}}{{Night Torpedo Bomber}} Torpedo Bombers
+|- 
+|style="text-align: left;"| {{EquipmentLink|Type 97 Torpedo Bomber (Tomonaga Squadron)}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Tenzan Model 12 (Tomonaga Squadron)}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Type 97 Torpedo Bomber (Murata Squadron)}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Tenzan Model 12 (Murata Squadron)}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Tenzan Model 12A Kai (Skilled w/ Type 6 Airborne Radar Kai)}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Ryuusei Kai (CarDiv 1/Skilled)}}
+|1
+|0.6
+|1
 |-
-|style="text-align: left; "| {{EquipmentLink|Type 97 Torpedo Bomber (Murata Squadron)}}
-| 0.6
-| 1.0
+! colspan=4 style="background-color:#FFB7B7;" | {{RedPlane}} Dive Bombers
+|- 
+|style="text-align: left;"| {{EquipmentLink|Type 99 Dive Bomber (Egusa Squadron)}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Suisei (Egusa Squadron)}}
+|1
+|0.6
+|0.7
+|- 
+|style="text-align: left;"| {{EquipmentLink|Zero Fighter Model 62 (Fighter-bomber / Iwai Squadron)}}
+|1
+|0.6
+|0.7
+|- 
+|style="text-align: left;"| {{EquipmentLink|Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)}}
+|1
+|0.6
+|1
+|- 
+! colspan=4 style="background-color:#C3FFB2;" | {{Seaplane}} Seaplane Bombers
+|- 
+|style="text-align: left;"| {{EquipmentLink|Zuiun (634 Air Group)}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Zuiun Model 12}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Zuiun Model 12 (634 Air Group)}}
+|1
+|0.6
+|0.7
+|- 
+|style="text-align: left;"| {{EquipmentLink|Zuiun (634 Air Group/Skilled)}}
+|1
+|0.6
+|0.7 
+|- 
+|style="text-align: left;"| {{EquipmentLink|Zuiun Kai Ni (634 Air Group)}}
+|1
+|0.5
+|0.7
+|- 
+|style="text-align: left;"| {{EquipmentLink|Zuiun Kai Ni (634 Air Group/Skilled)}}
+|1
+|0.5
+|0.5
 |-
-|style="text-align: left; "| {{EquipmentLink|Tenzan Model 12 (Murata Squadron)}}
-| 0.6
-| 1.0
+! colspan=4 style="background-color:#FAFFB4;" | {{JetFighterBomber1}}{{JetFighterBomber2}} Jet-type Aircraft
+|- 
+|style="text-align: left;;"| {{Equipment/Link|Jet Keiun Kai}}
+|0.6
+|0.5
+|0.7
+|- 
+|style="text-align: left;"| {{Equipment/Link|Kikka Kai}}
+|0.6
+|0.5
+|0.5
 |-
-|style="text-align: left; "| {{EquipmentLink|Type 97 Torpedo Bomber (Tomonaga Squadron)}}
-| 0.6
-| 1.0
-|-
-|style="text-align: left; "| {{EquipmentLink|Tenzan Model 12 (Tomonaga Squadron)}}
-| 0.6
-| 1.0
-|-
-|style="text-align: left; "| {{EquipmentLink|Ryuusei Kai (CarDiv 1/Skilled)}}
-| 0.6
-| 1.0
-|-
-|style="text-align: left; "| {{EquipmentLink|Tenzan Model 12A Kai (Skilled w/ Type 6 Airborne Radar Kai)|text=Tenzan Model 12A Kai (Skilled w/ Type 6 Radar)}}
-| 0.6
-| 1.0
-|-
-! colspan="3" | {{RedPlane}} Dive Bombers
-|-
-|style="text-align: left; "| {{EquipmentLink|Type 99 Dive Bomber (Egusa Squadron)}}
-| 0.6
-| 1.0
-|-
-|style="text-align: left; "| {{EquipmentLink|Suisei (Egusa Squadron)}}
-| 0.6
-| 0.7
-|-
-|style="text-align: left; "| {{EquipmentLink|Zero Fighter Model 62 (Fighter-bomber/Iwai Squadron)}}
-| 0.6
-| 0.7
-|-
-|style="text-align: left; "| {{EquipmentLink|Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)}}
-| 0.6
-| 1.0
-|-
-|style="text-align: left; "| {{EquipmentLink|Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)}}
-| 0.6
-| 1.0
-|-
-! colspan="3" | {{Seaplane}} Seaplane Bombers
-|-
-|style="text-align: left; "| {{EquipmentLink|Zuiun (634 Air Group)}}
-| 0.6
-| 1.0
-|-
-|style="text-align: left; "| {{EquipmentLink|Zuiun Model 12}}
-| 0.6
-| 1.0
-|-
-|style="text-align: left; "| {{EquipmentLink|Zuiun Model 12 (634 Air Group)}}
-| 0.6
-| 1.0
-|-
-|style="text-align: left; "| {{EquipmentLink|Zuiun (634 Air Group/Skilled)}}
-| 0.6
-| 0.7
-|-
-|style="text-align: left; "| {{EquipmentLink|Zuiun Kai Ni (634 Air Group)}}
-| 0.5
-| 0.7
-|-
-|style="text-align: left; "| {{EquipmentLink|Zuiun Kai Ni (634 Air Group/Skilled)}}
-| 0.5
-| 0.5
-|-
-! colspan="3" | {{JetFighterBomber2}} Jet-type Aircraft
-|-
-|style="text-align: left; "| {{EquipmentLink|Jet Keiun Kai}}
-| 0.5
-| 0.7
-|-
-|style="text-align: left; "| {{EquipmentLink|Kikka Kai}}
-| 0.5
-| 0.5
-|-
-! colspan="3" | {{Land Based Attack Aircraft}} Land-based Aircraft
-|-
-|style="text-align: left;"| {{EquipmentLink|Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (65th Squadron)|Type 1 Hayabusa Model III Kai (65th Squadron)}}
-| 0.6
-| 0.7
-|-
-|style="text-align: left;"| {{EquipmentLink|Type 1 Land Attacker (Nonaka Squadron)}}
-| 0.6
-| 1.0
-|-
+! colspan=4 style="background-color:#B4F0C6;" | {{Land Based Attack Aircraft}}{{Interceptor Fighter2}} Land-based Aircraft
+|- 
+|style="text-align: left;"| {{EquipmentLink|Type 1 Land-based Attack Aircraft (Nonaka Squadron)}}
+|1
+|0.6
+|1
+|- 
+|style="text-align: left;"| {{EquipmentLink|Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (65th Squadron)}}
+|1
+|0.6
+|0.7
+|- 
 |style="text-align: left;"| {{EquipmentLink|Ginga (Egusa Squadron)}}
-| 0.6
-| 1.0
-|-
+|1
+|0.6
+|1
+|- 
 |style="text-align: left;"| {{EquipmentLink|Type 4 Heavy Bomber Hiryuu (Skilled)}}
-| 0.6
-| 1.0
-|-
+|1
+|0.6
+|1
+|- 
 |style="text-align: left;"| {{EquipmentLink|Do 217 E-5 + Hs293 Initial Model}}
-| 0.6
-| 1.0
-|-
+|1
+|0.6
+|1
+|- 
 |style="text-align: left;"| {{EquipmentLink|Do 217 K-2 + Fritz-X}}
-| 0.6
-| 1.0
+|1
+|0.6
+|1
 |}
 
 ==Anti-Air Cut-in==
@@ -461,16 +487,16 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 * {{Radar}} is used to indicate an '''Air Radar'''.
 ** Any Radar with {{AA}} stat of 2 or higher is considered an Air Radar, even if not explicitly stated by the game.
 {{Anchor|AACI}}
-{| class="wikitable mw-collapsible" style="width:100%; text-align: center; vertical-align: middle;"
+{| class="wikitable mw-collapsible" style="text-align: center; vertical-align: middle; margin: auto;"
 ! colspan="7"| AACI Patterns
 |-
-! style="width: 5%;"|API value
-! style="width: 40;"|Type
-! style="width: 5%;"|Shot down per slot
-! style="width: 5%;"|K-value
-! style="width: 5%;"|Rate
-! style="width: 15%;"|User
-! style="width: 25%;"|Notes
+! <!--style="width: 5%;"-->|API value
+! style="width: 300px;"|Type
+! style="width:80px;"|Shot down<br>per slot
+! style="width:64px;"|K-value
+! style="width:64px;"|Rate
+! <!--style="width: 15%;"-->|User
+! <!--style="width: 25%;"-->|Notes
 |-
 !None
 |'''-'''
@@ -485,7 +511,7 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 |'''+8'''
 |nowrap|1.7
 |65%
-|rowspan="3"|'''{{ShipLink|Akizuki/Kai|Teruzuki/Kai|Hatsuzuki/Kai|Suzutsuki/Kai|text=Akizuki-Class}}'''
+|rowspan="3"|'''{{Ship/Link|Akizuki|Teruzuki|Suzutsuki|Hatsuzuki|text=Akizuki-Class}}'''
 |'''HA mount x2 + Radar'''
 |-
 !2
@@ -553,7 +579,7 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 |'''+9'''
 |1.65
 |60%
-|rowspan="2"|'''{{ShipLink|Maya/Kai Ni}}'''
+|rowspan="2"|'''{{Ship/Link|Maya/Kai Ni}}'''
 |'''HA + CDMG + Air Radar'''
 |-
 !11
@@ -577,7 +603,7 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 |style="background-color:#eaecf0;"| +4
 |style="background-color:#eaecf0;"|1.35
 |style="background-color:#eaecf0;"|35%
-|style="background-color:#eaecf0;"|All except {{ShipLink|Maya/Kai Ni}}
+|style="background-color:#eaecf0;"|All except {{Ship/Link|Maya/Kai Ni}}
 |style="background-color:#eaecf0;"|Built-in HA mount + CDMG + Air Radar
 |-
 !14
@@ -585,53 +611,53 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 |nowrap| +5
 |1.45
 |62%
-|rowspan="2"|'''{{ShipLink|Isuzu/Kai Ni}}'''
+|rowspan="2"|'''{{Ship/Link|Isuzu/Kai Ni}}'''
 |HA + AA Gun + Air Radar
 |-
 !15
 |nowrap|HG<br />{{GreenGunDP}}{{GreenGunMG}}
 | +4
 |1.3
-|54%
+|55%
 |HA + AA Gun
 |-
 !16
 |nowrap|HGR<br />{{GreenGunDP}}{{GreenGunMG}}{{Radar}}
 | +5
 |1.4
-|61%
-|'''{{ShipLink|Kasumi/Kai Ni B}}'''<br />'''{{ShipLink|Yuubari/Kai Ni}}
+|62%
+|nowrap|'''{{Ship/Link|Kasumi/Kai Ni B}}'''<br />'''{{Ship/Link|Yuubari/Kai Ni}}''' (not {{Ship/Link|Yuubari/Kai Ni Toku|text=Toku}}/{{Ship/Link|Yuubari/Kai Ni D|text=D}})
 |HA + AA Gun + Air Radar
 |-
 !17
 |nowrap|HG<br />{{GreenGunDP}}{{GreenGunMG}}
 | +3
 |1.25
-|56%
-|'''{{ShipLink|Kasumi/Kai Ni B}}'''
+|55%
+|'''{{Ship/Link|Kasumi/Kai Ni B}}'''
 |HA + AA Gun
 |-
 !18
 |nowrap|C<br />{{CDMG}}
 | +3
 |1.2
-|58%
-|'''{{ShipLink|Satsuki/Kai Ni}}'''
+|60%
+|'''{{Ship/Link|Satsuki/Kai Ni}}'''
 |CDMG
 |-
 !19
 |nowrap|HC<br />{{GreenGunDP}}{{CDMG}}
 | +6
 |1.45
-|56%
-|rowspan="2"|'''{{ShipLink|Kinu/Kai Ni}}'''
+|58%
+|rowspan="2"|'''{{Ship/Link|Kinu/Kai Ni}}'''
 |HA + CDMG<br />(Cannot be Built-in HA)
 |-
 !20
 |nowrap|C<br />{{CDMG}}
 | +4
 |1.25
-|64%
+|65%
 |CDMG
 |-
 !21
@@ -639,117 +665,117 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 | +6
 |1.45
 |60%
-|'''{{ShipLink|Yura/Kai Ni}}'''
+|'''{{Ship/Link|Yura/Kai Ni}}'''
 |HA + Air Radar
 |-
 !22
 |nowrap|C<br />{{CDMG}}
 | +3
 |1.2
-|64%
-|'''{{ShipLink|Fumizuki/Kai Ni}}'''
+|60%
+|'''{{Ship/Link|Fumizuki/Kai Ni}}'''
 |CDMG
 |-
 !23
 |nowrap|G<br />{{GreenGunMG}}
 | +2
 |1.05
-|79%
-|'''{{ShipLink|UIT-25}} or<br />{{ShipLink|I-504}}'''
+|80%
+|'''{{Ship/Link|UIT-25|I-504|text=UIT-25/I-504}}'''
 |AA Gun (Cannot be CDMG)
 |-
 !24
 |nowrap|HG<br />{{GreenGunDP}}{{GreenGunMG}}
 | +4
 |1.25
-|61%
-|'''{{ShipLink|Tatsuta/Kai Ni}}'''
+|40%
+|'''{{Ship/Link|Tatsuta/Kai Ni}}'''
 |HA + AA Gun (Cannot be CDMG)
 |-
 !25
-|nowrap|GRS<br />{{GreenGunMG}}{{Radar}}{{GreenAmmo}}
+|GRS<br />{{Equipment/Card|12cm 30-tube Rocket Launcher Kai Ni|size=40px}}{{Radar}}{{GreenAmmo}}
 | +8
 |1.55
 |60%
-|'''{{ShipLink|Ise/Kai Ni|Hyuuga/Kai Ni|text=Ise-class Kai/Kai Ni}}'''
-|Rocket Launcher K2 + Air Radar + Sanshiki 
+|'''{{Ship/Link|Ise/Kai Ni|Hyuuga/Kai Ni|text=Ise-class Kai/Kai Ni}}'''
+|{{Equipment/Link|12cm 30-tube Rocket Launcher Kai Ni}} + Air Radar + Sanshiki 
 |-
 !26
-|nowrap|HR<br />{{GreenGunDP}}{{Radar}}
+|nowrap|HR<br />{{Equipment/Card|10cm Twin High-angle Gun Mount Kai + Additional Machine Guns|size=40px}}{{Radar}}
 | +7
 |1.4
 |55%
-|'''{{ShipLink|Musashi/Kai Ni}}'''
-|10cm Twin HA Mount Kai + Air Radar
+|'''{{Ship/Link|Musashi/Kai Ni}}'''
+|{{Equipment/Link|10cm Twin High-angle Gun Mount Kai + Additional Machine Guns|text=10cm Twin HA Mount Kai}} + Air Radar
 |-
 !27
 !colspan="6"|Unknown
 |-
 !28
-|nowrap|GR<br />{{GreenGunMG}}{{Radar}}
+|GR<br />{{Equipment/Card|12cm 30-tube Rocket Launcher Kai Ni|size=40px}}{{Radar}}
 | +5
 |1.4
 |55%
-|'''{{ShipLink|Ise/Kai Ni|Hyuuga/Kai Ni|text=Ise-class Kai/Kai Ni}} &<br />{{ShipLink|Musashi/Kai Ni}}'''
-|Rocket Launcher K2 + Air Radar 
+|'''{{Ship/Link|Ise/Kai Ni|Hyuuga/Kai Ni|text=Ise-class Kai/Kai Ni}} &<br />{{Ship/Link|Musashi/Kai Ni}}'''
+|{{Equipment/Link|12cm 30-tube Rocket Launcher Kai Ni}} + Air Radar 
 |-
 !29
 |nowrap|HR<br />{{GreenGunDP}}{{Radar}}
 | +6
 |1.55
 |60%
-|'''{{ShipLink|Hamakaze/B Kai}} &<br />{{ShipLink|Isokaze/B Kai}}'''
-|HA + Air Radar<br />Using Akiguns has a high chance to proc AACI 5/8 instead.
+|'''{{Ship/Link|Hamakaze/B Kai}} &<br />{{Ship/Link|Isokaze/B Kai}}'''
+|HA + Air Radar<br />Using '''Built-in HA mounts''' has a high chance to proc AACI 5/8 instead.
 |-
 !30
 |nowrap|HHH<br />{{GreenGunDP}}{{GreenGunDP}}{{GreenGunDP}}
 | +4
 |1.3
-|50%
-|rowspan="2"|'''{{ShipLink|Tenryuu/Kai Ni}} &'''<br />'''{{ShipLink|Gotland/Kai}}'''
+|45%
+|rowspan="2"|'''{{Ship/Link|Tenryuu/Kai Ni}} &'''<br />'''{{Ship/Link|Gotland/Kai}}'''
 |HA + HA + HA
 |-
 !31
 |nowrap|HH<br />{{GreenGunDP}}{{GreenGunDP}}
 | +3
 |1.2
-|50%
+|52%
 |HA + HA
 |-
 !32
-|nowrap|CM/GG/GC<br />{{CDMG}}{{RedGunHeavy}}/{{GreenGunMG}}{{GreenGunMG}}/{{GreenGunMG}}{{CDMG}}
+|{{QuestRewardEquip|16inch Mk.I Triple Gun Mount Kai + FCR Type 284}}{{QuestRewardEquip|QF 2-pounder Octuple Pom-pom Gun Mount}}<br />'''OR'''<br />{{QuestRewardEquip|20-tube 7inch UP Rocket Launchers}}{{QuestRewardEquip|20-tube 7inch UP Rocket Launchers}}<br />'''OR'''<br />{{QuestRewardEquip|20-tube 7inch UP Rocket Launchers}}{{QuestRewardEquip|QF 2-pounder Octuple Pom-pom Gun Mount}}
 | +4
 |1.2
-|60%
-|'''{{ShipLink|Nelson/Kai|Warspite/Kai|Ark Royal/Kai|Jervis/Kai|Janus/Kai|text=Royal Navy Ships}} &<br /> {{ShipLink|Kongou/Kai Ni C|Hiei/Kai Ni|Kirishima/Kai Ni|Haruna/Kai Ni|text=Kongou-class Kai Ni}}'''
-|[[QF 2-pounder Octuple Pom-pom Gun Mount|QF 2-pounder]] + [[16inch Mk.I Triple Gun Mount Kai + FCR Type 284|16inch Mk.I Triple + FCR]] <br />'''OR'''<br /> [[20-tube 7inch UP Rocket Launchers|20-tube 7inch UP]] + [[20-tube 7inch UP Rocket Launchers|20-tube 7inch UP]] / [[QF 2-pounder Octuple Pom-pom Gun Mount|QF 2-pounder]]
+|50%
+|'''{{Ship/Link|Nelson/Kai|Warspite/Kai|Ark Royal/Kai|Jervis/Kai|Janus/Kai|text=Royal Navy Ships}} &<br /> {{Ship/Link|Kongou/Kai Ni|Hiei/Kai Ni|Kirishima/Kai Ni|Haruna/Kai Ni|text=Kongou-class Kai Ni}}'''
+|{{Equipment/Link|16inch Mk.I Triple Gun Mount Kai + FCR Type 284|text=16inch Mk.I Triple + FCR}} + {{Equipment/Link|QF 2-pounder Octuple Pom-pom Gun Mount|text=QF 2-pounder}} <br />'''OR'''<br /> {{Equipment/Link|20-tube 7inch UP Rocket Launchers|text=20-tube 7inch UP}} + {{Equipment/Link|20-tube 7inch UP Rocket Launchers|text=20-tube 7inch UP}} / {{Equipment/Link|QF 2-pounder Octuple Pom-pom Gun Mount|text=QF 2-pounder}}
 |-
 !33
 |nowrap|HG<br />{{GreenGunDP}}{{GreenGunMG}}
 | +4
 |1.35
-|41%
-|'''{{ShipLink|Gotland/Kai}}'''
+|45%
+|'''{{Ship/Link|Gotland/Kai}}'''
 |HA + AA Gun
 |-
 !34
 |{{QuestRewardEquip|5inch Single Gun Mount Mk.30 Kai + GFCS Mk.37}}{{QuestRewardEquip|5inch Single Gun Mount Mk.30 Kai + GFCS Mk.37}}
-| +8
+|'''+8'''
 |1.6
-|60%
-|rowspan="4"|'''{{ShipLink|Fletcher/Kai|Johnston/Kai|text=Fletcher-Class}}'''
+|55%
+|rowspan="4"|'''{{Ship/Link|Fletcher|Johnston|text=Fletcher-Class}}'''
 |
 |-
 !35
-|{{QuestRewardEquip|5inch Single Gun Mount Mk.30 Kai + GFCS Mk.37}}{{QuestRewardEquip|5inch Single Gun Mount Mk.30 Kai}}
-| +7
+|{{QuestRewardEquip|5inch Single Gun Mount Mk.30 Kai + GFCS Mk.37}}{{QuestRewardEquip|5inch Single Gun Mount Mk.30}}
+|'''+7'''
 |1.55
 |55%
-|rowspan="3"|The {{EquipmentLink|5inch Single Gun Mount Mk.30}} can also be used in place of the Kai variant.
+|rowspan="2"|The {{Equipment/Link|5inch Single Gun Mount Mk.30 Kai|text=Kai}} variant can also be used in place of the {{Equipment/Link|5inch Single Gun Mount Mk.30|text=Base}} variant.
 |-
 !36
-|{{QuestRewardEquip|5inch Single Gun Mount Mk.30 Kai}}{{QuestRewardEquip|5inch Single Gun Mount Mk.30 Kai}}{{QuestRewardEquip|GFCS Mk.37}}
-| +7
+|{{QuestRewardEquip|5inch Single Gun Mount Mk.30}}{{QuestRewardEquip|5inch Single Gun Mount Mk.30}}{{QuestRewardEquip|GFCS Mk.37}}
+|'''+7'''
 |1.55
 |50%
 |-
@@ -757,7 +783,8 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 |{{QuestRewardEquip|5inch Single Gun Mount Mk.30 Kai}}{{QuestRewardEquip|5inch Single Gun Mount Mk.30 Kai}}
 | +5
 |1.45
-|50%
+|40%
+|Both HA guns must be {{Equipment/Link|5inch Single Gun Mount Mk.30 Kai|text=Kai}} variant.
 |-
 !38
 !colspan="6"|Unknown
@@ -766,24 +793,23 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 |{{QuestRewardEquip|GFCS Mk.37 + 5in Dual Purpose Gun (CD)|image=File:Equipment Card GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
 | '''+11'''
 |1.7
-|60%
-|rowspan="4"|'''{{ShipLink|Atlanta/Kai|text=Atlanta-class}}'''
+|57%
+|rowspan="4"|'''{{Ship/Link|Atlanta|text=Atlanta-class}}'''
 |
 |-
 !40
 |{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}{{QuestRewardEquip|GFCS Mk.37}}
 | '''+11'''
 |1.7
-|60%
-|The {{EquipmentLink|GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)|text=GFCS+5inch(CD)}} variant of the gun can also be used.
+|56%
+|rowspan="2"|The {{Equipment/Link|GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)|text=GFCS+5inch(CD)}} variant of the gun can also be used.
 |-
 !41
 |{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
 {{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
 | '''+10'''
 |1.65
-|60%
-||The {{EquipmentLink|GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)|text=GFCS+5inch(CD)}} variant of the gun can also be used.
+|55%
 |}
 
 '''Notes:'''
@@ -800,7 +826,7 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 
 ===Sequential AACIs===
 
-The '''Sequential AACIs''' are the Cut-ins introduced with the implementation of [[Johnston]] onwards. So far, they are exclusive to the {{ShipLink|Fletcher/Kai|Johnston/Kai|text=Fletcher-Class}} and {{ShipLink|Atlanta/Kai|text=Atlanta-class}}. Different from Original AACIs, from lowest to highest API, each eligible AACI will be rolled independently if the previous roll has failed. If all Sequential rolls fail, an additional Original Type roll is performed. This grants the specific ships with access to Sequential AACIs extremely high trigger rates.
+The '''Sequential AACIs''' are the Cut-ins introduced with the implementation of [[Johnston]] onwards. So far, they are exclusive to the {{Ship/Link|Fletcher/Kai|Johnston/Kai|text=Fletcher-Class}} and {{Ship/Link|Atlanta/Kai|text=Atlanta-class}}. Different from Original AACIs, from lowest to highest API, each eligible AACI will be rolled independently if the previous roll has failed. If all Sequential rolls fail, an additional Original Type roll is performed. This grants the specific ships with access to Sequential AACIs extremely high trigger rates.
 
 Sequential AACIs are APIs '''34, 35, 36, 37, 39, 40 and 41.'''
 
@@ -908,7 +934,7 @@ Certain classes of ships have the ability to completely negate airstrike damage 
 
 * The ship must be a [[:Category:Seaplane Tenders|AV]], [[:Category:Aviation Battleships|BBV]], [[:Category:Aviation Cruisers|CAV]], [[:Category:Light Carriers|CVL]] or [[:Category:Standard Carriers|CV]].
 ** It '''only''' applies to ships within those categories.
-* The ship must be equipped with a [[12cm 30 Tube Rocket Launcher Kai 2]].
+* The ship must be equipped with a {{Equipment/Link|12cm 30-tube Rocket Launcher Kai Ni}}.
 
 The trigger rate is given by:
 
@@ -918,14 +944,14 @@ Where:
 
 * <math>\text{AdjAA}_\text{ship}</math> is the previously calculated '''Adjusted AA of the ship'''.
 * <math>\text{Luck}</math> is the ship's {{Luck}} stat.
-* <math>\text{N}_\text{rocket}</math> is the number of [[12cm 30 Tube Rocket Launcher Kai 2]].
+* <math>\text{N}_\text{rocket}</math> is the number of {{Equipment/Link|12cm 30-tube Rocket Launcher Kai Ni}}.
 * <math>\text{Mod}_\text{Ise-class}</math> is the [[:Category:Ise Class|Ise-class]] bonus of <math>25</math>.
 
 When triggered, the ship will slide forward and '''Rocket Barrage Successful (噴進弾幕成功, ''funshindan maku seikō'')''' will be displayed over the ship's card.
 
 '''Notes:'''
 * It is possible to achieve more than 100% activation rate.
-* There are other anti-air barrages for [[Type 3 Shell]]s and a combination of Type 3 Shell and the [[12cm 30 Tube Rocket Launcher Kai 2]]. No effects were found for those barrages.
+* There are other anti-air barrages for [[Type 3 Shell]]s and a combination of Type 3 Shell and the {{Equipment/Link|12cm 30-tube Rocket Launcher Kai Ni}}. No effects were found for those barrages.
 
 
 

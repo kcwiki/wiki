@@ -1,0 +1,39 @@
+This page is the '''main acting page for KC strategy channel of my Admiral Night Club server [http://discord.gg/Q2af3Ab]'''. It is used to list possible issues and new mechanic info regarding KC technical stuffs in order to improve the EN community better. As a result, a large set of information source might be dumped here for reference.
+*''To-do'': Mark '''Resolved''' for the topic that has already been updated and corrected in EN community
+*''To-do 2'': Find more errors !
+==List of possible issues==
+===Higher speed doesn't give any more evasion (Resolved)===
+Proven to be '''wrong''' [https://docs.google.com/spreadsheets/d/1TKyl8BwePzRwIQ-KsKyzd-sKm9YWHKZTmh4UF_XOAB4/edit#gid=0], unlike what dev stated.
+
+===Submarine boss might ignore the sonar extra double accuracy===
+*It's possible that you have heard people saying "New Submarine Princess (Loli sub) has increased post-cap evasion or reduced hit rate applied for our girls". This is kinda proven to be '''true''', but it has nothing to do with those two factors, there is a test suggesting she '''doesn't take extra double accuracy''' from our sonars so our total hit rates are reduced [https://twitter.com/Divinity__123/status/1238644817804091392])
+*Regarding the '''extra double accuracy''' I talked about, its the '''2x ASW stat''' in ASW accuracy formula, where lets say if you use T3 Sonar (10 ASW), you would get extra 20 accuracy value. This loli sub doesn't take '''THAT''' into account for whatever reason.
+
+===Higher lv and luck for touch participants gives higher rate (Resolved)===
+Proven to be '''true''', as in the tests shown here [https://twitter.com/aktsm_Youknow/status/1257303525207339010] [https://twitter.com/yukicacoon/status/1292026421934608384]
+
+===If multiple ships scored the same damage, including the flagship, the MVP will 100% be rigged back to the flagship===
+*Not enough data yet, but I believed this is true, I will try to run some tests to rig this and confirm later. 
+*If multiple ships scored the same damage, excluding the flagship however, the MVP roll seems to be random?
+
+===Grind both DEs to total lv 150+ for 83% HP success rate (Resolved)===
+A test suggested this to be true, the higher the better (Total lv of both DEs = 180+ equals to around 93%) [https://twitter.com/Matsu_class_DD/status/1188450823769968641]
+
+===Wrong cut in rate on DDCI torp torp lookout (Resolved)===
+*As of now, its concluded to be 85% on the wiki [https://cdn.discordapp.com/attachments/445572547875045377/858414636625035284/unknown.png], however this seems to be a mere assumption.
+*The original assumption made by yuki [https://twitter.com/yukicacoon/status/1398949379893956613] saying 85% for this cut in type, but in real test with over 30k samples, it is suggested to more likely be 87.5% [https://imgur.com/a/Vr58UTc] [https://cdn.discordapp.com/attachments/445572547875045377/858414804934197328/unknown.png]
+
+===Improvement on planes can increase their selection chance===
+During the Aircraft selection phase of the contact, it's possible that improvement matters for the particular plane, according to this topic on JP wiki [https://kancolle.fandom.com/ja/f/p/2599037031153666416] [https://cdn.discordapp.com/attachments/445572547875045377/858413463969726464/unknown.png]
+
+===New TSSL gives +9 value modifier===
+Looks like it [https://twitter.com/dewydrops/status/1404966491695378433]
+
+===Evasion in vanguard is more complicated than a flat post-cap bonus===
+Inconsistent evasion bonus, not just the entire bottom half get it this time [https://twitter.com/Divinity__123/status/1405536071631347715]
+
+===Echelon torpedo accuracy is NOT 0.6x (Resolved)===
+As of current, the table suggests echelon has 0.6x torpedo accuracy modifier [https://cdn.discordapp.com/attachments/445572547875045377/858420712610856960/unknown.png]. However, some tests suggested otherwise [https://twitter.com/Divinity__123/status/1177455647593353217] [https://twitter.com/Xe_UCH/status/1355349918659960834] [https://twitter.com/kankenRJ/status/1355834588015157254]. Its more likely to be 0.7-0.75x
+
+===Kc3 touch trigger rate might not be completely correct===
+No one actually knows the real formula for this, we just simply guessed based on the data we got. Keep in mind kc3 formula might cause some inconsistency compared to some other formulas, example: [https://twitter.com/Divinity__123/status/1181574280871579650] [https://twitter.com/dewydrops/status/1181520911444271105] [https://twitter.com/dewydrops/status/1176152445791064066]

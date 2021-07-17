@@ -1,0 +1,82 @@
+<includeonly>{{#vardefine:card|{{#if:{{{Card_1|}}}{{{Card_2|}}}{{{Card_3|}}}{{{Card_4|}}}|1|}}}}{{#vardefine:character|{{#if:{{{Character_1|}}}{{{Character_2|}}}{{{Character_3|}}}{{{Character_4|}}}|1|}}}}{{#vardefine:item|{{#if:{{{Item_1|}}}{{{Item_2|}}}{{{Item_3|}}}{{{Item_4|}}}|1|}}}}{{#vardefine:full|{{#if:{{{Full_1|}}}{{{Full_2|}}}{{{Full_3|}}}{{{Full_4|}}}|1|}}}}{{#vardefine:total_colspan|{{#expr: 1+{{#var:card|0}}+{{#var:character|0}}+{{#var:item|0}}+{{#var:full|0}} }}}}
+{{{!}} class="wikitable" style="text-align: center; border-width:0.2px;"
+{{!}}-
+{{#if: {{#var:card}} |!style="width:260px;"{{!}}Card | }}{{#if: {{#var:character}} |<br>
+!style="width:260px;"{{!}}Fairy | }}{{#if: {{#var:item}} |<br>
+!style="width:260px;"{{!}}Equipment | }}{{#if: {{#var:full}} |<br>
+!style="width:260px;"{{!}}Combination | }}
+!style="width:300px;"{{!}}Note
+{{!}}-
+{{#if: {{#var:card}} |{{!}} {{#if: {{{Card_1|}}} | {{Asset|type=Old Equipment|asset=Card|{{{Equipment}}}|suffix1= - 1|size=x260px}} | - }} | }}{{#if: {{#var:character}} |<br>
+{{!}} {{#if: {{{Character_1|}}} | {{Asset|type=Old Equipment|asset=Character|{{{Equipment}}}|suffix1= - 1|size=x260px}} | - }} | }}{{#if: {{#var:item}} |<br>
+{{!}} {{#if: {{{Item_1|}}} | {{Asset|type=Old Equipment|asset=Item|{{{Equipment}}}|suffix1= - 1|size=x260px}} | - }} | }}{{#if: {{#var:full}} |<br>
+{{!}} {{#if: {{{Full_1|}}} | {{Asset|type=Old Equipment|asset=Full|{{{Equipment}}}|suffix1= - 1|size=x260px}} | - }} | }}
+{{!}} '''Original CG'''<br><br>{{{Note_1}}}{{#if:{{{Card_2|}}}{{{Character_2|}}}{{{Item_2|}}}{{{Full_2|}}}|<br>
+{{!}}-
+{{#if: {{#var:card}} |{{!}} {{#if: {{{Card_2|}}} | {{Asset|type=Old Equipment|asset=Card|{{{Equipment}}}|suffix1= - 2|size=x260px}} | - }} | }}{{#if: {{#var:character}} |<br>
+{{!}} {{#if: {{{Character_2|}}} | {{Asset|type=Old Equipment|asset=Character|{{{Equipment}}}|suffix1= - 2|size=x260px}} | - }} | }}{{#if: {{#var:item}} |<br>
+{{!}} {{#if: {{{Item_2|}}} | {{Asset|type=Old Equipment|asset=Item|{{{Equipment}}}|suffix1= - 2|size=x260px}} | - }} | }}{{#if: {{#var:full}} |<br>
+{{!}} {{#if: {{{Full_2|}}} | {{Asset|type=Old Equipment|asset=Full|{{{Equipment}}}|suffix1= - 2|size=x260px}} | - }} | }}
+{{!}} '''Old CG #2'''<br><br>{{{Note_2}}}{{#if:{{{Card_3|}}}{{{Character_3|}}}{{{Item_3|}}}{{{Full_3|}}}|<br>
+{{!}}-
+{{#if: {{#var:card}} |{{!}} {{#if: {{{Card_3|}}} | {{Asset|type=Old Equipment|asset=Card|{{{Equipment}}}|suffix1= - 3|size=x260px}} | - }} | }}{{#if: {{#var:character}} |<br>
+{{!}} {{#if: {{{Character_3|}}} | {{Asset|type=Old Equipment|asset=Character|{{{Equipment}}}|suffix1= - 3|size=x260px}} | - }} | }}{{#if: {{#var:item}} |<br>
+{{!}} {{#if: {{{Item_3|}}} | {{Asset|type=Old Equipment|asset=Item|{{{Equipment}}}|suffix1= - 3|size=x260px}} | - }} | }}{{#if: {{#var:full}} |<br>
+{{!}} {{#if: {{{Full_3|}}} | {{Asset|type=Old Equipment|asset=Full|{{{Equipment}}}|suffix1= - 3|size=x260px}} | - }} | }}
+{{!}} '''Old CG #3'''<br><br>{{{Note_3}}}{{#if:{{{Card_4|}}}{{{Character_4|}}}{{{Item_4|}}}{{{Full_4|}}}|<br>
+{{!}}-
+{{#if: {{#var:card}} |{{!}} {{#if: {{{Card_4|}}} | {{Asset|type=Old Equipment|asset=Card|{{{Equipment}}}|suffix1= - 4|size=x260px}} | - }} | }}{{#if: {{#var:character}} |<br>
+{{!}} {{#if: {{{Character_4|}}} | {{Asset|type=Old Equipment|asset=Character|{{{Equipment}}}|suffix1= - 4|size=x260px}} | - }} | }}{{#if: {{#var:item}} |<br>
+{{!}} {{#if: {{{Item_4|}}} | {{Asset|type=Old Equipment|asset=Item|{{{Equipment}}}|suffix1= - 4|size=x260px}} | - }} | }}{{#if: {{#var:full}} |<br>
+{{!}} {{#if: {{{Full_4|}}} | {{Asset|type=Old Equipment|asset=Full|{{{Equipment}}}|suffix1= - 4|size=x260px}} | - }} | }}
+{{!}} '''Old CG #4'''<br><br>{{{Note_4}}}|}}|}}|}}
+{{!}}-
+! colspan="{{#var:total_colspan}}" style="background-color:#AFCDFF;" | {{Detail|button=true|target=CurrentCG|show_text=Showing Current CG|hide_text=Show Current CG (hidden)}}
+{{!}}- style="background-color:#AFCDFF;" {{Detail|target=CurrentCG}}
+{{#if: {{#var:card}} |{{!}} {{Asset|type=Equipment|asset=Card|{{{Equipment}}}|size=x260px}} | }}{{#if: {{#var:character}} |<br>
+{{!}} {{Asset|type=Equipment|asset=Character|{{{Equipment}}}|size=x260px}}}}{{#if: {{#var:item}} |<br>
+{{!}} {{Asset|type=Equipment|asset=Item|{{{Equipment}}}|size=x260px}} | }}{{#if: {{#var:full}} |<br>
+{{!}} {{Asset|type=Equipment|asset=Full|{{{Equipment}}}|size=x260px}} | }}
+{{!}}'''Current CG'''<br><br>{{{Note_Current}}}
+{{!}}}</includeonly><noinclude>
+
+==[[User:Chocolatecravinghobo/Sandbox/7/2|Equipment Page Old CG gallery]]==
+Template for table on [[User:Chocolatecravinghobo/Sandbox/7/2]]
+<br>To be eventually be used on all equipment pages with old CG.
+<br>The data (& maybe template) could also be moved to a module.
+
+{{OldEquipmentCG
+|Equipment= Type 0 Fighter Model 21
+|Card_1= Y ||Character_1= Y ||Item_1= Y ||Full_1= Y
+|Note_1= Notable example text
+|Card_2= Y ||Character_2=   ||Item_2= Y ||Full_2= Y
+|Note_2= 
+|Note_Current=
+}}
+{{OldEquipmentCG
+|Equipment= Daihatsu Landing Craft
+|Card_1= Y ||Character_1=   ||Item_1= Y ||Full_1= Y
+|Note_1= 
+|Note_Current=
+}}
+{{OldEquipmentCG
+|Equipment= Type 42 Air Radar
+|Card_1= Y ||Character_1=   ||Item_1=   ||Full_1= 
+|Note_1= 
+|Note_Current=
+}}
+{{OldEquipmentCG
+|Equipment= Type 0 Reconnaissance Seaplane
+|Card_1= Y ||Character_1= Y ||Item_1= Y ||Full_1= Y
+|Note_1= Renamed from Type 14 Air Radar
+|Card_2= Y ||Character_2=   ||Item_2= Y ||Full_2= Y
+|Note_2= Name Position Adjust<br>They had long names, Japanese text got split into two lines
+|Card_3= Y ||Character_3= Y ||Item_3= Y ||Full_3= Y
+|Note_3= Torpedo Icon updated.
+|Card_4= Y ||Character_4= Y ||Item_4= Y ||Full_4= Y
+|Note_4= Equipment CG updated
+|Note_Current= Seaplane Fighters now have their own equipment icon,<br> separating them from Seaplane Recons/Bombers.
+}}
+
+
+</noinclude>

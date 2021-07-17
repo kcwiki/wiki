@@ -3,13 +3,22 @@
    <div id="banner" style="position: relative;overflow: hidden;height: 92px; align-items : center;justify-content: center;display: inline-flex;width: 100%;">
       <div id="overlay" style="position: relative; width: 64.5%; height: auto; vertical-align: bottom; display: inline-flex; align-items: center; background-color: #3baef55c;">
           <div style="text-align: center; width:  100%;font-size: larger;"><b><i>{{#if: {{{title_en|}}} | {{{title_en}}}}}</i><br>{{#if: {{{title_jp|}}} | {{{title_jp}}}}}</b></div>
-      </div><div id="banner_tag" style="position: relative; object-fit: cover; width: 10.5%; height: 100%; float: right; margin-left: -15px; transform:skewX(-18deg); background-color: #3baef5; overflow: hidden;">
-         <div style="height: 0px; width: 0px; margin-left: -13px; margin-top: 14px; transform:skewX(18deg);">
-{{#if: {{{tag|}}} | {{{tag}}}}}
+      </div><div id="banner_tag" style="position: relative; object-fit: cover; width: {{#if: {{{tag4|}}} | 45% | {{#if: {{{tag3|}}} | 31.5% | {{#if: {{{tag2|}}} | 21% | 10.5%}}}}}}; height: 100%; float: right; margin-left: -15px; transform:skewX(-18deg); background-color: #3baef5; overflow: hidden;">
+         <div style="display: block; height: 0px; width: 0px; margin-left: -13px; margin-top: 14px; transform:skewX(18deg);"><p style="margin-top: 0px; margin-bottom: 0px; height: 0px;">
+{{#if: {{{tag|}}} | {{{tag}}}}}</p>
+         </div>
+<div style="display: block; height: 0px; width: 0px; margin-left: 23px; transform:skewX(18deg);"><p style="margin-top: 0px; margin-bottom: 0px; height: 0px;">
+{{#if: {{{tag2|}}} | {{{tag2}}}}}</p>
+         </div>
+<div style="display: block; height: 0px; width: 0px; margin-left: 59px; transform:skewX(18deg);"><p style="margin-top: 0px; margin-bottom: 0px; height: 0px;">
+{{#if: {{{tag3|}}} | {{{tag3}}}}}</p>
+         </div>
+<div style="display: block; height: 0px; width: 0px; margin-left: 95px; transform:skewX(18deg);"><p style="margin-top: 0px; margin-bottom: 0px; height: 0px;">
+{{#if: {{{tag4|}}} | {{{tag4}}}}}</p>
          </div>
       </div><div id="banner_img" style="position: relative; object-fit: cover; width: 33%; margin-right: -15px; height: 100%; float: right; margin-left: -1px; transform:skewX(-18deg); background-color: #296d96; overflow: hidden;">
-         <div style="height: 0px; width: 0px; margin-left: -35px; margin-top: -7px; transform:skewX(18deg);">
-{{#if: {{{header_thumb|}}} | {{{header_thumb}}}}}
+         <div style="height: 0px; width: 0px; margin-left: {{#if: {{{tag4|}}} | -73px | {{#if: {{{tag3|}}} | -60px | {{#if: {{{tag2|}}} | -47px | -35px}}}}}}; transform:skewX(18deg);"><p style="margin-top: 0px; margin-bottom: 0px;">
+{{#if: {{{header_thumb|}}} | {{{header_thumb}}}}}</p>
          </div>
       </div>
    </div>
@@ -133,8 +142,11 @@
 |title_en=Requiem, for Convoy Ki-504
 |title_jp=鎮魂、キ504船団
 |tag=[[File:RainySeason2020EventWhiteTag.png]]
+|tag2=[[File:RainySeason2020EventBlueTag.png]]
+|tag3=[[File:RainySeason2020EventGreenTag.png]]
+|tag4=[[File:RainySeason2020EventGreenTag.png]]
 |tag_text=Kurile Islands Area Unit
-|header_thumb=[[File:Abyssal_Kuriles_Princess_HeaderThumb.png]]
+|header_thumb=[[File:Abyssal Kuriles Princess HeaderThumb.png]]
 |map_1=[[File:RainySeason2020E-1Map.png|450px]]
 |map_1_text=E-1
 |map_2=[[File:RainySeason2020E-2Map.png|450px]]
@@ -221,6 +233,9 @@
 |title_en=Requiem, for Convoy Ki-504
 |title_jp=鎮魂、キ504船団
 |tag=[[File:RainySeason2020EventWhiteTag.png]]
+|tag2=[[File:RainySeason2020EventBlueTag.png]]
+|tag3=[[File:RainySeason2020EventGreenTag.png]]
+|tag4=[[File:RainySeason2020EventGreenTag.png]]
 |tag_text=Kurile Islands Area Unit
 |header_thumb=[[File:Abyssal_Kuriles_Princess_HeaderThumb.png]]
 |map_1=[[File:RainySeason2020E-1Map.png|450px]]

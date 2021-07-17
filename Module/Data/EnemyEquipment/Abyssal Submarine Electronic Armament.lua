@@ -1,0 +1,33 @@
+-- [[Category:Enemy equipment modules]]
+
+return {
+  _name = "Abyssal Submarine Electronic Armament",
+  _cg_reference = "Late Model Submarine Radar & Passive Radiolocator",
+  _id = 605,
+  _japanese_name = "深海潜水艦搭載電子兵装",
+  _reading = "しんかいせんすいかんとうさいでんしへいそう",
+  _type = 51, -- 24,42,51,42,0
+  _icon = 42,
+  _rarity = 5,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = 6,
+  _aa = false,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 22,
+  _torpedo_accuracy = false,
+  _evasion = 6,
+  _los = 6,
+  _speed = false,
+  _luck = false,
+  _range = 1,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = false,
+  _scrap_steel = false,
+  _scrap_bauxite = false,
+  _buildable = false,
+}

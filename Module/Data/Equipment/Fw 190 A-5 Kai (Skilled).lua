@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Fw 190 A-5 Kai (Skilled)",
+  _id = 353,
+  _japanese_name = "Fw190 A-5改(熟練)",
+  _reading = nil,
+  _type = 6, -- 3,5,6,6,37
+  _icon = 6,
+  _rarity = 5,
+  _firepower = 2,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 11,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 1,
+  _torpedo_accuracy = false,
+  _evasion = 3,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 7,
+  _flight_range = 4,
+  _special = false,
+  _scrap_fuel = 3,
+  _scrap_ammo = 3,
+  _scrap_steel = false,
+  _scrap_bauxite = 9,
+  _buildable = false,
+  _info = "かの国で開発/量産された強力で信頼性の高い戦闘機Fw190シ<br>リーズ。タンク博士の設計により誕生し、フォッケウルフの名<br>で親しまれた名機です。日本陸軍でも同A-5型を輸入し、評価<br>研究を行いました。本機は、同機をライセンス生産、さらに日<br>本海軍の技術を導入して誕生したif艦上戦闘機、その熟練搭乗<br>員による精鋭戦闘機隊です。",
+}

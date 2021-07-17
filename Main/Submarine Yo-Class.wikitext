@@ -1,99 +1,25 @@
 ==Info==
-{|
-| valign="top" |
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo
-| name=Submarine Yo-Class 
-| japanesename=潜水ヨ級
-| id=531
-| image=[[File:Yo_n.png|x220px]]
-| color=gray
-| type=Submarine
-| class=Abyssal
-| hp=24
-| firepower=0
-| armor=9
-| torpedo=52
-| evasion=1
-| AA=0
-| aircraft=0
-| speed=Slow
-| LOS=7
-| ASW=0
-| range=N/A
-| luck=5
-| slot=2
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|21inch Torpedo Mk.II]]
-| slot2=[[List_of_equipment_used_by_the_enemy|21inch Torpedo Mk.II]]
-| slot3=-Locked-
-| slot4=-Locked-}}
-| style="width: 50px;" |
-|
+{{EnemyShipInfoKai|Submarine Yo-Class/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+<div style="display: inline-block;">
 ===Elite===
-{{enemyshipinfo
-| name=Submarine Yo-Class Elite
-| japanesename=潜水ヨ級 elite
-| id=533
-| image=[[File:Yo_e.png|x220px]]
-| color=red
-| type=Submarine
-| class=Abyssal
-| hp=34
-| firepower=0
-| armor=27
-| torpedo=74
-| evasion=5
-| AA=0
-| aircraft=0
-| speed=Slow
-| LOS=9
-| ASW=0
-| range=Short
-| luck=10
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot2=[[List_of_equipment_used_by_the_enemy|21inch Torpedo Mk.II]]
-| slot3=[[List_of_equipment_used_by_the_enemy|21inch Torpedo Mk.II]]
-| slot4=-Locked-}}
-| style="width: 50px;" |
-|
+{{EnemyShipInfoKai|Submarine Yo-Class/Elite|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+<div style="display: inline-block;">
 ===Flagship===
-{{enemyshipinfo
-| name=Submarine Yo-Class Flagship
-| japanesename=潜水ヨ級 flagship
-| id=535
-| image=[[File:Yo_f.png|x220px]]
-| color=yellow
-| type=Submarine
-| class=Abyssal
-| hp=44
-| firepower=0
-| armor=36
-| torpedo=96
-| evasion=10
-| AA=0
-| aircraft=0
-| speed=Slow
-| LOS=10
-| ASW=0
-| range=Short
-| luck=20
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot2=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot3=[[List_of_equipment_used_by_the_enemy|21inch Torpedo Mk.II]]
-| slot4=-Locked-}}
-|}
+{{EnemyShipInfoKai|Submarine Yo-Class/Flagship|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Submarine Yo-Class/}}
 
 ==Trivia==
-Made thier first appearance in the Spring 2013 Event.
-*The elite and flagship variants can perform an opening torpedo attack.
-*When you hit an enemy node that contains two or more submarines, their graphic will appear on the map. 
+*'''Elite''' and '''Flagship''' participate in the opening torpedo salvo.
+*When you hit an enemy node that contains two or more submarines, their graphic will appear on the map.
+*Abyssal submarines resemble to '''[https://en.wikipedia.org/wiki/Onry%C5%8D onryō]''' (怨霊), a japanese vengeful spirit. In horror movies, onryō is depicted as a pale woman with long black hair covering her face.
 
 {{Enemyshiplist}}
-[[Category:Abyssal Submarines]]
+[[Category:Enemy Vessel]]

@@ -1,0 +1,33 @@
+-- [[Category:Enemy equipment modules]]
+
+return {
+  _name = "Abyssal 8inch Twin Rapid Fire Gun Mount",
+  _cg_reference = "20.3cm (No.3) Twin Gun Mount",
+  _id = 600,
+  _japanese_name = "深海8inch連装速射砲",
+  _reading = "しんかい8インチれんそうそくしゃほう",
+  _type = 2, -- 1,1,2,2,0
+  _icon = 2,
+  _rarity = 3,
+  _firepower = 10,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 2,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 8,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = false,
+  _scrap_steel = false,
+  _scrap_bauxite = false,
+  _buildable = false,
+}

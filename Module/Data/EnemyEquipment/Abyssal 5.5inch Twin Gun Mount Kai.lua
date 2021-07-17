@@ -1,0 +1,33 @@
+-- [[Category:Enemy equipment modules]]
+
+return {
+  _name = "Abyssal 5.5inch Twin Gun Mount Kai",
+  _id = 589,
+  _japanese_name = "深海5.5inch連装砲改",
+  _reading = "しんかい5.5インチれんそうほうかい",
+  _type = 2, -- 1,1,2,2,0
+  _icon = 2,
+  _rarity = 4,
+  _cg_reference = "14cm Twin Gun Mount Kai",
+  _firepower = 8,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 4,
+  _armor = 4,
+  _asw = 6,
+  _shelling_accuracy = 19,
+  _torpedo_accuracy = false,
+  _evasion = 7,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = false,
+  _scrap_steel = false,
+  _scrap_bauxite = false,
+  _buildable = false,
+}

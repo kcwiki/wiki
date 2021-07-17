@@ -1,0 +1,224 @@
+==Enemy patterns==
+{{Section}}
+{{Map/Image|
+{{Map/ImageNode|Start|x=113|y=196}}
+{{Map/ImageNode|B|x=214|y=146}}
+{{Map/ImageNode|C|x=243|y=232}}
+{{Map/ImageNode|A|x=172|y=283}}
+{{Map/ImageNode|D|x=359|y=132}}
+{{Map/ImageNode|F|x=370|y=213}}
+{{Map/ImageNode|E|x=362|y=298}}
+{{Map/ImageNode|H|x=463|y=106}}
+{{Map/ImageNode|G|x=442|y=173}}
+{{Map/ImageNode|I|x=480|y=244}}
+{{Map/ImageNode|J|x=548|y=247}}
+{{Map/ImageNode|K|x=587|y=120}}
+}}
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+{{NodeInfo
+|A
+|Empty
+}}
+{{Map/Nodes|name=敵攻略支援部隊A群
+|B
+|Normal
+|{{Formation|Diamond}}
+|Heavy Cruiser Ri-Class/Flagship
+|Light Carrier Nu-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|B
+|Normal
+|{{Formation|Double Line}}{{Formation|Diamond}}
+|Heavy Cruiser Ri-Class/Flagship
+|Light Carrier Nu-Class/Elite
+|Light Carrier Nu-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=敵攻略支援部隊B群
+|C
+|Normal
+|{{Formation|Double Line}}
+|Battleship Ru-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Heavy Cruiser Ri-Class/Elite
+|Light Carrier Nu-Class/Elite
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|C
+|Normal
+|{{Formation|Diamond}}
+|Light Carrier Nu-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Battleship Ru-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|C
+|Normal
+|{{Formation|Diamond}}
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Elite
+|Heavy Cruiser Ri-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{NodeInfo
+|D
+|Storm
+|Ammo
+|15
+}}
+{{NodeInfo
+|E
+|Empty
+}}
+{{Map/Nodes|name=敵空母機動部隊
+|F
+|Normal
+|{{Formation|Diamond}}
+|Standard Carrier Wo-Class/Flagship II
+|Standard Carrier Wo-Class/Flagship II
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|F
+|Normal
+|{{Formation|Double Line}}{{Formation|Diamond}}
+|Standard Carrier Wo-Class/Flagship II
+|Light Cruiser Tsu-Class
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+|-
+|F
+|Normal
+|{{Formation|Diamond}}
+|Standard Carrier Wo-Class/Flagship II
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Tsu-Class
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{NodeInfo
+|G
+|Empty
+}}
+{{Map/Nodes|name=敵高速水上打撃部隊
+|H
+|Normal
+|{{Formation|Line Ahead}}
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ha-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|H
+|Normal
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ha-Class/Late Model
+|Destroyer Ni-Class/Late Model
+|-
+|H
+|Normal
+|{{Formation|Line Ahead}}
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+}}
+{{Map/Nodes|name=敵任務部隊B群
+|I
+|Normal
+|{{Formation|Line Ahead}}{{Formation|Double Line}}
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser Tsu-Class
+|Light Cruiser Tsu-Class
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|I
+|Normal
+|{{Formation|Line Ahead}}{{Formation|Diamond}}
+|Battleship Ru-Class/Flagship
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Flagship
+|Light Cruiser Tsu-Class
+|Destroyer Ha-Class/Late Model
+|Destroyer Ni-Class/Late Model
+}}
+{{Map/Nodes|name=敵任務部隊A群
+|J
+|Normal
+|{{Formation|Line Ahead}}
+|Battleship Ru-Class/Kai Flagship
+|Battleship Ru-Class/Elite
+|Battleship Ru-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ha-Class/Late Model
+|Destroyer Ha-Class/Late Model
+|-
+|J
+|Normal
+|{{Formation|Diamond}}
+|Standard Carrier Wo-Class/Kai Flagship
+|Battleship Ru-Class/Flagship
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ha-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|J
+|Normal
+|{{Formation|Double Line}}
+|Heavy Cruiser Ri-Class/Kai Flagship
+|Battleship Ru-Class/Flagship
+|Light Carrier Nu-Class/Elite
+|Light Cruiser Tsu-Class
+|Destroyer I-Class/Late Model
+|Destroyer I-Class/Late Model
+}}
+{{Map/Nodes|name=敵攻略部隊本体
+|K
+|Boss
+|{{Formation|Line Ahead}}
+|Transport Ship Wa-Class/Flagship
+|Battleship Ru-Class/Kai Flagship
+|Light Cruiser Tsu-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ni-Class/Late Model
+|Destroyer Ni-Class/Late Model
+|-
+|K
+|Boss
+|{{Formation|Line Ahead}}{{Formation|Diamond}}
+|Transport Ship Wa-Class/Flagship
+|Standard Carrier Wo-Class/Flagship II
+|Battleship Ru-Class/Kai Flagship
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ni-Class/Late Model
+|Destroyer Ni-Class/Late Model
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

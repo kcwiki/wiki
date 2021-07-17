@@ -1,0 +1,65 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "5inch Single Gun Mount Mk.30",
+    _id = 284,
+    _japanese_name = "5inch単装砲 Mk.30",
+    _reading = "5インチたんそうほう マークサーティ",
+    _type = 1, -- 1,1,1,16,0
+    _icon = 16,
+    _rarity = 3,
+    _firepower = 2,
+    _bombing = false,
+    _torpedo = false,
+    _aa = 6,
+    _armor = 1,
+    _asw = false,
+    _shelling_accuracy = 1,
+    _torpedo_accuracy = false,
+    _evasion = 2,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = 1,
+    _flight_cost = false,
+    _flight_range = false,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = 1,
+    _scrap_steel = 2,
+    _scrap_bauxite = 2,
+    _buildable = false,
+    _info = "米国で開発・実戦配備された優れた両用砲。同駆逐艦クラスの搭載主砲として、広く運用された単装砲兵装です。<br>対艦戦闘及び対空戦闘両面で優れた実用性を発揮した本砲は、あのフレッチャー級駆逐艦や、レイテ沖で栗田艦隊主力からタフィー3護衛空母群を護って奮戦した護衛駆逐艦などにも、主砲として装備されました。",
+	_improvements = {
+		_fuel = 30,
+		_ammo = 80,
+		_steel = 180,
+		_bauxite = 160,
+		_products = {
+			[false] = {
+				_ships = {
+					["Samuel B. Roberts/"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+					["Samuel B. Roberts/Kai"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+					["Johnston/"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+					["Johnston/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 10,
+					_development_material_x = 12,
+					_improvement_material = 6,
+					_improvement_material_x = 7,
+					_equipment = {["10cm Twin High-angle Gun Mount"] = 2},
+				},
+				[6] = {
+					_development_material = 12,
+					_development_material_x = 18,
+					_improvement_material = 8,
+					_improvement_material_x = 10,
+					_equipment = {["12.7cm Twin High-angle Gun Mount (Late Model)"] = 2},
+				},
+				_stars = false,
+			},
+		},
+	},
+}

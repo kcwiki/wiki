@@ -1,0 +1,9 @@
+{{#vardefine:name|{{#replace:{{FULLPAGENAME}}|KanColle Kai:|Vita:}}}}
+<h2>Info</h2>
+<div style="display:inline-block"><h3>Basic</h3>{{EnemyShipInfoKai|{{#var:name}}/}}</div>
+<div style="display:inline-block"><h3>Basic II</h3>{{EnemyShipInfoKai|{{#var:name}}/II}}</div>
+<div style="display:inline-block"><h3>Basic III</h3>{{EnemyShipInfoKai|{{#var:name}}/III}}</div>{{#if:{{{basic|}}}||
+<div style="display:inline-block"><h3>Damaged</h3>{{EnemyShipInfoKai|{{#var:name}}/Damaged}}</div>
+<div style="display:inline-block"><h3>Damaged II</h3>{{EnemyShipInfoKai|{{#var:name}}/Damaged II}}</div>
+<div style="display:inline-block"><h3>Damaged III</h3>{{EnemyShipInfoKai|{{#var:name}}/Damaged III}}</div>}}
+{{EnemyShipCategoriesKai|{{#var:name}}/}}

@@ -1,28 +1,15 @@
-
-{{Template:Equipmentinfo
-|name = 381mm / 50 Triple Gun Mount
-|id = 133 
-|japanesename = 381mm/50 三連装砲
-|icon = {{Template:RedGunHeavy}}
-|type = Main Cannon, Heavy
-|effect = {{Firepower}}+20, {{AA}}+2, {{Hit}}-3, {{Evasion}}-1, {{range}} Very Long
-|scrap = {{Ammo}}16, {{Steel}}21
-|image = [[File:Equipment133-1.png]]
-|BB = lime
-|FASTBB = lime
-|BBV = lime}}
-
+{{Template:EquipmentInfo|133}}
 
 ==Introduction==
-パスタの国が生んだ三連装型の戦艦主砲です。
-高射速の50口径、中近距離戦闘での火力は同クラス最強です。
-また、射程も大和型46cm砲と同等以上のカタログスペックを誇ります。
-ただし、砲の耐久性に難点があります。また散布界が広く、その命中率にも課題を残していました。
+パスタの国が生んだ三連装型の戦艦主砲です。<br>
+高射速の50口径、中近距離戦闘での火力は同クラス最強です。<br>
+また、射程も大和型46cm砲と同等以上のカタログスペックを誇ります。<br>
+ただし、砲の耐久性に難点があります。また散布界が広く、その命中率にも課題を残していました。<br>
 
-''A triple gun mount made for battleships by the land of pasta.
-''A 50-caliber gun with a high rate of fire. It was most powerful at medium-short ranges.
-''In addition, the range is on par with the 46cm cannons of the [[:Category:Yamato_Class|Yamato-class]].
-''There were issues with the cannon's durability. The spread of its fire was also wide, so it had poor accuracy.
+''A triple gun mount made for battleships by the land of pasta.''<br>
+''A 50-caliber gun with a high rate of fire. It was most powerful at medium-short ranges.''<br>
+''In addition, the range is on par with the 46cm cannons of the [[:Category:Yamato_Class|Yamato-class]].''<br>
+''There were issues with the cannon's durability. The spread of its fire was also wide, so it had poor accuracy.''<br>
 
 ==Notes==
 <div class="mw-collapsible"><h3>How To Obtain</h3>
@@ -35,6 +22,13 @@
 ''Ranking reward for:''
 * Mar 2015: 1-5 (x2), 6-20, 21-100, 101-500
 
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2015-04-17:''' '''Implemented''' as ranking reward
+* '''2015-04-28:''' Became '''improvable''' and '''upgradeable''' to {{Equipment/Link|381mm/50 Triple Gun Mount Kai}}
 </div></div>
 
 ==Akashi's Improvement Arsenal==
@@ -55,13 +49,13 @@
 |EquipConsume0-5=1x{{RedGunHeavy|35.6cm Twin Gun Mount}}
 |EquipConsume6-9=2x{{RedGunHeavy|35.6cm Twin Gun Mount}}
 |EquipConsume10=2x{{GreenGunMG|25mm Twin Autocannon Mount}}
-|Sun=R
-|Mon=R
-|Tue=L
-|Wed=L
-|Thu=L
-|Fri=L
-|Sat=R
+|Sun=&nbsp;<br>R
+|Mon=&nbsp;<br>R
+|Tue=L<br>&nbsp;
+|Wed=L<br>&nbsp;
+|Thu=L<br>&nbsp;
+|Fri=L<br>&nbsp;
+|Sat=&nbsp;<br>R
 |2ndShip=[[Littorio]]<br>[[Roma]]
 |Notes=Upgrades to [[381mm / 50 Triple Gun Mount Kai]] ★+3.
 }}

@@ -1,0 +1,63 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Type 1 Armor Piercing Shell Kai",
+	_page = false,
+	_id = 365,
+	_japanese_name = "一式徹甲弾改",
+	_reading = "いちしきてっこうだんかい",
+	_type = 19,
+	_icon = 13,
+	_rarity = 4,
+	_back = 4,
+	_firepower = 11,
+	_bombing = false,
+	_torpedo = false,
+	_aa = false,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = 2,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = 6,
+	_scrap_steel = 10,
+	_scrap_bauxite = 1,
+	_info = "遠距離砲撃戦における秘密兵器「九一式徹甲弾」改良版、「一式徹甲弾」。本徹甲弾はそのさらなる改良版です。本改良徹甲弾は弾頭炸薬を増量し、被帽頭を再設計したif強化弾です。海中突入後魚雷のように敵艦水線下に突き進む喫水下破砕を企図した水中弾能力も強化、もちろん弾頭部に弾着観測用着色剤を充填。戦艦・航空戦艦・高速戦艦で運用可能です。",
+	_buildable = false,
+	_improvements = {
+		_fuel = 50,
+		_ammo = 200,
+		_steel = 390,
+		_bauxite = 40,
+		_products = {
+			[false] = {
+				_ships = {
+					["Kongou/Kai Ni C"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Kiyoshimo"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Mutsu Kai Ni"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = false, Thursday = false, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 8,
+					_development_material_x = 10,
+					_improvement_material = 7,
+					_improvement_material_x = 7,
+					_equipment = {["46cm Triple Gun Mount"] = 2},
+				},
+				[6] = {
+					_development_material = 10,
+					_development_material_x = 40,
+					_improvement_material = 8,
+					_improvement_material_x = 10,
+					_equipment = {["Type 1 Armor Piercing Shell"] = 1},
+				},
+			},
+		},
+	},
+}

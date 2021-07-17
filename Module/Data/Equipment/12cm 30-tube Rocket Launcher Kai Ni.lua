@@ -1,0 +1,65 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "12cm 30-tube Rocket Launcher Kai Ni",
+    _id = 274,
+    _japanese_name = "12cm30連装噴進砲改二",
+    _reading = "12せんち30れんそうふんしんほうかいに",
+    _type = 21, -- 4,29,21,15,0
+    _icon = 15,
+    _rarity = 4,
+    _firepower = false,
+    _bombing = false,
+    _torpedo = false,
+    _aa = 8,
+    _armor = 1,
+    _asw = false,
+    _shelling_accuracy = 1,
+    _torpedo_accuracy = false,
+    _evasion = 3,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _flight_cost = false,
+    _flight_range = false,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = 5,
+    _scrap_steel = 2,
+    _scrap_bauxite = 3,
+    _info = "艦載用対空ロケットランチャー「12cm30連装噴進砲」をさらに戦訓によって改良した強化改修型です。後方ブラスト対策や再装填、さらに射撃装置にも改良を加え、噴進式対空焼霰弾連続発射の弾幕により、肉薄する敵機から味方艦を護る能力はさらに向上しました。「伊勢改」及び「日向改」では、さらに高い防空効果を発揮します。",
+    _buildable = false,
+    _improvements = {
+		_fuel = 90,
+		_ammo = 300,
+		_steel = 90,
+		_bauxite = 190,
+		_products = {
+			[false] = {
+				_ships = {
+					["Ise/Kai"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = false, Thursday = false, Friday = false, Saturday = false},
+					["Ise/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = false, Thursday = false, Friday = false, Saturday = false},
+					["Hyuuga/Kai"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Hyuuga/Kai Ni"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = false, Thursday = false, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 5,
+					_development_material_x = 7,
+					_improvement_material = 4,
+					_improvement_material_x = 5,
+					_equipment = {["25mm Triple Autocannon Mount"] = 2},
+				},
+				[6] = {
+					_development_material = 7,
+					_development_material_x = 15,
+					_improvement_material = 5,
+					_improvement_material_x = 7,
+					_equipment = {["12cm 30-tube Rocket Launcher"] = 2},
+				},
+				_stars = false,
+			},
+		},
+	},
+}

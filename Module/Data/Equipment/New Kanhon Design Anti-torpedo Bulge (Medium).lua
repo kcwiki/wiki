@@ -1,0 +1,61 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "New Kanhon Design Anti-torpedo Bulge (Medium)",
+    _page = false,
+    _id = 203,
+    _japanese_name = "艦本新設計 増設バルジ(中型艦)",
+    _reading = "かんほんしんせっけいぞうせつバルジ(ちゅうがたかん)",
+    _type = 27,
+    _icon = 23,
+    _rarity = 3,
+    _firepower = false,
+    _bombing = false,
+    _torpedo = false,
+    _aa = false,
+    _armor = 8,
+    _asw = false,
+    _shelling_accuracy = false,
+    _torpedo_accuracy = false,
+    _evasion = -1,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = false,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = false,
+    _scrap_steel = 24,
+    _scrap_bauxite = 2,
+    _info = "新設計された艦艇の防御力を強化する増加装甲の一種です。重巡洋艦以上の中型艦艇の船体側面への増設により防御力を高めることが可能です。<br/>(重巡洋艦級・軽空母級・水上機母艦及び特定艦艇に適用可能です)",
+    _wikipedia = "Anti-torpedo bulge",
+    _buildable = false,
+    _improvements = {
+		_fuel = 180,
+		_ammo = false,
+		_steel = 980,
+		_bauxite = 80,
+		_products = {
+			[false] = {
+				_ships = {
+					["Zara/Due"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 16,
+					_development_material_x = 24,
+					_improvement_material = 6,
+					_improvement_material_x = 9,
+					_equipment = {["Anti-torpedo Bulge (Medium)"] = 2},
+				},
+				[6] = {
+					_development_material = 28,
+					_development_material_x = 35,
+					_improvement_material = 8,
+					_improvement_material_x = 12,
+					_equipment = {["Anti-torpedo Bulge (Medium)"] = 3},
+				},
+			},
+		},
+	},
+}

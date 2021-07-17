@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Lightweight ASW Torpedo (Initial Test Model)",
+  _id = 378,
+  _japanese_name = "対潜短魚雷(試作初期型)",
+  _reading = nil,
+  _type = 15, -- 7,32,15,17,0
+  _icon = 17,
+  _rarity = 6,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = 2,
+  _aa = false,
+  _armor = false,
+  _asw = 20,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = 2,
+  _scrap_ammo = 11,
+  _scrap_steel = 2,
+  _scrap_bauxite = 5,
+  _buildable = false,
+  _info = "現代の水上艦装備の対潜兵装としても運用されている新世代の対潜誘導魚雷、その先行初期型です。爆雷に替わる新世代の対潜兵装として米国で開発された、音響ホーミング形式の対潜魚雷、そのごく初期型です。その後、年月と様々な改良が加えられ、進化発展していきます。",
+}

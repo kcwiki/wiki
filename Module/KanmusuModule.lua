@@ -112,17 +112,15 @@ function shipmodule.makeStatBox(frame)
     local shipInfo = assert(shipmodule.data[shipNum], "KanMusu ID " .. shipNum .. " doesn't have a database entry")
 
 	local shipName = shipInfo.name[3]
-    local CardImg = '<div style="text-align: center; width: 218px; height:300px;">[[File:{{#setmainimage:Ship Card ' .. shipName .. '.png}}|218x300px|' .. shipName .. ' Card]]</div>'
-    local CardDmgImg = '<div style="text-align: center; width: 218px; height:300px;">[[File:Ship Card ' .. shipName .. ' Damaged.png|218x300px|' .. shipName .. ' Damaged Card]]</div>'
-    local BannerImg = '<div style="text-align: center; width: 160px; height:40px;">[[File:Ship Banner ' .. shipName .. '.png|160px|' .. shipName .. ' Banner|class=imageCenter]]</div>'
-    local BannerDmgImg = '<div style="text-align: center; width: 160px; height:40px;">[[File:Ship Banner ' .. shipName .. ' Damaged.png|160px|' .. shipName .. ' Damaged Banner|class=imageCenter]]</div>'
+    local CardImg = '<div class="top-image">[[File:Ship Card ' .. shipName .. '.png|218x300px|link=]]</div>'
+    local CardDmgImg = '<div class="bottom-image">[[File:Ship Card ' .. shipName .. ' Damaged.png|218x300px|link=]]</div>'
+    local BannerImg = '<div class="top-image">[[File:Ship Banner ' .. shipName .. '.png|link=]]</div>'
+    local BannerDmgImg = '<div class="bottom-image">[[File:Ship Banner ' .. shipName .. ' Damaged.png|link=]]</div>'
 
-    local Cards = '<td rowspan="10" style="text-align: center; width: 218px; height:300px;">' .. frame:extensionTag('slideshow', CardImg .. CardDmgImg, {
-    	sequence = 'forward', transition = 'fade', refresh = '10000', center = 'true'
-    }) .. '</td>'
-    local Banners = '<td colspan="3" style="text-align: center; width: 160px; height:40px;">' .. frame:extensionTag('slideshow', BannerImg .. BannerDmgImg, {
-    	sequence = 'forward', transition = 'fade', refresh = '10000', center = 'true'
-    }) .. '</td>'
+    local Cards = '<td rowspan="10" class="double-image" style="width:218px;height:300px">' .. CardImg .. CardDmgImg .. '</td>'
+    local Banners = '<td colspan="3" class="double-image" style="width:240px;height:60px">' .. BannerImg .. BannerDmgImg .. '</td>'
+    -- frame:extensionTag('slideshow', CardImg .. CardDmgImg, { sequence = 'forward', transition = 'fade', refresh = '10000', center = 'true' })
+    -- frame:extensionTag('slideshow', BannerImg .. BannerDmgImg, { sequence = 'forward', transition = 'fade', refresh = '10000', center = 'true' })
 
     local sortNo = shipInfo.sortno or U.split(shipNum, '-')[1] or '?'
     local row1 = '<tr>' .. Cards .. '<th style="text-align: center;">' .. sortNo .. '</th>' .. Banners .. '</tr>'
@@ -177,8 +175,10 @@ function shipmodule.makeStatBox(frame)
 	end
 
     -- Summary of basic ship info
-    local row2 = '<tr><th colspan="2">' .. JaName .. '</th><th colspan="2">' .. shipmodule.data[shipNum]["name"][3] .. '</th></tr>'
-    local row3 = '<tr><td colspan="4" style="text-align: center;">' .. shipmodule.data[shipNum]["class"] .. ' Class ' .. shipmodule.data[shipNum]["type"] .. '</td></tr>'
+    local isCVE = shipInfo.type == 'Light Carrier' and type(shipInfo.asw) == 'table' and type(shipInfo.asw[1]) == 'number' and shipInfo.asw[1] > 0
+    local shipType = isCVE and string.format('<span class="explain" title="CVE">%s[[Category:Escort Carriers]]</span>', shipInfo.type) or shipInfo.type
+    local row2 = '<tr><th colspan="2">' .. JaName .. '</th><th colspan="2">' .. shipInfo.name[3] .. '</th></tr>'
+    local row3 = '<tr><td colspan="4" style="text-align: center;">' .. shipInfo.class .. ' Class ' .. shipType .. '</td></tr>'
     local row4 = '<tr><td colspan="4"><hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));" /></td></tr>'
 
     -- Ship stats table
@@ -192,8 +192,8 @@ function shipmodule.makeStatBox(frame)
       local marriedHp = getMarriedHp(hp, maxHp)
       local maxModHp = math.min(hp + 2, maxHp)
       local maxModMarriedHp = math.min(marriedHp + 2, maxHp)
-      local hpSpan1 = tooltip(hp, string.format('%d with DE modernization', maxModHp))
-      local hpSpan2 = tooltip(marriedHp, string.format('Married, %d with DE modernization', maxModMarriedHp))
+      local hpSpan1 = hp == maxModHp and hp or tooltip(hp, string.format('%d with HP modernization', maxModHp))
+      local hpSpan2 = tooltip(marriedHp, marriedHp == maxModMarriedHp and 'Married' or string.format('Married, %d with HP modernization', maxModMarriedHp))
       HPinfo = statLabel .. 'HP [[File:IcoHP.png|HP]]</th>' .. statBox .. hpSpan1 .. '→' .. hpSpan2 .. '</td>'
     else
       HPinfo = statLabel .. 'HP [[File:IcoHP.png|HP]]</th>' .. statBox .. hp .. '</td>'
@@ -352,10 +352,10 @@ function shipmodule.ModernizationBox(frame)
           remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon Remodel Blueprint.png|25px|Blueprint|link=Blueprints]] %d', shipInfo.remodelbp)
         end
         if shipInfo.remodelcatapult then
-          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon Prototype Flight Deck Catapult.png|25px|Prototype Flight Deck Catapult]] %d', shipInfo.remodelcatapult)
+          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon Prototype Flight Deck Catapult.png|25px|Prototype Flight Deck Catapult|link=Prototype Flight Deck Catapult]] %d', shipInfo.remodelcatapult)
         end
         if shipInfo.remodelar then
-          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon Action Report.png|25px|Action Report]] %d', shipInfo.remodelar)
+          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon Action Report.png|25px|Action Report|link=Action Report]] %d', shipInfo.remodelar)
         end
         if shipInfo.remodeldevmat or shipInfo.remodelconmat or shipInfo.remodelgunmat or shipInfo.remodelairmat then
           remodelinfo = remodelinfo .. '<br>'
@@ -367,13 +367,13 @@ function shipmodule.ModernizationBox(frame)
           remodelinfo = remodelinfo .. ' ' .. string.format('[[File:IcoConmat.png|18px|Construction Material]] %d', shipInfo.remodelconmat)
         end
         if shipInfo.remodelgunmat then
-          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon New Model Gun Mount Improvement Material.png|18px|New Model Gun Mount Improvement Material]] %d', shipInfo.remodelgunmat)
+          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon New Model Gun Mount Improvement Material.png|18px|New Model Gun Mount Improvement Material|link=New Model Gun Development Material]] %d', shipInfo.remodelgunmat)
         end
         if shipInfo.remodelairmat then
-          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon New Model Aerial Armament Material.png|18px|New Model Aerial Armament Material]] %d', shipInfo.remodelairmat)
+          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon New Model Aerial Armament Material.png|18px|New Model Aerial Armament Material|link=New Model Aviation Development Material]] %d', shipInfo.remodelairmat)
         end
         if shipInfo.remodelarmmat then
-          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon New Model Armament Material.png|18px|New Model Armament Material]] %d', shipInfo.remodelarmmat)
+          remodelinfo = remodelinfo .. ' ' .. string.format('[[File:Item Icon New Model Armament Material.png|18px|New Model Armament Material|link=New Model Armament Material]] %d', shipInfo.remodelarmmat)
         end
     end
     

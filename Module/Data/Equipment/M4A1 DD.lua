@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "M4A1 DD",
+  _id = 355,
+  _japanese_name = "M4A1 DD",
+  _reading = nil,
+  _type = 24, -- 8,45,24,20,0
+  _icon = 20,
+  _rarity = 4,
+  _firepower = 2,
+  _bombing = false,
+  _torpedo = false,
+  _aa = false,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = -1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = 2,
+  _scrap_ammo = 6,
+  _scrap_steel = 8,
+  _scrap_bauxite = 2,
+  _buildable = false,
+  _info = "米国で開発され、数多くのバリエーションと共に量産された代<br>表的中戦車「M4」シリーズ。その初期改良型をベースに紅茶<br>の国が防水スクリーンと推進プロペラを装備した水陸両用戦車<br>が、シャーマンDDと呼ばれたM4A1 Duplex Driveです。<br>海上からの上陸反攻作戦に投入されました。",
+}

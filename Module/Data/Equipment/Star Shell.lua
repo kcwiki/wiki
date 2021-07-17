@@ -1,0 +1,33 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Star Shell",
+	_page = false,
+	_id = 101,
+	_japanese_name = "照明弾",
+	_reading = "しょうめいだん",
+	_type = 33,
+	_icon = 27,
+	_rarity = 1,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = false,
+	_aa = false,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = false,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_special = "Has a chance to provide bonuses in night battle",
+	_scrap_fuel = false,
+	_scrap_ammo = 2,
+	_scrap_steel = 1,
+	_scrap_bauxite = 1,
+	_info = "主砲等から発射される落下傘付の照明弾です。<br/>夜戦時において敵艦隊付近を照明し、味方艦隊の夜間攻撃を支援します(敵艦隊の夜間特殊攻撃発生も少し抑えることが可能です)。",
+	_buildable = false,
+}

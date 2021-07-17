@@ -1,0 +1,72 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "8inch Triple Gun Mount Mk.9",
+  _id = 356,
+  _japanese_name = "8inch三連装砲 Mk.9",
+  _reading = "8インチさんれんそうほう マークナイン",
+  _type = 2, -- 1,1,2,2,0
+  _icon = 2,
+  _rarity = 2,
+  _firepower = 11,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 1,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = -1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 6,
+  _scrap_steel = 9,
+  _scrap_bauxite = false,
+  _buildable = false,
+  _info = "米海軍の条約型重巡洋艦の主兵装として開発され、同主力重巡<br>洋艦群に装備された三連装主砲兵装です。<br>20cm級の砲を一基三門に集約したベーシックでありながら、<br>大火力を備えた主砲兵装です。米海軍の条約型重巡Pensacola<br>級やNorthampton級の主兵装として運用されました。",
+  _improvements = {
+      _fuel = 20,
+      _ammo = 120,
+      _steel = 160,
+      _bauxite = 10,
+      _products = {
+		["8inch Triple Gun Mount Mk.9 mod.2"] = {
+			_ships = {
+				["Houston/"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+				["Houston/Kai"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+			},
+			[0] = {
+				_development_material = 5,
+				_development_material_x = 6,
+				_improvement_material = 2,
+				_improvement_material_x = 3,
+				_equipment = { ["20.3cm Twin Gun Mount"] = 1 },
+			},
+			[6] = {
+				_development_material = 6,
+				_development_material_x = 9,
+				_improvement_material = 3,
+				_improvement_material_x = 5,
+				_equipment = { ["20.3cm Twin Gun Mount"] = 2 },
+			},
+			[10] = {
+				_development_material = 12,
+				_development_material_x = 30,
+				_improvement_material = 7,
+				_improvement_material_x = 12,
+				_equipment = {
+				    ["20.3cm (No.2) Twin Gun Mount"] = 1,
+				    ["New Model Gun Mount Improvement Material"] = 1,
+				},
+			},
+			_stars = false,
+		},
+	},
+  },
+}

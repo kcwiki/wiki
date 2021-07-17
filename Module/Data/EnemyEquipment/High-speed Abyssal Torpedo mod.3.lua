@@ -1,0 +1,33 @@
+-- [[Category:Enemy equipment modules]]
+
+return {
+  _name = "High-speed Abyssal Torpedo mod.3",
+  _id = 593,
+  _japanese_name = "高速深海魚雷 mod.3",
+  _reading = "こうそくしんかいぎょらい mod.3",
+  _type = 5, -- 2,3,5,5,0
+  _icon = 5,
+  _rarity = 4,
+  _cg_reference = "533mm Quintuple Torpedo Mount (Initial Model)",
+  _firepower = false,
+  _bombing = false,
+  _torpedo = 15,
+  _aa = false,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 10,
+  _torpedo_accuracy = false,
+  _evasion = 3,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 1,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = false,
+  _scrap_steel = false,
+  _scrap_bauxite = false,
+  _buildable = false,
+}

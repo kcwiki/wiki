@@ -1,0 +1,253 @@
+==General Information==
+* There are 2 different tags for this map:
+** Blue Tag: 3rd Fleet (Requirement: Combined Fleet or Single Fleet with CV) (Northern Start)
+** Purple Tag: 6th Fleet (Requirements: Single Fleet with no CV) (2 Southern Starts)
+
+==Phase 1: TP Phase==
+This phase will require you to run a Single Fleet to deplete the TP bar at {{MapRoute|Q|red}}, consisting of a Ne-Class Kai and light escorts
+There are currently two known compositions to complete this phase:
+
+<tabber>
+|-|Light Fleet Comp=
+* Recommended Fleet:{{EventColorTag|MediumPurple}}{{ToolTip|1 CL 1 CAV/AV 4 DD ('''FAST''')|[[File:Spring2021EventTag2.png]]<br>'''6th Fleet<br>(Purple Tag)'''}}
+* Route: {{MapRoute|A|blue|B|red|E|red|H|red|J|green|Q|red}}
+* LBAS: {{MapRoute|Q|red}} 5 Range (no Airpower)
+* Notes: Support expeditions are optional. You can use vanguard formation to pass the surface nodes
+* LoS: About '''44+/34+/27+/23+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|J| green}} to {{MapRoute|Q|red}} with this comp.
+* Will deplete the TP Gauge fast compared to the Submarine Composition.
+* May result in extra bucket being spent while doing the runs.
+* Will also result in additional ship being locked the map.
+|-|Submarine Comp=
+* Recommended Fleet:[[File:Spring2021EventTag2.png]]{{ToolTip|6SS(V)|[[File:Spring2021EventTag2.png]]<br>'''6th Fleet<br>(Purple Tag)'''}}
+* Route: {{MapRoute|A|blue|B|red|D|blue|H|red|J|green|Q|red}}
+* LBAS: {{MapRoute|H|red}} 4 Range (no Airpower), {{MapRoute|Q|red}} 5 Range (no Airpower)
+*Notes: Only recommended if you have some [[Type 2 Ka-Mi Tank]]s and [[Drum Canister]] carrying Subs (Luigi Torelli Kai or higher).
+* Sub Fleet will be almost safe from any harm through the map as long as a land base is placed in Node H and Q. 
+* However, the amount of TP drain per run will be very low, requiring more runs to be taken (Around 40-50 runs depending on the equipment you have).
+* This can be ideal if you plan to conserve ships for tagging in later sections of the event.
+* This can also be helpful in conserving buckets that would otherwise be spent in this map using a surface related composition.
+* LoS: The LoS check from {{MapRoute|J| green}} to {{MapRoute|Q|red}} is ignored if using a full fleet of 6 SS(V).
+**Based on current data, using less than 3-4 SS(V) in a fleet may result in off-routing to {{MapRoute|L|blue}} regardless.
+</tabber>
+
+==Phase 1.5: Unlock the route to Node U==
+Unlocking {{MapRoute|U|red}} has two requirements:
+* Reach {{MapRoute|C|blue}}
+* S rank {{MapRoute|P|red}} twice (Hard), once (Medium)
+<tabber>
+|-|Node C=
+** Composition:[[File:Spring2021EventTag2.png]]{{ToolTip|1SS|[[File:Spring2021EventTag2.png]]<br>'''6th Fleet<br>(Purple Tag)'''}} (You can equip a damage control fairy on your submarine in case of taiha on {{MapRoute|F|Red}})
+** Route: {{MapRoute|A|blue|B|red|D|blue|F|Red|C|Blue}}
+** LBAS: N/A
+|-|Node P=
+** Composition:<span style="line-height:38px; background-color:DodgerBlue; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|Carrier Task Force (CTF): 2 FBB 2 CV 2 CA + 1 CL 5 DD ('''Fast''')|[[File:Spring2021EventTag3.png]]<br>'''3rd Fleet<br>(Blue Tag)'''}}
+** Route: {{MapRoute|G|blue|K|red|M|red|N|red|P|red}}
+** Alternatively, you can use a single fleet comprised of 3 CV(L), 2 (FBB or CA(V)), and a DD with a maximum of 2 CV to route {{MapRoute|G|blue|K|red|N|red|P|red}}
+** LBAS: Range 7, AP/AS on Hard: 124/279
+</tabber>
+
+==Phase 2: Defeat CA Hime at Node U==
+You can use the same fleet you used in the previous unlocking phase
+** Composition:<span style="line-height:38px; background-color:DodgerBlue; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|Carrier Task Force (CTF): 2 FBB 2 CV 2 CA + 1 CL 5 DD ('''Fast''')|[[File:Spring2021EventTag3.png]]<br>'''3rd Fleet<br>(Blue Tag)'''}}
+** Route: {{MapRoute|G|blue|K|red|M|red|N|red|P|red|T|red|U|red}}
+** Alternatively, you can use a single fleet comprised of 3 CV(L), 2 (FBB or CA(V)), and a DD with a maximum of 2 CV to route {{MapRoute|G|blue|K|red|N|red|P|red|T|red|U|red}}
+** LBAS: Range 6, no Air Power
+** Notes: AACI is heavily recommended due to three airstrikes on route. Support Expeditions are optional
+
+==Phase 3: Defeat CV Hime at Node ZII==
+In this phase, you will need to take out an Aircraft Carrier Princess. There are several compositions availabe depending on selected difficulty:
+<tabber>
+|-|Submarine comp=
+* Composition:<span style="line-height:38px; background-color:MediumPurple; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|6 SS|[[File:Spring2021EventTag2.png]]<br>'''6th Fleet<br>(Purple Tag)'''}}
+** The recommended composition for all difficulties
+* Route: {{MapRoute|W|red|Z|red|ZI|red|ZII|red}}
+* LBAS Range: 8 Range, AP/AS on Hard 103/231
+* Notes: Node Support is recommended to help you pass through the 2 surface battle nodes. Boss Support Expedition is optional if you send LBAS to the Boss.
+* LoS: '''29+/23+/21+/18+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|ZI|red}} to {{MapRoute|ZII|red}}.
+|-|Surface /Sub Mix=
+* Composition:<span style="line-height:38px; background-color:MediumPurple; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|CL, AV/CAV, DD, 3 SS|[[File:Spring2021EventTag2.png]]<br>'''6th Fleet<br>(Purple Tag)'''}}
+** Only should be considered if you lack submarines
+* Route: {{MapRoute|V|red|W|red|X|red|Y|blue|Z|red|ZI|red|ZII|red}}
+* LBAS Range: 8 Range, AP/AS on Hard 103/231
+* Notes: Node Support is recommended. Boss Support is also recommended.
+* LoS: '''29+/23+/21+/18+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|ZI|red}} to {{MapRoute|ZII|red}}.
+|-|Surface / AS + Sub Mix=
+* Composition<span style="line-height:38px; background-color:MediumPurple; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|AS, BBV, 2CLT, 2SS(V)|[[File:Spring2021EventTag2.png]]<br>'''6th Fleet<br>(Purple Tag)'''}}
+** '''Easy and Casual Difficulty Only''' (Use this Composition in case of a lack of Submarines)
+* Route: {{MapRoute|V|red|W|red|X|red|Y|blue|Z|red|ZI|red|ZII|red}}
+* LBAS Range: 8 Range, AP/AS on Easy/Casual 88/197
+* Notes: Node Support is recommended. Boss Support is also recommended.
+* LoS: '''29+/23+/21+/18+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|ZI|red}} to {{MapRoute|ZII|red}}.
+|-|Light Fleet Comp=
+* Composition:<span style="line-height:38px; background-color:MediumPurple; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|2CL, 4DD|[[File:Spring2021EventTag2.png]]<br>'''6th Fleet<br>(Purple Tag)'''}}
+** '''Casual Only''' (Use this Composition in case of a lack of Submarines)
+* Route: {{MapRoute|W|red|X|red|Y|blue|Z|red|ZI|red|ZII|red}}
+* LBAS Range: 8 Range, AP/AS on Easy 88/197
+* Notes: Vanguard formation can be utilized to help with passing rate. Boss Support is optional but recommended.
+* LoS: '''29+/23+/21+/18+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|ZI|red}} to {{MapRoute|ZII|red}}.
+</tabber>
+
+
+===E-3===
+{{EventInfoBox
+|title_en= Night Battle<br/>off Lunga Point
+|title_jp= ルンガ沖夜戦
+|tag=[[File:Spring2021EventTag4.png]]
+|tag2=[[File:Spring2021EventTag5.png]]
+|tag3=[[File:Spring2021EventTag6.png]]
+|tag_text= <span style="line-height:38px; background-color:Orange; padding:10px 8px; margin:0px 3px"></span>Orange Tag: 2nd Torpedo Squadron<br/><span style="line-height:38px; background-color:Gold; padding:10px 8px; margin:0px 3px"></span>Yellow Tag: Combined Fleet<br/><span style="line-height:38px; background-color:Gray; padding:10px 8px; margin:0px 3px"></span>Grey Tag: 8th Fleet
+|header_thumb=[[File:Spring2021_E3BossThumb.png]]
+|map_1=[[File:Spring2021E-3Map.png|450px]]
+|map_1_text=Map
+|map_2=[[File:Spring2021E-3MapP1.png|450px]]
+|map_2_text=Phase 1
+|map_3=[[File:Spring2021E-3MapP2.png|450px]]
+|map_3_text=Phase 2
+|map_4=[[File:Spring2021E-3MapP3.png|450px]]
+|map_4_text=Phase 3
+|map_5=[[File:Spring2021E-3LBASMap.png|450px]]
+|map_5_text=LBAS
+|boss_hard= 750 TP, 800 HP, 5220 HP
+|boss_medium= 500 TP, 800 HP, 4620 HP
+|boss_easy= 350 TP, 800 HP, 4020 HP
+|boss_casual= 350 TP, 800 HP, 4020 HP
+|phase_1_boss=
+|phase_2_boss=
+|phase_3_boss=
+|phase_4_boss=
+|phase_5_boss=
+|reward_all={{Ship/Banner|Northampton}}
+|reward_1={{QuestRewardItem|Medal}}
+|reward_1_casual=
+|reward_1_easy=1
+|reward_1_medium=1
+|reward_1_hard=2
+|reward_2={{QuestRewardItem|Improvement Material}}
+|reward_2_casual=
+|reward_2_easy=
+|reward_2_medium=5
+|reward_2_hard=8
+|reward_3={{QuestRewardEquip|Torpedo Squadron Skilled Lookouts}}
+|reward_3_casual=
+|reward_3_easy=1
+|reward_3_medium=1 (★4) 
+|reward_3_hard=1 (★8) 
+|reward_4={{QuestRewardEquip|SOC Seagull}}
+|reward_4_casual=
+|reward_4_easy=
+|reward_4_medium=1 (★8) 
+|reward_4_hard=1 (★10) 
+|reward_5={{QuestRewardEquip|SO3C Seamew Kai}}
+|reward_5_casual=
+|reward_5_easy=
+|reward_5_medium=
+|reward_5_hard=1 
+|reward_6=
+|reward_6_casual=
+|reward_6_easy=
+|reward_6_medium=
+|reward_6_hard= 
+}}
+
+==General Information==
+
+This map has three ship locks:
+*Orange Tag: 2nd Torpedo Squadron (Single Fleet)
+*Grey Tag: 8th Fleet (Single Fleet, '''with CA(V) flagship''')
+**Starting point unlocks after Phase 1 is cleared
+**Only really used for one unlocking gimmick
+*Yellow Tag: Combined Fleet (Combined Fleet)
+**Same starting point as Orange Tag, but tagged with Combined Fleet Tag when sortied as a Combined Fleet (STF or CTF)
+
+==Phase 1: TP Phase==
+
+Phase 1 is a TP Phase, with 350/350/500/750 points required on Casual/Easy/Medium/Hard at HQ 120
+
+*Composition:<span style="line-height:38px; background-color:Orange; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|0-1 CL, 5-6 DD|[[File:Spring2021EventTag4.png]]<br>'''2nd Torpedo Squadron<br>(Orange Tag)'''}}
+**A fleet with CL will off-route to {{MapRoute|E|red}}
+*Route: {{MapRoute|A|blue|C|red|G|red|F|blue|I|blue|J|red|L|purple|M|green|N|red}} with 0 CL
+**{{MapRoute|A|blue|C|red|E|red|G|red|F|blue|I|blue|J|red|L|purple|M|green|N|red}} with 1 CL
+*'''A total of 0/?/3/4 drum-equipped ships are required on Casual/Easy/Medium/Hard for this route.'''
+*LBAS:
+**2 LBAS with 4x LBAA each to boss (7 Range); OR
+**1 LBAS with 4x Toukai/ASW to {{MapRoute|C|red}} (2 Range), 1 LBAS with 4x LBAA to Boss; OR
+**Fighter sweep {{MapRoute|E|red|G|red}}
+*Notes: 
+**Support expeditions are optional, vanguard formation can be used to increase passing rate. Generic AACI is sufficient for the Air Raids.
+**S-Ranking the boss is not strictly necessary, but if desired, the new Torpedo/SLO+/Torpedo and/or Torpedo/SLO+/Drum cut-ins may be useful.
+***With a [[Reinforcement Expansion]] unlocked, a Torpedo/Torpedo/Drum/[SLO+] set-up may be utilized.
+***SLO+ refers to [[Torpedo Squadron Skilled Lookouts]].
+**This phase has '''no LoS check'''.
+
+==Phase 1.5: Unlock the 2nd Boss Node==
+Unlocking {{MapRoute|W|Red}} has 2 requirements:
+* AS Node {{MapRoute|B|Red}} & {{MapRoute|O2|Red}}
+* S rank Node {{MapRoute|O3|Red}} & {{MapRoute|O1|Red}}
+** A rank {{MapRoute|O1|Red}} on '''EASY/CASUAL''' only
+<tabber> 
+|-|Node B & O2=
+* This is only required on '''MEDIUM+''' only
+* Composition:<span style="line-height:38px; background-color:Gold; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|Carrier Task Force (CTF): 2 CV(L) + 1 CL, 2 DD|[[File:Spring2021EventTag5.png]]<br>'''Combined Fleet<br>(Yellow Tag)'''}}
+* Route: {{MapRoute|A|blue|B|red|D|blue|O2|red}}
+* LBAS: AP/AS {{MapRoute|O2|Red}} Hard: 169/380 @ 4Range; AP/AS {{MapRoute|B|Red}} Hard: 160/359 @ Range 2
+|-|Node O1 & O3=
+* Required for all difficulties
+* Composition:<span style="line-height:38px; background-color:Grey; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|Single Fleet: 2 CA(V), 1-2 CL, 2-3 DD|[[File:Spring2021EventTag6.png]]<br>'''8th Fleet<br>(Grey Tag)'''}}
+* A CA(V) '''must''' be flagship.
+* Route: {{MapRoute|P|blue|B|red|O1|red|O3|red}}
+* LBAS: Range 3, no airpower {{MapRoute|O1|Red}}; Range 4, no air power {{MapRoute|O3|Red}}
+* Note: O1 contains a New Submarine Princess along with 2 other submarines. Bring Toukai/ASW Aircraft as well as OASW. O3 is a surface combat node.
+</tabber>
+
+==Phase 2: Defeat the Enemy Combined Fleet==
+The objective here is to take down the enemy combined fleet at Node {{MapRoute|W|Red}}
+
+<tabber> 
+|-|STF=
+* Composition:<span style="line-height:38px; background-color:Gold; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|Surface Task Force (STF): 2 CVL, 2 FBB, 1-2 CA(V), 1-2 CL + 1 CA, 1 CL, 4 DD|[[File:Spring2021EventTag5.png]]<br>'''Combined Fleet<br>(Yellow Tag)'''}}
+* Route: {{MapRoute|A|blue|C|red|E|red|G|red|Q|blue|R|red|V|red|W|red}}
+* LBAS: Range 7. AD/AP/AS for Hard: 90/180/405. LD: 96/191/429.
+|-|CTF=
+Goes {{MapRoute|Q|blue|S|red}} instead of {{MapRoute|Q|blue|R|red}}
+* Composition:<span style="line-height:38px; background-color:Gold; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|Carrier Task Force (CTF): 2 CV, 1 FBB, 2 CA(V), CL + 1 CA, 1 CL, 4 DD|[[File:Spring2021EventTag5.png]]<br>'''Combined Fleet<br>(Yellow Tag)'''}}
+* Route: {{MapRoute|A|blue|C|red|E|red|G|red|Q|blue|S|red|U|red|W|red}}
+* LBAS: Range 7. AD/AP/AS for Hard: 90/180/405. LD: 96/191/429.
+|-|Heavy CTF=
+* Composition:<span style="line-height:38px; background-color:Gold; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|Carrier Task Force (CTF): 2 CV, 2 CVL, 1 CAV, 1 CL + 1 CA, 1 CL, 4 DD|[[File:Spring2021EventTag5.png]]<br>'''Combined Fleet<br>(Yellow Tag)'''}}
+**Speed does not matter for this composition and route (i.e. use of Slow CVLs is acceptable).
+* Route: {{MapRoute|A|blue|C|red|E|red|G|red|Q|blue|R|red|V|red|W|red}}
+* LBAS: Range 6 {{MapRoute|V|red}} & 7 {{MapRoute|W|red}}.
+**AD/AP/AS for {{MapRoute|V|red}} Hard: 62/124/279.
+**AD/AP/AS for {{MapRoute|W|red}} Hard: 90/180/405. LD: 96/191/429.
+</tabber>
+
+==Phase 2.5: Unlock the Route to Node Z==
+To unlock {{MapRoute|Z|Red}}, you will only need to AS {{MapRoute|H|red}}
+* Composition:<span style="line-height:38px; background-color:Gold; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|Transport Combined Fleet (TCF): 0-1 CVE, 1CAV/AV, 4-5 DD + 1 CL, 3 DD|[[File:Spring2021EventTag5.png]]<br>'''Combined Fleet<br>(Yellow Tag) '''}}
+* Route: {{MapRoute|A|blue|C|red|E|red|G|red|F|blue|H|red}}
+* Alternatively you can run[[File:Spring2021EventTag4.png|40px]]{{ToolTip|1 AV 5 DD|[[File:Spring2021EventTag4.png]]<br>'''2nd Torpedo Squadron<br>(Orange Tag)'''}} in order to save locks as the fleet is similar to Phase 1 and 3.
+** If using the single fleet method, you need to use a 4-slot AV like [[Commandant Teste]] or [[Nisshin]]. 3-slot girls will struggle to take AS against all but the weakest enemy composition. 
+** Route: {{MapRoute|A|blue|C|red|E|red|G|red|F|blue|H|red}}
+* LBAS: Range 5, AP/AS for Hard: 160/359
+* Note: Set up your LBAS with fighters only and send them to Node H to help secure AS.
+** 1 CVE and 1 CAV with full fighter & SPF set-ups can almost certainly attain AS without the need for LBAS swapping.
+* Note: '''EASY/CASUAL''' will have node {{MapRoute|Z|Red}} unlocked as soon as you beaten phase 2 without doing this steps
+
+==Phase 3: Defeat Lungga Hime==
+This is the final phase for this map and the MO. The objective is to sink the Lungga princess at {{MapRoute|Z|red}}. There is a boss debuff available for unlocking once LD is reached, if so desired. 
+* Composition:<span style="line-height:38px; background-color:Orange; padding:10px 8px; margin:0px 3px"></span>{{ToolTip|Single Fleet: 6 DD ''' OR''' 1 CL 5 DD ('''EASY AND CASUAL ONLY''')|[[File:Spring2021EventTag4.png]]<br>'''2nd Torpedo Squadron<br>(Orange Tag)'''}}
+**A fleet with CL will off-route to {{MapRoute|E|red}}
+* Route: {{MapRoute|A|blue|C|red|G|red|F|blue|I|blue|X|red|M|green|Z|red}} with 0 CL
+** {{MapRoute|A|blue|C|red|E|red|G|red|F|blue|I|blue|X|red|M|green|Z|red}} with 1 CL
+* LBAS: Range 8, no Airpower 
+* Note: '''Fleet must have 0/3/4/5 drum-equipped ships on Casual/Easy/Medium/Hard.'''
+*LoS Requirement: About '''Cn3 48+/38+/29+/23+''' is required on '''Hard/Medium/Easy/Casual''' to route from {{MapRoute|M|green}} to {{MapRoute|Z|red}}.
+
+==Lungga Hime Debuff Phase==
+You can do all these steps in any order. There are 6 requirements that must be met once Last Dance threshold has been reached:
+* LBAS raid - AS x1
+* {{MapRoute|O3|red}} - S rank x1
+* {{MapRoute|E|red}} - AS x1
+* {{MapRoute|W|red}} - S rank x1
+* {{MapRoute|K|red}} - S rank x1
+* {{MapRoute|N|red}} - S rank x1 (use TCF to reach)

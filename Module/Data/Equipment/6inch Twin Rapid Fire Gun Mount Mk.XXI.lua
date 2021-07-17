@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "6inch Twin Rapid Fire Gun Mount Mk.XXI",
+  _id = 359,
+  _japanese_name = "6inch 連装速射砲 Mk.XXI",
+  _reading = nil,
+  _type = 2, -- 1,1,2,2,0
+  _icon = 2,
+  _rarity = 2,
+  _firepower = 5,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 3,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = 2,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 2,
+  _scrap_steel = 3,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "紅茶の国で開発された中口径主砲です。本装備は、紅茶の国の軽巡クラスや、オーストラリア海軍に移籍した同国建造の艦艇などの主兵装として運用されました。ABDA艦隊の一翼として、南方作戦を展開中の日本艦隊を迎撃したオーストラリア海軍の軽巡もその一隻です。",
+}

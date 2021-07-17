@@ -1,0 +1,33 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Fleet Command Facility",
+	_page = false,
+	_id = 107,
+	_japanese_name = "艦隊司令部施設",
+	_reading = "かんたいしれいぶしせつ",
+	_type = 34,
+	_icon = 28,
+	_rarity = 5,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 1,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = false,
+	_evasion = 1,
+	_los = 1,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_special = false,
+	_scrap_fuel = 1,
+	_scrap_ammo = 1,
+	_scrap_steel = 1,
+	_scrap_bauxite = 1,
+	_info = "洋上において艦隊を指揮する前線司令部です。<br/>司令部施設を開設できるある一定以上の大きさの艦に設営可能です。同司令部を旗艦に設営した艦隊は「連合艦隊」として出撃している際に、随伴艦隊の健在な駆逐艦を「損害の大きい艦」の護衛につけて、戦場から退避させることが可能です。",
+	_buildable = false,
+}

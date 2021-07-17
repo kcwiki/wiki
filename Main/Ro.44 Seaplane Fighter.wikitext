@@ -1,47 +1,22 @@
-{{Template:Equipmentinfo
-|name = Ro.44 Seaplane Fighter
-|id = 164
-|japanesename = Ro.44水上戦闘機 
-|icon = {{SeaplaneFighter}}
-|type = Seaplane Fighter
-|effect = {{AA}}+2, {{ASW}}+1, {{Hit}}+1, {{Evasion}}+2, {{LOS}}+2
-|radius = 3
-|scrap = {{Fuel}}1, {{Ammo}}1, {{Bauxite}}2
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment164_1.png
-Equipment164_2.png
-Equipment164_3.png
-Equipment164_4.png
-</gallery>
-|CL =
-|CA = yellow
-|CAV = lime
-|BB = yellow
-|BBV = lime
-|FASTBB = yellow
-|AV = 
-|SSV = 
-|AS =
-|notes = Special restrictions:
-*CA: [[Zara#Upgrade|Zara Kai]] and [[Pola#Upgrade|Pola Kai]] only
-*BB: [[Mutsu#Upgrade|Mutsu Kai]], [[Nagato#Upgrade|Nagato Kai]], [[Yamato#Upgrade|Yamato Kai]] and [[Musashi#Upgrade|Musashi Kai]] only
-*FBB: [[Littorio#Upgrade|Italia]] and [[Roma#Upgrade|Roma Kai]] only}}
+{{EquipmentInfo|164}}
 
 ==Introduction==
 パスタの国で運用された信頼性と運動性に優れた複葉複座の水偵Ro.43を単座に改修した水上戦闘機です。<br>
 低速なため戦闘機としては限界がありますが、貴重な洋上防空戦力として期待されました。<br>
 量産数は控えめです。
 
-''A Single-Seated Seaplane fighter remodeled from the doubled seated Ro.43 Seaplane that came from the Country of Pasta.''<br>
+''A single-seat seaplane fighter remodeled from the double-seat [[Ro.43 Recon Seaplane]] that came from the country of pasta.''<br>
 ''Because it was not as speedy, it has a limited capability as a fighter, but was counted on as a valuable maritime anti-air force.''<br>
 ''It was not mass produced as much.''
 
 ==Notes==
+*'''Cannot be used to activate [[Artillery Spotting|daytime special attacks]]''' by itself as it no longer has recon function.
+
 <div class="mw-collapsible"><h3>How To Obtain</h3>
 <div class="mw-collapsible-content">
 '''Stock equipment''' of {{Ship/Link|Pola Kai}}, {{Ship/Link|Zara Due}}
 
-'''Upgradeable''' from {{Equipment/Link|Ro.43 Reconnaissance Seaplane}}
+'''Upgradeable''' from {{Equipment/Link|Ro.43 Recon Seaplane}}
 
 ''Ranking reward for:''
 * Jan 2016: 1-5, 6-20, 21-100, 101-500
@@ -55,7 +30,13 @@ Equipment164_4.png
 </div></div>
 
 
-*'''Cannot be used to activate [[Artillery Spotting|daytime special attacks]]''' by itself as it no longer has recon function.
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2016-02-24:''' '''Implemented''' as ranking reward
+* '''2016-02-29:''' Changed from Seaplane Bomber to Seaplane Fighter, '''stats decreased:'''  '''{{Dive}}+1 → {{Dive}}+0 '''
+* '''2016-05-03:''' Air power bonus from proficiency increased
+* '''2017-03-17:''' Became '''improvable''' and '''upgradeable''' to {{Equipment/Link|Ro.44 Seaplane Fighter bis}}
+</div></div>
 
 == Akashi's Improvement Arsenal ==
 {{AkashiWorkshop}}

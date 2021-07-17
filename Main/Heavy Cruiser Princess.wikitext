@@ -1,204 +1,54 @@
 ==Info==
-{|
-|
-{{enemyshipinfo 
-|color = red
-|name = Heavy Cruiser Princess (A)
-|japanesename = 重巡棲姫
-|image = [[File:Heavy_Cruiser_Hime.png|350px]]
-|id = 659
-|class = Abyssal
-|type = Heavy Cruiser
-|hp = 350
-|firepower = 160
-|armor = 195
-|torpedo = 82
-|evasion = ?
-|AA = 86
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|speed = ?
-|range = ?
-|slot = 
-|slot1= -
-|slot2= -
-|slot3= -
-|slot4= -}}
-| style="width:50px;" |
-|
-
-{{enemyshipinfo 
-|color = red
-|name = Heavy Cruiser Princess (B)
-|japanesename = 重巡棲姫
-|image = [[File:Heavy_Cruiser_Hime.png|350px]]
-|id = 660
-|class = Abyssal
-|type = Heavy Cruiser
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = 86
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|speed = ?
-|range = ?
-|slot = 
-|slot1= -
-|slot2= -
-|slot3= -
-|slot4= -}}
-|}
-{|
-|
-{{enemyshipinfo 
-|color = red
-|name = Heavy Cruiser Princess (C)
-|japanesename = 重巡棲姫
-|image = [[File:Heavy_Cruiser_Hime.png|350px]]
-|id = 661
-|class = Abyssal
-|type = Heavy Cruiser
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = 86
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|speed = ?
-|range = ?
-|slot = 
-|slot1= -
-|slot2= -
-|slot3= -
-|slot4= -}}
-| style="width:50px;" |
-|
-
-{{enemyshipinfo 
-|color = red
-|name = Heavy Cruiser Princess (D)
-|japanesename = 重巡棲姫
-|image = [[File:Heavy Cruiser Hime dmg.png|350px]]
-|id = 662
-|class = Abyssal
-|type = Heavy Cruiser
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = ?
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|speed = ?
-|range = ?
-|slot = 
-|slot1= -
-|slot2= -
-|slot3= -
-|slot4= -}}
-|}
-{|
-|
-{{enemyshipinfo 
-|color = red
-|name = Heavy Cruiser Princess (E)
-|japanesename = 重巡棲姫
-|image = [[File:Heavy Cruiser Hime dmg.png|350px]]
-|id = 663
-|class = Abyssal
-|type = Heavy Cruiser
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = ?
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|speed = ?
-|range = ?
-|slot = 
-|slot1= -
-|slot2= -
-|slot3= -
-|slot4= -}}
-| style="width:50px;" |
-|
-{{enemyshipinfo 
-|color = red
-|name = Heavy Cruiser Princess (F)
-|japanesename = 重巡棲姫
-|image = [[File:Heavy Cruiser Hime dmg.png|350px]]
-|id = 664
-|class = Abyssal
-|type = Heavy Cruiser
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = ?
-|aircraft = ?
-|ASW = ?
-|LOS = ?
-|luck = ?
-|speed = ?
-|range = ?
-|slot = 
-|slot1= -
-|slot2= -
-|slot3= -
-|slot4= -}}
-|}
+{{Enemy/Header/Box}}
+{{Enemy/Header/Box|II}}
+{{Enemy/Header/Box|III}}
+{{Enemy/Header/Box|IV}}
+{{Enemy/Header/Box|V}}
+{{Enemy/Header/Box|VI}}
+{{Enemy/Header/Box|VII}}
+{{Enemy/Header/Box|VIII}}
+{{EnemyShipCategoriesKai|{{PAGENAME}}}}
 
 ==Quotes==
 {{Abyssquote
-|
-|EN1 = 
-|Note1 = 
-|
-|EN0 = 
-|Note0 = 
-|
-|EN2 = 
-|Note2 = 
-|昼戦終了時 = ナニモカモ…モエテシマウ燃えてしまう…イヤダ…ワタシワ…クミテ…そうか…違うんだ…わたしは…あたしは… (Initial)
+|Clip1 = {{Audio|file=Heavy_Cruiser_Princess_Intro.ogg}}<br/>{{Audio|file=Heavy_Cruiser_Princess_Broken_Form_Intro.ogg}}
+|開幕前 = バカ…メ……ヤクタタズドモメ……。マタ…シズンデシマエ…<br/>ノコノコト…ヤクタタズ…ドモ…ガ………シズメェ……ッ！(Final Form)
+|EN1 = Fools...Useless beings... I will sink you again...
+You insolent...useless trash... SINK! (Final Form)
+|Clip0 = {{Audio|file=Heavy_Cruiser_Princess_Attack.ogg}}<br/>{{Audio|file=Heavy_Cruiser_Princess_Broken_Form_Attack.ogg}}
+|砲撃 = サァ…ヤッテシマエ…。<br/>シズメ…。シズメェッ！(Final Form)
+|EN0 = Now... burn...
+Sink... SIIINK! (Final Form)
+|Clip2 = {{Audio|file=Heavy_Cruiser_Princess_Damaged.ogg}}<br/>{{Audio|file=Heavy_Cruiser_Princess_Broken_Form_Damaged.ogg}}
+|被弾 = アァァァァッ…！　オノレェ…。<br/>ウエアァァァァッ！　ニクラシヤァァッ…。(Final Form)
+|EN2 = Aaaaaaahh...! Damn you..!
+UAAARGH! CURSE YOU...!! (Final Form)
+|Clip3 = {{Audio|file=Heavy_Cruiser_Princess_Sunk.ogg}}<br/>{{Audio|file=Heavy_Cruiser_Princess_Destroyed.ogg}}
+|昼戦終了時 = ナニモカモ…モエテシマウ…。イヤダ…ワタシハ…コノウミデ……。
+ソウカ…チガウンダ…。アタシハ…アタシハ……。（Normal Form Sunk Line)
 
-or
-
-
-|EN3 = 
-|Note3 = Initial sink line is currerntly unusued, the final form sink line is however used.
-|Clip0 = {{Audio|file=Heavy_Cruiser_Hime_Intro.ogg}}{{Audio|file=Heavy_Cruiser_Hime_Final_Intro.ogg}}
-|Clip1 = {{Audio|file=SHeavy_Cruiser_Hime_Attack.ogg}}{{Audio|file=Heavy_Cruiser_Hime_Final_Attack.ogg}}
-|Clip2 = {{Audio|file=Heavy_Cruiser_Hime_Hit.ogg}}{{Audio|file=Heavy_Cruiser_Hime_Final_Hit.ogg}}
-|Clip3 = {{Audio|file=Heavy_Cruiser_Hime_Final_Sunk.ogg}}
+<br/>ヤクタタズドモニ…コノワタシガ……。ムネンダ…。コンナ……。イヤ…ムシロ…ココロガ…。カラダノ…コレハ…ソウイウコトナノ？　私は、本当は。（Final Form Sunk Line)
+|EN3 =Everything has been burned... No... What will happen to me...at this sea... I see... It's different. I am... I am...（Normal Form Sunk Line)
+<br/>How could I be defeated... by useless trash... That's really a regret... I didn' t expect that...... Wait...  Rather, my mind is... What is in my body...? I see... So actually I am...（Final Form Sunk Line)
 }}
 
+==Notes==
+Form IV, V, VI and VIII have Opening Torpedo Strike similar to [[Battleship Re-Class Elite]].
+== Character ==
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://www.myanimelist.net/people/12652/Chinatsu_Akasaki Akasaki Chinatsu] (赤崎千夏)
+
 ==Trivia==
-*First Italian abyssal to appear in-game (?)
-*Possible counterpart/non-abyssal ship is [[Zara]]
+* [[Winter 2016 Event]] E-3 Boss.
+* [[Spring 2016 Event]] E-4 Boss.
+* [[Fall 2016 Event]] E-4 1st Boss.
+* [[Winter 2017 Event]] E-3 1st Boss.
+* [[Spring 2017 Event]] E-2 Final Boss.
+* [[Fall 2017 Event]] E-2 Boss.
+* [[Winter 2018 Event]] E-5 Phase 2 Boss.
+* [[Winter 2019 Event]] E-2 Phase 1 Boss.
+* [[Spring 2019 Event]] E-3 Phase 1 Boss.
+* Form IV, V and VI (or VIII) are final form for each difficulties.
 
-===Seasonal CG===
-<gallery>
-Heavy Cruiser Summer Princess.png|Summer 2016 Event
-</gallery>
-
-{{enemyshiplist}}
-[[Category:Abyssal Heavy Cruisers]]
+{{Enemyshiplist}}
+[[Category:Bosses]]
+[[Category:Enemy Vessel]]

@@ -1,0 +1,33 @@
+-- [[Category:Enemy equipment modules]]
+
+return {
+  _name = "Abyssal 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)",
+  _cg_reference = "5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)",
+  _id = 602,
+  _japanese_name = "深海5inch連装両用砲(集中配備)",
+  _reading = "しんかい5インチれんそうりょうようほう(しゅうちゅうはいび)",
+  _type = 1, -- 1,1,1,16,0
+  _icon = 16,
+  _rarity = 4,
+  _firepower = 7,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 18,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = 7,
+  _torpedo_accuracy = false,
+  _evasion = 3,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = false,
+  _scrap_steel = false,
+  _scrap_bauxite = false,
+  _buildable = false,
+}

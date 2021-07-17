@@ -1,53 +1,20 @@
 *Green : Outstanding
-
 *Yellow : Above average
-{| class="wikitable" style="text-align: center;"
-|-
-!#
-!Rank
-!Name
-![[file:icon_Torpedo.png|Torpedo Attack]]
-![[file:icon_Dive.png|Dive Bomber Attack]]
-![[file:icon_AA.png|Anti-Air]]
-![[file:icon_ASW.png|Anti-Submarine]]
-![[file:icon_LOS.png|View Range]]
-![[file:icon_Hit.png|Accuracy]]
-!Classes
-!Craftable
-!Notes
-|-
-| 168
-| ☆
-| style="white-space:nowrap;text-align: left" |[[Type_96_Land_Attacker|Type 96 Land Attacker]]<br />{{LandBasedAircraft}}九六式陸攻
-|8
-|10
-| 1
-| rowspan="3" |2
-|2
-| rowspan="2" |0
-| rowspan="3" |None
-| rowspan="3" |No
-| style="white-space:nowrap;text-align: left;" |March 2016 Top 500 Rank Reward<br>[[Spring 2016 Event]] E-2 Reward (1 for Easy/Hard, 2 for Medium), E-4 Reward (Easy)
-|-
-| 169
-| ☆☆
-| style="white-space:nowrap;text-align: left;" |[[Type_1_Land_Attacker|Type 1 Land Attacker]]<br />{{LandBasedAircraft}}一式陸攻
-| style="background-color:yellow;" |10
-| style="background-color:yellow;" |12
-| style="background-color:yellow;" |2
-| style="background-color:yellow;" |3
-| style="white-space:nowrap;text-align: left;" |March 2016 Top 20 Rank Reward<br>[[Spring 2016 Event]] E-2 Reward (Hard), E-4 Reward (Medium/Hard), E-5 Reward
-|-
-| 170
-| ☆☆<br>☆☆ 
-| style="white-space:nowrap;text-align: left;" |[[Type_1_Land_Attacker|Type 1 Land Attacker (Nonaka Squadron)]]<br />{{LandBasedAircraft}}一式陸攻(野中隊)
-| style="background-color:lime;" |12
-| style="background-color:lime;" |13
-| style="background-color:lime;" |3
-| style="background-color:lime;" |4
-| style="background-color:lime;" |1
-| style="white-space:nowrap;text-align: left;" |[[Spring 2016 Event]] E-6 Reward (Hard)
-|}
+{{EquipmentComparisonKai
+|iterator = equipmentBy|pred = is_lbas_attack_aircraft|sort = _icon
+|firepower_outstanding = 2
+|torpedo_outstanding = 13
+|torpedo_good = 11
+|bombing_outstanding = 13
+|bombing_good = 12
+|aa_outstanding = 3
+|aa_good = 2
+|asw_good = 5
+|asw_outstanding = 9
+|los_good = 3
+|shelling_accuracy_good = 0
+}}
+
 ==See Also==
 {{Equipmentlist}}
 [[Category:Land Based Attack Aircraft]]

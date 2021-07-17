@@ -1,27 +1,12 @@
-{{Template:Equipmentinfo
-|name = Prototype 51cm Twin Gun Mount
-|id = 128 
-|japanesename = 試製51cm連装砲 
-|icon = {{Template:RedGunHeavy}}
-|type = Main Cannon, Heavy (II)
-|effect = {{Firepower}}+30 {{AA}}+5 {{Hit}}+1 {{Evasion}}-1 {{Range}}Very Long
-|scrap = {{Ammo}}30 {{Steel}}28 
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment128-1.png
-Equipment128-2.png
-Equipment128-3.png
-Equipment128-4.png
-</gallery>
-| BB = yellow
-| notes = Can be equipped only to Yamato- & Nagato-class. The latter has to be remodelled.
-}}
+{{EquipmentInfo|128}}
 
 ==Introduction==
-改「大和」型、そしてその拡大発展級である超「大和」型の主兵装として開発されている新型戦艦用大口径主砲です。<br>51cm砲が実現する群を抜いたその火力は、他の戦艦主砲の火力を圧倒します。46cm砲をも凌駕する大きさと重量なため、戦艦級の中でも限られた艦艇のみ、本兵装を装備することが可能です。 
+改「大和」型、そしてその拡大発展級である超「大和」型の主兵装として開発されている新型戦艦用大口径主砲です。<br>
+51cm砲が実現する群を抜いたその火力は、他の戦艦主砲の火力を圧倒します。46cm砲をも凌駕する大きさと重量なため、戦艦級の中でも限られた艦艇のみ、本兵装を装備することが可能です。 
 
 ''"Yamato" kai type, the development of a Super Yamato class main gun have been developed as one of the largest caliber gun ever to be fitted on a warship.'' 
 
-''The 51cm Guns achieved a firepower that overwhelmed the firepower of the other battleship's main guns. As the gun surpasses even the weight and size of the 46cm guns, only limited battleships are able to equip this gun.'' 
+''The 51cm guns achieved a firepower that overwhelmed the firepower of the other battleship's main guns. As the gun surpasses even the weight and size of the 46cm guns, only limited battleships are able to equip this gun.'' 
 
 ==Notes==
 <div class="mw-collapsible"><h3>How To Obtain</h3>
@@ -45,10 +30,18 @@ Equipment128-4.png
 
 </div></div>
 
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2015-02-06:''' '''Implemented'''
+* '''2015-05-18:''' Became '''improvable'''
+* '''2021-06-22:''' Became '''upgradeable''' to {{EquipmentLink|51cm Twin Gun Mount}}
+</div></div>
+
 ==Akashi's Improvement Arsenal==
 {{AkashiWorkshop}}
 {{AkashiWorkshopLine
-|Name=Prototype 51cm Twin Gun Mount
+|Name={{PAGENAME}}
 |ItemType=RedGunHeavy
 |Fuel=50
 |Ammo=550
@@ -64,9 +57,9 @@ Equipment128-4.png
 |EquipConsume6-9=3x{{RedGunHeavy|46cm Triple Gun Mount}}
 |EquipConsume10=-
 |Mon=Y<br>M
-|Tue=Y
-|Wed=M
-|2ndShip=[[Yamato#First Upgrade|Yamato Kai]]<br>[[Musashi#First Upgrade|Musashi Kai]]
+|Tue=Y<br>&nbsp;
+|Wed=&nbsp;<br>M
+|2ndShip=[[Yamato#First Upgrade|Yamato Kai]]<br>[[Musashi#First Upgrade|Musashi&nbsp;Kai]]
 |Notes=[[Musashi#Second Upgrade|Musashi Kai Ni]] can NOT improve this equipment.
 }}
 |}

@@ -1,0 +1,76 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Prototype 41cm Triple Gun Mount",
+	_page = false,
+	_id = 105,
+	_japanese_name = "試製41cm三連装砲",
+	_reading = "しせい41せんちさんれんそうほう",
+	_type = 3,
+	_icon = 3,
+	_rarity = 4,
+	_back = 5,
+	_stars = 4,
+	_firepower = 22,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 5,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = 2,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = 3,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = 14,
+	_scrap_steel = 22,
+	_scrap_bauxite = false,
+	_info = "呉海軍工廠砲熕部で試作された純国産戦艦主砲の三連装砲です。<br/>16インチを僅かに上回る、この41cm砲は「大和」型の46cm砲が登場するまで世界最大の戦艦砲でした。これを搭載した長門型戦艦は、当時世界列強の「ビッグ７」水準を遥かに超えた高火力と高命中精度を実現します。",
+	_buildable = false,
+	_gun_fit_group = "41cm",
+	_improvements = {
+		_fuel = 40,
+		_ammo = 440,
+		_steel = 620,
+		_bauxite = 40,
+		_products = {
+			["41cm Triple Gun Mount Kai"] = {
+				_ships = {
+					["Nagato/Kai"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Nagato/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Mutsu/Kai"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = false, Friday = true, Saturday = true},
+					["Mutsu/Kai Ni"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 5,
+					_development_material_x = 7,
+					_improvement_material = 4,
+					_improvement_material_x = 6,
+					_equipment = {["41cm Twin Gun Mount"] = 2},
+				},
+				[6] = {
+					_development_material = 8,
+					_development_material_x = 10,
+					_improvement_material = 5,
+					_improvement_material_x = 8,
+					_equipment = {["41cm Twin Gun Mount"] = 3},
+				},
+				[10] = {
+					_development_material = 15,
+					_development_material_x = 30,
+					_improvement_material = 12,
+					_improvement_material_x = 16,
+					_equipment = {
+					    ["46cm Triple Gun Mount"] = 2,
+					    ["New Model Gun Mount Improvement Material"] = 2
+					},
+				},
+			},
+		},
+	},
+}

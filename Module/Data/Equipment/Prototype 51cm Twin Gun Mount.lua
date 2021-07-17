@@ -1,0 +1,62 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Prototype 51cm Twin Gun Mount",
+	_page = false,
+	_id = 128,
+	_japanese_name = "試製51cm連装砲",
+	_reading = "しせい51せんちれんそうほう",
+	_type = 38,
+	_icon = 3,
+	_rarity = 5,
+	_firepower = 30,
+	_bombing = false,
+	_torpedo = false,
+	_aa = 5,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = false,
+	_evasion = -1,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = 4,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = 30,
+	_scrap_steel = 28,
+	_scrap_bauxite = false,
+	_info = "改「大和」型、そしてその拡大発展級である超「大和」型の主兵装として開発されている新型戦艦用大口径主砲です。<br>51cm砲が実現する群を抜いたその火力は、他の戦艦主砲の火力を圧倒します。46cm砲をも凌駕する大きさと重量なため、戦艦級の中でも限られた艦艇のみ、本兵装を装備することが可能です。",
+	_buildable = false,
+	_gun_fit_group = "51cm",
+	_improvements = {
+		_fuel = 50,
+		_ammo = 550,
+		_steel = 950,
+		_bauxite = 80,
+		_products = {
+			[false] = {
+				_ships = {
+					["Yamato/Kai"] = {Sunday = false, Monday = true, Tuesday = true, Wednesday = false, Thursday = false, Friday = false, Saturday = false},
+					["Musashi/Kai"] = {Sunday = false, Monday = true, Tuesday = false, Wednesday = true, Thursday = false, Friday = false, Saturday = false},
+				},
+				[0] = {
+					_development_material = 7,
+					_development_material_x = 9,
+					_improvement_material = 5,
+					_improvement_material_x = 7,
+					_equipment = {["46cm Triple Gun Mount"] = 2},
+				},
+				[6] = {
+					_development_material = 10,
+					_development_material_x = 15,
+					_improvement_material = 7,
+					_improvement_material_x = 10,
+					_equipment = {["46cm Triple Gun Mount"] = 3},
+				},
+			},
+		},
+	},
+}

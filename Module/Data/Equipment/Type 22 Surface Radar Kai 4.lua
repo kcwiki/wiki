@@ -1,0 +1,62 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Type 22 Surface Radar Kai 4",
+	_page = false,
+	_id = 88,
+	_japanese_name = "22号対水上電探改四",
+	_reading = "22ごうたいすいじょうでんたんかいよん ",
+	_type = 12,
+	_icon = 11,
+	_rarity = 3,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = false,
+	_aa = false,
+	_armor = false,
+	_asw = 2,
+	_shelling_accuracy = 8,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = 5,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_special = false,
+	_scrap_fuel = false,
+	_scrap_ammo = false,
+	_scrap_steel = 16,
+	_scrap_bauxite = 16,
+	_info = "実戦運用された電探二号電波探信儀二型の改良型です。<br/>新型受信機や様々な改良により、性能と安定性が向上、<br/>実効力のあるレーダー射撃精度も可能となりました。",
+	_buildable = false,
+	_improvements = {
+		_fuel = 10,
+		_ammo = false,
+		_steel = 40,
+		_bauxite = 40,
+		_products = {
+			[false] = {
+				_ships = {
+					["Myoukou/Kai Ni"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = false, Thursday = true, Friday = true, Saturday = true},
+					["Haguro/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = false, Wednesday = false, Thursday = false, Friday = true, Saturday = true},
+					["Kongou/Kai Ni"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = false},
+				},
+				[0] = {
+					_development_material = 5,
+					_development_material_x = 8,
+					_improvement_material = 3,
+					_improvement_material_x = 4,
+					_equipment = {["Type 22 Surface Radar"] = 1},
+				},
+				[6] = {
+					_development_material = 8,
+					_development_material_x = 10,
+					_improvement_material = 4,
+					_improvement_material_x = 8,
+					_equipment = {[true] = 1},
+				},
+			},
+		},
+	},
+}

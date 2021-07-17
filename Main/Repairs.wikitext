@@ -73,21 +73,43 @@ The fuel {{Fuel}} and steel {{Steel}} costs for repairs are calculated by:
 
 =Emergency Anchorage Repairs=
 
-[[Akashi]] or [[Akitsushima|Akitsushima Kai]] have the ability to repair moderately damaged ships mid-sortie if they are equipped with [[Emergency Repair Materials]] and [[Ship Repair Facility]]. The repairs are triggered when the fleet reaches an [[Combat/Nodes#Non-Combat_Nodes|Emergency Repair Node]] and Akashi or Akitsushima are not moderately damaged or worse. They must also not be in the '''flagship position''' of the main fleet.
+[[Akashi]] or [[Akitsushima|Akitsushima Kai]] have the ability to repair moderately damaged ships mid-sortie if they are equipped with [[Ship Repair Facility]] and the player has one or more [[Emergency Repair Materials]]  in their item inventory (this item cannot be equipped). The repairs are triggered when the fleet reaches an [[Combat/Nodes#Non-Combat_Nodes|Emergency Repair Node]].
 
-This repair restores 30% (Akashi) or 25% (Akitsushima) of '''Max HP''' rounded up. It also provides a +7 morale boost to all repaired ships.
+Depending on the slot the {{EquipmentLink|Ship Repair Facility}} is equipped in, the range of ships that can be repaired will be different:
 
-The amount of ships repaired depends on how many Ship Repair Facilities are currently equipped:
-* Akashi:
-** 1: Slots 1-3 of the main fleet.
-** 2: Slots 1-6 of the main fleet.
-** 3: Slots 1-6 of the main fleet and 1-3 of the escort fleet.
-** 4. All ships in the combined fleet.
-* Akitsushima:
-** 1: Slots 1-3 of the escort fleet.
-** 2: Slots 1-6 of the escort fleet.
-
-Take note that Akitsushima is incapable of repairing the main fleet. This ability is of limited usefulness because it does not repair enough damage to make a difference and it requires taking a non-combat ship that is liable to cause retreats. This ability also '''does not repair heavily damaged''' ships.
+{|class="wikitable" style="width:960px; text-align: center; vertical-align: middle;"
+!
+!1st Slot
+!2nd Slot
+!3rd Slot
+!4th Slot
+!Repair Amount
+|-
+!{{ShipBanner|Akashi/Kai|small=true}}
+| '''Main Fleet'''<br /> 1st - 3rd Ships
+| '''Main Fleet'''<br /> 4th - 6th Ships
+| '''Escort Fleet'''<br /> 1st - 3rd Ships
+| '''Escort Fleet'''<br /> 4th - 6th Ships
+| '''30% of Max HP'''
+|-
+!{{ShipBanner|Akitsushima/Kai|small=true}}
+| '''Escort Fleet'''<br /> 1st - 3rd Ships
+| '''Escort Fleet'''<br /> 4th - 6th Ships
+| '''No Effect'''
+! N/A
+| '''25% of Max HP'''
+|}
+[[File:Anchorage_Node_Prompt_Example.png|thumb|200px|Repair Prompt Example]]
+*Multiple {{EquipmentLink|Ship Repair Facility}} can be equipped to cover larger areas of the fleet.
+*Upon reaching an anchorage node, if the following requirements are met the game will prompt if you would like to perform repairs.
+**Any ships ''within'' the repair-capable fleet positions are '''Light or Medium Damaged'''  ('''Heavily Damaged''' Ships cannot be repaired.) 
+**{{ShipLink|Akitsushima/Kai}} or {{ShipLink|Akashi/Kai}} is in the fleet, and placed anywhere other than the flagship position of the first fleet.
+**{{ShipLink|Akitsushima/Kai}} or {{ShipLink|Akashi/Kai}} is '''''not''''' '''Medium or Heavily Damaged'''.
+*One Emergency Repair Material will be consumed per mass repair.
+*Any ships that are in range of the Ship Repair Facilities that are not at max HP will be repaired.
+*The amount of HP repaired will be rounded up.
+*Steel required for the amount of HP repaired will also be deducted as necessary.
+*Repaired ships will also additionally gain 15-20 morale.
 
 =See Also=
 {{Mechanics}}

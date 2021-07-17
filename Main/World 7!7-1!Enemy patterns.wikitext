@@ -1,0 +1,294 @@
+==Enemy patterns==
+{{Section}}
+{{Map/Image|
+{{Map/ImageNode|Start|x=340|y=278}}
+{{Map/ImageNode|A|x=102|y=170}}
+{{Map/ImageNode|B|x=177|y=258}}
+{{Map/ImageNode|C|x=206|y=106}}
+{{Map/ImageNode|D|x=278|y=197}}
+{{Map/ImageNode|E|x=336|y=135}}
+{{Map/ImageNode|F|x=382|y=209}}
+{{Map/ImageNode|G|x=425|y=138}}
+{{Map/ImageNode|H|x=529|y=184}}
+{{Map/ImageNode|I|x=563|y=288}}
+{{Map/ImageNode|J|x=628|y=228}}
+{{Map/ImageNode|K|x=608|y=134}}
+}}
+<div class="scrollable" style="width:800px;max-height:400px;overflow:auto;">
+{{NodeInfo
+|A
+|Storm
+|Ammo
+|?%
+}}
+{{Map/Nodes|name=敵通商破壊侵入艦隊
+|B
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>{{Formation|Line Abreast}}
+|200
+|Light Cruiser He-Class/Flagship
+|Heavy Cruiser Ne-Class/Elite
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Double Line}}<br>{{Formation|Diamond}}
+|200
+|Light Carrier Nu-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser He-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|B
+|Normal/BaseXP
+|{{Formation|Double Line}}<br>{{Formation|Diamond}}
+|210
+|Light Carrier Nu-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Heavy Cruiser Ri-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=敵通商破壊侵入 高速機動部隊
+|C
+|Normal/BaseXP
+|{{Formation|Double Line}}<br>{{Formation|Diamond}}
+|230
+|Standard Carrier Wo-Class/Flagship II
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Double Line}}<br>{{Formation|Diamond}}
+|250
+|Standard Carrier Wo-Class/Flagship II
+|Heavy Cruiser Ne-Class/Elite
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|-
+|C
+|Normal/BaseXP
+|{{Formation|Double Line}}<br>{{Formation|Diamond}}
+|270
+|Standard Carrier Wo-Class/Flagship II
+|Battleship Ta-Class/Flagship
+|Heavy Cruiser Ne-Class/Elite
+|Light Cruiser Tsu-Class/Elite
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=深海潜水艦隊 II群
+|D
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|150
+|Submarine So-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|170
+|Submarine So-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|190
+|Submarine So-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|D
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|200
+|Submarine So-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+}}
+{{NodeInfo
+|E
+|Resource
+|Fuel
+|10-15-20
+}}
+{{Map/Nodes|name=深海潜水艦隊 III群
+|F
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|120
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|150
+|Submarine Yo-Class/Elite
+|Submarine Ka-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|170
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class
+|Submarine Yo-Class
+|Submarine Ka-Class
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|180
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class
+|Submarine Yo-Class
+|Submarine Yo-Class
+|-
+|F
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|190
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class
+|Submarine Yo-Class
+}}
+{{Map/Nodes|name=敵哨戒部隊
+|G
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>{{Formation|Line Abreast}}
+|150
+|Light Cruiser He-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|G
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>{{Formation|Double Line}}
+|170
+|Light Cruiser He-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer I-Class
+|Destroyer I-Class
+|-
+|G
+|Normal/BaseXP
+|{{Formation|Line Ahead}}<br>{{Formation|Double Line}}
+|190
+|Light Cruiser He-Class/Flagship
+|Light Cruiser Ho-Class/Flagship
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+|Destroyer Ro-Class/Late Model
+}}
+{{Map/Nodes|name=深海潜水艦隊 I群
+|H
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|150
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|160
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|170
+|Submarine So-Class/Elite
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Line Abreast}}<br>{{Formation|Echelon}}
+|190
+|Submarine So-Class/Elite
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class
+|Submarine Yo-Class
+|-
+|H
+|Normal/BaseXP
+|{{Formation|Echelon}}
+|200
+|Submarine So-Class/Elite
+|Submarine So-Class/Elite
+|Submarine Yo-Class
+|Submarine Yo-Class
+}}
+{{NodeInfo
+|I
+|Resource
+|Fuel
+|30-35-40-45-50
+}}
+{{NodeInfo
+|J
+|Empty
+}}
+{{Map/Nodes|name=深海潜水艦隊集団 旗艦戦隊
+|K
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|330
+|Submarine So-Class/Flagship
+|Submarine Ka-Class
+|Submarine Ka-Class
+|-
+|K
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|360
+|Submarine So-Class/Flagship
+|Submarine Ka-Class/Elite
+|Submarine Ka-Class/Elite
+|-
+|K
+|Boss/BaseXP
+|{{Formation|Echelon}}
+|390
+|Submarine So-Class/Flagship
+|Submarine Yo-Class/Elite
+|Submarine Yo-Class/Elite
+}}
+</div> <!-- overflow -->
+{{SectionEnd}}

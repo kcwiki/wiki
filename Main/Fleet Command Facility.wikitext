@@ -1,34 +1,4 @@
-{{Template:Equipmentinfo
-|name = Fleet Command Facility 
-|id = 107 
-|japanesename = 艦隊司令部施設 
-|icon = {{CommandFacility}}
-|type = Command Facility
-|effect = {{AA}}+1 {{Hit}}+1 {{Evasion}}+1 {{LOS}}+1 
-|scrap = {{Fuel}}1 {{Ammo}}1 {{Steel}}1 {{Bauxite}}1 
-|image = <gallery type="slideshow" widths="360px" position="center" hideaddbutton="true">
-Equipment107-1.png
-Equipment107-2.png
-Equipment107-3.png
-Equipment107-4.png
-</gallery>
-| DD=yellow
-| CL=lime
-| CLT=lime
-| CA=lime
-| CAV=lime
-| BB=lime
-| BBV=lime
-| FASTBB=lime
-| AV=lime
-| CVL=lime
-| CV=lime
-| CVB = lime
-| LC=lime
-| AS=lime
-|notes = Special Restrictions:
-*DD: [[Kasumi|Kasumi Kai Ni / Type B]] only
-}}
+{{EquipmentInfo|107}}
 
 ==Introduction==
 洋上において艦隊を指揮する前線司令部です。<br>司令部施設を開設できるある一定以上の大きさの艦に設営可能です。同司令部を旗艦に設営した艦隊は「連合艦隊」として出撃している際に、随伴艦隊の健在な駆逐艦を「損害の大きい艦」の護衛につけて、戦場から退避させることが可能です。 
@@ -36,22 +6,6 @@ Equipment107-4.png
 ''This facility is used as a command center aboard warships to direct naval fleets at sea. This can only be used aboard larger warships. When used on the flagship of the Combined Fleet, a heavily damaged ship can be escorted away from the battle line by a destroyer still in good shape from the Escort fleet.'' 
 
 ==Notes==
-<div class="mw-collapsible"><h3>How To Obtain</h3>
-<div class="mw-collapsible-content">
-'''Stock equipment''' of {{Ship/Link|Ooyodo Kai}}
-
-''Event reward for:''
-* [[Fall 2017 Event]] E-3: Hard, Medium, Easy
-
-</div></div>
-
-<div class="mw-collapsible"><h3>Uses</h3>
-<div class="mw-collapsible-content">
-'''Used by quests: '''[[Quests#F64|F64]]
-
-</div></div>
-
-
 [[File:Note.png|thumb|250px]]
 When the flagship of the 1st fleet is equipped with a [[Fleet Command Facility]] (FCF), you are able to evacuate <span style="color:red;">'''Heavily Damaged (大破)'''</span> mid-sortie. This can help increase your pass rate to the boss node. The option to evacuate "退避" or not evacuate "退避せず" will appear after the results screen but before the continue/abandon sortie option. You will be shown the damaged ship to be evacuated and the ship that will be escorting her back. '''You are not able to pick which damaged ship gets evacuated and who escorts her.''' The selection is based off '''fleet order''' and the ships higher in the fleet order are selected.
 
@@ -70,4 +24,28 @@ Requirements for using FCF are:
 
 *See [http://www.youtube.com/watch?v=jUGivLdvn18 this] video for better explanation. (Credits to Nekomahjong)
 
+
+<div class="mw-collapsible"><h3>How To Obtain</h3>
+<div class="mw-collapsible-content">
+'''Stock equipment''' of {{Ship/Link|Ooyodo Kai}}
+
+''Event reward for:''
+* [[Fall 2017 Event]] E-3: Hard, Medium, Easy
+
+</div></div>
+
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used by quests: '''[[Quests#F64|F64]]
+
+</div></div>
+
+
+<div class="mw-collapsible><h3>Updates History</h3>
+<div class="mw-collapsible-content>
+* '''2014-08-08:''' '''Implemented'''
+</div></div>
+
+==See Also==
 {{Equipmentlist}}
+[[Category:Equipment]]

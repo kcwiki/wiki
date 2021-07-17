@@ -1,0 +1,280 @@
+===E-2===
+{{EventInfoBox
+|title_en= Battle of 6th Fleet
+|title_jp= 第六艦隊の戦い
+|tag=[[File:Spring2021EventTag2.png]]
+|tag2=[[File:Spring2021EventTag3.png]]
+|tag_text={{Shiplock|Spring2021EventTag2}}Purple Tag: 6th Fleet<br/>{{Shiplock|Spring2021EventTag3}}Blue Tag: 3rd Fleet
+|header_thumb=[[File:Spring2021_E2BossThumb.png]]
+|map_1=[[File:Spring2021E-2Map.png|450px]]
+|map_1_text=Map
+|map_2=[[File:Spring2021E-2MapP1.png|450px]]
+|map_2_text=Phase 1
+|map_3=[[File:Spring2021E-2MapP2.png|450px]]
+|map_3_text=Phase 2
+|map_4=[[File:Spring2021E-2MapP3.png|450px]]
+|map_4_text=Phase 3
+|map_5=[[File:Spring2021E-2LBASMap.png|450px]]
+|map_5_text=LBAS
+|boss_hard= 500 TP, 1950 HP, 1750 HP
+|boss_medium= 400 TP, 1850 HP, 1750 HP
+|boss_easy= 280 TP, 1750 HP, 1750 HP
+|boss_casual= 280 TP, 1750 HP, 1750 HP
+|phase_1_boss=
+|phase_2_boss=
+|phase_3_boss=
+|phase_4_boss=
+|phase_5_boss=
+|reward_1={{QuestRewardItem|Medal}}
+|reward_1_casual=
+|reward_1_easy=
+|reward_1_medium=
+|reward_1_hard=1
+|reward_2={{QuestRewardItem|Reinforcement Expansion}}
+|reward_2_casual=
+|reward_2_easy=1
+|reward_2_medium=1
+|reward_2_hard=1
+|reward_3={{QuestRewardEquip|Emergency Repair Goddess}}
+|reward_3_casual=
+|reward_3_easy=1
+|reward_3_medium=2
+|reward_3_hard=2
+|reward_4={{QuestRewardItem|Submarine Supply Material}}
+|reward_4_casual=1
+|reward_4_easy=2
+|reward_4_medium=3
+|reward_4_hard=4
+|reward_5={{QuestRewardEquip|SOC Seagull}}
+|reward_5_casual=
+|reward_5_easy=
+|reward_5_medium=1 (★5)
+|reward_5_hard=1 (★8)
+|reward_6={{QuestRewardEquip|Elite Torpedo Squadron Command Facility}}
+|reward_6_casual=1
+|reward_6_easy=1
+|reward_6_medium=1 (★2)
+|reward_6_hard= 1 (★4)
+}}
+<div style="min-width:440px;">
+{{center|[[File:OoyodoE-2Spring2021.png|440px]]}}
+
+{{MapBranchingTable
+|title = E-2 Branching Rules
+|expand = true
+|id = 50-2
+|order = 0,B,D,H,J,K,N
+
+|0 -> 1 = *Fleet does not contain SS(V) ('''only''' if start point 3 is unlocked)
+*Does not meet the requirements for start point 1 or 3
+|0 -> 2 = *Meet '''ANY''' of the following requirements:
+**Combined Fleet
+**Fleet contains CV(B/L) or [[Akitsu Maru]]
+|0 -> 3 = *Start point 3 is unlocked
+*Meet '''ANY''' of the following requirements:
+**CL = 2 '''and''' DD ≥ 1(?) ('''only''' for Casual)
+**Fleet contains '''only''' SS(V)
+**Fleet contains AS
+**Fleet contains CL or CT
+**DD ≥ 2
+
+|B -> D/empty = *Force D if fleet contains '''only''' SS(V)
+*Meet '''ALL''' of the following requirements:
+**Fleet contains AV, AO or [[Shinshuu Maru]]
+**DD = 5, '''OR''' CL = 1 '''and''' DD = 4
+|B -> E = *Does not meet the requirements to go to D
+
+|D/empty -> F, H = *Active branching
+
+|H -> I, J/resource = *Force J if fleet contains '''only''' SS(V), or if DD = 6
+*Meet '''ALL''' the following requirements to go to J
+**Fleet does not contain (F)BB(V)
+**CL + CT + CLT < 2
+**'''Fast''' fleet (ignored for Casual)
+**Fleet contains CL or CT (ignored for Casual)
+*On Easy and Medium, other fleets go to J
+*Otherwise, go to I
+
+|J/resource -> L/empty = *Fail the LoS check
+|J/resource -> Q = *Ignore the LoS check if fleet contains '''only''' SS(V)
+*Pass the LoS check
+
+|K -> L/empty, M, N = *If using Single Fleet:
+**Meet '''ANY''' of the following requirements to route to M:
+***CV(B) ≥ 3
+***CV(B/L) ≥ 4 (Hard only)
+**Otherwise, route to N
+*If using Combined Fleet:
+**Pass the LoS check to go to M
+**Fail the LoS check to go to L
+
+|N -> O = *Does not meet the requirements to go to P
+|N -> P = *Meet '''ALL''' of the following requirements:
+**(F)BB(V) ≤ 2
+**If fleet is '''Slow''', (F)BB(V) + CV(B/L) ≤ 5
+
+|P -> R = *Does not meet the requirements to go to T
+|P -> T = *Meet '''ALL''' of the following requirements:
+**CV(B/L) ≤ 3 '''and''' CV(B) ≤ 2
+**(F)BB(V) ≤ 2
+**'''Fast''' fleet
+
+|T -> S/empty = *Fail the LoS check
+|T -> U = *Pass the LoS check
+
+|3 -> V = *Fleet does not contain SS(V) '''and''' contains at least one (F)BB(V)
+*Does not meet the requirements to go to W
+|3 -> W = *Force W if fleet contains '''only''' SS(V)
+*Meet '''ANY''' of the following requirements:
+**Fleet contains AS
+**Fleet contains CL '''and''' DD ≥ 3 '''and''' does not contain (F)BB(V)
+
+|W -> X = *Does not meet the requirements to go to Z
+|W -> Z = *Meet '''ANY''' of the following requirements:
+**Fleet contains '''only''' SS(V) or AS
+**AS + SS(V) ≥ 5
+**AS + SS(V) = 4 '''and''' CL + CA(V) ≤ 1
+
+|Y/empty -> Q, Z = *Active branching
+
+|ZI -> S/empty = *Fail the LoS check
+*Does not meet the requirements to go to ZII
+|ZI -> ZII = *Meet '''ALL''' of the following requirements to go to ZII:
+**Pass the LoS check
+**(F)BB(V) ≤ 1
+**Fleet does not contain (F)BB(V) or CA(V) (Hard and Medium only?)
+}}
+
+Branching compositions were reported over the course of the event.
+</div>
+
+The event guides are to be constructed through the respective [[Sandbox/Spring 2021 E-2|Event map page guide]] and reviewed by editor staff / collaboration committee before being approved here. '''Do not under any circumstance update the guides through this page or attempt to fix them through this page.''' Please only update guides through their respective sandbox pages.
+
+{{clear}}
+
+==Ship Bonuses (Tentative)==
+
+{{:{{BASEPAGENAME}}/E-2/Historical_Ships}}
+
+==General Information==
+* There is 2 Land Bases available for you to use within the map. 
+* There are 2 different tags for this map:
+**{{Shiplock|Spring2021EventTag3}}Blue Tag: 3rd Fleet (Requirement: Combined Fleet or Single Fleet with CV) (Northern Start)
+**{{Shiplock|Spring2021EventTag2}}Purple Tag: 6th Fleet (Requirements: Single Fleet with no CV) (2 Southern Starts)
+
+==Phase 1: TP Phase==
+This phase will require you to run a Single Fleet to deplete the TP bar at {{MapRoute|Q|red}}, consisting of a Ne-Class Kai and light escorts
+There are currently two known compositions to complete this phase:
+
+<tabber>
+|-|Light Fleet Comp=
+* Recommended Fleet:{{Shiplock|Spring2021EventTag2}}{{ToolTip|[Purple Tag]|'''6th Fleet'''}} 1 CL 1 CAV/AV 4 DD ('''FAST''')
+* Route: {{MapRoute|A|blue|B|red|E|red|H|red|J|green|Q|red}}
+* LBAS: {{MapRoute|Q|red}} 5 Range (no Airpower)
+* Notes: Support expeditions are optional. You can use vanguard formation to pass the surface nodes
+* LoS: About '''44+/34+/27+/23+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|J| green}} to {{MapRoute|Q|red}} with this comp.
+* Will deplete the TP Gauge fast compared to the Submarine Composition.
+* May result in extra bucket being spent while doing the runs.
+* Will also result in additional ship being locked the map.
+|-|Submarine Comp=
+* Recommended Fleet:{{Shiplock|Spring2021EventTag2}}{{ToolTip|[Purple Tag]|'''6th Fleet'''}} 6SS(V)
+* Route: {{MapRoute|A|blue|B|red|D|blue|H|red|J|green|Q|red}}
+* LBAS: {{MapRoute|H|red}} 4 Range (no Airpower), {{MapRoute|Q|red}} 5 Range (no Airpower)
+*Notes: Only recommended if you have some [[Type 2 Ka-Mi Tank]]s and [[Drum Canister]] carrying Subs (Luigi Torelli Kai or higher).
+* Sub Fleet will be almost safe from any harm through the map as long as a land base is placed in Node H and Q. 
+* However, the amount of TP drain per run will be very low, requiring more runs to be taken (Around 40-50 runs depending on the equipment you have).
+* This can be ideal if you plan to conserve ships for tagging in later sections of the event.
+* This can also be helpful in conserving buckets that would otherwise be spent in this map using a surface related composition.
+* LoS: The LoS check from {{MapRoute|J| green}} to {{MapRoute|Q|red}} is ignored if using a full fleet of 6 SS(V).
+**Based on current data, using less than 3-4 SS(V) in a fleet may result in off-routing to {{MapRoute|L|blue}} regardless.
+</tabber>
+
+==Phase 1.5: Unlock the route to Node U==
+Unlocking {{MapRoute|U|red}} has two requirements:
+{| class="wikitable" 
+|-
+! Node
+! C
+! P
+|-
+| Hard
+| Reach
+| S x2
+|-
+| Medium
+| Reach
+| S
+|-
+| Easy
+| Reach
+| -
+|-
+| Casual
+| -
+| -
+|}
+<tabber>
+|-|Node C=
+** Composition:{{Shiplock|Spring2021EventTag2}}{{ToolTip|[Purple Tag]|'''6th Fleet'''}} 1SS (You can equip a damage control fairy on your submarine in case of taiha on {{MapRoute|F|Red}})
+** Route: {{MapRoute|A|blue|B|red|D|blue|F|Red|C|Blue}}
+** LBAS: N/A
+|-|Node P=
+** Composition:{{Shiplock|Spring2021EventTag3}}{{ToolTip|[Blue Tag]|'''3rd Fleet'''}} Carrier Task Force (CTF): 2 FBB 2 CV 2 CA + 1 CL 5 DD ('''Fast''')
+** Route: {{MapRoute|G|blue|K|red|M|red|N|red|P|red}}
+** Alternatively, you can use a single fleet comprised of 3 CV(L), 2 (FBB or CA(V)), and a DD with a maximum of 2 CV to route {{MapRoute|G|blue|K|red|N|red|P|red}}
+** LBAS: Range 7, AP/AS on Hard: 124/279
+</tabber>
+
+==Phase 2: Defeat CA Hime at Node U==
+You can use the same fleet you used in the previous unlocking phase
+* Composition:{{Shiplock|Spring2021EventTag3}}{{ToolTip|[Blue Tag]|'''3rd Fleet'''}} Carrier Task Force (CTF): 2 FBB 2 CV 2 CA + 1 CL 5 DD ('''Fast''')
+* Route: {{MapRoute|G|blue|K|red|M|red|N|red|P|red|T|red|U|red}}
+* Alternatively, you can use a single fleet comprised of 3 CV(L), 2 (FBB or CA(V)), and a DD with a maximum of 2 CV to route {{MapRoute|G|blue|K|red|N|red|P|red|T|red|U|red}}
+* LBAS: Range 6, no Air Power
+* Notes: AACI is heavily recommended due to three airstrikes on route. Support Expeditions are optional
+
+==Phase 3: Defeat CV Hime at Node ZII==
+In this phase, you will need to take out an Aircraft Carrier Princess. There are several compositions availabe depending on selected difficulty:
+<tabber>
+|-|Submarine comp=
+* Composition:{{Shiplock|Spring2021EventTag2}}{{ToolTip|[Purple Tag]|'''6th Fleet'''}} 6 SS(V)
+** The recommended composition for all difficulties
+* Route: {{MapRoute|W|red|Z|red|ZI|red|ZII|red}}
+* LBAS Range: 8 Range, AP/AS on Hard 103/231
+* Notes: Node Support is recommended to help you pass through the 2 surface battle nodes. Boss Support Expedition is optional if you send LBAS to the Boss.
+* LoS: '''29+/23+/21+/18+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|ZI|red}} to {{MapRoute|ZII|red}}.
+|-|Surface /Sub Mix=
+* Composition:{{Shiplock|Spring2021EventTag2}}{{ToolTip|[Purple Tag]|'''6th Fleet'''}} CL, AV/CAV, DD, 3 SS(V)
+** Only should be considered if you lack submarines
+* Route: {{MapRoute|V|red|W|red|X|red|Y|blue|Z|red|ZI|red|ZII|red}}
+* LBAS Range: 8 Range, AP/AS on Hard 103/231
+* Notes: Node Support is recommended. Boss Support is also recommended.
+* LoS: '''29+/23+/21+/18+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|ZI|red}} to {{MapRoute|ZII|red}}.
+|-|Surface / AS + Sub Mix=
+* Composition:{{Shiplock|Spring2021EventTag2}}{{ToolTip|[Purple Tag]|'''6th Fleet'''}} AS, BBV, 2CLT, 2 SS(V)
+** '''Easy and Casual Difficulty Only''' (Use this Composition in case of a lack of Submarines)
+* Route: {{MapRoute|V|red|W|red|X|red|Y|blue|Z|red|ZI|red|ZII|red}}
+* LBAS Range: 8 Range, AP/AS on Easy/Casual 88/197
+* Notes: Node Support is recommended. Boss Support is also recommended.
+* LoS: '''29+/23+/21+/18+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|ZI|red}} to {{MapRoute|ZII|red}}.
+|-|Light Fleet Comp=
+* Composition:{{Shiplock|Spring2021EventTag2}}{{ToolTip|[Purple Tag]|'''6th Fleet'''}} 2CL, 4DD
+** '''Casual Only''' (Use this Composition in case of a lack of Submarines)
+* Route: {{MapRoute|W|red|X|red|Y|blue|Z|red|ZI|red|ZII|red}}
+* LBAS Range: 8 Range, AP/AS on Easy 88/197
+* Notes: Vanguard formation can be utilized to help with passing rate. Boss Support is optional but recommended.
+* LoS: '''29+/23+/21+/18+ Cn3''' on '''Hard/Medium/Easy/Casual''' is required to route from {{MapRoute|ZI|red}} to {{MapRoute|ZII|red}}.
+</tabber>
+
+==Enemy Compositions==
+{{:{{BASEPAGENAME}}/E-2/Enemy comps}}
+
+'''Ship Drops:'''<br/>
+{{:{{BASEPAGENAME}}/E-2/Ship drops}}
+
+{| style="width: 100%;" class="mw-collapsible mw-collapsed wikitable
+|-
+! E-2 Clear Message
+|-
+|
+|}

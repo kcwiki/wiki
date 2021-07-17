@@ -1,0 +1,63 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+    _name = "30.5cm Triple Gun Mount Kai",
+    _id = 232,
+    _japanese_name = "30.5cm三連装砲改",
+    _reading = nil,
+    _type = 3,
+    _icon = 3,
+    _rarity = 3,
+    _firepower = 17,
+    _bombing = false,
+    _torpedo = false,
+    _aa = 3,
+    _armor = 1,
+    _asw = false,
+    _shelling_accuracy = 3,
+    _torpedo_accuracy = false,
+    _evasion = 1,
+    _los = false,
+    _speed = false,
+    _luck = false,
+    _range = 3,
+    _flight_cost = false,
+    _flight_range = false,
+    _special = false,
+    _scrap_fuel = false,
+    _scrap_ammo = 10,
+    _scrap_steel = 15,
+    _scrap_bauxite = false,
+    _info = "北の国の戦艦主砲です。<br>戦艦の主砲としては、超弩級戦艦の時代にはスケール的に時代遅れの感もありましたが、三連装主砲として当時新鋭の弩級戦艦に装備されました。本兵装は同砲を改修した、近代化改装した北の国の戦艦のための改良型装備です。",
+    _buildable = false,
+  _improvements = {
+    	_fuel = 20,
+    	_ammo = 300,
+    	_steel = 390,
+    	_bauxite = false,
+    	_products = {
+    		[false] = {
+    			_ships = {
+    			    ["Gangut/"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+    			    ["Oktyabrskaya Revolyutsiya/"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+    			    ["Gangut/Dva"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+    			},
+    			[0] = {
+    				_development_material = 7,
+    				_development_material_x = 8,
+    				_improvement_material = 4,
+    				_improvement_material_x = 4,
+    				_equipment = {["35.6cm Twin Gun Mount"] = 2},
+    			},
+    			[6] = {
+    				_development_material = 9,
+    				_development_material_x = 10,
+    				_improvement_material = 5,
+    				_improvement_material_x = 6,
+    				_equipment = {["46cm Triple Gun Mount"] = 1},
+    			},
+    		},
+        },
+    },
+}

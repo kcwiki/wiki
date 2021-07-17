@@ -158,7 +158,7 @@
 |D-1_node_info = fuel - ?
 |
 |E_label = '''<span style="color:green">Resource Node</span>'''
-|E-1_node_info = mediumfurniture + 1
+|E-1_node_info = bauxite - ?
 |
 |F_label = '''<span style="color:purple">Maelstrom Node</span>'''
 |F-1_node_info = fuel - ?
@@ -231,8 +231,8 @@
 |N-3_xp =
 |N-3_enemy_air_power = 46
 |
-|O_label = '''<span style="color:blue">Battle Avoided</span>'''
-|O-1_node_info = "Must be my imagination" (battle avoided)
+|O_label = '''<span style="color:green">Resource Node</span>'''
+|O-1_node_info = mediumfurniture + 1
 |
 |P_label = 深海棲艦 北方艦隊中枢
 |P-1_node_info = cv_wo-class_flagship bb_ru-class_flagship bb_ru-class_flagship bb_ru-class_flagship dd_ha-class_late_model dd_ha-class_late_model
@@ -260,119 +260,4 @@
 |boss_node = P
 }}
 
-===Drops===
-
-<div class="mw-customtoggle-3-4-drop globalbutton">Show/Hide Drops</div>
-
-{| id="mw-customcollapsible-3-4-drop" class="mw-collapsible mw-collapsed wikitable"
-!Node
-!Destroyer
-!Light Cruiser
-!Heavy Cruiser
-!Seaplane Tender
-!Submarine Tender
-!Aircraft Carrier
-!Submarine
-!Battleship
-|-
-|A
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Miyuki]], [[Ayanami]], [[Shikinami]], [[Asashio]], [[Ooshio]], [[Arare]], [[Kasumi]], [[Kagerou]], [[Shiranui]]
-|[[Ooi]], [[Kitakami]], [[Tenryuu]], [[Tatsuta]], [[Kiso]], [[Natori]], [[Yura]], [[Jintsuu]], [[Naka]]
-|[[Mogami]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]]
-|[[Chitose]]
-|
-|[[Kaga]], [[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']], [[Ryuujou]], [[Hiyou]], [[Jun'you]], [[Shouhou]]
-|
-|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
-|-
-|B
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Murakumo]], [[Shikinami]], [[Asashio]], [[Arashio]], [[Arare]], [[Kuroshio]]
-|[[Ooi]], [[Tenryuu]], [[Tatsuta]], [[Yura]], [[Naka]]
-|[[Nachi]], [[Ashigara]], [[Atago]], [[Maya]], [[Chikuma]], [[Choukai]]
-|[[Chiyoda]]
-|
-|[[Kaga]], [[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']], [[Jun'you]]
-|
-|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Hyuuga]], [[Haruna]], [[Kirishima]]
-|-
-|D
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Kagerou]]
-|[[Tatsuta]], [[Sendai]]
-|[[Mogami]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Chikuma]]
-|
-|
-|[[Kaga]], [[Hiryuu]], [[Ryuujou]], [[Hiyou]], [[Shouhou]]
-|
-|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Kongou]], [[Hiei]], [[Kirishima]], [[Fusou]]
-|-
-|'''<span style="color:red">E</span>'''
-|[[Yukikaze|'''<span style="color:red">Yukikaze</span>''']], [[Murakumo]], [[Asashio]], [[Ooshio]], [[Kagerou]], [[Kuroshio]], [[Hatsukaze|'''<span style="color:red">Hatsukaze</span>''']], [[Uzuki|'''<span style="color:red">Uzuki</span>''']]
-|[[Kitakami]], [[Tenryuu]]
-|[[Mogami]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Chikuma]], [[Kinugasa|'''<span style="color:red">Kinugasa</span>''']]
-|
-||[[Taigei|'''<span class="" style="color:red">Taigei</span>''']]
-|[[Akagi]], [[Kaga]],[[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']], [[Ryuujou]], [[Hiyou]], [[Jun'you]], [[Shouhou]]
-|[[I-58|'''<span style="color:red">I-58</span>''']], [[I-168|'''<span style="color:red">I-168</span>''']]
-|[[Nagato|'''<span style="color:red">Nagato</span>''']], [[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
-|-
-|F
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Murakumo]], [[Shikinami]], [[Ooshio]], [[Arashio]],
-[[Kagerou]], [[Shiranui]], [[Kuroshio]]
-|[[Ooi]], [[Kitakami]], [[Tenryuu]], [[Tatsuta]], [[Isuzu]], [[Natori]], [[Jintsuu]], [[Naka]]
-|[[Mogami]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Choukai]], [[Tone]], [[Chikuma]]
-|[[Chiyoda]]
-|
-|[[Kaga]], [[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']], [[Ryuujou]], [[Hiyou]], [[Shouhou]]
-|
-|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]], [[Yamashiro]]
-|-
-|H
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Miyuki]], [[Murakumo]], [[Asashio]], [[Arashio]], [[Shiranui]], [[Kuroshio]]
-|[[Ooi]], [[Kitakami]], [[Tatsuta]], [[Kiso]], [[Isuzu]], [[Natori]], [[Yura]], [[Naka]], [[Tama]]
-|[[Mogami]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Atago]], [[Maya]], [[Choukai]]
-|[[Chitose]], [[Chiyoda]]
-|
-|[[Kaga]], [[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']], [[Hiyou]], [[Jun'you]]
-|
-|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Kongou]], [[Haruna]], [[Kirishima]], [[Fusou]]
-|-
-|I
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Asashio]], [[Arashio]], [[Shiranui]], [[Kuroshio]]
-|[[Ooi]], [[Kitakami]], [[Tenryuu]], [[Isuzu]], [[Naka]]
-|[[Myoukou]], [[Haguro]], [[Takao]], [[Atago]], [[Chikuma]]
-|[[Chiyoda]]
-|
-|[[Kaga]], [[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']], [[Hiyou|Hiyou, ]][[Ryuujou]]
-|
-|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Hyuuga]], [[Kongou]], [[Haruna]], [[Kirishima]], [[Fusou]]
-|-
-|J
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Asashio]], [[Ooshio]], [[Arashio]], [[Kagerou]], [[Kuroshio]]
-|[[Ooi]], [[Kitakami]], [[Tatsuta]], [[Tama]], [[Kiso]], [[Natori]], [[Yura]], [[Jintsuu]], [[Naka]]
-|[[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Chikuma]], [[Tone]]
-|[[Chitose]], [[Chiyoda]]
-|
-|[[Kaga]], [[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']], [[Ryuujou]], [[Hiyou]], [[Jun'you]], [[Shouhou]]
-|
-|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Kirishima]], [[Fusou]]
-|-
-|L
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Hatsuyuki]], [[Miyuki]], [[Murakumo]], [[Isonami]], [[Ayanami]], [[Asashio]], [[Ooshio]], [[Michishio]], [[Arashio]], [[Kagerou]], [[Shiranui]], [[Kuroshio]]
-|[[Ooi]], [[Tenryuu]], [[Tatsuta]], [[Tama]], [[Kiso]], [[Natori]], [[Yura]], [[Jintsuu]], [[Naka]]
-|[[Mogami]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Maya]], [[Choukai]], [[Tone]], [[Chikuma]]
-|[[Chitose]], [[Chiyoda]]
-|
-|[[Kaga]], [[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']], [[Ryuujou]], [[Hiyou]], [[Jun'you]], [[Shouhou]]
-|
-|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Fusou]]
-|-
-|N
-|[[Shimakaze|'''<span style="color:red">Shimakaze</span>''']], [[Miyuki]], [[Murakumo]], [[Ayanami]], [[Asashio]], [[Ooshio]], [[Arare]], [[Kasumi]], [[Kuroshio]]
-|[[Ooi]], [[Tenryuu]], [[Isuzu]], [[Yura]]
-|[[Mogami]], [[Myoukou]], [[Nachi]], [[Ashigara]], [[Haguro]], [[Takao]], [[Atago]], [[Chikuma]], [[Tone]], [[Chikuma]]
-|[[Chiyoda]]
-|
-|[[Kaga]], [[Souryuu]], [[Hiryuu|'''<span style="color:red">Hiryuu</span>''']]
-|
-|[[Mutsu|'''<span style="color:red">Mutsu</span>''']], [[Ise]], [[Hyuuga]], [[Kongou]], [[Hiei]], [[Haruna]], [[Fusou]]
-|}
+{{:{{BASEPAGENAME}}/3-4/Drop list}}

@@ -1,0 +1,188 @@
+{{Navbox
+<!--- |name = Template:Equipmentlist --->
+|name = Enemyequipmentlist
+| state = mw-collapsible mw-collapsed
+|title = [[List_of_equipment_used_by_the_enemy|Enemy Equipment List]]
+|basestyle  = background-color:#eebb55;
+|titlestyle = color:black;
+|liststyle = border:0px none;padding-left:5px
+|groupstyle =  color:black
+|style = color:black; background-color:#FFFFFF; border:1px solid #1A5B70; width:100%;
+<!--- |above = '''[[Equipment_List_(Image)|Gallery]]{{•}}[[Equipment_Ranking|By Stats]]{{•}}[[Glossary#Equipment|Equipment Type]]{{•}}[[Development]]{{•}}[[Akashi's_Improvement_Arsenal|Akashi's Improvement Arsenal]]''' ---> 
+| abovestyle = background-color:#EECC88;
+|below = HA - '''High-Angle'''; DP - '''Dual-Purpose'''; LM - '''Late Model'''; CD - '''Concentrated Deployment'''
+|belowstyle = background-color:#EECC88;
+<!--- Main Guns category --->
+|list1 = {{Navbox|child
+ |name       = Main Guns
+ |title      = Main Guns
+ |basestyle  = background-color:#EECC88;
+|group1 = Small
+|list1 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[5inch Single Gun Mount]]{{•}}[[5inch Coastal Gun]]{{•}}[[5inch Twin Gun Mount]] <big>(</big>[[Abyssal 5inch Twin Gun Mount Model A|Model A]]{{•}}[[Abyssal 5inch Twin Gun Mount Model C|Model C]]<big>)</big>
+}}
+<!--- Small HA Guns --->
+|group2 = Small HA
+|list2 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[3inch Single High-angle Gun Mount]]{{•}}[[5inch Twin Dual Purpose Gun Mount]]{{•}}[[4inch Twin Dual Purpose Gun Mount + CIC]]{{•}}[[Abyssal 5inch Single Gun Mount Mk.30]]{{•}}[[Abyssal 4.7inch Gun Mk.XII]]{{•}}[[Abyssal 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)]]{{•}}[[Abyssal 5inch Single High-angle Gun Mount Kai Ni]]{{•}}[[Abyssal 5inch Twin High-angle Gun Mount Kai Ni]]
+}}
+<!--- Medium Guns --->
+|group3 = Medium
+|list3 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[5inch Single Anti-Aircraft Gun Mount]]{{•}}[[8inch Triple Gun Mount]]{{•}}[[6inch Twin Rapid Fire Gun Mount]]{{•}}[[8inch Long Range Twin Gun Mount]]{{•}}[[Abyssal 5.5inch Twin Gun Mount Kai]]{{•}}[[Abyssal New Model 6inch Triple Rapid Fire Gun Mount]]{{•}}[[Abyssal 8inch Twin Rapid Fire Gun Mount]]{{•}}[[Abyssal 8inch Triple Gun Mount Mk.9]]{{•}}[[Abyssal 16inch Triple Gun Mount Mk.6]]{{•}}Abyssal 6inch Triple Main Gun Mount Mk.16
+}}
+<!--- Medium HA Guns --->
+<!--- |group4 = Medium HA--->
+<!--- |list4 = [[5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)|5inch Twin DP Gun Mount (CD)]]--->
+<!--- Large Guns --->
+|group5 = Large
+|list5 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[14inch Twin Gun Mount]]{{•}}[[16inch Twin Gun Mount]]{{•}}[[16inch Triple Gun Mount]]{{•}}[[20inch Twin Gun Mount]]{{•}}[[15inch Coastal Artillery]]{{•}}[[16inch Triple Gun Mount (Strong)]]{{•}}[[Abyssal 12inch Triple Gun Mount]]{{•}}[[Abyssal 15inch Quadruple Gun Mount]]{{•}}[[Abyssal 15inch Late Model Twin Gun Mount]]{{•}}[[Abyssal 14inch Strait Double Gun Mount]]{{•}}[[Abyssal 14inch Twin Gun Mount Kai]]{{•}}[[Abyssal 16inch Triple Gun Mount Kai]]{{•}}[[Abyssal 16inch Triple Gun Mount Kai Ni]]{{•}}[[Abyssal 16inch Mk.VIII Twin Gun Mount Kai]]
+}}
+}}
+<!--- Secondary Guns category --->
+|list2 = {{Navbox|child
+ |name       = Secondary Guns
+ |title      = Secondary Guns
+ |basestyle  = background-color:#EECC88;
+<!--- Surface guns --->
+|group1 = Surface
+|list1 = [[6inch Single Gun Mount]]{{•}}[[12.5inch Twin Secondary Gun Mount]]
+<!--- Secondary HA Guns --->
+|group2 = High-Angle
+|list2 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+<!---  |group1 = IJN --->
+  |list1 = [[5inch Single Anti-Aircraft Gun Mount]]
+}}
+}}
+<!--- Anti-Air category --->
+|list3 = {{Navbox|child
+ |name       = Anti-Air
+ |title      = Anti-Air
+ |basestyle  = background-color:#EECC88;
+<!--- AA guns --->
+|group1 = Anti-Air Guns
+|list1 = [[12.7mm Machine Gun]]{{•}}[[20mm Autocannon]]{{•}}[[40mm Twin Autocannon Mount]]{{•}}[[40mm Quadruple Autocannon Mount]]
+<!--- AAFDs, just in case --->
+<!---|group2 = Anti-Aircraft Fire Directors--->
+<!---|list2 = Abyssal Anti-Aircraft Fire Director --->
+}}
+<!--- Torpedo category --->
+|list4 = {{Navbox|child
+ |name       = Torpedo Weapon
+ |title      = Torpedo Weapon
+ |basestyle  = background-color:#EECC88;
+<!--- Surface --->
+|group1 = Surface
+|list1 = [[21inch Torpedo Early Model]]{{•}}[[21inch Torpedo Late Model]]{{•}}[[High-speed Abyssal Torpedo]]{{•}}[[High-speed Abyssal Torpedo mod.3]]
+<!--- Submarine --->
+<!--- |group2 = Submarine --->
+<!--- |list2 = [[Late Model Bow Torpedo Mount (6 Tubes)]] --->
+<!--- Kouhyouteki  --->
+|group3 = Midget Submarines
+|list3 = [[Abyssal Cuttlefish Torpedo]]{{•}}[[High-speed Abyssal Torpedo mod.2]]{{•}}[[Abyssal Ambush Torpedo]]{{•}}[[Abyssal Target]]
+}}
+<!--- Carrier-based Aircraft --->
+|list5 = {{Navbox|child
+ |name       = Carrier-Based Aircraft
+ |title      = Carrier-Based Aircraft
+ |basestyle  = background-color:#EECC88;
+<!--- Fighters --->
+|group1 = Fighters
+|list1 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[Abyssal Fighter]]{{•}}[[Abyssal Fighter Mark.II]]{{•}}[[Abyssal Fighter Mark.III]]{{•}}[[Flying Fish Fighter]]{{•}}[[Abyssal Cat Fighter]]{{•}}[[Abyssal Cat Fighter Kai]]{{•}}[[Abyssal Bearcat Fighter]]
+<!--- Yasen Fighters may go here? --->
+ |group4 = Night
+  |list4 = [[Abyssal Night Cat Fighter]]
+}}
+<!--- Torpedo Bombers --->
+|group2 = Torpedo Bombers
+|list2 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+<!---   |group1 = IJN--->
+  |list1 = [[Abyssal Torpedo Bomber]]{{•}}[[Abyssal Torpedo Bomber Mark.II]]{{•}}[[Abyssal Torpedo Bomber Mark.III]]{{•}}[[Abyssal Revenge Torpedo Bomber]]{{•}}[[Abyssal Revenge Torpedo Bomber Kai]]{{•}}[[Abyssal Patrolling Attack Hawk]]{{•}}[[Abyssal Patrolling Attack Hawk Kai]]{{•}}[[Abyssal Patrolling Attack Hawk Kai Ni]]
+|group3 = Night
+|list3 = [[Abyssal Night Revenge Torpedo Bomber]]
+}}
+<!--- Dive Bombers --->
+|group3 = Dive Bombers
+|list3 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+<!---  |group1 = IJN--->
+  |list1 = [[Abyssal Dive Bomber]]{{•}}[[Abyssal Dive Bomber Mark.II]]{{•}}[[Flying Fish Dive Bomber]]{{•}}[[Abyssal Hell Dive Bomber]]{{•}}[[Abyssal Hell Dive Bomber Kai]]{{•}}[[Abyssal Cat Fighter (Bombing)]]{{•}}[[Abyssal Night Dive Bomber]]
+|group2 = Land-Based Bombers
+|list2 = [[Abyssal Liberation Land-based Dive Bomber]]{{•}}[[Abyssal Liberation Land-based Dive Bomber Ace]]
+|group3 = HA Bombers
+|list3 = [[Abyssal Sky Fortress (Reconnaissance Model)]]{{•}}[[Abyssal Sky Fortress Ace (Reconnaissance Model)]]{{•}}[[Abyssal Sky Fortress (Heavy Bomber Model)]]{{•}}[[Abyssal Sky Fortress Ace (Heavy Bomber Model)]]
+}}
+<!--- Recon --->
+<!---|group4 = Recon--->
+<!---|list4 = [[Saiun]]--->
+}}
+<!--- Seaplanes category --->
+|list7 = {{Navbox|child
+ |name       = Seaplanes
+ |title      = Seaplanes
+ |basestyle  = background-color:#EECC88;
+<!---|group1 = Fighter--->
+<!---|list1 = [[Type 2 Seaplane Fighter Kai|Type 2 Kai]]--->
+|group2 = Bomber/Multirole
+|list2 = [[Abyssal Attack Seaplane]]{{•}}[[Abyssal Attack Seaplane Kai]]{{•}}[[Abyssal Seaplane Tender Imp Aircraft]]{{•}}[[Abyssal Submarine Floatplane]]
+|group3 = Recon
+|list3 = [[Abyssal Reconnaissance Plane]]{{•}}[[Flying Fish Reconnaissance Plane]]{{•}}[[Abyssal Reconnaissance Observation Seaplane]]{{•}}[[Abyssal Reconnaissance Flying Boat]]{{•}}[[Abyssal Seamew Reconnaissance Seaplane]]{{•}}Abyssal Seacat Reconnaissance Seaplane
+<!---|group4 = Flying Boats --->
+<!---|list4 = [[Type 2 Flying Boat]] --->
+}}
+<!--- Radars category --->
+|list8 = {{Navbox|child
+ |name       = Radars
+ |title      = Radar
+ |basestyle  = background-color:#EECC88;
+|group1 = Small Radars
+|list1 = [[Air Radar Mark.I]]{{•}}[[Surface Radar Mark.I]]{{•}}[[Surface Radar Mark.II]]
+|group2 = Large Radars
+|list2 = [[Air Radar Mark.II]]{{•}}[[Abyssal Surface Radar]]{{•}}[[Coastal Radar]]{{•}}[[Abyssal Air Radar Mark.III + FCS]]{{•}}[[Abyssal Night Operation Aviation Equipment]]
+|group3 = Submarine Radars
+|list3 = [[Abyssal Submarine Electronic Armament]]
+}}
+<!--- ASW Equip, all of it! --->
+|list9 = {{Navbox|child
+ |name       = Radars
+ |title      = Anti-Submarine Warfare
+ |basestyle  = background-color:#EECC88;
+|group1 = Depth Charge Projectors
+|list1 = {{Navbox|child
+  |evenodd = swap
+  |basestyle  = background-color:#eeddbb;
+  |list1 = [[Abyssal Depth Charge Projector]]{{•}}[[Abyssal Depth Charge Projector Mk.II]]
+}}
+|group3 = Sonars
+|list3 = [[Abyssal Sonar]]{{•}}[[Abyssal Sonar Mk.II]]{{•}}[[Abyssal FCS + CIC]]
+}}
+<!--- Random stuff --->
+|list10 = {{Navbox|child
+ |name       = Radars
+ |title      = Miscellaneous
+ |basestyle  = background-color:#EECC88;
+|group2 = Shells
+|list2 = [[Anti-Air Dispersal Shell]]{{•}}[[Deterioration Armor Piercing Shell]]
+|group3 = Engine
+|list3 = [[Improved Abyssal Turbine]]{{•}}[[Enhanced Abyssal Boiler]]
+|group6 = Night Battle Aid
+|list6 = [[Abyssal Searchlight]]
+}}
+}}

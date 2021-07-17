@@ -1,99 +1,26 @@
 ==Info==
-{|
-| valign="top" |
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo
-| name=Submarine Ka-Class
-| japanesename=潜水カ級
-| id=530
-| image=[[File:Ka_n.png|x200px]]
-| color=gray
-| type=Submarine
-| class=Abyssal
-| hp=19
-| firepower=0
-| armor=7
-| torpedo=42
-| evasion=1
-| AA=0
-| aircraft=0
-| speed=Slow
-| LOS=6
-| ASW=0
-| range=N/A
-| luck=1
-| slot=2
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|21inch Torpedo]]
-| slot2=[[List_of_equipment_used_by_the_enemy|21inch Torpedo]]
-| slot3=-Locked-
-| slot4=-Locked-}}
-| style="width: 50px;" |
-|
+{{EnemyShipInfoKai|Submarine Ka-Class/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+<div style="display: inline-block;">
 ===Elite===
-{{enemyshipinfo
-| name=Submarine Ka-Class Elite
-| japanesename=潜水カ級 elite
-| id=532
-| image=[[File:Ka_e.png|x200px]]
-| color=red
-| type=Submarine
-| class=Abyssal
-| hp=27
-| firepower=0
-| armor=21
-| torpedo=64
-| evasion=5
-| AA=0
-| aircraft=0
-| speed=Slow
-| LOS=8
-| ASW=0
-| range=Short
-| luck=10
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot2=[[List_of_equipment_used_by_the_enemy|21inch Torpedo]]
-| slot3=[[List_of_equipment_used_by_the_enemy|21inch Torpedo]]
-| slot4=-Locked-}}
-| style="width: 50px;" |
-|
+{{EnemyShipInfoKai|Submarine Ka-Class/Elite|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+<div style="display: inline-block;">
 ===Flagship===
-{{enemyshipinfo
-| name=Submarine Ka-Class Flagship
-| japanesename=潜水カ級 flagship
-| id=534
-| image=[[File:Ka_f.png|x200px]]
-| color=yellow
-| type=Submarine
-| class=Abyssal
-| hp=37
-| firepower=0
-| armor=30
-| torpedo=86
-| evasion=10
-| AA=0
-| aircraft=0
-| speed=Slow
-| LOS=10
-| ASW=0
-| range=Short
-| luck=20
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot2=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot3=[[List_of_equipment_used_by_the_enemy|21inch Torpedo]]
-| slot4=-Locked-}}
-|}
+{{EnemyShipInfoKai|Submarine Ka-Class/Flagship|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Submarine Ka-Class/}}
 
 ==Trivia==
-Made thier first appearance in the Spring 2013 Event.
-*The elite and flagship variants can perform an opening torpedo attack.
-*When you hit an enemy node that contains two or more submarines, their graphic will appear on the map. 
+*'''Elite''' and '''Flagship''' will do opening torpedo attack.
+*When you hit an enemy node that contains two or more submarines, their graphic will appear on the map (''How kind!''). 
+*Abyssal submarines resemble to '''[https://en.wikipedia.org/wiki/Onry%C5%8D onryō]''' (怨霊), a japanese vengeful spirit. In horror movies, onryō is depicted as a pale woman with long black hair covering her face. 
 
 {{Enemyshiplist}}
-[[Category:Abyssal Submarines]]
+[[Category:Enemy Vessel]]
+[[Category:Bosses]]

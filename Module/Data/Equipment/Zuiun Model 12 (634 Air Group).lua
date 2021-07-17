@@ -1,0 +1,77 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "Zuiun Model 12 (634 Air Group)",
+	_localized_name = "Auspicious Clouds Model 12 (634 Air Group)",
+	_page = false,
+	_id = 81,
+	_japanese_name = "瑞雲12型(六三四空)",
+	_reading = "ずいうん12がた(ろくさんよんくう)",
+	_type = 11,
+	_icon = 10,
+	_rarity = 4,
+	_back = 4,
+	_firepower = false,
+	_bombing = 9,
+	_torpedo = false,
+	_aa = 3,
+	_armor = false,
+	_asw = 6,
+	_shelling_accuracy = 1,
+	_torpedo_accuracy = false,
+	_evasion = false,
+	_los = 7,
+	_speed = false,
+	_luck = false,
+	_range = false,
+	_flight_cost = 7,
+	_flight_range = 5,
+	_special = false,
+	_scrap_fuel = 2,
+	_scrap_ammo = 3,
+	_scrap_steel = false,
+	_scrap_bauxite = 6,
+    _buildable = false,
+	_info = "高性能多用途水上偵察機「瑞雲」の改良型「瑞雲12型」。<br/>同機によって編成された「伊勢」型航空戦艦などでの艦隊運用を担う六三四航空隊所属の「瑞雲12型」飛行隊です。",
+	_wikipedia = "634th Naval Air Group",
+    _improvements = {
+		_fuel = 190,
+		_ammo = 190,
+		_steel = false,
+		_bauxite = 430,
+		_products = {
+			["Zuiun (634 Air Group/Skilled)"] = {
+				_ships = {
+					["Ise/Kai"] = {Sunday = false, Monday = false, Tuesday = true, Wednesday = true, Thursday = true, Friday = false, Saturday = false},
+					["Yamashiro/Kai Ni"] = {Sunday = false, Monday = false, Tuesday = false, Wednesday = true, Thursday = true, Friday = true, Saturday = false},
+				},
+				[0] = {
+					_development_material = 6,
+					_development_material_x = 8,
+					_improvement_material = 3,
+					_improvement_material_x = 4,
+					_equipment = {["Zuiun"] = 1},
+				},
+				[6] = {
+					_development_material = 8,
+					_development_material_x = 10,
+					_improvement_material = 6,
+					_improvement_material_x = 7,
+					_equipment = {["Type 0 Observation Seaplane"] = 1},
+				},
+				[10] = {
+					_development_material = 18,
+					_development_material_x = 28,
+					_improvement_material = 7,
+					_improvement_material_x = 11,
+					_equipment = {
+					    ["Zuiun Model 12"] = 2,
+					    ["Skilled Crew Member"] = 2,
+					    ["New Model Aerial Armament Material"] = 1
+					},
+				},
+			},
+		},
+	},
+}

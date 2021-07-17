@@ -1,44 +1,21 @@
 ==Info==
-{|
-|
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo2
-| name=Floating Fortress
-| japanesename=浮遊要塞
-| id=536, 537, 538
-| image=<gallery type="slideshow" widths="280px" position="center" hideaddbutton="true">
-536 Floating Fortress.png
-537 Floating Fortress.png
-538 Floating Fortress.png
-</gallery>
-| color=red
-| type=Floating Fortress
-| class=Abyssal
-| hp=88
-| firepower=50
-| armor=40
-| torpedo=40
-| evasion=5
-| AA=20
-| aircraft=90
-| speed=Fast
-| LOS=10
-| ASW=0
-| range=Medium
-| luck=1
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|8inch Triple Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|Abyssal Fighter Mk.II]]
-| slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Torpedo Bomber Mk.II]]
-| slot4=-Locked-
-| space1=0
-| space2=45
-| space3=45
-| space4=-}}
-|}
+{{EnemyShipInfoKai|Floating Fortress/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic II===
+{{EnemyShipInfoKai|Floating Fortress/II|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic III===
+{{EnemyShipInfoKai|Floating Fortress/III|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
 ==Trivia==
-Not to be confused with [[Escort Fortress]].
+* Not to be confused with [[Escort Fortress]].
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]
+[[Category:Bosses]]

@@ -1,0 +1,33 @@
+--[[Category:Enemy equipment modules]]
+
+return {
+  _name = "Abyssal 5inch Twin Gun Mount Model C",
+  _id = 588,
+  _japanese_name = "深海5inch連装砲C型",
+  _reading = "しんかい5インチれんそうほうCがた",
+  _type = 1, -- 1,1,1,1,0
+  _icon = 1,
+  _rarity = 4,
+  _cg_reference = "12.7cm Twin Gun Mount Model C Kai 2",
+  _firepower = 6,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 3,
+  _armor = false,
+  _asw = 6,
+  _shelling_accuracy = 18,
+  _torpedo_accuracy = false,
+  _evasion = 9,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 1,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = false,
+  _scrap_steel = false,
+  _scrap_bauxite = false,
+  _buildable = false,
+}

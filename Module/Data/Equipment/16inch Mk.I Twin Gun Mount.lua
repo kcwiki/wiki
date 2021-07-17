@@ -1,0 +1,71 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "16inch Mk.I Twin Gun Mount",
+  _id = 330,
+  _japanese_name = "16inch Mk.I連装砲",
+  _reading = "16インチ マークワンれんそうほう",
+  _type = 3, -- 1,1,3,3,0
+  _icon = 3,
+  _rarity = 2,
+  _firepower = 20,
+  _bombing = false,
+  _torpedo = false,
+  _aa = false,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = 1,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 3,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 12,
+  _scrap_steel = 20,
+  _scrap_bauxite = false,
+  _buildable = false,
+  _info = "米国で建造されたビッグセブン、「Colorado」級。その初期の主砲兵装として採用された標準的な16inch連装砲です。<br>日本の「長門」「陸奥」、そして紅茶の国の「Nelson」級と共にビッグセブンの一角を構成した同級戦艦の三隻。ネームシップ「Colorado」、そして一度は真珠湾で撃破された妹達も浮揚修理され、太平洋の戦いを身を投じていきます。",
+  _improvements = {
+		_fuel = 30,
+		_ammo = 350,
+		_steel = 480,
+		_bauxite = 0,
+		_products = {
+			["16inch Mk.V Twin Gun Mount"] = {
+				_ships = {
+					["Colorado/"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+					["Colorado/Kai"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 3,
+					_development_material_x = 4,
+					_improvement_material = 2,
+					_improvement_material_x = 3,
+					_equipment = {["41cm Twin Gun Mount"] = 1},
+				},
+				[6] = {
+					_development_material = 6,
+					_development_material_x = 8,
+					_improvement_material = 3,
+					_improvement_material_x = 6,
+					_equipment = {["41cm Twin Gun Mount"] = 2},
+				},
+				[10] = {
+					_development_material = 16,
+					_development_material_x = 24,
+					_improvement_material = 6,
+					_improvement_material_x = 8,
+					_equipment = {
+					    ["41cm Twin Gun Mount"] = 3,
+					    ["New Model Gun Mount Improvement Material"] = 1,
+					},
+				},
+			},
+		},
+	},
+}

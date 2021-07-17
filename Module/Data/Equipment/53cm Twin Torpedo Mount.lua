@@ -1,0 +1,61 @@
+--Categories:
+--[[Category:Equipment modules]]
+
+return {
+	_name = "53cm Twin Torpedo Mount",
+	_page = false,
+	_id = 174,
+	_japanese_name = "53cm連装魚雷",
+	_reading = "53せんちれんそうぎょらい",
+	_type = 5,
+	_icon = 5,
+	_rarity = 1,
+	_firepower = false,
+	_bombing = false,
+	_torpedo = 3,
+	_aa = false,
+	_armor = false,
+	_asw = false,
+	_shelling_accuracy = false,
+	_torpedo_accuracy = false,
+	_evasion = 2,
+	_los = false,
+	_speed = false,
+	_luck = false,
+	_range = 1,
+	_special = false,
+	_scrap_fuel = 1,
+	_scrap_ammo = 1,
+	_scrap_steel = 1,
+	_scrap_bauxite = false,
+	_info = "旧式の53cm魚雷の連装発射管です。新型の61cm酸素魚雷と比較すると、射程・威力共に陳腐化は否めませんが、近距離魚雷戦ではまだまだ現役です。やや旧式の艦隊型駆逐艦「神風」型などに装備されました。",
+	_buildable = false,
+	_improvements = {
+		_fuel = 40,
+		_ammo = 60,
+		_steel = 40,
+		_bauxite = 20,
+		_products = {
+			[false] = {
+				_ships = {
+					["Kamikaze/Kai"] = {Sunday = true, Monday = false, Tuesday = false, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+					["Tatsuta/Kai Ni"] = {Sunday = true, Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = true},
+				},
+				[0] = {
+					_development_material = 1,
+					_development_material_x = 2,
+					_improvement_material = 1,
+					_improvement_material_x = 1,
+					_equipment = {["61cm Triple Torpedo Mount"] = 1},
+				},
+				[6] = {
+					_development_material = 2,
+					_development_material_x = 4,
+					_improvement_material = 2,
+					_improvement_material_x = 3,
+					_equipment = {["61cm Quadruple (Oxygen) Torpedo Mount"] = 1},
+				},
+			},
+		},
+	},
+}

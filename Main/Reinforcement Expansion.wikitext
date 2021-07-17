@@ -59,68 +59,78 @@ Reinforcement Expansions after.png|After confirming, your Kanmusu will gain an e
 =Uses=
 
 Reinforcement Expansions are important because they allow your ship girls to carry utility equipment that would otherwise compromise their combat effectiveness. The chart below details what equipment can be equipped in the RE of a ship girl. Please refer to individual ship girl pages, individual equipment pages or [[Help:Reinforcement Expansion|the help page]] for more details.
-
 {| class="wikitable" style="text-align:center;"
 
 !style="background-color:#99CCFF;" | Equipment
-!style="background-color:#99CCFF;" colspan="2" | Ship List
+!style="background-color:#99CCFF;" colspan="2" | Capable Ships List
 |-
-| [[:Category:Repair_Personnel|Repair Personnel]]
-| colspan="2" | All
+|{{EmergencyRepair}}{{EquipmentLink|Emergency Repair Personnel|Emergency Repair Goddess|text=Damage Control Personnel}}
+| colspan="2" rowspan="2" | All
 |-
-| [[:Category:Ration|Combat Ration]]
-| colspan="2" | All
+|{{Rations}}{{EquipmentLink|Combat Ration|Canned Saury|Combat Ration (Special Onigiri)|text=Combat Rations}}
 |-
-| [[Maritime Resupply]]
-| Auxiliary
-| [[Hayasui]]{{·}}[[Kamoi|Kamoi Base/Kai Bo]]
+| colspan="3" |
 |-
-| [[:Category:Anti-Air_Gun|Anti-Air Gun]]
-| colspan="2" | All
+|{{GreenGunMG}}[[List of Anti-Air Guns by stats|Anti-Aircraft machine guns and rocket launchers]]
+| colspan="2" rowspan="7" | All ships capable of equipping
 |-
-| rowspan="6"| [[:Category:Armor|Bulges]]
-| Destroyer<ref name="Med">Only able to equip medium bulges and the [[Arctic camouflage (+ Arctic equipment)]].</ref>
-| [[Hibiki|Verniy]]{{·}}[[:Category:Kagerou Class|Kagerou-class Kai Ni]]{{·}}[[:Category:Yuugumo Class|Yuugumo-class Kai Ni]]
+|{{ArmorEquipment}}[[List_of_Anti-Torpedo_Bulges_by_stats|Bulges]] (size depends on ship type)
 |-
-| Light Cruiser<ref name="Med"/>
-| [[Tama|Tama Kai/Kai Ni]]{{·}}[[Kiso|Kiso Kai/Kai Ni]]{{·}}[[:Category:Agano Class|Agano-class Kai]]{{·}}[[Gotland|Gotland Kai]]
+|{{AntiAircraftFireDirector}}{{EquipmentLink|Type 91 Anti-Aircraft Fire Director|Type 94 Anti-Aircraft Fire Director|text=Anti-Aircraft Fire Directors|link=List of Anti-Aircraft Fire Directors by stats}}
 |-
-| Heavy Cruiser<ref name="Med"/>
-| rowspan="4"|All
+|{{SurfaceShipPersonnel}}{{Equipment/Link|Skilled Lookouts|Torpedo Squadron Skilled Lookouts|text=Surface Ship Personnel}}
 |-
-| Battleship
+|{{Supplies}}{{Equipment/Link|Underway Replenishment<!--Supplies-->}}
 |-
-| Carrier
+|{{SubmarineRadar}}{{Equipment/Link|Submarine Radar & Waterproof Telescope|Submarine Radar & Passive Radiolocator (E27)|Late Model Submarine Radar & Passive Radiolocator|text=Submarine Radars<!--Submarine Equipment-->}}
 |-
-| Light Carrier<ref name="Med"/>
+|{{Equipment/Card|Improved Kanhon Type Turbine|size=36px}} {{EquipmentLink|Improved Kanhon Type Turbine}}
 |-
-| [[:Category:Engines|Boiler/Turbine]]
-| colspan="2" | All
+| colspan="3" |
 |-
-| rowspan="3"| [[8cm High-angle Mount]]<br>[[8cm Twin High-angle Mount + Additional Machine Guns]]
+|rowspan="4"| {{Equipment/Card|8cm High-angle Gun|size=36px}} {{Equipment/Link|8cm High-angle Gun}}<br>{{Equipment/Card|8cm High-angle Gun Kai + Additional Machine Guns|size=36px}} {{Equipment/Link|8cm High-angle Gun Kai + Additional Machine Guns}}
 | Light Cruiser
-| [[Yura|Yura Kai Ni]]{{·}}[[:Category:Agano Class|Agano-class]]
+|{{Ship/Link|Agano|Noshiro|Yahagi|Sakawa|link_class=Agano|text=Agano-class}}{{·}}{{Ship/Link|Yura/Kai Ni}}
 |-
-| Heavy Cruiser
-| [[:Category:Mogami Class|Mogami-class Kai Ni]]
+| Aviation Cruiser
+|{{Ship/Link|Mogami Kai Ni|Mogami Kai Ni Toku|Suzuya Kai Ni|Kumano Kai Ni|link_class=Mogami|text=Mogami-class Kai Ni}}
+|-
+| Light Carrier
+|{{Ship/Link|Suzuya Carrier Kai Ni|Kumano Carrier Kai Ni|link_class=Mogami|text=Mogami-class Carrier Kai Ni}}{{·}}{{Ship/Link|Ryuuhou Kai Ni E|Ryuuhou Kai Ni|text= Ryuuhou Kai Ni (E)}}
 |-
 | Auxiliary
-| [[:Category:Katori Class|Katori-class]]{{·}}[[Akashi]]{{·}}[[Taigei]]
+|{{Ship/Link|Katori|Kashima|link_class=Katori|text=Training Cruisers}}{{·}}{{Ship/Link|Akashi}}{{·}}{{Ship/Link|Taigei}}
 |-
-| rowspan=3"| [[10cm Twin High-angle Carriage Mount]]<br>[[10cm Twin High-angle Gun Mount Kai + Additional Machine Guns]]
+| colspan="3" |
+|-
+| rowspan="3"| {{Equipment/Card|10cm Twin High-angle Gun Mount (Carriage)|size=36px}} {{Equipment/Link|10cm Twin High-angle Gun Mount (Carriage)}}<br>{{Equipment/Card|10cm Twin High-angle Gun Mount Kai + Additional Machine Guns|size=36px}} {{Equipment/Link|10cm Twin High-angle Gun Mount Kai + Additional Machine Guns}}
 | Light Cruiser
-| [[Ooyodo]]
+|{{Ship/Link|Ooyodo}}
 |-
 | Battleship
-| [[:Category:Yamato Class|Yamato-class Kai/Kai Ni]]
+|{{Ship/Link|Yamato/Kai|Musashi/Kai|Musashi/Kai Ni|text=Yamato-class Kai (Ni)}}
 |-
 | Carrier
-| [[Taihou]]
+|{{Ship/Link|Taihou}}
 |-
+| colspan="3" |
+|-
+|{{Equipment/Card|Soukoutei (Armored Boat Class)|size=36px}} {{Equipment/Link|Soukoutei (Armored Boat Class)}}
+| colspan="2"|{{Ship/Link|Shinshuu Maru}}
+|-
+| colspan="3" |
+|-
+| rowspan="2"| {{Equipment/Card|Elite Torpedo Squadron Command Facility|size=36px}} {{Equipment/Link|Elite Torpedo Squadron Command Facility}}
+| Destroyer
+|{{Ship/Link|Akizuki|Teruzuki|Suzutsuki|Hatsuzuki|link_class=Akizuki|text=Akizuki-class}}{{·}}{{Ship/Link|Yuugumo Kai Ni}}{{·}}{{Ship/Link|Naganami Kai Ni}}{{·}}{{Ship/Link|Takanami Kai Ni}}
+|-
+| Light Cruiser
+|{{Ship/Link|Kuma|Tama|Kitakami|Ooi|Kiso|link_class=Kuma|text=Kuma-class}}{{·}}{{Ship/Link|Nagara|Isuzu|Nagara|Yura|Kinu|Abukuma|link_class=Nagara|text=Nagara-class}}{{·}}{{Ship/Link|Sendai|Jintsuu|Naka|link_class=Sendai|text=Sendai-class}}{{·}}{{Ship/Link|Agano|Noshiro|Yahagi|Sakawa|link_class=Agano|text=Agano-class}}{{·}}{{Ship/Link|Ooyodo}}
 |}<references/>
 
 {{Clear}}
 
 ==See Also==
+[https://docs.google.com/document/d/12jOP4tdZ5buxv-ctSWuccFccTkslA3sl6hQDDLBbWgw/edit Reinforcement Expansion Meta Chart Guide - By Dusk]
 {{Mechanics}}
 [[Category:Items]]

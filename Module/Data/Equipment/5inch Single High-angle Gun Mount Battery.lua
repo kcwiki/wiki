@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "5inch Single High-angle Gun Mount Battery",
+  _id = 358,
+  _japanese_name = "5inch 単装高角砲群",
+  _reading = nil,
+  _type = 4, -- 1,2,4,16,0
+  _icon = 16,
+  _rarity = 2,
+  _firepower = 2,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 6,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = 1,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = 1,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 2,
+  _scrap_steel = 3,
+  _scrap_bauxite = 1,
+  _buildable = false,
+  _info = "米国で開発・運用された標準的な対空兵装です。本装備は、重巡や戦艦などの中型艦以上の標準的な艦隊防空用対空火力として運用されました。戦いの後期になると、より新型の両用砲に更新されていきます。",
+}

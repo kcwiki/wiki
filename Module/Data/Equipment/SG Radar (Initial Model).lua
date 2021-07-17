@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "SG Radar (Initial Model)",
+  _id = 315,
+  _japanese_name = "SG レーダー(初期型)",
+  _reading = "SG レーダー(しょきがた)",
+  _type = 12, -- 5,8,12,11,0
+  _icon = 11,
+  _rarity = 3,
+  _firepower = 1,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 3,
+  _armor = false,
+  _asw = 3,
+  _shelling_accuracy = 8,
+  _torpedo_accuracy = false,
+  _evasion = 6,
+  _los = 8,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = false,
+  _scrap_steel = 15,
+  _scrap_bauxite = 20,
+  _buildable = false,
+  _info = "米国で開発され、多くの水上艦艇に装備された実用的な対水上レーダーです。<br>紅茶の国で開発された進んだレーダー技術を導入、さらに独自の改良を加え、発展していった標準的かつ実用的な対水上及び低空警戒捜索レーダー、その初期型です。",
+}

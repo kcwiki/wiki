@@ -1,168 +1,34 @@
 ==Info==
-{|
-|valign="top" |
+
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo
-| name=Destroyer Ha-Class
-| japanesename=駆逐ハ級
-| id=503
-| image=[[File:Ha_n.png|192px]]
-| color=gray
-| type=Destroyer
-| class=Abyssal
-| hp=24
-| firepower=6
-| armor=7
-| torpedo=16
-| evasion=16
-| AA=6
-| aircraft=0
-| speed=Fast
-| LOS=4
-| ASW=30
-| range=Short
-| luck=1
-| slot=2
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|21inch Torpedo]]
-| slot3=-Locked-
-| slot4=-Locked-
-}}
-| style="width: 25px;"|
-|valign="top" |
+{{EnemyShipInfoKai|Destroyer Ha-Class/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
 ===Elite===
-{{enemyshipinfo
-| name=Destroyer Ha-Class Elite
-| japanesename=駆逐ハ級 elite
-| id=516
-| image=[[File:Ha_e.png|218px]]
-| color=red
-| type=Destroyer
-| class=Abyssal
-| hp=40
-| firepower=15
-| armor=16
-| torpedo=32
-| evasion=35
-| AA=14
-| aircraft=0
-| speed=Fast
-| LOS=7
-| ASW=40
-| range=Short
-| luck=10
-| slot=2
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot3=-Locked-
-| slot4=-Locked-
-}}
-| style="width: 25px;"|
-|valign="top" |
+{{EnemyShipInfoKai|Destroyer Ha-Class/Elite|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+<div style="display: inline-block;">
 ===Flagship===
-{{enemyshipinfo
-| name=Destroyer Ha-Class Flagship
-| japanesename=駆逐ハ級 flagship
-| id=553
-| image=[[File:Ha_f.png|218px]]
-| color=yellow
-| type=Destroyer
-| class=Abyssal
-| hp=47
-| firepower=30
-| armor=27
-| torpedo=60
-| evasion=54
-| AA=24
-| aircraft=0
-| speed=Fast
-| LOS=12
-| ASW=60
-| range=Short
-| luck=20
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|5inch Twin Cannon]]
-| slot2=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-| slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Depth Charge]]
-| slot4=-Locked-
-}}
-|-
-|valign="top" |
+{{EnemyShipInfoKai|Destroyer Ha-Class/Flagship|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+<div style="display: inline-block;">
 ===Late Model===
-{{enemyshipinfo
-|color = gray
-|name = Destroyer Ha-Class Late Model
-|japanesename = 駆逐ハ級後期型 
-|image = [[File:577.png|221px]]
-|id = 577 
-|class = Abyssal
-|type = Destroyer 
-|hp = 38 
-|firepower = 44
-|armor = 29
-|torpedo = 72
-|evasion = 56
-|AA = 36
-|aircraft = 0 
-|ASW = 80
-|LOS = 24 
-|luck = 42
-|time = Unbuildable
-|speed = Fast 
-|range = Short 
-|slot = 3 
-|slot1=[[List_of_equipment_used_by_the_enemy|5inch Dual Cannon]]
-|slot2=[[List_of_equipment_used_by_the_enemy|High-speed Abyssal Torpedo]]
-|slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Depth Charge]]
-|slot4= - Locked -  
-|space1=0 
-|space2=0 
-|space3=0 
-|space4=0 
-}}
-| style="width: 25px;"|
-|valign="top" |
+{{EnemyShipInfoKai|Destroyer Ha-Class/Late Model|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+<div style="display: inline-block;">
 ===Late Model Elite===
-{{enemyshipinfo
-|color = red
-|name = Destroyer Ha-Class Late Model Elite
-|japanesename = 駆逐ハ級後期型elite
-|image = [[File:DD_Destroyer_Ha-Class_Late_Model_Elite_Full.png|280px]]
-|id = 623
-|class = Abyssal
-|type = Destroyer 
-|hp = 46
-|firepower = 58
-|armor = 36
-|torpedo = 76
-|evasion = ??
-|AA = 48
-|aircraft = 
-|ASW = ??
-|LOS = ??
-|luck = ??
-|time = Unbuildable
-|speed = Fast 
-|range = Short 
-|slot = 3 
-|slot1=[[List_of_equipment_used_by_the_enemy|5inch Dual Cannon]]
-|slot2=[[List_of_equipment_used_by_the_enemy|Abyssal Sonar Mk.II]]
-|slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Depth Charge]]
-|slot4= - Locked -  
-|space1=0 
-|space2=0 
-|space3=0 
-|space4=0 
-}}
-|}
+{{EnemyShipInfoKai|Destroyer Ha-Class/Late Model Elite|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+{{EnemyShipCategoriesKai|Destroyer Ha-Class/}}
+
+==Trivia==
+* Late Model Elite can do [[Partials/Opening ASW|opening anti submarine attack]].
 {{Enemyshiplist}}
 [[Category:Enemy Vessel]]
 [[Category:Abyssal Destroyers]]
-[[zh:驱逐舰HA级]]

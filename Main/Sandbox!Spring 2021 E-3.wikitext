@@ -30,3 +30,100 @@ With each approval of each version the guide, the said guide will be updated to 
 All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
 
 Projected deadline for Initial guide: '''May 14th, 12:01 JST''' (May get extended by 1 day if massive delays occur)
+
+==General Information==
+
+This map has three ship locks:
+*Orange Tag: 2nd Torpedo Squadron (Single Fleet)
+*Grey Tag: 8th Fleet (Single Fleet, '''with CA(V) flagship''')
+**Starting point unlocks after Phase 1 is cleared
+**Only really used for one unlocking gimmick
+*Yellow Tag: Combined Fleet (Combined Fleet)
+**Same starting point as Orange Tag, but tagged with Combined Fleet Tag when sortied as a Combined Fleet (STF or CTF)
+
+==E3-1==
+
+Phase 1 is a TP Phase, with 350/350/500/750 points required on Casual/Easy/Medium/Hard at HQ 120
+
+*Composition: 0-1 CL, 5-6 DD
+**A fleet with CL will off-route to {{MapRoute|E|red}}
+*Route: {{MapRoute|A|blue|C|red|G|red|F|blue|I|blue|J|red|L|purple|M|green|N|red}} with 0 CL
+**{{MapRoute|A|blue|C|red|E|red|G|red|F|blue|I|blue|J|red|L|purple|M|green|N|red}} with 1 CL
+*'''A total of 0/?/3/4 drum-equipped ships are required on Casual/Easy/Medium/Hard for this route.'''
+*LBAS:
+**2 LBAS with 4x LBAA each to boss (7 Range); OR
+**1 LBAS with 4x Toukai/ASW to {{MapRoute|C|red}} (2 Range), 1 LBAS with 4x LBAA to Boss; OR
+**Fighter sweep {{MapRoute|E|red|G|red}}
+*Notes: 
+**Support expeditions are optional, vanguard formation can be used to increase passing rate. Generic AACI is sufficient for the Air Raids.
+**S-Ranking the boss is not strictly necessary, but if desired, the new Torpedo/SLO+/Torpedo and/or Torpedo/SLO+/Drum cut-ins may be useful.
+***With a [[Reinforcement Expansion]] unlocked, a Torpedo/Torpedo/Drum/[SLO+] set-up may be utilised.
+***SLO+ refers to [[Torpedo Squadron Skilled Lookouts]].
+**This phase has '''no LoS check'''.
+
+==E3-1.5==
+Unlocking {{MapRoute|W|Red}} has 2 requirements:
+* AS Node {{MapRoute|B|Red}} & {{MapRoute|O2|Red}}
+* S rank Node O3 & O1
+<tabber> 
+|-|Node B & O2=
+* Composition: Combined Fleet (CTF): 2 CV(L) + 1 CL, 2 DD
+* This composition will receive a Yellow Tag
+* Route: {{MapRoute|A|blue|B|red|D|blue|O2|red}}
+* LBAS: AP/AS {{MapRoute|O2|Red}} Hard: 169/380 @ 4Range; AP/AS {{MapRoute|B|Red}} Hard: 160/359 @ Range 2
+|-|Node O1 & O3=
+* Composition: Single Fleet: 2 CA(V), 1-2 CL, 2-3 DD
+* A CA(V) '''must''' be flagship; this composition will receive a Grey Tag
+* Route: {{MapRoute|P|blue|B|red|O1|red|O2|red}}
+* LBAS: Range 3, no airpower {{MapRoute|O1|Red}}; Range 4, no air power {{MapRoute|O3|Red}}
+* Note: O1 contains a New Submarine Princess along with 2 other submarines. Bring Toukai/ASW Aircraft as well as OASW. O3 is a surface combat node.
+</tabber>
+
+==E3-2==
+The objective here is to take down the enemy combined fleet at Node {{MapRoute|W|Red}}
+
+<tabber> 
+|-|STF=
+* Composition: Surface Task Force: 2 CVL, 2 FBB, 1-2 CA(V), 1-2 CL + 1 CA, 1 CL, 4 DD
+* Route: {{MapRoute|A|blue|C|red|E|red|G|red|Q|blue|R|red|V|red|W|red}}
+* LBAS: Range 7. AD/AP/AS for Hard: 90/180/405. LD: 96/191/429.
+|-|CTF=
+Goes {{MapRoute|Q|blue|S|red}} instead of {{MapRoute|Q|blue|R|red}}
+* Composition: Carrier Task Force (CTF): 2 CV, 1 FBB, 1 CA(V), CL + 1 CA, 1 CL, 4 DD
+* Route: {{MapRoute|A|blue|C|red|E|red|G|red|Q|blue|S|red|U|red|W|red}}
+* LBAS: Range 7. AD/AP/AS for Hard: 90/180/405. LD: 96/191/429.
+|-|Heavy CTF=
+* Composition: 2 CV, 2 CVL, 1 CAV, 1 CL + 1 CA, 1 CL, 4 DD
+**Speed does not matter for this composition and route (i.e. use of Slow CVLs is acceptable).
+* Route: {{MapRoute|A|blue|C|red|E|red|G|red|Q|blue|R|red|V|red|W|red}}
+* LBAS: Range 6 {{MapRoute|V|red}} & 7 {{MapRoute|W|red}}.
+**AD/AP/AS for {{MapRoute|V|red}} Hard: 62/124/279.
+**AD/AP/AS for {{MapRoute|W|red}} Hard: 90/180/405. LD: 96/191/429.
+</tabber>
+
+==E3-2.5==
+To unlock {{MapRoute|Z|Red}}, you will only need to AS {{MapRoute|H|red}}
+* Composition: Transport Combined Fleet (TCF): 0-1 CVE, 1CAV/AV, 4-5 DD + 1 CL, 3 DD
+* Route: {{MapRoute|A|blue|C|red|E|red|G|red|F|blue|H|red}}
+* LBAS: Range 5, AP/AS for Hard: 160/359
+* Note: Set up your LBAS with fighters only and send them to Node H to help secure AS.
+** 1 CVE and 1 CAV with full fighter & SPF set-ups can almost certainly attain AS without the need for LBAS swapping.
+
+==E3-3==
+This is the final phase for this map and the MO. The objective is to sink the Lungga princess at {{MapRoute|Z|red}}. There is a boss debuff available for unlocking once LD is reached, if so desired. 
+* Composition: Single Fleet: 6 DD ''' OR''' 1 CL 5 DD ('''EASY AND CASUAL ONLY''')
+**A fleet with CL will off-route to {{MapRoute|E|red}}
+* Route: {{MapRoute|A|blue|C|red|G|red|F|blue|I|blue|X|red|M|green|Z|red}} with 0 CL
+** {{MapRoute|A|blue|C|red|E|red|G|red|F|blue|I|blue|X|red|M|green|Z|red}} with 1 CL
+* LBAS: Range 8, no Airpower 
+* Note: '''Fleet must have 0/3/?/5 drum-equipped ships on Casual/Easy/Medium/Hard.'''
+*LoS Requirement: About '''29.95-30 Cn2 LoS''' is required for {{MapRoute|M|green}} to {{MapRoute|Z|red}} routing.
+
+==Lungga Hime Debuff Phase==
+You can do all these steps in any order you like to. There are 6 requirements for you to do after you got the boss to Last Dance
+* LBAS raid - AS x1
+* O3 node - S rank x1
+* E node - AS x1
+* W node - S rank x1
+* K node - S rank x1
+* N node - S rank x1 (same TCF as from part 2.5, LOS check at M needs 52.6 > LOS > 35.6 (Cn2))

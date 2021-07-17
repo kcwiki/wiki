@@ -1,43 +1,14 @@
 ==Info==
-{|
-|
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo2
-| name=Anchorage Princess
-| japanesename=泊地棲姫
-| id=540
-| image=[[File:540_Anchorage_Princess.png|280px]]
-| color=red
-| type= Aviation Battleship
-| class=Abyssal
-| hp=300
-| firepower=96
-| armor=90
-| torpedo=90
-| evasion=20
-| AA=80
-| aircraft=180
-| speed=Slow
-| LOS=80
-| ASW=0
-| range=Long
-| luck=40
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|Deteriorate AP Shell]]
-| slot2=[[List_of_equipment_used_by_the_enemy|Abyssal Fighter Mk.II]]
-| slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Dive Bomber Mk.II]]
-| slot4=-Locked- 
-| space1=0
-| space2=90
-| space3=90
-| space4=-}}
-|}
+{{EnemyShipInfoKai|Anchorage Princess/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
 
+{{EnemyShipCategoriesKai|Anchorage Princess/}}
 ==Quotes==
 {{Abyssquote
 | 開幕前=オノレ…イマイマシイカンムスドモメ…
-| EN1=I see...that the annoying ships have come...
+| EN1=You bastards...you ship girls really do annoy me...
 | Note1=(done in a demeaning manner)
 | 砲撃=シズメ…
 
@@ -52,31 +23,27 @@ or
 
 or
 
-You shall ...not pass...
+You shall...not pass...
 
 or
 
 You had better return to the bottom again...
 | Note0=
-| 被弾=ワタシハ…ホロビンゾ…
-
-or
-
-グッ…
-| EN2=I will not... be destroyed...
-
-or
-
-Gh!...
+| 被弾=ワタシハ…ホロビンゾ…<br/>
+イマイマシイ…<br>グッ…
+| EN2=I will not... be destroyed...<br>
+Annoying...<br>Gh!...
 | Note2=
 | 昼戦終了時=ワタシモ…モドレルノカ…アオイウミノウエニ…
 | EN3=I...will return back...To above the blue sea...
 | Note3=
-|Clip1 = {{Audio|file=Anchorage_Hime_Intro.ogg}}|Clip0 = {{Audio|file=Anchorage_Attack_1.ogg}}<br/>{{Audio|file=Anchorage_Attack_2.ogg}}<br/>{{Audio|file=Anchorage_Hime_Attack.ogg}}|Clip2 = {{Audio|file=Anchorage_Hime_Damaged.ogg}}<br/>{{Audio|file=Anchorage_Damaged.ogg}}|Clip3 = {{Audio|file=Anchorage_Hime_Sunk.ogg}}}}
-
+|Clip1 = {{Audio|file=Anchorage_Hime_Intro.ogg}}|Clip0 = {{Audio|file=Anchorage_Attack_1.ogg}}<br/>{{Audio|file=Anchorage_Attack_2.ogg}}<br/>{{Audio|file=Anchorage_Hime_Attack.ogg}}|Clip2 = {{Audio|file=Anchorage_Hime_Damaged.ogg}}<br/>{{Audio|file=Anchorage_Oni_Damaged.ogg}}<br/>{{Audio|file=Anchorage_Damaged.ogg}}|Clip3 = {{Audio|file=Anchorage_Hime_Sunk.ogg}}}}
+== Character ==
+* '''[[Glossary#List of Vessels by Artist|Artist]]''': Akira (アキラ)
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://myanimelist.net/people/8956/Iori_Nomizu Nomizu Iori] (野水伊織)
 ==Trivia==
-*Boss for Event Map 4 ([[Spring 2013 Event]])
-* Boss of vanguard fleet for E-5 ([[Fall 2013 Event]])
+* Boss of [[Spring_2013_Event#E-4_-_.E6.95.B5.E6.B3.8A.E5.9C.B0.E5.BC.B7.E8.A5.B2.EF.BC.81Enemy_Anchorage_Assault.21|E-4]] ([[Spring 2013 Event]]).
+* Appeared in [[Fall_2013_Event#E-5_-_.E3.82.B5.E3.83.BC.E3.83.A2.E3.83.B3.E6.B5.B7.E5.9F.9F.E6.9C.80.E6.B7.B1.E9.83.A8_.28Ironbottom_Sound.2C_Final_Stage.29|E-5]] ([[Fall 2013 Event]]).
 
 {{Enemyshiplist}}
 [[Category:Bosses]]

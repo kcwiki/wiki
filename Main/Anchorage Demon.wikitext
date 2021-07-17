@@ -1,54 +1,18 @@
 ==Info==
-{|
-|
+<div style="display: inline-block;">
 ===Basic===
-{{enemyshipinfo2
-| name=Anchorage Demon
-| japanesename=泊地棲鬼
-| id=539
-| image=[[File:539_Anchorage_Demon.png|280px]]
-| color=red
-| type= Aviation Battleship
-| class=Abyssal
-| hp=180
-| firepower=90
-| armor=80
-| torpedo=60
-| evasion=10
-| AA=70
-| aircraft=180
-| speed=Slow
-| LOS=70
-| ASW=0
-| range=Long
-| luck=30
-| slot=3
-| time=''unbuildable''
-| slot1=[[List_of_equipment_used_by_the_enemy|Deteriorate AP Shell]]
-| slot2=[[List_of_equipment_used_by_the_enemy|Abyssal Fighter Mk.II]]
-| slot3=[[List_of_equipment_used_by_the_enemy|Abyssal Torpedo Bomber Mk.II]]
-| slot4=-Locked-
-| space1=0
-| space2=90
-| space3=90
-| space4=-}}
-|}
+{{EnemyShipInfoKai|Anchorage Demon/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Anchorage Demon/}}
 
 ==Quotes==
 {{Abyssquote
 | 開幕前=キタノカ…
-| EN1=You are here...
+| EN1=You've come here...
 | Note1=
-| 砲撃=シズメ…
-
-or
-
-コノサキヘハ…トオサンゾ…
-| EN0=Sink...
-
-or
-
-You shall ...not pass...!
+| 砲撃=None
+| EN0=
 | Note0=
 | 被弾=イマイマシイ…
 
@@ -63,15 +27,14 @@ Gh!
 | Note2=
 | 昼戦終了時=ソウカ…ソウイウコトダッタノカ…
 | EN3=Yes...it was like that kind of embracement...
-| Note3=(assuming [[Armored Carrier Demon]]'s introduction refer to same thing)|Clip1 = {{Audio|file=Anchorage_Oni_Intro.ogg}}|Clip0 = {{Audio|file=Anchorage_Attack_1.ogg}}<br/>{{Audio|file=Anchorage_Attack_2.ogg}}|Clip2 = {{Audio|file=Anchorage_Oni_Damaged.ogg}}<br/>{{Audio|file=Anchorage_Damaged.ogg}}|Clip3 = {{Audio|file=Anchorage_Oni_Sunk.ogg}}}}
+| Note3=(assuming [[Armored Carrier Demon]]'s introduction refer to same thing)|Clip1 = {{Audio|file=Anchorage_Oni_Intro.ogg}}|Clip0 = |Clip2 = {{Audio|file=Anchorage_Oni_Damaged.ogg}}<br/>{{Audio|file=Anchorage_Damaged.ogg}}|Clip3 = {{Audio|file=Anchorage_Oni_Sunk.ogg}}}}
 
+== Character ==
+* '''[[Glossary#List of Vessels by Artist|Artist]]''': Akira (アキラ)
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://myanimelist.net/people/8956/Iori_Nomizu Nomizu Iori] (野水伊織)
 ==Trivia==
-Was the first initial boss type Abyssal introduced in the game. While technically was an installation, due to game mechanics lacking in them back in the [[Spring 2013 Event]], she was easy to enough to take down with just with just regular shelling attacks.
-*E-3 Boss (May 2013 Event)
-*E-2 Boss (Fall 2013 Event)
-
-===Arcade Version===
-The Arcade Version of Anchorage Demon functions more like an installation and while can be still defeated with just regular shelling attacks, she is more vulnerable to [[Type 3 Shell]] attacks. 
+* Boss for [[Spring_2013_Event#E-3_-_.E6.B9.BE.E5.86.85.E7.AA.81.E5.85.A5.EF.BC.81Bay_Inrush.21|E-3]] ([[Spring 2013 Event]]).
+* Boss for [[Fall_2013_Event#E-2_-_.E3.83.AB.E3.83.B3.E3.83.90.E6.B2.96.E6.B5.B7.E5.9F.9F_.28Lunga_Point.29|E-2]] ([[Fall 2013 Event]]).
 
 {{Enemyshiplist}}
 [[Category:Bosses]]

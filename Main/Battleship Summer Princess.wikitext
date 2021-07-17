@@ -1,83 +1,51 @@
 ==Info==
-{|
-| valign="top" |
-{{enemyshipinfo 
-|color = red
-|name = Battleship Summer Princess (A)
-|japanesename = 戦艦夏姫
-|image = [[File:Seikan696.png|350px]]
-|id = 696
-|class = Abyssal
-|type = Submarine
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = 0
-|aircraft = 0
-|ASW = 0
-|LOS = ?
-|luck = ?
-|speed = Slow
-|range = Short
-|slot = 
-|slot1= ?
-|slot2= ?
-|slot3= ?
-|slot4= ?}}
-| style="width: 50px;" |
-| valign="top" |
-{{enemyshipinfo 
-|color = red
-|name = Battleship Summer Princess (B)
-|japanesename = 戦艦夏姫
-|image = [[File:Seikan696.png|350px]]
-|id = 697
-|class = Abyssal
-|type = Submarine
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = 0
-|aircraft = 0
-|ASW = 0
-|LOS = ?
-|luck = ?
-|speed = Slow
-|range = Short
-|slot = 
-|slot1= ?
-|slot2= ?
-|slot3= ?
-|slot4= ?}}
-| style="width: 50px;" |
-| valign="top" |
-{{enemyshipinfo 
-|color = red
-|name = Battleship Summer Princess (C)
-|japanesename = 戦艦夏姫
-|image = [[File:Seikan696.png|350px]]
-|id = 698
-|class = Abyssal
-|type = Submarine
-|hp = ?
-|firepower = ?
-|armor = ?
-|torpedo = ?
-|evasion = ?
-|AA = 0
-|aircraft = 0
-|ASW = 0
-|LOS = ?
-|luck = ?
-|speed = Slow
-|range = Short
-|slot = 
-|slot1= ?
-|slot2= ?
-|slot3= ?
-|slot4= ?}}
-|}
+<div style="display: inline-block;">
+===Basic===
+{{EnemyShipInfoKai|Battleship Summer Princess/|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+
+===Basic II===
+{{EnemyShipInfoKai|Battleship Summer Princess/II|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+<div style="display: inline-block;">
+===Basic III===
+{{EnemyShipInfoKai|Battleship Summer Princess/III|los=auto|los_max=auto|evasion=auto|evasion_max=auto|asw=auto|asw_max=auto}}
+</div>
+
+{{EnemyShipCategoriesKai|Battleship Summer Princess/}}
+
+==Quotes==
+{{Abyssquote
+| 開幕前 = ナンドデモ…シズメテ…アゲル …
+| EN1 = I will... sink you... as many times... as I need...
+| Note1 = 
+| 砲撃 = シズミナサイ！
+| EN0 = Sink for me!
+| Note0 = 
+| 被弾 = キャァ！
+| EN2 = Kyaa!
+| Note2 = 
+| 昼戦終了時 = ダメナノネ…
+| EN3 = This is no good after all...
+| Note3 = 
+|Clip1 ={{Audio|file=BB_Hime_Attack_2.ogg}}
+|Clip0 ={{Audio|file=BB_Hime_Attack_1.ogg}}
+|Clip2 ={{Audio|file=BB_Hime_Damaged_2.ogg}}
+|Clip3 ={{Audio|file=BB_Hime_Sunk_2.ogg}}
+}}
+
+== Character ==
+* '''[[Glossary#List of Vessels by Artist|Artist]]''': Akira (アキラ)
+
+* '''[[Glossary#List of Vessels by Japanese Voice Actresses|Seiyuu]]''': [http://myanimelist.net/people/12759/Misato Misato] (味里)
+
+==Trivia==
+* [[Summer 2016 Event]] E-2 Boss.
+* [[Summer 2017 Event]] E-5 Boss.
+
+{{Enemyshiplist}}
+[[Category:Bosses]]
+[[Category:Enemy Vessel]]

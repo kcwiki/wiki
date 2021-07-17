@@ -1,0 +1,323 @@
+=Map Mechanics=
+
+Maps are made out of nodes connected to each other through paths called '''edges'''. You may only access a given node by travelling through those edges. Each node is independent of each other, and your fleet state will carry over from node to node.
+
+The route you will make through a given map is defined by your '''fleet type''' and '''fleet composition'''. Rarely, one or multiple '''specific ships''' may also alter routing; these ships are usually historically related to a map's thematic operation. Ship stats (mainly LoS) affects routing as well. Paths that require a given LoS requirement to be met will show an animation of a Recon plane going back and forth towards the destination node. Additionally, routing might be simply '''random'''.
+
+There are a few mechanics that take place in the map itself.
+
+==Land Base Air Raid==
+In maps where a Land Base is present, an additional mechanic may be imposed where an enemy abyssal fleet will attack the allied Land Base. A text alert saying '''"Enemy formation approaching! Enemy aircraft are approaching our base." (敵編隊接近中！我が航空基地に敵機接近中。)''' will appear in the map screen and the Raid will follow shortly. Raids may trigger whenever you travel to another node.
+
+Please refer to the [[LBAS|Land-based Aerial Support]] page for additional details.
+
+==Map Unlocking / Phase Progression==
+In some maps, particularly during Events, conditions might be required to further progress the map. A map may be split in distinct phases, with each phase requiring a different set of objectives to be met. These objects range between successfully defeating enemy fleets, defending against enemy Air Raids, attaining air superiority on certain nodes, beating previous bosses, and so on. As soon these conditions are met, the map advances to the next phase; new nodes and/or paths will be unlocked, older paths might become inaccessible, and older routes might change severely.
+
+Resetting a map by '''choosing a higher difficulty''' will reset the map to its initial state.
+
+<gallery widths=350px heights=250px style="margin: auto; text-align: center;">
+File:Fall2020E-3MapP1.png|Initial state of the [[Fall_2020_Event/Main_Operations#Phase_3|Fall 2020 E-3]] map
+File:Fall2020E-3MapP3.png|Final state of the [[Fall_2020_Event/Main_Operations#Phase_3|Fall 2020 E-3]] map
+</gallery>
+
+=Nodes=
+
+===Full Battle Nodes===
+
+These nodes have as the main objective engaging the enemy fleet and destroying the enemy flagship and/or the enemy combatants as a whole.
+
+{| class="wikitable"
+! style="min-width: 150px;" rowspan="2"|Node
+! rowspan="2"|Description
+! colspan="2"|Consumption
+|-
+! style="width: 8%"|{{Fuel}}
+! style="width: 8%"|{{Ammo}}
+|-
+|style="text-align:center;" rowspan="4"|[[File:BattleNode.png]]<br/>'''Normal Battle'''
+|Normal Battle Nodes are the main types of nodes present in a sortie, often times making up for the majority of nodes in the map. A Battle Node will always begin with Day Battle and can be followed up by a Night Battle. '''''Node'' Support Expedition''' may appear in these nodes.
+
+Specifically for Battle Nodes, the battle cost varies depending on the node composition.
+|style="text-align:center;"|20%
+|style="text-align:center;"|20%
+|-
+|style="text-align:right;"|''Pursuing the enemy into night battle''
+|style="text-align:center;"|—
+|style="text-align:center;"|+10%<ref>Rounded Up</ref>
+|-
+|style="text-align:right;"|''Only submarines present''
+|style="text-align:center;"|8%
+|style="text-align:center;"|0%
+|-
+|style="text-align:right;"|''Only PT Imp Pack present''
+|style="text-align:center;"|4%
+|style="text-align:center;"|8%
+|-
+
+|style="text-align:center;"|[[File:NightNode.png]]<br/>'''Night Battle'''
+|Night Battle nodes skip over Day Battle and instead consist of only the Night Battle phase. '''''Node'' Support Expedition''' may appear in these nodes even though they begin the battle at night. The battle will automatically finish after the Night Shelling phase is ended.
+|style="text-align:center;"|10%
+|style="text-align:center;"|10%
+|-
+
+|style="text-align:center;"|[[File:NightToDayNode.png]]<br/>'''Night to Day Battle'''
+|Night to Day Battle nodes invert the usual Battle node format, beginning the battle on Night Battle and then automatically transitioning to Day Battle afterwards. The applicable '''Support Expedition''' will trigger when the battle starts (during the night), but Day-only phases such as [[LBAS]] and [[Aerial Combat]] will be performed as soon the Day Battle begins.
+* As of 26/01/2021, Night to Day Battles are exclusive to events, with its last appearance on Fall 2017 Event.
+|style="text-align:center;"|20%
+|style="text-align:center;"|30%<ref>Rounded Up</ref>
+|-
+
+|style="text-align:center;"|[[File:BossNode.png]]<br/>'''Boss Battle'''
+|Boss Nodes are usually the final point of a map's route and are where the map's boss resides, if it has one. After the Boss Node battle ends, the sortie automatically finishes and the player fleet returns to Homeport. Boss nodes can be of any kind of battle node, meaning they can be a Night to Day Node, Night Battle Node, or a Battle Node. '''''Boss'' Support Expedition''' may appear in these nodes.
+|style="text-align:center;"|20%
+|style="text-align:center;"|20%
+|}
+
+===Short Battle Nodes===
+
+These battle nodes have different objectives and win conditions from the regular battles.
+
+{| class="wikitable"
+! style="min-width: 150px;" rowspan="2"|Node
+! rowspan="2"|Description
+! colspan="2"|Consumption
+|-
+! style="width: 8%"|{{Fuel}}
+! style="width: 8%"|{{Ammo}}
+|-
+
+|style="text-align:center;" rowspan="2"|[[File:AirRaidNode.png]]<br/>'''Enemy Air Raid'''
+| rowspan="2"|Air Raid nodes are special nodes where only [[LBAS]] as well as the Stage 1 of the [[Aerial Combat]] are performed. This node consists of a purely defensive battle against enemy Aircraft Carriers. The enemy fleet is able to further progress to Stage 3 of Aerial Combat and perform an Airstrike against your fleet.
+|style="text-align:center;"|6%
+|style="text-align:center;"|4%
+|-
+|style="text-align:center;"|'''World 6:'''<br/>4% 
+|style="text-align:center;"|'''World 6:'''<br/>8%
+|-
+
+|style="text-align:center;"|[[File:AirBattleNode.png]]<br/>'''Aerial Combat'''
+|Similar to Air Raid nodes, however [[LBAS]] is performed once, followed by full [[Aerial Combat]] phases performed twice back-to-back.
+|style="text-align:center;"|20%
+|style="text-align:center;"|20%
+|-
+
+|style="text-align:center;"|[[File:AmbushNode.png]]<br/>'''Enemy Ambush'''
+|Ambush nodes are purely defensive nodes where your fleet is attacked by an enemy fleet without being able to fight back. Specifically for Ambush nodes, '''there is no formation selection prompt prior the battle''', and formation and will be defaulted to Line Ahead or Cruising Formation 4 (for Combined Fleet).
+* As of 26/01/2021, Ambush Nodes are exclusive to events, with its last appearance on Spring 2019 Event.
+|style="text-align:center;"|4%
+|style="text-align:center;"|—
+|}
+
+===Non-Combat Nodes===
+
+These nodes present different mechanics that are unrelated to combat.
+
+{| class="wikitable"
+! style="min-width: 150px;" rowspan="2"|Node
+! rowspan="2"|Description
+! colspan="2"|Consumption
+|-
+! style="width: 8%"|{{Fuel}}
+! style="width: 8%"|{{Ammo}}
+|-
+|style="text-align:center;"|[[File:StartNode.png]]<br/>'''Start Node'''
+|The Start Node dictates the point from which your fleet will start.
+
+Multiple start points may be present in the same map. In such cases, the Start Node from which you'll begin sortieing is defined by the fleet composition as well as fleet type when you enter the map.
+|style="text-align:center;"|—
+|style="text-align:center;"|—
+
+|-
+|style="text-align:center;"|[[File:EmptyNode.png]]<br/>'''Empty Node'''
+|An Empty Node is a tool mainly used to increase routing complexity, creating branching paths, dead-ends, as well as to display a small piece of flavour text.
+|style="text-align:center;"|—
+|style="text-align:center;"|—
+
+|-
+|style="text-align:center;"|[[File:ChoiceNode.png]]<br/>'''Active Branching'''
+|{{Anchor|Active Branching}}An Active Branching Node, also known as "Choice Node", is a special type of map mechanic that allows the your fleet to route to any of the desired paths. Introduced in the Spring 2015 Event.
+
+Upon hitting an active branching node, a text bubble will appear above the fleet icon saying "You can select the fleet's course!" (艦隊針路選択可能！). Nodes that you are able to select will glow. Clicking on the node will send your fleet in that direction.
+|style="text-align:center;"|—
+|style="text-align:center;"|—
+
+|-
+|style="text-align:center;"|[[File:MaelstromNode.png]]<br/>'''Maelstrom'''
+|{{Anchor|Maelstrom}}Upon entering the node, drains a specific value of a specific resource of your entire '''current fleet'''. This means that penalties derived from low levels of {{Fuel}} and {{Ammo}} are applied immediately. The strenght of Maelstroms can be mitigated by the number of ships independently carrying a RADAR. Maelstroms drain either {{Fuel}} or {{Ammo}}, but not both.
+
+Certain Maelstrom are '''strong''', draining 150% more resources than regular Maelstroms and have roughly a 25% chance of draining all of a resource. See [[Maelstrom]] page for details
+
+{| class="wikitable mw-collapsible mw-collapsed" style="text-align:center;"
+!colspan="5"|Resource Drain Values 
+|-
+!rowspan="2"| RADAR-Equipped Ship Girls
+!rowspan="2"| Regular Maelstrom
+!colspan="2"| Strong Maelstrom
+!rowspan="2"| Notes
+|-
+!Normal Loss
+!Major Loss
+|-
+| 0
+| 30%
+| 40%
+| 100%
+| 
+|-
+| 1
+| 22.5%
+| 30%
+| 100%
+| 
+|-
+| 2
+| 18%
+| 24%
+| 90%
+| 
+|-
+| 3
+| 15%
+| 20%
+| 75%
+| 
+|-
+| 4
+| 13.5%
+| 18%
+| 67.5%
+| 
+|-
+| 5
+| 12.6%
+| 16.8%
+| 63%
+| 
+|-
+| 6
+| 12%
+| 16%
+| 60%
+| 
+|-
+|}
+|style="text-align:center;"|0 or X%
+|style="text-align:center;"|0 or X%
+
+|-
+|style="text-align:center;"|[[File:ResourceNode.png]]<br/>'''Resource Node'''
+|Upon entering, adds a specific amount of a specific resource or consumable to your '''resource stockpile'''. Resource Nodes do not refill your fleet's current resource levels.
+
+Note that the node must be a dead-end node, or a subsequent battle node must be completed, before the resources are added to your overall stockpile. Immediately refreshing the game after reaching such nodes '''does not''' provide resources.
+
+Using {{Drum}} and/or {{LandingCraft}} increases the resource gain if it is one of {{Fuel}}, {{Ammo}}, {{Steel}} or {{Bauxite}}, up to a possible node-specific cap.
+|style="text-align:center;"|—
+|style="text-align:center;"|—
+
+|-
+|style="text-align:center;"|[[File:FinishLineNode.png]]<br/>'''Finish Line'''
+|Mechanically, behaves in the exact way a regular Resource Node does.
+
+Specifically in 1-6, the Finish Line has a pool of possible resource rewards rather than a single one.
+|style="text-align:center;"|—
+|style="text-align:center;"|—
+
+|-
+|style="text-align:center;"|[[File:TransportLoadoutNode.png]]<br/>'''Transport Loadout'''
+|Present in any map with Trasport Loadout operation. Upon reaching this node, the fleet's {{Drum}} and {{LandingCraft}}, as well as ships that are not '''Heavily Damaged''' will be taken account of. The result of this node determines the quantity of Transport Points (TP) deducted of a map's Transport Gauge after a successful Boss Battle with A-Rank or higher. See [[Transport Operation]] page for breakdown of values.
+
+Simply reaching this node has no effect on the map's Transport Gauge.
+{| class="wikitable mw-collapsible mw-collapsed" style="text-align: justify;"
+!colspan="5"|Transport Load-Off
+|-
+! Ship Type
+! TP
+! rowspan="12" |
+! Equip Type
+! TP
+|-
+! colspan="2" | TP added per ship in fleet
+! colspan="2" | TP added per equipment
+|-
+| [[EliteDD|{{ToolTip|DD|Destroyer}}]]
+| 5
+| {{Drum}} {{EquipmentLink|Drum Canister (Transport Use)|text=Drum Canister}}
+| 5
+|-
+| [[EliteCL|{{ToolTip|CL|Light Cruiser}}]]
+| 2
+| {{LandingCraft}} {{EquipmentLink|Daihatsu Landing Craft}}
+| 8
+|-
+| [[Auxiliary Ships|{{ToolTip|CT|Training Cruiser}}]]
+| 6
+| {{LandingCraft}} {{EquipmentLink|Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)|text=Daihatsu w/ T89}}
+| 8
+|-
+| [[EliteCAV|{{ToolTip|CAV|Aviation Cruiser}}]]
+| 4
+| {{LandingCraft}} {{EquipmentLink|Toku Daihatsu Landing Craft|icon=x|text=Toku Daihatsu}}
+| 8
+|-
+| [[EliteBBV|{{ToolTip|BBV|Aviation Battleship}}]]
+| 7
+| {{LandingCraft}} {{EquipmentLink|Toku Daihatsu Landing Craft + 11th Tank Regiment|text=Toku Daihatsu w/ 11th}}
+| 8
+|-
+| [[EliteAV|{{ToolTip|AV|Seaplane Tender}}]]
+| 9
+| {{LandingCraft}} {{EquipmentLink|M4A1 DD}}
+| 8
+|-
+| [[Auxiliary Ships|{{ToolTip|LHA|Amphibious Assault Ship}}]]
+| 12
+| {{Amphibious Tank}}{{EquipmentLink|Special Type 2 Amphibious Tank|text=Ka-Mi}}
+| 2
+|-
+| [[Auxiliary Ships|{{ToolTip|AO|Fleet Oiler}}]]
+| 15
+| {{Rations}} {{EquipmentLink|Combat Ration}}
+| 1
+|-
+| [[Auxiliary Ships|{{ToolTip|AS|Submarine Tender}}]]
+| 7
+| {{Rations}} {{EquipmentLink|Canned Saury}}
+| 1
+|-
+| Other
+| 0
+| {{Rations}} {{EquipmentLink|Combat Ration (Special Onigiri)|text=Special Onigiri}}
+| 1
+|-
+!colspan=5|<small>Different values may apply for each event</small>
+|}
+|style="text-align:center;"|—
+|style="text-align:center;"|—
+
+|-
+|style="text-align:center;"|[[File:EmptyNode.png]]<br/>'''Emergency Repairs Node'''
+|Generally only accessible with either [[Akashi|Akashi Kai]] or [[Akitsushima|Akitsushima Kai]] present in the fleet. By equipping {{EquipmentLink|Ship Repair Facility}}, it's possible to use [[Emergency Repair Materials]] to repair ships mid-sortie.
+
+Please refer to [[Repairs#Emergency Anchorage Repairs|Emergency Anchorage Repairs]] for more details.
+|style="text-align:center;"|—
+|style="text-align:center;"|—
+
+|-
+|style="text-align:center;"|[[File:AirReconNode.png]]<br/>'''Aerial Reconnaisance Node'''
+|Upon entering, collects resources from a specific point in the map using aircraft. Type of aircraft as well as the ship carrying it influences the result. Differently from regular Resource Nodes, the resources obtainable originate from a drop pool instead of a fixed type.
+
+If the Boss Battle is a failure with a C-Rank or lower, the resources are forfeit. Otherwise, a small message saying that the resources were secured will be shown in the lower right side of the victory screen.
+|style="text-align:center;"|—
+|style="text-align:center;"|—
+|}
+
+
+'''Note about Consumption:'''
+* These percent values are applied to a ship's maximum Fuel/Ammo stat. The amount subtracted is '''rounded down but at least 1''' in most cases, except for ''Pursuing the enemy into night battle'' and ''Night to Day Battle'' where the ammo cost is '''rounded up'''.
+<references/>
+* In maps introduced prior to Fall 2017 Event (including pre-[[Game_Updates/2018/August_15th|Phase 2]] maps), Submarine battle nodes costed 20% {{Fuel}} 0% {{Ammo}}, and Air Raid nodes costed 8% {{Fuel}} 4% {{Ammo}}
+
+
+{{Mechanics}}
+[[Category:Game Mechanics]]

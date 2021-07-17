@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Shinzan Kai",
+  _id = 396,
+  _japanese_name = "深山改",
+  _reading = "しんざんかい",
+  _type = 53, -- 26,46,53,49,41
+  _icon = 49,
+  _rarity = 4,
+  _firepower = false,
+  _bombing = 19,
+  _torpedo = 17,
+  _aa = 2,
+  _armor = false,
+  _asw = false,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = 21,
+  _flight_range = 11,
+  _special = false,
+  _scrap_fuel = 13,
+  _scrap_ammo = 18,
+  _scrap_steel = false,
+  _scrap_bauxite = 24,
+  _buildable = false,
+  _info = "大きな航続距離を持つ、試作四発大型爆撃機「深山」、その改良型です。米国の大型旅客機を参考に開発された試作大型爆撃機「深山」の発動機を換装、機体も改修しましたが、各部に問題が残り、結局爆撃機として戦力化されることはありませんでした。続く新型大型機「連山」に、その系譜を継承されていきます。",
+}

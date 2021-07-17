@@ -1,0 +1,370 @@
+===E-5===
+{{EventInfoBox
+|title_en= Second Night Battle off Lunga Point
+|title_jp= 第二次ルンガ沖夜戦
+|tag=[[File:Spring2021EventTag4.png]]
+|tag2=[[File:Spring2021EventTag6.png]]
+|tag3=[[File:Spring2021EventTag9.png]]
+|tag_text={{Shiplock|Spring2021EventTag4}}Orange Tag: 2nd Torpedo Squadron<br/>{{Shiplock|Spring2021EventTag6}}Grey Tag: 8th Fleet<br/>{{Shiplock|Spring2021EventTag9}}Green Tag: 2nd Fleet
+|header_thumb=[[File:Spring2021_E5BossThumb.png]]
+|map_1=[[File:Spring2021E-5Map.png|450px]]
+|map_1_text=Map
+|map_2=[[File:Spring2021E-5MapP1.png|450px]]
+|map_2_text=Phase 1
+|map_3=[[File:Spring2021E-5MapP2.png|450px]]
+|map_3_text=Phase 2
+|map_4=[[File:Spring2021E-5MapP3.png|450px]]
+|map_4_text=Phase 3
+|map_5=[[File:Spring2021E-5LBASMap.png|450px]]
+|map_5_text=LBAS
+|boss_hard= 2400 HP, 5880 HP, 6720 HP
+|boss_medium= 2400 HP, 5880 HP, 6720 HP
+|boss_easy= 2400 HP, 5880 HP, 6720 HP
+|boss_casual= 2400 HP, 5880 HP, 6720 HP
+|phase_1_boss=
+|phase_2_boss=
+|phase_3_boss=
+|phase_4_boss=
+|phase_5_boss=
+|reward_all={{Ship/Banner|Honolulu}}
+|reward_1={{QuestRewardItem|Medal}}
+|reward_1_casual=
+|reward_1_easy=1
+|reward_1_medium=1
+|reward_1_hard=2
+|reward_2={{QuestRewardItem|Improvement Material}}
+|reward_2_casual=
+|reward_2_easy=5
+|reward_2_medium=8
+|reward_2_hard=10
+|reward_3={{QuestRewardItem|Action Report}}
+|reward_3_casual=
+|reward_3_easy=
+|reward_3_medium=
+|reward_3_hard=1
+|reward_4={{QuestRewardEquip|Type 0 Fighter Model 32 (Tainan Air Group)}}
+|reward_4_casual=
+|reward_4_easy=
+|reward_4_medium=1 (★2)
+|reward_4_hard=
+|reward_5={{QuestRewardEquip|Type 0 Fighter Model 22 (251 Air Group)}}
+|reward_5_casual=
+|reward_5_easy=
+|reward_5_medium=
+|reward_5_hard=1 (★2)
+|reward_6={{QuestRewardEquip|SO3C Seamew Kai}}
+|reward_6_casual=
+|reward_6_easy=
+|reward_6_medium=1
+|reward_6_hard= 1 (★2)
+|reward_7={{QuestRewardItem|First Class Medal}}
+|reward_7_casual=
+|reward_7_easy=
+|reward_7_medium=
+|reward_7_hard=1
+}}
+<div style="min-width:440px;">
+{{center|[[File:OoyodoE-5Spring2021.png|440px]]}}
+
+{{MapBranchingTable
+|title = E-5 Branching Rules
+|expand = true
+|id = 50-5
+|order = 
+
+|0 -> 1, 2, 3 = *Start at 1 if the other starting point(s) are not unlocked
+*If starting point 3 is '''not''' unlocked:
+**Single Fleet starts at 1
+**Combined Fleet starts at 2
+*Else, if starting point 3 '''is''' unlocked:
+**Combined Fleet starts at 2
+**An '''Orange-Tagged''' fleet starts at 3
+**Other fleets start at 1
+
+|2 -> K = *Force K if using Transport Combined Fleet
+*Does not meet the requirements to go to L
+|2 -> L = *'''Fast''' fleet
+*Else, meet '''ALL''' of the following requirements to go to L:
+**(F)BB(V) + CV(B/L) < 6
+**(F)BB(V) ≤ 4 '''and''' CV(B) ≤ 2
+
+|3 -> A = *Fleet contains CLT
+|3 -> B = *Does not meet the requirements to go to A
+
+|A -> B = *Meet '''ANY''' of the following requirements to go to B:
+**Combined Fleet
+**Fleet contains CV(B/L)
+**(F)BB(V) ≥ 3
+**Fleet is '''Orange-Tagged''', '''and''' contains CLT
+|A -> D = *Does not meet the requirements to go to B
+
+|B -> C = *Node O is not unlocked
+*Single Fleet
+|B -> O = *Combined Fleet
+
+|C -> D = *Node W is not unlocked
+*Fleet began from starting point 1
+|C -> W/empty = *Fleet began from starting point 3
+
+|E/empty -> F = *Does not meet the requirements to go to G
+|E/empty -> G = *Fleet is '''Orange-Tagged'''
+
+|F -> G = *Meet '''ANY''' of the following requirements to go to G:
+**Fleet contains CV(B/L)
+**DD < 2
+|F -> H = *Does not meet the requirements to go to G
+
+|J1/empty -> J = *Pass the LoS check
+|J1/empty -> J2/empty = *Fail the LoS check
+
+|L -> B = *Transport Combined Fleet
+|L -> M = *Other fleets
+
+|M -> N, Q/empty, R = *Force R if using Carrier Task Force
+*Meet '''ANY''' of the following requirements to go to Q:
+**Fleet contains CV(B/L)
+**(F)BB(V) ≥ 3
+**DD ≤ 3
+**'''Slow''' fleet
+*Otherwise, route to N
+
+|Q/empty -> R, U1 = *Active branching
+
+|R -> T = *Does not meet the requirements to go to U1
+|R -> U1 = *Meet '''ANY''' of the following requirements to go to U1:
+**Surface Task Force
+**Slow Fleet
+**CV(B/L) ≥ 4
+**CV(B) ≥ 3
+
+|S -> P/empty = *Fail the LoS check
+|S -> V = *Pass the LoS check
+
+|T -> U2 = *Fixed routing
+
+|U1 -> T, U2, U3/empty, V1, V2/empty = *Fail the LoS check to go to U3
+*For Carrier Task Force:
+**Meet '''ANY''' of the following requirements to go to T:
+***(F)BB(V) + CV(B/L) ≥ 5
+***CV(B) ≥ 3
+**Otherwise, route to U2
+*For Surface Task Force:
+**If fleet does not contain CV(B/L):
+***Route to V2 if fleet contains [[Akashi Kai]] or [[Akitsushima Kai]]
+***Otherwise, route to V1
+**If fleet contains at least one CV(B/L):
+***Route to U2 if DD ≥ 3
+***Otherwise, route to T
+
+|U2 -> U = *Pass the LoS check
+|U2 -> U3/empty = *Fail the LoS check
+
+|W/empty -> P/empty = *Fail the LoS check
+|W/empty -> X = *Pass the LoS check
+
+|X -> Y = *Node Z1 is not unlocked
+*Meet '''ANY''' of the following requirements to go to Y:
+**Fleet contains CLT
+**'''Slow''' fleet
+|X -> Z1/night = *Does not meet the requirements to go to Y
+
+|Z1/night -> Z = *Does not meet the requirements to go to Z2
+|Z1/night -> Z2 = *Fleet contains CLT
+}}
+
+Branching compositions were reported over the course of the event.
+</div>
+
+The event guides are to be constructed through the respective [[Sandbox/Spring 2021 E-5|Event map page guide]] and reviewed by editor staff / collaboration committee before being approved here. '''Do not under any circumstance update the guides through this page or attempt to fix them through this page.''' Please only update guides through their respective sandbox pages.
+
+{{clear}}
+
+==Ship Bonuses (Tentative)==
+
+{{:{{BASEPAGENAME}}/E-5/Historical_Ships}}
+
+==General Guidelines==
+* Unlike the previous event's final map, you can only use 1 Land Base for sortie all throughout E5. The other 2 land bases will be used for defense throughout this map.
+* All the locks within E5 are recycled locks from previous maps:
+**{{Shiplock|Spring2021EventTag6}}8th Fleet, Grey tag (E3 unlocking)
+**{{Shiplock|Spring2021EventTag4}}2nd Torpedo Squadron, Orange tag (E3P1 and P3)
+**{{Shiplock|Spring2021EventTag9}}2nd Fleet, Green tag (E4P4)
+* Once you unlocked the third starting point (2nd Torpedo Squadron point), all ships that are untagged and in a single fleet will be designated as Grey lock (8th Fleet).
+
+==Phase 1: Defeat Buff Wa class Transport==
+The objective is to defeat the boss node {{MapRoute|J|red}} featuring Wa class transports <br>
+There are two different options for this part.
+<tabber>
+|-| 2nd Torpedo Squadron Method =
+* Composition:{{Shiplock|Spring2021EventTag4}}{{ToolTip|[Orange Tag]|'''2nd Torpedo Squadron'''}} Strike Force: 1 CL 5-6 DD  
+* Route: {{MapRoute |A|red|D|red|E|blue|G|red|I|red|J1|blue|J|red}} for Strike Force (Orange Tag)
+|-| 8th Fleet Method =
+* Composition:{{Shiplock|Spring2021EventTag6}}{{ToolTip|[Grey Tag]|'''8th Fleet'''}} 2 BBV, 2 CA, 2 CAV, 1 CLT
+* Grey Tag routing {{MapRoute |A|red|D|red|E|blue|F|red|G|red|I|red|J1|blue|J|red}}
+* This is a much heavier fleet that can route to the boss.
+</tabber>
+* LBAS Range = 10. There is no air power until last dance where a Nu class carrier will appear. AD/AP = 45/89 ('''HARD''')
+* LOS: '''Casual/Easy/Medium/Hard''' is '''???/???/54.0/66.0''' with Formula Cn3.
+* Note: Unlike in E4, you can only send 1 LBAS throughout the map. Have 1 LBAS with bombers and send them to the preboss to help you pass through the node easily if you're not bringing node support.
+
+==Phase 2: Defeat New Battleship Hime==
+This phase will be available to you right after you cleared Phase 1. The boss is very tanky and the composition needed to reach the boss will need 3-4 Battleships , but you can go up to 6 Battleships if your whole fleet is '''fast'''. 
+
+<tabber>
+|-|4 Battleship Method=
+* Composition:{{Shiplock|Spring2021EventTag9}}{{ToolTip|[Green Tag]|'''2nd Fleet'''}} 4(F)BB(V), 1 CA(V) or CL, {{Ship/Link|Akitsushima}}/{{Ship/Link|Akashi}} + 1 CL, 3 CA(V)/CLT, 2 DD
+* In this fleet speed does not matter, slow ships are allowed.
+* It is recommended to use Nagato and Mutsu's broadside special attack.
+* As Mutsu has a damage bonus here, it is recommended to use her as the Flagship so she gets two hits in.
+|-|6 Battleship Method =
+* Composition:{{Shiplock|Spring2021EventTag9}}{{ToolTip|[Green Tag]|'''2nd Fleet'''}} 4(F)BB(V), 1 CA(V) or CL, {{Ship/Link|Akitsushima}}/{{Ship/Link|Akashi}}  +  2 FBB, 1CL 1 (CA(V) or CLT), 2 DD (All Fast)
+* All ship must be fast, speeding modding your slow ships will work in this process
+** If fleet is not fast, you will go to Node K first
+* Consider using the Nagato/Mutsu special attack for day battle or the Kongou-Class special attack in night battle
+** Remember that only one special attack can be procced in a sortie, you cannot proc both in the same sortie.
+</tabber>
+* Route: {{MapRoute |L|red|M|red|Q|blue|U1|red|V2|blue|V|red}}
+* LBAS Range: 7. There is no air power at the boss
+* Note: Node {{MapRoute |V2|blue}} is a repair node. The boss node has very high Anti-Air. Both compositions above have the Second Fleet Tag (green) to them.
+
+==Phase 2.5: Unlock new Starting point for the 2nd Torpedo Squadron (Orange tag)==
+There are 2 main requirements to unlock 
+{| class="wikitable" 
+|-
+! Node
+! B
+! U
+|-
+| Hard
+| AS x2
+| A+ x2
+|-
+| Medium
+| -
+| A+ x2
+|-
+| Easy
+| -
+| A+ x2
+|-
+| Casual
+| -
+| A+ x2
+|}
+<tabber>
+|-|Node B=
+* Composition:{{Shiplock|Spring2021EventTag6}}{{ToolTip|[Grey Tag]|'''8th Fleet'''}} Single Fleet: 2 CVL, 4 DD
+* Route: {{MapRoute |A|red|B|red}}
+* LBAS Range = 2, AP/AS = 169/380 for ('''HARD''')
+* Notes: You can make use of your LBAS with fighters and sweep the node along with your fighter mule CV to secure AS on the node. Make sure your DD equip with ASW equipment to pass through {{MapRoute |A|red}} 
+|-|Node U=
+You have the option to use either an STF Fleet or a CTF Fleet in order to reach node {{MapRoute|U|red}}. Use of CTF will force you to node {{MapRoute|R|red}} which contains the new Submarine Princess. 
+* Composition:{{Shiplock|Spring2021EventTag9}}{{ToolTip|[Green Tag]|'''2nd Fleet'''}} STF: 3(F)BB(V), 1 CV(B), 2(CA(V) or AV) + 1 CL, 1-2 CA(V), 1-2 CLT, 2-3 DD
+* Route: {{MapRoute|L|red|M|red|Q|blue|U1|red|U2|red|U|red}}
+* Composition:{{Shiplock|Spring2021EventTag9}}{{ToolTip|[Green Tag]|'''2nd Fleet'''}} CTF: 2(F)BB(V), 2 CV(B), 2 CA(V) or AV + 1 CL 1-2 CA(V), 1-2 CLT, 2-3 DD. You can use 2 CV(B) + CVL as an alternative and have the FBB in the Escort Fleet
+* Route:  {{MapRoute |L|red|M|red|R|red|T|red|U2|red|U|red}}
+* LBAS Range = 10 AP/AS: 406/912
+* Notes: The target node has heavy airpower and requires long range LBAS to reach it. Support Expeditions are optional as only an A Rank is required.
+** The AV '''Cannot''' be [[Akitsushima]] if you choose to use an AV in the main fleet. 
+* STF Fleet note: You need a minimum of 3 DDs to route from {{MapRoute|U1|red}} to {{MapRoute|U2|red}}. Otherwise, you will be routed to {{MapRoute |T|red}}.
+</tabber>
+
+==Phase 2.75: Unlock the path to Node {{MapRoute |Z|red}}==
+There are a total of 6 requirements needed to unlock 
+{| class="wikitable" 
+|-
+! Node
+! B
+! U
+! S
+! V
+! Y
+! Land Base
+|-
+| Hard
+| AS x2
+| A+ x2
+| S x2
+| A+x2
+| A+ x2
+| AS x2
+|-
+| Medium
+| AS
+| A+ 
+| -
+| A+
+| A+ x2
+| AS x2
+|-
+| Easy
+| -
+| A+ 
+| -
+| A+
+| A+ x2
+| -
+|-
+| Casual
+| -
+| -
+| -
+| A+
+| A+ x2
+| -
+|}<tabber>
+|-|Node B=
+* This is the same phase as phase 2.5 for Node {{MapRoute |B|red}}
+|-|Node U=
+* This is the same phase as phase 2.5 for Node {{MapRoute |U|red}}
+|-|Node S=
+* Composition:{{Shiplock|Spring2021EventTag9}}{{ToolTip|[Green Tag]|'''2nd Fleet'''}} STF: 2(F)BB(V), 3 CA(V), 0-1 CL, 0-1 DD + 1 CL, 1 CA(V), 0-1 CLT, 3-4 DD('''Fast CF''')
+* Route: {{MapRoute |L|red|M|red|N|red|O|red|S|red}}
+* LBAS Range = 6, no air power
+* Note: You need to have a minimum of 4 DDs in the fleet for routing.
+|-|Node V=
+* You can use the same fleet as in '''Phase 2'''
+* Composition:{{Shiplock|Spring2021EventTag9}}{{ToolTip|[Green Tag]|'''2nd Fleet'''}} STF: 4(F)BB(V), 1 CA(V) or CL, {{Ship/Link|Akitsushima}}/{{Ship/Link|Akashi}} + 1 CL, 3 (CA(V) or CLT), 2 DD
+* Route: {{MapRoute|L|red|M|red|Q|blue|U1|red|V2|blue|V|red}}
+* Note: Since you don't need to S rank the boss, you can have your DD be OASW to help pass through the sub-node
+** Support Expedition is optional but can be used if you are having trouble passing through the pre boss node {{MapRoute|U1|red}}
+|-|Node Y=
+* Composition:{{Shiplock|Spring2021EventTag4}}{{ToolTip|[Orange Tag]|'''2nd Torpedo Squadron'''}} Strike Force: 1 CL 6 DD
+* Route: {{MapRoute|B|red|C|red|W|blue|X|red|Y|red}}
+* LBAS Range = 6, 72/161 AP/AS for Hard
+</tabber>
+
+==Phase 3: Defeat New Light Cruiser Hime==
+* Composition:{{Shiplock|Spring2021EventTag4}}{{ToolTip|[Orange Tag]|'''2nd Torpedo Squadron'''}} Strike Force: 1 CL 6 DD
+* Route: {{MapRoute |B|red|C|red|W|blue|X|red|Z1|purple|Z|red}}
+* LBAS Range =  8, no air power
+* LOS: '''Casual/Easy/Medium/Hard''' = '''55.0/55.00/62.0/81.0''' for Cn3 formula
+* Note: Due to the nature of the LOS requirement and the fleet, uses of GTRL (Gun, Torpedo, Radar, and Skilled lookout) is essential to both meet the LOS requirements for routing and damage output
+* Special Note: For this specific boss and the current bonus, it is possible to make uses of Vanguard formation at the boss for the kill instead of utilizing Line ahead as normal at the boss.
+* Special Note 2: Bear in mind that Boss support apparently does not suffer damage penalties from Vanguard formation when used against enemy combined fleets.
+
+==Debuff Phase==
+There are 7 requirements to complete the debuffing phase for New Light Cruiser Hime. The majority of the comps for each of these requirements will be the same compositions used in the previous phases
+* AS Node {{MapRoute|B|red}}
+* A+ Node {{MapRoute |V|red}}
+* S rank Node {{MapRoute |H|red}}
+** This can be achieved by using a Single Fleet with Grey Tag. 2 BBV, 2 CA(V), 2 DD
+** Route: {{MapRoute |A|red|D|red|E|blue|F|red|H|red}}
+* A+ rank Node {{MapRoute |J|red}}
+* AS rank Node {{MapRoute |N|red}} (Hard only)
+* A+ rank Node {{MapRoute |U|red}}
+* S rank Node {{MapRoute |V1|red}} 
+** Use the same fleet you used for '''Phase 2''' but replace {{Ship/Link|Akitsushima}}/{{Ship/Link|Akashi}} for another AV to route to {{MapRoute|V1|red}}
+
+==Enemy Compositions==
+{{:{{BASEPAGENAME}}/E-5/Enemy comps}}
+
+'''Ship Drops:'''<br/>
+{{:{{BASEPAGENAME}}/E-5/Ship drops}}
+
+{| style="width: 100%;" class="mw-collapsible mw-collapsed wikitable
+|-
+! E-5 Clear Message
+|-
+|
+|}

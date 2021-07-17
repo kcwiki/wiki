@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "5inch Single Gun Mount Mk.30 Kai + GFCS Mk.37",
+  _id = 308,
+  _japanese_name = "5inch単装砲 Mk.30改+GFCS Mk.37",
+  _reading = nil,
+  _type = 1, -- 1,1,1,16,0
+  _icon = 16,
+  _rarity = 5,
+  _firepower = 3,
+  _bombing = false,
+  _torpedo = false,
+  _aa = 11,
+  _armor = 1,
+  _asw = false,
+  _shelling_accuracy = 6,
+  _torpedo_accuracy = false,
+  _evasion = 2,
+  _los = 3,
+  _speed = false,
+  _luck = false,
+  _range = 2,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = false,
+  _scrap_ammo = 2,
+  _scrap_steel = 22,
+  _scrap_bauxite = 28,
+  _buildable = false,
+  _info = "米国で開発・実戦配備された優れた両用砲。同駆逐艦クラスの搭載主砲として広く運用された単装砲兵装の改良型です。<br>射撃指揮レーダーと連動した射撃管制システムを組み合わせた本兵装は、あのフレッチャー級駆逐艦の主砲としても装備運用され、対空戦闘においても優れた能力を発揮します。",
+}

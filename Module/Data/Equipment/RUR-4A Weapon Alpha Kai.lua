@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "RUR-4A Weapon Alpha Kai",
+  _id = 377,
+  _japanese_name = "RUR-4A Weapon Alpha改",
+  _reading = nil,
+  _type = 15, -- 7,32,15,17,0
+  _icon = 17,
+  _rarity = 5,
+  _firepower = false,
+  _bombing = false,
+  _torpedo = false,
+  _aa = false,
+  _armor = 1,
+  _asw = 17,
+  _shelling_accuracy = 1,
+  _torpedo_accuracy = false,
+  _evasion = 1,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = 1,
+  _scrap_ammo = 10,
+  _scrap_steel = 4,
+  _scrap_bauxite = 4,
+  _buildable = false,
+  _info = "増大する潜水艦の脅威に対抗するため開発された、革新的な次世代の対潜前投ロケット弾兵装です。実機は不具合の多発により運用上の問題を抱えていましたが、本兵装は改良によって不発率の低下に成功したif改修兵装です。本兵装のコンセプトは、あの名対潜兵装アスロックへと受け継がれていきます。",
+}

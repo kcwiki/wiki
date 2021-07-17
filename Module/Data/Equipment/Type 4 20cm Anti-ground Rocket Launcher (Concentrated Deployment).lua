@@ -1,0 +1,33 @@
+-- [[Category:Equipment modules]]
+
+return {
+  _name = "Type 4 20cm Anti-ground Rocket Launcher (Concentrated Deployment)",
+  _id = 349,
+  _japanese_name = "四式20cm対地噴進砲 集中配備",
+  _reading = nil,
+  _type = 37, -- 15,26,37,31,0
+  _icon = 31,
+  _rarity = 5,
+  _firepower = 1,
+  _bombing = false,
+  _torpedo = false,
+  _aa = false,
+  _armor = -4,
+  _asw = false,
+  _shelling_accuracy = false,
+  _torpedo_accuracy = false,
+  _evasion = false,
+  _los = false,
+  _speed = false,
+  _luck = false,
+  _range = false,
+  _flight_cost = false,
+  _flight_range = false,
+  _special = false,
+  _scrap_fuel = 1,
+  _scrap_ammo = 6,
+  _scrap_steel = 1,
+  _scrap_bauxite = 2,
+  _buildable = false,
+  _info = "地対地ロケット兵装として、日本陸軍によって開発された試製四式噴進砲。圧倒的な火力を集中的に投射して、敵の地上戦力や陣地を破壊制圧する目的で整備され、防御戦にも実際に投入されました。本兵装は、同地対地噴進砲を大量に艦載、集中運用して敵地上兵力を叩く強力な艦艇用対地if装備です。対地火力大ですが、被弾に弱く誘爆の危険もあります。",
+}
