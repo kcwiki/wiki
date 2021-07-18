@@ -1,0 +1,197 @@
+==World 2-2: バシー島海峡 Bashi Island Strait==
+{{LabSortieworld
+| map = 02_02.png
+| difficulty = ☆ ☆ ☆ ☆
+| item = {{Bauxite}} {{IC}}
+| exp = 150
+| code = 柳輸送作戦 ([[wikipedia:ja:柳船|Weeping Willow Transport]] Tactics)
+| jptext = 艦隊をバシー海峡に展開せよ！同方面の制海権を確保し、南方からの資源輸送の安全に務め、防衛体制を強化せよ！
+|entext = (Pending translation)
+| aircon = {{AirControlSystem
+| Map = 2-2
+| Fleet = AV 2CVL 2DE CL<br/>AV 2DD 3XX (XX = CLT, CA(V), CL or AV)
+| Route = Random.<br/>C-E-K<br/>C-E-F-H-K
+| AS = 41
+| Notes = N/A
+}}
+}}
+
+===Stage Guide===
+{{MapBranchingTable
+|title = 2-2 Branching Rules
+|expand = true
+|id = 2-2
+|C/empty -> B, D, E = 
+* Meeting '''ANY''' of the following requirements forces you to B:
+** Amount of CV(L/B) ≥ 3
+** Amount of BBV ≥ 2
+** Fleet contains AO, but no SS(V).
+*Go to E if fleet contains AV/AS but no BBV
+* Random routing between B and E if fleet contains both BBV and AV
+* Random routing between B and D if fleet contains BBV but no AV
+* Otherwise, random routing between D and E.
+
+|E -> F/resource, G, K =
+* Go to G if amount of CV(L/B)+(F)BB(V) ≥ 4
+*Meet '''ANY''' of the following to go to F 
+**DE ≥ 2 
+**AS ≥ 1, DD ≥ 3 and (F)BB(V)+CV(L/B) = 0
+*Random routing between G and K if fleet contains any CV(L/B)+(F)BB(V) '''or''' DD+DE ≤ 1
+*Go to K if fleet contains CL, DD ≥ 2 and the fleet is fast
+* Otherwise, random routing between F and K.
+
+|G -> H/empty, K = 
+*Meet '''ANY''' of the following to go to H
+**Fleet contains CV(L/B)
+**Fleet contains no DDs
+*Otherwise, random routing
+
+|H/empty -> I/empty, J/resource, K = 
+*Random between I and K if 
+**(F)BB(V)+CV(L/B) ≥ 4
+**Fleet contains SS(V)
+*Go to K if fleet contains CV(L/B) or AV
+*Otherwise, random between J and K if fleet contains CL and DD
+*Otherwise, random between I and K
+}}
+
+===Tips===
+<br/>'''Recommended Fleet'''
+*'''1 AV, 2 CVL, 2 DE, 1 CL''' routes '''C-E-F-H-K'''
+**Takes a fixed route with 1 surface battle and a bauxite node '''F''' before routing directly to the boss. 
+**Taking a CL that can carry '''{{Equipment/Link|Daihatsu Landing Craft|Toku Daihatsu Landing Craft|text=Daihatsu}}''' will allow you to maximize on resource pickup.
+*'''1 AV, 2 DD, 3 XX (XX being any CLT, CA(V), CL or AV)''' routes '''C-E-K or C-E-F-H-K'''
+**Avoid Node G, which contains Ru-class BBs
+**Be sure your Seaplane Tenders and Aviation Cruisers (if used) bring enough {{Equipment/Link|Zuiun|text=Zuiuns}} or {{Equipment/Link|Type 2 Seaplane Fighter Kai|text=Seaplane Fighters}} to help overpower the boss composition's air power as there will be a {{Enemy/Link|Standard Carrier Wo-Class Elite|text=Wo-class Elite}} or {{Enemy/Link|Light Carrier Nu-Class Elite|text=Nu-class Elite}} present at the boss node in all compositions
+**Path '''C-E-K''' is guaranteed if your fleet contains any CL, with the fleet being '''Fast'''.
+<br/>'''Transport Kills'''
+*This map is ideal for farming transport kills for [[Quests#Bw3|Bw3]] and [[Quests#Bw4|Bw4]], as node B contains 2 transports per run and can be reached consistently with the fleet '''3 CVL, 3 XX''' going '''C - B - A'''
+**Having '''3 or more carriers''' in your fleet will '''always''' route you to B allowing you to fight 2 transports and score bauxite every run. With the right carriers and/or equipment, it is possible to break even on bauxite consumption (or even make a net gain) while farming the transports.
+
+===Nodes and Enemy Encounters===
+{{#invoke:EnemyEncounters2|encounterTemplate
+|A_label = '''<span style="color:green">Resource Node</span>'''
+|A1_node_info = bauxite + 10 20
+|
+|B_label = 敵上陸船団
+|B-1_node_info = cl_ho-class_elite transport_wa-class_elite transport_wa-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|B-1_form = double_line
+|B-1_xp =
+|B-1_enemy_air_power =
+|B-2_node_info = cl_ho-class_elite transport_wa-class_elite transport_wa-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|B-2_form = double_line
+|B-2_xp =
+|B-2_enemy_air_power =
+|B-3_node_info = cl_ho-class_elite transport_wa-class transport_wa-class dd_i-class_late_model dd_i-class dd_i-class
+|B-3_form = double_line
+|B-3_xp =
+|B-3_enemy_air_power =
+|B-4_node_info = transport_wa-class_elite transport_wa-class_elite cl_ho-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|B-4_form = diamond
+|B-4_xp =
+|B-4_enemy_air_power =
+|B-5_node_info = transport_wa-class_elite transport_wa-class_elite cl_ho-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|B-5_form = diamond
+|B-5_xp =
+|B-5_enemy_air_power =
+|B-6_node_info = transport_wa-class transport_wa-class cl_ho-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|B-6_form = diamond
+|B-6_xp =
+|B-6_enemy_air_power =
+|
+|C_label = '''<span style="color:blue">Battle Avoided</span>'''
+|C1_node_info = "Must be my imagination" (battle avoided)
+|
+|D_label = 敵上陸船団
+|D-1_node_info = cl_ho-class_elite transport_wa-class_elite transport_wa-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|D-1_form = double_line
+|D-1_xp =
+|D-1_enemy_air_power =
+|D-2_node_info = cl_ho-class_elite transport_wa-class_elite transport_wa-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|D-2_form = double_line
+|D-2_xp =
+|D-2_enemy_air_power =
+|D-3_node_info = cl_ho-class_elite transport_wa-class transport_wa-class dd_i-class_late_model dd_i-class dd_i-class
+|D-3_form = double_line
+|D-3_xp =
+|D-3_enemy_air_power =
+|D-4_node_info = transport_wa-class_elite transport_wa-class_elite cl_ho-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|D-4_form = diamond
+|D-4_xp =
+|D-4_enemy_air_power =
+|D-5_node_info = transport_wa-class_elite transport_wa-class_elite cl_ho-class_elite dd_i-class_late_model dd_i-class_late_model dd_i-class_late_model
+|D-5_form = diamond
+|D-5_xp =
+|D-5_enemy_air_power =
+|D-6_node_info = transport_wa-class transport_wa-class cl_ho-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|D-6_form = diamond
+|D-6_xp =
+|D-6_enemy_air_power =
+|
+|E_label = 敵水雷戦隊
+|E-1_node_info = cl_ho-class_elite clt_chi-class_elite clt_chi-class_elite dd_i-class dd_i-class dd_i-class
+|E-1_form = double_line line_ahead
+|E-1_xp =
+|E-1_enemy_air_power =
+|E-2_node_info = cl_ho-class_elite clt_chi-class clt_chi-class dd_i-class dd_i-class dd_i-class
+|E-2_form = double_line line_ahead
+|E-2_xp =
+|E-2_enemy_air_power =
+|E-3_node_info = cl_ho-class clt_chi-class clt_chi-class dd_i-class dd_i-class dd_i-class
+|E-3_form = line_ahead double_line
+|E-3_xp =
+|E-3_enemy_air_power =
+|
+|F_label = '''<span style="color:green">Resource Node</span>'''
+|F1_node_info = bauxite + 15 35
+|
+|G_label = 敵水上打撃部隊
+|G-1_node_info = bb_ru-class_elite bb_ru-class_elite ca_ri-class_elite cl_ho-class_elite dd_i-class_late_model dd_i-class_late_model
+|G-1_form = double_line line_ahead
+|G-1_xp =
+|G-1_enemy_air_power =
+|G-2_node_info = bb_ru-class_elite bb_ru-class cl_ho-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|G-2_form = double_line line_ahead
+|G-2_xp =
+|G-2_enemy_air_power =
+|G-3_node_info = bb_ru-class bb_ru-class cl_ho-class_elite dd_i-class dd_i-class dd_i-class
+|G-3_form = double_line line_ahead
+|G-3_xp =
+|G-3_enemy_air_power =
+|
+|H_label = '''<span style="color:blue">Battle Avoided</span>'''
+|H1_node_info = "Must be my imagination" (battle avoided)
+|
+|I_label = '''<span style="color:blue">Battle Avoided</span>'''
+|I1_node_info = "Must be my imagination" (battle avoided)
+|
+|J_label = '''<span style="color:green">Resource Node</span>'''
+|J1_node_info = instantconstruction + 1
+|
+|K_label = 敵通商破壊機動部隊 主力艦隊
+|K-1_node_info = cv_wo-class_elite bb_ru-class_elite bb_ru-class_elite cl_he-class_elite dd_i-class_late_model dd_i-class_late_model
+|K-1_form = diamond line_ahead
+|K-1_xp =
+|K-1_enemy_air_power = 27
+|K-2_node_info = cv_wo-class_elite ca_ri-class_elite ca_ri-class_elite cl_he-class_elite dd_i-class_late_model dd_i-class_late_model
+|K-2_form = diamond line_ahead
+|K-2_xp =
+|K-2_enemy_air_power = 27
+|K-3_node_info = cvl_nu-class_elite ca_ri-class_elite ca_ri-class_elite dd_i-class_late_model dd_i-class dd_i-class
+|K-3_form = diamond line_ahead
+|K-3_xp =
+|K-3_enemy_air_power = 24
+|K-4_node_info = ca_ri-class_elite ca_ri-class_elite cl_ho-class_elite dd_i-class dd_i-class dd_i-class
+|K-4_form = line_ahead
+|K-4_xp =
+|K-4_enemy_air_power =
+|K-5_node_info = cvl_nu-class_elite ca_ri-class_elite cl_ho-class dd_i-class dd_i-class dd_i-class
+|K-5_form = diamond
+|K-5_xp =
+|K-5_enemy_air_power = 24
+|
+|final_form = 
+|boss_node = K
+}}
+
+{{:{{BASEPAGENAME}}/2-2/Drop list}}

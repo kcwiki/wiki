@@ -1,0 +1,408 @@
+{{TOC limit|2}}
+{{Tutorialportal}}
+This is a collection of questions that are frequently or hypothetically asked. This page is always being expanded as new issues pop up.
+
+==Newcomer / Beginners==
+===I keep getting an error message with a girl and a cat!===
+That is the [[NPC#Other|Error-musume]] (the one on the right) indicating you have some kind of problem, most likely a connection error. Here are the most common reasons for the connection error messages. This is not an exhaustive list.
+#'''Weekly server maintenance''': Go and do something else until maintenance is over. Check the [https://twitter.com/kancolle_staff official twitter] for news as to when server maintenances are held. You may also get a different error message of a girl and tools instead of the standard error cat message if you try logging in during maintenance.
+#'''System clock out-of-sync with Japan Standard Time (JST)''': Change your system time and date to match JST. A leeway of ~1 hour difference from JST is allowed. Also make sure the date is correct with respect to JST.
+#'''Incorrect API link''': If you are using API links, log in to DMM to get a new one. Make sure it is correctly copied.
+#'''Outdated cache files''': From time to time, cache issues may cause connection errors. Cache issues may also cause other problems, such as new features not showing up. Completely clear your browser cache to solve this. This is your Internet Explorer cache if you are using the Flash Projector or KCV.
+#'''Mundane connection problems''': Your server may be under high load. Ask other players on the same server as you if they are experiencing similar issues; otherwise, it might be a connection issue on your end.
+
+===What browsers are supported for this game?===
+Almost all current browser versions are supported. However, due to the game's large overhead, it is highly recommended that you play this game using Google Chrome. This is simply because it has the smallest Flash Player plugin overhead among all the other browsers.
+
+Despite being good browsers, Internet Explorer 11, Mozilla Firefox and Safari have costly overheads on your memory via their Flash player plugins, and this doesn't include the game's overhead itself. So, they are not recommended, especially for players with limited memory/RAM. 
+
+===Is this game translated/Is there an English patch?===
+There is no official translation patch. However, there are third-party applications that can provide partial translations. Take caution when using these apps, as they are not endorsed by DMM (the game publishers). In some of their official tweets, they openly prohibit the use of macros. Understand that by using these, there is a possibility of being banned for violating the game's policies.
+
+===How do I get in?===
+You first need a DMM account and a VPN to register for the game. The following wiki links address this topic:
+#[[Tutorial: Proxy Connection]]
+#[[Tutorial: How to Register|Tutorial: How to Register]]
+
+===I notice lots of terminology used (DD, CA, CV, etc.). What does it mean?===
+KanColle Wiki uses American hull classifications to represent the Japanese ship classes within the game, with a few slight modifications for classes that are not available within the original classification. See the [[Glossary#Class_classification|Glossary]] for the complete list of classifications.
+
+===What does the w/x/y/z mean when people talk about crafting and what not?===
+The four values represent the quantities of the four resources required for crafting or construction:
+:<font style="background:green; color:white;">Fuel</font> / <font style="background:yellow;">Ammo</font> / <font style="background:grey;">Steel</font> / <font style="background:brown; color:white;">Bauxite</font>
+:{{Template:Fuel}} / {{Template:Ammo}} / {{Template:Steel}} / {{Template:Bauxite}}
+
+===How do resources work in this game?===
+You have fuel (green), ammo (dark brown/yellow), steel (gray) and bauxite (brown). Fuel and ammo are generally used for resupplying your ships, while fuel and steel are used to repair your ships. Bauxite is used for planes: it is consumed to craft and resupply planes for your carriers.
+
+In crafting, different amounts of resources will be used for different equipment; planes will require lots of bauxite, some guns require lots of ammo. Refer to the [[Development]] page for more information and specific recipes.
+
+There are seven ways to gain more resources:
+#Just wait it out: Below the resource regeneration cap, fuel, ammo and steel regenerate at 3 per 3 minutes, while bauxite increases at 1 per 3 minutes.
+#[[Expedition]]s.
+#[[Quests|Dailies/Quests/Missions]].
+#During [[Sortie]]s, there are nodes that grant you resources.
+#[[Tutorial:_How_to_Play#Using_the_Factory|Scrapping]] ship girls or equipment items.
+#Exchanging a medal, or another similar item, for resources.
+#Purchasing them directly from the store with DMM points.
+
+===I heard about a resource cap. What is the limit? Can't I gather resources exceeding my limit?===
+The natural regeneration of resources (totaling 1440 over 24 hours) will stop if you cross your resource limit. Other than that, resources gained from sortie, quests, or expeditions suffer no penalty, and can be stockpiled up to the absolute limit of 300,000. To look for your resource regeneration cap, go to your admiral's page and look at the right panel, last row: it is in blue. The formula for calculating it is: 
+
+<math>\text{Resource Regeneration Limit} = 250 \times ((\text{HQ Level}) + 3)</math>
+
+As of the 28th March update, an absolute resource limit has been introduced. The absolute cap for resources (fuel, ammunition, steel and bauxite) is 300,000 while the cap for items such as Instant Repairs, Instant Constructions, and Development Materials is 3,000. Once you reach this limit, you will not gain any more resources even if you do expeditions or hit supply nodes in sorties. Note that this is different from the resource regeneration cap.
+
+===Where do I grind for specific resources or items?===
+{{Details|Expedition#Theoretical_Hourly_Net_Earnings|l1=Expedition}}
+*Fuel and ammo: expeditions 5, 13, 16, and 21; [[World 2#2-3|map 2-3]] with submarines in your fleet.
+*Steel: expeditions 3, 7, and 20; the northern route of [[World 3#3-3|map 3-2]]. Be advised that the enemy fleet you encounter after the resource node is strong; the steel you just got might not be enough to cover the subsequent repairs.
+*Bauxite: expeditions 6, 11, and 15; [[World 2#2-2|map 2-2]] with submarines in your fleet.
+*Instant repair material: expeditions 2, 4, and 10.
+
+===Alright, I built my ship and kicked some butt, but I noticed the orange faces. What gives?===
+{{Details|Fatigue}} Fatigue is accumulated when you send your ships to sortie, and increases during subsequent sorties. How much fatigue accumulates depends on performance in battle. When you see the face icons, let your ships rest for a while (for orange, 10-11 mins; for red, 21-40 mins). Docking helps as well. Fatigued ships have lowered accuracy and evasion. Refer to [[Morale/Fatigue]] for more information.
+
+===My ship is sparkling/glittering!===
+The inverse of fatigue is the "sparkle" effect which boosts a ship's stats and lasts indefinitely until the next sortie/practice/expedition (or its morale otherwise drops below the threshold).
+
+:<div id="sparkle_effect">Sparkle effects:</div>
+*Evasion is boosted exponentially based on a ship's Morale.
+*16.5% increase in the chance to achieve Great success in [[Expedition#Notes|expeditions]] per ship with =>50 Morale (this increases the resources gain to 150% for that particular expedition and guarantees the second expedition item (on the right) if it has one).
+*The Morale of all the ships in your fleet (Route Support, 16.5% per ship with >=50 morale) or Morale of the Flagship(Boss Support, 100% if Flagship morale >=50) determines whether the support expedition shows up.
+Refer to [[Morale/Fatigue]] for more information.
+
+===I notice there are heart-shaped locks in the ship selection screen. What do they do?===
+Click the lock, and the designated ship will not appear in the modernization material list, and will not be able to be scrapped. Useful if you don't want to accidentally lose that ship.
+
+===What are [[expedition]]s?===
+Expeditions are a mission that gains you resources. To embark upon an expedition, you require a second fleet. You must complete certain quests before :
+#Complete [[Quests#A3|Quest A3: 「水雷戦隊」を編成せよ！」]]  by setting a light cruiser as the flagship and having three other destroyers in your fleet.
+#After this, Complete [[Quests#A4|Quest A4: 「6隻編成の艦隊を編成せよ！」]] by filling all of the slots in the fleet (Having a fleet with six ships).
+#Remember to check the quest to fulfill it and gain your rewards!
+
+===How can I prevent my ships from sinking?===
+To avoid sinking your ship, make sure they are not '''heavily damaged (大破)''' before a battle. A ship will never sink if she enters battle in good condition (no damage / minor damage [小破] / moderate damage [中破]).
+
+When ships in good condition receive excessive damage they will be left with 1 HP, which can be repaired to full health. If you choose to advance (進撃) with your ship heavily damaged, she will be at risk of being sunk.
+
+If you '''accidentally chose to advance''' when you have heavily damaged ships, '''close the game before you choose the formation''' for the next battle, so you can still retreat your fleet.
+
+Sunken ships are lost forever and not retrievable. If you need to risk your damaged ships to proceed to the next battle, make sure to equip some form of [[Tutorial:_FAQ#How_does_damage_control_work.3F|damage control]] equipment. It allows your ships to be revived if they are sunk by the enemy.
+
+A subsequent night battle after a day battle is considered the same battle, so '''ships which are brought to "heavy damage" during the day battle''' can participate in night battles without fear of sinking (and vice-versa).
+
+Here [http://www.nicovideo.jp/watch/sm22148662 are] [https://www.youtube.com/watch?v=3CayD735o04 two] video clips about ships which were heavily damaged during the day before proceeding to night battle.
+
+===How does damage control work?===
+Ships equipped with {{Template:EmergencyRepair}}[[Equipment|Damage Control]] will be revived upon sinking and become invulnerable throughout the battle. There are two types of damage control:
+#{{nihongo|Repair Team|応急修理要員}}:
+#*Revives your ship to 20% of max HP after being sunk.
+#*Allows you to repair a heavily damaged flagship to 50% of max HP before moving to next node.
+#*Consumed upon activation.
+#{{nihongo|Repair Goddess|応急修理女神}}:
+#*Repairs your ship to full HP after being sunk.
+#*Allows the option to repair a heavily damaged flagship to 100% HP.
+#*Fully resupplies the ship.
+#*Consumed upon activation.
+Damage control equipment can be obtained by completing quests or by purchasing it from the cash shop. One damage control item will be consumed immediately after the ship sinks, reviving it and preventing your ship from sinking during that particular battle. If you advance to the next node (進撃) with the same ship heavily damaged again, you will need another damage control item for protection. If an additional damage control item is absent, the ship will again be at risk of being sunk.
+
+===What are buckets?===
+Instant Repair ({{Template:IR}} 高速修復材) is an item used to repair ships incredibly quickly (often less than 10 seconds). Once you get [[Akagi]] or any CV that often requires multi-hour repair times, you'll understand their importance.
+
+===How do you exchange medals for rewards?===
+[[File:Medal Exchange.png|thumb|300px|How to exchange your medals for resources]]
+[[Glossary#Medal|Medals]] can be exchanged for the following rewards by accessing the Item page (アイテム) at the top menu bar of the main screen.
+*1 medal can be exchanged for '''Fuel x300, Ammo x300, Steel x300, Bauxite x300 and Instant repair item x2.'''
+* 1 medal can also be exchanged for '''Improvement Materials x4.'''
+*4 medals can be exchanged for '''1 x remodel blueprint (改装設計図)'''.
+
+===Why do I have negative timers (-XX:XX:XX) or why do I get incorrect timers (2 hours for DD, etc) in Construction?===
+This happens when you do not set your system clock to Japan Standard Time (JST). (Note: this does not happen to everyone) To fix this, go to your system clock on your taskbar, click it, and set to Osaka/Sapporo time. Restart the game, and this should fix the issue. It is also possible to add a 2nd clock to your taskbar so you are aware of your local time.
+
+===I want ship X, Y, Z, etc.===
+You can potentially get it via:
+*Drops from maps: see the [[Drop List]].
+*Crafting: see the [[Construction#Building recipes|Crafting Recipe]]s for each ship.
+
+===Why am I going through resources so fast?===
+It goes without saying that you don't have an unlimited number of resources. Running CV and BB-heavy fleets is going to eat through your resources faster than you can generate them through time or expeditions. Make sure that you use those poor DD's and CL's too. Yes, they may seem utterly weak when compared to your hard-hitters, but when you hit [[World 3#3-2|3-2]] and find out that you must clear the map with only destroyers, you won't regret leveling them up and getting their respective remodels. Plus, this decreases your resource expenditures!
+
+===Does level or type of your flagship matter in crafting?===
+It depends.
+*Crafting ships seem to be only dependent upon the amount of resources you spend. However, when constructing a German ship, you must have a German ship as your flagship.
+*Crafting equipment may depend on the amount of resources '''and''' type of your flagship.
+
+===Is it important to craft equipment?===
+Not until you reach HQ level 20. You can try, but don't expect to craft rare ones.
+
+===I cannot rename my fleets!===
+You are probably playing Kantai Collection using a stand-alone flash player or an API link. Try renaming your fleets while playing on DMM's Kantai Collection page.
+
+'''Note:''' Fleet name length is capped at 12 characters (including spaces).
+
+===How do I unlock the third and fourth fleet slots?===
+*3rd Fleet: Complete [[Quests#A14|Quest A14]] 「川内」型軽巡姉妹の全3艦を編成せよ！
+**Composition quest: have all [[:Category:Sendai Class|Sendai sisters]] ([[Sendai]], [[Jintsuu]] , and [[Naka]]).
+*4th Fleet: Complete [[Quests#A16|Quest A16]] 「金剛」型による高速戦艦部隊を編成せよ！
+**Composition quest: have all [[:Category:Kongou Class|Kongou sisters]] ([[Kongou]], [[Haruna]], [[Kirishima]], and [[Hiei]]).
+
+===When does the daily/weekly/monthly reset commence?===
+Quest/Mission:
+*Daily: 05:00 JST
+*Weekly: Monday 05:00 JST
+* Monthly: Every 1st day of the month 05:00 JST
+Daily PVP roster: 03:00 and 15:00 JST
+
+===What is Modernization and Remodeling?===
+<!--[[File:Model2.jpg|thumb]]-->
+Modernization is the process whereby ships are sacrificed to increase certain stats of another ship. See the [[Modernization]] page for more details.
+
+Remodeling is the process whereby a ship is upgraded to its next model. The new model usually comes with increased stat caps across the board. Certain ships also get a new card art and library entry, and some ships will change classes. Remodels usually come with the cost of consuming more either fuel or ammo (or both), though there are exceptions, such as first-remodel destroyers and [[I-168]], which maintain the same consumption rates, or aviation cruisers/battleships, which receive a decrease in ammo consumption (though their fuel consumption still increases). Keep this in mind when managing your expedition fleets.
+
+You can remodel a ship to its next model at any point after it reaches the required level, and the ship will retain its level upon remodeling. Be aware that any modernization stat bonuses will be lost upon remodeling. Stats that cannot be increased via modernization (evasion, anti-sub, line-of-sight) will be recalculated to match the level upon remodeling, so you don't need to worry about potential permanent stat losses due to remodeling at high levels. Modernizable stats (firepower, torpedo, AA, armor) will revert to the ship's base stats (plus stat gains from its level).
+
+Unlike modernization, any equipment on the ship to be remodeled will simply be placed back into your inventory and replaced with the new model's stock equipment. Also unlike modernization, remodeling only costs ammo and steel.
+
+Think of remodeling as evolutions. For ships that have multiple remodels ([[Chitose]]/[[Chiyoda]], [[Kitakami]]/[[Ooi]], [[Yuudachi]], etc.), you will have to go through each remodel to get to the subsequent one regardless of level (i.e., you cannot skip all the remodels before the final upgrade even if your Chitose is level 55). Example: Chitose <math>\longrightarrow</math> Chitose Kai <math>\longrightarrow</math> Chitose A <math>\longrightarrow</math> Chitose Carrier <math>\longrightarrow</math> Chitose Carrier Kai <math>\longrightarrow</math> Chitose Carrier Kai 2
+
+Note: Remodeling resets damage, [[Morale/Fatigue|fatigue]], and supply status. You could take advantage of this by remodeling just after a sortie or two. However, as remodeling resets fatigue, it also removes the sparkle status if the ship has it.
+
+===How do I fix Flash stretching the game resolution when using the API?===
+Use Flash player to run the game in its native resolution using the API link, or just resize your browser window.
+
+===What does the admiral stats page show?===
+[[File:KanColle-140405-21563803.png|thumb|400px|The Admiral's page.]]
+#The number of fleets you currently own.
+#The number of construction docks you currently own.
+#The number of docking docks you currently own.
+#The number of ships you currently own.
+#The number of equipment you currently own (including those equipped on your ships).
+#The number of furniture objects you currently own.
+#The server you belong to.
+#The maximum number of fleets you can have (second fleet, third fleet and fourth fleet can be unlocked through quests).
+#The maximum number of ships you can have (this can be increased by purchasing the [Port expansion item/母港拡張]; each expansion will increase your maximum ship cap by 10).
+#The maximum number of equipment you can have (this will be increased by 40 when a [Port expansion item/母港拡張] is used).
+#The resource regeneration limit. (this is not the real resource cap. Reaching the maximum resource storage will stop resource regeneration. You can still gain resources through sorties, quests and expeditions. The absolute resource cap is 300,000 regardless of admiral level.)
+#Your sortie results (Sortie win rate was a requirement for the past events).
+#Your expedition results.
+#Your PVP results.
+#Your admiral level (current EXP/EXP required for next level).
+#Comment box (This will be shown in the ranking list).
+
+===What is this blinking icon in my Organize menu?===
+[[File:Mamiya_blinking_icon.png|thumb|300px|Mamiya's food icon.]]
+This button uses Mamiya's food, a consumable that restores the fatigue value of the ships in that fleet. It blinks when your ships are below a certain [[Morale/Fatigue|Morale]] value.
+
+===Why do some kamusu say 'Shireikan' & other kanmusu say 'Teitoku'?===
+In almost all modern large navies, destroyers are captained by officers with the rank of [[wikipedia:Commander|Commander]]. They are stationed on capital ships with over 9,000 tons displacement such as Japanese & US [[wikipedia:Guided_missile_destroyer|guided missile destroyers]], [[wikipedia:Hull_classification_symbol|special-purpose ships]], [[wikipedia:Cruiser|cruisers]] ([[Glossary#Class classification|WWII light cruisers &amp; heavy cruisers]]), & large submarines ([[wikipedia:SSN_(hull_classification_symbol)|nuclear submarines]] & [[wikipedia:SSBN|ballistic nuclear submarines]]).
+
+Additionally, in the IJN, destroyers in a [[Historical Formations#Torpedo Squadrons|Destroyer Division (DesDiv)]] were led by the commander of the lead ship.
+
+Admirals command battlegroups centered on large capital ships with over 12,000 tons displacement, such as [[wikipedia:Cruiser|missile cruisers]], [[Glossary#Class classification|WWII battlecruisers &amp; battleships]], [[Glossary#Class classification|aircraft carriers]], & [[wikipedia:Landing_Platform_Dock|landing platform docks]]. As such, a typical ship would very rarely get issued commands directly from admirals.
+
+Note that smaller navies may have admirals commanding [[wikipedia:Corvettes|corvettes]]. This is known as rank inflation and is unavoidable if all ships in a fleet are basically corvettes.
+
+===Why are the IP holders restrictive with game licensing?===
+[[wikipedia:DMM_Corporation|DMM]] is not the only party involved in restricting access to Kantai Collection; rather, this is due primarily to [[wikipedia:Kadokawa_Corporation|Kadokawa Games]] and [[wikipedia:Sega|Sega]], the holders of the KanColle IP. DMM is only the publisher.
+
+The KanColle core IP is the game itself, held by Kadokawa Games, from which Kadokawa Group Holdings's (KGH) derivative IP comes. Since KGH is a publishing house equivalent to DMM, they don't produce their own derivative content. Established and amateur authors make derivative content, often in the form of [[Merchandise/Doujinshi|doujinshi]], and if KGH approves the content, they can cross-license and KGH will also publish those. In fact, that's basically the story behind the [[Merchandise/Manga#Anthology_Comics|anthology comics]]. In other words, the doujins are not direct competitors to the core IP.
+
+Fan games are different because the core IP is the game itself. However, the ''legal'' reason for eliminating fan games is that a lot of fan games employ sound clips and music from the core game, which are registered IP of the companies that produced them. Companies are quite sensitive about their IP being used in this way. The same applies to applications, such as [http://playboard.me/android/apps/jp.gr.java_conf.poponta009.KankoreClock KanColle Clock].
+
+On the other hand, Kadokawa has been very lenient on fans composing or remixing KanColle music. As a case in point, there's [http://himeuta.org/showthread.php?354-Kancolle-Original-Songs-(%26%2333382%3B%26%2312371%3B%26%2312428%3B-%26%2312458%3B%26%2312522%3B%26%2312472%3B%26%2312490%3B%26%2312523%3B%26%2326354%3B) ''Koi no 2-4-11''], which has been sung by both Naka-chan herself in the [[anime]] (''needs more specificity'') and [[Glossary#List of vessels by Japanese voice actresses|her seiyuu]] in official events (''needs more specificity''). Only games and other applications using core game IP are under fire.
+
+==Sortie==
+
+===Why do I keep getting sent to the wrong node?===
+Different nodes on different maps will have different requirements. Some of the nodes are random in nature, while the rest are dependent on your fleet composition (for example, the boss node in [[World 3#3-23|3-2]] can only be reached by a fleet of destroyers). Here is a list of some of the compositional restrictions. See the [[Sortie]] page for a complete list of maps and detailed info on each one. 
+
+*[[World 3#3-2|3-2]]: DDs only. Other fleets will always get thrown north away from the boss node.
+*[[World 3#3-3|3-3]]: Two CVs are needed in order to be sent to the 'right path' (Otherwise, your fleet always heads towards node B).
+*[[World 4#4-4|4-4]]: Two DDs and one CA(V) are needed to guarantee a pre-boss fight.
+*[[World 5#5-2|5-2]]: Two CV and one CVL are needed to guarantee a boss fight.
+*[[World 5#5-3|5-3]]: Fleets with 3 or more BBs, as well as fleets with any CV(L) will always be sent away from the boss node. Fleets with 2 DDs are sent very frequently from the preboss node to the boss node. Fleets with any slow ship has a high chance of being sent to node B (which is a submarine node).
+
+===An 'arc' appears in front of my flagship when it was attacked and another ship took damage instead, what happened?===
+This is called 'flagship protection.' Ships that have taken less than light damage (小破) will occasionally protect the flagship from getting damaged. Its cause is unknown but some formations make it more likely to occur than the others. It will occur more often in the Ring-shaped / Diamond shaped formation than in the Line Ahead formation.
+
+===What ships are 'counters' against other ships (e.g., destroyers against subs)?===
+Generally, Battleships and regular carriers are the queens of the battlefield except when it comes to submarines. Heavy Cruisers are the jack-of-all-trades, and light cruisers or destroyers armed with depth charges are the only ships effective against submarines.
+
+===I saw red text on my menu before I began my sortie/when I try to construct a new ship, what does it mean?===
+[[File:ErrorMessage.png|thumb|150px|Error message displayed in the sortie, crafting and construction menus. (Click to enlarge)]]
+You have either reached the maximum limit of ships in your port (the default is 100 ships) or reached the maximum limit for equipment (default to 497). Consider either scrapping a few of them or using some as modernizing material before heading out. You will not be able to obtain new ships if you are at either limit. If you wish to expand your docks so you can collect more ships, you have to buy a port expansion from the [[Shop#Recommended Items|cash shop]]. Each expansion costs 1000 yen, and increases the maximum ship limit by 10 and the maximum equipment limit by 40. Refer to [http://pastebin.com/jvTQfLqb this pastebin] for more information on hating your wallet.
+
+===What happens if I get disconnected from the game during a battle?===
+It depends on at what stage the server acknowledges the disconnection. Typically, the game will calculate the battle's results and your fleet will automatically return to base. Whether XP is rewarded / fuel and ammo are consumed depends on when the disconnection happens.
+
+===I notice some players are farming those poor Isuzus. Why?===
+[[Isuzu|Isuzu Kai]] (五十鈴改) comes with stock equipment which is desirable to a lot of admirals: ({{Template:GreenGunDP}} [[12.7cm Twin High-angle Mount]], {{Template:TorpedoWeapon}} 61cm Quad O<sub>2</sub> Torpedo Mount and {{Template:Radar}}[[Type 21 Air RADAR| Type 21 Air Radar]]). Combined with her value as modernization material (+4 AA) and low remodel level requirement (Lv.12), it's an attractive proposition to farm her.
+
+Tip: Set Isuzu as the flag ship of fleet and sortie [[World 3#3-2|3-2A]] '''12''' times. After this, she will be Level 12.
+
+Other examples:
+*[[Chitose]] and [[Chiyoda]] are farmed for midget subs ({{Template:TorpedoWeapon}} [[Type A Ko-hyoteki]] come with their Lv.12 remodel)
+
+===The enemy BB Ru-Class battleships are kicking my ass at the end of 2-4! How are you supposed to beat the enemy flagship?===
+Lots and lots of luck. Jokes aside, they are the first enemy you meet which can not only take a beating, but can dish out a beating too. You will need to have remodeled your shipgirls, mexed their modernization values and ensure you are using good equipment. While getting to the [[World 2#2-4|2-4]] boss can require some luck, you will notice the [[Battleship Ru-Class|Ru-class]] will show up in other maps and you can easily end up against two flagships with two elite partners, which can hurt quite a bit. Just hope that your shipgirls hit them first and sink them ASAP.
+
+On the other hand, if you have three [[:Category: Submarines|submarines]] at level 20 or above, 2-4 is no longer a nightmare. You just need to try a couple of times and you will get past easily. However, you also need to max out their modernization bonuses, especially torpedo{{Torpedo}} and armor{{Template:Armor}}.
+
+=== What is this weird warning screen showing my flagship after the battle? Why did I get sent back to the base? ===
+<!--[[File:KanColle-150218-23183144.png|thumb|262x262px]]-->
+[[File:KanColle-150212-20151244.png|thumb|263x263px]]
+If your fleet's flagship gets heavily damaged (大破) during a battle you'll be forced to retreat unless she is equipped with a [[Repair Team]] or [[Repair Goddess]] and you choose to consume it.
+
+==Naval Exercise/Practice Battle/PVP==
+{{Details|Exercises (PvP)}}
+
+===How come the other admirals have significantly higher-leveled ships?===
+Naval exercises yield low admiral experience (20 exp) but high ship experience (up to 1k exp, maybe more). Compound that everyday, and the experience gap grows.
+Overall, ship level isn't the only factor in determining victory; the right preparations can help you win battles against higher level ships. See [[Exercises (PvP)]] for details.
+
+===The other admiral uses a fleet of low-level ships. Why would he do that?===
+It's easier to get the Sparkle buff. See [[Morale and Fatigue]] for more details.
+
+To help other admirals (and hopefully yourself as well), '''please make sure your main fleet consists only of two high level ships when you will be offline for a while.'''
+
+Please note that two high level ships does not mean a fleet composed of one level 1 ship.
+
+===How do I get an S-rank against a submarine fleet?===
+Anti-submarine damage is highly depend on '''equipment ASW stat'''. Equip your CLs and DDs with [[List_of_Anti-Submarine_Equipment_by_stats|Sonar and Depth Charges]] while using the Line Abreast formation.
+
+==Equipment, Stats and Remodels==
+===What does each stat mean?===
+*{{Template:HP}} 耐久 (''Taikyū'', Endurance) - Ship's Health or HP. Ship banner will show 小破/中破/大破 (Lightly/Moderately/Heavily damaged) after your HP is reduced to a certain level (75%/50%/25% of Maximum HP or less, respectively). Ships entering a battle with 大破 (Heavy Damage) are at risk being sunk.
+*{{Firepower}} 火力 (''Karyoku'', Firepower) - Affects the damage a ship's guns/bombers do during shelling phase.
+*{{Template:Armor}} 装甲 (''Sōkō'', Armor) - Damage reduction against incoming attacks.
+*{{Torpedo}} 雷装 (''Raisou'', Torpedo) - Affects the damage a ship inflicts with a torpedo attack, and stacks with firepower to determine night-time shelling damage.
+*{{Evasion}} 回避 (''Kaihi'', Evasion) - Affects the chance of having enemies "miss" an attack.
+*{{AA}} 対空 (''Taikū'', Anti-Air) - Reduces damage from aerial attacks. See [[Tutorial:_FAQ#What_do_green_and_yellow_guns_do.3F.C2.A0_Also.2C_I_really_hate_fighting_carriers.2C_which_guns_help_me_shoot_planes.3F|below]] for explanation on AA guns.
+*{{Template:Aircraft}} 搭載 (''Tōsai'', Aircraft) - Total plane capacity for each ship. For capacity in each slot, see [[Tutorial:_FAQ#What_does_the_number_beside_my_plane_stand_for.3F|this]].
+*{{ASW}} 対潜 (''Taisen'', Anti-submarines/ASW) - Ship's capability to conduct anti-submarine warfare; higher chance of inflicting damage to submarines.
+*{{Template:Speed}} 速力 (''Sokuryoku'', Speed) - Divides into High Speed/Fast and Low Speed/Slow. The <u>mechanics are not clear</u> but ''it is said to ''give bonus to evasion if all ships are at fast speed. Affects the sortie route in certain maps.
+*{{LOS}} 索敵 (''Sakuteki'', Reconnaissance/LOS) - This stat determines the success of the detection phase at the start of the battle. The higher it is, the higher the success rate. Also affects branching for certain maps (such as [[World 2#2-5|2-5]]).
+*{{Template:Range}} 射程 (''Syatei'', Range) - Determines the firing order during the start of the battle. See [[Combat#Day_Combat|here]] for details.
+*{{Template:Luck}} 運 (''Un'', Luck) - Affects cut-in chance in night battle.
+Generally if the stat is 0, it means the ship can't do anything pertaining to that and there is no way you can increase it. There are exceptions ([[Ooyodo]]'s Torpedo and ASW stat, [[Maruyu]]'s Torpedo stat are a few examples).
+
+;Hidden stats
+*爆装 (''Bakusō'', Dive bombing stat) - Initial value is 0 for all ships; it is increased when dive bombers/seaplane bombers are equipped. The stat is used to determine attack power damage during [[Combat#Base_Attack_Power|shelling phase]] (for CV/CVLs) and [[Aerial Combat]] (for all ships carrying bombers).
+*命中 (''Meichū'', Hit rate) - Accuracy. Affects the chance of hitting an enemy. Can '''only''' be increased through leveling or equipment.
+*クリティカル (''Kuritikaru'', Critical) - No equipment directly increase this, but any attack can be a critical attack, resulting in an additional 50% increase to the base attack power (not just a 50% increase in damage). Explanation [[Combat#Critical_Modifier|here]].
+
+===What do the stars underneath the ship's level mean?===
+They signify close the ship is to their max stats.
+
+===If I can raise stats through modernization, what's the point of leveling up?===
+*Firepower {{Firepower}}, Torpedo attack {{Torpedo}}, Anti Air {{AA}} and Armor {{Armor}} stats can be increased using [[Modernization]].
+*Anti Submarine {{ASW}}, View Range {{LOS}} and Evasion {{Evasion}} stats will only improve from leveling ships up, though repair times also increase.
+*Speculation concludes that hidden accuracy stats and critical hit chances change with level (or level differences between attackers and targets) as well.
+
+===Is it worth anything to turn Fusou, Mogami, etc. into aviation battleships/cruisers?===
+It is certainly worth it.
+
+For '''Aviation Battleships '''(BBV), the max firepower stat drops 15 ([[Hyuuga]]) or 10 points ([[Ise]], [[Fusou]], [[Yamashiro]]), but every other stat increases. Their BBV forms are still eligible for quest requirements. With the introduction of second remodel for Fusou and Yamashiro, they have recovered the loss to firepower, but that remodel takes a [[Blueprint]] - see that page for details on that.
+
+Unlike BBV, '''Aviation Cruisers '''(CAV), they '''don't''' lose max firepower after remodel. However, their initial firepower after the remodel will be very low. Their max firepower are about average for Heavy Cruisers.
+
+===Does the slot position of equipment matter?===
+In day battles, equipment slot positions doesn't matter for all non-aircraft carriers warships. In night battles, the topmost weapon is used to attack if your ship fails to trigger a special attack (Double Attack or Cut-in Attack, check the [[Combat#Night Battle Special Attack|combat mechanics]] page for more info). This can change what type of attack your warship performs (either a torpedo attack or a main gun attack).
+
+However, this is not the case for warships that can equip aircraft (fighters, recon planes, seaplanes, etc.), because each slot has a different aircraft-carrying capacity (see [[#What_does_the_number_beside_my_plane_stand_for.3F|below]]). Keep this in mind when equipping planes.
+
+===Is there any equipment that will do preemptive strikes?===
+Torpedoes and bombers can attack before the shelling phase. Ships or submarines equipped with midget submarines ([[Type A Ko-hyoteki]], {{Template:TorpedoWeapon}}甲標的 甲) are also able to launch an opening torpedo attack. Submarines level 10 or higher can launch an opening torpedo attack regardless of their equipment. The accuracy of torpedoes greatly depends on fleet formation: using line abreast will cause midget submarines to nearly always miss, while line ahead gives the greatest accuracy.
+
+===What do the green and yellow guns do? Also, I really hate fighting carriers, which guns help me shoot planes?===
+*{{Template:GreenGunDP}} are high-angle guns; generally they have higher AA stat than other guns of its class (main gun or secondary gun), possibly at the cost of firepower.
+*{{Template:GreenGunMG}} are also anti-air equipment; however, they do not count as either a main gun or a secondary gun.
+*{{Template:YellowGun}} are secondary guns; they were originally designed to be more accurate against secondary targets, but the in-game implementation simply makes them more accurate. Historically, they were meant to fire faster and track fast ships more quickly, hence the accuracy boost.
+As to what guns help with shooting down planes, it is detailed at the [[Aerial Combat]] page under [[Aerial_Combat#Anti-Air_Cut-In|Anti-Air Cut-In]] and [[Aerial_Combat#Fleet_Anti-Air_Defense|Fleet Anti-Air Defense]] sections.
+
+===What is the function of the green ammo?===
+'''{{Template:GreenAmmo}} Sanshiki''', '''San-Shiki''' or '''sanshikidan''' (lit. "type 3") ammunition is a combined shrapnel and incendiary round for anti-aircraft use, and was used by the Imperial Japanese Navy. The shell was historically designed for several gun calibers such as {{Template:RedGunHeavy}} [[41cm Twin Gun Mount|41cm Twin Cannon]], {{Template:RedGunMedium}} [[20.3cm Twin Gun Mount|20.3cm Twin Cannon]], and {{Template:GreenGunDP}} [[12.7cm Twin High-angle Mount|12.7cm High-Angle Twin Cannon]].
+
+In essence, it enables your non-AA guns to be used as effective Anti-Aircraft weapons.
+
+===What do the planes with the different-colored icons do?===
+
+{| class="article-table" style="width: 670px;" border="0" cellpadding="1" cellspacing="1"
+! scope="row" |{{Template:TorpBomberIcon}}
+|Aircraft with blue icons are torpedo bombers. Torpedo bombers can deal very high damage in the opening carrier attack phase, and raise damage in the shelling phase.
+|-
+! scope="row" |{{Template:DiveBomberIcon}}
+|Aircraft with red icons are dive bombers. Dive bombers also attack in the opening phase but their damage is fairly low. They give carriers higher damage in the shelling phase.
+|-
+! scope="row" |{{Template:FighterIcon}}
+|Aircraft with green icons are air superiority fighters. They are a great at shooting down enemy planes.
+|-
+! scope="row" |{{Template:ReconPlaneIcon}}
+|Aircraft with yellow icons are used for the recon phase and can help increase damage in the opening carrier attack phase.
+|-
+! scope="row" |{{Template:SeaplaneIcon}}
+|Light green planes with no icon at all are seaplanes. The 零式水上偵察機 [[Type 0 Recon Seaplane]] is for scouting only, while the 瑞雲 [[Zuiun]] both scouts and participates in aerial combat. Both allow for [[Combat#.C2.A0Artillery_Spotting_.28Post-Cap_Modifier.29|Artillery Spotting]]. Note that these are the only aircraft that seaplane tenders (AV), aviation battleships (BBV), aviation cruisers (CAV), and aircraft-carrying submarines (SSV) can launch.
+|}
+
+===What's the difference between CV and CVL?===
+Carriers (CV) can hold more planes than Light Carriers (CVL), and a higher plane count means better performance in the initial air combat phase (See the [[Aerial Combat]] for more information). CVs also have higher defense and HP, and CVs are all Fast Speed (where as a few CVLs, such as [[Hiyou]], are Slow Speed, which matters for certain maps).
+
+One thing CVs can't do is attack submarines, whereas CVLs can. CVLs also have lower resupply costs than CVs.
+
+===What does the number beside my plane stand for?===
+The number by each equipment slot for a ship that can equip aircraft indicates the capacity of the planes it can hold. Different slots have different capacities and will affect the performance of the carrier in the opening aerial combat phase (See the [[Aerial Combat]] for more information).
+
+If the number shows 0, it can mean a few things:
+*Either you did not resupply the ship to replenish the plane count, or you have ran out of {{Bauxite}} to replenish the planes; or
+*That slot has a natural capacity of 0, which renders equipping planes on that slot useless for the most part.
+
+===Will I lose all my equipment if I remodel?===
+No. The game will automatically disarm your ship before she is remodeled. 
+
+===What should I equip on torpedo cruisers (CLT, i.e. Kitakami, Ooi and Kiso)?===
+Any gun, torpedo launcher or midget submarine will do. A midget sub will enable them to shoot a torpedo before the shelling phase. Turbines are a good choice as well, and will increase their survivability.
+# Consider that since CLTs can't equip seaplanes, the CLT's equipment should be focused around opening torpedo salvoes and [[Combat#Night Combat|night battle]].
+# Before Kai Ni, CLTs only have 2 equipment slots. They can't fire twice during night combat, so maximizing damage in the opening torpedo salvo is the primary consideration.
+# [[Kiso]] will only become a CLT after her second upgrade.
+
+===== Before Kai Ni (Below level 50) =====
+* 1×{{TorpedoWeapon}} Any type of the torpedoes ([[61cm Triple Torpedo Mount]], [[61cm Quad Torpedo Mount]], [[61cm Quad O2 Torpedo Mount|61cm Quad O<sub>2</sub>&nbsp;Torpedo Mount]] and so on)
+* 1×{{TorpedoWeapon}} [[Type A Ko-hyoteki]]
+
+===== After Kai Ni (Level 50 Kitakami or Ooi, Kiso Level 65): =====
+
+====== Fit 1: This fitting gives good opening torpedo damage, more firepower to deal with DD during day combat and double attack during night combat. ======
+* 2×{{YellowGun}}[[15.5cm Triple Gun Mount (Secondary)|15.5cm Triple Gun Mount (Secondary)]] or [[OTO 152mm triple extended machine gun]] or 
+* 1×{{TorpedoWeapon}} [[Type A Ko-hyoteki]]
+
+====== Fit 2: This fitting is extreme in opening torpedo and gives a chance to cut-in during night combat. ======
+* 2×{{TorpedoWeapon}} Any type of the torpedoes; '''[[61cm Quint O2 Torpedo Mount|61cm Quint O<sub><big>2</big></sub>&nbsp;Torpedo Mount]] '''is''' recommended.'''
+* 1×{{TorpedoWeapon}} [[Type A Ko-hyoteki]]
+
+==Expeditions==
+
+===Help! my fleet failed to do an expedition.===
+{{Details|Expeditions#Success_Conditions}}
+
+===I don't have expedition #xx unlocked.===
+You need to complete earlier expeditions. Don't skip clearing any previous expeditions at least once each (e.g. for expedition #18, you need to clear expeditions 1 until 17).
+
+===What expedition is the most efficient?===
+{{details|Expedition#Theoretical Hourly Net Earnings|l1=Theoretical Hourly Net Earnings}}
+*Always have all the ships in your fleet sparkling when going into a long expedition (see the [[#sparkle_effect|sparkle effect]]).
+*Using ships with low fuel and ammo cost optimizes the efficiency of your expedition.
+* '''Remodeled ship may have up to a 27% increase in fuel/ammo usage.''' While it is not a dealbreaker, please take it into consideration in deciding your expedition fleet.
+
+===Are Kitakami and Ooi's first and second remodels (CLTs) considered as CLs for expedition and map requirement purposes?===
+No, they are not. If you send them out on expeditions, it will fail despite theoretically fitting the stated requirements. They are considered as CLT. The same is true for aviation cruisers (CAV) not considered as CAs.
+
+==How to Unlock Large Ship Construction==
+#Complete [[Quests#G4|Modernization Quest G4]]: You will must successfully modernize a ship 4 times.
+#Complete [[Quests#F10|Crafting Quest F10]]: You will must scrap 4 pieces of equipment. Do this one item at a time, as the game will consider discarding multiple items at once as one time.
+#Enjoy Large Ship Construction! Keep in mind that LSC require 4-digit resources (1500-7000 per resource per craft), while only few ships are worth trying using LSC.
+
+'''Note:''' To unlock Quest G4, you need the 3rd fleet unlocked; see Quests [[Quests#A7|A7]] and [[Quests#A14|A14]] for how to do get this.
+
+[[Category:Tutorial]]
+[[Category:Help]]

@@ -1,0 +1,86 @@
+=Battle Opening Breakdown=
+
+Battle Opening is one of the ''daytime combat'' intermediary phases, taking place immediately before the First shelling starts. In this phase, allied and enemy fleets launch attacks with the intent to disable or remove enemy targets before the combat proper starts. This grants either fleet substantial advantages by possibly disabling key ships on the opposing side.
+
+Battle Opening has the following structure:
+* Opening ASW Shelling (OASW)
+* Opening Torpedo Salvo
+
+In case neither fleets meet the requirements, the sub-phase will be skipped.
+
+=Opening ASW Shelling (OASW)=
+
+Commonly referred to as ''OASW (opening ASW)''. All eligible ships will perform a regular ASW Shelling attack, following range order in the same fashion as the First Shelling Phase. As these opening attacks happen before the Opening Torpedo Salvo, they may disable or even sink enemy submarines before they have a chance to attack.
+
+OASW has the following trigger conditions:
+* The ship must be able to perform ASW shelling.
+* Meet their specific ASW stat threshold and requirements:
+
+{| class="wikitable" style="margin-left: auto; margin-right: auto;"
+|-
+!style="text-align: center;" |Ship
+!style="text-align: center;" |Requirements
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| All ASW capable ships
+|style="border-style: solid; border-width: 1px;"| 
+* ASW ≥ 100
+* Is equipped with a {{Sonar}}'''Sonar'''
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[:Category:Destroyer_Escorts|Destroyer Escorts]]
+|style="border-style: solid; border-width: 1px;"| 
+Meet one condition:
+* ASW ≥ 60 and is equipped with a {{Sonar}}'''Sonar'''
+* ASW ≥ 75 and is equipped with a {{DepthCharge}}'''Depth Charge''' with ASW stat ≥ 4
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{ShipLink|Isuzu Kai Ni}}<br>{{ShipLink|Tatsuta Kai Ni}}<br>{{ShipLink|Jervis Kai}}<br>{{ShipLink|Janus Kai}}<br>{{ShipLink|Samuel B. Roberts Kai}}<br>{{ShipLink|Fletcher|Fletcher Kai|Fletcher Kai Mod.2|Fletcher Mk.II}}<br>{{ShipLink|Johnston|Johnston Kai}}<br>{{ShipLink|Yuubari Kai Ni D}}
+|style="border-style: solid; border-width: 1px;"| 
+* Performs OASW unconditionally.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{ShipLink|Taiyou}}<br>{{ShipLink|Shinyou}}<br>{{ShipLink|Gambier Bay|Gambier Bay Kai}}<br>{{ShipLink|Zuihou Kai Ni B}}
+|style="border-style: solid; border-width: 1px;"| 
+Meet all conditions in one set:
+
+'''Set 1:'''
+* ASW ≥ 50 and is equipped with a {{Sonar}}'''Sonar'''
+* At least 1 {{BluePlane}}Torpedo Bomber with ASW ≥ 7, {{Autogyro}}Autogyro or {{ASWPlane}}Liaison Aircraft
+'''Set 2:'''
+* ASW ≥ 65
+* At least 1 {{BluePlane}}Torpedo Bomber with ASW ≥ 7, {{Autogyro}}Autogyro or {{ASWPlane}}Liaison Aircraft
+'''Set 3:'''
+* ASW ≥ 100 and is equipped with a {{Sonar}}'''Sonar'''
+* At least 1 {{BluePlane}}{{RedPlane}}'''Bomber''' with ASW stat.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{ShipLink|Taiyou Kai|Taiyou Kai Ni}}<br>{{ShipLink|Shinyou Kai|Shinyou Kai Ni}}
+|style="border-style: solid; border-width: 1px;"| 
+* ASW ≥ 65
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Light Carriers<br/>(Except {{ShipLink|Suzuya Carrier Kai Ni}}<br/>and {{ShipLink|Kumano Carrier Kai Ni}})
+|style="border-style: solid; border-width: 1px;"| 
+* ASW ≥ 50 and is equipped with a {{Sonar}}'''Large Sonar'''
+* At least 1 {{BluePlane}}Torpedo Bomber with ASW ≥ 7, {{Autogyro}}Autogyro or {{ASWPlane}}Liaison Aircraft
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| {{ShipLink|Hyuuga Kai Ni}}
+|style="border-style: solid; border-width: 1px;"| 
+Meet one condition:
+* 2 {{Autogyro}}'''Autogyros'''
+* 1 {{Autogyro}}'''Helicopter''' ({{EquipmentLink|S-51J}} or {{EquipmentLink|S-51J Kai}} ONLY)
+|-
+|}
+
+=Opening Torpedo Salvo=
+
+Commonly referred to as ''oTorp (opening torpedo)''. Eligible ships will fire an Opening Torpedo attack. This attack behaves similarly to the Closing Torpedo attack, with the difference that it will be launched regardless of the ship's damage state.
+Opening Torpedo salvo has the following trigger conditions:
+* If the ship is a Submarine, then it must have Lv.10 or higher.
+** While other Abyssal ships are Lv.1, all Abyssal Submarines are Lv.50.
+** The exception for this rule is the Ka-Class Submarine, which is unable to launch an opening torpedo regardless.
+* Otherwise, it must have a Midget Submarine equipped.
+** This includes {{EquipmentLink|Type A Kouhyouteki}}, {{EquipmentLink|Type C Kouhyouteki}} and the {{EquipmentLink|Type D Kouhyouteki Kai (Kouryuu Kai)}} for the allied fleets, and {{EquipmentLink|Abyssal Cuttlefish Torpedo}} for the Abyssal fleets.
+** Midget Submarines are limited to Submarines, Torpedo Cruisers (CLT) and specific Light Cruisers (CL).
+
+Each torpedo will target a surface ship at random and all torpedoes will strike both sides at the same time. After the Opening Torpedo Salvo, the Day Battle Shelling starts (if there are any remaining ships on either side left).
+
+
+
+{{Mechanics}}
+[[Category:Game Mechanics]]

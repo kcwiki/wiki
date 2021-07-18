@@ -1,0 +1,50 @@
+{{EquipmentInfo|78}}
+
+==Introduction==
+Z1型駆逐艦に搭載された、かの国の駆逐艦主砲です。<br>
+単装砲ではありますが、対艦・対地射撃では優れた火砲です。<br>
+本兵装は残念ながら対空戦闘には不向きです。
+
+This was the main gun of destroyers from that country. It was equipped on the Z1 class of destroyers.<br>
+Although it was just a single-mount, it was a good gun for anti-ship and anti-ground shelling.<br>
+Unfortunately, this gun is unsuited for anti-air combat."
+
+==Notes==
+Stock equipment of [[Z1]] and [[Z3]]. Not to be confused with [[12.7cm Twin Gun Mount]].
+
+Requires a German secretary ship (e.g. [[Z1]]) to be constructed.
+
+==Fit Bonuses==
+Z-class destroyers ([[Z1]], [[Z3]]) get the following bonus for each gun:
+:+1 [[File:Icon_Gun.png]], +1 [[File:Icon_Evasion.png]]
+Additionally, equipping a surface radar adds the following bonus:
+:+2 [[File:Icon_Gun.png]], +2 [[File:Icon_Torpedo.png]], +2 [[File:Icon_Evasion.png]]
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name=12.7cm Naval Gun
+|ItemType=RedGunLight
+|Fuel=10
+|Ammo=20
+|Steel=70
+|Baux=10
+|Mats0-5=3/3
+|Mats6-9=4/5
+|Mats10=-
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=-
+|EquipConsume0-5=1x{{RedGunLight|12.7cm Twin Gun Mount}}
+|EquipConsume6-9=1x{{RedGunLight|12.7cm Naval Gun}}
+|EquipConsume10=-
+|Fri=✓
+|Sat=✓
+|2ndShip=[[Z1]]<br>[[Z3]]
+}}
+|}
+
+==See Also==
+[[wikipedia:12.7 cm SK C/34 naval gun|12.7 cm SK C/34 naval gun]]
+{{Equipmentlist}}
+[[Category:Equipment]]

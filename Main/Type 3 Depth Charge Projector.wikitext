@@ -1,0 +1,53 @@
+{{EquipmentInfo|45}}
+
+==Introduction==
+対潜兵装です。<br />
+九四式にかわる新型の爆雷投射機です。<br />
+新鋭の海防艦などに装備されました。<br />
+大量装備すれば、発見さえできれば、敵潜水艦の面制圧も…きっと可能です。
+
+''An anti-submarine weapon.''<br>
+''A new type of depth-charge intended to replace the Type-94.''<br>
+''It was deployed on the latest ships.''<br>
+''With a bunch of these equipped, as long as you can find the enemy, you'll be sure to wipe them out.''
+
+==Notes==
+;Buildable.
+:Ships receive a boost of 15% more ASW firepower when this is used together with a [[:Category:SONAR|SONAR]], 10% when used with only a [[:Category:Depth Charges|depth charge]], and 43% more power when used with both a [[:Category:SONAR|SONAR]] and a [[:Category:Depth Charges|depth charge]] (must be on the same ship).
+:Stock equipment of [[Arashi|Arashi Kai]] and [[Isuzu|Isuzu Kai Ni]].
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=DepthCharge
+|Fuel=10
+|Ammo=80
+|Steel=20
+|Baux=30
+|Mats0-5=3/3
+|Mats6-9=3/5
+|Mats10=-
+|Screws0-5=2/3
+|Screws6-9=2/4
+|Screws10=-
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{DepthCharge|Type 3 Depth Charge Projector}}
+|EquipConsume10=-
+|Sun=&nbsp;<br>D<br>&nbsp;<br>&nbsp;
+|Mon=H<br>&nbsp;<br>&nbsp;<br>&nbsp;
+|Tue=H<br>&nbsp;<br>&nbsp;<br>&nbsp;
+|Wed=H<br>&nbsp;<br>I<br>K
+|Thu=H<br>&nbsp;<br>I<br>K
+|Fri=&nbsp;<br>D<br>&nbsp;<br>K
+|Sat=&nbsp;<br>D<br>&nbsp;<br>K
+|2ndShip=[[Hiburi]]<br>[[Daitou]]<br>[[Isuzu#Second Upgrade|Isuzu Kai Ni]]<br>[[Kuroshio#Second Upgrade|Kuroshio Kai Ni]]
+|Notes=
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Anti-submarine Weaponry]]
+[[Category:Depth Charge Projectors]]

@@ -1,0 +1,50 @@
+{{EquipmentInfo}}
+
+==Introduction==
+巡洋艦等の主砲として開発された中距離砲の連装型です。<br>練習巡洋艦「香取」や軽巡洋艦「夕張」などに搭載されました。対艦対地用の兵装です。
+
+This is the twin-mounted version of the medium-calibre guns developed for cruisers.<br>
+It was equipped on the training cruiser "Katori" and the light cruiser "Yuubari". It is a weapon capable of anti-ship and anti-ground shelling.
+
+==Notes==
+*This gun was historically mounted on the ''[[Yuubari]]'' as well as the [[:Category:Katori Class|''Katori''-class]] Light Cruiser. 
+* Currently, this equipment can be obtained by upgrading [[14cm Naval Gun]] in [[Akashi's Improvement Arsenal]] or as standard equipment from [[Katori]] or [[Kashima]].
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine2
+|Name=14cm Twin Gun Mount
+|ItemType=RedGunMedium
+|Fuel=10
+|Ammo=60
+|Steel=100
+|Baux=0
+|Mats0-5=2/2
+|Mats6-9=2/4
+|Mats10=-
+|Screws0-5=1/2
+|Screws6-9=2/3
+|Screws10=-
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{RedGunMedium|14cm Twin Gun Mount}}
+|EquipConsume10=-
+|Mon=✓
+|Thu=✓
+|2ndShip=[[Yuubari]]
+|Mats10:2=14/48
+|Screws10:2=8/14
+|EquipConsume10:2=1x{{RedGunMedium|15.2cm Twin Gun Mount}}<br>2x{{GunMat}}
+|Sun:2=D
+|Mon:2=2
+|Tue:2=✓
+|Wed:2=✓
+|Thu:2=✓
+|Fri:2=D<br>T
+|2ndShip:2=[[Yuubari#Second Upgrade|Yuubari Kai Ni]]<br>[[Yuubari#Third Upgrade|Yuubari Kai Ni D]]<br>[[Yuubari#Fourth Upgrade|Yuubari Kai Ni Toku]]
+|Notes:2=Can be upgraded to [[14cm Twin Gun Mount Kai]].
+}}
+|}
+
+==See also==
+{{Equipmentlist}}
+[[Category:Equipment]]

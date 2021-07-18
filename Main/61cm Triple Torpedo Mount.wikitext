@@ -1,0 +1,64 @@
+{{Template:Equipmentinfo
+|name = 61cm Triple Torpedo Mount
+|id = 13
+|japanesename = 61cm三連装魚雷
+|icon = {{TorpedoWeapon}}
+|type = Torpedo
+|effect = {{Torpedo}}+5, {{range}} Short
+|scrap = {{Fuel}}1, {{Ammo}}1, {{Steel}}1
+<slideshow sequence="forward" transition="fade" refresh="5000" center="true">
+<div>[[File:Equipment13-1.png]]</div>
+<div>[[File:Equipment13-2.png]]</div>
+<div>[[File:Equipment13-3.png]]</div>
+<div>[[File:Equipment13-4.png]]</div>
+</slideshow>
+|DD = lime
+|CL = lime
+|CLT = lime
+|CA = lime
+|CAV = lime
+|SS = lime
+|SSV = lime}}
+
+==Introduction==
+陳腐化した53cm魚雷の後継として開発された大型の61cm魚雷。<br />
+その三連装発射管は、駆逐艦の主力兵装として「睦月」型や「吹雪」型などに搭載されました。<br />
+魚雷戦や夜戦の主力兵装として活躍します。
+
+''"The successor to the obsolete 53cm Torpedo Mount after development for a higher-scale, 61cm Torpedo mount. With the three-barreled firing tube, this was made as the destroyer's main armament for the Mutsuki-class and the Fubuki-class and so on for general equipping. This would serve in many battles as the main force in general torpedo battles as well as night warfare."''
+
+==Note==
+Buildable.
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=TorpedoWeapon
+|Fuel=50
+|Ammo=70
+|Steel=60
+|Baux=20
+|Mats0-5=1/2
+|Mats6-9=2/3
+|Mats10=3/5
+|Screws0-5=1/1
+|Screws6-9=1/2
+|Screws10=2/4
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{TorpedoWeapon|61cm Triple Torpedo Mount}}
+|EquipConsume10=2x{{TorpedoWeapon|61cm Triple Torpedo Mount}}
+|Sun=M<br>&nbsp;
+|Mon=M<br>&nbsp;
+|Tue=M<br>&nbsp;
+|Thu=&nbsp;<br>F
+|Fri=&nbsp;<br>F
+|Sat=&nbsp;<br>F
+|2ndShip=[[Murakumo]]<br>[[Fubuki|Fubuki or Fubuki Kai]]
+|Notes=Can be upgraded to [[61cm Triple (Oxygen) Torpedo Mount]].<br>Fubuki Kai Ni can NOT improve this equipment.
+}}
+|}
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Torpedoes]]

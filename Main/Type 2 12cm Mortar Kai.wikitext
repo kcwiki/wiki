@@ -1,0 +1,48 @@
+__NOTOC__
+{{EquipmentInfo|346}}
+
+==Introduction==
+元々は大戦後半期に日本陸軍が開発した陸戦用の迫撃砲です。十分な対潜装備のなかった陸軍の船舶などに搭載され、前方投射型の対潜火器としても運用されました。本兵装は同迫撃砲をさらに改良した艦載用強化型です。爆雷投射機の代替として、また限定的ながら対地攻撃も可能です。
+
+This mortar was originally developed by the Imperial Japanese Army in the latter half of the war. It was mounted forwards for anti-submarine use on IJA ships that did not have sufficient anti-submarine equipment. This is an improved shipborne model of that mortar. It can substitute for a depth charge projector and is also capable of limited ground attacks.
+
+==Notes==
+;Unbuildable.
+:Ships receive a boost of 15% more ASW firepower when this is used together with a [[:Category:SONAR|SONAR]]. This equipment does not get the 10% bonus when used with a [[:Category:Depth Charges|depth charge]] or the 43% [[:Category:SONAR|SONAR]]+[[:Category:Depth Charges|DC]]+[[:Category:Depth Charge Projectors|DCP]] synergy bonus. However, since it's 15% [[:Category:SONAR|SONAR]] synergy bonus is unique, it can stack with the 43% bonus to give a total bonus of 64%. This is only possible on ships with 4 slots.
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=DepthCharge
+|Fuel=20
+|Ammo=120
+|Steel=30
+|Baux=10
+|Mats0-5=2/3
+|Mats6-9=4/6
+|Mats10=18/30
+|Screws0-5=2/2
+|Screws6-9=3/4
+|Screws10=6/9
+|EquipConsume0-5=1x{{Drum}}
+|EquipConsume6-9=1x{{DepthCharge|Type 94 Depth Charge Projector}}
+|EquipConsume10=2x{{DepthCharge|Type 2 12cm Mortar Kai}}<br>1x{{AR}}
+|Sun=&nbsp;<br/>&nbsp;<br/>Ka
+<!--- |Mon= --->
+<!--- |Tue= --->
+|Wed=Ni<br/>&nbsp;<br/>&nbsp;
+|Thu=Ni<br/>AMK<br/>Ka
+|Fri=Ni<br/>AMK<br/>Ka
+|Sat=Ni<br/>&nbsp;<br/>Ka
+|2ndShip=[[Nisshin]]<br/>[[Akitsu Maru Kai]]<br/>[[Kamikaze]]
+|Notes = Uses [[Drum Canister]] for improvement up to ★+6 <br> Uses [[Type 94 Depth Charge Projector]] for improvement past ★+6 <br> Uses 2x {{PAGENAME}} and [[Action Report]] for upgrade to [[Type 2 12cm Mortar Kai (Concentrated Deployment)]].
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Mortars]]
+[[Category:Depth Charge Projectors]]
+[[Category:Special Depth Charge Projectors]]

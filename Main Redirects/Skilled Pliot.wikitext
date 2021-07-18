@@ -1,0 +1,497 @@
+=Overview=
+
+Skilled Pilots are items that are required for plane upgrade quests or [[Improvement|equipment upgrades]]. 
+
+=How to Obtain=
+===Quests===
+<div class="mw-collapsible mw-collapsed"><h4>One-Time Quests</h4>
+<div class="mw-collapsible-content">
+{{QuestsHeader}}
+{{Quests
+| type = Composition
+| listnum = A59
+| reqQuest = Bm6
+| reqQuest2 = F21
+| namejp = 「第三航空戦隊」を編成せよ！
+| nameen = Organise the 3rd Carrier Division!
+| req = ''Compose an carrier division with "Zuikaku Kai" as flagship alongside "Zuihou", "Chitose", and "Chiyoda"!''
+*Completion Condition: Have [[Zuikaku#Upgrade|Zuikaku Kai]] ({{lang|ja|瑞鶴改}}, flagship), [[Zuihou]] ({{lang|ja|瑞鳳}}), [[Chitose#Chitose Carrier|Chitose Carrier]] ({{lang|ja|千歳航}}), and [[Chiyoda#Chiyoda Carrier|Chiyoda Carrier]] ({{lang|ja|千代田航}}) in the same fleet.
+:*Note: Quest can be completed with [[Zuikaku#Second Upgrade|Zuikaku Kai Ni]] or Kai Ni A; Chitose and Chiyoda must both be CVL (Carrier / Carrier Kai / Carrier Kai Ni).
+| fuel = 200
+| ammo = 200
+| steel = 0
+| bauxite =  200
+| other = Development Material x2
+[[Skilled Pilot]] x1
+| notes = Required by [[#B53|B53]]
+}}
+{{Quests
+| type = Composition
+| listnum = A62
+| reqQuest = F29
+| namejp = 新航空戦隊を編成せよ！
+| nameen = Organise the New Carrier Division!
+| req = 改二改装を終えた翔鶴型航空母艦2隻と同護衛艦による新航空戦隊を新編成せよ！''Form a new carrier division with two Shoukaku-class carriers that have finished their second remodels and some escorts!''
+*Completion Condition: Have [[Shoukaku#Second Upgrade|Shoukaku Kai Ni]] ({{lang|ja|翔鶴改二}}), [[Zuikaku#Second Upgrade|Zuikaku Kai Ni]] ({{lang|ja|瑞鶴改二}}), and 2 [[Destroyer]]s in your main fleet.
+** [[Zuikaku#Second Upgrade|Zuikaku Kai Ni]] is required to be Flagship.
+| fuel = 0
+| ammo = 300
+| steel = 300
+| bauxite = 300
+| other = [[Glossary#Food_supply_ship_Irako|Food supply ship {{lang|ja|「伊良湖」}} "Irako"]] x1
+Skilled Pilot x1
+| notes = 
+}}
+{{Quests
+| type = Composition
+| listnum = A77
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 精鋭「第四航空戦隊」を再編成せよ！
+| nameen = Reorganize the Elite "Fourth Carrier Division"!
+| req = Organization Mission: Organize in the First Fleet the two aviation Battleships Ise and Hyuuga as your first and second ships with no less Level 50 in experience and have 1 Light Cruiser and 2 Destroyer to reorganize the Elite "Fourth Carrier Division"!
+*Have [[Ise]] and [[Hyuuga]] as the First and Second Ship in your fleet that are Level 50 higher. In addition, have at least 1 CL and 2 DD in your fleet.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 400
+| other = x4 Development Material <br> x1 Skilled Pilot
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = Sortie
+| listnum = B69
+| reqQuest = B68
+| reqQuest2 = F33
+| namejp = 第一航空戦隊」西へ！
+| nameen = First Carrier Division, to the West!
+| req = ''Organize a Fleet with Akagi as the flagship along with Kaga as the core part of your fleet and engage in the Abyssal Eastern Ocean Fleet Reduction Operation!''
+*Sortie with a fleet consisting of Akagi as the Flagship along with Kaga into 4-5 and win an S rank.
+| fuel = 800
+| ammo = 0
+| steel = 800
+| bauxite = 0
+| other = x1 Skilled Pilot
+x3 Improvement Materials
+| notes = 
+}}
+{{Quests
+| type = Sortie
+| listnum = B94
+| reqQuest = B93
+| reqQuest2 = 
+| namejp = 洋上航空戦力を拡充せよ！
+| nameen = Expand the Offshore Aviation Forces!
+| req = Organize a powerful fleet with a Carrier or Seaplane Tender as Flagship, deploy them to the Northern AL area, The Western Coast off from Kasugadama, and off the Western Coast of the MS Islands and eliminate the main enemy fleet in the areas.
+*Send a Fleet consisting of an AV, CVL, CV, or CVB as Flagship and 5 other ships of choice to 3-5, 4-4, and 6-2 and score an S-rank at the Boss nodes.
+| fuel = 500
+| ammo = 500
+| steel = 0
+| bauxite = 1000
+| other = x5 Development Materials <br> x1 [[Skilled Pilot]]
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = Sortie
+| listnum = B102
+| reqQuest = A77
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 精鋭「第四航空戦隊」、抜錨せよ！
+| nameen = Elite "Fourth Carrier Division", Weigh Anchor!
+| req = Elite "Fourth Carrier Division" Sortie Mission: Deploy the Elite Main Aviation Battleship Force known as the "Fourth Carrier Division" and weigh Anchor! Proceed to conduct Combat Patrol off Okinoshima and the Northern AL Ocean Area, capture the main enemy forces and eliminate them!
+* Take [[Ise]] and [[Hyuuga]] as your flagship and Second ship and have 1 CL, 2DD, and one wild card to 2-5 and 3-5 and score an A  rank at each boss node.
+| fuel = 500
+| ammo = 0
+| steel = 500
+| bauxite = 0
+| other = x4 Improvement Materials <br> '''Choice Between''' <br> Medal x1 <br> '''or''' <br> Skilled Pilot x1 
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = Sortie
+| listnum = B103
+| reqQuest = A78
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 旗艦「由良」、抜錨！
+| nameen = Flagship Yura, Weigh Anchor!
+| req = Sortie Mission: Deploy your first fleet consisting of [[Yura|Yura Kai Ni]] as your flagship along with 2 of the following ships consisting of [[Yuudachi]]. [[Murasame]], [[Harusame]],  [[Samidare]], and/or [[Akizuki]] to the Eastern Orel Sea and the Forefront of the Southern Seas to engage the main enemy forces and destroy them!
+*Have [[Yura|Yura Kai Ni]] as your flagship along with 2 other ships begin either [[Yuudachi]]. [[Murasame]], [[Harusame]], [[Samidare]] and/or [[Akizuki]] in your fleet along with 3 other wildcards and send them to 2-3 and 5-1 and score an S rank at the boss nodes.
+| fuel = 400
+| ammo = 400
+| steel = 0
+| bauxite = 400
+| other = x1 Skilled Pilot<br> '''Choice Between''' <br>[[Daihatsu-class Landing Craft]] x1 <br> '''or''' <br> [[Reinforcement Expansion]] x1 
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = Sortie
+| listnum = B105
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 精強大型航空母艦、抜錨！
+| nameen = Reinforced Large Aircraft Carrier, Weigh Anchor!
+| req = Deploy [[Saratoga|Saratoga Mk.II]] or Mod. 2 as your flagship along with the "Task Force" to the Southern Waters North of the Salmon Sea and to the Central Waters at the waters off of the MS Archipelago, within these waters overpower the main enemy fleet and destroy them! 
+*Sortie [[Saratoga|Saratoga Mk.II]] or Mod. 2 consisting of 1 CL, 2DD, and 2 Wild Cards to 5-5 and 6-2 and score an S-rank.
+| fuel = 0
+| ammo = 0
+| steel = 700
+| bauxite = 700
+| other = '''Choice Between'''<br> [[F6F-3]]<br> '''or'''<br> x1 Skilled Pilot <br>  '''or''' [[New Aviation Armament Materials]] <br> and <br> '''Choice Between''' <br> '''[[TBF]]'''<br> '''or'''<br> [[Night Operation Aviation Personnel]]
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = Sortie
+| listnum = B106
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 精強大型航空母艦、抜錨！
+| nameen =Night Operation Carrier, sortie to the Front Lines!
+| req = Deploy [[Saratoga|Saratoga Mk.II]] as your flagship to the offshore area of the KW Atoll, intercept the enemy Carrier Task force and successfully succeed at "Intercepting the Main Enemy Carier Unit"! Night Operation Carrier, Weigh anchor and sortie to the Front Lines!
+*Sortie [[Saratoga|Saratoga Mk.II]] along with 5 other ships sortie to 6-5 and score an S-rank?()
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 1000
+| other = '''Choice Between''' <br> '''[[TBF]] <br> '''or''' [[New Aviation Armament Materials]]<br> '''or''' [[Night Operation Aviation Personnel + Skilled Deckhands]]  <br> and <br> '''Choice Between''' <br> x1 Reinforcement Expansion <br> '''or''' <br> x1 Skilled Pilot <br>  '''or''' [[New Aviation Armament Materials]] <br>
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = Sortie
+| listnum = B118
+| reqQuest =
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 戦闘航空母艦、出撃せよ！
+| nameen = Battle Carrier, Sortie!
+| req = Form a carrier-focused strike fleet with Ise Kai 2, the lead ship of the remodelled aviation battleships (battle carriers), as flagship and core of the fleet, send it to the Northern AL Sea Combat Patrols,  Ri Lanka in the Curry Sea as well as Peacock Island, and annihilate the enemy!
+
+*Organize a fleet with [[Ise|Ise Kai Ni]] as flagship and score an S rank at the boss nodes of 3-5, 4-5, and 6-4.
+| fuel = 1000
+| ammo = 0
+| steel = 634
+| bauxite = 634
+| other = '''Choose Between One of the Following Rewards:''' <br> [[Skilled Pilot]] x1 <br> '''or'''<br>[[New Type Aviation Armament Materials]] x1 <br> '''or'''<br> Improvement Materials x4 <br>'''and'''<br> '''Choose Between One of the Following Rewards:<br>'''[[Zuiun (634 Air Group)]] x1 <br>'''or'''<br> [[Suisei Model 22 (634 Air Group)]] x1 <br>'''or'''<br>  [[New Type Artillery Armament Materials]] x2
+| notes = Quest completion dialogue will play upon completion
+| once  = True
+}}
+{{Quests
+| type = Sortie
+| listnum = B126
+| reqQuest = A91
+| reqQuest2 = 
+| namejp = 主力オブ主力、抜錨開始！
+| nameen = Main Force of the Main Force, Set Sail!
+| req = Type- A Destroyer Formation Mission: Deploy a powerful fleet that includes the elite DesDiv 10 consisting of the two Yuugumo-class destroyers Yuugumo K2 & Makigumo K2 to the southern sea, then have it engage and destroy the enemies at Sav Island, the Salmon Sea area and the northern Salmon Sea area!
+
+* Take a fleet consisting of [[Makigumo|Makigumo Kai Ni]] and [[Yuugumo|Yuugumo Kai Ni]] and 4 XX and score an S rank on the boss nodes of 5-3, 5-4, and 5-5. 
+| fuel = 500
+| ammo = 500
+| steel = 500
+| bauxite = 1000
+| other = <br> '''Choose between the following rewards:'''<br> Skilled Pilot x1 <br>'''or'''<br> Improvement Materials x4 <br>'''and'''<br> '''Choose between the following rewards:'''<br> New Type Artillery Armament Material x1 <br>'''or'''<br> [[ Type Aviation Armament Material]] x1 <br>'''or'''<br> [[Daihatsu]] x1
+| notes = 
+| once  = true
+}}
+|}
+</div></div>
+<div class="mw-collapsible mw-collapsed"><h4>Repeatable Quests</h4>
+<div class="mw-collapsible-content">
+{{QuestsHeader}}
+{{Quests
+| type = Sortie
+| listnum = Bq8
+| reqQuest = B125
+| reqQuest2 = 
+| namejp = 泊地周辺海域の安全確保を徹底せよ！
+| nameen = Thoroughly Secure the Sea Around the Anchorages!
+| req = Coastal Anchorage Guard Expansion: Form a powerful anchorage patrol unit, then repeatedly sortie to the sea near the naval base, the Brunei Anchorage and the Tawi-Tawi Anchorage! Supress the enemy submarines roaming each area, then engage and destroy the enemy forces that are becoming a threat to the area around the anchorages!
+
+* Take a fleet and S rank the boss nodes of the following maps 3 times: 1-5, 7-1, 7-2(Part 1), and 7-2(Part 2). 
+| fuel = 2000
+| ammo = 500
+| steel = 0
+| bauxite = 500
+| other = '''300 Rank Points'''  <br>'''and'''<br> '''Choose between the following rewards:'''<br> [[Skilled Lookouts]] x1 <br>'''or'''<br> Skilled Pilot x1 <br>'''or'''<br> [[Maritime Resupply]] x4
+| notes = Quarterly Quest
+| once  = 
+}}
+{{Quests
+| type = Sortie
+| listnum = BQ9
+| reqQuest =
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 空母戦力の投入による兵站線戦闘哨戒 
+| nameen =  Utilize the supply line logistic of your Carrier Force!
+| req = Organize a Patrol fleet that include an a Carrier, and patrol, the Oil Refinery Area(1-3), Nansei Island Defense Line (1-4), Nansei Island Front Waters (2-1), The waters of Bashi Strait (2-2) and the Eastern Orel Sea (2-3). Vigilantly patrol the area and engage the main enemy fleet in the area. 
+
+* Organize a fleet with at least 1 CV(L)(B) in your fleet and sortieto 1-3, 1-4, 2-1, 2-2, and 2-3 and score an S rank at the boss nodes
+| fuel = 600
+| ammo = 0
+| steel = 600
+| bauxite = 0
+| other ='''Choose between the following rewards:'''<br> Development Materials x4 <br>'''or'''<br> [[New Type Aviation Armament Materials]] x1 <br> '''and''' <br> '''Choose between the following rewards:'''<br> [[Saiun]] x1 <br>'''or'''<br> [[Skilled Pilot]] x1 <br> '''or''' <br> Present Box x1
+| notes = ''Quarterly Quest''
+| once  = 
+}}
+{{Quests
+| type = Factory
+| listnum = Fq1 <br> (F35)
+| reqQuest = 
+| reqQuest2 = 
+| namejp = 「熟練搭乗員」養成
+| nameen = "Skilled Pilot" Training
+| req = Consume 2 Medals: With Houshou, create a maxed expertise and maxed modified [[Type 96 Fighter]] to train a skilled crew! (After Mission is complete, the unit will disappear)
+*Use [[Houshou]] as your secretary, equip a maxed [[Akashi's Improvement Arsenal|upgraded]], maxed ranked [[Type 96 Fighter]] to [[Houshou]]
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 100
+| other = x1 Skilled Pilot
+x4 Improvement Materials
+| notes =  Will consume 2 medals 
+[[Type 96 Fighter]] will disappear upon completion.
+''Quarterly Quest''
+| once  =
+}}
+|}
+</div></div>
+
+===Events===
+
+Some [[Events]] will reward Skilled Pilots. Due to uncertainty in whether an event will award Skilled Pilots, please check the current event page for more up to date details.
+
+=Uses=
+===Quests===
+<div class="mw-collapsible mw-collapsed"><h4>One-Time Quests</h4>
+<div class="mw-collapsible-content">
+{{QuestsHeader}}
+{{Quests
+| type = Factory
+| listnum = F22
+| reqQuest = Bm6
+| namejp = 精鋭「艦戦」隊の新編成
+| nameen = Organization of the new elite fighter force
+| req = ''Skilled Pilot Required: Scrap two [[Zero Fighter Type 21]] and one [[Type 96 Fighter]] while your secretary ship is Houshou equipped with max-expertise [[Zero Fighter Type 21]]!''
+*Completion Condition: Have a Skilled Pilot in the inventory, and:
+*# Set [[Houshou]] equipped with a max-expertise [[Zero Fighter Type 21]] as the secretary ship, and then
+*# Scrap two [[Zero Fighter Type 21]] and one [[Type 96 Fighter]]. 
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 50
+| other = [[Zero Fighter Type 21 (Skilled)]]
+| notes = Required for [[#F24|F24]] and [[#F28|F28]] 
+''Monthly Quest''
+| once = 
+}}
+{{Quests
+| type = Factory
+| listnum = F51
+| reqQuest = 
+| reqQuest2 = 
+| namejp = 精鋭「水戦」隊の新編成
+| nameen = Organize the New Elite Seaplane Group
+| req = Organize a new Elite Squadron: Have a Secretary ship equipped with a [[Type 2 Seaplane Fighter Kai]] with Max Expertise and max modifications '''in the first slot'''and then scrap 2 [[Type 21 Zero Fighter]]s and 2 [[Zuiun]]. *Skilled Pilots is required to complete the process.
+*Have a secretary ship equipped with a Maxed Expertise and Max Star '''in the first slot''' [[Type 2 Seaplane Fighter Kai]] and then Scrap 2 [[Type 21 Zero Fighter]] and 2 [[Zuiun]] in your inventory while the quest is activated.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 50
+| other = x1 [[Type 2 Seaplane Fighter Kai (Skilled)]]
+| notes = Skilled Pilot is required for quest completion, Skilled Pilot will be consumed upon completion of quest.
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F52
+| reqQuest = F51
+| reqQuest2 = 
+| namejp = 精精鋭「水戦」隊の増勢
+| nameen = Expand the New Elite Seaplane Group
+| req =  Organize a new Elite Squadron: Have a Secretary ship equipped with a [[Type 2 Seaplane Fighter Kai]] with Max Expertise and max modifications '''in the first slot''' and then scrap 2 [[Type 21 Zero Fighter]]s and 2 [[Zuiun]]. *Skilled Pilots is required to complete the process.
+*Have a secretary ship equipped with a Maxed Expertise and Max Star [[Type 2 Seaplane Fighter Kai]] '''in the first slot''' and then Scrap 2 [[Type 21 Zero Fighter]] and 2 [[Zuiun]] in your inventory while the quest is activated.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 50
+| other = x1 [[Type 2 Seaplane Fighter Kai (Skilled)]]
+| notes = Skilled Pilot is required for quest completion, Skilled Pilot will be consumed upon completion of quest.
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F58
+| reqQuest = B102
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 精鋭「瑞雲」隊の編成.
+| nameen = Organize the Elite "Zuiun" Group
+| req = Have Hyuuga Kai as secretary, put a ★max "Zuiun (634 Air Group)" into her 4th slot, then scrap two Drum Canisters. Furthermore, have two "Type 99 Dive Bombers" and two "Zuiun" in your inventory. 
+*This quest requires a "Skilled Pilot".
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 100
+| other = [[Zuiun (634 Air Group/Skilled)]]
+| notes = [[Zuiun (634 Air Group)]] will become a [[Zuiun (634 Air Group/Skilled)]] and One Skilled Pilot, two [[Type 99 Dive Bomber]]s and two [[Zuiun]] will be consumed upon completion of quest. 
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F62
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 夜間作戦型艦上攻撃機の開発
+| nameen = Development of carrier-based night bombers
+| req = Equip a [[TBF]] in the first slot of your secretary ship, scrap x2 [[Type 13 Air RADAR]]s, x2 [[Type 22 Surface RADAR]]s and prepare 40 Development Materials, 10 Improvement Materials, 5000 ammo, 8000 bauxite,  1 Skilled Pilot and 1  New Aviation Armament Materials.
+| fuel = 100
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = [[TBM-3D]]
+| notes = All above mentioned items that are prepared will be consumed upon the completion of this quest and the [[TBF]] will be turned into a [[TBM-3D]].
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F75
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 =
+| namejp =  精鋭「航空戦艦」彗星隊の編成
+| nameen = Organize the Elite "Battle Carrier" Suisei Air Group
+| req = * Put [[Ise|Ise kai ni]] as the flagship, equip a [[Suisei Model 22 (634 Air Group)]] in the third slot. Scrap 3 [[Type 99 Dive Bomber]]s and 3 [[Suisei]], Prepare 3000 bauxite, a skilled crew member, 30 devmats and a New Model Aerial Armament Material. The resources and items will be consumed. 
+| fuel = 0
+| ammo = 634
+| steel = 0
+| bauxite = 0
+| other = [[Suisei Model 22 (634 Air Group/Skilled)]]
+| notes = All prepared items will disappear upon completion of quest and the [[Suisei Model 22 (634 Air Group)]] will become a [[Suisei Model 22 (634 Air Group/Skilled)]]
+| once  = True
+}}
+{{Quests
+| type = Factory
+| listnum = F79
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 =
+| namejp = 航空戦力の強化
+| nameen = Air Force Expansion
+| req = Air Force Expansion Mission: Scrap 3 fighters, 3 dive bombers, 3 torpedo bombers, 3 recon seaplanes, then prepare 1 Skilled Pilot as well as 1800 bauxite (The Skilled Pilot and bauxite will be consumed upon completion of this mission)
+| fuel = 100
+| ammo = 100
+| steel = 0
+| bauxite = 0
+| other = '''Choose between the following rewards:'''<br> [[Zero Fighter Type 32 (Skilled)]] x1 <br>'''or'''<br> [[Type 1 Fighter Hayabusa Model II]] x1 <br> '''or''' <br> [[Zuiun (631st Air Group)]]
+| notes = Skilled Pilot and 1800 Bauxite will be consumed upon the completion of this quest. <br>''Quarterly Quest''
+| once  = 
+}}
+{{Quests
+| type = Factory
+| listnum = F80
+| reqQuest = 
+| reqQuest2 = 
+| namejp =  戦闘機隊戦力の拡充 
+| nameen = Expansion of Land Base Air Squadron
+| req = Scrap four carrier fighters, four seaplanes and two carrier recons. Prepare one Skilled Crew Pilot, one set of New Aircraft Armament Materials and prepare 3000 Bauxite. 
+* Completing this quest will consume 3000 bauxite and all the aforementioned materials.
+
+| fuel = 0
+| ammo = 100
+| steel = 0
+| bauxite = 0
+| other = <br> '''Choose between the following rewards:'''<br> [[Reppuu Model 11]] x1 <br>'''or'''<br> [[Type 3 Fighter Hien]] x2 <br>'''or'''<br> [[Spitfire Mk.I]] x2
+| notes = 
+| once  = true
+}}
+{{Quests
+| type = Factory
+| listnum = F81
+| reqQuest =
+| reqQuest2 = 
+| namejp = 基地航空隊戦力の拡充
+| nameen = Expansion of Aircraft Carrier Forces
+| req = Scrap 4 carrier fighters, 4 dive bombers, 4 torpedo bombers and prepare one Skilled Crew member, two sets of New Aircraft Armament Materials, and prepare 4,800 Bauxite.
+* Completing this quest will consume 4800 bauxite and the aforementioned materials.
+
+| fuel = 0
+| ammo = 200
+| steel = 0
+| bauxite = 0
+| other = '''Choose between the following rewards:'''<br> [[Raiden]] x1 <br>'''or'''<br> [[Prototype Toukai]] x1 <br>'''or'''<br> [[Shiden Type 11]] x2
+| notes =
+| once  = True
+}}
+{{Quests
+| type = Factory
+| listnum = F87
+| reqQuest = B132
+| reqQuest2 = F86
+| reqQuest3 =
+| namejp =「最精鋭「瑞雲」隊の編成
+| nameen = Organize the most elite Zuiun Unit
+| req = Have Ise Kai Ni or Hyuuga Kai Ni as your flagship and equip a [[Zuiun Kai Ni (634 Air Group)]] that is max modified on first slot, scrap 6 [[Zuiun]], 3 [[Suisei]], 1 [[Prototype Reppuu Late Model]], then prepare 2000 ammo, 8000 bauxite, 1 New Type Aviation Armament Material, 2 Skilled Crew Member
+* All mentioned resources and materials will be consumed upon completion
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = [[Zuiun Kai Ni (634 Air Group/Skilled)]]
+| notes = * 2,000 ammo, 8,000 bauxite, 1 New Type Aviation Armament Material, 2 Skilled Crew Member will be consumed upon completion of quest<br> * [[Zuiun Kai Ni (634 Air Group)]] will transform into [[Zuiun Kai Ni (634 Air Group/Skilled)]]
+| once  = True
+}}
+{{Quests
+| type = Factory
+| listnum = F88
+| reqQuest = B137
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 一航戦精鋭「流星改」隊の編成
+| nameen = Formation of the CarDiv 1's peerless "Ryuusei Kai" squadron
+| req = With [[Akagi|Akagi Kai Ni/E]] as your flagship, equip the [[Ryuusei Kai (CarDiv 1)]] in the first slot with max expertise, then proceed to scrap x4 [[Ryuusei Kai]]s, x1 [[Saiun]], x2 [[Type 97 Torpedo Bomber]]s, and prepare 2800 ammo, 9000 bauxite, and 2 [[Skilled Pilots]].
+* All mentioned resources and materials will be consumed upon completion
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = [[Ryuusei Kai (CarDiv 1/Skilled)]] x1
+| notes = * 2,800 ammo, 9,000 bauxite,,2 Skilled Crew Member will be consumed upon completion of quest<br> * [[Ryuusei Kai (CarDiv 1)]] will transform into [[Ryuusei Kai (CarDiv 1/Skilled)]]
+| once  = True
+}}
+|}
+</div></div>
+
+===Equipment Upgrades===
+
+''Some of these upgrades may require more than just Skilled Pilots. All of them also require additional fodder equipment. Please refer to [https://akashi-list.me/ Akashi-List] for the exact requirements.''
+
+{| class="wikitable" style="width:100%;"
+|+ Drops
+|-
+!style="text-align: center;  border-radius: 6px 0 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Equipment Type
+!style="text-align: center;  border-radius: 0 6px 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
+|-
+|style="text-align: center;" colspan="2"| Seaplane Bomber
+|[[Zuiun (634 Air Group)]]
+|-
+|}<references/>
+
+{{Clear}}
+
+=See Also=
+[[Improvement]]<br>
+[[Help:Resource Farming]]
+{{Mechanics}}

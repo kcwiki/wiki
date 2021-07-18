@@ -1,0 +1,50 @@
+{{EquipmentInfo|226}}
+
+==Introduction==
+対潜水艦に使用する増加爆雷装備です。<br>
+駆逐艦や海防艦などに爆雷投射機やソナー類などの対潜装備ともに装備することで、対潜能力の向上が図れます。
+
+''This is additional depth charge equipment used for anti-submarine warfare.''<br>
+''Equipping it together with other ASW equipment such as depth charge projectors or sonars on destroyers, coastal defense ships and the like can increase their anti-submarine capabilities.''
+
+==Notes==
+;Unbuildable.
+:Ships receive a boost of 15% more ASW firepower when this is used together with a [[:Category:SONAR|SONAR]], 10% when used with only a [[:Category:Depth Charge Projectors|depth charge projectors]], and 43% more power when used with both a [[:Category:SONAR|SONAR]] and a [[:Category:Depth Charge Projectors|depth charge projectors]] (must be on the same ship). The 43% bonus does not apply when combined with any of the [:Category:Special Depth Charge Projectors|special DCPs]]. Only the 15% bonus will apply.
+:Stock equipment of [[Shimushu|Shimushu Kai]] and [[Etorofu|Etorofu Kai]].
+:Quest reward from [[Quests#Bm8|Bm8]], [[Quests#C37|C37]], [[Quests#C43|C43]], and [[Quests#D26|D26]].
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=DepthCharge
+|Fuel=10
+|Ammo=90
+|Steel=10
+|Baux=60
+|Mats0-5=3/4
+|Mats6-9=4/5
+|Mats10=5/9
+|Screws0-5=1/1
+|Screws6-9=2/3
+|Screws10=3/6
+|EquipConsume0-5=-
+|EquipConsume6-9=1x{{DepthCharge|Type 95 Depth Charge}}
+|EquipConsume10=2x{{DepthCharge|Type 95 Depth Charge}}
+|Sun=&nbsp;<br>&nbsp;<br>K<br>&nbsp;
+|Mon=S<br>&nbsp;<br>&nbsp;<br>&nbsp;
+|Tue=S<br>&nbsp;<br>&nbsp;<br>N
+|Wed=S<br>E<br>&nbsp;<br>N
+|Thu=S<br>E<br>K<br>N
+|Fri=&nbsp;<br>E<br>K<br>&nbsp;
+|Sat=&nbsp;<br>E<br>K<br>&nbsp;
+|2ndShip=[[Shimushu]]<br>[[Etorofu]]<br>[[Kamikaze]]<br>[[Naka#Second Upgrade|Naka Kai Ni]]
+|Notes=Upgrades to [[Type 2 Depth Charge]].
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Anti-submarine Weaponry]]
+[[Category:Depth Charges]]

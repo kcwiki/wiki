@@ -1,0 +1,48 @@
+__NOTOC__
+{{EquipmentInfo|145}}
+
+==Introduction==
+
+腹が減ってはなんとやら･･････戦闘前にしっかりと腹ごしらえをしておきましょう。<br>
+海の上で食べる握り飯の味は格別です！<br>
+(発動すると消滅します)
+
+==Notes==
+Battle Rations are a consumable item that, when an equipped ship drops to a certain level of [[morale]], will be consumed, resulting in a large boost in morale for the ship that 'eats' the Ration, while the ships 'besides' (the ones directly above and below in the combat screen) are given a small boost.
+*{{PAGENAME}} slightly increases TP gauge drain during [[Transport Operation#Equipment TP Value|Transport Operations]]
+Common Event Drop. Reward for [[Quests#C8|quest C8]].
+
+== Akashi's Improvement Arsenal ==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+| Name = {{PAGENAME}}
+| ItemType = Rations
+| Fuel = 10
+| Ammo = 0
+| Steel = 0
+| Baux = 5
+|Mats0-5 = 1/2
+|Mats6-9 = 1/2
+|Mats10 = 1/3
+|Screws0-5 = 0/0
+|Screws6-9 = 1/1
+|Screws10 = 0/1
+|EquipConsume0-5 = 1x{{Rations|Combat Ration}}
+|EquipConsume6-9 = -
+|EquipConsume10 = 1x{{Rations|Combat Ration}}
+| Sun = Na<br/>A
+| Mon = Na<br/>&nbsp;
+| Tue = Na<br/>&nbsp;
+| Wed = Na<br/>&nbsp;
+| Thu = Na<br/>&nbsp;
+| Fri = Na<br/>A
+| Sat = Na<br/>A
+| 2ndShip = [[Naganami]]<br/>[[Agano]]
+| Notes = Uses [[Combat Ration]] for improvement up to ★+6 <br> Upgrades [[Battle Ration (Special Onigiri)|Combat Ration (Special Onigiri)]]
+}}
+|}
+
+==See Also==
+{{Equipmentlist}}
+[[Category:Equipment]]
+[[Category:Ration]]

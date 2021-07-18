@@ -1,0 +1,1134 @@
+=Introduction=
+
+This page lists all the applicable damage formulas for a '''single fleet'''. Special cases like [[Combined_Fleet#Damage_Calculations|Combined Fleet]]s and [[Land-Based_Air_Squadron#Attack_Power|Land-Based Air Squadron]]s have their own adjustments to the standard damage formulas. Please see those pages for further details.
+
+'''Please note that all formulas between <math>\lfloor \ \rfloor</math> or marked with <math>\downarrow</math> are [[wikipedia:Floor and ceiling functions|rounded down]].'''
+
+* For example, <math>\lfloor 4.2 \rfloor = 4</math>.
+* <math>4.2 \times_\downarrow 1.5 = \lfloor 4.2 \times 1.5 \rfloor = \lfloor 6.3 \rfloor = 6</math>, '''but''' <math>4.2 \times_\downarrow 1 = 4.2</math> (by definition, <math>\times_\downarrow</math> is then a non-commutative non-associative operator, it is assumed to be left-associative with lower priority than the usual multiplication operator).
+
+=Damage Formula=
+
+<math>\text{Damage} = \biggl \lfloor \biggl ( \lfloor \text{Atk}_\text{cap} \rfloor \times \text{Mod}_\text{spotting} \times_\downarrow \text{Mod}_\text{AP} \times \text{Mod}_\text{CVCI} \times_\downarrow \text{Crit} \times \text{Mod}_\text{post} - \text{DEF} \biggr ) \times \text{Ammo} \biggr \rfloor </math>
+
+* <math>\text{Atk}_\text{cap}</math> is the '''Cap Adjusted Attack Power'''
+* <math>\text{Mod}_\text{spotting}</math> is the bonus from [[Damage_Calculations#Artillery_Spotting|artillery spotting]].
+* <math>\text{Mod}_\text{CVCI} </math> is the bonus from [[Damage_Calculations#Carrier_Cut-In_Attacks|carrier cut-ins]].
+* <math>\text{Mod}_\text{AP}</math> is the bonus from having [[Damage_Calculations#Armour-Piercing_Modifier|an AP shell equipped]], if applicable.
+* <math>\text{Mod}_\text{post}</math> is any remaining '''[[#Post-cap Corrections|post-cap modifiers]]''' that are applicable.
+* <math>\text{Crit}</math> is the '''[[#Critical Strikes|critical strike]]''' modifier.
+* <math>\text{Ammo}</math> is the '''[[#Ammunition Modifier|remaining ammunition]]''' modifier.
+* <math>\text{DEF}</math> is the '''[[#Defensive Power|defensive power]]''' of the target.
+
+Where, Cap Adjusted Attack Power is Basic Attack Power that has been adjusted by applying the '''[[#Attack Power Cap|damage cap]]'''. '''This only applies if the calculated pre-cap attack power is above the damage cap'''.
+
+<math>\text{Atk}_\text{cap} = \text{Cap} + \sqrt{\left ( \text{Atk}_\text{basic} \times \text{Mod}_\text{pre}\right)-\text{Cap}} </math>
+
+* <math>\text{Cap}</math> is the '''damage cap''' relevant to the phase.
+* <math>\text{Atk}_\text{basic}</math> is the '''[[#Basic Attack Power Formulas|basic attack power]] of the relevant attack.
+* <math>\text{Mod}_\text{pre}</math> is any '''[[#Pre-cap Corrections|pre-cap modifiers]] that are applicable.
+
+=Defense Power=
+
+<math>\text{DEF} = \left( \text{Armour} \times 0.7 + \text{Armour}_\text{rand} \times 0.6 \right) - \text{Pen}</math>
+
+* <math>\text{Armour}</math> is the armour of the target including all equipment and upgrade bonuses. 
+* <math>\text{Armour}_\text{rand}</math> is a random number between <math>0</math> and <math>\lfloor\text{Armour}\rfloor - 1</math>
+** Note that it is inclusive, meaning it can also output <math>0</math> and <math>\lfloor\text{Armour}\rfloor - 1</math>
+* <math>\text{Pen}</math> is any applicable armour penetration mechanic like [[Damage_Calculations#Debuffs|debuffs]] or the depth charge penetration for ASW.
+** [[Type 95 Depth Charge]]: <math>-1</math>
+** [[Type 2 Depth Charge]]: <math>-2</math>
+** There is an additional 1 penetration if the depth charge is equipped on a [[:Category:Destroyer_Escorts|destroyer escort]].
+** The formula is <math>\text{Pen}_\text{DC} = \sqrt{\text{ASW}_\text{equip}-2} + \text{Mod}_\text{ship}</math>
+
+Therefore, the '''maximum armour value''' <math>\text{Armour}  \times 1.3 - 0.6</math> and the  '''minimum armour value''' is <math>\text{Armour} \times 0.7</math>. This makes the maximum defensive power a target can have is '''1.3x''' armour and the lowest is '''0.7x''' armour.
+
+'''Important Notes'''
+* The range of armour values is uniformly distributed, every armour roll has the same chance of occurring.
+
+=Basic Attack Power Formulas=
+The following formulas only apply to single fleets. Please see [[Combined Fleet#Basic Attack Power|Combined Fleet]], [[Land-Based Air Squadron#Bombing Power|Land-Based Air Squadron]] and [[Expeditions#Support Expeditions|Support Expeditions]] for more details.
+
+'''Important Notes'''
+* Please see [https://akashi-list.me/ Akashi List] for upgrade bonus values.
+* <math>\text{FP}</math> is the firepower {{Firepower}} of the ship including equipment.
+* <math>\text{TP}</math> is the torpedo {{Torpedo}} of the ship including equipment or the torpedo of a plane.
+* <math>\text{ASW}</math> is the anti-submarine {{ASW}} of the ship or equipment. 
+* <math>\text{DB}</math> is the dive bombing {{Dive}} of the plane.
+* <math>\bigstar</math> is the upgrade bonus of the equipment.
+
+===Airstrike===
+This applies to both [[Combat#Jet Assault|jet assaults]], [[Aerial Combat#Airstrike|airstrikes]] and [[Land-Based Air Squadron|LBAS]].
+
+<math>\text{Airstrike Power} = \text{Type} \times \biggl( \left( \text{DB or TP} + \bigstar \right) \times \sqrt{\text{Count}_\text{Plane}} + 25 \biggr)</math>
+
+* <math>\text{Type}</math> is a multiplier based on the type of the plane. See below for details.
+* <math>\text{Count}_\text{Plane}</math> is the number of planes performing the attack.
+
+{| class="wikitable" 
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Type
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Multiplier
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|Notes
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Torpedo Bombers
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0.8x or 1.5x
+|style="border-style: solid; border-width: 1px;"| The multiplier is chosen randomly. The chance is roughly 50%.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Dive Bombers<br>
+Seaplane Bombers<br>
+Fighter Bombers
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.0x
+|style="border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Jets<br>
+(During jet assault)
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.0x
+|style="border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Jets<br>
+(During normal bombing)
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0.7071x
+|style="border-style: solid; border-width: 1px;"| 
+|-
+|}
+
+'''Important Notes'''
+* Airstrike power is calculated independently for each equipment slot on the carrier.
+* The firepower of the carrier does not affect airstrike power.
+* Torpedo Stat from fit does not contribute to airstrike damage
+* The power is calculated '''after''' the air combat and anti-air fire phases which means bombers getting shot down will affect the final calculation.
+* It is not affected by [[Damage Calculations#Engagement|engagement]], [[Damage Calculations#Formation|formation]] or [[Damage Calculations#Damage State|damage states]].
+* It is affected by [[Damage Calculations#Aerial Contact|contact]].
+* For LBAS, the stat used when calculating attack power varies based on the target. Please see [[Land-Based_Air_Squadron#Attack_Power|LBAS]] for more details.
+
+===Surface Shelling===
+
+<math>\text{Shelling Power} = \text{FP} + \bigstar + 5</math>
+
+'''Important Notes'''
+* The caliber of the gun does not affect damage.
+* Abyssal installations that are not equipped with a plane that has a torpedo or dive bombing stat will use the surface shelling formula for calculating damage.
+
+===Carrier Attacks===
+
+<math>\text{Power}_\text{carrier} = \bigl\lfloor \left( \text{FP} + \left(\text{TP} + \bigstar \right) + \lfloor \text{DB} \times 1.3 \rfloor + \bigstar \right) \times 1.5 \bigr\rfloor + 55 </math>
+
+'''Important Notes'''
+* Dive and Torpedo groups contribute, respectively, twice (1.95) and 1.5 times their dive bomb and torpedo stats towards shelling power
+* Torpedo Stat from fit does not contribute to shelling damage
+* If a carrier is not equipped with any torpedo or dive bombers, she will not participate in shelling.
+** This also applies if they have lost all bombers during the aerial combat phase.
+** But even if an air group has had all its planes shot down, it will still contribute towards carrier shelling power (if the CV is still capable of attacking).
+* Remember that there are potentially two sources of <math>\bigstar</math> bonuses.
+** Torpedo bomber upgrades to the torpedo stat.
+** Secondary and machine gun upgrades to the firepower stat.
+* Slot sizes and the number of remaining aircraft '''do not affect''' carrier attack power during shelling.
+* Carriers have the easiest time hitting the damage cap. This makes them very powerful assets for the fleet.
+* Abyssal installations equipped with a plane that has a torpedo or dive bombing stat will use the carrier formula for determining shelling damage.
+* Planes are '''not shot down''' when a carrier participates in shelling
+
+===Torpedo Attacks===
+
+<math>\text{Torpedo Power} = \text{TRP} + \bigstar + 5</math>
+
+'''Important Notes'''
+* Submarines and Abyssal installations cannot be targeted by torpedoes.
+** If the only available targets are submarines or installations, the attack will trigger but always miss.
+* A ship must have a base torpedo stat of more than 0 to perform torpedo attacks.
+
+===Anti-Submarine Warfare===
+
+<math>\text{ASW Power} = \left( 2\sqrt{\text{ASW}_\text{ship}} + 1.5\text{ASW}_\text{equip} + \bigstar + \text{Type}_\text{ship} \right) \times \text{Mod}_\text{synergy}</math> 
+
+* <math>\text{Type}_\text{ship}</math> is a constant depending on the type of the ship performing the attack. See below for details.
+* <math>\text{Mod}_\text{synergy}</math> is the synergy multiplier bonus from using certain combinations of ASW equips. See below for details.
+
+{| class="wikitable"
+|+Ship Type Constant
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Constant
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|Ship Types
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 13
+|style="border-style: solid; border-width: 1px;"| Destroyer Escorts, Destroyers, Light Cruisers, Oilers (without seaplane bombers, torpedo bombers or rotary-wing aircraft equiped)
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 8
+|style="border-style: solid; border-width: 1px;"| Aviation Cruisers, Aviation Battleships, Seaplane Tenders, Light Carriers, Landing Ships, Oilers  (with seaplane bombers, torpedo bombers or rotary-wing aircraft equiped)
+|-
+|}
+
+{| class="wikitable"
+|+ASW Synergy Bonus
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|Equipment Combination
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Bonus
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Depth Charge + Depth Charge Projector + Sonar
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.4375x
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Depth Charge Projector + Sonar
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.15x
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Depth Charge + Sonar
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.15x
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Depth Charge + Depth Charge Projector
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.1x
+|-
+|}
+
+* The bonuses do not stack. 
+** The exception is when using the special depth charge projectors detailed below.
+* Multiple equipment of the same type still only apply the bonus '''once'''.
+* There is an accuracy bonus as well but it is small. Stacking sonars will give a bigger accuracy bonus.
+* The breakdown of equipment types are:
+** Sonars: [[Type 93 SONAR]], [[Type 3 SONAR]], [[Type 0 Passive SONAR]], [[Type 4 SONAR]], [[Type124 ASDIC]], [[Type144/147 ASDIC]], [[HF/DF + Type144/147 ASDIC]]
+** Depth Charge Projectors: [[Type 94 Depth Charge Launcher]], [[Type 3 Depth Charge Launcher]]
+** Depth Charges: [[Type 95 Depth Charge]], [[Type 2 Depth Charge]]
+* The [[Type 3 Depth Charge Launcher (Concentrated Deployment)]], [[Prototype 15cm Nonuple ASW Rocket Launcher]], [[Type 2 12cm Mortar Kai]] and [[Type 2 12cm Mortar Kai (Concentrated Deployment)]] '''do not''' count as depth charge projectors for the DC+DCP+Sonar synergy bonus. 
+** They '''do''' still count for the DCP+Sonar synergy bonus.
+** Because they do not count, the DCP+Sonar bonus with these equips stack with the other DC+DCP+Sonar bonus.
+** This is only possible with a '''ship that has 4 equipment slots'''.
+
+'''Important Notes'''
+* When contributing to ASW power, Base ASW is '''square rooted''', while equipment ASW is '''multiplied by 1.5'''
+** ASW equipment is therefore the primary source of ASW damage, with base ASW playing a very minor role
+** However, base ASW is the primary determinant of whether a ship can reach 100 total ASW to perform opening ASW attacks
+* Submarines cannot take more than scratch damage at night (and therefore cannot be sunk)
+** The exception to this rule is when a battle starts at night, or when in a combined fleet
+* It is possible to perform opening ASW attacks when certain conditions are achieved. For more details, please see [[Opening Anti-Submarine Warfare]].
+** As performing an opening attack effectively doubles your damage output, reaching this OASW threshold is in general more important than tacking on additional synergy
+
+===Surface Night Battle===
+
+<math>\text{Night Battle Power} = \text{FP} + \text{TP} + \bigstar + \text{Mod}_\text{contact}</math>
+
+* <math>\text{Mod}_\text{contact}</math> is the Night Battle Contact constant of +5 if triggered.
+
+'''Important Notes'''
+* Night battle is unaffected by engagement.
+** Exceptions are ASW for night battle nodes and [[Nelson#Special Mechanics|Nelson Touch]].
+* If a night battle special attack is evaded, [[Damage_Calculations#Chip_Damage|chip damage]] is applied instead.
+* [[Graf Zeppelin]], [[Saratoga|Base Saratoga]], [[Taiyou|Taiyou Kai Ni]], [[Ark Royal|Ark Royal (with Swordfish]] use the surface night battle formula if they are not performing a carrier night attack.
+* In night battle versus Abyssal installations, '''the torpedo stat is ignored'''.
+** This also means any upgrade bonuses to torpedo power is ignored.
+
+===Carrier Night Cut-In===
+
+<math>\text{Night Battle Power}_\text{carrier} = \text{FP}_\text{ship} + \sum_\text{All Night Planes} \text{FP}_\text{night plane} + \text{TP}_\text{night plane} + \text{DB}_\text{night plane} + \text{Night Plane Bonus}</math>
+
+Where:
+
+<math>\text{Night Plane Bonus} = \mathrm{A} \times \text{Count}_\text{plane} + \mathrm{B} \times \left( \text{FP}_\text{night plane} + \text{TP}_\text{night plane} + \text{DB}_\text{night plane} + \text{ASW}_\text{night plane} \right) \times \sqrt{\text{Count}_\text{plane}} + \sqrt{\bigstar}</math>
+
+* <math>\mathrm{A}</math> is 3 for '''[[:Category:Night Planes|night planes]]'''; and 0 for '''[[:Category:Swordfish|Swordfish]], [[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)]] and [[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)]]'''
+* <math>\mathrm{B}</math> is 0.45 for night planes and 0.3 for Swordfish, Type 62 Iwai and Photobomb Suisei.
+
+'''Important Notes'''
+* Carriers must be equipped with a [[Night Operation Aviation Personnel]] or [[Night Operation Aviation Personnel + Skilled Deckhands]] in addition to night attack capable planes in order to perform carrier night attacks.
+** Exceptions to this are [[Saratoga|Saratoga Mk.II]] and [[Akagi|Akagi Kai Ni E]] that only need night attack capable planes.
+* If the carrier night attack is evaded, it deals [[Damage Calculations#Chip Damage|chip damage]] instead.
+* Unlike daytime carrier attacks, it is possible to attack even if no bombers are equipped.
+** You still need night fighters to trigger the attack.
+* Like daytime carrier attacks, carriers are unable to attack if moderately damaged or worse.
+** Armoured carriers are only disabled at heavy damage.
+** Carriers that can use the night battle shelling formula will use that instead if moderately damaged.
+* The formula '''only takes into account the base stats of the carrier and night attack capable planes equipped'''. 
+** The hidden upgrade bonus to stats is not taken into account.
+** This means any other stats and upgrade bonuses from equipment like guns and non-night capable planes are ignored.
+** This also means that visible Torpedo Stat Fit Bonus from Planes is also ignored
+* Certain carriers like [[Graf Zeppelin]], [[Taiyou|Taiyou Kai Ni]], [[Shinyou|Shinyou Kai Ni]], [[Saratoga|base Saratoga]] and [[Ark Royal]] are capable of performing night attacks but they '''are not''' carrier night cut-ins and are just normal carrier attacks. Please see [[Night Battle#Carrier_Night_Attacks|Carrier Night Attacks]] for more details.
+
+===Anti-Installation Attacks===
+
+<math>\text{Anti-Installation Power} = \text{Atk} \times \text{Mod}_\text{A} + \text{Mod}_\text{B}</math>
+
+* <math>\text{Atk}</math> is the basic attack power of [[Damage Calculations#Surface Shelling|shelling]], [[Damage Calculations#Carrier Attacks|carrier attacks]], [[Damage Calculations#Surface Night Battle|night battle]] or [[Damage Calculations#Carrier Night Attacks|carrier night attacks]] with the '''torpedo stat ignored'''.
+* <math>\text{Mod}_\text{A}</math> are the '''multiplicative''' anti-installation bonuses. See below for details.
+* <math>\text{Mod}_\text{B}</math> are the '''additive''' anti-installation bonuses. See below for details
+
+{| border="1" style="text-align:center; border:0.2px solid #A9A9A9; cellspacing=0px; border-collapse:collapse;"
+|+'''Multiplicative Bonuses'''
+!style="background-color:#99CCFF; width:128px;" rowspan="2"|Equipment Name
+!style="background-color:#99CCFF; width:64px;" colspan="2"|Artillery Imp
+!style="background-color:#99CCFF; width:64px;" colspan="2"|Isolated Island Demon
+!style="background-color:#99CCFF; width:64px;" colspan="2"|Soft-Skinned<ref>[[Supply Depot Princess]], [[Harbor Princess]] and [[Northern Princess]].</ref>
+!style="background-color:#99CCFF; width:64px;" colspan="2"|Harbour Summer Princess
+|-
+!style="background-color:#99CCFF; width:32px;"| Single
+!style="background-color:#99CCFF; width:32px;"| Multiple
+!style="background-color:#99CCFF; width:32px;"| Single
+!style="background-color:#99CCFF; width:32px;"| Multiple
+!style="background-color:#99CCFF; width:32px;"| Single
+!style="background-color:#99CCFF; width:32px;"| Multiple
+!style="background-color:#99CCFF; width:32px;"| Single
+!style="background-color:#99CCFF; width:32px;"| Multiple
+|-
+|style="text-align:left; background-color:#C3FFB2;"| [[:Category:Anti-Aircraft Shells|Anti-Aircraft Shells]]
+|style="background-color:#C3FFB2;" colspan="2"| -
+|style="background-color:#C3FFB2;" colspan="2"| 1.75
+|style="background-color:#C3FFB2;" colspan="2"| 2.5
+|style="background-color:#C3FFB2;" colspan="2"| 1.75
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[:Category:Armour-Piercing Shells|Armour-Piercing Shells]]
+|style="background-color:#FFB7B7;" colspan="2"| 1.85
+|style="background-color:#FFB7B7;" colspan="2"| -
+|style="background-color:#FFB7B7;" colspan="2"| -
+|style="background-color:#FFB7B7;" colspan="2"| 1.3
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[WG42 (Wurfgerät 42)]]
+|style="background-color:#FFB7B7;" | 1.6
+|style="background-color:#FFB7B7;" | 2.72
+|style="background-color:#FFB7B7;" | 1.4
+|style="background-color:#FFB7B7;" | 2.1
+|style="background-color:#FFB7B7;" | 1.3
+|style="background-color:#FFB7B7;" | 1.82
+|style="background-color:#FFB7B7;" | 1.4
+|style="background-color:#FFB7B7;" | 1.68
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]]
+|style="background-color:#FFB7B7;" | 1.5
+|style="background-color:#FFB7B7;" | 2.7
+|style="background-color:#FFB7B7;" | 1.3
+|style="background-color:#FFB7B7;" | 2.145
+|style="background-color:#FFB7B7;" | 1.25
+|style="background-color:#FFB7B7;" | 1.875
+|style="background-color:#FFB7B7;" | 1.25
+|style="background-color:#FFB7B7;" | 1.75
+|-
+|style="text-align:left; background-color:#AFCDFF;"| [[:Category:Mortars|Mortars]]
+|style="background-color:#AFCDFF;"| 1.3
+|style="background-color:#AFCDFF;"| 1.95
+|style="background-color:#AFCDFF;"| 1.2
+|style="background-color:#AFCDFF;"| 1.68
+|style="background-color:#AFCDFF;"| 1.2
+|style="background-color:#AFCDFF;"| 1.56
+|style="background-color:#AFCDFF;"| 1.1
+|style="background-color:#AFCDFF;"| 1.265
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[:Category:Landing Craft|Landing Crafts]]
+|style="background-color:#FAFFB4;" colspan="2"| 1.8
+|style="background-color:#FAFFB4;" colspan="2"| 1.8
+|style="background-color:#FAFFB4;" colspan="2"| 1.4
+|style="background-color:#FAFFB4;" colspan="2"| 1.7
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu-class Landing Craft]]
+|style="background-color:#FAFFB4;" colspan="2"| 1.15
+|style="background-color:#FAFFB4;" colspan="2"| 1.15
+|style="background-color:#FAFFB4;" colspan="2"| 1.15
+|style="background-color:#FAFFB4;" colspan="2"| 1.2
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]]
+|style="background-color:#FAFFB4;"| 1.5
+|style="background-color:#FAFFB4;"| 2.1
+|style="background-color:#FAFFB4;"| 1.2
+|style="background-color:#FAFFB4;"| 1.68
+|style="background-color:#FAFFB4;"| 1.5
+|style="background-color:#FAFFB4;"| 1.95
+|style="background-color:#FAFFB4;"| 1.6
+|style="background-color:#FAFFB4;"| 2.4
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu Landing Craft + 11th Tank Regiment]]
+|style="background-color:#FAFFB4;" colspan="2"| 1.8
+|style="background-color:#FAFFB4;" colspan="2"| 1.8
+|style="background-color:#FAFFB4;" colspan="2"| 1.8
+|style="background-color:#FAFFB4;" colspan="2"| 1.8
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[M4A1 DD]]<ref>Specific bonus.</ref>
+|style="background-color:#FAFFB4;" colspan="2"| 1.1
+|style="background-color:#FAFFB4;" colspan="2"| ??
+|style="background-color:#FAFFB4;" colspan="2"| 1.1
+|style="background-color:#FAFFB4;" colspan="2"| 2.0
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[M4A1 DD]]<ref>General bonus.</ref>
+|style="background-color:#FAFFB4;" colspan="8"| 1.4
+|-
+|style="text-align:left; background-color:#FAFFB4;"| '''Landing Craft Upgrade Bonus'''
+|style="background-color:#FAFFB4;" colspan="8"| <math>1 + \dfrac{\left( \text{Average Landing Craft}\ \bigstar \right)}{50}</math>
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[Type 2 Ka-Mi Tank]]
+|style="background-color:#FAFFB4;"| 2.4
+|style="background-color:#FAFFB4;"| 3.24
+|style="background-color:#FAFFB4;"| 2.4
+|style="background-color:#FAFFB4;"| 3.24
+|style="background-color:#FAFFB4;"| 1.5
+|style="background-color:#FAFFB4;"| 1.8
+|style="background-color:#FAFFB4;"| 2.8
+|style="background-color:#FAFFB4;"| 4.2
+|-
+|style="text-align:left; background-color:#FAFFB4;"| '''Tank Upgrade Bonus'''
+|style="background-color:#FAFFB4;" colspan="8"| <math>1 + \dfrac{\left( \text{Average Landing Craft}\ \bigstar \right)}{30}</math>
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[:Category:Dive Bombers|Dive Bombers]]<ref>Only certain dive bombers are able to attack installations in shelling.</ref>
+|style="background-color:#FFB7B7;"| 1.5
+|style="background-color:#FFB7B7;"| ??
+|style="background-color:#FFB7B7;"| 1.4
+|style="background-color:#FFB7B7;"| ??
+|style="background-color:#FFB7B7;" colspan="2"| -
+|style="background-color:#FFB7B7;"| 1.3
+|style="background-color:#FFB7B7;"| ??
+|-
+|style="text-align:left; background-color:#C3FFB2;"| [[:Category:Seaplane Bombers|Seaplane Bombers]]<br>
+[[:Category:Seaplane Fighters|Seaplane Fighters]]
+|style="background-color:#C3FFB2;" colspan="2"| 1.5
+|style="background-color:#C3FFB2;" colspan="2"| -
+|style="background-color:#C3FFB2;" colspan="2"| 1.2
+|style="background-color:#C3FFB2;" colspan="2"| 1.3
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+|-
+|style="text-align:left; background-color:#BFFDFF;"| [[:Category:Destroyers|Destroyers]]<br>
+[[:Category:Light Cruisers|Light Cruisers]]
+|style="background-color:#BFFDFF;" colspan="2"| 1.4
+|style="background-color:#BFFDFF;" colspan="2"| -
+|style="background-color:#BFFDFF;" colspan="2"| -
+|style="background-color:#BFFDFF;" colspan="2"| -
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="9"|
+|-
+|style="text-align:left; background-color:#B4F0C6;"| [[Land-Based Air Squadron]]
+|style="background-color:#B4F0C6;" colspan="2"| 1.6
+|style="background-color:#B4F0C6;" colspan="2"| 1.18
+|style="background-color:#B4F0C6;" colspan="2"| -
+|style="background-color:#B4F0C6;" colspan="2"| -
+|-
+|}<references/>
+{{clear}}
+
+{| border="1" style="text-align:center; border:0.2px solid #A9A9A9; cellspacing=0px; border-collapse:collapse;"
+|+'''Additive Bonuses'''
+!style="background-color:#99CCFF; width:128px;" rowspan="2"|Equipment Name
+!style="background-color:#99CCFF; width:128px;" colspan="4"|Number Equipped
+|-
+!style="background-color:#99CCFF; width:32px;"| 1
+!style="background-color:#99CCFF; width:32px;"| 2
+!style="background-color:#99CCFF; width:32px;"| 3
+!style="background-color:#99CCFF; width:32px;"| 4
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[WG42 (Wurfgerät 42)]]
+|style="background-color:#FFB7B7;" | 75
+|style="background-color:#FFB7B7;" | 110
+|style="background-color:#FFB7B7;" | 140
+|style="background-color:#FFB7B7;" | 160
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]]
+|style="background-color:#FFB7B7;" | 55
+|style="background-color:#FFB7B7;" | 115
+|style="background-color:#FFB7B7;" | 160
+|style="background-color:#FFB7B7;" | 190
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[Type 4 20cm Anti-ground Rocket Launcher (Concentrated Deployment)]]
+|style="background-color:#FFB7B7;" | 80
+|style="background-color:#FFB7B7;" | 170
+|style="background-color:#FFB7B7;" | ??
+|style="background-color:#FFB7B7;" | ??
+|-
+|style="text-align:left; background-color:#AFCDFF;"| [[Type 2 12cm Mortar Kai]]
+|style="background-color:#AFCDFF;"| 30
+|style="background-color:#AFCDFF;"| 55
+|style="background-color:#AFCDFF;"| 75
+|style="background-color:#AFCDFF;"| 90
+|-
+|style="text-align:left; background-color:#AFCDFF;"| [[Type 2 12cm Mortar Kai (Concentrated Deployment)]]
+|style="background-color:#AFCDFF;"| 60
+|style="background-color:#AFCDFF;"| 110
+|style="background-color:#AFCDFF;"| 150
+|style="background-color:#AFCDFF;"| ??
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu Landing Craft + 11th Tank Regiment]]
+|style="background-color:#FAFFB4;" colspan="4"| 25
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[M4A1 DD]]
+|style="background-color:#FAFFB4;" colspan="4"| 25
+|-
+|style="text-align:left; background-color:#BFFDFF;"| [[:Category:Submarines|Submarines]]
+|style="background-color:#BFFDFF;" colspan="4"| 30
+|-
+|} <references/>
+
+{{clear}}
+* Question marks indicate values that haven't been tested.
+
+'''Important Notes'''
+* For the Toku Daihatsu, T98+Marines, and 11th Tank Regiment, they get '''both''' the regular Daihatsu bonus and their own special bonus.
+* All multipliers of different types are '''multiplicative'''.
+** The exception is that bombers don't get the carrier attack multiplier and the airstrike multiplier during airstrikes.
+* Excepting Supply Depot Princess and LBAS, all anti-installation multipliers are '''pre-cap'''.
+* The amount of multipliers available make even low firepower ships like destroyers capable of hitting the daytime damage cap.
+
+=Attack Power Corrections=
+
+After calculating the basic attack power of the attack being made, it is then adjusted based on various factors. Attack power modifiers can be split into pre- and post-cap modifiers. Post-cap modifiers are more powerful to have because they aren't reduced by the cap. 
+
+==Attack Power Cap==
+
+The attack power cap varies depending on the phase of combat it is in.
+* Support, ASW, Airstrike, LBAS - 170
+* Opening and closing torpedo - 180
+* Day shelling - 220
+* Night battle - 360
+
+'''Important Notes'''
+* Any excess firepower above this cap is square rooted. Please see the [[Damage Calculations#Damage Formula|damage formula]] for how it is applied.
+* It is still worth aiming to go above the attack power cap because some pre-cap modifiers can severely reduce your attack power.
+
+==Pre-cap Modifiers==
+====Engagement====
+For more details on engagement, please see [[Combat#Engagement_Form|Engagement Form]].
+
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:200px;" |Form
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:100px;" |Damage Modifier
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:100px;" |Chance
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:100px;" |Chance with [[Saiun]]
+|-
+|style="border-style: solid; border-width: 1px;"| Parallel Engagement<br />{{Nihongo|同航戦|''Doukousen''|}}
+| style="text-align:center;" |100%
+| style="text-align:center;" |45%
+| style="text-align:center;" |45%
+|-
+|style="border-style: solid; border-width: 1px;"| Head-on Engagement<br />{{Nihongo|反航戦|''Hankousen''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 80%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 30%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 40%
+|-
+|style="border-style: solid; border-width: 1px;"| Crossing the T ('''<span style="color:green">Advantage</span>''')<br />{{Nihongo|T字戦有利|''T Ji-sen Yuuri''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 15%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 15%
+|-
+|style="border-style: solid; border-width: 1px;"| Crossing the T ('''<span style="color:red">Disadvantage</span>''')<br />{{Nihongo|T字戦不利|''T Ji-sen Furi''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;"| 60%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0%
+|}
+
+* All engagement forms '''affect both sides equally''', including crossing the T (<span style="color:green">Advantage</span> or <span style="color:red">Disadvantage</span>).
+* Night battle and aerial combat are '''not affected by engagement'''.
+** The exception to this are ASW and [[Nelson#Special_Mechanics|Nelson Touch]].
+* OASW and opening torpedoes are '''affected by engagement''' even though it is only displayed after those phases.
+*Equipping a {{Template:YellowPlane}}[[Saiun]] effectively makes what would have been Crossing the T (Disadvantage) become Head-on engagement.
+
+'''Important Notes'''
+* It is useful in some situations to not take the Saiun in order to get Crossing the T (Disadvantage). This is because it can hamper the enemy from damaging your fleet as much as it hampers yours.
+
+====Formation====
+For more details on formation, please see [[Combat#Formation_Selection|Formation Selection]].
+
+{| class="wikitable"
+|+Formation Attack Power Modifiers
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|Formation
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Shelling
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Torpedo
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Anti-Submarine
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Night Battle
+|-
+|style="border-style: solid; border-width: 1px;"| Line Ahead<br />{{Nihongo|単縦陣|''Tanjuu-jin''|}}
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|-
+|style="border-style: solid; border-width: 1px;"| Double Line<br />{{Nihongo|複縦陣|''Fukujuu-jin''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;" |80%
+|style="text-align: center; border-style: solid; border-width: 1px;" |80%
+|style="text-align: center; border-style: solid; border-width: 1px;" |80%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|-
+|style="border-style: solid; border-width: 1px;"| Diamond<br />{{Nihongo|輪形陣|''Rinkei-jin''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;" |70%
+|style="text-align: center; border-style: solid; border-width: 1px;" |70%
+|style="text-align: center; border-style: solid; border-width: 1px;" |120%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|-
+|style="border-style: solid; border-width: 1px;"| Echelon<br />{{Nihongo|梯形陣|''Teikei-jin''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;" |75%
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px;" |110%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|-
+|style="border-style: solid; border-width: 1px;"| Line Abreast<br />{{Nihongo|単横陣|''Tan'ou-jin''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''130%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|-
+|style="border-style: solid; border-width: 1px;" rowspan="2"|Vanguard<ref>The direct translation of "Keikai" is "alert".</ref><br />{{Nihongo|警戒陣|''Keikai-jin''|}}
+|style="text-align: center; border-style: solid; border-width: 1px;" |50%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px;" |50%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |60%
+|style="text-align: center; border-style: solid; border-width: 1px;" |100%
+|-
+|}<references/>
+
+{{clear}}
+
+====Damage State====
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:128px;"|Damage State
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Shelling
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Torpedo
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Anti-Submarine
+|-
+|style="border-style: solid; border-width: 1px; color:#FFCE00;"|'''Lightly Damaged'''<br>
+'''(小破)'''
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100%
+|-
+|style="border-style: solid; border-width: 1px;color:orange;"|'''Moderately Damaged'''<br>
+'''(中破)'''
+|style="text-align: center; border-style: solid; border-width: 1px;"| 70%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 80%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 70%
+|-
+|style="border-style: solid; border-width: 1px;color:red;"|'''Heavily Damaged'''<br>
+'''(大破) '''
+|style="text-align: center; border-style: solid; border-width: 1px;"| 40%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 40%
+|-
+|}
+
+'''Important Notes
+* Damage state does not affect aerial combat.
+** It will affect carrier attacks in the shelling phase.
+
+====Night Battle Special Attacks====
+For more details please see [[Night Battle#Night Battle Special Attacks|Night Battle Special Attacks]].
+
+{| class="wikitable sortable" style="width: 100%;"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:20%;" rowspan="2" colspan="2"| '''Attack Type'''
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:60%;" colspan="6"| '''Number of Equipment'''
+!style="width: 5%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Multiplier'''
+!style="width: 5%; text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''No. of Attacks'''
+!style="width: 15%; text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF" rowspan="2"| '''Notes'''
+|- 
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Main Gun'''<br>{{RedGunHeavy}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Secondary Gun'''<br>{{YellowGun}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Torpedo'''<br>{{TorpedoWeapon}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''RADAR'''<br>{{Radar}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Skilled Lookout'''<br>{{SurfaceShipPersonnel}}
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:10%;"| '''Submarine Radar'''<ref>[[Submarine Radar and Waterproof Periscope]] and [[Submarine Radar and Radio Direction Finder (E27)]]</ref><br>{{SubmarineRadar}}
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;" rowspan="10"| Cut-In
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Lookout/RADAR<br>Destroyer Lookout
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only.
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/RADAR
+<br>Destroyer Mixed
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/Radar<br>Special Destroyer Mixed
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1<ref>Special cut in for the [[12.7cm Twin Mount Type-D Kai 2]].</ref>
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 162.5%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/Radar<br>Special Destroyer Mixed
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1<ref>Special cut in for the [[12.7cm Twin Gun Mount Model D Kai 3]].</ref>
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 170.6%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Destroyers only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Torpedo/Torpedo<br>Submarine Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2<ref>Only applies to the [[Late Model Bow Torpedo Mount (6 Tubes)]] and [[Skilled SONAR Personnel + Late Model Bow Torpedo Mount (6 Tubes)]].</ref>
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 160%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Submarines only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Torpedo/Sub RADAR<br>Submarine Radar
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1<ref>As above.</ref>
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 175%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| Submarines only
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Torpedo/Torpedo/Torpedo<br>Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 150%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Main/Main<br>Gun
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 3
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 200%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Main/Secondary<br>Mixed Gun
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 175%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| Main/Torpedo/Torpedo<br>Mixed Torpedo
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 130%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px; width:20%;" colspan="2"| Double Attack
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;" colspan="2"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:10%;"| -
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 120%
+|style="text-align: center; border-style: solid; border-width: 1px; width:2.5%;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px; width:15%;"| 
+|-
+|}<references/>
+{{clear}}
+
+====Carrier Night Attacks====
+For more details please see [[Night Battle#Carrier Night Attacks|Carrier Night Attacks]].
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;" colspan="2"|Type
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Modifier
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Notes
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="6"|Cut-In
+|style="text-align: center; border-style: solid; border-width: 1px;"| 2x Night Fighter<br>
+1x Night Bomber
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.25
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1x Night Fighter<br>
+1x Night Bomber
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.2
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 3x Night Fighter
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="4"|  1.18
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 2x Night Fighter<br>
+Other
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Night Fighter<br>
+Night Bomber<br>
+Other
+| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Night Fighter<br>
+2x Other
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="2"|Normal Attack
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.0
+| 
+|-
+|}
+
+* "Other" referrs to [[:Category:Swordfish|Swordfish]], [[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)]] and [[Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)]].
+
+====Gun Fit Bonuses====
+
+Unlike the other pre-cap bonuses, this is just an additive firepower bonus added for light cruisers and Italian heavy cruisers when equipped with certain guns. The bonus is minor, please refer to the [[Gun_Fit_Bonuses#Medium_Caliber_Guns_Firepower_Bonus|gun fit bonuses]] for more details.
+
+==Post-cap Modifiers==
+===Aerial Contact===
+For more details please see [[Aerial Combat#Contact|Aerial Combat]].
+
+During aerial combat, there is a chance for your ships to trigger Contact. When it is triggered, the is a bonus multiplier applied to airstrike damage depending on the accuracy of the plane that triggered contact.
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Accuracy
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Damage Bonus
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0
+|style="text-align: center; border-style: solid; border-width: 1px;"| 112%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1
+|style="text-align: center; border-style: solid; border-width: 1px;"| 112%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 2
+|style="text-align: center; border-style: solid; border-width: 1px;"| 117%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 3
+|style="text-align: center; border-style: solid; border-width: 1px;"| 120%
+|-
+|}
+
+===Artillery Spotting===
+For more details, please see [[Artillery Spotting]]
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;" colspan="2"|Type
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Modifier
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Notes
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="4"|Cut-In
+|style="text-align: center; border-style: solid; border-width: 1px;"| 2x Main Gun<br>
+Armour-Piercing Shell
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.5
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Main Gun<br>
+Secondary Gun<br>
+Armour-Piercing Shell
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.3
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Main Gun<br>
+Secondary Gun<br>
+RADAR
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.2
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Main Gun<br>
+Secondary Gun
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.1
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="2"|Double Attack
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.2x2
+| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="2"|Normal Attack
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.0
+| 
+|-
+|}
+
+===Carrier Cut-In Attacks===
+For more details, please see [[#Carrier Cut-In Attacks|Carrier Cut-In Attacks]].
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;" colspan="2"|Type
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Modifier
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:512px;"|Notes
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" rowspan="3"|Cut-In
+|style="text-align: center; border-style: solid; border-width: 1px;"| Fighter<br>
+Dive Bomber<br>
+Torpedo Bomber
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.25
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 2x Dive Bomber<br>
+Torpedo Bomber
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.2
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Dive Bomber<br>
+Torpedo Bomber
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.15
+|
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;" colspan="2"|Normal Attack
+|style="text-align: center; border-style: solid; border-width: 1px;"| 1.0
+| 
+|-
+|}
+
+===Armour-Piercing Modifier===
+During day combat, certain enemy ships take extra damage from armour-piercing shells.
+
+{| class="wikitable"
+|-
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;"|Type
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:32px;"|Modifier
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|Main Gun<br>
+Armour-Piercing Shell
+|style="text-align: center; border-style: solid; border-width: 1px;"|1.08
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|Main Gun<br>
+Armour-Piercing Shell<br>
+RADAR
+|style="text-align: center; border-style: solid; border-width: 1px;"|1.10
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|Main Gun<br>
+Secondary Gun<br>
+Armour-Piercing Shell
+|style="text-align: center; border-style: solid; border-width: 1px;"|1.15
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"|Main Gun<br>
+Secondary Gun<br>
+Armour-Piercing Shell<br>
+RADAR
+|style="text-align: center; border-style: solid; border-width: 1px;"|1.15
+|-
+|}
+
+* It is '''inadvisable''' to run any of the other setups beyond the most basic Gun+AP. This is because the other setups will interfere with artillery spotting and cost you better attack bonuses.
+* The bonus applies when attacking battleships (including aviation), heavy cruisers (including aviation), carriers, and installations.
+** It also applies to demon, princess, water demon and imp enemies that are classified as one of the above. This means that destroyer, light cruiser seaplane tender and air-defense bosses are exempt.
+
+===Anti-Installation Equipment Modifiers===
+{| border="1" style="text-align:center; border:0.2px solid #A9A9A9; cellspacing=0px; border-collapse:collapse;"
+|+'''Multiplicative Bonuses'''
+!style="background-color:#99CCFF; width:128px;" rowspan="2"|Equipment Name
+!style="background-color:#99CCFF; width:64px;" colspan="2"|Supply Depot Princess
+|-
+!style="background-color:#99CCFF; width:32px;"| Single
+!style="background-color:#99CCFF; width:32px;"| Multiple
+|-
+|style="text-align:left; background-color:#C3FFB2;"| [[:Category:Anti-Aircraft Shells|Anti-Aircraft Shells]]
+|style="background-color:#C3FFB2;" colspan="2"| -
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[:Category:Armour-Piercing Shells|Armour-Piercing Shells]]
+|style="background-color:#FFB7B7;" colspan="2"| -
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[WG42 (Wurfgerät 42)]]
+|style="background-color:#FFB7B7;" | 1.25
+|style="background-color:#FFB7B7;" | 1.625
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[Shipborne Model Type 4 20cm Anti-ground Rocket Launcher]]
+|style="background-color:#FFB7B7;" | 1.2
+|style="background-color:#FFB7B7;" | 1.68
+|-
+|style="text-align:left; background-color:#AFCDFF;"| [[:Category:Mortars|Mortars]]
+|style="background-color:#AFCDFF;" | 1.15
+|style="background-color:#AFCDFF;" | 1.38
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
+|-
+|style="text-align:left; background-color:#FAFFB4"| [[:Category:Landing Craft|Landing Crafts]]
+|style="background-color:#FAFFB4;" colspan="2"| 1.7
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu-class Landing Craft]]
+|style="background-color:#FAFFB4;" colspan="2"| 1.2
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[Daihatsu-class Landing Craft (Type 89 Medium Tanks & Marines)]]
+|style="background-color:#FAFFB4;" | 1.3
+|style="background-color:#FAFFB4;" | 2.08
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[Toku Daihatsu Landing Craft + 11th Tank Regiment]]
+|style="background-color:#FAFFB4;" colspan="2"| -
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[M4A1 DD]]
+|style="background-color:#FAFFB4;" colspan="2"| 1.2
+|-
+|style="text-align:left; background-color:#FAFFB4;"| '''Landing Craft Upgrade Bonus'''<ref>The Daihatsu+T89 landing craft gets double the improvement bonus. Multiply the anti-installation damage bonus contributed by the T89 again with it's specific upgrade bonus.</ref>
+|style="background-color:#FAFFB4;" colspan="2"| <math>1 + \dfrac{\left( \text{Average Landing Craft}\ \bigstar \right)}{50}</math>
+|-
+|style="text-align:left; background-color:#FAFFB4;"| [[Type 2 Ka-Mi Tank]]
+|style="background-color:#FAFFB4;" | 1.7
+|style="background-color:#FAFFB4;" | 2.55
+|-
+|style="text-align:left; background-color:#FAFFB4;"| '''Tank Upgrade Bonus'''
+|style="background-color:#FAFFB4;" colspan="2"| <math>1 + \dfrac{\left( \text{Average Landing Craft}\ \bigstar \right)}{30}</math>
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
+|-
+|style="text-align:left; background-color:#FFB7B7;"| [[:Category:Dive Bombers|Dive Bombers]]<ref>Only certain dive bombers are able to attack installations in shelling.</ref>
+|style="background-color:#FFB7B7;" colspan="2"| -
+|-
+|style="text-align:left; background-color:#C3FFB2;"| [[:Category:Seaplane Bombers|Seaplane Bombers]]<br>
+[[:Category:Seaplane Fighters|Seaplane Fighters]]
+|style="background-color:#C3FFB2;" colspan="2"| -
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
+|-
+|style="text-align:left; background-color:#BFFDFF;"| [[:Category:Destroyers|Destroyers]]<br>
+[[:Category:Light Cruisers|Light Cruisers]]
+|style="background-color:#BFFDFF;" colspan="2"| -
+|-
+| style="height:0.1px; background-color:#5B5B5B;" colspan="3"|
+|-
+|style="text-align:left; background-color:#B4F0C6;"| [[Land-Based Air Squadron]]
+|style="background-color:#B4F0C6;" colspan="2"| 2.1
+|-
+|} <references/>
+
+{{clear}}
+
+'''Important Notes'''
+* Carrier-based dive bombers, seaplane bombers and land-based attack aircraft have further multiplicative and additive post-cap bonuses versus certain installations '''during airstrikes'''.
+** Artillery Imp - 1.55x
+** Isolated Island Demon - 1.7x
+** Supply Depot Princess - +100
+* For the Toku Daihatsu, T98+Marines, and 11th Tank Regiment, they get '''both''' the regular Daihatsu bonus and their own special bonus.
+** T89+Marines gets double the bonus from upgrades. Unlike the normal upgrade multiplier, the bonus '''only''' takes into account the T89's upgrade value instead of the average upgrade value of all landing craft. 
+* The amount of multipliers available make even low firepower ships like destroyers viable anti-installation ships.
+
+===Critical Strikes===
+For more details on how critical chance is calculated, please see [[Accuracy, Evasion and Criticals#Critical Strikes|Accuracy, Evasion and Criticals]].
+
+====Normal Criticals====
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Attack Type
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Modifier
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Normal
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100%
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| Critical
+|style="text-align: center; border-style: solid; border-width: 1px;"| 150%
+|-
+|}
+
+====Plane Proficiency Critical Modifier====
+Carriers get a bonus critical modifier when equipped with high proficiency planes. This modifier is multiplicative with the normal critical modifier. For more details, please see [[Plane Proficiency#Critical Bonus|Plane Proficiency]]
+
+* For '''Carrier Attacks''', they gain a <math>1.2</math> critical bonus multiplier for a <span style="color:#FFCE00; text-shadow: 0 0 5px #FFCE00;">>></span> plane in the top slot and an additional <math>+0.1</math> for every other <span style="color:#FFCE00; text-shadow: 0 0 5px #FFCE00;">>></span> plane.
+** For example, a carrier with two max proficiency planes (with one in the top slot) would get a critical bonus of: (1.2+0.1) x 1.5 = 1.95.
+* For '''[[#Carrier_Cut-In_Attacks|Carrier Cut-In Attacks]]''', they gain a <math>1.106</math> bonus when a <span style="color:#FFCE00; text-shadow: 0 0 5px #FFCE00;">>></span> plane is selected to participate in the attack and an additional <math>+0.15</math> if one of the selected planes is in the top slot.
+
+=Ammunition Modifier=
+
+The damage of your fleet is reduced once their ammunition falls below 50%. This modifier '''cannot go above 1'''. The formula use to determine this is:
+
+<math>\text{Ammo} = \dfrac{\text{Remaining Ammo %}}{50}</math>
+
+{| class="wikitable"
+!style="text-align: center; border-radius: 6px 0 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;" |Remaining Ammo
+!style="text-align: center; border-style: solid; border-width: 1px; background-color:#99CCFF; width:64px;"|Ammo Modifier
+!style="text-align: center; border-radius: 0 6px 0 0; border-style: solid; border-width: 1px; background-color:#99CCFF; width:256px;"|Notes
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| >50%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 100%
+|style="border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 40~49%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 80%
+|style="border-style: solid; border-width: 1px;"| 4th Battle
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 30~39%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 60%
+|style="border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 20~29%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 40%
+|style="border-style: solid; border-width: 1px;"| 5th Battle
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10-19%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 20%
+|style="border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0%
+|style="text-align: center; border-style: solid; border-width: 1px;"| 0%
+|style="border-style: solid; border-width: 1px;"| 6th Battle
+|-
+|}
+
+* The battle number indicated in the notes assumes only normal surface engagements. Engaging in night battle and other special engagements can change that number.
+* Whatever ammunition modifier applies in day battle carries over to night battle.
+* Maelstroms that reduce ammunition also count towards this modifier.
+* The low ammo penalty can be counteracted with the [[Maritime Resupply]] item. Please see the page for more details.
+* The ammunition modifier affects aerial battle.
+* Once you hit 0% ammo, all attacks become [[Damage_Calculations#Chip_Damage|chip damage]].
+* Chip damage is unaffected by the ammunition modifier.
+* Debuffs are affected by the ammunition modifier.
+
+=Miscellaneous Damage Modifiers=
+===Chip Damage===
+In the event that a special attack is evaded, you are unable to penetrate the target's armour, or your ammunition hits 0; attacks will deal chip damage instead. Chip damage is dealt as a percentage of remaining HP calculated using the following formula:
+
+<math>\text{Chip} = \text{HP}_\text{current} \times 0.06 + \text{HP}_\text{rand} \times 0.08 </math>
+
+* <math>\text{HP}_\text{current}</math> is the current HP of the target.
+* <math>\text{HP}_\text{rand}</math> is a random HP number between 0 and <math>\text{HP}_\text{current} - 1</math>
+
+Therefore the maximum possible chip damage <math>\text{HP}_\text{current} \times 0.14 - 0.08</math> and the minimum damage is <math>\text{HP}_\text{current} \times 0.06</math>. Meaning chip damage is generally between '''6-14% of current HP'''.
+
+* If the target's HP is low, it is possible for the result of the formula to return a result of 0. Remember that all formulas are rounded down.
+** This means the target's HP cannot be reduced to 0 by chip damage.
+
+===Debuffs===
+Debuffs are a special case that only apply during events. Certain event maps have debuff mechanics that require you to meet certain conditions to trigger them. Debuffs can be either a reduction to the enemy's armour or a post-cap damage modifier for your fleet.
+
+'''Important Notes'''
+* Debuffs are affected by the remaining ammo modifier.
+
+=Overkill Protection=
+When a ship in your fleet takes more damage than her current HP, she will take a percentage of her current HP in damage instead. 
+* The ship must be the flagship OR
+* The ship must not be heavily damaged nor red morale at the start of the battle.
+** If the ship has red morale, she will just have her HP reduced to 1.
+
+<math>\text{Overkill} = \text{HP}_\text{current} \times 0.5 + \text{HP}_\text{rand} \times 0.3 </math>
+
+* <math>\text{HP}_\text{current}</math> is the current HP of your ship.
+* <math>\text{HP}_\text{rand}</math> is a random HP number between 0 and <math>\text{HP}_\text{current} - 1</math>
+
+Therefore, the maximum damage from overkill protection is <math>\text{HP}_\text{current} \times 0.8 - 0.3</math> and the minimum damage is <math>\text{HP}_\text{current} \times 0.5</math>. Meaning overkill protection will take off between '''50-80% of your ship's current HP'''.
+
+'''Important Information'''
+* In general:
+** Overkill protection is most applicable to DDs.
+*** The most pronounced effects of overkill protection occur at low HP 
+*** It is also the primary means of surviving a hit they fail to evade
+*** For example, a 32HP DD has a 15.5% chance of being heavily damage by a BB hime, while a 31 HP DD has just a 6.5% chance
+*** This has great implications when marrying ships, 36 HP has one of the highest chances of a taiha
+** Odd numbered HP is better when overkill protection is triggered. This is because the damage calculations round down, reducing the likelihood of being knocked down to heavy damage.
+** This mechanism is most applicable to ships '''at full HP'''. Once a ship starts taking damage, the utility of overkill protection diminishes
+* As a rule, ships with HP that is divisible by 4 have worse survivability.
+
+=Other Information=
+{{Mechanics}}
+[[Category:Game Mechanics]]
