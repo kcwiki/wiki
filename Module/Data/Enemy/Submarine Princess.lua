@@ -12,7 +12,7 @@ return {
 		_type = 13,
 		_hp = 110,
 		_firepower = 50,
-		_armor = 53,
+		_armor = 49,
 		_torpedo = 140,
 		_evasion = 38, -- from Kan Colle Kai
 		_aa = 0,
@@ -44,7 +44,7 @@ return {
 		_type = 13,
 		_hp = 130,
 		_firepower = 70,
-		_armor = 73,
+		_armor = 69,
 		_torpedo = 155,
 		_evasion = 48, -- from Kan Colle Kai
 		_aa = 0,
@@ -179,7 +179,7 @@ return {
   },
   ["Kai Flagship Damaged"] = {
     _name = "Submarine Princess",
-    _suffix = "Kai Flagship - Damaged",
+    _suffix = "Kai Flagship Damaged",
     _rarity = 8,
     _back = -12,
     _api_id = 1918,
@@ -206,7 +206,7 @@ return {
   },
   ["Kai Flagship Damaged II"] = {
     _name = "Submarine Princess",
-    _suffix = "Kai Flagship - Damaged II",
+    _suffix = "Kai Flagship Damaged II",
     _rarity = 8,
     _back = -12,
     _api_id = 1919,
@@ -235,7 +235,7 @@ return {
   },
   ["Kai Flagship Damaged III"] = {
     _name = "Submarine Princess",
-    _suffix = "Kai Flagship - Damaged III",
+    _suffix = "Kai Flagship Damaged III",
     _rarity = 8,
     _back = -12,
     _api_id = 1920,
@@ -275,7 +275,7 @@ return {
     _reading = "せんすいせいきかいツーフラグシップ",
     _type = 13,
     _hp = 109,
-    _firepower = 59,
+    _firepower = 49,
     _armor = 19,
     _torpedo = 159,
     _evasion = nil,
@@ -304,7 +304,7 @@ return {
     _reading = "せんすいせいきかいツーフラグシップ",
     _type = 13,
     _hp = 190,
-    _firepower = 79,
+    _firepower = 59,
     _armor = 39,
     _torpedo = 179,
     _evasion = nil,

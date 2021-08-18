@@ -1,6 +1,3 @@
--- [[Category:Collection modules]]
--- [[Category:Todo]]
-
 return {
   { _id = 501, _name = "5inch Single Gun Mount", _type = 1, _icon = 1 },
   { _id = 502, _name = "5inch Twin Gun Mount", _type = 1, _icon = 1 },
@@ -91,8 +88,8 @@ return {
   { _id = 587, _name = "Abyssal 16inch Triple Gun Mount Kai Ni", _type = 3, _icon = 3 },
   { _id = 588, _name = "Abyssal 5inch Twin Gun Mount Model C", _type = 1, _icon = 1 },
   { _id = 589, _name = "Abyssal 5.5inch Twin Gun Mount Kai", _type = 2, _icon = 2 },
-  { _id = 590, _name = "Abyssal Target", _type = 22, _icon = 5},
-  { _id = 591, _name = "Abyssal 5inch Single Gun Mount Mk.30", _type = 1, _icon = 16},
+  { _id = 590, _name = "Abyssal Target", _type = 22, _icon = 5 },
+  { _id = 591, _name = "Abyssal 5inch Single Gun Mount Mk.30", _type = 1, _icon = 16 },
   { _id = 592, _name = "Abyssal 16inch Mk.VIII Twin Gun Mount Kai", _type = 3, _icon = 3 },
   { _id = 593, _name = "High-speed Abyssal Torpedo mod.3", _type = 5, _icon = 5 },
   { _id = 594, _name = "Abyssal Sky Fortress (Reconnaissance Model)", _type = 7, _icon = 7 },
@@ -112,6 +109,6 @@ return {
   { _id = 608, _name = "Abyssal Night Operation Aviation Equipment", _type = 13, _icon = 11 },
   { _id = 609, _name = "Abyssal 16inch Triple Gun Mount Mk.6", _type = 2, _icon = 2 },
   { _id = 610, _name = "Abyssal Seagull Reconnaissance Seaplane", _type = 10, _icon = 10 },
-  { _id = 611, _name = "Abyssal Seacat Reconnaissance Seaplane", _type = 10, _icon = 10 },
+  { _id = 611, _name = "Abyssal Seamew Reconnaissance Seaplane", _type = 10, _icon = 10 },
   { _id = 612, _name = "Abyssal 6inch Triple Main Gun Mount Mk.16", _type = 2, _icon = 2 },
 }

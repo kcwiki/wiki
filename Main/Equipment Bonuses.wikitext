@@ -1,35 +1,47 @@
-Equipment Bonuses refer to specific ship + equipment combos that trigger special effects, modifying specific stats with values referred to as "Fit Bonuses". These are displayed in the game by a '''↑+''' symbol in front of each applicable stat.
+[[file:Fit_bonus_example.png|thumb|right|Michishio Kai Ni gains one additional Firepower from equipping a 12.7cm Type C Gun Mount]]Equipment Bonuses refer to specific ship + equipment combos that trigger special effects, modifying specific stats with values referred to as "Fit Bonuses". These are displayed in the game by a '''↑+''' symbol in front of each applicable stat.
 
-These bonuses should not be confused with the hidden Accuracy or Firepower Fit Bonuses, generally exclusive to gun mounts. To differentiae with hidden Fit Bonuses, they are also referred as "Visible Fit Bonuses".
+These bonuses should not be confused with the hidden Accuracy or Firepower Fit Bonuses, generally exclusive to gun mounts. To differentiate with hidden Fit Bonuses, they are also referred to as "Visible Fit Bonuses".
 
 ==Fit Bonus Specifics==
 Although displayed in the game, some Fit Bonuses have an erroneous effect or outright don't work.
 
 As of 9 February 2021, the following Fit Bonuses present issues:
 
-===Completely functional===
-These Fit Bonuses present no issues in any regard:
+==Completely functional==
+These Fit Bonuses work in every scenario:
 * {{Range}} '''Range'''.
 * {{Evasion}} '''Evasion'''.
 * {{Armor}} '''Armor'''.
 
-===Partially functional===
+===Formulas===
+* {{Firepower}} '''Day Surface Shelling''' - All {{Firepower}} Firepower fits work as intended.
+* {{Firepower}}{{Torpedo}} '''Night Surface Shelling''' - All fits work as intended.
+** Especially for Ark Royal and [[Swordfish]]-series, the torpedo stat does not work.
+* {{Firepower}}{{Torpedo}}{{Dive}} '''Carrier Shelling''' - All fit sources work as intended. The {{Torpedo}} Torpedo fit will now be included for shelling power calculation '''(NEW)''' ''04/08/2021''
+* {{Torpedo}}{{Dive}} '''Airstrike''' - All fits work but not as intended. The {{Torpedo}} Torpedo fit will be added to airstrike power to either {{Dive}} Dive Bombing stat or {{Torpedo}} Torpedo depending on the type of the plane. '''(NEW)''' ''04/08/2021''
+* {{Torpedo}} '''Torpedo Attacks''' - All {{Torpedo}} Torpedo fits work as intended.
+** This includes fits provided by sources that are not torpedoes, such as seaplanes and lookouts.
+
+==Partially functional==
 These Fit Bonuses have at least one situation in which they don't work as intended:
-* {{Firepower}} '''Firepower''': Does not apply for '''Night Carrier Attacks (CVNCI)'''<ref>https://twitter.com/shiro_sh39/status/1255895548898361346</ref> (it still applies to shelling attacks performed by carriers, however)<ref>https://twitter.com/Xe_UCH/status/1256144907439235075</ref>.
-** Does not apply for [[Swordfish]] series on Ark Royal, regardless of the night attack<ref>https://twitter.com/myteaGuard/status/1358025976374939649</ref>.
-** Bonus visible Firepower from recon planes does not work on Carriers.
-* {{Torpedo}} '''Torpedo''': Does not apply for '''Night Carrier Attacks (CVNCI)'''<ref>https://twitter.com/shiro_sh39/status/1255895548898361346</ref>, Carrier Day-time Shelling attacks<ref>https://twitter.com/shiro_sh39/status/1256132958575947776</ref> and Opening Airstrike<ref>https://twitter.com/panmodoki10/status/1255855504535851008</ref>
-* {{ASW}} '''Anti-Submarine''': Does not increase ASW shelling damage<ref>https://twitter.com/ayanamist_m2/status/1035100000391290880</ref><ref>https://twitter.com/syoukuretin/status/1111033510779740160</ref>, as well as '''Night Carrier Attacks (CVNCI)''' <ref>https://twitter.com/SZRandomness/status/1144649656091021312</ref>
-** However, still contributes to reaching the OASW threshold<ref>https://twitter.com/ayanamist_m2/status/1087670868401053696</ref>, specifically for ships that require 100 ASW (ships that require 65 ASW to OASW do not get any advantage from Fit Bonuses<ref>https://twitter.com/99_999999999/status/1273936394927276033</ref>).
+
 * {{LOS}} '''LoS''': Bonuses count as ship base LoS and not equipment, for routing purposes. No effect for artillery spotting.<ref>https://twitter.com/Matsu_class_DD/status/1245457218956226560</ref>.
 ** SG Radar (Initial Model) does not contribute for any calculation<ref>https://twitter.com/CC_jabberwock/status/1089154587628466177</ref>
 
-===Completely broken===
-These fits have no effect in any circumstances:
-* {{AA}} '''Anti-Air''': Works under no circumstances<ref>https://twitter.com/ayanamist_m2/status/1087678973331484673</ref><ref>https://twitter.com/mizucchi41/status/1246676483025686529</ref><ref>https://twitter.com/mizucchi41/status/1028610701571411968</ref>. Bonus granted to aircraft does not contribute to Air Power<ref>https://twitter.com/DarkQuetzal/status/1241651932361412610</ref>
+===Formulas===
+* {{ASW}} '''Surface Anti-Submarine Shelling''': Does not increase {{ASW}} ASW shelling damage<ref>https://twitter.com/ayanamist_m2/status/1035100000391290880</ref>, but still contributes to reaching the OASW threshold of 100<ref>https://twitter.com/ayanamist_m2/status/1087670868401053696</ref>.
+
+==Completely broken==
+These fits have no effect:
+* {{AA}} '''Anti-Air''': Does not work under any circumstances<ref>https://twitter.com/ayanamist_m2/status/1087678973331484673</ref><ref>https://twitter.com/mizucchi41/status/1246676483025686529</ref><ref>https://twitter.com/mizucchi41/status/1028610701571411968</ref>. Bonus granted to aircraft does not contribute to Air Power<ref>https://twitter.com/DarkQuetzal/status/1241651932361412610</ref>
 * {{Acc}} '''Accuracy''': Does not work under any circumstances, as Accuracy is a derived stat.<ref>https://twitter.com/chang1124414276/status/1242332458936197120</ref>
 
-===Explanation===
+===Formulas===
+* {{Firepower}}{{Torpedo}}{{Dive}}{{ASW}} '''Night Carrier Cut-in Attack''': None of the fit stats works under any circumstances<ref>https://twitter.com/shiro_sh39/status/1255895548898361346</ref><ref>https://twitter.com/SZRandomness/status/1144649656091021312</ref>.
+** Additionally, the firepower granted by Night Operations equipment such as Night Operations Personnel + Skilled Deckhands provide no damage increase for this formula<ref>https://twitter.com/SZRandomness/status/1144649656091021312</ref>.
+* {{ASW}} '''Plane-based Anti-Submarine Shelling''': Does not increase {{ASW}} ASW shelling damage, and does not contribute to reach the OASW threshold<ref>https://twitter.com/99_999999999/status/1273936394927276033</ref>).
+
+=Explanation=
 
 Fit Bonuses are not considered a part of an equipment's stat, and are instead added to the ship's actual stat directly. This is what leads to inconsistencies in the formulas.
 

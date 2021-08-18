@@ -43,7 +43,7 @@ return {
         _type = 10,
         _hp = 730,
         _firepower = 242,
-        _armor = 239,
+        _armor = 225,
         _torpedo = 0,
         _evasion = nil,
         _aa = 84,
@@ -91,7 +91,7 @@ return {
     },
     ["Damaged"] = {
         _name = "French Battleship Princess",
-        _suffix = "- Damaged",
+        _suffix = "Damaged",
         _rarity = 8,
         _back = -12,
         _api_id = 1748,
@@ -119,7 +119,7 @@ return {
     },
     ["Damaged II"] = {
         _name = "French Battleship Princess",
-        _suffix = "- Damaged II",
+        _suffix = "Damaged II",
         _rarity = 8,
         _back = -12,
         _api_id = 1749,
@@ -149,7 +149,7 @@ return {
     },
     ["Damaged III"] = {
         _name = "French Battleship Princess",
-        _suffix = "- Damaged III",
+        _suffix = "Damaged III",
         _rarity = 8,
         _back = -12,
         _api_id = 1750,

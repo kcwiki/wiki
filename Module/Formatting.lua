@@ -225,11 +225,12 @@ function Formatting:ship_image(image_type, api_id, ship_name, ship_type, extensi
 	}
 end
 
-function Formatting:ship_image_simple(image_type, ship_name, extension_override)
+function Formatting:ship_image_simple(image_type, ship_name, extension_override, suffix)
 	return format{
 	    self._ship_image_simple_template,
 	    image_type = image_type,
 	    ship_name = ship_name,
+	    suffix = suffix or '',
 	    extension = extension_override or self._default_extension[image_type] or 'png',
 	}
 end

@@ -91,7 +91,7 @@ return {
     },
     ["Damaged"] = {
         _name = "European Princess",
-        _suffix = "- Damaged",
+        _suffix = "Damaged",
         _rarity = 8,
         _back = -12,
         _api_id = 1758,
@@ -119,7 +119,7 @@ return {
     },
     ["Damaged II"] = {
         _name = "European Princess",
-        _suffix = "- Damaged II",
+        _suffix = "Damaged II",
         _rarity = 8,
         _back = -12,
         _api_id = 1759,
@@ -149,7 +149,7 @@ return {
     },
     ["Damaged III"] = {
         _name = "European Princess",
-        _suffix = "- Damaged III",
+        _suffix = "Damaged III",
         _rarity = 8,
         _back = -12,
         _api_id = 1760,

@@ -94,7 +94,7 @@ local Harbour_Summer_Princess = {
 	},
 	["Damaged"] = {
 		_name = "Harbour Summer Princess",
-		_suffix = "- Damaged",
+		_suffix = "Damaged",
 		_rarity = 8,
 		_back = -12,
 		_api_id = 1702,
@@ -123,7 +123,7 @@ local Harbour_Summer_Princess = {
 	},
 	["Damaged II"] = {
 		_name = "Harbour Summer Princess",
-		_suffix = "- Damaged II",
+		_suffix = "Damaged II",
 		_rarity = 8,
 		_back = -12,
 		_api_id = 1703,
@@ -154,7 +154,7 @@ local Harbour_Summer_Princess = {
 	},
 	["Damaged III"] = {
 		_name = "Harbour Summer Princess",
-		_suffix = "- Damaged III",
+		_suffix = "Damaged III",
 		_rarity = 8,
 		_back = -12,
 		_api_id = 1704,

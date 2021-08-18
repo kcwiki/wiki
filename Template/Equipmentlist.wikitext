@@ -1,12 +1,12 @@
 {{Navbox
 |name = Template:Equipmentlist
-| state = mw-collapsible {{#if:{{{expanded|}}}||mw-collapsed}}
+|state = mw-collapsible {{#if:{{{expanded|}}}||mw-collapsed}}
 |title = [[Equipment|Equipment List]]
 |basestyle  = background-color:#eebb55;
 |titlestyle = color:black;
 |liststyle = border:0px none;padding-left:5px
 |groupstyle =  color:black
-|style = color:black; background-color:#FFFFFF; border:1px solid #1A5B70; width:100%;
+|style = color:black; background-color:#FFFFFF; border:1px solid #1A5B70; width:100%; margin-top: 10px;
 |above = '''[[Equipment_List_(Image)|Gallery]]{{•}}[[Equipment_Ranking|By Stats]]{{•}}[[Glossary#Equipment|Equipment Type]]{{•}}[[Development]]{{•}}[[Akashi's_Improvement_Arsenal|Akashi's Improvement Arsenal]]'''
 | abovestyle = background-color:#EECC88;
 |below = HA - '''High-Angle'''; DP - '''Dual-Purpose'''; LM - '''Late Model'''; CD - '''Concentrated Deployment''' or '''Carrier Division'''
@@ -128,7 +128,7 @@
   |group2 = Other (IJN)
   |list2 = [[Type 96 Fighter|Type 96]] <big>(</big>[[Type 96 Fighter Kai|Kai]]<big>)</big>{{•}}Shiden <big>(</big>[[Shiden Kai 2|Kai 2]]{{•}}[[Shiden Kai 4|Kai 4]]<big>)</big>{{•}}Reppuu <big>(</big>[[Prototype Reppuu Late Model|Prototype LM]]{{•}}[[Reppuu Model 11|Model 11]]{{•}}[[Reppuu (601 Air Group)|601]]{{•}}[[Reppuu Kai (Prototype Carrier-based Model)|Kai]]{{•}}[[Reppuu Kai Ni|Kai 2]]{{•}}[[Reppuu Kai Ni (CarDiv 1/Skilled)|Kai 2 (CD1/Skilled)]]<big>)</big>{{•}}[[Shinden Kai]]
   |group3 = Foreign
-  |list3 = [[Bf109 T Kai]] <small>(Ger)</small>{{•}}Fw190 <big>(</big>[[Fw190 T Kai|T Kai]]{{•}}[[Fw 190 A-5 Kai (Skilled)|A-5 Kai (Skilled)]]<big>)</big> <small>(Ger)</small>{{•}}Reggiane <big>(</big>[[Re. 2001 OR Kai|Re.2001 OR Kai]]{{•}}[[Re. 2005 Kai|Re.2005 Kai]]<big>)</big> <small>(Ita)</small>{{•}} Wildcat <big>(</big>[[F4F-3]]{{•}}[[F4F-4]]<big>)</big> <small>(US)</small>{{•}}Hellcat <big>(</big>[[F6F-3]]{{•}}[[F6F-5]]<big>)</big> <small>(US)</small>{{•}}[[XF5U]] <small>(US)</small>{{•}}[[Fulmar]] <small>(UK)</small>{{•}}[[Seafire LF.Mk.III Kai|Seafire Mk.III Kai]] <small>(UK)</small>
+  |list3 = [[Bf109 T Kai]] <small>(Ger)</small>{{•}}Fw190 <big>(</big>[[Fw190 T Kai|T Kai]]{{•}}[[Fw 190 A-5 Kai (Skilled)|A-5 Kai (Skilled)]]<big>)</big> <small>(Ger)</small>{{•}}Reggiane <big>(</big>[[Re. 2001 OR Kai|Re.2001 OR Kai]]{{•}}[[Re. 2005 Kai|Re.2005 Kai]]<big>)</big> <small>(Ita)</small>{{•}} Wildcat <big>(</big>[[F4F-3]]{{•}}[[F4F-4]]<big>)</big> <small>(US)</small>{{•}}Hellcat <big>(</big>[[F6F-3]]{{•}}[[F6F-5]]<big>)</big> <small>(US)</small>{{•}}[[XF5U]] <small>(US)</small>{{•}}[[FR-1 Fireball]] <small>(US)</small>{{•}}[[Fulmar]] <small>(UK)</small>{{•}}[[Seafire LF.Mk.III Kai|Seafire Mk.III Kai]] <small>(UK)</small>
 <!--- Yasen Fighters may go here? --->
  |group4 = Night
   |list4 = [[Reppuu Kai Ni Model E|Reppuu Kai 2 Model E]] <big>(</big>[[Reppuu Kai Ni Model E (CarDiv 1/Skilled)|CD1/Skilled]]<big>)</big>{{•}}Hellcat <big>(</big>[[F6F-3N]]{{•}}[[F6F-5N]]<big>)</big> <small>(US)</small>
@@ -141,7 +141,7 @@
 <!---   |group1 = IJN--->
   |list1 = [[Type 97 Torpedo Bomber|Type 97]] <big>(</big>[[Type 97 Torpedo Bomber (Skilled)|Skilled]]{{•}}[[Type 97 Torpedo Bomber (931 Air Group)|931]]{{•}}[[Type 97 Torpedo Bomber (931 Air Group / Skilled)|931/Skilled]]{{•}}[[Type 97 Torpedo Bomber (Tomonaga Squadron)|Tomonaga]]{{•}}[[Type 97 Torpedo Bomber (Murata Squadron)|Murata]]<big>)</big>{{•}}[[Tenzan]] <big>(</big>[[Tenzan (601 Air Group)|601]]{{•}}[[Tenzan (931 Air Group)|931]]{{•}}[[Tenzan Model 12A|Model 12A]]{{•}}[[Tenzan Model 12 (Tomonaga Squadron)|Tomonaga]]{{•}}[[Tenzan Model 12 (Murata Squadron)|Murata]]<big>)</big>{{•}}[[Ryuusei]] <big>(</big>[[Ryuusei Kai|Kai]]{{•}}[[Ryuusei (601 Air Group)|601]]{{•}}[[Ryuusei Kai (CarDiv 1)|CD1]]{{•}}[[Ryuusei Kai (CarDiv 1/Skilled)|CD1/Skilled]]<big>)</big>
   |group2 = Foreign
-  |list2 = [[Re. 2001 G Kai|Re.2001 G Kai]] <small>(Ita)</small>{{•}}[[TBD]] <small>(US)</small>{{•}}[[TBF]] <small>(US)</small>{{•}}[[Swordfish]] <big>(</big>[[Swordfish Mk. II (Skilled)|Mk.II Skilled]]{{•}}[[Swordfish Mk.III (Skilled)|Mk.III Skilled]]<big>)</big> <small>(UK)</small>
+  |list2 = [[Re. 2001 G Kai|Re.2001 G Kai]] <small>(Ita)</small>{{•}}[[TBD]] <small>(US)</small>{{•}}[[TBF]] <small>(US)</small>{{•}}[[Swordfish]] <big>(</big>[[Swordfish Mk. II (Skilled)|Mk.II Skilled]]{{•}}[[Swordfish Mk.III (Skilled)|Mk.III Skilled]]<big>)</big> <small>(UK)</small>{{•}}Barracuda <big>(</big>[[Barracuda Mk.II|Mk.II]]{{•}}[[Barracuda Mk.III|Mk.III]]<big>)</big> <small>(UK)</small>
 |group3 = Night
 |list3 = [[Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai)|Type 97 Model E]] <big>(</big>[[Prototype Type 97 Torpedo Bomber Kai (Skilled) No. 3 Model E (w/ Type 6 Airborne Radar Kai)|Skilled]]<big>)</big>{{•}}[[Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)|Tenzan Model 12A Kai]] <big>(</big>[[Tenzan Model 12A Kai (Skilled w/ Type 6 Airborne Radar Kai)|Skilled]]<big>)</big>{{•}}[[TBM-3D]] <small>(US)</small>{{•}}[[TBM-3W+3S]] <small>(JMSDF/US)</small>
 }}
@@ -157,7 +157,7 @@
 }}
 <!--- Recon --->
 |group4 = Recon
-|list4 = [[Saiun]] <big>(</big>[[Saiun (4th Recon)|4th Recon]]{{•}}[[Saiun (East Caroline Air Group)|East Caroline]]<big>)</big>{{•}}[[Type 2 Recon Aircraft|Type 2]]{{•}}[[Prototype Keiun]]
+|list4 = [[Saiun]] <big>(</big>[[Saiun (4th Recon)|4th Recon]]{{•}}[[Saiun (East Caroline Air Group)|East Caroline]]<big>)</big>{{•}}[[Type 2 Recon Aircraft|Type 2]]{{•}}[[Prototype Keiun]]{{•}}[[Fulmar (Reconnaissance Fighter/Skilled)]] <small>(UK)</small>
 <!--- To keep amount of large categories to minimum, jets are added here as well. --->
 |group5 = [[List_of_Aircraft_by_stats_%28Jets%29|Jets]]
 |list5 = {{Navbox|child

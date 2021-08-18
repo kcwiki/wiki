@@ -153,7 +153,7 @@ local formatting_functions = {
             end
             local icon = type(e.equipment) == 'string' and Equipment(e.equipment):icon() or e.equipment:icon()
             local link = type(e.equipment) == 'string' and e.equipment or e.equipment:name()
-            return string.format('%s [[%s]]', Formatting:format_image{Formatting:format_equipment_icon(icon), link = link }, link)
+            return string.format('%s [[%s]]', Formatting:format_image{Formatting:format_equipment_icon(icon), link = link}, link)
         end), "<br>")
     end,
 
@@ -504,7 +504,7 @@ function interpret_args()
         end
     until not sequence or sequence_position > #sequence
     debugLog("#values", #values)
-    return table.concat(values, args.concat or ", ") .. debugString()
+    return table.concat(values, args.concat or (args.format == "table" and "" or ", ")) .. debugString()
 end
 
 local Calc = {}

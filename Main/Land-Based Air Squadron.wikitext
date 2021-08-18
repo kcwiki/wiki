@@ -1189,6 +1189,29 @@ Squadrons will experience fatigue when sent on repeated sorties. Orange and red 
 ** Morale recovery from 40~46 is +1 per 3 minutes no matter the mode.
 * The exact effect of fatigue hasn't been fully tested, but it is known to cause a drop in accuracy.
 
+=Land Base Maintenance menu=
+[[file:Land_Base_Maintenance_menu.png|thumb|right|The LBAS Maintenance menu]]
+Above any world menu for LBAS, you can find the button to access the general Land Base Maintenance menu. This menu give you access to the general level for each of your LBAS groups, including in this order the "Limited time Land Base" (general events LBAS group), the "Southeast Land Base" (world 7 LBAS group, currently not available), the "Southern Land Base" (world 5 LBAS group, currently not available), and the "Central Land Base" (world 6 LBAS group). This menu is common to all world's LBAS groups.
+
+For each group, you can see (from top to bottom) :
+* the LBAS group name,
+* the current level of this group,
+* the current mode of the group,
+* the total number of LBAS opened for the group,
+* the total amount of each type of plane in the group with a scheme of the current layout in each LBAS, with in order: 
+** LBAS bombers, 
+** LBAS attack aircraft,
+** Fighters,
+** Bombers,
+** Seaplanes and recon aircrafts.
+
+Every group are initially at level 0, and can be upgraded up to level 3 using 1 bulldozer each time. You can see how many bulldozers you currently possess in the bottom right corner. The effect for each level are the following: 
+* Level 1: Reduced plane swapping cooldown timer & faster morale recovery when set to "Rest",
+* Level 2: Plane swapping cooldown timer reduced even further & faster morale recovery when set to anything except "Sortie", 
+* Level 3: Plane swapping cooldown timer almost halved in total & faster morale recovery regardless of selected squad state (but "Rest" still ca. 50% more effective).
+
+In the case of the 1st group, all level improvements will carry over into future events.
+
 =Troubleshooting=
 
 '''Q: Does the plane order in the base matter?'''
@@ -1213,12 +1236,12 @@ Squadrons will experience fatigue when sent on repeated sorties. Orange and red 
 
 '''Q: Can I move my planes between bases directly?'''
 
-'''A:''' No, planes which are in another base aren't able to be selected.
+'''A:''' Yes, though only between bases located in the same world (can't swap a plane between World 6 and Event Land Bases). The slot you're selecting from must also already have a plane in it (can't be empty, it swaps the planes rather than taking it).
 
 
 '''Q: How long does it take to redeploy?'''
 
-'''A:''' 12 minutes.
+'''A:''' 12 minutes. Land Base upgrades will reduce this time. See [[Land-Based Air Squadron#Land Base Maintenance menu|Land Base Maintenance]]
 
 
 '''Q: Why can't I send my planes to X node?'''

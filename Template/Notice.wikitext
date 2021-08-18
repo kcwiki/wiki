@@ -1,0 +1,13 @@
+<includeonly>{{clear}}<div {{#if:{{{class|}}}|class="{{{class}}}"}} style="width:{{{width|96%}}}; border:2px solid {{{border_color|#aa5}}}; background:{{{color|#ffc}}}; color:#000; text-align:{{{align|center}}}; margin:15px auto 20px; padding:5px; {{{style|}}}">{{{1|}}}</div></includeonly><noinclude>
+==Usage==
+<pre>
+{{Notice|Message here}}
+</pre>
+Result:
+{{Notice|Message here}}
+<pre>
+{{Notice|Message here|border_color=darkblue|color=lightblue|width=90%}}
+</pre>
+Result:
+{{Notice|Message here|border_color=darkblue|color=lightblue|width=90%}}
+</noinclude>

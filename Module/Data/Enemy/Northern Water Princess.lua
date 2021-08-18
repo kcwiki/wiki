@@ -98,7 +98,7 @@ return {
     },
     ["Damaged"] = {
         _name = "Northern Water Princess",
-        _suffix = "- Damaged",
+        _suffix = "Damaged",
         _rarity = 8,
         _back = -12,
         _api_id = 1731,
@@ -126,7 +126,7 @@ return {
     },
     ["Damaged II"] = {
         _name = "Northern Water Princess",
-        _suffix = "- Damaged II",
+        _suffix = "Damaged II",
         _rarity = 8,
         _back = -12,
         _api_id = 1732,
@@ -139,7 +139,7 @@ return {
         _hp = 770,
         _firepower = 178,
         _armor = 209,
-        _torpedo = 118,
+        _torpedo = 115,
         _evasion = nil,
         _aa = 64,
         _asw = 0,
@@ -156,7 +156,7 @@ return {
     },
     ["Damaged III"] = {
         _name = "Northern Water Princess",
-        _suffix = "- Damaged III",
+        _suffix = "Damaged III",
         _rarity = 8,
         _back = -12,
         _api_id = 1733,

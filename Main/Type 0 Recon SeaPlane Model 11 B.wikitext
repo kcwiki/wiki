@@ -27,18 +27,51 @@
 
 </div></div>
 
+<div class="mw-collapsible"><h3>Uses</h3>
+<div class="mw-collapsible-content">
+'''Used by quests: '''[[Quests#F101|F101]]
+
+</div></div>
+
 
 <div class="mw-collapsible><h3>Updates History</h3>
 <div class="mw-collapsible-content>
 * '''2017-06-23:''' '''Implemented'''
+* '''2021-07-15:''' Became '''improvable'''
 </div></div>
 
 ==Fit Bonuses==
 {{:Type 0 Reconnaissance Seaplane Model 11B/Bonuses}}
 {{:Equipment Bonuses/Reconnaissance Seaplanes}}
 
-==See Also==
+== Akashi's Improvement Arsenal ==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+| Name = {{PAGENAME}}
+| ItemType = Seaplane
+| Fuel = 140
+| Ammo = 110
+| Steel = 0
+| Baux = 330
+|Mats0-5 = 6/7
+|Mats6-9 = 
+|Mats10 = -
+|Screws0-5 = 4/5
+|Screws6-9 = 
+|Screws10 = -
+|EquipConsume0-5 = 2x{{Seaplane|Type 0 Recon Seaplane}}
+|EquipConsume6-9 = 
+|EquipConsume10 = -
+| Sun = Y
+| Thu = Y
+| Fri = Y
+| Sat = Y
+| 2ndShip = {{Ship/Link|Yura Kai Ni}}
+| Notes = 
+}}
+|}
 
+==See Also==
 {{Equipmentlist}}
 [[Category:Seaplanes]]
 [[Category:Reconnaissance Seaplane]]

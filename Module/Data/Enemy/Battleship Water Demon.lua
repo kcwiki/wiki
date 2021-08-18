@@ -148,7 +148,7 @@ return {
     },
     ["Kai Damaged"] = {
         _name = "Battleship Water Demon",
-        _suffix = "Kai - Damaged",
+        _suffix = "Kai Damaged",
         _rarity = 8,
         _back = -12,
         _api_id = 1796,
@@ -176,7 +176,7 @@ return {
     },
     ["Kai Damaged II"] = {
         _name = "Battleship Water Demon",
-        _suffix = "Kai - Damaged II",
+        _suffix = "Kai Damaged II",
         _rarity = 8,
         _back = -12,
         _api_id = 1797,
@@ -206,7 +206,7 @@ return {
     },
     ["Kai Damaged III"] = {
         _name = "Battleship Water Demon",
-        _suffix = "Kai - Damaged III",
+        _suffix = "Kai Damaged III",
         _rarity = 8,
         _back = -12,
         _api_id = 1798,

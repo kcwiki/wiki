@@ -18,14 +18,14 @@ local function requireEquipmentModule(name, is_enemy)
       success, data = U.requireModule('Data/PseudoItem/' .. name)
     end
     if not success then
-      data = U.find(EquipmentCollection, name, '_name') or {_name = name}
-      success = true
+      data = U.find(EquipmentCollection, name, '_name')
+      -- success = true
     end
   end
   if not success then
     success, data = U.requireModule('Data/EnemyEquipment/' .. name)
   end
-  return data
+  return data or {_name = name}
 end
 
 function Equipment:create(name, is_enemy)

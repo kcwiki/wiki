@@ -90,7 +90,7 @@ return {
   },
   ["Damaged"] = {
     _name = "Batavia Princess",
-    _suffix = "- Damaged",
+    _suffix = "Damaged",
     _rarity = 8,
     _back = -12,
     _api_id = 1901,
@@ -119,7 +119,7 @@ return {
   },
   ["Damaged II"] = {
     _name = "Batavia Princess",
-    _suffix = "- Damaged II",
+    _suffix = "Damaged II",
     _rarity = 8,
     _back = -12,
     _api_id = 1902,
@@ -152,7 +152,7 @@ return {
   },
   ["Damaged III"] = {
     _name = "Batavia Princess",
-    _suffix = "- Damaged III",
+    _suffix = "Damaged III",
     _rarity = 8,
     _back = -12,
     _api_id = 1903,

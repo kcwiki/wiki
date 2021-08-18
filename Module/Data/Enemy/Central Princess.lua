@@ -47,7 +47,7 @@ return {
 		_armor = 210,
 		_torpedo = 90,
 		_evasion = nil,
-		_aa = 120,
+		_aa = 140,
 		_asw = 0,
 		_speed = 0,
 		_los = nil,
@@ -95,7 +95,7 @@ return {
 	},
 	["Damaged"] = {
 		_name = "Central Princess",
-		_suffix = "- Damaged",
+		_suffix = "Damaged",
 		_rarity = 8,
 		_back = -12,
 		_api_id = 1687,
@@ -124,7 +124,7 @@ return {
 	},
 	["Damaged II"] = {
 		_name = "Central Princess",
-		_suffix = "- Damaged II",
+		_suffix = "Damaged II",
 		_rarity = 8,
 		_back = -12,
 		_api_id = 1688,
@@ -155,7 +155,7 @@ return {
 	},
 	["Damaged III"] = {
 		_name = "Central Princess",
-		_suffix = "- Damaged III",
+		_suffix = "Damaged III",
 		_rarity = 8,
 		_back = -12,
 		_api_id = 1689,

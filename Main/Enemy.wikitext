@@ -1,0 +1,49 @@
+This is a complete list of all enemy vessels that have appeared in-game so far. For a list of the individual equipment used by the enemy and the stat bonuses they provide, please refer to [[list of equipment used by the enemy]]. The naming scheme for the abyssal fleet vessels (except the bosses) is the [[wikipedia:Iroha|Iroha]].
+
+See also [[Enemy/Sortable]] for a more detailed and [https://meta.wikimedia.org/wiki/Help:Sorting sortable] table.
+<!-- currently no ships
+{{EnemyShipListKai|iterator=enemiesByType|type=1}}
+{{EnemyShipListKai|iterator=enemiesByType|type=12}}
+{{EnemyShipListKai|iterator=enemiesByType|type=14}}
+{{EnemyShipListKai|iterator=enemiesByType|type=17}}
+{{EnemyShipListKai|iterator=enemiesByType|type=18}}
+{{EnemyShipListKai|iterator=enemiesByType|type=19}}
+{{EnemyShipListKai|iterator=enemiesByType|type=20}}
+{{EnemyShipListKai|iterator=enemiesByType|type=21}}
+{{EnemyShipListKai|iterator=enemiesByType|type=22}}
+-->
+==Destroyers (DD)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=2|boss=no}}
+==Light Cruisers (CL)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=3|boss=no}}
+==Torpedo Cruisers (CLT)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=4|boss=no}}
+==Heavy Cruisers (CA)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=5|boss=no}}
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=6|boss=no}}
+==Light Aircraft Carriers (CVL)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=7|boss=no}}
+==Standard Aircraft Carriers (CV)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=11|boss=no}}
+<!-- All abyssal seaplane tenders are bosses currently
+==Seaplane Tenders (AV)==
+{{EnemyShipListKai|iterator=enemiesByType|type=16}}
+-->
+==Battleships (BB)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=8|boss=no}}
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=9|boss=no|installation=no}}
+==Aviation Battleships (BBV)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=10|boss=no}}
+==Transport Ships (AP)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=15|boss=no}}
+==Submarines (SS)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=13|boss=no}}
+==Pillboxes==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=9|boss=no|installation=yes}}
+==Bosses (Surface Ships)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=-13|boss=yes|installation=no}}
+==Bosses (SS)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|type=13|boss=yes}}
+==Bosses (Land Bases)==
+{{EnemyShipListKai|iterator=enemiesByTypeAndInstallationAndBoss|boss=yes|installation=yes}}
+{{Enemyshiplist}}

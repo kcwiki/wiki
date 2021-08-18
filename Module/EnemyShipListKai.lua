@@ -35,9 +35,10 @@ local EnemyShipListKai = BaseTable{
 		"armament",
 		"notes",
 	},
-	_cell = [[| style="text-align: ${text_align}; padding:5px 5px 5px 5px; background-color: ${bg_color};" |${value}]],
+	_cell = [[|style="text-align:${text_align};background-color:${bg_color}"|${value}]],
 	_column_cell_templates = {
-		card = [[| style="text-align: ${text_align}; padding:5px 5px 5px 5px; background-color: ${bg_color}; background-image: ${background_image}" |${value}]],
+		-- card = [[|style="text-align:${text_align};background-color:${bg_color};background-image:${background_image}" |${value}]],
+		card = [[|style="text-align:${text_align}"|${value}]],
 	},
 	_item_class = function(item_key) return EnemyShip(item_key) end,
 	_fragment_prefix = "enemyshiplistkai",
@@ -75,7 +76,12 @@ function EnemyShipListKai:card(ship)
 	else
 		value = ShipBattleCardKai:get{ship = ship, size = self._size, link = ship:link(), hd = true, size = '160px', caption = ship:name()}
 	end
-	return {value = value, bg_color = bg_color, background_image = background_image or self._none, text_align = self._center_align}
+	return {
+		value = value,
+		-- bg_color = bg_color,
+		-- background_image = background_image or self._none,
+		text_align = self._center_align,
+	}
 end
 
 function EnemyShipListKai:type(ship)

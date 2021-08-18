@@ -95,7 +95,7 @@ return {
   },
   ["Damaged"] = {
     _name = "Supply Depot Princess Vacation Mode",
-    _suffix = "- Damaged",
+    _suffix = "Damaged",
     _rarity = 8,
     _back = -12,
     _api_id = 1812,
@@ -123,7 +123,7 @@ return {
   },
   ["Damaged II"] = {
     _name = "Supply Depot Princess Vacation Mode",
-    _suffix = "- Damaged II",
+    _suffix = "Damaged II",
     _rarity = 8,
     _back = -12,
     _api_id = 1813,
@@ -155,7 +155,7 @@ return {
   },
   ["Damaged III"] = {
     _name = "Supply Depot Princess Vacation Mode",
-    _suffix = "- Damaged III",
+    _suffix = "Damaged III",
     _rarity = 8,
     _back = -12,
     _api_id = 1814,

@@ -122,7 +122,7 @@ return {
   },
   ["Damaged II"] = {
     _name = "Abyssal Sun Princess",
-    _suffix = "- Damaged II",
+    _suffix = "Damaged II",
     _rarity = 8,
     _back = -12,
     _api_id = 1856,
@@ -154,7 +154,7 @@ return {
   },
   ["Damaged III"] = {
     _name = "Abyssal Sun Princess",
-    _suffix = "- Damaged III",
+    _suffix = "Damaged III",
     _rarity = 8,
     _back = -12,
     _api_id = 1857,

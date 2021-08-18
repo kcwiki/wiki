@@ -1,3 +1,6 @@
-{{#invoke:KanmusuModule|CardList}}
-{{Shiplist}}
+{{h1|Library cards}}
+{{ShipCardListKai|iterator = shipsByNo|image_size = 134x184px}}
+{{h1|Cards not in the library}}
+{{ShipCardListKai|iterator = shipsByNo|extra = true|image_size = 134x184px}}
+<!--Module:Collection/ShipsByNo-->
 [[Category:Ships]]

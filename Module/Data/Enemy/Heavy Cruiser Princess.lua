@@ -160,7 +160,7 @@ return {
 		_type = 5,
 		_hp = 390,
 		_firepower = 190,
-		_armor = 208,
+		_armor = 218,
 		_torpedo = 90,
 		_evasion = nil,
 		_aa = 93,

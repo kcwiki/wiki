@@ -4,7 +4,7 @@ Jets were introduced in the [[Game Updates/2016/December 9|December 9th, 2016 Up
 =Overview=
 
 ===Mechanics===
-1. Jets can only be equipped by [[:Category:Shoukaku Class|Shoukaku-class Kai Ni A]] and place in [[Land-Based Air Squadron]]s.
+1. Jets can only be equipped by [[:Category:Shoukaku Class|Shoukaku-class Kai Ni A]], [[Kaga|Kaga Kai Ni Go]], and placed in [[Land-Based Air Squadron]]s.
 
 2. Using jets will consume steel.
 
@@ -152,6 +152,26 @@ Completing this quest chain gives you an extra Ne-type Engine for upgrading the 
 }}
 |}
 
+It is possible to obtain up to one additional Kikka per year with By10 : 
+{{QuestsHeader}}
+{{Quests
+| type = Sortie
+| listnum = By10
+| reqQuest = By9
+| reqQuest2 = B153
+| reqQuest3 =
+| namejp = 機動部隊決戦
+| nameen = Naval Task Force Decisive Battle
+| req = Organize a fleet with an Aircraft Carrier as part of your first fleet, then proceed into the Coral Sea Area, Eastern Salmon Sea, the KW Atoll, and the waters around Peacock Island. Confront the main enemy in the area and destroy them several times!
+* Organize the first fleet consisting of 1 CV(L)(B) as flagship and up to 5 XX, then score S rank on the boss nodes of [[5-2]], [[5-5]] and [[6-5]] twice, and score A+ rank on the boss of [[6-4]] twice.
+| fuel = 1300
+| ammo =1300
+| steel = 0
+| bauxite = 1300
+| other = '''+600 Ranking Points'''<br>'''Choose between:'''<br/>{{QuestRewardItem|Skilled Crew Member|qty=5}}{{QuestRewardItem|Prototype Flight Deck Catapult}}{{QuestRewardEquip|Kikka Kai}}
+| notes = Yearly Quest (June)
+}}
+|}
 
 ===Jet Keiun Kai===
 
@@ -188,14 +208,33 @@ The Jet Keiun Kai is obtainable by following the steps below. The total resource
 | notes = one [[Type 1 Land Attacker]] and two [[Saiun]] will be consumed upon completion of quest
 | once  = true
 }}
+{{Quests
+| type = Sortie
+| listnum = B143
+| reqQuest =
+| reqQuest2 =
+| reqQuest3 =
+| namejp =「第五航空戦隊」、縦横無尽！
+| nameen = 5th Carrier Division, Go Wild!
+| req = Organize the 5th Carrier Division mobile task force fleet consisting mainly of the carriers Shoukaku and Zuikaku, along with the escort Destroyer Oboro and Akigumo. With said fleet, sortie into the Northern AL Area, Off the Coral Sea, Off the Tawi-Tawi Anchorage area, and the Off the KW Atoll. Locate the main enemy fleet and destroy them.
+* Organize a fleet with [[Shoukaku]], [[Zuikaku]], [[Oboro]], and [[Akigumo]] , then score an S rank on the boss nodes of [[3-5]], [[5-2]], [[World_7#7-2|7-2 (Part 2)]], and [[6-5]].
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 1000
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Underway Replenishment|qty=2}} {{QuestRewardItem|Instant Repair Material|qty=6}} {{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Prototype Toukai}} {{QuestRewardEquip|Prototype Keiun (Carrier-based Reconnaissance Model)}}
+| notes =
+}}
 |}
 
-From there, once you have the [[Prototype Keiun]], you can begin to upgrade it through [[Akashi's Improvement Arsenal]] using the following:
+From there, once you have a [[Prototype Keiun]], you can begin to upgrade it through [[Akashi's Improvement Arsenal]] using the following:
 
 '''250''' {{fuel}} '''100''' {{Ammo}} '''700''' {{steel}} '''650''' {{Bauxite}} '''per upgrade'''<br>
 ''8/10 Development Materials'' , 6/8 Improvement Materials and a [[Ryuusei]] form 1-6★<br>
 '''10/15 Development Materials''' , '''7/10 Improvement Materials''' and a [[Reppuu]] form 7-10★<br>
 '''20/30 Development Materials''' , '''10/13 Improvement Materials''' and a '''Ne-Type Engine''' to upgrade to a [[Jet Keiun Kai]].
+
+'''{{color|red|※ For the last upgrade, toggle "Guarantee Improvement" or you might lose a Ne-Type Engine forever!}}'''.
 
 ==See Also==
 {{Mechanics}}
