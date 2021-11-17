@@ -1,11 +1,11 @@
-{{Detail|button=true|target=minHQ|show_text=Showing Minimum HQ Level|hide_text=Show Minimum HQ Level (hidden)}}
 ==Table==
+{{Detail|button=true|target=minHQ|show_text=Showing Minimum HQ Level|hide_text=Show Minimum HQ Level (hidden)}}
 {| class="wikitable" border="1" cellpadding="1" cellspacing="1" style="text-align: center;" 
 ! colspan="11" |<h3>Development Table</h3>
 |-
 ! style="width:1px;" rowspan="2" |Equipment
 ! colspan="4" |Minimum resource<br>input
-! rowspan="2" style="width:70px;" |Secretary<br>Ship Type
+! rowspan="2" style="width:150px;" |Secretary<br>Ship Type
 ! colspan="3" |Drop rates with this as<br>primary resource
 ! rowspan="2" style="width:60px;" {{Detail|target=minHQ}} |{{Detail|button=true|target=minHQ|show_text=Hide<br>Column|hide_text=}}<br>Minimum<br>HQ Level
 ! rowspan="2" |Note
@@ -53,6 +53,32 @@
 |HeavyF/S= 2 ||HeavyAmmo=   ||HeavyBaux= 
 |AviatF/S= 8 ||AviatAmmo= 8 ||AviatBaux= 
 |minHQ= 10
+|Note= 
+}}
+{{DevelopmentByEquipment
+|Equipment= 12.7cm Single Gun Mount
+|   Fuel= 10
+|   Ammo= 10
+|  Steel= 10
+|Bauxite= 10
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S= 2 ||Custom1Ammo= 6 ||Custom1Baux= 4 ||Custom1Secretary= Type 1934-class
+|minHQ= 0
+|Note= 
+}}
+{{DevelopmentByEquipment
+|Equipment= 120mm/50 Twin Gun Mount
+|   Fuel= 10
+|   Ammo= 10
+|  Steel= 20
+|Bauxite= 10
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S= 2 ||Custom1Ammo= 4 ||Custom1Baux= 4 ||Custom1Secretary= Maestrale-class
+|minHQ= 20
 |Note= 
 }}
 {{DevelopmentByEquipment
@@ -183,9 +209,10 @@
 |   Ammo= 10
 |  Steel= 20
 |Bauxite= 10
-|TorpeF/S=   ||TorpeAmmo= 4 ||TorpeBaux= 
+|TorpeF/S= 4 ||TorpeAmmo=   ||TorpeBaux= 
 |HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
 |AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S= 8 ||Custom1Ammo= 4 ||Custom1Baux= 4 ||Custom1Secretary= Agano-class
 |minHQ= 30
 |Note= 
 }}
@@ -212,6 +239,7 @@
 |TorpeF/S= 4 ||TorpeAmmo= 2 ||TorpeBaux= 
 |HeavyF/S= 8 ||HeavyAmmo= 2 ||HeavyBaux= 
 |AviatF/S= 6 ||AviatAmmo= 4 ||AviatBaux= 
+|Custom1F/S= ? ||Custom1Ammo= ? ||Custom1Baux= ? ||Custom1Secretary= Kamikaze-class
 |minHQ= 0
 |Note= 
 }}
@@ -224,6 +252,7 @@
 |TorpeF/S= 2 ||TorpeAmmo= 2 ||TorpeBaux= 2
 |HeavyF/S= 6 ||HeavyAmmo= 2 ||HeavyBaux= 
 |AviatF/S= 4 ||AviatAmmo= 2 ||AviatBaux= 
+|Custom1F/S= ? ||Custom1Ammo= ? ||Custom1Baux= ? ||Custom1Secretary= Mutsuki-class
 |minHQ= 0
 |Note= 
 }}
@@ -236,6 +265,7 @@
 |TorpeF/S= 4 ||TorpeAmmo= 2 ||TorpeBaux= 
 |HeavyF/S= 2 ||HeavyAmmo= 2 ||HeavyBaux= 2
 |AviatF/S= 6 ||AviatAmmo= 2 ||AviatBaux= 
+|Custom1F/S= ? ||Custom1Ammo= ? ||Custom1Baux= ? ||Custom1Secretary= Fubuki-class
 |minHQ= 10
 |Note= 
 }}
@@ -411,6 +441,32 @@
 |minHQ= 30
 |Note= 
 }}
+{{DevelopmentByEquipment
+|Equipment= F4F-3
+|   Fuel= 10
+|   Ammo= 20
+|  Steel= 10
+|Bauxite= 20
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S=   ||Custom1Ammo=   ||Custom1Baux= 6 ||Custom1Secretary= Lexington-class, Yorktown-class
+|minHQ= 20
+|Note= 
+}}
+{{DevelopmentByEquipment
+|Equipment= Fulmar
+|   Fuel= 10
+|   Ammo= 20
+|  Steel= 10
+|Bauxite= 20
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S=   ||Custom1Ammo= 2 ||Custom1Baux= 4 ||Custom1Secretary= Ark Royal
+|minHQ= 20
+|Note= 
+}}
 |-
 ! colspan="11" |Carrier-based Dive Bombers
 {{DevelopmentByEquipment
@@ -458,6 +514,19 @@
 |TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux= 
 |HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
 |AviatF/S=   ||AviatAmmo= 2 ||AviatBaux= 2
+|minHQ= 20
+|Note= 
+}}
+{{DevelopmentByEquipment
+|Equipment= SBD
+|   Fuel= 10
+|   Ammo= 30
+|  Steel= 10
+|Bauxite= 20
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S=   ||Custom1Ammo= 6 ||Custom1Baux= 6 ||Custom1Secretary= Lexington-class, Yorktown-class
 |minHQ= 20
 |Note= 
 }}
@@ -509,6 +578,19 @@
 |HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
 |AviatF/S=   ||AviatAmmo= 2 ||AviatBaux= 2
 |minHQ= 30
+|Note= 
+}}
+{{DevelopmentByEquipment
+|Equipment= Swordfish
+|   Fuel= 10
+|   Ammo= 10
+|  Steel= 10
+|Bauxite= 10
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S=   ||Custom1Ammo= 4 ||Custom1Baux= 6 ||Custom1Secretary= Ark Royal
+|minHQ= 20
 |Note= 
 }}
 |-
@@ -564,6 +646,20 @@
 |Note= 20/10/10/20<br>10/10/20/20
 }}
 {{DevelopmentByEquipment
+|Equipment= Ro.43 Reconnaissance Seaplane
+|   Fuel= 10
+|   Ammo= 10
+|  Steel= 10
+|Bauxite= 20
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S=   ||Custom1Ammo=   ||Custom1Baux= 2 ||Custom1Secretary= Maestrale-class
+|Custom2F/S=   ||Custom2Ammo=   ||Custom2Baux= 6 ||Custom2Secretary= Zara-class, Vittorio Veneto-class
+|minHQ= 30
+|Note= 
+}}
+{{DevelopmentByEquipment
 |Equipment= Zuiun
 |   Fuel= 20
 |   Ammo= 30
@@ -573,6 +669,33 @@
 |HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 4
 |AviatF/S= 2 ||AviatAmmo= 8 ||AviatBaux= 8
 |minHQ= 10
+|Note= 
+}}
+{{DevelopmentByEquipment
+|Equipment= Laté 298B
+|   Fuel= 20
+|   Ammo= 40
+|  Steel= 10
+|Bauxite= 50
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S=   ||Custom1Ammo= 4 ||Custom1Baux= 8 ||Custom1Secretary= Commandant Teste
+|minHQ= 30
+|Note= 
+}}
+{{DevelopmentByEquipment
+|Equipment= Zuiun (631 Air Group)
+|   Fuel= 20
+|   Ammo= 30
+|  Steel= 10
+|Bauxite= 50
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S=   ||Custom1Ammo=   ||Custom1Baux= 2 ||Custom1Secretary= Ise Kai (Ni)
+|Custom2F/S=   ||Custom2Ammo= 2 ||Custom2Baux= 2 ||Custom2Secretary= Hyuuga Kai (Ni)
+|minHQ= 30
 |Note= 
 }}
 |-
@@ -588,6 +711,19 @@
 |AviatF/S=   ||AviatAmmo= 8 ||AviatBaux= 8
 |minHQ= 10
 |Note= Replaces chance of {{Equipment/Link|Type 0 Fighter Model 52|Type 99 Dive Bomber|Suisei|Type 0 Reconnaissance Seaplane|link= |text=these}} equipment by 2% each.
+}}
+{{DevelopmentByEquipment
+|Equipment= Spitfire Mk.I
+|   Fuel= 10
+|   Ammo= 20
+|  Steel= 10
+|Bauxite= 40
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S=   ||Custom1Ammo=   ||Custom1Baux= 6 ||Custom1Secretary= Warspite, Nelson
+|minHQ= 30
+|Note= 
 }}
 |-
 ! colspan="11" |Anti-submarine Warfare
@@ -724,6 +860,7 @@
 |TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux= 
 |HeavyF/S= 2 ||HeavyAmmo=   ||HeavyBaux= 
 |AviatF/S= 2 ||AviatAmmo=   ||AviatBaux= 2
+|Custom1F/S= 4 ||Custom1Ammo=   ||Custom1Baux= 6 ||Custom1Secretary= Akizuki-class
 |minHQ= 20
 |Note= 
 }}
@@ -805,6 +942,19 @@
 }}
 |-
 ! colspan="11" |Miscellaneous
+{{DevelopmentByEquipment
+|Equipment= Searchlight
+|   Fuel= 10
+|   Ammo= 10
+|  Steel= 10
+|Bauxite= 10
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S= ? ||Custom1Ammo= ? ||Custom1Baux= ? ||Custom1Secretary= Jintsuu Kai Ni, Hiei Kai Ni (C)
+|minHQ= 0
+|Note= 
+}}
 {{DevelopmentByEquipment
 |Equipment= Drum Canister (Transport Use)
 |   Fuel= 10

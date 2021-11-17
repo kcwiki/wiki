@@ -5,7 +5,7 @@
 #** '''Swimsuit Mode CG'''
 #*** [[South Dakota]], [[Washington]], [[Yura Kai Ni]], [[Takanami Kai Ni]]
 #** '''Summer Casual CG'''
-#*** [[Tan Yang]] , [[Yukikaze Kai Ni]]
+#*** [[Tan Yang]], [[Yukikaze Kai Ni]]
 #** '''Yukata Mode CGs''' added early on
 #*** [[Kaiboukan No.4]] has been given Yukata Mode CG
 #** Touch based attacks involving [[Taigei]] and [[Jingei]] have been updated to include '''Swimsuit CG'''
@@ -39,12 +39,49 @@
 #** [[Yamato Kai]] - Max Firepower Up, Max Luck Up, Plane Capacity has been increased
 #** [[Matsu Kai]] - Max Firepower up , Max Luck Up
 #** [[Kaiboukan No.4]] - Max AA up, Max Luck Up
-#** [[Yura Kai Ni]] - Max ,Up, Max Evasion Up
-#** [[Grecale Kai]] - Max Armor up, Evasion up, Max Evasion up, Max Luck Up
+#** [[Yura Kai Ni]] - Max Torpedo Up, Max Luck Up
+#** [[Grecale Kai]] - Max Armor up, Max Evasion up, Max Luck Up
 #** [[Warspite Kai]] - Max Firepower up, Max Evasion up, LoS Up, Max Luck up
 # '''Equipment Buff Update'''
 #* Visible stat have been modified and updated among carrier based planes
-#** Torpedo bombers planes like the Tenzan, Swordfish and Baracuuda have been provided their own buffs
+#** Torpedo bombers planes like the Tenzan, Swordfish and Barracuuda have been provided their own buffs
 #** Torpedo bombers fit bonus stats now provide contributing damage in shelling and opening strike attacks
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Expedition
+| listnum = D42
+| reqQuest =
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【作戦準備】第一段階任務（対潜整備）
+| nameen = "Operation Preparation" First Stage Mission (Anti-Submarine Maintenance)
+| req =  "Operation Preparation" First Stage Mission: Perform the Expeditions "Defense Mission", "Anti Submarine Mission", Martime Escort Mission, "Supply Line Strengthening Mission", and "Strait Defense Line" and successfully complete them all at least once.
+* Complete Expedition 3,4,5,A1, and A2
+| fuel = 0
+| ammo = 350
+| steel = 350
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 93 Passive Sonar|qty=3}}{{QuestRewardItem|Development Material|qty=6}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Type 94 Depth Charge Projector|}}{{QuestRewardItem|Improvement Material|qty=4}}{{QuestRewardItem|Food Supply Ship Mamiya}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B171
+| reqQuest = D42
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【作戦準備】第二段階任務(対地/対空整備)
+| nameen = "Operation Preparation" Second Stage Mission (Surface/Anti-Air Maintenance)
+| req = Organize a fleet consisting of 3 Destroyers within the fleet and proceed into the Coastal Refinery Area, Nansei Island Defense Line, Nansei Island Patrol Area, and the Nansei Island Bashi Channel. Within these areas, confront the main enemy fleet and destroy them!
+* Organize a fleet with 3 DD and 3 XX and score anS rank on the boss nodes of [[1-3]], [[1-4]], [[2-1]], [[2-2]].
+| fuel = 750
+| ammo = 750
+| steel = 0
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 3 Shell|qty=2}}{{QuestRewardEquip|12cm 30-tube Rocket Launcher|qty=3}}{{QuestRewardEquip|Shipborne Model Type 4 20cm Anti-ground Rocket Launcher|qty=2}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Daihatsu Landing Craft|qty=2}} {{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}} {{QuestRewardItem|Emergency Repair Goddess}}
+| notes =
+}}
+|}
 
 [[Category: Game Updates]]

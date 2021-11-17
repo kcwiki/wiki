@@ -25,549 +25,179 @@ Daily quests are reset every day at 05:00 JST (GMT +9). Weekly quests are reset 
     Modernization: G5
     Seasonal: SB29
 -->
-===August 4th, 2021===
-
+===October 15th, 2021===
 {{ProtoQuestsHeader}}
 {{ProtoQuests
-| type = Expedition
-| listnum = D42
+| type = Sortie
+| listnum = B174
 | reqQuest =
 | reqQuest2 =
 | reqQuest3 =
-| namejp = 【作戦準備】第一段階任務（対潜整備）
-| nameen = "Operation Preperation" First Stage Mission (Anti-Submarine Maintenance)
-| req =  "Operation Preperation" First Stage Mission: Perform the Expeditions "Defense Mission", "Anti Submarine Mission", Martime Escort Mission, "Supply Line Strengthing Mission", and "Strait Defense Line" and success them all at least once.
-* Complete Expedition 3,4,5,A1, and A2
-| fuel = 0
-| ammo = 350
-| steel = 350
-| bauxite = 0
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 93 Passive Sonar|qty=3}}{{QuestRewardItem|Development Material|qty=6}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Type 94 Depth Charge Projector|}}{{QuestRewardItem|Improvement Material|qty=4}}{{QuestRewardItem|Food Supply Ship Mamiya}}
-| notes = 
-}}
-{{ProtoQuests
-| type = Sortie
-| listnum = B171
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 【作戦準備】第二段階任務(対地/対空整備)
-| nameen = "Operation Preparation" Second Stage Mission (Surface/Anti-Air Maintenance)
-| req = Organize a fleet consisting of 3 Destroyers within the fleet and proceed into the Coastal Refinery Area, Nansei Island Defense Line, Nansei Island Patrol Area, and the Nansei Island Bashi Channel. Within these areas, confront the main enemy fleet and destroy them!
-* Organize Fleet 3 DD and 3 XX and score S rank on the boss nodes of [[1-3]], [[1-4]], [[2-1]], [[2-2]].
-| fuel = 750
-| ammo = 750
-| steel = 0
-| bauxite = 0
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 3 Shell|qty=2}}{{QuestRewardEquip|12cm 30-tube Rocket Launcher|qty=3}}{{QuestRewardEquip|Shipborne Model Type 4 20cm Anti-ground Rocket Launcher|qty=2}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Daihatsu Landing Craft|qty=2}} {{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}} {{QuestRewardItem|Emergency Repair Goddess}}
-| notes = 
-}}
-|}
-
-===July 15th 2021===
-{{ProtoQuestsHeader}}
-{{ProtoQuests
-| type = Sortie
-| listnum = B170
-| reqQuest = B151
-| reqQuest2 = B159
-| reqQuest3 =
-| namejp = 改装特務空母「Gambier Bay Mk.II」抜錨！
-| nameen = Remodeled Utility Carrier "Gambier Bay Mk.II" Weigh Anchor!
-| req = Organize a fleet consisting of [[Gambier Bay Mk.II]] as Flagship along with at least 1 Fletcher Class Destroyer as part of the fleet. With your fleet, sortie into the Waters off Okinoshima, The AL Operation Area, and the Waters Off from Peacock Island and successfully destroy the enemy multiple times in the same areas!
-* Organize Fleet 1 with [[Gambier Bay Mk.II]] as flagship, 1 Fletcher Class DD ([[Fletcher]] / [[Johnston]]) and score S rank on the boss nodes of [[2-4]], [[3-5]] twice and an A+ rank on [[6-4]] twice.
-| fuel = 730
-| ammo = 730
-| steel = 730
-| bauxite = 730
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|TBF|stars=4|qty=2}}{{QuestRewardItem|Improvement Material|qty=7}}{{QuestRewardItem|Action Report|}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|FR-1 Fireball|}} {{QuestRewardItem|Ranking Point Reward|qty=800}}
-| notes = 
-}}
-{{ProtoQuests
-| type = Sortie
-| listnum = 2107 LQ1
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 【夏季限定】「渚のマーメイド」作戦！
-| nameen = Summer Only "Mermaid's Shore" Operation
-| req = Organize a fleet consisting of either 4 members of Destroyer Division 7 or 4 members consisting of [[Shiratsuyu Kai Ni]], [[Shigure Kai Ni]], [[Murasame Kai Ni]], and [[Yuudachi Kai Ni]] as part of your fleet. With said fleet, go into the Nansei Island Defense Line, Eastern Orel Sea, and Kis Island area and successfully destroy the main enemy fleet multiple times.
-* Organize a fleet that has either DesDiv 7 Members ([[Sazanami]], [[Oboro]], [[Ushio]] and [[Akebono]]), or [[Shiratsuyu Kai Ni]], [[Shigure Kai Ni]], [[Murasame Kai Ni]], and [[Yuudachi Kai Ni]] in the fleet along with 2 XX and score an S rank on [[1-4]], [[2-3]], and [[3-2]] twice.
-| fuel = 2000
-| ammo = 2000
-| steel = 0
-| bauxite = 0
-| other = '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=10}}{{QuestRewardItem|Instant Repair Material|qty=8}} <br> '''Then choose between:'''<br/>{{QuestRewardItem|Medal|}} {{QuestRewardItem|Food Supply Ship Mamiya|}} {{QuestRewardItem|Reinforcement Expansion|}}
-| notes = Limited Time Quest <br> Fleet must be one group or the other, you cannot mix ships from the different groups
-}}
-{{ProtoQuests
-| type = Sortie
-| listnum = 2107 LQ2
-| reqQuest = 2107 LQ1
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 【夏季限定】「渚のシレーナ」欧州作戦！
-| nameen = Summer Only "Siren's Shore" European Operation
-| req = Organize a fleet of 5 or more ships that must consist of Italian Destroyers, American Destroyers, German Destroyers, French ships, [[Littorio]]/[[Italia]], [[U-511]]/ [[Ro-500]], [[Houston]], and [[Gotland]]. With your fleet, sortie into the Jam Island Operation, Ri Lanka, and Seas around Rasugadama and successfully destroy the enemy fleet multiple times in the same areas!
-* Organize a fleet that has at least 5 ships that consist of [[Maestrale]], [[Grecale]], [[Libeccio]], [[Scirocco]], [[Z1]], [[Z3]], [[Fletcher]], [[Johnston]], [[Samuel B. Roberts]], [[Richelieu]], [[Commandant Teste]], [[Littorio]]/[[Italia]], [[U-511]]/ [[Ro-500]], [[Houston]], and [[Gotland]] in the fleet along with 1 XX and score an S rank on [[4-1]], [[4-3]], and [[4-4]] twice.
-| fuel = 0
-| ammo = 0
-| steel = 2000
-| bauxite = 2000
-| other = '''Choose between:'''<br/>{{QuestRewardItem|Furniture Fairy|}}{{QuestRewardItem|Improvement Material|qty=5}}{{QuestRewardItem|Medal|}} <br> '''Then choose between:'''<br/>{{QuestRewardItem|Remodel Blueprint|}} {{QuestRewardItem|Prototype Flight Deck Catapult|}}
-| notes = Limited Time Quest
-}}
-{{ProtoQuests
-| type = PVP
-| listnum = C60
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp =「改装特務空母」任務部隊演習！
-| nameen = "Remodeled Utility Carrier" Task Force Exercise
-| req = Organize a fleet consisting of "Remodeled Utility Carrier" as flagship along with 2 ships consisting of the "Fletcher-class Destroyers" and "John C. Butler Destroyer Escorts" as part of the fleet. Then with said fleet successfully get 4 S ranks in practice in the same day.
-* Organize a fleet consisting of [[Gambier Bay Mk.II]] as flagship, and at least two members consisting of either [[Fletcher]], [[Johnston]] or [[Samuel B. Roberts]] and 3XX and successfully get 4 S Ranks in the same day.
-| fuel = 0
-| ammo = 730
-| steel = 0
-| bauxite = 730
-| other = {{QuestRewardItem|Construction Corps|}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|FM-2|qty=2}}{{QuestRewardEquip|TBF|qty=2}}{{QuestRewardEquip|SK Radar|stars=5}}
-| notes = Yearly Quest (July)
-}}
-{{ProtoQuests
-| type = Expedition
-| listnum = D41
-| reqQuest = F100
-| reqQuest2 = D31
-| reqQuest3 =
-| namejp = 航空基地を整備拡張せよ！
-| nameen = Development and Expansion of your Land Base! 
-| req = Land Base Expansion Mission: Conduct the following expeditions: Maritime Escort Mission, Tanker Escort Mission, Supply Line Strengthening Mission, Aircraft Transport Operation, Seaplane Base Construction, Seaplane Frontline Transport, and Bauxite Escort Convoy. Complete each task.
-
-* Complete expeditions 5, A1, 9, 18, 36, 40, and 45. 
-| fuel = 0
-| ammo = 0 
-| steel = 0
-| bauxite = 800
-| other = '''Choose between:'''<br/>{{QuestRewardItem|Construction Corps|}}{{QuestRewardEquip|Type 1 Land-based Attack Aircraft|qty=2}}<br> '''Then choose between:'''<br/>{{QuestRewardItem|Construction Corps|}}{{QuestRewardItem|New Model Aerial Armament Material|qty=2}}
-| notes = 
-}}
-{{ProtoQuests
-| type = Factory
-| listnum = F100
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp =夏の格納庫整備＆航空基地整備
-| nameen = Summer Hangar & Land Base Maintenance
-| req =  Scrap 3 Land Base Attack Aircraft such as Type 96 and Type 1 LBAA. Then prepare 2800 ammo, 4 T97 torpedo bombers and 4 Tenzan. (All resources and unmodded equipment will be removed upon completion of quest)
-| fuel = 0
-| ammo = 0
-| steel = 0
-| bauxite = 400
-| other = '''Choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material|qty=2}}{{QuestRewardItem|New Model Armament Material|}}{{QuestRewardItem|Development Material|qty=10}} <br> '''Then choose between:'''<br/>{{QuestRewardItem|Skilled Crew Member|qty=2}}{{QuestRewardItem|Construction Corps|}}{{QuestRewardItem|Improvement Material|qty=8}}
-| notes = Yearly Quest (July)
-}}
-{{ProtoQuests
-| type = Factory
-| listnum = F101
-| reqQuest = F51
-| reqQuest2 =
-| reqQuest3 =
-| namejp =精鋭三座水上偵察機隊の前線投入
-| nameen = Frontline utilization of elite three-seated seaplane recon aircraft
-| req = [[Yura Kai Ni]] as the flagship and equipped with a maximum improved [[Type 0 Reconnaissance Seaplane Model 11B]] in the first slot. Scrap 3 [[Type 0 Reconnaissance Seaplane]] and 3 [[Zuiun]]. Prepare 1300 fuel, 1700 bauxite, 1 aerial armament material, an action report and 3 skilled crew members. The resource and the items will be consumed. (All resources and unmodded equipment will be removed upon completion of quest)
-| fuel = 0
-| ammo = 0
-| steel = 0
-| bauxite = 0
-| other = {{QuestRewardEquip|Type 0 Reconnaissance Seaplane Model 11B (Skilled)}}
-| notes= 
-}}
-|}
-
-===June 22nd 2021===
-{{ProtoQuestsHeader}}
-{{ProtoQuests
-| type = Sortie
-| listnum = By6
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 鎮守府近海海域の哨戒を実施せよ！
-| nameen = Carry out a patrol in the waters near the Naval District
-| req = Organize a fleet consisting of a Heavy Cruiser or Destroyer as flagship along with 3 additional Destroyers or Coastal Defense Ships as part of the fleet, then proceed into the Seas outside the Nansei Island, the Coastal refinery area, and the Nansei Island Defense Line. Take control of the seas within each area.
-* Organize a fleet with 1 CA/DD as flagship, 3 DD/DE and up to 2 XX and score A+ rank on the boss nodes of [[1-2]], [[1-3]] and [[1-4]] twice.
-| fuel = 200
-| ammo = 200
-| steel = 0
-| bauxite = 0
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 2 Depth Charge|qty=2}}{{QuestRewardItem|Food Supply Ship Irako|qty=2}}{{QuestRewardItem|Food Supply Ship Mamiya|}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Type 3 Active Sonar|stars=2}}{{QuestRewardEquip|Type 3 Depth Charge Projector|stars=2}}{{QuestRewardItem|Development Material|qty=5}}
-| notes = Yearly Quest (June)
-}}
-{{ProtoQuests
-| type = Sortie
-| listnum = By7
-| reqQuest = By6
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 南西方面の兵站航路の安全を図れ！
-| nameen = Secure the logistics route to the Nansei Islands!
-| req = Organize a fleet consisting of a Light Cruiser, Training Cruiser or Destroyer as flagship along with 3 additional Destroyers or Coastal Defense Ships as part of the fleet, then proceed into the Waters Adjacent to the Naval District, the Naval District Sea Route, and the Nansei Island Coastal Patrol. Defeat the enemy fleets within the area multiple times.
-* Organize a fleet consisting of 1 CL/CT/ DD as flagship, 3 DD/DE and up to 2 XX, then score A+ rank on the boss nodes of [[1-5]], [[2-1]] twice, and complete [[1-6]] twice.
-| fuel = 0
+| namejp = 「鎮守府秋刀魚祭り」発動準備！
+| nameen = Preparation for the "Naval District Saury Festival"
+| req =  Organize a fleet that consist of either a light cruiser (which can also be a Training Cruiser), Seaplane Tender, or Axillery Ship as the flagship and the patrol the are outside the Naval District, Off the Nansei Islands, Coastal Refinery Area, Nansei Island Defense Line and Seas Near the Naval District and secure the safety of the waters in these areas.
+* Have a CL/CT/AV/[[Souya]] as flagship and 3-5 XX and score an A+? Rank on the boss nodes of [[1-1]], [[1-2]], [[1-3]], [[1-4]], and [[1-5]].
+| fuel = 300
 | ammo = 0
 | steel = 300
-| bauxite = 300
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 2 12cm Mortar Kai|qty=2}}{{QuestRewardEquip|Shipborne Model Type 4 20cm Anti-ground Rocket Launcher}}{{QuestRewardEquip|Combat Ration|qty=4}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Daihatsu Landing Craft|qty=2}}{{QuestRewardItem|New Model Gun Mount Improvement Material}}{{QuestRewardItem|Improvement Material|qty=3}}
-| notes = Yearly Quest (June)
+| bauxite = 0
+| other = '''Choose between:''' <br/> {{QuestRewardEquip|Zuiun Model 12|qty=2}} {{QuestRewardEquip|Swordfish|qty=3}}{{QuestRewardItem|Improvement Material|qty=2}}<br/>'''Then Choose between:'''<br/>{{QuestRewardEquip|Searchlight|qty=2}}{{QuestRewardEquip|Type 3 Active Sonar|qty=2}}{{QuestRewardItem|Improvement Material|qty=2}}
+| notes = Limited time Quest???
 }}
 {{ProtoQuests
 | type = Sortie
-| listnum = By8
-| reqQuest = By6
-| reqQuest2 =
+| listnum = B175
+| reqQuest = B174
+| reqQuest2 = 
 | reqQuest3 =
-| namejp = 空母機動部隊、出撃！敵艦隊を迎撃せよ！
-| nameen = Aircraft carrier task force, sortie! Intercept the enemy fleet!
-| req = Organize a fleet consisting of an Aircraft Carrier as flagship along with 2 additional Heavy Cruisers or Aviation Cruisers that make up part of the fleet, then proceed into the Bashi Strait, Eastern Orel Sea, and the Okinoshima Islands. Confront the main enemy in the area and destroy them!
-* Organize a fleet consisting of 1 CV(L)(B) as flagship, 2 CA(V) and up to 3 XX, then score an S rank on the boss nodes of [[2-2]], [[2-3]] and [[2-4]].
-| fuel = 0
-| ammo = 400
-| steel = 0
-| bauxite = 400
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 0 Fighter Model 32|qty=2}}{{QuestRewardEquip|F4F-3|qty=2}}{{QuestRewardItem|Instant Repair Material|qty=5}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Type 99 Dive Bomber Model 22|qty=2}}{{QuestRewardEquip|SBD|qty=2}}{{QuestRewardItem|Action Report}}
-| notes = Yearly Quest (June)
-}}
-{{ProtoQuests
-| type = Sortie
-| listnum = By9
-| reqQuest = By8
-| reqQuest2 = B134
-| reqQuest3 =
-| namejp = AL作戦
-| nameen = Operation AL
-| req = Organize a fleet consisting of 2 Light Aircraft Carrier as part of your fleet, then proceed into the Moray Sea Area, The Alfonsinoes, and the entire Northern Sea Area, and the Northern Operation AL Area. Perform Operation AL in the Northern Waters, confront the main enemy in the area, and destroy them!
-* Organize a fleet consisting of 2 CVL and up to 4 XX, then score an S rank on the boss nodes of [[3-1]], [[3-3]], [[3-4]] and [[3-5]].
-| fuel = 880
-| ammo =880
-| steel = 880
-| bauxite = 880
-| other = '''+480 Ranking Points'''<br>'''Choose between:'''<br/>{{QuestRewardEquip|Type 13 Air Radar Kai|qty=2}}{{QuestRewardItem|Medal}}{{QuestRewardItem|Reinforcement Expansion}}
-| notes = Yearly Quest (June)
-}}
-{{ProtoQuests
-| type = Sortie
-| listnum = By10
-| reqQuest = By9
-| reqQuest2 = B153
-| reqQuest3 =
-| namejp = 機動部隊決戦
-| nameen = Naval Task Force Decisive Battle
-| req = Organize a fleet with an Aircraft Carrier as part of your first fleet, then proceed into the Coral Sea Area, Eastern Salmon Sea, the KW Atoll, and the waters around Peacock Island. Confront the main enemy in the area and destroy them several times!
-* Organize the first fleet consisting of 1 CV(L)(B) as flagship and up to 5 XX, then score S rank on the boss nodes of [[5-2]], [[5-5]] and [[6-5]] twice, and score A+ rank on the boss of [[6-4]] twice.
-| fuel = 1300
-| ammo =1300
-| steel = 0
-| bauxite = 1300
-| other = '''+600 Ranking Points'''<br>'''Choose between:'''<br/>{{QuestRewardItem|Skilled Crew Member|qty=5}}{{QuestRewardItem|Prototype Flight Deck Catapult}}{{QuestRewardEquip|Kikka Kai}}
-| notes = Yearly Quest (June)
-}}
-{{ProtoQuests
-| type = PVP
-| listnum = C58
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp =「巡洋艦戦隊」演習！
-| nameen = Cruiser Squadron, Commence Practice!
-| req = Organize a fleet consisting of 4 Heavy Cruisers and 2 Destroyer forming a fleet of 6 ships, on the same day, successfully win 5 Practice battles on the same day. 
-* Organize a fleet consisting of 1 CA(V) as flagship, 3 CA(V) and 2 DD, then score 5 victories in PVP on the same day.
+| namejp = 続：「鎮守府秋刀魚祭り」発動準備！
+| nameen = Cont: Preparation for the "Naval District Saury Festival"
+| req = Organize a fleet that consist of either a light cruiser (which can also be a Training Cruiser), Submarine Tender, or Axillery Ship as the flagship and then deploy into the Northern Waters of the Moray Sea, Off Kis Island, The Alfansino, the entire Northern Water Area, and the Operation AL Sea Area. Prepare the waters for Saury Fishing!
+* Put a CL/CT/AS/[[Souya]] as flagship and 5 XX and score an S? Rank on the boss nodes of [[3-1]], [[3-2]], [[3-3]], [[3-4]], and [[3-5]]. 
 | fuel = 500
 | ammo = 500
-| steel = 0
+| steel = 500
 | bauxite = 0
-| other = {{QuestRewardItem|Food Supply Ship Mamiya|}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|Type 22 Surface Radar Kai 4|qty=2}}{{QuestRewardEquip|20.3cm (No.3) Twin Gun Mount|qty=2}}{{QuestRewardEquip|Skilled Lookouts|stars=2}}
-| notes = Yearly Quest (June)
+| other = '''Choose between:''' <br/> {{QuestRewardEquip|Skilled Lookouts|qty=2}} {{QuestRewardItem|Furniture Fairy}}{{QuestRewardItem|Improvement Material|qty=4}}<br/>'''Then Choose between:'''<br/>{{QuestRewardEquip|Type 2 Depth Charge|qty=3}}{{QuestRewardEquip|Night Operation Aviation Personnel|qty=2}}{{QuestRewardEquip|Type 2 Large Flying Boat}}
+| notes = Limted timed Quest???
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B176
+| reqQuest =
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 奮戦！精鋭「第十五駆逐隊」第一小隊
+| nameen = Fight hard! Elite "DesDiv15" 1st Platoon
+| req =  Organize a fleet consisting of [[Oyashio Kai Ni]] and [[Kuroshio Kai Ni]] within it and deploy them into the Nansei Island Area in the Okashima Islands, Salmon Sea Area in the Southern Waters, the deepest parts of the Tawi-Tawi Anchorage Area. Confront and destroy the main enemy fleet!
+* Organize a fleet with  [[Oyashio Kai Ni]] and [[Kuroshio Kai Ni]] in the fleet and score an S rank in the boss nodes of [[2-4]], [[5-4]] and [[World_7#7-2|7-2 (Part 2)]], twice each.
+| fuel = 550
+| ammo = 550
+| steel = 0
+| bauxite = 550
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Furniture Fairy}}{{QuestRewardItem|New Model Gun Mount Improvement Material|qty=2}}{{QuestRewardItem|Improvement Material|qty=5}}<br/>'''Then Choose Between:'''<br/>{{QuestRewardEquip|61cm Quadruple (Oxygen) Torpedo Mount Late Model}}{{QuestRewardItem|New Model Armament Material|qty=4}}{{QuestRewardItem|Action Report}}
+| notes = 
+}}
+{{ProtoQuests
+| type = PVP
+| listnum = C62
+| reqQuest =
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 精鋭「第十五駆逐隊」第一小隊演習！
+| nameen = Elite "15th DesDiv" 1st Platoon Exercise
+| req =  Complete 4 (S Rank) Victories on the same day with a fleet consisting of Oyashio Kai Ni and Kuroshio Kai Ni as flagship while the other is the 2nd ship in the fleet.
+*Organize a fleet with either [[Oyashio Kai Ni]] or [[Kuroshio Kai Ni]] as flagship while the other is in the 2nd ship slot and 4 XX and score 4 S ranks on the same day
+| fuel = 150
+| ammo = 150
+| steel = 150
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 22 Surface Radar Kai 4|stars=2}}{{QuestRewardEquip|Skilled Lookouts|stars=2}}<br/>'''Then Choose Between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako|qty=2}}{{QuestRewardItem|Improvement Material|qty=3}}
+| notes = Yearly Quest (October)
 }}
 {{ProtoQuests
 | type = Factory
-| listnum = F96
+| listnum = F104
 | reqQuest = 
-| reqQuest2 =
+| reqQuest2 = 
 | reqQuest3 =
-| namejp =海軍工廠の再整備
-| nameen = Redevelopment of the Naval Arsenals
-| req = Arsenal Mission: Scrap 8 12.7cm Twin Gun Mounts, and then prepare 4,000 Furniture Tokens and have 4 14cm Single Gun Mount, and 4 20.3cm Twin Gun Mounts in your inventory. (All token and unmodded equipment will be removed upon completion of quest)
+| namejp = 上陸作戦支援用装備の配備
+| nameen = Deployment of equipment to support landing operations
+| req = Have your secretary flagship [[Shinshuu Maru]] equip a maxed modified [[Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)]] in the first slot and then proceed to scrap 2 [[7.7mm Machine Gun]], 2 [[Daihatsu]] and have 8 Instant Construction Materials, 10 Development Mateirals, and 800 steel.
 | fuel = 0
 | ammo = 0
-| steel = 300
-| bauxite = 0
-| other = '''Choose between:'''<br/>{{QuestRewardItem|Instant Construction Material|qty=8}}{{QuestRewardItem|Development Material|qty=8}}{{QuestRewardItem|Furniture Fairy}}<br> '''Then choose between:''' <br/> {{QuestRewardItem|New Model Gun Mount Improvement Material}}{{QuestRewardItem|New Model Rocket Development Material}}{{QuestRewardItem|Improvement Material|qty=4}}
-| notes = 
-}}
-{{ProtoQuests
-| type = Factory
-| listnum = F97
-| reqQuest = F96
-| reqQuest2 =
-| reqQuest3 =
-| namejp =工廠による装備兵装の強化準備
-| nameen = Preparation for modifying equipment through the arsenal
-| req = Arsenal Mission: Scrap 7 12cm Single Gun Mounts, and then prepare 2,400 Fuel and have 5 20.3cm Twin Gun Mounts, and 5 35.6cm Twin Gun Mounts in your inventory. (All resources and unmodded equipment will be removed upon completion of quest)
-| fuel = 0
-| ammo = 450
-| steel = 450
-| bauxite = 0
-| other = '''Choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material|qty=2}}{{QuestRewardItem|New Model Aerial Armament Material|qty=2}}{{QuestRewardItem|Improvement Material|qty=4}}<br> '''Then choose between:''' <br/> {{QuestRewardItem|New Model Armament Material|qty=2}}{{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}}{{QuestRewardItem|Development Material|qty=10}}
-| notes = 
-}}
-{{ProtoQuests
-| type = Factory
-| listnum = F98
-| reqQuest = F96
-| reqQuest2 =
-| reqQuest3 =
-| namejp =潜水艦強化兵装の量産
-| nameen = Mass Production of Reinforced Submarine Armaments
-| req = Arsenal Mission: Scrap 3 61cm Triple (Oxygen) Torpedo Mounts, and then prepare 60 development Materials and have 2 Type 93 Sonars, and 2 Type 13 Air Radar Kai in your inventory. (All resources and unmodded equipment will be removed upon completion of quest)
-| fuel = 0
-| ammo = 100
 | steel = 0
 | bauxite = 0
-| other = {{QuestRewardEquip|Late Model Bow Torpedo Mount (6 tubes)}}<br>'''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=5}}{{QuestRewardItem|Improvement Material|qty=2}}
-| notes = Yearly Quest (June)
-}}
-{{ProtoQuests
-| type = Factory
-| listnum = F99
-| reqQuest = F98
-| reqQuest2 =
-| reqQuest3 =
-| namejp =潜水艦電子兵装の量産
-| nameen = Mass Production of Submarine Radar Equipment
-| req = Arsenal Mission: Scrap 3 Type 13 Air Radar Kai, and then prepare 100 development Materials and have 2 Type 93 Sonars, and 2 Type 22 Surface Radars in your inventory. (All resources and unmodded equipment will be removed upon completion of quest)
-| fuel = 100
-| ammo = 
-| steel = 0
-| bauxite = 0
-| other = {{QuestRewardEquip|Submarine Radar & Waterproof Telescope}}<br>'''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=5}}{{QuestRewardItem|Improvement Material|qty=2}}
-| notes = Yearly Quest (June)
+| other = {{QuestRewardEquip|Soukoutei (Armored Boat Class)}}
+| notes = [[Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)]] will be upgraded to [[Soukoutei (Armored Boat Class)]]. All materials used in this quest will be consumed upon completion.
 }}
 |}
 
-===April 22nd 2021===
-{{ProtoQuestsHeader}}
-{{ProtoQuests
-| type = Sortie
-| listnum = B169
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp =「新しき翼。改装航空母艦「龍鳳」、出撃せよ！
-| nameen = New Wings, Remodeled Light Carrier Ryuuhou, Sortie!
-| req = Have [[Ryuuhou|Ryuuhou Kai Ni/E]] as the flagship along with [[Shigure Kai Ni]] in the first fleet. Sortie to the Nansei Islands area's Bashi Channel, the Eastern Orel Bay, the Okinoshima Islands, the Okinoshima Sea, and the deepest parts of the sea near the Tawi-Tawi Anchorage in the Southwestern Area. Engage and destroy any enemy fleets! 
-
-* Sortie the first fleet with [[Ryuuhou|Ryuuhou Kai Ni/E]] as the flagship along with [[Shigure Kai Ni]] and 4 XX in the First fleet and score a S-Rank victory at the boss nodes on [[2-2]], [[2-3]], [[2-4]], [[2-5]], and [[World_7#7-2|7-2 (Part 2)]].
-| fuel = 0
-| ammo = 0
-| steel = 1946
-| bauxite = 2021
-| other = '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=8}}{{QuestRewardEquip|Tenzan Model 12A}}{{QuestRewardEquip|Emergency Repair Goddess}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|8cm High-angle Gun Kai + Additional Machine Guns|stars=2}}{{QuestRewardEquip|Type 0 Fighter Model 63 (Fighter-bomber)|qty=2}}{{QuestRewardEquip|Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)}}
-| notes = 
-}}
-|}
-
-====Limited Time Quests====
-{{ProtoQuestsHeader}}
-{{ProtoQuests
-| type = Sortie
-| listnum = 2104 LQ1
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 【八周年限定】カタリナフェスティバル！
-| nameen = (8th Anniversary Limited Quest) Catalina Festival!
-| req = Organize a fleet with either a light cruiser or [[Fletcher]] as the flagship, along with 3 Destroyers or Coastal Defense Ships. Sortie repeatedly to the sea near the Nansei Islands, the Coastal Refinery Zone, the Nansei Island's Defense Line, and the Kis Island. Strive to crush any enemy fleets you encounter!
-
-* Sortie a fleet with CL or [[Fletcher]] as flagship plus up to 3 DD/DE and 2 XX and score a A?-Rank victory at the boss nodes on [[1-2]], [[1-3]], [[1-4]], and [[3-2]], twice each.
-| fuel = 888
-| ammo = 888
-| steel = 0
-| bauxite = 0
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|PBY-5A Catalina}}{{QuestRewardItem|Development Material|qty=28}}{{QuestRewardEquip|Tenzan|qty=8}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|PBY-5A Catalina}}{{QuestRewardItem|Prototype Flight Deck Catapult}}{{QuestRewardItem|Improvement Material|qty=8}}
-| notes = ''Limited Time Quest.''
-}}
-|}
-
-===March 30th 2021===
+===September 28th, 2021===
 
 {{ProtoQuestsHeader}}
 {{ProtoQuests
 | type = Sortie
-| listnum = B166
-| reqQuest = B14
+| listnum = B172
+| reqQuest =
 | reqQuest2 =
 | reqQuest3 =
-| namejp = 改装航空巡洋艦「最上」、抜錨せよ！
-| nameen = Remodeled Aviation Cruiser "Mogami", Weigh Anchor!
-| req = Organize a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship. Sortie to the Bashi Island Strait, the Okinoshima Island, the Curry Ocean Ri-Lanka Island, and the Forefront of the Southern Sea areas, and destroy the enemy forces!
-
-* Sortie a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship plus 5 XX and score a S-Rank victory at the boss nodes on [[2-2]], [[2-4]], [[4-5]] and [[5-1]].
+| namejp = 「山風改二」、抜錨せよ！
+| nameen = "Yamakaze Kai Ni" Weigh Anchor!
+| req =  Organize a fleet with Yamakaze Kai Ni/D as flagship along with 3 destroyers in the fleet. Then proceed into the towards the Nansei Islands, the Coastal Refinery, The Nansei Island Defense Line, and the Waters Adjacent to the Naval District, successfully secure defensive control in the naval district waters.
+* Put [[Yamakaze Kai Ni|Yamakaze Kai Ni/D]] as flagship and have 3 DD, 0-2 XX and score an S rank on [[1-2]], [[1-3]], [[1-4]] and [[1-5]].
+| fuel = 500
+| ammo = 500
+| steel = 500
+| bauxite = 0
+| other = {{QuestRewardEquip|Type 3 Active Sonar Kai}}<br/>'''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=8}}{{QuestRewardItem|Instant Repair Material|qty=6}}{{QuestRewardItem|Reinforcement Expansion}} 
+| notes = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B173
+| reqQuest = B136
+| reqQuest2 = B172
+| reqQuest3 =
+| namejp = 白露型駆逐艦「山風改二」、奮戦す！
+| nameen = Shiratsuyu-Class Destroyer "Yamakaze Kai Ni" will fight hard!
+| req =  Organize a fleet consisting of 2 members which must have Yamakaze Kai Ni/D along with either Umikaze Kai Ni and/or Kawakaze Kai Ni, as part of the core. Then proceed towards the Bashi Channel, Tawi Tawi Anchorage, Souther Water Front lines, and the Waters near Peacock Island and within each area, destroy the main enemy fleet in each area
+* Have 2 ships which must have [[Yamakaze Kai Ni|Yamakaze Kai Ni/D]] along with [[Umikaze Kai Ni]] and/or [[Kawakaze Kai Ni]] and 4 XX and score an S rank on [[2-2]], [[World_7#7-2|7-2 (Part 2)]], [[5-1]], and [[6-4]], and score an S rank 
 | fuel = 880
-| ammo = 880 
+| ammo = 880
 | steel = 0
 | bauxite = 880
-| other = '''Choose between:'''<br/>{{QuestRewardItem|Medal}}{{QuestRewardItem|Development Material|qty=8}}{{QuestRewardEquip|Zuiun Model 12|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Furniture Fairy|}}{{QuestRewardItem|Food Supply Ship Mamiya}}{{QuestRewardItem|Skilled Crew Member}}
-| notes = 
-}}
-{{ProtoQuests
-| type = Sortie
-| listnum = B167
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 西村艦隊、精鋭先行掃討隊、前進せよ！
-| nameen = Elite Vanguard Squadron, Nishimura Fleet, Forward!
-| req = Organize a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship, plus any two Nishimura Fleet DDs. Sortie to the Eastern Orel Bay, the Peacock Island, the deep parts of Tawi-Tawi Anchorage, and the deep parts of Penang Island. Crush the enemy fleets!
-
-* Sortie a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship, plus 2 Nishimura Fleet DDs and 3 XX and score a S-Rank victory at the boss nodes on [[2-3]], [[6-4]], [[World_7#7-2|7-2 (Part 2)]], [[World_7#7-3|7-3 (part 2)]].
-* Nishimura Fleet DDs include [[Michishio]], [[Shigure]], [[Asagumo]] and [[Yamagumo]].
-| fuel = 2021
-| ammo = 0 
-| steel = 1944
-| bauxite = 0
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|8cm High-angle Gun Kai + Additional Machine Guns|link=8cm Twin High-angle Mount + Additional Machine Guns}}{{QuestRewardItem|Action Report}}{{QuestRewardItem|Emergency Repair Goddess|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Medal|qty=2}}{{QuestRewardEquip|Type C Kouhyouteki|qty=2}}{{QuestRewardEquip|Kyoufuu Kai}}
-| notes = 
-}}
-{{ProtoQuests
-| type = Sortie
-| listnum = B168
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 二水戦旗艦、この「矢矧」が預かります！
-| nameen = Yahagi, assuming command of DesRon 2!
-| req = Organize a fleet with [[Yahagi Kai Ni]] or [[Yahagi Kai Ni B]] as flagship, plus 2 DD and 3 XX. Sortie to the Nansei Islands, the Okinoshima Sea, the Sav Island, and the Northern Solomon Sea Area. Destroy all abyssal forces!
-
-* Sortie a fleet with [[Yahagi Kai Ni]] or [[Yahagi Kai Ni B]] as flagship, plus 2 DD and 3 XX and score a S-Rank victory at the boss nodes on [[1-4]], [[2-5]], [[5-3]] and [[5-5]].
-| fuel = 1945
-| ammo = 2021
-| steel = 0
-| bauxite = 0
-| other = '''Furniture: Yahagi's Wall Hanging Scroll'''<br/><br/>{{QuestRewardEquip|15.2cm Twin Gun Mount Kai Ni|stars=2}}
-| notes = 
-}}
-{{ProtoQuests
-| type = PVP
-| listnum = C56
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 改装航空巡洋艦「最上」、進発せよ！
-| nameen = Remodeled Aviation Cruiser "Mogami", Go Wild!
-| req = Organize a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship, plus 3 DDs. With your fleet, score 4 PVP victories (A ranks) within the same day.
-
-* Organize a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship, plus 3 DD and 2 XX and score 4 A-Rank victories in PvP on the same day.
-| fuel = 0
-| ammo = 400 
-| steel = 0
-| bauxite = 400
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 21 Air Radar}}{{QuestRewardItem|Development Material|qty=5}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako|qty=3}}{{QuestRewardItem|Furniture Fairy|}}
-| notes = 
-}}
-{{ProtoQuests
-| type = PVP
-| listnum = C57
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 改装「矢矧」、精鋭水雷戦隊旗艦演習！
-| nameen = Exercises with the Elite Remodeled DesRon Flagship, "Yahagi"!
-| req = Organize a fleet with [[Yahagi Kai Ni]] or [[Yahagi Kai Ni B]] as flagship, plus 4 DDs. With your fleet, score 4 PVP victories (A ranks) within the same day.
-
-* Organize a fleet with [[Yahagi Kai Ni]] or [[Yahagi Kai Ni B]] as flagship, plus 4 DD and 1 XX and score 4 S-Rank victories in PvP on the same day.
-| fuel = 480
-| ammo = 0 
-| steel = 480
-| bauxite = 0
-| other = {{QuestRewardEquip|15.2cm Twin Gun Mount Kai Ni}}<br/><b>Choose between:</b><br/>{{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}}{{QuestRewardItem|New Model Armament Material}} <b>Hagi's Floor</b>.
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Improvement Material|qty=5}}{{QuestRewardEquip|Daihatsu Landing Craft|qty=3}}{{QuestRewardItem|New Model Armament Material|qty=2}}<br/>'''Then Choose Between:'''<br/>{{QuestRewardItem|Action Report}}{{QuestRewardEquip|12.7cm Twin Gun Mount Model C Kai 2}}{{QuestRewardEquip|61cm Quadruple (Oxygen) Torpedo Mount Late Model}}
 | notes = 
 }}
 {{ProtoQuests
 | type = Expedition
-| listnum = D40
-| reqQuest = 
+| listnum = D43
+| reqQuest =
 | reqQuest2 =
 | reqQuest3 =
-| namejp = 新兵装開発資材輸送を船団護衛せよ！
-| nameen = Escort the convoy to transport new weapons development materials! 
-| req = Conduct the following expeditions: Maritime Escort Mission, Tanker Escort Mission, Bauxite Transport Mission, Resource Transport Mission, and South Western Air Reconnaissance Operation. Complete each task.
-
-* Complete expeditions 5, 9, 11, 12 and B1. 
-| fuel = 1000
-| ammo = 300 
-| steel = 300
-| bauxite = 600
-| other = '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=6}}{{QuestRewardItem|Instant Repair Material|qty=5}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material}}{{QuestRewardItem|New Model Aerial Armament Material}}{{QuestRewardItem|Improvement Material|qty=4}}
-| notes = ''Yearly quest.''
+| namejp = 海上輸送航路の護衛強化
+| nameen = Strengthening escort for the maritime transport routes 
+| req =  Strengthening escort for the maritime transport mission: Complete Expeditions, Anti Submarine Mission, Maritime Escort Mission, Tanker Escort Mission, Logistics Strengthing Mission, and South Western Seaplane Reconnaissance Operation and successfully complete all of them once.
+* Complete Expedition 4,5,9,A1 and B1 once each while the quest is activated.
+| fuel = 600
+| ammo = 600
+| steel = 0
+| bauxite = 300
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 93 Passive Sonar|qty=2}}{{QuestRewardEquip|Type 94 Depth Charge Projector|qty=2}}{{QuestRewardItem|Development Material|qty=6}}<br/>'''Then Choose Between:'''<br/>{{QuestRewardEquip|Type 3 Active Sonar|qty=2}}{{QuestRewardItem|Improvement Material|qty=3}}{{QuestRewardItem|Furniture Fairy}}
+| notes = 
 }}
 {{ProtoQuests
-| type = Modernization
-| listnum = G10
+| type = Factory
+| listnum = F102
+| reqQuest =
 | reqQuest2 =
 | reqQuest3 =
-| namejp = 「最上型」改修工事を実施せよ！
-| nameen = Carry out Mogami-class Modernization work
-| req = Mogami-class Modernization work: Prepare 1,100 Steel, 1,100 Ammunition, then modernize and renovate the Mogami-class. Successfully modernize 3 CL at once into the ship twice!
-
-* Have 1,100 Steel, 1,100 Ammo and modernize a Mogami-class Heavy/Aviation Cruiser with 3 CLs at once twice.
+| namejp =【鋼材輸出】基地航空兵力を増備せよ！
+| nameen = [Exportation of Steel]  Increase the Strength of your Land Base!
+| req =  Export Steel to Import Bauxite and improve your land base! Prepare 24,000 steel, 10 development Materials and proceed to scrap 2 Fighters and 2 Torpedo Bombers (All resources and Materials will be consumed upon completion)
 | fuel = 0
 | ammo = 0
 | steel = 0
-| bauxite = 600
-| other = <br>{{QuestRewardItem|Reinforcement Expansion}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|8cm High-angle Gun|qty=2}}{{QuestRewardEquip|25mm Single Autocannon Mount|qty=2}}{{QuestRewardItem|Development Material|qty=8}}
-| notes = Steel and ammo will be consumed upon completion
+| bauxite = 3000
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 96 Land-based Attack Aircraft|qty=2}}{{QuestRewardEquip|Type 1 Land-based Attack Aircraft}}{{QuestRewardItem|New Model Aerial Armament Material}}<br/>'''Then Choose Between:'''<br/>{{QuestRewardItem|Improvement Material|qty=3}}{{QuestRewardItem|New Model Armament Material}}
+| notes = Yearly Quest (September)
 }}
 {{ProtoQuests
-| type = Modernization
-| listnum = G11
-| reqQuest2 =
+| type = Factory
+| listnum = F103
+| reqQuest = B173
+| reqQuest2 = D43
 | reqQuest3 =
-| namejp = 続：「最上型」改修工事を実施せよ！
-| nameen = Continued: Carry out Mogami-class Modernization work
-| req = Mogami-class Modernization work: Prepare 1,200 Steel, 1,200 Ammunition, then modernize and renovate the Mogami-class. Successfully modernize 4 CA at once into the ship twice!
-
-* Have 1,200 Steel, 1,200 Ammo and modernize a Mogami-class Heavy/Aviation Cruiser with 4 CAs at once twice.
-| fuel = 600
+| namejp = 調整改良型「水中探信儀」の増産
+| nameen = Increase the production of the newly adjusted and modified "Active Sonar"
+| req = Have [[Yamakaze Kai Ni|Yamakaze Kai Ni/D]] or [[Shigure Kai Ni]] as the secretary ship in your fleet then equip a fully modifed [[Type 3 Active Sonar]] in the first slot, then proceed to scrap, 2 [[Type 3 Active Sonar]], 2 [[Type 93 Passive Sonar]], prepare 2 [[New Model Armament Material]], 30 Development Materials, and 1,300 Baxuite in your inventory!
+| fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 0
-| other = <br>{{QuestRewardEquip|Type 21 Air Radar Kai Ni}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|20.3cm (No.3) Twin Gun Mount|qty=2}}{{QuestRewardEquip|Zuiun Model 12|qty=2}}{{QuestRewardItem|Improvement Material|qty=5}}
-| notes = Steel and ammo will be consumed upon completion
-}}
-|}
-
-====Limited Time Quests====
-
-{{ProtoQuestsHeader}}
-{{ProtoQuests
-| type = Sortie
-| listnum = 2103 LQ2
-| reqQuest = 
-| reqQuest2 =
-| reqQuest3 =
-| namejp = 【春限定】春の近海哨戒お散歩！
-| nameen = (Spring Limited Quest) Springtime Shore Patrol!
-| req = Organize a fleet with an AS, CL, or CT as flagship plus up to 4 DD/DE/SS(V), to a maximum of 5 ships. Sortie repeatedly to the Coastal Refinery Zone, the Adjacent Seas of Southwest Islands, and the Bashi Channel. Successfully patrol the areas around the base!
-
-* Sortie a fleet with AS, CL or CT as flagship plus up to 4 DD/DE/SS(V) and score a S-Rank victory at the boss nodes on [[1-3]], [[2-1]] and [[2-2]], twice each.
-| fuel = 330
-| ammo = 330
-| steel = 330
-| bauxite = 330
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 3 Active Sonar}}{{QuestRewardEquip|Type 3 Depth Charge Projector}}{{QuestRewardItem|Development Material|qty=5}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Type 95 Depth Charge|qty=2}}{{QuestRewardItem|Food Supply Ship Irako|qty=2}}{{QuestRewardItem|Furniture Fairy}}
-| notes = ''Limited Time Quest.''
+| other = {{QuestRewardEquip|Type 3 Active Sonar Kai}}
+| notes = 
 }}
 |}
 
@@ -624,7 +254,7 @@ Daily quests are reset every day at 05:00 JST (GMT +9). Weekly quests are reset 
 | ammo = 0
 | steel = 200
 | bauxite = 200
-| other = {{QuestRewardEquip|Combat Ration}}<br/>'''Furniture: Cool-Looking Goldfish Bowl'''
+| other = {{QuestRewardEquip|Combat Ration}} {{QuestRewardFurniture|301}}
 | notes = ''Still available despite being limited time''
 }}
 |}
@@ -3213,7 +2843,7 @@ Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at a
 | ammo = 0
 | steel = 500
 | bauxite = 0
-| other = Spring furniture x1
+| other = {{QuestRewardFurniture|277}}
 | notes = 
 }}
 {{ProtoQuests
@@ -3223,7 +2853,7 @@ Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at a
 | reqQuest2 = D19
 | namejp =  強襲上陸作戦用戦力を増強せよ！
 | nameen = Strengthen your Land-Based Assault Fleet!
-| req = ''While carrying out a reconnaissance at [[Operation K]], improve your fleet's capabilities for launching an amphibious warfare landing!''
+| req = ''While carrying out a reconnaissance at [[6-3|Operation K]], improve your fleet's capabilities for launching an amphibious warfare landing!''
 *Engage a sortie in [[6-3]] and score a victory (B-rank or above) at the boss node.
 | fuel = 0
 | ammo = 600
@@ -3312,7 +2942,7 @@ Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at a
 | ammo = 1000
 | steel = 1000
 | bauxite = 0
-| other = Furniture: ''Third Anniversary Scroll''
+| other = {{QuestRewardFurniture|286}}
 | notes = 
 }}
 {{ProtoQuests
@@ -3477,7 +3107,7 @@ Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at a
 | reqQuest2 =
 | namejp = 「「第十九駆逐隊」出撃せよ！
 | nameen = Sortie the 19th Destroyer Division!
-| req = ''Deploy the 4 Special Type Destroyers of the 19th Destroyer Division to the [[1-5 (Seas Near the Naval Base)]] and conduct a Naval Base anti submarine patrol around the area,strive to suppress and dominate the enemy submarine forces!''
+| req = ''Deploy the 4 Special Type Destroyers of the 19th Destroyer Division to the [[1-5|World 1-5 (Seas Near the Naval Base)]] and conduct a Naval Base anti submarine patrol around the area,strive to suppress and dominate the enemy submarine forces!''
 * Sortie a fleet consisting of [[Ayanami]], [[Shikinami]], [[Uranami]], and [[Isonami]] to [[1-5]] and score an A rank at the boss node
 | fuel = 300
 | ammo = 300
@@ -3493,7 +3123,7 @@ Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at a
 | reqQuest2 = D11
 | namejp = 「第十九駆逐隊」敵主力に突入せよ！
 | nameen = 19th Destroyer Division, Engage the Enemy Flagship!
-| req = ''Organize a powerful fleet which includes the "19th Destroyer Division" to the [[2-5 (Patrol off of Okinoshima)]] in the Nansei Islands! Capture the enemy flagship while paroling within that route and eliminate it!''
+| req = ''Organize a powerful fleet which includes the "19th Destroyer Division" to the [[2-5|World 2-5 (Patrol off of Okinoshima)]] in the Nansei Islands! Capture the enemy flagship while paroling within that route and eliminate it!''
 * Sortie a fleet consisting of [[Ayanami]], [[Shikinami]], [[Uranami]], and [[Isonami]] and (two other ships of choice) to [[2-5]] and score an A rank at the boss node
 | fuel = 600
 | ammo = 600
@@ -3580,7 +3210,7 @@ Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at a
 | ammo = 0
 | steel = 0
 | bauxite = 400
-| other = {{QuestRewardItem|Food Supply Ship Irako}}<br/>Furniture: ''Floor of Kanmusu Cushions''
+| other = {{QuestRewardItem|Food Supply Ship Irako}} {{QuestRewardFurniture|30}}
 | notes = 
 }}
 {{ProtoQuests
@@ -3622,13 +3252,13 @@ Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at a
 | reqQuest2 =
 | namejp = 重巡戦隊、抜錨せよ！
 | nameen = Heavy Cruiser Squadron, Weigh Anchor! 
-| req = Organize a Main fleet of four Heavy Cruisers with a Heavy Cruiser as flagship and expand across the [[Eastern Orel Sea]] in the Nansei Islands area, at the same time, eliminate the main enemy fleet to gain control of the sea area. 
+| req = Organize a Main fleet of four Heavy Cruisers with a Heavy Cruiser as flagship and expand across the [[2-3|Eastern Orel Sea]] in the Nansei Islands area, at the same time, eliminate the main enemy fleet to gain control of the sea area. 
 *Take a fleet consisting of 4 CA/CAV with a CA/CAV as flagship and two other ships of choice to [[2-3]] and score an S rank at the boss node.
 | fuel = 400
 | ammo = 400
 | steel = 0
 | bauxite = 0
-| other = {{QuestRewardItem|Food Supply Ship Irako}}<br/>Furniture: ''Hand-Knitting & Flooring''
+| other = {{QuestRewardItem|Food Supply Ship Irako}} {{QuestRewardFurniture|11}}
 | notes = 
 }}
 {{ProtoQuests
@@ -3638,7 +3268,7 @@ Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at a
 | reqQuest2 = B87
 | namejp = 戦艦戦隊、出撃せよ！
 | nameen = Battleship Squadron, Sortie! 
-| req = Deploy a Battleship organized fleet consisting of 2 Battleships with a Battleship as Flagship to [[The Alfonsinoes]] in the Northern Waters, eliminate the enemy battleship within the Northern Waters to regain control of the area.
+| req = Deploy a Battleship organized fleet consisting of 2 Battleships with a Battleship as Flagship to [[3-3|The Alfonsinoes]] in the Northern Waters, eliminate the enemy battleship within the Northern Waters to regain control of the area.
 *Take a Fleet consisting of 2 BB/FBB/BBV with a BB/FBB/BBV as Flagship, Two CV/CVL and two other ships of choice to [[3-3]] to the boss node and gain a victory there.
 | fuel = 0
 | ammo = 800
@@ -3654,7 +3284,7 @@ Urakaze: Admiral, we’ve finished making preparations, we’re ready to go at a
 | reqQuest2 =
 | namejp = 主力戦艦戦隊、抜錨せよ！
 | nameen = Battleship Squadron, Weigh Anchor!
-| req = Organize a Powerful Battleship Squadron consisting of 2 Battleships or Aviation Battleships and sail to the [[Okinoshima Islands]], capture the invading enemy fleet and eliminate them
+| req = Organize a Powerful Battleship Squadron consisting of 2 Battleships or Aviation Battleships and sail to the [[2-4|Okinoshima Islands]], capture the invading enemy fleet and eliminate them
 *Take 2 BB/BBV + 4 other ships of choice to [[2-4]] and score an S-rank on the Boss Node.
 | fuel = 0
 | ammo = 800
@@ -4012,7 +3642,7 @@ Have it provide several combat patrols in order to engage and destroy the main e
 {{ProtoQuests
 | type = Sortie
 | listnum = B111
-| reqQuest = F66
+| reqQuest = F65
 | reqQuest2 = B30
 | reqQuest3 =
 | namejp = 松輸送作戦、開始せよ！
@@ -4074,7 +3704,7 @@ Have it provide several combat patrols in order to engage and destroy the main e
 | ammo = 400
 | steel = 400
 | bauxite = 400
-| other = '''Choose between:'''<br/>{{QuestRewardItem|Action Report}} {{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardEquip|12cm 30-tube Rocket Launcher Kai Ni}}
+| other = {{QuestRewardEquip|12cm 30-tube Rocket Launcher Kai Ni}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Action Report}} {{QuestRewardItem|New Model Gun Mount Improvement Material}}
 | notes = 
 }}
 {{ProtoQuests
@@ -4216,7 +3846,7 @@ Ise K2, set sail!
 | ammo = 400
 | steel = 0
 | bauxite = 400
-| other =  Furniture: ''Maya's Shield Wall Scroll''<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|12.7cm Twin High-angle Gun Mount (Late Model)|qty=2}} {{QuestRewardItem|Instant Repair Material|qty=8}} {{QuestRewardItem|Medal}} 
+| other =  {{QuestRewardFurniture|393}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|12.7cm Twin High-angle Gun Mount (Late Model)|qty=2}} {{QuestRewardItem|Instant Repair Material|qty=8}} {{QuestRewardItem|Medal}} 
 | notes = 
 }}
 {{ProtoQuests
@@ -4317,8 +3947,7 @@ Ise K2, set sail!
 | ammo = 1113
 | steel = 1942
 | bauxite = 0
-| other =  Funiture: ''Hiei's Scroll''<br/>
-'''Then choose between:'''<br/>{{QuestRewardItem|Action Report}} {{QuestRewardEquip|Type 96 150cm Searchlight}} {{QuestRewardItem|Medal}}
+| other =  {{QuestRewardFurniture|416}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Action Report}} {{QuestRewardEquip|Type 96 150cm Searchlight}} {{QuestRewardItem|Medal}}
 | notes = ''Resource Rewards are based on IJN records of Hiei's Sinking Date''
 }}
 {{ProtoQuests
@@ -4492,7 +4121,7 @@ Ise K2, set sail!
 | ammo = 0
 | steel = 1945
 | bauxite = 0
-| other = Furniture: ''Haguro's Protection Scroll''<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material}} {{QuestRewardItem|Reinforcement Expansion}} {{QuestRewardItem|Furniture Fairy}} 
+| other = {{QuestRewardFurniture|446}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material}} {{QuestRewardItem|Reinforcement Expansion}} {{QuestRewardItem|Furniture Fairy}} 
 | notes = Resources numbers are a reference to the date of Haguro's sinking
 }}
 {{ProtoQuests
@@ -4560,7 +4189,7 @@ Ise K2, set sail!
 | ammo = 880
 | steel = 880
 | bauxite = 500
-| other = '''Choose between:'''<br/>{{QuestRewardEquip|Underway Replenishment|qty=3}} {{QuestRewardItem|Instant Repair Material|qty=6}} {{QuestRewardEquip|Combat Ration (Special Onigiri)|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardItem|New Model Rocket Development Material}}<br/>Furniture: ''Offshore Waves Hanging Shelf''
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Underway Replenishment|qty=3}} {{QuestRewardItem|Instant Repair Material|qty=6}} {{QuestRewardEquip|Combat Ration (Special Onigiri)|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardItem|New Model Rocket Development Material}} {{QuestRewardFurniture|474}}
 | notes =
 }}
 {{ProtoQuests
@@ -4628,7 +4257,7 @@ Ise K2, set sail!
 | ammo = 1000
 | steel = 1000
 | bauxite = 2020
-| other = Furniture: ''Scandinavian Sofa Set''<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material|qty=2}} {{QuestRewardEquip|Fairey Seafox Kai}}
+| other = {{QuestRewardFurniture|478}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material|qty=2}} {{QuestRewardEquip|Fairey Seafox Kai}}
 | notes =
 }}
 {{ProtoQuests
@@ -4646,7 +4275,7 @@ Ise K2, set sail!
 | steel = 0
 | bauxite = 400
 | other = '''Choose between:'''<br/>{{QuestRewardItem|Improvement Material|qty=2}} {{QuestRewardItem|Emergency Repair Material|qty=2}} {{QuestRewardItem|Instant Repair Material|qty=4}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Tenzan|qty=3}} {{QuestRewardEquip|OS2U}}
-| notes =
+| notes = It appears that [[Honolulu]] does not count towards this quests progression
 }}
 {{ProtoQuests
 | type = Sortie
@@ -4663,7 +4292,7 @@ Ise K2, set sail!
 | steel = 600
 | bauxite = 0
 | other = {{QuestRewardEquip|533mm Quintuple Torpedo Mount (Late Model)}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|F4F-3|qty=2|stars=3}} {{QuestRewardEquip|TBD|qty=2|stars=3}} {{QuestRewardItem|Development Material|qty=6}}  
-| notes = '''{{color|red|※ {{Ship/Link|Fletcher Mk.II}} does not count as {{Ship/Link|Fletcher Kai Mod.2}} for this quest.  Do this before remodeling.}}'''
+| notes = '''{{color|red|※ {{Ship/Link|Fletcher Mk.II}} does not count as {{Ship/Link|Fletcher Kai Mod.2}} for this quest.  Do this before remodeling.}}'''. It appears that [[Honolulu]] does not count towards this quests progression
 }}
 {{ProtoQuests
 | type = Sortie
@@ -4680,7 +4309,7 @@ Ise K2, set sail!
 | steel = 700
 | bauxite = 700
 | other = {{QuestRewardEquip|RUR-4A Weapon Alpha Kai}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Improvement Material|qty=4}} {{QuestRewardItem|Skilled Crew Member}} {{QuestRewardEquip|Underway Replenishment|qty=3}}
-| notes =
+| notes = It appears that [[Honolulu]] does not count towards this quests progression
 }}
 {{ProtoQuests
 | type = Sortie
@@ -4697,7 +4326,7 @@ Ise K2, set sail!
 | steel = 1000
 | bauxite = 0
 | other = {{QuestRewardItem|Medal}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Prototype Flight Deck Catapult}} {{QuestRewardEquip|Lightweight ASW Torpedo (Initial Test Model)}} {{QuestRewardItem|Remodel Blueprint}}
-| notes =
+| notes = It appears that [[Honolulu]] does not count towards this quests progression
 }}
 {{ProtoQuests
 | type = Sortie
@@ -4798,7 +4427,7 @@ Ise K2, set sail!
 | ammo = 513
 | steel = 513
 | bauxite = 0
-| other = Furniture: ''Whale Hanging Scroll''<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Armament Material}} {{QuestRewardEquip|Late Model Bow Torpedo Mount (6 tubes)|stars=2}} {{QuestRewardItem|Action Report}}
+| other = {{QuestRewardFurniture|497}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Armament Material}} {{QuestRewardEquip|Late Model Bow Torpedo Mount (6 tubes)|stars=2}} {{QuestRewardItem|Action Report}}
 | notes =
 }}
 {{ProtoQuests
@@ -4832,7 +4461,7 @@ Ise K2, set sail!
 | ammo = 270
 | steel = 270
 | bauxite = 270
-| other = Furniture: ''"Time for Baked Potatoes and Reading" Table''<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Underway Replenishment|qty=2}} {{QuestRewardEquip|Emergency Repair Goddess}} {{QuestRewardEquip|Canned Saury|qty=2}}
+| other = {{QuestRewardFurniture|501}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Underway Replenishment|qty=2}} {{QuestRewardEquip|Emergency Repair Goddess}} {{QuestRewardEquip|Canned Saury|qty=2}}
 | notes =
 }}
 {{ProtoQuests
@@ -4900,7 +4529,7 @@ Ise K2, set sail!
 | ammo = 1200
 | steel = 0
 | bauxite =  1200
-| other = Furniture: 2020 Naval Base Fireplace x1<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=5}} {{QuestRewardItem|Furniture Fairy}}
+| other = {{QuestRewardFurniture|505}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=5}} {{QuestRewardItem|Furniture Fairy}}
 | notes = 
 }}
 {{ProtoQuests
@@ -4956,6 +4585,113 @@ Ise K2, set sail!
 | bauxite = 0
 | other = {{QuestRewardEquip|12.7cm Twin High-angle Gun Mount Kai 2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Reinforcement Expansion|qty=2}} {{QuestRewardEquip|Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (65th Squadron)}} 
 | notes = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B166
+| reqQuest = B14
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 改装航空巡洋艦「最上」、抜錨せよ！
+| nameen = Remodeled Aviation Cruiser "Mogami", Weigh Anchor!
+| req = Organize a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship. Sortie to the Bashi Island Strait, the Okinoshima Island, the Curry Ocean Ri-Lanka Island, and the Forefront of the Southern Sea areas, and destroy the enemy forces!
+
+* Sortie a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship plus 5 XX and score a S-Rank victory at the boss nodes on [[2-2]], [[2-4]], [[4-5]] and [[5-1]].
+| fuel = 880
+| ammo = 880 
+| steel = 0
+| bauxite = 880
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Medal}}{{QuestRewardItem|Development Material|qty=8}}{{QuestRewardEquip|Zuiun Model 12|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Furniture Fairy|}}{{QuestRewardItem|Food Supply Ship Mamiya}}{{QuestRewardItem|Skilled Crew Member}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B167
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 西村艦隊、精鋭先行掃討隊、前進せよ！
+| nameen = Elite Vanguard Squadron, Nishimura Fleet, Forward!
+| req = Organize a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship, plus any two Nishimura Fleet DDs. Sortie to the Eastern Orel Bay, the Peacock Island, the deep parts of Tawi-Tawi Anchorage, and the deep parts of Penang Island. Crush the enemy fleets!
+
+* Sortie a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship, plus 2 Nishimura Fleet DDs and 3 XX and score a S-Rank victory at the boss nodes on [[2-3]], [[6-4]], [[World_7#7-2|7-2 (Part 2)]], [[World_7#7-3|7-3 (part 2)]].
+* Nishimura Fleet DDs include [[Michishio]], [[Shigure]], [[Asagumo]] and [[Yamagumo]].
+| fuel = 2021
+| ammo = 0 
+| steel = 1944
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|8cm High-angle Gun Kai + Additional Machine Guns|link=8cm Twin High-angle Mount + Additional Machine Guns}}{{QuestRewardItem|Action Report}}{{QuestRewardItem|Emergency Repair Goddess|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Medal|qty=2}}{{QuestRewardEquip|Type C Kouhyouteki|qty=2}}{{QuestRewardEquip|Kyoufuu Kai}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B168
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 二水戦旗艦、この「矢矧」が預かります！
+| nameen = Yahagi, assuming command of DesRon 2!
+| req = Organize a fleet with [[Yahagi Kai Ni]] or [[Yahagi Kai Ni B]] as flagship, plus 2 DD and 3 XX. Sortie to the Nansei Islands, the Okinoshima Sea, the Sav Island, and the Northern Solomon Sea Area. Destroy all abyssal forces!
+
+* Sortie a fleet with [[Yahagi Kai Ni]] or [[Yahagi Kai Ni B]] as flagship, plus 2 DD and 3 XX and score a S-Rank victory at the boss nodes on [[1-4]], [[2-5]], [[5-3]] and [[5-5]].
+| fuel = 1945
+| ammo = 2021
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardFurniture|533}} {{QuestRewardEquip|15.2cm Twin Gun Mount Kai Ni|stars=2}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B169
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =「新しき翼。改装航空母艦「龍鳳」、出撃せよ！
+| nameen = New Wings, Remodeled Light Carrier Ryuuhou, Sortie!
+| req = Have [[Ryuuhou|Ryuuhou Kai Ni/E]] as the flagship along with [[Shigure Kai Ni]] in the first fleet. Sortie to the Nansei Islands area's Bashi Channel, the Eastern Orel Bay, the Okinoshima Islands, the Okinoshima Sea, and the deepest parts of the sea near the Tawi-Tawi Anchorage in the Southwestern Area. Engage and destroy any enemy fleets! 
+
+* Sortie the first fleet with [[Ryuuhou|Ryuuhou Kai Ni/E]] as the flagship along with [[Shigure Kai Ni]] and 4 XX in the First fleet and score a S-Rank victory at the boss nodes on [[2-2]], [[2-3]], [[2-4]], [[2-5]], and [[World_7#7-2|7-2 (Part 2)]].
+| fuel = 0
+| ammo = 0
+| steel = 1946
+| bauxite = 2021
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=8}}{{QuestRewardEquip|Tenzan Model 12A}}{{QuestRewardEquip|Emergency Repair Goddess}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|8cm High-angle Gun Kai + Additional Machine Guns|stars=2}}{{QuestRewardEquip|Type 0 Fighter Model 63 (Fighter-bomber)|qty=2}}{{QuestRewardEquip|Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B170
+| reqQuest = B151
+| reqQuest2 = B159
+| reqQuest3 =
+| namejp = 改装特務空母「Gambier Bay Mk.II」抜錨！
+| nameen = Remodeled Utility Carrier "Gambier Bay Mk.II" Weigh Anchor!
+| req = Organize a fleet consisting of [[Gambier Bay Mk.II]] as Flagship along with at least 1 Fletcher Class Destroyer as part of the fleet. With your fleet, sortie into the Waters off Okinoshima, The AL Operation Area, and the Waters Off from Peacock Island and successfully destroy the enemy multiple times in the same areas!
+* Organize Fleet 1 with [[Gambier Bay Mk.II]] as flagship, 1 Fletcher Class DD ([[Fletcher]] / [[Johnston]]) and score S rank on the boss nodes of [[2-4]], [[3-5]] twice and an A+ rank on [[6-4]] twice.
+| fuel = 730
+| ammo = 730
+| steel = 730
+| bauxite = 730
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|TBF|stars=4|qty=2}}{{QuestRewardItem|Improvement Material|qty=7}}{{QuestRewardItem|Action Report|}} <br> '''Then choose between:'''<br/>{{QuestRewardItem|Ranking Point Reward|qty=800}}{{QuestRewardEquip|FR-1 Fireball|}} 
+| notes = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B171
+| reqQuest = D42
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【作戦準備】第二段階任務(対地/対空整備)
+| nameen = "Operation Preparation" Second Stage Mission (Surface/Anti-Air Maintenance)
+| req = Organize a fleet consisting of 3 Destroyers within the fleet and proceed into the Coastal Refinery Area, Nansei Island Defense Line, Nansei Island Patrol Area, and the Nansei Island Bashi Channel. Within these areas, confront the main enemy fleet and destroy them!
+* Organize a fleet with 3 DD and 3 XX and score an S rank on the boss nodes of [[1-3]], [[1-4]], [[2-1]], [[2-2]].
+| fuel = 750
+| ammo = 750
+| steel = 0
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 3 Shell|qty=2}}{{QuestRewardEquip|12cm 30-tube Rocket Launcher|qty=3}}{{QuestRewardEquip|Shipborne Model Type 4 20cm Anti-ground Rocket Launcher|qty=2}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Daihatsu Landing Craft|qty=2}}{{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}}{{QuestRewardItem|Emergency Repair Goddess}}
+| notes =
 }}
 |}
 
@@ -5384,9 +5120,7 @@ Ise K2, set sail!
 {{ProtoQuests
 | type = Sortie
 | listnum = Bm8
-| reqQuest = Bm5
-| reqQuest2 = C8
-| reqQuest3 =
+| reqQuest = C8
 | namejp = 兵站線確保！海上警備を強化実施せよ！
 | nameen = Secure the Supply Lines! Strengthen the Marine Guard!
 | req = Marine Guard Mission: Form a maritime escort fleet that consists of one light carrier or light cruiser class ship and a total of at least three destroyers and/or coastal defence ships, then have it guard the sea around the Nansei Islands, carry out a maritime escort mission, the First Southern Operation, patrol the Nansei Islands, and destroy any enemies in the areas!
@@ -5397,7 +5131,7 @@ Ise K2, set sail!
 | steel = 0
 | bauxite = 400
 | other = '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=4}} {{QuestRewardItem|Instant Repair Material|qty=4}} {{QuestRewardItem|Improvement Material|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Type 95 Depth Charge}} {{QuestRewardEquip|25mm Single Autocannon Mount|qty=2}} {{QuestRewardItem|Food Supply Ship Irako}}
-| notes = ''Monthly Quest. Just one of the required quests is needed to trigger?''
+| notes = ''Monthly Quest.''
 }}
 |}
 
@@ -5644,7 +5378,7 @@ Players will have 3 months to complete the quest lines before they reset.
 | steel = 1900
 | bauxite = 0
 | other = '''Choose between:'''<br/>{{QuestRewardItem|Furniture Fairy}} {{QuestRewardItem|Food Supply Ship Mamiya}} {{QuestRewardItem|Furniture Box (Medium)|qty=10}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=8}} {{QuestRewardItem|Development Material|qty=10}} {{QuestRewardItem|Improvement Material|qty=4}}
-| notes = ''Yearly Quest''<br/>''(Resets on Feburary 1st'')
+| notes = ''Yearly Quest (Feburary)''
 }}
 {{ProtoQuests
 | type = Sortie
@@ -5661,7 +5395,7 @@ Players will have 3 months to complete the quest lines before they reset.
 | steel = 600
 | bauxite = 0
 | other = '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=6}} {{QuestRewardItem|Development Material|qty=8}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Furniture Fairy}} {{QuestRewardEquip|Type 2 Depth Charge}} {{QuestRewardItem|Medal}}
-| notes = ''Yearly Quest''<br/>''(Resets on Feburary 1st'')
+| notes = ''Yearly Quest (Feburary)''
 }}
 {{ProtoQuests
 | type = Sortie
@@ -5678,7 +5412,7 @@ Players will have 3 months to complete the quest lines before they reset.
 | steel = 600
 | bauxite = 0
 | other = {{QuestRewardEquip|Underway Replenishment}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Emergency Repair Material|qty=2}} {{QuestRewardItem|Instant Repair Material|qty=5}} {{QuestRewardItem|Development Material|qty=6}}
-| notes = ''Yearly Quest''<br/>''(Resets on March 1st)''
+| notes = ''Yearly Quest (March)''
 }}
 {{ProtoQuests
 | type = Sortie
@@ -5695,13 +5429,13 @@ Players will have 3 months to complete the quest lines before they reset.
 | steel = 800
 | bauxite = 0
 | other = '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=5}} {{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardEquip|Anti-torpedo Bulge (Medium)}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|20.3cm (No.2) Twin Gun Mount|qty=2}} {{QuestRewardItem|Improvement Material|qty=4}}
-| notes = ''Yearly Quest''<br/>''(Resets on March 1st)''
+| notes = ''Yearly Quest (March)''
 }}
 {{ProtoQuests
 | type = Sortie
 | listnum = By5
 | reqQuest = B155
-| reqQuest2 = 
+| reqQuest2 = B138
 | reqQuest3 =
 | namejp = 歴戦「第十方面艦隊」、全力出撃
 | nameen = Experienced "10th Area Fleet", Go all out!
@@ -5712,7 +5446,92 @@ Players will have 3 months to complete the quest lines before they reset.
 | steel = 1000
 | bauxite = 1000
 | other ='''Choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardItem|New Model Aerial Armament Material}} {{QuestRewardItem|Development Material|qty=10}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Zuiun Model 12|qty=2}} {{QuestRewardItem|New Model Armament Material|qty=2}} {{QuestRewardItem|Improvement Material|qty=8}}
-| notes = '''Yearly Quest''' (Resets on September 1st)
+| notes = ''Yearly Quest (September)''
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = By6
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 鎮守府近海海域の哨戒を実施せよ！
+| nameen = Carry out a patrol in the waters near the Naval District
+| req = Organize a fleet consisting of a Heavy Cruiser or Destroyer as flagship along with 3 additional Destroyers or Coastal Defense Ships as part of the fleet, then proceed into the Seas outside the Nansei Island, the Coastal refinery area, and the Nansei Island Defense Line. Take control of the seas within each area.
+* Organize a fleet with 1 CA/DD as flagship, 3 DD/DE and up to 2 XX and score A+ rank on the boss nodes of [[1-2]], [[1-3]] and [[1-4]] twice.
+| fuel = 200
+| ammo = 200
+| steel = 0
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 2 Depth Charge|qty=2}}{{QuestRewardItem|Food Supply Ship Irako|qty=2}}{{QuestRewardItem|Food Supply Ship Mamiya|}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Type 3 Active Sonar|stars=2}}{{QuestRewardEquip|Type 3 Depth Charge Projector|stars=2}}{{QuestRewardItem|Development Material|qty=5}}
+| notes = Yearly Quest (June)
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = By7
+| reqQuest = By6
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 南西方面の兵站航路の安全を図れ！
+| nameen = Secure the logistics route to the Nansei Islands!
+| req = Organize a fleet consisting of a Light Cruiser, Training Cruiser or Destroyer as flagship along with 3 additional Destroyers or Coastal Defense Ships as part of the fleet, then proceed into the Waters Adjacent to the Naval District, the Naval District Sea Route, and the Nansei Island Coastal Patrol. Defeat the enemy fleets within the area multiple times.
+* Organize a fleet consisting of 1 CL/CT/ DD as flagship, 3 DD/DE and up to 2 XX, then score A+ rank on the boss nodes of [[1-5]], [[2-1]] twice, and complete [[1-6]] twice.
+| fuel = 0
+| ammo = 0
+| steel = 300
+| bauxite = 300
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 2 12cm Mortar Kai|qty=2}}{{QuestRewardEquip|Shipborne Model Type 4 20cm Anti-ground Rocket Launcher}}{{QuestRewardEquip|Combat Ration|qty=4}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Daihatsu Landing Craft|qty=2}}{{QuestRewardItem|New Model Gun Mount Improvement Material}}{{QuestRewardItem|Improvement Material|qty=3}}
+| notes = Yearly Quest (June)
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = By8
+| reqQuest = By6
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 空母機動部隊、出撃！敵艦隊を迎撃せよ！
+| nameen = Aircraft carrier task force, sortie! Intercept the enemy fleet!
+| req = Organize a fleet consisting of an Aircraft Carrier as flagship along with 2 additional Heavy Cruisers or Aviation Cruisers that make up part of the fleet, then proceed into the Bashi Strait, Eastern Orel Sea, and the Okinoshima Islands. Confront the main enemy in the area and destroy them!
+* Organize a fleet consisting of 1 CV(L)(B) as flagship, 2 CA(V) and up to 3 XX, then score an S rank on the boss nodes of [[2-2]], [[2-3]] and [[2-4]].
+| fuel = 0
+| ammo = 400
+| steel = 0
+| bauxite = 400
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 0 Fighter Model 32|qty=2}}{{QuestRewardEquip|F4F-3|qty=2}}{{QuestRewardItem|Instant Repair Material|qty=5}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Type 99 Dive Bomber Model 22|qty=2}}{{QuestRewardEquip|SBD|qty=2}}{{QuestRewardItem|Action Report}}
+| notes = Yearly Quest (June)
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = By9
+| reqQuest = By8
+| reqQuest2 = B134
+| reqQuest3 =
+| namejp = AL作戦
+| nameen = Operation AL
+| req = Organize a fleet consisting of 2 Light Aircraft Carrier as part of your fleet, then proceed into the Moray Sea Area, The Alfonsinoes, and the entire Northern Sea Area, and the Northern Operation AL Area. Perform Operation AL in the Northern Waters. Confront the main enemy in the area, and destroy them!
+* Organize a fleet consisting of 2 CVL and up to 4 XX, then score an S rank on the boss nodes of [[3-1]], [[3-3]], [[3-4]] and [[3-5]].
+| fuel = 880
+| ammo =880
+| steel = 880
+| bauxite = 880
+| other = {{QuestRewardItem|Ranking Point Reward|qty=480}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|Type 13 Air Radar Kai|qty=2}}{{QuestRewardItem|Medal}}{{QuestRewardItem|Reinforcement Expansion}}
+| notes = Yearly Quest (June)
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = By10
+| reqQuest = By9
+| reqQuest2 = B153
+| reqQuest3 =
+| namejp = 機動部隊決戦
+| nameen = Naval Task Force Decisive Battle
+| req = Organize a fleet with an Aircraft Carrier as part of your first fleet, then proceed into the Coral Sea Area, Eastern Salmon Sea, the KW Atoll, and the waters around Peacock Island. Confront the main enemy in the area and destroy them several times!
+* Organize the first fleet consisting of 1 CV(L)(B) as flagship and up to 5 XX, then score S rank on the boss nodes of [[5-2]], [[5-5]] and [[6-5]] twice, and score A+ rank on the boss of [[6-4]] twice.
+| fuel = 1300
+| ammo =1300
+| steel = 0
+| bauxite = 1300
+| other = {{QuestRewardItem|Ranking Point Reward|qty=600}}<br>'''Choose between:'''<br/>{{QuestRewardItem|Skilled Crew Member|qty=5}}{{QuestRewardItem|Prototype Flight Deck Catapult}}{{QuestRewardEquip|Kikka Kai}}
+| notes = Yearly Quest (June)
 }}
 |}
 
@@ -5816,7 +5635,7 @@ Players will have 3 months to complete the quest lines before they reset.
 }}
 {{ProtoQuests
 | type = PVP
-| listnum = C10<br/>C26<br/>C40<br/>C47
+| listnum = C10<br/>C26<br/>C40<br/>C47<br/>C61
 | reqQuest = C2
 | namejp = 秋季大演習
 | nameen = Large Scale Autumn Exercise 
@@ -5944,7 +5763,7 @@ Players will have 3 months to complete the quest lines before they reset.
 | ammo = 300
 | steel = 0
 | bauxite = 0
-| other = Furniture: ''Etorofu-class Kaiboukan Wall Scroll''<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Reinforcement Expansion}} {{QuestRewardItem|Medal}}
+| other = {{QuestRewardFurniture|382}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Reinforcement Expansion}} {{QuestRewardItem|Medal}}
 | notes = 
 }}
 {{ProtoQuests
@@ -6187,7 +6006,7 @@ Score at least three victories within the same day using this aviation squadron 
 | ammo = 800
 | steel = 0
 | bauxite = 800
-| other = Furniture: ''"Kaga Misaki" Hanging Scroll''<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material}} {{QuestRewardItem|Skilled Crew Member}}
+| other = {{QuestRewardFurniture|490}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material}} {{QuestRewardItem|Skilled Crew Member}}
 | notes =
 }}
 {{ProtoQuests
@@ -6222,6 +6041,42 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 0
 | bauxite = 160
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Mamiya}} {{QuestRewardItem|Instant Repair Material|qty=5}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Development Material|qty=8}} {{QuestRewardItem|New Model Armament Material}} {{QuestRewardItem|Improvement Material|qty=4}}
+| notes = 
+}}
+{{ProtoQuests
+| type = PVP
+| listnum = C56
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 改装航空巡洋艦「最上」、進発せよ！
+| nameen = Remodeled Aviation Cruiser "Mogami", Go Wild!
+| req = Organize a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship, plus 3 DDs. With your fleet, score 4 PVP victories (A ranks) within the same day.
+
+* Organize a fleet with [[Mogami Kai Ni]] or [[Mogami Kai Ni Toku]] as flagship, plus 3 DD and 2 XX and score 4 A-Rank victories in PvP on the same day.
+| fuel = 0
+| ammo = 400 
+| steel = 0
+| bauxite = 400
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 21 Air Radar}}{{QuestRewardItem|Development Material|qty=5}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako|qty=3}}{{QuestRewardItem|Furniture Fairy|}}
+| notes = 
+}}
+{{ProtoQuests
+| type = PVP
+| listnum = C57
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 改装「矢矧」、精鋭水雷戦隊旗艦演習！
+| nameen = Exercises with the Elite Remodeled DesRon Flagship, "Yahagi"!
+| req = Organize a fleet with [[Yahagi Kai Ni]] or [[Yahagi Kai Ni B]] as flagship, plus 4 DDs. With your fleet, score 4 PVP victories (A ranks) within the same day.
+
+* Organize a fleet with [[Yahagi Kai Ni]] or [[Yahagi Kai Ni B]] as flagship, plus 4 DD and 1 XX and score 4 S-Rank victories in PvP on the same day.
+| fuel = 480
+| ammo = 0 
+| steel = 480
+| bauxite = 0
+| other = {{QuestRewardEquip|15.2cm Twin Gun Mount Kai Ni}}<br/>'''Choose between:'''<br/>{{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}}{{QuestRewardItem|New Model Armament Material}} {{QuestRewardFurniture|529}}.
 | notes = 
 }}
 |}
@@ -6409,7 +6264,7 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 600
 | bauxite = 0
 | other = '''Choose between:'''<br/>{{QuestRewardEquip|Swordfish}} {{QuestRewardEquip|Fulmar}} {{QuestRewardItem|Development Material|qty=4}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material}} {{QuestRewardItem|Instant Repair Material|qty=5}}
-| notes = ''Yearly Quest''<br/>(resets on October 1st)<br/>End quote is from [[Kongou]]
+| notes = ''Yearly Quest (October)''<br/>End quote is from [[Kongou]]
 }}
 {{ProtoQuests
 | type = PVP
@@ -6426,7 +6281,7 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 250
 | bauxite = 250
 | other = '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=6}} {{QuestRewardItem|Instant Repair Material|qty=4}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Medal}} {{QuestRewardItem|New Model Aerial Armament Material}} {{QuestRewardItem|Food Supply Ship Mamiya}}
-| notes = ''Yearly Quest''<br/>(resets on October 1st)
+| notes = ''Yearly Quest (October)''
 }}
 {{ProtoQuests
 | type = PVP
@@ -6445,7 +6300,7 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 200
 | bauxite = 200
 | other = '''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako}} {{QuestRewardItem|Instant Repair Material|qty=3}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|14cm Twin Gun Mount|qty=2}} {{QuestRewardEquip|15.2cm Twin Gun Mount|qty=2}} {{QuestRewardItem|Improvement Material|qty=3}}
-| notes = '''Yearly Quest'''<br/>''Reset February 1st''
+| notes = ''Yearly Quest (February)''
 }}
 {{ProtoQuests
 | type = PVP
@@ -6464,7 +6319,41 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 350
 | bauxite = 0
 | other = {{QuestRewardItem|Food Supply Ship Mamiya}} </br>'''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako|qty=2}} {{QuestRewardItem|New Model Armament Material}} {{QuestRewardItem|Instant Repair Material|qty=3}}
-| notes = '''Yearly Quest'''<br/>''Reset March 1st''
+| notes = ''Yearly Quest (March)''
+}}
+{{ProtoQuests
+| type = PVP
+| listnum = C58
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =「巡洋艦戦隊」演習！
+| nameen = Cruiser Squadron, Commence Practice!
+| req = Organize a fleet consisting of 4 Heavy Cruisers and 2 Destroyers forming a fleet of 6 ships. Then successfully win 5 Practice battles on the same day. 
+* Organize a fleet consisting of 1 CA(V) as flagship, 3 CA(V) and 2 DD, then score 5 victories in PVP on the same day.
+| fuel = 500
+| ammo = 500
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Food Supply Ship Mamiya|}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|Type 22 Surface Radar Kai 4|qty=2}}{{QuestRewardEquip|20.3cm (No.3) Twin Gun Mount|qty=2}}{{QuestRewardEquip|Skilled Lookouts|stars=2}}
+| notes = Yearly Quest (June)
+}}
+{{ProtoQuests
+| type = PVP
+| listnum = C60
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =「改装特務空母」任務部隊演習！
+| nameen = "Remodeled Utility Carrier" Task Force Exercise
+| req = Organize a fleet consisting of "Remodeled Utility Carrier" as flagship along with 2 ships consisting of the "Fletcher-class Destroyers" and "John C. Butler Destroyer Escorts" as part of the fleet. Then with said fleet successfully get 4 S ranks in practice in the same day.
+* Organize a fleet consisting of [[Gambier Bay Mk.II]] as flagship, and at least two members consisting of either [[Fletcher]], [[Johnston]] or [[Samuel B. Roberts]] and 3XX and successfully get 4 S Ranks in the same day.
+| fuel = 0
+| ammo = 730
+| steel = 0
+| bauxite = 730
+| other = {{QuestRewardItem|Construction Corps|}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|FM-2|qty=2}}{{QuestRewardEquip|TBF|qty=2}}{{QuestRewardEquip|SK Radar|stars=5}}
+| notes = Yearly Quest (July)
 }}
 |}
 
@@ -6857,6 +6746,41 @@ Score at least three victories within the same day using this aviation squadron 
 | other = </br>'''Choose between:'''<br/> {{QuestRewardEquip|Bf 109T Kai}} {{QuestRewardEquip|Do 17 Z-2}} <br/> '''Then choose between:'''<br/>  {{QuestRewardItem|New Model Armament Material}}  {{QuestRewardItem|New Model Aerial Armament Material|qty=2}} {{QuestRewardItem|Improvement Material|qty=4}}
 | notes = 
 }}
+{{ProtoQuests
+| type = Expedition
+| listnum = D41
+| reqQuest = F100
+| reqQuest2 = D31
+| reqQuest3 =
+| namejp = 航空基地を整備拡張せよ！
+| nameen = Development and Expansion of your Land Base! 
+| req = Land Base Expansion Mission: Conduct the following expeditions: Maritime Escort Mission, Tanker Escort Mission, Supply Line Strengthening Mission, Aircraft Transport Operation, Seaplane Base Construction, Seaplane Frontline Transport, and Bauxite Escort Convoy. Complete each task.
+
+* Complete expeditions 5, A1, 9, 18, 36, 40, and 45. 
+| fuel = 0
+| ammo = 0 
+| steel = 0
+| bauxite = 800
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Construction Corps|}}{{QuestRewardEquip|Type 1 Land-based Attack Aircraft|qty=2}}<br> '''Then choose between:'''<br/>{{QuestRewardItem|Construction Corps|}}{{QuestRewardItem|New Model Aerial Armament Material|qty=2}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Expedition
+| listnum = D42
+| reqQuest =
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 【作戦準備】第一段階任務（対潜整備）
+| nameen = "Operation Preparation" First Stage Mission (Anti-Submarine Maintenance)
+| req =  "Operation Preparation" First Stage Mission: Perform the Expeditions "Defense Mission", "Anti Submarine Mission", Martime Escort Mission, "Supply Line Strengthening Mission", and "Strait Defense Line" and successfully complete them all at least once.
+* Complete Expedition 3,4,5,A1, and A2
+| fuel = 0
+| ammo = 350
+| steel = 350
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 93 Passive Sonar|qty=3}}{{QuestRewardItem|Development Material|qty=6}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Type 94 Depth Charge Projector|}}{{QuestRewardItem|Improvement Material|qty=4}}{{QuestRewardItem|Food Supply Ship Mamiya}}
+| notes = 
+}}
 |}
 
 ===Daily Quests===
@@ -7018,7 +6942,7 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 0
 | bauxite = 500
 | other = '''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako|qty=2}} {{QuestRewardItem|Instant Repair Material|qty=5}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Underway Replenishment|qty=2}} {{QuestRewardItem|Improvement Material|qty=3}} {{QuestRewardItem|Emergency Repair Material|qty=2}}
-| notes = ''Yearly Quest''<br/>''(Resets on Feburary 1st'')
+| notes = ''Yearly Quest (February)''
 }}
 {{ProtoQuests
 | type = Expedition
@@ -7035,7 +6959,7 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 400
 | bauxite = 0
 | other = '''Choose between:'''<br/>{{QuestRewardEquip|Drum Canister (Transport Use)||qty=2}} {{QuestRewardItem|Instant Repair Material|qty=4}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Daihatsu Landing Craft}} {{QuestRewardEquip|Underway Replenishment|qty=2}} {{QuestRewardItem|Furniture Fairy}}
-| notes = ''Yearly Quest''<br/>''(Resets on March 1st)''
+| notes = ''Yearly Quest (March)''
 }}
 {{ProtoQuests
 | type = Expedition
@@ -7052,7 +6976,7 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 0
 | bauxite = 800
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Mamiya}} {{QuestRewardItem|Furniture Fairy}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Daihatsu Landing Craft}} {{QuestRewardItem|Improvement Material|qty=3}} {{QuestRewardItem|Development Material|qty=7}}
-| notes = ''Yearly Quest''<br/>''(Resets on May 1st)''
+| notes = ''Yearly Quest (May)''
 }}
 {{ProtoQuests
 | type = Expedition
@@ -7069,7 +6993,7 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 0
 | bauxite = 0
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Mamiya}} {{QuestRewardItem|Development Material|qty=5}} {{QuestRewardItem|Furniture Fairy}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Underway Replenishment|qty=3}} {{QuestRewardItem|Improvement Material|qty=4}} {{QuestRewardItem|New Model Aerial Armament Material}}
-| notes = ''Yearly Quest''<br/>(Resets on August 1st)
+| notes = ''Yearly Quest (August)''
 }}
 {{ProtoQuests
 | type = Expedition
@@ -7086,7 +7010,7 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 480
 | bauxite = 480
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=4}} {{QuestRewardItem|Food Supply Ship Irako}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=6}} {{QuestRewardItem|New Model Armament Material}} 
-| notes = ''Yearly Quest''<br/>(Resets on September 1st)
+| notes = ''Yearly Quest (September)''
 }}
 {{ProtoQuests
 | type = Expedition
@@ -7103,7 +7027,7 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 0
 | bauxite = 0
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Improvement Material|qty=4}} {{QuestRewardItem|Food Supply Ship Mamiya}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material|qty=2}} {{QuestRewardItem|New Model Aerial Armament Material|qty=2}} 
-| notes = ''Yearly Quest''<br/>(Resets on September 1st)
+| notes = ''Yearly Quest (September)''
 }}
 {{ProtoQuests
 | type = Expedition
@@ -7120,7 +7044,25 @@ Score at least three victories within the same day using this aviation squadron 
 | steel = 500
 | bauxite = 500
 | other = '''Choose between:'''<br/>{{QuestRewardItem|Food Supply Ship Irako|qty=2}} {{QuestRewardItem|Development Material|qty=6}} {{QuestRewardItem|Improvement Material|qty=3}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardEquip|Underway Replenishment|qty=2}} {{QuestRewardItem|New Model Armament Material}}
-| notes = '''Yearly Quest'''<br/>''Reset February 1st''
+| notes = ''Yearly Quest (February)''
+}}
+{{ProtoQuests
+| type = Expedition
+| listnum = D40
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 新兵装開発資材輸送を船団護衛せよ！
+| nameen = Escort the convoy to transport new weapons development materials! 
+| req = Conduct the following expeditions: Maritime Escort Mission, Tanker Escort Mission, Bauxite Transport Mission, Resource Transport Mission, and South Western Air Reconnaissance Operation. Complete each task.
+
+* Complete expeditions 5, 9, 11, 12 and B1. 
+| fuel = 1000
+| ammo = 300 
+| steel = 300
+| bauxite = 600
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=6}}{{QuestRewardItem|Instant Repair Material|qty=5}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material}}{{QuestRewardItem|New Model Aerial Armament Material}}{{QuestRewardItem|Improvement Material|qty=4}}
+| notes = ''Yearly quest (March)''
 }}
 |}
 
@@ -7308,6 +7250,7 @@ Score at least three victories within the same day using this aviation squadron 
 | bauxite = 50
 | other = {{QuestRewardEquip|Tenzan Model 12 (Tomonaga Squadron)}}
 | notes = You will only obtain 1 [[Tenzan Model 12 (Tomonaga Squadron)]] regardless of how many [[Type 97 Torpedo Bomber (Tomonaga Squadron)]] were equipped on the secretary ship.
+'''※It is highly recommended to improve the {{Equipment/Link|Type 97 Torpedo Bomber (Tomonaga Squadron)}} to [[File:Icon Imp.png|link=Akashi's Improvement Arsenal]] first. <font color="red">The {{Equipment/Link|Tenzan Model 12 (Tomonaga Squadron)}} cannot be improved via [[Akashi's Improvement Arsenal]] afterwards.</font>'''
 }}
 {{ProtoQuests
 | type = Factory
@@ -7325,6 +7268,7 @@ Score at least three victories within the same day using this aviation squadron 
 | bauxite = 50
 | other = {{QuestRewardEquip|Suisei (Egusa Squadron)}}
 | notes = You will only obtain 1 [[Suisei (Egusa Squadron)]] regardless of how many [[Type 99 Dive Bomber (Egusa Squadron)]] were equipped on the secretary ship.
+'''※It is highly recommended to improve the {{Equipment/Link|Type 99 Dive Bomber (Egusa Squadron)}} to [[File:Icon Imp.png|link=Akashi's Improvement Arsenal]] first. <font color="red">The {{Equipment/Link|Suisei (Egusa Squadron)}} cannot be improved via [[Akashi's Improvement Arsenal]] afterwards.</font>'''
 }}
 {{ProtoQuests
 | type = Factory
@@ -7342,6 +7286,7 @@ Score at least three victories within the same day using this aviation squadron 
 | bauxite = 50
 | other = {{QuestRewardEquip|Reppuu (601 Air Group)}}
 | notes = You will only obtain 1 [[Reppuu (601 Air Group)]] regardless of how many [[Zero Fighter Type 52 Model C (601 Air Group)]] were equipped on the secretary ship.
+'''※It is highly recommended to improve the {{Equipment/Link|Zero Fighter Model 52C (601 Air Group)}} to [[File:Icon Imp.png|link=Akashi's Improvement Arsenal]] first. <font color="red">The {{Equipment/Link|Reppuu (601 Air Group)}} cannot be improved via [[Akashi's Improvement Arsenal]] afterwards.</font>'''
 }}
 {{ProtoQuests
 | type = Factory
@@ -7581,7 +7526,7 @@ Score at least three victories within the same day using this aviation squadron 
 | namejp = 上陸戦用新装備の調達
 | nameen = Preparations for the new equipment for the landing operation
 | req = Dispose of two 7.7mm Machine Guns and two 12.7 Machine Guns in the factory
-*Scrap 2 [[7.7mm Machine Gun]] and [[12.7mm Machine Gun]].
+*Scrap 2 [[7.7mm Machine Gun]] and [[12.7mm Single Machine Gun Mount]].
 | fuel = 50
 | ammo = 0
 | steel = 0
@@ -7596,7 +7541,7 @@ Score at least three victories within the same day using this aviation squadron 
 | reqQuest2 = F34
 | namejp = 新型魚雷兵装の開発
 | nameen = New Torpedo Weapon Development
-| req = Consume 2 Medals: Equip a maxed modified 61cm Triple Oxygen Torpedo and a maxed modified 61cm Quint Oxygen Torpedo to [[Shimakaze]](Equipment will disappear upon completion of quest)
+| req = Consume 2 Medals: Equip a maxed modified [[61cm Triple (Oxygen) Torpedo Mount]] and a maxed modified [[61cm Quint (Oxygen) Torpedo Mount]] to [[Shimakaze]](Equipment will disappear upon completion of quest)
 * Have [[Shimakaze]] as your secratery and equip her with a maxed modified 61cm Triple Oxygen Torpedo and a maxed modified 61cm Quint Oxygen Torpedo that are improved from [[Akashi's Improvement Arsenal]] (Equipped torpedoes will disappear upon completion of quest)
 | fuel = 0
 | ammo = 600
@@ -7681,14 +7626,14 @@ Will consume 2 medals
 | reqQuest2 = B62
 | namejp = 中部海域「基地航空隊」展開！
 | nameen = Begin the Preparations to "Build the Air Base"! 
-| req = Discard 2 [[Drum Canister]]s and prepare 1200 fuel, 3000 bauxite and  a "construction team".
-*Have 2 [[Drum Canister]]s, 1200 fuel, 3000 Bauxite, and a construction team in your inventory, then activate the quest and scrap 2 [[Drum Canister]]s to complete.
+| req = Discard 2 [[Drum Canister]]s and prepare 1200 fuel, 3000 bauxite and  a "[[Construction Corps]]".
+*Have 2 [[Drum Canister]]s, 1200 fuel, 3000 Bauxite, and a [[Construction Corps]] in your inventory, then activate the quest and scrap 2 [[Drum Canister]]s to complete.
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 0
 | other = '''Access to [[LBAS]] for [[6-4]] and [[6-5]]'''
-| notes = 1200 fuel, 3000 bauxite and Construction team will be consumed upon completion of quest.
+| notes = 1200 fuel, 3000 bauxite and [[Construction Corps]] will be consumed upon completion of quest.
 }}
 {{ProtoQuests
 | type = Factory
@@ -7729,14 +7674,14 @@ Will consume 2 medals
 | reqQuest2 = C3
 | namejp = 噴式戦闘爆撃機の開発
 | nameen = Develop the Jet Fighter-Bomber
-| req = To Produce the new type Fighter-Bomber with the built in Ne-Type Engines, dispose 3 [[Shiden Kai 2]] in the factory and prepare 2 New Aircraft Blueprint and 1 Ne-Type Engine. (Upon completion, previously noted items will be consumed upon completion of quest)
-*Scrap 3 [[Shiden Kai 2]] and have 2 New Aircraft Blueprint and 1 Ne-Type Engine in your inventory upon activating the quest.
+| req = To Produce the new type Fighter-Bomber with the built in [[Ne Type Engine]]s, dispose 3 [[Shiden Kai 2]] in the factory and prepare 2 [[New Technology Aircraft Blueprint]] and 1 [[Ne Type Engine]]. (Upon completion, previously noted items will be consumed upon completion of quest)
+*Scrap 3 [[Shiden Kai 2]] and have 2 [[New Technology Aircraft Blueprint]] and 1 [[Ne Type Engine]] in your inventory upon activating the quest.
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 100
 | other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardEquip|Kikka Kai}}
-| notes = One Ne-Type Engine and two New Aircraft Blueprint will be consumed upon completion of quest
+| notes = One [[Ne Type Engine]] and two [[New Technology Aircraft Blueprint]] will be consumed upon completion of quest
 }}
 {{ProtoQuests
 | type = Factory
@@ -7744,7 +7689,7 @@ Will consume 2 medals
 | reqQuest = D21
 | reqQuest2 = 
 | namejp = ネ式エンジンの増産
-| nameen = Increased Production of Ne-Type Engine
+| nameen = Increased Production of Ne Type Engine
 | req = To prepare to increase the production of engines for the jet aircraft, dispose 3 [[Type 52 Zero Fighter]] in the factory, prepare 2 [[Reppuu]] and [[Ryuusei]] each and 8,000 steel. (Upon completion of quest, the equipment and resources needed will be comsumed.)
 *Scrap 3 [[Type 52 Zero Fighter]] and have two [[Reppuu]], two [[Ryuusei]] and 8,000 steel in your inventory while the quest is activated. 
 | fuel = 0
@@ -7809,7 +7754,7 @@ Will consume 2 medals
 | reqQuest2 = F7
 | namejp = 精鋭「水戦」隊の新編成
 | nameen = Organize the New Elite Seaplane Group
-| req = Organize a new Elite Squadron: Have a Secretary ship equipped with a [[Type 2 Seaplane Fighter Kai]] with Max Expertise and max modifications '''in the first slot'''and then scrap 2 [[Type 21 Zero Fighter]]s and 2 [[Zuiun]]. *[[Skilled Pilot|Skilled Crew Member]] is required to complete the process.
+| req = Organize a new Elite Squadron: Have a Secretary ship equipped with a [[Type 2 Seaplane Fighter Kai]] with Max Expertise and max modifications '''in the first slot''' and then scrap 2 [[Type 21 Zero Fighter]]s and 2 [[Zuiun]]. *[[Skilled Crew Member]] is required to complete the process.
 *Have a secretary ship equipped with a Maxed Expertise and Max Star '''in the first slot''' [[Type 2 Seaplane Fighter Kai]] and then Scrap 2 [[Type 21 Zero Fighter]] and 2 [[Zuiun]] in your inventory while the quest is activated.
 | fuel = 0
 | ammo = 0
@@ -7825,7 +7770,7 @@ Will consume 2 medals
 | reqQuest2 = 
 | namejp = 精精鋭「水戦」隊の増勢
 | nameen = Expand the New Elite Seaplane Group
-| req =  Organize a new Elite Squadron: Have a Secretary ship equipped with a [[Type 2 Seaplane Fighter Kai]] with Max Expertise and max modifications '''in the first slot''' and then scrap 2 [[Type 21 Zero Fighter]]s and 2 [[Zuiun]]. *[[Skilled Pilots|Skilled Crew Member]] is required to complete the process.
+| req =  Organize a new Elite Squadron: Have a Secretary ship equipped with a [[Type 2 Seaplane Fighter Kai]] with Max Expertise and max modifications '''in the first slot''' and then scrap 2 [[Type 21 Zero Fighter]]s and 2 [[Zuiun]]. *[[Skilled Crew Member]] is required to complete the process.
 *Have a secretary ship equipped with a Maxed Expertise and Max Star [[Type 2 Seaplane Fighter Kai]] '''in the first slot''' and then Scrap 2 [[Type 21 Zero Fighter]] and 2 [[Zuiun]] in your inventory while the quest is activated.
 | fuel = 0
 | ammo = 0
@@ -7911,7 +7856,7 @@ Will consume 2 medals
 | namejp = 精鋭「瑞雲」隊の編成.
 | nameen = Organize the Elite "Zuiun" Group
 | req = Have Hyuuga Kai as secretary, put a ★max "Zuiun (634 Air Group)" into her 4th slot, then scrap two Drum Canisters. Furthermore, have two "Type 99 Dive Bombers" and two "Zuiun" in your inventory. 
-*This quest requires a "[[Skilled Pilot|Skilled Crew Member]]".
+*This quest requires a "[[Skilled Crew Member]]".
 | fuel = 0
 | ammo = 0
 | steel = 0
@@ -7961,7 +7906,7 @@ Will consume 2 medals
 | reqQuest3 = 
 | namejp = 夜戦型艦上戦闘機の開発
 | nameen = Development of the Carrier-Based Night Fighter
-| req = Equip a Maxed Modified and Maxed Expertise [[F6F-3]] in the first slot of your secretary ship, scrap x2 [[Type 13 Air RADAR]]s, x2 [[Type 22 Surface RADAR]]s and prepare 30 Development Material, 6 Improvement Materials, 5000 bauxite and 1  [[New Aviation Armament Materials]].
+| req = Equip a Maxed Modified and Maxed Expertise [[F6F-3]] in the first slot of your secretary ship, scrap x2 [[Type 13 Air RADAR]]s, x2 [[Type 22 Surface RADAR]]s and prepare 30 Development Material, 6 Improvement Materials, 5000 bauxite and 1 [[New Model Aerial Armament Material]].
 | fuel = 0
 | ammo = 100
 | steel = 0
@@ -7977,13 +7922,14 @@ Will consume 2 medals
 | reqQuest3 = 
 | namejp = 夜間作戦型艦上攻撃機の開発
 | nameen = Development of carrier-based night bombers
-| req = Equip a [[TBF]] in the first slot of your secretary ship, scrap x2 [[Type 13 Air RADAR]]s, x2 [[Type 22 Surface RADAR]]s and prepare 40 Development Material, 10 Improvement Materials, 5000 ammo, 8000 bauxite,  1 [[Skilled Pilot|Skilled Crew Member]] and 1  New Aviation Armament Materials.
+| req = Equip a [[TBF]] in the first slot of your secretary ship, scrap x2 [[Type 13 Air RADAR]]s, x2 [[Type 22 Surface RADAR]]s and prepare 40 Development Material, 10 Improvement Materials, 5000 ammo, 8000 bauxite,  1 [[Skilled Crew Member]] and 1  [[New Model Aerial Armament Material]].
 | fuel = 100
 | ammo = 0
 | steel = 0
 | bauxite = 0
 | other = {{QuestRewardEquip|TBM-3D}}
 | notes = All above mentioned items that are prepared will be consumed upon the completion of this quest and the [[TBF]] will be turned into a [[TBM-3D]].
+'''{{color|red|※ Any [[File:Icon Star.png|link=Akashi's Improvement Arsenal]] on the {{Equipment/Link|TBF}} are lost during conversion}}'''
 }}
 {{ProtoQuests
 | type = Factory
@@ -7993,7 +7939,7 @@ Will consume 2 medals
 | reqQuest3 = 
 | namejp = 夜戦型艦上戦闘機の性能強化
 | nameen = Improve the Performance of the Carrier-Based Night Fighter
-| req = Equip a Maxed Modified and Maxed Expertise [[F6F-5]] in the first slot of your secretary ship, scrap x2 [[Type 13 Air RADAR]]s, x2 [[Type 22 Surface RADAR]]s and prepare 40 Development Material, 8 Improvement Materials, 8000 bauxite and 1  New Aviation Armament Materials.
+| req = Equip a Maxed Modified and Maxed Expertise [[F6F-5]] in the first slot of your secretary ship, scrap x2 [[Type 13 Air RADAR]]s, x2 [[Type 22 Surface RADAR]]s and prepare 40 Development Material, 8 Improvement Materials, 8000 bauxite and 1 [[New Model Aerial Armament Material]].
 | fuel = 0
 | ammo = 100
 | steel = 0
@@ -8064,7 +8010,7 @@ Will consume 2 medals
 | nameen = Research of New and Improved Main Battery for Aviation Battleships
 | req = Set Ise K2 as secretary, equip her with a fully improved "[[Prototype 41cm Triple Gun Mount]]" in her first slot, scrap three "[[41cm Twin Gun Mount]]s", two "[[Type 22 Surface RADAR]]s", and prepare 40 Development Material, 50 instant construction materials, 4500 steel, and two new artillery armament materials!
 ※ The prepared resources will be consumed upon completing the mission.
-* Make [[Ise|Ise Kai Ni]] your secretary and equip a 10 star [[Prototype 41cm Triple Gun Mount]] on her first slot, then scrap 3 [[41cm Twin Gun Mount]]s"and 2 [[Type 22 Surface RADAR]] while having 40 Development Material, 50 Instant Construction, 4500 Steel and 2 New Type Artillery Armament Materials avalaible
+* Make [[Ise|Ise Kai Ni]] your secretary and equip a 10 star [[Prototype 41cm Triple Gun Mount]] on her first slot, then scrap 3 [[41cm Twin Gun Mount]]s"and 2 [[Type 22 Surface RADAR]] while having 40 Development Material, 50 Instant Construction, 4500 Steel and 2 [[New Model Gun Mount Improvement Material]] avalaible
 | fuel = 0
 | ammo = 200
 | steel = 0
@@ -8080,7 +8026,7 @@ Will consume 2 medals
 | reqQuest3 =
 | namejp =  精鋭「航空戦艦」彗星隊の編成
 | nameen = Organize the Elite "Battle Carrier" Suisei Air Group
-| req = * Put [[Ise|Ise kai ni]] as the flagship, equip a [[Suisei Model 22 (634 Air Group)]] in the third slot. Scrap 3 [[Type 99 Dive Bomber]]s and 3 [[Suisei]], Prepare 3000 bauxite, a [[Skilled Pilot|Skilled Crew Member]], 30 devmats and a New Model Aerial Armament Material. The resources and items will be consumed. 
+| req = * Put [[Ise|Ise kai ni]] as the flagship, equip a [[Suisei Model 22 (634 Air Group)]] in the third slot. Scrap 3 [[Type 99 Dive Bomber]]s and 3 [[Suisei]], Prepare 3000 bauxite, a [[Skilled Crew Member]], 30 devmats and a New Model Aerial Armament Material. The resources and items will be consumed. 
 | fuel = 0
 | ammo = 634
 | steel = 0
@@ -8096,7 +8042,7 @@ Will consume 2 medals
 | reqQuest3 =
 | namejp = 駆逐主砲兵装の戦時改修
 | nameen = Wartime modifications of destroyers' main guns
-| req = Equip a max modified [[12.7cm Twin Gun Mount Model A Kai 2]] in the first slot of your secretary Special Type (Fubuki-class) Destroyer and proceed to scrap x4 [[10cm Twin High-angle Mount]] and x1 [[Type 94 Anti-Aircraft Fire Director]], x30 Development Material, x900 steel, and [[New Type Artillery Armament Materials]]
+| req = Equip a max modified [[12.7cm Twin Gun Mount Model A Kai 2]] in the first slot of your secretary Special Type (Fubuki-class) Destroyer and proceed to scrap x4 [[10cm Twin High-angle Mount]] and x1 [[Type 94 Anti-Aircraft Fire Director]], x30 Development Material, x900 steel, and [[New Model Gun Mount Improvement Material]]
 | fuel = 0
 | ammo = 200
 | steel = 0
@@ -8112,7 +8058,7 @@ Will consume 2 medals
 | reqQuest3 =
 | namejp = 駆逐艦主砲兵装の戦時改修【II】
 | nameen = Wartime modifications of destroyers' main guns (II)
-| req = Equip a max modified [[12.7cm Twin Gun Mount Model B Kai 2]] in the first slot of your secratery destroyer that must be either [[Yuudachi|Yuudachi Kai Ni]] or [[Shigure|Shigure Kai Ni]] and proceed to scrap x5 [[10cm Twin High-angle Mount]] and x1 [[Type 94 Anti-Aircraft Fire Director]], and prepare x50 Development Material, x1200 steel, and x1 [[New Type Artillery Armament Materials]]
+| req = Equip a max modified [[12.7cm Twin Gun Mount Model B Kai 2]] in the first slot of your secratery destroyer that must be either [[Yuudachi|Yuudachi Kai Ni]] or [[Shigure|Shigure Kai Ni]] and proceed to scrap x5 [[10cm Twin High-angle Mount]] and x1 [[Type 94 Anti-Aircraft Fire Director]], and prepare x50 Development Material, x1200 steel, and x1 [[New Model Gun Mount Improvement Material]]
 | fuel = 0
 | ammo = 220
 | steel = 0
@@ -8127,7 +8073,7 @@ Will consume 2 medals
 | reqQuest2 = 
 | namejp =  戦闘機隊戦力の拡充 
 | nameen = Expansion of Land Base Air Squadron
-| req = Scrap four carrier fighters, four seaplanes and two carrier recons. Prepare one [[Skilled Pilot|Skilled Crew Member]], one set of New Aircraft Armament Materials and prepare 3000 Bauxite. 
+| req = Scrap four carrier fighters, four seaplanes and two carrier recons. Prepare one [[Skilled Crew Member]], one set of New Aircraft Armament Materials and prepare 3000 Bauxite. 
 * Completing this quest will consume 3000 bauxite and all the aforementioned materials.
 | fuel = 0
 | ammo = 100
@@ -8143,7 +8089,7 @@ Will consume 2 medals
 | reqQuest2 = 
 | namejp = 基地航空隊戦力の拡充
 | nameen = Expansion of Aircraft Carrier Forces
-| req = Scrap 4 carrier fighters, 4 dive bombers, 4 torpedo bombers and prepare one [[Skilled Pilot|Skilled Crew Member]], two sets of New Aircraft Armament Materials, and prepare 4,800 Bauxite.
+| req = Scrap 4 carrier fighters, 4 dive bombers, 4 torpedo bombers and prepare one [[Skilled Crew Member]], two sets of New Aircraft Armament Materials, and prepare 4,800 Bauxite.
 * Completing this quest will consume 4800 bauxite and the aforementioned materials.
 | fuel = 0
 | ammo = 200
@@ -8226,14 +8172,14 @@ Will consume 2 medals
 | reqQuest3 =
 | namejp =「彗星」艦爆の新運用研究
 | nameen = Research of Suisei's Bombing Power
-| req = Type 3 Cluster Bomber Mission: Have Ise Kai Ni or Hyuuga Kai Ni as your flagship and equip a [[Suisei Model 12A]] in the first slot. Then proceed to scrap 4 [[Suisei]], 3 [[Type 99 Dive Bomber]]s, and 2 [[Zuiun]]s. Then prepare, 2,500 ammo, 5,000 bauxite and 1 [[New Type Aviation Armament Material]].
+| req = Type 3 Cluster Bomber Mission: Have Ise Kai Ni or Hyuuga Kai Ni as your flagship and equip a [[Suisei Model 12A]] in the first slot. Then proceed to scrap 4 [[Suisei]], 3 [[Type 99 Dive Bomber]]s, and 2 [[Zuiun]]s. Then prepare, 2,500 ammo, 5,000 bauxite and 1 [[New Model Aerial Armament Material]].
 * All mentioned resources and materials will be consumed upon completion
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 0
 | other = {{QuestRewardEquip|Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)}}
-| notes = * 2,500 ammo, 5,000 bauxite and 1 New Type Aviation Armament Material will be consumed upon completion of quest<br/>* [[Suisei Model 12A]] will transform into [[Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)]]
+| notes = * 2,500 ammo, 5,000 bauxite and 1 New Model Aerial Armament Material will be consumed upon completion of quest<br/>* [[Suisei Model 12A]] will transform into [[Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)]]
 }}
 {{ProtoQuests
 | type = Factory
@@ -8243,14 +8189,14 @@ Will consume 2 medals
 | reqQuest3 =
 | namejp =「最精鋭「瑞雲」隊の編成
 | nameen = Organize the most elite Zuiun Unit
-| req = Have Ise Kai Ni or Hyuuga Kai Ni as your flagship and equip a [[Zuiun Kai Ni (634 Air Group)]] that is max modified on first slot, scrap 6 [[Zuiun]], 3 [[Suisei]], 1 [[Prototype Reppuu Late Model]], then prepare 2000 ammo, 8000 bauxite, 1 New Type Aviation Armament Material, 2 [[Skilled Pilot|Skilled Crew Member]]
+| req = Have Ise Kai Ni or Hyuuga Kai Ni as your flagship and equip a [[Zuiun Kai Ni (634 Air Group)]] that is max modified on first slot, scrap 6 [[Zuiun]], 3 [[Suisei]], 1 [[Prototype Reppuu Late Model]], then prepare 2000 ammo, 8000 bauxite, 1 New Model Aerial Armament Material, 2 [[Skilled Crew Member]]
 * All mentioned resources and materials will be consumed upon completion
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 0
 | other = {{QuestRewardEquip|Zuiun Kai Ni (634 Air Group/Skilled)}}
-| notes = * 2,000 ammo, 8,000 bauxite, 1 New Type Aviation Armament Material, 2 [[Skilled Pilot|Skilled Crew Member]] will be consumed upon completion of quest<br/>* [[Zuiun Kai Ni (634 Air Group)]] will transform into [[Zuiun Kai Ni (634 Air Group/Skilled)]]
+| notes = * 2,000 ammo, 8,000 bauxite, 1 New Model Aerial Armament Material, 2 [[Skilled Crew Member]] will be consumed upon completion of quest<br/>* [[Zuiun Kai Ni (634 Air Group)]] will transform into [[Zuiun Kai Ni (634 Air Group/Skilled)]]
 }}
 {{ProtoQuests
 | type = Factory
@@ -8260,14 +8206,14 @@ Will consume 2 medals
 | reqQuest3 =
 | namejp = 一航戦精鋭「流星改」隊の編成
 | nameen = Formation of the CarDiv 1's peerless "Ryuusei Kai" squadron
-| req = With [[Akagi|Akagi Kai Ni/E]] as your flagship, equip the [[Ryuusei Kai (CarDiv 1)]] in the first slot with max expertise, then proceed to scrap x4 [[Ryuusei Kai]]s, x1 [[Saiun]], x2 [[Type 97 Torpedo Bomber]]s, and prepare 2800 ammo, 9000 bauxite, and 2 [[Skilled Pilot|Skilled Crew Member]].
+| req = With [[Akagi|Akagi Kai Ni/E]] as your flagship, equip the [[Ryuusei Kai (CarDiv 1)]] in the first slot with max expertise, then proceed to scrap x4 [[Ryuusei Kai]]s, x1 [[Saiun]], x2 [[Type 97 Torpedo Bomber]]s, and prepare 2800 ammo, 9000 bauxite, and 2 [[Skilled Crew Member]].
 * All mentioned resources and materials will be consumed upon completion
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 0
 | other = {{QuestRewardEquip|Ryuusei Kai (CarDiv 1/Skilled)}}
-| notes = * 2,800 ammo, 9,000 bauxite, 2 [[Skilled Pilot|Skilled Crew Member]] will be consumed upon completion of quest<br/>* [[Ryuusei Kai (CarDiv 1)]] will transform into [[Ryuusei Kai (CarDiv 1/Skilled)]]
+| notes = * 2,800 ammo, 9,000 bauxite, 2 [[Skilled Crew Member]] will be consumed upon completion of quest<br/>* [[Ryuusei Kai (CarDiv 1)]] will transform into [[Ryuusei Kai (CarDiv 1/Skilled)]]
 }}
 {{ProtoQuests
 | type = Factory
@@ -8277,7 +8223,7 @@ Will consume 2 medals
 | reqQuest3 =
 | namejp = 陸戦用装備の艦載運用研究
 | nameen = Research of Ship-borne Land Based Equipment
-| req =  Equip a [[7.7mm Machine Gun]] on the first equipment slot of your light cruiser flagship. Then scrap 2 [[25mm Single Autocannon]]s, 2 [[Drum Canister]]s, 1 [[12cm 30-tube Rocket Launcher]], prepare 1,700 ammo, 30 Development Material and 10 Instant Construction
+| req =  Equip a [[7.7mm Machine Gun]] on the first equipment slot of your light cruiser flagship. Then scrap 2 [[25mm Single Autocannon Mount]]s, 2 [[Drum Canister]]s, 1 [[12cm 30-tube Rocket Launcher]], prepare 1,700 ammo, 30 Development Material and 10 Instant Construction
 | fuel = 0
 | ammo = 0
 | steel = 0
@@ -8293,13 +8239,61 @@ Will consume 2 medals
 | reqQuest3 =
 | namejp = 新鋭対潜哨戒航空戦力の導入
 | nameen = Introduction of Cutting-Edge ASW Patrol Aircraft
-| req = Have [[Kaga|Kaga Kai Ni Go]] as your secretary and equip the [[TBM-3D]] in her first slot, then proceed to scrap [[TBF]] x2, [[Ryuusei]] x1, and [[Ryuusei Kai]] x1, have 1,840 Ammo, 6,200 Bauxite, [[New Model Aviation Development Material]] x2, and [[Skilled Pilot|Skilled Crew Member]] x1 in your inventory.
+| req = Have [[Kaga|Kaga Kai Ni Go]] as your secretary and equip the [[TBM-3D]] in her first slot, then proceed to scrap [[TBF]] x2, [[Ryuusei]] x1, and [[Ryuusei Kai]] x1, have 1,840 Ammo, 6,200 Bauxite, [[New Model Aerial Armament Material]] x2, and [[Skilled Crew Member]] x1 in your inventory.
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 0
 | other =  {{QuestRewardEquip|TBM-3W+3S}}
 | notes = '''Scrapping progress is only counted with Kaga Kai Ni Go'''<br/>[[TBM-3D]] will become [[TBM-3W+3S]] upon completion.<br/>All resources and items will be consumed upon completion of quest.
+}}
+{{ProtoQuests
+| type = Factory
+| listnum = F96
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =海軍工廠の再整備
+| nameen = Redevelopment of the Naval Arsenals
+| req = Arsenal Mission: Scrap 8 12.7cm Twin Gun Mounts, and then prepare 4,000 Furniture Tokens and have 4 14cm Single Gun Mount, and 4 20.3cm Twin Gun Mounts in your inventory. (All token and unmodded equipment will be removed upon completion of quest)
+| fuel = 0
+| ammo = 0
+| steel = 300
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Instant Construction Material|qty=8}}{{QuestRewardItem|Development Material|qty=8}}{{QuestRewardItem|Furniture Fairy}}<br> '''Then choose between:''' <br/> {{QuestRewardItem|New Model Gun Mount Improvement Material}}{{QuestRewardItem|New Model Rocket Development Material}}{{QuestRewardItem|Improvement Material|qty=4}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Factory
+| listnum = F97
+| reqQuest = F96
+| reqQuest2 =
+| reqQuest3 =
+| namejp =工廠による装備兵装の強化準備
+| nameen = Preparation for modifying equipment through the arsenal
+| req = Arsenal Mission: Scrap 7 12cm Single Gun Mounts, and then prepare 2,400 Fuel and have 5 20.3cm Twin Gun Mounts, and 5 35.6cm Twin Gun Mounts in your inventory. (All resources and unmodded equipment will be removed upon completion of quest)
+| fuel = 0
+| ammo = 450
+| steel = 450
+| bauxite = 0
+| other = '''Choose between:'''<br/>{{QuestRewardItem|New Model Gun Mount Improvement Material|qty=2}}{{QuestRewardItem|New Model Aerial Armament Material|qty=2}}{{QuestRewardItem|Improvement Material|qty=4}}<br> '''Then choose between:''' <br/> {{QuestRewardItem|New Model Armament Material|qty=2}}{{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}}{{QuestRewardItem|Development Material|qty=10}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Factory
+| listnum = F101
+| reqQuest = F51
+| reqQuest2 =
+| reqQuest3 =
+| namejp =精鋭三座水上偵察機隊の前線投入
+| nameen = Frontline utilization of elite three-seated seaplane recon aircraft
+| req = [[Yura Kai Ni]] as the flagship and equipped with a maximum improved [[Type 0 Reconnaissance Seaplane Model 11B]] in the first slot. Scrap 3 [[Type 0 Reconnaissance Seaplane]] and 3 [[Zuiun]]. Prepare 1300 fuel, 1700 bauxite, 1 [[New Model Aerial Armament Material]], an [[Action Report]] and 3 [[Skilled Crew Member]]s. The resource and the items will be consumed. (All resources and unmodded equipment will be removed upon completion of quest)
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardEquip|Type 0 Reconnaissance Seaplane Model 11B (Skilled)}}
+| notes= 
 }}
 |}
 
@@ -8603,7 +8597,8 @@ Players will have 3 months to complete the quest lines before they resets.
 | other = {{QuestRewardItem|Development Material|qty=2}}
 {{QuestRewardEquip|Type 1 Land-based Attack Aircraft}}
 | notes = Once Completed the [[Type 96 Land Attacker]], and 2 [[Type 97 Torpedo Bomber]]s will be removed from your inventory and replaced with a [[Type 1 Land Attacker]]
-''Quarterly Quest''
+'''{{color|red|※ Any [[File:Icon Star.png|link=Akashi's Improvement Arsenal]] on the {{Equipment/Link|Type 96 Land-based Attack Aircraft}} are lost during conversion}}'''
+<br>''Quarterly Quest''
 }}
 {{ProtoQuests
 | type = Factory
@@ -8653,7 +8648,9 @@ Players will have 3 months to complete the quest lines before they resets.
 | steel = 0
 | bauxite = 0
 | other =  {{QuestRewardEquip|Shiden Kai 2|qty=2}}<br/>'''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=8}} {{QuestRewardItem|New Model Aerial Armament Material}}
-| notes =''Quarterly Quest''<br/>4,000 Bauxite will be consumed upon completion.<br/>The equipped [[Type 52 Zero Fighter]] will be replaced by the [[Shiden Kai 2]]
+| notes =4,000 Bauxite will be consumed upon completion.<br/>The equipped [[Type 52 Zero Fighter]] will be replaced by the [[Shiden Kai 2]]
+'''※ Any [[File:Icon Star.png|link=Akashi's Improvement Arsenal]] on the {{Equipment/Link|Type 0 Fighter Model 52}} are lost during conversion'''
+<br/>''Quarterly Quest''
 }}
 {{ProtoQuests
 | type = Factory
@@ -8680,7 +8677,7 @@ Players will have 3 months to complete the quest lines before they resets.
 | reqQuest3 =
 | namejp = 戦時改修A型高角砲の量産
 | nameen =  Mass production of the wartime adjusted Type A dual-purpose guns.
-| req = Equip a max modified [[12.7cm Twin Gun Mount Model A Kai 2]] in the first slot of your secretary Special Type (Fubuki-class) Destroyer  and proceed to scrap x4 [[10cm Twin High-angle Mount]] and x1 [[Type 94 Anti-Aircraft Fire Director]], x30 Development Material, x900 steel, and [[New Type Artillery Armament Materials]] 
+| req = Equip a max modified [[12.7cm Twin Gun Mount Model A Kai 2]] in the first slot of your secretary Special Type (Fubuki-class) Destroyer  and proceed to scrap x4 [[10cm Twin High-angle Mount]] and x1 [[Type 94 Anti-Aircraft Fire Director]], x30 Development Material, x900 steel, and [[New Model Gun Mount Improvement Material]] 
 | fuel = 0
 | ammo = 200
 | steel = 0
@@ -8740,13 +8737,13 @@ Players will have 3 months to complete the quest lines before they resets.
 | steel = 0
 | bauxite = 0
 | other =  {{QuestRewardItem|Development Material|qty=10}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Improvement Material|qty=5}} {{QuestRewardItem|New Model Armament Material|qty=2}}
-| notes = ''Yearly Quest''<br/>(resets on September 1st)
+| notes = ''Yearly Quest (September)''
 }}
 {{ProtoQuests
 | type = Factory
 | listnum = F93
 | reqQuest = C20
-| reqQuest2 =
+| reqQuest2 = F18
 | reqQuest3 =
 | namejp = 精鋭複葉機飛行隊の編成
 | nameen = Formation of a splendid biplane squadron
@@ -8756,7 +8753,7 @@ Players will have 3 months to complete the quest lines before they resets.
 | steel = 0
 | bauxite = 0
 | other =  {{QuestRewardEquip|Swordfish Mk.II (Skilled)}}
-| notes = ''Yearly Quest''<br/>(resets on October 1st)
+| notes = ''Yearly Quest (October)''
 }}
 {{ProtoQuests
 | type = Factory
@@ -8779,7 +8776,7 @@ Prepare 1500 steel, 1500 fuel, and 1500 bauxite!
 | steel = 0
 | bauxite = 0
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=10}} {{QuestRewardItem|New Model Gun Mount Improvement Material}} {{QuestRewardItem|New Model Aerial Armament Material}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Improvement Material|qty=5}} {{QuestRewardItem|New Model Armament Material|qty=2}}
-| notes = '''Yearly Quest'''<br/>''Resets on November 1st''
+| notes = ''Yearly Quest (November)''
 }}
 {{ProtoQuests
 | type = Factory
@@ -8795,7 +8792,55 @@ Prepare 1500 steel, 1500 fuel, and 1500 bauxite!
 | steel = 0
 | bauxite = 0
 | other = '''Choose between:'''<br/>{{QuestRewardEquip|Type 96 Land-based Attack Aircraft|qty=3}} {{QuestRewardEquip|Type 1 Land-based Attack Aircraft Model 22A}} {{QuestRewardItem|New Model Aerial Armament Material|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardItem|Skilled Crew Member}} {{QuestRewardItem|Improvement Material|qty=4}}
-| notes = '''Yearly Quest'''<br/>''Resets January 1st''
+| notes = ''Yearly Quest (January)''
+}}
+{{ProtoQuests
+| type = Factory
+| listnum = F98
+| reqQuest = F96
+| reqQuest2 =
+| reqQuest3 =
+| namejp =潜水艦強化兵装の量産
+| nameen = Mass Production of Reinforced Submarine Armaments
+| req = Arsenal Mission: Scrap 3 61cm Triple (Oxygen) Torpedo Mounts, and then prepare 60 development Materials and have 2 Type 93 Sonars, and 2 Type 13 Air Radar Kai in your inventory. (All resources and unmodded equipment will be removed upon completion of quest)
+| fuel = 0
+| ammo = 100
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardEquip|Late Model Bow Torpedo Mount (6 tubes)}}<br>'''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=5}}{{QuestRewardItem|Improvement Material|qty=2}}
+| notes = Yearly Quest (June)
+}}
+{{ProtoQuests
+| type = Factory
+| listnum = F99
+| reqQuest = F98
+| reqQuest2 =
+| reqQuest3 =
+| namejp =潜水艦電子兵装の量産
+| nameen = Mass Production of Submarine Radar Equipment
+| req = Arsenal Mission: Scrap 3 Type 13 Air Radar Kai, and then prepare 100 development Materials and have 2 Type 93 Sonars, and 2 Type 22 Surface Radars in your inventory. (All resources and unmodded equipment will be removed upon completion of quest)
+| fuel = 100
+| ammo = 
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardEquip|Submarine Radar & Waterproof Telescope}}<br>'''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=5}}{{QuestRewardItem|Improvement Material|qty=2}}
+| notes = Yearly Quest (June)
+}}
+{{ProtoQuests
+| type = Factory
+| listnum = F100
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =夏の格納庫整備＆航空基地整備
+| nameen = Summer Hangar & Land Base Maintenance
+| req =  Scrap 3 Land Base Attack Aircraft such as Type 96 and Type 1 LBAA. Then prepare 2800 ammo, 4 T97 torpedo bombers and 4 Tenzan. (All resources and unmodded equipment will be removed upon completion of quest)
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 400
+| other = '''Choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material|qty=2}}{{QuestRewardItem|New Model Armament Material|}}{{QuestRewardItem|Development Material|qty=10}} <br> '''Then choose between:'''<br/>{{QuestRewardItem|Skilled Crew Member|qty=2}}{{QuestRewardItem|Construction Corps|}}{{QuestRewardItem|Improvement Material|qty=8}}
+| notes = Yearly Quest (July)
 }}
 |}
 
@@ -8848,6 +8893,40 @@ Prepare 1500 steel, 1500 fuel, and 1500 bauxite!
 | bauxite = 0
 | other = {{QuestRewardItem|New Technology Aircraft Blueprint}} 
 | notes = 5,500 steel and 2,500 Bauxite will be consumed upon completion of quest. 
+}}
+{{ProtoQuests
+| type = Modernization
+| listnum = G10
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 「最上型」改修工事を実施せよ！
+| nameen = Carry out Mogami-class Modernization work
+| req = Mogami-class Modernization work: Prepare 1,100 Steel, 1,100 Ammunition, then modernize and renovate the Mogami-class. Successfully modernize 3 CL at once into the ship twice!
+
+* Have 1,100 Steel, 1,100 Ammo and modernize a Mogami-class Heavy/Aviation Cruiser with 3 CLs at once twice.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 600
+| other = <br>{{QuestRewardItem|Reinforcement Expansion}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|8cm High-angle Gun|qty=2}}{{QuestRewardEquip|25mm Single Autocannon Mount|qty=2}}{{QuestRewardItem|Development Material|qty=8}}
+| notes = Steel and ammo will be consumed upon completion
+}}
+{{ProtoQuests
+| type = Modernization
+| listnum = G11
+| reqQuest2 =
+| reqQuest3 =
+| namejp = 続：「最上型」改修工事を実施せよ！
+| nameen = Continued: Carry out Mogami-class Modernization work
+| req = Mogami-class Modernization work: Prepare 1,200 Steel, 1,200 Ammunition, then modernize and renovate the Mogami-class. Successfully modernize 4 CA at once into the ship twice!
+
+* Have 1,200 Steel, 1,200 Ammo and modernize a Mogami-class Heavy/Aviation Cruiser with 4 CAs at once twice.
+| fuel = 600
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = <br>{{QuestRewardEquip|Type 21 Air Radar Kai Ni}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|20.3cm (No.3) Twin Gun Mount|qty=2}}{{QuestRewardEquip|Zuiun Model 12|qty=2}}{{QuestRewardItem|Improvement Material|qty=5}}
+| notes = Steel and ammo will be consumed upon completion
 }}
 |}
 
@@ -8907,7 +8986,7 @@ Perform 2 successful modernization by using 3 destroyers each time!
 | steel = 0
 | bauxite = 0
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material}} {{QuestRewardItem|Development Material|qty=2}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Combat Ration|qty=2}} {{QuestRewardItem|Food Supply Ship Irako}}
-| notes = '''Yearly Quest'''<br/>''Resets on November 1st''
+| notes = ''Yearly Quest (November)''
 }}
 {{ProtoQuests
 | type = Modernization
@@ -8926,7 +9005,7 @@ Perform 2 successful modernization by using 3 Light Cruisers each time!
 | steel = 0
 | bauxite = 0
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardItem|Development Material|qty=3}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|25mm Single Autocannon Mount|qty=2}} {{QuestRewardItem|Improvement Material|qty=2}}
-| notes = '''Yearly Quest'''<br/>''Resets on November 1st''
+| notes = ''Yearly Quest (November)''
 }}
 {{ProtoQuests
 | type = Modernization
@@ -8943,7 +9022,7 @@ Perform 2 successful modernization by using 3 Light Cruisers each time!
 | steel = 0
 | bauxite = 0
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=2}} {{QuestRewardItem|Development Material|qty=3}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|25mm Single Autocannon Mount|qty=2}} {{QuestRewardItem|Food Supply Ship Irako}}
-| notes = '''Yearly Quest'''<br/>''Reset February 1st''
+| notes = ''Yearly Quest (February)''
 }}
 {{ProtoQuests
 | type = Modernization
@@ -8960,7 +9039,7 @@ Perform 2 successful modernization by using 3 Light Cruisers each time!
 | steel = 0
 | bauxite = 500
 | other =  '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=4}} {{QuestRewardEquip|15.2cm Twin Gun Mount}}<br/>'''Then choose between:'''<br/>{{QuestRewardEquip|Type 22 Surface Radar|qty=2}} {{QuestRewardItem|Improvement Material|qty=2}}
-| notes = '''Yearly Quest'''<br/>''Reset February 1st''
+| notes = ''Yearly Quest (February)''
 }}
 |}
 
@@ -9054,7 +9133,7 @@ Perform 2 successful modernization by using 3 Light Cruisers each time!
 | ammo = 300
 | steel = 300
 | bauxite = 300
-| other = Furniture: ''Futon''
+| other = {{QuestRewardFurniture|183}}
 | notes = Required by [[#A40|A40]].
 }}
 |}

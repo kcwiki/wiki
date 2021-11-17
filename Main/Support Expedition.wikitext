@@ -275,7 +275,7 @@ Meet '''one''' of the following requirements:
 
 
 <math>\text{Airstrike Support} = \biggl\lfloor \biggl\{ \text{Type} \times \bigl( \left( \text{DB or TP} \right) \times \sqrt{\text{Count}_\text{Plane}} + 3 \bigr) \biggr\} \times \text{Mod}_\text{crit} \biggr\rfloor \times 1.35</math>
-* The [[Damage_Calculations#Damage_Formula|damage cap]] of 150 is applied to the result between <math>\{ \ \}</math>.
+* The [[Damage_Calculations#Damage_Formula|damage cap]] of 170 is applied to the result between <math>\{ \ \}</math>.
 * <math>\text{Type}</math> is the bomber's type modifier, similar to airstrikes.
 ** <math>1.0</math> for dive bombers and seaplane bombers.
 ** Either <math>0.8</math> or <math>1.5</math> for torpedo bombers.
@@ -345,7 +345,7 @@ Anti-Submarine support functions exactly like [[Support Expedition#Airstrike Sup
 
 
 <math>\text{ASW Support} = \biggl\lfloor \biggl\{ \bigl(\text{ASW} \times \sqrt{\text{Count}_\text{Plane}} + 3 \bigr) \times \left(0.9 + \text{Rand} \right) \biggr\} \times \text{Mod}_\text{crit} \biggr\rfloor \times 1.35</math>
-* The [[Damage_Calculations#Damage_Formula|damage cap]] of 150 is applied to the result between <math>\{ \ \}</math>.
+* The [[Damage_Calculations#Damage_Formula|damage cap]] of 170 is applied to the result between <math>\{ \ \}</math>.
 * <math>\text{Rand}</math> is a random number from 0 to 0.75 inclusive.
 * The critical modifier and the 1.35x airstrike support modifier are both '''post-cap'''.
 

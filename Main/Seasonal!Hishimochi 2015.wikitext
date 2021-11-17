@@ -80,37 +80,37 @@ Hishimochi can be opened through the item screen and exchanged between three dif
 
 ==Hishimochi Quests==
 A seasonal quest chain (2 quests) were added for the mochi. It was reported that [[Quest#B6|Quest B6]] needs to be clear to unlock the first quest.
-
-{{QuestsHeader}}
-{{Quests
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = Sortie
-| listnum = SB1
+| listnum = SB01
 | reqQuest = B6
-| page = Quests
-| namejp = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 桃の節句：「菱餅」を集めよう！
 | nameen = 
 | req = Completion Condition: Collect a total of 3 mochi
 | fuel = 0
 | ammo = 330
 | steel = 330
-| bauxite =  0
-| other = Furniture box (large) x1<br> Furniture Fairy x1
-| once = True
+| bauxite = 0
+| other = {{QuestRewardItem|Furniture Box (Large)}} {{QuestRewardItem|Furniture Fairy}}
 | notes = 
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SB2
-| reqQuest = SB1
-| namejp = 
+| listnum = SB02
+| reqQuest = SB01
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 桃の節句：「菱餅」を沢山集めるのです！
 | nameen = 
 | req = Completion Condition: Collect a total of 10 mochi
 | fuel = 0
 | ammo = 880
 | steel = 880
-| bauxite =  0
-| other = Mamiya x1<br> [[Skilled Lookouts]] x1
-| once = True
+| bauxite = 0
+| other = {{QuestRewardItem|Food Supply Ship Mamiya}} {{QuestRewardEquip|Skilled Lookouts}}
 | notes = 
 }}
 |}

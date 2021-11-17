@@ -276,18 +276,6 @@ function EliteShipsKai:notes(ship)
 	return {values = {value = ""}, bg_color = self._transparent, class = self._detailed_class}
 end
 
-function EliteShipsKai:process_item_key(item_key)
-	local split = mw.ustring.find(item_key, '/')
-	local ship_base_name, ship_suffix
-	if split == nil then
-		ship_base_name = item_key
-	else
-		ship_base_name = mw.ustring.sub(item_key, 1, split - 1)
-		ship_suffix = mw.ustring.sub(item_key, split + 1, -1)
-	end
-	return ship_base_name, ship_suffix
-end
-
 function EliteShipsKai:start_rows()
 	self._rows = {self._detail_toggle, self._table_start, self._header}
 end

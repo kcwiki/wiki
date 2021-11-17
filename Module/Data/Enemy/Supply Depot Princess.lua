@@ -1,7 +1,4 @@
---Categories:
---[[Category: Enemy boss ship modules]]
-
-local Supply_Depot_Princess = {
+return {
 	[""] = {
 		_name = "Supply Depot Princess",
 		_rarity = 8,
@@ -436,5 +433,3 @@ local Supply_Depot_Princess = {
 		_air_power_estimation = true,
 	},
 }
- 
-return Supply_Depot_Princess

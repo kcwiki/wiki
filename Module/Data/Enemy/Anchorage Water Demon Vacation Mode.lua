@@ -16,7 +16,7 @@ return {
     _armor = 200,
     _torpedo = 0,
     _evasion = nil,
-    _aa = 80,
+    _aa = 90,
     _asw = 0,
     _speed = 5,
     _los = nil,

@@ -30,27 +30,31 @@ File:Kazagumo.png|link=Kazagumo
 *[[Battle Rations]]
 
 ===New Quests===
-{{QuestsHeader}}
-{{Quests
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = Sortie
 | listnum = SN01
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 第二次SN作戦、初動作戦完了！
 | nameen = Completing the First-Stage Operation for the Second Operation SN!
 | req = ''Crush the enemies deployed in front of the Solomon Seas and complete the first stage of the operation!''
-*Completion Condition: Clear [[#E-2|E-2]].
+*Completion Condition: Clear [[Summer 2015 Event#E-2|E-2]].
 | fuel = 250
 | ammo = 0
 | steel = 250
 | bauxite = 0
-| other = Present Box x1<br>Combat Rations x1
+| other = {{QuestRewardItem|Present Box}} {{QuestRewardEquip|Combat Ration}}
 | notes = 
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Factory
 | listnum = SN02
 | reqQuest = SN01
-| namejp = 「工廠」の整理整頓！
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 「工廠」倉庫の整理整頓！
 | nameen = Reorganize the "Factory"!
 | req = ''Scrap multiple equipment that you no longer need in order to organize the factory warehouse in preparation for the new equipment!''
 *Completion Condition: Scrap equipment 5 pieces of equipment.
@@ -58,14 +62,15 @@ File:Kazagumo.png|link=Kazagumo
 | ammo = 100
 | steel = 100
 | bauxite = 100
-| other = Development material x2<br>Combat Rations x1
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardEquip|Combat Ration}}
 | notes = 
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
 | listnum = SN03
 | reqQuest = SN02
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 主力機動部隊の前路哨戒を実施せよ！
 | nameen = Carry Out Patrol ahead of the Main Mobile Task Force!
 | req = ''Enemy has deployed more submarines. Eliminate a number of them in order to clear the way ahead of tour main mobile task force!''
@@ -74,14 +79,15 @@ File:Kazagumo.png|link=Kazagumo
 | ammo = 250
 | steel = 0
 | bauxite = 250
-| other = Unlocks [[#E-3|E-3]]
+| other = Unlocks [[Summer 2015 Event#E-3|E-3]]
 | notes = 
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Composition
 | listnum = SN04
 | reqQuest = SN03
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 「赤城」に艦攻「村田隊」を配属せよ！
 | nameen = Assign the "Murata Squadron" Torpedo Bomber to Akagi!
 | req = ''Set the aircraft carrier Akagi as the Secretary Ship, and assign the "Murata Squadron" torpedo bomber to her!''
@@ -93,30 +99,32 @@ File:Kazagumo.png|link=Kazagumo
 | ammo = 0
 | steel = 0
 | bauxite = 50
-| other = Combat Rations x2<br>Reinforcement Expansions x1<br>Repair Team x1<br>[[Glossary#Food_supply_ship_Mamiya|Food supply ship 「間宮」 "Mamiya"]] x1
+| other = {{QuestRewardEquip|Combat Ration|qty=2}} {{QuestRewardItem|Food Supply Ship Mamiya}}
 | notes = 
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
 | listnum = SN05
 | reqQuest = SN03
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = ソロモン海方面の制空権を奪え！
 | nameen = Attain Air Superiority of the Solomon Seas!
 | req = ''Charge into the waters near the enemy airfield controlling the skies of the Solomon Seas and crush them!''
-*Completion Condition: Clear [[#E-4|E-4]].
+*Completion Condition: Clear [[Summer 2015 Event#E-4|E-4]].
 | fuel = 400
 | ammo = 0
 | steel = 400
 | bauxite = 0
-| other = Instant Repair x3<br>Improvement Material x3
+| other = {{QuestRewardItem|Present Box}} {{QuestRewardEquip|Combat Ration}}
 | notes = 
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Composition
 | listnum = SN06
 | reqQuest = SN05
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 「翔鶴」に艦攻「村田隊」を配置転換せよ！
 | nameen = Transfer the Murata Squadron Torpedo Bomber to Shoukaku!
 | req = ''Set the aircraft carrier Shoukaku as the Secretary Ship, and transfer the "Murata Squadron" torpedo bomber to her!''
@@ -127,32 +135,34 @@ File:Kazagumo.png|link=Kazagumo
 | ammo = 0
 | steel = 0
 | bauxite = 50
-| other = Instant Repair x3<br>Improvement Material x3
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}} {{QuestRewardItem|Improvement Material|qty=3}}
 | notes = 
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = PVP
 | listnum = SN07
 | reqQuest = SN05
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = FS作戦に備え、艦隊練度向上に努めよ！
 | nameen = Increase the Fleet's Experience in Preparation for Operation FS!
 | req = ''To prepare for Operation FS, try to increase the experience of the fleet! Obtain 4 victories in Exercise today!''
 *Completion Condition: Attain 4 victories in PVP.
-:*The counter is shared with Quest [[#C3|C3]].
-| fuel = 400
-| ammo = 0
-| steel = 400
+:*The counter is shared with Quest [[Quests#C3|C3]].
+| fuel = 300
+| ammo = 300
+| steel = 0
 | bauxite = 0
-| other = Unlocks [[#E-5|E-5]]
+| other = Unlocks [[Summer 2015 Event#E-5|E-5]]
 | notes = 
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Factory
 | listnum = SN08
 | reqQuest = SN06
-| namejp = 「工廠」”機種転換”
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 機種転換
 | nameen = [Factory] Model Conversion
 | req = ''Scrap 2 [[Tenzan (Heavenly Mountain)|Tenzan]] while your secretary ship is Shoukaku equipped with [[Type 97 Torpedo Bomber (Murata Squadron)]]!''
 *Completion Condition:
@@ -161,15 +171,16 @@ File:Kazagumo.png|link=Kazagumo
 | fuel = 0
 | ammo = 0
 | steel = 0
-| bauxite = 0
-| other = [[Tenzan Model 12 (Murata Squadron)]] x1 ''(by converting the [[Type 97 Torpedo Bomber (Murata Squadron)]] equipped on Shoukaku)''
+| bauxite = 50
+| other = {{QuestRewardEquip|Tenzan Model 12 (Murata Squadron)}}
 | notes = Do not forget to unlock the Murata Squadron plane if it is locked
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
 | listnum = SN09
 | reqQuest = SN07
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 西部方面派遣艦隊、出撃せよ！
 | nameen = Sortie with the Fleet Deployed to the West!
 | req = ''Deploy a fleet to the Western Sea Region and strike at the heart of the enemy reinforcements gathering in the area!''
@@ -178,39 +189,42 @@ File:Kazagumo.png|link=Kazagumo
 | ammo = 0
 | steel = 550
 | bauxite = 0
-| other = Combat Rations<br>Present Box
+| other = {{QuestRewardItem|Present Box}} {{QuestRewardEquip|Combat Ration}}
 | notes = 
-| once  = true
 }}
-{{Quests
-| type = Sortie
+{{ProtoQuests
+| type = Composition
 | listnum = SN10
-| namejp = FS作戦の橋頭堡を築け！
-| nameen = Amass the FS Operation Beachhead! 
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = 空母機動部隊「第三艦隊」を編成せよ！
+| nameen = Amass the FS Operation Beachhead!
 | req = ''Enemy is reinforcing their mobile task force. Encounter them, reduce the amount of enemy carriers, and construct a beachhead for the entry to FS!''
 *Completion Condition: Sink 10 Aircraft Carriers (CVLs count)
-| fuel = 0
-| ammo = 450
-| steel = 0
-| bauxite = 450
-| other = Unlocks [[#E-6|E-6]]
-| notes = Requires [[#E-5|E-5]] clear
-| once  = true
-}}
-{{Quests
-| type = Composition
-| listnum = SN11
-| namejp = 空母機動部隊　「第三艦隊」　を編成せよ！
-| nameen = Organise the Aircraft Carrier Task Force "Third Fleet"!
-| req = ''Form the "Third Fleet" including "Shoukaku", "Zuikaku", "Zuihou" in the first fleet in a combined fleet composition!''
-*Completion Condition: Create a Carrier Task Force (Combined Fleet) containing [[Shoukaku]], [[Zuikaku]] and [[Zuihou]] in the first fleet.
 | fuel = 300
 | ammo = 300
 | steel = 0
 | bauxite = 300
-| other = Improvement Material x4<br>[[Maritime Resupply]]
-| notes = Requires [[#E-5|E-5]] clear
-| once  = true
+| other = {{QuestRewardItem|Improvement Material|qty=4}} {{QuestRewardEquip|Underway Replenishment}}
+| notes = Requires [[Summer 2015 Event#E-5|E-5]] clear
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = SN11
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
+| namejp = FS作戦の橋頭堡を築け！
+| nameen = Organise the Aircraft Carrier Task Force "Third Fleet"!
+| req = ''Form the "Third Fleet" including "Shoukaku", "Zuikaku", "Zuihou" in the first fleet in a combined fleet composition!''
+*Completion Condition: Create a Carrier Task Force (Combined Fleet) containing [[Shoukaku]], [[Zuikaku]] and [[Zuihou]] in the first fleet.
+| fuel = 0
+| ammo = 450
+| steel = 0
+| bauxite = 450
+| other = Unlocks [[Summer 2015 Event#E-6|E-6]]
+| notes = Requires [[Summer 2015 Event#E-5|E-5]] clear
 }}
 |}
 
@@ -2763,5 +2777,4 @@ Map 4 [Charge into the strait! Destroy the enemy airfield!]
 *http://www.twitch.tv/nigamonp
 
 {{EventsPortal}}
-[[zh:2015年夏季活动]]
 [[category:Events]]

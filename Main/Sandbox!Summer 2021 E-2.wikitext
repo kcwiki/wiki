@@ -1,0 +1,293 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consist and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct their own version of their guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editor's work without the full consent of the editor and his approval to do so. 
+
+Several version will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Summer 2020 Event]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 versions of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version of the guide, the said guide will be updated to the main page, and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+Projected deadline for Initial guide: '''August 26th, 12:01 JST''' (May get extended by 1 day if massive delays occur)
+
+
+===Jiga's Proposal (Comprehensive Guide)===
+
+Data from: @KC_oboegaki
+* https://twitter.com/KC_oboegaki/status/1429329388407980034
+
+===General Overview===
+
+* Make sure you have completed the event quest which unlocks the Strike Force for fleet 3.
+* This map utilizes the {{Shiplock|Summer2021EventTag3}}{{ToolTip|[Blue Tag]|'''2nd Special Squadron'''}} and {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}}
+* The LBAS Location will change once Phase 1 is completed. Refer to the LBAS Range map for the changes in combat radius before and after Phase 1.
+{{Warning|message=On E-3, '''regardless of chosen difficulty''', fleets containing ships tagged {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} '''cannot''' participate in Phase 3 and Phase 4 bosses due to branching rules.<br>Please keep this in mind even if planning to clear E-3 on '''Casual/Easy/Medium'''.}}
+{{clear}}
+
+===Phase 1: TP Phase===
+
+<tabber>
+|-|Akitsumaru Composition =
+* Composition: {{Shiplock|Summer2021EventTag3}}{{ToolTip|[Blue Tag]|'''2nd Special Squadron'''}} Striking  Force Fleet: 0-1 AV, 1-2 CL(T), 4-6 DD, [[Akitsumaru]] '''Fast'''
+** Route: {{MapRoute|1|bleu|A|red|C|red|D|red|F|green|I|red}}
+|-|AV/Shinshuumaru Composition =
+* Composition: {{Shiplock|Summer2021EventTag3}}{{ToolTip|[Blue Tag]|'''2nd Special Squadron'''}} Striking  Force Fleet:  0-1 AV, 1-2 CL(T), 4-5 DD, 0-1 XX '''FAST'''
+** Route: {{MapRoute|1|bleu|B|red|C|red|D|red|F|green|I|red}}
+* Note: XX can be another AV or [[Shinshuumaru]] but not [[Akitsumaru]]. Refer to the first composition if you're using [[Akitsumaru]] for the sortie.
+|-|Alternative Composition =
+* Composition: {{Shiplock|Summer2021EventTag3}}{{ToolTip|[Blue Tag]|'''2nd Special Squadron'''}} Striking  Force Fleet: 0-1 AV, 1 CVL, 1 CA, 1 CL, 3-4 DD '''FAST''' 
+** Route: {{MapRoute|1|bleu|A|red|C|red|D1|red|E|blue|G|red|F|green|I|red}} 
+* Note: Having a CV(B) will force {{MapRoute|C|red|D|red|D1|red}} routing. A '''FAST+''' fleet will nullify this. 
+</tabber>
+
+* It is recommended to use the Shinshuumaru/AV comp or the Akitsumaru comp. If you are not able or don't want use those, use the alternative fleet comp.
+* Phase 1 LBAS range to {{MapRoute|I|red}}= 4
+* Phase 2 LBAS range to {{MapRoute|I|red}}= 3
+* {{MapRoute|I|red}} air power: AP/AS = 93/207 for ('''HARD''')
+
+===Phase 1.5: Unlock Node {{MapRoute|W|red}} ===
+
+Requirements to unlock Node {{MapRoute|W|red}} (2nd Boss)
+{| class="wikitable" 
+|-
+! Node
+! S
+! Q
+! M
+! R
+|-
+| Hard
+| A+ x2
+| S
+| AS
+| AS
+|-
+| Medium
+| A+ x2 
+| S
+| AS
+| -
+|-
+| Easy
+| A+ x2
+| -
+| -
+| -
+|-
+| Casual
+| A+
+| -
+| -
+| -
+|-
+|}
+
+<tabber>
+|-|Node S=
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} TCF: 0-1 AV, 0-1 CVL, 1-2 CL, 4 DD + 1-2 CL, 0-1 CAV, 3-4 DD with anti-installation nukes 
+** Route: {{MapRoute|2||J|blue|L|red|O|red|P|blue|R|red|S|red}}
+** Ship restrictions: AV + CVL <= 1, AV + CVL + CA(V) <=2
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} STF: 2 BB, 1CV '''OR''' 2 CVL, 1-2 CA(V), 0-1 CL, 0-2 DD + 2 CA(V), 1 CL, 3 DD with anti-installation nukes
+** Route: {{MapRoute|2||J|blue|L|red|O|red|P|blue|R|red|T|red|S|red}}
+*** Note: Much heavier composition with one extra node before reaching {{MapRoute|S|red}}
+* LBAS range = 3 for {{MapRoute|S|red}}, AP/AS = 66/147 for ('''HARD''')
+|-|Node Q=
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} CTF: 1 BB, 1 CV, 2 CAV, 2 CVL + 1 CL, 1 CA, 4 DD
+** Route: {{MapRoute|2||J|blue|L|red|O|red|P|blue|R|red|Q|red}}
+* LBAS range {{MapRoute|Q|red}}= 4, AP/AS = 143/321 for ('''HARD''')
+* It is recommended to send your LBAS to {{MapRoute|O|red}} to help your fleet pass. Alternatively you can fighter sweep {{MapRoute|R|red}} for the ('''HARD''') unlock.
+|-|Node R=
+* This uses the same compositions for reaching {{MapRoute|Q|red}} & {{MapRoute|S|red}}.
+* Either bring as much airpower as possible and LBAS bomb {{MapRoute|O|red}} or send LBAS fighter sweep to {{MapRoute|R|red}}
+|-|Node M=
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} STF: 2 BB, 2 CAV, 2 CVL + 1 CL, 1 CA, 4 DD
+** Route: {{MapRoute|2||J|blue|K|red|M|red}}
+* LBAS range {{MapRoute|M|red}}= 6, AP/AS = 155/348 FOR ('''HARD''')
+* Note: Either OASW your fleet and LBAS Fighter sweep {{MapRoute|M|red}} '''OR''' send Toukai/ASW LBAS to {{MapRoute|J|red}} and maximise airpower on your ships.
+</tabber>
+
+===Phase 2: Defeat Summer Harbor Princess ===
+
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} CTF : 3 CV, 2 CA(V), 0-1 DD, 0-1 CL + 2 FBB, 1 CL, 0-1 CA(V), 2-3 DD '''FAST'''
+** Route: {{MapRoute|2||J|blue|K|red|M|red|V|red|W|red}}
+** Alternative STF Composition that uses same route as above, use it if you lack or want to save your carriers for other locks. 
+*** Alternate Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} STF : 3-4 (F)BB, 0-1 CV, 0-1 CA(V), 0-1 CL + 1-2 FBB, 1-2 CA(V), 1 CL, 2 DD '''FAST'''
+* LBAS range to {{MapRoute|I|red}} = 6, AP/AS: 87/195 '''pre-LD''', 97/216 '''LD''' for ('''HARD''')
+* Note: The Summer Harbor Princess is an installation. Anti-installation nukes are recommended to defeat this boss.
+
+===Phase 2.5: Unlock Node {{MapRoute|Z|red}} ===
+
+To unlock the 3rd boss, {{MapRoute|Z|red}}, you need to :
+
+{| class="wikitable" 
+|-
+! Node
+! G
+! H
+! LBAS
+|-
+| Hard
+| S
+| Reach
+| AS
+|-
+| Medium
+| S ?? 
+| Reach
+| AS
+|-
+| Easy
+| -
+| -
+| -
+|-
+| Casual
+| -
+| -
+| -
+|-
+|}
+* Composition: {{Shiplock|Summer2021EventTag3}}{{ToolTip|[Blue Tag]|'''2nd Special Squadron'''}} Striking  Force Fleet: 1 CVL, 1 AV, 1 CL, 4 DD
+* Route: {{MapRoute|1||A|red|C|red|D1|red|E|blue|H|blue}} '''or''' {{MapRoute|1||A|red|C|red|D1|red|E|blue|G|red}}
+* LBAS: You can either send LBAS to {{MapRoute|D1|red}} to assist with passing the node or set them up as LBAS Defence for the air defence requirement unlock
+* Note: The same fleet can be used to complete all 3 requirements in 2-3 different sorties.  
+** {{MapRoute|E|blue}} is a choice node. The player can choose to either go to {{MapRoute|G|red}} or {{MapRoute|H|blue}} for both the requirements.
+
+===Phase 3: Elinimate the Mediterranean Fleet at {{MapRoute|Z|red}} ===
+
+You can reach {{MapRoute|Z|red}} from both of the spawn points.
+
+<tabber>
+|-|Light STF Composition =
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} STF : 0-1 CV OR 0-1 (F)BB, 1-2 CA(V), 2 CL, 1-2 DD + 1 CL, 4-5 DD, 0-1 CA
+** Route: {{MapRoute|2||J|blue|L|red|N|red|P|blue|X|purple|Z|red}}
+* Routing for this comp is the same as FAST+ CTF but has significantly less firepower at the boss.
+* Both Node and Boss support expeditions are recommended. 
+|-|Heavy STF Composition =
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} STF : 2-4 (F)BB, 1-2 CVL, 1-2 CA + 1 CAV, 1 CA, 1 CL, 3 DD
+** Route: {{MapRoute|2||J|blue|L|red|O|red|P|blue|X|purple|Z|red}}
+* Regular composition without having to rely on Fast+. The routing is much harder due to passing through {{MapRoute|O|red}} which has both PT Imps & Supply Depot Hime. Anti PT-Imp equipment is recommended. A single anti installation nuke may also be used for the Supply Depot Hime
+* Node expedition Support is highly recommended to help pass-through {{MapRoute|O|red}} & {{MapRoute|X|purple}} 
+|-|Fast+ CTF Composition =
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} CTF : 4 CV, 0-1 CA(V), 1 CL + 0-2 FBB, 1 CL, 2-5 DD, 0-1 CA ('''Fast+''')
+** Route: {{MapRoute|2||J|blue|L|red|N|red|P|blue|X|purple|Z|red}}
+* This composition requires 10-12 RE'd ships in order for the ships to go '''Fast+''' & keep their combat capabilities. 
+* The routing goes to {{MapRoute|N|red}} instead of {{MapRoute|O|red}}.
+* This comp allows you to skip {{MapRoute|O|red}} and skip using anti imp and anti installation gear.
+* Ships without REs may be used but they will have reduced damage potential and is not recommended for '''Hard'''
+</tabber>
+
+* LBAS range to {{MapRoute|Z|red}}= 6, AP/AS = 96/215 '''pre-LD''' and 214/482 '''LD''' ('''HARD'''). It is recommended to send all LBAS to Boss node {{MapRoute|Z|red}}
+* It is highly recommended to use bombers with historical bonuses on your carriers. Those planes have a significant damage modifier against the boss. Please refer to the chart on the [[Summer_2021_Event/Main_Operation#E-1|E-1 Page]].
+
+===Phase 3.5: Debuff===
+
+There are 5 requirements needed to debuff the boss
+
+{| class="wikitable" 
+|-
+! Node
+! S
+! G
+! Y
+! X
+! R
+|-
+| Hard
+| S
+| S
+| S
+| A+
+| AS
+|-
+| Medium
+| S ?
+| S ?
+| S ??
+| A+
+| ??
+|-
+| Easy
+| A+ 
+| S ?
+| -
+| A+
+| -
+|-
+| Casual
+| ??
+| ??
+| -
+| ??
+| -
+|-
+|}
+
+<tabber>
+|-|Node S=
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} TCF: 0-1 AV, 0-1 CVL, 1-2 CL, 4 DD + 1-2 CL, 0-1 CAV, 3-4 DD with anti-installation nukes 
+** Route: {{MapRoute|2||J|blue|L|red|O|red|P|blue|R|red|S|red}}
+** Ship restrictions: AV + CVL <= 1, AV + CVL + CA(V) <=2
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} STF: 2 BB, 1CV '''OR''' 2 CVL, 1-2 CA(V), 0-1 CL, 0-2 DD + 2 CA(V), 1 CL, 3 DD with anti-installation nukes
+** Route: {{MapRoute|2||J|blue|L|red|O|red|P|blue|R|red|T|red|S|red}}
+*** Note: Much heavier composition with one extra node before reaching {{MapRoute|S|red}}
+* LBAS range = 3 for {{MapRoute|S|red}}, AP/AS = 66/147 for ('''HARD''')
+|-|Node R=
+* This uses the same composition for reaching {{MapRoute|S|red}}.
+* Either bring as much airpower as possible and LBAS bomb {{MapRoute|O|red}} or send LBAS fighter sweep to {{MapRoute|R|red}}
+|-|Node G=
+* Composition: {{Shiplock|Summer2021EventTag3}}{{ToolTip|[Blue Tag]|'''2nd Special Squadron'''}} Striking  Force Fleet: 1 CVL, 1 AV, 1 CL, 4 DD
+* Route: {{MapRoute|1||A|red|C|red|D1|red|E|blue|G|red}}
+* Either rest your LBAS or use them to bomb the nodes on the route
+|-|Node Y=
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} STF: 2 BB, 1 CV or 2 CVL, 1-2 CA(V), 0-1 CL, 0-2 DD + 2 CA(V), 1 CL, 3 DD
+* Route: {{MapRoute|2||J|blue|L|red|O|red|P|blue|X|purple|Y|red}}
+* Composition: {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''Force H'''}} STF: 1 CV, 2 CA(V), 2 CL, 1 DD + 1 CL, 6 DD
+* Route: {{MapRoute|2||J|blue|L|red|N|red|P|blue|X|purple|Y|red}}
+* LBAS: Either Toukai/ASW node {{MapRoute|Y|red}} to S rank it or send normal LBAS to {{MapRoute|O|red}} to help pass the node.
+* Note: You can also A+ rank {{MapRoute|X|purple}} at the same time. Node support expedition is recommended if you choose to do so.
+|-|Node X=
+* You can S do Node {{MapRoute|X|purple}} along with {{MapRoute|Y|red}} in the same sortie
+* It is highly recommended to use Node support expeditions as this node contain a Re-Class BB 
+</tabber>
+
+bonus tested routes :
+
+* Node I 
+** 7 DDs
+*** A-C-D1-E-G-F-??
+** 1 CL, 1 BB, 2 AVs, 3 DDs
+*** ??-??-??-??-I
+** 2 CLs, 1 AV, 4 DDs
+*** B-C-??-??-I
+** 2 CLs, 1 CV, 4 DDs
+*** A-C-D-D1-??
+
+* Node W
+** 4 BBs, 1 CAV, 2 CV + 1 CL, 1 CA, 2 BBs, 2 DDs
+*** J-K-M-U-V-W
+
+* Node Z
+** 1 CV, 2 CAs, 2 CLs, 1 DD + 5 DDs, 1 CL
+** J-L-??-P-X-??-Z

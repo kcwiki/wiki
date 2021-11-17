@@ -1,0 +1,107 @@
+This template uses ship data modules to construct a ship comparison chart. It automatically highlights cells and emphasizes values based on customizable thresholds.
+
+==Example==
+
+ <nowiki>{{EliteShipsKai
+ |Sendai/Kai
+ |Jintsuu/Kai
+ |Naka/Kai
+ |Sendai/Kai Ni
+ |Jintsuu/Kai Ni
+ |Naka/Kai Ni
+ |Ooi/Kai Ni
+ |Kitakami/Kai Ni
+ |Kiso/Kai Ni
+ |firepower_good = 65
+ |firepower_outstanding = 69
+ |torpedo_good = 86
+ |torpedo_outstanding = 90
+ |reference_type = 3
+ }}</nowiki>
+
+<div class="mw-collapsible mw-collapsed">
+becomes
+
+<div class="mw-collapsible-content">{{EliteShipsKaiSortable
+|Sendai/Kai
+|Jintsuu/Kai
+|Naka/Kai
+|Sendai/Kai Ni
+|Jintsuu/Kai Ni
+|Naka/Kai Ni
+|Ooi/Kai Ni
+|Kitakami/Kai Ni
+|Kiso/Kai Ni
+|firepower_good = 65
+|firepower_outstanding = 69
+|torpedo_good = 86
+|torpedo_outstanding = 90
+|reference_type = 3
+}}</div>
+</div>
+
+==Parameters==
+
+The following sections describe the parameters that can be passed to this template.
+
+===Ships===
+
+The list of ships to be included in that table should be passed in as unnamed parameters, like in the example.
+
+====Ship Name Format====
+
+Ships should be passed in as ''ship_name''[/''suffix''].
+
+For example, the basic form of [[Ooyodo]] would be specified as ''Ooyodo'', whereas her Kai form would be specified as ''Ooyodo/Kai''.
+
+===Cell highlighting===
+
+Thresholds can be set to control automatic highlighting of many of the columns. The following columns can be highlighted:
+
+* remodel_level
+* firepower
+* torpedo
+* aa
+* asw
+* los
+* luck
+* hp
+* armor
+* evasion
+* speed
+* aircraft
+* fuel
+* ammo
+
+To set the threshold for the yellow highlight, pass the parameter ''column_name''_good.
+
+To set the threshold for the green highlight, pass the parameter ''column_name''_outstanding.
+
+By default, if the value of the cell > the threshold value, then the highlight is applied.
+
+You can change the operator used by passing the parameter ''column_name''_operator. The operators >, < are available.
+
+====Cell value emphasis====
+
+In addition, thresholds can be set to control automatic emphasis of the sub values of some columns. The following values can be highlighted:
+
+* luck_max
+* aircraft_slot
+
+Only the *_good and *_operator parameters are supported for emphasis. The *_outstanding parameter is '''not''' supported for emphasis.
+
+<includeonly>[[Category:Templates that use ship data modules|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>
+
+===Notes===
+
+You can specify custom notes in the notes column for each ship by passing the parameter ''shipname''_notes.
+
+You can also highlight the notes by passing ''outstanding'' or ''good'' as the parameter ''shipname''_notes_highlight.
+
+===reference_type===
+
+You can set the reference ship type of the table by passing ''reference_type''. 
+
+If the reference type is set, ships that are not of that ship type will have their ship type shown in the class column. 
+
+If the reference type is not set, ships will show their ship type in the class column if their ship type does not match their ship class's base ship type. For example, the [[Ooi]] and [[Kitakami]] CLT models will show CLT in the class column because the Kuma class's base ship type is CL.

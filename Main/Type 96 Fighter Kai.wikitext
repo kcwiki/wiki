@@ -12,6 +12,8 @@
 <div class="mw-collapsible-content">
 '''Stock equipment''' of {{Ship/Link|Kasuga Maru}}, {{Ship/Link|Taiyou}}
 
+'''Upgradeable''' from {{Equipment/Link|Type 96 Fighter}}
+
 </div></div>
 
 
@@ -21,10 +23,37 @@
 * '''2018-11-19:''' '''Stats increased:'''  '''{{Evasion}}+1 → {{Evasion}}+2 '''
 * '''2019-08-08:''' Visible bonuses added, fixed bug causing ships equipped with this plane to deal extra ASW damage
 * '''2020-03-27:''' Visible bonuses increased
+* '''2021-10-15:''' Became '''improvable'''
 </div></div>
 
 ==Fit Bonuses==
 {{:Type 96 Fighter Kai/Bonuses}}
+
+== Akashi's Improvement Arsenal ==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+| Name = {{PAGENAME}}
+| ItemType = GreenPlane
+| Fuel = 80
+| Ammo = 70
+| Steel = 0
+| Baux = 190
+|Mats0-5 = 2/3
+|Mats6-9 = ?
+|Mats10 = ?
+|Screws0-5 = 2/3
+|Screws6-9 = ?
+|Screws10 = ?
+|EquipConsume0-5 = 2x{{GreenPlane|Type 96 Fighter}}
+|EquipConsume6-9 = ?
+|EquipConsume10 = ?
+| Sun = ✓
+| Fri = ✓
+| Sat = ✓
+| 2ndShip = [[Houshou]]
+| Notes =
+}}
+|}
 
 ==Trivia==
 Around 2019-07-22, a bug was discovered which caused ships equipped with this plane to ignore target defence when performing ASW, allowing them to deal very high damage to enemy submarines. The suspected cause was that this plane was mistakenly set to use [[Damage_Calculations#Defense_Power|depth charge penetration]] (due to having adjacent IDs with [[Type 95 Depth Charge]] and [[Type 2 Depth Charge]]), which broke the sqrt calculation because its ASW stat is 0. This bug was fixed on 2019-08-08.

@@ -242,8 +242,10 @@ function Iterator.enemiesBy(context, n, pred, pre)
         local bi = U.ifind(CollectionEnemy, b:base_name())
         if ai and bi and ai ~= bi then
             return ai < bi
-        else
+        elseif a._id and b._id and a._id ~= b._id then
             return a._id < b._id
+        else
+        	return false
         end
     end)
     local i = 1

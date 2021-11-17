@@ -330,7 +330,7 @@ a:hover {
 	border:0px solid #a7d7f9;
 	border-bottom-left-radius:8px;
 	border-bottom-right-radius:8px;
-	background:url(/w/images/f/fc/Spring2021EventBanner.png) no-repeat center center;
+	background:url(/w/images/1/1d/Fall2021EventBanner.png) no-repeat center center;
 	overflow:hidden;
 	width:710px;
 	height:93px;
@@ -1734,7 +1734,12 @@ Origin from Wikia
 .eventBanner30 {
     background: url(images/f/fc/Spring2021EventBanner.png) no-repeat center center;
 }
-
+.eventBanner31 { 
+    background: url(images/c/c9/Summer2021EventBanner.png) no-repeat center center;
+}
+.eventBanner32 {
+	background: url(images/1/1d/Fall2021EventBanner.png) no-repeat center center;
+}
 /* Some generic classes. */
 
 .explain {
@@ -1981,8 +1986,8 @@ Added by: Tsubakura
 .quest-riq {
 	color: #ff6611;
 	position: absolute;
-	top: 44px;
-	left: 55px;
+	top: 40px;
+	right: 15px;
 	text-shadow: -1px -1px 4px #fff, 1px 1px 4px #fff, -1px 1px 4px #fff, 1px -1px 4px #fff;
 	pointer-events: none;
 	font-size: 18px;
@@ -1992,7 +1997,7 @@ Added by: Tsubakura
 	color: #ff6611;
 	position: absolute;
 	top: -5px;
-	left: 52px;
+	right: 15px;
 	text-shadow: -1px -1px 4px #fff, 1px 1px 4px #fff, -1px 1px 4px #fff, 1px -1px 4px #fff;
 	pointer-events: none;
 	font-size: 18px;

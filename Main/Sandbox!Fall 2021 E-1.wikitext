@@ -1,0 +1,253 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consists and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct their own version of their guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editors' work without the full consent of the editor and his approval to do so. 
+
+Several versions will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Summer 2020 Event]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 versions of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version of the guide, the said guide will be updated to the main page, and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+Projected deadline for Initial guide: '''November 2nd, 12:01 JST''' (May get extended by 1 day if massive delays occur)
+
+==routing template==
+
+XXX
+
+<tabber>
+|-| ?=
+XX
+|-| ??=
+XXX
+|-| ???=
+XXXX
+</tabber>
+
+==gimmick template==
+
+There are XXX requirements needed to XXX.
+
+{| class="wikitable" 
+|-
+! Node
+! ?
+! ?
+! ?
+! ?
+! ?
+|-
+| Hard
+| ?
+| ?
+| ?
+| ?
+| ?
+|-
+| Medium
+| ?
+| ?
+| ?
+| ?
+| ?
+|-
+| Easy
+| ?
+| ?
+| ?
+| ?
+| ?
+|-
+| Casual
+| ?
+| ?
+| ?
+| ?
+| ?
+|-
+|}
+
+<tabber>
+|-|Node ?=
+XX
+|-|Node ??=
+XXX
+|-|Node ???=
+XXXX
+|-|Node ????=
+XXXXX
+</tabber>
+
+==Branching Table==
+{{MapBranchingTable
+|title = E-1 Branching Rules
+|expand = true
+|id = 52-1
+|order = A,C,E,F,G,I,L,P
+|A/empty -> B, D = Choose your own adventure!
+
+|C -> E = *Meet '''ALL''' conditions below
+** Have a Natural Slow fleet with ≤ 2 DD+DE
+** Contains CLT
+|C -> F = *Must not meet conditions for E and meet '''ANY''' below conditions
+** Have a Natural Slow fleet with ≥ 3 DD+DE
+** Have a Natural Fast fleet with ≥ 2 DD
+** Speed modded Fast+ Fleet
+
+|E -> G = * Fleet came from Node D and must meet '''ALL''' conditions below
+** Fleet with ≥ 1 (F)BB(V)+ CV(B)
+** Fleet contains 1 CL + 2 DD if Fleet contains CV(L)
+*'''OR'''
+** Fleet contains no CV(B)(L)
+
+|E -> F = * Meet '''ANY''' conditions below
+** Fleet came from node C 
+** Fleet must not meet the conditions for Node G 
+
+
+|F -> H = *Fleet must not meet the conditions for Node I
+
+|F -> I = *Fleet is Fast+
+* OR must meet '''ANY''' of the following conditions :
+** Have ≤ 3 CV(B)(L) 
+** Have ≤ 4 (F)BB(V)+CV(L)
+** Have ≤ 3 (F)BB(V)+CV(B)
+
+|G/empty -> J, L = Choose your own adventure!
+
+|I -> K/empty = * Fail the LoS check.
+|I -> N = * Pass the LOS check
+
+
+|L -> O = Meet '''ANY''' of the following conditions
+* Have ≥ 3 CV(L) 
+* Have ≤ 1 DD 
+|L -> P = Doesn't meet the requirements for O and meet the following
+* Have ≤ 2 CV(L) 
+* Have ≥ 2 DD 
+
+|P -> Q/empty = * Fail the LoS check.
+
+|P -> R =  * Pass the LOS check 
+
+}}
+
+=Jiga's 1st take (You can edit)=
+
+==Map Overview==
+This map is relatively easy and can be done with a decently trained fleet and a good variety of equipment. Below is the key information you need to know about the map:
+
+* There are no ship locks and LBAS for this map
+* All fleet used in this map are '''Single Fleet'''
+* Node {{MapRoute|M|red}} requirement for unlocking for Phase 2 can be done at any time within Phase 1.
+* Saury fish can be dropped on nodes I, J, M, N, P, and R.
+
+==Phase 1: Defeat the Ru-Class Battleship at {{MapRoute|N|red}}==
+You fleet will mainly be traveling to the bottom boss node {{MapRoute|N|red}} fight off against Ru-class BBs. Most fights will have you go through subs, small surface fights and some carriers.
+
+Since this section allows for many different working compositions below will be listed some of the key ones that can bring out the best impact for your fleet for this phase.
+
+* Note: North Composition: {{MapRoute|A|blue}} -> {{MapRoute|D|red}} and South Composition: {{MapRoute|A|blue}} -> {{MapRoute|B|pink}}
+* Both the North and South Composition allows you to pack fishing equipment and enough firepower to deal with the Boss Node. 
+<tabber>
+|-|North Composition=
+* Composition: 0-1 BB(V), 1-2 CVL, 0-1 CV, 1-2 CA/CL(T), 0-2 DD ('''FAST''') '''OR''' 6 BB(V)
+* Route: {{MapRoute|1||A|blue|D|red|E|red|F|red|I|red|N|red}}
+* If you use a heavy fleet, use this route. 
+* Alternative route if you want to avoid the air raid node. 
+|-|South Composition=
+* Composition: 0-1 FBB, 1-2 CVL, 0-1 CA(V), 0-1 AV, 2-3 DD ('''FAST''')
+* Route: {{MapRoute|1||A|blue|B|pink|C|red|F|red|I|red|N|red}}
+* Note: Slow Fleet will take you to an extra node: {{MapRoute|E|red}}
+|-|Submarine Composition= 
+* Composition: 6 SS ('''FAST+''')
+* Route: {{MapRoute|1||A|blue|D|red|E|red|F|red|I|red|N|red}}
+* Cheapest composition but very hard to fish due to lack of fishing equipment brought for the fleet. 
+* Not recommended as it runs into a high risk of getting severely damage from depth charge attacks lacks proper damage.
+</tabber>
+
+==Phase 0.5/1.5: Unlock Node {{MapRoute|R|red}}==
+
+* Note: This phase can be done at any point in Phase 1. 
+* A+ Rank is needed for '''ALL DIFFICULTIES''' for node {{MapRoute|M|red}}
+* Composition: 0-1 FBB, 1-2 CVL, 0-1 CA(V), 0-1 CL, 2-3 DD
+* Route: {{MapRoute|A|blue|D|red|E|red|G|blue|J|red|M|red}}
+
+Once you complete these conditions, the next route leading to the final boss will be unlocked.
+
+==Phase 2: Eliminate German Escort Princess at {{MapRoute|R|red}}==
+In this phase, you will be up against the [[German Escort Princess]] who will come with a sizable amount of air power. While her fleet may be difficut to AS, it is still very possible to beat her even under AP as long as you bring equipment that can exploit her weakness. Below is some methods that can be used to effectively do this.
+
+* Boss Note: The boss is weak against dive-bombers. Having '''2 or more Dive-bombers''' on CV(L/B) setups will be able to one-shot the boss.
+** Type 3 Shell on BB can also be used to help kill the Escort Princess more quickly. 
+** Ise-class Kai Ni can use both dive bombers and type 3 shells allowing for her to do heavy damage that can potentially kill the princess.
+*** This method can be effecitve for farming on post clear as there will be less air power to deal with.
+*While not enitely nessary, boss support can be considered if your fleet needs an edge in the battle.
+{| class="wikitable" 
+|-
+! Boss Air-Power
+! AP
+! AS
+! AS+
+|-
+| Hard
+| 248
+| 557
+| 1113
+|-
+| Medium
+| 170
+| 383
+| 765
+|-
+| Easy
+| 154
+| 347
+| 693
+|-
+| Casual
+| 154
+| 347
+| 693
+|-
+|}
+<tabber>
+|-|Light Composition=
+* 1-2FBB, 0-1 CV(L), 0-1 CA(V), 0-1 CL, 2-3 DD
+* Route: {{MapRoute|1||A|blue|D|red|E|red|G|blue|L|pink|P|red|R|red}}
+* Focuses on Night Battle attack 
+* CV(L) should be focused on trying to meet the air-power requirement at the boss. 
+|-|Heavy Composition=
+* 1-2 CV(B), 1-2(F)BB(V), 1 CL, 2 DD
+* Route: {{MapRoute|1||A|blue|D|red|E|red|G|blue|L|pink|P|red|R|red}}
+* A BBV can be used here to provide extra firepower
+* A maximum of 3 CV(L/B) and (F)BB(V) can be used in the fleet.
+</tabber>
+
+==Fishing on the Event map==
+
+Since there are key fishing points in nodes {{MapRoute|I|red}}, {{MapRoute|J|red}}, {{MapRoute|M|red}}, {{MapRoute|N|red}}, {{MapRoute|P|red}}, and {{MapRoute|R|red}}. You can use this opportunity to catch fish while you play the event map.
+
+This map has a very high yeild of fish so bring a decent amount of fishing gear while maintaining your combat strength to maximize your overall fishing and combat performance (earning up to 2 fish per run). 
+
+For more tips on how to do this please review the [[Naval District Saury Festival]] page.

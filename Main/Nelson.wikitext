@@ -7,11 +7,12 @@
 * Able to perform special AACI. Please see [[Anti-Air Cut-In]] for more details.
 * She has a special attack called the '''Nelson Touch''' that targets 3 enemies at random.
 ** The activation requirements are:
-*** Nelson as the flagship of the 1st fleet.
+*** Nelson as the flagship of the fleet. Only main fleet allowed for combined fleet.
 *** Nelson must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>.
-*** There must be 6 ships in the fleet.
-*** There must be no submarines in the fleet.
-*** The 3rd and 5th ships must not be a carrier.
+*** There must be 6 or more surface ships in the fleet.
+**** There must be no submarine in 6-ship fleet. In 7-ship fleet, only 1 submarine allowed.
+**** There must be no surface ship in the fleet sunk or retreated via FCF during sortie causing remaining < 6. Ships in escort fleet not affect.
+*** The 3rd and 5th ships must not be a carrier or submarine.
 *** '''Double line formation''' needs to be selected in a single fleet OR '''Cruising Formation 2''' for a combined fleet.
 ** If triggered, Nelson, the 3rd ship, and the 5th ship will perform one attack each with a 2x post-cap modifier.
 *** If the engagement is <span style="color:red;">Red T</span>, then the post-cap modifier becomes 2.5x.
@@ -490,6 +491,13 @@
 |audio = Nelson_8th Anniversary_Secretary_1.mp3
 |notes = 
 }}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2021|Autumn 2021]]
+|origin = あぁ、Rodneyか。やつもこういったFestivalを好きだったな。いつか貴様と三人で飲み歩きも、いいな。
+|translation =	Ah, Rodney? She likes these kinds of festivals too. It'd be nice if the three of us could have a drink and walk around the place.
+|audio = Nelson Autumn 2021 Secretary 1.mp3
+|notes =
+}}
 |}<references/>
 
 {{clear}}
@@ -526,13 +534,16 @@
 !Regular
 |-
 |<gallery>
-|Base
-|Base Damaged
+Ship Full Nelson.png|Base
+Ship Full Nelson Damaged.png|Base Damaged
+Ship Full Nelson Kai.png|Kai
+Ship Full Nelson Kai Damaged.png|Kai Damaged
 </gallery>
 |}
 
 ==Drop Locations==
-Currently limited to Event Only. Late Fall 2018 Event Reward.
+{{#invoke:ShipDropTable|returnShipDrop|Nelson}}
+*Late Fall 2018 Event Reward.
 
 ==Trivia==
 * She is named after [https://en.wikipedia.org/wiki/Horatio_Nelson,_1st_Viscount_Nelson Admiral Horatio Nelson].

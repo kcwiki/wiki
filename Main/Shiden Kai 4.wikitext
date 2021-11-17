@@ -12,12 +12,15 @@
 ==Notes==
 <div class="mw-collapsible"><h3>How To Obtain</h3>
 <div class="mw-collapsible-content">
+'''Upgradeable''' from {{Equipment/Link|Shiden Kai 2}}
+
 ''Event reward for:''
 * [[Fall 2017 Event]] E-4: Hard, Medium
 * [[Winter 2018 Event]] E-6: Hard, Medium
 
 ''Ranking reward for:''
 * Sep 2019: 1-5 (★+4), 6-20 (★+4), 21-100 (★+2), 101-500 (★+1)
+* Jul 2021: 21-100 (★+2), 101-500 (★+1)
 
 </div></div>
 
@@ -25,7 +28,38 @@
 <div class="mw-collapsible><h3>Updates History</h3>
 <div class="mw-collapsible-content>
 * '''2017-11-19:''' '''Implemented'''
+* '''2021-09-28:''' Became '''improvable''', visible bonuses added
 </div></div>
+
+==Fit Bonuses==
+{{:{{PAGENAME}}/Bonuses}}
+
+== Akashi's Improvement Arsenal ==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+| Name = {{PAGENAME}}
+| ItemType = GreenPlane
+| Fuel = 130
+| Ammo = 180
+| Steel = 0
+| Baux = 370
+|Mats0-5 = 8/10
+|Mats6-9 = 13/18
+|Mats10 = -
+|Screws0-5 = 5/6
+|Screws6-9 = 7/10
+|Screws10 = -
+|EquipConsume0-5 = 2x{{GreenPlane|Shiden Kai 2}}
+|EquipConsume6-9 = 2x{{GreenPlane|Prototype Reppuu Late Model}}
+|EquipConsume10 = -
+| Mon = ✓
+| Tue = ✓
+| Wed = ✓
+| Thu = ✓
+| 2ndShip = {{Ship/Link|Kumano/Carrier Kai Ni}}
+| Notes =
+}}
+|}
 
 ==See Also==
 {{Equipmentlist}}

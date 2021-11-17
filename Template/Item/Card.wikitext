@@ -1,4 +1,4 @@
-<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Card|{{{1|}}}|type=Item|text={{{text|}}}|caption={{{caption|}}}|size={{#if: {{{size|}}} | {{{size}}} | {{#if: {{{small|}}} | 80x80px }}}}}}</includeonly><noinclude>
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Card|{{{1|}}}|type=Item|text={{{text|}}}|link={{{link|true}}}|caption={{{caption|}}}|size={{#if: {{{size|}}} | {{{size}}} | {{#if: {{{small|}}} | 80x80px }}}}}}</includeonly><noinclude>
 Inherited from [[Template:Card]]. Used to display item cards.
 
 <pre>{{Item/Card|Emergency Repair Goddess|size=50x50px}}</pre>

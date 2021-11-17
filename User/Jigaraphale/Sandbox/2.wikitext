@@ -1,0 +1,80 @@
+
+=Expeditions=
+
+==The Dot System==
+
+Thanks to Ninnin, we have a general description of how the resources displayed with 0 to 4 dots works :
+
+{| class="wikitable" 
+|-
+! 
+! 0 dot
+! 1 dot
+! 2 dots
+! 3 dots
+! 4 dots
+|-
+| resource range
+| 0
+| 1-240
+| 240-480
+| 500-650
+| 750-2000
+|-
+|}
+
+In those cases, the limits of the ranges are inclusive, so for instance, an expedition giving 240 resources can have either 1 or 2 dots, for no apparent reason.
+
+
+==Epeditions Table==
+
+my goal is to call :
+{{#invoke:ExpeditionTable|returnExpeditionTable|all}}
+
+
+==code testing==
+*'''(modified from Module:ShipDropTable)'''
+
+
+
+
+local U = require("Module:Core")
+local Formatting = require("Module:Formatting")
+local Exp = require("Data/Expedition")
+
+local worlds = {
+  {world = 1, exp = 14},
+  {world = 2, exp = 14},
+  {world = 3, exp = 8},
+  {world = 7, exp = 6},
+  {world = 4, exp = 11},
+  {world = 5, exp = 10},
+  {world = 6, exp = 0},
+}
+
+
+local function render(frame)
+  local args = frame.args
+  local result = {[[<div style="overflow-x:auto"><table class="wikitable sortable" style="text-align:center;width:100%">]]}
+  table.insert(result, "<tr>")
+  for _, cell in ipairs({"Ship", "Rarity", "Type", "No."}) do
+    table.insert(result, string.format([[<th rowspan="2">%s</th>]], cell))
+  end
+  for _, e in ipairs(worlds) do
+    table.insert(result, string.format([=[<th colspan="%s">[[World %s]]</th>]=], e.maps, e.world))
+  end
+  table.insert(result, [[<th rowspan="2">Remarks</th></tr><tr>]])
+  for _, e in ipairs(worlds) do
+    for map = 1, e.maps do
+      table.insert(result, string.format([=[<th>[[%s-%s|%s]]</th>]=], e.world, map, map))
+    end
+  end
+  table.insert(result, "</tr>")
+  for _, shipName in ipairs(args[1] == "all" and U.sort(U.keys(dropData)) or args) do
+    table.insert(result, formatShip(shipName))
+  end
+  table.insert(result, [[</table></div>]])
+  return table.concat(result)
+end
+
+return { returnExpeditionTable = render }

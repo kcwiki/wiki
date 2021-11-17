@@ -16,55 +16,53 @@ OASW has the following trigger conditions:
 * The ship must be able to perform ASW shelling.
 * Meet their specific ASW stat threshold and requirements:
 
-{| class="wikitable" style="margin-left: auto; margin-right: auto;"
+{|class="wikitable" style="width:1050px; text-align: center; margin-left: auto; margin-right: auto; vertical-align: middle;"
+!style="width: 25%;"|OASW Ship
+!ASW Stat Required
+!Equipment Required
+!Notes
 |-
-!style="text-align: center;" |Ship
-!style="text-align: center;" |Requirements
+! Any Destroyer/Light Cruiser/Torpedo Cruiser/Fleet Oiler/Training Cruiser
+| '''100+ ASW'''
+| {{Sonar}} '''1 Sonar Equipped'''
+| ASW Stat Required '''does''' include<br>[[Equipment_Bonuses|visible equipment bonuses]]
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| All ASW capable ships
-|style="border-style: solid; border-width: 1px;"| 
-* ASW ≥ 100
-* Is equipped with a {{Sonar}}'''Sonar'''
+! rowspan="2"| Any Coastal Defense Ship
+| '''60+ ASW'''
+| {{Sonar}} '''1 Sonar Equipped'''
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[:Category:Destroyer_Escorts|Destroyer Escorts]]
-|style="border-style: solid; border-width: 1px;"| 
-Meet one condition:
-* ASW ≥ 60 and is equipped with a {{Sonar}}'''Sonar'''
-* ASW ≥ 75 and is equipped with a {{DepthCharge}}'''Depth Charge''' with ASW stat ≥ 4
+| '''75+ ASW'''
+| Total of '''4+ ASW''' from equipment.
+|[[Equipment_Bonuses|Visible equipment bonuses]] <br>don't count as equipment ASW.
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{ShipLink|Isuzu Kai Ni}}<br>{{ShipLink|Tatsuta Kai Ni}}<br>{{ShipLink|Jervis Kai}}<br>{{ShipLink|Janus Kai}}<br>{{ShipLink|Samuel B. Roberts Kai}}<br>{{ShipLink|Fletcher|Fletcher Kai|Fletcher Kai Mod.2|Fletcher Mk.II}}<br>{{ShipLink|Johnston|Johnston Kai}}<br>{{ShipLink|Yuubari Kai Ni D}}
-|style="border-style: solid; border-width: 1px;"| 
-* Performs OASW unconditionally.
+! {{Ship/Banner|Isuzu/Kai Ni|small=true}}<br />{{Ship/Banner|Tatsuta/Kai Ni|small=true}}<br />{{ItemStack|item={{Ship/Banner|Yuubari/Kai Ni D|small=true}}|text=Kai Ni D}}<br />{{Ship/Banner|Jervis/Kai|small=true}}<br />{{Ship/Banner|Janus/Kai|small=true}}<br />{{Ship/Banner|Fletcher|small=true}}<br />{{Ship/Banner|Johnston|small=true}}<br />{{Ship/Banner|Samuel B. Roberts/Kai|small=true}}
+| '''Can OASW innately'''
+| '''N/A'''
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{ShipLink|Taiyou}}<br>{{ShipLink|Shinyou}}<br>{{ShipLink|Gambier Bay|Gambier Bay Kai}}<br>{{ShipLink|Zuihou Kai Ni B}}
-|style="border-style: solid; border-width: 1px;"| 
-Meet all conditions in one set:
-
-'''Set 1:'''
-* ASW ≥ 50 and is equipped with a {{Sonar}}'''Sonar'''
-* At least 1 {{BluePlane}}Torpedo Bomber with ASW ≥ 7, {{Autogyro}}Autogyro or {{ASWPlane}}Liaison Aircraft
-'''Set 2:'''
-* ASW ≥ 65
-* At least 1 {{BluePlane}}Torpedo Bomber with ASW ≥ 7, {{Autogyro}}Autogyro or {{ASWPlane}}Liaison Aircraft
-'''Set 3:'''
-* ASW ≥ 100 and is equipped with a {{Sonar}}'''Sonar'''
-* At least 1 {{BluePlane}}{{RedPlane}}'''Bomber''' with ASW stat.
+! Any Light Aircraft Carrier<!--<br/>(Except {{ShipLink|Suzuya Carrier Kai Ni|text=Suzuya}}/{{ShipLink|Kumano Carrier Kai Ni|text=Kumano}}) NEEDS SOURCE-->
+| '''50+ ASW'''
+| {{Sonar}} '''+''' {{BluePlane}} {{ASWPlane}} {{Autogyro}}<br />'''SONAR''' + Any with '''7+ ASW'''
+| rowspan=2 | ASW Stat Required does '''not''' include<br>[[Equipment_Bonuses|visible equipment bonuses]]
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{ShipLink|Taiyou Kai|Taiyou Kai Ni}}<br>{{ShipLink|Shinyou Kai|Shinyou Kai Ni}}
-|style="border-style: solid; border-width: 1px;"| 
-* ASW ≥ 65
+!rowspan="2"|{{Ship/Banner|Taiyou|small=true}}<br />{{Ship/Banner|Shinyou|small=true}}<br />{{Ship/Banner|Gambier Bay|small=true}}<br />{{ItemStack|item={{Ship/Banner|Zuihou/Kai Ni B|small=true}}|text=Kai Ni B}}<br />{{ToolTip|{{Ship/Banner|Ryuuhou/Kai Ni|small=true}}|{{Ship/Banner|Ryuuhou/Kai Ni|small=true}}<br>{{Ship/Banner|Ryuuhou/Kai Ni E|small=true}}}}
+| '''65+ ASW'''
+| {{BluePlane}} {{ASWPlane}} {{Autogyro}}<br />Any with '''7+ ASW'''
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| Light Carriers<br/>(Except {{ShipLink|Suzuya Carrier Kai Ni}}<br/>and {{ShipLink|Kumano Carrier Kai Ni}})
-|style="border-style: solid; border-width: 1px;"| 
-* ASW ≥ 50 and is equipped with a {{Sonar}}'''Large Sonar'''
-* At least 1 {{BluePlane}}Torpedo Bomber with ASW ≥ 7, {{Autogyro}}Autogyro or {{ASWPlane}}Liaison Aircraft
+| '''100+ ASW'''
+| {{Sonar}} '''+''' {{RedPlane}} {{BluePlane}} {{ASWPlane}} {{Autogyro}}<br />'''SONAR''' + Any Plane with '''1+ ASW'''
+| ASW Stat Required '''does''' include<br>[[Equipment_Bonuses|visible equipment bonuses]]
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| {{ShipLink|Hyuuga Kai Ni}}
-|style="border-style: solid; border-width: 1px;"| 
-Meet one condition:
-* 2 {{Autogyro}}'''Autogyros'''
-* 1 {{Autogyro}}'''Helicopter''' ({{EquipmentLink|S-51J}} or {{EquipmentLink|S-51J Kai}} ONLY)
+!{{Ship/Banner|Taiyou/Kai|small=true}}<br />{{Ship/Banner|Shinyou/Kai|small=true}}<br />{{ItemStack|item={{Ship/Banner|Kaga/Kai Ni Go|small=true}}|text=Kai Ni Go}}
+| '''N/A'''
+| {{RedPlane}} {{BluePlane}} {{ASWPlane}} {{Autogyro}}<br />Any Plane with '''1+ ASW'''
 |-
+!{{Ship/Banner|Hyuuga/Kai Ni|small=true}}
+| '''N/A'''
+| {{Autogyro}}{{Autogyro}}'''2 {{EquipmentLink|Ka Type Observation Autogyro|O Type Observation Autogyro Kai|O Type Observation Autogyro Kai Ni|text=Autogryos}}'''<br />-or-<br />{{Autogyro}}'''1 {{EquipmentLink|S-51J|S-51J Kai|text=Helicopter}}'''.
+|-
+!{{Ship/Banner|Shinshuu Maru/Kai|small=true}}<br>{{Ship/Banner|Fusou/Kai Ni|small=true}}<br>{{Ship/Banner|Yamashiro/Kai Ni|small=true}}
+| '''100+ ASW'''
+| {{Sonar}} '''+''' {{ItemStack|item={{Seaplane}}|text=Bomber|font-size = 9px|text-color = fff|glow-color = 000|text-position = right:0px;bottom:-12px}} {{Autogyro}}<br />'''SONAR''' + Seaplane Bomber or Autogyro.
 |}
 
 ===Abyssals===
@@ -72,8 +70,10 @@ Abyssal ships do not follow these rules. The following may perform OASW uncondit
 * [[Destroyer Ha-Class Late Model Elite]]
 * [[Destroyer Ni-Class Late Model Elite]]
 * [[Light Cruiser Tsu-Class Flagship]]
-* [[Light Carrier Nu-Class]] (Elite III, Elite IV, Kai Elite, Kai Flagship)
+* [[Light Carrier Nu-Class]] (Elite III, Elite IV, all Kai Elite, all Kai Flagship)
 * [[Ancient Destroyer Princess]] (all variants)
+* [[Abyssal Kuriles Princess]] (all variants)
+* [[Destroyer Forest Princess]] (Damaged variants unconfirmed)
 
 Other abyssals cannot perform OASW.
 

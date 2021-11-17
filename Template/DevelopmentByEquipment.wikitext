@@ -1,45 +1,71 @@
-<includeonly>{{#vardefine:total_rowspan|{{#expr: {{#if:{{{HeavyF/S}}}{{{HeavyAmmo}}}{{{HeavyBaux}}}|1|0}}+{{#if:{{{TorpeF/S}}}{{{TorpeAmmo}}}{{{TorpeBaux}}}|1|0}}+{{#if:{{{AviatF/S}}}{{{AviatAmmo}}}{{{AviatBaux}}}|1|0}}}}}}{{!}}-
+<includeonly>{{#vardefine:total_rowspan|{{#expr: {{#if:{{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}}|1|0}}+{{#if:{{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}}|1|0}}+{{#if:{{{AviatF/S|}}}{{{AviatAmmo|}}}{{{AviatBaux|}}}|1|0}}+{{#if:{{{Custom1Secretary|}}}{{{Custom1F/S|}}}{{{Custom1Ammo|}}}{{{Custom1Baux|}}}|1|0}}+{{#if:{{{Custom2Secretary|}}}{{{Custom2F/S|}}}{{{Custom2Ammo|}}}{{{Custom2Baux|}}}|1|0}}+{{#if:{{{Custom3Secretary|}}}{{{Custom3F/S|}}}{{{Custom3Ammo|}}}{{{Custom3Baux|}}}|1|0}}}}}}{{!}}-
 {{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{QuestRewardEquip|{{{Equipment}}}}}
 {{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Fuel}}}
 {{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Ammo}}}
 {{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Steel}}}
-{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Bauxite}}}{{#if: {{{TorpeF/S}}}{{{TorpeAmmo}}}{{{TorpeBaux}}} | <br>
-! style="background-color:#EEF5FF;" {{!}} {{ToolTip|text-align=default;background-color:#EEF5FF|{{ToolTip|Torpedo|{{colour|red|Does '''NOT''' include '''SSV'''}}}}|'''Secretary: Category Torpedo'''<hr>'''Ship Types included:'''<br>DE, DD, CL, CLT, SS, AP, CT or AO}}
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Bauxite}}}
+{{#if: {{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}}|! style="background-{{DevelopmentSecretaryCol|secretary=Torpedo}}
 {{!}} style="background-color:#AAFFAA;" {{!}}{{#if: {{{TorpeF/S|}}} | {{{TorpeF/S}}}% | - }}
 {{!}} style="background-color:#FFAAAA;" {{!}}{{#if: {{{TorpeAmmo|}}} | {{{TorpeAmmo}}}% | - }}
 {{!}} style="background-color:#FFFFAA;" {{!}}{{#if: {{{TorpeBaux|}}} | {{{TorpeBaux}}}% | - }}
 {{!}} rowspan="{{#var:total_rowspan}}" {{Detail|target=minHQ}} {{!}}{{{minHQ}}}
-{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Note}}}
-{{#if: {{{OutdatedDate|}}}{{{OutdatedNote|}}}|{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{imbox|type= content|textstyle = color: red; font-weight: bold; font-style: italic;|text= As of the {{{OutdatedDate|}}}&nbsp;update, the data for {{Equipment/Link|{{{Equipment}}}|text=this&nbsp;equipment}} is outdated.{{#if: {{{OutdatedNote|}}}|<br>{{{OutdatedNote}}}}}}} }} }}
-{{#if: {{{HeavyF/S}}}{{{HeavyAmmo}}}{{{HeavyBaux}}} |
-{{#if: {{{TorpeF/S}}}{{{TorpeAmmo}}}{{{TorpeBaux}}} | {{!}}- | }}
-! style="background-color:#FFEEEE;" {{!}} {{ToolTip|text-align=default;background-color:#FFEEEE|{{ToolTip|Heavy|{{colour|red|Does '''NOT''' include '''CAV/BBV'''}}}}|'''Secretary: Category Heavy'''<hr>'''Ship Types included:'''<br>CA, FBB, BB, XBB or AR}}
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Note}}}{{#if: {{{OutdatedDate|}}}{{{OutdatedNote|}}}|<nowiki />
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{imbox|type= content|textstyle = color: red; font-weight: bold; font-style: italic;|text= As of the {{{OutdatedDate|}}}&nbsp;update, the data for {{Equipment/Link|{{{Equipment}}}|text=this&nbsp;equipment}} is outdated.{{#if: {{{OutdatedNote|}}}|<nowiki />
+{{{OutdatedNote}}}}}}} }} }}{{#if: {{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}} |{{#if: {{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}} |<nowiki />
+{{!}}- | }}
+! style="background-{{DevelopmentSecretaryCol|secretary=Heavy}}
 {{!}} style="background-color:#AAFFAA;" {{!}}{{#if: {{{HeavyF/S|}}} | {{{HeavyF/S}}}% | - }}
 {{!}} style="background-color:#FFAAAA;" {{!}}{{#if: {{{HeavyAmmo|}}} | {{{HeavyAmmo}}}% | - }}
 {{!}} style="background-color:#FFFFAA;" {{!}}{{#if: {{{HeavyBaux|}}} | {{{HeavyBaux}}}% | - }}
-{{#if: {{{TorpeF/S}}}{{{TorpeAmmo}}}{{{TorpeBaux}}} | | {{!}} rowspan="{{#var:total_rowspan}}" {{Detail|target=minHQ}} {{!}}{{{minHQ}}}
-{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Note}}}
-{{#if: {{{OutdatedDate|}}}{{{OutdatedNote|}}}|{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{imbox|type= content|textstyle = color: red; font-weight: bold; font-style: italic;|text= As of the {{{OutdatedDate|}}}&nbsp;update, the data for {{Equipment/Link|{{{Equipment}}}|text=this&nbsp;equipment}} is outdated.{{#if: {{{OutdatedNote|}}}|<br>{{{OutdatedNote}}}}}}} }} }} }}
-{{#if: {{{AviatF/S}}}{{{AviatAmmo}}}{{{AviatBaux}}} |
-{{#if: {{{HeavyF/S}}}{{{HeavyAmmo}}}{{{HeavyBaux}}}{{{TorpeF/S}}}{{{TorpeAmmo}}}{{{TorpeBaux}}} | 
+{{#if: {{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}} | | {{!}} rowspan="{{#var:total_rowspan}}" {{Detail|target=minHQ}} {{!}}{{{minHQ}}}
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Note}}}{{#if: {{{OutdatedDate|}}}{{{OutdatedNote|}}}|<nowiki />
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{imbox|type= content|textstyle = color: red; font-weight: bold; font-style: italic;|text= As of the {{{OutdatedDate|}}}&nbsp;update, the data for {{Equipment/Link|{{{Equipment}}}|text=this&nbsp;equipment}} is outdated.{{#if: {{{OutdatedNote|}}}|<nowiki />
+{{{OutdatedNote}}}}}}} }} }} }}{{#if: {{{AviatF/S|}}}{{{AviatAmmo|}}}{{{AviatBaux|}}} |{{#if: {{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}}{{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}} |<nowiki />
 {{!}}- | }}
-! style="background-color:#EEFFCC;" {{!}} {{ToolTip|text-align=default;background-color:#EEFFCC|Aviation|'''Secretary: Category Aviation'''<hr>'''Ship Types included:'''<br>CAV, CVL, BBV, CV, SSV, AV, LHA, CVB or AS}}
+! style="background-{{DevelopmentSecretaryCol|secretary=Aviation}}
 {{!}} style="background-color:#AAFFAA;" {{!}}{{#if: {{{AviatF/S|}}} | {{{AviatF/S}}}% | - }}
 {{!}} style="background-color:#FFAAAA;" {{!}}{{#if: {{{AviatAmmo|}}} | {{{AviatAmmo}}}% | - }}
 {{!}} style="background-color:#FFFFAA;" {{!}}{{#if: {{{AviatBaux|}}} | {{{AviatBaux}}}% | - }}
-{{#if: {{{HeavyF/S}}}{{{HeavyAmmo}}}{{{HeavyBaux}}}{{{TorpeF/S}}}{{{TorpeAmmo}}}{{{TorpeBaux}}} | | {{!}} rowspan="1" {{Detail|target=minHQ}} {{!}}{{{minHQ}}}
-{{!}} rowspan="1" {{!}}{{{Note}}}
-{{#if: {{{OutdatedDate|}}}{{{OutdatedNote|}}}|{{!}} rowspan="1" {{!}}{{imbox|type= content|textstyle = color: red; font-weight: bold; font-style: italic;|text= As of the {{{OutdatedDate|}}}&nbsp;update, the data for {{Equipment/Link|{{{Equipment}}}|text=this&nbsp;equipment}} is outdated.{{#if: {{{OutdatedNote|}}}|<br>{{{OutdatedNote}}}}}}} }} }} }}</includeonly><noinclude>
-
-{{Detail|button=true|target=minHQ|show_text=Showing Minimum HQ Level|hide_text=Show Minimum HQ Level (hidden)}}
+{{#if: {{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}}{{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}} | | {{!}} rowspan="1" {{Detail|target=minHQ}} {{!}}{{{minHQ}}}
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Note}}}{{#if: {{{OutdatedDate|}}}{{{OutdatedNote|}}}|<nowiki />
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{imbox|type= content|textstyle = color: red; font-weight: bold; font-style: italic;|text= As of the {{{OutdatedDate|}}}&nbsp;update, the data for {{Equipment/Link|{{{Equipment}}}|text=this&nbsp;equipment}} is outdated.{{#if: {{{OutdatedNote|}}}|<nowiki />
+{{{OutdatedNote}}}}}}} }} }} }}{{#if: {{{Custom1Secretary|}}}{{{Custom1F/S|}}}{{{Custom1Ammo|}}}{{{Custom1Baux|}}} |{{#if: {{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}}{{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}}{{{AviatF/S|}}}{{{AviatAmmo|}}}{{{AviatBaux|}}} |<nowiki />
+{{!}}- | }}
+! style="background-{{DevelopmentSecretaryCol|secretary={{{Custom1Secretary|}}}|secretarycolour={{{Custom1SecretaryColour|}}}|secretarydescription={{{Custom1SecretaryDescription|}}}}}
+{{!}} style="background-color:#AAFFAA;" {{!}}{{#if: {{{Custom1F/S|}}} | {{{Custom1F/S}}}% | - }}
+{{!}} style="background-color:#FFAAAA;" {{!}}{{#if: {{{Custom1Ammo|}}} | {{{Custom1Ammo}}}% | - }}
+{{!}} style="background-color:#FFFFAA;" {{!}}{{#if: {{{Custom1Baux|}}} | {{{Custom1Baux}}}% | - }}
+{{#if: {{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}}{{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}}{{{AviatF/S|}}}{{{AviatAmmo|}}}{{{AviatBaux|}}} | | {{!}} rowspan="{{#var:total_rowspan}}" {{Detail|target=minHQ}} {{!}}{{{minHQ}}}
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Note}}}{{#if: {{{OutdatedDate|}}}{{{OutdatedNote|}}}|<nowiki />
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{imbox|type= content|textstyle = color: red; font-weight: bold; font-style: italic;|text= As of the {{{OutdatedDate|}}}&nbsp;update, the data for {{Equipment/Link|{{{Equipment}}}|text=this&nbsp;equipment}} is outdated.{{#if: {{{OutdatedNote|}}}|<nowiki />
+{{{OutdatedNote}}}}}}} }} }} }}{{#if: {{{Custom2Secretary|}}}{{{Custom2F/S|}}}{{{Custom2Ammo|}}}{{{Custom2Baux|}}} |{{#if: {{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}}{{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}}{{{AviatF/S|}}}{{{AviatAmmo|}}}{{{AviatBaux|}}}{{{Custom1F/S|}}}{{{Custom1Ammo|}}}{{{Custom1Baux|}}} |<nowiki />
+{{!}}- | }}
+! style="background-{{DevelopmentSecretaryCol|secretary={{{Custom2Secretary|}}}|secretarycolour={{{Custom2SecretaryColour|}}}|secretarydescription={{{Custom2SecretaryDescription|}}}}}
+{{!}} style="background-color:#AAFFAA;" {{!}}{{#if: {{{Custom2F/S|}}} | {{{Custom2F/S}}}% | - }}
+{{!}} style="background-color:#FFAAAA;" {{!}}{{#if: {{{Custom2Ammo|}}} | {{{Custom2Ammo}}}% | - }}
+{{!}} style="background-color:#FFFFAA;" {{!}}{{#if: {{{Custom2Baux|}}} | {{{Custom2Baux}}}% | - }}
+{{#if: {{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}}{{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}}{{{AviatF/S|}}}{{{AviatAmmo|}}}{{{AviatBaux|}}}{{{Custom1F/S|}}}{{{Custom1Ammo|}}}{{{Custom1Baux|}}} | | {{!}} rowspan="{{#var:total_rowspan}}" {{Detail|target=minHQ}} {{!}}{{{minHQ}}}
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Note}}}{{#if: {{{OutdatedDate|}}}{{{OutdatedNote|}}}|<nowiki />
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{imbox|type= content|textstyle = color: red; font-weight: bold; font-style: italic;|text= As of the {{{OutdatedDate|}}}&nbsp;update, the data for {{Equipment/Link|{{{Equipment}}}|text=this&nbsp;equipment}} is outdated.{{#if: {{{OutdatedNote|}}}|<nowiki />
+{{{OutdatedNote}}}}}}} }} }} }}{{#if: {{{Custom3Secretary|}}}{{{Custom3F/S|}}}{{{Custom3Ammo|}}}{{{Custom3Baux|}}} |{{#if: {{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}}{{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}}{{{AviatF/S|}}}{{{AviatAmmo|}}}{{{AviatBaux|}}}{{{Custom1F/S|}}}{{{Custom1Ammo|}}}{{{Custom1Baux|}}}{{{Custom2F/S|}}}{{{Custom2Ammo|}}}{{{Custom2Baux|}}} |<nowiki />
+{{!}}- | }}
+! style="background-{{DevelopmentSecretaryCol|secretary={{{Custom3Secretary|}}}|secretarycolour={{{Custom3SecretaryColour|}}}|secretarydescription={{{Custom3SecretaryDescription|}}}}}
+{{!}} style="background-color:#AAFFAA;" {{!}}{{#if: {{{Custom3F/S|}}} | {{{Custom3F/S}}}% | - }}
+{{!}} style="background-color:#FFAAAA;" {{!}}{{#if: {{{Custom3Ammo|}}} | {{{Custom3Ammo}}}% | - }}
+{{!}} style="background-color:#FFFFAA;" {{!}}{{#if: {{{Custom3Baux|}}} | {{{Custom3Baux}}}% | - }}
+{{#if: {{{HeavyF/S|}}}{{{HeavyAmmo|}}}{{{HeavyBaux|}}}{{{TorpeF/S|}}}{{{TorpeAmmo|}}}{{{TorpeBaux|}}}{{{AviatF/S|}}}{{{AviatAmmo|}}}{{{AviatBaux|}}}{{{Custom1F/S|}}}{{{Custom1Ammo|}}}{{{Custom1Baux|}}}{{{Custom2F/S|}}}{{{Custom2Ammo|}}}{{{Custom2Baux|}}} | | {{!}} rowspan="{{#var:total_rowspan}}" {{Detail|target=minHQ}} {{!}}{{{minHQ}}}
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{{Note}}}{{#if: {{{OutdatedDate|}}}{{{OutdatedNote|}}}|<nowiki />
+{{!}} rowspan="{{#var:total_rowspan}}" {{!}}{{imbox|type= content|textstyle = color: red; font-weight: bold; font-style: italic;|text= As of the {{{OutdatedDate|}}}&nbsp;update, the data for {{Equipment/Link|{{{Equipment}}}|text=this&nbsp;equipment}} is outdated.{{#if: {{{OutdatedNote|}}}|<nowiki />
+{{{OutdatedNote}}}}}}} }} }} }}</includeonly><noinclude>[[Template:DevelopmentSecretaryCol]]
 
 ==[[Development/Equipment Rates]]==
+{{Detail|button=true|target=minHQ|show_text=Showing Minimum HQ Level|hide_text=Show Minimum HQ Level (hidden)}}
 {| class="wikitable" border="1" cellpadding="1" cellspacing="1" style="text-align: center;" 
 ! colspan="11" |<h3>Development Table</h3>
 |-
 ! style="width:1px;" rowspan="2" |Equipment
 ! colspan="4" |Minimum resource<br>input
-! rowspan="2" style="width:70px;" |Secretary<br>Ship Type
+! rowspan="2" style="width:150px;" |Secretary<br>Ship Type
 ! colspan="3" |Drop rates with this as<br>primary resource
 ! rowspan="2" style="width:60px;" {{Detail|target=minHQ}} |{{Detail|button=true|target=minHQ|show_text=Hide<br>Column|hide_text=}}<br>Minimum<br>HQ Level
 ! rowspan="2" |Note
@@ -176,6 +202,7 @@
 |TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux= 
 |HeavyF/S= 2 ||HeavyAmmo=   ||HeavyBaux= 
 |AviatF/S= 2 ||AviatAmmo=   ||AviatBaux= 2
+|Custom1F/S= 4 ||Custom1Ammo=   ||Custom1Baux= 6 ||Custom1Secretary= Akizuki-class
 |minHQ= 20
 |Note= 
 }}
@@ -187,7 +214,7 @@
 |-
 ! style="width:1px;" rowspan="2" |Equipment
 ! colspan="4" |Minimum resource<br>input
-! rowspan="2" style="width:70px;" |Secretary<br>Ship Type
+! rowspan="2" style="width:150px;" |Secretary<br>Ship Type
 ! colspan="3" |Drop rates with this as<br>primary resource
 ! rowspan="2" style="width:60px;" {{Detail|target=minHQ}} |{{Detail|button=true|target=minHQ|show_text=Hide<br>Column|hide_text=}}<br>Minimum<br>HQ Level
 ! rowspan="2" |Note
@@ -221,6 +248,9 @@
 |TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux= 
 |HeavyF/S= 2 ||HeavyAmmo=   ||HeavyBaux= 
 |AviatF/S= 2 ||AviatAmmo=   ||AviatBaux= 2
+|Custom1F/S= 2 ||Custom1Ammo=   ||Custom1Baux= 2 ||Custom1Secretary= Akizuki-class
+|Custom2F/S= 2 ||Custom2Ammo=   ||Custom2Baux= 2 ||Custom2Secretary= Ise-class BBV
+|Custom3F/S= 2 ||Custom3Ammo=   ||Custom3Baux= 2 ||Custom3Secretary= Commandant Teste
 |minHQ= 20
 |Note= 
 |OutdatedDate= [[Game_Updates/2021/March_30th|30-03-2020]]
@@ -237,6 +267,21 @@
 |AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
 |minHQ= 20
 |Note= '''True minimum''' is 10/'''251'''/250/10.<br> Otherwise 0% craft rate
+}}
+{{DevelopmentByEquipment
+|Equipment= 12cm Single Gun Mount
+|   Fuel= 10
+|   Ammo= 10
+|  Steel= 10
+|Bauxite= 10
+|TorpeF/S=   ||TorpeAmmo=   ||TorpeBaux=  
+|HeavyF/S=   ||HeavyAmmo=   ||HeavyBaux= 
+|AviatF/S=   ||AviatAmmo=   ||AviatBaux= 
+|Custom1F/S=   ||Custom1Ammo=   ||Custom1Baux= 2 ||Custom1Secretary= Akizuki-class
+|Custom2F/S= 2 ||Custom2Ammo= 2 ||Custom2Baux= 2 ||Custom2Secretary= Ise-class BBV
+|Custom3F/S= 2 ||Custom3Ammo=   ||Custom3Baux= 2 ||Custom3Secretary= Commandant Teste
+|minHQ= 10
+|Note= 
 }}
 |}
 </noinclude>

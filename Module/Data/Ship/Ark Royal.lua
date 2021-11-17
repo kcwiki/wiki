@@ -80,7 +80,7 @@ return {
         _hp = 71,
         _hp_max = 90,
         _firepower = 0,
-        _firepower_max = 50,
+        _firepower_max = 51,
         _firepower_mod = false,
         _armor = 28,
         _armor_max = 70,
@@ -119,7 +119,7 @@ return {
         _scrap_baux = 10,
         _equipment = {
             { equipment = "Fulmar", size = 24 },
-            { equipment = "Swordfish", size = 30 },
+            { equipment = "Swordfish", size = 32 },
             { equipment = "QF 2-pounder Octuple Pom-pom Gun Mount", size = 12 },
             { equipment = false, size = 12 },
         },

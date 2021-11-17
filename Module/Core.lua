@@ -211,6 +211,11 @@ function Utils.icopy(arr)
     return Utils.imap(arr, function(v) return v end)
 end
 
+function Utils.sort(tbl)
+    table.sort(tbl)
+    return tbl
+end
+
 function Utils.isort(arr)
     local result = Utils.icopy(arr)
     table.sort(result)

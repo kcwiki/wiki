@@ -1,48 +1,44 @@
-<includeonly>{| class="wikitable typography-xl-optout"
-!Event
-!Japanese
-!English
-!Note
-|-
-|Introduction<br />{{{Clip1|}}}
-|lang="ja"|{{{開幕前|}}}
-|{{{EN1|}}}
-|{{{Note1|}}}
-|-
-|Attacking<br />{{{Clip0|}}}
-|lang="ja"|{{{砲撃|}}}
-|{{{EN0|}}}
-|{{{Note0|}}}
-|-
-|Under attack<br />{{{Clip2|}}}
-|lang="ja"|{{{被弾|}}}
-|{{{EN2|}}}
-|{{{Note2|}}}
-|-
-|Sunk<br />{{{Clip3|}}}
-|lang="ja"|{{{昼戦終了時|}}}
-|{{{EN3|}}}
-|{{{Note3|}}}
-|}</includeonly><noinclude>
-How to use :
-<pre>
-{{Abyssquote
-| 開幕前=
-| EN1=
-| Note1=
-| Clip1 =
-| 砲撃=
-| EN0=
-| Note0=
-| Clip0 =
-| 被弾=
-| EN2=
-| Note2=
-| Clip2 =
-| 昼戦終了時=
-| EN3=
-| Note3=
-| Clip3 =
-}}
-</pre>
+<includeonly>{|class="wikitable"
+!Event!!Japanese!!English!!Note
+|- {{#if:{{{Introduction|}}}{{{Clip1|}}}||style="display:none"}}
+|Introduction<br>{{{Clip1|}}}{{Audio|{{#replace:Enemy Voice {{{name|{{BASEPAGENAME}}}}}{{#if:{{{form|}}}|<nowiki/> {{{form}}}}} Introduction.mp3|<nowiki/> |_}}}}
+|lang="ja"|{{{開幕前|}}}{{{Introduction|}}}
+|{{{EN1|}}}{{{Introduction/En|}}}
+|{{{Note1|}}}{{{Introduction/Note|}}}
+|- {{#if:{{{Introduction/Debuffed|}}}||style="display:none"}}
+|Introduction Debuffed<br>{{Audio|{{#replace:Enemy Voice {{{name|{{BASEPAGENAME}}}}}{{#if:{{{form|}}}|<nowiki/> {{{form}}}}} Introduction Debuffed.mp3|<nowiki/> |_}}}}
+|lang="ja"|{{{Introduction/Debuffed|}}}
+|{{{Introduction/Debuffed/En|}}}
+|{{{Introduction/Debuffed/Note|}}}
+|- {{#if:{{{Attack|}}}{{{Clip0|}}}||style="display:none"}}
+|Attack<br>{{{Clip0|}}}{{Audio|{{#replace:Enemy Voice {{{name|{{BASEPAGENAME}}}}}{{#if:{{{form|}}}|<nowiki/> {{{form}}}}} Attack.mp3|<nowiki/> |_}}}}
+|lang="ja"|{{{砲撃|}}}{{{Attack|}}}
+|{{{EN0|}}}{{{Attack/En|}}}
+|{{{Note0|}}}{{{Attack/Note|}}}
+|- {{#if:{{{Attack/Debuffed|}}}||style="display:none"}}
+|Attack Debuffed<br>{{Audio|{{#replace:Enemy Voice {{{name|{{BASEPAGENAME}}}}}{{#if:{{{form|}}}|<nowiki/> {{{form}}}}} Attack Debuffed.mp3|<nowiki/> |_}}}}
+|lang="ja"|{{{Attack/Debuffed|}}}
+|{{{Attack/Debuffed/En|}}}
+|{{{Attack/Debuffed/Note|}}}
+|- {{#if:{{{Under Attack|}}}{{{Clip2|}}}||style="display:none"}}
+|Under Attack<br>{{{Clip2|}}}{{Audio|{{#replace:Enemy Voice {{{name|{{BASEPAGENAME}}}}}{{#if:{{{form|}}}|<nowiki/> {{{form}}}}} Under Attack.mp3|<nowiki/> |_}}}}
+|lang="ja"|{{{被弾|}}}{{{Under Attack|}}}
+|{{{EN2|}}}{{{Under Attack/En|}}}
+|{{{Note2|}}}{{{Under Attack/Note|}}}
+|- {{#if:{{{Under Attack/Debuffed|}}}||style="display:none"}}
+|Under Attack Debuffed<br>{{Audio|{{#replace:Enemy Voice {{{name|{{BASEPAGENAME}}}}}{{#if:{{{form|}}}|<nowiki/> {{{form}}}}} Under Attack Debuffed.mp3|<nowiki/> |_}}}}
+|lang="ja"|{{{Under Attack/Debuffed|}}}
+|{{{Under Attack/Debuffed/En|}}}
+|{{{Under Attack/Debuffed/Note|}}}
+|- {{#if:{{{Sunk|}}}{{{Clip3|}}}||style="display:none"}}
+|Sunk<br>{{{Clip3|}}}{{Audio|{{#replace:Enemy Voice {{{name|{{BASEPAGENAME}}}}}{{#if:{{{form|}}}|<nowiki/> {{{form}}}}} Sunk.mp3|<nowiki/> |_}}}}
+|lang="ja"|{{{昼戦終了時|}}}{{{Sunk|}}}
+|{{{EN3|}}}{{{Sunk/En|}}}
+|{{{Note3|}}}{{{Sunk/Note|}}}
+|- {{#if:{{{Sunk/Debuffed|}}}||style="display:none"}}
+|Sunk Debuffed<br>{{Audio|{{#replace:Enemy Voice {{{name|{{BASEPAGENAME}}}}}{{#if:{{{form|}}}|<nowiki/> {{{form}}}}} Sunk Debuffed.mp3|<nowiki/> |_}}}}
+|lang="ja"|{{{Sunk/Debuffed|}}}
+|{{{Sunk/Debuffed/En|}}}
+|{{{Sunk/Debuffed/Note|}}}
+|}</includeonly><noinclude>See [[European Armored Carrier Princess]] for an example.
 </noinclude>

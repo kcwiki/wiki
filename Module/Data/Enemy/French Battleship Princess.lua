@@ -43,7 +43,7 @@ return {
         _type = 10,
         _hp = 730,
         _firepower = 242,
-        _armor = 225,
+        _armor = 239,
         _torpedo = 0,
         _evasion = nil,
         _aa = 84,

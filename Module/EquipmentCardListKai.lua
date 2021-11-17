@@ -5,7 +5,7 @@ local Formatting = require('Module:Formatting')
 
 local EquipmentCardListKai = CardList{
 	_item_class = Equipment,
-	_blank = "Empty equipment card slot.png",
+	_blank = "Empty Equipment Card.png",
 	_default_size = EquipmentCardKai._card_size,
 	_column_count = 5,
 	_row_starter = nil,

@@ -139,7 +139,7 @@ If the fleet currently deployed has 4 or more ships, the player will be prompted
 |style="text-align: center; border-style: solid; border-width: 1px;" |80%
 |style="text-align: center; border-style: solid; border-width: 1px;" |??
 |style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
-|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
 |style="text-align: center; border-style: solid; border-width: 1px;" |??
 |style="text-align: center; border-style: solid; border-width: 1px;" |100%
 |style="text-align: center; border-style: solid; border-width: 1px;" |??
@@ -154,7 +154,7 @@ If the fleet currently deployed has 4 or more ships, the player will be prompted
 |style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''120%'''
 |style="text-align: center; border-style: solid; border-width: 1px;" |??
 |style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
-|style="text-align: center; border-style: solid; border-width: 1px; color:#ff0000;" |'''100%'''
+|style="text-align: center; border-style: solid; border-width: 1px;" |??
 |style="text-align: center; border-style: solid; border-width: 1px;" |??
 |style="text-align: center; border-style: solid; border-width: 1px;" |60%
 |style="text-align: center; border-style: solid; border-width: 1px;" |??
@@ -168,6 +168,10 @@ If the fleet currently deployed has 4 or more ships, the player will be prompted
 |}<references/>
 
 '''Notes:'''
+* Exceptions to the table: Shelling Accuracy and Anti-Submarine Accuracy are '''100%''' for the following combinations of formations:
+** Double Line attacking Line Abreast
+** Echelon attacking Line Ahead
+** Line Abreast attacking Echelon
 * Exact values were datamined from KanColle Kai for the Vita. Testing on the browser version has corroborated these results.
 ** Values for Vanguard and new Echelon are vague as they weren't introduced for KanColle Kai.
 * Echelon modifiers were buffed on the [[Game_Updates/2019/Feburary_27th|2019-02-27 update]]. Split cells contain '''new''' values '''above''' and '''old''' values '''below'''. All '''new''' values are confirmed for Single vs Single fleet battles. However, Single fleets in Echelon fighting Combined fleets (either the player's in 6v12, or the enemy's in 12v6) are confirmed to use the '''old''' shelling damage value of 60%.<ref>https://github.com/Tibowl/KCBugTracker/issues/24#issuecomment-872108225</ref> It is unknown if they use new values or old values for other calculations.

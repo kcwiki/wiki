@@ -1,5 +1,3 @@
--- [[Category:Player ship modules]]
-
 return {
   [""] = {
     _name = "Grecale",
@@ -78,13 +76,13 @@ return {
     _firepower_max = 55,
     _firepower_mod = 1,
     _armor = 15,
-    _armor_max = 50,
+    _armor_max = 51,
     _armor_mod = 1,
     _torpedo = 18,
     _torpedo_max = 68,
     _torpedo_mod = 1,
-    _evasion = 18,
-    _evasion_max = 94,
+    _evasion = 19,
+    _evasion_max = 95,
     _aa = 36,
     _aa_max = 80,
     _aa_mod = 1,
@@ -95,7 +93,7 @@ return {
     _los_max = 46,
     _range = 1,
     _luck = 40,
-    _luck_max = 120,
+    _luck_max = 122,
     _luck_mod = false,
     _build_time = 23,
     _remodel_level = 35,

@@ -36,6 +36,8 @@ local rare_ships = {
 	'Momo', 'I-203', 'Northampton', 'Makinami',
 	
 	'Honolulu', 'Suzunami', 'Souya',
+	
+	'Chougei', 'Conte di Cavour', 'Victorious', 'Kaiboukan No.30',
 }
 
 local ignored_ships = {

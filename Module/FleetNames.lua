@@ -36,4 +36,5 @@ return {
     ['Rainy-Summer 2020 Event'] = 'flagship',
     ['Fall 2020 Event'] = 'flagship',
     ['Spring 2021 Event'] = 'flagship',
+    ['Summer 2021 Event'] = 'flagship',
 }

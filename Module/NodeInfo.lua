@@ -427,7 +427,7 @@ function NodeInfo:format_node_type()
         "[[%s/High Altitude Raids|High Altitude]] ",
         U.split(self._params.fullpagename, '/')[1]
     ) or ""
-    return self._args["comment"] or (prefix .. node_types[self._node_type]) or "Fleet"
+    return self._args["comment"] or (prefix .. (node_types[self._node_type] or "Unknown")) or "Fleet"
 end
  
 function NodeInfo:is_simple_node_type()

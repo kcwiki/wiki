@@ -1,0 +1,347 @@
+==Info==
+{{KanmusuInfo|ID=485}}
+{{KanmusuInfo|ID=485a}}
+
+==Gameplay Notes==
+===Fit Bonuses===
+{{:{{BASEPAGENAME}}/Equipment Bonuses}}
+{{clear}}
+
+==Voice Lines==
+===Quotes===
+{{ShipquoteHeader}}
+{{ShipquoteKai
+|scenario = Introduction
+|origin = 私がAircraft Carrier HMS Victorious。お前が提督か。よかろう。お前と征こうか。この海を！
+|translation = I'm the aircraft carrier HMS Victorious. So you're the Admiral. Pleased to meet you. Let's be victorious together upon these seas!
+}}
+{{ShipquoteKai|kai = true
+|scenario = Introduction
+|origin =Royal Navy aircraft carrier, HMS Victorious. 提督、おはよう。今日もお前と行こう。この海を！
+|translation = Royal Navy aircraft carrier, HMS Victorious. Admiral, good morning. Let's head out to sea together today as well!
+}}
+{{ShipquoteKai
+|scenario = Library
+|origin =Illustrious-class aircraft carrier, HMS Victorious. 装甲甲板を持つ、英正規空母よ。数々の戦いを乗り越え、戦後はジェット艦載機も運用可能に改装されたわ。よろしくね。
+|translation =Illustrious-class aircraft carrier, HMS Victorious. I'm a British fleet carrier with an armoured flight deck. I survived numerous battles and was upgraded to be able to support carrier-based jets after the war. Pleased to meet you.
+}}
+{{ShipquoteKai
+|scenario = Secretary 1
+|origin =How are things with you?
+|translation =How are things with you?
+}}
+{{ShipquoteKai
+|scenario = Secretary 2
+|origin =私、準備は万全よ。問題ないわ。
+|translation =I'm all ready. There are no issues.
+}}
+{{ShipquoteKai
+|scenario = Secretary 3
+|origin =私の飛行甲板が気になるの？装甲を施しているわ。防御は万全よ。
+|translation =Are you interested in my flight deck? It's armoured. It's impenetrable.
+}}
+{{ShipquoteKai|kai = true
+|scenario = Secretary 3
+|origin =そんなに私の飛行甲板が気になるの？しっかりと装甲を施しているわ。防御は万全よ。
+|translation =Are you really that interested in my flight deck? It's armoured from bow to stern. It's impenetrable.
+}}
+{{ShipquoteKai
+|scenario = Idle
+|origin =なにArk？元気そうね。なにより。…えぇ！？うそ！まだSwordfish使ってるの？Albacoreはともかく、せめてBarracudaは？えぇ？いいの、その子で？
+|translation =What is it, Ark? You're looking well. That's great... Huh!? Are you serious!? You're still using Swordfish? Albacores aside, why don't you use Barracudas at least? Huh? You're fine with them?
+}}
+{{ShipquoteKai
+|scenario = Secretary Married
+|origin =提督、い…いや、お前も少し息抜きをするといい…わ？私が紅茶を入れた。飲むでしょ？香りで癒される。ん？Earl Greyよ。好きでしょう？
+|translation =Admiral. N-no I just thought you could use a... quick break? I made some black tea. You'll have some, won't you? The fragrance is refreshing. Hmm? It's Earl Grey. That's your favourite, right?
+}}
+{{ShipquoteKai
+|scenario = Wedding
+|origin =お前、いや、提督、私を呼んだ？あぁ、そう。何？改たまって。…ドアを締めて？ん、いいけれど。待って、これは？…私に？…Thank you very much indeed. 提督、喜んで。
+|translation =Did you, I mean, Admiral, you called? Ah, I see. Why are you being so formal? ...Close the door? Mmm, alright. Wait, what is this? ...Is it for me? ...Thank you very much indeed. Admiral, I gladly accept.
+}}
+{{ShipquoteKai
+|scenario = Looking At Scores
+|origin =提督、何？Information? 私が持ってきてあげる。これね？
+|translation =Admiral, what is it? Information? I'll go get it for you. This is it, right?
+}}
+{{ShipquoteKai
+|scenario = Joining A Fleet
+|origin =Royal Navy HMS Victorious, 抜錨する！
+|translation =Royal Navy HMS Victorious, weighing anchor!
+}}
+{{ShipquoteKai
+|scenario = Equipment 1
+|origin =Fulmarも悪い機体じゃないわ。使い方次第よ。
+|translation =The Fulmar isn't a bad plane. It depends on how it's used.
+}}
+{{ShipquoteKai|kai = true
+|scenario = Equipment 1
+|origin =Barracudaも悪い機体じゃないわ。クセはあるけれど、本当よ。
+|translation =The Barracuda isn't a bad plane. It does have its quirks, but it isn't bad.
+}}
+{{ShipquoteKai
+|scenario = Equipment 2
+|origin =ほぉ、これは…うん！良さそうね。
+|translation =Oooh, this is... Yup! I can use this.
+}}
+{{ShipquoteKai
+|scenario = Equipment 3
+|origin =進むだけよ。
+|translation =Only forwards.
+}}
+{{ShipquoteKai
+|scenario = Supply
+|origin =艦載機の補充も、助かる。
+|translation =Thanks for replenishing my planes too.
+}}
+{{ShipquoteKai
+|scenario = Docking Minor
+|origin =装甲空母よ。このぐらいかすり傷なんだから。
+|translation =I'm an armoured carrier. This is just a scratch.
+}}
+{{ShipquoteKai
+|scenario = Docking Major
+|origin =装甲甲板で良かった。ふぅ。危ない、危ない。
+|translation =Thank goodness I have an armoured deck. Whew. That was really close.
+}}
+{{ShipquoteKai
+|scenario = Construction
+|origin =New shipが就役したようね。
+|translation =It looks like a new ship has been commissioned.
+}}
+{{ShipquoteKai
+|scenario = Returning From Sortie
+|origin =Operation complete! 港に戻ったわ。
+|translation =Operation complete! We've returned to port.
+}}
+{{ShipquoteKai
+|scenario = Starting A Sortie
+|origin =本国艦隊、HMS Victorious、出撃。各艦、続きなさい。行きましょう！
+|translation =Home Fleet, HMS Victorious, sortieing. All ships, follow me. Let's go!
+}}
+{{ShipquoteKai|kai = true
+|scenario = Starting A Sortie
+|origin =1st Aircraft Carrier Squadron、HMS Victorious、出撃。各艦、続きなさい。行きましょう！
+|translation =1st Aircraft Carrier Squadron, HMS Victorious, sortieing. All ships, follow me. Let's go!
+}}
+{{ShipquoteKai
+|scenario = Battle Start
+|origin =Victorious Squadron、発艦始め！さあ、始めます！
+|translation =Victorious Squadron, begin take-off! Now, let's get started!
+}}
+{{ShipquoteKai
+|scenario = Attack
+|origin =Victorious Squadron, shoot!
+|translation =Victorious Squadron, shoot!
+}}
+{{ShipquoteKai
+|scenario = Air Battle/Daytime Spotting/Night Battle Attack
+|origin =行きなさい！
+|translation =Go!
+}}
+{{ShipquoteKai
+|scenario = Night Battle
+|origin =夜間作戦、行きましょう。各艦、艦隊陣形を…夜の戦いです。
+|translation =Let's begin the night operation. All ships, in formation... It's a night battle.
+}}
+{{ShipquoteKai
+|scenario = MVP
+|origin =そう、私が…ありがとう。受け取ろう。私はvictorious。私は、お前とともに。
+|translation =I see, I'm... Thanks. I accept. I am victorious. We are victorious.
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 1
+|origin =ふわあぁー！
+|translation =Aaaaah!
+}}
+{{ShipquoteKai
+|scenario = Minor Damage 2
+|origin =甲板は！？大丈夫ね？
+|translation =How's the deck!? It's fine, right?
+}}
+{{ShipquoteKai
+|scenario = Major Damage
+|origin =この程度で…このVictoriousが沈むものか！？甘く…見ないで！
+|translation =This isn't enough... to sink the likes of me! Don't... look down on me!
+}}
+{{ShipquoteKai
+|scenario = Sunk
+|origin =何…これ？…沈んでる？……この私が？…ウソ…いやよ……そんな結末……私…私は…！
+|translation =What's... happening? ...I'm sinking? ...Me? ...It can't be... No... I won't let it end... like... this...!
+}}
+|}
+<references/>
+{{clear}}
+
+===Hourlies===
+{{ShipquoteHeader|type = hourly}}
+{{ShipquoteKai|kai = true
+|scenario = 00:00
+|origin =提督、今日は私、Victoriousが担当するわ。よろしくね。何？何も問題ないでしょう？
+|translation =Admiral, I, Victorious, shall be in charge today. Happy to work with you. What? You don't have a problem with that right?
+}}
+{{ShipquoteKai|kai = true
+|scenario = 01:00
+|origin =It's 1. 昨日の戦いも勝利で終わったわね。分析はしておきましょう？
+|translation =It is 1. Yesterday's battle ended in victory too. Shall we analyse it?
+}}
+{{ShipquoteKai|kai = true
+|scenario = 02:00
+|origin =It's 2. 今はふたりきりね。緊張する？…しないか？つまらないな。
+|translation =It's 2. It's just the two of us now. Are you nervous? ...You aren't? You're no fun.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 03:00
+|origin =It's 3. んー、紅茶がほしいわね…あら、入れてくれるの？悪いわね。Earl Greyで。
+|translation =It's 3. Mmmm, I feel like some tea... Oh, you'll make some? Thanks. I'll have Earl Grey.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 04:00
+|origin =提督、thank you very much indeed. 美味しいわ。時間？It's 4.
+|translation =Admiral, thank you very much indeed. It's delicious. The time? It is 4.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 05:00
+|origin =It's 5. いい朝ね、提督。おはよう。……ん？Earl Grey? うん、ありがとう。気が利くのね。
+|translation =It's 5. It's a nice morning, Admiral. Good morning... Hmm? Earl Grey? Yes, thanks. You're very thoughtful.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 06:00
+|origin =全艦隊に起床をかけるわね。みんな、起きなさい！Good morning! It's 6.
+|translation =I'll go rouse the fleet now. Everyone, wake up! Good morning! It's 6.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 07:00
+|origin =It's 7……紅茶のお返しに、特別に朝は私が作るわ。English breakfastでいいわよね？卵は一つ？二つ？了解よ。
+|translation =It's 7... I made something special this morning to thank you for the tea. You're fine with an English breakfast, right? Would you like one egg or two? Understood.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 08:00
+|origin =It's 8. Toastおかわりはいる？そう。そういえば、English breakfastって基本全て加熱調理してるわね。ん〜、なぜかしら。
+|translation = It's 8. Would you like another slice of toast? Alright. Come to think of it, everything in an English breakfast is cooked. Hmm, I wonder why that is.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 09:00
+|origin =It's 9. そろそろ海に出ましょう？ん？あの空母は…Ark? 一体何を慌てているのかしら。
+|translation =It's 9. Shall we head out to sea soon? Hmm? That carrier is... Ark? I wonder why she's in such a hurry.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 10:00
+|origin =It's 10. そうね。彼女と一緒に、戦艦Bismarck追撃戦も経験したわ。あの時はそう、Swordfish! 懐かしいわね。えぇ？いい機体だけど、流石に少し古いわ。
+|translation = It's 10. Yes, I participated in the Hunt for the Bismarck with her. During that time, we used Swordfish! What memories. Huh? They're fine planes but the reality is, they're a bit outdated.<ref>She was initially assigned Swordfish from May-June 1941 during the hunt for Bismarck. These squadrons were replaced by Albacore squadrons in July 1941.</ref>
+}}
+{{ShipquoteKai|kai = true
+|scenario = 11:00
+|origin =It's 11. なになにどうしたの！？なになにどうしたの、Ark！？そんな血相を変えて。そ、そうね。それは見解の相違ね。今はいい機体も多いわ。この「流星」という子も素敵ね。
+|translation = It's 11. What's the matter!? What's the matter, Ark!? Why are you so angry? Th-that's true. That's a matter of opinion. But there are a variety of good planes now. This "Ryuusei" is great too.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 12:00
+|origin =It is noon. なんか、無駄に疲れた気がするわ。えぇ？このsandwichは？Old Ladyが？ありがたい。いただくわ。ん、美味しい。もう一ついい？
+|translation =It is noon. I feel like I just did something futile. Huh? Where'd you get these sandwiches? From the Old Lady?<ref>[[Warspite]].</ref> Thanks. Mmm, they're delicious. May I have another?
+}}
+{{ShipquoteKai|kai = true
+|scenario = 13:00
+|origin =It's 1. こんな午後は紅茶がほしいわね。あら？提督、悪いわね。Earl Gr…あぁ、さすがね。えへ〜。
+|translation =It's 1. I feel like some tea this afternoon. Oh? Admiral, thanks. Earl Gr... Ah, you know me well. Ehe.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 14:00
+|origin =It's 2. あら？Bismarck! お前もここに来ていたのか？今は友軍、だな？よろしくたの……ん？何をそんなに警戒している？えぇ？上空警戒？なぜ？
+|translation = It's 2. Oh? Bismarck! So you're here too? That makes us allies now, right? Pleased to work wi... Hmm? Why are you so wary? Huh? You're on anti-air alert? Why?
+}}
+{{ShipquoteKai|kai = true
+|scenario = 15:00
+|origin =It is 3. あれは、Swordfishの編隊、雷装してるじゃない！？Arkの！？どうして！？ やむを得ない。待機中の戦闘機、緊急発艦。急げ！
+|translation =It is 3. That's a formation of Swordfish, equipped with torpedoes!? They're Ark's!? Why is she doing this!? No helping it then. Fighters on standby, emergency take-off. Hurry!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 16:00
+|origin =なんだか、また無駄に疲れた気がする。ん？時間？It's 4. ふあぁ〜。
+|translation =Somehow I feel like I've wasted my time again. Hmm? The time? It's 4. Phew.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 17:00
+|origin =It's 5. 提督、見て。日が落ちる。ここの夕日もきれい。勝利の夕日、いつまでもお前と見ていたい。あぁ、いや。そういう意味じゃなくて。
+|translation =It's 5. Admiral, look at that. The sun is setting. The sunsets here are beautiful too. I'd like to keep watching victorious sunsets with you.<ref>Her phrasing is "sunset after a victory".</ref> Ah, no. I didn't mean it that way.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 18:00
+|origin =It's 6. 今日は色々あって、お腹が減ったかも。えぇ？Pub Mamiya? 素敵な提案。行きましょう！
+|translation =It's 6. I'm hungry after dealing with everything today. Huh? Mamiya's Pub? That's a wonderful suggestion. Let's go!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 19:00
+|origin =It's 7. あれは日本空母？ん。中型空母なのに、すごい食べっぷり。一体何者？
+|translation =It's 7. Is that a Japanese carrier? *gulp* She's only a medium-sized carrier but she's eating so much. Who is she?
+}}
+{{ShipquoteKai|kai = true
+|scenario = 20:00
+|origin =It's 8. うえぇ！Ark! 複葉雷撃機無駄に飛ばすぎじゃ…まあ、それはいい。あの日本空母勢は？南雲機動部隊？あれが…噂の…すごいわ！
+|translation =It's 8. Whoa! Ark! Don't have your biplane torpedo bombers flying all ov... Well, fine then. Who are those Japanese carrier? The Nagumo Carrier Task Force? So she's... that famous... Amazing!
+}}
+{{ShipquoteKai|kai = true
+|scenario = 21:00
+|origin =It's 9. ふえぇ〜。美味しいかったわ、Mamiya。また、来たいわね。ところで、奥の方でイタリア艦隊がなにか騒いただけど、迷惑ね。よくで気にならないわね。
+|translation =It's 9. Wheeew. Mamiya's was delicious. I'd like to come again. By the way, the Italian fleet at the back was really rowdy. They were quite rude. It's good that it didn't bother you.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 22:00
+|origin =It's 10. 今日も本当色々あったわね。少し落ち着いて、一杯飲みましょう。Scotch? Gin? 今日はginの気分かな？うん、用意するわ。待ってて。
+|translation =It's 10. So much happened today. Now that we have a quiet moment, let's have a drink. Would you like scotch or gin? You're feeling like gin today? Alright, I'll go pour a glass. Wait here.
+}}
+{{ShipquoteKai|kai = true
+|scenario = 23:00
+|origin =It's 11. もう一杯？まあ、いいか。私達の勝利に、乾杯。明日も頑張りましょう。
+|translation =It's 11. You'd like another glass? Oh, alright then. A toast to our victory. Let's work hard tomorrow too.
+}}
+|}
+<references/>
+{{clear}}
+
+===Seasonal===
+{{SeasonalHeaderOld}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2021|Autumn 2021]]
+|origin = 何かとってもいい匂い。少しorientalな…これは醤油が焦げる香り？鎮守府秋祭り？あぁ、行きます！
+|translation =	Something smells very nice. It's a little bit oriental... It's the smell of burnt soy sauce? The Naval Base Autumn Festival? Ah, I'll come!
+|audio = Victorious Autumn 2021 Secretary 1.mp3
+|notes =Secretary 1
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Autumn_2021|Autumn 2021]]
+|origin = これが浴衣ね。いいじゃない。この国のお姫様になった気分がするわ。えぇ？余裕で勘違い？いいんじゃない！
+|translation =	So this is a yukata. It's not bad. It makes me feel like a Japanese princess. Huh? I've got the wrong idea? Let me have my moment!
+|audio = Victorious Autumn 2021 Secretary 3.mp3
+|notes =Secretary 3
+}}
+|}<references/>
+
+{{clear}}
+
+==CG==
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Regular
+|-
+|<gallery>
+Ship Full Victorious.png|Base
+Ship Full Victorious Damaged.png|Base Damaged
+</gallery>
+|}
+
+{| class="mw-collapsible mw-collapsed wikitable" style="width: 100%;"
+!Seasonal
+|-
+|<gallery>
+Victorious Full Autumn 2021.png|[[Seasonal/Autumn_2021|Autumn 2021]]
+Victorious Full Autumn 2021 Damaged.png|[[Seasonal/Autumn_2021|Autumn 2021 Damaged]]
+</gallery>
+|}
+
+==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Victorious}}
+
+==Trivia==
+
+{{Shiplist}}

@@ -11,7 +11,7 @@
 *** There must be 6 ships in the fleet.
 *** There must be no submarines in the fleet.
 *** The 2nd and 3rd ships in the fleet must be battleships.
-*** Colorado, the 2nd, and 3rd ships must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>.
+*** Colorado must not be more than <span style="color:gold;">'''lightly damaged (小破)'''</span>. And the 2nd and 3rd ships must not be more than <span style="color:orange;">'''moderately damaged (中破)'''</span>.
 *** '''Echelon formation''' needs to be selected in a single fleet OR '''Cruising Formation 2''' for a combined fleet.
 ** If triggered, Colorado will perform a special attack at 1.3x post-cap modifier and the 2nd and 3rd ship will each perform an attack at 1.15x post-cap modifier.
 *** If the 2nd ship is a Big 7, she gains an additional 1.1x post-cap modifier.
@@ -582,6 +582,7 @@ KanMusu406CGDmg.png|Kai Damaged
 |}
 
 ==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Colorado}}
 
 ==Trivia==
 * She is named after the state of [https://en.wikipedia.org/wiki/Colorado Colorado]

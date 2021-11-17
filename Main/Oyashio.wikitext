@@ -1,6 +1,7 @@
 ==Info==
 {{KanmusuInfo|ID=256}}
 {{KanmusuInfo|ID=256a}}
+{{KanmusuInfo|ID=470}}
 
 ==Gameplay Notes==
 ===Special Mechanics===
@@ -61,6 +62,10 @@ On my last sortie... I was with Kuroshio-san.<ref>She sank while escorting troop
 |translation = Kuroshio-san, are you all ready? The 15th Destroyer Division is all ready!
 |audio = Oyashio-Sec2.mp3
 }}
+{{ShipquoteKai|scenario = Secretary 3|kai2 = true
+|origin = 戦いが終わった後の、初めての国産潜水艦、その艦名も親潮なんです。
+|translation = The first of the domestically produced submarines after the war was also named Oyashio.<ref>She's referring to the [[wikipedia:JDS_Oyashio|JDS Oyashio (SS-511)]], a prototype submarine launched in 1959.</ref>
+}}
 {{ShipquoteKai
 |scenario = Secretary Idle
 |origin = よし。爆雷も問題なし、魚雷もＯＫ、っと。対空兵装も……大丈夫、これなら！ ふぅ、これでいつお呼びがかかっても……あれ？ 司令？ ……司令？ あれ？ いない？
@@ -116,13 +121,17 @@ On my last sortie... I was with Kuroshio-san.<ref>She sank while escorting troop
 |audio = Oyashio-Supply.mp3
 }}
 {{ShipquoteKai
-|scenario = Docking (Minor Damage)
+|scenario = Docking Minor
 |origin = 申し訳ありません……私、少しだけ後ろに下がります！ すぐ出ますから！
 |translation = Please forgive me... I need to fall back for a while! I'll be right back!
 |audio = Oyashio-DockMinor.mp3
 }}
+{{ShipquoteKai|scenario = Docking Minor|kai2 = true
+|origin = 司令、申し訳ありません。親潮、一度下がらせていただきます。すぐ戻りますから。
+|translation = Commander, I'm deeply sorry. I need to fall back for a while. I'll be right back.
+}}
 {{ShipquoteKai
-|scenario = Docking (Major Damage)
+|scenario = Docking Major
 |origin = 司令…大変申し訳ありません。いただいた制服をこんなにしてしまって…次は、こんな失敗は絶対にしません！　…絶対に。
 |translation = Commander... please forgive me for the trouble. My uniform has turned into such a state... I won't fail like this next time! ...I definitely won't.
 |audio = Oyashio-DockMajor.mp3
@@ -158,10 +167,14 @@ On my last sortie... I was with Kuroshio-san.<ref>She sank while escorting troop
 |audio = Oyashio-Attack.mp3
 }}
 {{ShipquoteKai
-|scenario = Night Battle Attack 
+|scenario = Night Attack
 |origin = 当たった？いける？…そ、そう…てー！
 |translation = Did I hit? I did it? ...A-alright... Fire!
 |audio = Oyashio-NightAttack.mp3
+}}
+{{ShipquoteKai|scenario = Night Attack|kai2 = true
+|origin = 第十五駆逐隊、親潮、突撃いたします！
+|translation = 15th Destroyer Division, Oyashio, attacking!
 }}
 {{ShipquoteKai
 |scenario = Night Battle
@@ -450,6 +463,8 @@ On my last sortie... I was with Kuroshio-san.<ref>She sank while escorting troop
 |<gallery>
 KanMusu256.png|Base
 KanMusu256Dmg.png|Base Damaged
+Ship Full Oyashio Kai Ni.png|Kai Ni
+Ship Full Oyashio Kai Ni Damaged.png|Kai Ni Damaged
 </gallery>
 |}
 

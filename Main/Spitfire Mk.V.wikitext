@@ -32,7 +32,7 @@ __NOTOC__
 
 ==Akashi's Improvement Arsenal==
 {{AkashiWorkshop}}
-{{AkashiWorkshopLine
+{{AkashiWorkshopLine2
 |Name=Spitfire Mk.V
 |ItemType=Interceptor Fighter2
 |Fuel=120
@@ -41,21 +41,31 @@ __NOTOC__
 |Baux=380
 |Mats0-5=6/7
 |Mats6-9=8/10
-|Mats10=12/24
+|Mats10=-
 |Screws0-5=3/4
 |Screws6-9=4/6
-|Screws10=7/9
+|Screws10=-
 |EquipConsume0-5=1x{{Interceptor Fighter2|Spitfire Mk.I}}
 |EquipConsume6-9=1x{{Interceptor Fighter2|Spitfire Mk.I}}
-|EquipConsume10=2x{{GreenPlane|Fulmar}}<br>1x{{AvMat}}
-|Sun=N<br/>AR
-<!---|Mon=--->
-<!---|Tue=--->
-<!---|Wed=--->
-|Thu=N<br/>&nbsp;
-|Fri=N<br/>AR
-|Sat=N<br/>AR
-|2ndShip=[[Nelson]]<br/>[[Ark Royal]]
+|EquipConsume10=-
+|Sun=N
+|Thu=N
+|Fri=N
+|Sat=N
+|2ndShip=[[Nelson]]
+|Mats0-5:2=6/7
+|Mats6-9:2=8/10
+|Mats10:2=12/24
+|Screws0-5:2=3/4
+|Screws6-9:2=4/6
+|Screws10:2=7/9
+|EquipConsume0-5:2=1x{{Interceptor Fighter2|Spitfire Mk.I}}
+|EquipConsume6-9:2=1x{{Interceptor Fighter2|Spitfire Mk.I}}
+|EquipConsume10:2=2x{{GreenPlane|Fulmar}}<br>1x{{AvMat}}
+|Sun:2=AR
+|Fri:2=AR
+|Sat:2=AR
+|2ndShip:2=[[Ark Royal]]
 |Notes = Uses 1x [[Spitfire Mk.I]] for improvement up to ★+10 <br> Uses 2x [[Fulmar]] for upgrade to [[Seafire LF.Mk.III Kai|Seafire Mk.III Kai]].
 }}
 |}

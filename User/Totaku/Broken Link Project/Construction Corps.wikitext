@@ -1,0 +1,113 @@
+This page is designated as a temporary place holder for the following broken page [[Construction Corps]]
+[[File:Item_Card_Construction_Corps.png|150px|right]]
+
+==Overview==
+Also known as "Construction Team" or "bulldozers", those items are obtained through quests and the item shop, and are used for [[Land-Based Air Squadron|LBAS]] unlocking and upgrading.
+
+==Uses==
+Bulldozers are currently used for 2 LBAS related upgrades :
+*They are needed for unlocking the [[world 6]] land bases
+**In order to use the LBAS at World 6, you first need to complete the quest [[Quests#F43|F43]].
+**Each bulldozer will open one LBAS in this world, so you need up to 3 bulldozers 1st, 2nd, and 3rd in 
+**The need to open the 3rd LBAS is arguable, for more info, read: [[Land-Based_Air_Squadron#Troubleshooting|Troubleshooting]] 
+*For upgrading LBAS groups from each world (events and world 6 for now, and worlds 7 and 5 soon) from level 0 to 3, using the [[Land-Based_Air_Squadron#Land_Base_Maintenance_menu|Land Base Maintenance menu]].
+
+==Acquisition==
+One way to obtain bulldozers is via the '''[[Shop|item shop]]''', where you can buy them for 800 DMM points each.
+
+The other way to obtain them is via quests, where up to 4 can be obtained with '''One-time quests''', and then up to 2 can be obtained via '''Yearly quests'''.
+
+The One-time quests are the following :
+
+{{ProtoQuestsHeader}}
+
+{{ProtoQuests
+| type = Sortie
+| listnum = B80
+| reqQuest = B41
+| reqQuest2 = B62
+| reqQuest3 = Bw9
+| namejp = 飛行場設営の準備を実施せよ！
+| nameen = Central Waters "Land Air Base" Deployment! 
+| req = Conduct air reconnaissance in Operation K again and eliminate the enemy fleet along the route, then proceed to carry out preparations to construct a Land Air Base in the Central Waters!
+*Go to [[6-3]] and score an S-rank at the boss node
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Construction Corps}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B81
+| reqQuest = B80
+| reqQuest2 =
+| namejp = 夜間突入！敵上陸部隊を叩け！
+| nameen = Night Attack! Striking the Enemy Landing Force! 
+| req = Rush out an elite force to the Battle Off Sav Island, break through the enemy ambush, and attack the enemy landing forces!
+*Go to [[5-3]] and score an A-rank at the boss node.
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other = {{QuestRewardItem|Construction Corps}}
+| notes = 
+}}
+{{ProtoQuests
+| type = Expedition
+| listnum = D41
+| reqQuest = F100
+| reqQuest2 = D31
+| reqQuest3 =
+| namejp = 航空基地を整備拡張せよ！
+| nameen = Development and Expansion of your Land Base! 
+| req = Land Base Expansion Mission: Conduct the following expeditions: Maritime Escort Mission, Tanker Escort Mission, Supply Line Strengthening Mission, Aircraft Transport Operation, Seaplane Base Construction, Seaplane Frontline Transport, and Bauxite Escort Convoy. Complete each task.
+
+* Complete expeditions 5, A1, 9, 18, 36, 40, and 45. 
+| fuel = 0
+| ammo = 0 
+| steel = 0
+| bauxite = 800
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Construction Corps|}}{{QuestRewardEquip|Type 1 Land-based Attack Aircraft|qty=2}}<br> '''Then choose between:'''<br/>{{QuestRewardItem|Construction Corps|}}{{QuestRewardItem|New Model Aerial Armament Material|qty=2}}
+| notes = 
+}}
+|}
+
+The Yearly quests are the following :
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = PVP
+| listnum = C60
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =「改装特務空母」任務部隊演習！
+| nameen = "Remodeled Utility Carrier" Task Force Exercise
+| req = Organize a fleet consisting of "Remodeled Utility Carrier" as flagship along with 2 ships consisting of the "Fletcher-class Destroyers" and "John C. Butler Destroyer Escorts" as part of the fleet. Then with said fleet successfully get 4 S ranks in practice in the same day.
+* Organize a fleet consisting of [[Gambier Bay Mk.II]] as flagship, and at least two members consisting of either [[Fletcher]], [[Johnston]] or [[Samuel B. Roberts]] and 3XX and successfully get 4 S Ranks in the same day.
+| fuel = 0
+| ammo = 730
+| steel = 0
+| bauxite = 730
+| other = {{QuestRewardItem|Construction Corps|}}<br>'''Choose between:'''<br/>{{QuestRewardEquip|FM-2|qty=2}}{{QuestRewardEquip|TBF|qty=2}}{{QuestRewardEquip|SK Radar|stars=5}}
+| notes = Yearly Quest (July)
+}}
+{{ProtoQuests
+| type = Factory
+| listnum = F100
+| reqQuest = 
+| reqQuest2 =
+| reqQuest3 =
+| namejp =夏の格納庫整備＆航空基地整備
+| nameen = Summer Hangar & Land Base Maintenance
+| req =  Scrap 3 Land Base Attack Aircraft such as Type 96 and Type 1 LBAA. Then prepare 2800 ammo, 4 T97 torpedo bombers and 4 Tenzan. (All resources and unmodded equipment will be removed upon completion of quest)
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 400
+| other = '''Choose between:'''<br/>{{QuestRewardItem|New Model Aerial Armament Material|qty=2}}{{QuestRewardItem|New Model Armament Material|}}{{QuestRewardItem|Development Material|qty=10}} <br> '''Then choose between:'''<br/>{{QuestRewardItem|Skilled Crew Member|qty=2}}{{QuestRewardItem|Construction Corps|}}{{QuestRewardItem|Improvement Material|qty=8}}
+| notes = Yearly Quest (July)
+}}
+|}
