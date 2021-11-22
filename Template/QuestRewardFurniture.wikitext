@@ -1,0 +1,148 @@
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{#vardefine:furniture_name|{{#switch:{{{1|}}}
+|11 = Hand-Knitting & Flooring
+|30 = Ship Girl Cushion Floor
+|183 = Thin Futon
+|261 = Fleet Big Catch Flag
+|268 = Fleet Safety Decoration
+|277 = "Spring is number 1" scroll
+|280 = Spring Type B sisters panel
+|286 = Third Anniversary Scroll
+|291 = Army Fighter Wing's Command Desk
+|292 = Ajisai Wallpaper
+|293 = Ajisai Flooring
+|301 = Cool-looking Fishbowl
+|311 = Naval District Summertime Window
+|314 = Type 16 Big Catch Flag
+|322 = Rice Croquette Dinner
+|324 = New Years Scroll 2017
+|325 = New Year's Greeting 2017 Hanging Scroll
+|328 = Setsubun Manuscript Desk
+|334 = Submarine Carrier Drawer
+|343 = 4th Anniversary Wall Scroll
+|361 = Type 17 Big Catch Flag
+|371 = New Year Calligraphy Contest 2018
+|380 = 5th Anniversary Wall scroll
+|381 = Eat Up scroll
+|382 = Fifth Anniversary Scroll (Etorofu class version)
+|393 = 'Maya's Shield' Wall Scroll
+|395 = Type 18 Big Catch Flag
+|407 = 提督と艦娘の寛ぎセット
+|408 = Nisshin Geppo Scroll
+|412 = Setsubun Window
+|416 = Hiei's Scroll
+|426 = Happy 6th Anniversary Hanging Scroll
+|433 = 「令和」掛け軸
+|446 = Haguro's Protection Scroll
+|453 = Type 19 Big Catch Flag
+|458 = 秋雲と提督の原稿おこた
+|459 = "Yuubari's Greeting" Scroll
+|474 = Offshore Waves Hanging Shelf
+|478 = Scandinavian Sofa
+|479 = Happy 7th Anniversary Hanging Scroll
+|486 = 父島の木格子窓
+|487 = 「小笠原要塞」掛け軸
+|490 = "Cape Kaga" Hanging Scroll
+|497 = Whale Hanging Scroll
+|501 = "Time for Baked Potatoes and Reading" Table
+|505 = 特注の二〇式鎮守府暖炉<!--2020 Naval Base Fireplace-->
+|510 = 迎春！丑年の壁
+|516 = Yakimochi Set
+|517 = New Year Wall Scroll in anticipation of the 8th anniversary
+|518 = Submarine Fleet's Window
+|520 = I-go Submarine's Setsubun Window
+|529 = Hagi's Floor
+|533 = Yahagi's Wall Hanging Scroll
+|555 = Type 21 Big Catch Flag
+|999 = +10 Equipment Slots
+|Go here to find/edit/add furniture names<br>[[Template:QuestRewardFurniture]]}}}}<div class="quest-ri"><div class="quest-rii"><div>[[{{#if:{{{image|}}}|{{{image}}}|File:Furniture {{#if:{{{card|}}}|Card|Reward}} {{#replace:{{{1|}}}|/|&#32;}}.png}}|64x64px|link={{#if:{{{link|}}}|{{{link}}}|{{#if:{{{image|}}}|{{{image}}}|Furniture}}}}]]</div><div class="quest-rit">{{#if:{{{1|}}}|{{#var:furniture_name}}|{{{link|}}}}}</div>{{#if:{{{qty|}}}|<div class="quest-riq"><b>{{{qty}}}x</b></div>}}{{#if:{{{stars|}}}|<div class="quest-ris"><b>★{{{stars}}}</b></div>}}</div></div></includeonly><noinclude>
+A template for displaying Furniture reward/card assets in quest/event rewards.
+Shares properties with [[Template:QuestRewardEquip]] & [[Template:QuestRewardItem]].
+
+<pre>{{QuestRewardFurniture|11}}</pre>
+{{QuestRewardFurniture|11}}
+<pre>{{QuestRewardFurniture|30}}</pre>
+{{QuestRewardFurniture|30}}
+<pre>{{QuestRewardFurniture|311|card=true}}</pre>
+{{QuestRewardFurniture|311|card=true}}
+<pre>{{QuestRewardFurniture|999|link=Military_Record}}</pre>
+{{QuestRewardFurniture|999|link=Military_Record}}
+<pre>{{QuestRewardFurniture|501|qty=5}}</pre>
+{{QuestRewardFurniture|501|qty=5}}
+<pre>{{QuestRewardFurniture|Suisei|stars=9}}</pre>
+{{QuestRewardFurniture|293|stars=9}}
+<pre>{{QuestRewardFurniture|293|image=File:Equipment Card Ryuusei.png|link=Ryuusei}}</pre>
+{{QuestRewardFurniture|999|image=File:Equipment Card Ryuusei.png|link=Ryuusei}}
+
+==Rewarded Furniture - ID List==
+{|class="wikitable"
+|11||{{QuestRewardFurniture|11}}
+!rowspan=10|
+|30||{{QuestRewardFurniture|30}}
+!rowspan=10|
+|183||{{QuestRewardFurniture|183}}
+!rowspan=10|
+|261||{{QuestRewardFurniture|261}}
+!rowspan=10|
+|268||{{QuestRewardFurniture|268}}
+!rowspan=10|
+|277||{{QuestRewardFurniture|277}}
+!rowspan=10|
+|280||{{QuestRewardFurniture|280}}
+!rowspan=10|
+|286||{{QuestRewardFurniture|286}}
+!rowspan=10|
+|291||{{QuestRewardFurniture|291}}
+!rowspan=10|
+|292||{{QuestRewardFurniture|292}}
+|-
+|293||{{QuestRewardFurniture|293}}
+|301||{{QuestRewardFurniture|301}}
+|311||{{QuestRewardFurniture|311|card=true}}
+|314||{{QuestRewardFurniture|314}}
+|322||{{QuestRewardFurniture|322}}
+|324||{{QuestRewardFurniture|324}}
+|325||{{QuestRewardFurniture|325}}
+|328||{{QuestRewardFurniture|328}}
+|334||{{QuestRewardFurniture|334|card=true}}
+|343||{{QuestRewardFurniture|343|card=true}}
+|-
+|361||{{QuestRewardFurniture|361}}
+|371||{{QuestRewardFurniture|371}}
+|380||{{QuestRewardFurniture|380}}
+|381||{{QuestRewardFurniture|381}}
+|382||{{QuestRewardFurniture|382}}
+|393||{{QuestRewardFurniture|393}}
+|395||{{QuestRewardFurniture|395}}
+|407||{{QuestRewardFurniture|407}}
+|408||{{QuestRewardFurniture|408}}
+|412||{{QuestRewardFurniture|412}}
+|-
+|416||{{QuestRewardFurniture|416}}
+|426||{{QuestRewardFurniture|426}}
+|433||{{QuestRewardFurniture|433}}
+|446||{{QuestRewardFurniture|446}}
+|453||{{QuestRewardFurniture|453}}
+|458||{{QuestRewardFurniture|458}}
+|459||{{QuestRewardFurniture|459}}
+|474||{{QuestRewardFurniture|474}}
+|478||{{QuestRewardFurniture|478}}
+|479||{{QuestRewardFurniture|479}}
+|-
+|486||{{QuestRewardFurniture|486|card=true}}
+|487||{{QuestRewardFurniture|487|card=true}}
+|490||{{QuestRewardFurniture|490}}
+|497||{{QuestRewardFurniture|497}}
+|501||{{QuestRewardFurniture|501}}
+|505||{{QuestRewardFurniture|505}}
+|510||{{QuestRewardFurniture|510}}
+|516||{{QuestRewardFurniture|516}}
+|517||{{QuestRewardFurniture|517}}
+|518||{{QuestRewardFurniture|518}}
+|-
+|520||{{QuestRewardFurniture|520}}
+|529||{{QuestRewardFurniture|529}}
+|533||{{QuestRewardFurniture|533}}
+|555||{{QuestRewardFurniture|555}}
+|999||{{QuestRewardFurniture|999}}
+|}
+</noinclude>

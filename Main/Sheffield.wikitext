@@ -42,7 +42,7 @@
 {{ShipquoteKai
 |scenario = Secretary 3
 |origin =What are you up to？何してんの？えぇ？艦中央部の構造が気になる？あぁ、そうか。ここの船とは作りが違うから。
-|translation =What are you up to? What are you doing? Eh? You're interested in my structure amidships? Ah, I see. The ships here are made differently.
+|translation =What are you up to? What are you doing? Eh? You're interested in my structure amidships?<ref>Reports and ship logs note weather often damaged Sheffield's superstructure. </ref> Ah, I see. The ships here are made differently.
 }}
 {{ShipquoteKai
 |scenario = Idle
@@ -140,7 +140,7 @@
 {{ShipquoteKai
 |scenario = Night Battle
 |origin =追撃します。遅れないで。
-|translation =We're pursuing. Don't fall behind.
+|translation =We're pursuing. Don't fall behind.<ref>Probably reference to she and other cruisers chasing Scharnhorst during the battle of North Cape.</ref>
 }}
 {{ShipquoteKai
 |scenario = MVP
@@ -341,6 +341,20 @@
 |audio = Sheffield_Rainy Season 2021_Secretary_1.mp3
 |notes = 
 }}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2021|Summer 2021]]
+|origin = 流石に、北極海での作戦から考えると、ここの夏は暑すぎる。流石に。
+|translation =	I expected this, but summer here is so hot compared to when I was operating in the Arctic Ocean. It sure is.
+|audio = Sheffield Summer 2021 Secretary 2.mp3
+|notes = Secretary 2
+}}
+{{SeasonalQuote
+|scenario = [[Seasonal/Summer_2021|Summer 2021]]
+|origin = みんな、防暑装備がかなり普及しているようね。あたしも…いやいや、それは、ない。
+|translation =	Everyone seems to be getting into heat protective equipment. Maybe I should... No no, no way.
+|audio = Sheffield Summer 2021 Secretary 3.mp3
+|notes = Secretary 3
+}}
 |}<references/>
 
 {{clear}}
@@ -353,6 +367,13 @@
 |translation =	HMS Sheffield has arrived on the battlefield. I'll now support the allied forces. Charge.
 |audio = Ship_Voice_Sheffield_Kai_Fall_2020_Event_Friend_Fleet_1.mp3
 |notes = Friend Fleet 1
+}}
+{{SeasonalQuote
+|scenario = [[Summer_2021_Event#Friend_Fleet_Voice_Lines|Summer 2021 Event]]
+|origin = HMS Sheffield, 了解。
+|translation =	HMS Sheffield, acknowledging.
+|audio = Ship_Voice_Sheffield_Kai_Summer_2021_Event_Friend_Fleet_1.mp3
+|notes =
 }}
 |}<references/>
 
@@ -369,6 +390,7 @@ Ship Full Sheffield Damaged.png|Base Damaged
 |}
 
 ==Drop Locations==
+{{#invoke:ShipDropTable|returnShipDrop|Sheffield}}
 
 ==Trivia==
 *During the hunt for Bismarck, HMS Ark Royal's first attack wave of Swordfish torpedo bombers mistook HMS Sheffield for Bismarck and attacked her. Only faulty detonators on the torpedoes and fine ship handling saved her. It was Ark Royal's second wave (with different detonators) that crippled the Bismarck.

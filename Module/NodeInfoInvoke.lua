@@ -34,6 +34,7 @@ local world_numbers = {
     ["Rainy-Summer 2020 Event"] = 48,
     ["Fall 2020 Event"] = 49,
     ["Spring 2021 Event"] = 50,
+    ["Summer 2021 Event"] = 51,
 }
 
 local diff_numbers_legacy = {

@@ -1,0 +1,97 @@
+This template uses equipment data modules to construct a comparison chart for a set of equipment. It automatically merges cells, highlights cells based on customizable thresholds, and hides stat columns which contain all zeroes.
+
+==Example==
+
+ <nowiki>{{EquipmentComparisonKai
+ |14cm Single Gun Mount
+ |15.5cm Triple Gun Mount
+ |20.3cm Twin Gun Mount
+ |20.3cm (No.2) Twin Gun Mount
+ |20.3cm (No.3) Twin Gun Mount
+ |15.2cm Twin Gun Mount
+ |14cm Twin Gun Mount
+ |SKC34 20.3cm Twin Gun Mount
+ |firepower_outstanding = 9
+ |firepower_good = 7
+ |aa_outstanding = 3
+ |aa_good = 2
+ |shelling_accuracy_outstanding = 2
+ |shelling_accuracy_good = 1
+ }}</nowiki>
+
+<div class="mw-collapsible mw-collapsed">
+becomes
+
+<div class="mw-collapsible-content">{{EquipmentComparisonKai
+|14cm Single Gun Mount
+|15.5cm Triple Gun Mount
+|20.3cm Twin Gun Mount
+|20.3cm (No.2) Twin Gun Mount
+|20.3cm (No.3) Twin Gun Mount
+|15.2cm Twin Gun Mount
+|14cm Twin Gun Mount
+|SKC34 20.3cm Twin Gun Mount
+|firepower_outstanding = 9
+|firepower_good = 7
+|aa_outstanding = 3
+|aa_good = 2
+|shelling_accuracy_outstanding = 2
+|shelling_accuracy_good = 1
+}}</div>
+</div>
+
+==Parameters==
+
+The following sections describe the parameters that can be passed to this template.
+
+===Equipment===
+
+The list of equipment to be included in the table should be passed in as unnamed parameters, like in the example.
+Pass a dash (-) to prevent cells in the row above from merging with cells in the row below.
+Pass a hash (#) to insert a header row.
+Pass an exclamation mark (!) followed by a string key to specify a [[#Custom Rows|custom row]].
+
+===Cell highlighting===
+
+Thresholds can be set to control automatic highlighting of many of the columns. The following columns can be highlighted:
+
+* firepower
+* bombing
+* torpedo
+* aa
+* asw
+* los
+* luck
+* armor
+* evasion
+* shelling_accuracy
+* speed
+* range
+
+To set the threshold for the yellow highlight, pass the parameter ''column_name''_good.
+
+To set the threshold for the green highlight, pass the parameter ''column_name''_outstanding.
+
+By default, if the value of the cell > the threshold value, then the highlight is applied.
+
+You can change the operator used by passing the parameter ''column_name''_operator. The operators >, < are available.
+
+===Notes===
+
+You can specify custom notes in the notes column for each ship by passing the parameter ''equipmentname''_notes.
+
+===Custom Rows===
+
+You can specify custom rows by passing in an exclamation mark followed by a string key as described in [[#Equipment]].
+
+You can then set the properties of that custom row using the following parameters:
+
+====custom_row_''key''_content====
+
+Pass this parameter to set the content of the custom row. You can use wikitext. Be careful with = and |, for they may interfere with template parsing.
+
+====custom_row_''key''_text_align====
+
+Pass this parameter to set the text_align of the custom row. Defaults to "start".
+
+<includeonly>[[Category:Templates that use equipment data modules|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

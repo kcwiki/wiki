@@ -252,7 +252,7 @@ function Formatting:equipment_full(api_id, equipment_name)
 end
 
 function Formatting:equipment_image(image_type, api_id, equipment_name)
-	return format{self._equipment_image_template, image_type = image_type, api_id = api_id, equipment_name = equipment_name}
+	return format{self._equipment_image_template, image_type = image_type, api_id = api_id, equipment_name = equipment_name:gsub('/', ' ')}
 end
 
 function Formatting:item_card(name)

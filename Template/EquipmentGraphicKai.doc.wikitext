@@ -1,0 +1,42 @@
+This template uses equipment data modules to display the graphic for the requested equipment.
+
+==Example==
+ <nowiki>{{EquipmentGraphicKai|Prototype 51cm Twin Gun Mount}}</nowiki>
+ <nowiki>{{EquipmentGraphicKai|Prototype FaT Type 95 Oxygen Torpedo Kai|fairy=only}}</nowiki>
+ <nowiki>{{EquipmentGraphicKai|Tenzan Model 12 (Tomonaga Squadron)|fairy=true}}</nowiki>
+
+becomes
+
+{{EquipmentGraphicKai|Prototype 51cm Twin Gun Mount}}
+{{EquipmentGraphicKai|Prototype FaT Type 95 Oxygen Torpedo Kai|fairy=only}}
+{{EquipmentGraphicKai|Tenzan Model 12 (Tomonaga Squadron)|fairy=true}}
+
+==Parameters==
+The following are the parameters that can be passed.
+
+==={1}===
+The name of the equipment.
+
+===fairy===
+
+Boolean or String. Set to <code>true</code> to show the fairy as well as the equipment. Set to <code>only</code> to show the fairy by itself. Defaults to <code>false</code>, showing the equipment by itself.
+
+===link===
+
+String. If set, the image becomes a link to the parameter's value. Set to <code>nil</code> to have images to link to themselves (like plain wikitext images). Set to <code>false</code> to force images to be unlinked. Defaults to a link to the equipment.
+
+===caption===
+
+String. If set, hovering over the image will show the parameter's value as a tooltip. Will default to the link like normal wikitext image behaviour.
+
+===size===
+
+String. If set, the card is resized to the specified size. The format of the string is the same as for normal wikitext images.
+
+===mode===
+
+String. Changes the mode of the template. The default mode returns a fully formatted image.
+
+Set to <code>source</code> to return the image's filename. All image formatting parameters are ignored in this mode. This mode is intended for use in conjunction with the <code>gallery</code> tag called via the <code>#tag</code> parser function.
+
+<includeonly>[[Category:Templates that use equipment data modules|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

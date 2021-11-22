@@ -428,106 +428,131 @@ These points usually count for a majority of your rank points in a month. The mo
 Extra Operations reset at 0000JST on the 1st of every month. Clearing them will give bonus points. '''Note that clearing EOs after 2200JST on the last day of the month loses you the bonus points.'''
 
 {| class="wikitable mw-collapsible" style="text-align:center;"
-!style="text-align: center; background-color:#99CCFF; width:100px;" rowspan="2"|Map
-!style="text-align: center; background-color:#99CCFF; width:70px;" rowspan="2"|Bonus Points
-!style="text-align: center; background-color:#99CCFF; width:140px;" colspan="2"|Extra Rewards
-!style="text-align: center; background-color:#99CCFF; width:70px;" rowspan="2"|Notes
+!style="text-align: center; background-color:#19CCFF; width:100px;" rowspan="2"|Map
+!style="text-align: center; background-color:#19CCFF; width:70px;" rowspan="2"|Ranking Points{{Item/Icon|Ranking Point Reward|size=40px}}
+!style="text-align: center; background-color:#19CCFF; width:140px;" colspan="2"|Extra Rewards
+!style="text-align: center; background-color:#19CCFF; width:70px;" rowspan="2"|Notes
 |-
-!style="text-align: center; background-color:#99CCFF; width:70px;" |Medal<br>{{Medal}}
-!style="text-align: center; background-color:#99CCFF; width:70px;" |Present Box<br>{{PBox}}
+!style="text-align: center; background-color:#19CCFF; width:70px;" |Medal<br>{{Medal}}
+!style="text-align: center; background-color:#19CCFF; width:70px;" |Present Box<br>{{PBox}}
 |-
 |[[World_1#1-5|1-5]]
 |75
 |1
 | -
-|
+|4 clears
 |-
 |[[World_1#1-6|1-6]]
 |75
 | -
 |1
-|
+|7 clears
 |-
 |[[World_2#2-5|2-5]]
 |100
 |1
 | -
-|
+|4 clears
 |-
 |[[World_3#3-5|3-5]]
 |150
 |1
 | -
-|
+|4 clears
 |-
 |[[World_4#4-5|4-5]]
 |180
 |1
 | -
-|
+|5 clears
 |-
 |[[World_5#5-5|5-5]]
 |200
 |1
 | -
-|
+|5 clears
 |-
 |[[World_6#6-5|6-5]]
 |250
 |1
 | -
-|
+|6 clears
 |-
 |}
 
 ===Quests===
 
-All quests that give bonus ranking points are quarterly quests. They reset at 0500JST on the 1st of March, June, September and December. These quests are colloquially known as "Cannons". 
+Some quests give bonus ranking points, they are quarterly, yearly, and once quests. Quarterlies reset at 0500JST on the 1st of March, June, September, and December, and yearlies reset on their specific month. These quests are colloquially known as "Cannons". 
 
 * Any bonus points from quests earned after 1400JST on the last day of the month '''are carried forward to the following month'''.
 * Any bonus points from quests earned after 2200JST on the last day of the month '''are lost'''.
 
 {| class="wikitable mw-collapsible" style="text-align:center;"
-!style="text-align: center; background-color:#99CCFF; width:100px;" |Quest Name
-!style="text-align: center; background-color:#99CCFF; width:70px;" |Bonus Points
-!style="text-align: center; background-color:#99CCFF; width:400px;" |Extra Rewards
-!style="text-align: center; background-color:#99CCFF; width:70px;" |Notes
+!style="text-align: center; background-color:#19CCFF; width:90px;" |Quest type
+!style="text-align: center; background-color:#19CCFF; width:90px;" |Quest Name
+!style="text-align: center; background-color:#19CCFF; width:60px;" |Ranking Points{{Item/Icon|Ranking Point Reward|size=40px}}
+!style="text-align: center; background-color:#19CCFF; width:250px;" |Quest Rewards
+!style="text-align: center; background-color:#19CCFF; width:150px;" |Notes
 |-
+|Quarterly
 |[[Quests#Bq2|Bq2]]
 |350
-|2,000{{Ammo}}<br>[[Irako]]x1; {{IM}}x4
+|'''Choose between:'''<br>{{ItemStack|text=3|item={{Item/Icon|Food Supply Ship Irako|size=40px}}}} {{ItemStack|text=4|item={{Item/Icon|Improvement Material|size=40px}}}}
 |Aka "Z Cannon".
 |-
+|Quarterly
 |[[Quests#Bq7|Bq7]]
 |200
-|800{{Fuel}}{{Ammo}}{{Steel}}{{Bauxite}}<br>Choice of: {{Medal}}x1 or {{IM}}x5
+|'''Choose between:'''<br/>{{Item/Icon|Medal|size=40px}} {{ItemStack|text=5|item={{Item/Icon|Improvement Material|size=40px}}}}
 |Aka "Mikawa Cannon"
 |-
+|Quarterly
 |[[Quests#Bq8|Bq8]]
 |300
-|2,000{{Fuel}} 500{{Ammo}} 500{{Bauxite}}<br>Choice of: [[Skilled Lookout]] x1 or [[Skilled Pilot]] x1 or [[Maritime Resupply]]x4
+|'''Choose between:'''<br/>{{Equipment/Card|Skilled Lookouts|size=40px}} {{Item/Icon|Skilled Crew Member|size=40px}} {{ItemStack|text=4|item={{Equipment/Card|Underway Replenishment|size=40px}}}}
 |Aka "W7 Cannon"
 |-
+|Quarterly
 |[[Quests#Bq10|Bq10]]
 |400
-|2,000{{Steel}}{{Bauxite}}<br>Choice of:{{IM}}x4 or [[Irako]] x3 or [[Maritime Resupply]] x4
+|'''Choose between:'''<br/>{{ItemStack|text=4|item={{Item/Icon|Improvement Material|size=40px}}}} {{ItemStack|text=3|item={{Item/Icon|Food Supply Ship Irako|size=40px}}}} {{ItemStack|text=4|item={{Equipment/Card|Underway Replenishment|size=40px}}}}
 |Aka "Z2 Cannon"
 |-
+|Quarterly
 |[[Quests#Bq11|Bq11]]
 |80
-|800{{Ammo}}{{Steel}}<br>Choice of:{{IM}}x4 or [[Type 94 Depth Charge Launcher]] x2 or [[Drum Canister]] x2
+|{{Item/Icon|Present Box|size=40px}}<br/>'''Then choose between:'''<br/>{{ItemStack|text=2|item={{Item/Icon|Improvement Material|size=40px}}}} {{ItemStack|text=2|item={{Equipment/Card|Type 94 Depth Charge Projector|size=40px}}}} {{ItemStack|text=2|item={{Equipment/Card|Drum Canister (Transport Use)|size=40px}}}}
 |Aka "Newbie Cannon"
 |-
+|Quarterly
 |[[Quests#Bq12|Bq12]]
 |330
-|2,400{{Steel}}<br>Choice of: {{Medal}}x1 or [[Daihatsu]] x2 or [[New Type Rocket Equipment Development Materials]] x1
+|'''Choose between:'''<br/>{{Item/Icon|Medal|size=40px}} {{ItemStack|text=2|item={{Equipment/Card|Daihatsu Landing Craft|size=40px}}}} {{Item/Icon|New Model Rocket Development Material|size=40px}}
 |Aka "W4 Cannon"
 |-
+|Quarterly
 |[[Quests#Bq13|Bq13]]
 |390
-|1,000{{Ammo}}{{Steel}}{{Bauxite}}<br>Choice of: {{IR}}x10 or {{Medal}}x1 or {{GunMat}}x1
+|'''Choose between:'''<br/>{{ItemStack|text=10|item={{Item/Icon|Instant Repair Material|size=40px}}}} {{Item/Icon|Medal|size=40px}} {{Item/Icon|New Model Gun Mount Improvement Material|size=40px}}
 |Aka "Yuubari Cannon"
 |-
+|Yearly 
+|[[Quests#By9|By9]]
+|480
+|'''Choose between:'''<br/>{{ItemStack|text=2|item={{Equipment/Card|Type 13 Air Radar Kai|size=40px}}}} {{Item/Icon|Medal|size=40px}} {{Item/Icon|Reinforcement Expansion|size=40px}}
+|Operation AL
+|-
+|Yearly 
+|[[Quests#By10|By10]]
+|600
+|'''Choose between:'''<br/>{{ItemStack|text=5|item={{Item/Icon|Skilled Crew Member|size=40px}}}} {{Item/Icon|Prototype Flight Deck Catapult|size=40px}} {{Equipment/Card|Kikka Kai|size=40px}}
+|
+|-
+|Once
+|[[Quests#B170|B170]]
+|(choice)
+|'''Choose between:'''<br/>{{ItemStack|text-position = right:2px;top:-14px;|text=4★|item={{ItemStack|text=2|item={{Equipment/Card|TBF|size=40px|stars=4}}}}}} {{ItemStack|text=7|item={{Item/Icon|Improvement Material|size=40px}}}} {{Item/Icon|Action Report|size=40px}} <br> '''Then choose between:'''<br/>{{ItemStack|text=800|item={{Item/Icon|Ranking Point Reward|size=40px}}}} {{Equipment/Card|FR-1 Fireball|size=40px}}
+|'''{{colour|red|Not recommended to take these points}}'''
 |}
 
 =See Also=

@@ -25,7 +25,10 @@ local function requireEquipmentModule(name, is_enemy)
   if not success then
     success, data = U.requireModule('Data/EnemyEquipment/' .. name)
   end
-  return data or {_name = name}
+  if not success then
+  	return {_name = name}
+  end
+  return data
 end
 
 function Equipment:create(name, is_enemy)

@@ -1,0 +1,908 @@
+==Choice quest information/evaluations for important one-time quests - defusing the traps and baits.(probably/something like that)==
+
+Templates:
+<br>[[User:Chocolatecravinghobo/Sandbox/11/Template]]
+<br>[[User:Chocolatecravinghobo/Sandbox/11/Template/ItemStack]]
+
+
+{{:User:Chocolatecravinghobo/Sandbox/11/Template/ItemStack|{{Item/Card|Development Material|size=75px}}|2|8}}
+
+aa
+
+
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" 
+|-
+!align=center colspan=7 style="background:Orange"|Testing Quests
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B7
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|Development Material|qty=2|stars=8}}
+|Choice_1_reward_1_color=red
+|Choice_1_reward_2={{QuestRewardItem|Development Material|qty=7|stars=8}}
+|Choice_1_comment=finally
+|Choice_2_reward_1={{QuestRewardItem|Development Material|qty=4|stars=3}}
+|Choice_2_reward_1_color=brown
+|Choice_2_reward_2={{QuestRewardItem|Development Material|qty=2|stars=6}}
+|Choice_2_reward_2_color=orange
+|Choice_2_comment=this took all night to get working
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B8
+|Warning=yea nah don't do this quest
+|Choice_1_reward_1={{QuestRewardItem|Development Material|qty=2|stars=5}}
+|Choice_1_reward_1_color=red
+|Choice_1_reward_2={{QuestRewardItem|Development Material|qty=7}}
+|Choice_1_reward_3={{QuestRewardItem|Development Material|stars=6}}
+|Choice_1_reward_3_color=yellow
+|Choice_1_comment=now I can sleep
+}}
+|-
+!align=center colspan="7" style="background:Orange"|Testing Quests
+|}
+
+<!--
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=
+|Bad=a
+|Choice_1_reward_1={{QuestReward||qty=|stars=}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestReward||qty=|stars=}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+
+|Choice_2_reward_1={{QuestReward||qty=|stars=}}
+|Choice_2_reward_1_color=
+|Choice_2_reward_2={{QuestReward||qty=|stars=}}
+|Choice_2_reward_2_color=
+|Choice_2_reward_3={{QuestReward||qty=|stars=}}
+|Choice_2_reward_3_color=
+|Choice_2_comment=
+}}
+-->
+
+{| border="1" cellpadding="1" cellspacing="1" class="article-table"
+|-
+!align=center|Current Colour Scheme Meanings
+|-
+|align=center style="background:lime"|Great/Best Option(*)
+|-
+|align=center style="background:greenyellow"|Very Good, but not quite there
+|-
+|align=center style="background:yellow"|Decent
+|-
+|align=center style="background:khaki"|ok
+|-
+|align=center |Neutral or N/A
+|-
+|align=center style="background:orange"|Pretty Bad (unused atm)
+|-
+|align=center style="background:red"|Bad/Horrid compared to other items
+|}
+
+
+
+| style = "text-align:center; border-top:2px solid #808080;" rowspan = "11" |
+!align=center style="border-top:2px solid #808080;" rowspan=2|[[Quests#A80|A80]]
+
+
+{{Detail|button=true|target=lesser|show_text=Showing less important quests|hide_text=Show less important quests|}}
+
+==Composition Quests (編成)==
+{{QuestHeader|Composition}}
+
+{| border="1" cellpadding="1" cellspacing="1" class="article-table"
+|-
+!align=center colspan=7 style="background:#43C769"|Composition Quests {{Detail|button=true|target=lesser|show_text=Showing less important quests|hide_text=Show less important quests|}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=A80
+|Choice_1_reward_1={{QuestRewardEquip|F6F-3}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardEquip|F4U-1D}}
+|Choice_1_reward_2_color=lime
+|Choice_1_comment=[[F4U-1D]] is a great fighter-bomber, only available here and {{ShipLink|Intrepid}} stock.<br><br>[[F6F-3]] is available from the next Saratoga quest, stock from {{ShipLink|Intrepid}} and can be converted from [[F4F-4]].
+
+|Choice_2_reward_1={{QuestRewardEquip|TBF}}
+|Choice_2_reward_1_color=lime
+|Choice_2_reward_2={{QuestRewardItem|New Model Aerial Armament Material}}
+|Choice_2_reward_2_color=
+|Choice_2_comment=Need a total of 3 TBF for quests [[Quests#F62|F62]] & [[Quests#F91|F91]].<br>If you already have 3 or more [[TBF]] then you ''can'' grab the Air Mats.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=A82
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|Food Supply Ship Irako|qty=2}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_2_color=lime
+|Choice_1_reward_3={{QuestRewardItem|New Model Gun Mount Improvement Material}}
+|Choice_1_reward_3_color=yellow
+|Choice_1_comment=Easy Furniture fairy. <br><br>Grab gun mat if you don't care about furniture whatsoever
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=A83
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|Combat Ration (Special Onigiri)|qty=2}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_2_color=lime
+|Choice_1_comment=Rations are temporary, Furniture is forever.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=A90
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|Combat Ration|qty=2}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Instant Repair Material|qty=3}}
+|Choice_1_reward_2_color=
+|Choice_1_comment=Likely Combat Ration for 1-2 days of easy upgrade +1 screw.<br>Instant Repair if full on equipment
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=A91
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|Instant Repair Material|qty=5}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_2_color=lime
+|Choice_1_comment=Damage is temporary, Furniture is forever.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=A92
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|41cm Twin Gun Mount|qty=2}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|New Model Gun Mount Improvement Material}}
+|Choice_1_reward_2_color=lime
+|Choice_1_reward_3={{QuestRewardItem|Development Material|qty=8}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=No contest
+}}
+|-
+!align=center colspan=7 style="background:#43C769"|Composition Quests {{Detail|button=true|target=lesser|show_text=Showing less important quests|hide_text=Show less important quests|}}
+|}
+
+==Sortie Quests (出撃)==
+===One-time Sortie Quests===
+{{QuestHeader|Sortie|One-time Sortie}}
+
+{| border="1" cellpadding="1" cellspacing="1" class="article-table"
+|-
+!align=center colspan=7 style="background:#EC6063"|Sortie Quests {{Detail|button=true|target=lesser|show_text=Showing less important quests|hide_text=Show less important quests|}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B88
+|Choice_1_reward_1={{QuestRewardEquip|Type 2 Seaplane Fighter Kai}}
+|Choice_1_reward_1_color=yellow
+|Choice_1_reward_2={{QuestRewardEquip|PBY-5A Catalina}}
+|Choice_1_reward_2_color=yellowgreen
+|Choice_1_comment=Seaplane Fighters are important, you want up to 8 of them.<br>{{Equipment/Link|Type 2 Seaplane Fighter Kai}} can be can be converted from {{Equipment/Link|Type 0 Reconnaissance Seaplane}}.<br>This gives you an easy quick one and saves time & screws.<br><br>{{Equipment/Link|PBY-5A Catalina}} is a LBAS range extender which is useful and important, though just a worse version of {{Equipment/Link|Type 2 Large Flying Boat}}. <br>However {{Equipment/Link|PBY-5A Catalina}} is currently only obtainable from here and may not be obtainable at all in the future.<br><br>No obvious choice here but I lean on recommending picking {{Equipment/Link|PBY-5A Catalina}} and then making at least two {{Equipment/Link|Type 2 Seaplane Fighter Kai}} through Akashi.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B89
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|Improved Kanhon Type Turbine}}
+|Choice_1_reward_1_color=lime
+|Choice_1_reward_2={{QuestRewardEquip|Enhanced Kanhon Type Boiler}}
+|Choice_1_reward_2_color=yellow
+|Choice_1_comment=The boiler and its better version are stock equipment of many ships. For some, Turbines may be harder to come by. However both are for increasing the speed of ships though.<br>Both craftable development.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B95
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|Kyoufuu Kai}}
+|Choice_1_reward_1_color=lime
+|Choice_1_reward_2={{QuestRewardEquip|New Kanhon Design Anti-torpedo Bulge (Medium)}}
+|Choice_1_reward_2_color=red
+|Choice_1_comment=Free High-tier seaplane fighter<br>The bulge is bait for the lesser-informed.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B101
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|Medal}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|New Model Gun Mount Improvement Material}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardEquip|Type 0 Fighter Model 63 (Fighter-bomber)}}
+|Choice_1_reward_3_color=yellow
+|Choice_1_comment=You'll likely never use it but it's worth more & rarer than the other two items.<br>However, you are already guaranteed a [[Type 0 Fighter Model 63 (Fighter-bomber)]] from [[Quests#B96|B96]].<br>If you think its worthless and you're never going to need it, grab either other option.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B102
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B103
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B105
+|Choice_1_reward_1={{QuestRewardEquip|F6F-3}}
+|Choice_1_reward_1_color=lime
+|Choice_1_reward_2={{QuestRewardItem|Skilled Crew Member}}
+|Choice_1_reward_2_color=red
+|Choice_1_reward_3={{QuestRewardItem|New Model Aerial Armament Material}}
+|Choice_1_reward_3_color=red
+|Choice_1_comment=No contest
+
+|Choice_2_reward_1={{QuestRewardEquip|TBF}}
+|Choice_2_reward_1_color=
+|Choice_2_reward_2={{QuestRewardEquip|Night Operation Aviation Personnel}}
+|Choice_2_reward_2_color=lime
+|Choice_2_comment=No contest*<br>[[TBF]] is stock from event ships.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B106
+|Choice_1_reward_1={{QuestRewardEquip|TBF}}
+|Choice_1_reward_1_color=red
+|Choice_1_reward_2={{QuestRewardEquip|Night Operation Aviation Personnel + Skilled Deckhands}}
+|Choice_1_reward_2_color=lime
+|Choice_1_reward_3={{QuestRewardItem|New Model Aerial Armament Material}}
+|Choice_1_reward_3_color=red
+|Choice_1_comment='''NO CONTEST'''
+
+|Choice_2_reward_1={{QuestRewardItem|Reinforcement Expansion}}
+|Choice_2_reward_1_color=lime
+|Choice_2_reward_2={{QuestRewardItem|New Model Aerial Armament Material}}
+|Choice_2_reward_2_color=
+|Choice_2_reward_3={{QuestRewardItem|Skilled Crew Member}}
+|Choice_2_reward_3_color=
+|Choice_2_comment=Always need more holepunches
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B109
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B110
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B111
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_comment=
+
+|Choice_2_reward_1=
+|Choice_2_reward_1_color=
+|Choice_2_reward_2=
+|Choice_2_reward_2_color=
+|Choice_2_reward_3=
+|Choice_2_reward_3_color=
+|Choice_2_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B112
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+
+|Choice_2_reward_1=
+|Choice_2_reward_1_color=
+|Choice_2_reward_2=
+|Choice_2_reward_2_color=
+|Choice_2_reward_3=
+|Choice_2_reward_3_color=
+|Choice_2_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B113
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_comment=
+
+|Choice_2_reward_1=
+|Choice_2_reward_1_color=
+|Choice_2_reward_2=
+|Choice_2_reward_2_color=
+|Choice_2_reward_3=
+|Choice_2_reward_3_color=
+|Choice_2_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B114
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B115
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_comment=
+
+|Choice_2_reward_1=
+|Choice_2_reward_1_color=
+|Choice_2_reward_2=
+|Choice_2_reward_2_color=
+|Choice_2_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B117
+|Choice_1_reward_1={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_1_color=yellow
+|Choice_1_reward_2={{QuestRewardItem|New Model Gun Mount Improvement Material}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardItem|Action Report}}
+|Choice_1_reward_3_color=yellow
+|Choice_1_comment=1 Action Report > 1 NewGunMat<br>Furniture Fairy vs Action report up to you
+
+|Choice_2_reward_1={{QuestRewardItem|Medal|qty=2}}
+|Choice_2_reward_1_color=red
+|Choice_2_reward_2={{QuestRewardItem|Prototype Flight Deck Catapult}}
+|Choice_2_reward_2_color=lime
+|Choice_2_reward_3={{QuestRewardEquip|12.7cm Twin Gun Mount Model D Kai 2}}
+|Choice_2_reward_3_color=red
+|Choice_2_comment=Pult >>>> 12.7cm D K2<br>You get too many of these guns when K2ing Yuugumo-class anyway.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B118
+<!--|Choice_1_reward_1={{QuestRewardItem|Skilled Crew Member}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|New Model Aerial Armament Material}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardItem|Improvement Material|qty=4}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=-->
+
+|Choice_2_reward_1={{QuestRewardEquip|Zuiun (634 Air Group)}}
+|Choice_2_reward_1_color=red
+|Choice_2_reward_2={{QuestRewardEquip|Suisei Model 22 (634 Air Group)}}
+|Choice_2_reward_2_color=lime
+|Choice_2_reward_3={{QuestRewardItem|New Model Gun Mount Improvement Material|qty=2}}
+|Choice_2_reward_3_color=red
+|Choice_2_comment=Shouldn't be a choice quest
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B119
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|Type 96 Fighter|qty=3}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardEquip|Type 99 Dive Bomber|qty=3}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardEquip|Type 0 Fighter Model 21|qty=2}}
+|Choice_1_reward_3_color=yellow
+|Choice_1_comment=Model 21 is used more for quests/improvement fodder.<br>If you're just gonna scrap the planes grab T99Dive.
+
+|Choice_2_reward_1={{QuestRewardEquip|Shiden Kai 2|qty=2}}
+|Choice_2_reward_1_color=
+|Choice_2_reward_2={{QuestRewardItem|Medal}}
+|Choice_2_reward_2_color=
+|Choice_2_reward_3={{QuestRewardItem|Action Report}}
+|Choice_2_reward_3_color=lime
+|Choice_2_comment=Action Report > 1Medal
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B120
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|Instant Repair Material|qty=5}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Action Report}}
+|Choice_1_reward_2_color=lime
+|Choice_1_comment=
+
+|Choice_2_reward_1={{QuestRewardEquip|Type 22 Surface Radar|qty=2}}
+|Choice_2_reward_1_color=
+|Choice_2_reward_2={{QuestRewardItem|Improvement Material|qty=4}}
+|Choice_2_reward_2_color=lime
+|Choice_2_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B121
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B122
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|12.7cm Twin High-angle Gun Mount (Late Model)|qty=2}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Instant Repair Material|qty=8}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardItem|Medal}}
+|Choice_1_reward_3_color=lime
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B123
+|Choice_1_reward_1={{QuestRewardEquip|Type 3 Active Sonar}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardEquip|12.7cm Single High-angle Gun Mount (Late Model)}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_3_color=lime
+|Choice_1_comment=Easy Furniture.
+
+|Choice_2_reward_1={{QuestRewardItem|Action Report}}
+|Choice_2_reward_1_color=red
+|Choice_2_reward_2={{QuestRewardEquip|12.7cm Twin Gun Mount Model C Kai 2}}
+|Choice_2_reward_2_color=red
+|Choice_2_reward_3={{QuestRewardEquip|61cm Quadruple (Oxygen) Torpedo Mount Late Model}}
+|Choice_2_reward_3_color=lime
+|Choice_2_comment='''No Contest.'''<br>Currently the only way to obtain this valuable torpedo.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B124
+|Choice_1_reward_1={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_1_color=lime
+|Choice_1_reward_2={{QuestRewardEquip|12.7cm Twin Gun Mount Model B Kai 2|qty=3}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardEquip|Daihatsu Landing Craft}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=Easy Furniture.<br>Getting 12 Daihatsu is easy with the amount of ships and quests that give it.
+
+|Choice_2_reward_1={{QuestRewardItem|Development Material|qty=8}}
+|Choice_2_reward_1_color=red
+|Choice_2_reward_2={{QuestRewardItem|Improvement Material|qty=4}}
+|Choice_2_reward_2_color=red
+|Choice_2_reward_3={{QuestRewardEquip|Type 0 Passive Sonar}}
+|Choice_2_reward_3_color=lime
+|Choice_2_comment=No Contest.<br>Currently the only way to obtain this one of a kind, niche large sonar.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B125
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|Medal}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Reinforcement Expansion}}
+|Choice_1_reward_2_color=lime
+|Choice_1_comment=Easy holepunch.
+
+|Choice_2_reward_1={{QuestRewardItem|New Model Gun Mount Improvement Material|qty=2}}
+|Choice_2_reward_1_color=yellow
+|Choice_2_reward_2={{QuestRewardEquip|Searchlight|qty=2}}
+|Choice_2_reward_2_color=
+|Choice_2_reward_3={{QuestRewardItem|Action Report}}
+|Choice_2_reward_3_color=yellow
+|Choice_2_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B126
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+
+|Choice_2_reward_1=
+|Choice_2_reward_1_color=
+|Choice_2_reward_2=
+|Choice_2_reward_2_color=
+|Choice_2_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B127
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|Type 0 Fighter Model 21|qty=3}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardEquip|Type 0 Fighter Model 32|qty=2}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_3_color=lime
+|Choice_1_comment=Easy Furniture.
+
+|Choice_2_reward_1={{QuestRewardItem|Improvement Material|qty=4}}
+|Choice_2_reward_1_color=
+|Choice_2_reward_2={{QuestRewardEquip|Type 22 Surface Radar|qty=3}}
+|Choice_2_reward_2_color=
+|Choice_2_reward_3={{QuestRewardItem|New Model Aerial Armament Material|qty=2}}
+|Choice_2_reward_3_color=lime
+|Choice_2_comment=2NewAirMats > 4screws
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B128
+|Choice_1_reward_1={{QuestRewardItem|Action Report}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardEquip|Type 96 150cm Searchlight}}
+|Choice_1_reward_2_color=lime
+|Choice_1_reward_3={{QuestRewardItem|Medal}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=Take Large Searchlight so you never need to make one.<br>It sees rare use but helps when you need it.<br>If you already have one, take Action Report.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B129
+|Choice_1_reward_1={{QuestRewardEquip|41cm Twin Gun Mount|qty=4}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardEquip|Type 91 Armor Piercing Shell|qty=2}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardEquip|Type 3 Shell|qty=2}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=Whatever you need as improvement fodder, likely 41cm.
+
+|Choice_2_reward_1={{QuestRewardItem|Action Report}}
+|Choice_2_reward_1_color=red
+|Choice_2_reward_2={{QuestRewardEquip|Prototype 46cm Twin Gun Mount}}
+|Choice_2_reward_2_color=red
+|Choice_2_reward_3={{QuestRewardEquip|Prototype Nanzan}}
+|Choice_2_reward_3_color=lime
+|Choice_2_comment=Currently the only way to obtain {{Equipment/Link|Prototype Nanzan}}, as is one of the few dive bombers that can attack installations.<br>{{Equipment/Link|Prototype 46cm Twin Gun Mount}} is easily obtainable from the next quest, [[Quests#B130|B130]].
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B130
+|Choice_1_reward_1={{QuestRewardItem|New Model Gun Mount Improvement Material}}
+|Choice_1_reward_1_color=red
+|Choice_1_reward_2={{QuestRewardItem|Improvement Material|qty=5}}
+|Choice_1_reward_2_color=red
+|Choice_1_reward_3={{QuestRewardEquip|Prototype 46cm Twin Gun Mount}}
+|Choice_1_reward_3_color=lime
+|Choice_1_comment=Currently the only way to obtain {{Equipment/Link|Prototype 46cm Twin Gun Mount}} (aside from above quest, [[Quests#B129|B129]])<br>note: {{color|red|DO NOT UPGRADE IT}}. <br>It's an awful gun and not worth any investments, and if you upgrade it even once it can't be used as fodder for making an additional {{Equipment/Link|41cm Twin Gun Mount Kai Ni}} from {{Equipment/Link|41cm Triple Gun Mount Kai}} from Akashi's Arsenal.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B131
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B132
+|Choice_1_reward_1={{QuestRewardEquip|S-51J}}
+|Choice_1_reward_1_color=lime
+|Choice_1_reward_2={{QuestRewardItem|Medal|qty=2}}
+|Choice_1_reward_2_color=red
+|Choice_1_comment='''SHOULD NOT BE A CHOICE QUEST, WHAT IS TANAKA SMOKING???'''
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B133
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B134
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|Furniture Box (Large)|qty=8}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Reinforcement Expansion}}
+|Choice_1_reward_2_color=lime
+|Choice_1_reward_3={{QuestRewardItem|Medal}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=Easy holepunch.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B135
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B136
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|New Model Gun Mount Improvement Material}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardEquip|Type 13 Air Radar|qty=3}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_3_color=lime
+|Choice_1_comment=Easy Furniture.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B137
+|Bad=a
+|Choice_1_reward_1=
+|Choice_1_reward_1_color=
+|Choice_1_reward_2=
+|Choice_1_reward_2_color=
+|Choice_1_reward_3=
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B138
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|New Model Aerial Armament Material}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Reinforcement Expansion}}
+|Choice_1_reward_2_color=lime
+|Choice_1_reward_3={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=Easy holepunch.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B140
+|Choice_1_reward_1={{QuestRewardEquip|Type 2 Depth Charge|qty=2}}
+|Choice_1_reward_1_color=lime
+|Choice_1_reward_2={{QuestRewardEquip|Daihatsu Landing Craft|qty=2}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardItem|Furniture Fairy}}
+|Choice_1_reward_3_color=
+|Choice_1_comment={{Equipment/Link|Type 2 Depth Charge}} are hard to acquire and aren't really worth converting from {{Equipment/Link|Type 95 Depth Charge}}.<br><br>If you already have 6+ of them, you can consider skipping out and grabbing the Furniture Fairy instead.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B141
+|Choice_1_reward_1={{QuestRewardItem|Development Material|qty=12}}
+|Choice_1_reward_1_color=red
+|Choice_1_reward_2={{QuestRewardEquip|Type D Kouhyouteki Kai (Kouryuu Kai)}}
+|Choice_1_reward_2_color=lime
+|Choice_1_reward_3={{QuestRewardItem|Improvement Material|qty=6}}
+|Choice_1_reward_3_color=red
+|Choice_1_comment='''SHOULD NOT BE A CHOICE QUEST'''
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B142
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|Underway Replenishment|qty=3}}
+|Choice_1_reward_1_color=yellow
+|Choice_1_reward_2={{QuestRewardItem|Instant Repair Material|qty=6}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardEquip|Combat Ration (Special Onigiri)|qty=2}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=Free Underway Replenishment, grab buckets if you think you have far too many.
+
+|Choice_2_reward_1={{QuestRewardItem|New Model Gun Mount Improvement Material}}
+|Choice_2_reward_1_color=
+|Choice_2_reward_2={{QuestRewardItem|New Model Rocket Development Material}}
+|Choice_2_reward_2_color=yellow
+|Choice_2_reward_3={{QuestRewardFurniture|474}}
+|Choice_2_reward_3_color=lime
+|Choice_2_comment=Furniturecolle<br>NewRocketMats for those who don't care for furniture.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B143
+|Warning=If you have 4 or more Tokai, consider not completing this quest until a later date
+|Choice_1_reward_1={{QuestRewardEquip|Underway Replenishment|qty=2}}
+|Choice_1_reward_1_color=yellow
+|Choice_1_reward_2={{QuestRewardItem|Instant Repair Material|qty=6}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardEquip|25mm Triple Autocannon Mount|qty=2}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=Free Underway Replenishment, grab buckets if you think you have far too many.
+
+|Choice_2_reward_1={{QuestRewardEquip|Prototype Toukai}}
+|Choice_2_reward_1_color=lime
+|Choice_2_reward_2={{QuestRewardEquip|Prototype Keiun (Carrier-based Reconnaissance Model)}}
+|Choice_2_reward_2_color=khaki
+|Choice_2_comment=Take Prototype Toukai if you have less than 4.<br><br>If you have more than 4, I'd recommend leaving this quest for a later date to see if you need any or if one option suddenly becomes more useful.<br>However if you've already completed the quest and need to turn it in, a 5th Toukai could be a niche option for LBAS regarding subs at preboss and one at boss.<br>Prototype Keiun allows you to make a 3rd jet if you somehow have materials for it, though likely wouldn't be very useful.<br>Or you could gamble that Prototype Keiun will be needed/useful for future jet equipment.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B144
+|Choice_1_reward_1={{QuestRewardItem|New Model Gun Mount Improvement Material|qty=2}}
+|Choice_1_reward_1_color=red
+|Choice_1_reward_2={{QuestRewardEquip|35.6cm Twin Gun Mount Kai Ni}}
+|Choice_1_reward_2_color=lime
+|Choice_1_comment='''SHOULD NOT BE A CHOICE QUEST'''
+
+|Choice_2_reward_1={{QuestRewardEquip|Type 0 Reconnaissance Seaplane Model 11B|stars=2}}
+|Choice_2_reward_1_color=khaki
+|Choice_2_reward_2={{QuestRewardEquip|New Kanhon Design Anti-torpedo Bulge (Large)|stars=2}}
+|Choice_2_reward_2_color=lime
+|Choice_2_reward_3={{QuestRewardItem|Action Report}}
+|Choice_2_reward_3_color=
+|Choice_2_comment=Note, this is the non-skilled 11B. YuraK2 also has it as stock.<br>The bulge is the far better option here in sheer screw cost.<br>If you want more 11B, dupe Yura.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B145
+|Choice_1_reward_1={{QuestRewardEquip|Swordfish (Seaplane Model)|qty=2}}
+|Choice_1_reward_1_color=greenyellow
+|Choice_1_reward_2={{QuestRewardEquip|S9 Osprey|qty=2}}
+|Choice_1_reward_2_color=red
+|Choice_1_reward_3={{QuestRewardEquip|Swordfish Mk.III Kai (Seaplane Model)}}
+|Choice_1_reward_3_color=lime
+|Choice_1_comment=Can be a very tough decision for you to evaluate.<br><br>Picking the single {{Equipment/Link|Swordfish Mk.III Kai (Seaplane Model)}} immediately gets you a good equip and doesn't cost any screws.<br><br>Picking the two {{Equipment/Link|Swordfish (Seaplane Model)}} allows you to eventually double the equipment worth you get, but requires a hefty screw investment.<br>You'll end up converting both to {{Equipment/Link|Swordfish Mk.II Kai (Reconnaissance Seaplane Model)}}, and from there use one or both to convert {{Equipment/Link|S9 Osprey}}(consumes the SwordfishMK.II) to {{Equipment/Link|Swordfish Mk.III Kai (Seaplane Model)}}.<br>Note: This quest is currently the only way to obtain {{Equipment/Link|Swordfish (Seaplane Model)}}.
+
+|Choice_2_reward_1={{QuestRewardItem|Improvement Material|qty=4}}
+|Choice_2_reward_1_color=
+|Choice_2_reward_2={{QuestRewardItem|New Model Aerial Armament Material}}
+|Choice_2_reward_2_color=
+|Choice_2_reward_3={{QuestRewardItem|Reinforcement Expansion}}
+|Choice_2_reward_3_color=lime
+|Choice_2_comment=Easy holepunch.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B146
+|Choice_1_reward_1={{QuestRewardItem|New Model Aerial Armament Material|qty=2}}
+|Choice_1_reward_1_color=red
+|Choice_1_reward_2={{QuestRewardEquip|Fairey Seafox Kai}}
+|Choice_1_reward_2_color=lime
+|Choice_1_comment='''NO CONTEST'''
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B147
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|Improvement Material|qty=2}}
+|Choice_1_reward_1_color=lime
+|Choice_1_reward_2={{QuestRewardItem|Emergency Repair Material|qty=2}}
+|Choice_1_reward_2_color=yellow
+|Choice_1_reward_3={{QuestRewardItem|Instant Repair Material|qty=4}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=Emergency Repair is consumable, Akashi upgrades are forever.
+
+|Choice_2_reward_1={{QuestRewardEquip|Tenzan|qty=3}}
+|Choice_2_reward_1_color=
+|Choice_2_reward_2={{QuestRewardEquip|OS2U}}
+|Choice_2_reward_2_color=
+|Choice_2_comment=OS2U is Iowa stock, and overall rare, but a meh plane.<br>Grab if you wanna hoard.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B148
+|Bad=a
+|Choice_1_reward_1={{QuestRewardEquip|F4F-3|qty=2|stars=3}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardEquip|TBD|qty=2|stars=3}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardItem|Development Material|qty=6}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=All of these are bad, no right/wrong choice here for now.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B149
+|Bad=a
+<!--
+|Choice_1_reward_1={{QuestRewardItem|Improvement Material|qty=4}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Skilled Crew Member}}
+|Choice_1_reward_2_color=
+|Choice_1_reward_3={{QuestRewardEquip|Underway Replenishment|qty=3}}
+|Choice_1_reward_3_color=
+|Choice_1_comment=
+-->
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B150
+|Choice_1_reward_1={{QuestRewardItem|Prototype Flight Deck Catapult}}
+|Choice_1_reward_1_color=red
+|Choice_1_reward_2={{QuestRewardEquip|Lightweight ASW Torpedo (Initial Test Model)}}
+|Choice_1_reward_2_color=lime
+|Choice_1_reward_3={{QuestRewardItem|Remodel Blueprint}}
+|Choice_1_reward_3_color=red
+|Choice_1_comment='''SHOULD NOT BE A CHOICE QUEST'''<br>Whilst this quest offers up a Protopult, it isn't worth it.<br>This '''''20ASW Depth charge''''' is insane and worth much much much more than a single protopult.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B151
+|Choice_1_reward_1={{QuestRewardItem|Instant Repair Material|qty=4}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|Development Material|qty=5}}
+|Choice_1_reward_2_color=
+|Choice_1_comment=Whatever you have less of.
+
+|Choice_2_reward_1={{QuestRewardEquip|SK Radar}}
+|Choice_2_reward_1_color=lime
+|Choice_2_reward_2={{QuestRewardItem|New Model Aerial Armament Material|qty=2}}
+|Choice_2_reward_2_color=
+|Choice_2_comment=Currently the only way to obtain this radar.<br>Due to the screw cost it probably isn't worth converting but you might as well grab it for equipcolle and just horde it for a potential future date.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B152
+|Choice_1_reward_1={{QuestRewardItem|Development Material|qty=88}}
+|Choice_1_reward_1_color=red
+|Choice_1_reward_2={{QuestRewardItem|Prototype Flight Deck Catapult}}
+|Choice_1_reward_2_color=lime
+|Choice_1_reward_3={{QuestRewardEquip|TBF|stars=4}}
+|Choice_1_reward_3_color=red
+|Choice_1_comment='''SHOULD NOT BE A CHOICE QUEST'''<br>TBF Night Bomber conversion quest doesn't carry over improvements so the stars are meaningless.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B153
+|Choice_1_reward_1={{QuestRewardEquip|Prototype Shuusui}}
+|Choice_1_reward_1_color=lime
+|Choice_1_reward_2={{QuestRewardEquip|Type 1 Land-based Attack Aircraft Model 22A|stars=2}}
+|Choice_1_reward_2_color=yellow
+|Choice_1_reward_3={{QuestRewardEquip|Ka Type Observation Autogyro|qty=3|stars=3}}
+|Choice_1_reward_3_color=red
+|Choice_1_comment='''If you have less than 3 High-Altitude Land-Based Fighters, grab {{Equipment/Link|Prototype Shuusui}}, they are necessary.'''<br>If you have 3 or more grab {{Equipment/Link|Type 1 Land-based Attack Aircraft Model 22A}} for an extra decent Bomber.
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B154
+|Choice_1_reward_1={{QuestRewardItem|Prototype Flight Deck Catapult}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardEquip|Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)|qty=2}}
+|Choice_1_reward_2_color=yellow
+|Choice_1_reward_3={{QuestRewardEquip|Type 1 Land-based Attack Aircraft Model 34|stars=2}}
+|Choice_1_reward_3_color=lime
+|Choice_1_comment={{Equipment/Link|Type 1 Land-based Attack Aircraft Model 34}}s are great LBAS bombers with a powerful +1{{Hit}} and +4{{AA}} with a nice ★+2 bonus. <br>There is currenly no other way of obtaining these, and only rarely rewarded in events.<br>Well worth taking over the other two options.<br><br>Whilst two {{Equipment/Link|Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)}} looks like and is a great deal, and is worth a huge amount in screws. There is ''currently'' no way of utilizing many night bombers in a single sortie and you can eventually make these yourself through conversion.
+
+|Choice_2_reward_1={{QuestRewardItem|Action Report|qty=2}}
+|Choice_2_reward_1_color=red
+|Choice_2_reward_2={{QuestRewardItem|Remodel Blueprint}}
+|Choice_2_reward_2_color=red
+|Choice_2_reward_3={{QuestRewardEquip|Ryuusei Kai (CarDiv 1/Skilled)|stars=2}}
+|Choice_2_reward_3_color=lime
+|Choice_2_comment='''SHOULD NOT BE A CHOICE QUEST'''
+}}
+{{:User:Chocolatecravinghobo/Sandbox/11/Template
+|ID=B155
+|Bad=a
+|Choice_1_reward_1={{QuestRewardItem|Action Report}}
+|Choice_1_reward_1_color=
+|Choice_1_reward_2={{QuestRewardItem|New Model Armament Material}}
+|Choice_1_reward_2_color=lime
+|Choice_1_comment=New material still kinda rare and will potentially have more things consume it soon.
+}}
+|-
+!align=center colspan=7 style="background:#EC6063"|Sortie Quests {{Detail|button=true|target=lesser|show_text=Showing less important quests|hide_text=Show less important quests|}}
+|}
+
+<!--
+
+ style="background:lime"
+
+|-
+!align=center|[[Quests#B100|B100]]
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center colspan=2|
+|-
+!align=center|[[Quests#B100|B100]]
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center colspan=1|
+|-
+!align=center rowspan=2|[[Quests#B100|B100]]
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center colspan=1|
+|-
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center|{{QuestReward||qty=|stars=}}
+|align=center colspan=1|
+|-
+
+{{ItemStack|item = {{Equipment/Link|}}|text = x?|text-position = bottom:-32px;right:4px;|font-size = 14px}}
+
+-->

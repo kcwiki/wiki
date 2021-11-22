@@ -1,0 +1,79 @@
+<includeonly>{{#vardefine:info|{{#invoke:EquipmentPage|info|pagename={{{1|{{PAGENAME}}}}}}}}}{{#vardefine:wikipedia|{{#invoke:EquipmentPage|wikipedia|pagename={{{1|{{PAGENAME}}}}}}}}}{{#vardefine:buildable|{{#invoke:EquipmentPage|buildable|pagename={{{1|{{PAGENAME}}}}}}}}}{{#vardefine:improvable|{{#invoke:EquipmentPage|improvable|pagename={{{1|{{PAGENAME}}}}}}}}}{{EquipmentInfoKai|{{{1|{{PAGENAME}}}}}}}{{EquipmentCategoriesKai|{{{1|{{PAGENAME}}}}}}}
+<h2>Introduction</h2>
+<p lang="ja">{{#if:{{#var:info}}|{{#var:info}}|{{#if:{{{ja|}}}|{{{ja}}}|?}}}}</p>
+<p>''{{#if:{{{en|}}}|{{{en}}}|?}}''</p>
+<h2>Notes</h2>
+'''{{#if:{{#var:buildable}}|Buildable|Unbuildable}}'''
+{{#categorytree:Ships with {{{1|{{PAGENAME}}}}} as stock equipment|mode=pages|depth=0}}
+{{#categorytree:Equipment that consume {{{1|{{PAGENAME}}}}} during improvement|mode=pages|depth=0}}
+{{#if:{{{header|}}}||{{{notes|}}}{{clear}}
+{{#if:{{#var:improvable}}|<h2>Improvement</h2>
+{{ImprovementTableKai|{{{1|{{PAGENAME}}}}}|categories=true}}}}
+{{#ifexist:{{{1|{{PAGENAME}}}}}/Bonuses|<h2>Bonuses</h2>
+[[Category:Equipment with bonuses]]
+{{:{{{1|{{PAGENAME}}}}}/Bonuses}}}}
+{{#if:{{{trivia|}}}|<h2>Trivia</h2>{{#if:{{{collapsed|}}}|<div class="mw-collapsible mw-collapsed">}}
+{{{trivia}}}{{#if:{{{collapsed|}}}|</div>{{clear}}}}}}
+{{#if:{{#var:wikipedia}}|{{#if:{{{see also|}}}|<h2>See also</h2>
+*{{#var:wikipedia}}
+{{{see also}}}|<h2>See also</h2>
+*{{#var:wikipedia}}}}|{{#if:{{{see also|}}}|<h2>See also</h2>
+{{{see also}}}}}}}
+{{#if:{{{test|}}}|{{Equipmentlist/Test}}|{{Equipmentlist}}}}}}</includeonly><noinclude>
+Layout template for [[:Category:Player equipment|equipment pages]].
+
+The general layout that can be generated is:
+*Infobox
+*Automatic categories
+*Introduction section: Japanese and English descriptions
+*Notes section: Buildable/Unbuildable note, category trees, notes text, section clear
+*Improvement section if equipment is improvable
+*Bonuses section, if <code>/Bonuses</code> subpage exists.
+*Trivia section
+*See also section: Wikipedia and other links
+*Navbox.
+
+==Parameters==
+*'''[1]''': equipment name, <code>PAGENAME</code> is used by default.
+*'''ja''': Japanese description of the equipment, defaults to <code>_info</code> (<code>api_info</code>) from equipment data module or to <code>?</code> when there is no <code>_info</code>.
+*'''en''': English description of the equipment, defaults to <code>?</code>.
+*'''notes''': text in notes section.
+*'''trivia ''': text in optional trivia section.
+**'''collapsed''': set to have collapsed trivia section (e.g., for long write-ups).
+*'''see also''': text in optional see also section.
+*'''header''': set to ignore and not generate anything after category tree (notes text and clear, improvement, trivia, see also sections, navbox).
+
+===Lua parameters===
+The following equipment data module fields are used:
+*<code>_info</code> for '''ja'''
+*<code>_wikipedia</code> for Wikipedia link in optional see also section.
+*<code>_buildable</code> for Buildable/Unbuildable note
+*<code>_improvements</code> for optional improvement section.
+
+==Usage==
+Full page:
+<pre>
+{{Equipment
+
+|en = 
+
+|notes = 
+
+|trivia = 
+
+|see also = 
+
+}}
+</pre>
+Or only for the header (from infobox to category tree):
+<pre>
+{{Equipment
+
+|header = true
+
+|en = 
+
+}}
+...
+</pre>
+</noinclude>

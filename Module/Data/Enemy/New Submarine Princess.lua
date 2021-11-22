@@ -1,5 +1,3 @@
--- [[Category:Enemy boss ship modules]]
-
 return {
     ["Flagship"] = {
         _name = "New Submarine Princess",
@@ -39,9 +37,9 @@ return {
         _reading = "せんすいしんせいきフラグシップ",
         _type = 13,
         _hp = 277,
-        _firepower = 47,
-        _armor = 37,
-        _torpedo = 137,
+        _firepower = 37,
+        _armor = 42,
+        _torpedo = 147,
         _evasion = nil,
         _aa = 0,
         _asw = 0,
@@ -111,4 +109,33 @@ return {
             {equipment = "High-speed Abyssal Torpedo mod.2", size = 0},
         },
     },
+  ["Flagship V"] = {
+    _name = "New Submarine Princess",
+    _suffix = "Flagship V",
+    _rarity = nil,
+    _back = nil,
+    _api_id = 2049,
+    _id = 2049,
+    _battle_card_reference = "/Flagship",
+    _cg_reference = "/Flagship",
+    _japanese_name = "潜水新棲姫flagship",
+    _reading = "せんすいしんせいきフラグシップ",
+    _type = 13,
+    _hp = 133,
+    _firepower = 22,
+    _armor = 33,
+    _torpedo = 102,
+    _evasion = nil,
+    _aa = 0,
+    _asw = 0,
+    _speed = 5,
+    _los = nil,
+    _range = 1,
+    _luck = nil,
+    _equipment = {
+      {equipment = "High-speed Abyssal Torpedo mod.2", size = 0},
+      {equipment = "High-speed Abyssal Torpedo mod.2", size = 0},
+      {equipment = "High-speed Abyssal Torpedo mod.2", size = 0},
+    },
+  },
 }

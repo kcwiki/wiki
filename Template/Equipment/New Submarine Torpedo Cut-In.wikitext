@@ -1,0 +1,30 @@
+{{#switch: {{{intro}}}
+|radar = Can be used together with
+|When used by themselves or together with [[:Category:Submarine_Equipment|submarine radars]], 
+}} late model submarine torpedoes ({{EquipmentLink|Late Model Bow Torpedo Mount (6 tubes)}}, {{EquipmentLink|Skilled Sonar Personnel + Late Model Bow Torpedo Mount (6 tubes)}}, {{EquipmentLink|Late Model 53cm Bow Torpedo Mount (8 tubes)}}, {{EquipmentLink|21inch 6-tube Bow Torpedo Launcher (Late Model)}} {{#switch: {{{intro}}}|radar = or|and}} {{EquipmentLink|Submarine 4-tube Stern Torpedo Launcher (Late Model)}}) {{#switch: {{{intro}}}|radar = to|can}} trigger Torpedo Cut-In types that have higher damage modifiers than the usual Torpedo Cut-In.
+
+{| class="wikitable mw-collapsible" style="margin: auto;"
+!colspan="5"|Torpedo Cut-In modifiers
+|-
+!Attack Type
+!Prerequisites
+!Notes
+![[Damage_Calculations#Night_Battle_Special_Attacks|Pre-cap]]<br/>Damage<br/>Modifier
+!Hits
+|-
+!style="background-color:gold" rowspan="2"|Submarine Cut-ins
+|nowrap|{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}{{SubmarineRadar}}
+|rowspan="2"|With '''[[:Category:Late_Model_Submarine_Torpedoes|Late Model Sub Torpedoes]] ONLY'''
+|1.75
+|2
+|-
+|nowrap|{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}{{TorpedoWeapon|caption=New Submarine Torpedo|link=Partials/New Submarine Torpedo Cut-in}}
+|1.6
+|2
+|-
+!style="background-color:gold"|Torpedo Cut-in
+|nowrap|{{TorpedoWeapon}}{{TorpedoWeapon}}
+| + Any on the remaining slots
+|1.5
+|2
+|}{{#if: {{{torpedo|}}}|[[Category:Late Model Submarine Torpedoes]]|}}<noinclude>https://twitter.com/yukicacoon/status/1462305072692412423</noinclude>

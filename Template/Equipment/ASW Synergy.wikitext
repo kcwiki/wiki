@@ -1,0 +1,72 @@
+{{clear}}
+{| class="mw-collapsible {{#if:{{{expand|}}}||<includeonly>mw-collapsed</includeonly>}}  wikitable" style="min-width:900px;width:50%; text-align: center; margin: auto;"
+! colspan="4" |ASW Damage Synergy
+|-
+! {{Sonar}}
+! Sonar
+! {{ItemStack|item={{Sonar}}|text=Large|font-size = 11px|text-color = fff|glow-color = 000}}
+! Large Sonar
+|-
+| colspan="2"| All Sonars
+| {{EquipmentCardKai|Type 0 Passive Sonar|size=50px}}
+| {{tooltip|(?)|Under investigation}} {{EquipmentLink|Type 0 Passive Sonar}} {{tooltip|(?)|Under investigation}}
+|-
+! colspan="4" | {{ItemStack|item={{DepthCharge}}|text=DCP|font-size = 11px|text-color = fff|glow-color = 000}} Depth Charge Projectors (DCP)
+|-
+| {{EquipmentCardKai|Type 94 Depth Charge Projector|size=50px}}
+| {{EquipmentLink|Type 94 Depth Charge Projector}}
+| {{EquipmentCardKai|Type 3 Depth Charge Projector|size=50px}}
+| {{EquipmentLink|Type 3 Depth Charge Projector}}
+|-
+| {{EquipmentCardKai|Type 3 Depth Charge Projector (Concentrated Deployment)|size=50px}}
+| {{EquipmentLink|Type 3 Depth Charge Projector (Concentrated Deployment)}}
+| {{EquipmentCardKai|Prototype 15cm 9-tube ASW Rocket Launcher|size=50px}}
+| {{EquipmentLink|Prototype 15cm 9-tube ASW Rocket Launcher}}
+|-
+| {{EquipmentCardKai|RUR-4A Weapon Alpha Kai|size=50px}}
+| {{EquipmentLink|RUR-4A Weapon Alpha Kai}}
+|-
+!  colspan="4" | {{ItemStack|item={{DepthCharge}}|text=DC|font-size = 11px|text-color = FF0|glow-color = 000}} Depth Charge (Racks) (DC)
+|-
+| {{EquipmentCardKai|Type 95 Depth Charge|size=50px}}
+| {{EquipmentLink|Type 95 Depth Charge}}
+| {{EquipmentCardKai|Type 2 Depth Charge|size=50px}}
+| {{EquipmentLink|Type 2 Depth Charge}}
+|-
+| {{EquipmentCardKai|Lightweight ASW Torpedo (Initial Test Model)|size=50px}}
+| {{EquipmentLink|Lightweight ASW Torpedo (Initial Test Model)}}
+| {{EquipmentCardKai|Hedgehog (Initial Model)|size=50px}}
+| {{EquipmentLink|Hedgehog (Initial Model)}}
+|-
+! colspan="4" | {{ItemStack|item={{DepthCharge}}|text=Other|font-size = 10px|glow-color = 000|text-position = bottom:-18px;right:3px;}} Other
+|-
+|-
+| {{EquipmentCardKai|Type 2 12cm Mortar Kai|size=50px}}
+| {{EquipmentLink|Type 2 12cm Mortar Kai}}
+| {{EquipmentCardKai|Type 2 12cm Mortar Kai (Concentrated Deployment)|size=50px}}
+| {{EquipmentLink|Type 2 12cm Mortar Kai (Concentrated Deployment)}}
+|-
+|-
+! colspan="4" |ASW Damage Modifiers
+|-
+| colspan="2" |'''{{Sonar}} Sonar + {{ItemStack|item={{DepthCharge}}|text=DCP|font-size = 11px|text-color = fff|glow-color = 000}}'''/ {{ItemStack|item={{DepthCharge}}|text=Other|font-size = 10px|glow-color = 000|text-position = bottom:-18px;right:3px;}}'''
+| colspan="2" | 1.15x 
+|-
+| colspan="2" | '''{{Sonar}} Sonar + {{ItemStack|item={{DepthCharge}}|text=DC|font-size = 11px|text-color = FF0|glow-color = 000}}'''
+| colspan="2" | 1.15x
+|-
+| colspan="2" | '''{{ItemStack|item={{DepthCharge}}|text=DCP|font-size = 11px|text-color = fff|glow-color = 000}} + {{ItemStack|item={{DepthCharge}}|text=DC|font-size = 11px|text-color = FF0|glow-color = 000}}'''
+| colspan="2" | 1.1x
+|-
+! colspan="4" |
+|-
+| colspan="2" | '''{{Sonar}} Sonar + {{ItemStack|item={{DepthCharge}}|text=DCP|font-size = 11px|text-color = fff|glow-color = 000}} + {{ItemStack|item={{DepthCharge}}|text=DC|font-size = 11px|text-color = FF0|glow-color = 000}}'''
+| colspan="2" |1.4375x
+|-
+! colspan="4" |Armor Penetration
+|-
+| colspan="4" style="text-align:left;" |Indepentant of synergies, these equipment provide armor penetration to ASW attacks:
+*{{EquipmentLink|Type 95 Depth Charge}} penetrates 1 armor.
+*{{EquipmentLink|Type 2 Depth Charge}} penetrates 2 armor.
+**[[DE]] get an additional 1 armor penetration if equipped with either of these.
+|}

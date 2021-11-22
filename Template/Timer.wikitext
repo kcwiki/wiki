@@ -15,9 +15,9 @@ Displays a countdown timer.
 See [[MediaWiki:Gadget-Countdown.js]] for JS implementation details.
 ==Examples==
 <pre>
-{{Timer|January 1 2021 00:00:00 +0900|extra_style = text-align:left}}
+{{Timer|January 1 2023 00:00:00 +0900|extra_style = text-align:left}}
 </pre>
-{{Timer|January 1 2021 00:00:00 +0900|extra_style = text-align:left}}
+{{Timer|January 1 2023 00:00:00 +0900|extra_style = text-align:left}}
 <pre>
 {{Timer|January 1 2030 00:00:00 +0900|2|style = font-style:italic|text = Not yet.}}
 </pre>

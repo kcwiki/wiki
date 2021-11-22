@@ -1,4 +1,4 @@
-<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Asset|{{{1}}}|type={{{type|}}}|asset=Card|size={{{size|}}}|caption={{#if: {{{text|}}} | {{{text}}} | {{{caption|}}} }}|suffix1={{{suffix1|}}}}}</includeonly><noinclude>
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Asset|{{{1}}}|type={{{type|}}}|asset=Card|size={{{size|}}}|link={{{link|true}}}|caption={{#if: {{{text|}}} | {{{text}}} | {{{caption|}}} }}|suffix1={{{suffix1|}}}}}</includeonly><noinclude>
 Inherited from [[Template:Asset]]. Used to display ship, equipment and item cards.
 
 <pre>{{Card|Suisei|type=Equipment|size=80x80px}}</pre>

@@ -1,4 +1,4 @@
-{| class="mw-collapsible mw-collapsed wikitable" style="text-align: center;"
+<includeonly>{| class="mw-collapsible {{#if:{{{uncollapsed|}}}||mw-collapsed}} wikitable" style="text-align: center;"
 ! colspan="6" |Ships that can equip Tanks
 |-
 ! Ship
@@ -27,7 +27,7 @@
 | {{ItemStack|item = {{Ship/Banner|Asashio/Kai Ni D|small=true}}|text = Kai Ni D}}
 | style="color:green;" |Yes
 | style="color:green;" |Yes
-| {{Ship/Banner|Ooshio/Kai Ni |small=true}}
+| {{Ship/Banner|Ooshio/Kai Ni|small=true}}
 | style="color:green;" |Yes
 | style="color:green;" |Yes
 |-
@@ -57,23 +57,23 @@
 | {{Ship/Banner|Mikazuki/Kai|small=true}}
 | style="color:green;" |Yes
 | style="color:red;" |No
+| {{Ship/Banner|Hatsushimo/Kai Ni|small=true}}
+| style="color:green;" |Yes
+| style="color:red;" |No
+|-
 | {{Ship/Banner|Ariake/Kai|small=true}}
 | style="color:green;" |Yes
 | style="color:red;" |No
-|-
 | {{Ship/Banner|Kawakaze/Kai Ni|small=true}}
 | style="color:green;" |Yes
 | style="color:red;" |No
+|-
 | {{Ship/Banner|Murasame/Kai Ni|small=true}}
 | style="color:green;" |Yes
 | style="color:red;" |No
-|-
 | {{Ship/Banner|Makigumo/Kai Ni|small=true}}
 | style="color:green;" |Yes
 | style="color:red;" |No
-|
-|
-|
 |-
 | {{Ship/Banner|Shiratsuyu/Kai Ni|small=true}}
 | style="color:red;" |No
@@ -82,18 +82,29 @@
 | style="color:red;" |No
 | style="color:green;" |Yes
 |-
+| {{Ship/Banner|Oyashio/Kai Ni|small=true}}
+| style="color:red;" |No
+| style="color:green;" |Yes
 | {{Ship/Banner|Yukikaze/Kai Ni|small=true}}
 | style="color:red;" |No
 | style="color:green;" |Yes
+|-
 | {{Ship/Banner|Kazagumo/Kai Ni|small=true}}
 | style="color:red;" |No
 | style="color:green;" |Yes
-|-
 | {{Ship/Banner|Okinami/Kai Ni|small=true}}
 | style="color:red;" |No
 | style="color:green;" |Yes
+|-
 | {{Ship/Banner|Asashimo/Kai Ni|small=true}}
 | style="color:red;" |No
+| style="color:green;" |Yes
+|-
+| {{ItemStack|item = {{Ship/Banner|Yamakaze/Kai Ni|small=true}}|text = Kai Ni}}
+| style="color:red;" |No
+| style="color:green;" |Yes
+| {{ItemStack|item = {{Ship/Banner|Yamakaze/Kai Ni D|small=true}}|text = Kai Ni D}}
+| style="color:green;" |Yes
 | style="color:green;" |Yes
 |-
 !colspan="6"| Light Cruiser (CL)
@@ -150,6 +161,15 @@
 | {{Ship/Banner|Mutsu/Kai Ni|small=true}}
 | style="color:red;" |No
 | style="color:green;" |Yes
+|-
+!colspan="6"| Light Carrier (CVL)
+|-
+| {{Ship/Banner|Gambier Bay/Mk.II|small=true}}
+| style="color:green;" |Yes
+| style="color:red;" |No
+|
+|
+|
 |-
 !colspan="6"| Seaplane Tender (AV)
 |-
@@ -214,4 +234,6 @@
 ! {{Equipment/Card|Special Type 2 Amphibious Tank|size=50px}}
 |-
 ! colspan="6" | {{edit|Template:Landing_Craft/Amphibious_Tank_Capable_Ships}}
-|}
+|}</includeonly><noinclude>
+{{Landing Craft/Amphibious Tank Capable Ships|uncollapsed=true}}
+</noinclude>

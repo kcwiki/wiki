@@ -1,5 +1,3 @@
--- [[Category:Player ship modules]]
-
 return {
     [""] = {
         _name = "Warspite",
@@ -79,7 +77,7 @@ return {
         _hp = 82,
         _hp_max = 92,
         _firepower = 86,
-        _firepower_max = 106,
+        _firepower_max = 107,
         _firepower_mod = 4,
         _armor = 78,
         _armor_max = 93,
@@ -88,7 +86,7 @@ return {
         _torpedo_max = false,
         _torpedo_mod = false,
         _evasion = 28,
-        _evasion_max = 66,
+        _evasion_max = 67,
         _aa = 48,
         _aa_max = 98,
         _aa_mod = 2,
@@ -96,10 +94,10 @@ return {
         _asw_max = false,
         _speed = 5,
         _los = 20,
-        _los_max = 58,
+        _los_max = 60,
         _range = 3,
         _luck = 70,
-        _luck_max = 111,
+        _luck_max = 117,
         _luck_mod = false,
         _remodel_level = 75,
         _remodel_ammo = 1100,

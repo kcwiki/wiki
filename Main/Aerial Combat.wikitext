@@ -467,6 +467,11 @@ This property is arbitrary to each aircraft, but loosely fit in the following ca
 |1
 |0.6
 |1
+|- 
+|style="text-align: left;"| {{EquipmentLink|SM.79 bis (Skilled)}}
+|1
+|0.6
+|1
 |}
 
 ==Anti-Air Cut-in==
@@ -691,7 +696,7 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 | +4
 |1.25
 |40%
-|'''{{Ship/Link|Tatsuta/Kai Ni}} &<br>{{Ship/Link|Tenryuu/Kai Ni}}'''
+|'''{{Ship/Link|Tatsuta/Kai Ni}}'''
 |HA + AA Gun (Cannot be CDMG)
 |-
 !25
@@ -718,7 +723,7 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 | +5
 |1.4
 |55%
-|'''{{Ship/Link|Ise/Kai|Ise/Kai Ni|Hyuuga/Kai|Hyuuga/Kai Ni|text=Ise-class Kai/Kai Ni}} &<br />{{Ship/Link|Musashi/Kai|Musashi/Kai Ni|text=Musashi Kai/Kai Ni}}'''
+|'''{{Ship/Link|Ise/Kai|Ise/Kai Ni|Hyuuga/Kai|Hyuuga/Kai Ni|text=Ise-class Kai/Kai Ni}} &<br />{{Ship/Link|Musashi/Kai Ni}}'''
 |{{Equipment/Link|12cm 30-tube Rocket Launcher Kai Ni}} + Air Radar 
 |-
 !29
@@ -749,7 +754,7 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 | +4
 |1.2
 |50%
-|'''{{Ship/Link|Nelson|Warspite|Ark Royal|Jervis|Janus|text=Royal Navy Ships}} &<br /> {{Ship/Link|Kongou/Kai Ni|Kongou/Kai Ni C|Hiei/Kai Ni|Hiei/Kai Ni C|Kirishima/Kai Ni|Haruna/Kai Ni|text=Kongou-class Kai Ni/C}}'''
+|'''{{Ship/Link|Nelson|Warspite|Ark Royal|Jervis|Janus|text=Royal Navy Ships}} &<br /> {{Ship/Link|Kongou/Kai Ni|Hiei/Kai Ni|Kirishima/Kai Ni|Haruna/Kai Ni|text=Kongou-class Kai Ni}}'''
 |{{Equipment/Link|16inch Mk.I Triple Gun Mount Kai + FCR Type 284|text=16inch Mk.I Triple + FCR}} + {{Equipment/Link|QF 2-pounder Octuple Pom-pom Gun Mount|text=QF 2-pounder}} <br />'''OR'''<br /> {{Equipment/Link|20-tube 7inch UP Rocket Launchers|text=20-tube 7inch UP}} + {{Equipment/Link|20-tube 7inch UP Rocket Launchers|text=20-tube 7inch UP}} / {{Equipment/Link|QF 2-pounder Octuple Pom-pom Gun Mount|text=QF 2-pounder}}
 |-
 !33
@@ -789,18 +794,26 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 |Both HA guns must be {{Equipment/Link|5inch Single Gun Mount Mk.30 Kai|text=Kai}} variant.
 |-
 !38
-!colspan="6"|Unknown
-|-
-!39
-|{{QuestRewardEquip|GFCS Mk.37 + 5in Dual Purpose Gun (CD)|image=File:Equipment Card GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
+|{{QuestRewardEquip|GFCS Mk.37 + 5in Dual Purpose Gun (CD)|image=File:Equipment Card GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
+{{QuestRewardEquip|GFCS Mk.37 + 5in Dual Purpose Gun (CD)|image=File:Equipment Card GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
 | '''+11'''
-|1.7
-|57%
+|1.85
+|?
 |rowspan="4"|'''{{Ship/Link|Atlanta|text=Atlanta-class}}'''
 |
 |-
+!39
+|{{QuestRewardEquip|GFCS Mk.37 + 5in Dual Purpose Gun (CD)|image=File:Equipment Card GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
+{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
+| '''+11'''
+|1.7
+|57%
+|
+|-
 !40
-|{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}{{QuestRewardEquip|GFCS Mk.37}}
+|{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
+{{QuestRewardEquip|5in Dual Purpose Gun (CD)|image=File:Equipment Card 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment).png|link=5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}}
+{{QuestRewardEquip|GFCS Mk.37}}
 | '''+11'''
 |1.7
 |56%
@@ -815,27 +828,22 @@ The trigger chance of a given AACI is solely determined by its API value, and is
 |}
 
 '''Notes:'''
-* '''If multiple ships can trigger AACI, the ship that rolls the highest API number takes priority.'''
-** If API numbers are tied, priority goes by fleet slot order from top to bottom.
-* '''If a single ship fulfils multiple AACI requirements:'''
-** A '''single roll''' is done to check for all AACIs.
-** This means that an AACI with higher priority and higher trigger rate completely blocks lower priority AACI from activating.
-*** For example, Akizuki with a {{GreenGunBuiltIn}}{{GreenGunBuiltIn}}{{Radar}} setup fulfils the requirements of the AACIs with API values 1, 2, 3, 5 and 8, with 1 being the highest priority. Due to this, the only API that Akizuki can trigger is 1, because a success will activate it, and a failure implies that the roll wouldn't meet the 58%, 50%, 55% and 50% trigger rates as it has failed to meet a 65% rate roll.
-** Conversely, an AACI with lower priority but higher trigger rate has a chance of occurring, if the roll fails to pass the higher priority AACI.
-*** For example, Isokaze B Kai with {{GreenGunBuiltIn}}{{GreenGunBuiltIn}}{{Radar}} fulfils 5 (55% rate) and 29 (60% rate), with 5 having priority. This means that in total, 5 will occur 55% of the time, and 29 will occur the leftover 5% of the time (60% - 55%).
-** Priority is: '''(1 > 2 > 3, 10 > 11, 14 > 15, 16 > 17, 19, 21, 25) > 4 > 5 > 6 > 8 > 7 > (26 > 28, 29) > 9 > (33) > 12 > 13 > (18, 20, 22, 23, 30 > 31 > 24, 32)'''<ref name="aaci1">https://docs.google.com/spreadsheets/d/1YUppVErQj7P9f9-ddpdR-e7fTaycjSK9-x4GE9ibCrA/edit#gid=1156988467, TsunDB</ref>
-*** Examples:
-**** [[Kinu|Kinu Kai Ni]] can trigger both API 20 and 19.
-**** The same ship can activate APIs 20, 5 and 29.
-*** Note: At some point during 2018-2019(?), priority was changed from '''7 > 8''' to '''8 > 7'''. Prior to this, both 7 and 8 could be triggered with {{GreenGunBuiltIn}}{{AntiAircraftFireDirector}}{{Radar}}<ref>https://gyazo.com/2472468c10c0dacd28a493a79ff140da</ref>, whereas now only 8 can be triggered.
+
+* '''If a ship fulfils multiple AACI requirements, the API with the highest priority will be checked first.'''
+** A single roll is done to check for all AACIs. This means that an AACI with lower priority but higher trigger rate can be activated.
+*** The opposite cannot occur.
+** For example, Akizuki with a {{GreenGunBuiltIn}}{{GreenGunBuiltIn}}{{Radar}} setup fulfills the requirements of the AACIs with API values 1, 2, 3, 5 and 8, with 1 being the highest priority. Due to this, the only API that Akizuki can trigger is 1, because a success will activate it, and a failure implies that the roll wouldn't meet the 58%, 50%, 55% and 50% trigger rates as it has failed to meet a 65% rate roll.
+* AACI priority is not completely determined, but some have been observed:
+** 8 has a lower priority than 7, as both can be triggered by the same ship.
+** [[Kinu|Kinu Kai Ni]] can trigger both API 20 and 19.
+** The same ship can activate APIs 20, 5 and 29.
+* '''If multiple ships trigger AACI, the ship that rolled the highest API number takes priority.'''
 
 ===Sequential AACIs===
 
-The '''Sequential AACIs''' are the Cut-ins introduced with the implementation of [[Johnston]] onwards. So far, they are exclusive to the {{Ship/Link|Fletcher/Kai|Johnston/Kai|text=Fletcher-Class}} and {{Ship/Link|Atlanta/Kai|text=Atlanta-class}}. Different from Original AACIs, each eligible AACI will be '''rolled independently''' if the previous roll has failed. If all Sequential rolls fail, an additional Original Type roll is performed. This grants the specific ships with access to Sequential AACIs extremely high combined trigger rates.
-* Example: Atlanta with {{EquipmentLink|GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}} + {{EquipmentLink|5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)}} + {{EquipmentLink|GFCS Mk.37}} fulfils 39, 40, 41, and 5. Rolled independently, this gives 57% for 39, ~24% for 40, ~10.4% for 41, ~4.7% for 5, for a total of ~96% chance of some AACI occurring.
-Sequential AACIs are, in order of priority: '''(34 > 35 > 37 > 36, 39 > 40 > 41) > (Original AACI)'''<ref name="aaci1"></ref>
+The '''Sequential AACIs''' are the Cut-ins introduced with the implementation of [[Johnston]] onwards. So far, they are exclusive to the {{Ship/Link|Fletcher/Kai|Johnston/Kai|text=Fletcher-Class}} and {{Ship/Link|Atlanta/Kai|text=Atlanta-class}}. Different from Original AACIs, from lowest to highest API, each eligible AACI will be rolled independently if the previous roll has failed. If all Sequential rolls fail, an additional Original Type roll is performed. This grants the specific ships with access to Sequential AACIs extremely high trigger rates.
 
-<references/>
+Sequential AACIs are APIs '''34, 35, 36, 37, 38, 39, 40 and 41.'''
 
 =Stage 3 - Airstrike=
 

@@ -242,8 +242,10 @@ function Iterator.enemiesBy(context, n, pred, pre)
         local bi = U.ifind(CollectionEnemy, b:base_name())
         if ai and bi and ai ~= bi then
             return ai < bi
-        else
+        elseif a._id and b._id and a._id ~= b._id then
             return a._id < b._id
+        else
+        	return false
         end
     end)
     local i = 1
@@ -297,10 +299,11 @@ function Iterator.enemiesByTypeAndInstallationAndBoss(context, n)
         function(e) return true end
     
     local selectBoss = stringKey('boss', context, n, ''):lower()
+    -- treat unknwon _back as bosses? why it is unknwon?
     local predBoss = selectBoss == 'yes' and
-        function(e) return e._back <= -11 end
+        function(e) return (e._back or -11) <= -11 end
         or selectBoss == 'no' and
-        function(e) return e._back >= -10 end
+        function(e) return (e._back or -11) >= -10 end
         or
         function(e) return true end
     

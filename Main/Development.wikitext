@@ -17,7 +17,7 @@ Recipes range from 10-300 Fuel {{Fuel}}, Ammo {{Ammo}}, Steel {{Steel}} and Baux
 
 =Buildable Equipment=
 {| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
-|+ Drops
+|+ Buildable Equipment
 |-
 !style="text-align: center;  border-radius: 6px 0 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Equipment Type
 !style="text-align: center;  border-radius: 0 6px 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
@@ -36,7 +36,7 @@ Recipes range from 10-300 Fuel {{Fuel}}, Ammo {{Ammo}}, Steel {{Steel}} and Baux
 |[[12.7cm Twin High-angle Mount]]{{·}}[[15.2cm Naval Gun]]{{·}}[[15.5cm Triple Gun Mount (Secondary)]]{{·}}[[8cm High-angle Mount]]
 |-
 |style="text-align: center;" colspan="2"| Anti-Air Gun
-|[[7.7mm Machine Gun]]{{·}}[[12.7mm Machine Gun]]{{·}}[[25mm Twin Autocannon Mount]]{{·}}[[25mm Triple Autocannon Mount]]{{·}}[[25mm Single Autocannon Mount]]
+|[[7.7mm Machine Gun]]{{·}}[[12.7mm Single Machine Gun Mount]]{{·}}[[25mm Twin Autocannon Mount]]{{·}}[[25mm Triple Autocannon Mount]]{{·}}[[25mm Single Autocannon Mount]]
 |-
 |style="text-align: center;" colspan="2"| Anti-Air Fire Director
 |[[Type 91 Anti-Aircraft Fire Director]]
@@ -101,7 +101,8 @@ Note that some equipment can appear on more than one list. The lists below do no
 <tabber>Stock equipment=
 These equipment are obtainable as ship girl stock equipment. Equipment marked in '''bold''' are from event-only ships.
 
-{| class="mw-collapsible wikitable" style="width:100%;"
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|+ Stock equipment
 |-
 !style="text-align: center;  border-radius: 6px 0 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" colspan="2"|Equipment Type
 !style="text-align: center;  border-radius: 0 6px 0 0;border-style: solid; border-width: 1px; background-color:#99CCFF;" |Name
@@ -458,8 +459,11 @@ These equipment are currently unobtainable in game. They were event rewards, [[R
 </tabber>
 <br>
 
+=[[Development/Common_Recipes|Common Development recipes]]=
+{{:Development/Common_Recipes}}
+
 =See Also=
-[[Development/Common_Recipes]]<br>
+[[Development/Equipment_Rates]]<br>
 [[Arsenal]]<br>
 https://db.kcwiki.org/development/ PoiDB Development]<br>
 [https://tsundb.kc3.moe/development/pools TsunDB Development] 

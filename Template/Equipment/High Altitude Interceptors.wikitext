@@ -1,0 +1,8 @@
+<includeonly>{{#if:{{{equipment|}}}|{{PAGENAME}} is considered in-game as a '''high altitude interceptor'''.|<nowiki  />}}
+*'''[[:Category:High Altitude Interceptors|High Altitude Interceptors]]''' multiply the total air power of all land bases in Air Defense mode, when defending against enemy High-Altitude Bombers. The multiplier depends on the number of high altitude interceptors equipped:
+** '''0:''' x0.5 (Total Air Power is halved)
+**'''1:''' x0.8
+**'''2:''' x1.1
+**'''3 or more:''' x1.2</includeonly><noinclude>
+{{Equipment/High Altitude Interceptors<!--|equipment=true-->}}
+</noinclude>

@@ -47,7 +47,7 @@ return {
 		_armor = 210,
 		_torpedo = 90,
 		_evasion = nil,
-		_aa = 140,
+		_aa = 120,
 		_asw = 0,
 		_speed = 0,
 		_los = nil,

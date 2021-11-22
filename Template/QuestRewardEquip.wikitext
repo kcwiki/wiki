@@ -1,6 +1,6 @@
-<includeonly><div class="quest-ri"><div class="quest-rii"><div>[[{{#if:{{{image|}}}|{{{image}}}|File:Equipment Card {{#replace:{{{1|}}}|/|&#32;}}.png}}|64x64px|link={{#if:{{{link|}}}|{{{link}}}|{{#if:{{{image|}}}|{{{image}}}|{{{1|}}}}}}}]]</div><div class="quest-rit">{{#if:{{{1|}}}|{{{1}}}|{{{link|}}}}}</div>{{#if:{{{qty|}}}|<div class="quest-riq"><b>{{{qty}}}x</b></div>}}{{#if:{{{stars|}}}|<div class="quest-ris"><b>★{{{stars}}}</b></div>}}</div></div></includeonly><noinclude>
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly><div class="quest-ri"><div class="quest-rii"><div>[[{{#if:{{{image|}}}|{{{image}}}|File:Equipment Card {{#replace:{{{1|}}}|/|&#32;}}.png}}|64x64px|link={{#if:{{{link|}}}|{{{link}}}|{{#if:{{{image|}}}|{{{image}}}|{{{1|}}}}}}}]]</div><div class="quest-rit">{{#if:{{{1|}}}|{{{1}}}|{{{link|}}}}}</div>{{#if:{{{qty|}}}|<div class="quest-riq"><b>{{{qty}}}x</b></div>}}{{#if:{{{stars|}}}|<div class="quest-ris"><b>★{{{stars}}}</b></div>}}</div></div></includeonly><noinclude>
 A template for displaying Equipment cards in quest/event rewards.
-Shares properties with [[Template:QuestRewardItem]].
+Shares properties with [[Template:QuestRewardItem]] & [[Template:QuestRewardFurniture]].
 
 <pre>{{QuestRewardEquip|Suisei}}</pre>
 {{QuestRewardEquip|Suisei}}

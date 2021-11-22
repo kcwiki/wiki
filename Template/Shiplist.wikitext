@@ -9,8 +9,24 @@
 | style      = color:black; background-color:#FFFFFF; border:1px solid #1A5B70; width:100%;
 | abovestyle = background-color:#CCDDFF;
 | above = '''[[Ship Class|By Class]]{{·}}[[Ship List (Image)|Gallery]]{{·}}[[Ship list|Start Stats]]{{·}}[[Ship Maximum Status|Max Stats]]{{·}}[[Drop List]]{{·}}[[List of ships required by quests and expeditions|By Quests & Expeditions]]'''
-|group1 = <center>'''[[EliteDD|Destroyers]] (DD)'''</center>
+|group1 = <center>[[Coastal Defense Ships]] '''(DE)'''<br> (Escort Ships)</center>
 |list1 = {{Navbox|child
+  |basestyle  = background-color:#99CCFF;
+  |groupstyle = color:black; background-color:#CCDDFF 
+  |group1 = [[:Category:Shimushu_Class|Shimushu Class]]
+  |list1 = [[Shimushu]]{{·}}[[Kunashiri]]{{·}}[[Hachijou]]{{·}}[[Ishigaki]]
+  |group2 = [[:Category:Etorofu_Class|Etorofu Class]]
+  |list2 = [[Etorofu]]{{·}}[[Matsuwa]]{{·}}[[Sado]]{{·}}[[Tsushima]]{{·}}[[Hirato]]{{·}}[[Fukae]]
+  |group3 = [[:Category:Mikura_Class|Mikura Class]]
+  |list3 = [[Mikura]]{{·}}[[Yashiro]]
+  |group4 = [[:Category:Hiburi_Class|Hiburi Class]]
+  |list4 = [[Hiburi]]{{·}}[[Daitou]]{{·}}[[Shounan]]
+  |group5 = Type D
+  |list5 = [[Kaiboukan No.4]]{{·}}[[Kaiboukan No.30|No.30]]
+}}
+
+|group2 = <center>'''[[EliteDD|Destroyers]] (DD)'''</center>
+|list2 = {{Navbox|child
   |basestyle  = background-color:#99CCFF;
   |groupstyle = color:black; background-color:#CCDDFF 
   |group1 = [[:Category:Kamikaze Class|Kamikaze Class]]
@@ -53,22 +69,6 @@
   |list19 = [[Tashkent]]
  }}
 
-|group2 = <center>[[Destroyer_Escorts|Destroyer Escorts]] '''(DE)'''<br> (Escort Ships)</center>
-|list2 = {{Navbox|child
-  |basestyle  = background-color:#99CCFF;
-  |groupstyle = color:black; background-color:#CCDDFF 
-  |group1 = [[:Category:Shimushu_Class|Shimushu Class]]
-  |list1 = [[Shimushu]]{{·}}[[Kunashiri]]{{·}}[[Hachijou]]{{·}}[[Ishigaki]]
-  |group2 = [[:Category:Etorofu_Class|Etorofu Class]]
-  |list2 = [[Etorofu]]{{·}}[[Matsuwa]]{{·}}[[Sado]]{{·}}[[Tsushima]]{{·}}[[Hirato]]{{·}}[[Fukae]]
-  |group3 = [[:Category:Mikura_Class|Mikura Class]]
-  |list3 = [[Mikura]]{{·}}[[Yashiro]]
-  |group4 = [[:Category:Hiburi_Class|Hiburi Class]]
-  |list4 = [[Hiburi]]{{·}}[[Daitou]]
-  |group5 = Type D
-  |list5 = [[Kaiboukan No.4]]
-}}
-
 |group3 = <center>[[Elitecl|Light Cruisers]] '''(CL)'''</center>
 |list3 = [[Tenryuu]]{{·}}[[Tatsuta]]{{·}}[[Kuma]]{{·}}[[Tama]]{{·}}[[Kitakami]]{{·}}[[Ooi]]{{·}}[[Kiso]]{{·}}[[Nagara]]{{·}}[[Isuzu]]{{·}}[[Natori]]{{·}}[[Yura]]{{·}}[[Kinu]]{{·}}[[Abukuma]]{{·}}[[Sendai]]{{·}}[[Jintsuu]]{{·}}[[Naka]]{{·}}[[Yuubari]]{{·}}[[Agano]]{{·}}[[Noshiro]]{{·}}[[Yahagi]]{{·}}[[Sakawa]]{{·}}[[Ooyodo]]{{·}}[[Duca degli Abruzzi]]{{·}}[[Giuseppe Garibaldi]]{{·}}[[Honolulu]]{{·}}[[Helena]]{{·}}[[Atlanta]]{{·}}[[Sheffield]]{{·}}[[Gotland]]{{·}}[[De Ruyter]]{{·}}[[Perth]]
 
@@ -76,22 +76,22 @@
 |list4 = [[Furutaka]]{{·}}[[Kako]]{{·}}[[Aoba]]{{·}}[[Kinugasa]]{{·}}[[Myoukou]]{{·}}[[Nachi]]{{·}}[[Ashigara]]{{·}}[[Haguro]]{{·}}[[Takao]]{{·}}[[Atago]]{{·}}[[Maya]]{{·}}[[Choukai]]{{·}}[[Mogami]]{{·}}[[Mikuma]]{{·}}[[Suzuya]]{{·}}[[Kumano]]{{·}}[[Tone]]{{·}}[[Chikuma]]{{·}}[[Prinz Eugen]]{{·}}[[Zara]]{{·}}[[Pola]]{{·}}[[Northampton]]{{·}}[[Houston]]
 
 |group5 = <center>[[elitebb|Battleships]] '''(BB)'''</center>
-|list5 = [[Kongou]]{{·}}[[Hiei]]{{·}}[[Haruna]]{{·}}[[Kirishima]]{{·}}[[Fusou]]{{·}}[[Yamashiro]]{{·}}[[Ise]]{{·}}[[Hyuuga]]{{·}}[[Nagato]]{{·}}[[Mutsu]]{{·}}[[Yamato]]{{·}}[[Musashi]]{{·}}[[Bismarck]]{{·}}[[Littorio|Littorio/Italia]]{{·}}[[Roma]]{{·}}[[Colorado]]{{·}}[[Washington]]{{·}}[[South Dakota]]{{·}}[[Iowa]]{{·}}[[Warspite]]{{·}}[[Nelson]]{{·}}[[Richelieu]]{{·}}[[Gangut|Gangut/Oktyabrskaya Revolyutsiya]]
+|list5 = [[Kongou]]{{·}}[[Hiei]]{{·}}[[Haruna]]{{·}}[[Kirishima]]{{·}}[[Fusou]]{{·}}[[Yamashiro]]{{·}}[[Ise]]{{·}}[[Hyuuga]]{{·}}[[Nagato]]{{·}}[[Mutsu]]{{·}}[[Yamato]]{{·}}[[Musashi]]{{·}}[[Bismarck]]{{·}}[[Littorio|Littorio/Italia]]{{·}}[[Roma]]{{·}}[[Conte di Cavour]]{{·}}[[Colorado]]{{·}}[[Washington]]{{·}}[[South Dakota]]{{·}}[[Iowa]]{{·}}[[Warspite]]{{·}}[[Nelson]]{{·}}[[Richelieu]]{{·}}[[Gangut|Gangut/Oktyabrskaya Revolyutsiya]]
 
 |group6 = <center>[[elitecvl|Light Carriers]] '''(CVL)'''</center>
 |list6 = [[Houshou]]{{·}}[[Ryuujou]]{{·}}[[Taigei|Ryuuhou]]{{·}}[[Shouhou]]{{·}}[[Zuihou]]{{·}}[[Hiyou]]{{·}}[[Junyou]]{{·}}[[Chitose]]{{·}}[[Chiyoda]]{{·}}[[Kasuga Maru|Kasuga Maru/Taiyou]]{{·}}[[Shinyou]]{{·}}[[Suzuya]]{{·}}[[Kumano]]{{·}}[[Gambier Bay]]
 
 |group7 = <center>[[elitecv|Standard Carriers]] '''(CV)'''</center>
-|list7 = [[Akagi]]{{·}}[[Kaga]]{{·}}[[Souryuu]]{{·}}[[Hiryuu]]{{·}}[[Shoukaku]]{{·}}[[Zuikaku]]{{·}}[[Unryuu]]{{·}}[[Amagi]]{{·}}[[Katsuragi]]{{·}}[[Taihou]]{{·}}[[Graf Zeppelin]]{{·}}[[Aquila]]{{·}}[[Saratoga]]{{·}}[[Intrepid]]{{·}}[[Hornet]]{{·}}[[Ark Royal]]
+|list7 = [[Akagi]]{{·}}[[Kaga]]{{·}}[[Souryuu]]{{·}}[[Hiryuu]]{{·}}[[Shoukaku]]{{·}}[[Zuikaku]]{{·}}[[Unryuu]]{{·}}[[Amagi]]{{·}}[[Katsuragi]]{{·}}[[Taihou]]{{·}}[[Graf Zeppelin]]{{·}}[[Aquila]]{{·}}[[Saratoga]]{{·}}[[Intrepid]]{{·}}[[Hornet]]{{·}}[[Ark Royal]]{{·}}[[Victorious]]
 
 |group8 = <center>[[elitess|Submarines]] '''(SS)'''</center>
-|list8 = [[I-13]]{{·}}[[I-14]]{{·}}[[I-400]]{{·}}[[I-401]]{{·}}[[I-168]]{{·}}[[I-8]]{{·}}[[I-19]]{{·}}[[I-26]]{{·}}[[I-47]]{{·}}[[I-58]]{{·}}[[I-203]]{{·}}[[Maruyu]]{{·}}[[U-511|U-511/Ro-500]]{{·}}[[Luigi Torelli|Luigi Torelli/UIT-25/I-504]]
+|list8 = [[I-13]]{{·}}[[I-14]]{{·}}[[I-400]]{{·}}[[I-401]]{{·}}[[I-168]]{{·}}[[I-8]]{{·}}[[I-19]]{{·}}[[I-26]]{{·}}[[I-47]]{{·}}[[I-58]]{{·}}[[I-203]]{{·}}[[Maruyu]]{{·}}[[U-511|U-511/Ro-500]]{{·}}[[Luigi Torelli|Luigi Torelli/UIT-25/I-504]]{{·}}[[Scamp]]
 
 |group9 = <center>[[eliteav|Seaplane Tenders]] '''(AV)'''</center>
 |list9 = [[Kamoi]]{{·}}[[Chitose]]{{·}}[[Chiyoda]]{{·}}[[Mizuho]]{{·}}[[Nisshin]]{{·}}[[Akitsushima]]{{·}}[[Commandant Teste]]
 
 |group10 = <center>[[Auxiliary Ships]]</center>
-|list10 = [[Jingei]]{{·}}[[Taigei]]{{·}}[[Kamoi]]{{·}}[[Hayasui]]{{·}}[[Souya]]{{·}}[[Shinshuu Maru]]{{·}}[[Akitsu Maru]]{{·}}[[Akashi]]{{·}}[[Katori]]{{·}}[[Kashima]]
+|list10 = [[Jingei]]{{·}}[[Chougei]]{{·}}[[Taigei]]{{·}}[[Kamoi]]{{·}}[[Hayasui]]{{·}}[[Souya]]{{·}}[[Shinshuu Maru]]{{·}}[[Akitsu Maru]]{{·}}[[Akashi]]{{·}}[[Katori]]{{·}}[[Kashima]]
 
 | belowstyle = background-color:#CCDDFF; 
 | below = [[Enemy Vessel|'''<span style="color:crimson">Enemy Vessels</span>''']]

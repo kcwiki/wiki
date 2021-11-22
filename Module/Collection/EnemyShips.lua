@@ -1,7 +1,3 @@
--- [[Category:Collection modules]]
--- [[Category:Generated modules]]
-
--- all enemy ship forms, sorted by api_id
 return {
   "Destroyer I-Class", -- 1501
   "Destroyer Ro-Class", -- 1502
@@ -341,64 +337,64 @@ return {
   "European Water Princess/Damaged", -- 1843
   "European Water Princess/Damaged II", -- 1844
   "European Water Princess/Damaged III", -- 1845
-  "Abyssal Nimbus Princess", --1846
-  "Abyssal Nimbus Princess/II", --1847
-  "Abyssal Nimbus Princess/III", --1848
-  "Abyssal Nimbus Princess/Damaged", --1849
-  "Abyssal Nimbus Princess/Damaged II", --1850
-  "Abyssal Nimbus Princess/Damaged III", --1851
-  "Abyssal Sun Princess", --1852
-  "Abyssal Sun Princess/II", --1853
-  "Abyssal Sun Princess/III", --1854
-  "Abyssal Sun Princess/Damaged", --1855
-  "Abyssal Sun Princess/Damaged II", --1856
-  "Abyssal Sun Princess/Damaged III", --1857
-  "Destroyer Ni-Class/Kai", --1858
-  "Destroyer Ni-Class/Kai Late Model", --1859
-  "Destroyer Ni-Class/Kai Late Model Elite", --1860
-  "Destroyer Ni-Class/Kai Late Model Flagship", --1861
+  "Abyssal Nimbus Princess", -- 1846
+  "Abyssal Nimbus Princess/II", -- 1847
+  "Abyssal Nimbus Princess/III", -- 1848
+  "Abyssal Nimbus Princess/Damaged", -- 1849
+  "Abyssal Nimbus Princess/Damaged II", -- 1850
+  "Abyssal Nimbus Princess/Damaged III", -- 1851
+  "Abyssal Sun Princess", -- 1852
+  "Abyssal Sun Princess/II", -- 1853
+  "Abyssal Sun Princess/III", -- 1854
+  "Abyssal Sun Princess/Damaged", -- 1855
+  "Abyssal Sun Princess/Damaged II", -- 1856
+  "Abyssal Sun Princess/Damaged III", -- 1857
+  "Destroyer Ni-Class/Kai", -- 1858
+  "Destroyer Ni-Class/Kai Late Model", -- 1859
+  "Destroyer Ni-Class/Kai Late Model Elite", -- 1860
+  "Destroyer Ni-Class/Kai Late Model Flagship", -- 1861
   "Light Cruiser Tsu-Class/Flagship", -- 1862
   "Heavy Cruiser Princess/VII", -- 1863
   "Heavy Cruiser Princess/VIII", -- 1864
-  "Northern Little Sister", --1865
-  "Northern Little Sister/II", --1866
-  "Northern Little Sister/III", --1867
-  "Northern Little Sister/Damaged", --1868
-  "Northern Little Sister/Damaged II", --1869
-  "Northern Little Sister/Damaged III", --1870
-  "Abyssal Pacific Princess", --1871
-  "Abyssal Pacific Princess/II", --1872
-  "Abyssal Pacific Princess/III", --1873
-  "Abyssal Pacific Princess/Damaged", --1874
-  "Abyssal Pacific Princess/Damaged II", --1875
-  "Abyssal Pacific Princess/Damaged III", --1876
-  "Abyssal Mediterranean Princess", --1877
-  "Abyssal Mediterranean Princess/II", --1878
-  "Abyssal Mediterranean Princess/III", --1879
-  "Abyssal Mediterranean Princess/Damaged", --1880
-  "Abyssal Mediterranean Princess/Damaged II", --1881
-  "Abyssal Mediterranean Princess/Damaged III", --1882
-  "Anzio Princess", --1883
-  "Anzio Princess/II", --1884
-  "Anzio Princess/III", --1885
-  "Anzio Princess/Damaged", --1886
-  "Anzio Princess/Damaged II", --1887
-  "Anzio Princess/Damaged III", --1888
+  "Northern Little Sister", -- 1865
+  "Northern Little Sister/II", -- 1866
+  "Northern Little Sister/III", -- 1867
+  "Northern Little Sister/Damaged", -- 1868
+  "Northern Little Sister/Damaged II", -- 1869
+  "Northern Little Sister/Damaged III", -- 1870
+  "Abyssal Pacific Princess", -- 1871
+  "Abyssal Pacific Princess/II", -- 1872
+  "Abyssal Pacific Princess/III", -- 1873
+  "Abyssal Pacific Princess/Damaged", -- 1874
+  "Abyssal Pacific Princess/Damaged II", -- 1875
+  "Abyssal Pacific Princess/Damaged III", -- 1876
+  "Abyssal Mediterranean Princess", -- 1877
+  "Abyssal Mediterranean Princess/II", -- 1878
+  "Abyssal Mediterranean Princess/III", -- 1879
+  "Abyssal Mediterranean Princess/Damaged", -- 1880
+  "Abyssal Mediterranean Princess/Damaged II", -- 1881
+  "Abyssal Mediterranean Princess/Damaged III", -- 1882
+  "Anzio Princess", -- 1883
+  "Anzio Princess/II", -- 1884
+  "Anzio Princess/III", -- 1885
+  "Anzio Princess/Damaged", -- 1886
+  "Anzio Princess/Damaged II", -- 1887
+  "Anzio Princess/Damaged III", -- 1888
   "Airfield Princess/VIII", -- 1889
   "Airfield Princess/IX", -- 1890
   "Airfield Princess/X", -- 1891
   "Airfield Princess/XI", -- 1892
   "Airfield Princess/XII", -- 1893
   "Airfield Princess/XIII", -- 1894
-  "Heavy Cruiser Ne-Class/Kai", --1895
-  "Heavy Cruiser Ne-Class/Kai II", --1896
-  "Heavy Cruiser Ne-Class/Kai III", --1897
-  "Batavia Princess", --1898
-  "Batavia Princess/II", --1899
-  "Batavia Princess/III", --1900
-  "Batavia Princess/Damaged", --1901
-  "Batavia Princess/Damaged II", --1902
-  "Batavia Princess/Damaged III", --1903
+  "Heavy Cruiser Ne-Class/Kai", -- 1895
+  "Heavy Cruiser Ne-Class/Kai II", -- 1896
+  "Heavy Cruiser Ne-Class/Kai III", -- 1897
+  "Batavia Princess", -- 1898
+  "Batavia Princess/II", -- 1899
+  "Batavia Princess/III", -- 1900
+  "Batavia Princess/Damaged", -- 1901
+  "Batavia Princess/Damaged II", -- 1902
+  "Batavia Princess/Damaged III", -- 1903
   "Light Cruiser He-Class/Kai Flagship", -- 1904
   "Light Cruiser He-Class/Kai Flagship II", -- 1905
   "Aircraft Carrier Princess/Kai", -- 1906
@@ -448,10 +444,10 @@ return {
   "Destroyer Forest Princess/Damaged III", -- 1950
   "Destroyer Na-Class/Late Model II Elite", -- 1951
   "Destroyer Na-Class/Late Model II Flagship", -- 1952
-  "Heavy Cruiser Ne-Class/Kai Summer Mode", --1953
-  "Heavy Cruiser Ne-Class/Kai Summer Mode II", --1954
-  "Heavy Cruiser Ne-Class/Kai Summer Mode III", --1955
-  "Heavy Cruiser Ne-Class/Kai B Summer Mode", --1956
+  "Heavy Cruiser Ne-Class/Kai Summer Mode", -- 1953
+  "Heavy Cruiser Ne-Class/Kai Summer Mode II", -- 1954
+  "Heavy Cruiser Ne-Class/Kai Summer Mode III", -- 1955
+  "Heavy Cruiser Ne-Class/Kai B Summer Mode", -- 1956
   "Light Cruiser Princess/B", -- 1957
   "Light Cruiser Princess/B II", -- 1958
   "Light Cruiser Princess/B III", -- 1959
@@ -508,6 +504,50 @@ return {
   "New Light Cruiser Princess/Damaged II", -- 2010
   "New Light Cruiser Princess/Damaged III", -- 2011
   "Light Cruiser To-Class/Elite II", -- 2012
-  "Transport Ship Wa-Class/B Elite", -- 2013
-  "Transport Ship Wa-Class/B Flagship", -- 2014
+  "Transport Ship Wa-Class B/Elite", -- 2013
+  "Transport Ship Wa-Class B/Flagship", -- 2014
+  "Supply Depot Princess B/Vacation Mode", -- 2015
+  "Supply Depot Princess B/Vacation Mode II", -- 2016
+  "Supply Depot Princess B/Vacation Mode III", -- 2017
+  "Supply Depot Princess B/Vacation Mode IV", -- 2018
+  "Supply Depot Princess B/Vacation Mode Damaged", -- 2019
+  "Supply Depot Princess B/Vacation Mode Damaged II", -- 2020
+  "Supply Depot Princess B/Vacation Mode Damaged III", -- 2021
+  "Supply Depot Princess B/Vacation Mode Damaged IV", -- 2022
+  "Harbour Summer Princess B", -- 2023
+  "Harbour Summer Princess B/II", -- 2024
+  "Harbour Summer Princess B/III", -- 2025
+  "Harbour Summer Princess B/Damaged", -- 2026
+  "Harbour Summer Princess B/Damaged II", -- 2027
+  "Harbour Summer Princess B/Damaged III", -- 2028
+  "Mediterranean Dreadnought Water Princess", -- 2029
+  "Mediterranean Dreadnought Water Princess/II", -- 2030
+  "Mediterranean Dreadnought Water Princess/III", -- 2031
+  "Mediterranean Dreadnought Water Princess/Damaged", -- 2032
+  "Mediterranean Dreadnought Water Princess/Damaged II", -- 2033
+  "Mediterranean Dreadnought Water Princess/Damaged III", -- 2034
+  "Abyssal Mediterranean Princess/Vacation Mode", -- 2035
+  "Abyssal Mediterranean Princess/Vacation Mode II", -- 2036
+  "Abyssal Mediterranean Princess/Vacation Mode III", -- 2037
+  "Abyssal Mediterranean Princess/Vacation Mode Damaged", -- 2038
+  "Abyssal Mediterranean Princess/Vacation Mode Damaged II", -- 2039
+  "Abyssal Mediterranean Princess/Vacation Mode Damaged III", -- 2040
+  "European Armored Carrier Princess", -- 2041
+  "European Armored Carrier Princess/II", -- 2042
+  "European Armored Carrier Princess/III", -- 2043
+  "European Armored Carrier Princess/Damaged", -- 2044
+  "European Armored Carrier Princess/Damaged II", -- 2045
+  "European Armored Carrier Princess/Damaged III", -- 2046
+  "Airfield Princess/XIV", -- 2047
+  "Airfield Princess/XV", -- 2048
+  "New Submarine Princess/Flagship V", -- 2049
+  "Destroyer Na-Class/Mass-Produced Model IIe", -- 2050
+  "Destroyer Na-Class/Mass-Produced Model IIe Elite", -- 2051
+  "Destroyer Na-Class/Mass-Produced Model IIe Flagship", -- 2052
+  "Submarine Shark Water Demon/Flagship", -- 2053
+  "Submarine Shark Water Demon/Flagship II", -- 2054
+  "Submarine Shark Water Demon/Flagship III", -- 2055
+  "Submarine Shark Water Demon/Flagship Damaged", -- 2056
+  "Submarine Shark Water Demon/Flagship Damaged II", -- 2057
+  "Submarine Shark Water Demon/Flagship Damaged III", -- 2058
 }

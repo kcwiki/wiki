@@ -240,10 +240,10 @@ return {
         _scrap_steel = 20,
         _scrap_baux = 6,
         _equipment = {
-            { equipment = false, size = 15 },
+            { equipment = false, size = 17 },
             { equipment = false, size = 12 },
             { equipment = false, size = 12 },
-            { equipment = false, size = 8 },
+            { equipment = false, size = 9 },
         },
         _voice_flag = 3,
     },

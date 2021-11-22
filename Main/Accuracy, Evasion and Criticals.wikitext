@@ -58,7 +58,7 @@ Below are the common variables used in all accuracy formulas:
 
 * <math>\text{Level}</math> is the level of the attacking ship.
 * <math>\text{Luck}</math> is the luck {{Luck}} of the attacking ship.
-* <math>\text{Acc}_{equip}</math> is the total accuracy {{Hit}} provided by the equipment calculated as <math>\text{Acc}_\text{equip base} + \text{Mod}_\text{Impr} \times \sqrt{\bigstar}</math>
+* <math>\text{Acc}_\text{equip}</math> is the total accuracy {{Hit}} provided by the equipment calculated as <math>\text{Acc}_\text{equip base} + \text{Mod}_\text{Impr} \times \sqrt{\bigstar}</math>
 ** <math>\text{Acc}_\text{equip base}</math> is the base accuracy {{Hit}} displayed on the equipment.
 ** <math>\text{Mod}_\text{Impr}</math> is the equipment's [[Akashi%27s_Improvement_Arsenal|improvement]] modifier for the applicable attack.
 ** <math>\bigstar</math> is the equipment's improvement level.
@@ -76,20 +76,48 @@ Below are the common variables used in all accuracy formulas:
 
 ===Daytime Shelling===
 
-This formula applies to both surface shelling and carrier attacks during daytime combat and support. It does not apply to carrier airstrikes.
+This formula applies to both surface shelling and carrier attacks during daytime combat. It does not apply to carrier airstrikes.
 
-<math>\text{Accuracy}_\text{shelling} = \biggl\lfloor \left( \left( \text{Acc}_\text{base} + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale} + \text{Mod}_\text{fit} \right) \times \text{Mod}_\text{spotting} \times \text{Mod}_\text{AP} \biggr\rfloor </math>
+<math>\text{Accuracy}_\text{shelling} = \biggl\lfloor \left( \left( \text{Acc}_\text{base} + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_\text{equip} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale} + \text{Mod}_\text{fit} \right) \times \text{Mod}_\text{spotting} \times \text{Mod}_\text{AP} \biggr\rfloor </math>
 
 * <math>\text{Acc}_\text{base}</math> is the base accuracy value of the attack.
-** Single Fleet/CTF Main: <math>90</math>
-** STF Main: <math>57</math>
-** STF Escort/CTF Escort: <math>74</math>
-*** The escort flagship has her accuracy decreased by 10 to <math>64</math>
+** These values apply for Player as attacker and Enemy as target. Values for Enemy attacker vs Player target are unclear/unknown, except single vs single = 90.
+
+{| class="wikitable"
+|+ Fleet type base accuracy values for Player side<ref>https://twitter.com/Xe_UCH/status/1172380690207215616</ref><ref>https://twitter.com/Divinity__123/status/1447941755182227458</ref>
+|-
+|rowspan=2 colspan=2|'''<big>vs.</big>'''||colspan=2 style="text-align:center"| '''Enemy'''
+|-
+| '''Single Fleet''' || '''Combined Fleet'''
+|-
+|rowspan=7|'''Player'''
+| '''Single Fleet''' || 90 || 80
+|-
+| '''CTF Main''' || 78 || 77
+|-
+| '''CTF Escort''' || 45 || 67
+|-
+| '''STF Main''' || 45 || 77
+|-
+| '''STF Escort''' || 67 || 67
+|-
+| '''TCF Main''' || 54 || 54
+|-
+| '''TCF Escort''' || 45 || 67
+|}
+
 * <math>\text{Mod}_\text{formation}</math> for '''shelling and carrier attacks''' is as follows:
 ** Line Ahead/Diamond: <math>1.0</math>
 ** Double Line/Echelon/Line Abreast/Vanguard (Bottom): <math>1.2</math>
+*** Exception, certain combinations reduce this to <math>1.0</math>:
+**** Double Line attacking Line Abreast
+**** Echelon attacking Line Ahead
+**** Line Abreast attacking Echelon
 ** Vanguard (Top): <math>0.8</math>
-** Accuracy modifiers for Combined Fleets is still unknown.
+** Combined Fleet Cruising Formation 1: <math>?</math>
+** Combined Fleet Cruising Formation 2: <math>1.0</math>
+** Combined Fleet Cruising Formation 3: <math>?</math>
+** Combined Fleet Cruising Formation 4: <math>1.1</math>
 * <math>\text{Mod}_\text{fit}</math> is the fit bonus or penalty that is applicable. Please see [[Gun Fit Bonuses]] for more details.
 * <math>\text{Mod}_\text{spotting}</math> is the artillery spotting bonus if applicable. Please see [[Artillery_Spotting#Attack_Types|Artillery Spotting]] for more details.
 ** Main/Main: <math>1.2</math>
@@ -132,18 +160,31 @@ RADAR
 * It is '''inadvisable''' to run any of the other setups beyond the most basic Gun+AP. This is because the other setups will interfere with artillery spotting and cost you better attack bonuses.
 * Unlike when calculating damage, the bonus applies to all targets.
 
+
+<references/>
+
+===Shelling Support===
+
+This formula applies to surface shelling and carrier attacks during shelling support.
+
+<math>\text{Accuracy}_\text{shelling support} = \biggl\lfloor \left( 64 + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_\text{equip base} \right) \times \text{Mod}_\text{formation}? \times \text{Mod}_\text{morale} \biggr\rfloor </math>
+
+* <math>\text{Acc}_\text{equip base}</math> does not include accuracy from improvement level.
+* <math>\text{Mod}_\text{formation}</math> exists in KanColle Kai, but unclear if it applies to browser KanColle using the Daytime Shelling formation modifier of the main fleet.
+
 ===Torpedo Attacks===
 
 This formula only applies to opening and closing torpedo attacks in day.
 
-<math>\text{Accuracy}_\text{torpedo} = \left( 85 + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} + \left \lfloor{\frac{\text{Attack}_\text{torp}}{5}} \right \rfloor + \text{Mod}_\text{ship} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale}</math>
+<math>\text{Accuracy}_\text{torpedo} = \left( 85 + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_\text{equip} + \left \lfloor{\frac{\text{Attack}_\text{torp}}{5}} \right \rfloor + \text{Mod}_\text{ship} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale}</math>
 
 * <math>\text{Mod}_\text{formation}</math> for '''torpedo attacks''' is as follows:
-** Line Ahead/Vanguard (Top & Bottom): <math>1.0</math>
+** Line Ahead: <math>1.0</math>
 ** Double Line: <math>0.8</math>
 ** Diamond: <math>0.4</math>
 ** Echelon: <math>0.6</math>
 ** Line Abreast: <math>0.3</math>
+** Vanguard (Top & Bottom): <math>?</math>
 ** Accuracy modifiers for Combined Fleets is still unknown.
 * <math>\text{Attack}_\text{torp}</math> is the final basic torpedo attack power of the ship. Please see [[Damage_Calculations#Torpedo_Attacks|Damage Calculations]] for details.
 ** The figure incorporates any pre- and post-cap modifiers and takes into account the attack cap.
@@ -163,19 +204,18 @@ This formula applies to the airstrikes performed during the aerial combat phase 
 
 This formula applies to all ASW attacks in combat phase and support.
 
-<math>\text{Accuracy}_\text{ASW} = \left( 80 + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} + 2\sum \text{ASW}_\text{sonar} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale} \times \text{Mod}_\text{synergy}</math>
+<math>\text{Accuracy}_\text{ASW} = \left( 80 + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_\text{Impr} + 2\sum \text{ASW}_\text{sonar} \right) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale} \times \text{Mod}_\text{synergy}</math>
 
 * <math>\text{Mod}_\text{formation}</math> for '''ASW''' is as follows:
 ** Line Ahead/Diamond: <math>1.0</math>
-** Double Line/Echelon/Line Abreast/Vanguard (Bottom): <math>1.2</math>
-** Vanguard (Top): <math>0.8</math>
+** Double Line/Echelon/Line Abreast: <math>1.2</math>
+*** Exception, certain combinations reduce this to <math>1.0</math>:
+**** Double Line attacking Line Abreast
+**** Echelon attacking Line Ahead
+**** Line Abreast attacking Echelon
+** Vanguard (Top & Bottom): <math>?</math>
 ** Accuracy modifiers for Combined Fleets is still unknown.
-* <math>\text{Mod}_\text{formation}</math> for '''ASW''' is as follows:
-** Line Ahead/Diamond: <math>1.0</math>
-** Double Line: <math>0.8</math>
-** Echelon/Line Abreast/Vanguard (Bottom): <math>1.2</math>
-** Vanguard (Top): <math>0.8</math>
-** Accuracy modifiers for Combined Fleets is still unknown.
+* <math>\text{Acc}_\text{Impr}</math> does '''not''' include {{Hit}} accuracy stat of the equipment, only the amount from improvement related to ASW accuracy
 * <math>\text{ASW}_\text{sonar}</math> is the '''base''' ASW stat of any sonars equipped.
 * <math>\text{Mod}_\text{synergy}</math> is the synergy bonus from equipping certain combinations of ASW equipment.
 ** Synergy bonus is either currently bugged or so small it cannot be tested.
@@ -189,15 +229,16 @@ This formula applies to all ASW attacks in combat phase and support.
 
 This formula applies to '''all''' night battle attacks. 
 
-<math>\text{Accuracy}_\text{NB} = \bigl( \text{Mod}_\text{contact} \left( 69 + \text{Mod}_\text{star shell} \right) + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_{equip} \bigr) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale} \times \text{Mod}_\text{special} + \text{Mod}_\text{searchlight} + \text{Mod}_\text{20.3cm} + \text{Mod}_\text{fit}</math>
+<math>\text{Accuracy}_\text{NB} = \bigl( \text{Mod}_\text{contact} \left( 69 + \text{Mod}_\text{star shell} \right) + 2\sqrt{\text{Level}} + 1.5\sqrt{\text{Luck}} + \sum_{\text{All Equips}} \text{Acc}_\text{equip} \bigr) \times \text{Mod}_\text{formation} \times \text{Mod}_\text{morale} \times \text{Mod}_\text{special} + \text{Mod}_\text{searchlight} + \text{Mod}_\text{20.3cm} + \text{Mod}_\text{fit}</math>
 
 * <math>\text{Mod}_\text{contact}</math> is the night contact modifier of <math>1.1</math> if triggered, <math>1.0</math> otherwise.
 * <math>\text{Mod}_\text{star shell}</math> is the star shell modifier of of <math>5</math> if triggered, <math>0</math> otherwise.
 * <math>\text{Mod}_\text{formation}</math> for night battle is as follows:
-** Line Ahead/Vanguard? (Top & Bottom): <math>1.0</math>
+** Line Ahead: <math>1.0</math>
 ** Double Line/Echelon: <math>0.9</math>
 ** Diamond: <math>0.7</math>
 ** Line Abreast: <math>0.8</math>
+** Vanguard (Top & Bottom): <math>?</math>
 ** Accuracy modifiers for Combined Fleets is still unknown.
 * <math>\text{Mod}_\text{special}</math> is the night battle special attack modifier. Please see [[Night Battle#Attack_Types|Night Battle]] for more details.
 ** Torpedo Cut-in: <math>1.65</math>
@@ -217,7 +258,7 @@ This formula applies to '''all''' night battle attacks.
 
 This formula applies to attacks made by [[Land-Based Air Squadron]]s. The accuracy is calculated '''independently''' per squadron.
 
-<math>\text{Accuracy}_\text{LBAS} = \left( 95 + 12\sqrt{\text{Acc}_\text{equip}} \right) \times \text{Mod}_\text{morale} + \text{Mod}_\text{proficiency}</math>
+<math>\text{Accuracy}_\text{LBAS} = \left( 95 + ( 7 \times {\text{Acc}_\text{equip}}) \right) \times \text{Mod}_\text{morale} + \text{Mod}_\text{proficiency}</math> <ref>https://twitter.com/yukicacoon/status/1432364331694374914</ref>
 
 * <math>\text{Acc}_\text{equip}</math> is the accuracy stat of the plane.
 * <math>\text{Mod}_\text{morale}</math> is the morale modifier of the plane.
@@ -225,6 +266,7 @@ This formula applies to attacks made by [[Land-Based Air Squadron]]s. The accura
 ** Red morale: <math>0.8</math>
 * <math>\text{Mod}_\text{proficiency}</math> is the plane proficiency accuracy bonus. Please see [[Plane Proficiency]] for more details.
 ** The value is <math>12</math> for <span style="color:#FFCE00; text-shadow: 0 0 5px #FFCE00;">>></span> ranked planes.
+<references/>
 
 =Evasion Formulas=
 

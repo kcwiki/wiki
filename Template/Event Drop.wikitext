@@ -1,4 +1,4 @@
-{|class="wikitable mw-collapsible mw-collapsed" style="width:100%;text-align:center"
+<includeonly>{|class="wikitable mw-collapsible {{#if:{{{uncollapsed|}}}||mw-collapsed}}" style="width:100%;text-align:center"
 !{{Edit|Template:Event Drop}}
 !colspan="100"|Press [Expand] to see the table, or [Edit] to edit it
 |-
@@ -14,7 +14,7 @@
 !colspan="2" style="font-size:110%;"|2018 Events
 !colspan="4" style="font-size:110%;"|2019 Events
 !colspan="3" style="font-size:110%;"|2020 Events
-!colspan="1" style="font-size:110%;"|2021 Events
+!colspan="2" style="font-size:110%;"|2021 Events
 |-
 !style="width:20%;"|'''Portrait'''<br />'''Name'''
 !{{VerticalTD|td-attribute={{Detail|target=old-data}}|td-style=width:40px|[[Fall 2014 Event|Fall]]}}
@@ -40,6 +40,7 @@
 !{{VerticalTD|td-style=width:40px; font-size:100%|[[Rainy-Summer 2020 Event|Rainy-Summer]]}}
 !{{VerticalTD|td-style=width:40px; font-size:100%|[[Fall 2020 Event|Fall]]}}
 !{{VerticalTD|td-style=width:40px; font-size:100%|[[Spring 2021 Event|Spring]]}}
+!{{VerticalTD|td-style=width:40px; font-size:100%|[[Summer 2021 Event|Summer]]}}
 |-
 |{{Ship/Banner|Akizuki}}<br />[[Akizuki]]
 |{{Detail|target=old-data}} style="background:lime"|R
@@ -63,6 +64,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |-
@@ -90,6 +92,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|U-511}}<br />[[U-511]]
 |{{Detail|target=old-data}}|
@@ -115,6 +118,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Amagi}}<br />[[Amagi]]
 |{{Detail|target=old-data}}|
@@ -140,6 +144,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Katsuragi}}<br />[[Katsuragi]]
 |{{Detail|target=old-data}} colspan="2"|
@@ -158,6 +163,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
@@ -188,6 +194,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Roma}}<br />[[Roma]]
 |{{Detail|target=old-data}} colspan="2"|
@@ -212,6 +219,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Teruzuki}}<br />[[Teruzuki]]
 |{{Detail|target=old-data}} colspan="3"|
@@ -235,6 +243,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Graf Zeppelin}}<br />[[Graf Zeppelin]]
 |{{Detail|target=old-data}} colspan="4"|
@@ -254,6 +263,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
@@ -278,6 +288,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Iowa}}<br />[[Iowa]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -293,6 +304,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
@@ -320,6 +332,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Harukaze}}<br />[[Harukaze]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -341,6 +354,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Aquila}}<br />[[Aquila]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -361,6 +375,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|I-26}}<br />[[I-26]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -381,6 +396,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Commandant Teste}}<br />[[Commandant Teste]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -400,6 +416,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Matsukaze}}<br />[[Matsukaze]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -418,6 +435,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|I-14}}<br />[[I-14]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -434,6 +452,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |-
@@ -454,6 +473,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Kasuga Maru}}<br />[[Kasuga Maru]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -471,6 +491,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Gangut}}<br />[[Gangut]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -488,6 +509,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Shimushu}}<br />[[Shimushu]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -502,6 +524,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
@@ -522,6 +545,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Etorofu}}<br />[[Etorofu]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -539,6 +563,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Hatakaze}}<br />[[Hatakaze]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -555,6 +580,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Richelieu}}<br />[[Richelieu]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -571,6 +597,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Luigi Torelli}}<br />[[Luigi Torelli]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -587,6 +614,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Matsuwa}}<br />[[Matsuwa]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -598,6 +626,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
@@ -618,6 +647,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Sado}}<br />[[Sado]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -626,6 +656,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
@@ -648,6 +679,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|I-400}}<br />[[I-400]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -661,6 +693,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |-
@@ -677,6 +710,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Intrepid}}<br />[[Intrepid]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -685,6 +719,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
@@ -705,6 +740,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Daitou}}<br />[[Daitou]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -719,6 +755,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Jervis}}<br />[[Jervis]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -733,12 +770,14 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Hamanami}}<br />[[Hamanami]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="8" style="border-left:none;"|
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
@@ -761,6 +800,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Samuel B. Roberts}}<br />[[Samuel B. Roberts]]<ref group=EDT>Samuel B. Roberts introduced as a quest reward from [[Game Updates/2018/April_23rd#5A05|5A05]] during the  [[Game Updates/2018/April_23rd|Kancolle 5th Anniversary]]</ref>
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -771,6 +811,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
@@ -787,6 +828,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Shinyou}}<br />[[Shinyou]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -800,6 +842,7 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Maestrale}}<br />[[Maestrale]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -813,6 +856,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Nelson}}<br />[[Nelson]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -826,6 +870,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Gotland}}<br />[[Gotland]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -839,6 +884,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Minegumo}}<br />[[Minegumo]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -851,6 +897,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Nisshin}}<br />[[Nisshin]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -863,10 +910,12 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Hayanami}}<br />[[Hayanami]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="10" style="border-left:none;"|
+|style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
@@ -887,6 +936,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Giuseppe Garibaldi}}<br />[[Giuseppe Garibaldi]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -898,6 +948,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Colorado}}<br />[[Colorado]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -909,6 +960,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Hachijou}}<br />[[Hachijou]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -919,6 +971,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |style="background:gold"|D
 |-
 |{{Ship/Banner|Ishigaki}}<br />[[Ishigaki]]
@@ -931,6 +984,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Fletcher}}<br />[[Fletcher]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -942,6 +996,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Duca degli Abruzzi}}<br />[[Duca degli Abruzzi]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -952,6 +1007,7 @@
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Janus}}<br />[[Janus]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -962,6 +1018,7 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Mikura}}<br />[[Mikura]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -972,6 +1029,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Grecale}}<br />[[Grecale]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -982,12 +1040,14 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Perth}}<br />[[Perth]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="13" style="border-left:none;"|
 |style="background:lime"|R
 |style="background:grey"|N
+|style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
@@ -1000,11 +1060,13 @@
 |style="background:grey"|N
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Atlanta}}<br />[[Atlanta]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="13" style="border-left:none;"|
 |style="background:lime"|R
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
@@ -1018,6 +1080,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Houston}}<br />[[Houston]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -1027,6 +1090,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Hirato}}<br />[[Hirato]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -1036,6 +1100,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Akishimo}}<br />[[Akishimo]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -1045,11 +1110,13 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Usugumo}}<br />[[Usugumo]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="15" style="border-left:none;"|
 |style="background:lime"|R
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |-
@@ -1059,11 +1126,13 @@
 |style="background:lime"|R
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Matsu}}<br />[[Matsu]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="15" style="border-left:none;"|
 |style="background:lime"|R
+|style="background:grey"|N
 |style="background:grey"|N
 |style="background:grey"|N
 |-
@@ -1073,6 +1142,7 @@
 |style="background:lime"|R
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Hornet}}<br />[[Hornet]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -1080,6 +1150,7 @@
 |style="background:lime"|R
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Jingei}}<br />[[Jingei]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -1087,10 +1158,12 @@
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Kaiboukan No.4}}<br />[[Kaiboukan No.4]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="15" style="border-left:none;"|
+|style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
 |style="background:gold"|D
@@ -1101,6 +1174,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Helena}}<br />[[Helena]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -1108,6 +1182,7 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Yashiro}}<br />[[Yashiro]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
@@ -1115,11 +1190,13 @@
 |style="background:gold"|D
 |style="background:grey"|N
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Washington}}<br />[[Washington]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="16" style="border-left:none;"|
 |style="background:lime"|R
+|style="background:gold"|D
 |style="background:gold"|D
 |-
 |{{Ship/Banner|Take}}<br />[[Take]]
@@ -1127,58 +1204,88 @@
 |colspan="16" style="border-left:none;"|
 |style="background:lime"|R
 |style="background:grey"|N
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Scirocco}}<br />[[Scirocco]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="16" style="border-left:none;"|
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Sheffield}}<br />[[Sheffield]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="16" style="border-left:none;"|
 |style="background:gold"|D
 |style="background:grey"|N
+|style="background:gold"|D
 |-
 |{{Ship/Banner|Momo}}<br />[[Momo]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="17" style="border-left:none;"|
 |style="background:lime"|R
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Northampton}}<br />[[Northampton]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="17" style="border-left:none;"|
 |style="background:lime"|R
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Honolulu}}<br />[[Honolulu]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="17" style="border-left:none;"|
 |style="background:lime"|R
+|style="background:grey"|N
 |-
 |{{Ship/Banner|I-203}}<br />[[I-203]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="17" style="border-left:none;"|
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Makinami}}<br />[[Makinami]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="17" style="border-left:none;"|
 |style="background:gold"|D
+|style="background:grey"|N
 |-
 |{{Ship/Banner|Suzunami}}<br />[[Suzunami]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="17" style="border-left:none;"|
+|style="background:gold"|D
 |style="background:gold"|D
 |-
 |{{Ship/Banner|Souya (AGS)}}<br />[[Souya]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="17" style="border-left:none;"|
 |style="background:gold"|D
-<!--
+|style="background:gold"|D
 |-
-|{{Ship/Banner|Empty}}<br />????<!--[[Placeholder]]--><!--
+|{{Ship/Banner|Conte di Cavour}}<br />[[Conte di Cavour]]
 |{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
 |colspan="18" style="border-left:none;"|
+|style="background:lime"|R
+|-
+|{{Ship/Banner|Victorious}}<br />[[Victorious]]
+|{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
+|colspan="18" style="border-left:none;"|
+|style="background:lime"|R
+|-
+|{{Ship/Banner|Chougei}}<br />[[Chougei]]
+|{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
+|colspan="18" style="border-left:none;"|
+|style="background:gold"|D
+|-
+|{{Ship/Banner|Kaiboukan No.30}}<br />[[Kaiboukan No.30]]
+|{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
+|colspan="18" style="border-left:none;"|
+|style="background:gold"|D
+<!--
+|-
+|{{Ship/Banner|Empty}}<br />[[Placeholder]]<!--
+|{{Detail|target=old-data}} colspan="5" style="border-right:none;"|
+|colspan="19" style="border-left:none;"|
 |style="background:"|?
 -->
 |-
@@ -1206,6 +1313,7 @@
 !{{VerticalTD|td-style=font-size:100%|[[Rainy-Summer 2020 Event|Rainy-Summer]]}}
 !{{VerticalTD|td-style=font-size:100%|[[Fall 2020 Event|Fall]]}}
 !{{VerticalTD|td-style=font-size:100%|[[Spring 2021 Event|Spring]]}}
+!{{VerticalTD|td-style=font-size:100%|[[Summer 2021 Event|Summer]]}}
 
 |-
 !style="font-size:110%;"|Exclusive Ships
@@ -1216,8 +1324,10 @@
 !colspan="2" style="font-size:110%;"|2018 Events
 !colspan="4" style="font-size:110%;"|2019 Events
 !colspan="3" style="font-size:110%;"|2020 Events
-!colspan="1" style="font-size:110%;"|2021 Events
+!colspan="2" style="font-size:110%;"|2021 Events
 |-
 |colspan="100" align="left" style="font-size:80%;"|This table includes all ships that are currently unavailable outside of events.
 <references group=EDT />
-|}
+|}</includeonly><noinclude>
+{{Template:Event Drop|uncollapsed=true}}
+</noinclude>

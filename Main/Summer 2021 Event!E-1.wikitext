@@ -1,0 +1,413 @@
+===E-1===
+{{EventInfoBox
+|title_en= Operation MA3
+|title_jp= MA3作戦
+|tag= [[File:Summer2021EventTag1.png]]
+|tag2= [[File:Summer2021EventTag2.png]]
+|tag_text= {{Shiplock|Summer2021EventTag1}} Yellow Tag: 1st Special Squadron<br/>{{Shiplock|Summer2021EventTag2}} Grey Tag:  Mediterranean Fleet
+|header_thumb=[[File:Summer2021_E1BossThumb.png]]
+|map_1=[[File:Summer 2021 Event E-1 Map.png|450px]]
+|map_1_text=Map
+|map_2=[[File:Summmer2021E-1MapP1.png|450px]]
+|map_2_text=Phase 1
+|map_3=[[File:Summer2021E-1MapP2.png|450px]]
+|map_3_text=Phase 2
+|map_4=[[File:Summer2021E-1MapP3.png|450px]]
+|map_4_text=Phase 3
+|map_5=[[File:Summer2021E-1LBASMap.png|450px]]
+|map_5_text=LBAS
+|boss_hard= 2750 HP + 800 TP + 2350 HP
+|boss_medium= 2000 HP + 500 TP + 1950 HP
+|boss_easy= 1600 HP + 300 TP + 1800 HP
+|boss_casual= 1600 HP + 300 TP + 1650 HP
+|reward_all=
+|phase_1_boss=
+|phase_2_boss=
+|phase_3_boss=
+|phase_4_boss=
+|phase_5_boss=
+|reward_1={{QuestRewardItem|Food Supply Ship Mamiya}}
+|reward_1_casual=1
+|reward_1_easy=1
+|reward_1_medium=2
+|reward_1_hard=2
+|reward_2={{QuestRewardItem|Food Supply Ship Irako}}
+|reward_2_casual=1
+|reward_2_easy=1
+|reward_2_medium=2
+|reward_2_hard=2
+|reward_3={{QuestRewardEquip|305mm/46 Twin Gun Mount}}
+|reward_3_casual=
+|reward_3_easy=1 (★2)
+|reward_3_medium=
+|reward_3_hard=1 (★2)
+|reward_4={{QuestRewardEquip|305mm/46 Triple Gun Mount}}
+|reward_4_casual=
+|reward_4_easy=
+|reward_4_medium=1 (★2)
+|reward_4_hard=1 (★2)
+|reward_5={{QuestRewardEquip|Emergency Repair Goddess}}
+|reward_5_casual=1
+|reward_5_easy=1
+|reward_5_medium=2
+|reward_5_hard=2
+|reward_6={{QuestRewardEquip|SM.79}}
+|reward_6_casual=
+|reward_6_easy=
+|reward_6_medium=
+|reward_6_hard=1 (★2)
+|reward_7={{QuestRewardEquip|Fulmar (Reconnaissance Fighter/Skilled)}}
+|reward_7_casual=
+|reward_7_easy=
+|reward_7_medium=1
+|reward_7_hard=1 (★2)
+}}
+{{center|[[File:OoyodoE-1Summer2021.png|440px]]}}
+{{MapBranchingTable
+|title = E-1 Branching Rules
+|expand = true
+|id = 51-1
+|order = 0,C,E,2,I,J,N,Q,R,T
+
+|0 -> 1 = * Do not meet the requirements to start at 2.
+|0 -> 2 = 
+* Meet '''ALL''' of the following requirements:
+** Completed Phase 1
+** Amount of DD ≥ 2
+** Amount of DE ≤ 1
+** Fleet is a Strike Force '''OR''' amount of CL ≥ 2
+* Alternatively, amount of historical ships ≥ 3
+
+|C -> C1 = * Do not meet the requirements to go to either C2, D or E.
+|C -> C2/resource =
+* Meet '''ALL''' of the following requirements:
+** Fleet contains AO, AS or AV
+** Amount of DD+DE ≥ 3
+** If fleet contains anything other than AO/AS/AV/DD/DE, amount of DD+DE ≥ 4
+** If fleet contains AV, then amount of ships in the fleet must be 4.
+** No CV(L/B)
+|C -> D = 
+* Meet '''ALL''' of the following requirements:
+** Do not meet the requirements to go to either C2 or E.
+** No CV(L/B)
+|C -> E = 
+* Meet '''ALL''' of the following requirements:
+** Do not meet the requirements to go to C2.
+** No (F)BB(V) or CV(L/B)
+** Amount of DD ≥ 2
+** Amount of DD ≥ 4 '''OR''' Fast Fleet
+
+|E -> F = * Do not meet the requirements to go to G.
+|E -> G = 
+* Meet '''ALL''' of the following requirements:
+** Node G is unlocked.
+** Pass the LoS check (Cn1 > 0).
+
+|2 -> H = * Do not meet the requirements to go to I.
+|2 -> I = 
+* Meet '''ALL''' of the following requirements:
+** Amount of DD ≥ 2
+** Amount of DD+DE ≥ 3 '''OR''' Fast Fleet
+** Amount of (F)BB(V)+CV(L/B) ≤ 3
+
+|I -> J = * Do not meet the requirements to go to either K or N.
+|I -> K = 
+* Meet '''ALL''' of the following requirements:
+** Do not meet the requirements to go to N.
+** Amount of (F)BB(V) ≤ 2
+** No CV(L/B) or Akitsu Maru
+|I -> N/empty = 
+* Meet '''ALL''' of the following requirements:
+** If amount of DD ≤ 2, no (F)BB(V) allowed.
+** Amount of (F)BB(V) ≤ 2
+** No CV(L/B) or Akitsu Maru
+** No SS(V)
+
+|J -> K = 
+* Meet '''ALL''' of the following requirements:
+** Fleet contains CL
+** Amount of DD ≥ 3
+** Amount of CV(L/B) ≤ 1
+|J -> L = * Do not meet the requirements to go to either K or P.
+|J -> P = 
+* Meet '''ALL''' of the following requirements:
+** Do not meet the requirements to go to K.
+** Amount of DD ≥ 2
+** No (F)BB(V)
+
+|N/empty -> Q/resource, R/empty = * Choose your own adventure!
+
+|Q/resource -> M/empty = * Fail the LoS check.
+|Q/resource -> O = * Pass the LoS check.
+
+|R/empty -> S = * Do not meet the requirements to go to T.
+|R/empty -> T/night = 
+* Meet '''ALL''' of the following requirements:
+** Amount of DD ≥ 3
+** Fleet contains CL '''OR''' amount of DD ≥ 4
+** If Slow Fleet, amount of (F)BB(V) ≤ 1
+
+|T/night -> U/empty = * Fail the LoS check.
+|T/night -> V = * Pass the LoS check.
+}}
+Branching compositions were reported over the course of the event. ([https://bbs.nga.cn/read.php?pid=514129578 NGA] and [https://tsunkit.net/nav/#/ KCNav])
+
+The event guides are to be constructed through the respective [[Sandbox/Summer 2021 E-1|Event map page guide]] and reviewed by editor staff / collaboration committee before being approved here. '''Do not under any circumstance update the guides through this page or attempt to fix them through this page.''' Please only update guides through their respective sandbox pages.
+
+==Ship Bonuses (Tentative)==
+
+{{:{{BASEPAGENAME}}/E-1/Historical_Ships}}
+
+=Overview=
+* There are quests related to this event where clearing them will allow access to the Strike Force Fleet (7 Ship Fleet)
+** The prerequisite for the quest is one of the event preparation quests that was released in the [[Game Updates/2021/August 4th|August 4th update]] prior to the event.
+* For players who wish to clear E1 on Hard mode, the quests can be cleared on '''Casual''' first before switching to Hard mode and clearing the map. 
+** Be aware that switching to a higher difficulty will reset all progress on the map. So, unless you really need to conserve resources and are confident enough, you can opt to do all the quests while clearing on Hard.
+{{color|red|※ Once the 2nd starting point has been unlocked, having '''"3+ historical European ships"''' or '''"2+ DDs & 1- DE & (2+ CL / Strike Force)"''' should guarantee Starting Point {{MapRoute|2|}} and giving {{Shiplock|Summer2021EventTag2}}{{ToolTip|[Grey Tag]|'''Mediterranean Fleet'''}} to the fleet.}}
+* Failure to meet the above requirements will automatically force the fleet to Starting Point {{MapRoute|1|}} and be labeled with {{Shiplock|Summer2021EventTag1}}{{ToolTip|[Yellow Tag]|'''1st Special Squadron'''}}. Please review the fleet setup before launching them on sortie.
+* Historical European Ships include all ships from the European nations with the exception of Russian ships (excluding '''[[Verniy]]''' who is allowed).
+* In Addition to this, ships that are affiliated with ties to service with the European nations are acceptable:
+** '''ABDA Forces: [[Houston]], [[Perth]], [[De Ruyter]]
+** '''Atlantic Fleet: [[Washington]]
+* Players who have the appropriate Anti-installation gear and a decent amount of European planes that are part of the bonus list, can possibly clear E1 without using European ships.
+
+=Event Quest Guide=
+* Both quests are available on '''all''' difficulties and can be done at any point on E1. {{color|red|The completion of the first quest requires the second phase of the map to be unlocked.}}
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2108 LB1
+| reqQuest = C2
+| namejp = 【地中海作戦】特務艦隊、遊撃部隊編成
+| nameen = {{color|black|[Mediterranean Special Fleet] Special Mission Fleet, Tactical Force Formation}}
+| req =  [Mediterranean Squadron Formation] Attack the Enemy frontline logistic Supply Depots in Point F and L in the first operation area! In addition, intercept the enemy battleship squadron aiming for the transport unit to Malta from the direction of Tarant and destroy it! 
+  
+* Get an A rank on nodes F, L, and O in E1
+| fuel = 500
+| ammo = 500
+| steel = 0
+| bauxite = 0
+| other = [[File:Striking force fleet reward.png|Striking force fleet]]<br> '''[[Striking_Force_Fleet|Access to Striking Force Fleet]]''' <br> '''Choose between:'''<br/>{{QuestRewardEquip|Type 3 Shell}}{{QuestRewardEquip|Shipborne Model Type 4 20cm Anti-ground Rocket Launcher}}{{QuestRewardItem|Instant Repair Material|qty=4}} <br>
+| notes = *For more info on how to clear F, L and O, check out Quest 1's guide
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2108 LB2
+| reqQuest = 2108 LB1
+| reqQuest2 = B171
+| namejp = 【地中海作戦】地中海配備の敵戦力を叩け！
+| nameen = {{color|black|[Mediterranean Mission] Strike the enemy forces deploy within the Mediterranean!}}
+| req = Defeat the enemy torpedo boats (at Point [H] and [S])deployed in the Mediterranean Sea in the first operation area! Furthermore, assault the Talent military port occupied by the enemy, and try to gradually destroy the enemy's abyssal forces deployed in the Eastern Mediterranean Sea! 
+
+* Get a A rank on nodes P, H and S in E1
+| fuel = 0
+| ammo = 600
+| steel = 0
+| bauxite = 600
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=6}}{{QuestRewardItem|Instant Repair Material|qty=5}}{{QuestRewardItem|Improvement Material|qty=3}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Type 3 Depth Charge Projector}}{{QuestRewardItem|Furniture Fairy|}}{{QuestRewardItem|Medal|}}
+| notes = *For more info on how to clear P, H and S, check out Quest 2's guide
+}}
+|}
+
+=='''Quest 1'''==
+
+'''[Mediterranean Special Fleet] Special Mission Fleet, Tactical Force Formation''' can be done after opening phase 2 of the map. Completing this quest unlocks the [[Striking Force Fleet]], which can be used in this event.
+
+*A+ Rank nodes {{MapRoute|F|red|L|red|O|red}}
+
+<tabber>
+|-| Node F =
+
+Same as Phase 0.5
+
+|-| Node L =
+Method #1: {{Shiplock|Summer2021EventTag2}}{{ToolTip|[Grey Tag]|'''Mediterranean Fleet'''}} Single Fleet: '''1 CV(L/B)/[[Akitsu Maru]], 1 (F)BB(V), 2 CL, 2 DD (FAST)'''
+* Route: {{MapRoute|2||I|red|J|red|L|red}}
+* Slow will route through {{MapRoute|H|red}}
+Method #2: {{Shiplock|Summer2021EventTag2}}{{ToolTip|[Grey Tag]|'''Mediterranean Fleet'''}} Single Fleet: '''1 CV(L/B)/[[Akitsu Maru]], 1 (F)BB(V), 1 CL, 1 CA, 2 DD (≥3 Historical) (FAST)'''
+* Route: {{MapRoute|2||I|red|J|red|L|red}}
+* <3 Historical ships will start at {{MapRoute|1|}}
+* Slow will route through {{MapRoute|H|red}}
+LBAS
+* Range = 3
+* AD/AP/AS = 33/66/147 (Hard)
+Strategic Notes:
+* Equip DDs with [[Combat/Anti-Installation#Equipment_Setups|nuke setups]].
+* It is recommended to complete this during Phase 2.
+|-| Node O =
+
+Same as Phase 2
+</tabber>
+
+=='''Quest 2'''==
+'''[Mediterranean Mission] Strike the enemy forces deploy within the Mediterranean!''' is the 2nd quest of the event. This quest can be done during phase 2.5 and 3. 
+*A+ Rank nodes {{MapRoute|P|red|H|red|S|red}}
+
+<tabber>
+|-| Node P =
+
+Same as Phase 2.5 with only a A+ rank needed.
+|-| Node H =
+{{Shiplock|Summer2021EventTag2}}{{ToolTip|[Grey Tag]|'''Mediterranean Fleet'''}} Strike Force Fleet: '''2DD 5XX (SLOW)'''
+* Route: {{MapRoute|2||H|red}}
+* If using '''≥3 Historical''', 6-7 XX (Slow) can also be used
+* '''Max of 2 DD+DE'''
+LBAS
+* Range = 2
+* No enemy air present
+Strategic Notes:
+* Multiple PT Imps present at {{MapRoute|H|red}}
+|-| Node S =
+{{Shiplock|Summer2021EventTag2}}{{ToolTip|[Grey Tag]|'''Mediterranean Fleet'''}} Strike Force Fleet: '''1-2 (F)BB(V) 3 DD 2-3 CA(V)/AV'''
+* Route: {{MapRoute|2||I|red|N|blue|R|blue|S|red}}
+LBAS
+* Range = 5
+* No enemy air present
+Strategic Notes:
+* Multiple PT Imps present at {{MapRoute|S|red}}
+</tabber>
+
+=Event Map Guide=
+=='''Phase 0.5: Unlocking Node G'''==
+*Unlocking {{MapRoute|G|red}} has two requirements:
+{| class="wikitable" 
+|-
+! Node
+! C2
+! F
+|-
+| Hard
+| Reach
+| S x2
+|-
+| Medium
+| Reach
+| S
+|-
+| Easy
+| -
+| A+
+|-
+| Casual
+| -
+| A+
+|}
+
+<tabber>
+|-| Node F =
+{{Shiplock|Summer2021EventTag1}}{{ToolTip|[Yellow Tag]|'''1st Special Squadron'''}} Single Fleet: '''1-2 CA(V), 1 CL, 3-4 DD'''
+* Route: {{MapRoute|1||A|blue|B|blue|C|red|E|red|F|red}}
+* Slow with <4 DD will route through {{MapRoute|D|red}}
+LBAS
+* Range = 2
+* AP/AS = 34/74 (Hard)
+Strategic Notes:
+* Bring [[Combat/Anti-Installation#Equipment_Setups|Nukes]] and DD with MG. The fleet will be fighting against both PT Imps & Installations. 
+|-|Node C2=
+Method #1: {{Shiplock|Summer2021EventTag1}}{{ToolTip|[Yellow Tag]|'''1st Special Squadron'''}} Single Fleet: '''1 CL, 1 CAV, 1 CV, 3 DD'''
+* Route: {{MapRoute|1||A|blue|B|blue|C|red|C1|Red|C2|blue}}
+Method #2: {{Shiplock|Summer2021EventTag1}}{{ToolTip|[Yellow Tag]|'''1st Special Squadron'''}} Single Fleet: '''AO, 3-5 DD/DE'''
+* Route: {{MapRoute|1||A|blue|B|blue|C|red|C2|blue}}
+LBAS: N/A
+* Set LBAS to standby/rest or send them to the battle node before {{MapRoute|C2|blue}}
+Strategic Notes:
+* Method #2 can be used for ammo farming, please view [[Summer_2021_Event/E-1#Bonus:_Cyprus_Ammo_Farming|Cyprus Ammo Farming]] within the guide.
+</tabber>
+
+=='''Phase 1: Defeat Summer CA Hime'''==
+{{Shiplock|Summer2021EventTag1}}{{ToolTip|[Yellow Tag]|'''1st Special Squadron'''}} Single Fleet: '''1-2 CA(V), 1 CL, 3-4 DD'''
+* Route: {{MapRoute|1||A|blue|B|blue|C|red|E|red|G|red}}
+* Must pass LoS to enter {{MapRoute|G|red}}
+LBAS
+* Range = 2
+* No enemy air present
+Strategic Notes:
+* Vanguard formation across all nodes until the boss
+* Can use the same composition as Node F from phase 0.5 but equipped for surface combat
+* TCI can be helpful with clearing the boss out
+
+=='''Phase 2: Deplete the TP'''==
+{{Shiplock|Summer2021EventTag2}}{{ToolTip|[Grey Tag]|'''Mediterranean Fleet'''}} Single/Strike Force Fleet: '''0-2 (F)BB(V), 0-1 AV, 0-2 CA(V), 0-2 CL, 3-7 DD'''
+* Route: {{MapRoute|2||I|red|N|blue|Q|green|O|red}}
+* Fleet must include '''≥3 Historical''' or '''2DD + (2CL / Strike Force Fleet)''' to start at {{MapRoute|2|}}
+* Must pass LoS (Cn3 >= 45 on Hard) to enter {{MapRoute|O|red}}
+LBAS
+* Range = 4
+* No enemy air present
+Strategic Notes:
+* Equip as many [[Daihatsu-class Landing Craft|Daihatsu]] and/or [[Drum Canister|drum canisters]] as possible to deplete the bar quickly.
+* Equip AP shells to maximize your damage output from your BBs against the Battleship Summer Princess.
+
+=='''Phase 2.5: Unlock the Last Boss Node'''==
+{| class="wikitable" 
+|-
+! Node
+! P
+|-
+| Hard
+| S x2
+|-
+| Medium
+| S
+|-
+| Easy
+| A+
+|-
+| Casual
+| -
+|}
+
+{{Shiplock|Summer2021EventTag2}}{{ToolTip|[Grey Tag]|'''Mediterranean Fleet'''}} Strike Force Fleet: '''2 CV(L/B), 5 XX'''
+* Route: {{MapRoute|2||I|red|J|red|P|red}}
+* Fleet must include '''≥3 Historical''' or '''≥2DD''' to start at {{MapRoute|2|}}
+** If using '''≥3 historicals''', 2 CV(L/B), 4XX can also be used
+* '''Must be FAST or ≥3 DD''' to skip node {{MapRoute|H|Red}}
+* Any (F)BB(V) will add extra battles or cause an offroute
+LBAS
+* Range = 4
+* AD/AP/AS/AS+ = 17/33/72/144 (Hard)
+Strategic Notes:
+* After completing Phase 2, {{MapRoute|P|red}} is locked to the third composition
+* Node P is a fight against 3 Installation Princesses/Demons, all of which have various weaknesses against different anti-installation equipment.
+* Equip with [[Combat/Anti-Installation#Equipment_Setups|nuke setups]]; however, please note the specific weaknesses listed below.
+** Anchorage Water Demon
+*** Vulnerable to most anti-installation equipment but is also the most resilient.
+*** Avoid using DBs that can target installations as carriers should be focusing this target
+*** One effective method to take her down is by using carriers with 2DB + 1TB setups and using one European plane from Group A and one from Group B, if available.
+** Supply Depot Princess
+*** [[Combat/Anti-Installation#Equipment_Setups|Nuke setups]] are the most effective way to take her down.
+*** May require several hits to take down due to high HP.
+** Airfield Princess
+*** Type 3 Shells are the most effective means of defeating her.
+
+=='''Phase 3: Destroy Enemy Ne Kai's Combined Fleet'''==
+{{Shiplock|Summer2021EventTag2}}{{ToolTip|[Grey Tag]|'''Mediterranean Fleet'''}} Strike Force Fleet: '''0-2 (F)BB(V), 1-2 CA(V), 0-1 AV, 0-2 CL, 3-4 DD'''
+* Route: {{MapRoute|2||I|red|N|blue|R|blue|T|purple|V|red}}
+* If slow, max of 1 (F)BB(V)
+LBAS
+* Range = 6
+* Pre-LD: No enemy air present (Hard)
+* LD: AD/AP/AS = 32/63/140 (Hard)
+Strategic Notes:
+* Node {{MapRoute|T|purple}} is a Night battle. So it's highly recommended to make use of the Vanguard Formation to pass through the node.
+* The boss node {{MapRoute|V|red}} is an abyssal combined fleet.
+* Be aware a CVL will appear in the comp on LD on harder difficulties.
+
+==Bonus: Cyprus Ammo Farming==
+It is possible to collect ammo on E1 with a simple fleet comp, facing only a single battle before reaching the resource node. This can be used to collect ammo as high as '''150 ammo per run'''.
+
+Method #1: {{Shiplock|Summer2021EventTag1}}{{ToolTip|[Yellow Tag]|'''1st Special Squadron'''}} Single Fleet: '''AO, 3-5 DD/DE'''
+* Route: {{MapRoute|1||A|blue|B|blue|C|red|C2|blue}}
+LBAS: N/A
+* Either set LBAS on standby/rest or send them to the battle node before {{MapRoute|C2|blue}}
+* Use Vanguard to survive Node {{MapRoute|C|red}}.
+Increase resource gains by equipping the following:
+* +10 Ammo per [[Drum Canister]]
+* +15 Ammo per [[Daihatsu]], [[Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)|89 Tank Variants]] and [[Type 2 Ka-Mi Tank]]
+
+==Enemy Compositions==
+{{:{{BASEPAGENAME}}/E-1/Enemy comps}}
+
+===Ship Drops===
+{{:{{BASEPAGENAME}}/E-1/Ship drops}}

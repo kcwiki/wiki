@@ -99,42 +99,37 @@ local isons = {
   [7] = 'World7icon',
 }
 
-local tableHeader = [=[<div style="width:90%;margin-left:20px">
+local tableHeader = [=[<div style="max-width:1400px;width:90%;margin-left:20px">
 {|style="width:100%"
 |style="width:50px"|[[File:${icon}.png|link=]]
 |<div style="background:${background};width:100%;padding-left:10px;border-top-right-radius:10px">'''${name}'''</div>
 |}
 </div>
-<div style="position:relative;border:solid 1px lightgray;width:95%;border-radius:10px;padding:10px;margin:10px;margin-top:0px">
-{|style="margin:0 auto;radius:10px;cellpadding:10px;width:100%" cellspacing="0"
+<div style="position:relative;border:solid 1px lightgray;max-width:1500px;width:95%;border-radius:10px;padding:10px;margin:10px;margin-top:0px">
+{|style="margin:0 auto;radius:10px;cellpadding:10px;width:100%" cellspacing="0" class="sortable"
 !style="cellpadding:10px;width:4%;" |#
 !style="cellpadding:10px;width:24%;" |Name
 !style="cellpadding:10px;" |Time
-!style="cellpadding:10px;width:1px;" rowspan="100" |
 ]=]
 
 local tableHeader2 = [=[!style="cellpadding:10px;width:7%;" |HQ
 !style="cellpadding:10px;width:7%;" |Ship
-!style="cellpadding:10px;width:1px;" rowspan="100" |
 !style="cellpadding:10px;width:7%;" |[[File:Fuel.png|30px|link=]]
 !style="cellpadding:10px;width:7%;" |[[File:Ammunition.png|30px|link=]]
 !style="cellpadding:10px;width:7%;" |[[File:Steel.png|30px|link=]]
 !style="cellpadding:10px;width:7%;" |[[File:Bauxite.png|30px|link=]]
-!style="cellpadding:10px;width:1px;" rowspan="100" |
 !style="cellpadding:10px;width:20%;" colspan="2" |Rewards
-|-
-|style="background:gray;" colspan="14"|
 ]=]
 
 local tableHeader2Req = [=[!style="cellpadding:10px;width:7%;"|Σ(Lv)
 !style="cellpadding:10px;width:7%;" align="center"|[[File:Flagship icon.png|link=]]
-!style="cellpadding:10px;width:1px;" rowspan="100"|
 !style="cellpadding:10px;width:21%;" align="center"|Requirements
 !style="cellpadding:10px;width:7%;" align="center"|[[File:Drum.png|30px|link=]]
-!style="cellpadding:10px;width:1px;" rowspan="100"|
 !style="cellpadding:10px;width:10%;" align="center"|[[File:Fuel.png|30px|link=]]
 !style="cellpadding:10px;width:10%;" align="center"|[[File:Ammunition.png|30px|link=]]
 ]=]
+
+-- !style="cellpadding:10px;width:1px;" rowspan="100" class="unsortable"|
 
 local function pad(n)
   return n < 10 and '0' .. n or n

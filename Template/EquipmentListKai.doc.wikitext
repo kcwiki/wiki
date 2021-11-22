@@ -1,0 +1,81 @@
+This template uses equipment data modules to construct a list of equipment.
+
+==Example==
+
+ <nowiki>{{EquipmentListKai
+ |12.7cm Twin Gun Mount
+ |20.3cm Twin Gun Mount
+ |41cm Twin Gun Mount
+ |15.5cm Triple Secondary Gun Mount
+ |61cm Quadruple (Oxygen) Torpedo Mount
+ |Ryuusei
+ |Reppuu
+ |Type 0 Reconnaissance Seaplane
+ |No. 13 Air Radar
+ |No. 21 Air Radar
+ |Type 3 Depth Charge Projector
+ |#
+ |Type 3 Active Sonar
+ |25mm Triple Autocannon Mount
+ |Searchlight
+ |Star Shell
+ |Fleet Command Facility
+ }}</nowiki>
+
+<div class="mw-collapsible mw-collapsed">
+becomes
+
+<div class="mw-collapsible-content">{{EquipmentListKai
+|12.7cm Twin Gun Mount
+|20.3cm Twin Gun Mount
+|41cm Twin Gun Mount
+|15.5cm Triple Secondary Gun Mount
+|61cm Quadruple (Oxygen) Torpedo Mount
+|Ryuusei
+|Reppuu
+|Type 0 Reconnaissance Seaplane
+|No. 13 Air Radar
+|No. 21 Air Radar
+|Type 3 Depth Charge Projector
+|#
+|Type 3 Active Sonar
+|25mm Triple Autocannon Mount
+|Searchlight
+|Star Shell
+|Fleet Command Facility
+}}</div>
+</div>
+
+==Parameters==
+
+The following sections describe the parameters that can be passed to this template.
+
+===Equipment===
+
+The list of equipment to be included in the table should be passed in as unnamed parameters, like in the example.
+Pass a hash (#) to insert a header row.
+Pass an exclamation mark (!) followed by a string key to specify a [[#Custom Rows|custom row]].
+
+===Notes===
+
+You can specify custom notes in the notes column for each ship by passing the parameter ''equipmentname''_notes.
+
+===Custom Rows===
+
+You can specify custom rows by passing in an exclamation mark followed by a string key as described in [[#Equipment]].
+
+You can then set the properties of that custom row using the following parameters:
+
+====custom_row_''key''_content====
+
+Pass this parameter to set the content of the custom row. You can use wikitext. Be careful with = and |, for they may interfere with template parsing.
+
+====custom_row_''key''_text_align====
+
+Pass this parameter to set the text_align of the custom row. Defaults to "start".
+
+====custom_row_''key''_bg_color====
+
+Pass this parameter to set the background-color of the custom row. Defaults to "transparent".
+
+<includeonly>[[Category:Templates that use equipment data modules|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

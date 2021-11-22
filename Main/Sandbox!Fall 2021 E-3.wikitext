@@ -1,0 +1,238 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consists and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct their own version of their guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editors' work without the full consent of the editor and his approval to do so. 
+
+Several versions will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Summer 2020 Event]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 versions of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version of the guide, the said guide will be updated to the main page, and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+Projected deadline for Initial guide: '''November 27th-30th, 12:01 JST''' (May get extended by 1 day if massive delays occur)
+
+
+===DarkHeron's Proposal===
+====Ship Bonuses====
+{| class="wikitable" style="text-align:center; vertical-align:middle; width:900px; "
+|- 
+! rowspan="2" colspan="3"|Ships
+! colspan="3"|Multiplier [Total]
+|- 
+! style="width:1000px;"|Mapwide
+! style="width:1000px;"|nodes A, I, & Z
+! style="width:1000px;"|nodes N, P, & R
+|-
+! {{Ship/Banner|Yuugumo/Kai Ni|small=true}}
+! {{Ship/Banner|Oboro/Kai|small=true}}
+! {{Ship/Banner|Momo/Kai|small=true}}
+| rowspan="2"| '''1.2x'''
+| rowspan="2"| '''1.35x'''
+| rowspan="2"| -
+|-
+! {{Ship/Banner|Take/Kai|small=true}}
+! -
+! -
+|-
+! {{Ship/Banner|Hatakaze/Kai|small=true}}
+! {{Ship/Banner|Matsu/Kai|small=true}}
+! -
+| '''1.25x'''
+| '''1.55x''' 
+| -
+|-
+! colspan="3"| other [[Destroyers]] (DD)
+| '''1.05x'''
+| '''1.1x'''
+| -
+|-
+! {{Ship/Banner|Kaiboukan No.4/Kai|small=true}}
+! -
+! -
+| -
+| '''1.75x'''
+| -
+|-
+! colspan="3"| other [[Coastal Defense Ships]] (DE)
+| -
+| '''1.25x'''
+| -
+|-
+|-
+! {{Ship/Banner|Yamato/Kai|small=true}}
+! {{Ship/Banner|Nagato/Kai Ni|small=true}}
+! {{Ship/Banner|Ise/Kai Ni|small=true}}
+| colspan="2" rowspan="3"| -
+| rowspan="3"| '''1.1x'''
+
+|-
+! {{Ship/Banner|Ryuuhou/Kai Ni|small=true}}
+! {{Ship/Banner|Tone/Kai Ni|small=true}}
+! {{Ship/Banner|Yahagi/Kai|small=true}}
+|-
+! {{Ship/Banner|Kitakami/Kai Ni|small=true}}
+! -
+! -
+|-
+! {{Ship/Banner|Kasumi/Kai Ni|small=true}}
+! {{Ship/Banner|Yukikaze/Kai Ni|small=true}}
+! {{Ship/Banner|Verniy|small=true}}
+| colspan="2" rowspan="2"| -
+| rowspan="2"| '''1.2x'''
+|-
+! {{Ship/Banner|Asashimo/Kai Ni|small=true}}
+! {{Ship/Banner|Hatsushimo/Kai Ni|small=true}}
+! {{Ship/Banner|Suzutsuki/Kai|small=true}}
+|-
+|}
+
+{| class="wikitable" style="text-align:center; vertical-align:middle; width:720px;"
+|- 
+! colspan="3"|P3 debuffed
+! colspan="1"|node Z
+|-
+! {{Ship/Banner|Yuugumo/Kai Ni|small=true}}
+! {{Ship/Banner|Oboro/Kai|small=true}}
+! {{Ship/Banner|Momo/Kai|small=true}}
+| rowspan="2"| '''1.57~1.83x (1.62x?)'''
+|-
+! {{Ship/Banner|Take/Kai|small=true}}
+! -
+! -
+|-
+! {{Ship/Banner|Hatakaze/Kai|small=true}}
+! {{Ship/Banner|Matsu/Kai|small=true}}
+! -
+| '''1.8~2.02x (1.86x?)''' 
+|-
+! colspan="3"| Other ships
+| colspan="1"| '''1.2x'''
+|-
+! colspan="3"| Boss modifier
+| colspan="1"| '''1.08x'''
+
+|-
+|}
+
+==Branching Table==
+{{MapBranchingTable
+|title = E-3 1
+|expand = true
+|id = 52-3
+|order = 0,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,O1,O2,P,Q,R,R1,R2,S,S1,S2,S3,S4,T,U,V,W,X,Y,Z
+
+|A/empty -> B, D, T = test
+
+|A -> B = test 1
+
+|B -> E/empty = test 1
+
+|B -> C =  test
+
+}}
+
+
+{{MapBranchingTable
+|title = E-3 Starting Point 2
+|expand = true
+|id = 52-3
+|order = 1,J,B,C,D,E,F,G,H,I,K,L,M,N,O,O1,O2,P,Q,R,R1,R2,S,S1,S2,S3,S4,T,U,V,W,X,Y,Z
+
+|J/empty -> B, K = test
+
+|B -> F/empty = test 1
+
+|B -> C =  test
+
+}}
+
+==Map Overview==
+* This is a 3-Phase Map
+* 3 Bases of LBAS are available, of which 2 can be set to sortie
+* 2 Ship locking tags will applied:
+** Single and Strike Force Fleets: {{ToolTip|{{Shiplock|Fall2021EventTag3}}|'''Yokosuka Defense Force'''|line=false}}
+** Combined Fleets: {{ToolTip|{{Shiplock|Fall2021EventTag4}}|'''Combined Fleet'''|line=false}}
+
+==Phase 1: Deplete the TP Bar (Transport Phase)==
+This phase uses the following tag:
+
+{{Shiplock|Fall2021EventTag3}}{{ToolTip|[Grey Tag]|'''Yokosuka Defense Force'''}}
+* LBAS Range: 3
+* S-Ranking this boss may prove difficult, so settling for A-Ranks while maximizing Transport capacity may be considered
+* AACI is recommended, ASW to deal with the Submarine at {{MapRoute|C|red}} is mandatory
+* The boss is located at {{MapRoute|I|red}}
+<tabber>
+|-|Option 1=
+* Single Fleet: 1 CL, 4 DD, 1 XX (Where XX can be CV, CVL, or AV)
+* Route: {{MapRoute|A|red|B|pink|C|red|H|green|I|red}}
+|-|Option 2=
+* Single Fleet: 1 CL, 1-2 CLT, 0-1 AV, 3 DD
+* Route: {{MapRoute|A|red|B|pink|C|red|H|green|I|red}}
+* Note: A stronger composition at cost of potential maximum Transport-Loadoff.
+</tabber>
+
+==Phase 2: Defeat Aircraft Carrier Hime Kai at {{MapRoute|R|red}}==
+This phase uses the following tag:
+
+{{Shiplock|Fall2021EventTag4}}{{ToolTip|[Blue Tag]|'''Combined Fleet'''}}
+* This phase uses a '''Carrier Task Force'''
+* The boss is located at {{MapRoute|R|red}}
+* Bringing a strong AACI is recommended
+* '''Note:''' If you want to Farm node {{MapRoute|P|red}}, do so before clearing the gauge as routing to {{MapRoute|P|red}} will change once {{MapRoute|R1|red}} & {{MapRoute|R2|red}} is open. 
+* The LBAS range to the boss is 7
+* AP/AS is 220/494 for '''Hard''' at {{MapRoute|R|red}}
+
+<tabber>
+|-|Standard Composition=
+* CTF: 2 BBB, 2 CV(B), 0-1 CA(V), 0-1 CVL, 0-1 CL, 0-1 DD + 1 CL, 2 CLT, 1 CAV, 2 DD
+* Route: {{MapRoute|J|blue|B|pink|E|pink|L|blue|M|pink|N|red|P|red|R|red}}
+* Naga/Mutsu or Nelson touch is highly recommended for BB within this fleet. 
+|-|4 Carriers Composition=
+* CTF: 4 CV(B), 1 CA(V), 0-1 CL, 0-1 DD + 1 CL, 2 CLT, 1 CAV, 2 DD
+* Route: {{MapRoute|J|blue|B|pink|E|pink|L|blue|M|pink|N|red|P|red|R|red}}
+* A Heavy CTF making use of strong opening strike capabilities.  
+* It's recommended to achieve AS+ with this fleet and LBAS:
+** AS+ = 987 and 1041 for LD on '''Hard'''
+</tabber>
+
+==Phase 2.5: Unlock Submarine Hime at {{MapRoute|Z|red}}==
+This phase uses the following tag:
+
+{{Shiplock|Fall2021EventTag4}}{{ToolTip|[Blue Tag]|'''Combined Fleet'''}}
+
+** S rank {{MapRoute|R2|red}} Hard only?
+* Composition: Use the same fleet from Phase 2
+* Route: {{MapRoute|J|blue|B|pink|E|pink|L|blue|M|pink|N|red|R1|red|R2|red}}
+* {{MapRoute|R1|red}} contains Submarine Hime. Using 1 ASW LBAS to help pass this node is recommended.
+
+==Phase 3: Defeat Submarine Shork Oni at {{MapRoute|Z|red}}==
+This phase uses the following tag:
+
+{{Shiplock|Fall2021EventTag3}}{{ToolTip|[Grey Tag]|'''Yokosuka Defense Force'''}}
+* This phase will utilize a '''Striking Force Fleet''': '''1 BBV, 2 CL, 0-4 DD, 0-4 DE'''
+* LBAS Range: 4
+* The boss is a submarine. Using massed OASW and ASW LBAS is therefore the most effective method to dispose of her
+* Having a BBV allows for second shelling phase to enable more ASW hits on the Boss
+* Utilizing Vanguard formation at {{MapRoute|X|red}} can help improve the pass rate.
+* One AACI for the Air Raid and {{MapRoute|X|red}} is recommended.
+* Route: {{MapRoute|A|red|T|pink|U|red|X|red|Z|red}}

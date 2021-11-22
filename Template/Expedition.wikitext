@@ -1,0 +1,59 @@
+<includeonly>{{{{{subst|safesubst:}}}#invoke:View/Expedition|render}}</includeonly><noinclude>
+{{Expedition
+
+|world = 7
+
+|41 hq = 30
+|41 ship = 50
+|41 fuel = 100
+|41 bauxite = 20
+|41 sum = 115
+|41 level = 30
+|41 fleet = 3 DD/DE<br>'''with'''<br> {{ASW}} {{tooltip|210+|Summary ASW including ship and equipment stats}}<br>{{AA}} {{tooltip|80+|Summary AA including ship and equipment stats}} 
+|41 drums = 
+
+|42 hq = 60
+|42 ship = 65
+|42 fuel = 800
+|42 bauxite = 200
+|42 sum = 200
+|42 level = 45
+|42 fleet = 1 CVE/CL/CT 3 DD/DE
+|42 drums =
+
+|43 hq = 75
+|43 ship = 90
+|43 fuel = 2000
+|43 ammo = 
+|43 steel = 
+|43 bauxite = 400
+|43 sum = 300
+|43 level = 55
+|43 fleet = CVL/CL/4DD<br>'''or'''<br><span style="cursor:help" title="A CVE must be the flagship">'''1CVE*'''</span><ref name="CVE43" />  2DD/DE 3XX<br>'''with'''<br>{{Firepower}} {{tooltip|500+|Summary FP including ship and equpment stats and some Firepower improvement bonuses}}<br>{{ASW}} {{tooltip|280+|Summary ASW including ship and equipment stats}}
+|43 drums = 
+
+fleet = 1CL 4DD/DE<br>'''or'''<br>1-2 DD 4-3 DE<br>'''with'''<br>{{ASW}} {{tooltip|280+|Summary ASW including ship and equipment stats}}
+
+|44 hq = 45
+|44 ship = 55
+|44 ammo = 200
+|44 bauxite = 800
+|44 sum = 
+|44 level = 45
+|44 fleet = 2CVL 1AV 1CL 2XX<br>'''with'''<br>{{ASW}} {{tooltip|200+|Summary ASW including ship and equipment stats}}<br>6 drums on 3 ships
+|44 drums = 6
+
+|45 hq = 35
+|45 ship = 40
+|45 fuel = 40
+|45 ammo = 
+|45 bauxite = 220
+|45 sum = 240
+|45 level = 50
+|45 fleet = <span style="cursor:help" title="A CVL/CVE must be the flagship">'''1CVL/CVE*'''</span><ref name="CVE43" />  4DD/DE <br>'''with'''<br>{{AA}} {{tooltip|240+|Summary AA including ship and equipment stats}}<br>{{ASW}} {{tooltip|300+|Summary ASW including ship and equipment stats}}<br>{{LOS}} {{tooltip|180+|Summary LOS including ship and equipment stats}}
+}}
+<references>
+<ref name="CVE43">''CVE*'': The flagship '''must''' be a CVE. CVEs include {{ShipLink|Taiyou}}, {{ShipLink|Shinyou}}, {{ShipLink|Zuihou Kai Ni B}}, and {{ShipLink|Gambier Bay}}.</ref>
+</references>
+*Expedition 41 can achieve great success without sparkling or special equipment.
+</noinclude>

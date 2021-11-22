@@ -1,0 +1,25 @@
+<includeonly>{{#switch:{{{1|end}}}
+|start = 19 November 2021 11:00:00 +0900
+|end1 = 19 November 2021 23:30:00 +0900
+|end = 19 November 2021 23:30:00 +0900
+<!--
+-->
+}}</includeonly><noinclude>
+{|class="wikitable" style="width:900px;text-align:center;margin:auto;"
+!colspan=2|<big>This template holds the game maintenance countdown data, for syncing across the wiki.</big>
+|-
+!style="width:50%"|Time until maintenance starts
+!style="width:50%"|Time until maintenance ends
+|-
+|{{Maintenance|start|timer=true}}
+|{{Maintenance|end|timer=true}}
+|-
+!Maintenance start date and time
+|{{Maintenance|start|short=true}}
+|-
+!Expected maintenance end date and time
+|{{Maintenance|end1|short=true}}
+|-
+!Actual maintenance end date and time
+|{{Maintenance|end|short=true}} (?)
+|}</noinclude>

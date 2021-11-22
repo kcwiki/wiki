@@ -144,7 +144,7 @@ local function render(args)
         fleetNote = fleetNote .. " '''{{color|red|{{tooltip|Powerful|"  .. fleet.p2w ..  " samples}}}}'''"
       end
       if table.getn(fleet.voices or {}) > 0 then
-        fleetNote = fleetNote .. ' ' .. U.ijoin(U.imap(fleet.voices[1], formatVoice), ' ')
+        fleetNote = fleetNote .. ' ' .. U.ijoin(U.imap(fleet.voices, formatVoice), ' ')
       end
       table.insert(result, string.format('|-\n!colspan="11"|%s', fleetNote))
       table.insert(result, tableHeader)
@@ -152,7 +152,7 @@ local function render(args)
         table.insert(
           result,
           string.format(
-            '|-\n|%s||%s||style="text-align:left;white-space:nowrap"|%s%s%s%s%s||%s||%s||%s||%s||%s',
+            '|-\n|%s||%s||style="text-align:left;white-space:nowrap"|%s%s%s%s%s%s||%s||%s||%s||%s||%s',
             getShipCard(ship.ship),
             ship.level,
             ship.equipment[1] and getEquipmentCard(ship.equipment[1]) or '',
@@ -160,6 +160,7 @@ local function render(args)
             ship.equipment[3] and getEquipmentCard(ship.equipment[3]) or '',
             ship.equipment[4] and getEquipmentCard(ship.equipment[4]) or '',
             ship.equipment[5] and getEquipmentCard(ship.equipment[5]) or '',
+            ship.extraSlot and string.format('<span style="display:inline-block;border-radius:10px;border:5px solid steelblue">%s</span>', getEquipmentCard(ship.extraSlot)) or '',
             type(ship.hp) == 'table' and formatHp(ship.hp, ship.maxHp) or ship.hp ~= ship.maxHp and string.format('%s/%s', ship.hp, ship.maxHp) or
               ship.maxHp,
             ship.firepower,

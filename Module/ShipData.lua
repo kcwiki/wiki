@@ -2,6 +2,8 @@ local Equipment
 local Formatting = require('Module:Formatting')
 local Ship
 local ShipClass = require('Module:ShipClass')
+local dropData
+local sortIds = require("Module:DropList/Sort")
 
 local BaseData = require("Module:BaseData")
 local ShipData = BaseData{
@@ -131,6 +133,10 @@ function ShipData:true_id()
 	return self._true_id
 end
 
+function ShipData:sort_id()
+	return sortIds[self._api_id] or 0
+end
+
 function ShipData:rarity()
 	return self._rarity
 end
@@ -153,6 +159,34 @@ end
 
 function ShipData:type()
 	return self._type
+end
+
+function ShipData:code()
+	return Formatting:format_ship_code(self._type)
+end
+
+function ShipData:is_battleship()
+	return self._type == 8 or self._type == 9 or self._type == 10 or self._type == 12
+end
+
+function ShipData:is_carrier()
+	return self._type == 7 or self._type == 11 or self._type == 18
+end
+
+function ShipData:is_auxiliary()
+	return self._type == 22 or self._type == 16 or self._type == 17 or self._type == 19 or self._type == 20
+end
+
+function ShipData:is_submarine()
+	return self._type == 13 or self._type == 14
+end
+
+function ShipData:is_CL()
+	return self._type == 3 or self._type == 4 or self._type == 21
+end
+
+function ShipData:is_CA()
+	return self._type == 5 or self._type == 6
 end
 
 function ShipData:is_installation()
@@ -495,8 +529,27 @@ function ShipData:buildable_lsc()
 	return self._buildable_lsc
 end
 
+function ShipData:buildable_or()
+	return self._buildable or self._buildable_lsc
+end
+
+function ShipData:buildable_and()
+	return self._buildable and self._buildable_lsc
+end
+
 function ShipData:build_time()
 	return self._build_time
+end
+
+local function prepareDropData()
+	if not dropData then
+		dropData = require('Module:Data/ShipDrop')
+	end
+end
+
+function ShipData:dropable()
+	prepareDropData()
+	return dropData[self._name] and true or false
 end
 
 function ShipData:remodel_from()

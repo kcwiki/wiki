@@ -1,9 +1,10 @@
 ==Page/Template Links==
 {{AssetTemplateList}}
-
-<br>[[Development/Equipment_Rates]]
-<br>[[Template:DevelopmentByEquipment]]
+[[Development/Equipment_Rates]] ([[Template:DevelopmentByEquipment|Template]])
+<br>[[Development/Common_Recipes]] ([[Template:DevelopmentRecipes|Template]])
 <br>[[Partials/Speed system]]
+<br>[[Template:Equipment/New Submarine Torpedo Cut-In]]
+<br>[[Template:Equipment/ASW Synergy]]
 <br>[[Template:Landing Craft/Amphibious Tank Capable Ships]]
 <br>[[Template:Anti-PT Imp Setups]]
 
@@ -24,559 +25,51 @@
 ==Bookmark Links==
 [[User:Grunilg/Major_Changes]]
 
-==Help:Media/Phase 2==
-To help retain my sanity when dealing with assets.
+{{:User:Chocolatecravinghobo/AssetLists}}
 
-===Item Assets===
+==Other==
+
+{| class="wikitable" style="text-align:center;"
+! colspan="16" | {{Seaplane}} {{SeaplaneFighter}} {{Flying Boat}} {{Autogyro}} {{ASWPlane}}<br />[[Seaplane|Seaplanes]] & Miscellaneous
+|-
+! 
+! Two Floats
+! Three Floats<br>(Wikipedia calls this 1 float)
+! Flying Boat
+! Other
+|-
+! One Seater
+|<!--1 seat, 2 floats--> 
+|<!--1 seat, 3 floats--> {{QuestRewardEquip|Ro.44 Seaplane Fighter}} {{QuestRewardEquip|Type 2 Seaplane Fighter Kai}}<br>{{QuestRewardEquip|Ro.44 Seaplane Fighter bis}} {{QuestRewardEquip|Type 2 Seaplane Fighter Kai (Skilled)}} {{QuestRewardEquip|Kyoufuu Kai}}
+|<!--1 seat, Flying Boat--> 
+|<!--1 seat, Other--> 
+|-
+! Two Seater
+|<!--2 seats, 2 floats--> {{QuestRewardEquip|Zuiun<br>(ALL VARIANTS?)|image=File:Equipment Card Zuiun.png}} {{QuestRewardEquip|Ar196 Kai}} {{QuestRewardEquip|S9 Osprey}} {{QuestRewardEquip|Fairey Seafox Kai}}
+|<!--2 seats, 3 floats--> {{QuestRewardEquip|Type 0 Observation Seaplane}} {{QuestRewardEquip|Prototype Seiran}} {{QuestRewardEquip|Shiun}} {{QuestRewardEquip|Ro.43 Reconnaissance Seaplane}}<br>{{QuestRewardEquip|OS2U}} {{QuestRewardEquip|Seiran (631 Air Group)}} {{QuestRewardEquip|SOC Seagull}} {{QuestRewardEquip|SO3C Seamew Kai}} 
+|<!--2 seats, Flying Boat-->
+|<!--2 seats, Other--> {{QuestRewardEquip|Ka Type Observation Autogyro}} {{QuestRewardEquip|Type 3 Command Liaison Aircraft (ASW)}}<br>{{QuestRewardEquip|O Type Observation Autogyro Kai}} {{QuestRewardEquip|O Type Observation Autogyro Kai Ni}}
+|-
+! Three Seater
+|<!--3 seats, 2 floats-->{{QuestRewardEquip|Type 0 Reconnaissance Seaplane}}{{QuestRewardEquip|Type 0 Reconnaissance Seaplane Model 11B}}{{QuestRewardEquip|Type 0 Reconnaissance Seaplane Model 11B (Skilled)}}{{QuestRewardEquip|Swordfish<br>(ALL VARIANTS, INCLUDING CARRIER-BASED)|image=File:Equipment Card Swordfish (Seaplane Model).png}}
+|<!--3 seats, 3 floats--> 
+|<!--3 seats, Flying Boat-->{{QuestRewardEquip|Type 98 Reconnaissance Seaplane (Night Recon)}}
+|<!--3 seats, Other-->
+|-
+! Four Seater
+|<!--4 seats, 2 floats-->{{QuestRewardEquip|Laté 298B}}
+|<!--4 seats, 3 floats--> 
+|<!--4 seats, Flying Boat-->
+|<!--4 seats, Other--> {{QuestRewardEquip|S-51J}} {{QuestRewardEquip|S-51J Kai}}
+|-
+! Ten Seater
+|<!--10 seats, 2 floats-->
+|<!--10 seats, 3 floats--> 
+|<!--10 seats, Flying Boat-->{{QuestRewardEquip|Type 2 Large Flying Boat}} {{QuestRewardEquip|PBY-5A Catalina}}
+|<!--10 seats, Other-->
 <!--
-Item Cards are compatible with [[Template:EquipmentLink|EquipmentLink]] and [[Template:EquipmentCardKai|EquipmentCardKai]] and can be used normally.
-<pre>{{EquipmentLink|Setsubun Beans}}
-{{EquipmentCardKai|Setsubun Beans}}</pre>
-Item Icons are compatible with [[Template:EquipmentCardKai|EquipmentCardKai]] but require the icon parameter.
-<pre>{{EquipmentCardKai|Setsubun Beans|icon=true}}</pre>
-Consumable equipment need the item parameter to differentiate the item from their equipment: 
-<pre>{{EquipmentCardKai|Underway Replenishment|item=true}}
-{{EquipmentCardKai|Underway Replenishment|icon=true|item=true}}</pre>
--->
-{|class="wikitable typography-xl-optout mw-collapsible mw-collapsed article-table" text-align:center; center"  
-!colspan="5" style="background:#555;color:#fff;"|Item Assets
 |-
-!colspan="5"|
+! colspan="16" | 
 |-
-!ID
-!Item Name
-!{{ToolTip|Card{{color|red|<sup>?</sup>}}|Item Card [itemname].png<hr>Asset used as map item drop, event reward, quest reward & choice quest option.}}
-!{{ToolTip|Icon{{color|red|<sup>?</sup>}}|Item Icon [itemname].png<hr>Asset used in inventory & map selection.}}
-!{{ToolTip|Full{{color|red|<sup>?</sup>}}|Item Full [itemname].png<hr>Asset used in choice quest confirmations & conversion quest animations.}}
-|-
-!<nowiki>-</nowiki>
-!{{ToolTip|Provisional Resupply{{color|red|<sup>?</sup>}}|PseudoItem<hr>No ID, appears once as a reward.}}
-![[File:Item Card Provisional Resupply.png|80px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Icon Provisional Resupply.png|70px]]}}
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Provisional Resupply.png|80px ]]}}
-|-
-!<nowiki>-</nowiki>
-!{{ToolTip|Ranking Point Reward{{color|red|<sup>?</sup>}}|PseudoItem<hr>No ID, used on some repeating quests alongside a number value.}}
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Ranking Point Reward.png|80px]]}}
-![[File:Item Icon Ranking Point Reward.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Ranking Point Reward.png|80px ]]}}
-|-
-!1
-!Instant Repair Material
-![[File:Item Card Instant Repair Material.png|80px]]
-![[File:Item Icon Instant Repair Material.png|70px]]
-![[File:Item Full Instant Repair Material.png|80px ]]
-|-
-!2
-!Instant Construction Material
-!{{ToolTip|{{Chocolatecravinghobo/Redirect|[[File:Item Card Instant Construction Material.png|80px]]}}{{color|red|<sup>?</sup>}}|Redirect to File:Item Card 5.png}}
-![[File:Item Icon Instant Construction Material.png|70px]]
-![[File:Item Full Instant Construction Material.png|80px ]]
-|-
-!3
-!Development Material
-![[File:Item Card Development Material.png|80px]]
-![[File:Item Icon Development Material.png|70px]]
-![[File:Item Full Development Material.png|80px ]]
-|-
-!4
-!Improvement Material
-![[File:Item Card Improvement Material.png|80px]]
-![[File:Item Icon Improvement Material.png|70px]]
-![[File:Item Full Improvement Material.png|80px ]]
-|-
-!5
-!{{ToolTip|5{{color|red|<sup>?</sup>}}|No backend data for this,<br>image dupe of Instant Construction Material(ID:002) with orange background and smaller flame.}}
-![[File:Item Card 5.png|80px]]
-![[File:Item Icon 5.png|70px]]
-![[File:Item Full 5.png|80px ]]
-|-
-|
-|
-|
-|
-|
-|-
-!10
-!Furniture Box (Small)
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Furniture Box (Small).png|80px]]}}
-![[File:Item Icon Furniture Box (Small).png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Furniture Box (Small).png|80px ]]}}
-|-
-!11
-!Furniture Box (Medium)
-![[File:Item Card Furniture Box (Medium).png|80px]]
-![[File:Item Icon Furniture Box (Medium).png|70px]]
-![[File:Item Full Furniture Box (Medium).png|80px ]]
-|-
-!12
-!Furniture Box (Large)
-![[File:Item Card Furniture Box (Large).png|80px]]
-![[File:Item Icon Furniture Box (Large).png|70px]]
-![[File:Item Full Furniture Box (Large).png|80px ]]
-|-
-|
-|
-|
-|
-|
-|-
-!31
-!Fuel
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Fuel.png|80px]]}}
-![[File:Item Icon Fuel.png|70px]]
-![[File:Item Full Fuel.png|80px ]]
-|-
-!32
-!Ammo
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Ammo.png|80px]]}}
-![[File:Item Icon Ammo.png|70px]]
-![[File:Item Full Ammo.png|80px ]]
-|-
-!33
-!Steel
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Steel.png|80px]]}}
-![[File:Item Icon Steel.png|70px]]
-![[File:Item Full Steel.png|80px ]]
-|-
-!34
-!Bauxite
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Bauxite.png|80px]]}}
-![[File:Item Icon Bauxite.png|70px]]
-![[File:Item Full Bauxite.png|80px ]]
-|-
-!44
-!Furniture Coin
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Furniture Coin.png|80px]]}}
-![[File:Item Icon Furniture Coin.png|70px]]
-![[File:Item Full Furniture Coin.png|80px ]]
-|-
-|
-|
-|
-|
-|
-|-
-!49
-!Dock Opening Key
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Dock Opening Key.png|80px]]}}
-![[File:Item Icon Dock Opening Key.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Dock Opening Key.png|80px ]]}}
-|-
-!50
-!Emergency Repair Personnel
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Emergency Repair Personnel.png|80px]]}}
-![[File:Item Icon Emergency Repair Personnel.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Emergency Repair Personnel.png|80px ]]}}
-|-
-!51
-!Emergency Repair Goddess
-![[File:Item Card Emergency Repair Goddess.png|80px]]
-![[File:Item Icon Emergency Repair Goddess.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Emergency Repair Goddess.png|80px ]]}}
-|-
-!52
-!Furniture Fairy
-![[File:Item Card Furniture Fairy.png|80px]]
-![[File:Item Icon Furniture Fairy.png|70px]]
-![[File:Item Full Furniture Fairy.png|80px ]]
-|-
-!53
-!Homeport Expansion
-!<nowiki>-</nowiki>
-!<nowiki>-</nowiki>
-!<nowiki>-</nowiki>
-|-
-!54
-!Food Supply Ship Mamiya
-![[File:Item Card Food Supply Ship Mamiya.png|80px]]
-![[File:Item Icon Food Supply Ship Mamiya.png|70px]]
-![[File:Item Full Food Supply Ship Mamiya.png|80px ]]
-|-
-!55
-!Marriage Ring and Documents
-![[File:Item Card Marriage Ring and Documents.png|80px]]
-![[File:Item Icon Marriage Ring and Documents.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Marriage Ring and Documents.png|80px ]]}}
-|-
-!56
-!Special Chocolate
-![[File:Item Card Special Chocolate.png|80px]]
-![[File:Item Icon Special Chocolate.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Special Chocolate.png|80px ]]}}
-|-
-!57
-!Medal
-![[File:Item Card Medal.png|80px]]
-![[File:Item Icon Medal.png|70px]]
-![[File:Item Full Medal.png|80px ]]
-|-
-!58
-!Remodel Blueprint
-![[File:Item Card Remodel Blueprint.png|80px]]
-![[File:Item Icon Remodel Blueprint.png|70px]]
-![[File:Item Full Remodel Blueprint.png|80px ]]
-|-
-!59
-!Food Supply Ship Irako
-![[File:Item Card Food Supply Ship Irako.png|80px]]
-![[File:Item Icon Food Supply Ship Irako.png|70px]]
-![[File:Item Full Food Supply Ship Irako.png|80px ]]
-|-
-!60
-!Present Box
-![[File:Item Card Present Box.png|80px]]
-![[File:Item Icon Present Box.png|70px]]
-![[File:Item Full Present Box.png|80px ]]
-|-
-!61
-!First Class Medal
-![[File:Item Card First Class Medal.png|80px]]
-![[File:Item Icon First Class Medal.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full First Class Medal.png|80px ]]}}
-|-
-!62
-!Hishimochi
-![[File:Item Card Hishimochi.png|80px]]
-![[File:Item Icon Hishimochi.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Hishimochi.png|80px ]]}}
-|-
-!63
-!Headquarters Personnel
-![[File:Item Card Headquarters Personnel.png|80px]]
-![[File:Item Icon Headquarters Personnel.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Headquarters Personnel.png|80px ]]}}
-|-
-!64
-!Reinforcement Expansion
-![[File:Item Card Reinforcement Expansion.png|80px]]
-![[File:Item Icon Reinforcement Expansion.png|70px]]
-![[File:Item Full Reinforcement Expansion.png|80px ]]
-|-
-!65
-!Prototype Flight Deck Catapult
-![[File:Item Card Prototype Flight Deck Catapult.png|80px]]
-![[File:Item Icon Prototype Flight Deck Catapult.png|70px]]
-![[File:Item Full Prototype Flight Deck Catapult.png|80px ]]
-|-
-!66
-!Combat Ration
-![[File:Item Card Combat Ration.png|80px]]
-![[File:Item Icon Combat Ration.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Combat Ration.png|80px ]]}}
-|-
-!67
-!Underway Replenishment
-![[File:Item Card Underway Replenishment.png|80px]]
-![[File:Item Icon Underway Replenishment.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Underway Replenishment.png|80px ]]}}
-|-
-!68
-!Saury <s>Mackerel</s>
-![[File:Item Card Saury.png|80px]]
-![[File:Item Icon Saury.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Saury.png|80px ]]}}
-|-
-!69
-!Canned Saury <s>Mackerel</s>
-![[File:Item Card Canned Saury.png|80px]]
-![[File:Item Icon Canned Saury.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Canned Saury.png|80px ]]}}
-|-
-!70
-!Skilled Crew Member
-![[File:Item Card Skilled Crew Member.png|80px]]
-![[File:Item Icon Skilled Crew Member.png|70px]]
-![[File:Item Full Skilled Crew Member.png|80px ]]
-|-
-!71
-!Ne Type Engine
-![[File:Item Card Ne Type Engine.png|80px]]
-![[File:Item Icon Ne Type Engine.png|70px]]
-![[File:Item Full Ne Type Engine.png|80px ]]
-|-
-!72
-!Decoration Material
-![[File:Item Card Decoration Material.png|80px]]
-![[File:Item Icon Decoration Material.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Decoration Material.png|80px ]]}}
-|-
-!73
-!Construction Corps
-![[File:Item Card Construction Corps.png|80px]]
-![[File:Item Icon Construction Corps.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Construction Corps.png|80px ]]}}
-|-
-!74
-!New Technology Aircraft Blueprint
-![[File:Item Card New Technology Aircraft Blueprint.png|80px]]
-![[File:Item Icon New Technology Aircraft Blueprint.png|70px]]
-![[File:Item Full New Technology Aircraft Blueprint.png|80px ]]
-|-
-!75
-!New Model Gun Mount Improvement Material
-![[File:Item Card New Model Gun Mount Improvement Material.png|80px]]
-![[File:Item Icon New Model Gun Mount Improvement Material.png|70px]]
-![[File:Item Full New Model Gun Mount Improvement Material.png|80px ]]
-|-
-!76
-!Combat Ration (Special Onigiri)
-!{{Chocolatecravinghobo/Redirect|[[File:Item Card Combat Ration (Special Onigiri).png|80px]]}}
-![[File:Item Icon Combat Ration (Special Onigiri).png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Combat Ration (Special Onigiri).png|80px ]]}}
-|-
-!77
-!New Model Aerial Armament Material
-![[File:Item Card New Model Aerial Armament Material.png|80px]]
-![[File:Item Icon New Model Aerial Armament Material.png|70px]]
-![[File:Item Full New Model Aerial Armament Material.png|80px ]]
-|-
-!78
-!Action Report
-![[File:Item Card Action Report.png|80px]]
-![[File:Item Icon Action Report.png|70px]]
-![[File:Item Full Action Report.png|80px ]]
-|-
-!79
-!Strait Medal
-![[File:Item Card Strait Medal.png|80px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Icon Strait Medal.png|70px]]}}
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Strait Medal.png|80px ]]}}
-|-
-!80
-!Xmas Select Gift Box
-![[File:Item Card Xmas Select Gift Box.png|80px]]
-![[File:Item Icon Xmas Select Gift Box.png|70px]]
-![[File:Item Full Xmas Select Gift Box.png|80px ]]
-|-
-!81<br>82<br>83<br>84
-!{{ToolTip|Shou-Gou Medal{{color|red|<sup>?</sup>}}|Given to players who cleared Winter 2018 Event.<hr>ID is based on what difficulty you cleared E7 on, determines medal glow.}}
-![[File:Item Card Shou-Gou Medal.png|80px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Icon Shou-Gou Medal.png|70px]]}}
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Shou-Gou Medal.png|80px ]]}}
-|-
-!85
-!Rice
-![[File:Item Card Rice.png|80px]]
-![[File:Item Icon Rice.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Rice.png|80px ]]}}
-|-
-!86
-!Umeboshi
-![[File:Item Card Umeboshi.png|80px]]
-![[File:Item Icon Umeboshi.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Umeboshi.png|80px ]]}}
-|-
-!87
-!Nori
-![[File:Item Card Nori.png|80px]]
-![[File:Item Icon Nori.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Nori.png|80px ]]}}
-|-
-!88
-!Tea
-![[File:Item Card Tea.png|80px]]
-![[File:Item Icon Tea.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Tea.png|80px ]]}}
-|-
-!89
-!Houshou Dinner Ticket
-![[File:Item Card Houshou Dinner Ticket.png|80px]]
-![[File:Item Icon Houshou Dinner Ticket.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Houshou Dinner Ticket.png|80px ]]}}
-|-
-!90
-!Setsubun Beans
-![[File:Item Card Setsubun Beans.png|80px]]
-![[File:Item Icon Setsubun Beans.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Setsubun Beans.png|80px ]]}}
-|-
-!91
-!Emergency Repair Material
-![[File:Item Card Emergency Repair Material.png|80px]]
-![[File:Item Icon Emergency Repair Material.png|70px]]
-![[File:Item Full Emergency Repair Material.png|80px ]]
-|-
-!92
-!New Model Rocket Development Material
-![[File:Item Card New Model Rocket Development Material.png|80px]]
-![[File:Item Icon New Model Rocket Development Material.png|70px]]
-![[File:Item Full New Model Rocket Development Material.png|80px ]]
-|-
-!93
-!Sardine
-![[File:Item Card Sardine.png|80px]]
-![[File:Item Icon Sardine.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Sardine.png|80px ]]}}
-|-
-!94
-!New Model Armament Material
-![[File:Item Card New Model Armament Material.png|80px]]
-![[File:Item Icon New Model Armament Material.png|70px]]
-![[File:Item Full New Model Armament Material.png|80px ]]
-|-
-!95
-!Submarine Supply Material
-![[File:Item Card Submarine Supply Material.png|80px]]
-![[File:Item Icon Submarine Supply Material.png|70px]]
-!{{Chocolatecravinghobo/Redirect|[[File:Item Full Submarine Supply Material.png|80px ]]}}
-|}
-[[Template:Chocolatecravinghobo/Redirect]]
-
-
-===Shop Item Assets===
-{|class="wikitable typography-xl-optout mw-collapsible mw-collapsed article-table" text-align:center;" <!--width="100%" -->
-!colspan="5" style="background:#555;color:#fff;"|Shop Item Assets
-|-
-!colspan="5"|
-|-
-!ID
-!Item Name
-!{{ToolTip|Card{{color|red|<sup>?</sup>}}|Shop Card [itemname].'''jpg'''<hr>Asset used on the DMM points transaction confirmation page.}}
-!{{ToolTip|Icon{{color|red|<sup>?</sup>}}|Shop Icon [itemname].png<hr>Asset used in the item shop and the purchased items inventory section.}}
-|-
-!1
-!Fuel
-![[File:Shop Card Fuel.jpg|80px]]
-![[File:Shop Icon Fuel.png|70px]]
-|-
-!2
-!Ammo
-![[File:Shop Card Ammo.jpg|80px]]
-![[File:Shop Icon Ammo.png|70px]]
-|-
-!3
-!Steel
-![[File:Shop Card Steel.jpg|80px]]
-![[File:Shop Icon Steel.png|70px]]
-|-
-!4
-!Bauxite
-![[File:Shop Card Bauxite.jpg|80px]]
-![[File:Shop Icon Bauxite.png|70px]]
-|-
-!5
-!Development Material
-!{{ToolTip|[[File:Shop Card Development Material.jpg|80px]]{{color|red|<sup>?</sup>}}|Original file errored, not coded properly as .jpg ???<br>File uploaded to wikia/wiki was converted/re-coded to .jpg again in windows paint.}}
-![[File:Shop Icon Development Material.png|70px]]
-|-
-!6
-!Instant Construction Material
-![[File:Shop Card Instant Construction Material.jpg|80px]]
-![[File:Shop Icon Instant Construction Material.png|70px]]
-|-
-!7
-!Instant Repair Material
-![[File:Shop Card Instant Repair Material.jpg|80px]]
-![[File:Shop Icon Instant Repair Material.png|70px]]
-|-
-!8
-!Discounted Arsenal Set
-![[File:Shop Card Discounted Arsenal Set.jpg|80px]]
-![[File:Shop Icon Discounted Arsenal Set.png|70px]]
-|-
-!9
-!Discounted Sortie Set
-![[File:Shop Card Discounted Sortie Set.jpg|80px]]
-![[File:Shop Icon Discounted Sortie Set.png|70px]]
-|-
-!10
-!Dock Expansion Set
-![[File:Shop Card Dock Expansion Set.jpg|80px]]
-![[File:Shop Icon Dock Expansion Set.png|70px]]
-|-
-!11
-!Emergency Repair Personnel
-![[File:Shop Card Emergency Repair Personnel.jpg|80px]]
-![[File:Shop Icon Emergency Repair Personnel.png|70px]]
-|-
-!12
-!{{ToolTip|12{{color|red|<sup>?</sup>}}|Secret Unused item/asset<hr>Easter Egg worthy}}
-![[File:Shop Card 12.jpg|80px]]
-![[File:Shop Icon 12.png|70px]]
-|-
-!13
-!88 Resource Set
-![[File:Shop Card 88 Resource Set.jpg|80px]]
-![[File:Shop Icon 88 Resource Set.png|70px]]
-|-
-!14
-!Emergency Repair Goddess
-![[File:Shop Card Emergency Repair Goddess.jpg|80px]]
-![[File:Shop Icon Emergency Repair Goddess.png|70px]]
-|-
-!15
-!Furniture Fairy
-![[File:Shop Card Furniture Fairy.jpg|80px]]
-![[File:Shop Icon Furniture Fairy.png|70px]]
-|-
-!16
-!Homeport Expansion
-![[File:Shop Card Homeport Expansion.jpg|80px]]
-![[File:Shop Icon Homeport Expansion.png|70px]]
-|-
-!17
-!Tanker Expropriation
-![[File:Shop Card Tanker Expropriation.jpg|80px]]
-![[File:Shop Icon Tanker Expropriation.png|70px]]
-|-
-!18
-!Food Supply Ship Mamiya
-![[File:Shop Card Food Supply Ship Mamiya.jpg|80px]]
-![[File:Shop Icon Food Supply Ship Mamiya.png|70px]]
-|-
-!19
-!Aluminium Mass Production
-![[File:Shop Card Aluminium Mass Production.jpg|80px]]
-![[File:Shop Icon Aluminium Mass Production.png|70px]]
-|-
-!20
-!Marriage Ring and Documents
-![[File:Shop Card Marriage Ring and Documents.jpg|80px]]
-![[File:Shop Icon Marriage Ring and Documents.png|70px]]
-|-
-!21
-!White Day Cookies
-![[File:Shop Card White Day Cookies.jpg|80px]]
-![[File:Shop Icon White Day Cookies.png|70px]]
-|-
-!22
-!Improvement Material
-![[File:Shop Card Improvement Material.jpg|80px]]
-![[File:Shop Icon Improvement Material.png|70px]]
-|-
-!23
-!Food Supply Ship Irako
-![[File:Shop Card Food Supply Ship Irako.jpg|80px]]
-![[File:Shop Icon Food Supply Ship Irako.png|70px]]
-|-
-!24
-!Combat Ration
-![[File:Shop Card Combat Ration.jpg|80px]]
-![[File:Shop Icon Combat Ration.png|70px]]
-|-
-!25
-!Underway Replenishment
-![[File:Shop Card Underway Replenishment.jpg|80px]]
-![[File:Shop Icon Underway Replenishment.png|70px]]
-|-
-!26
-!Reinforcement Expansion
-![[File:Shop Card Reinforcement Expansion.jpg|80px]]
-![[File:Shop Icon Reinforcement Expansion.png|70px]]
-|-
-!27
-!Construction Corps
-![[File:Shop Card Construction Corps.jpg|80px]]
-![[File:Shop Icon Construction Corps.png|70px]]
-|-
-!28
-!Emergency Repair Material
-![[File:Shop Card Emergency Repair Material.jpg|80px]]
-![[File:Shop Icon Emergency Repair Material.png|70px]]
-|-
-!29
-!Submarine Supply Material
-![[File:Shop Card Submarine Supply Material.jpg|80px]]
-![[File:Shop Icon Submarine Supply Material.png|70px]]
+! Unresearched/Unknown
 |}

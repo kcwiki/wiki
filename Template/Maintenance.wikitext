@@ -1,0 +1,31 @@
+<includeonly>{{#if:{{{timer|}}}|{{Timer|time={{Maintenance/Times|{{{1}}}}}|endClass=maint-{{{1}}}|endText='''{{{text|{{#ifeq:{{{1}}}|start|Maintenance has started.|{{#ifeq:{{{1}}}|end|Maintenance has ended.}}}}}}}'''}}|{{#if:{{{short|}}}|{{#explode:{{Maintenance/Times|{{{1}}}}}|:|0}}:{{#explode:{{Maintenance/Times|{{{1}}}}}|:|1}}|{{Maintenance/Times|{{{1}}}}}}}}}</includeonly><noinclude>
+A template to centralize maintenance time definitions and queries. Times are defined in [[Template:Maintenance/Times]] and can be queried as follows.
+
+==Usage==
+
+Request current maintenance start time:
+
+<pre>{{Maintenance|start}}</pre>
+
+<blockquote>{{Maintenance|start}}</blockquote>
+
+As [[Template:Timer]]:
+
+<pre>{{Maintenance|start|timer=true|text=Optionally custom endText}}</pre>
+
+<blockquote>{{Maintenance|start|timer=true|text=Optionally custom endText}}</blockquote>
+
+Short form:
+
+<pre>{{Maintenance|start|short=true}}</pre>
+
+<blockquote>{{Maintenance|start|short=true}}</blockquote>
+
+Same for other defined times (<code>end</code>, etc.).
+
+==Affected pages==
+*[[KanColle Wiki]]
+*[[Recent Updates]]
+*Current update page
+*Current update thread
+</noinclude>

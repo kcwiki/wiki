@@ -12,6 +12,8 @@
 <div class="mw-collapsible-content">
 '''Stock equipment''' of {{Ship/Link|Littorio}}, {{Ship/Link|Roma}}
 
+'''Upgradeable''' from {{Equipment/Link|Anti-torpedo Bulge (Large)}}
+
 ''Event reward for:''
 * [[Spring 2015 Event]] E-3: Hard, Medium, Easy
 
@@ -21,9 +23,40 @@
 <div class="mw-collapsible><h3>Updates History</h3>
 <div class="mw-collapsible-content>
 * '''2015-04-28:''' '''Implemented'''
+* '''2021-09-28:''' Visible bonuses added, became '''improvable'''
 </div></div>
 
+==Fit Bonuses==
+{{:{{PAGENAME}}/Bonuses}}
+
+==Akashi's Improvement Arsenal==
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name={{PAGENAME}}
+|ItemType=ArmorEquipment
+|Fuel=60
+|Ammo=0
+|Steel=900
+|Baux=30
+|Mats0-5=20/30
+|Mats6-9=32/48
+|Mats10=-
+|Screws0-5=4/5
+|Screws6-9=6/7
+|Screws10=-
+|EquipConsume0-5=1x{{ArmorEquipment|Anti-torpedo Bulge (Large)}}
+|EquipConsume6-9=1x{{ArmorEquipment|Pugliese-Type Underwater Bulkhead}}
+|EquipConsume10=-
+|Mon=&nbsp;<br>C
+|Tue=L<br>C
+|Wed=L<br>C
+|Thu=L<br>C
+|2ndShip={{Ship/Link|Littorio}}<br>{{Ship/Link|Conte di Cavour/Nuovo}}
+|Notes=
+}}
+|}
+
 ==See also==
-{{Equipmentlist}}
 [[wikipedia:Littorio-class battleship#Pugliese torpedo defense system|Pugliese torpedo defense system]]
+{{Equipmentlist}}
 [[Category:Armor]]

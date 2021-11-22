@@ -1,4 +1,4 @@
-<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Asset|{{{1}}}|type=Item|asset=Icon|size={{#if: {{{size|}}} | {{{size}}} | {{#if: {{{normal|}}} | 50x50px }}}}|caption={{#if: {{{text|}}} | {{{text}}} | {{{caption|}}} }}|suffix1={{{suffix1|}}}}}</includeonly><noinclude>
+<noinclude>{{AssetTemplateList}}</noinclude><includeonly>{{Asset|{{{1}}}|type=Item|asset=Icon|size={{#if: {{{size|}}} | {{{size}}} | {{#if: {{{small|}}} | 30x30px }}}}|caption={{#if: {{{text|}}} | {{{text}}} | {{{caption|}}} }}|suffix1={{{suffix1|}}}}}</includeonly><noinclude>
 Inherited from [[Template:Asset]]. Used to display item icons.
 
 <pre>{{Item/Icon|Emergency Repair Goddess|size=50x50px}}</pre>

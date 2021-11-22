@@ -97,13 +97,13 @@ function Ship:get_table(name, model)
 end
 
 function Ship:process_ship_key(ship_key)
-  local split = mw.ustring.find(ship_key, '/')
+  local split = string.find(ship_key, '/')
   local ship_base_name, ship_suffix
   if split == nil then
     ship_base_name = ship_key
   else
-    ship_base_name = split - 1 > 0 and mw.ustring.sub(ship_key, 1, split - 1) or ''
-    ship_suffix = mw.ustring.sub(ship_key, split + 1, -1)
+    ship_base_name = split - 1 > 0 and string.sub(ship_key, 1, split - 1) or ''
+    ship_suffix = string.sub(ship_key, split + 1, -1)
   end
   return ship_base_name, ship_suffix
 end

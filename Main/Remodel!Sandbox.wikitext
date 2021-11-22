@@ -1,0 +1,558 @@
+[[File:RemodelButtonLocation.png|thumb|Location of the remodel button<br>In this case, it's grayed out because Kongou has not reached the required level]]
+[[File:Remodel.png|thumb|Top: remodel interface<br>Bottom: getting the remodeled ship]]
+__TOC__
+'''Remodel''' is an act of improving ship stats and (possibly) capabilities:
+*{{Firepower}} Firepower, {{Torpedo}} Torpedo, {{AA}} Anti-Air, and {{Armor}} Armor, as well as {{Evasion}} Evasion, {{ASW}} Anti-Submarine, and {{LOS}} Line-of-Sight stats will use new (and usually better) minimum and maximum values. {{HP}} is usually increased. Rarity will usually increase. Ship CG and voice lines will be updated.
+*Ship type, number of equipment slots, {{Aircraft}} Aircraft slots, {{Range}} Range, {{Speed}} Speed, and resource consumption can change as well. Some ships will be able to equip special equipment or use special mechanics upon remodel, with or without type change.
+
+For many ships it is possible to perform multiple remodels. The first remodel is always possible and usually called '''改''' (Kai, for example, 北上 or [[Kitakami]] will become 北上改 or [[Kitakami Kai]]), while the second remodel is called '''改二''' (Kai Ni, for example, 金剛改 or [[Kongou Kai]] will become 金剛改二 or [[Kongou Kai Ni]]), but many exceptions (including name changes) exist. Some ships are able to revert between remodel forms (for example, [[Shoukaku]] can be remodeled back and forth between her [[CV]] and [[CVB]] forms, [[Shoukaku Kai Ni]] and [[Shoukaku Kai Ni A]]).
+
+To remodel a ship it is required:
+*The ship should reach the minimum level required for a remodel.
+*Certain amount of resources ({{Steel}} Steel and {{Ammo}} Ammunition, amount differs depending on ship).
+*For certain ships extra items can be required: [[Blueprint]], [[Prototype Flight Deck Catapult]], {{Devmat}} Development or {{Conmat}} Construction materials. Usually, ships that need extra items have special equipment after remodel or have special capabilities. For example, [[Choukai Kai]] needs a blueprint to become a [[Choukai Kai Ni|Kai Ni]], after she becomes Kai Ni, she has two special equipment called [[Skilled Lookouts]] and [[Type 22 Surface Radar Kai 4]].
+*4 or more free equipment slots.
+
+Remodeling instantly restores ship's HP, {{Fuel}} Fuel and {{Ammo}} Ammo to full, set [[morale]] to 40 and places all her equipment in storage.
+
+It is important to note that a remodel will [[#reset|reset]] [[modernization#general|general modernization]] efforts put into the ship. For example, if you have a [[Kitakami Kai]] with maxed stats, remodeling her to [[Kitakami Kai Ni]] will [[#reset|reset]] her firepower, torpedo, AA and armor. However, '''[[Modernization#luck|luck]] and [[Modernization#de|HP and ASW]] modernization values do not reset upon remodeling.'''
+
+=={{anchor|reset}}Stats after Remodel==
+*Stats that increase through leveling ({{Evasion}} Evasion, {{ASW}} Anti-Submarine, and {{LOS}} Line-of-Sight) will be different, they will follow [[Modernization#level|the usual]] formula, but with different constants specific to a new remodel form.
+*Stats that can be increased through general [[modernization#general|modernization]] ({{Firepower}} Firepower, {{Torpedo}} Torpedo, {{AA}} Anti-Air, and {{Armor}} Armor) will be reset using the following formula (depending on new minimal and maximal stat values, current level, and a random number, either 0.4 or 0.8):
+
+<center><math>min + \left \lceil (max - min) \times (0.4 \text{ or } 0.8) \times \frac{lv}{99} \right \rceil</math></center>
+
+
+*{{Luck}} Luck does not reset upon remodeling.
+*{{HP}} HP and {{ASW}} ASW [[Modernization#de|modernization values]] do not reset upon remodeling.
+
+=={{anchor|tables}}Reference Tables==
+{{Section|collapsed=true}}
+{{todo|Use an iterator}}
+===#1-#350===
+{{ShipRemodelListKai
+|Nagato
+|Mutsu
+|Ise
+|Hyuuga
+|Yukikaze
+|Akagi
+|Kaga
+|Souryuu
+|Hiryuu
+|Shimakaze
+|#
+|Fubuki
+|Shirayuki
+|Hatsuyuki
+|Miyuki
+|Murakumo
+|Isonami
+|Ayanami
+|Shikinami
+|Ooi
+|Kitakami
+|#
+|Kongou
+|Hiei
+|Haruna
+|Kirishima
+|Houshou
+|Fusou
+|Yamashiro
+|Tenryuu
+|Tatsuta
+|Ryuujou
+|#
+|Mutsuki
+|Kisaragi
+|Satsuki
+|Fumizuki
+|Nagatsuki
+|Kikuzuki
+|Mikazuki
+|Mochizuki
+|Kuma
+|Tama
+|#
+|Kiso
+|Nagara
+|Isuzu
+|Natori
+|Yura
+|Sendai
+|Jintsuu
+|Naka
+|Chitose
+|Chiyoda
+|#
+|Mogami
+|Furutaka
+|Kako
+|Aoba
+|Myoukou
+|Nachi
+|Ashigara
+|Haguro
+|Takao
+|Atago
+|#
+|Maya
+|Choukai
+|Tone
+|Chikuma
+|Hiyou
+|Junyou
+|Oboro
+|Akebono
+|Sazanami
+|Ushio
+|#
+|Akatsuki
+|Hibiki
+|Ikazuchi
+|Inazuma
+|Hatsuharu
+|Nenohi
+|Wakaba
+|Hatsushimo
+|Shiratsuyu
+|Shigure
+|#
+|Murasame
+|Yuudachi
+|Samidare
+|Suzukaze
+|Asashio
+|Ooshio
+|Michishio
+|Arashio
+|Arare
+|Kasumi
+|#
+|Kagerou
+|Shiranui
+|Kuroshio
+|Shouhou
+|Chitose/Kai
+|Chiyoda/Kai
+|Ooi/Kai
+|Kitakami/Kai
+|Chitose/A
+|Chiyoda/A
+|#
+|Mogami/Kai
+|Ise/Kai
+|Hyuuga/Kai
+|Chitose/Carrier
+|Chiyoda/Carrier
+|Shoukaku
+|Zuikaku
+|Zuikaku/Kai
+|Kinu
+|Abukuma
+|#
+|Yuubari
+|Zuihou
+|Zuihou/Kai
+|Ooi/Kai Ni
+|Kitakami/Kai Ni
+|Mikuma
+|Mikuma/Kai
+|Hatsukaze
+|Maikaze
+|Kinugasa
+|#
+|Chitose/Carrier Kai Ni
+|Chiyoda/Carrier Kai Ni
+|I-19
+|Suzuya
+|Kumano
+|I-168
+|I-58
+|I-8
+|Suzuya/Kai
+|Kumano/Kai
+|#
+|Yamato
+|Akigumo
+|Yuugumo
+|Makigumo
+|Naganami
+|Yamato/Kai
+|Agano
+|Noshiro
+|Yahagi
+|Sakawa
+|#
+|Isuzu/Kai Ni
+|Kinugasa/Kai Ni
+|Musashi
+|Yuudachi/Kai Ni
+|Shigure/Kai Ni
+|Kiso/Kai Ni
+|Verniy
+|Musashi/Kai
+|Kongou/Kai Ni
+|Hiei/Kai Ni
+|#
+|Haruna/Kai Ni
+|Kirishima/Kai Ni
+|Taihou
+|Katori
+|I-401
+|Taihou/Kai
+|Ryuujou/Kai Ni
+|Sendai/Kai Ni
+|Jintsuu/Kai Ni
+|Naka/Kai Ni
+|#
+|Akitsu Maru
+|-
+|Maruyu
+|Yayoi
+|Uzuki
+|Akitsu Maru/Kai
+|Isokaze
+|Urakaze
+|Tanikaze
+|Hamakaze
+|#
+|Bismarck
+|Bismarck/Kai
+|Bismarck/zwei
+|Z1
+|Z3
+|Prinz Eugen
+|Prinz Eugen/Kai
+|Bismarck/drei
+|Z1/zwei
+|Z3/zwei
+|#
+|Amatsukaze
+|Akashi
+|Ooyodo
+|Taigei
+|Ryuuhou
+|Tokitsukaze
+|Akashi/Kai
+|Tone/Kai Ni
+|Chikuma/Kai Ni
+|Ryuuhou/Kai
+|#
+|Myoukou/Kai Ni
+|Nachi/Kai Ni
+|Ashigara/Kai Ni
+|Haguro/Kai Ni
+|Ayanami/Kai Ni
+|Hiryuu/Kai Ni
+|Souryuu/Kai Ni
+|-
+|Ooshio/Kai Ni
+|Abukuma/Kai Ni
+|#
+|Unryuu
+|Amagi
+|Katsuragi
+|Hatsuharu/Kai Ni
+|Harusame
+|Unryuu/Kai
+|Ushio/Kai Ni
+|Junyou/Kai Ni
+|Hayashimo
+|Kiyoshimo
+|#
+|Fusou/Kai Ni
+|Yamashiro/Kai Ni
+|Asagumo
+|Yamagumo
+|Nowaki
+|Furutaka/Kai Ni
+|Kako/Kai Ni
+|Satsuki/Kai Ni
+|Hatsushimo/Kai Ni
+|Murakumo/Kai Ni
+|#
+|Akizuki
+|Teruzuki
+|Hatsuzuki
+|Takanami
+|Asashimo
+|Fubuki/Kai Ni
+|Choukai/Kai Ni
+|Maya/Kai Ni
+|Amagi/Kai
+|Katsuragi/Kai
+|#
+|U-511
+|Graf Zeppelin
+|-
+|Mutsuki/Kai Ni
+|Kisaragi/Kai Ni
+|Ro-500
+|Akatsuki/Kai Ni
+|-
+|Warspite
+|Iowa
+|#
+|Littorio
+|Roma
+|Libeccio
+|Aquila
+|Akitsushima
+|Italia
+|Roma/Kai
+|Zara
+|Pola
+|Akitsushima/Kai
+|#
+|Mizuho
+|Okinami
+|Kazagumo
+|Arashi
+|Hagikaze
+|Oyashio
+|-
+|Umikaze
+|Kawakaze
+|Hayasui
+|#
+|Shoukaku/Kai Ni
+|Zuikaku/Kai Ni
+|Asashio/Kai Ni
+|Kasumi/Kai Ni
+|Kashima
+|Shoukaku/Kai Ni A
+|Zuikaku/Kai Ni A
+|Asashio/Kai Ni D
+|Kawakaze/Kai Ni
+|Kasumi/Kai Ni B
+|#
+|Kamikaze/
+|-
+|Harukaze/
+|-
+|-
+|Kamikaze/Kai
+|-
+|-
+|-
+|-
+|#
+|Minazuki/
+|-
+|I-26/
+|-
+|-
+|Uranami/
+|-
+|-
+|-
+|-
+}}
+===#1301-#1430===
+{{ShipRemodelListKai
+|Fubuki/Kai
+|Shirayuki/Kai
+|Hatsuyuki/Kai
+|Miyuki/Kai
+|Murakumo/Kai
+|Isonami/Kai
+|Ayanami/Kai
+|Shikinami/Kai
+|Kongou/Kai
+|Hiei/Kai
+|#
+|Haruna/Kai
+|Kirishima/Kai
+|Tenryuu/Kai
+|Tatsuta/Kai
+|Kuma/Kai
+|Tama/Kai
+|Kiso/Kai
+|Nagara/Kai
+|Isuzu/Kai
+|Yura/Kai
+|#
+|Natori/Kai
+|Sendai/Kai
+|Jintsuu/Kai
+|Naka/Kai
+|Kagerou/Kai
+|Shiranui/Kai
+|Kuroshio/Kai
+|Yukikaze/Kai
+|Shimakaze/Kai
+|Oboro/Kai
+|#
+|Akebono/Kai
+|Sazanami/Kai
+|Ushio/Kai
+|Akatsuki/Kai
+|Hibiki/Kai
+|Ikazuchi/Kai
+|Inazuma/Kai
+|Hatsuharu/Kai
+|Nenohi/Kai
+|Wakaba/Kai
+|#
+|Hatsushimo/Kai
+|Shiratsuyu/Kai
+|Shigure/Kai
+|Murasame/Kai
+|Yuudachi/Kai
+|Samidare/Kai
+|Suzukaze/Kai
+|Asashio/Kai
+|Ooshio/Kai
+|Michishio/Kai
+|#
+|Arashio/Kai
+|Arare/Kai
+|Kasumi/Kai
+|Mutsuki/Kai
+|Kisaragi/Kai
+|Satsuki/Kai
+|Fumizuki/Kai
+|Nagatsuki/Kai
+|Kikuzuki/Kai
+|Mikazuki/Kai
+|#
+|Mochizuki/Kai
+|Furutaka/Kai
+|Kako/Kai
+|Aoba/Kai
+|Myoukou/Kai
+|Nachi/Kai
+|Ashigara/Kai
+|Haguro/Kai
+|Takao/Kai
+|Atago/Kai
+|#
+|Maya/Kai
+|Choukai/Kai
+|Tone/Kai
+|Chikuma/Kai
+|Nagato/Kai
+|Mutsu/Kai
+|Akagi/Kai
+|Kaga/Kai
+|Souryuu/Kai
+|Hiryuu/Kai
+|#
+|Ryuujou/Kai
+|Shouhou/Kai
+|Hiyou/Kai
+|Junyou/Kai
+|Houshou/Kai
+|Fusou/Kai
+|Yamashiro/Kai
+|Shoukaku/Kai
+|Kinu/Kai
+|Abukuma/Kai
+|#
+|Chitose/Carrier Kai
+|Chiyoda/Carrier Kai
+|Yuubari/Kai
+|Maikaze/Kai
+|Kinugasa/Kai
+|Hatsukaze/Kai
+|Akigumo/Kai
+|Yuugumo/Kai
+|Makigumo/Kai
+|Naganami/Kai
+|#
+|Agano/Kai
+|Noshiro/Kai
+|Yahagi/Kai
+|Yayoi/Kai
+|Uzuki/Kai
+|Z1/Kai
+|Z3/Kai
+|Hamakaze/Kai
+|Tanikaze/Kai
+|Sakawa/Kai
+|#
+|Amatsukaze/Kai
+|Urakaze/Kai
+|Isokaze/Kai
+|Ooyodo/Kai
+|Tokitsukaze/Kai
+|Harusame/Kai
+|Hayashimo/Kai
+|Kiyoshimo/Kai
+|Asagumo/Kai
+|Yamagumo/Kai
+|#
+|Nowaki/Kai
+|Akizuki/Kai
+|Katori/Kai
+|Asashimo/Kai
+|Takanami/Kai
+|Teruzuki/Kai
+|Libeccio/Kai
+|Mizuho/Kai
+|Kazagumo/Kai
+|Umikaze/Kai
+|#
+|Kawakaze/Kai
+|Hayasui/Kai
+|Graf Zeppelin/Kai
+|Arashi/Kai
+|Hagikaze/Kai
+|Kashima/Kai
+|Hatsuzuki/Kai
+|Zara/Kai
+|Okinami/Kai
+|Iowa/Kai
+|#
+|Pola/Kai
+|Oyashio/Kai
+|Harukaze/Kai
+|Warspite/Kai
+|Aquila/Kai
+|Minazuki/Kai
+|I-26/Kai
+|Uranami/Kai
+}}
+===#1491~===
+{{ShipRemodelListKai
+|-
+|-
+|-
+|-
+|-
+|-
+|-
+|-
+|I-168/Kai
+|I-58/Kai
+|#
+|I-8/Kai
+|I-19/Kai
+|Maruyu/Kai
+|I-401/Kai
+|U-511/Kai
+|-
+|-
+|-
+|-
+|-
+}}
+{{SectionEnd}}
+
+==See Also==
+* [[Modernization]]
+* [[Marriage]]
+* [[Ship Maximum Status]]
+* [http://wikiwiki.jp/kancolle/?%B2%FE%C2%A4 改造]: remodel page on Wikiwiki
+
+{{CommentWarning
+|background = #faa
+|title = To remodel a ship it is required:
+|message =
+*The ship should reach the minimum level required for a remodel.
+*Certain amount of resources ({{Steel}} Steel and {{Ammo}} Ammunition, amount differs depending on ship).
+*For certain ships extra items can be required: [[Blueprint]], [[Prototype Flight Deck Catapult]], {{Devmat}} Development or {{Conmat}} Construction materials. Usually, ships that need extra items have special equipment after remodel or have special capabilities. For example, [[Choukai Kai]] needs a blueprint to become a [[Choukai Kai Ni|Kai Ni]], after she becomes Kai Ni, she has two special equipment called [[Skilled Lookouts]] and [[Type 22 Surface Radar Kai 4]].
+*4 or more free equipment slots.}}

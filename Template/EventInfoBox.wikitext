@@ -132,6 +132,12 @@
 |style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_10_easy|}}}
 |style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_10_medium|}}}
 |style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_10_hard|}}}
+|- {{#if: {{{reward_11|}}} | | style="display: none;" }}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_11|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_11_casual|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_11_easy|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_11_medium|}}}
+|style="text-align:center; background-color: #eef2f7; font-size: 20px;"|{{{reward_11_hard|}}}
 |}
 
    </div>
@@ -227,6 +233,11 @@
 |reward_10_easy=
 |reward_10_medium=
 |reward_10_hard=
+|reward_11=
+|reward_11_casual=
+|reward_11_easy=
+|reward_11_medium=
+|reward_11_hard=
 }}
 </pre>
 {{EventInfoBox
@@ -318,5 +329,10 @@
 |reward_10_easy=
 |reward_10_medium=
 |reward_10_hard=
+|reward_11=
+|reward_11_casual=
+|reward_11_easy=
+|reward_11_medium=
+|reward_11_hard=
 }}
 </noinclude>

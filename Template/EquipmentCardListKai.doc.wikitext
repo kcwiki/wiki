@@ -1,0 +1,94 @@
+This template uses equipment data modules to construct a ship card list table. The cards are automatically laid out in rows of 5.
+
+==Example==
+
+ <nowiki>{{EquipmentCardListKai
+ |12.7cm Single Gun Mount
+ |12.7cm Twin Gun Mount
+ |12.7cm Twin Gun Mount Model B Kai 2
+ |12cm Single High-angle Gun Mount
+ |12.7cm Twin High-angle Gun Mount (Late Model)
+ |!custom1
+ |15.5cm Triple Gun Mount
+ |20.3cm Twin Gun Mount
+ |20.3cm (No.2) Twin Gun Mount
+ |20.3cm (No.3) Twin Gun Mount
+ |SKC34 20.3cm Twin Gun Mount
+ |!custom2
+ |35.6cm Twin Gun Mount
+ |35.6cm Twin Gun Mount (Dazzle Camouflage)
+ |Prototype 35.6cm Triple Gun Mount
+ |41cm Twin Gun Mount
+ |Prototype 41cm Triple Gun Mount
+ |!custom3
+ |Prototype 46cm Twin Gun Mount
+ |46cm Triple Gun Mount
+ |Prototype 51cm Twin Gun Mount
+ |custom_row_custom1_content = ^small \/ medium
+ |custom_row_custom2_content = large guns
+ |custom_row_custom3_content = these are heavy
+ }}</nowiki>
+
+<div class="mw-collapsible mw-collapsed">
+becomes
+
+<div class="mw-collapsible-content">{{EquipmentCardListKai
+|12.7cm Single Gun Mount
+|12.7cm Twin Gun Mount
+|12.7cm Twin Gun Mount Model B Kai 2
+|12cm Single High-angle Gun Mount
+|12.7cm Twin High-angle Gun Mount (Late Model)
+|!custom1
+|15.5cm Triple Gun Mount
+|20.3cm Twin Gun Mount
+|20.3cm (No.2) Twin Gun Mount
+|20.3cm (No.3) Twin Gun Mount
+|SKC34 20.3cm Twin Gun Mount
+|!custom2
+|35.6cm Twin Gun Mount
+|35.6cm Twin Gun Mount (Dazzle Camouflage)
+|Prototype 35.6cm Triple Gun Mount
+|41cm Twin Gun Mount
+|Prototype 41cm Triple Gun Mount
+|!custom3
+|Prototype 46cm Twin Gun Mount
+|46cm Triple Gun Mount
+|Prototype 51cm Twin Gun Mount
+|custom_row_custom1_content = ^small \/ medium
+|custom_row_custom2_content = large guns
+|custom_row_custom3_content = these are heavy
+}}
+</div>
+</div>
+
+==Parameters==
+
+The following sections describe the parameters that can be passed to this template.
+
+===Ships===
+
+The list of ships to be included in that table should be passed in as unnamed parameters, like in the example.
+Pass a dash (-) to insert an empty cell.
+Pass an exclamation mark (!) followed by a string key to specify a [[#Custom Rows|custom row]].
+
+====Ship Name Format====
+
+Ships should be passed in as ''ship_name''[/''suffix''].
+
+For example, the basic form of [[Ooyodo]] would be specified as ''Ooyodo'', whereas her Kai form would be specified as ''Ooyodo/Kai''.
+
+===Custom Rows===
+
+You can specify custom rows by passing in an exclamation mark followed by a string key as described in [[#Ships]].
+
+You can then set the properties of that custom row using the following parameters:
+
+====custom_row_''key''_content====
+
+Pass this parameter to set the content of the custom row. You can use wikitext. Be careful with = and |, for they may interfere with template parsing.
+
+====custom_row_''key''_text_align====
+
+Pass this parameter to set the text_align of the custom row. Defaults to "start".
+
+<includeonly>[[Category:Templates that use equipment data modules|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

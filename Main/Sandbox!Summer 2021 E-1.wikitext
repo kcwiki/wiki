@@ -1,0 +1,237 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consist and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct thier own version of thier guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editor's work without the full consent of the editor and his approval to do so. 
+
+Several version will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Summer 2020 Event]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 version of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version the guide, the said guide will be updated to the main page and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+Projected deadline for Initial guide: '''August 22nd-23rd, 12:01 JST''' (May get extended by 1 day if massive delays occur)
+
+===DarkHeron's Proposal===
+Special Note: There are quests relating to this event where clearing them will allow you to access Strike Force Fleet (7 Ship Fleet)
+* The prerequisite for the quest is one of the event preparation quest that was released to you in the recent update prior to the event update. 
+'''Phase 0.5: Unlocking Node {{MapRoute|C2|Red}}
+* Before you get to fight the boss of Phase 1, you will have to unlock the node by killing a beef up Supply Depot Hime fleet
+* Get an S Rank at Node C2
+* Composition: 1 CL, 1 CAV, 1 CV, 3 DD (Yellow Tag)
+* Route: A-B-C-C1-C2
+'''Phase 1: Defeat Summer CA Hime'''
+'''Phase 2'''
+'''Phase 3'''
+
+===Jiga's Proposal===
+'''Phase 0.5: Unlocking Node G
+* Get 2 S Rank at Node F
+** Composition: 1 CL, 1 BB, 1 LHA, 3 DD with nukes
+** Route: A-B-C-D-E-F
+** LBAS range on F is 1
+* Reach node C2 once
+** Any fleet with a CV, e.g.: 1 CL, 1 BB, 1 CV, 3 DD
+** Route: A-B-C-C1-C2
+
+'''Phase 1: Defeat Summer CA Hime'''
+* Use the same fleet as for node F with no nuke
+** Composition: 1 CL, 2 CA, 4 DD
+** Route: A-B-C-E-G
+** LBAS range on the boss is 1
+
+'''Phase 2: TP'''
+*Use a 2nd starting point ready fleet
+** Composition: 2 CL, 1 CA, 3 DD
+** Route: I-N-Q-O
+** LBAS range on the boss is 5
+
+'''Quest Phase 1'''
+* All of the following can be done at any point, even during clear
+* S rank node F
+** Composition: 1 CL, 1 BB, 1 LHA, 3 DD with nukes
+** Route: A-B-C-D-E-F
+** LBAS range on F is 1
+* S rank node L
+** Composition: 1 BB, 1 CV(L), 1 CL, 1 CA, 2 DD with nukes
+** Route: H-I-J-L
+** LBAS range to node L is =====
+* S rank node O
+** Composition: 2 CL, 1 CA, 3 DD
+** Route: I-N-Q-O
+** LBAS range to node O is 5
+
+'''Quest Phase 2'''
+* All of the following can be done at any point, even during clear
+* S rank node P
+** Composition: 1-2 CL, 0-1 CAV, 2-3 DD, 1 XX
+** Route: I-J-P
+** LBAS range = 4
+*S rank node H
+** Composition: 1 BB, 1 CV(L), 1 CA, 1 CL, 2 DD
+** Route: H
+** LBAS range = 2
+*S rank node S
+** Composition: 2 FBB, 1 CL, 3 DD (slow)
+** Route: I-N-R-S
+** LBAS range = 5
+
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2108 LB1
+| reqQuest = C2
+| namejp = 【地中海作戦】特務艦隊、遊撃部隊編成
+| nameen = [Mediterranean Special Fleet] Special Mission Fleet, Tactical Force Formation
+| req =  [Mediterranean Squadron Formation] Attack the Enemy frontline logisitic Supply Depots in Point F and L in the first operation area! In addition, intercept the enemy battleship squadron aiming for the transport unit to Malta from the direction of Tarant and destroy it! 
+  
+* Get an A rank on nodes F, L, and O in E1
+| fuel = 500
+| ammo = 500
+| steel = 0
+| bauxite = 0
+| other =  <br>[[File:Striking force fleet reward.png|thumb|Striking force fleet]]<br>'''Choose between:'''<br/>{{QuestRewardEquip|Type 3 Shell}}{{QuestRewardEquip|Shipborne Model Type 4 20cm Anti-ground Rocket Launcher}}{{QuestRewardItem|Instant Repair Material|qty=4}} <br>
+| notes = "Operation Preparation" Second Stage Mission (Surface/Anti-Air Maintenance)	
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = B2108 LB2
+| reqQuest = B2108 LB1
+| namejp = 【地中海作戦】地中海配備の敵戦力を叩け！
+| nameen = [Mediterranean Mission] Strike the enemy forces deploy within the Mediterranean!
+| req = Defeat the enemy torpedo boats (at Point [H] and [S])deployed in the Mediterranean Sea in the first operation area! Furthermore, assault the Talent military port occupied by the enemy, and try to gradually destroy the enemy's abyssal forces deployed in the Eastern Mediterranean Sea! 
+
+* Get a A rank on nodes P, H and S in E1
+| fuel = 0
+| ammo = 600
+| steel = 0
+| bauxite = 600
+| other = '''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=6}}{{QuestRewardItem|Instant Repair Material|qty=5}}{{QuestRewardItem|Improvement Material|qty=3}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|Type 3 Depth Charge Projector}}{{QuestRewardItem|Furniture Fairy|}}{{QuestRewardItem|Medal|}}
+| notes = 
+}}
+|}
+
+===Dark & Jiga's Combined guide===
+Special Note: There are quests relating to this event where clearing them will allow you to access Strike Force Fleet (7 Ship Fleet)
+* The prerequisite for the quest is one of the event preparation quests that was released to you in the recent update prior to the event update. 
+'''Quest Phase 1'''
+* All of the following can be done at any point, even during clear
+* Nodes L & P are very hard, so note that you can clear the quest in casual mode before clearing the map, to then do the map in a higher difficulty. 
+* A+ rank node F
+** Composition: 1 CL, 1 BB, 1 LHA, 3 DD with nukes
+** Route: A-B-C-D-E-F
+** LBAS range on F is 1
+* A+ rank node L
+** Composition: 1 BB, 1 CV(L), 1 CL, 1 CA, 2 DD with nukes
+** Route: H-I-J-L
+** LBAS range to node L is <5
+* A+ rank node O
+** Composition: 2 CL, 1 CA, 3 DD
+** Route: I-N-Q-O
+** LBAS range to node O is 5
+
+'''Phase 0.5: Unlocking Node G
+*Unlocking {{MapRoute|G|red}} has two requirements:
+{| class="wikitable" 
+|-
+! Node
+! C2
+! F
+|-
+| Hard
+| Reach
+| S x2
+|-
+| Medium
+| Reach
+| S
+|-
+| Easy
+| -
+| A+
+|-
+| Casual
+| -
+| A+
+|}
+
+<tabber>
+|-|Node F=
+** Composition:(Yellow Tag) Single Fleet: 1 CL, 1 CAV, 4 DD 
+** Route: {{MapRoute|A|blue|B|blue|C|red|F|Red}}
+** LBAS: Range 2 Air: AS/AP = 74/34; 4 bombers ('''Hard''')
+** Bring Nukes and DD with MG is essential as you will be fighting against both PT boats & Installations. 
+|-|Node C2=
+** Composition:(Yellow Tag) Single Fleet: 1 CL, 1 CAV, 1 CV, 3 DD
+** Route: {{MapRoute|A|blue|B|blue|C|red|C1|Red|C2|White}}
+** LBAS: N/A
+</tabber>
+
+'''Phase 1: Defeat Summer CA Hime'''
+* Composition: (Yellow Tag) Single Fleet: 1 CL, 2 CA, 4 DD
+* Route: {{MapRoute|A|blue|B|blue|C|red|E|red|G|red}}
+* LBAS: Range = 2; There are no air at the boss
+* Same composition for Node F but without the anti-installations setup
+
+'''Phase 2: Deplete the TP'''
+*Use a 2nd starting point ready fleet
+** Composition: (Grey Tag) Single Fleet: 0-1 AV, 0-2 CL, 0-1 CA, 3-6 DD
+** Route: {{MapRoute|I|red|N|blue|Q|green|O|red}}
+** LBAS: Range = 4, There is no air at the boss; 4 bombers 
+** Have your DD bringing as much daihatsu and/or drum cannister to deplete the bar quickly. 
+
+'''Phase 2.5: Unlock the Last Boss Node'''
+Unlocking {{MapRoute|V|red}} has one requirement:
+{| class="wikitable" 
+|-
+! Node
+! P
+|-
+| Hard
+| S x2
+|-
+| Medium
+| S
+|-
+| Easy
+| A+
+|-
+| Casual
+| -
+|}
+
+* Composition:(Grey Tag) Single Fleet: 1-2 CL, 0-1 CAV, 2-3 DD, 1 XX
+* Route: {{MapRoute|I|red|J|red|P|red}}
+* LBAS: Range = 4 AP/AS = 120/269 ('''Hard''')
+* Bring as much fighter as you can since the air at this node is unusually high compare to the other nodes seen in E1. XX can be a CV?
+
+'''Phase 3: Destroy Enemy Ne Kai's Combined Fleet'''
+* Composition: (Grey Tag) Single Fleet: 2 FBB, 1 CL, 3 DD
+* Route: {{MapRoute|I|red|N|blue|R|blue|T|purple|V|red}}
+* LBAS: Range = 2; There are no air at the boss with the exception of LD featuring a Nu Kai
+** LD Air: AP/AS = 62/140 ('''Hard''')
+* Node {{MapRoute|T|purple}} is a Nigh battle. So it's highly recommended to make uses of Vanguard Formation to pass through the node
+Special Note: There are quests relating to this event where clearing them will allow you to access Strike Force Fleet (7 Ship Fleet)
+* The prerequisite for the quest is one of the event preparation quests that was released to you in the recent update prior to the event update.
+
+{{color|red|※ Once you have unlocked the 2nd starting point, having '''"3 historical European ships"''' or '''"2+ DDs & 2+ CLs & 1- DE"''' or a '''"Strike Force"''' should guaranty you to start from the 2nd point and so have the '''"grey lock"''' on your fleet.}}

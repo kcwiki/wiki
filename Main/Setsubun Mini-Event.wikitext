@@ -10,18 +10,20 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 
 ==Quests==
 
+<tabber>
+|-|2021=
 ===2021 Setsubun Quests===
 '''There are a total of 5 Quests available, 1 Daily, 3 Weeklies, and 1 One-time'''
 
-{{QuestsHeader}}
-{{Quests
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = PVP
-| listnum = SeC3
-| reqQuest =
-| reqQuest2 =
-| reqQuest3 =
+| listnum = 2101 LQ5
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分任務】節分演習！
-| nameen =  "Setsubun Mission" Setsubun Practice!
+| nameen = "Setsubun Mission" Setsubun Practice!
 | req = "Setsubun Mission" Organize a fleet consisting of 2 Destroyer or 2 Destroyer Escorts and carry out a Setsubun Exercise with said fleet! While performing the exercise for the 3rd Year of Reiwa, score a victory 3 times in the day!
 
 * Organize a fleet with at least 2 DD/DE and 4 XX in your fleet and win 3 PVP with an S rank in a day.
@@ -29,15 +31,15 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 23
 | steel = 23
 | bauxite = 0
-| other = '''Setsubun Beans''' x1
+| other = {{QuestRewardItem|Setsubun Beans}}
 | notes = ''Daily Quest''
-| once  =
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SeBw7
-| reqQuest = SeC3
-| reqQuest2 =
+| listnum = 2101 LQ6
+| reqQuest = 2101 LQ5
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分任務】令和三年節分作戦
 | nameen = "Setsubun Mission" 3rd Year Reiwa Setsubun Operation
 | req = "Setsubun Mission" Organize a fleet consisting of 3 or more Destroyers or Coastal Defense Ships with a light carrier or light cruiser as flagship, then patrol the waters near the Nansei Islands, the Bashi Sea, and Eastern Orel Sea during Setsubun! Confront the main enemy fleet and destroy them!
@@ -46,16 +48,15 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 0
 | steel = 203
 | bauxite = 203
-| other = '''Setsubun Beans''' x2 <br>'''and'''<br>  '''Choose between the Following Rewards'''<br> [[Instant Repair]] x3 <br>'''or'''<br> [[Maritime Resupply]] x1 <br> '''or'''<br> [[Emergency Repair Materials]] x1
+| other = {{QuestRewardItem|Setsubun Beans|qty=2}}<br/>'''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=3}} {{QuestRewardEquip|Underway Replenishment}} {{QuestRewardItem|Emergency Repair Material}}
 | notes = ''Weekly Quest''
-| once  =
 }}
-
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SeBw8
-| reqQuest = SeBw7
-| reqQuest2 =
+| listnum = 2101 LQ7
+| reqQuest = 2101 LQ6
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分任務】令和三年西方海域節分作戦
 | nameen = "Setsubun Mission" 3rd Year Reiwa Western Waters Setsubun Operation
 | req = "Setsubun Mission" Organize a fleet that has a Heavy Cruiser, Aviation Cruiser or Seaplane Tender as flagship along with a ship of the same type as the flagship and deploy them to the Western Waters off Jam Island, the Curry Ocean area, and Ri Lanka Island. Confront the main enemy fleet with each operation and destroy them!
@@ -64,16 +65,15 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 2021
 | steel = 0
 | bauxite = 0
-| other = '''Setsubun Beans''' x2 <br>'''and'''<br>  '''Choose between the Following Rewards'''<br> [[Development Material]] x5 <br>'''or'''<br> [[Irako]] x1 <br> '''or'''<br> [[Improvement Materials]] x1
+| other = {{QuestRewardItem|Setsubun Beans|qty=2}}<br/>'''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=5}} {{QuestRewardItem|Food Supply Ship Irako}} {{QuestRewardItem|Improvement Material}}
 | notes = ''Weekly Quest''
-| once  =
 }}
-
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SeBw9
-| reqQuest = SeBw8
-| reqQuest2 =
+| listnum = 2101 LQ8
+| reqQuest = 2101 LQ7
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分拡張任務】令和三年節分作戦、全力出撃！
 | nameen = "Setsubun Extra Mission" 3rd Year Reiwa Setsubun Operation, Main Force Sortie!
 | req = "Setsubun Extra Mission" Organize a fleet consisting of a Battleship or Standard Carrier as Flagship and 2 destroyers within it and proceed to the Southern Waters of the Coral Sea area, the Northern Salmon Sea Area, and to the shore off Peacock Island in the Central Waters. Engage the main enemy fleets within the area and destroy them! (Improvement Battle results possibility
@@ -82,16 +82,15 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 0
 | steel = 2021
 | bauxite = 0
-| other = <br>'''Setsubun Beans''' x3 <br>'''+203 Rank Points'''
+| other = {{QuestRewardItem|Ranking Point Reward|qty=203}} {{QuestRewardItem|Setsubun Beans|qty=3}}
 | notes = ''Weekly Quest''
-| once  =
 }}
-
-{{Quests
+{{ProtoQuests
 | type = Expedition
-| listnum = SeD1
-| reqQuest = SeBw8
-| reqQuest2 = C28
+| listnum = 2101 LQ9
+| reqQuest = 2101 LQ7
+| reqQuest2 = C11
+| reqQuest3 = 
 | namejp = 【節分任務】令和三年節分遠征任務
 | nameen = "Setsubun Mission" 3rd Year Reiwa Setsubun Expedition
 | req = "Setsubun Mission" Perform the expeditions "South Western Air Reconnaissance", "Western Waters Reconnaissance Operation", "Western Waters Blockade Operation" and "Submarine Commerce Raiding Operation" and complete them successfully
@@ -100,27 +99,23 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 0
 | steel = 0
 | bauxite = 800
-| other = Furniture: I-go Submarine's Setsubun Window <br>'''and'''<br>'''Choose between the Following Rewards'''<br> [[Furniture Fairy]] x1 <br>'''or'''<br> [[Development Materials]] x6 <br> '''or'''<br> [[Improvement Materials]] x3
+| other = {{QuestRewardFurniture|520}}<br/>'''Choose between:'''<br/>{{QuestRewardItem|Furniture Fairy}} {{QuestRewardItem|Development Material|qty=6}} {{QuestRewardItem|Improvement Material|qty=3}}
 | notes = 
-| once  = True
 }}
 |}
-
+|-|2020=
 ===2020 Setsubun Quests===
-<div class="mw-collapsible mw-collapsed" style="width:100%">
-<font color="purple">'''Click expand to show'''</font>
-<div class="mw-collapsible-content">
 '''There are a total of 4 Quests available, 1 Daily and 3 weeklies'''
 
-{{QuestsHeader}}
-{{Quests
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = PVP
-| listnum = SeC2
-| reqQuest =
-| reqQuest2 =
-| reqQuest3 =
+| listnum = SC2
+| reqQuest = 
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分任務】節分演習！
-| nameen =  "Setsubun Mission" Setsubun Practice!
+| nameen = "Setsubun Mission" Setsubun Practice!
 | req = "Setsubun Mission" Organize a fleet consisting of 2 Destroyer or 2 Destroyer Escorts and carry out a Setsubun Exercise with said fleet! While performing the exercise for the 2nd Year of Reiwa, score a victory 3 times in the day!
 
 * Organize a fleet with at least 2 DD/DE and 4 XX in your fleet and win 3 PVP with an S rank in a day.
@@ -128,15 +123,15 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 23
 | steel = 0
 | bauxite = 0
-| other = '''Setsubun Beans''' x1
+| other = {{QuestRewardItem|Setsubun Beans}}
 | notes = ''Daily Quest''
-| once  =
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SeBw4
-| reqQuest = SeC2
-| reqQuest2 =
+| listnum = SB56
+| reqQuest = SC2
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分任務】令和二年節分作戦
 | nameen = "Setsubun Mission" 2nd Year Reiwa Setsubun Operation
 | req = "Setsubun Mission" Organize a Fleet consisting of at least a light carrier or light cruiser as flagship along with 3 Destroyers and proceed to sortie into the Nansei Island Defense Line, the Nansei Island Patrol Area, and the Bashi Islands. Proceed to engage and destroy the main enemy forces within each operation!
@@ -146,15 +141,15 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 203
 | steel = 203
 | bauxite = 203
-| other = '''Setsubun Beans''' x1 <br>'''and'''<br>  '''Choose between the Following Rewards'''<br> [[Instant Repair]] x3 <br>'''or'''<br> [[Maritime Resupply]] x1<br>'''or'''<br>[[Emergency Repair Materials]] x1
+| other = {{QuestRewardItem|Setsubun Beans}}<br/>'''Choose between:'''<br/>{{QuestRewardItem|Instant Repair Material|qty=3}} {{QuestRewardEquip|Underway Replenishment}} {{QuestRewardItem|Emergency Repair Material}}
 | notes = ''Weekly Quest''
-| once  =
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SeBw5
-| reqQuest = SeBw4
-| reqQuest2 =
+| listnum = SB57
+| reqQuest = SB56
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分任務】令和二年西方海域節分作戦
 | nameen = "Setsubun Mission" 2nd Year Reiwa Western Waters Setsubun Operation
 | req = "Setsubun Mission" Organize a Fleet consisting of a Seaplane Tender or Heavy Cruiser as Flagship along with two destroyers in the fleet and sail into the western waters of the Jam Island Operation, Curry Ocean, and Ri Lanka and proceed to engage and destroy the main enemy forces in the area!
@@ -162,17 +157,16 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | fuel = 2020
 | ammo = 0
 | steel = 0
-| bauxite =0
-| other = '''Setsubun Beans''' x2 <br>'''and'''<br>  '''Choose between the Following Rewards'''<br> [[Development Material]] x5<br>'''or'''<br> [[Improvement Material]] x1
+| bauxite = 0
+| other = {{QuestRewardItem|Setsubun Beans|qty=2}}<br/>'''Choose between:'''<br/>{{QuestRewardItem|Development Material|qty=5}} {{QuestRewardItem|Improvement Material}}
 | notes = ''Weekly Quest''
-| once  =
 }}
-
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SeBw6
-| reqQuest = SeBw5
-| reqQuest2 =
+| listnum = SB58
+| reqQuest = SB57
+| reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分拡張任務】令和二年節分作戦、全力出撃！
 | nameen = "Setsubun Extra Mission" 2nd Year Reiwa Setsubun Operation, Main Force Sortie!
 | req = "Setsubun Extra Mission" Organize a fleet consisting of a Battleship or CV as Flagship and 2 DD within it and proceed to the Southern Waters of the Salmon Sea Area and to the North of it, and to the shore off Peacock Island in the Central Waters. Engage the main enemy fleets within the area and destroy them! (Improvement Battle results possibility)
@@ -181,29 +175,23 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 2020
 | steel = 2020
 | bauxite = 0
-| other = <br>'''Setsubun Beans''' x2 <br>'''+203 Rank Points'''
+| other = {{QuestRewardItem|Ranking Point Reward|qty=203}} {{QuestRewardItem|Setsubun Beans|qty=2}}
 | notes = ''Weekly Quest''
-| once  =
 }}
 |}
-<br/>
-</div></div>
-
+|-|2019=
 ===2019 Setsubun Quests===
-<div class="mw-collapsible mw-collapsed" style="width:100%">
-<font color="purple">'''Click expand to show'''</font>
-<div class="mw-collapsible-content">
 '''There are a total of 4 Quests avalaible, 1 Daily and 3 weeklies'''
 
-{{QuestsHeader}}
-{{Quests
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = PVP
-| listnum = SeC1
-| reqQuest =
+| listnum = SB37
+| reqQuest = 
 | reqQuest2 = 
-| reqQuest3 =
-| namejp = 【節分任務】節分演習！ 
-| nameen =  "Setsubun Mission" Setsubun Practice!
+| reqQuest3 = 
+| namejp = 【節分任務】節分演習！
+| nameen = "Setsubun Mission" Setsubun Practice!
 | req = "Setsubun Mission" Organize a consisting of 2 Destroyer or 2 Destroyer Escorts and carry out a Setsubun Excersice with said fleet! Within those excersice, score an victory against 3 times in the day!
 
 * Organize a fleet with at least 2 DD/DE and 4 XX in your fleet and win 3 PVP with an S rank in a day.
@@ -211,15 +199,15 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 23
 | steel = 0
 | bauxite = 0
-| other = '''Setsubun Beans''' x1
+| other = {{QuestRewardItem|Setsubun Beans}}
 | notes = ''Daily Quest''
-| once  = 
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SeBw1
-| reqQuest = SeC1
+| listnum = SB38
+| reqQuest = SB37
 | reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分任務】鎮守府海域 南西方面防衛作戦
 | nameen = "Setsubun Mission" Naval District Waters Nansei Island Defense Operation
 | req = "Setsubun Mission" With a Light Carrier or Light Cruiser as Flagship along with 2 Destoryers or Destroyer Escorts, deploy into the Naval District waters '''Off from the Nansei Islands''' and '''Nansei Island Defense Line''' and successfully eliminate the enemy fleet during the Setsubun!
@@ -229,15 +217,15 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 230
 | steel = 0
 | bauxite = 0
-| other = '''Development Materials x2'''<br>'''Setsubun Beans''' x1
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardItem|Setsubun Beans}}
 | notes = ''Weekly Quest''
-| once  = 
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SeBw2
-| reqQuest = SeBw1
+| listnum = SB39
+| reqQuest = SB38
 | reqQuest2 = 
+| reqQuest3 = 
 | namejp = 【節分任務】北方海域 威力偵察作戦
 | nameen = "Setsubun Mission" Northern Waters Reconnaissance Force Operation
 | req = "Setsubun Mission" Search and Destroy the enemy fleets in the Northern Waters of the '''Moray Sea''' and the '''Northern AL Waters'''' with a fleet consist of a Seaplane Tender or Heavy Cruiser as Flagship and at least 2 Destroyers in your fleet during the Setsubun Period!
@@ -247,17 +235,16 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 230
 | steel = 0
 | bauxite = 230
-| other = '''Instant Repair x3'''<br>'''Setsubun Beans''' x2
+| other = {{QuestRewardItem|Instant Repair Material|qty=3}} {{QuestRewardItem|Setsubun Beans|qty=2}}
 | notes = ''Weekly Quest''
-| once  = 
 }}
-
-{{Quests
+{{ProtoQuests
 | type = Sortie
-| listnum = SeBw3
-| reqQuest = SeBw2
+| listnum = SB40
+| reqQuest = SB39
 | reqQuest2 = 
-| namejp = 【節分任務】南方海域 艦隊決戦
+| reqQuest3 = 
+| namejp = 【節分拡張任務】南方海域 艦隊決戦
 | nameen = "Setsubun Mission" Southern Waters Decisive Battle
 | req = "Setsubun Extra Mission" Organize a fleet with a Battleship or Aircraft Carrier as Flagship along with 2 Destroyers and eliminate the enemy fleets in the Southern Waters in the '''Salmon Sea Area''' and the '''Area North of it''' within the Setsubun period (Improvement Battle results possibility)
 
@@ -266,14 +253,11 @@ To collect the Setsubun reward items, you will need to complete special '''daily
 | ammo = 0
 | steel = 2019
 | bauxite = 0
-| other = '''180 Ranking Points'''<br>'''Setsubun Beans''' x2
+| other = {{QuestRewardItem|Ranking Point Reward|qty=180}} {{QuestRewardItem|Setsubun Beans|qty=2}}
 | notes = ''Weekly Quest''
-| once  = 
 }}
 |}
-
-<br/>
-</div></div>
+</tabber>
 
 ==2021 Bean Calendar==
 
@@ -336,22 +320,72 @@ Below is a calendar that will be updated daily to showcase what is available sti
 |}
 
 ==Exchange Rate==
-[[File:Setsubun_Exchange_Rewards_2021.png|thumb|700px|Setsubun_Exchange_Rewards_2021]]
+<tabber>
+|-|2021=
+[[File:Setsubun_Exchange_Rewards_2021.png|thumb|700px|Setsubun Exchange Rewards 2021]]
 
 Once you collect the right amount of beans, you can be able to exchange them all for the following rewards:
 
-{| class="wikitable"
+{| class="wikitable" style="text-align:center;"
 |-
 ! Bean Exchange !! Reward !! Note
 |-
-| [[File:Setsubun_Beans.png|center|100px]]<br>'''Setsubun Beans x2''' || [[File:Improvement_Materials.png|center]]<br>'''[[Improvement Material]] x1''' ||
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 2|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{QuestRewardItem|Improvement Material}} ||
 |-
-| [[File:Setsubun_Beans.png|center|100px]]<br>'''Setsubun Beans x7''' || [[File:Medal Reward.png|100px|center]]<br>'''[[Medal]] x1'''  || 
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 7|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{QuestRewardItem|Medal}} || 
 |-
-| [[File:Setsubun_Beans.png|center|100px]]<br>'''Setsubun Beans x20''' || [[File:Equipment Card Ginga.png|100px|center]]<br>'''[[Ginga]] x1''' || * '''40 Development Materials required''' <br> * '''Limited to 1'''
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 20|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}} {{ItemStack|item = {{Item/Icon|Development Material|size=75px}}|text = 40|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{Equipment/Card|Ginga|size=100px}}<br>'''[[Ginga]]''' ||*'''Limited to 1'''
 |-
-| [[File:Setsubun_Beans.png|center|100px]]<br>'''Setsubun Beans x29''' || [[File:Equipment Card Type 4 Heavy Bomber Hiryuu.png|100px|center]]<br>'''[[Type 4 Heavy Bomber Hiryuu]] x1'''  || * '''55 Development Materials required''' <br> * '''Limited to 1'''
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 29|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}} {{ItemStack|item = {{Item/Icon|Development Material|size=75px}}|text = 55|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{Equipment/Card|Type 4 Heavy Bomber Hiryuu|size=100px}}'''<br>[[Type 4 Heavy Bomber Hiryuu]]'''
+| * '''Limited to 1'''
 |}
+|-|2020=
+[[File:Setsubun Exchange Rewards 2020.png|thumb|700px|Setsubun Exchange Rewards 2020]]
+
+Once you collect the right amount of beans, you can be able to exchange them all for the following rewards:
+
+{| class="wikitable" style="text-align:center;"
+|-
+! Bean Exchange !! Reward !! Note
+|-
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 2|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{QuestRewardItem|Improvement Material}} ||
+|-
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 7|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}} {{ItemStack|item = {{Item/Icon|Development Material|size=75px}}|text = 18|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{Equipment/Card|Type 2 Land-based Reconnaissance Aircraft|size=100px}}<br>'''[[Type 2 Land-based Reconnaissance Aircraft|Type 2 Land-based Reconnaissance Aircraft]]''' ||
+|-
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 10|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{Asset|type=Item|asset=Full|Action Report|size=100px}}<br>'''[[Action Report]]''' || * '''Limited to 1'''
+|-
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 20|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}} {{ItemStack|item = {{Item/Icon|Development Material|size=75px}}|text = 40|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{Equipment/Card|Ginga|size=100px}}<br>'''[[Ginga]]''' || * '''Limited to 1'''
+|}
+|-|2019=
+[[File:Setsubun Exchange Rewards 2019.png|thumb|700px|Setsubun Exchange Rewards 2019]]
+
+Once you collect the right amount of beans, you can be able to exchange them all for the following rewards:
+
+{| class="wikitable" style="text-align:center;"
+|-
+! Bean Exchange !! Reward !! Note
+|-
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 2|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{QuestRewardItem|Improvement Material}} ||
+|-
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 4|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{QuestRewardFurniture|412}}  || * '''Limited to 1'''
+|-
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 8|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}} {{ItemStack|item = {{Item/Icon|Development Material|size=75px}}|text = 10|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{Equipment/Card|Type 1 Land-based Attack Aircraft|size=100px}}<br>'''[[Type 1 Land-based Attack Aircraft|Type 1 Land-based Attack Aircraft]]''' || 
+|-
+| {{ItemStack|item = {{Item/Icon|Setsubun Beans|size=75px}}|text = 20|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}} {{ItemStack|item = {{Item/Icon|Development Material|size=75px}}|text = 40|text-position = bottom:-33px;right:3px;|font-size = 18px|glow-size = 10px|text-color = fff|glow-color = f00}}
+| {{Equipment/Card|Ginga|size=100px}}<br>'''[[Ginga]]'''  || * '''Limited to 1'''
+|}
+</tabber>
 
 === Tips ===
 
@@ -367,6 +401,12 @@ Depending on a certain conditions when you select to use your '''Setsubun Beans'
 #Which ship you have as your secratery.
 
 Below is a list of all the possible ship girls which can appear in the menu screen
+<tabber>
+|-|2021=
+(missing data)
+|-|2020=
+(missing data)
+|-|2019=
 {| class="wikitable"
 |-
 ! Kanmusu !! Condition
@@ -383,5 +423,7 @@ Below is a list of all the possible ship girls which can appear in the menu scre
 |-
 | '''[[Agano]]''' || *Appears by default if none of the other conditions are met. <br> * This even include if you don't own [[Agano]].
 |}
+</tabber>
+
 
 {{EventsPortal}}

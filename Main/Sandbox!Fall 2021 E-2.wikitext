@@ -1,0 +1,219 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consists and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct their own version of their guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editors' work without the full consent of the editor and his approval to do so. 
+
+Several versions will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Summer 2020 Event]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 versions of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version of the guide, the said guide will be updated to the main page, and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+Projected deadline for Initial guide: '''November 23rd, 12:01 JST''' (May get extended by 1 day if massive delays occur)
+
+===Totaku's Proposal===
+
+==Branching Table==
+{{MapBranchingTable
+|title = E-2 Branching Rules
+|expand = true
+|id = 52-2
+|order = A,C,E,F,G,I,L,P
+|A/empty -> 
+}}
+
+==Introduction==
+
+* This map uses a '''Single Fleet'''
+* You will have 2 Land Bases accessible (1 available for Sortie).
+* Phase 1.5 can be done before the completion of Phase 1. 
+* This map applies the Yellow Ship lock.
+{{ToolTip|{{Shiplock|Fall2021EventTag2}}|'''Hi-Convoy'''|line=false}}
+
+==Preparations==
+
+It is possible to complete this map with only 6 ships locked to the Hi-Convoy Tag. Certain concessions to unlock requirements or changing tasks might increase that number.
+
+* Comp: '''1 CVL, 1 AV/ CL, 4 DD''' (Fast Fleet)
+* Set one LBAS Base up for High-Altitude LBAS Defense, as you cannot sortie it anyways.
+
+It's recommended to have a minimum of at least:
+
+* 1 AACI Ship
+* 1+ OASW DD
+* 1+ DLC-Capable ship
+
+Other Notes about the map:
+
+* Node A's airpower is 118-143 AP | 264 - 321 AS | 528 - 642 AS+ on Hard Mode
+* Node C's airpower is 164-189 AP | 368 - 425 AS | 735 - 849 AS+ on Hard Mode
+* Most enemy comps will consist of light weight ships with possible light carriers with the exception of nodes P and U.
+* Vanguard Formation can help increase your pass rate in these fights
+
+==Phase 0.5: Opening the Path to Taiwan==
+
+To unlock the Transport Portion of this map, you need to do the following:
+
+{| class="wikitable" 
+|-
+! Node
+! G
+! K
+! L
+|-
+| Hard
+| A
+| A
+| A x2
+|-
+| Medium
+| ?
+| ?
+| ?
+
+|-
+| Easy
+| ?
+| ?
+| ?
+
+|-
+| Casual
+| ?
+| ?
+| ?
+|-
+|}
+
+<tabber>
+|-|Node G=
+
+* '''Path:''' {{MapRoute|1||A|pink|B|red|D|Blue|F|Blue|G|Red}}
+
+* Have your fleet armed with ASW gear.
+* Sortie LBAS and on-route support is not necessary, but sending ASW-LBAS to {{MapRoute|G|red}} can help with dealing with the submarine
+|-|Node K=
+* '''Path:''' {{MapRoute|1||A|pink|B|red|D|Blue|F|Blue|J|Blue|K|red}}
+
+* Have your fleet armed with ASW gear.
+* Sortie LBAS and on-route support is not necessary, but sending ASW-LBAS to {{MapRoute|K|red}} can help with dealing with the submarine
+|-|Node L=
+* '''Path:''' {{MapRoute|1||A|pink|B|red|D|Blue|F|Blue|J|Blue|L|red}}
+
+* The Fleet should be armed for surface combat. 
+* Having 1 ASW ship for Node B is optional, alternatively send ASW-LBAS there
+* On-route support is not necessary.
+</tabber>
+
+==Phase 1: Complete the Transportation to Taiwan ({{MapRoute|Q|red}})==
+In this phase you will be performing a transport operation torwards {{MapRoute|Q|red}}:
+
+* '''Path:''' {{MapRoute|1||A|pink|B|red|D|Blue|F|Blue|G|Red|M|Red|O|Green|Q|Red}}
+
+*This phase will require a heavy balance between AACI, ASW, Surface combat, and transportation.
+**Weigh carefully how you want to approach this along with how you use your support fleet and LBAS
+* AACI is recommended for node A
+* 1 OASW ship is recommended for nodes B and node G
+* It's recommended to use ASW-LBAS for Node {{MapRoute|G|red}}
+* Airpower at Node Q is 89 - 177 AP | 198 - 396 AS | 396 - 792 AS+
+* While the TP gauge may be slow to drain, this will allow you to clear the TP gauge over time.
+* Boss and Node Support are optional.
+
+==Phase 1.5: Open the path to {{MapRoute|U|red}}==
+In this phase, you will need to complete the following conditions to unlock the path to {{MapRoute|U|red}}:
+* Do note that can complete steps '''while still in phase 1''', but will not unlock until phase 1 is complete.
+
+{| class="wikitable" 
+|-
+! Node
+! C
+! P
+! LBAS
+|-
+| Hard
+| AS
+| A
+| AS
+|-
+| Medium
+| ?
+| ?
+| ?
+
+|-
+| Easy
+| ?
+| ?
+| ?
+
+|-
+| Casual
+| ?
+| ?
+| ?
+|-
+|}
+
+<tabber>
+|-|Node C=
+* '''Path:''' {{MapRoute|1||A|pink|B|red|D|Blue|C|red}}
+* AS Requirement: 368 - 425
+* Organize your CVL to have all Fighters
+* Also include Seaplane fighters on your AV/CL
+* If you struggle to reach the AS requirement, you can consider sending a Fighter Sweep LBAS to this node
+* You can also consider a second CVL instead of the CL/AV, but you will take {{MapRoute|E|red}} in addition to the nodes above.
+|-|Node P=
+* '''Path:''' {{MapRoute|1||A|pink|B|red|D|Blue|F|Blue|J|Blue|L|red|P|red}}
+
+* Fleet should be armed for surface combat. 
+* Having 1 ASW ship for Node B is optional but recommended. 
+* Node P is a combined fleet that contains an [[Aircraft Carrier Water Demon]], but is filled with a light escort. Therefore A-Ranks should be not too difficult to achieve
+* LBAS to help increase the pass rate on {{MapRoute|L|red}} or to help with {{MapRoute|P|red}} can be considered
+|-|Air Defense=
+* AS requirement: 269 - 326
+* Can be done passively while doing anything between phase 1 to 1.5
+* Hard contains High Altitude Planes for the enemy, bring [[:Category:High Altitude Interceptors|High Altitude Interceptors]] if possible.
+<br>
+'''Beginner Strategies'''
+<br>
+If you dont have access to High Altitude Interceptors, your effective Interception power is halved. You need 539 Air Power to AS the easiest Air raid.
+<br> <br>To get AS regardless, you need to have at least the following, setting both bases to defend:
+
+* 7x 10+ AA and one 11+ AA Plane or Interceptor 
+* The above only works against the weakest composition, stronger planes can also take on harder ones.
+* Therefore you might need to rerun this map until you roll the desired enemy air raid composition.
+* '''If you are mathematically unable to achieve this, consider dropping to Normal difficulty or obtaining the required planes via Development/Improvement or Quests'''
+</tabber>
+
+==Phase 2: Eliminate the Wo-class Carrier Fleet==
+In this phase you will be traveling to Node U to fight off a Wo-class Carrier that is part of a combined fleet, below is the main rundown of what you can expect:
+
+* '''Path:''' {{MapRoute|1||A|pink|B|red|D|Blue|C|Pink|R|Red|U|Red}}
+
+* In this phase, you will face 2 Air nodes, 1 surface fight and 1 Sub node.
+* While there is not nearly as strong subs on this route, 1 OASW ship may still help if necessary
+** Alternatively you can send ASW-LBAS there
+* AACI and good air power are important to deal with Node A and C
+* Node R consist of a small destroyer and light cruiser fleet which can be passed with vanguard.
+* Node U consist of a combined fleet with a relative weak Carrier fleet along with cruisers and destroyers
+* AP needed is AP 135-160 | AS 302-359 | AS+ 603-717

@@ -1,0 +1,1022 @@
+==Sandbox Rules==
+This sandbox is to be used to construct an event guide for the above mentioned event map. These guides are to all of the following requirements:
+
+* List of branching unlocking requirements (If there are multiple requirements, compositions for each path along with the below requirements will be needed to discuss the unlocking requirements in question)
+
+* A list of working compositions that work: (These must have possible alternatives for players who may or may not have all ships needed for a specific path)
+
+* The Path said composition will take (To explain what path the composition will take)
+
+* A summary or description of what kind of obstacles a composition will face.
+
+* A description of the boss node, what it consist and a descriptive guide on what the player should consider for a course of action to successfully win the battle.
+
+* (Optional) Tips to farm to take path to collect certain ships (This will also require a composition, path, and possible description.
+
+Editors are to construct their own version of their guide and complete them in a timely fashion. 
+
+No other editors are to allowed to edit over other editor's work without the full consent of the editor and his approval to do so. 
+
+Several version will be constructed through this page and will be reviewed and approved by the staff/ collaboration committee before being moved for the [[Summer 2020 Event]] which it'll be reviewed and updated once more before it can be released.
+
+Overall there will be 3 versions of the guide that will be constructed which will include:
+
+*Preliminary Guide
+*Polished Guide
+*Finalized Guide
+
+With each approval of each version of the guide, the said guide will be updated to the main page, and construction of the next version will begin.
+
+All guides outside of the approved version will be removed and work will begin from the approved version to make it better for the next version until the finalized version is made.
+
+Projected deadline for Initial guide: '''September 10, 12:01 JST''' (May get extended by 1 day if massive delays occur)
+
+
+
+==Jiga's 1st take (feel free to edit it ^^)==
+
+==Overview==
+Gibraltar Front Seas / Mediterranean / Malta Island Front Seas
+
+'''Reinforcement Transport! Operation Pedestal'''
+
+* This map uses 4 tags : 
+** {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''H Force'''}}, used on Phase 2, '''(Previously on E-2)'''
+** {{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}}, used on Phase 1 & 4, '''NEW'''
+** {{Shiplock|Summer2021EventTag7}}{{ToolTip|[Bright Yellow Tag]|'''X Force'''}}, used on Phase 3, '''NEW'''
+** {{Shiplock|Summer2021EventTag5}}{{ToolTip|[Dark Blue Tag]|'''10th Submarine Fleet'''}}, used on Phase 2.5, '''NEW'''
+
+
+* There are 2 new event quests linked to this map.
+
+* Node {{MapRoute|X1|blue}} (3rd starting point) is an Emergency Repair Node. See [[Repairs#Emergency_Anchorage_Repairs|Emergency Anchorage Repairs ]] for more details on this mechanic.
+
+* All 3 LBAS are available on this map.
+* Similar to E-2, the '''location of the LBAS here will be moved''' from Gibraltar to Malta for the final phase.
+** This means that the Eastern/Right side of the map will have lower range requirements while the Western/Left side will have drastically higher range requirements. Keep in mind this may make it much harder to farm drops or clear certain quests.
+
+===Tag & Lock Warnings!===
+The locking system on this map is a bit more complex than the previous maps; but here is what you must pay attention to: 
+
+* Locking restrictions only apply on Hard mode
+** Ships will be tagged '''regardless of the difficulty'''
+** {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''H Force'''}} {{color|red|will affect the Starting Point, regardless of difficulty}}
+
+* Starting Point 1 applies the {{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}}
+** Any fleet that meets '''all''' of the following requirements will start at Starting Point 1:
+*** Single Fleet or Strike Force Fleet
+*** Fleet contains no tags OR contains ≥1 Z Force (Silver) tag
+*** If Phase 3 or 4: '''Fleet must not be 6 SS(V) and not contain ≥3 SS(V) ≥1 AS ''' (?)
+
+* Starting Point 2 applies the {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''H Force'''}}
+** Any fleet that meets '''all''' of the following requirements will start at Starting Point 2:
+*** Combined Fleet
+*** Phase 2: Fleet contains no tags OR contains ≥1 H Force (Green) tag
+*** Phase 3 & 4: Fleet contains ≥1 H Force (Green) tag
+*** {{color|red|'''Any fleet that contains even a single H Force tag will force Starting Point 2, regardless of the difficulty'''}}.
+
+* Starting Point 3 can apply any of the following tags:
+** {{Shiplock|Summer2021EventTag5}}{{ToolTip|[Dark Blue Tag]|'''10th Submarine Fleet'''}}
+*** Starting Point 3 is unlocked, fleet has no tags or at least one 10th Submarine Fleet (Dark Blue) tag, and is '''6 SS(V) or ≥1 AS ≥3 SS(V)'''
+** {{Shiplock|Summer2021EventTag7}}{{ToolTip|[Bright Yellow Tag]|'''X Force'''}}
+*** Phase 3: Starting Point 3 is unlocked & is a combined fleet that does '''NOT contain any H Force (Green) tag'''
+*** Phase 4: Any TCF that does '''NOT contain any H Force (Green) tag'''
+** {{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}}
+*** Phase 4: Any STF/CTF fleet with no tags or at least 1 Z Force (Silver) tag
+
+
+'''Special note for submarines:'''
+* Before Starting Point {{MapRoute|3|}} is unlocked:
+** SS(V) in Single/Strike Force fleets start at Starting Point {{MapRoute|1|}} and are tagged with {{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}}
+** Untagged or {{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tagged]|'''Z Force'''}} SS(V) can sortie alone to {{MapRoute|1|}}
+* After Starting Point {{MapRoute|3|}} is unlocked:
+** (?) SS(V) with the {{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}} are no longer able to sortie alone to {{MapRoute|1|}}, but can be sortied if they are accompanied by any additional Z Force (Silver) tagged ship
+** (?) Untagged or {{Shiplock|Summer2021EventTag5}}{{ToolTip|[Dark Blue Tagged]|'''10th Submarine Fleet'''}} SS(V) can sortie alone to {{MapRoute|3|}}
+** (?) Any fleet containing SS(V) with the {{Shiplock|Summer2021EventTag5}}{{ToolTip|[Dark Blue Tag]|'''10th Submarine Fleet'''}} can only sortie if they contain 6 SS(V) OR at least 3 SS(V) and 1 AS
+
+==Quests==
+
+* 2 new event quests are available for E-3
+* The new event quests won't be available when playing E-3 on lower difficulties than required.
+** {{color|red|The '''first quest''' requires E-3 to be played on '''Easy or harder''' difficulty}}.
+** {{color|red|The '''second quest''' requires E-3 to be played on '''Normal or harder''' difficulty}}.
+** {{color|red|Changing difficulties on E-3 will '''reset quest progress to 0%'''.}}
+
+* The requirements for unlocking these new quests are as follows:
+** Unlock the 3rd starting point on E-3
+** Clear the 2 previous event quests (2108 LB1 & 2108 LB2)
+
+
+{{ProtoQuestsHeader}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2108 LB3
+| reqQuest = 2108 LB2
+| namejp = 【地中海拡張作戦】第10潜水戦隊作戦
+| nameen = {{color|black|10th Submarine Squadron Operation}}
+| req =  S(?) Rank nodes T1 and T4 on E-3 twice each.
+
+| fuel = 0
+| ammo = 0
+| steel = 0
+| bauxite = 700
+| other =  '''Choose between:'''<br/>{{QuestRewardEquip|Type 3 Depth Charge Projector|qty=3}}{{QuestRewardEquip|Type 2 Depth Charge|qty=3}}{{QuestRewardEquip|Type124 ASDIC|qty=2}} <br> '''Then choose between:'''<br/>{{QuestRewardItem|Action Report|qty=2}}{{QuestRewardItem|Remodel Blueprint|}}
+| notes = Requires E-3 on either Easy, Normal or Hard difficulty. <br> Requires release for 3rd starting point of E-3.
+}}
+{{ProtoQuests
+| type = Sortie
+| listnum = 2108 LB4
+| reqQuest = 2108 LB3
+| namejp = 【地中海拡張作戦】北アフリカ作戦
+| nameen = {{color|black|North Africa Operation}}
+| req =  S(?) Rank nodes F and W on E-3 twice each.
+
+| fuel = 1000
+| ammo = 0
+| steel = 0
+| bauxite = 0
+| other =  {{QuestRewardEquip|Daihatsu Landing Craft (Panzer II/North African Specification)|}} <br> '''Then choose between:'''<br/>{{QuestRewardEquip|25mm Single Autocannon Mount|qty=4}}{{QuestRewardItem|Improvement Material|qty=4}}{{QuestRewardItem|Development Material|qty=10}} 
+| notes = Requires E-3 on either Normal or Hard difficulty.
+}}
+|}
+
+===Quest 1===
+'''10th Submarine Squadron Operation'''
+
+{{color|red|※ Requires E-3 to be played on '''Easy''', '''Normal''', or '''Hard''' difficulty.}}
+
+{{color|red|※ '''Requires E-3 Starting Point 3 to be unlocked'''. Sortieing with other tags or sortieing before unlocking Starting Point 3 can cause an incorrect start position and result in the wrong tag being applied.}}
+
+S(?) Rank nodes {{MapRoute|T1|red}} & {{MapRoute|T4|red}} twice each
+
+<tabber>
+|-|Node T1=
+{{Shiplock|Summer2021EventTag5}}{{ToolTip|[Dark Blue Tag]|'''10th Submarine Fleet'''}}<br>
+6 SS(V)
+* Route: {{MapRoute|3||Q|blue|S|pink|T2|red|T1|red}}
+** Routing at {{MapRoute|S|pink}} & {{MapRoute|T2|red}} is random(?).
+LBAS
+* Range = 9 (Phase 1-3)
+* Range = 5 (Phase 4)
+* No enemy air present
+
+|-|Node T4=
+{{Shiplock|Summer2021EventTag5}}{{ToolTip|[Dark Blue Tag]|'''10th Submarine Fleet'''}}<br>
+6 SS(V)
+* Route: {{MapRoute|3||Q|blue|S|pink|T3|red|T4|red}}
+** Routing at {{MapRoute|S|pink}} is random(?).
+LBAS
+* Range = 10 (Phase 1-3)
+* Range = 2 (Phase 4)
+* AD/AP/AS = 44/88/198 (Hard)
+</tabber>
+
+===Quest 2===
+'''North Africa Operation'''
+
+{{color|red|※ Requires E-3 to be played on '''Normal''' or '''Hard''' difficulty.}}
+
+S(?) Rank nodes {{MapRoute|F|red}} & {{MapRoute|W|red}} twice each
+
+<tabber>
+|-|Node F=
+{{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}}<br>
+Method #1: Single/Strike Force Fleet (Medium): '''2-3 (F)BB(V)/CV(L/B), 0-3 CL, 2-4 DD, 0-2 XX'''
+* Route: {{MapRoute|1||A|blue|B|red|B1|pink|C1|red|C2|blue|F|red}}
+** Allows for a heavier fleet at the cost of an extra battle at {{MapRoute|C1|red}}
+* If '''Slow: ≥1 CL'''
+* Fleet must contain '''≤2 CV(B)''' (CVL don't count)
+* Fleet must contain '''≤2 (F)BB(V)'''
+Method #2: Single/Strike Force Fleet (Light): '''1-2 CL, 5-6 DD, 0-1 XX (Fast)'''
+* Route: {{MapRoute|1||A|blue|B|red|B2|pink|C2|blue|F|red}}
+LBAS
+* Range = 5
+* AD/AP/AS = 49/98/219 (Hard)
+Strategic Notes:
+* This node contains installations and PT-Imps
+
+
+|-|Node W=
+{{color|red|※ '''Requires E-3 Starting Point 3 to be unlocked'''. Sortieing with other tags or sortieing before unlocking Starting Point 3 can cause an incorrect start position and result in the wrong tag being applied.}}<br>
+{{Shiplock|Summer2021EventTag7}}{{ToolTip|[Bright Yellow Tag]|'''X Force'''}} TCF: '''Any TCF'''
+* Route: {{MapRoute|3||P|pink|R|red|U|purple|V|blue|W|red}}
+* It is possible to use STF or CTF, however:
+** STF/CTF after unlocking Starting Point 3 & during P3 will apply the '''X Force''' tag
+** STF/CTF during P4 will apply the '''Z Force''' tag but route through {{MapRoute|S|pink}} and/or {{MapRoute|T|pink}}
+LBAS
+* Range = 7 (Phase 1-3)
+* Range = 3 (Phase 4)
+* AD/AP/AS = 49/98/219 (Hard)
+Strategic Notes:
+* This node contains installations and PT-Imps
+</tabber>
+
+==E-3==
+===Phase 1: {{MapRoute|I|red}} Boss===
+
+New Abyssal Mediterranean Princess Vacation Mode 
+
+Single/Strike Force Fleets {{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}}:
+
+<tabber>
+|-|Strike Force Fleet (Heavy)=
+Composition: '''1-2 (F)BB(V), 1-2 CV(B), 1-2 CVL, 2-3 DD, 0-1 CL'''
+* Route: {{MapRoute|1||A|blue|B|red|B1|pink|C1|red|E|red|I|red}}
+* If '''Slow: ≥1 CL'''
+* Fleet must contain '''≥3 CL+DD'''
+* Fleet must contain '''≤3 (F)BB(V)+CV(B)''' (CVL don't count)
+|-|Single/Strike Force Fleet (Medium)=
+Composition: '''2-3 (F)BB(V)/CV(L/B), 0-3 CL, 2-4 DD, 0-2 XX'''
+* Route: {{MapRoute|1||A|blue|B|red|B1|pink|C1|red|C2|blue|E|red|I|red}}
+* If '''Slow: ≥1 CL'''
+* Fleet must contain '''≥3 CL+DD'''
+* Fleet must contain '''≤2 CV(B)''' (CVL don't count)
+* Fleet must contain '''≤2 (F)BB(V)'''
+|-|Single/Strike Force Fleet (Light)=
+Composition: '''1-2 CL, 5-6 DD, 0-1 XX (Fast)'''
+* Route: {{MapRoute|1||A|blue|B|red|B2|pink|C2|blue|E|red|I|red}}
+|-|Fast+ Single/Strike Froce Fleet (NOT Recommended)=
+Composition: '''0-2 CV(B), 0-2 (F)BB(V), 2-7 DD, 1-5 XX (FAST+)'''
+* Route: {{MapRoute|1||A|blue|B|red|B1|pink|C|blue|D|red|G|red|I|red}}
+* This route faces 2 surface nodes, 2 submarine nodes (including a SS Princess), and an Air-Raid
+* Requires sacrificing several slots for speed instead of combat equipment
+* Not recommended
+</tabber>
+LBAS
+* Range = 6
+* No enemy air present
+
+===Phase 2: {{MapRoute|O|red}} Boss===
+European Princess
+
+Combined Fleets {{Shiplock|Summer2021EventTag4}}{{ToolTip|[Green Tag]|'''H Force'''}}:
+
+<tabber>
+|-|Carrier Task Force=
+Composition: '''2-4 CV(B), 0-2 (F)BB(V), 0-4 XX + 1 CL, 2-5 DD, 0-3 XX'''
+* Route: {{MapRoute|2||J2|red|L|pink|M|red|O|red}}
+* Fleet must '''pass LoS'''
+* If '''Slow: ≤4 (F)BB(V)+CV(L/B)'''
+* Fleet must contain '''≤6 (F)BB(V)+CV(L/B)'''
+|-|Surface Task Force=
+Composition: '''2-6 XX + 1 CL, 2-5 DD, 0-3 XX'''
+* Route: {{MapRoute|2||J2|red|L|pink|M|red|O|red}}
+* Fleet must '''pass LoS'''
+* If '''Slow: ≤4 (F)BB(V)+CV(L/B)'''
+* Fleet must contain '''≤6 (F)BB(V)+CV(L/B)'''
+* Fleet must contain '''≤4 (F)BB(V)'''
+</tabber>
+LBAS
+* Range = 5 (Phase 1-3)
+* Range = 16 (Phase 4)
+* Pre-LD: AD/AP/AS = 86/172/386 (Hard)
+* LD: AD/AP/AS = 138/275/618 (Hard)
+
+===Phase 2.3: Unlock the 3rd starting point===
+
+Requirements to unlock the 3rd starting point 
+
+{| class="wikitable" 
+|-
+! Node
+! LBAS
+! F
+! G
+|-
+| Hard
+| AS
+| A+
+| S
+|-
+| Medium
+| ??
+| ??
+| ??
+|-
+| Easy
+| ??
+| ??
+| ??
+|-
+| Casual
+| ??
+| ??
+| ??
+|-
+|}
+
+Strike Forces {{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}}:
+
+<tabber>
+|-|Node F=
+This is the same as a requirement for '''E-3 Event Quest 2 (2108 LB4)'''.
+|-|Node G=
+Any fleet used for Phase 1 can be use here, however:
+* Fleet must '''FAIL the LoS check''' OR have '''exactly 2 DD & 0 CL'''
+* Alternatively, use the Fast+ fleet composition from Phase 1
+</tabber>
+
+===Phase 2.7: Unlock {{MapRoute|Z2|red}}===
+Requirements to unlock Node {{MapRoute|Z2|red}} 
+{| class="wikitable" 
+|-
+! Node
+! T1
+! T2 ??
+! T4
+! T3 ??
+! U
+! X
+! W
+! P
+! B2
+|-
+| Hard
+| S
+| A+
+| S
+| A+
+| A+
+| S
+| A+
+| AS
+| AS
+|-
+| Medium
+| ??
+| ??
+| ??
+| ??
+| ??
+| S
+| A+
+| ??
+| ??
+|-
+| Easy
+| ??
+| ??
+| ??
+| ??
+| ??
+| S
+| A+
+| ??
+| ??
+|-
+| Casual
+| -
+| -
+| -
+| -
+| -
+| S
+| A+
+| -
+| -
+|-
+|}
+
+<tabber>
+|-|Node T1=
+{{Shiplock|Summer2021EventTag5}}{{ToolTip|[Dark Blue Tag]|'''10th Submarine Fleet'''}}<br>
+Method #1: '''1-3 AS, 3-6 SS(V), 0-3 XX(?)'''
+* Route: {{MapRoute|3||Q|blue|S|pink|T2|red|T1|red}}
+* For guaranteed routing: 7 ships & Fleet contains ≥1 CL
+** Otherwise, random routing at {{MapRoute|S|pink}} and/or {{MapRoute|T2|red}}
+* If '''0 CL then 0 CV(L/B)'''
+Method #2: '''6 SS(V)'''
+* Route: {{MapRoute|3||Q|blue|S|pink|T2|red|T1|red}}
+* Random routing at {{MapRoute|S|pink}} & {{MapRoute|T2|red}}
+LBAS
+* Range = 9 (Phase 1-3)
+* Range = 5 (Phase 4)
+* No enemy air present
+|-|Node T2=
+* Same as node {{MapRoute|T1|red}}
+LBAS
+* Range = 9 (Phase 1-3)
+* Range = 4 (Phase 4)
+* No enemy air present
+|-|Node T4=
+{{Shiplock|Summer2021EventTag5}}{{ToolTip|[Dark Blue Tag]|'''10th Submarine Fleet'''}}<br>
+Method #1: '''1-3 AS, 3-5 SS(V), 0-2 XX(?)'''
+* Route: {{MapRoute|3||Q|blue|S|pink|T2|red|T1|red}}
+* Fleet must contain '''≤6 ships'''
+** Otherwise route {{MapRoute|S|pink|T2|red}}
+Method #2: '''6 SS(V)'''
+* Route: {{MapRoute|3||Q|blue|S|pink|T2|red|T1|red}}
+* Random routing at {{MapRoute|S|pink}}
+LBAS
+* Range = 10 (Phase 1-3)
+* Range = 2 (Phase 4)
+* AD/AP/AS = 44/88/198 (Hard)
+|-|Node T3=
+* Same as node {{MapRoute|T4|red}}
+LBAS
+* Range = 10 (Phase 1-3)
+* Range = 3 (Phase 4)
+* No enemy air present
+|-|Node U=
+{{Shiplock|Summer2021EventTag7}}{{ToolTip|[Bright Yellow Tag]|'''X Force'''}}<br>
+Surface Task Force: Any
+* Route: {{MapRoute|3||P|pink|R|red|U|purple}}
+* Fleet must contain '''≤5 (F)BB(V)+CV(L/B)'''
+* If '''Slow: ≤4 (F)BB(V)+CV(L/B)'''
+Carrier Task Force: Any
+* Route: {{MapRoute|3||P|pink|R|red|U|purple}}
+* Fleet must contain '''≤5 (F)BB(V)+CV(L/B)'''
+* If '''Slow: ≤4 (F)BB(V)+CV(L/B)'''
+Transport Combined Fleet: '''4-6 DD, 0-2 XX + 1-2 CL, 3-5 DD, 0-2 XX'''
+* Route: {{MapRoute|3||P|pink|R|red|U|purple}}
+Strategic Notes:
+* This is a Night Battle node
+|-|Node X=
+Any composition that can reach {{MapRoute|U|purple}} can reach this node.
+* Route: {{MapRoute|3||P|pink|R|red|U|purple|V|blue|X|red}}
+LBAS
+* Range = 9 (Phase 1-3)
+* Range = 1 (Phase 4)
+* AD/AP/AS = 116/231/519 (Hard)
+|-|Node W=
+Any composition that can reach {{MapRoute|U|purple}} can reach this node.
+* Route: {{MapRoute|3||P|pink|R|red|U|purple|V|blue|W|red}}
+LBAS
+* Range = 7 (Phase 1-3)
+* Range = 3 (Phase 4)
+* AD/AP/AS = 49/98/219 (Hard)
+Strategic Notes:
+* This node contains installations and PT-Imps.
+|-|Node P=
+Same as node {{MapRoute|U|purple}}, {{MapRoute|X|red}}, or {{MapRoute|W|red}}
+|-|Node B2=
+{{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}} Single/Strike Force Fleet: '''1-2 CL, 5-6 DD, 0-1 XX (Fast)'''
+* Route: {{MapRoute|1||A|blue|B|red|B2|pink}}
+LBAS
+* Range = 3 (Phase 1-3)
+* Range = 7 (Phase 4)
+* AD/AP/AS = 71/142/318
+</tabber>
+
+===Phase 3: {{MapRoute|Z2|red}} TP===
+New Mediterranean Dreadnought Water Princess
+
+{{Shiplock|Summer2021EventTag7}}{{ToolTip|[Bright Yellow Tag]|'''X Force'''}} Combined Fleets:
+
+<tabber>
+|-|Surface Task Force=
+Composition: '''2-6 XX + 1 CL, 2-5 DD, 0-3 XX'''
+* Route: {{MapRoute|3||P|pink|R|red|U|purple|V|blue|X|red|Y|pink|Z|green|Z2|red}}
+* Fleet must '''pass the LoS''' check
+* Fleet must contain '''≤5 (F)BB(V)+CV(L/B)'''
+* If '''Slow: ≤4 (F)BB(V)+CV(L/B)'''
+|-|Carrier Task Force=
+Composition: '''2-4 CV(L/B), 2-4 XX + 1 CL, 2-5 DD, 0-3 XX'''
+* Route: {{MapRoute|3||P|pink|R|red|U|purple|V|blue|X|red|Y|pink|Z|green|Z2|red}}
+* Fleet must '''pass the LoS''' check
+* Fleet must contain '''≤5 (F)BB(V)+CV(L/B)'''
+* If '''Slow: ≤4 (F)BB(V)+CV(L/B)'''
+|-|Transport Combined Fleet=
+Composition: '''4-6 DD, 0-2 XX + 1-2 CL, 3-5 DD, 0-2 XX'''
+* Route: {{MapRoute|3||P|pink|R|red|U|purple|V|blue|X|red|Y|pink|Z|green|Z2|red}}
+* Fleet must '''pass the LoS''' check
+</tabber>
+LBAS
+* Range = 11 (Phase 1-3)
+* Range = 1 (Phase 4)
+* Pre-LD: AD/AP/AS = 44/88/198 (Hard)
+* LD: AD/AP/AS = 88/176/396 (Hard)
+
+===Phase 4: {{MapRoute|Z3|red}} Boss===
+
+New European Armored Carrier Princess
+
+{{Shiplock|Summer2021EventTag6}}{{ToolTip|[Silver Tag]|'''Z Force'''}} Combined Fleets:
+
+<tabber>
+|-|STF A (?)=
+STF:
+* Route: {{MapRoute|3||P|red|R|red|U|purple|V|blue|X|red|Z3|red}}
+|-|STF B (?)=
+STF:
+* Route: {{MapRoute|3||Q|blue|S|red|U|purple|V|blue|X|red|Z3|red}}
+|-|STF + Anchorage A (?)=
+STF:
+* Route: {{MapRoute|3||P|red|R|red|U|purple|V|blue|X|red|X1|blue|X2|blue|Z3|red}}
+* Routes through repair node {{MapRoute|X1|blue}}, if Akashi/Akitsushima are equipped with cranes they can repair certain ships in the fleet
+|-| STF + Anchorage B (?)=
+STF:
+* Route: {{MapRoute|3||Q|blue|S|red|U|purple|V|blue|X|red|X1|blue|X2|blue|Z3|red}} 
+* Routes through repair node {{MapRoute|X1|blue}}, if Akashi/Akitsushima are equipped with cranes they can repair certain ships in the fleet
+</tabber>
+LBAS
+* Range = 1
+* AD/AP/AS = 46/92/207
+
+===Phase 4.5: Debuff===
+
+Requirements to debuff Node {{MapRoute|Z3|red}} 
+
+{| class="wikitable" 
+|-
+! Node
+! LBAS
+! Z2
+! I
+! T
+! Y
+|-
+| Hard
+| AS
+| S
+| A+
+| AS
+| AS
+|-
+| Medium
+| ??
+| ??
+| ??
+| ??
+| ??
+|-
+| Easy
+| ??
+| ??
+| ??
+| ??
+| ??
+|-
+| Casual
+| ??
+| ??
+| ??
+| ??
+| ??
+|-
+|}
+
+<tabber>
+|-|Node Z2=
+Same as Phase 3
+|-|Node I=
+Same as Phase 1
+|-|Node Y=
+Same as node {{MapRoute|Z2|red}}
+|-|Node T=
+STF: 4 (F)BB(V), 1 CV, 0-1 CA, 0-1 CL + 1 CL, 4-5 DD,0-1 CAV, 0-1 AV
+* Route: {{MapRoute|3||P|pink|R|red|T|pink}}
+LBAS
+* Range = 9 (Phase 1-3)
+* Range = 2 (Phase 4)
+* AD/AP/AS = 119/238/534
+</tabber>
+
+
+==Made by Tsuba (no touchie without permission)==
+==Overview==
+* This map contains 4 phases.
+* Three [[LBAS|Land-Based Air Squadrons]] are available for sortie.
+** The air base is relocated once you've reached Phase 4.
+* There are 2 event quests linked to this map.
+* This map has 4 shiplock tags. The shiplock tags are applied on all difficulties, but they are only enforced on '''Hard'''.
+
+
+The following tags are used in this map:
+
+{{ToolTip|{{Shiplock|Summer2021EventTag6}}|'''Force Z'''|line=false}}{{ToolTip|{{Shiplock|Summer2021EventTag4}}|'''Force H'''|line=false}}{{ToolTip|{{Shiplock|Summer2021EventTag5}}|'''10th Submarine Fleet'''|line=false}} {{ToolTip|{{Shiplock|Summer2021EventTag7}}|'''Force X'''|line=false}}
+
+<span style="color:red";>'''Warning:'''</span> Ships tagged with {{ToolTip|'''Force H'''|{{Shiplock|Summer2021EventTag4}}}} will force a certain routing, effectively preventing their use in Phase 3 & 4. <span style="color:red">'''This applies for all difficulties.'''</span>
+
+
+==Phase 1: Defeat the Abyssal Mediterranean Princess==
+The boss is a combined fleet located at node {{MapRoute|I|red}}
+* This phase uses a '''Single Fleet/Strike Force'''.
+* There is air resistance en route to the boss, but the boss itself has no air power.
+* The LBAS range to the boss is 6.
+* ASW gear should be ignored in favor of using the Vanguard formation to evade the enemy submarines.
+* Clearing this phase will automatically unlock the 2nd starting point.
+
+This phase uses the following tag:
+
+{{Shiplock|Summer2021EventTag6}}
+
+Keep in mind that {{ToolTip|'''Force Z'''|{{Shiplock|Summer2021EventTag6}}}} is also featured in Phase 4, so plan accordingly.
+
+<tabber>
+|-|Option 1=
+Composition: '''1CL 5DD 1XX (Fast)'''
+* Route: {{MapRoute|1||A|blue|B|red|B2|pink|C2|blue|E|red|I|red}}
+* Guarantees the shortest route, but may not be able to defeat the boss.
+* Consistent for chipping, but a heavier fleet is desired during Last Dance.
+
+|-|Option 2=
+Composition: '''1(F)BB(V) 2CV(B) 1CVL 1CL 2DD'''
+* Route: {{MapRoute|1||A|blue|B|red|B1|pink|C1|red|E|red|I|red}}
+* A heavier fleet at the cost of having to fight one more battle at {{MapRoute|C1|red}}
+* Carriers can make use of the historical bonuses provided by foreign bombers to kill the boss.
+</tabber>
+
+==Phase 2: Defeat the European Princess==
+The boss is a combined fleet located at node {{MapRoute|O|red}}
+* This phase uses a '''Combined Fleet'''.
+* The LBAS range to the boss at {{MapRoute|O|red}} is 5.
+* Node {{MapRoute|J2|red}} features the highly dangerous '''New Submarine Princess'''.
+** Bringing 2 OASW capable ships and/or a LBAS full of ASW aircraft in order to neutralize her is recommended in order to minimize early retreats.
+** The LBAS range for node {{MapRoute|J2|red}} is 1.
+
+
+This phase uses the following tag:
+
+{{Shiplock|Summer2021EventTag4}}
+
+<span style="color:red";>'''Warning:'''</span> Any '''Combined Fleet''' containing a ship tagged with {{ToolTip|'''Force H'''|{{Shiplock|Summer2021EventTag4}}}} will be forced to start at point 2, <span style="color:red";>'''regardless of difficulty'''</span>. This effectively means that any ships tagged with {{ToolTip|'''Force H'''|{{Shiplock|Summer2021EventTag4}}}} cannot be used for phases that involves either {{ToolTip|'''Force Z'''|{{Shiplock|Summer2021EventTag6}}}} or {{ToolTip|'''Force X'''|{{Shiplock|Summer2021EventTag7}}}}.
+
+<tabber>
+|-|Carrier Task Force=
+Composition: '''4CV(B) 1CAV 1SS(V) + 1CL 2DD 1CA 1FBB 1XX (Fast)'''
+* Route: {{MapRoute|2||J2|red|L|pink|M|red|O|red}}
+* '''XX''' should either be '''FBB''', '''CVL''', '''CAV''' or '''CLT'''.
+* Just like Phase 1, carriers can make use of historical bonuses provided by foreign aircraft in order to deal as much damage as possible during daytime.
+* The submarine can help tank some of the incoming shots and improve the survival of the main fleet.
+
+
+|-|Surface Task Force=
+Composition: '''4(F)BB(V) 1CV(B) 1XX + 1CL 2DD 1CVL 2CA(V) (Fast)'''
+* Route: {{MapRoute|2||J2|red|L|pink|M|red|O|red}}
+* '''XX''' should either be '''SS(V)''' or '''CA(V)'''.
+* An alternative option that doesn't capitalize on the use of historical aircraft, but chooses to conserve bauxite instead.
+* Due to the lack of air power, air sweeping the boss to get a favorable air state is recommended.
+* Among the fast battleships, only {{ShipLink|Bismarck}} and {{ShipLink|Richelieu}} have a decent historical bonus. Using STF on Hard might not be desirable due to the lack of historical bonuses.
+</tabber>
+
+==Phase 2.5A: Unlock the 3rd starting point==
+After defeating the European Princess, the 3rd starting point needs to be unlocked in order to continue.
+* To unlock the 3rd starting point, it is necessary to meet the requirements as listed below in the table.
+
+All unlock requirements during this phase uses the following tag:
+
+{{Shiplock|Summer2021EventTag6}}
+
+{| class="wikitable" 
+|-
+! Node
+! LBAS
+! {{MapRoute|F|red}}
+! {{MapRoute|G|red}}
+|-
+| Hard
+| AS
+| A+
+| S
+|-
+| Medium
+| ??
+| ??
+| -
+|-
+| Easy
+| ??
+| ??
+| -
+|-
+| Casual
+| ??
+| ??
+| -
+|-
+|}
+
+<tabber>
+|-|Node F=
+Node {{MapRoute|F|red}} features enemy installations and PT-imps.
+* Regardless of difficulty, only an A-rank is required to meet this requirement.
+* The LBAS range to node {{MapRoute|F|red}} is 5.
+* Capitalize on the enemy weaknesses by bringing anti-installation and [[Accuracy,_Evasion_and_Criticals#PT_Imps|anti-PT Imps]] equipment.
+* The fleets used to clear node {{MapRoute|F|red}} can also be used to clear node {{MapRoute|G|red}}
+
+
+===Option 1===
+Composition: '''1CV(B) 1CL 5DD (Fast)'''
+* Route: {{MapRoute|1||A|blue|B|red|B2|pink|C2|blue|F|red}}
+* Guarantees the shortest route to the boss.
+* With the right equipment, this fleet should be sufficient for an A-rank.
+
+===Option 2===
+Composition: '''1(F)BB(V) 2CV(B) 1CA(V) 1CL 2DD'''
+* Route: {{MapRoute|1||A|blue|B|red|B1|pink|C1|red|C2|blue|F|red}}
+* A slightly heavier fleet that allows you to use more capital ships, at the cost of having to fight an extra battle at {{MapRoute|C1|red}}
+
+|-|Node G=
+Node {{MapRoute|G|red}} mainly consists of enemy destroyers, light cruisers and transport ships.
+* Getting an S-rank on node {{MapRoute|G|red}} should not be a problem for any decently equipped fleet.
+* The LBAS range to node {{MapRoute|G|red}} is 6
+** The enemies at node {{MapRoute|G|red}} are weak, thus it is recommended to use the LBAS for other purposes instead, like LBAS defense.
+
+===Option 1===
+Composition: '''1CV(B) 1CL 5DD (Fast)'''
+* Route: {{MapRoute|1||A|blue|B|red|B2|pink|C2|blue|E|red|G|red}}
+* LoS Cn2 ≤ 40.
+* Guarantees the shortest route to the boss, but it is required to '''FAIL''' the LoS check at node {{MapRoute|E|red}}.
+
+===Option 2===
+Composition: '''1(F)BB(V) 2CV(B) 1CA(V) 1CL 2DD'''
+* Route: {{MapRoute|1||A|blue|B|red|B1|pink|C1|red|C2|blue|E|red|G|red}}
+* A slightly heavier fleet that allows you to use more capital ships, at the cost of having to fight an extra battle at {{MapRoute|C1|red}}
+* Similar to option 1, it is required to '''FAIL''' the LoS check at node {{MapRoute|E|red}}.
+
+===Option 3===
+Composition: '''1(F)BB(V) 2CV(B) 1CA(V)/CVL 2DD (Fast)'''
+* Route: {{MapRoute|1||A|blue|B|red|B1|pink|C1|red|C2|blue|E|red|G|red}}
+* A variant of option 2 that uses a Single Fleet instead.
+* With the absence of a CL, it is no longer necessary to resort to failing the LoS at node {{MapRoute|E|red}} in order to route to {{MapRoute|G|red}}
+</tabber>
+
+==Phase 2.5B: Find the New Mediterranean Dreadnought Water Princess==
+The boss is still missing after unlocking the 3rd starting point. More steps are required in order to reveal node {{MapRoute|Z2|red}}.
+* This step is lenghtier than the previous step and involves the use of multiple shiplock tags.
+* <span style="color:red";>'''Warning:'''</span> Do not use {{ToolTip|'''Force H'''|{{Shiplock|Summer2021EventTag4}}}} tagged ships in '''Combined Fleets''', as that will force the fleet to start at point 2.
+** The results can be inconvenient due to more ships being tagged with {{ToolTip|'''Force H'''|{{Shiplock|Summer2021EventTag4}}}}.
+
+This phase uses the following tags:
+
+{{Shiplock|Summer2021EventTag6}}{{Shiplock|Summer2021EventTag5}}{{Shiplock|Summer2021EventTag7}}
+
+<span style="color:red";>'''Note'''</span>: Only ships tagged with {{ToolTip|'''Force Z'''|{{Shiplock|Summer2021EventTag6}}}} can be used for the final phase on '''Hard'''.
+
+{| class="wikitable" 
+|-
+!
+! B2
+! T1
+! T4
+! P
+! U
+! W
+! X
+|-
+| Hard
+| AS
+| S
+| S
+| AS
+| A+
+| A+
+| S
+|-
+| Medium
+| ??
+| ??
+| ??
+| ??
+| ??
+| A+
+| S
+|-
+| Easy
+| ??
+| ??
+| ??
+| ??
+| ??
+| A+
+| S
+|-
+| Casual
+| -
+| -
+| -
+| -
+| -
+| A+
+| S
+|-
+|}
+
+<tabber>
+|-|Node B2=
+{{Shiplock|Summer2021EventTag6}}<br />
+Composition: '''1CV(L/B) 1CL 5DD (Fast)'''
+* Route: {{MapRoute|1||A|blue|B|red|B2|pink}}
+* All CL and DDs are to be equipped with ASW equipment, as this route only features submarines.
+* The CV(L/B) should only be equipped with fighters.
+* The LBAS range to node {{MapRoute|B2|pink}} is 3.
+* Due to the strict requirements of the routing, it might be desirable to air sweep node {{MapRoute|B2|pink}} in order to further lower the required air power.
+
+|-|Node T1=
+{{Shiplock|Summer2021EventTag5}}<br />
+Node {{MapRoute|T1|red}} features enemy destroyers, light cruisers and transport ships.
+* While node {{MapRoute|T1|red}} should be trivial for any decent fleet, getting there might be hard due to the strict requirements.
+* Admirals who do not have a Submarine Tender (AS) will have to resort to random routing in order to reach {{MapRoute|T1|red}}
+* The LBAS range to node {{MapRoute|T1|red}} is 9.
+
+===Option 1===
+Composition: '''1AS 1CL 2CVL 3SS(V)'''
+* Route: {{MapRoute|3||Q|blue|S|pink|T2|red|T1|red}}
+* Guarantees routing to {{MapRoute|T1|red}}
+
+===Option 2===
+Composition: '''6SS(V)'''
+* Route: {{MapRoute|3||Q|blue|S|pink|T2|red|T1|red}}
+* <span style="color:red";>'''Random routing'''</span> at nodes {{MapRoute|S|red}} and {{MapRoute|T2|red}}
+* This option is reserved for admirals without Submarine Tenders.
+
+|-|Node T4=
+{{Shiplock|Summer2021EventTag5}}<br />
+Node {{MapRoute|T4|red}} is a surface battle involving an enemy carrier.
+* Admirals who do not have a Submarine Tender (AS) will have to resort to random routing in order to reach {{MapRoute|T4|red}}
+* The LBAS range to node {{MapRoute|T4|red}} is 10.
+
+===Option 1===
+Composition: '''1AS 2CVL 3SS(V)'''
+* Routes:
+** {{MapRoute|3||Q|blue|S|pink|T3|red|T4|red}}
+** {{MapRoute|3||Q|blue|S|pink|T2|red|T3|red|T4|red}}
+* Guarantees routing to {{MapRoute|T4|red}}, but the route it takes is random.
+
+===Option 2===
+Composition: '''6SS(V)'''
+* Routes:
+** {{MapRoute|3||Q|blue|S|pink|T3|red|T4|red}}
+** {{MapRoute|3||Q|blue|S|pink|T2|red|T3|red|T4|red}}
+* <span style="color:red";>'''Random routing'''</span> at nodes {{MapRoute|S|red}} and {{MapRoute|T2|red}}
+* This option is reserved for admirals without Submarine Tenders.
+
+|-|Nodes P,U,W and X=
+{{Shiplock|Summer2021EventTag7}}<br />
+Nodes {{MapRoute|P|pink|U|purple|W|red|X|red}} can all be reached using the same fleet.
+* Any ships used in this phase will be tagged with {{ToolTip|'''Force X'''|{{Shiplock|Summer2021EventTag7}}}}
+** The '''Combined Fleet''' used for this phase will also be used to clear Phase 3.
+** Keep in mind that on '''Hard''', you cannot use any ships tagged with {{ToolTip|'''Force X'''|{{Shiplock|Summer2021EventTag7}}}} for the final boss of this map.
+** Avoid bringing {{ShipLink|Akitsushima Kai}} on '''Hard''', as she will be useful for routing purposes during the final phase.
+* Node {{MapRoute|R|red}} features the highly dangerous '''New Submarine Princess'''.
+** Bringing 2 OASW capable ships and/or a LBAS full of ASW aircraft in order to neutralize her is recommended in order to minimize early retreats.
+* Regardless of the chosen fleet, the fleet will always go through nodes {{MapRoute|P|pink}} and {{MapRoute|U|purple}}
+** A node support fleet is recommended in order to improve the passing rate of node {{MapRoute|U|purple}}
+* Node {{MapRoute|W|red}} features enemy installations and PT imps.
+** The LBAS range for this node is 7.
+** Only an A-rank is sufficient, regardless of difficulty.
+** Keep in mind of the combat flow in a '''Combined Fleet vs Combined Fleet'''. The escort fleet will never attack the enemy main fleet during daytime.
+* Node {{MapRoute|X|red}} is a straightforward surface battle featuring multiple Re-class battleships.
+** The LBAS range for this node is 9.
+
+===Surface Task Force===
+Composition: '''2(F)BB(V) 2CVL 2CA(V)/AV + 1CL 3DD 2XX'''
+* Routes:
+** {{MapRoute|3||P|pink|R|red|U|purple|V|blue|W|red}}
+** {{MapRoute|3||P|pink|R|red|U|purple|V|blue|X|red}}
+* XX should either be CA(V), CLT or up to 1 SS(V).
+* An all purpose STF that can be outfitted depending on what is required.
+
+===Carrier Task Force===
+Composition: '''3CV(L/B) 1(F)BB(V) 2XX + 1CL 3DD 2XX'''
+* Routes:
+** {{MapRoute|3||P|pink|R|red|U|purple|V|blue|W|red}}
+** {{MapRoute|3||P|pink|R|red|U|purple|V|blue|X|red}}
+* XX can't be a (F)BB(V) or CV(L/B).
+* The use of CTF allows for more air power, but they are also in a disadvantage when fighting enemy single fleets.
+** Unlike STF, the escort fleet attacks first in a CTF. This can be a problem at node {{MapRoute|X|red}}
+</tabber>
+
+==Phase 3: Clear the TP Phase==
+Now that node {{MapRoute|Z2|red}} is unlocked, it is time to clear the TP phase.
+* This phase uses a '''Combined Fleet'''. The same fleets used in Phase 2.5B can be used to clear this phase.
+* The LBAS range to node {{MapRoute|Z2|red}} is 11.
+* The trip to the boss is filled with dangers including a night battle at node {{MapRoute|U|purple}}, the '''New Submarine Princess''' at node {{MapRoute|R|red}} and Re-class battleships at node {{MapRoute|X|red}}
+** Due to all the dangers, using a Fleet Command Facility is highly recommended.
+** Using node support can improve the pass rate at {{MapRoute|U|purple}}
+* The boss is very difficult to defeat on '''Hard'''. Expect the majority of the runs to end with A-ranks.
+
+This phase uses the following tag:
+
+{{Shiplock|Summer2021EventTag7}}
+
+<tabber>
+|-|Surface Task Force=
+Composition: '''2(F)BB(V) 2CVL 2CA(V)/AV + 1CL 3DD 2XX'''
+* Route: {{MapRoute|3||P|pink|R|red|U|purple|V|blue|X|red|Y|pink|Z|green|Z2|red}}
+* XX should either be CA(V), CLT or up to 1 SS(V).
+* An all purpose STF that can be outfitted depending on what is required.
+
+|-|Carrier Task Force=
+Composition: '''3CV(L/B) 1(F)BB(V) or CV(L/B) 2XX + 1CL 3DD 2XX'''
+* Route: {{MapRoute|3||P|pink|R|red|U|purple|V|blue|X|red|Y|pink|Z|green|Z2|red}}
+* XX can't be a (F)BB(V) or CV(L/B).
+* The use of CTF allows for more air power, but they are also in a disadvantage when fighting the fleet at {{MapRoute|X|red}}
+** This issue more relevant now that node {{MapRoute|X|red}} is not the final destination. Keep in mind that a STF does not suffer from this problem.
+</tabber>
+
+==Phase 4: Defeat the European Armored Carrier Princess==
+Once the TP phase is cleared, the boss at node {{MapRoute|Z3|red}} will automatically be unlocked.
+* Once LD is reached, head over to Phase 4.5 to further debuff the boss.
+* Upon reaching Phase 4, the following shiplock tagging rules are in effect:
+** STF/CTF will now be tagged with {{ToolTip|'''Force Z'''|{{Shiplock|Summer2021EventTag6}}}}. This means that ships tagged with {{ToolTip|'''Force X'''|{{Shiplock|Summer2021EventTag7}}}} are now unusable in this phase.
+*** As shiplock tags are only enforced on '''Hard''', admirals on lower difficulties can disregard this.
+** <span style="color:red";>'''Warning'''</span>: As usual, '''Combined Fleets''' that contains {{ToolTip|'''Force H'''|{{Shiplock|Summer2021EventTag4}}}} tagged ships will be forced to starting point 2, '''regardless of difficulty'''.
+* The LBAS is relocated to the eastern portion of the map. This will change the LBAS range of all nodes.
+* The LBAS range for the boss at node {{MapRoute|Z3|red}} is 1.
+* As the routing barely changes, the strategy largely remains the same as in Phase 3.
+** CTF is not recommended and will not be suggested in this phase.
+** Use OASW/ASW aircraft to deal with the '''New Submarine Princess''' at {{MapRoute|R|red}}
+** Using Fleet Command Facility is encouraged for chipping the boss.
+** A repair node is now available at node {{MapRoute|X1|blue}}
+** Using {{ShipLink|Nelson}} is recommended for her touch attack.
+
+This phase uses the following tag:
+
+{{Shiplock|Summer2021EventTag6}}
+
+<tabber>
+|-|Surface Task Force=
+===Option 1===
+Composition: '''3(F)BB(V) 1CV(B) 1CA(V) 1 Akitsushima Kai + 1CL 2-3DD 2-3XX'''
+* Route: {{MapRoute|3||P|pink|R|red|S|pink|U|purple|V|blue|X|red|X1|blue|X2|blue|Z3|red}}
+* XX should either be CA(V), CLT or up to 1 SS(V).
+* Having {{ShipLink|Akitsushima Kai}} skips an additional air node while allowing repairs if damage was sustained.
+
+===Option 2===
+Composition: '''4(F)BB(V) 2CVL + 1CL 2-3DD 2-3XX'''
+* Route: {{MapRoute|3||P|pink|R|red|S|pink|U|purple|V|blue|X|red|Y|pink|Z3|red}}
+* XX should either be CA(V), CLT or up to 1 SS(V).
+* This fleet does not rely on {{ShipLink|Akitsushima Kai}}.
+** This fleet will go through an extra air node, but in return, a heavier fleet can be used against the boss.
+
+</tabber>
+
+==Phase 4.5: Debuff the boss and finish her off==
+Once LD is reached against the European Armored Carrier Princess, it is now possible to start debuffing the boss.
+* All steps can be done with {{ToolTip|'''Force Z'''|{{Shiplock|Summer2021EventTag6}}}} tagged ships.
+
+{| class="wikitable" 
+|-
+!
+! LBAS
+! I
+! T
+! Y
+! Z2
+|-
+| Hard
+| AS
+| A+
+| AS
+| AS
+| S
+|-
+| Medium
+| ??
+| ??
+| ??
+| ??
+| ??
+|-
+| Easy
+| ??
+| ??
+| ??
+| ??
+| ??
+|-
+| Casual
+| ??
+| ??
+| ??
+| ??
+| ??
+|-
+|}
+
+<tabber>
+|-|Node I=
+===Option 1===
+Composition: '''1CL 5DD 1XX (Fast)'''
+* Route: {{MapRoute|1||A|blue|B|red|B2|pink|C2|blue|E|red|I|red}}
+* Guarantees the shortest route and should be sufficient for an A-rank.
+
+===Option 2===
+Composition: '''1(F)BB(V) 2CV(B) 1CVL 1CL 2DD'''
+* Route: {{MapRoute|1||A|blue|B|red|B1|pink|C1|red|E|red|I|red}}
+* A heavier fleet at the cost of having to fight one more battle at {{MapRoute|C1|red}}
+* Carriers can make use of the historical bonuses provided by foreign bombers to kill the boss.
+
+
+|-|Node T=
+===Carrier Task Force===
+Composition: '''4CV(L/B) 1(F)BB(V) 1XX + 1CL 2DD 3XX
+* Route: {{MapRoute|3||P|pink|R|red|S|pink|T|pink}}
+* XX can be anything inside the rules of a '''Carrier Task Force''' formation.
+
+===Surface Task Force===
+Composition: '''2CA(V) 2CVL 2XX + 1CL 2DD 3XX
+* Route: {{MapRoute|3||P|pink|R|red|S|pink|T|pink}}
+* XX should be anything that can contribute to the air power, like AV, CAV and BBV.
+* Albeit difficult without the use of LBAS, it is not impossible to clear node {{MapRoute|T|pink}} using a STF instead.
+
+|-|Nodes Y and Z2=
+===Surface Task Force===
+Composition: '''4(F)BB(V) 1CVL 1CVL or {{ShipLink|Akitsushima Kai}} + 1CL 2-3DD 2-3XX'''
+* Route: {{MapRoute|3||P|pink|R|red|S|pink|U|purple|V|blue|X|red|Y|pink|Z|blue|Z2|red}}
+* XX should either be CA(V), CLT or up to 1 SS(V).
+* Equip at least 3 Drum Canisters. It is not required to equip drums across 3 ships.
+* Equip enough fighters on the carriers to ensure AS is achieved on node Y.
+</tabber>

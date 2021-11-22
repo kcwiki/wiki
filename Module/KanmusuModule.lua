@@ -169,9 +169,9 @@ function shipmodule.makeStatBox(frame)
 	
 	local JaName = ""
 	if shipNum == "147" or shipNum == "311" or shipNum == "312" or shipNum == "313" or shipNum == "313a" or shipNum == "316" then --Russian ship markup
-		JaName = '<ruby lang="ru" xml:lang="ru"><rb>' .. kanji .. '</rb><rp> (</rp><rt lang="ja">' .. shipmodule.data[shipNum]["name"][2] .. '</rt><rp>) </rp></ruby>' .. frame:expandTemplate{ title = 'lang', args = { 'ru' , form } }
+		JaName = '<ruby lang="ru"><rb>' .. kanji .. '<span lang="ru">' .. form .. '</span>' .. '</rb><rp> (</rp><rt lang="ja">' .. shipmodule.data[shipNum]["name"][2] .. '</rt><rp>) </rp></ruby>'
 	else
-		JaName = frame:expandTemplate{ title = 'ruby-ja', args = { kanji , shipmodule.data[shipNum]["name"][2] } } .. frame:expandTemplate{ title = 'lang', args = { 'ja' , form } }
+		JaName = '<ruby lang="ja"><rb>' .. kanji .. '<span>' .. form .. '</span>' .. '</rb><rp> (</rp><rt>' .. shipmodule.data[shipNum]["name"][2] .. '</rt><rp>) </rp></ruby>'
 	end
 
     -- Summary of basic ship info

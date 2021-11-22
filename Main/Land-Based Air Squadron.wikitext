@@ -27,15 +27,16 @@ Currently LBAS is only available in 6-4, 6-5 and events.
 6. Attacks made by the LBAS occur '''before''' aerial combat, support and opening attacks. Please see [[Combat]] for more details.
 * It works the same way in a [[Combined Fleet]].
 
-===Unlocking===
-'''World 6'''
-In order to use the LBAS at World 6, you need to complete quest [[Quests#F43|F43]]. The Construction Teams required for the quest can either be obtained from quests [[Quests#B80|B80]] and [[Quests#B81|B81]] or bought from the cash shop for 700y. Upon completing F43, you will be given access to '''one''' air base. Up to '''three''' air bases can be unlocked using Construction Teams. This means that you should buy at maximum one additional Team from the cash shop.
+==Unlocking==
+===World 6===
+In order to use the LBAS at World 6, you need to complete the quest [[Quests#F43|F43]]. You then need {{Item/Link|Construction Corps}} to open each of the 3 LBAS of the world 6.
 
-'''Events'''
-LBAS unlocking in events is straightforward. You are given access to an air base from the first map when it is available. As you progress through the event, you may unlock more bases.
-*Please note that although additional bases may be unlocked as you proceed through the event, if a early event map has a limit of say 1 LBAS then only 1 can be used. The other bases will be on standby even if set to sortie.
+===Events===
+LBAS unlocking during events is straightforward. You are given access to an airbase from the first map when it is available. As you progress through the event, you may unlock more bases.
+*Please note that although additional bases may be unlocked as you proceed through the event, if an early event map has a limit of say 1 LBAS then only 1 can be used. The other bases will be on standby even if set to sortie.
 
-===How to Use===
+
+==How to Use==
 [[File:LBAS_Missions.png|thumb|right|The different types of Missions a Landbase can be set to with their distinctive coloured glow.]]
 1. Click on the blue LBAS banner to bring up the LBAS menu.
 *LBAS for events are located in a different section, please refer to the examples shown on this page.
@@ -58,7 +59,7 @@ LBAS unlocking in events is straightforward. You are given access to an air base
 
 8. When your fleet reaches the targeted node, the LBAS attack will trigger.
 
-===Assignment Cost===
+==Assignment Cost==
 
 The bauxite cost of assigning a plane to the base is:
 
@@ -68,14 +69,16 @@ The bauxite cost of assigning a plane to the base is:
 * <math>\text{size}_\text{slot}</math> is the size of the slot. It is <math>4</math> for reconnaissance planes and <math>18</math> for everything else.
 
 =Deployment Modes=
-==Standby==
+
+<tabber>
+|-|Standby =
 
 This is the default mode of all bases.
 * The morale recovery rate is increased but the rate is lower than [[Land-Based Air Squadron#Rest|Rest]].
 * Damage from raids is similar to [[Land-Based Air Squadron#Sortie|Sortie]].
 * If you aren't using the air base, it is typically better to leave it in [[Land-Based Air Squadron#Evacuation|Evacuation]] or Rest instead.
 
-==Sortie==
+|-| Sortie =
 [[file:LBAS_Sortie.png|thumb|right|The Second Land base is sent to attack the 6-5 Boss with both waves]]
 [[File:LBAS_Attack.png|thumb|right|Type 96 LBAA attacking Enemy Fleet]]
 This enables the base to be sent out to attack targeted nodes. 
@@ -100,7 +103,7 @@ This enables the base to be sent out to attack targeted nodes.
 ** It is possible to use LBAS to weaken enemy air wings at air raid nodes to help mitigate damage.
 * The damage state of the base from [[Land-Based_Air_Squadron#Land_Base_Air_Raid|air raids]] does not affect airstrike damage.
 
-====Combat Radius====
+===Combat Radius===
 
 The Combat Radius determines the furthest node that a base can attack. This is displayed over the picture in the LBAS menu. 
 * The distance of the nodes varies from map to map. Please refer to the LBAS range maps in World 6 or for each event.  
@@ -235,7 +238,7 @@ Following the above formula, it is possible to extend the range of a base '''onl
 
 {{clear}}
 
-====Attack Power====
+===Attack Power===
 
 Depending on the target, there are three different attack power formulas used. Please see the [[Land-Based_Air_Squadron#Plane_Stats_Summary|stats summary]] below for calculated attack power values.
 
@@ -299,7 +302,7 @@ Depending on the target, there are three different attack power formulas used. P
 ** If no plane in the base can perform ASW attacks, the base will not show at submarine-only nodes.
 * Unlike carrier airstrikes, the 1.2x critical proficiency bonus applies to each slot '''independently'''.
 
-====Sortie Fighter Power====
+===Sortie Fighter Power===
 
 Please see the [[Land-Based_Air_Squadron#Plane_Stats_Summary|stats summary]] below for calculated sortie fighter power values.
 
@@ -590,7 +593,7 @@ Please see the [[Land-Based_Air_Squadron#Plane_Stats_Summary|stats summary]] bel
 |}<references/>
 {{Clear}}
 
-====Sortie Cost====
+===Sortie Cost===
 
 There is a flat cost associated when sending the LBAS on a sortie. This is separate from the [[Land-Based_Air_Squadron#Resupplying|resupply]] costs detailed below.
 
@@ -611,18 +614,38 @@ There is a flat cost associated when sending the LBAS on a sortie. This is separ
 ** <math>18</math> for all other planes.
 
 '''Important Notes'''
-* This cost is calculated '''per-squadron'''.
+* This cost is calculated '''per squadron''.
 ** Empty slots do not cost anything.
 * The resources are deducted when you start the sortie.
 * Costs are '''rounded up''' except for the land-based ammo cost which is '''rounded down'''.
 
-==Air Defense==
+===[[PBY-5A Catalina]] rescue function===
+PBY-5A Catalinas placed in LBAS have the ability to rescue fallen pilots that lose their planes in Land-Based Air Operations.
+* The rescue function will not trigger if :
+** a too large amount of Catalina are shot down
+** no planes are lost
+** a 2nd wave does not occur due to all enemies dying.
+* The rescue can happen if the 2 LBAS attacks are split on different nodes, the rescue happening on both nodes.
+* Rescue only applies to bases with a Catalinas equipped.
+* There 3 types of rescue that can trigger depending on your setup :
+** Type 1, with 1 bubble, saving 1 slot
+** Type 2, with 2 bubbles, saving 2 slots
+** Type 3, with 3 bubbles, saving 3 slots.
+* Aircraft rescued by the Catalina will be restored :
+** it saves some bauxite when resupplying,
+** it '''doesn't''' prevent any loss of [[Plane Proficiency]].
+* The number of Catalina used to rescue affects the rescue ratio.
+** Catalina ranks do not affect the rescue ratio.
+*Losses are reduced per rescued slot (the final resupply value is about ~60% of what should be lost in battle). This doesn't carry over bases that are splitted.
+
+
+|-|Air Defense =
 
 In 6-5 and some event maps, the enemy will raid your bases during the sortie. A base on air defense will attempt to intercept those raids to mitigate the damage done.
 * When intercepting enemy bombers, the '''first slot in the base will intercept the first slots on the enemy attackers''' and so on.
 ** You should deploy planes with a higher anti-bomber {{Anti-Bomber}} stat in slots with opposing bombers to minimise the damage taken.
 
-====Defense Fighter Power====
+===Defense Fighter Power===
 
 Please see the [[Land-Based_Air_Squadron#Plane_Stats_Summary|stats summary]] below for calculated defense fighter power values.
 
@@ -1037,7 +1060,7 @@ Unlike normal aerial combat, the shoot down for base defense is based off the an
 |}<references/>
 {{Clear}}
 
-====Land Base Air Raid====
+===Land Base Air Raid===
 
 During a sortie, you will receive an alert saying <span style="color:red;">"Enemy formation approaching! Enemy aircraft are approaching our base." (敵編隊接近中！我が航空基地に敵機接近中。)</span>
 * The chance that this happens is random but increases as you get closer to the boss.
@@ -1117,7 +1140,7 @@ This is a special air raid where the enemy attacks using high altitude bombers. 
 * The multiplier is calculated based on the number of rocket interceptors in '''all bases'''.
 * Damage works the same way as normal base raids.
 
-==Evacuation==
+|-| Evacuation =
 
 Bases set to evacuate will not lose planes to damage from [[Land-Based_Air_Squadron#Land_Base_Air_Raid|air raids]].
 * Resources will still be lost to damage.
@@ -1129,7 +1152,7 @@ Bases set to evacuate will not lose planes to damage from [[Land-Based_Air_Squad
 * It can also save on sortie costs if you do not currently need a particular base on the sortie.
 ** E.g. a base with bombers when you are focusing on air defense.
 
-==Rest==
+|-| Rest =
 
 During rest, the morale of the planes will recover faster.
 * The natural regeneration of bauxite is '''severely reduced''' when a base is being rested.
@@ -1138,6 +1161,8 @@ During rest, the morale of the planes will recover faster.
 
 '''Important Notes'''
 * Because the only disadvantage of rest applies if you are below the resource soft-cap, you can freely use it to recover your bases faster if you are above the soft-cap.
+
+</tabber>
 
 =Resupplying=
 
@@ -1190,38 +1215,71 @@ Squadrons will experience fatigue when sent on repeated sorties. Orange and red 
 * The exact effect of fatigue hasn't been fully tested, but it is known to cause a drop in accuracy.
 
 =Land Base Maintenance menu=
-[[file:Land_Base_Maintenance_menu.png|thumb|right|The LBAS Maintenance menu]]
-Above any world menu for LBAS, you can find the button to access the general Land Base Maintenance menu. This menu give you access to the general level for each of your LBAS groups, including in this order the "Limited time Land Base" (general events LBAS group), the "Southeast Land Base" (world 7 LBAS group, currently not available), the "Southern Land Base" (world 5 LBAS group, currently not available), and the "Central Land Base" (world 6 LBAS group). This menu is common to all world's LBAS groups.
+[[file:LBAS_EN.png|thumb|right|The LBAS Maintenance menu]]
+[[file:LBAS_light_EN.png|thumb|right|The LBAS Maintenance menu seen on the Admiral's page]]
+
+
+Above any world menu for LBAS, you can find the button to access the general Land Base Maintenance menu. This menu gives you access to the general level for each of your LBAS groups, including in this order:
+*The '''"Limited time Land Base"''' (general events LBAS group)
+*The '''"Southwestern Land Base"''' ([[world 7]] LBAS group, currently not available)
+*The '''"Southern Land Base"''' ([[world 5]] LBAS group, currently not available)
+*The '''"Central Land Base"''' ([[world 6]] LBAS group).
+This menu is common to all world's LBAS groups. An additional menu is also found in the admiral's information menu, displaying a brief view of each LBAS group level.
 
 For each group, you can see (from top to bottom) :
-* the LBAS group name,
-* the current level of this group,
-* the current mode of the group,
-* the total number of LBAS opened for the group,
+* the LBAS group name
+* the current level of this group
+* the current mode of the group
+* the total number of LBAS opened for the group
 * the total amount of each type of plane in the group with a scheme of the current layout in each LBAS, with in order: 
-** LBAS bombers, 
-** LBAS attack aircraft,
-** Fighters,
-** Bombers,
-** Seaplanes and recon aircrafts.
+** LBAS bombers
+** LBAS attack aircraft
+** Fighters
+** Bombers
+** Seaplanes and recons aircraft.
 
-Every group are initially at level 0, and can be upgraded up to level 3 using 1 bulldozer each time. You can see how many bulldozers you currently possess in the bottom right corner. The effect for each level are the following: 
-* Level 1: Reduced plane swapping cooldown timer & faster morale recovery when set to "Rest",
-* Level 2: Plane swapping cooldown timer reduced even further & faster morale recovery when set to anything except "Sortie", 
-* Level 3: Plane swapping cooldown timer almost halved in total & faster morale recovery regardless of selected squad state (but "Rest" still ca. 50% more effective).
+Every group is initially at level 0, and can be upgraded up to level 3 using 1 {{Item/Link|Construction Corps}} each time. You can see how many Construction Corps you currently possess in the bottom right corner. 
 
-In the case of the 1st group, all level improvements will carry over into future events.
+The effect for each level are the following: 
+{| class="wikitable" 
+|-
+! Level
+! swapping cooldown
+! morale recovery
+|-
+| 0
+| 12 min
+| standard recovery rates
+|-
+| 1
+| 10 min
+| faster on "Rest"
+|-
+| 2
+| 8 min
+| faster on anything but "Sortie"
+|-
+| 3
+| 6 min
+| faster on every mode, "Rest" is 50% more effective
+|-
+|}
+
+In the case of the 1st group, <font color= "green">'''all level improvements will carry over into future events'''.</font>
+
+
+Since [[Game Updates/2021/October 29th|2021/09/29 update]], you can no longer access your Event's LBAS maintenance menu outside of events, and so you cannot improve its level.
 
 =Troubleshooting=
 
 '''Q: Does the plane order in the base matter?'''
 
-'''A:''' Yes. When taking damage from air raids, the plane in the top slot takes losses first. Therefore, you should try to put reconnaissance planes on top if you're running them. Otherwise fighters or your weakest bomber go on top.
+'''A:''' Yes. When taking damage from air raids, the plane in the top slot takes losses first. Therefore, you should try to put reconnaissance planes on top if you're running them. Otherwise, fighters or your weakest bomber go on top.
 
 
 '''Q: Does it matter which base my planes are on?'''
 
-'''A:''' Yes. Because the first base goes first, you want your best fighter if you are running any in the first base to help reduce enemy air power. If running all bombers, you want to order your bombers by fighter power so the highest goes into the first base and so on. This helps reduce the losses taken by subsequent bases.
+'''A:''' Yes. Because the first base goes first, you want your best fighter if you are running any in the first base to help reduce enemy airpower. If running all bombers, you want to order your bombers by fighter power so the highest goes into the first base and so on. This helps reduce the losses taken by subsequent bases.
 
 
 '''Q: How do I lock LBAS equipment?'''
@@ -1246,12 +1304,12 @@ In the case of the 1st group, all level improvements will carry over into future
 
 '''Q: Why can't I send my planes to X node?'''
 
-'''A:''' Double check to see that the node is within your base's combat radius.
+'''A:''' Double-check to see that the node is within your base's combat radius.
 
 
 '''Q: How can I make my planes reach X node?'''
 
-'''A:''' Use flying boats or other reconnaissance planes to extend the range of your other planes. See [[Land-Based_Air_Squadron#Combat_Radius|combat radius]].
+'''A:''' Use flying boats or other reconnaissance planes to extend the range of your other planes. See [[Land-Based_Air_Squadron#Deployment_Modes|combat radius]].
 
 
 '''Q: Why are my planes deranked even though they've only taken minimal losses?'''
@@ -1271,7 +1329,7 @@ In the case of the 1st group, all level improvements will carry over into future
 
 '''Q: How is my base taking damage?'''
 
-'''A:''' Your base is being attacked by [[Land-Based_Air_Squadron#Land_Base_Air_Raid|air raids]]. You need to set a base on defense with fighters or interceptors to mitigate that damage. It is generally not worth it to defend your land bases because the maximum you can lose per base is 179 fuel/bauxite and 4 planes from the top slot. Remember that reconnaissance planes take limited losses from air raids.
+'''A:''' Your base is being attacked by [[Land-Based_Air_Squadron#Deployment_Modes|air raids]]. You need to set a base on defense with fighters or interceptors to mitigate that damage. It is generally not worth it to defend your land bases because the maximum you can lose per base is 179 fuel/bauxite and 4 planes from the top slot. Remember that reconnaissance planes take limited losses from air raids.
 
 
 '''Q: I can't find my planes!?'''
@@ -1291,7 +1349,7 @@ In the case of the 1st group, all level improvements will carry over into future
 
 '''Q: What happens in a night battle?'''
 
-'''A:''' Although the game allows you to select night battle nodes, there will be no LBAS attack performed. The exception to this are night-day nodes where the LBAS will perform the attack as usual once the battle shifts into day.
+'''A:''' Although the game allows you to select night battle nodes, there will be no LBAS attack performed. The exception to this is night-day nodes where the LBAS will perform the attack as usual once the battle shifts into day.
 
 
 '''Q: What happens to event LBAS after the event ends?'''
@@ -1301,7 +1359,10 @@ In the case of the 1st group, all level improvements will carry over into future
 
 '''Q: Is it worth it to buy the 3rd base in World 6?'''
 
-'''A:''' For the cost of 700y, the 3rd base will pay for itself in fuel and bauxite savings in roughly 3 months of 6-5 clears. Assuming that your bases regularly get knocked to moderate damage. It will take longer to pay for itself if your bases take less damage. This also assumes you have good enough fighters and interceptors to negate damage. Otherwise the payback period gets longer. If you have money to spare, it is a good long term investment.
+'''A:''' 
+'''NOTE: As of July 2021 it is now possible to unlock all three bases in World 6 through quests, without paying any money. See [[Construction Corps]].'''
+
+For the cost of 800 ¥, the 3rd base will pay for itself in fuel and bauxite savings in roughly 3 months of 6-5 clears. Assuming that your bases regularly get knocked to moderate damage. It will take longer to pay for itself if your bases take less damage. This also assumes you have good enough fighters and interceptors to negate damage. Otherwise, the payback period gets longer. If you have money to spare, it is a good long-term investment.
 
 =Plane Stats Summary=
 
@@ -1383,7 +1444,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 16
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (55th Squadron)]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (65th Squadron)]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -1409,6 +1470,114 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 52.2
 |style="text-align: center; border-style: solid; border-width: 1px;"| 109.8 ~ 156.6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Do 17 Z-2]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 13
+|style="text-align: center; border-style: solid; border-width: 1px;"| 234
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 36
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 4 Heavy Bomber Hiryuu]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 14
+|style="text-align: center; border-style: solid; border-width: 1px;"| 252
+|style="text-align: center; border-style: solid; border-width: 1px;"| 5
+|style="text-align: center; border-style: solid; border-width: 1px;"| 149.4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 4 Heavy Bomber Hiryuu|Type 4 Heavy Bomber Hiryuu ★+10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 14
+|style="text-align: center; border-style: solid; border-width: 1px;"| 252
+|style="text-align: center; border-style: solid; border-width: 1px;"| 5
+|style="text-align: center; border-style: solid; border-width: 1px;"| 149.4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 4 Heavy Bomber Hiryuu (Skilled)]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 14
+|style="text-align: center; border-style: solid; border-width: 1px;"| 252
+|style="text-align: center; border-style: solid; border-width: 1px;"| 5
+|style="text-align: center; border-style: solid; border-width: 1px;"| 149.4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Do 217 K-2 + Fritz-X]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 17
+|style="text-align: center; border-style: solid; border-width: 1px;"| 306
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Do 217 E-5 + Hs293 Initial Model]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 15
+|style="text-align: center; border-style: solid; border-width: 1px;"| 270
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[SM.79]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 11
+|style="text-align: center; border-style: solid; border-width: 1px;"| 198
+|style="text-align: center; border-style: solid; border-width: 1px;"| 7
+|style="text-align: center; border-style: solid; border-width: 1px;"| 108
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[SM.79 bis]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 13
+|style="text-align: center; border-style: solid; border-width: 1px;"| 234
+|style="text-align: center; border-style: solid; border-width: 1px;"| 8
+|style="text-align: center; border-style: solid; border-width: 1px;"| 133.2
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[SM.79 bis (Skilled)]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 14
+|style="text-align: center; border-style: solid; border-width: 1px;"| 252
+|style="text-align: center; border-style: solid; border-width: 1px;"| 8
+|style="text-align: center; border-style: solid; border-width: 1px;"| 142.2
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shinzan]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 20
+|style="text-align: center; border-style: solid; border-width: 1px;"| 180
+|style="text-align: center; border-style: solid; border-width: 1px;"| 10
+|style="text-align: center; border-style: solid; border-width: 1px;"| 73
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shinzan Kai]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 21
+|style="text-align: center; border-style: solid; border-width: 1px;"| 189
+|style="text-align: center; border-style: solid; border-width: 1px;"| 21
+|style="text-align: center; border-style: solid; border-width: 1px;"| 76
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ginga (Egusa Squadron)]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 13
+|style="text-align: center; border-style: solid; border-width: 1px;"| 234
+|style="text-align: center; border-style: solid; border-width: 1px;"| 7
+|style="text-align: center; border-style: solid; border-width: 1px;"| 158.4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
+|style="text-align: center; border-style: solid; border-width: 1px;"| -
+|style="text-align: center; border-style: solid; border-width: 1px;"| 
 |-
 |}<references/>
 
@@ -1439,7 +1608,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 78
 |style="text-align: center; border-style: solid; border-width: 1px;"| 80
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 3 Fighter Hien|Type 3 Fighter Hien +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 3 Fighter Hien|Type 3 Fighter Hien ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 7
 |style="text-align: center; border-style: solid; border-width: 1px;"| 126
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
@@ -1467,7 +1636,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 65
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shiden Type 11|Shiden Type 11 +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Shiden Type 11|Shiden Type 11 ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
@@ -1495,7 +1664,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 63
 |style="text-align: center; border-style: solid; border-width: 1px;"| 59
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 1 Fighter Hayabusa Model II|Type 1 Fighter Hayabusa Model II +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 1 Fighter Hayabusa Model II|Type 1 Fighter Hayabusa Model II ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
@@ -1509,7 +1678,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 74
 |style="text-align: center; border-style: solid; border-width: 1px;"| 76
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 1 Fighter Hayabusa Model III A|Type 1 Fighter Hayabusa Model III A  +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 1 Fighter Hayabusa Model III A|Type 1 Fighter Hayabusa Model III A  ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
@@ -1537,7 +1706,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 61
 |style="text-align: center; border-style: solid; border-width: 1px;"| 76
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Spitfire Mk.I|Spitfire Mk.I +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Spitfire Mk.I|Spitfire Mk.I ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -1607,6 +1776,41 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 95
 |style="text-align: center; border-style: solid; border-width: 1px;"| 114
 |-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Fighter Model 22 (251 Air Group)|Type 0 Fighter Model 22 (251 Air Group) ★+2]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 72
+|style="text-align: center; border-style: solid; border-width: 1px;"| 7
+|style="text-align: center; border-style: solid; border-width: 1px;"| 97
+|style="text-align: center; border-style: solid; border-width: 1px;"| 99
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Fighter Model 21 (Tainan Air Group)|[Type 0 Fighter Model 21 (Tainan Air Group) ★+2]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 72
+|style="text-align: center; border-style: solid; border-width: 1px;"| 5
+|style="text-align: center; border-style: solid; border-width: 1px;"| 92
+|style="text-align: center; border-style: solid; border-width: 1px;"| 95
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Fighter Model 21 (Tainan Air Group)|[Type 0 Fighter Model 21 (Tainan Air Group) ★+4]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 72
+|style="text-align: center; border-style: solid; border-width: 1px;"| 5
+|style="text-align: center; border-style: solid; border-width: 1px;"| 94
+|style="text-align: center; border-style: solid; border-width: 1px;"| 96
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Fighter Model 32 (Tainan Air Group)|Type 0 Fighter Model 32 (Tainan Air Group) ★+2]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 72
+|style="text-align: center; border-style: solid; border-width: 1px;"| 7
+|style="text-align: center; border-style: solid; border-width: 1px;"| 103
+|style="text-align: center; border-style: solid; border-width: 1px;"| 103
+|-
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Fighter Model 32 (Tainan Air Group)|Type 0 Fighter Model 32 (Tainan Air Group) ★+3]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| 4
+|style="text-align: center; border-style: solid; border-width: 1px;"| 72
+|style="text-align: center; border-style: solid; border-width: 1px;"| 7
+|style="text-align: center; border-style: solid; border-width: 1px;"| 104
+|style="text-align: center; border-style: solid; border-width: 1px;"| 104
+|-
 |}
 
 {| class="wikitable mw-collapsible mw-collapsed sortable" style="width:640px;"
@@ -1652,7 +1856,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
 |style="text-align: center; border-style: solid; border-width: 1px;"| 38
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 96 Fighter |Type 96 Fighter  +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 96 Fighter |Type 96 Fighter  ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
 |style="text-align: center; border-style: solid; border-width: 1px;"| 54
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
@@ -1664,7 +1868,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 7
 |style="text-align: center; border-style: solid; border-width: 1px;"| 46
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 21|Zero Fighter Type 21 +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 21|Zero Fighter Type 21 ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |style="text-align: center; border-style: solid; border-width: 1px;"| 7
@@ -1676,7 +1880,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 50
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52|Zero Fighter Type 52 +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52|Zero Fighter Type 52 ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
@@ -1712,7 +1916,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 7
 |style="text-align: center; border-style: solid; border-width: 1px;"| 59
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 21 (Skilled)|Zero Fighter Type 21 (Skilled) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 21 (Skilled)|Zero Fighter Type 21 (Skilled) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |style="text-align: center; border-style: solid; border-width: 1px;"| 7
@@ -1724,7 +1928,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 63
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52 Model C (601 Air Group)|Zero Fighter Type 52 Model C (601 Air Group) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52 Model C (601 Air Group)|Zero Fighter Type 52 Model C (601 Air Group) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
@@ -1736,7 +1940,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu (601 Air Group)|Reppuu (601 Air Group) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Reppuu (601 Air Group)|Reppuu (601 Air Group) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 7
 |style="text-align: center; border-style: solid; border-width: 1px;"| 126
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -1748,7 +1952,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 63
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52 (Skilled)|Zero Fighter Type 52 (Skilled) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52 (Skilled)|Zero Fighter Type 52 (Skilled) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
@@ -1760,7 +1964,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 67
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52 Model C (Iwai Squadron)|Zero Fighter Type 52 Model C (Iwai Squadron) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52 Model C (Iwai Squadron)|Zero Fighter Type 52 Model C (Iwai Squadron) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
@@ -1778,7 +1982,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52 Model A (Iwamoto Squadron)|Zero Fighter Type 52 Model A (Iwamoto Squadron) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 52 Model A (Iwamoto Squadron)|Zero Fighter Type 52 Model A (Iwamoto Squadron) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
@@ -1790,7 +1994,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 76
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 53 (Iwamoto Squadron)|Zero Fighter Type 53 (Iwamoto Squadron) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 53 (Iwamoto Squadron)|Zero Fighter Type 53 (Iwamoto Squadron) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
@@ -1814,7 +2018,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 46
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 32|Zero Fighter Type 32 +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 32|Zero Fighter Type 32 ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -1826,7 +2030,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 59
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 32 (Skilled)|Zero Fighter Type 32 (Skilled) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 32 (Skilled)|Zero Fighter Type 32 (Skilled) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -1838,7 +2042,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 50
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Re. 2001 OR Kai|Re. 2001 OR Kai +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Re. 2001 OR Kai|Re. 2001 OR Kai ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -1856,7 +2060,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 42
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[F4F-3|F4F-3 +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[F4F-3|F4F-3 ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -1868,7 +2072,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 46
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[F4F-4|F4F-4 +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[F4F-4|F4F-4 ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -1880,7 +2084,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 59
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[F6F-3|F6F-3 +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[F6F-3|F6F-3 ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 8
 |style="text-align: center; border-style: solid; border-width: 1px;"| 144
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -1892,7 +2096,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 67
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[F6F-5|F6F-5 +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[F6F-5|F6F-5 ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 8
 |style="text-align: center; border-style: solid; border-width: 1px;"| 144
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -1996,7 +2200,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber|Type 97 Torpedo Bomber +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber|Type 97 Torpedo Bomber ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -2036,7 +2240,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 22 ~ 51
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber (931 Air Group)|Type 97 Torpedo Bomber (931 Air Group) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 97 Torpedo Bomber (931 Air Group)|Type 97 Torpedo Bomber (931 Air Group) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -2196,7 +2400,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai)|Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai)|Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -2262,7 +2466,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 20
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 62 (Fighter-bomber)|Zero Fighter Type 62 (Fighter-bomber) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 62 (Fighter-bomber)|Zero Fighter Type 62 (Fighter-bomber) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -2326,7 +2530,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 33
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)|Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron)|Zero Fighter Type 62 (Fighter-bomber/Iwai Squadron) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -2350,7 +2554,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 24
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Fighter Model 63 (Fighter-bomber)|Type 0 Fighter Model 63 (Fighter-bomber) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 0 Fighter Model 63 (Fighter-bomber)|Type 0 Fighter Model 63 (Fighter-bomber) ★+10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -2537,7 +2741,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
 |style="text-align: center; border-style: solid; border-width: 1px;"| 33
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ro.44 Seaplane Fighter |Ro.44 Seaplane Fighter  +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ro.44 Seaplane Fighter |Ro.44 Seaplane Fighter  ★10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
@@ -2549,7 +2753,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 38
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Seaplane Fighter Kai|Type 2 Seaplane Fighter Kai +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Seaplane Fighter Kai|Type 2 Seaplane Fighter Kai ★10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -2561,7 +2765,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
 |style="text-align: center; border-style: solid; border-width: 1px;"| 38
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ro.44 Seaplane Fighter Bis|Ro.44 Seaplane Fighter Bis +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Ro.44 Seaplane Fighter Bis|Ro.44 Seaplane Fighter Bis ★10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 72
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
@@ -2573,7 +2777,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
 |style="text-align: center; border-style: solid; border-width: 1px;"| 46
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Seaplane Fighter Kai (Skilled)|Type 2 Seaplane Fighter Kai (Skilled) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Type 2 Seaplane Fighter Kai (Skilled)|Type 2 Seaplane Fighter Kai (Skilled) ★10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
 |style="text-align: center; border-style: solid; border-width: 1px;"| 90
 |style="text-align: center; border-style: solid; border-width: 1px;"| 4
@@ -2585,7 +2789,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
 |style="text-align: center; border-style: solid; border-width: 1px;"| 46
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Kyoufuu Kai|Kyoufuu Kai +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Kyoufuu Kai|Kyoufuu Kai ★10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 3
@@ -2617,7 +2821,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 11
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun|Zuiun +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun|Zuiun ★10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -2641,7 +2845,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 11
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun (634 Air Group)|Zuiun (634 Air Group) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun (634 Air Group)|Zuiun (634 Air Group) ★10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -2697,7 +2901,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 20
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun (634 Air Group/Skilled)|Zuiun (634 Air Group/Skilled) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun (634 Air Group/Skilled)|Zuiun (634 Air Group/Skilled) ★10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 6
 |style="text-align: center; border-style: solid; border-width: 1px;"| 108
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5
@@ -2713,7 +2917,7 @@ The following assumptions apply:
 |style="text-align: center; border-style: solid; border-width: 1px;"| -
 |style="text-align: center; border-style: solid; border-width: 1px;"| 20
 |-
-|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun Kai Ni (634 Air Group)|Zuiun Kai Ni (634 Air Group) +10]]
+|style="text-align: center; border-style: solid; border-width: 1px;"| [[Zuiun Kai Ni (634 Air Group)|Zuiun Kai Ni (634 Air Group) ★10]]
 |style="text-align: center; border-style: solid; border-width: 1px;"| 8
 |style="text-align: center; border-style: solid; border-width: 1px;"| 144
 |style="text-align: center; border-style: solid; border-width: 1px;"| 5

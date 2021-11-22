@@ -1,0 +1,278 @@
+===E-1===
+{{EventInfoBox
+|title_en= Northern Inshore Patrols
+|title_jp= 【北方近海の哨戒】
+|tag= [[File:Fall2021EventTag1.png]]
+|header_thumb=[[File:Fall2021_E1BossThumb.png]]
+|tag_text= {{Shiplock|Fall2021EventTag1}}104th Squadron
+|map_1=[[File:Fall 2021 Event E-1 Map.png|450px]]
+|map_1_text=Map
+|map_2=[[File:Fall 2021 Event E-1 Phase 1 Map.png|450px]]
+|map_2_text=Phase 1
+|map_3=[[File:Fall 2021 Event E-1 Phase 2 Map.png|450px]]
+|map_3_text=Phase 2
+|boss_hard= 480 HP + 2800 HP
+|boss_medium= 420 HP + 2300 HP
+|boss_easy= 420 HP + 2300 HP
+|boss_casual= 420 HP + 2300 HP
+|reward_all=
+|phase_1_boss= {{EnemyLink|Battleship Ru-Class}}
+|phase_2_boss= {{EnemyLink|German Escort Princess}}
+|phase_3_boss=
+|phase_4_boss=
+|phase_5_boss=
+|reward_1={{QuestRewardItem|Medal}}
+|reward_1_casual=1
+|reward_1_easy=1
+|reward_1_medium=1
+|reward_1_hard=1
+|reward_2={{QuestRewardItem|Improvement Material}}
+|reward_2_casual=
+|reward_2_easy=2
+|reward_2_medium=4
+|reward_2_hard=6
+|reward_3={{QuestRewardEquip|Emergency Repair Goddess}}
+|reward_3_casual=1
+|reward_3_easy=1
+|reward_3_medium=2
+|reward_3_hard=2
+|reward_4={{QuestRewardEquip|Arctic Camouflage (+ Arctic Equipment)}}
+|reward_4_casual=
+|reward_4_easy=1
+|reward_4_medium=1 (★3)
+|reward_4_hard=1 (★6)
+|reward_5={{QuestRewardEquip|Toku Daihatsu Landing Craft + 11th Tank Regiment}}
+|reward_5_casual=
+|reward_5_easy=
+|reward_5_medium=
+|reward_5_hard=1 (★2)
+|reward_6={{QuestRewardEquip|Type 3 Depth Charge Projector}}
+|reward_6_casual=1 (★4)
+|reward_6_easy=
+|reward_6_medium=
+|reward_6_hard=
+|reward_7={{QuestRewardEquip|Type 3 Depth Charge Projector (Concentrated Deployment)}}
+|reward_7_casual=
+|reward_7_easy=1
+|reward_7_medium=
+|reward_7_hard=
+|reward_8={{QuestRewardEquip|Hedgehog (Initial Model)}}
+|reward_8_casual=
+|reward_8_easy=
+|reward_8_medium=1
+|reward_8_hard=1 (★2)
+}}
+{{center|[[File:OoyodoE-1Fall2021.png|440px]]}}
+
+==Branching Table==
+{{MapBranchingTable
+|title = E-1 Branching Rules
+|expand = true
+|id = 52-1
+|order = A,C,E,F,G,I,L,P
+|A/empty -> B, D = Choose your own adventure!
+
+|C -> E = *Meet '''ANY''' conditions below
+** Have a Natural Slow fleet with ≤ 2 DD+DE
+** Have a Natural Fast fleet with ≤ 1 DD 
+** Have a fleet with ≥ 3 CV(L)
+|C -> F = * Can override all conditions for E and F if the following condition is met:
+** Speed modded Fast+ Fleet
+* '''OTHERWISE''' Must not meet conditions for E and meet the following:
+** Have a fleet with ≤ 2 CV(L) 
+* '''And''' must meet '''ANY''' conditions below
+** Have a Natural Slow fleet with ≥ 3 DD+DE
+** Have a Natural Fast fleet with 1CL + 2 DD 
+** Have a Natural Fast fleet with ≤ 3 CV(L)+ FBB + CA(V) and ≥ 3 DD 
+** Speed Modded Fast Fleet with ≤ 3 BB(V) + CV(L)(B) + CA(V) and ≥ 2 DD 
+|E -> G = * Fleet came from Node D and must meet the following conditions below
+* If Fleet contains 1 CL and meet '''ANY''' of the below conditions:
+** Fleet contains 2 DD + DE
+** Fleet is Fast
+* '''OR''' Fleet contains 0 CL and meet '''All''' below conditions:
+** Fleet with ≥  (F)BB(V)+ CV(B)(L)
+** Fleet contains 3 DD + DE if Fleet 
+
+|E -> F = * Meet '''ANY''' conditions below
+** Fleet came from node C 
+** Fleet must not meet the conditions for Node G 
+
+
+|F -> H = *Fleet must not meet the conditions for Node I
+
+|F -> I = *Fleet is Fast+
+* OR must meet '''ANY''' of the following conditions :
+** Have ≤ 3 CV(B)(L) 
+** Have ≤ 4 (F)BB(V)+CV(L)
+** Have ≤ 3 (F)BB(V)+CV(B)
+
+|G/empty -> J, L = Choose your own adventure!
+
+|I -> K/empty = * Fail the LoS check.
+|I -> N = * Pass the LOS check
+
+
+|L -> O = Meet '''ANY''' of the following conditions
+* Have ≥ 3 CV(L) 
+* Have ≤ 1 DD 
+|L -> P = Doesn't meet the requirements for O 
+
+|P -> Q/empty = * Fail the LoS check.
+|P -> R =  * Pass the LOS check 
+
+}}
+Branching compositions were reported over the course of the event. ([https://bbs.nga.cn/read.php?pid=514129578 NGA] and [https://tsunkit.net/nav/#/ KCNav])
+
+The event guides are to be constructed through the respective [[Sandbox/Fall 2021 E-1|Event map page guide]] and reviewed by editor staff / collaboration committee before being approved here. '''Do not under any circumstance update the guides through this page or attempt to fix them through this page.''' Please only update guides through their respective sandbox pages.
+
+==Ship Bonuses (Tentative)==
+
+{{:{{BASEPAGENAME}}/E-1/Historical_Ships}}
+
+==Map Overview==
+'''Note: To anyone who has not completed this map or are viewing this guide as of 11/19/2021, the event map will now include a lock on this map to any ship that is used in this segment. Please plan carefully before you start entering this map, wether it be for farming or completion as the ships you use here may have importance if you plan to challenge the EO maps on higher difficulties.'''
+
+This is a 2.5 Phase Map with a focus on Surface Combat
+
+* Starting as of 11/19/2021 this map will apply locks to anyone entering this map.
+* There is no LBAS for this map
+* All fleet used in this map are '''Single Fleet'''
+* The requirement of A+-Ranking Node {{MapRoute|M|red}} for Phase 2 can be done at any time in Phase 1.
+* <s>Saury drops on: {{MapRoute|I|red}}, {{MapRoute|J|red}}, {{MapRoute|M|red}}, {{MapRoute|N|red}}, {{MapRoute|P|red}}, and {{MapRoute|R|red}}</s>
+
+==Phase 1: Defeat the Ru-Class Battleship at {{MapRoute|N|red}}==
+The goal of this Phase is to defeat the Fleet at Node {{MapRoute|N|red}} with a Ru-Class BB at its head.
+
+* Note: North Composition: {{MapRoute|A|blue}} -> {{MapRoute|D|red}} and South Composition: {{MapRoute|A|blue}} -> {{MapRoute|B|pink}}
+* Both the North and South Composition allows you to pack <s>fishing equipment and</s> enough firepower to deal with the Boss Node. 
+<tabber>
+|-|South Composition=
+* Composition: 0-1 FBB, 1-2 CVL, 0-1 CA(V), 0-1 AV, 2-3 DD ('''FAST''')
+* Route: {{MapRoute|1||A|blue|B|pink|C|red|F|red|I|red|N|red}}
+* Note:Default Slow Fleet will take you to an extra node: {{MapRoute|E|red}}
+** Speed modding will not avoid {{MapRoute|E|red}}
+|-|North Composition=
+* Composition: 0-1 BB(V), 1-2 CVL, 0-1 CV, 1-2 CA/CL(T), 0-2 DD ('''FAST''')
+* Route: {{MapRoute|1||A|blue|D|red|E|red|F|red|I|red|N|red}}
+* Avoid using a combination of 1 CL + 2 DD in your fleet to prevent routing to Node G unless you intend to visit Node M.
+* Alternative route if you want to avoid the air raid node. 
+|-| BB + CV Only Composition=
+* Composition: 6 (F)BB(V) + CV(L)(B) ('''FAST+''')
+* Route: {{MapRoute|1||A|blue|D|red|E|red|F|red|I|red|N|red}}
+* Highly expensive fleet that will allow you to bring a very heavy fleet to the boss node.
+|-|Submarine Composition=
+* Composition: 6 SS(V) ('''FAST+''')
+* Route: {{MapRoute|1||A|blue|D|red|E|red|F|red|I|red|N|red}}
+* Cheapest composition <s>but very hard to fish due to lack of fishing equipment brought for the fleet.</s>
+* Not recommended as it runs into a high risk of getting severely damaged by enemy ASW and lacking damage.
+</tabber>
+
+==Phase 0.5/1.5: Unlock Node {{MapRoute|R|red}}==
+
+* Note: This phase can be done at any point in Phase 1. 
+* A+ Rank is needed for '''ALL DIFFICULTIES''' for node {{MapRoute|M|red}}
+<tabber>
+|-|Light Comp=
+* Composition: 0-1 FBB, 1-2 CVL, 0-1 CA(V), 0-1 CL, 2-3 DD
+* Route: {{MapRoute|A|blue|D|red|E|red|G|blue|J|red|M|red}}
+* 1 CL + 2 DD is required to route this path
+|-|Heavy Comp=
+* Composition: 1 (F)BB, 1-2 CV(L), 0-1 CA(V), 2 CLT 1 CL
+* Route: {{MapRoute|A|blue|D|red|E|red|G|blue|J|red|M|red}}
+* Fleet must be fast to route this path.
+</tabber>
+
+==Phase 2: Eliminate German Escort Princess at {{MapRoute|R|red}}==
+In this phase, you will be up against the [[German Escort Princess]] who will come with a sizable amount of air power. While this node has a high AS requirement, fighting the Boss under AP is perfectly viable due to how the damage bonuses work:
+
+* Boss Note: The boss is weak against dive-bombers. Having '''2 or more Dive-bombers''' on a CV/BBV will provide them with a '''2.25x''' damage bonus
+** Type 3 Shells provide a '''1.38x''' bonus against the boss
+** Ise-class Kai Ni can use both dive bombers and type 3 shells, maximizing the bonus potential while also being able to double attack at night.
+*** This method can be effective for farming on post clear as there will be less air power to deal with.
+*While not entirely necessary, boss support can be considered if your fleet needs an edge in the battle.
+{| class="wikitable" 
+|-
+! Boss Air-Power
+! AP
+! AS
+! AS+
+|-
+| Hard
+| 248
+| 557
+| 1113
+|-
+| Medium
+| 170
+| 383
+| 765
+|-
+| Easy
+| 154
+| 347
+| 693
+|-
+| Casual
+| 154
+| 347
+| 693
+|-
+|}
+<tabber>
+|-|Heavy Composition=
+* 1-2 CV(B), 1-2(F)BB(V), 1 CL, 2 DD
+* Route: {{MapRoute|1||A|blue|D|red|E|red|G|blue|L|pink|P|red|R|red}}
+* A minimum of 1 CL + 2 DD in the fleet is required for taking this route.
+* A BBV can be used here to provide extra firepower
+* A maximum of 2 CV(L/B) and 1 (F)BB(V) can be used in the fleet.
+|-|Light Composition=
+* 1-2FBB, 0-1 CV(L), 0-1 CA(V), 1 CL, 2-3 DD
+* Route: {{MapRoute|1||A|blue|D|red|E|red|G|blue|L|pink|P|red|R|red}}
+* A minimum of 1 CL + 2 DD in the fleet is required for taking this route.
+* Night-Battle Focused Fleet
+* CV(L) should be focused on trying to meet the air-power requirement at the boss. 
+</tabber>
+
+==<s>Fishing on the Event map</s>==
+
+<s>Since there are key fishing points in nodes {{MapRoute|I|red}}, {{MapRoute|J|red}}, {{MapRoute|M|red}}, {{MapRoute|N|red}}, {{MapRoute|P|red}}, and {{MapRoute|R|red}}. You can use this opportunity to catch fish while you play the event map.
+
+This map has a very high yield of fish so bring a decent amount of fishing gear while maintaining your combat strength to maximize your overall fishing and combat performance (earning up to 2 fish per run). 
+
+For more tips on how to do this please review the [[Naval District Saury Festival]] page.</s>
+{{clear}}
+
+==Post Clear Farming==
+
+Once you clear the map, the boss's air power and overall strength is drastically weakened making it very easy to farm this map for many ships on node {{MapRoute|R|red}}. There are several ways to go about doing it which are listed below:
+
+<tabber>
+|-|Heavy Composition=
+* 1-2 CV(B), 1-2(F)BB(V), 1 CL, 2 DD
+* Route: {{MapRoute|1||A|blue|D|red|E|red|G|blue|L|pink|P|red|R|red}}
+* A minimum of 1 CL + 2 DD in the fleet is required for taking this route.
+* A BBV can be used here to provide extra firepower
+* A maximum of 2 CV(L/B) and 1 (F)BB(V) can be used in the fleet.
+* This composition is effective, but will train a large amount of fuel, ammo and most notably bauxite.
+|-|Opening Torpedo Compositon=
+* 1 CAV, 1CLT, 2 CL, 2 DD
+* Route: {{MapRoute|1||A|blue|D|red|E|red|G|blue|L|pink|P|red|R|red}}
+* This fleet requires a very specific group of ships to maximize the overall efficiency of farming this section.
+** The fleet should include [[Mogami Kai Ni Toku]], [[Yuubari Kai Ni Toku]], [[Kiso Kai Ni]], and [[Abukuma Kai Ni]]
+*** Arm each ship with a Mini-Sub to give them an opening torpedo strike
+*** Consider a Zuiun or Seaplane Fighter depending on the need for LOS.
+*** If possible, include a skilled lookout on expansions if you have any
+*** If possible, consider Yuubari to have a TCI build
+** DDs should include 1 AACI DD and 1 historic TCI DD ([[Verniy]], [[Tashkent]], [[Ushio Kai Ni]] or [[Kasumi Kai Ni]]).
+* If done correctly, you can easily farm the map with a rather low fuel and ammo useage and almost no bauxite
+</tabber>
+
+Keep in mind that if you have cleared this map, farm it while you have the chance, since as of 11/19 when the EOs are launched, the event map will begin to establish tags. 
+
+Tread with caution once EOs are released as these ships might become important for the EOs.
+
+==Enemy Compositions==
+{{:{{BASEPAGENAME}}/E-1/Enemy comps}}
+
+===Ship Drops===
+{{:{{BASEPAGENAME}}/E-1/Ship drops}}

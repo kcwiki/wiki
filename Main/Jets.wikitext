@@ -2,29 +2,47 @@
 Jets were introduced in the [[Game Updates/2016/December 9|December 9th, 2016 Update]]. Jets possess the ability to perform a [[Combat#Jet_Assault|jet assault]] before the aerial combat phase. 
 
 =Overview=
+==Mechanics==
+1. Two "jets" are currently available in the game, the [[Kikka Kai]] and the [[Jet Keiun Kai]].
+*Both jets have unique equipements icons : {{Template:JetFighterBomber2}} and {{Template:JetFighterBomber1}} respectively
+*Despite being propelled by one jet engine, the [[FR-1 Fireball]] has nothing to do with "jets" in the game and is seen as a regular fighter.
 
-===Mechanics===
-1. Jets can only be equipped by [[:Category:Shoukaku Class|Shoukaku-class Kai Ni A]], [[Kaga|Kaga Kai Ni Go]], and placed in [[Land-Based Air Squadron]]s.
+2. Jets can only be equipped by [[:Category:Shoukaku Class|Shoukaku-class Kai Ni A]], [[Kaga|Kaga Kai Ni Go]], [[Victorious|Victorious Kai]], and placed in [[Land-Based Air Squadron]]s.
 
-2. Using jets will consume steel.
+3. Using jets will consume steel in addition to bauxite.
 
-3. Having a jet equipped will allow a pre-emptive aerial attack known as '''Jet Assault'''.
-* Jets will still participate in the following aerial combat phase.
+4. Having a jet equipped will allow a pre-emptive aerial attack known as '''Jet Assault''' (JA).
+* Jets will still participate in the following aerial combat phases.
 * [[Damage_Calculations#Airstrike|Damage]] during the jet assault is calculated the same way as dive bombers but damage during the airstrike phase is reduced.
 ** For LBAS jet assault, '''both''' jet assault and LBAS bombing use the lower multiplier. 
 
-4. Jets have [[Anti-Air_Fire#Shoot_Down_Resistance|shootdown resistance]] that reduces the losses to anti-air fire.
+5. Jets have a high [[Anti-Air_Fire#Shoot_Down_Resistance|shootdown resistance]] that reduces the losses to anti-air fire.
 
-5. Jets will go through '''three''' different shoot down phases per normal battle.
-* Anti-air during jet assault.
+{| class="wikitable" 
+|-
+! 
+! Ship AA resistance
+! Fleet AA resistance
+|-
+| Keiun kai
+| 50%
+| 30%
+|-
+| Kikka kai
+| 50%
+| 50%
+|-
+|}
+
+6. Jets will go through '''three''' different shoot-down phases per normal battle.
+* Anti-air during the jet assault.
 * Shoot down during air control.
-* Anti-air during normal airstrike.
-* It is unknown if the jet assault phase can trigger [[Anti-Air_Fire#Anti-Air_Cut-In|anti-air cut-ins]].
+* Anti-air during the normal airstrike.
+It is unknown if the jet assault phase can trigger [[Anti-Air_Fire#Anti-Air_Cut-In|anti-air cut-ins]].
 
-6. Jets '''do not count''' as dive bombers for the purposes of activating [[Carrier Cut-In Attack]]s
+7. Jets '''do not count''' as dive bombers or fighters and so cannot activate the [[Carrier Cut-In Attack]]s or take part in it.
 
-
-===Use Notes===
+==Use Notes==
 
 
 1. Since they use the dive bomber multiplier and have a weaker airstrike, their use against targets larger than a heavy cruiser is limited.
@@ -39,12 +57,11 @@ Jets were introduced in the [[Game Updates/2016/December 9|December 9th, 2016 Up
 
 The steel consumption of jets is:
 
-
 <math>\text{Steel} = \lceil \text{Plane Count} \times \text{Steel Cost} \rceil</math>
 
 * <math>\text{Plane Count}</math> is the current plane count '''at the start of the battle'''.
 * <math>\text{Steel Cost}</math> is the steel cost per plane.
-** [[Kikka Kai]]|: <math>2.6</math>
+** [[Kikka Kai]]: <math>2.6</math>
 ** [[Jet Keiun Kai]]: <math>2.8</math>
 
 '''Important Notes'''
@@ -56,105 +73,113 @@ The steel consumption of jets is:
 * Because LBAS squadrons are refilled between waves, jets will always cost the full 18 planes per wave.
 
 =Acquiring Jets=
-Currently the only way to acquire Jets is by obtaining a few special items from Quests or from ranking that are necessary in order to produce the  [[Kikka Kai]] and [[Jet Keiun Kai]] :
+Currently the only way to acquire Jets is by obtaining several special items from Quests or [[ranking]], that are necessary to obtain the [[Kikka Kai]] and produce the [[Jet Keiun Kai]] :
 
+* '''Ne-Type Engine''' {{Item/Icon|Ne Type Engine|size=40px}}
 
-* '''Ne-Type Engine'''
-* '''New Air Craft Plans'''
-* '''[[Prototype Keiun]]'''
+* '''New Air Craft Plans''' {{Item/Icon|New Technology Aircraft Blueprint|size=40px}}
 
+* '''[[Prototype Keiun]]''' {{Equipment/Card|Prototype Keiun (Carrier-based Reconnaissance Model)|size=40px}}
 
-===Kikka Kai===
+==Kikka Kai==
+{{Equipment/Card|Kikka Kai|small=true}}
 
-The Kikka Kai is obtainable by completing the following quest chain. The total resources required are:  
+The Kikka Kai is obtainable one by completing the following quest chain, and can be obtained up to 1 per year via the yearly quest By10. 
 
-
+The total resources required to complete the quest chain are:  
 * 18,500 Steel {{Steel}}
 * 4,000 Bauxite {{Bauxite}}
-* 1x Ne-type Engine
-* 2x New Aircraft Blueprint
+* 1x Ne-type Engine (obtained during the quest chain)
+* 2x New Aircraft Blueprint (obtained during the quest chain)
 * 3x [[Shiden Kai 2]] 
 * 2x [[Prototype Reppuu Late Model]]
 * 2x [[Ryuusei]]
 
 Completing this quest chain gives you an extra Ne-type Engine for upgrading the Keiun.
 
-{{QuestsHeader}}
-{{Quests
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = Expedition
 | listnum = D20
+| reqQuest = D2
+| reqQuest2 = D6
 | namejp = 潜水艦派遣作戦による航空機技術入手
-| nameen = Obtain Airplane Technology from Submarine Dispatch Operation
-| req = Send a Submarine Fleet of 4 subs or more to [[Expedition|Expedition 30]] and [[Expedition|Expedition 31]] and successfully complete them. 
+| nameen = Obtain Airplane Technology from Submarine Dispatch Operation 
+| req = Deploy a Submarine Dispatch Operation to obtain new Plane Technology!
+*Send a Submarine Fleet of 4 subs or more to [[Expedition|Expedition 30]] and [[Expedition|Expedition 31]] successfully complete them. 
+* Note: Display may change depending on which quest is completed first if Expedition 30 is complete it'll display as 50% complete. If Expedition 31 is completed first, it'll display at 80% complete. Either way, both expeditions need to be completed.
 | fuel = 0
 | ammo = 100
 | steel = 0
 | bauxite = 100
-| other = x1 New Aircraft Blueprint
-| notes = 
-| once  = true
+| other = {{QuestRewardItem|New Technology Aircraft Blueprint}} 
+| notes = Quest must be activated before Expedition Fleet's return to be considered complete.
 }}
-{{Quests
+{{ProtoQuests
 | type = Expedition
 | listnum = D21
+| reqQuest = B88
+| reqQuest2 = D20
 | namejp = 潜水艦派遣作戦による噴式技術の入手
 | nameen = Obtain Jet Engine Technology from Submarine Dispatch Operation
-| req = Send a Submarine Fleet of 4 subs or more to [[Expedition|Expedition 30]] and [[Expedition|Expedition 31]] and successfully complete them. 
+| req = Prepare 5000 steel and 1500 bauxite to bring in the new Jet Engine Technology through a Submarine Dispatch Operation. (Resources will be consumed upon completion of quest)
+*Send a Submarine Fleet of 4 subs or more to [[Expedition|Expedition 30]] and [[Expedition|Expedition 31]] successfully complete them. 
 | fuel = 100
 | ammo = 0
 | steel = 0
 | bauxite = 100
-| other = x1 Ne-Type Engine
-| notes = 5000 steel and 1500 Bauxite will be consumed upon completion of the quest
-| once  = true
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardItem|Ne Type Engine}} 
+| notes = Quest must be activated before Expedition Fleet's return to be considered complete.<br/>5000 steel and 1500 Bauxite will be consumed upon completion of the quest
 }}
-{{Quests
+{{ProtoQuests
 | type = Factory
 | listnum = F46
+| reqQuest = F45
+| reqQuest2 = C3
 | namejp = 噴式戦闘爆撃機の開発
 | nameen = Develop the Jet Fighter-Bomber
-| req =  Scrap 3 [[Shiden Kai 2]] and have 2 New Aircraft Blueprint and 1 Ne-Type Engine in your inventory upon activating the quest.
+| req = To Produce the new type Fighter-Bomber with the built in [[Ne Type Engine]]s, dispose 3 [[Shiden Kai 2]] in the factory and prepare 2 [[New Technology Aircraft Blueprint]] and 1 [[Ne Type Engine]]. (Upon completion, previously noted items will be consumed upon completion of quest)
+*Scrap 3 [[Shiden Kai 2]] and have 2 [[New Technology Aircraft Blueprint]] and 1 [[Ne Type Engine]] in your inventory upon activating the quest.
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 100
-| other = x1 [[Kikka Kai]]
-| notes = One Ne-Type Engine and two New Aircraft Blueprint will be consumed upon completion of quest
-| once  = true
+| other = {{QuestRewardItem|Development Material|qty=2}} {{QuestRewardEquip|Kikka Kai}}
+| notes = One [[Ne Type Engine]] and two [[New Technology Aircraft Blueprint]] will be consumed upon completion of quest
 }}
-{{Quests
+{{ProtoQuests
 | type = Factory
 | listnum = F47
+| reqQuest = D21
+| reqQuest2 = 
 | namejp = ネ式エンジンの増産
-| nameen = Increase Production of Ne-Type Engine
-| req = *Scrap 3 [[Type 52 Zero Fighter]] and have two [[Reppuu]], two [[Ryuusei]] and 8,000 steel in your inventory while the quest is activated. 
+| nameen = Increased Production of Ne Type Engine
+| req = To prepare to increase the production of engines for the jet aircraft, dispose 3 [[Type 52 Zero Fighter]] in the factory, prepare 2 [[Reppuu]] and [[Ryuusei]] each and 8,000 steel. (Upon completion of quest, the equipment and resources needed will be comsumed.)
+*Scrap 3 [[Type 52 Zero Fighter]] and have two [[Reppuu]], two [[Ryuusei]] and 8,000 steel in your inventory while the quest is activated. 
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 0
-| other = x1 Ne-Type Engine
+| other = {{QuestRewardItem|Ne Type Engine}}
 | notes = Two [[Reppuu]], two [[Ryuusei]] and 8,000 steel will be consumed from your inventory upon completion of quest
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Modernization
 | listnum = G5
+| reqQuest = B87
+| reqQuest2 = G3
 | namejp = 航空艤装の近代化改修
 | nameen = Modernization Improvement of Flight Rigging
-| req = Modernize a Standard Carriers using a total of 5 CVL/CV for each modernization two times while the quest is activated.
+| req = Prepare 5,500 Steel and 2,500 Bauxite and make modernization improvement to a Standard Carrier twice using x 5 Aircraft Carrier Ships. (Resources will be consumed upon the completion of quest.)
+*Modernize a Standard Carriers using a total of 5 CVL/CV for each modernization twice while the quest is activated.
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 0
-| other = x1 New Aircraft Blueprint
-| notes = 5,500 steel and 2,500 Bauxite will be consumed upom completion of quest. 
-| once  = true
+| other = {{QuestRewardItem|New Technology Aircraft Blueprint}} 
+| notes = 5,500 steel and 2,500 Bauxite will be consumed upon completion of quest. 
 }}
-|}
-
-It is possible to obtain up to one additional Kikka per year with By10 : 
-{{QuestsHeader}}
-{{Quests
+{{ProtoQuests
 | type = Sortie
 | listnum = By10
 | reqQuest = By9
@@ -168,47 +193,36 @@ It is possible to obtain up to one additional Kikka per year with By10 :
 | ammo =1300
 | steel = 0
 | bauxite = 1300
-| other = '''+600 Ranking Points'''<br>'''Choose between:'''<br/>{{QuestRewardItem|Skilled Crew Member|qty=5}}{{QuestRewardItem|Prototype Flight Deck Catapult}}{{QuestRewardEquip|Kikka Kai}}
+| other = {{QuestRewardItem|Ranking Point Reward|qty=600}}<br>'''Choose between:'''<br/>{{QuestRewardItem|Skilled Crew Member|qty=5}}{{QuestRewardItem|Prototype Flight Deck Catapult}}{{QuestRewardEquip|Kikka Kai}}
 | notes = Yearly Quest (June)
 }}
 |}
 
-===Jet Keiun Kai===
+==Jet Keiun Kai==
+{{Equipment/Card|Jet Keiun Kai|small=true}}
 
+The [[Jet Keiun Kai]] is obtainable by upgrading a [[Prototype Keiun]] via [[Akashi's Improvement Arsenal]].
 
-The Jet Keiun Kai is obtainable by following the steps below. The total resources required are:  
+Up to '''two''' Prototype Keiun can be obtained via quests, and some have also been given as [[ranking]] rewards.
 
-
-* 2,500 Fuel {{Fuel}}
-* 1,000 Ammo {{Ammo}}
-* 7,000 Steel {{Steel}}
-* 6,500 Bauxite {{Bauxite}}
-* 89 Improvement Materials
-* 138 Development Materials
-* 1x Ne-type Engine
-* 2x [[Type 0 Recon Seaplane]]
-* 1x [[Type 1 Land Attacker]]
-* 2x [[Saiun]]
-* 4x [[Prototype Reppuu Late Model]]
-* 6x [[Ryuusei]]
-
-
-{{QuestsHeader}}
-{{Quests
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = Factory
 | listnum = F45
+| reqQuest = F43
+| reqQuest2 = A62
 | namejp = 新機軸偵察機の開発
 | nameen = Develop the New Reconnaissance Plane
-| req = Scrap 2 [[Type 0 Recon Seaplane]] and have 1 [[Type 1 Land Attacker]] and 2 [[Saiun]] in your equipment inventory upon activating the quest.
+| req = To produce the New Reconnaissance Plane, dispose 2 [[Type 0 Recon Seaplane]] in the factory and prepare one [[Type 1 Land Attacker]] and two [[Saiun]]! (Required Equipment will be consumed upon completion of quest)
+*Scrap 2 [[Type 0 Recon Seaplane]] and have 1 [[Type 1 Land Attacker]] and 2 [[Saiun]] in your equipment inventory upon activating the quest.
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 100
-| other = x1 [[Prototype Keiun]] <br> x2 Development Materials
+| other = {{QuestRewardEquip|Prototype Keiun (Carrier-based Reconnaissance Model)}} {{QuestRewardItem|Development Material|qty=2}}
 | notes = one [[Type 1 Land Attacker]] and two [[Saiun]] will be consumed upon completion of quest
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
 | listnum = B143
 | reqQuest =
@@ -227,14 +241,33 @@ The Jet Keiun Kai is obtainable by following the steps below. The total resource
 }}
 |}
 
-From there, once you have a [[Prototype Keiun]], you can begin to upgrade it through [[Akashi's Improvement Arsenal]] using the following:
+From there, once you have the [[Prototype Keiun]], you can begin to upgrade it through [[Akashi's Improvement Arsenal]] :
 
-'''250''' {{fuel}} '''100''' {{Ammo}} '''700''' {{steel}} '''650''' {{Bauxite}} '''per upgrade'''<br>
-''8/10 Development Materials'' , 6/8 Improvement Materials and a [[Ryuusei]] form 1-6★<br>
-'''10/15 Development Materials''' , '''7/10 Improvement Materials''' and a [[Reppuu]] form 7-10★<br>
-'''20/30 Development Materials''' , '''10/13 Improvement Materials''' and a '''Ne-Type Engine''' to upgrade to a [[Jet Keiun Kai]].
-
-'''{{color|red|※ For the last upgrade, toggle "Guarantee Improvement" or you might lose a Ne-Type Engine forever!}}'''.
+{{AkashiWorkshop}}
+{{AkashiWorkshopLine
+|Name=Prototype Keiun
+|ItemType=YellowPlane
+|Fuel=250
+|Ammo=100
+|Steel=700
+|Baux=650
+|Mats0-5=8/10
+|Mats6-9=10/15
+|Mats10=20/30
+|Screws0-5=6/8
+|Screws6-9=7/10
+|Screws10=10/13
+|EquipConsume0-5=1x{{BluePlane|Ryuusei}}
+|EquipConsume6-9=1x{{GreenPlane|Prototype Reppuu Late Model}}
+|EquipConsume10=1x{{Item/Icon|Ne Type Engine|size=40px}}
+|Sun=&nbsp;<br>Z
+|Mon=&nbsp;<br>Z
+|Tue=S<br>Z
+|Wed=S<br>&nbsp;
+|2ndShip=[[Shoukaku#Fourth Upgrade|Shoukaku Kai Ni A]]<br>[[Zuikaku#Fourth Upgrade|Zuikaku Kai Ni A]]
+|Notes=Upgrades to [[Jet Keiun Kai]]
+}}
+|}
 
 ==See Also==
 {{Mechanics}}

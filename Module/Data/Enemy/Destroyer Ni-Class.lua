@@ -37,7 +37,7 @@ return {
 		_japanese_name = "駆逐ニ級elite",
 		_reading = "くちくニきゅうエリート",
 		_type = 2,
-		_hp = 45,
+		_hp = 40,
 		_firepower = 20,
 		_armor = 18,
 		_torpedo = 40,

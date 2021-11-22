@@ -102,14 +102,15 @@ Battle of the Surigao Strait was conducted on the night of '''October 24th, 1944
 
 ==Event Quests==
 <!-- Quests appear after beating E1(?) -->
-{{QuestsHeader}}
-{{Quests
+===Limited Time Quests===
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = Composition
 | listnum = Le1A1
 | reqQuest = 
 | reqQuest2 = 
 | reqQuest3 = 
-| namejp = 「西村艦隊」完全編成、出撃準備！	
+| namejp = 「西村艦隊」完全編成、出撃準備！
 | nameen = Sortie preparations for the complete Nishimura Fleet!
 | req = 1st Striking Force mission: Organise the entire Force C of the 1st Striking Force! Assign Fusou, Yamashiro, Mogami, Michishio, Asagumo, Yamagumo and Shigure to the 3rd fleet and form the Nishimura Fleet! <br>
 *Organize a fleet consisting of [[Fusou]], [[Yamashiro]], [[Mogami]], [[ Michishio]], [[Asagumo]], [[Yamagumo]], and [[Shigure]] in the '''3rd fleet'''.
@@ -117,16 +118,15 @@ Battle of the Surigao Strait was conducted on the night of '''October 24th, 1944
 | ammo = 300
 | steel = 0
 | bauxite = 0
-| other = Reinforcement Expansion x1 <br>'''Choice Between''' <br> [[Skilled Lookouts]] x1 <br> '''or''' <br> Furniture Fairy x1 <br> '''or'''<br> [[Battle Rations]] x3 
+| other = {{QuestRewardItem|Reinforcement Expansion}}<br/>'''Choose between:'''<br/>{{QuestRewardEquip|Skilled Lookouts}} {{QuestRewardItem|Furniture Fairy}} {{QuestRewardEquip|Combat Ration|qty=3}}
 | notes = 
-| once  = True
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
 | listnum = Le1B1
 | reqQuest = 
 | reqQuest2 = 
-| reqQuest3 =
+| reqQuest3 = 
 | namejp = 「捷一号作戦」兵站補給線を確保せよ！
 | nameen = Secure the Supply Line for "Operation Shou-gou 1"
 | req = Back-end support for Operation Shou-gou: Form an effective fleet and set out to E-2, defeat the enemy attempting to attack our supply line multiple times, and secure superiority in the area. <br>
@@ -135,27 +135,28 @@ Battle of the Surigao Strait was conducted on the night of '''October 24th, 1944
 | ammo = 1500
 | steel = 0
 | bauxite = 0
-| other = Mamiya x1 <br> '''Choice Between''' <br> [[Type 13 Air RADAR]] x2 <br> '''or''' <br> [[Type 22 Surface RADAR]] x2 <br> '''or''' <br> Action Report x1
+| other = {{QuestRewardItem|Food Supply Ship Mamiya}}<br/>'''Choose between:'''<br/>{{QuestRewardEquip|Type 13 Air Radar|qty=2}} {{QuestRewardEquip|Type 22 Surface Radar|qty=2}} {{QuestRewardItem|Action Report}}
 | notes = 
-| once  = true
 }}
-{{Quests
+|}
+===Permanent Quests===
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = Factory
-| listnum = Le1F1
+| listnum = F64
 | reqQuest = 
 | reqQuest2 = 
 | reqQuest3 =
 | namejp = 「遊撃部隊」艦隊司令部の創設
 | nameen = Organize of the Striking Force Fleet Command Facility
-| req =  Striking Force Mission: We are aiming to develop the "Strike Force Fleet Command Facility". Equip the "Fleet Command Facility" on the first slot of the secretary ship; scrap any 3 radars; prepare 10 development materials, 2000 steel and 2 Action Reports!<br>
-*Equip a [[Fleet Command Facility]] onto the Secretary ship and scrap 3 Radars, and have 10 Development Materials, 2000 steel and 2 Action Reports
+| req =  Striking Force Mission: We are aiming to develop the "Strike Force Fleet Command Facility". Equip the "Fleet Command Facility" on the first slot of the secretary ship; scrap any 3 radars; prepare 10 Development Material, 2000 steel and 2 Action Reports!<br/>
+*Equip a [[Fleet Command Facility]] onto the Secretary ship and scrap 3 Radars, and have 10 Development Material, 2000 steel and 2 Action Reports
 | fuel = 0
 | ammo = 300
 | steel = 0
 | bauxite = 0
-| other = [[Striking Force Fleet Command Facility]] x1
+| other = {{QuestRewardEquip|Striking Force Fleet Command Facility}}
 | notes = Required items will be consumed upon completion of quest and [[Fleet Command Facility]] will become the [[Striking Force Fleet Command Facility]]
-| once  = true
 }}
 |}
 

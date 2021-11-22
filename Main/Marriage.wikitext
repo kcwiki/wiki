@@ -3,18 +3,6 @@
 [[File:Marriage.jpg|thumb|300px|Marriage Ceremony]]
 '''Marriage (ケッコンカッコカリ, lit. Provisional Marriage)''' was introduced with the [[Game_Updates/2014/February_14th|14th February 2014 Update]]. This mechanic allows you to marry ship girls to increase their abilities.
 
-
-
-
-
-
-
-
-
-
-
-
-
 =Overview=
 
 To marry a ship girl, the following requirements need to be fulfilled:
@@ -61,8 +49,8 @@ To marry a ship girl, the following requirements need to be fulfilled:
 | Destroyer
 | [[Destroyers|All Base Remodels]]{{·}}[[:Category:Kamikaze Class|Kamikaze-class Kai]]{{·}}[[:Category:Mutsuki Class|Mutsuki-class Kai/Kai Ni]]
 |-
-| Destroyer Escort
-| [[Destroyer Escorts|All Remodels]]
+| Coastal Defense Ship
+| [[Coastal Defense Ship|All Remodels]]
 |-
 | Light Cruiser
 | [[Light Cruiser|All Base Remodels]]<ref>Except Yuubari and Agano-class.</ref>
@@ -94,7 +82,7 @@ To marry a ship girl, the following requirements need to be fulfilled:
 | [[:Category:Mogami Class|Mogami-class Base]]{{·}}[[:Category:Furutaka Class|Furutaka-class Kai]]{{·}}[[:Category:Aoba Class|Aoba-class Kai]]
 |-
 | Battleship
-| [[Category:Vittorio Veneto Class|Vittorio Veneto-class Kai]]
+| [[:Category:Vittorio Veneto Class|Vittorio Veneto-class Kai]]
 |-
 | Light Carrier
 | [[Light Carrier|All Kai Remodels]]<ref>Except Hiyou-class.</ref>
@@ -158,28 +146,26 @@ To marry a ship girl, the following requirements need to be fulfilled:
 # Click on her level indicator to bring up the marriage menu.[[File:Signing_Confirmation.jpg|thumb|230px|Confirmation dialog. Click the left button to confirm.]]
 # Click on the '''Sign the Document (書類一式にサインする)''' button to confirm.
 #* The cinematic may take a while to load so please be patient.
-[[File:Couple_Futon.jpg|thumb|230px|Couple Futon furniture (bottom left).]]
 
 =Marriage Quests=
-{{QuestsHeader}}
-{{Quests
+[[File:Couple_Futon.jpg|thumb|230px|Couple Futon furniture (bottom left).]]
+{{ProtoQuestsHeader}}
+{{ProtoQuests
 | type = Factory
 | listnum = WF01
 | reqQuest = A16
-| page = Quests
 | namejp = 式の準備！(その壱)
 | nameen = Prepare for the Ceremony! (Part 1)
 | req = ''Prepare for the ceremony! Scrap equipment twice at the factory for the preparation!''
-*Completion Condition: Scrap equipment 2 times.
+*Completion Condition: Scrap equipment twice.
 | fuel = 88
 | ammo = 88
 | steel = 0
 | bauxite = 0
-| other = Development material x1
+| other = {{QuestRewardItem|Development Material}}
 | notes = 
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = PVP
 | listnum = WC01
 | reqQuest = WF01
@@ -191,11 +177,10 @@ To marry a ship girl, the following requirements need to be fulfilled:
 | ammo = 0
 | steel = 88
 | bauxite = 88
-| other = Development material x1
+| other = {{QuestRewardItem|Development Material}}
 | notes = 
-| once  = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Composition
 | listnum = WA01
 | reqQuest = WC01
@@ -207,27 +192,25 @@ To marry a ship girl, the following requirements need to be fulfilled:
 | ammo = 88
 | steel = 88
 | bauxite = 88
-| other = Furniture box (big) x1
+| other = {{QuestRewardItem|Furniture Box (Large)}}
 | notes = 
-| once = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
 | listnum = WB01
 | reqQuest = WA01
 | namejp = 式の準備！(最終)
 | nameen = Prepare for the Ceremony! (Final)
 | req = ''Sortie with a highly experienced First Fleet Flagship, and gain victory in the dawn horizon of the Orel Sea!''
-*Completion Condition: Obtain S-rank victory at the boss node of [[World 2#2-3|World 2-3]] with a ship between Lv90 and 99 as the first fleet flagship.
+*Completion Condition: Obtain S-rank victory at the boss node of [[2-3]] with a ship between Lv90 and 99 as the first fleet flagship.
 | fuel = 0
 | ammo = 0
 | steel = 0
 | bauxite = 0
-| other = [[Shop#Special_Corner|Marriage Ring and Documents]] x1
+| other = {{QuestRewardItem|Marriage Ring and Documents}}
 | notes = 
-| once = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Composition
 | listnum = WA02
 | reqQuest = WB01
@@ -239,25 +222,23 @@ To marry a ship girl, the following requirements need to be fulfilled:
 | ammo = 200
 | steel = 200
 | bauxite = 200
-| other = [[Repair Team]] x1
+| other = {{QuestRewardItem|Emergency Repair Personnel}}
 | notes = 
-| once = true
 }}
-{{Quests
+{{ProtoQuests
 | type = Sortie
 | listnum = WB02
 | reqQuest = WA02
 | namejp = 二人でする初めての任務！
 | nameen = First Mission We Do Together!
 | req = ''Sortie with the First Fleet led by a ship girl that you've strengthened the bond with to Ri Lanka Island and eliminate the enemy core!''
-*Completion Condition: Obtain S-rank victory at the boss node of [[World 4#4-3|World 4-3]] with the First Fleet with a level 100+ flagship.
+*Completion Condition: Obtain S-rank victory at the boss node of [[4-3]] with the First Fleet with a level 100+ flagship.
 | fuel = 300
 | ammo = 300
 | steel = 300
 | bauxite = 300
-| other = [[:wikipedia:Futon|Futon]] [[Furniture]]
-| notes = Required by [[Quests#A40|A40]].
-| once = true
+| other = {{QuestRewardFurniture|183}}
+| notes = Required by [[#A40|A40]].
 }}
 |}
 
